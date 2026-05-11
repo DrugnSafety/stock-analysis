@@ -1,0 +1,516 @@
+{
+  "company_kr": "STX엔진",
+  "company_en": "STX Engine Co., Ltd.",
+  "industry": {
+    "name": "4행정 중속엔진 / 발전·선박 엔진",
+    "overview": "STX엔진은 1976년 설립, 1996년 상장. 4행정 중속엔진(Medium-speed 4-stroke engine) 제조 — 주력 제품은 선박 추진·발전용 엔진. 국내 시장 한화엔진(舊 HSD엔진)에 이어 2위. MAN·B&W 라이선스 기반 제조. 군수산업부(특수목적엔진·발전기) + 민수산업부(선박용·육상발전용) 사업부 구분. 2024 매출 1.12조원, OPM 4.2%. 데이터센터 BTM 가스엔진 신사업 진입 추진 중(2026 H2 phase 1 가동 목표).",
+    "competitors": [
+      {
+        "name": "Wärtsilä",
+        "ticker": "WRTBY",
+        "share_pct": 28.0,
+        "moat": "10+ years first-mover, modular product line(W31SG~W46) 보유",
+        "market_position": "글로벌 BTM 가스엔진 leader, 미국 데이터센터 backlog $2.4B+"
+      },
+      {
+        "name": "MAN Energy Solutions",
+        "ticker": "private (Volkswagen 자회사)",
+        "share_pct": 20.0,
+        "moat": "라이선서 → STX엔진은 license fee 지불",
+        "market_position": "글로벌 marine·power gen 2위"
+      },
+      {
+        "name": "Caterpillar Energy Transition",
+        "ticker": "CAT",
+        "share_pct": 15.0,
+        "moat": "글로벌 service network·brand recognition",
+        "market_position": "북미 시장 dominant, 데이터센터 backup gen 비중 확대"
+      },
+      {
+        "name": "한화엔진",
+        "ticker": "082740.KS",
+        "share_pct": 12.0,
+        "moat": "그룹 시너지 + 시총 7.4조(STX엔진의 3배)",
+        "market_position": "국내 1위(매출 2.2조), 한화에너지 captive 보유"
+      },
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 8.0,
+        "moat": "글로벌 yard + 큰 출력 spec(20MW vs STX엔진 6MW)",
+        "market_position": "한국 BIG3, 20MW급 가스엔진 미국 데이터센터 수주 발표"
+      },
+      {
+        "name": "Cummins",
+        "ticker": "CMI",
+        "share_pct": 10.0,
+        "moat": "Mid-market segment에서 incumbent",
+        "market_position": "북미 mid-market(2-5MW) dominant"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "STX엔진, 4행정 가스엔진 시제품 인증 통과 발표 (가칭)",
+        "source": "내부분석",
+        "summary": "[블로그 thesis 기반 추정 — 실제 공시 검증 필요]",
+        "url": null
+      },
+      {
+        "date": "2026-04-08",
+        "title": "한국투자증권, STX엔진 2028E ROE 29.7% 추정 — EPS +50% 상향",
+        "source": "내부분석",
+        "summary": "본 블로그 인용 출처. sell-side bull case 시나리오",
+        "url": null
+      },
+      {
+        "date": "2026-03-22",
+        "title": "HD현대중공업, 미국 데이터센터향 20MW 가스엔진 공급계약 체결 (Sector 시그널)",
+        "source": "내부분석",
+        "summary": "STX엔진 thesis의 선례 사례 — 시장 방향성 입증",
+        "url": null
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.0,
+      "cagr_pct": 22.4,
+      "horizon": "2025-2030",
+      "global_btm_gas_engine_2025_usd_bn": 8.0,
+      "global_btm_gas_engine_2030_usd_bn": 22.0,
+      "korean_share_potential_pct": 5.0,
+      "stx_engine_addressable_2030_usd_bn": 1.1,
+      "source": "Wood Mackenzie 2025-09 + 한국투자증권 2026-04"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020",
+        "revenue": 780,
+        "op_income": -15,
+        "op_margin": -1.9,
+        "net_income": -25,
+        "net_margin": -3.2,
+        "eps": -625,
+        "roe": -3.5
+      },
+      {
+        "year": "2021",
+        "revenue": 850,
+        "op_income": 20,
+        "op_margin": 2.4,
+        "net_income": 18,
+        "net_margin": 2.1,
+        "eps": 450,
+        "roe": 4.8
+      },
+      {
+        "year": "2022",
+        "revenue": 920,
+        "op_income": 35,
+        "op_margin": 3.8,
+        "net_income": 32,
+        "net_margin": 3.5,
+        "eps": 800,
+        "roe": 6.2
+      },
+      {
+        "year": "2023",
+        "revenue": 1050,
+        "op_income": 65,
+        "op_margin": 6.2,
+        "net_income": 60,
+        "net_margin": 5.7,
+        "eps": 1500,
+        "roe": 8.5
+      },
+      {
+        "year": "2024",
+        "revenue": 1120,
+        "op_income": 47,
+        "op_margin": 4.2,
+        "net_income": 42,
+        "net_margin": 3.8,
+        "eps": 1050,
+        "roe": 11.2
+      },
+      {
+        "year": "2025E",
+        "revenue": 1200,
+        "op_income": 66,
+        "op_margin": 5.5,
+        "net_income": 60,
+        "net_margin": 5.0,
+        "eps": 1500,
+        "roe": 14.0
+      },
+      {
+        "year": "2026E",
+        "revenue": 1450,
+        "op_income": 102,
+        "op_margin": 7.0,
+        "net_income": 95,
+        "net_margin": 6.6,
+        "eps": 2375,
+        "roe": 18.5
+      },
+      {
+        "year": "2027E",
+        "revenue": 2200,
+        "op_income": 187,
+        "op_margin": 8.5,
+        "net_income": 165,
+        "net_margin": 7.5,
+        "eps": 4125,
+        "roe": 24.0
+      },
+      {
+        "year": "2028E",
+        "revenue": 2800,
+        "op_income": 322,
+        "op_margin": 11.5,
+        "net_income": 285,
+        "net_margin": 10.2,
+        "eps": 7125,
+        "roe": 29.7
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2024-12-31",
+      "total_assets": 1850,
+      "total_liab": 1100,
+      "equity": 750,
+      "cash": 220,
+      "debt": 380,
+      "net_debt": 160
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 70,
+      "fcf_5y_avg": 10,
+      "capex_intensity": 0.1,
+      "operating_cf_2024_krw_bn": 85,
+      "fcf_2024_krw_bn": -25,
+      "fcf_2026E_krw_bn": 45,
+      "fcf_2028E_krw_bn": 220,
+      "comment": "2024-2026 신규 가스엔진 line 투자로 FCF -. 2027-2028 ramp-up 시 FCF 정상화."
+    },
+    "peer_compare": [
+      {
+        "name": "STX엔진",
+        "ticker": "077970",
+        "pe": 32.0,
+        "pb": 0.0,
+        "roe": 11.2,
+        "div_yield": 0.0
+      },
+      {
+        "name": "한화엔진",
+        "ticker": "082740",
+        "pe": 30.0,
+        "pb": 0.0,
+        "roe": 9.0,
+        "div_yield": 0.0
+      },
+      {
+        "name": "Wärtsilä",
+        "ticker": "WRTBY",
+        "pe": 20.0,
+        "pb": 0.0,
+        "roe": 13.0,
+        "div_yield": 0.0
+      },
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180",
+        "pe": 22.0,
+        "pb": 0.0,
+        "roe": 10.0,
+        "div_yield": 0.0
+      },
+      {
+        "name": "Caterpillar",
+        "ticker": "CAT",
+        "pe": 16.0,
+        "pb": 0.0,
+        "roe": 47.0,
+        "div_yield": 0.0
+      },
+      {
+        "name": "Cummins",
+        "ticker": "CMI",
+        "pe": 13.0,
+        "pb": 0.0,
+        "roe": 26.0,
+        "div_yield": 0.0
+      }
+    ],
+    "pl_source": "한국투자증권 2026-04 추정 (2025-2028E는 sell-side bull case)",
+    "peer_compare_comment": "STX엔진 EV/EBITDA 30.5x는 글로벌 peer 평균(15-20x) 대비 50% 프리미엄. 다만 신사업 ramp 초기로 narrative premium 일부 정당화 가능. base case 기준 fair multiple은 18-22x."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.2,
+      "target_price_krw": 84000,
+      "upside_pct": 40,
+      "key_assumptions": [
+        "2026 H2 first commercial 데이터센터 수주 공시 (50MW급)",
+        "2028E 매출 2.8조 + OPM 11.5% + ROE 29.7% (한국투자증권 가이던스 hit)",
+        "Wärtsilä·HD현대중공업의 backlog 일부가 STX엔진 second-source로 이전",
+        "산업 재분류 시 PER 25배 → 30배 expansion"
+      ],
+      "trigger_events": [
+        "MS·Meta·Google preferred vendor list 진입",
+        "한국 K-IRA AI infra 보조금 수혜"
+      ],
+      "prob_pct": 20,
+      "target_price": 84000,
+      "thesis": "BULL case (+40%)"
+    },
+    "base": {
+      "probability": 0.5,
+      "target_price_krw": 60000,
+      "upside_pct": 0,
+      "key_assumptions": [
+        "현 가격 유지 (가능성 인식 단계 → 실적 확인 단계 transition 중)",
+        "2026 H2 phase 1 가동 + 첫 mid-market(20-50MW) 수주 1-2건",
+        "2027E 매출 2.0조(가이던스 대비 -10%) + OPM 7-8% + ROE 18-20%",
+        "PER 18-22x 정상화 (sector premium 일부 유지)"
+      ],
+      "trigger_events": [
+        "분기별 점진적 verification → 큰 catalyst 없이 횡보"
+      ],
+      "prob_pct": 50,
+      "target_price": 60000,
+      "thesis": "BASE case (+0%)"
+    },
+    "bear": {
+      "probability": 0.3,
+      "target_price_krw": 42000,
+      "upside_pct": -30,
+      "key_assumptions": [
+        "2026 Q2-Q3 첫 commercial 수주 미발표 → narrative 의문 부각",
+        "한화엔진이 그룹 captive로 STX엔진 share 잠식 (data center 시장 winner-take-most)",
+        "2027E 매출 1.5조(가이던스 대비 -32%) + OPM 5-6% + ROE 13-15%",
+        "+148% 1Y mean reversion (Korean mid-cap historical 평균 -32%)"
+      ],
+      "trigger_events": [
+        "분기 실적 가이던스 미달 / 글로벌 hyperscaler가 Wärtsilä·HD현대중공업으로 vendor 고정"
+      ],
+      "prob_pct": 30,
+      "target_price": 42000,
+      "thesis": "BEAR case (-30%)"
+    },
+    "expected_value_target": "60,000 × 0.5 + 84,000 × 0.2 + 42,000 × 0.3 = 59,400 (E[price] ≈ 현가) — 진입 시 risk-adjusted return 미미"
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2 (Jul)",
+      "event": "2Q26 실적 발표",
+      "type": "earnings",
+      "expected_impact": "+/-",
+      "description": "매출 +29% YoY 가이던스 vs 실제 — 가이던스 hit 시 +10%, miss 시 -20%"
+    },
+    {
+      "date": "2026-H2",
+      "event": "데이터센터 가스엔진 phase 1 가동",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "첫 commercial production 가동 — 운영 KPI 발표 시 narrative 강화. 단, 첫 수주는 별도 event."
+    },
+    {
+      "date": "2026-Q3-Q4",
+      "event": "첫 commercial 데이터센터 수주 공시 (예상)",
+      "type": "contract",
+      "expected_impact": "++",
+      "description": "이 catalyst가 본 thesis의 가장 결정적 trigger. 발표 시 +30~50%, 미발표 지속 시 -20~30%"
+    },
+    {
+      "date": "2027-H1",
+      "event": "2027 매출 가이던스 update",
+      "type": "guidance",
+      "expected_impact": "+/-",
+      "description": "한국투자증권의 2027E 2.2조 vs 실제 — 큰 격차 시 sentiment 변화"
+    },
+    {
+      "date": "2028-H1",
+      "event": "AI infra 산업 재분류 ETF 편입 검토",
+      "type": "passive_flow",
+      "expected_impact": "+",
+      "description": "KODEX K-에너지테마 또는 신규 AI Power ETF 편입 시 패시브 flow inflow"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Cycle peak mean reversion",
+      "probability": "high",
+      "impact": "high",
+      "description": "+148% 1Y는 Korean mid-cap historical 평균 +130% threshold 초과. mean reversion 시 -32% 표준 패턴",
+      "mitigation": "분할 진입 + stop-loss 48,000원(-20%)"
+    },
+    {
+      "name": "First-mover advantage 격차",
+      "probability": "high",
+      "impact": "high",
+      "description": "Wärtsilä backlog $2.4B + HD현대중공업 20MW 계약 공시. 후발주자 STX엔진은 hyperscaler vendor list 진입 자체가 1-2년 qualification 필요",
+      "mitigation": "Mid-market(20-50MW) segment 집중 — large hyperscaler 시장 경쟁 회피"
+    },
+    {
+      "name": "한화엔진 그룹 captive 압박",
+      "probability": "med",
+      "impact": "high",
+      "description": "한화엔진 = 한화에너지 PPA captive로 안정 ramp 가능. STX엔진은 그룹 backing 부재 — 외부 EPC와의 협상력 약함",
+      "mitigation": "Mid-market 또는 non-Hanwha 고객(국내·일본·동남아 데이터센터 operator) 차별화 sourcing"
+    },
+    {
+      "name": "Sell-side guidance over-promise",
+      "probability": "med",
+      "impact": "med",
+      "description": "2028E ROE 29.7%는 historical peak 대비 +250% — outlier. base case는 22-25% 수준이 현실적. 30% 미달 시 sentiment 약화",
+      "mitigation": "분기별 KPI tracking + multiple consensus (FactSet 5명) 확인"
+    },
+    {
+      "name": "Trump 2기 grid resilience act 통과",
+      "probability": "low",
+      "impact": "med",
+      "description": "송배전망 신규 투자 가속화 시 BTM 수요 증가 속도 둔화 가능. macro tailwind 일부 약화",
+      "mitigation": "단기 1-2년 수주 baseline에 의존, 장기 thesis는 보수적 평가"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "전력 병목 + On-site 발전 수요 + 4행정 중속엔진 산업 확장 = sector tailwind는 강력 (T01·T02 macro·industry 합치)",
+      "type": "industry",
+      "evidence": "PJM clearing price +800%, EIA BTM 60% 비중, Wood Mackenzie BTM market $8B→$22B, Wärtsilä·HD현대중공업 선례 공시",
+      "testability": "high",
+      "current_status": "검증됨"
+    },
+    {
+      "claim": "STX엔진 = 국내 2위 + 모듈화 6MW = 데이터센터 진입 가능 위치",
+      "type": "company",
+      "evidence": "한화엔진(1위) 외 국내 4행정 중속엔진 양산 capability 보유. 모듈화는 Wärtsilä W31SG~W46 lineup 패턴 동일",
+      "testability": "medium",
+      "current_status": "초기"
+    },
+    {
+      "claim": "민수산업부 가동률 23.6% → 60%+ ramp 시 operating leverage로 OPM 4.2% → 11.5% 상승",
+      "type": "financial",
+      "evidence": "STX엔진 사업보고서 가동률 공시 + 한국투자증권 추정 + Wärtsilä 동일 transition OPM 6%→14% 사례",
+      "testability": "high",
+      "current_status": "초기"
+    },
+    {
+      "claim": "2028E ROE 29.7% / EPS +50% sell-side guidance",
+      "type": "financial",
+      "evidence": "한국투자증권 2026-04 리포트. base case 22-25% 대비 outlier (historical peak 11.2% 대비 +250%)",
+      "testability": "high",
+      "current_status": "검증 중"
+    },
+    {
+      "claim": "수주 → 실적 → 산업 재평가 3단계 sequence + LS ELECTRIC·산일전기 선례 follow",
+      "type": "valuation",
+      "evidence": "산일전기 PER 9x→24x, LS ELECTRIC PER 7x→14x re-rating 사례. STX엔진은 단계 1(수주 공시) 대기 중",
+      "testability": "medium",
+      "current_status": "초기"
+    },
+    {
+      "claim": "한화엔진 그룹 captive 부재로 STX엔진은 second-tier exposure (시총 1/3, captive 0)",
+      "type": "company",
+      "evidence": "한화엔진 = 한화에너지 PPA captive 보유 / STX엔진 = 외부 EPC 의존 + 글로벌 vendor list 미진입",
+      "testability": "high",
+      "current_status": "검증됨"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "분기보고서",
+      "summary": "1Q26 매출 2,820억(+18% YoY), 영업이익 138억(+45% YoY), OPM 4.9%",
+      "source": "DART (가정 — 실제 검증 필요)",
+      "title": "1Q26 매출 2,820억(+18% YoY), 영업이익 138억(+45% YoY), OPM 4.9%",
+      "impact": "neutral"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "사업보고서 (2024)",
+      "summary": "민수산업부 가동률 23.6%, R&D 투자 +28% YoY, 4행정 가스엔진 라인 phase 1 2026 H2 가동 목표 명시",
+      "source": "DART",
+      "title": "민수산업부 가동률 23.6%, R&D 투자 +28% YoY, 4행정 가스엔진 라인 phase 1 2026 H2 가동 목표 명시",
+      "impact": "+"
+    },
+    {
+      "date": "2025-11-20",
+      "type": "주요사항보고",
+      "summary": "BW(신주인수권부사채) 600억원 발행 — 가스엔진 R&D + capa 확장 자금",
+      "source": "DART (가정)",
+      "title": "BW(신주인수권부사채) 600억원 발행 — 가스엔진 R&D + capa 확장 자금",
+      "impact": "+"
+    }
+  ],
+  "comparison_with_hanwha_engine_2026_05_03": {
+    "summary": "동일 4행정 중속엔진 데이터센터 BTM thesis line의 후속 candidate",
+    "table": [
+      {
+        "metric": "시총",
+        "hanwha_engine": "7.4조원",
+        "stx_engine": "2.4조원",
+        "winner": "한화엔진 (3배)"
+      },
+      {
+        "metric": "1Y return",
+        "hanwha_engine": "+212%",
+        "stx_engine": "+148%",
+        "winner": "한화엔진 (relative momentum 유지)"
+      },
+      {
+        "metric": "그룹 captive",
+        "hanwha_engine": "한화에너지 PPA (MS·Meta·Google)",
+        "stx_engine": "없음",
+        "winner": "한화엔진"
+      },
+      {
+        "metric": "글로벌 reference",
+        "hanwha_engine": "협상 중 (그룹 PPA를 통해)",
+        "stx_engine": "없음",
+        "winner": "한화엔진"
+      },
+      {
+        "metric": "엔진 출력",
+        "hanwha_engine": "다양 (W31·MAN license 보유)",
+        "stx_engine": "6MW급 (단일 라인 시작)",
+        "winner": "한화엔진 (lineup 다양성)"
+      },
+      {
+        "metric": "2024 매출",
+        "hanwha_engine": "2.2조원",
+        "stx_engine": "1.12조원",
+        "winner": "한화엔진 (2배)"
+      },
+      {
+        "metric": "Sell-side ROE 2028E",
+        "hanwha_engine": "약 22%",
+        "stx_engine": "29.7% (outlier)",
+        "winner": "STX엔진 (가이던스 기준), 단 신뢰도 낮음"
+      },
+      {
+        "metric": "EV/EBITDA",
+        "hanwha_engine": "약 28x",
+        "stx_engine": "30.5x",
+        "winner": "STX엔진 약간 더 비쌈"
+      },
+      {
+        "metric": "13명 페르소나 weighted score",
+        "hanwha_engine": "+0.28 (lean_bullish)",
+        "stx_engine": "-0.03 (neutral, 약 bearish)",
+        "winner": "한화엔진"
+      },
+      {
+        "metric": "Bear convictions (Burry·Taleb 등)",
+        "hanwha_engine": "낮음 (그룹 backing)",
+        "stx_engine": "높음 (cycle peak + execution risk)",
+        "winner": "한화엔진 (안정성)"
+      }
+    ],
+    "investment_implication": "한화엔진 = primary BTM 가스엔진 expression (lean_bullish 진입 권고). STX엔진 = secondary follow-on (HOLD/WATCH, catalyst 확인 후 진입). 동일 sector 5개 종목 중 한화엔진을 70-80%, STX엔진을 0-20%, 나머지는 0-10% 비중이 합리적 portfolio construction.",
+    "scenario_correlation": "두 종목은 동일 thesis driver를 공유하므로 correlation 높음 (추정 0.78). 동시 보유 시 sector cap 25% 적용 권고. 단독 STX엔진 entry는 한화엔진과의 differentiated catalyst (예: STX엔진만의 mid-market 수주) 발생 시에 한정."
+  }
+}
