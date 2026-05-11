@@ -1,0 +1,134 @@
+{
+  "computed_at": "2026-05-04T02:28:24",
+  "portfolio_value": 1400000000.0,
+  "base_limit_pct": 0.2,
+  "n_pairs": 5,
+  "limits": [
+    {
+      "ticker": "082740.KS",
+      "name": "한화엔진",
+      "as_of_date": "2026-05-03",
+      "current_price": 88200.0,
+      "portfolio_value": 1400000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.04207,
+        "annualized_volatility": 0.6678,
+        "volatility_percentile": 85.0,
+        "data_points": 252
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 154000000.0,
+      "remaining_position_limit_value": 154000000.0,
+      "max_quantity": 1746
+    },
+    {
+      "ticker": "329180.KS",
+      "name": "HD현대중공업",
+      "as_of_date": "2026-05-03",
+      "current_price": 695000.0,
+      "portfolio_value": 1400000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03361,
+        "annualized_volatility": 0.5335,
+        "volatility_percentile": 70.0,
+        "data_points": 252
+      },
+      "vol_multiplier": 0.7,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.15,
+      "position_limit_value": 210000000.0,
+      "remaining_position_limit_value": 210000000.0,
+      "max_quantity": 302
+    },
+    {
+      "ticker": "034020.KS",
+      "name": "두산에너빌리티",
+      "as_of_date": "2026-05-03",
+      "current_price": 126700.0,
+      "portfolio_value": 1400000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.04187,
+        "annualized_volatility": 0.6646,
+        "volatility_percentile": 85.0,
+        "data_points": 252
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 154000000.0,
+      "remaining_position_limit_value": 154000000.0,
+      "max_quantity": 1215
+    },
+    {
+      "ticker": "012450.KS",
+      "name": "한화에어로스페이스",
+      "as_of_date": "2026-05-03",
+      "current_price": 1462000.0,
+      "portfolio_value": 1400000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03664,
+        "annualized_volatility": 0.5817,
+        "volatility_percentile": 70.0,
+        "data_points": 252
+      },
+      "vol_multiplier": 0.7,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.15,
+      "position_limit_value": 210000000.0,
+      "remaining_position_limit_value": 210000000.0,
+      "max_quantity": 143
+    },
+    {
+      "ticker": "WRTBY",
+      "name": "Wärtsilä (ADR)",
+      "as_of_date": "2026-05-03",
+      "current_price": 8.5,
+      "portfolio_value": 1400000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03436,
+        "annualized_volatility": 0.5454,
+        "volatility_percentile": 70.0,
+        "data_points": 252
+      },
+      "vol_multiplier": 0.7,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.15,
+      "position_limit_value": 210000000.0,
+      "remaining_position_limit_value": 210000000.0,
+      "max_quantity": 24705882
+    }
+  ],
+  "notes": "한화엔진 vol 67%·1Y +212% extreme momentum → vol_multiplier 0.5 적용. 두산에너빌리티 vol 67%·1Y +364% 가장 높은 fragility — 동일 0.5. 한화에어로 vol 58%·HD현대 vol 53%로 상대적으로 낮음. 모든 종목 vol 50%+ → 통합 limit 11% 수준."
+}
