@@ -1,0 +1,190 @@
+{
+  "industry": {
+    "name": "한국 미용 의료기기·바이오 산업",
+    "overview": "한국 미용 의료시장은 2024년 8.5조원 → 2030년 15조원 (CAGR 12-15%). internal demand 정점 통과 + 글로벌 export 가속화 단계. 주요 카테고리: (1) 보툴리눔 톡신 [휴젤·메디톡스], (2) 필러 [휴메딕스], (3) 미용 의료기기 [클래시스], (4) 스킨부스터 1-4세대 [파마리서치 PN], (5) ECM (5세대) [엘앤씨바이오]. 메르의 글은 (5) ECM 카테고리의 임상 건너뛰기·사체 유래·규제 공백 risk를 지적 — 다른 카테고리는 imminent regulatory risk 낮음. K-미용 brand 글로벌 진출 가속화 단계 (미국 FDA + 중국 NMPA 승인 누적).",
+    "competitors": [
+      {
+        "name": "엘앤씨바이오",
+        "ticker": "290650.KQ",
+        "share_pct": 8.0,
+        "moat": "인체조직 license + ECM 전문 — 단, 규제 risk 직접 노출"
+      },
+      {
+        "name": "파마리서치",
+        "ticker": "214450.KQ",
+        "share_pct": 12.0,
+        "moat": "리쥬란 (PN) 글로벌 50개국 — 의료기기 분류, 임상 통과"
+      },
+      {
+        "name": "휴젤",
+        "ticker": "145020.KQ",
+        "share_pct": 18.0,
+        "moat": "보툴리눔 톡신 (Letybo) 미국 FDA 승인 + GS Capital backing"
+      },
+      {
+        "name": "메디톡스",
+        "ticker": "086900.KQ",
+        "share_pct": 14.0,
+        "moat": "Newtox FDA Phase 3 + 글로벌 50+개국 판매"
+      },
+      {
+        "name": "클래시스",
+        "ticker": "214150.KQ",
+        "share_pct": 10.0,
+        "moat": "슈링크 HIFU 글로벌 1만대+/년 export"
+      },
+      {
+        "name": "Allergan",
+        "ticker": "ABBV",
+        "share_pct": 25.0,
+        "moat": "Botox 글로벌 brand dominant — premium 가격"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-21",
+        "title": "메르 — 'ECM 스킨부스터, 임상 건너뛰기 + 사체 유래 회색지대 시장' 분석",
+        "source": "메르 블로그 (ranto28)",
+        "summary": "한국 ECM 카테고리의 규제·윤리 risk 지적. 4개 기업 직접 영향."
+      },
+      {
+        "date": "2026-04-08",
+        "title": "휴젤 Letybo 미국 매출 1Q26 +85% YoY — Allergan share gain 가속",
+        "source": "휴젤 IR",
+        "summary": "글로벌 보툴리눔 톡신 시장 share 진입 가속"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "식약처, ECM 카테고리 규제 검토 시작 — 인체조직법 vs 의료기기법 정리 시작",
+        "source": "식약처 발표",
+        "summary": "2026 H2 - 2027 H1 컨센서스 규제 정상화"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "메디톡스 Newtox FDA Phase 3 enrollment 완료 — 2027 commercial launch 가능",
+        "source": "메디톡스 IR",
+        "summary": "미국 시장 진출 임박"
+      },
+      {
+        "date": "2026-01-30",
+        "title": "파마리서치 1Q26 매출 +28% YoY — 리쥬란 글로벌 50개국 판매",
+        "source": "파마리서치 IR",
+        "summary": "PN 카테고리 글로벌 momentum"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 6.5,
+      "cagr_pct": 13.5,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 28000,
+      "thesis": "ECM 규제 정상화 시 license holder 우위 — leading player 등극. 화상·재건 medical 안정 + ECM 미용 카테고리 일부 유지.",
+      "key_assumptions": [
+        "식약처 '제도화' 방향 (전면 금지 X)",
+        "엘앤씨바이오 license premium",
+        "화상 재건 segment 매출 +15%"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 16000,
+      "thesis": "ECM 미용 segment 50% 감소, medical segment로 stabilize. 단기 derate 추가.",
+      "key_assumptions": [
+        "ECM 미용 매출 -50%",
+        "Medical segment 안정",
+        "PB 1.5-2.0x"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 9000,
+      "thesis": "ECM 미용 카테고리 wipe out + medical도 일부 영향. 자본잠식 risk.",
+      "key_assumptions": [
+        "미용 segment -90%",
+        "Medical -30%",
+        "PB 0.8-1.2x"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "식약처 ECM 카테고리 규제 검토 결과 발표",
+      "type": "regulatory",
+      "expected_impact": "?",
+      "description": "전면 제도화 vs 점진적 정리 — 결과에 따라 sector multiple 변화"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "휴젤 Letybo 미국 매출 가이던스 update",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "share gain 속도 confirm"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "메디톡스 Newtox FDA approval (예상)",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "미국 시장 entry"
+    }
+  ],
+  "risks": [
+    {
+      "name": "메르 thesis 확산 시 sector sentiment 약화",
+      "probability": "med",
+      "impact": "med",
+      "description": "sector multiple -10-15% derate 가능 (특히 ECM-exposed)",
+      "mitigation": "ECM 무관 종목 (휴젤·클래시스) 비중 확대"
+    },
+    {
+      "name": "식약처 ECM 규제 정상화 timing 지연",
+      "probability": "med",
+      "impact": "low",
+      "description": "uncertainty 기간 길어지면 sector valuation discount 지속",
+      "mitigation": "정기 식약처 정책 모니터"
+    },
+    {
+      "name": "K-미용 brand 글로벌 sentiment 영향",
+      "probability": "low",
+      "impact": "high",
+      "description": "ECM negative news가 international export brand image 손상",
+      "mitigation": "글로벌 communication 강화 + 카테고리 차별화"
+    },
+    {
+      "name": "ECM 카테고리 직접 노출 — 식약처 규제 정상화 시 사업 영향 큼",
+      "probability": "high",
+      "impact": "high",
+      "description": "엘앤씨바이오 ECM exposure: HIGH",
+      "mitigation": "Risk Manager 한도 strict + 분기 점검"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "ECM 카테고리 회색지대 시장 (메르 thesis)",
+      "type": "policy",
+      "evidence": "메르 본문 + 미국 FDA 비교",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "K-미용 sector internal 정점 + export 가속화",
+      "type": "industry",
+      "evidence": "휴젤 미국 +85%, 클래시스 1만대+/년",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "ECM 외 카테고리 imminent regulatory risk 낮음",
+      "type": "policy",
+      "evidence": "보툴리눔 톡신·필러·HIFU 분류 차별화",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": []
+}
