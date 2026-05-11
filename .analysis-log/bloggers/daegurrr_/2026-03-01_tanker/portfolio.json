@@ -1,0 +1,83 @@
+{
+  "computed_at": "2026-04-30T06:41:51.867824+09:00",
+  "start_cash": 1400000000.0,
+  "start_date": "2026-03-01",
+  "end_date": "2026-04-29",
+  "n_decisions": 3,
+  "total_trades": 3,
+  "total_buy_value": 322560465.26,
+  "total_sell_value": 0.0,
+  "final_cash": 1077439534.74,
+  "end_positions_value": 331402297.26,
+  "final_nav": 1408841832.0,
+  "total_return_pct": 0.632,
+  "final_positions": {
+    "028670.KS": {
+      "qty": 19966,
+      "avg_cost": 5280.0,
+      "last_price": 5550.0,
+      "market_value": 110811300.0,
+      "unrealized_pnl": 5390820.0,
+      "unrealized_return_pct": 5.11
+    },
+    "FRO": {
+      "qty": 2849913,
+      "avg_cost": 37.95,
+      "last_price": 36.28,
+      "market_value": 103394840.16,
+      "unrealized_pnl": -4759358.19,
+      "unrealized_return_pct": -4.4
+    },
+    "INSW": {
+      "qty": 1442947,
+      "avg_cost": 75.53,
+      "last_price": 81.22,
+      "market_value": 117196157.1,
+      "unrealized_pnl": 8210370.19,
+      "unrealized_return_pct": 7.53
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-03-01",
+      "ticker": "028670.KS",
+      "action": "buy",
+      "qty": 19966,
+      "price": 5280.0,
+      "cost": 105420480.0,
+      "cash_after": 1294579520.0
+    },
+    {
+      "date": "2026-03-01",
+      "ticker": "FRO",
+      "action": "buy",
+      "qty": 2849913,
+      "price": 37.95,
+      "cost": 108154198.35,
+      "cash_after": 1186425321.65
+    },
+    {
+      "date": "2026-03-01",
+      "ticker": "INSW",
+      "action": "buy",
+      "qty": 1442947,
+      "price": 75.53,
+      "cost": 108985786.91,
+      "cash_after": 1077439534.74
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 5791.91,
+      "end_price": 6641.02,
+      "return_pct": 14.66,
+      "alpha_pct": -14.029
+    },
+    "SPY": {
+      "start_price": 686.38,
+      "end_price": 711.58,
+      "return_pct": 3.671,
+      "alpha_pct": -3.04
+    }
+  }
+}
