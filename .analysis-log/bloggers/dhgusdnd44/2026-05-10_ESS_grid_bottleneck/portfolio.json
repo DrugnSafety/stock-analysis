@@ -1,0 +1,21 @@
+{
+  "portfolio_version": "v1.2",
+  "as_of": "2026-05-10",
+  "starting_value_usd": 100000,
+  "positions": [
+    {"ticker": "GEV", "shares": 3.85, "entry_price": 1040, "entry_value": 4000, "current_value": 4000, "weight_pct": 4.0},
+    {"ticker": "267260.KS", "shares": 1.07, "entry_price_local": 1403000, "entry_value_local_won": 1500000, "entry_value_usd": 1500, "current_value_usd": 1500, "weight_pct": 1.5, "fx": 1000, "note": "FX KRW/USD = 1000 가정"},
+    {"ticker": "NEE", "shares": 53.76, "entry_price": 93, "entry_value": 5000, "current_value": 5000, "weight_pct": 5.0},
+    {"ticker": "ENPH", "shares": 55.56, "entry_price": 36, "entry_value": 2000, "current_value": 2000, "weight_pct": 2.0}
+  ],
+  "skipped": [
+    {"ticker": "FLNC", "reason": "Forward PE 203 + +401% 1Y momentum overheating. 7/13 페르소나 lean_bearish."}
+  ],
+  "summary": {
+    "total_invested_usd": 12500,
+    "cash_usd": 87500,
+    "n_positions": 4,
+    "thematic_concentration_pct": 12.5,
+    "expected_thematic_return_1y": "thesis가 맞을 때 +25~40% / 정책 reversal 시 -25~35%"
+  }
+}
