@@ -1,0 +1,69 @@
+{
+  "decisions": [
+    {
+      "ticker": "290650.KQ",
+      "action": "sell_all",
+      "signal_score": -0.25,
+      "target_quantity": -7567,
+      "target_value": 140000000,
+      "position_limit_value": 140000000,
+      "primary_risks": [
+        "ECM 카테고리 직접 노출 — 식약처 규제 정상화 시 사업 영향 큼",
+        "변동성 30%+로 단기 -15% drawdown 가능",
+        "메르 thesis 확산 시 sentiment derate -10%"
+      ]
+    },
+    {
+      "ticker": "214450.KQ",
+      "action": "buy",
+      "signal_score": 0.28,
+      "target_quantity": 175,
+      "target_value": 35000000,
+      "position_limit_value": 210000000,
+      "primary_risks": [
+        "K-미용 sector multiple sentiment risk (-15% derate 가능)",
+        "K-미용 sector 일시 derate -10% 가능 (메르 글 영향)",
+        "글로벌 macro risk (Fed·중국 reopening 등)"
+      ]
+    },
+    {
+      "ticker": "145020.KQ",
+      "action": "buy",
+      "signal_score": 0.48,
+      "target_quantity": 175,
+      "target_value": 35000000,
+      "position_limit_value": 210000000,
+      "primary_risks": [
+        "GS Capital 대주주 변경 후 운영 변화 가능성",
+        "K-미용 sector 일시 derate -10% 가능 (메르 글 영향)",
+        "글로벌 macro risk (Fed·중국 reopening 등)"
+      ]
+    },
+    {
+      "ticker": "086900.KQ",
+      "action": "hold",
+      "signal_score": 0.2,
+      "target_quantity": 0,
+      "target_value": 0,
+      "position_limit_value": 210000000,
+      "primary_risks": [
+        "이전 균주 분쟁·소송 리스크 잔존",
+        "K-미용 sector 일시 derate -10% 가능 (메르 글 영향)",
+        "글로벌 macro risk (Fed·중국 reopening 등)"
+      ]
+    },
+    {
+      "ticker": "214150.KQ",
+      "action": "buy",
+      "signal_score": 0.4,
+      "target_quantity": 175,
+      "target_value": 35000000,
+      "position_limit_value": 210000000,
+      "primary_risks": [
+        "PB 6.85배 높은 valuation — multiple compression risk",
+        "K-미용 sector 일시 derate -10% 가능 (메르 글 영향)",
+        "글로벌 macro risk (Fed·중국 reopening 등)"
+      ]
+    }
+  ]
+}
