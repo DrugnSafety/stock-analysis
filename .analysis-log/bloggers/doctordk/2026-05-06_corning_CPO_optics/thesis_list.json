@@ -1,0 +1,265 @@
+{
+  "source_post": {
+    "url": "https://blog.naver.com/doctordk/224277324554",
+    "title": "코닝도 이제 AI기업인 시대",
+    "blogger": "doctordk (의교창)"
+  },
+  "extraction_date": "2026-05-06",
+  "thesis_count": 8,
+  "thesis_list": [
+    {
+      "id": "T1",
+      "title": "NVIDIA의 Corning 32억 달러 투자는 단순 자본 투입이 아닌 AI 인프라 구조 재설계",
+      "summary": "NVIDIA가 Corning에 최대 32억 달러를 투입한 것은 광섬유 기반 데이터센터 인프라를 GPU·메모리와 동등한 핵심 자산으로 격상시키겠다는 의지. 지분·공급계약·R&D 협업이 결합된 수직 결속 구조.",
+      "key_terms": [
+        "Corning",
+        "NVIDIA",
+        "$3.2B investment",
+        "fiber optics",
+        "AI infrastructure"
+      ],
+      "implication_type": "valuation_re-rating",
+      "alignment_with_blogger": "core",
+      "time_horizon": "12-24 months",
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "title": "AI 데이터센터 병목은 GPU 연산 → HBM 메모리 → 인터커넥트 순으로 이동했다",
+      "summary": "1세대 GPU 성능 경쟁 → 2세대 HBM 메모리 → 3세대 네트워크/인터커넥트 → 4세대 광 기반 AI 데이터센터. 현재 시장은 3-4세대 전환점에 있으며, 인터커넥트 효율이 차세대 경쟁의 결정 변수.",
+      "key_terms": [
+        "interconnect bottleneck",
+        "HBM",
+        "rack-to-rack",
+        "scale-up vs scale-out"
+      ],
+      "implication_type": "secular_thesis",
+      "alignment_with_blogger": "core",
+      "time_horizon": "3-5 years",
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "title": "CPO(Co-Packaged Optics)는 광-전 변환을 칩 옆으로 이동시켜 전력 효율 5-20배 개선",
+      "summary": "기존 pluggable optics는 칩 외부에서 신호 변환 → CPO는 칩 옆 패키지에 광 모듈 통합. 전송 거리 단축으로 전력 소모를 5-20배 절감. 데이터센터 최대 비용 항목인 전력비를 직접 공격하는 기술.",
+      "key_terms": [
+        "CPO",
+        "co-packaged optics",
+        "photonics",
+        "5-20x power efficiency",
+        "silicon photonics"
+      ],
+      "implication_type": "technology_paradigm_shift",
+      "alignment_with_blogger": "core",
+      "time_horizon": "2-4 years",
+      "importance": "core"
+    },
+    {
+      "id": "T4",
+      "title": "구리 인터커넥트는 수십만 GPU 환경에서 발열·전력 한계로 구조적 리스크",
+      "summary": "구리는 단거리·저속에서는 우수하지만 100Gbps+ 고속 신호를 수십 미터 이상 전송 시 발열·신호 감쇠가 급증. 100K+ GPU 클러스터 환경에서는 광 전환이 비가역적 흐름.",
+      "key_terms": [
+        "copper bottleneck",
+        "signal integrity",
+        "thermal limit",
+        "GPU cluster scaling"
+      ],
+      "implication_type": "displacement_risk",
+      "alignment_with_blogger": "supporting",
+      "time_horizon": "ongoing",
+      "importance": "supporting"
+    },
+    {
+      "id": "T5",
+      "title": "NVIDIA의 Coherent, Lumentum, Corning 동시 투자는 광통신 수직통합 전략",
+      "summary": "Coherent(트랜시버·레이저), Lumentum(레이저·광변환), Corning(광섬유 케이블·유리)에 동시 자본 투입. 광스위치 직접 출시까지 더해, AI 인프라의 광 부품 밸류체인 전체를 NVIDIA 영향권에 편입시키는 전략.",
+      "key_terms": [
+        "vertical integration",
+        "Coherent",
+        "Lumentum",
+        "optical switch",
+        "supply chain control"
+      ],
+      "implication_type": "strategic_moat",
+      "alignment_with_blogger": "core",
+      "time_horizon": "12-36 months",
+      "importance": "core"
+    },
+    {
+      "id": "T6",
+      "title": "Corning은 디스플레이 유리 회사에서 'AI 인프라 파운드리'로 재정의된다",
+      "summary": "Corning의 광섬유 + 케이블 사업이 NVIDIA 차세대 데이터센터의 핵심 부품 공급원. 매출 구성에서 Optical Communications 비중이 급격히 확대되며 valuation multiple 재평가 가능성.",
+      "key_terms": [
+        "Corning Optical Communications",
+        "Gen-AI cable",
+        "valuation re-rating",
+        "GLW"
+      ],
+      "implication_type": "company_repositioning",
+      "alignment_with_blogger": "core",
+      "time_horizon": "12-24 months",
+      "importance": "core"
+    },
+    {
+      "id": "T7",
+      "title": "광통신 부품주(Coherent·Lumentum)는 NVIDIA 수요·CPO 채택의 직접 수혜",
+      "summary": "COHR·LITE는 800G/1.6T 트랜시버, EML 레이저, ROADM 등 광 부품을 공급. NVIDIA의 직접 투자로 receiver-base 안정성 확보 + CPO 전환 시 silicon photonics 파트너로 격상 가능.",
+      "key_terms": [
+        "800G transceiver",
+        "1.6T",
+        "EML laser",
+        "silicon photonics partnership",
+        "COHR",
+        "LITE"
+      ],
+      "implication_type": "demand_tailwind",
+      "alignment_with_blogger": "core",
+      "time_horizon": "12-24 months",
+      "importance": "core"
+    },
+    {
+      "id": "T8",
+      "title": "차세대 AI 데이터센터의 경쟁 기준은 'GPU 수'가 아니라 '인터커넥트 효율'",
+      "summary": "단순 GPU 카운트 경쟁은 2-3세대 패러다임. 4세대에서는 GPU-GPU 대역폭, 광 인터커넥트 effective utilization, 전력당 token throughput이 결정 변수. Hyperscaler의 capex 우선순위가 이동 중.",
+      "key_terms": [
+        "effective bandwidth",
+        "tokens per watt",
+        "scale-up fabric",
+        "NVLink",
+        "InfiniBand"
+      ],
+      "implication_type": "framework_shift",
+      "alignment_with_blogger": "supporting",
+      "time_horizon": "ongoing",
+      "importance": "supporting"
+    }
+  ],
+  "theses": [
+    {
+      "id": "T1",
+      "title": "NVIDIA의 Corning 32억 달러 투자는 단순 자본 투입이 아닌 AI 인프라 구조 재설계",
+      "summary": "NVIDIA가 Corning에 최대 32억 달러를 투입한 것은 광섬유 기반 데이터센터 인프라를 GPU·메모리와 동등한 핵심 자산으로 격상시키겠다는 의지. 지분·공급계약·R&D 협업이 결합된 수직 결속 구조.",
+      "key_terms": [
+        "Corning",
+        "NVIDIA",
+        "$3.2B investment",
+        "fiber optics",
+        "AI infrastructure"
+      ],
+      "implication_type": "valuation_re-rating",
+      "alignment_with_blogger": "core",
+      "time_horizon": "12-24 months",
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "title": "AI 데이터센터 병목은 GPU 연산 → HBM 메모리 → 인터커넥트 순으로 이동했다",
+      "summary": "1세대 GPU 성능 경쟁 → 2세대 HBM 메모리 → 3세대 네트워크/인터커넥트 → 4세대 광 기반 AI 데이터센터. 현재 시장은 3-4세대 전환점에 있으며, 인터커넥트 효율이 차세대 경쟁의 결정 변수.",
+      "key_terms": [
+        "interconnect bottleneck",
+        "HBM",
+        "rack-to-rack",
+        "scale-up vs scale-out"
+      ],
+      "implication_type": "secular_thesis",
+      "alignment_with_blogger": "core",
+      "time_horizon": "3-5 years",
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "title": "CPO(Co-Packaged Optics)는 광-전 변환을 칩 옆으로 이동시켜 전력 효율 5-20배 개선",
+      "summary": "기존 pluggable optics는 칩 외부에서 신호 변환 → CPO는 칩 옆 패키지에 광 모듈 통합. 전송 거리 단축으로 전력 소모를 5-20배 절감. 데이터센터 최대 비용 항목인 전력비를 직접 공격하는 기술.",
+      "key_terms": [
+        "CPO",
+        "co-packaged optics",
+        "photonics",
+        "5-20x power efficiency",
+        "silicon photonics"
+      ],
+      "implication_type": "technology_paradigm_shift",
+      "alignment_with_blogger": "core",
+      "time_horizon": "2-4 years",
+      "importance": "core"
+    },
+    {
+      "id": "T4",
+      "title": "구리 인터커넥트는 수십만 GPU 환경에서 발열·전력 한계로 구조적 리스크",
+      "summary": "구리는 단거리·저속에서는 우수하지만 100Gbps+ 고속 신호를 수십 미터 이상 전송 시 발열·신호 감쇠가 급증. 100K+ GPU 클러스터 환경에서는 광 전환이 비가역적 흐름.",
+      "key_terms": [
+        "copper bottleneck",
+        "signal integrity",
+        "thermal limit",
+        "GPU cluster scaling"
+      ],
+      "implication_type": "displacement_risk",
+      "alignment_with_blogger": "supporting",
+      "time_horizon": "ongoing",
+      "importance": "supporting"
+    },
+    {
+      "id": "T5",
+      "title": "NVIDIA의 Coherent, Lumentum, Corning 동시 투자는 광통신 수직통합 전략",
+      "summary": "Coherent(트랜시버·레이저), Lumentum(레이저·광변환), Corning(광섬유 케이블·유리)에 동시 자본 투입. 광스위치 직접 출시까지 더해, AI 인프라의 광 부품 밸류체인 전체를 NVIDIA 영향권에 편입시키는 전략.",
+      "key_terms": [
+        "vertical integration",
+        "Coherent",
+        "Lumentum",
+        "optical switch",
+        "supply chain control"
+      ],
+      "implication_type": "strategic_moat",
+      "alignment_with_blogger": "core",
+      "time_horizon": "12-36 months",
+      "importance": "core"
+    },
+    {
+      "id": "T6",
+      "title": "Corning은 디스플레이 유리 회사에서 'AI 인프라 파운드리'로 재정의된다",
+      "summary": "Corning의 광섬유 + 케이블 사업이 NVIDIA 차세대 데이터센터의 핵심 부품 공급원. 매출 구성에서 Optical Communications 비중이 급격히 확대되며 valuation multiple 재평가 가능성.",
+      "key_terms": [
+        "Corning Optical Communications",
+        "Gen-AI cable",
+        "valuation re-rating",
+        "GLW"
+      ],
+      "implication_type": "company_repositioning",
+      "alignment_with_blogger": "core",
+      "time_horizon": "12-24 months",
+      "importance": "core"
+    },
+    {
+      "id": "T7",
+      "title": "광통신 부품주(Coherent·Lumentum)는 NVIDIA 수요·CPO 채택의 직접 수혜",
+      "summary": "COHR·LITE는 800G/1.6T 트랜시버, EML 레이저, ROADM 등 광 부품을 공급. NVIDIA의 직접 투자로 receiver-base 안정성 확보 + CPO 전환 시 silicon photonics 파트너로 격상 가능.",
+      "key_terms": [
+        "800G transceiver",
+        "1.6T",
+        "EML laser",
+        "silicon photonics partnership",
+        "COHR",
+        "LITE"
+      ],
+      "implication_type": "demand_tailwind",
+      "alignment_with_blogger": "core",
+      "time_horizon": "12-24 months",
+      "importance": "core"
+    },
+    {
+      "id": "T8",
+      "title": "차세대 AI 데이터센터의 경쟁 기준은 'GPU 수'가 아니라 '인터커넥트 효율'",
+      "summary": "단순 GPU 카운트 경쟁은 2-3세대 패러다임. 4세대에서는 GPU-GPU 대역폭, 광 인터커넥트 effective utilization, 전력당 token throughput이 결정 변수. Hyperscaler의 capex 우선순위가 이동 중.",
+      "key_terms": [
+        "effective bandwidth",
+        "tokens per watt",
+        "scale-up fabric",
+        "NVLink",
+        "InfiniBand"
+      ],
+      "implication_type": "framework_shift",
+      "alignment_with_blogger": "supporting",
+      "time_horizon": "ongoing",
+      "importance": "supporting"
+    }
+  ]
+}
