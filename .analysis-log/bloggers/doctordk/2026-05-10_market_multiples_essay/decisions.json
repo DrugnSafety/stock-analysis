@@ -1,0 +1,79 @@
+{
+  "evaluation_date": "2026-05-10",
+  "framework": "Portfolio Manager — 페르소나 컨센서스 + Risk Manager + thesis alignment 통합 의사결정",
+  "decision_methodology": "signal_score = (bullish_pct - bearish_pct) × avg_confidence × thesis_alignment_factor / risk_score_multiplier. 의교창 멀티플 framework 적합도가 thesis_alignment_factor에 반영됨.",
+  "decisions": [
+    {
+      "ticker": "005930.KS",
+      "name_kr": "삼성전자",
+      "signal_score": 6.8,
+      "action": "BUY",
+      "conviction": "high",
+      "rationale": "13명 페르소나 76.9% bullish (Lynch·Burry·Graham·Pabrai·Jhunjhunwala·Damodaran 강력 매수). 의교창 'Korea fear-discount regime' 메타 thesis의 textbook 사례. fwd PE 6배 + cash $80B+ + HBM4 catch-up optionality. 본 분석의 top pick.",
+      "position_size_recommended_pct": 5.0,
+      "entry_strategy": "분할매수 — 현재가 KRW 286,250 부근에서 50% 진입, KRW 265K 이탈 시 추가 30%, KRW 245K에서 마지막 20%.",
+      "exit_target_pct": 35.0,
+      "horizon": "12-18 months"
+    },
+    {
+      "ticker": "BRK-B",
+      "name_kr": "버크셔 해서웨이",
+      "signal_score": 4.5,
+      "action": "BUY",
+      "conviction": "medium_high",
+      "rationale": "13명 페르소나 53.8% bullish (Buffett·Munger·Taleb·Pabrai·Ackman·Graham 지지). 의교창 'multiple-skeptic paradox' archetype. Vol 16.5% + beta 0.62로 portfolio anchor 역할. -7% 1Y로 다른 종목 대비 저평가 영역.",
+      "position_size_recommended_pct": 7.0,
+      "entry_strategy": "Lump sum — 현재가 $476 매수 가능. Succession 우려 가격 반영됨.",
+      "exit_target_pct": 15.0,
+      "horizon": "3-5 years (forever-hold candidate)"
+    },
+    {
+      "ticker": "AAPL",
+      "name_kr": "애플",
+      "signal_score": 4.2,
+      "action": "BUY",
+      "conviction": "medium",
+      "rationale": "13명 페르소나 61.5% bullish (Buffett·Munger·Ackman·Fisher·Damodaran 지지). 의교창 '안정성 프리미엄 regime' archetype. fwd PE 30배는 quality premium 정당화 범위. Services moat + cash $200B+ anchor.",
+      "position_size_recommended_pct": 5.0,
+      "entry_strategy": "분할매수 — 현재가 $293 부근 진입. China 매출 회복 신호 시 추가 매수.",
+      "exit_target_pct": 18.0,
+      "horizon": "2-3 years"
+    },
+    {
+      "ticker": "NVDA",
+      "name_kr": "엔비디아",
+      "signal_score": 0.5,
+      "action": "HOLD",
+      "conviction": "low",
+      "rationale": "13명 페르소나 38.5% bullish vs 38.5% bearish (Lynch·Wood·Druckenmiller bullish vs Burry·Graham·Taleb bearish). 의교창 'AI 성장 프리미엄 정점' archetype — cycle peak 우려 vs 추가 super-cycle 가능성 양분. Net signal 약함. 신규 진입 신중.",
+      "position_size_recommended_pct": 3.0,
+      "entry_strategy": "기존 포지션 hold. 추가 매수는 AI capex YoY 가이던스 확인 후.",
+      "exit_target_pct": 12.0,
+      "horizon": "6-12 months (tactical)"
+    },
+    {
+      "ticker": "000660.KS",
+      "name_kr": "SK하이닉스",
+      "signal_score": -0.8,
+      "action": "TRIM",
+      "conviction": "medium",
+      "rationale": "13명 페르소나 38.5% bullish vs 38.5% bearish (Lynch·Wood·Druckenmiller bullish vs Burry·Taleb·Graham bearish). +899% 1Y cyclical peak signal 강력. Vol 65% 위험 + Samsung HBM4 catch-up risk. 의교창 'cyclical regime change' thesis 인정하나 진입 시점은 too late.",
+      "position_size_recommended_pct": 2.0,
+      "entry_strategy": "기존 보유분 50% trim. 신규 진입 비추천. Cyclical bottom signal 시 재진입 검토.",
+      "exit_target_pct": -15.0,
+      "horizon": "tactical (3-6 months trim)"
+    }
+  ],
+  "portfolio_construction_advice": [
+    "본 5종목은 의교창 멀티플 메타 framework의 archetype 분산 — sector·region balance 추가 필요 (Healthcare·Energy·Defense)",
+    "Top pick은 삼성전자 — Korea discount mean reversion + HBM4 catch-up dual catalyst의 valuation asymmetry",
+    "BRK-B는 portfolio anchor 역할 — vol 16% + anti-correlation으로 drawdown buffer",
+    "NVDA·SK Hynix는 AI cycle peak risk 인지하고 작은 사이즈 유지. 추가 매수 신호는 hyperscaler capex re-acceleration",
+    "현 era는 '성장 프리미엄 + 안정성 프리미엄 양극화' regime — 두 archetype 동시 보유 권장"
+  ],
+  "scenarios": {
+    "base_case": "현 era regime 유지 (AI growth premium + safety premium dispersion 지속, Korea discount 부분 해소) → 005930.KS +20%, BRK-B +8%, AAPL +10%, NVDA +5%, 000660.KS -10%",
+    "bull_case": "AI capex super-cycle 2027까지 연장 + Korea Value-Up 가속 → 005930.KS +50%, NVDA +30%, 000660.KS +25%, AAPL +18%, BRK-B +12%",
+    "bear_case": "AI capex 2027 둔화 + Korea discount 영구 + Buffett succession 전환 충격 → NVDA -45%, 000660.KS -55%, 005930.KS -15% (cushion), AAPL -20%, BRK-B -10%"
+  }
+}
