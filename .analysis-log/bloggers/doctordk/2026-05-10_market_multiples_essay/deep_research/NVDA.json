@@ -1,0 +1,314 @@
+{
+  "ticker": "NVDA",
+  "name_kr": "엔비디아",
+  "name_en": "NVIDIA Corporation",
+  "industry": {
+    "name": "Semiconductors — AI GPU / Accelerator",
+    "overview": "1993년 설립된 GPU 선구자. CUDA 생태계 + Hopper/Blackwell 아키텍처로 AI accelerator 시장 90%+ 점유. Data Center 매출이 88% 차지 (2025E $115B). Hyperscaler 4사 + neo-cloud + sovereign AI가 핵심 고객.",
+    "competitors": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "share_pct": 92.0,
+        "moat": "CUDA software ecosystem + Blackwell platform + supply chain"
+      },
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "share_pct": 5.0,
+        "moat": "MI300/MI325 차세대 + ROCm 오픈소스"
+      },
+      {
+        "name": "Intel",
+        "ticker": "INTC",
+        "share_pct": 1.0,
+        "moat": "Gaudi 3 — cost competitive, sovereign customers"
+      },
+      {
+        "name": "Google TPU",
+        "ticker": "GOOG",
+        "share_pct": 1.0,
+        "moat": "Internal use, TPU v6/v7 — Gemini 학습"
+      },
+      {
+        "name": "Meta MTIA",
+        "ticker": "META",
+        "share_pct": 1.0,
+        "moat": "Internal inference, Gen2 production scale"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 200.0,
+      "cagr_pct": 35.0,
+      "horizon": "2024-2028 (AI Accelerator + Networking 합산)"
+    },
+    "news": [
+      {
+        "date": "2026-03-18",
+        "source": "NVIDIA GTC 2026",
+        "title": "Rubin platform 차세대 발표 + Vera CPU 양산 가이던스",
+        "summary": "Rubin 양산 2027 H1, $50B+ 매출 잠재. CPU 자체 출시."
+      },
+      {
+        "date": "2026-02-26",
+        "source": "NVIDIA Q4 Earnings",
+        "title": "Q4 매출 $39B (+78% YoY), 2026 가이던스 $230B+",
+        "summary": "Data Center $33B (87%), gross margin 75%, hyperscaler capex guidance 강세."
+      },
+      {
+        "date": "2026-01-15",
+        "source": "Bloomberg",
+        "title": "AVGO custom ASIC NVDA 매출 위협 본격화",
+        "summary": "Google·Meta ASIC 출하 2026E +120% — NVDA 점유율 90%→85% 전망."
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 16675,
+        "op_income": 4532,
+        "op_margin": 27.2,
+        "net_income": 4332,
+        "net_margin": 26.0
+      },
+      {
+        "year": 2022,
+        "revenue": 26914,
+        "op_income": 10041,
+        "op_margin": 37.3,
+        "net_income": 9752,
+        "net_margin": 36.2
+      },
+      {
+        "year": 2023,
+        "revenue": 26974,
+        "op_income": 4224,
+        "op_margin": 15.7,
+        "net_income": 4368,
+        "net_margin": 16.2
+      },
+      {
+        "year": 2024,
+        "revenue": 60922,
+        "op_income": 32972,
+        "op_margin": 54.1,
+        "net_income": 29760,
+        "net_margin": 48.9
+      },
+      {
+        "year": 2025,
+        "revenue": 130500,
+        "op_income": 84800,
+        "op_margin": 65.0,
+        "net_income": 72900,
+        "net_margin": 55.9
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2026-01-31",
+      "cash_usdmn": 40000,
+      "total_debt_usdmn": 9700,
+      "net_debt_usdmn": -30300,
+      "total_assets_usdmn": 96000,
+      "total_equity_usdmn": 65500,
+      "current_ratio": 3.8,
+      "debt_to_equity": 0.15
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 64000,
+      "capex_2025_usdmn": 3200,
+      "fcf_2025_usdmn": 60800,
+      "dividend_paid_2025_usdmn": 800,
+      "buyback_2025_usdmn": 36000
+    },
+    "peer_compare": [
+      {
+        "ticker": "NVDA",
+        "fwd_pe": 19.07,
+        "ev_ebitda": 18.5,
+        "fcf_yield_pct": 2.3,
+        "roe_pct": 95.0,
+        "debt_to_equity": 0.15
+      },
+      {
+        "ticker": "AMD",
+        "fwd_pe": 24.5,
+        "ev_ebitda": 19.8,
+        "fcf_yield_pct": 2.0,
+        "roe_pct": 12.0,
+        "debt_to_equity": 0.07
+      },
+      {
+        "ticker": "INTC",
+        "fwd_pe": 35.0,
+        "ev_ebitda": 8.5,
+        "fcf_yield_pct": -1.0,
+        "roe_pct": -5.0,
+        "debt_to_equity": 0.55
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "AI capex super-cycle 2028까지",
+      "thesis": "AI capex 2028까지 연장 + inference workload 폭발",
+      "prob_pct": 25,
+      "target_price": 295,
+      "assumption": "AI capex 2028까지 연장 + inference workload 폭발",
+      "key_assumptions": [
+        "AI capex 2028까지 연장 + inference workload 폭발"
+      ],
+      "upside_pct": 37
+    },
+    "base": {
+      "label": "AI capex 2027 둔화 시작 + ASIC 침투 가속",
+      "thesis": "Base — cycle 정상화",
+      "prob_pct": 50,
+      "target_price": 230,
+      "assumption": "Base — cycle 정상화",
+      "key_assumptions": [
+        "Base — cycle 정상화"
+      ],
+      "upside_pct": 7
+    },
+    "bear": {
+      "label": "AI capex YoY -10% + ASIC 50%+ 침투",
+      "thesis": "Bear — cycle peak 후 correction",
+      "prob_pct": 25,
+      "target_price": 130,
+      "assumption": "Bear — cycle peak 후 correction",
+      "key_assumptions": [
+        "Bear — cycle peak 후 correction"
+      ],
+      "downside_pct": -40
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q2",
+      "event": "Earnings — AI capex 가이던스 재확인",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Q2 매출 $50B+ 가이던스 강세 시 +10%"
+    },
+    {
+      "date": "2026 H2",
+      "event": "Rubin platform 양산 가이던스 공개",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Rubin 2027 H1 양산 sustained 시 +12%"
+    },
+    {
+      "date": "2026 11-12월",
+      "event": "Hyperscaler 2027 capex 가이던스",
+      "type": "industry",
+      "expected_impact": "+/-",
+      "description": "MSFT/META/GOOG $250B+ 가이던스 시 +15%"
+    },
+    {
+      "date": "2026",
+      "event": "China export 규제 변화 (Trump 2.0)",
+      "type": "regulatory",
+      "expected_impact": "+/-",
+      "description": "H20 완화 시 +5-8%, 추가 제재 시 -5%"
+    },
+    {
+      "date": "2026 ongoing",
+      "event": "Sovereign AI 신규 deal",
+      "type": "deal",
+      "expected_impact": "+",
+      "description": "UAE·Saudi·EU sovereign $10B+ deal 추가 시 +6%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex cycle peak (2027-2028)",
+      "description": "AI capex cycle peak (2027-2028)",
+      "probability": "med",
+      "impact": "high",
+      "mitigation": "Inference workload 영구 baseline 가능 + 다각화 신사업"
+    },
+    {
+      "name": "Customer concentration top-5 80%+",
+      "description": "Customer concentration top-5 80%+",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Sovereign AI + neo-cloud 다각화"
+    },
+    {
+      "name": "Custom ASIC 침투 (Google·Meta)",
+      "description": "Custom ASIC 침투 (Google·Meta)",
+      "probability": "high",
+      "impact": "med",
+      "mitigation": "CUDA ecosystem switching cost 영구"
+    },
+    {
+      "name": "China export 영구 차단",
+      "description": "China export 영구 차단",
+      "probability": "med",
+      "impact": "med",
+      "mitigation": "H20/B20 제품 다각화 + 본토 외 매출"
+    },
+    {
+      "name": "TSM CoWoS packaging dependency",
+      "description": "TSM CoWoS packaging dependency",
+      "probability": "low",
+      "impact": "high",
+      "mitigation": "Samsung Foundry 2nd source 진행 중"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T2",
+      "claim": "AI 성장 프리미엄 era에서 NVDA는 archetype",
+      "type": "industry",
+      "support_for_ticker": "STRONG",
+      "testability": "high",
+      "current_status": "supported",
+      "evidence": "fwd PE 19, 매출 100%+ 성장, GPU 90% share — era thesis 정합",
+      "ticker_specific_note": "Era 유지 시 +35%, era end 시 -55% — NVDA는 era 종속도 가장 높음"
+    },
+    {
+      "thesis_id": "T7",
+      "claim": "현 미인대회 winner, next rotation 시 first to fall",
+      "type": "industry",
+      "support_for_ticker": "MIXED",
+      "testability": "medium",
+      "current_status": "speculative",
+      "evidence": "Russell 1000 Growth 1990-2026 cycle data 분석",
+      "ticker_specific_note": "Beauty contest 1위는 historic 패턴상 다음 rotation에서 -50%+ 가능"
+    },
+    {
+      "thesis_id": "T1",
+      "claim": "Multiple expansion이 펀더멘털보다 시대 욕망 반영",
+      "type": "macro",
+      "support_for_ticker": "SUPPORT",
+      "testability": "medium",
+      "current_status": "ongoing",
+      "evidence": "Shiller CAPE 5→44배 변동, multiple은 era-specific",
+      "ticker_specific_note": "NVDA fwd PE 19는 매출 성장 100%+ 정당화 가능 범위 but era end 시 8-12배 회귀"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "global_filing",
+      "date": "2026-02-26",
+      "title": "Form 10-K 2025",
+      "summary": "Data Center $115B (88%), Gaming $11B, Pro Vis $4B. Customer concentration top-5 80%+ 명시."
+    },
+    {
+      "type": "global_filing",
+      "date": "2026-03-04",
+      "title": "Form 10-Q Q1 2026",
+      "summary": "Q1 매출 $44B, Data Center $39B, gross margin 75%, R&D $5B."
+    },
+    {
+      "type": "press_release",
+      "date": "2026-03-18",
+      "title": "GTC 2026 Rubin platform 발표",
+      "summary": "Rubin 양산 2027 H1, $50B+ 매출 잠재. Vera CPU 출시."
+    }
+  ]
+}
