@@ -1,0 +1,96 @@
+{
+  "evaluation_date": "2026-05-06",
+  "framework": "Risk Manager — 변동성·집중도·downside·correlation 통합 평가",
+  "portfolio_context": "AI 광통신 인프라 4종목 분석 — sector concentration 100% (Optical/Networking/AI Infrastructure)",
+  "global_risk_factors": {
+    "sector_concentration_risk": "very_high (4종목 모두 AI capex sensitive)",
+    "ai_capex_correlation": "very_high (NVDA·COHR·LITE은 0.85+ correlation 추정, GLW는 0.65)",
+    "single_event_risk": "AI capex 둔화 1회 이벤트로 4종목 동시 -25%+ 가능"
+  },
+  "ticker_risk_limits": [
+    {
+      "ticker": "GLW",
+      "name_kr": "코닝",
+      "current_price": 181.57,
+      "currency": "USD",
+      "volatility_annualized_pct": null,
+      "beta": 1.14,
+      "return_1y_pct": 311.8,
+      "fwd_pe": 44.92,
+      "max_position_pct": 6.0,
+      "stop_loss_pct": -15,
+      "take_profit_targets": [
+        {"level_pct": 12, "trim_pct": 25},
+        {"level_pct": 25, "trim_pct": 50}
+      ],
+      "risk_score": "MEDIUM",
+      "risk_rationale": "다각화된 사업 구조 + dividend + 100년 history로 LITE·COHR 대비 낮은 변동성. 다만 +311% 1Y rally는 단기 mean-reversion 위험 동반. AI 노출 비중이 30% 미만이어서 Optical Communications 매출 둔화 시에도 entire collapse는 제한적.",
+      "max_drawdown_assumed": -20,
+      "correlation_to_portfolio": 0.65
+    },
+    {
+      "ticker": "NVDA",
+      "name_kr": "엔비디아",
+      "current_price": 207.83,
+      "currency": "USD",
+      "beta": 2.24,
+      "return_1y_pct": 83.1,
+      "fwd_pe": 18.49,
+      "max_position_pct": 8.0,
+      "stop_loss_pct": -18,
+      "take_profit_targets": [
+        {"level_pct": 15, "trim_pct": 25},
+        {"level_pct": 30, "trim_pct": 50}
+      ],
+      "risk_score": "MEDIUM-HIGH",
+      "risk_rationale": "$5T 시총의 절대 규모 + beta 2.24 = 시장 stress 시 -30%+ 가능. 다만 fwd_PE 18은 합리적 수준 + FCF 강력 + 광통신 수직통합으로 secular thesis는 유지. Hyperscaler ASIC 위협이 가장 큰 tail risk (TPU·MTIA·Trainium 침투율 추적 필요).",
+      "max_drawdown_assumed": -35,
+      "correlation_to_portfolio": 0.85
+    },
+    {
+      "ticker": "COHR",
+      "name_kr": "코히런트",
+      "current_price": 344.67,
+      "currency": "USD",
+      "beta": 2.05,
+      "return_1y_pct": 393.9,
+      "fwd_pe": 45.43,
+      "max_position_pct": 4.0,
+      "stop_loss_pct": -22,
+      "take_profit_targets": [
+        {"level_pct": 15, "trim_pct": 33},
+        {"level_pct": 30, "trim_pct": 33}
+      ],
+      "risk_score": "HIGH",
+      "risk_rationale": "+394% 1Y + fwd_PE 45 + beta 2.05 = 단기 변동성 극대. II-VI 합병 통합 risk + 부채 부담 + 트랜시버 commodity화 trend가 누적 risk. NVIDIA 직접 투자가 down-side cushion 일부 제공하나 -50% drawdown 사이클이 historic 패턴.",
+      "max_drawdown_assumed": -45,
+      "correlation_to_portfolio": 0.92
+    },
+    {
+      "ticker": "LITE",
+      "name_kr": "루멘텀",
+      "current_price": 944.28,
+      "currency": "USD",
+      "beta": 1.53,
+      "return_1y_pct": 1365.8,
+      "fwd_pe": 52.33,
+      "max_position_pct": 2.5,
+      "stop_loss_pct": -25,
+      "take_profit_targets": [
+        {"level_pct": 10, "trim_pct": 50},
+        {"level_pct": 25, "trim_pct": 50}
+      ],
+      "risk_score": "VERY_HIGH",
+      "risk_rationale": "+1366% 1Y rally는 광 부품주 history에서 transcendent 수준 — mean-reversion 가능성 크게 증가. fwd_PE 52는 historic 평균 P/E 18 대비 3배. 15% retracement만 와도 -10%+ 빠르게 진행 가능. NVIDIA 디자인 윈은 fundamental positive이나 valuation overshoot이 더 큼. 신규 매수보다는 small position + tight stop 권장.",
+      "max_drawdown_assumed": -55,
+      "correlation_to_portfolio": 0.88
+    }
+  ],
+  "portfolio_total_risk_budget_pct": 20.5,
+  "diversification_penalty": "포트폴리오의 4종목이 high correlation (~0.8 평균)으로 effective diversification은 1.3-1.5 stocks 수준. 외부 sector (Healthcare·Consumer·Energy)와의 balance 필수.",
+  "kill_switch_conditions": [
+    "AI capex YoY 가이던스 둔화 발표 시 즉시 50% trim",
+    "NVDA earnings 실적 또는 가이던스 miss 시 COHR·LITE 동반 trim",
+    "Hyperscaler 자체 ASIC 점유율 급증 신호 시 NVDA 우선 trim"
+  ]
+}
