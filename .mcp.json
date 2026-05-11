@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}"
+      },
+      "description": "GitHub 공식 MCP server — Remote hosted. .env의 GITHUB_TOKEN 값 자동 사용."
+    }
+  },
+  "_meta": {
+    "purpose": "주식 분석 시스템 — GitHub repo 자동 sync + repo browsing + PR/issue 관리",
+    "doc": "https://github.com/github/github-mcp-server",
+    "added_at": "2026-05-11",
+    "version": "v0.5.0+",
+    "alternative_local_docker": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "-e", "GITHUB_PERSONAL_ACCESS_TOKEN", "ghcr.io/github/github-mcp-server"],
+      "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"}
+    }
+  }
+}
