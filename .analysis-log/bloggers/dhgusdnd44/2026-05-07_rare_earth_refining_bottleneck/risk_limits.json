@@ -1,0 +1,130 @@
+{
+  "computed_at": "2026-05-07",
+  "framework": "ai-hedge-fund risk_manager.py 패턴 — 60일 rolling vol + correlation 기반 position cap",
+  "portfolio_value_assumption_usd": 100000,
+  "base_position_pct": 5.0,
+  "tickers": {
+    "MP": {
+      "ticker": "MP",
+      "name": "MP Materials",
+      "vol_annualized_pct": 96.3,
+      "vol_tier": "extreme",
+      "vol_multiplier": 0.50,
+      "correlation_to_active": "high (REE basket과 0.75+ 추정)",
+      "correlation_multiplier": 0.85,
+      "raw_pct_cap": 5.0,
+      "adjusted_pct_cap": 2.13,
+      "usd_cap": 2125,
+      "rationale": "vol 96% (extreme tier) 0.50× + REE basket correlation 0.85× = 5% × 0.50 × 0.85 = 2.13%. DoD floor mechanism 인정 시 +0.5% 가능 → 약 2.6%"
+    },
+    "LYC.AX": {
+      "ticker": "LYC.AX",
+      "name": "Lynas Rare Earths",
+      "vol_annualized_pct": 59.3,
+      "vol_tier": "high",
+      "vol_multiplier": 0.85,
+      "correlation_to_active": "moderate (다른 REE와 0.6-0.7)",
+      "correlation_multiplier": 0.90,
+      "raw_pct_cap": 5.0,
+      "adjusted_pct_cap": 3.83,
+      "usd_cap": 3825,
+      "rationale": "vol 59% (high) 0.85× + correlation 0.90× = 5% × 0.85 × 0.90 = 3.83%. 13명 페르소나 highest conviction (4.08) 보너스 적용 시 → 4.5% 권장"
+    },
+    "ILU.AX": {
+      "ticker": "ILU.AX",
+      "name": "Iluka Resources",
+      "vol_annualized_pct": 61.9,
+      "vol_tier": "high",
+      "vol_multiplier": 0.85,
+      "correlation_to_active": "moderate-low (mineral sands 부분 떼어내면 REE 직접 노출 절반)",
+      "correlation_multiplier": 0.95,
+      "raw_pct_cap": 5.0,
+      "adjusted_pct_cap": 4.04,
+      "usd_cap": 4037,
+      "rationale": "vol 62% (high) 0.85× + correlation 0.95× = 5% × 0.85 × 0.95 = 4.04%. mineral sands 분산 효과 + 정부 융자 floor 고려 시 4.0% 적정"
+    },
+    "USAR": {
+      "ticker": "USAR",
+      "name": "USA Rare Earth",
+      "vol_annualized_pct": 135.6,
+      "vol_tier": "speculative",
+      "vol_multiplier": 0.30,
+      "correlation_to_active": "high (high-beta REE basket)",
+      "correlation_multiplier": 0.80,
+      "raw_pct_cap": 5.0,
+      "adjusted_pct_cap": 1.20,
+      "usd_cap": 1200,
+      "rationale": "vol 136% (speculative — meme tier) 0.30× + correlation 0.80× = 5% × 0.30 × 0.80 = 1.20%. 13명 페르소나 dispersion 매우 큼 (가치주 회피, 성장주 옹호) — 1% 한도 권장 (gambler position)"
+    },
+    "600111.SS": {
+      "ticker": "600111.SS",
+      "name": "China Northern Rare Earth",
+      "vol_annualized_pct": 53.1,
+      "vol_tier": "moderate-high",
+      "vol_multiplier": 0.95,
+      "correlation_to_active": "negative-to-low (anti-correlation with non-China)",
+      "correlation_multiplier": 1.20,
+      "raw_pct_cap": 5.0,
+      "adjusted_pct_cap": 5.70,
+      "usd_cap": 5700,
+      "rationale": "vol 53% (moderate-high) 0.95× + anti-correlation hedge bonus 1.20× = 5% × 0.95 × 1.20 = 5.70%. 단 governance + FDI 제한으로 실제 적용 한도 = 1.5% (hedge용 small position)"
+    }
+  },
+  "portfolio_construction_recommendation": {
+    "total_target_pct": 13.5,
+    "allocation": {
+      "LYC.AX": 4.5,
+      "ILU.AX": 4.0,
+      "MP": 2.5,
+      "USAR": 1.0,
+      "600111.SS": 1.5
+    },
+    "cash_or_other": 86.5,
+    "rationale": "Top 2 (Lynas + Iluka) = 8.5% — 비중국 정제 vertical core. MP 2.5% — 미국 lens, USAR 1.0% — speculative tail, 600111.SS 1.5% — China hedge. Total REE exposure 13.5%."
+  },
+  "thesis_alignment_weighting": {
+    "framework": "13명 페르소나 weighted average score 기반 가중치",
+    "scores": {
+      "LYC.AX": 4.08,
+      "MP": 3.62,
+      "ILU.AX": 3.42,
+      "USAR": 2.92,
+      "600111.SS": 2.85
+    },
+    "convex_weight_top_3": "LYC > MP > ILU 순으로 가중 — 단 ILU는 valuation 매력으로 상향, MP는 valuation 부담으로 하향"
+  },
+  "scenario_stress_tests": {
+    "scenario_1_china_release_full_lift_2026_11": {
+      "probability": 0.20,
+      "non_china_basket_drawdown": "-30~40% (REE 가격 -50%)",
+      "MP_drawdown": "-40% (DoD floor partial cushion → -25%)",
+      "LYC_drawdown": "-30% (cost $45-70 vs spot $50 시 EBITDA 압박)",
+      "ILU_drawdown": "-15% (mineral sands 분산)",
+      "USAR_drawdown": "-50%+ (pre-revenue + 자금조달 dilution)",
+      "600111_uplift": "+10% (中 정부 보호)"
+    },
+    "scenario_2_china_full_export_ban_2026_11": {
+      "probability": 0.15,
+      "non_china_basket_uplift": "+50~80% (가격 폭등)",
+      "MP_uplift": "+50%",
+      "LYC_uplift": "+60%",
+      "ILU_uplift": "+30% (2027 가동 전이라 부분)",
+      "USAR_uplift": "+100%",
+      "600111_drawdown": "-15% (수출 매출 감소)"
+    },
+    "scenario_3_status_quo_extension": {
+      "probability": 0.45,
+      "all_basket_uplift": "+10~20% (current cycle 지속)",
+      "individual_dispersion": "company-specific catalysts 영향"
+    },
+    "scenario_4_demand_recession_2027": {
+      "probability": 0.20,
+      "all_basket_drawdown": "-25~35% (EV·풍력 demand pull-back)",
+      "MP_drawdown": "-30% (DoD floor partial)",
+      "LYC_drawdown": "-30%",
+      "ILU_drawdown": "-25%",
+      "USAR_drawdown": "-40%",
+      "600111_drawdown": "-30%"
+    }
+  }
+}
