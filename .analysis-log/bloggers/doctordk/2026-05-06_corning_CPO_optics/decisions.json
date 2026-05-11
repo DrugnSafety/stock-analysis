@@ -1,0 +1,109 @@
+{
+  "evaluation_date": "2026-05-06",
+  "framework": "Portfolio Manager — 페르소나 컨센서스 + Risk Manager + thesis alignment 통합 의사결정",
+  "decision_methodology": "signal_score = (bullish_pct - bearish_pct) × avg_confidence × thesis_alignment_factor / risk_score_multiplier",
+  "decisions": [
+    {
+      "ticker": "GLW",
+      "name_kr": "코닝",
+      "rank": 1,
+      "verdict_pm": "ACCUMULATE_ON_PULLBACK",
+      "action": "buy_on_dip",
+      "signal_score": 0.78,
+      "target_position_pct": 5.0,
+      "max_position_pct": 6.0,
+      "entry_strategy": "현재가 -10% 이내 구간 (165 USD 이하)에서 1/3씩 3분할 매수. NVIDIA $3.2B 투자의 multi-year tranches가 매분기 매출 가시성 제공.",
+      "thesis_alignment": "very_high — 의교창 thesis의 가장 직접적 수혜 (Corning 재정의)",
+      "consensus_signal": "13명 중 8명 lean_bullish 이상, 0명 bearish — 가장 합의된 종목",
+      "why_top_pick": [
+        "13명 중 0명 bearish — 4종목 중 유일하게 bearish vote 0",
+        "다각화된 사업 구조로 -drawdown 제한 (max -20% 추정 vs LITE -55%)",
+        "AI 노출 비중이 점차 확대 trajectory (Optical 25% → 45%+ 2027E)",
+        "NVIDIA $3.2B는 multi-year purchase + equity 결합으로 매출 visibility 4-5년 확보",
+        "Buffett·Munger·Druckenmiller·Wood·Ackman 모두 lean_bullish 이상 (스타일 4개 모두 동의)"
+      ],
+      "monitoring_triggers": ["Optical Communications 분기 매출 +20%+ YoY 유지", "NVIDIA 케이블 출하량 확인"]
+    },
+    {
+      "ticker": "NVDA",
+      "name_kr": "엔비디아",
+      "rank": 2,
+      "verdict_pm": "HOLD_WITH_TRIM_ON_RALLY",
+      "action": "maintain",
+      "signal_score": 0.55,
+      "target_position_pct": 6.0,
+      "max_position_pct": 8.0,
+      "entry_strategy": "신규 진입은 200-205 USD 구간에서 1/4 분할. 기 보유분은 230 USD 이상에서 25% trim.",
+      "thesis_alignment": "very_high — 광통신 수직통합의 주체",
+      "consensus_signal": "53.8% bullish vs 38.5% bearish — 분열 (가장 큰 분열)",
+      "key_concerns": [
+        "Damodaran·Graham·Burry·Pabrai의 valuation 우려는 mathematically valid — implied growth 비정상",
+        "Hyperscaler 자체 ASIC trend (TPU·MTIA·Trainium)이 5-10년 thesis에 가장 큰 위협",
+        "$5T 시총은 historic precedent 부재 — mean-reversion 가능성"
+      ],
+      "key_supports": [
+        "Druckenmiller·Wood·Lynch의 macro/disruption thesis는 강함",
+        "fwd_PE 18은 mega-cap tech 중 합리적 수준",
+        "FCF $100B+ 기준 owner earnings yield 2-2.5%로 quality compounder"
+      ],
+      "why_rank_2": "가장 신뢰성 높은 thesis alignment + 합리적 valuation이지만 Cycle/ASIC tail risk가 GLW 대비 큼"
+    },
+    {
+      "ticker": "COHR",
+      "name_kr": "코히런트",
+      "rank": 3,
+      "verdict_pm": "WAIT_FOR_PULLBACK",
+      "action": "wait",
+      "signal_score": 0.18,
+      "target_position_pct": 2.0,
+      "max_position_pct": 4.0,
+      "entry_strategy": "현재가 -20%+ 하락 (275 USD 이하) 시 1/3 분할 시작. 합병 통합 risk + 부채 부담으로 시간 가치 회피.",
+      "thesis_alignment": "very_high — 트랜시버 + EML laser 직접 수혜",
+      "consensus_signal": "38.5% bullish vs 46.2% bearish — bearish slight 우위",
+      "key_concerns": [
+        "Burry·Damodaran·Taleb 모두 bearish — 'short candidate' 평가",
+        "+394% 1Y rally + fwd_PE 45 + 부채 = 'compounded fragility'",
+        "트랜시버 commodity화 history (-50% drawdown 4번 반복)"
+      ],
+      "key_supports": [
+        "Wood·Druckenmiller·Lynch는 AI infrastructure pure-play로 평가",
+        "NVIDIA 직접 투자 실재"
+      ],
+      "why_rank_3": "thesis fit은 좋으나 valuation overshoot + cycle peak proximity로 entry 비효율"
+    },
+    {
+      "ticker": "LITE",
+      "name_kr": "루멘텀",
+      "rank": 4,
+      "verdict_pm": "AVOID_NEW_ENTRY",
+      "action": "avoid",
+      "signal_score": -0.40,
+      "target_position_pct": 0.0,
+      "max_position_pct": 2.5,
+      "entry_strategy": "신규 진입 비권장. 보유 시 즉시 30% trim + 추가 -15% 시 추가 trim. 800 USD 이하 (-15%)에서 small position 검토 가능 — 그러나 시간 가치는 없음.",
+      "thesis_alignment": "very_high — 광 부품 pure-play",
+      "consensus_signal": "15.4% bullish vs 53.8% bearish — 강한 bearish",
+      "key_concerns": [
+        "+1366% 1Y rally는 4종목 중 가장 극단",
+        "Burry·Taleb·Damodaran·Graham·Munger의 bearish chorus — short candidate consensus",
+        "fwd_PE 52는 광 부품 historic 18의 3배 — implied growth mathematical impossibility 영역",
+        "NeoPhotonics 합병 통합 risk + 광스위치 디자인 윈 의존도"
+      ],
+      "key_supports": [
+        "Wood의 disruption thesis (highest conviction bullish but offset by 11명 caution)"
+      ],
+      "why_rank_4": "thesis는 정합하나 가격이 thesis를 7-10년 선반영. risk-reward 극단 비대칭 (downside -55% vs upside +30%)"
+    }
+  ],
+  "portfolio_construction_advice": {
+    "total_target_allocation": "13.0% (4종목 합계)",
+    "concentrated_picks": "GLW 5.0% + NVDA 6.0% = 11.0%로 80%+ 집중. COHR/LITE는 spec position 또는 회피.",
+    "diversification_notes": "본 4종목 외 reverse hedge로 AVGO·MRVL (스위치 ASIC) 또는 hyperscaler ASIC 노출 (GOOG TPU 간접) 검토 권장",
+    "rebalance_trigger": "AI capex guidance YoY 변화 + Hyperscaler 분기 capex 발표 시점"
+  },
+  "scenarios": {
+    "bull_case": "AI capex 2026-2027 +30% YoY 유지 + CPO 가속 채택 → GLW +40%, NVDA +25%, COHR +35%, LITE +20%",
+    "base_case": "AI capex +15-20% YoY + cycle 정상화 → GLW +12%, NVDA +5%, COHR -10%, LITE -25%",
+    "bear_case": "AI capex 둔화 + ASIC 침투 → GLW -20%, NVDA -35%, COHR -50%, LITE -65%"
+  }
+}
