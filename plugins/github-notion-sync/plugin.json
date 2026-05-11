@@ -1,0 +1,42 @@
+{
+  "name": "github-notion-sync",
+  "version": "0.1.0",
+  "description": "분석 완료 시 GitHub repo + Notion database에 자동 동기화. local 분석 결과(meta, README, PDF, JSON)를 GitHub에 push하고 Notion DB에 row 생성/업데이트.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "tags": ["github", "notion", "sync", "automation", "post-build-hook"],
+  "skills": [
+    {
+      "name": "sync-orchestrator",
+      "description": "단일 분석 디렉토리를 GitHub + Notion에 동시 동기화. build_combined.py 완료 시 자동 호출."
+    }
+  ],
+  "scripts": {
+    "sync_analysis": "scripts/sync_analysis.py — 분석 디렉토리 1개 → GitHub + Notion 동기화",
+    "github_client": "scripts/github_client.py — GitHub REST API 래퍼 (repo 생성/파일 push)",
+    "notion_client": "scripts/notion_client.py — Notion API 래퍼 (DB row 생성/업데이트)"
+  },
+  "requirements": {
+    "env_variables": [
+      "GITHUB_TOKEN (필수) — Personal Access Token (repo scope)",
+      "GITHUB_OWNER (필수) — DrugnSafety 등 GitHub 사용자명 (대소문자 정확히)",
+      "GITHUB_REPO (필수) — stock-analysis 등 repo 이름",
+      "NOTION_TOKEN (선택) — Notion Integration Token. MCP 사용 시 불필요",
+      "NOTION_DATA_SOURCE_ID (필수) — 주식 분석 Hub DB의 data source ID"
+    ],
+    "python_packages": ["requests"],
+    "setup_guide": [
+      "1. https://github.com/settings/tokens 에서 fine-grained PAT 발급 (repo scope)",
+      "2. .env에 GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO 추가",
+      "3. 첫 sync 시 자동으로 private repo 생성 (이미 있으면 skip)",
+      "4. Notion은 MCP 기본 활성 — NOTION_DATA_SOURCE_ID만 .env에 추가"
+    ]
+  },
+  "compatibility": {
+    "cowork_mode": true,
+    "claude_code_cli": true
+  },
+  "_changelog": {
+    "0.1.0": "최초 릴리스 — GitHub repo 자동 생성/sync + Notion DB row 자동 생성/업데이트. build_combined.py에 post-build hook 통합."
+  }
+}
