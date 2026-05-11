@@ -1,0 +1,43 @@
+{
+  "name": "notion-page-manager",
+  "version": "0.1.0",
+  "description": "Notion 페이지·database 관리 전용 plugin — 메인 페이지 구성, 하위 페이지 생성, DB row 페이지 본문 markdown write, linked database view 생성. github-notion-sync과 분리되어 페이지 layout/content를 전담.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "tags": ["notion", "page-management", "markdown", "linked-database", "content-write"],
+  "skills": [
+    {
+      "name": "page-builder",
+      "description": "Notion 페이지의 markdown content 작성 + 하위 페이지 생성. DB row 페이지에 분석 README markdown을 풀로 write."
+    },
+    {
+      "name": "view-manager",
+      "description": "Linked database view 생성 — 필터/정렬/그룹화된 분석 이력 view를 메인 페이지에 embed."
+    },
+    {
+      "name": "file-attachment",
+      "description": "PDF/이미지 파일을 Notion 페이지에 첨부. GitHub Release public asset URL 또는 Notion file block 활용."
+    }
+  ],
+  "scripts": {
+    "write_page_content": "scripts/write_page_content.py — 페이지 ID + markdown 경로 → 본문 작성",
+    "build_main_page": "scripts/build_main_page.py — '주식분석 by Claude' 메인 페이지 자동 구성",
+    "create_subpages": "scripts/create_subpages.py — README · Methodology 하위 페이지 생성",
+    "attach_pdf": "scripts/attach_pdf.py — PDF URL을 Notion file 속성/block에 추가"
+  },
+  "requirements": {
+    "env_variables": [
+      "NOTION_DATA_SOURCE_ID (필수) — DB data source ID",
+      "NOTION_MAIN_PAGE_ID (선택) — 메인 페이지 ID (없으면 자동 탐색)"
+    ],
+    "depends_on": ["github-notion-sync (DB row 생성 후 본 plugin이 본문 write)"],
+    "notion_mcp_required": true
+  },
+  "compatibility": {
+    "cowork_mode": true,
+    "claude_code_cli": "MCP 필요"
+  },
+  "_changelog": {
+    "0.1.0": "최초 릴리스 — DB row 페이지 본문 markdown write + 메인/하위 페이지 자동 구성 + PDF 첨부"
+  }
+}
