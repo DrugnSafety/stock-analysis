@@ -1,0 +1,60 @@
+{
+  "portfolio_date": "2026-05-06",
+  "portfolio_type": "paper_portfolio_proposed",
+  "base_capital_usd": 100000,
+  "positions_proposed": [
+    {
+      "ticker": "GLW",
+      "action": "buy_on_dip",
+      "target_pct": 5.0,
+      "target_usd": 5000,
+      "shares_at_165": 30,
+      "shares_at_175": 28,
+      "rationale": "13명 페르소나 만장일치 (0 bearish), 다각화 risk profile, AI 노출 trajectory 강함. 1/3 분할 매수 (165·175·185 USD)."
+    },
+    {
+      "ticker": "NVDA",
+      "action": "maintain_or_buy_at_target",
+      "target_pct": 6.0,
+      "target_usd": 6000,
+      "shares_at_205": 29,
+      "shares_at_220": 27,
+      "rationale": "fwd_PE 18은 합리적, FCF 강력, 광통신 수직통합 thesis. 단 cycle/ASIC tail risk 인지하고 230+에서는 trim."
+    },
+    {
+      "ticker": "COHR",
+      "action": "wait_for_pullback",
+      "target_pct": 2.0,
+      "target_usd": 2000,
+      "shares_at_275": 7,
+      "rationale": "thesis fit 좋으나 +394% rally 소화 필요. -20% 이상 하락 시 1/3 분할 매수 시작."
+    },
+    {
+      "ticker": "LITE",
+      "action": "avoid",
+      "target_pct": 0.0,
+      "target_usd": 0,
+      "rationale": "+1366% rally는 신규 entry 부적합. 보유 시 trim. 보수적 PM은 신규 진입 0%."
+    }
+  ],
+  "total_proposed_allocation_pct": 13.0,
+  "cash_reserve_pct": 87.0,
+  "expected_portfolio_metrics": {
+    "weighted_beta": 1.62,
+    "weighted_fwd_pe": 28.5,
+    "weighted_dividend_yield_pct": 0.6,
+    "expected_annual_return_base_case_pct": 8.5,
+    "expected_max_drawdown_pct": -28.0,
+    "sharpe_ratio_estimate": 0.85
+  },
+  "non_optical_hedge_suggestions": [
+    "NVDA exposure의 hedge로 AVGO 또는 TSM 1-2% (하이퍼스케일러 자체 ASIC 수혜)",
+    "AI capex 둔화 hedge로 defensive sector (PG·KO·UNH) 5-10%",
+    "AI 인프라 ETF (BOTZ·AIQ·ARKW)로 다각화 가능 — 단 GLW·NVDA 중복 노출"
+  ],
+  "review_schedule": {
+    "next_check": "2026-05-20 (NVDA Q1 실적 발표 후)",
+    "monthly_review": "AI capex guidance + ASIC 점유율 trend 추적",
+    "quarterly_rebalance": "신호 점수 재계산 + position trim/add 결정"
+  }
+}
