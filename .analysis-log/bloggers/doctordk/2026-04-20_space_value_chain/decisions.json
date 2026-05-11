@@ -1,0 +1,141 @@
+{
+  "evaluation_date": "2026-05-10",
+  "framework": "Portfolio Manager — 페르소나 컨센서스 + Risk Manager + thesis alignment 통합 의사결정",
+  "decision_methodology": "signal_score = (bullish_pct - bearish_pct) × avg_confidence × thesis_alignment_factor / risk_score_multiplier",
+  "decisions": [
+    {
+      "ticker": "MP",
+      "name_kr": "MP 머티리얼스",
+      "rank": 1,
+      "verdict_pm": "ACCUMULATE",
+      "action": "buy",
+      "signal_score": 0.78,
+      "target_position_pct": 4.5,
+      "max_position_pct": 5.5,
+      "entry_strategy": "현재가 -10% 이내 (60 USD 이하) 1/3 분할 매수. DoD $1.1B floor price + 다중 thesis(우주+EV+풍력+방산) convergence가 entry timing 압박을 완화.",
+      "thesis_alignment": "high — 의교창 thesis의 Layer 3 supply chain leverage 직접 수혜 (T5의 '원자재가 가장 먼저 가장 크게 수혜')",
+      "consensus_signal": "13명 중 10명 lean_bullish 이상, 0명 bearish — 가장 합의된 종목",
+      "why_top_pick": [
+        "13명 중 0명 bearish — 5종목 중 유일하게 bearish vote 0",
+        "DoD $1.1B floor price = downside 강한 cushion (다른 종목에 없는 unique feature)",
+        "Multi-thesis convergence: 우주 + EV + 풍력 + 방산 동시 demand → 단일 thesis dependency 회피",
+        "Mountain Pass + Stillwater = 비중국 vertical integration 1-6단계 unique asset",
+        "Buffett·Munger·Druckenmiller·Wood·Burry 모두 lean_bullish 이상 (스타일 5개 동의)"
+      ],
+      "monitoring_triggers": ["NdPr 가격 $100/kg 이상 유지", "Stage III metalization 가동 분기 매출 인식 확인", "China rare earth export ban 정책 변경 모니터링"]
+    },
+    {
+      "ticker": "HXL",
+      "name_kr": "헥셀",
+      "rank": 2,
+      "verdict_pm": "ACCUMULATE",
+      "action": "buy",
+      "signal_score": 0.65,
+      "target_position_pct": 4.0,
+      "max_position_pct": 6.0,
+      "entry_strategy": "현재가 또는 -5% 구간(90-95 USD)에서 1/2 분할 매수. Beta 1.10 + vol 33%로 5종목 중 가장 안정적 — 분할 횟수 2회면 충분.",
+      "thesis_alignment": "high — 의교창 thesis의 Layer 4 specialty materials 직접 수혜 (T6의 '대체 불가능성 = 가격 결정력')",
+      "consensus_signal": "13명 중 9명 lean_bullish 이상, 0명 bearish",
+      "why_rank_2": [
+        "Beta 1.10 + vol 33% = 5종목 중 가장 risk-controlled entry",
+        "Aerospace composites oligopoly (HXL·Toray·Solvay·Mitsubishi 4사) — strategic moat",
+        "Boeing 737/787 + Airbus A320/A350 + 우주 + UAM eVTOL 다중 cross-sell buffer",
+        "Buffett·Munger·Lynch·Fisher·Ackman 모두 lean_bullish — quality compounder thesis 지지",
+        "Cathie Wood만 neutral (composites는 mature platform)"
+      ],
+      "key_concerns": [
+        "Boeing 737 MAX cycle peak 우려",
+        "우주 매출 비중 < 10% — 'space thesis dilution' 인정"
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "name_kr": "로켓랩",
+      "rank": 3,
+      "verdict_pm": "ACCUMULATE_ON_PULLBACK",
+      "action": "buy_on_dip",
+      "signal_score": 0.42,
+      "target_position_pct": 3.0,
+      "max_position_pct": 4.0,
+      "entry_strategy": "현재가 -15-20% 구간 (85-90 USD 이하)에서 1/3 분할 시작. SpaceX IPO 발표 직전 매수 우선순위. Neutron 첫 발사(2026 H2) catalyst 후 추가 매수 검토.",
+      "thesis_alignment": "very_high — 의교창 Layer 1 infrastructure pure-play",
+      "consensus_signal": "46.2% bullish vs 23.1% bearish (3 bear: Graham·Pabrai·Burry는 valuation 우려)",
+      "why_rank_3": [
+        "SpaceX IPO catalyst의 가장 직접적 spillover 수혜자",
+        "Wood·Druckenmiller·Lynch·Fisher·Taleb 모두 lean_bullish 이상 (growth + macro + risk lens 동의)",
+        "Neutron rocket 진입 시 SpaceX의 'second alternative' 독점 위치 가능"
+      ],
+      "key_concerns": [
+        "+357% 1Y rally → mean-reversion risk",
+        "Negative FCF + capital raise 압박",
+        "Starship 양산 후 Neutron 경쟁 위협",
+        "Burry·Graham·Pabrai bearish: valuation overshoot + 'priced for perfection'"
+      ]
+    },
+    {
+      "ticker": "ASTS",
+      "name_kr": "AST 스페이스모바일",
+      "rank": 4,
+      "verdict_pm": "SPECULATIVE_BUY_SMALL",
+      "action": "speculative_position",
+      "signal_score": 0.18,
+      "target_position_pct": 1.5,
+      "max_position_pct": 2.5,
+      "entry_strategy": "현재가 또는 -10% 이하 (67 USD 이하)에서 1/2 분할 매수. Capital raise 발표 시 dilution 후 재진입. Position size 1.5% 절대 초과 금지 — binary outcome 종목.",
+      "thesis_alignment": "very_high — 의교창의 highest-conviction blogger pick (T4 D2D paradigm shift)",
+      "consensus_signal": "46.2% bullish vs 30.8% bearish — 분열 (가장 큰 분열 + 4명 bearish)",
+      "why_rank_4_despite_thesis_fit": [
+        "Wood·Lynch·Fisher·Druckenmiller·Taleb·Jhunjhunwala lean_bullish 이상 (disruption + growth thesis 동의)",
+        "단 Buffett·Munger·Pabrai·Burry·Graham·Damodaran neutral 또는 bearish (quality·valuation 미달)",
+        "Binary outcome: 성공 시 5-10x return, 실패 시 -70-80% drawdown",
+        "Capital raise 압박 + Starlink Direct-to-Cell 직접 경쟁이 가장 큰 tail risk"
+      ],
+      "key_concerns": [
+        "Pre-commercial revenue stage — 2027+ scale 검증 필요",
+        "BlueBird Block 2 deploy 1년 지연 가능성",
+        "Capital raise dilution 30-50% 가능",
+        "Starlink Direct-to-Cell의 SpaceX 자본력 advantage"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "name_kr": "루멘텀",
+      "rank": 5,
+      "verdict_pm": "AVOID_NEW_ENTRY",
+      "action": "avoid",
+      "signal_score": -0.45,
+      "target_position_pct": 0.0,
+      "max_position_pct": 1.5,
+      "entry_strategy": "신규 진입 비권장. 보유 시 즉시 50% trim. 800 USD 이하 (-12%)에서 small position 검토 가능 — 그러나 historical mean-reversion 패턴(-50%+) 도달까지 시간 가치 매우 적음.",
+      "thesis_alignment": "high — 의교창 Layer 5 compute layer (그러나 우주 매출 < 3%로 dilution 큼)",
+      "consensus_signal": "30.8% bullish vs 30.8% bearish — 양분 (Wood만 high-conviction bullish, 나머지 caution)",
+      "why_rank_5": [
+        "+1276% 1Y rally는 광 부품주 history transcendent — mathematical mean-reversion 영역",
+        "Burry·Damodaran·Graham·Pabrai bearish chorus — 'short candidate' consensus",
+        "fwd_PE 50 = historic 평균 18의 3배 — implied growth impossibility 영역",
+        "우주 매출 비중 < 3% — 'space thesis' 매수에는 부적합 (dilution 큼)",
+        "AI capex peak proximity가 LITE의 가장 큰 cyclical risk"
+      ],
+      "key_supports": [
+        "Wood·Druckenmiller의 'AI infrastructure pure-play + photonic chip' thesis 강함",
+        "NVIDIA 광통신 파트너십 fundamental positive"
+      ]
+    }
+  ],
+  "portfolio_construction_advice": {
+    "total_target_allocation": "13.0% (5종목 합계)",
+    "concentrated_picks": "MP 4.5% + HXL 4.0% = 8.5%로 65% 집중 (가장 안정적 + 가장 합의된). RKLB·ASTS는 catalyst-driven small. LITE 회피.",
+    "diversification_notes": "5종목은 우주 5계층 분산이지만 'space thesis correlation' 평균 0.6. 외부 sector(Healthcare·Consumer Staples·Utilities·Defensive) 50%+ 유지. SpaceX IPO 발표 시점 또는 BlueBird Block 2 deploy 검증 후 ASTS·RKLB allocation 재검토.",
+    "rebalance_trigger": "SpaceX IPO 일정 발표 + BlueBird deploy 검증 + AI capex guidance 변화"
+  },
+  "scenarios": {
+    "bull_case": "SpaceX IPO 2025 H2 + BlueBird Block 2 일정대로 + AI capex 2026-2027 +30% YoY → MP +35%, HXL +25%, RKLB +60%, ASTS +200%, LITE +20%",
+    "base_case": "SpaceX IPO 2026 H1 + BlueBird 점진 ramp + AI capex +15% YoY → MP +20%, HXL +15%, RKLB +25%, ASTS +50%, LITE -25%",
+    "bear_case": "SpaceX IPO 1년 지연 + BlueBird 6개월 지연 + Starlink Direct-to-Cell 가속 + AI capex 둔화 → MP -10%, HXL -15%, RKLB -45%, ASTS -70%, LITE -55%"
+  },
+  "execution_notes": {
+    "entry_priority_order": ["1. MP (가장 합의 + downside 보호)", "2. HXL (가장 안정적 risk profile)", "3. RKLB (catalyst entry)", "4. ASTS (speculative small)", "5. LITE (회피)"],
+    "stop_loss_discipline": "5종목 모두 stop_loss 적용 — 페르소나 합의 변화 (bearish 비중 +10%pt 이상) 시 즉시 trim",
+    "tail_event_response": "SpaceX IPO 무기한 연기 발표 시 RKLB·ASTS 즉시 50% trim, MP·HXL은 hold (multi-thesis backstop)"
+  }
+}
