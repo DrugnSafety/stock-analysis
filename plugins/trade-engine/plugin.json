@@ -1,0 +1,20 @@
+{
+  "name": "trade-engine",
+  "version": "0.2.0",
+  "description": "Risk Manager + Portfolio Manager + Paper Portfolio. 변동성-조정 position 한도, signal score 기반 BUY/HOLD/SELL 결정, yfinance 기반 paper portfolio 시뮬레이션.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "homepage": "https://github.com/virattt/ai-hedge-fund (vol_multiplier 영감)",
+  "tags": ["risk-management", "portfolio-management", "paper-trading", "vol-adjusted"],
+  "skills": [
+    {"name": "risk-manager", "description": "변동성·상관관계 기반 position 한도 산출 (vol_multiplier 적용)"},
+    {"name": "portfolio-manager", "description": "verdict + persona 가중치 → signal score → BUY/HOLD/SELL 결정"},
+    {"name": "paper-portfolio", "description": "yfinance 기반 모의 portfolio 시뮬레이션 + ledger 추적"}
+  ],
+  "scripts": {
+    "calc_limits": "skills/risk-manager/scripts/calc_limits.py",
+    "make_decisions": "skills/portfolio-manager/scripts/make_decisions.py",
+    "simulate": "skills/paper-portfolio/scripts/simulate.py"
+  },
+  "important": "본 시스템은 paper portfolio simulation 전용. 실제 거래 자동 실행은 절대 수행하지 않음."
+}
