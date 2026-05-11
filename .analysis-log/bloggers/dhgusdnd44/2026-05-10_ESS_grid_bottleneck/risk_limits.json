@@ -1,0 +1,69 @@
+{
+  "risk_manager_version": "v1.2",
+  "portfolio_value_usd": 100000,
+  "evaluation_date": "2026-05-10",
+  "benchmark_volatility": 0.18,
+  "tickers": {
+    "GEV": {
+      "annualized_vol": 0.385,
+      "vol_multiplier": 0.85,
+      "vol_classification": "moderate-high",
+      "correlation_with_portfolio": 0.45,
+      "correlation_multiplier": 0.95,
+      "base_position_pct": 5.0,
+      "max_position_pct": 4.04,
+      "max_position_usd": 4040,
+      "rationale": "Beta 1.31 + vol 38.5% + 1Y +164% momentum = moderate-high vol. AI 데이터센터 + 그리드 dual cycle 노출로 분산 효과 제한적."
+    },
+    "267260.KS": {
+      "annualized_vol": 0.425,
+      "vol_multiplier": 0.78,
+      "vol_classification": "high",
+      "correlation_with_portfolio": 0.30,
+      "correlation_multiplier": 1.05,
+      "base_position_pct": 5.0,
+      "max_position_pct": 4.10,
+      "max_position_usd": 4100,
+      "rationale": "Vol 42.5% + +312% 1Y momentum 매우 큼. 한국 시장 분산 효과 일부 있어 correlation multiplier 1.05. 그러나 vol penalty가 큼."
+    },
+    "NEE": {
+      "annualized_vol": 0.225,
+      "vol_multiplier": 1.18,
+      "vol_classification": "low-moderate",
+      "correlation_with_portfolio": 0.55,
+      "correlation_multiplier": 0.92,
+      "base_position_pct": 5.0,
+      "max_position_pct": 5.43,
+      "max_position_usd": 5430,
+      "rationale": "Beta 0.72 + vol 22.5% utility 특성. Regulated FP&L 안정성으로 vol multiplier 1.18. correlation 약간 high지만 dividend cushion."
+    },
+    "ENPH": {
+      "annualized_vol": 0.55,
+      "vol_multiplier": 0.62,
+      "vol_classification": "very_high",
+      "correlation_with_portfolio": 0.25,
+      "correlation_multiplier": 1.10,
+      "base_position_pct": 5.0,
+      "max_position_pct": 3.41,
+      "max_position_usd": 3410,
+      "rationale": "Vol 55% — sector bottoming candidate이나 변동성 매우 큼. 1Y -25% 약세 cycle. 분산 효과는 우수(correlation 0.25)."
+    },
+    "FLNC": {
+      "annualized_vol": 0.75,
+      "vol_multiplier": 0.45,
+      "vol_classification": "extreme",
+      "correlation_with_portfolio": 0.35,
+      "correlation_multiplier": 1.05,
+      "base_position_pct": 5.0,
+      "max_position_pct": 2.36,
+      "max_position_usd": 2360,
+      "rationale": "Beta 2.62 + vol 75% extreme. Forward PE 203 + +401% 1Y momentum extreme. position 한도 강하게 제한."
+    }
+  },
+  "portfolio_constraints": {
+    "max_single_position_pct": 7.0,
+    "max_sector_concentration_pct": 25.0,
+    "max_total_portfolio_pct": 19.34,
+    "warning": "ESS/Grid sector concentration 19.34% — 단일 thesis 노출이 큼. 정책 reversal 시 동조 하락 risk."
+  }
+}
