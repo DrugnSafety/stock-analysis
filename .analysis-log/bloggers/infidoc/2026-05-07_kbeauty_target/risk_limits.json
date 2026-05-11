@@ -1,0 +1,98 @@
+{
+  "evaluated_at": "2026-05-07T13:30:00+09:00",
+  "evaluator": "Risk Manager (rule-based + 변동성 조정)",
+  "portfolio_total_aum_assumed_krw_bn": 1000.0,
+  "max_single_position_pct": 5.0,
+  "max_sector_pct": 15.0,
+  "kbeauty_sector_total_pct": 12.0,
+  "limits": [
+    {
+      "ticker": "460870.KQ",
+      "name": "에스엠씨지 (SMCG)",
+      "as_of_date": "2026-05-07",
+      "thesis_alignment": "very_high",
+      "panel_consensus": "BUY",
+      "current_price_krw": 3435.0,
+      "market_cap_local_bn": 67.85,
+      "volatility_metrics": {
+        "annualized_volatility": 0.6862,
+        "rolling_30d_vol": 0.42,
+        "vol_regime": "extreme"
+      },
+      "vol_multiplier": 0.50,
+      "raw_position_pct": 0.05,
+      "combined_limit_pct": 0.0113,
+      "position_limit_value": 11300000000,
+      "max_quantity": 3289000,
+      "rationale": "[actual] 1Y volatility 68.62%로 portfolio 평균 25%의 2.7배. 시총 678억 micro-cap, 일거래대금 5-10억으로 institutional liquidity 부족 — 두 factor 모두 sizing aggressive 제약. [inference] vol_mult 0.50 (변동성 normalize) × liquidity adj 적용 = 표준 5% target → 1.13% max. 단계적 매수 권장.",
+      "stop_loss_pct": -25.0,
+      "stop_loss_price_krw": 2576.0,
+      "trailing_stop_pct": 30.0,
+      "max_holding_period_months": 18,
+      "rebalance_trigger": "EV/EBITDA 14x 이상 또는 PEF M&A 발표 시 → trim"
+    },
+    {
+      "ticker": "192820.KS",
+      "name": "코스맥스",
+      "as_of_date": "2026-05-07",
+      "thesis_alignment": "medium",
+      "panel_consensus": "BUY/HOLD (mixed lean bullish)",
+      "current_price_krw": 207500.0,
+      "market_cap_local_bn": 2354.22,
+      "volatility_metrics": {
+        "annualized_volatility": 0.325,
+        "rolling_30d_vol": 0.21,
+        "vol_regime": "moderate"
+      },
+      "vol_multiplier": 0.75,
+      "raw_position_pct": 0.04,
+      "combined_limit_pct": 0.0312,
+      "position_limit_value": 31200000000,
+      "max_quantity": 150000,
+      "rationale": "[actual] Mid-cap, 변동성 32.5% 적정, 일거래대금 100억+ 충분 liquidity. ODM medium conviction. core holding 후보.",
+      "stop_loss_pct": -18.0,
+      "stop_loss_price_krw": 170150.0,
+      "trailing_stop_pct": 22.0,
+      "max_holding_period_months": 24,
+      "rebalance_trigger": "EV/EBITDA 14x 또는 K뷰티 export -10% 시 trim"
+    },
+    {
+      "ticker": "161890.KS",
+      "name": "한국콜마",
+      "as_of_date": "2026-05-07",
+      "thesis_alignment": "medium",
+      "panel_consensus": "BUY/HOLD (mixed lean bullish)",
+      "current_price_krw": 86800.0,
+      "market_cap_local_bn": 2048.92,
+      "volatility_metrics": {
+        "annualized_volatility": 0.308,
+        "rolling_30d_vol": 0.20,
+        "vol_regime": "moderate"
+      },
+      "vol_multiplier": 0.82,
+      "raw_position_pct": 0.04,
+      "combined_limit_pct": 0.0328,
+      "position_limit_value": 32800000000,
+      "max_quantity": 378000,
+      "rationale": "[actual] Mid-cap, 변동성 30.8%, ODM + HK이노엔 platform. core holding 후보.",
+      "stop_loss_pct": -18.0,
+      "stop_loss_price_krw": 71176.0,
+      "trailing_stop_pct": 22.0,
+      "max_holding_period_months": 24,
+      "rebalance_trigger": "EV/EBITDA 14x 또는 HK이노엔 segment 손실 시 trim"
+    }
+  ],
+  "portfolio_constraints": {
+    "max_kbeauty_sector_pct": 8.0,
+    "max_micro_cap_pct": 2.5,
+    "max_kosdaq_pct": 12.0,
+    "fx_hedge_required": false,
+    "rebalance_frequency_months": 3
+  },
+  "macro_overlays": [
+    "[actual] 한국 시장 small-cap discount 지속 가능성 (2026 H1) — micro-cap holding은 stress test 통과 (2σ drawdown -50% 시 portfolio impact -1.13% × -50% = -0.57%)",
+    "[inference] EU PPWR 시행 (2026 8월) 전후 sector rotation — packaging momentum tailwind",
+    "[actual] 중동 지정학 — 나프타 spike 시 plastic packaging 차질 → glass 수혜",
+    "[inference] 한국 시장 AI/반도체 쏠림 약화 시 small-cap rotation tailwind"
+  ]
+}
