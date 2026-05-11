@@ -1,0 +1,69 @@
+{
+  "ticker": "440110.KQ",
+  "company": "FADU (파두)",
+  "as_of_date": "2026-05-06",
+  "current_price_KRW": 79500,
+  "verdict": "lean_bullish_with_caveats",
+  "verdict_score": 0.30,
+  "verdict_score_interpretation": "+1.0=full bullish, +0.5=lean_bullish, 0=neutral. 0.30 = 분할매수 권장 수준이나 conviction 중간.",
+  "action": "BUY (3-tranche 분할매수)",
+  "action_size_pct_portfolio": 3.0,
+  "horizon": "12-24 months",
+  "primary_thesis_summary": "AI 데이터센터 enterprise SSD 컨트롤러 design-in lock-in + 5/5 500억 contract = 검증된 anchor customer 재계약. 26H2 흑자 전환 catalyst가 base case. 단, 단일고객 54% concentration risk + Forward PE 291 valuation premium이 양면성.",
+  "key_supporting_factors": [
+    "DART 공시 verbatim 검증 — '3년 내 동종계약 이행 이력 존재' (검증 고객 재계약)",
+    "5/5 contract 500억 / 2025 매출 924억 = 54.11%, 외형성장 확정 + 결제조건 우수 (선급금 10% + net 7일)",
+    "AI 인프라 storage 병목 narrative + Marvell·Astera Labs 인접 종목 multiple expansion 확인",
+    "13명 페르소나 패널 weighted score +0.07 (mildly positive) — Wood/Lynch/Fisher/Jhunjhunwala/Pabrai 5명 lean_bullish 이상",
+    "4-Analyst evaluation 12 thesis 중 8개 support 이상, T07(AI 병목) +4.18 / T01(매출비중) +4.0 / T04(재계약) +4.13 강한 support"
+  ],
+  "key_risk_factors": [
+    "Forward PE 291, EV/EBITDA -70.79 — narrative reversal 시 multi-quarter compression risk (Damodaran/Burry/Graham/Taleb 4명 lean_bearish)",
+    "단일 anchor 고객 54% 매출 = 즉시 -50% drawdown 트리거 가능",
+    "1Y +645% / 1M +69% — late cycle frenzy (Druckenmiller flag)",
+    "Beta 2.9 + Vol 86% — 글로벌 risk-off 시 우선 제거 대상",
+    "공시 직후 D-day 주가 하락 = market이 이미 narrative 가격화 (T10 미스프라이싱 thesis 약화)"
+  ],
+  "tranche_plan": [
+    {"tranche": 1, "price_KRW": 79500, "weight_pct_of_position": 33, "trigger": "현재가 진입", "executed_at": "2026-05-06 (signal date)"},
+    {"tranche": 2, "price_KRW": 70000, "weight_pct_of_position": 33, "trigger": "단기 -12% 조정 시"},
+    {"tranche": 3, "price_KRW": 60000, "weight_pct_of_position": 34, "trigger": "Bear scenario 근접 (-25%)"}
+  ],
+  "exit_plan": {
+    "stop_loss_KRW": 63600,
+    "take_profit_1_KRW": 95000,
+    "take_profit_2_KRW": 115000,
+    "take_profit_3_KRW": 130000,
+    "thesis_invalidation_events": [
+      "단일 고객 contract 비정상 종료 또는 단가 인하 -20%+",
+      "26Q2 실적 가이던스 -25% miss",
+      "AI capex 정점 명시 시그널 (NVDA Q-on-Q 가이던스 -30%+)",
+      "신규 contract 모멘텀 6개월 부재"
+    ]
+  },
+  "expected_value_calc": {
+    "bull_prob": 0.30, "bull_target_KRW": 130000, "bull_return_pct": 63.5,
+    "base_prob": 0.45, "base_target_KRW": 95000, "base_return_pct": 19.5,
+    "bear_prob": 0.25, "bear_target_KRW": 55000, "bear_return_pct": -30.8,
+    "weighted_expected_return_pct": 21.1,
+    "weighted_expected_target_KRW": 96250,
+    "current_price_KRW": 79500,
+    "implied_risk_reward_ratio": "1 : 1.65 (downside -16k vs upside +27k vs current)"
+  },
+  "panel_summary": {
+    "n_personas": 13,
+    "verdict_distribution": {"bullish": 1, "lean_bullish": 4, "neutral": 4, "lean_bearish": 4},
+    "weighted_avg_score": 0.07,
+    "interpretation": "근소한 positive but conflict-heavy — quality/momentum 그룹 (Wood/Lynch/Fisher) vs valuation/risk 그룹 (Damodaran/Burry/Taleb/Graham) 정확히 양분"
+  },
+  "decision_meta": {
+    "decided_at": "2026-05-06T22:55:00+09:00",
+    "decided_by": "claude-opus-4-7 (multi-agent: 13 persona panel + 4-Analyst + Risk Manager + Portfolio Manager)",
+    "framework": "MEMORY:CLAUDE.md REPORT_FORMAT_STANDARD.md",
+    "data_freshness": {
+      "market_data": "yfinance live 2026-05-07",
+      "dart_filings": "live 2026-05-06",
+      "thesis_source": "blog.naver.com/doctordk/224276811815 (2026-05-06)"
+    }
+  }
+}
