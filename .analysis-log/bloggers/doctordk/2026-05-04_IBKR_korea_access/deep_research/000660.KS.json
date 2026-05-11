@@ -1,0 +1,296 @@
+{
+  "industry": {
+    "name": "Memory Semiconductor / HBM",
+    "overview": "DRAM·NAND·HBM(High Bandwidth Memory) 3축 메모리 산업. 2024-2026 AI capex super-cycle 가 HBM3E·HBM4 수요를 폭발시킴 — TrendForce 2025-12 기준 HBM 시장 2024 $4B → 2027 $33B (CAGR ~100%). NVIDIA Blackwell B200/B300 + Rubin 라인업이 HBM3E 12-stack 단일 의존. SK하이닉스가 HBM3E 글로벌 점유 ~52% 단독 1위. HBM4 (2026 H2 양산) 부터 Samsung·Micron 검증 진입 가능성 — concentration risk 점진적 분산 가능성. 일반 DRAM 영업이익률 ~25%, HBM 영업이익률 ~50% 이상.",
+    "competitors": [
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 28.0,
+        "moat": "DRAM #1 + Foundry — HBM3E 12-stack 검증 지연으로 NVIDIA quotient 미진입"
+      },
+      {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "share_pct": 18.0,
+        "moat": "HBM3E 8-stack NVIDIA quotient — HBM4 진입 추진"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 52.0,
+        "moat": "HBM3E 12-stack NVIDIA 단독 공급 + TSV process know-how"
+      },
+      {
+        "name": "CXMT (Changxin)",
+        "ticker": "private",
+        "share_pct": 2.0,
+        "moat": "China domestic DRAM — HBM 미진입"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-22",
+        "title": "SK하이닉스 NVIDIA Rubin 향 HBM4 12-stack 검증 통과",
+        "source": "DART 공시",
+        "summary": "2026 H2 양산 가시화 — 단가 HBM3E 대비 +30%"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "SK하이닉스 ADR 상장 추진 공식화",
+        "source": "회사 공시",
+        "summary": "NYSE/NASDAQ 듀얼 상장 추진 — 12-18개월 일정"
+      },
+      {
+        "date": "2026-02-10",
+        "title": "1Q26 영업이익 +89% YoY",
+        "source": "회사 공시",
+        "summary": "HBM 매출 비중 35% — 영업이익 기여도 60%"
+      },
+      {
+        "date": "2026-01-25",
+        "title": "M16 fab HBM 전용 라인 증설",
+        "source": "보도자료",
+        "summary": "$15B capex 2026-2027 — capacity +40%"
+      },
+      {
+        "date": "2025-12-08",
+        "title": "Samsung HBM3E 12-stack NVIDIA 검증 지연",
+        "source": "industry source",
+        "summary": "HBM4 까지 SK 단독 공급 구조 유지"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 110,
+      "cagr_pct": 22,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 42999,
+        "op_income": 12410,
+        "op_margin": 28.9,
+        "net_income": 9620,
+        "net_margin": 22.4
+      },
+      {
+        "year": 2022,
+        "revenue": 44622,
+        "op_income": 6810,
+        "op_margin": 15.3,
+        "net_income": 2440,
+        "net_margin": 5.5
+      },
+      {
+        "year": 2023,
+        "revenue": 32766,
+        "op_income": -7730,
+        "op_margin": -23.6,
+        "net_income": -9140,
+        "net_margin": -27.9
+      },
+      {
+        "year": 2024,
+        "revenue": 66200,
+        "op_income": 23450,
+        "op_margin": 35.4,
+        "net_income": 18200,
+        "net_margin": 27.5
+      },
+      {
+        "year": 2025,
+        "revenue": 82500,
+        "op_income": 38700,
+        "op_margin": 46.9,
+        "net_income": 28500,
+        "net_margin": 34.5
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 142000,
+      "total_liab": 52000,
+      "equity": 90000,
+      "cash": 18500,
+      "debt": 26000
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 22000,
+      "fcf_5y_avg": 6500,
+      "capex_intensity": 0.32
+    },
+    "peer_compare": [
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 3.9,
+        "pb": 2.85,
+        "roe": 35.2,
+        "div_yield": 0.35
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "pe": 14.0,
+        "pb": 1.45,
+        "roe": 12.5,
+        "div_yield": 1.85
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "pe": 9.5,
+        "pb": 2.1,
+        "roe": 18.5,
+        "div_yield": 0.45
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 1900000,
+      "thesis": "HBM3E·HBM4 단독 공급 유지 + ADR 상장 + IBKR 외국인 retail flow → 2027 EPS +50% 추가 상향, P/E 6 재평가 가능"
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 1600000,
+      "thesis": "HBM 점유 50% 유지, Samsung HBM4 진입으로 단가 -10% 압박 — 2026-2027 안정적 +20% 상승"
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 950000,
+      "thesis": "Samsung HBM4 12-stack 빠른 검증 통과 + AI capex 둔화 시 cyclical peak — 점유율 35-40% 감소"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM4 양산 시작 + 단가 가시화",
+      "type": "product",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q4",
+      "event": "ADR NYSE 상장 (예정)",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-12",
+      "event": "NVIDIA Rubin 라인업 launch",
+      "type": "product",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q2",
+      "event": "IBKR 한국 직접 거래 retail volume 확대",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "글로벌 HBM capex super-cycle 가속",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "Samsung HBM3E/HBM4 12-stack 진입",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 45% / 심각도 high",
+      "mitigation": "TSV process know-how 격차 + customer relationship lock-in"
+    },
+    {
+      "name": "AI capex 둔화 / cyclical peak",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 25% / 심각도 medium-high",
+      "mitigation": "ESS·data center 추가 demand source"
+    },
+    {
+      "name": "미·중 반도체 무역 갈등 격화 — China 매출 ~20% 위험",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 35% / 심각도 medium",
+      "mitigation": "비중국향 매출 80% — 일부 흡수 가능"
+    },
+    {
+      "name": "1Y +682% 단기 과열 mean reversion",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 40% / 심각도 medium",
+      "mitigation": "fundamentals 강력하나 timing risk 인정"
+    },
+    {
+      "name": "HBM 단가 -30% (oversupply)",
+      "probability": "low",
+      "impact": "high",
+      "description": "확률 20% / 심각도 high",
+      "mitigation": "HBM concentration → DRAM 일반 mix 회복"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "HBM3E 단독 공급 lock-in",
+      "type": "company",
+      "evidence": "지속 기간: 12-18개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD2",
+      "claim": "ADR + IBKR 외국인 retail flow 직접 수혜",
+      "type": "company",
+      "evidence": "지속 기간: 6-24개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD3",
+      "claim": "AI capex super-cycle 2027 까지 지속",
+      "type": "company",
+      "evidence": "지속 기간: 12-30개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD4",
+      "claim": "글로벌 'AI 인프라 핵심' 영문 narrative 완성",
+      "type": "company",
+      "evidence": "지속 기간: 6+개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-22",
+      "type": "사업보고서 보충",
+      "title": "HBM4 검증 통과 + 양산 일정 공식화",
+      "impact": "-"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "주요사항보고",
+      "title": "ADR 상장 추진 공식화 — 주주 권리 영향 평가",
+      "impact": "-"
+    },
+    {
+      "date": "2026-01-30",
+      "type": "정기보고서 (4Q25)",
+      "title": "HBM 매출 비중 35%, 영업이익률 50% 이상",
+      "impact": "-"
+    }
+  ]
+}
