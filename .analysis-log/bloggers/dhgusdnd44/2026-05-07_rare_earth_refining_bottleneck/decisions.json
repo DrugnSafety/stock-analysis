@@ -1,0 +1,98 @@
+{
+  "decided_at": "2026-05-07",
+  "framework": "Portfolio Manager — verdict aggregation × risk limits × thesis alignment",
+  "portfolio_value_assumption_usd": 100000,
+  "decisions": [
+    {
+      "ticker": "LYC.AX",
+      "name": "Lynas Rare Earths",
+      "action": "BUY",
+      "size_pct": 4.5,
+      "size_usd": 4500,
+      "shares_approx": 354,
+      "share_price_aud": 19.53,
+      "currency_note": "AUD denominated (USD환산 기준)",
+      "verdict_score": 4.08,
+      "rationale": "13명 페르소나 highest conviction (Ackman·Fisher·Pabrai·Munger·Druckenmiller·Taleb 모두 strong). 비중국 정제 vertical의 사실상 유일 player. fwd PE 29x = MP 54x 절반 수준 valuation. JOGMEC + Texas + Kalgoorlie Phase II 3중 catalyst.",
+      "horizon": "long_term (3-5Y core hold)",
+      "stop_loss": "$15 AUD (-23%) — 말레이시아 LAMP 라이선스 사고 시",
+      "add_trigger": "$17 AUD or 11월 유예 종료 confirmation"
+    },
+    {
+      "ticker": "ILU.AX",
+      "name": "Iluka Resources",
+      "action": "BUY",
+      "size_pct": 4.0,
+      "size_usd": 4000,
+      "shares_approx": 730,
+      "share_price_aud": 8.47,
+      "verdict_score": 3.42,
+      "rationale": "2027 Eneabba 정제소 가동 catalyst trade — Damodaran의 highest conviction (DCF fair value $13-18 vs $8.47). 호주 정부 $1.65B 융자 = financing risk 거의 zero. mineral sands core가 downside cushion. Pabrai의 Dhandho framework 정확히 fit.",
+      "horizon": "medium_to_long_term (catalyst까지 18개월 + post-가동 2-3Y)",
+      "stop_loss": "$6 AUD (-29%) — 호주 정부 융자 변경 또는 Eneabba 지연",
+      "add_trigger": "$7 AUD dip 또는 Eneabba commissioning update positive"
+    },
+    {
+      "ticker": "MP",
+      "name": "MP Materials",
+      "action": "STARTER_BUY",
+      "size_pct": 2.5,
+      "size_usd": 2500,
+      "shares_approx": 36,
+      "share_price_usd": 69.13,
+      "verdict_score": 3.62,
+      "rationale": "13명 페르소나 lean_bullish이지만 valuation 우려 (fwd PE 54x, 1Y +193%). DoD $110/kg floor + 1~6단계 vertical = 미국 thesis의 핵심. 단 starter position만 — full size는 dip wait.",
+      "horizon": "long_term (5Y) — Stage III 가동 confirm 후 add",
+      "stop_loss": "$50 (-28%) — DoD floor $110 violation 또는 Stage III 지연",
+      "add_trigger": "$55 dip (-20%) 또는 Stage III commissioning update positive"
+    },
+    {
+      "ticker": "600111.SS",
+      "name": "China Northern Rare Earth",
+      "action": "SMALL_HEDGE",
+      "size_pct": 1.5,
+      "size_usd": 1500,
+      "shares_approx": 27,
+      "share_price_cny": 55.31,
+      "verdict_score": 2.85,
+      "rationale": "Hedge용 small position — 中 통제 완화 시나리오 시 비중국 player drawdown을 일부 상쇄. 단 governance + FDI 제한으로 매수 제약 (Northbound Connect 통한 Hong Kong route 권장 또는 회피).",
+      "horizon": "tactical (12-18개월) — 11월 유예 결과 confirm 후 재평가",
+      "stop_loss": "$45 (-19%) — 中 정책 급변",
+      "add_trigger": "없음 — hedge 한도 1.5% 유지"
+    },
+    {
+      "ticker": "USAR",
+      "name": "USA Rare Earth",
+      "action": "SPECULATIVE_BUY",
+      "size_pct": 1.0,
+      "size_usd": 1000,
+      "shares_approx": 38,
+      "share_price_usd": 26.38,
+      "verdict_score": 2.92,
+      "rationale": "Long-tail option — 13명 페르소나 dispersion 가장 큼 (Wood very_bullish 0.85 vs Graham very_bearish 0.85). pre-revenue + vol 136% = lottery ticket characteristics. Round Top 중희토류 + Stillwater 자석 시설 = 성공 시 10-20x potential. position size 매우 보수적.",
+      "horizon": "speculative (3-5Y, dilution risk monitoring)",
+      "stop_loss": "$15 (-43%) — 자금조달 dilution 또는 Stillwater 가동 지연",
+      "add_trigger": "없음 — initial 1% 한도, 1년 후 결과 확인 후 재평가"
+    }
+  ],
+  "portfolio_summary": {
+    "total_REE_exposure_pct": 13.5,
+    "total_REE_exposure_usd": 13500,
+    "cash_or_other_pct": 86.5,
+    "average_position_size_pct": 2.7,
+    "diversification": "5 names across US (MP, USAR), Australia (LYC, ILU), China (600111) — geographic + value chain stage 분산",
+    "thesis_concentration": "비중국 정제 vertical에 9.0% (LYC 4.5 + ILU 4.0 + MP 2.5의 일부) — 핵심 thesis 노출"
+  },
+  "rebalance_triggers": [
+    "2026년 11월 10일 (中 통제 유예 종료) — 결과에 따라 비중국 position +50% 또는 -30% 조정",
+    "MP Stage III commissioning (2026 Q4 예정) — 성공 시 MP +1.5% / 실패 시 -1%",
+    "ILU Eneabba commissioning update (2026 Q3) — 진척 매분기 update",
+    "DoD MP 추가 contract (Lynas DoD floor 추가 발표 시) — Lynas +1.0%",
+    "NdPr 가격 $50 미만 dump 시 (中 의도적 가격 전쟁) — 모든 비중국 position -50% (단 8주 이내 회복 예상)"
+  ],
+  "tail_risk_management": {
+    "max_drawdown_assumption": "REE basket -50% 시 portfolio impact -7% (max position 4.5% × -50% = -2.25% per name)",
+    "tail_hedge_options": ["KOSPI Put", "VIX Call", "USD Cash 비중 80%+ 유지"],
+    "DPA_floor_protection": "MP만 적용 — 다른 4종목은 정부 floor 없음"
+  }
+}
