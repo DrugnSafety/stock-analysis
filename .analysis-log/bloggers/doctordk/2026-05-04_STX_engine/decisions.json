@@ -1,0 +1,60 @@
+{
+    "computed_at": "2026-05-04T19:30:00",
+    "ledger_path": ".analysis-log/bloggers/doctordk/2026-05-04_STX_engine/ledger.jsonl",
+    "risk_limits_path": ".analysis-log/bloggers/doctordk/2026-05-04_STX_engine/risk_limits.json",
+    "n_decisions": 1,
+    "decisions": [
+        {
+            "ticker": "077970.KS",
+            "name": "STX엔진",
+            "date": "2026-05-04",
+            "n_verdicts": 13,
+            "verdict_breakdown": {
+                "lean_bullish": 3,
+                "neutral": 6,
+                "lean_bearish": 4
+            },
+            "signal_score": -0.032,
+            "weighted_confidence": 0.60,
+            "persona_contributions_summary": {
+                "bulls": ["cathie-wood (0.72)", "stanley-druckenmiller (0.68)", "rakesh-jhunjhunwala (0.70)"],
+                "neutrals": ["warren-buffett (0.40)", "charlie-munger (0.50)", "mohnish-pabrai (0.55)", "peter-lynch (0.62)", "phil-fisher (0.55)", "bill-ackman (0.40)"],
+                "bears": ["ben-graham (0.50)", "michael-burry (0.72)", "nassim-taleb (0.78)", "aswath-damodaran (0.65)"]
+            },
+            "action": "HOLD / WATCH",
+            "action_rationale": "(1) Signal score -0.032 = 사실상 0 (neutral) — 13명 패널 균형. (2) Bear conviction(평균 0.66)이 Bull conviction(평균 0.70)에 근접 + Burry·Taleb 같은 cycle peak 신호에 민감한 페르소나가 high conviction bearish. (3) Risk Manager 한도 5.2%(7,280만원)는 작은 pilot에 적합하나, 신규 진입 권고는 X. (4) 단기 catalyst: 2026 Q2-Q3 실적 발표 또는 데이터센터 vendor list 진입 공시 — 이때 신호 재평가.",
+            "position_size_recommended_pct": 0.0,
+            "position_size_recommended_value": 0,
+            "max_allowed_pct_if_taken": 0.052,
+            "max_allowed_value_if_taken": 72800000,
+            "stop_loss": 48000.0,
+            "take_profit": 84000.0,
+            "stop_loss_pct": -20.0,
+            "take_profit_pct": 40.0,
+            "horizon": "medium_term (6-12개월)",
+            "key_catalysts_to_watch": [
+                "2026 Q2-Q3 데이터센터향 가스엔진 첫 commercial 수주 공시",
+                "한국투자증권 2027E ROE 가이던스 25%+ 유지 여부",
+                "글로벌 hyperscaler(MS·Meta·Google) preferred vendor list 진입",
+                "Wärtsilä/HD현대중공업 데이터센터 대형 수주 발표 (sector momentum)",
+                "민수산업부 가동률 ramp-up 추이 (현 23.6% → 60%+ 시 신호 강화)"
+            ],
+            "key_risks_to_monitor": [
+                "(1) 2026 Q2 실적 가이던스 미달 시 -25 ~ -35% 조정",
+                "(2) Wärtsilä·HD현대중공업이 hyperscaler 수주 독점화로 후발주자 압박",
+                "(3) 한화엔진이 그룹 captive로 STX엔진 share 잠식",
+                "(4) Trump 2기 grid resilience act 통과 시 BTM 수요 증가 속도 둔화",
+                "(5) cycle peak — +148% 1Y 후 평균 -32% mean reversion 통계적 가능성"
+            ]
+        }
+    ],
+    "comparison_with_preceding_analysis": {
+        "preceding": "2026-05-03 한화엔진 (082740.KS)",
+        "preceding_signal_score": 0.2782,
+        "preceding_action": "lean_bullish (BUY 1, lean_bullish 7, neutral 4, lean_bearish 2)",
+        "current_signal_score": -0.032,
+        "current_action": "HOLD / WATCH",
+        "delta": "한화엔진 +0.28 → STX엔진 -0.03 = 14명 패널이 동일 thesis line에서 STX엔진을 더 보수적으로 평가",
+        "interpretation": "동일 데이터센터 BTM 가스엔진 thesis 내에서, STX엔진은 한화엔진 대비 (a) 그룹 captive 부재 (b) 글로벌 reference 부재 (c) 시총 1/3 수준 (2.4조 vs 7.4조) (d) 역사상 ROE 11% vs 가이던스 ROE 29.7% 격차 — 모든 측면에서 second-tier exposure로 판정. Bull narrative는 동일하나 execution risk가 더 큼."
+    }
+}
