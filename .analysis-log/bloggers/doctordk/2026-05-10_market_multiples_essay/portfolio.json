@@ -1,0 +1,76 @@
+{
+  "portfolio_date": "2026-05-10",
+  "portfolio_type": "paper_portfolio_proposed",
+  "base_capital_usd": 100000,
+  "positions_proposed": [
+    {
+      "ticker": "BRK-B",
+      "name_kr": "버크셔 해서웨이",
+      "allocation_pct": 7.0,
+      "allocation_usd": 7000,
+      "shares_estimate": 14.7,
+      "entry_price_usd": 475.94,
+      "role": "Portfolio anchor — Multi-decadal compounder + drawdown buffer"
+    },
+    {
+      "ticker": "005930.KS",
+      "name_kr": "삼성전자",
+      "allocation_pct": 5.0,
+      "allocation_usd": 5000,
+      "shares_estimate": 25.5,
+      "entry_price_usd": 196.04,
+      "entry_price_local": 286250,
+      "role": "Top pick — Korea fear-discount mean reversion"
+    },
+    {
+      "ticker": "AAPL",
+      "name_kr": "애플",
+      "allocation_pct": 5.0,
+      "allocation_usd": 5000,
+      "shares_estimate": 17.0,
+      "entry_price_usd": 293.32,
+      "role": "안정성 프리미엄 archetype — Services moat + cash"
+    },
+    {
+      "ticker": "NVDA",
+      "name_kr": "엔비디아",
+      "allocation_pct": 3.0,
+      "allocation_usd": 3000,
+      "shares_estimate": 13.9,
+      "entry_price_usd": 215.20,
+      "role": "AI 성장 프리미엄 tactical (small size due to cycle peak risk)"
+    },
+    {
+      "ticker": "000660.KS",
+      "name_kr": "SK하이닉스",
+      "allocation_pct": 2.0,
+      "allocation_usd": 2000,
+      "shares_estimate": 1.5,
+      "entry_price_usd": 1293.00,
+      "entry_price_local": 1888500,
+      "role": "Cyclical regime change (trim from existing — high vol)"
+    }
+  ],
+  "total_proposed_allocation_pct": 22.0,
+  "cash_reserve_pct": 78.0,
+  "expected_portfolio_metrics": {
+    "weighted_beta": 1.18,
+    "weighted_fwd_pe": 16.5,
+    "weighted_dividend_yield_pct": 1.2,
+    "expected_annual_return_base_case_pct": 9.5,
+    "expected_max_drawdown_pct": -18.0,
+    "sharpe_ratio_estimate": 0.78
+  },
+  "non_multiple_hedge_suggestions": [
+    "Healthcare exposure 5-8% (UNH·LLY·NVO) — multiple regime과 무관한 demographic tailwind",
+    "Energy exposure 3-5% (CVX·XOM) — inflation hedge + multiple compression 종목",
+    "Gold/Defense ETF 2-3% (GLD·ITA) — pure fear premium hedge for tail risk",
+    "Korean Won FX hedge — Korean position 50% currency hedged 권장"
+  ],
+  "review_schedule": {
+    "next_check": "2026-05-25 (NVDA Q1 earnings + Korea Value-Up Phase 2 가이던스)",
+    "monthly_review": "AI capex guidance · Korea governance reform progress · Buffett health update 추적",
+    "quarterly_rebalance": "신호 점수 재계산 + position trim/add 결정. Era regime change 신호 시 framework 재평가."
+  },
+  "framework_note": "본 paper portfolio는 의교창 멀티플 메타 framework의 분석적 export — 실제 거래 권유 아님. Cash 78%는 현 era regime의 valuation dispersion이 극단이라는 framework 결론을 직접 반영 (Buffett의 cash 50%+ 보유 framework과 정합)."
+}
