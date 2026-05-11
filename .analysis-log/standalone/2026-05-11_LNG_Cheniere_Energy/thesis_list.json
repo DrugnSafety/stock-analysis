@@ -1,0 +1,144 @@
+{
+  "theses": [
+    {
+      "claim": "미국 헨리허브 천연가스 가격은 LNG 수출능력(터미널·운반선) 한계로 국제시세와 디커플링되어 있음",
+      "type": "factual",
+      "timeframe": "short_term",
+      "claim_id": "T1",
+      "_source": "user_provided"
+    },
+    {
+      "claim": "2026 하반기부터 Plaquemines/Golden Pass/Corpus Christi Stage 3 등 신규 수출터미널 가동으로 미국 LNG 수출능력 30%+ 확대 → 헨리허브 가격 국제시세 수렴 + LNG운반선 수요 증가",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "claim_id": "T2",
+      "_source": "user_provided"
+    },
+    {
+      "claim": "Cheniere Energy는 신규 capacity 가동의 1차 수혜자 (Sabine Pass + Corpus Christi 합산 capacity 45+ MTPA, 미국 LNG export 1위)",
+      "type": "factual",
+      "timeframe": "medium_term",
+      "claim_id": "T3",
+      "_source": "user_provided"
+    },
+    {
+      "claim": "EU TTF vs Henry Hub 가격차 21달러는 비정상적으로 크며, 미국 LNG 수출 확대로 수렴 압력 증가",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "claim_id": "T4",
+      "_source": "user_provided"
+    },
+    {
+      "claim_id": "T5",
+      "claim": "Corpus Christi Stage 3 Train 1 상업 가동이(가) 실현되면, 시장은 본 종목의 valuation을 reprice할 가능성이 높음 (추가 5+ MTPA capacity → 영업현금흐름 +$1.5B/yr)",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        {
+          "type": "catalyst",
+          "detail": "Corpus Christi Stage 3 Train 1 상업 가동",
+          "date": "2026-Q3"
+        }
+      ],
+      "_source": "catalyst"
+    },
+    {
+      "claim_id": "T6",
+      "claim": "Q2/Q3 2026 어닝 발표이(가) 실현되면, 시장은 본 종목의 valuation을 reprice할 가능성이 높음 (신규 train 가동 시 가이던스 raise 기대)",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        {
+          "type": "catalyst",
+          "detail": "Q2/Q3 2026 어닝 발표",
+          "date": "2026-08"
+        }
+      ],
+      "_source": "catalyst"
+    },
+    {
+      "claim_id": "T7",
+      "claim": "유럽 LNG 수요 회복이(가) 실현되면, 시장은 본 종목의 valuation을 reprice할 가능성이 높음 (TTF-HH 가격차 확대 시 SPA margin 확대)",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        {
+          "type": "catalyst",
+          "detail": "유럽 LNG 수요 회복",
+          "date": "2026-2027 winter"
+        }
+      ],
+      "_source": "catalyst"
+    },
+    {
+      "claim_id": "T8",
+      "claim": "Cheniere Stage 4 FID (Final Investment Decision)이(가) 실현되면, 시장은 본 종목의 valuation을 reprice할 가능성이 높음 (장기 capacity 추가 — long-term thesis 강화)",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        {
+          "type": "catalyst",
+          "detail": "Cheniere Stage 4 FID (Final Investment Decision)",
+          "date": "2027-H1"
+        }
+      ],
+      "_source": "catalyst"
+    },
+    {
+      "claim_id": "T9",
+      "claim": "본 종목의 thesis는 다음 리스크가 현실화되지 않는다는 가정에 의존: Henry Hub 가격 상승 (수출 마진 압박) — 발생 시 Tolling fee 모델이라 직접 노출은 낮지만 spot 매출 비중 감소",
+      "type": "conditional",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        {
+          "type": "risk",
+          "detail": "Henry Hub 가격 상승 (수출 마진 압박)",
+          "probability": "medium"
+        }
+      ],
+      "_source": "risk"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "본 종목의 thesis는 다음 리스크가 현실화되지 않는다는 가정에 의존: 글로벌 LNG 공급 과잉 (Qatar, Australia, US 동시 capacity 확대) — 발생 시 2027 이후 LNG 가격 하방 압력",
+      "type": "conditional",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        {
+          "type": "risk",
+          "detail": "글로벌 LNG 공급 과잉 (Qatar, Australia, US 동시 capacity 확대)",
+          "probability": "medium-high"
+        }
+      ],
+      "_source": "risk"
+    },
+    {
+      "claim_id": "T11",
+      "claim": "본 종목의 thesis는 다음 리스크가 현실화되지 않는다는 가정에 의존: 유럽 LNG 수요 둔화 (러시아 PNG 복귀 또는 재생에너지 가속) — 발생 시 spot 매출 감소",
+      "type": "conditional",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        {
+          "type": "risk",
+          "detail": "유럽 LNG 수요 둔화 (러시아 PNG 복귀 또는 재생에너지 가속)",
+          "probability": "low-medium"
+        }
+      ],
+      "_source": "risk"
+    },
+    {
+      "claim_id": "T12",
+      "claim": "본 종목의 thesis는 다음 리스크가 현실화되지 않는다는 가정에 의존: 탄소세/Methane Tax 등 ESG 규제 강화 — 발생 시 장기적으로 LNG 수요 plateau 가능성",
+      "type": "conditional",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        {
+          "type": "risk",
+          "detail": "탄소세/Methane Tax 등 ESG 규제 강화",
+          "probability": "medium"
+        }
+      ],
+      "_source": "risk"
+    }
+  ]
+}
