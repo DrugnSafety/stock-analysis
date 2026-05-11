@@ -1,0 +1,24 @@
+{
+  "name": "sec-edgar-integration",
+  "version": "0.1.0",
+  "description": "SEC EDGAR Open Data — 미국 상장사 공시·재무제표 자동 fetch. DART의 미국 버전. API 키 불필요 (User-Agent header만 필요), rate limit 10 req/sec, 무제한 무료.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "homepage": "https://www.sec.gov/edgar/sec-api-documentation",
+  "tags": ["us-stocks", "disclosure", "financial-data", "10-K", "10-Q", "8-K", "EDGAR", "SEC"],
+  "skills": [
+    {
+      "name": "sec-disclosure-fetch",
+      "description": "ticker (예: BTU)의 최근 12개월 SEC filings (10-K/10-Q/8-K) 자동 fetch. 영향도 태깅 포함."
+    },
+    {
+      "name": "sec-financial-fetch",
+      "description": "10-K XBRL을 파싱하여 5년 P&L·BS·CF 자동 추출. us-gaap concept 매핑."
+    }
+  ],
+  "requirements": {
+    "env_variables": ["SEC_USER_AGENT (선택 — 기본값 사용 가능)"],
+    "python_packages": ["requests"],
+    "api_key_required": false
+  }
+}
