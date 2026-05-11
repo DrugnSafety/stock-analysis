@@ -1,0 +1,61 @@
+{
+  "as_of_date": "2026-05-06",
+  "portfolio_type": "paper_portfolio",
+  "base_currency": "KRW",
+  "total_aum_KRW": 100000000,
+  "ticker": "440110.KQ",
+  "current_position": {
+    "ticker": "440110.KQ",
+    "company": "FADU (파두)",
+    "shares": 0,
+    "avg_cost_KRW": 0,
+    "current_price_KRW": 79500,
+    "market_value_KRW": 0,
+    "unrealized_pnl_KRW": 0,
+    "unrealized_pnl_pct": 0,
+    "weight_pct": 0,
+    "status": "pre_entry"
+  },
+  "planned_action": {
+    "action": "BUY",
+    "target_weight_pct": 3.0,
+    "target_position_value_KRW": 3000000,
+    "target_shares_at_avg_price_77000": 39,
+    "tranche_schedule": [
+      {"tranche": 1, "shares": 13, "price_KRW": 79500, "value_KRW": 1033500, "trigger": "현재가 진입 (signal date)", "status": "pending"},
+      {"tranche": 2, "shares": 14, "price_KRW": 70000, "value_KRW": 980000, "trigger": "단기 -12% 조정", "status": "pending"},
+      {"tranche": 3, "shares": 17, "price_KRW": 60000, "value_KRW": 1020000, "trigger": "Bear scenario -25%", "status": "pending"}
+    ],
+    "total_planned_shares": 44,
+    "total_planned_cost_KRW": 3033500,
+    "weighted_avg_cost_KRW": 68943
+  },
+  "exit_targets": {
+    "stop_loss": {"price_KRW": 63600, "shares": 44, "implied_loss_at_full_position": -234092, "trigger": "thesis invalidation"},
+    "take_profit_1": {"price_KRW": 95000, "shares_to_sell": 15, "remaining_shares": 29},
+    "take_profit_2": {"price_KRW": 115000, "shares_to_sell": 15, "remaining_shares": 14},
+    "take_profit_3": {"price_KRW": 130000, "shares_to_sell": 14, "remaining_shares": 0}
+  },
+  "expected_outcome": {
+    "expected_target_KRW": 96250,
+    "expected_pnl_at_full_position_KRW": 1202200,
+    "expected_return_on_position_pct": 39.6,
+    "expected_return_on_portfolio_pct": 1.2,
+    "calculation_basis": "Probability-weighted scenarios (Bull 30% / Base 45% / Bear 25%)"
+  },
+  "risk_capital_at_risk": {
+    "max_loss_at_stop_loss_KRW": 234092,
+    "max_loss_pct_of_position": -7.7,
+    "max_loss_pct_of_portfolio": -0.23,
+    "comment": "분할매수 시 평균단가 68,943 대비 stop 63,600은 -7.7%. 일괄 매수 대비 -50% 절감된 risk capital."
+  },
+  "context": {
+    "ticker_in_portfolio_count": 0,
+    "sector_exposure_korean_semiconductor_pct_after_entry": 3.0,
+    "korea_KOSDAQ_exposure_pct_after_entry": 3.0,
+    "ai_infrastructure_exposure_pct_after_entry": "estimated 8-10% (depends on other holdings)",
+    "concentration_check": "단일 종목 3% — typical 5% 한도 대비 보수적. 변동성 + concentration risk 반영."
+  },
+  "next_review_date": "2026-08-15 (26Q2 실적 발표 후)",
+  "generated_at": "2026-05-06T23:00:00+09:00"
+}
