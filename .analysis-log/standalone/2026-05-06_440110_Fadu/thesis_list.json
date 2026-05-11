@@ -1,0 +1,139 @@
+{
+  "post_meta": {
+    "url": "https://blog.naver.com/doctordk/224276811815",
+    "title": "파도파도 미담만 나오는 파두",
+    "author": "의교창 (doctordk)",
+    "published_at": "2026-05-06",
+    "ticker_primary": "440110.KQ",
+    "company": "파두 (FADU)"
+  },
+  "summary_one_liner": "2026-05-05 파두의 500억 SSD 컨트롤러 공급계약(2025 매출의 54.11%)을 단순 매출 이벤트가 아니라 '실적의 구조적 불확실성 제거 + 검증된 고객 재계약 + AI 데이터센터 스토리지 컨트롤러 lock-in 포지션' 3가지를 동시 입증한 시그널로 해석. 시장은 늦게 반응한다는 미스프라이싱 thesis.",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "단일 공급계약 500억 = 2025년 매출 924억의 54.11% 비중 — 외형보다 실적의 구조적 불확실성 제거가 핵심",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "이번 공시는 단순한 매출 증가가 아니라, 실적의 불확실성이 구조적으로 제거되는 이벤트라는 점에서 의미가 매우 큽니다. (2025 매출 924억 대비 54.11%)",
+      "verifiability": "DART 단일판매·공급계약 체결 공시 확인 가능",
+      "tags": ["계약규모", "매출비중", "구조적시그널"]
+    },
+    {
+      "claim_id": "T02",
+      "claim": "SSD에서 진짜 마진은 NAND가 아닌 컨트롤러 — 공급 사이클·가격 변동성에서 자유로운 IP·소프트웨어성 부품",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "long_term",
+      "supporting_evidence": "낸드플래시는 공급 사이클을 타고 가격 변동성이 크다. 반면 컨트롤러는 다르다 — 가격 사이클이 아니라 채택 여부로 게임이 결정된다.",
+      "verifiability": "산업 마진 데이터 (Marvell·Phison·Samsung 컨트롤러 마진 비교) 확인 가능",
+      "tags": ["컨트롤러", "마진구조", "IP비즈니스"]
+    },
+    {
+      "claim_id": "T03",
+      "claim": "SSD 컨트롤러는 lock-in 구조 — 한 번 채택되면 제품 사이클(2-4년) 동안 반복 공급",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "한 번 고객사에 채택되면 제품 사이클 동안 반복 공급이 이어진다. 단발성 매출이 아닌 반복 매출(recurring) 성격.",
+      "verifiability": "Phison·Marvell 고객 retention 데이터로 verify 가능",
+      "tags": ["lock-in", "반복매출", "고객유지"]
+    },
+    {
+      "claim_id": "T04",
+      "claim": "공시 문구 '3년 내 동종계약 이행 이력 존재' = 신규 고객이 아닌 검증된 기존 고객의 재계약",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "'3년 내 동종계약 이행 이력 존재'라는 문구는 이번 계약이 신규 고객이 아니라 이미 검증된 고객과의 반복 거래임을 의미합니다. 시장이 가장 좋아하는 시그널.",
+      "verifiability": "DART 공시 원문 verbatim 검증 가능",
+      "tags": ["재계약", "검증고객", "공시문구"]
+    },
+    {
+      "claim_id": "T05",
+      "claim": "선급금 10% 수령은 단순 공급자가 아닌 '선택된 파트너' 인증 — 고객이 리스크를 일부 부담",
+      "type": "factual",
+      "importance": "supporting",
+      "timeframe": "present",
+      "supporting_evidence": "고객이 먼저 리스크를 일부 부담했다는 뜻이고, 이는 파두가 단순한 공급자가 아니라 '선택된 파트너'라는 신뢰의 증거.",
+      "verifiability": "공시 자금조건 항목 확인 가능",
+      "tags": ["선급금", "신뢰", "파트너"]
+    },
+    {
+      "claim_id": "T06",
+      "claim": "납품 후 다음 주 결제 = 운전자본·재고 리스크 제로 구조, 현금흐름 가시성 극대화",
+      "type": "factual",
+      "importance": "supporting",
+      "timeframe": "medium_term",
+      "supporting_evidence": "납품 후 다음 주 결제 — 강한 대금 지급 조건은 운전자본 부담을 낮추고 현금흐름 가시성을 극대화.",
+      "verifiability": "26Q3·Q4 cashflow statement에서 검증 가능",
+      "tags": ["대금조건", "현금흐름", "운전자본"]
+    },
+    {
+      "claim_id": "T07",
+      "claim": "AI 인프라 진짜 병목은 GPU·DRAM뿐 아니라 스토리지(SSD), 그중 컨트롤러가 가장 IP·기술집약적 레이어",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "long_term",
+      "supporting_evidence": "병목은 단순히 GPU나 DRAM에만 있는 게 아니다. 데이터를 저장하고 불러오는 스토리지 구조 자체가 병목이며, 컨트롤러가 가장 기술집약적.",
+      "verifiability": "TrendForce·IDC enterprise SSD market growth + AI data ingestion bottleneck 보고서로 verify",
+      "tags": ["AI인프라", "스토리지병목", "컨트롤러중심성"]
+    },
+    {
+      "claim_id": "T08",
+      "claim": "파두의 산업 내 포지션이 '부품 회사' → '데이터 흐름 제어 레이어'로 격상 = 멀티플 re-rating 근거",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "long_term",
+      "supporting_evidence": "포지션이 단순 부품 회사가 아니라 '데이터 흐름을 제어하는 레이어'로 격상. 산업 내 위치 자체가 멀티플 확장(re-rating)의 근거.",
+      "verifiability": "PER·EV/Sales peer compare (Marvell MRVL · Astera Labs ALAB) — 컨트롤러·인터커넥트 IP 종목 멀티플 확인",
+      "tags": ["re-rating", "포지셔닝", "밸류에이션"]
+    },
+    {
+      "claim_id": "T09",
+      "claim": "단일 공시가 (1) 고객 유지능력 + (2) 반복 가능한 매출 구조 + (3) 시스템 내 필수 포지션 3축을 동시 입증",
+      "type": "normative",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "이번 공시는 ① 고객사 유지 능력, ② 반복 가능한 매출 구조, ③ 시스템 내 필수 포지션 — 세 가지를 동시에 증명.",
+      "verifiability": "이후 분기 매출 비중·반복 발주 빈도로 검증",
+      "tags": ["3축입증", "구조완성"]
+    },
+    {
+      "claim_id": "T10",
+      "claim": "시장은 늦게 반응한다 — 숫자를 보고 나서야 구조를 이해 → 현재 주가 하락은 미스프라이싱 기회",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "short_term",
+      "supporting_evidence": "시장은 늦게 반응한다. 숫자를 보고 나서야 구조를 이해하기 때문. 주가는 오늘 빠졌네 ㅠ.",
+      "verifiability": "공시 직후 D-day 거래량·등락률 vs D+30 가격 비교로 사후 verify",
+      "tags": ["미스프라이싱", "시장반응지연"]
+    },
+    {
+      "claim_id": "T11",
+      "claim": "좋은 회사의 정의 = 실적이 좋아질 수밖에 없는 구조를 만드는 회사, 파두는 그 구조 완성 신호",
+      "type": "normative",
+      "importance": "supporting",
+      "timeframe": "long_term",
+      "supporting_evidence": "좋은 회사는 실적이 좋아지는 게 아니라, 실적이 좋아질 수밖에 없는 구조를 만든다 — 파두의 이번 계약은 그 구조 완성 신호.",
+      "verifiability": "철학적 명제 — 사후 매출 안정성·고객 다각화로 부분 verify",
+      "tags": ["구조경영철학", "지속가능성"]
+    },
+    {
+      "claim_id": "T12",
+      "claim": "이런 시그널은 한 번이 아니라 반복된다 — 향후 추가 공급계약·동일 고객 추가 발주 가능성",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "medium_term",
+      "supporting_evidence": "대개 한 번이 아니라, 반복된다 — 향후 추가 공급계약 공시·동일 고객 추가 발주 가능성을 암시.",
+      "verifiability": "26Q3·Q4 추가 공시 모니터링으로 verify",
+      "tags": ["반복시그널", "예측"]
+    }
+  ],
+  "extraction_meta": {
+    "extracted_at": "2026-05-06T22:00:00+09:00",
+    "model": "claude-opus-4-7",
+    "n_total": 12, "n_core": 7, "n_supporting": 5,
+    "verdict_implicit": "BUY/Watchlist (강한 bullish, 미스프라이싱 강조)"
+  }
+}
