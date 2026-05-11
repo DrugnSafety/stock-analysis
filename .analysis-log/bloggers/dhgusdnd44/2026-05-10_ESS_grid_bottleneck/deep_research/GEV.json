@@ -1,0 +1,240 @@
+{
+  "ticker": "GEV",
+  "name": "GE Vernova Inc.",
+  "name_kr": "GE Vernova",
+  "research_date": "2026-05-10",
+  "industry": {
+    "name": "Power Grid Equipment + Power Generation",
+    "overview": "전력망 장비(변압기·HVDC·GIS) + 발전 설비(가스터빈·풍력터빈) 통합 기업. 2024년 4월 GE에서 분사. 글로벌 utility의 grid 모더나이제이션 + AI 데이터센터 power 수요 + 재생에너지 ESS 통합 3대 메가트렌드 동시 수혜.",
+    "competitors": [
+      {
+        "name": "Hitachi Energy",
+        "ticker": "6501.T(via Hitachi)",
+        "strength": "변압기 글로벌 1위, ABB Power Grids 인수"
+      },
+      {
+        "name": "Siemens Energy",
+        "ticker": "ENR.DE",
+        "strength": "유럽 그리드·HVDC 강세, 풍력은 Siemens Gamesa"
+      },
+      {
+        "name": "ABB Ltd.",
+        "ticker": "ABB",
+        "strength": "전력 grid 자동화, motor"
+      },
+      {
+        "name": "Eaton Corporation",
+        "ticker": "ETN",
+        "strength": "Power management, 데이터센터 강세"
+      },
+      {
+        "name": "Schneider Electric",
+        "ticker": "SU.PA",
+        "strength": "유럽 grid, 데이터센터"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 280,
+      "horizon": "2024-2030",
+      "cagr_pct": 11.0,
+      "future_usd_bn": 520
+    },
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "GEV Q1 2026 backlog $135B 사상최대",
+        "impact": "+",
+        "url": "https://www.gevernova.com/news/press-releases"
+      },
+      {
+        "date": "2026-03",
+        "title": "GEV $5B HVDC 수주 (UK·Norway 해저)",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-02",
+        "title": "AI 데이터센터 PPA 가스터빈 12GW 확정",
+        "impact": "+",
+        "url": ""
+      }
+    ]
+  },
+  "financials": {
+    "currency": "USD",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 33000,
+        "op_income": -340,
+        "op_margin": -1.0,
+        "net_income": -1280,
+        "net_margin": -3.9
+      },
+      {
+        "year": 2022,
+        "revenue": 32200,
+        "op_income": -750,
+        "op_margin": -2.3,
+        "net_income": -1880,
+        "net_margin": -5.8
+      },
+      {
+        "year": 2023,
+        "revenue": 33240,
+        "op_income": 320,
+        "op_margin": 1.0,
+        "net_income": -440,
+        "net_margin": -1.3
+      },
+      {
+        "year": 2024,
+        "revenue": 34890,
+        "op_income": 1810,
+        "op_margin": 5.2,
+        "net_income": 1550,
+        "net_margin": 4.4
+      },
+      {
+        "year": 2025,
+        "revenue": 38900,
+        "op_income": 3120,
+        "op_margin": 8.0,
+        "net_income": 2890,
+        "net_margin": 7.4
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-Q4",
+      "total_assets": 38800,
+      "total_liabilities": 28200,
+      "equity": 10600,
+      "cash": 7900,
+      "total_debt": 5400
+    },
+    "cf_summary": {
+      "ocf_2025": 3850,
+      "fcf_2025": 2680,
+      "capex_2025": 1170
+    },
+    "fetched_via": "GE Vernova 10-K + Investor Day filings (estimates)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30.0,
+      "target_price": 1450,
+      "thesis": "AI 데이터센터 + 그리드 + ESS 3대 cycle 가속. Backlog $129B → $180B 2027. 영업이익률 12%+ 진입. 미국 IRA + EU GridAction Plan deliver 100%.",
+      "key_assumptions": [
+        "AI 데이터센터 + 그리드 + ESS 3대 cycle 가속. Backlog $129B → $180B 2027. 영업이익률 12%+ 진입. 미국 ..."
+      ],
+      "upside_pct": 39.4
+    },
+    "base": {
+      "prob_pct": 45.0,
+      "target_price": 1150,
+      "thesis": "Backlog 견조 + 매출 CAGR 12%. 영업이익률 점진 개선 9~11%. 미국 IRA reversal risk 일부 반영.",
+      "key_assumptions": [
+        "Backlog 견조 + 매출 CAGR 12%. 영업이익률 점진 개선 9~11%. 미국 IRA reversal risk 일부 반영...."
+      ],
+      "upside_pct": 10.6
+    },
+    "bear": {
+      "prob_pct": 25.0,
+      "target_price": 720,
+      "thesis": "AI 데이터센터 cycle 둔화 + 미국 IRA 정책 축소 + 풍력 segment 적자 지속. Forward PE 25 수준으로 multiple compression.",
+      "key_assumptions": [
+        "AI 데이터센터 cycle 둔화 + 미국 IRA 정책 축소 + 풍력 segment 적자 지속. Forward PE 25 수준으로 multiple..."
+      ],
+      "upside_pct": -30.8
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Q1 2026 실적 + backlog 발표",
+      "impact": "+/-"
+    },
+    {
+      "date": "2026-09",
+      "event": "EU GridAction Plan implementation milestone",
+      "impact": "+"
+    },
+    {
+      "date": "2026-11",
+      "event": "미국 대선 IRA 정책 reversal 가능성",
+      "impact": "-"
+    },
+    {
+      "date": "2027",
+      "event": "EU CfD 2.0 의무화 시작",
+      "impact": "+"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI 데이터센터 가스터빈 cycle 둔화 시 +30% 매출 leverage 손실",
+      "probability": "med",
+      "impact": "high",
+      "description": "AI 데이터센터 가스터빈 cycle 둔화 시 +30% 매출 leverage 손실",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "미국 IRA 정책 reversal — Section 38E 축소 시 -15% 매출 영향",
+      "probability": "low",
+      "impact": "high",
+      "description": "미국 IRA 정책 reversal — Section 38E 축소 시 -15% 매출 영향",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "변압기 capacity 글로벌 expansion — 2027~2028년 가격 정상화",
+      "probability": "med",
+      "impact": "med",
+      "description": "변압기 capacity 글로벌 expansion — 2027~2028년 가격 정상화",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "풍력 segment 손익 정상화 지연 (2024 -$1.2B 영업적자)",
+      "probability": "med",
+      "impact": "med",
+      "description": "풍력 segment 손익 정상화 지연 (2024 -$1.2B 영업적자)",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "Forward PE 42 — multiple compression risk (histori",
+      "probability": "high",
+      "impact": "high",
+      "description": "Forward PE 42 — multiple compression risk (historical mean PE 25 수준)",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    }
+  ],
+  "korean_disclosures": [],
+  "us_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "10-Q",
+      "summary": "Q1 2026 매출 +18% YoY, backlog $135B",
+      "title": "Q1 2026 매출 +18% YoY, backlog $135B",
+      "impact": "○"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "10-K",
+      "summary": "FY2025 매출 $38.9B, 영업이익률 8.0%",
+      "title": "FY2025 매출 $38.9B, 영업이익률 8.0%",
+      "impact": "○"
+    },
+    {
+      "date": "2025-12-10",
+      "type": "8-K",
+      "summary": "$5B HVDC 수주 (Britned 해저)",
+      "title": "$5B HVDC 수주 (Britned 해저)",
+      "impact": "○"
+    }
+  ],
+  "subagent_debate": {
+    "bull_druckenmiller": "AI 데이터센터 power gap이 2030까지 100GW+ 부족. GEV가 가스터빈+그리드 dual cycle을 동시 capture하는 유일 player. 18개월 forward earnings power 3배 가능.",
+    "bear_buffett": "Forward PE 42는 historical premium. 풍력 적자 지속 시 segment 분할 압력. AI cycle 둔화 시 multiple compression 30%+ 가능.",
+    "skeptic": "Backlog의 quality는? Cancel rate 모니터링 필요. 가스터빈 발주가 PPA 확정 vs LOI 단계인지 확인. 2027~2028 capacity expansion으로 oligopoly premium 약화 가능.",
+    "convergence": "Bull-Bear 모두 thesis 자체는 인정. Skeptic의 backlog quality + 2027 capacity expansion timing이 핵심 monitor variable."
+  }
+}
