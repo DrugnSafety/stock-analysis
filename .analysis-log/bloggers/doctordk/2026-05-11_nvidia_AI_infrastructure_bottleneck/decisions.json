@@ -1,0 +1,148 @@
+{
+  "as_of_date": "2026-05-08",
+  "portfolio_value_initial": 1000000.0,
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "NVDA",
+      "name": "엔비디아",
+      "as_of_date": "2026-05-08",
+      "signal_score": 0.615,
+      "panel_confidence": 0.738,
+      "verdict_distribution": {
+        "lean_bullish": {
+          "count": 9,
+          "pct": 69.2
+        },
+        "lean_bearish": {
+          "count": 1,
+          "pct": 7.7
+        },
+        "neutral": {
+          "count": 3,
+          "pct": 23.1
+        }
+      },
+      "action": "buy",
+      "rationale": "13명 페르소나 패널: 강세 9 / 중립 3 / 약세 1. signal=+0.62, conf=0.74.",
+      "position_limit_pct": 0.1577,
+      "position_limit_value": 157652.0,
+      "target_value": 71598.0,
+      "target_quantity": 332,
+      "current_price": 215.2,
+      "vol_multiplier": 0.717
+    },
+    {
+      "ticker": "COHR",
+      "name": "코히런트",
+      "as_of_date": "2026-05-08",
+      "signal_score": 0.231,
+      "panel_confidence": 0.664,
+      "verdict_distribution": {
+        "neutral": {
+          "count": 6,
+          "pct": 46.2
+        },
+        "lean_bullish": {
+          "count": 5,
+          "pct": 38.5
+        },
+        "lean_bearish": {
+          "count": 2,
+          "pct": 15.4
+        }
+      },
+      "action": "lean_buy",
+      "rationale": "13명 페르소나 패널: 강세 5 / 중립 6 / 약세 2. signal=+0.23, conf=0.66.",
+      "position_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "target_value": 16855.0,
+      "target_quantity": 50,
+      "current_price": 335.26,
+      "vol_multiplier": 0.5
+    },
+    {
+      "ticker": "LITE",
+      "name": "루멘텀",
+      "as_of_date": "2026-05-08",
+      "signal_score": 0.154,
+      "panel_confidence": 0.644,
+      "verdict_distribution": {
+        "neutral": {
+          "count": 5,
+          "pct": 38.5
+        },
+        "lean_bullish": {
+          "count": 5,
+          "pct": 38.5
+        },
+        "lean_bearish": {
+          "count": 3,
+          "pct": 23.1
+        }
+      },
+      "action": "lean_buy",
+      "rationale": "13명 페르소나 패널: 강세 5 / 중립 5 / 약세 3. signal=+0.15, conf=0.64.",
+      "position_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "target_value": 10898.0,
+      "target_quantity": 12,
+      "current_price": 903.8,
+      "vol_multiplier": 0.5
+    },
+    {
+      "ticker": "MRVL",
+      "name": "마벨",
+      "as_of_date": "2026-05-08",
+      "signal_score": 0.385,
+      "panel_confidence": 0.703,
+      "verdict_distribution": {
+        "neutral": {
+          "count": 4,
+          "pct": 30.8
+        },
+        "lean_bullish": {
+          "count": 7,
+          "pct": 53.8
+        },
+        "lean_bearish": {
+          "count": 2,
+          "pct": 15.4
+        }
+      },
+      "action": "lean_buy",
+      "rationale": "13명 페르소나 패널: 강세 7 / 중립 4 / 약세 2. signal=+0.38, conf=0.70.",
+      "position_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "target_value": 29742.0,
+      "target_quantity": 174,
+      "current_price": 170.13,
+      "vol_multiplier": 0.5
+    },
+    {
+      "ticker": "GLW",
+      "name": "코닝",
+      "as_of_date": "2026-05-08",
+      "signal_score": 0.769,
+      "panel_confidence": 0.69,
+      "verdict_distribution": {
+        "lean_bullish": {
+          "count": 10,
+          "pct": 76.9
+        },
+        "neutral": {
+          "count": 3,
+          "pct": 23.1
+        }
+      },
+      "action": "buy",
+      "rationale": "13명 페르소나 패널: 강세 10 / 중립 3 / 약세 0. signal=+0.77, conf=0.69.",
+      "position_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "target_value": 58385.0,
+      "target_quantity": 312,
+      "current_price": 186.94,
+      "vol_multiplier": 0.5
+    }
+  ]
+}
