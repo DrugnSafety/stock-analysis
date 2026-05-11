@@ -1,0 +1,19 @@
+# API keys — 절대 커밋 금지
+.env
+.env.local
+*.key
+keys/
+
+# Arena 결과 (선택적으로 커밋 가능)
+arena_results/
+*.cache.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.pytest_cache/
+
+# 임시
+/tmp/arena_*
