@@ -1,0 +1,398 @@
+{
+  "ticker": "082740.KS",
+  "name": "한화엔진 (Hanwha Engine)",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.68,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "단기과열",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett"
+      ],
+      "examples": [
+        "[actual] 1M +93% / 1Y +212% 단기 과열로 margin of safety 부재",
+        "[inference] Inversion: 신사업 미실현 시 -40% 가능 (T01·T03 Counter)",
+        "[actual] 1M +93% — 안전마진 0"
+      ]
+    },
+    {
+      "theme": "신사업 execution",
+      "frequency": 3,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger"
+      ],
+      "examples": [
+        "[inference] 데이터센터 첫 수주 timing 2026 H2 — execution risk"
+      ]
+    },
+    {
+      "theme": "Wärtsilä·HD현대 경쟁 격화",
+      "frequency": 5,
+      "personas": [
+        "michael-burry",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "ben-graham",
+        "bill-ackman"
+      ],
+      "examples": [
+        "[actual] Wärtsilä backlog $2.4B — 한화엔진 0"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 1M +93% / 1Y +212% 단기 과열로 margin of safety 부재",
+        "[inference] 신사업 매출 가시화 전 narrative pricing"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 그룹 캡티브(한화에너지) + 조선 cycle 동반 호황 dual moat",
+        "[actual] forward PE 합리적 (peer 대비)",
+        "[inference] AI 인프라 second wave 'undisruptable' 영역"
+      ],
+      "uncertainty": "신사업 첫 수주 timing — 2026 H2 실패 시 -30% 가능",
+      "narrative_vs_quant_resolution": "Buffett은 정량 우선이나 수직 협업의 long-term value를 높게 평가. 단, +212% 1Y 후 진입은 보수적으로 neutral."
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] Inversion: 신사업 미실현 시 -40% 가능 (T01·T03 Counter)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Lollapalooza: AI 전력 부족 + 한화 그룹 captive + 조선 슈퍼사이클 = favorable cluster",
+        "[actual] ROIC 자본비용 상회 가능",
+        "Munger 선호 'undisruptable infrastructure' 패턴"
+      ],
+      "uncertainty": "Lollapalooza factor 강함 — 수직 협업 시너지 실현 시 multiple expansion",
+      "narrative_vs_quant_resolution": "Munger의 favorable factor cluster 원칙에 부합. 다만 단기 과열 인정하여 lean_bullish."
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] 1M +93% — 안전마진 0",
+        "[inference] Defensive value 기준에서는 진입 timing 부적합"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 조선 cycle EPS 안정성 — defensive value 인정",
+        "장기 5년 보유 가능 시 신사업 option value"
+      ],
+      "uncertainty": "EPS 정상화 어려움 — 신사업 투자 단계",
+      "narrative_vs_quant_resolution": "Graham defensive value 기준 미달이나 신사업 narrative는 인정. neutral."
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] 1Y +212% — Heads-I-win 비율 줄어듦"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'tails I don't lose much' 측면: 조선 cash cow + 신사업 option = asymmetric",
+        "[inference] AI 인프라 second wave는 multi-bagger 가능 영역",
+        "Pabrai 선호 contrarian early-stage(+) bet"
+      ],
+      "uncertainty": "신사업 execution risk",
+      "narrative_vs_quant_resolution": "Pabrai의 비대칭 upside 원칙 — 신사업 catalyst가 작동 시 +100%, 실패 시 -30% (조선 cash cow가 buffer). lean_bullish."
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 1M +93% / 1Y +212% — bubble 신호",
+        "[inference] sell-side 가이던스 +75% YoY는 over-promised",
+        "[actual] +212% 1Y 후 평균 -28% 1Y 회복 (Korean mid-cap 데이터)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 단기 과매도 후 entry 가능"
+      ],
+      "uncertainty": "Cycle peak 단계 — Burry contrarian기준 short 가능",
+      "narrative_vs_quant_resolution": "Burry의 contrarian + cycle peak 인식 — 단기 과열 후 -30% 조정 후 재진입 시나리오. lean_bearish."
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 1Y +212% — PEG 인플레이션"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'understand the story': AI → 전력 → 엔진 narrative 명확",
+        "[inference] PEG = forward PE / earnings growth, 신사업 +75% 시 PEG <1 가능",
+        "[actual] 한국 mid-cap 'tenbagger' 가능 영역"
+      ],
+      "uncertainty": "earnings growth realization",
+      "narrative_vs_quant_resolution": "Lynch가 좋아할 명확한 narrative + 큰 시장(데이터센터). lean_bullish (high conviction)."
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "key_concerns_top3": [
+        "[inference] 라이선스 의존 가능성 — Wärtsilä·MAN ES royalty"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 한화엔진 R&D 투자 +35% YoY",
+        "[inference] '15 questions' 기준: 신사업 진입 + 그룹 시너지 + R&D 투자 = quality growth",
+        "[inference] Scuttlebutt: 한국 industry 내 한화엔진 평판 양호"
+      ],
+      "uncertainty": "product reliability 검증 — 첫 commercial site 운영",
+      "narrative_vs_quant_resolution": "Fisher의 quality growth 기준 충족. 라이선스 의존 우려는 있으나 R&D 투자로 차별화 가능. lean_bullish."
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] BTM 가스엔진은 long-term green transition 측면에서 transitional tech"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI infra disruption second wave — ARK Innovation theme 직접 부합",
+        "[inference] 'power as the bottleneck' narrative 강력",
+        "[inference] 한화 group의 SMR·hydrogen 진출 시 disruption upside"
+      ],
+      "uncertainty": "Long-term ESG sustainability — 가스엔진 phase-out timing",
+      "narrative_vs_quant_resolution": "Wood의 disruption thesis와 정확히 align. AI 전력 second wave는 ARK가 가장 적극 추진 중. lean_bullish (high conviction)."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.82,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] 1M +93% — momentum 정점 가능"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 전력 부족 + 송배전 포화 = strongest macro tailwind 2026",
+        "[inference] PJM clearing price +800%는 정책 압력 → 가스엔진 demand 증폭",
+        "Druckenmiller 선호 'big macro story' 직접 수혜"
+      ],
+      "uncertainty": "정책 변수 (Trump 2기 grid resilience act)",
+      "narrative_vs_quant_resolution": "Druckenmiller의 macro 우선 원칙 — AI 전력 시대는 그가 좋아하는 secular trend. 한국 대표 수혜주로 lean_bullish."
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[inference] Mid-cap volatility — Ackman 선호 large-cap stable cash flow와 mismatch",
+        "[inference] cyclical 노출 (조선)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 그룹 captive 안정성",
+        "[actual] forward PE 합리적"
+      ],
+      "uncertainty": "Ackman 자본 규모 vs 한화엔진 시총 mismatch (포지션 어려움)",
+      "narrative_vs_quant_resolution": "Ackman은 통상 large-cap predictable focus — 한화엔진은 그의 typical universe 외. 다만 thesis 자체는 합리. neutral."
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] 1M +93% / 1Y +212% — fragility extreme",
+        "[inference] cycle peak + narrative-driven momentum = -50% 가능 fat tail",
+        "[inference] sell-side 가이던스 +75% 자체가 anti-fragile 시그널의 반대"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 비대칭 short volatility option"
+      ],
+      "uncertainty": "Tail risk asymmetric",
+      "narrative_vs_quant_resolution": "Taleb의 anti-fragile 원칙에서 정반대 — momentum + narrative + cycle peak = fragile. lean_bearish."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 1Y +212% — 단기 매물 가능"
+      ],
+      "key_opportunities_top3": [
+        "[inference] EM growth + Korean AI infra theme = 'India bull' 한국판",
+        "[inference] 그룹 시너지는 EM family-conglomerate 정형 패턴",
+        "[inference] 5-7년 보유 시 multi-bagger 가능"
+      ],
+      "uncertainty": "단기 변동성",
+      "narrative_vs_quant_resolution": "Jhunjhunwala의 EM structural growth 기준 — 한국 AI infra theme은 그의 India tech bet과 유사 패턴. lean_bullish."
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[inference] Reverse DCF: 현재 가격이 이미 2028 매출 3조 + OPM 12% 가격화",
+        "[inference] sell-side 가이던스 hit rate 60% — base case 보수적 추정 필요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 신사업 catalyst 시 multiple expansion 가능",
+        "[inference] storytelling discipline 측면 narrative 명확"
+      ],
+      "uncertainty": "가이던스 vs realized 격차",
+      "narrative_vs_quant_resolution": "Damodaran의 reverse DCF — 현재 가격이 best-case 가격화. neutral (가이던스 hit 시 +20%, miss 시 -25%)."
+    }
+  }
+}
