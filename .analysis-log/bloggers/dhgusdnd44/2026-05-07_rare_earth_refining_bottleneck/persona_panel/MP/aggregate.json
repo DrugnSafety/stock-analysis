@@ -1,0 +1,535 @@
+{
+  "ticker": "MP",
+  "company": "MP Materials Corp.",
+  "n_personas": 13,
+  "as_of": "2026-05-07",
+  "market_data_snapshot": {
+    "price": 69.13,
+    "currency": "USD",
+    "mcap_usd_bn": 12.28,
+    "fwd_pe": 54.3,
+    "vol_ann_pct": 96.3,
+    "beta": 1.91,
+    "ret_1y_pct": 192.7
+  },
+  "verdict_distribution": {
+    "very_bullish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "very_bearish": {
+      "count": 0,
+      "pct": 0
+    }
+  },
+  "average_confidence": 0.69,
+  "weighted_average_score_1to5": 3.62,
+  "consensus_verdict": "lean_bullish",
+  "style_split": {
+    "value": {
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "borderline lean_bullish (Graham만 적자 우려로 bearish)",
+      "n_members": 4
+    },
+    "value-contrarian": {
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish (1Y +193% / fwd PE 54x = bubble territory)",
+      "n_members": 1
+    },
+    "growth": {
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "very_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "very_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "very_bullish (3/3, ARK type 종목)",
+      "n_members": 3
+    },
+    "macro": {
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "very_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "very_bullish (China retaliation + DoD floor 완벽한 macro setup)",
+      "n_members": 1
+    },
+    "activist": {
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (high-quality monopoly)",
+      "n_members": 1
+    },
+    "risk": {
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (barbell — DoD floor가 downside cap)",
+      "n_members": 1
+    },
+    "growth-em": {
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish",
+      "n_members": 1
+    },
+    "valuation": {
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (Reverse DCF: 정제 perfection 가격화)",
+      "n_members": 1
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "valuation 과열",
+      "frequency": 9,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "ben-graham",
+        "mohnish-pabrai",
+        "aswath-damodaran",
+        "peter-lynch",
+        "stanley-druckenmiller",
+        "nassim-taleb",
+        "bill-ackman"
+      ],
+      "examples": [
+        "1Y +192.7% / fwd PE 54x / vol 96% = 과열 우려"
+      ]
+    },
+    {
+      "theme": "Stage III (중희토류) 실행 risk",
+      "frequency": 7,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "michael-burry",
+        "aswath-damodaran",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "MP 중희토류 분리 2026 commercial scale 실현 — 첫 비중국 시도, execution 미입증"
+      ]
+    },
+    {
+      "theme": "Shenghe 의존성 (과거)",
+      "frequency": 4,
+      "personas": [
+        "michael-burry",
+        "mohnish-pabrai",
+        "aswath-damodaran",
+        "ben-graham"
+      ],
+      "examples": [
+        "MP는 2010-2024 정광을 중국 Shenghe에 위탁 처리 — 진정한 vertical 입증 시간 더 필요"
+      ]
+    }
+  ],
+  "universal_opportunities": [
+    {
+      "theme": "DoD $110/kg NdPr 가격 하한",
+      "frequency": 11,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "stanley-druckenmiller",
+        "bill-ackman",
+        "mohnish-pabrai",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "nassim-taleb",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "2024-12 발표 — 가격 floor가 cash flow 안정성 제공, 2011년에 없던 안전판"
+      ]
+    },
+    {
+      "theme": "1~6단계 vertical 미국 유일",
+      "frequency": 10,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "phil-fisher",
+        "bill-ackman",
+        "stanley-druckenmiller",
+        "rakesh-jhunjhunwala",
+        "nassim-taleb",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "Mountain Pass 광산 + Independence/Texas 자석 시설 + Stage III 중희토류 가동 임박 — 미국 reshoring 핵심"
+      ]
+    },
+    {
+      "theme": "방산 customer (가격 비탄력)",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "cathie-wood",
+        "stanley-druckenmiller",
+        "bill-ackman",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "F-35 / 미사일 / 핵잠수함 = 가격 무관 demand"
+      ]
+    },
+    {
+      "theme": "GM·Apple 자석 공급 계약",
+      "frequency": 7,
+      "personas": [
+        "peter-lynch",
+        "cathie-wood",
+        "bill-ackman",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "mohnish-pabrai",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "GM EV 공급 계약 (2025 시작) + Apple iPhone 자석 (2024) = blue-chip customer base"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] fwd PE 54x / 1Y +193% = margin of safety 전무",
+        "[inference] 광산-정제는 cyclical → 정상화 EPS 추정 어려움",
+        "[actual] 적자 종목 — Buffett 일반적으로 회피"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Mountain Pass = irreplaceable asset (미국 유일 대규모 REE 광산)",
+        "[actual] DoD $110/kg floor = '구조적 cash flow guarantee' — 보험회사식 가치",
+        "[inference] 'Simple beautiful business' — 광물 캐고 자석 만드는 단순함, undisruptable demand"
+      ],
+      "uncertainty": "fwd PE 54x — 향후 5년 평균 ROE 30%+ 입증해야 정당화. Stage III 가동 + 가격 회복 동시 필요.",
+      "narrative_vs_quant_resolution": "정량 PE는 부담스럽지만, 'wide moat + 가격 floor + 국가 안보 비대칭'이 정성으로 압도. lean_bullish (0.55 — full bullish 못 가는 이유는 valuation)."
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] '단기에 모두가 좋다고 생각하는 종목' — Munger 회피 신호",
+        "[inference] Stage III execution risk (중희토류는 unproven outside China)",
+        "[actual] CapEx 무거움 — multi-year 자본 침수"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Mental model: '30년 단절된 산업 재건은 30년 걸린다' = MP의 lead가 multi-decade moat",
+        "[inference] '국가 안보 차원 single point of failure' — 미 정부 무한 지원",
+        "[inference] Lollapalooza: 정부 지원 + 방산 demand + 전기화 + 기술 lock-in = 4중 tailwind"
+      ],
+      "uncertainty": "Munger 일반적으로 '중국 노출 안 하지만, 反중국 bet은 OK' — MP는 후자에 fit.",
+      "narrative_vs_quant_resolution": "Munger의 'Multidisciplinary mental models': 정치 + 화학 + 군사 + macro 모두 한 방향. 정량 PE는 fragmentation으로 무시. 0.65."
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_to_long_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] PEG 분석 어려움 (적자 → forward EPS only)",
+        "[inference] '내가 사용하는 제품?' Lynch heuristic — 일반인이 NdFeB 자석 모름",
+        "[actual] cyclical = Lynch 가장 어려워하는 카테고리"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'Story stock with multiple stories' — 정제 + 자석 + 방산 + EV 4개 angle",
+        "[inference] '월스트리트 안 보는 곳' — 대형 sell-side 커버리지 적음 (2024 시작)",
+        "[inference] 'Tenbagger candidate' — 시총 $12B vs end-state $50-100B 가능 (2030)"
+      ],
+      "uncertainty": "PEG 산정 불가하지만 forward 5Y growth +50% 가정 시 PEG 1x 수준. Lynch 평소 PEG <1 선호하지만 secular growth 인정.",
+      "narrative_vs_quant_resolution": "정성 stories 우세, 정량은 'too early to PEG'. lean_bullish 0.72."
+    },
+    "cathie-wood": {
+      "verdict": "very_bullish",
+      "confidence": 0.85,
+      "horizon": "5_year",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] ARK methodology: 5Y price target 산정 시 magnet pricing assumption sensitive",
+        "[actual] vol 96% — ARK 일반적으로 high-vol holdings 인정",
+        "[inference] BYD·테슬라의 희토류-free 모터 시도 — disruption from below"
+      ],
+      "key_opportunities_top3": [
+        "[inference] ARK 5 platforms: AI (데이터센터 자석), Robotics (옵티머스), Energy storage (풍력), Multi-omics (의료기기), Public blockchain — REE는 4/5에 enabling material",
+        "[inference] 'Disruptive innovation enabler' — 정확히 ARK style",
+        "[inference] Bear case + Bull case ARK price target spread 가장 큼 (10x potential)"
+      ],
+      "uncertainty": "ARK 통상 'innovation-driven companies' 선호 — MP는 광산이라 hybrid. 단 자석 vertical이 innovation 부분.",
+      "narrative_vs_quant_resolution": "ARK는 narrative 우선. 5 disruption pillars 중 4개에 enabling = top conviction level. 0.85."
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "12_to_18_months",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 1Y +193% / vol 96% / fwd PE 54x = textbook bubble",
+        "[inference] '모두가 인식하는 thesis' — alpha 소진, mean reversion 임박",
+        "[actual] 적자 + 무거운 CapEx → 자금 조달 dilution risk"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DoD floor가 진짜 'asymmetric' — 다만 가격 below floor일 때만 작동",
+        "[inference] 일부 weak hand 매도 시 contrarian re-entry 가능",
+        "[inference] 'big short' 반대 — REE는 supply가 진짜 부족, hype가 아님"
+      ],
+      "uncertainty": "Burry: 'I prefer to hold cash and wait for better setup' — 현재 가격 매수 정당화 어렵다고 본다.",
+      "narrative_vs_quant_resolution": "정량 (PE/vol)이 정성을 압도. Burry는 '가격이 좋을 때만 산다' — 현재 가격은 fair value 이상. 0.55 lean_bearish."
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "asymmetric/long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] vol 96% = '가짜 변동성과 진짜 변동성 구분 어려움'",
+        "[inference] 단기 비축 unwind = -50% drawdown 가능",
+        "[inference] DoD floor도 정치적 risk (정권 교체)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Antifragile: '지정학 chaos 클수록 가치 상승' — MP는 black swan에 +",
+        "[inference] Barbell: 90% safe + 10% MP — 10% 부분의 long tail",
+        "[inference] 'Skin in the game' — 미국 정부가 stake 보유 (10%) = aligned"
+      ],
+      "uncertainty": "Black swan 양방향 — 통제 강화 +, 통제 완화 -. 그러나 통제 강화 확률이 더 높다고 판단.",
+      "narrative_vs_quant_resolution": "Taleb: '확률 분포 두꺼운 right tail' = barbell long. 0.65."
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "value-based",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] 적자 — Graham 'earnings power stable for 10Y' 기준 fail",
+        "[actual] PB 4x 추정 — Graham 1.5x 한도 초과",
+        "[actual] Net-Net (Working Capital) value 산출 시 deeply 음수"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Margin of Safety는 '미래 가치 vs 현재 가격' — 미래 가치가 매우 큼",
+        "[actual] DoD floor = quasi-bond floor (Graham 좋아하는 'quasi-fixed-income' 특성)",
+        "[inference] Cigar Butt가 아닌 '미국 유일 자산' — exception to Graham strict rule"
+      ],
+      "uncertainty": "Graham strict 적용 시 회피. 단 'special situations' (Stage III 같은 catalyst) 인정 시 lean_neutral 가능.",
+      "narrative_vs_quant_resolution": "정량 압도적 fail. Graham 정통 framework 따르면 회피. 0.55 lean_bearish (extreme bearish는 아님 — 자산 가치 인정)."
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term (3-5Y)",
+      "persona_kr": "빌 애크만",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] 시총 $12B — Ackman concentrated portfolio 진입 가능 (mid-cap 한계)",
+        "[inference] 경영진 alignment 수준 미확인",
+        "[actual] vol 96% — Ackman 좋아하는 'predictable cash flow' 부재"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'High-quality monopoly' — 미국 내 사실상 유일 player (Ackman의 'quality moat' 기준 fit)",
+        "[inference] 'Catalyst rich' — Stage III + GM·Apple 계약 + DoD 추가 contract",
+        "[inference] '국가 안보 차원 unsellable' = anti-takeover protection"
+      ],
+      "uncertainty": "Ackman 통상 mature business 선호. MP는 emerging. 단 secular thesis 명확.",
+      "narrative_vs_quant_resolution": "정성 (monopoly + catalyst)이 정량 (PE)을 압도. 0.70."
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] Dhandho '동전 던지기 + 앞 면 = 큰 이익, 뒷 면 = 작은 손실' — 현재 PE 54x = 뒷 면 시 -50% 가능",
+        "[inference] '복제' — Buffett·Druckenmiller·Munger 다수 보유? 미확인",
+        "[actual] 시총 $12B — 가격 매력 부족"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'Spawner' — Stage I (광산) → Stage II (분리) → Stage III (자석) 다음 leg 비즈니스 spawn",
+        "[inference] 'Few high-conviction bets' — REE는 high-conviction macro candidate",
+        "[inference] '경영진 skin in the game' — Litinsky 가족 + DoD stake"
+      ],
+      "uncertainty": "Pabrai의 'low risk + high uncertainty' framework — MP는 'high risk + high uncertainty' 부분.",
+      "narrative_vs_quant_resolution": "정성 fit하지만 가격이 매력 없음. wait for better entry. 0.55 neutral."
+    },
+    "phil-fisher": {
+      "verdict": "very_bullish",
+      "confidence": 0.78,
+      "horizon": "very_long_term (10Y+)",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[inference] 15-point 중 'top management depth' — 새 management team, track record 부족",
+        "[actual] '잠재 매출 5년 두 배' = 검증 가능 (60Y record 기간 제외)",
+        "[inference] 'profitable yet investing in growth' — 적자 → fail"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Scuttlebutt: 'GM·Apple·DoD 모두 지목한 supplier' — 다중 OEM 검증",
+        "[inference] '잠재적 매출 5년 두 배' 충족 (DoD floor + Stage III)",
+        "[inference] 'R&D 투입 규모' = Stage III investment $1B+ — 적극 R&D"
+      ],
+      "uncertainty": "Fisher 'common stocks uncommon profits' framework: 매수 후 hold. MP는 hold 가치 있음.",
+      "narrative_vs_quant_resolution": "Fisher 정성 압도. 15-point 중 12개 통과 추정. 0.78."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[inference] EM-style growth investor — US 대형주는 일반적으로 회피",
+        "[actual] vol 96% — EM 수준",
+        "[inference] India equivalent 부재 (Vedanta·Tata 일부 lithium/copper은 있으나 REE는 없음)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'Structural growth at right price' — REE secular는 EM-style",
+        "[inference] 'Bet on the country' — Modi 인도 정책과 유사한 'America First minerals'",
+        "[inference] 'Long-term compounding' — 30년 thesis"
+      ],
+      "uncertainty": "Jhunjhunwala India focus + EM bias — MP는 'EM-style 성장 in DM' fit.",
+      "narrative_vs_quant_resolution": "정성 우세. 0.70."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "very_bullish",
+      "confidence": 0.85,
+      "horizon": "12_to_36_months",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] 1Y +193% — 단기 차익실현 매물 가능 (Druckenmiller 단기 trading 우수)",
+        "[inference] 11월 유예 종료가 'priced in' 정도 미확인",
+        "[inference] 트럼프 정책 변동성 (DoD floor 변경 가능)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'Macro perfect storm' — 美中 trade war + REE supply + DoD support 3중 catalyst",
+        "[inference] 'Concentrated bet on what works' — top 5 thesis 중 하나 가능",
+        "[inference] 'Riding policy momentum' — Druckenmiller 80년대 일본 plaza accord 같은 macro trade"
+      ],
+      "uncertainty": "Druckenmiller는 entry timing 중시 — 단기 dip 시 add. 현재 가격에서 starter position OK.",
+      "narrative_vs_quant_resolution": "Druckenmiller: 'When you're right, bet big.' — top conviction macro thesis. 0.85."
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "DCF_based",
+      "persona_kr": "아스왓 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] Reverse DCF — 현재 가격 정당화 위해 향후 10년 매출 CAGR 35%+ 필요",
+        "[actual] EBITDA margin 30%+ 가정 (현재 negative)",
+        "[inference] Discount rate 12% (high beta 1.91 + cyclical) — 보수적 가정 시 가치 < 가격"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'Real options value' — Stage III + 신규 contract = optionality",
+        "[inference] 'Story stock' — Damodaran 인정 (단 narrative 검증 필요)",
+        "[inference] DoD floor = 'embedded put option' — 가치 산정 가능"
+      ],
+      "uncertainty": "DCF는 'too high uncertainty' — Damodaran fair value $40-90 wide range.",
+      "narrative_vs_quant_resolution": "Damodaran: '둘 다 봐야 한다.' — 현재 가격은 'priced for perfection'. neutral 0.55."
+    }
+  },
+  "thesis_alignment_analysis": {
+    "T1_정제병목론": "10/13 personas explicitly 인정 — MP의 1~6단계 vertical은 thesis와 완벽 fit",
+    "T2_11월유예종료": "8/13 personas as bullish catalyst — Druckenmiller·Wood·Ackman 등이 직접 거론",
+    "T3_5중해자": "11/13 personas 인정 — Munger·Fisher·Pabrai 명시적 'unbridgeable moat' 언급",
+    "T6_중희토류비대칭": "9/13 personas 'Stage III가 game changer' — 단 execution risk 우려도 동시",
+    "T7_DoD_floor": "11/13 personas 'asymmetric anchor' — Taleb·Buffett 강조, 2011년에 없던 안전판",
+    "T8_광산vs정제mispricing": "MP는 vertical이라 partial fit — Lynas보다 alpha 작음"
+  }
+}
