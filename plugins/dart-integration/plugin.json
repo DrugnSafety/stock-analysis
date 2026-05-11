@@ -1,0 +1,26 @@
+{
+  "name": "dart-integration",
+  "version": "0.1.0",
+  "description": "DART (전자공시) Open API 통합 — 한국 상장사 공시·재무제표 자동 fetch + 분석 보고서에 자동 통합",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "homepage": "https://opendart.fss.or.kr",
+  "tags": ["korean-stocks", "disclosure", "financial-data", "DART", "FSS"],
+  "skills": [
+    {
+      "name": "dart-disclosure-fetch",
+      "description": "특정 종목(ticker)의 최근 12개월 DART 공시를 자동 fetch하여 영향도 태깅된 timeline 생성",
+      "trigger_keywords": ["DART 공시", "전자공시", "공시 조회", "사업보고서", "분기보고서"]
+    },
+    {
+      "name": "dart-financial-fetch",
+      "description": "DART 사업보고서 XBRL을 파싱하여 5년 P&L·BS·CF 자동 추출",
+      "trigger_keywords": ["DART 재무", "사업보고서 재무제표", "5년 손익", "재무제표 자동"]
+    }
+  ],
+  "requirements": {
+    "env_variables": ["DART_API_KEY"],
+    "python_packages": ["requests", "xmltodict"],
+    "free_signup": "https://opendart.fss.or.kr/uss/umt/EgovMberInsertView.do"
+  }
+}
