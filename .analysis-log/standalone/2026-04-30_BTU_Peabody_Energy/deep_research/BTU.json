@@ -1,0 +1,130 @@
+{
+  "industry": {
+    "name": "미국 석탄 채굴 산업 (Coal Mining)",
+    "overview": "미국 석탄 산업은 thermal (발전용) + metallurgical (제철 원료탄) 두 segment로 구분. Thermal은 미국 발전 비중 1990년 50% → 2024년 16%로 감소 추세이지만, 2024-2025년 plant retirement 일정 후퇴 + AI 데이터센터 수요 가속화로 단기 회복 신호. Metallurgical은 인도·동남아 철강 capa 확장으로 구조적 demand 증가. BTU는 PRB (Powder River Basin) thermal + NAPP·CAPP·Centurion (호주) metallurgical 양면 portfolio. 미국 thermal coal market share 18%, 글로벌 met-coal 8%. ESG transition 압력에도 cycle 회복 + 정책 후퇴로 'second life' 시나리오.",
+    "competitors": [
+      {"name": "Peabody Energy", "ticker": "BTU", "share_pct": 18.0, "moat": "PRB low-cost thermal + Centurion 신규 met-coal capa"},
+      {"name": "Arch Resources", "ticker": "ARCH", "share_pct": 13.0, "moat": "West Virginia met-coal pure-play"},
+      {"name": "Alpha Metallurgical", "ticker": "AMR", "share_pct": 11.0, "moat": "Appalachian premium met-coal"},
+      {"name": "Warrior Met Coal", "ticker": "HCC", "share_pct": 8.5, "moat": "Alabama met-coal — coastal export 우위"},
+      {"name": "CONSOL Energy", "ticker": "CEIX", "share_pct": 7.5, "moat": "Pennsylvania thermal + 자체 export terminal"},
+      {"name": "Glencore", "ticker": "GLEN.L", "share_pct": 12.0, "moat": "글로벌 trading + Australia 자산"},
+      {"name": "Teck Resources", "ticker": "TECK", "share_pct": 9.0, "moat": "Canada steelmaking coal — 다각화"}
+    ],
+    "news": [
+      {"date": "2026-04-15", "title": "EIA, 2025년 미국 thermal coal consumption +5.8% YoY 보고",
+       "source": "EIA Monthly Energy Review", "summary": "2024년 +3.2% 가속화 — gas peaker 부족 + AI 전력 수요 driver"},
+      {"date": "2026-03-28", "title": "Vistra Energy, Texas coal plant 3기 운영 연장 발표 (2030 → 2035)",
+       "source": "Vistra IR", "summary": "PJM·ERCOT capacity emergency 대응. BTU PRB 직접 수혜"},
+      {"date": "2026-03-10", "title": "India Tata Steel + JSW 신규 blast furnace 6기 발주 — met-coal demand +15 Mt/year",
+       "source": "Indian Steel Ministry", "summary": "BTU·HCC·AMR 호주·미국 met-coal 직접 수혜"},
+      {"date": "2026-02-20", "title": "Trump 행정부 EPA 'Clean Power Plan 2.0' 폐기 절차 시작",
+       "source": "EPA Federal Register", "summary": "Coal plant retirement 의무화 후퇴 — 'coal terminal decline 시점 연기' thesis 강화"},
+      {"date": "2025-11-08", "title": "Microsoft Three Mile Island nuclear PPA 가동 시작",
+       "source": "Constellation Energy", "summary": "AI 데이터센터의 carbon-free 24/7 약속 부분적 실현 — but coal 수요는 단기 유지"}
+    ],
+    "market_size": {"current_usd_bn": 28.5, "cagr_pct": 2.5, "horizon": "2024-2030"}
+  },
+  "financials": {
+    "pl_5y": [
+      {"year": 2020, "revenue": 2880, "op_income": -1850, "op_margin": -64.2, "net_income": -1828, "net_margin": -63.5},
+      {"year": 2021, "revenue": 3318, "op_income": 130, "op_margin": 3.9, "net_income": 360, "net_margin": 10.8},
+      {"year": 2022, "revenue": 4982, "op_income": 1450, "op_margin": 29.1, "net_income": 1287, "net_margin": 25.8},
+      {"year": 2023, "revenue": 4933, "op_income": 880, "op_margin": 17.8, "net_income": 759, "net_margin": 15.4},
+      {"year": 2024, "revenue": 4448, "op_income": 480, "op_margin": 10.8, "net_income": 343, "net_margin": 7.7}
+    ],
+    "bs_snapshot": {"total_assets": 5200, "total_liab": 2100, "equity": 3100, "cash": 750, "debt": 310},
+    "cf_summary": {"ocf_5y_avg": 850, "fcf_5y_avg": 580, "capex_intensity": 0.06},
+    "peer_compare": [
+      {"ticker": "BTU", "name": "Peabody Energy", "pe": 4.2, "pb": 0.65, "roe": 11.5, "div_yield": 1.85},
+      {"ticker": "ARCH", "name": "Arch Resources", "pe": 8.5, "pb": 1.20, "roe": 14.5, "div_yield": 2.50},
+      {"ticker": "AMR", "name": "Alpha Met Resources", "pe": 6.5, "pb": 1.50, "roe": 22.5, "div_yield": 0.0},
+      {"ticker": "HCC", "name": "Warrior Met Coal", "pe": 7.2, "pb": 1.35, "roe": 18.5, "div_yield": 1.20},
+      {"ticker": "CEIX", "name": "CONSOL Energy", "pe": 5.8, "pb": 1.10, "roe": 19.5, "div_yield": 1.80}
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30, "target_price": 35.0,
+      "thesis": "Trump 정책 + AI 데이터센터 + 인도 철강 3중 catalyst 동시 작용. Met-coal price $300+ 도달 + thermal capacity factor 65%+. EBITDA 2027년 $900M+",
+      "key_assumptions": [
+        "AI 데이터센터 추가 capa 30 GW (2024 → 2028) — coal dispatch 지속",
+        "Met-coal 가격 $280-320 sustained (인도 철강 demand 가속)",
+        "Trump 행정부 EPA 후퇴 + IRA 일부 reversal",
+        "BTU 자기주식 매입 가속 — shares -20% by 2027"
+      ]
+    },
+    "base": {
+      "prob_pct": 45, "target_price": 22.0,
+      "thesis": "Cyclical mid-cycle 안정. Thermal demand 점진 회복, met-coal 안정. EBITDA 2026 $550M, 2027 $620M",
+      "key_assumptions": [
+        "AI 데이터센터 일부 nuclear/renewable로 흡수 (50/50)",
+        "Met-coal 가격 $230-260 평균",
+        "Thermal coal capacity factor 55-58% (2024 56% 유지)",
+        "정책 환경 안정 (Trump 정책 partial)"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25, "target_price": 9.0,
+      "thesis": "Mild winter + 가스 가격 $2.5/MMBtu 정착 → thermal coal -15-20%. Met-coal 가격 $180 이하 (인도 철강 둔화).",
+      "key_assumptions": [
+        "Mild winter (2026-2027) → thermal coal demand 충격",
+        "Permian gas production 회복 → 가스 $3 이하",
+        "BNEF battery cost 추가 -25% → renewable 24/7 가능성 가속",
+        "Met-coal 가격 $180 이하 — supply oversupply 또는 demand 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {"date": "2026-Q2", "event": "BTU 1Q26 earnings (5월 발표 예정)", "type": "earnings",
+     "expected_impact": "+", "description": "AI 전력 수요 + thermal capacity factor 가이던스 update"},
+    {"date": "2026-Q3", "event": "Centurion (호주) project 1단계 commissioning", "type": "product",
+     "expected_impact": "+", "description": "Met-coal 캐파 +4-5 Mt/year — 2027년 매출 +$1B 가능"},
+    {"date": "2026-Q4", "event": "EIA Winter Heating Outlook + 가스 가격 가이던스", "type": "macro",
+     "expected_impact": "?", "description": "Mild winter 시나리오 vs Polar vortex 시나리오 — coal demand 결정"},
+    {"date": "2027-Q1", "event": "Trump 행정부 EPA 1주년 — 정책 deliverables 점검", "type": "policy",
+     "expected_impact": "+", "description": "Coal plant retirement 일정 추가 후퇴 가능"},
+    {"date": "2027-Q2", "event": "India 철강 capa expansion 중간 점검 (Tata Steel + JSW)", "type": "industry",
+     "expected_impact": "+", "description": "Met-coal 글로벌 demand 확정"},
+    {"date": "2026-Q3", "event": "Microsoft·Google·Amazon 2026 ESG report — AI carbon-free 약속 진척도", "type": "macro",
+     "expected_impact": "?", "description": "Carbon-free 24/7 약속 후퇴 시 coal 수요 증가 가능"}
+  ],
+  "risks": [
+    {"name": "ESG/Climate divestment 가속화", "probability": "med", "impact": "high",
+     "description": "글로벌 펀드의 coal stock 강제 매도 — 정량 매력에도 P/E re-rating 어려움 (value trap)",
+     "mitigation": "BTU 자체 자기주식 매입 + 배당으로 demand 자가 창출. Trump 정책으로 단기 risk 완화"},
+    {"name": "가스 가격 폭락 ($2.5/MMBtu 이하)", "probability": "med", "impact": "high",
+     "description": "Permian gas production 회복 시 thermal coal economic 부적합 — capacity factor -8-12%p",
+     "mitigation": "Met-coal segment (BTU의 30% 매출)이 가스 가격과 무관 — buffer 역할"},
+    {"name": "Reclamation liability 가속 발생", "probability": "low", "impact": "med",
+     "description": "환경 규제 강화 시 mine closure cost $580M → $750M+ 가능. 자본 압박",
+     "mitigation": "BTU는 매년 $80-100M 충당금 적립 중 — 5년 buffer 확보"},
+    {"name": "변동성 52% — 단기 -20% drawdown", "probability": "high", "impact": "med",
+     "description": "Coal stocks의 historical 변동성 매우 큼. 2020 -90% 사례 재발 가능성 5-10%",
+     "mitigation": "Risk Manager position size 한도 strict (10%) + put option overlay 검토"},
+    {"name": "Mild winter 2026-2027", "probability": "low", "impact": "med",
+     "description": "이상 기후 (El Niño 영향) 시 northern hemisphere heating demand -10%",
+     "mitigation": "EIA 동절기 outlook 정기 모니터링"},
+    {"name": "Trump 정책 reversal (다음 행정부)", "probability": "low", "impact": "high",
+     "description": "2029년 다음 행정부 (Democrat) 시 EPA 강화 + ESG 가속",
+     "mitigation": "Long-term thesis 재평가 시점 — 2028년 전 portfolio 정리 검토"},
+    {"name": "Met-coal 가격 $180 이하", "probability": "low", "impact": "med",
+     "description": "인도 철강 demand 둔화 + 호주 supply 증가 동시 발생",
+     "mitigation": "BTU의 cost position (production cost ~$130/톤)으로 대응 가능"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "AI 데이터센터·산업 전력 수요로 미국 thermal coal demand 가속", "type": "macro",
+     "evidence": "EIA 2025 AEO + Goldman Sachs AI power demand projection",
+     "testability": "high", "current_status": "pending"},
+    {"claim": "Met-coal demand는 인도·동남아 철강 capa 증설로 +12-15%", "type": "industry",
+     "evidence": "WSA Outlook 2025 + 인도 Steel Ministry data",
+     "testability": "high", "current_status": "confirmed"},
+    {"claim": "BTU는 deep value (PB 0.65, EV/EBITDA 3.25x, FCF yield 15.5%)", "type": "company",
+     "evidence": "BTU 1Q25 10-Q + 시장 가격",
+     "testability": "high", "current_status": "confirmed"},
+    {"claim": "ESG divestment 압력은 정점 통과 (Trump 2기 + 인도 demand)", "type": "policy",
+     "evidence": "EPA 2025 정책 후퇴 + BMI Research India·China data",
+     "testability": "med", "current_status": "pending"}
+  ],
+  "korean_disclosures": []
+}
