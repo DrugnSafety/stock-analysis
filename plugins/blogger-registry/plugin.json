@@ -1,0 +1,13 @@
+{
+  "name": "blogger-registry",
+  "version": "0.1.0",
+  "description": "8명 네이버 블로거 (메르·의교창·승도리·DaeGurr·GSVI·인피의·제주바람·농구천재) 메타데이터 + 라우팅. 각 블로거의 specialty (한국 시장·미국 시장·바이오·tanker 등) 기반 자동 분배.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "tags": ["naver-blog", "korean-finance", "blogger-metadata", "routing"],
+  "skills": [
+    {"name": "multi-blogger-collector", "description": "8명 블로거의 신규 글 cron-style 일괄 수집"},
+    {"name": "registry-loader", "description": "registry.yaml에서 블로거 메타데이터·specialty·페르소나 가중치 로드"}
+  ],
+  "data": {"registry_file": "registry.yaml"}
+}
