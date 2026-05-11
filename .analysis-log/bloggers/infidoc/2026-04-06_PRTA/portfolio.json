@@ -1,0 +1,43 @@
+{
+  "computed_at": "2026-04-30T06:51:22.146720+09:00",
+  "start_cash": 1000000.0,
+  "start_date": "2026-04-06",
+  "end_date": "2026-04-29",
+  "n_decisions": 1,
+  "total_trades": 1,
+  "total_buy_value": 73101.24,
+  "total_sell_value": 0.0,
+  "final_cash": 926898.76,
+  "end_positions_value": 79144.47,
+  "final_nav": 1006043.23,
+  "total_return_pct": 0.604,
+  "final_positions": {
+    "PRTA": {
+      "qty": 7281,
+      "avg_cost": 10.04,
+      "last_price": 10.87,
+      "market_value": 79144.47,
+      "unrealized_pnl": 6043.23,
+      "unrealized_return_pct": 8.27
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-04-06",
+      "ticker": "PRTA",
+      "action": "buy",
+      "qty": 7281,
+      "price": 10.04,
+      "cost": 73101.24,
+      "cash_after": 926898.76
+    }
+  ],
+  "benchmark_comparison": {
+    "SPY": {
+      "start_price": 659.22,
+      "end_price": 711.58,
+      "return_pct": 7.943,
+      "alpha_pct": -7.338
+    }
+  }
+}
