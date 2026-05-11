@@ -1,0 +1,507 @@
+{
+  "ticker": "440110.KQ",
+  "company": "FADU (파두)",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 4,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "stanley-druckenmiller",
+        "bill-ackman"
+      ],
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 4,
+      "personas": [
+        "ben-graham",
+        "michael-burry",
+        "nassim-taleb",
+        "aswath-damodaran"
+      ],
+      "pct": 30.8
+    },
+    "lean_bullish": {
+      "count": 4,
+      "personas": [
+        "mohnish-pabrai",
+        "peter-lynch",
+        "phil-fisher",
+        "rakesh-jhunjhunwala"
+      ],
+      "pct": 30.8
+    },
+    "bullish": {
+      "count": 1,
+      "personas": [
+        "cathie-wood"
+      ],
+      "pct": 7.7
+    }
+  },
+  "weighted_average_score": 0.07,
+  "weighted_average_score_interpretation": "+1.0=full bullish, +0.5=lean_bullish, 0=neutral, -0.5=lean_bearish, -1.0=full bearish. 파두 +0.07 = mildly positive but conflict-heavy. 한국 시장 calibration 적용 (Druckenmiller 1.5, Lynch 1.3, Burry 1.2, Buffett 0.7, Wood 0.9).",
+  "average_confidence": 0.62,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish (1/1 만장일치)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (2/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish (1/1 만장일치)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish (1/1 만장일치)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "valuation 부담",
+      "frequency": 9,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "ben-graham",
+        "mohnish-pabrai",
+        "michael-burry",
+        "peter-lynch",
+        "stanley-druckenmiller",
+        "aswath-damodaran",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "Forward PE 291",
+        "EV/EBITDA -70.79",
+        "1Y +645% parabolic"
+      ]
+    },
+    {
+      "theme": "단일 고객 concentration risk (54%)",
+      "frequency": 7,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "bill-ackman",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "stanley-druckenmiller"
+      ],
+      "examples": [
+        "단일 NAND 고객 의존",
+        "loss of customer = -50% drawdown",
+        "governance flag"
+      ]
+    },
+    {
+      "theme": "AI 인프라 super-cycle tailwind",
+      "frequency": 8,
+      "personas": [
+        "peter-lynch",
+        "cathie-wood",
+        "phil-fisher",
+        "stanley-druckenmiller",
+        "mohnish-pabrai",
+        "rakesh-jhunjhunwala",
+        "warren-buffett",
+        "charlie-munger"
+      ],
+      "examples": [
+        "enterprise SSD TAM 5년 5배",
+        "AI training data ingestion bottleneck",
+        "secular trend"
+      ]
+    },
+    {
+      "theme": "design-in lock-in moat",
+      "frequency": 6,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "phil-fisher",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "6-12개월 qualification",
+        "switching cost 큼",
+        "Marvell/Phison 패턴"
+      ]
+    },
+    {
+      "theme": "단기 momentum exhaustion (1M +69%)",
+      "frequency": 4,
+      "personas": [
+        "warren-buffett",
+        "stanley-druckenmiller",
+        "nassim-taleb",
+        "peter-lynch"
+      ],
+      "examples": [
+        "short-term reversion",
+        "차익실현 매물",
+        "late cycle frenzy"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] Forward PE 291 — margin of safety 완전 부재 (Buffett 절대 기준 위반)",
+        "[actual] 단일 고객 54% 매출 비중 = circle of competence 밖의 customer concentration risk",
+        "[inference] 6개월 단기 계약 — 'durable competitive advantage' 입증 부족"
+      ],
+      "key_opportunities_top3": [
+        "[inference] SSD 컨트롤러 design-in lock-in = wide moat 후보 (Buffett 선호 'switching cost' 패턴)",
+        "[inference] AI 인프라 무한수요 → 'undisruptable' demand 측면",
+        "[fact] 선급금 + 단기결제 = capital efficiency 우수"
+      ],
+      "uncertainty": "PE 291 어떤 시나리오에서도 margin of safety 확보 불가",
+      "narrative_vs_quant_resolution": "Buffett은 정량(margin of safety) 절대 우선 — moat 가능성 인정해도 PE 291 통과 불가. neutral은 거의 lean_bearish에 가까움.",
+      "weight": 0.7
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] 'Show me incentives, I'll show you outcome' — sell-side cheerleading 가능성",
+        "[actual] 1Y +645% — Lollapalooza의 negative side(과열·확신편향·FOMO)",
+        "[inference] Inversion: NAND 고객 1곳 잃으면 -50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Enterprise SSD 컨트롤러 = simple business with quality moat 후보",
+        "[inference] 한국 mid-cap fabless 중 design IP가 differentiated된 희귀 사례",
+        "[fact] founder-led 경영 + AI 인프라 multi-year tailwind"
+      ],
+      "uncertainty": "quality는 인정하나 가격이 quality value를 잠식 — 'wonderful business at fair price' 아닌 'wonderful at expensive price'",
+      "narrative_vs_quant_resolution": "Munger: quality > price이나 expensive을 넘어 frothy 가격은 회피. neutral.",
+      "weight": 1.0
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "벤 그레이엄",
+      "persona_en": "Ben Graham",
+      "key_concerns_top3": [
+        "[actual] PE 291, PB null/극도 high — Graham number 산출 시 모든 가치 metric 위반",
+        "[actual] NCAV/책 가치 측면 deep value 완전 부재 (cigar butt 정반대)",
+        "[actual] 1Y +645% = speculation territory, not investment territory"
+      ],
+      "key_opportunities_top3": [
+        "[fact] 신규 large contract win → enterprise value 방향성 + (Graham이 정량 입증을 신뢰하는 부분)"
+      ],
+      "uncertainty": "Graham defensive investor 기준에서 통과 항목 0/7",
+      "narrative_vs_quant_resolution": "Graham 절대 정량 — speculation 영역으로 분류, 명확한 lean_bearish.",
+      "weight": 1.0
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] '머리 위 50% upside, 발 밑 50% downside' Kelly bet 비대칭성 → 현재가 79,500 KRW에서 +50% 가능성 < 50%",
+        "[inference] Dhandho 'heads I win, tails I don't lose much' 만족 안 함 — Beta 2.9, Vol 86%"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 한국 mid-cap fabless에서 multi-year tailwind 종목은 매우 드문 셋업",
+        "[fact] 단일 large contract = 'low risk, high uncertainty' (Pabrai 좋아하는 패턴 — 알려지지 않은 catalyst가 시장에 점진 인식)",
+        "[inference] Cloning은 어려우나 산업 내 unique position = optionality"
+      ],
+      "uncertainty": "low risk-low uncertainty 영역이 아님 — 비대칭성 부족",
+      "narrative_vs_quant_resolution": "Pabrai는 narrative + 정량 균형 — narrative 강하나 비대칭성이 부족하므로 lean_bullish 약한 수준.",
+      "weight": 1.0
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 1Y +645% / 6M +218% / 1M +69% — 'AI bubble' Big Short 기억과 정합. parabolic move = squeeze imminent",
+        "[actual] Forward PE 291 = 'cult-like valuation' (Burry contrarian flag)",
+        "[inference] 단일 anchor customer 54% = 알려지지 않은 fragility (Burry는 hidden risk 추적가)"
+      ],
+      "key_opportunities_top3": [
+        "[fact] 공시 기반 fact 일부는 verifiable — 그러나 가격이 fact를 멀리 추월"
+      ],
+      "uncertainty": "AI capex 사이클 정점 timing이 6개월 ~ 18개월 사이 가능 — 정점 이후 50%+ drawdown",
+      "narrative_vs_quant_resolution": "Burry: 모든 contrarian flag (parabolic, cult valuation, hidden concentration) 발현. 명확한 lean_bearish.",
+      "weight": 1.2
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] PEG 적용 어려움 — 흑자 base 미약 (forward PE 291은 PEG 의미 없음)",
+        "[actual] 1M +69% 후 단기 차익실현 매물",
+        "[inference] '한 종목 사랑'에 빠질 위험 — story 좋다고 무한정 보유는 위험"
+      ],
+      "key_opportunities_top3": [
+        "[derived] 한국 거주자 'plain language' 이해 가능 종목 — '데이터센터 SSD 컨트롤러 만드는 회사' 명료",
+        "[inference] Ten-bagger 가능성 — AI 인프라 super-cycle + KOSDAQ small cap 결합",
+        "[fact] 단일 large contract win = 'tenbagger sign' (Lynch 좋아하는 catalyst type — 흑자 turning point 직전)"
+      ],
+      "uncertainty": "사이클 정점 timing — story가 fact가 되는 순간이 매수 시점, fact가 stale 되는 순간이 매도 시점",
+      "narrative_vs_quant_resolution": "Lynch는 narrative 우선 — story 강함, plain English 통과. 정량(PEG) 부족하지만 catalyst 명확하므로 lean_bullish.",
+      "weight": 1.3
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] 한국 KOSDAQ liquidity 제약 — ARK 운용 규모 대비 매수 어려움",
+        "[actual] 단일 anchor customer = monopoly customer dependence는 ARK 'unrelated growth' 원칙 위배 부분"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 의교창 thesis = ARK 5대 platform 중 'AI / Energy storage / Robotics / Genomics / Blockchain'의 'AI infrastructure' 정확히 정합",
+        "[inference] Wright's Law: SSD 컨트롤러 규모의 경제로 ASP +20% / cost -50% 동시 진행 가능",
+        "[fact] AI training data ingestion 폭발 → enterprise SSD TAM 5년 5배"
+      ],
+      "uncertainty": "AI capex 사이클 정점 — but ARK는 사이클이 아닌 secular trend로 해석",
+      "narrative_vs_quant_resolution": "Wood는 narrative 절대 우선 — 정량 valuation 부담은 disruption innovation thesis로 압도. bullish 명확.",
+      "weight": 0.9
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[inference] Scuttlebutt: 한국 fabless의 customer feedback 접근성 제한 (해외 NAND 고객 외부 conf call 부재)",
+        "[actual] R&D / 매출 비율 미공개 — Fisher 15 points 중 6번(R&D effectiveness) 검증 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[inference] '동종계약 이행 이력 존재' = repeat customer 신호 (Fisher 15 points 중 4·5번 — 효과적 R&D + 우수 sales force)",
+        "[fact] 6-12개월 design qualification 통과 = product superiority (Fisher 핵심 평가)",
+        "[inference] 단일 design IP를 multiple customer에 sell할 incremental margin 우수 (Fisher 9·10번 — labor relations + executive depth)"
+      ],
+      "uncertainty": "Long-term competitive position — Phison/Marvell/Silicon Motion 대비 sustained 차별화 가능?",
+      "narrative_vs_quant_resolution": "Fisher는 quality + scuttlebutt 우선 — 정량 valuation 부담을 quality로 일부 상쇄. lean_bullish.",
+      "weight": 1.0
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] 1Y +645% = 'late cycle frenzy' macro flag — Druckenmiller historic '95-'00 dot-com timing 정합",
+        "[inference] Fed 정책 / 글로벌 risk-on 환경이 reversed될 시 small cap fabless 우선 제거 대상",
+        "[actual] Beta 2.9 / Vol 86% — concentrated big bet 환경에서 risk-adjusted 위치는 acceptable이나 timing risk 큼"
+      ],
+      "key_opportunities_top3": [
+        "[macro] AI 인프라 capex super-cycle = 의심할 여지 없는 macro tailwind",
+        "[inference] '큰 베팅 + 강한 확신' Druckenmiller 스타일에 한국 KOSDAQ 종목은 통상 부적합하나, AI 인프라 narrative + design-in lock-in 결합은 예외",
+        "[derived] '뇌 18개월, 시장 3개월' 격언 — 시장은 이미 narrative 가격화 → 단기 reentry 어려움"
+      ],
+      "uncertainty": "AI capex 정점 timing 가장 큰 변수 — Druckenmiller는 정점 인식 시 즉시 청산형",
+      "narrative_vs_quant_resolution": "Druckenmiller는 macro narrative + price action 결합 — narrative 강하나 price action 이미 frothy. neutral, 그러나 정점 시그널 시 즉시 sell.",
+      "weight": 1.5
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "빌 애크만",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[inference] activist 측면 — 한국 KOSDAQ 종목은 governance engagement 어려움. 대주주 control 절대",
+        "[actual] 단일 고객 54% concentration = governance flag (Ackman은 customer concentration risk를 board level 이슈로 봄)",
+        "[actual] 시총 ~$3.0bn = Ackman 통상 portfolio size에 미달"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 단순 사업 모델 (one-product fabless) — Ackman 선호 'simple, predictable' 패턴 부분 정합",
+        "[fact] 강한 cash generation 가능성 — 향후 buyback/dividend optionality"
+      ],
+      "uncertainty": "한국 시장 외인 activist 영향력 제한 — investment thesis는 가능하나 activism 불가",
+      "narrative_vs_quant_resolution": "Ackman: simple business + concentration risk 균형. neutral, slight defensive.",
+      "weight": 1.0
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] Beta 2.9 / Vol 86% / 1Y +645% — fragile profile 정확히 일치 (parabolic + high beta + concentration)",
+        "[inference] 단일 고객 54% = single point of failure — antifragile 정반대",
+        "[actual] AI bubble narrative = consensus = 'narrative fallacy' Taleb framework 정합"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI capex 추세는 indeed long tail benefit — 그러나 종목 차원에서 fragile structure가 우선",
+        "[derived] Optionality 측면 — 만약 large contract 추가 win 반복되면 explosive upside (Taleb은 conditional optionality 인정하나 expected value 음수)"
+      ],
+      "uncertainty": "Black Swan은 정의상 unpredictable — 그러나 fragility metric은 명확히 high",
+      "narrative_vs_quant_resolution": "Taleb: fragility metric (Beta, Vol, concentration) 모두 high — 명확한 lean_bearish, expected value 음수 판정.",
+      "weight": 1.0
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 한국 시장은 인도 대비 currency risk 제한적이나 KOSDAQ liquidity는 비슷",
+        "[inference] 1Y +645% 후 momentum 매수자 우세 — 단기 변동성 큼"
+      ],
+      "key_opportunities_top3": [
+        "[derived] EM 'demographic + AI' double dividend — 한국은 demographic 약하나 AI infrastructure 차세대 leader 후보",
+        "[inference] '인도 1990년대 IT outsourcing'과 유사 패턴 — 한국 fabless가 글로벌 hyperscaler 공급체인 입성",
+        "[fact] mid-cap에서 large-cap으로 re-rating 가능성 — 인도 시장에서 흔한 패턴 (Indigo, Bajaj Finance 등)"
+      ],
+      "uncertainty": "글로벌 macro shock 시 EM·high-beta 동시 타격",
+      "narrative_vs_quant_resolution": "Jhunjhunwala: long-term EM growth narrative 강함, valuation은 EM 성장 종목 typical. lean_bullish.",
+      "weight": 1.0
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] Forward PE 291 → Reverse DCF: 향후 5년 매출 CAGR 35%+ AND GM 60%+ AND margin sustained 가정 시에만 정당화",
+        "[inference] 위 3개 동시 충족 확률 < 25% (FCF terminal value 압축 위험)",
+        "[actual] EV/EBITDA -70.79 = 흑자 base 미달, valuation framework 자체가 작동하지 않음 (현재 EBITDA 음수)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 인프라 high-growth narrative는 일부 premium 정당화 — Marvell/Astera Labs peer EV/S 7-30배 사례 존재",
+        "[fact] design IP business 특성상 capital-light → ROIC 잠재력 큼 (낙관 case)",
+        "[derived] 비교 가능한 한국 fabless 공모가 적정성 분석 — 일부 차별화 인정 가능"
+      ],
+      "uncertainty": "Story → numbers transition timing — 매출 CAGR 35% 5년 sustained 가능 여부 가장 큰 변수",
+      "narrative_vs_quant_resolution": "Damodaran: narrative 인정하나 numbers가 결국 우선 — Reverse DCF 결과 lean_bearish 명확.",
+      "weight": 1.0
+    }
+  },
+  "evaluated_at": "2026-05-06T22:30:00+09:00",
+  "key_insight": "13명 패널은 mixed signal: bullish 1 + lean_bullish 4 + neutral 4 + lean_bearish 4. Pure-value(Graham), risk(Taleb), valuation(Damodaran), contrarian(Burry) 4명이 명확한 부정 → valuation 부담이 panel-level dominant concern. 반면 Wood(disruption), Lynch(ten-bagger), Fisher(scuttlebutt), Jhunjhunwala(EM growth) 4명은 long-term thesis를 신뢰. 한국 시장 calibration weighted score +0.065 — neutral에 가까운 mildly positive. → 'Quality story, expensive price' 결론. 분할 매수 또는 watchlist + pullback 시 진입 권장."
+}
