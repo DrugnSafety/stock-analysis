@@ -1,0 +1,325 @@
+{
+  "company_kr": "한화엔진",
+  "company_en": "Hanwha Engine",
+  "industry": {
+    "name": "선박엔진 / 데이터센터 BTM 가스엔진 / AI 인프라 전력",
+    "overview": "AI 데이터센터 폭발적 전력 수요(2024 25 GW → 2030 80 GW, EPRI 2025-12)와 미국 송배전망 적체(grid interconnection queue 2,600 GW, LBNL 2025-04)가 결합되어, 데이터센터 자체 부지 발전(BTM, Behind-the-Meter)이 'optional'에서 'necessary'로 이동. 글로벌 BTM gas engine market $8B(2025) → $22B(2030) (Wood Mackenzie). 동시에 글로벌 신조선 발주 record + IMO GHG 규제로 LNG·메탄올 dual-fuel 엔진 수요 폭증. 한화엔진은 한화에너지(MS·Meta·Google PPA)와 그룹 시너지로 BTM 진입, 동시에 marine 엔진 슈퍼사이클의 직접 수혜자.",
+    "competitors": [
+      {
+        "name": "Wärtsilä",
+        "ticker": "WRTBY",
+        "share_pct": 28,
+        "moat": "BTM gas engine 글로벌 1위 + 미국 데이터센터 backlog $2.4B + 250+ countries service network"
+      },
+      {
+        "name": "MAN Energy Solutions",
+        "ticker": "Private (Volkswagen)",
+        "share_pct": 22,
+        "moat": "Marine 2-stroke 엔진 dominant + 라이선싱 네트워크"
+      },
+      {
+        "name": "Caterpillar (Energy Transition)",
+        "ticker": "CAT",
+        "share_pct": 18,
+        "moat": "Stationary gen + dealer network 200+ countries"
+      },
+      {
+        "name": "한화엔진",
+        "ticker": "082740.KS",
+        "share_pct": 8,
+        "moat": "MAN ES 라이선스 + 한화 그룹 captive (한화에너지 PPA) + 한국 yard cost"
+      },
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 7,
+        "moat": "글로벌 yard 1위 통합 + GE Vernova 가스터빈 partnership"
+      },
+      {
+        "name": "두산에너빌리티 (Doosan Enerbility)",
+        "ticker": "034020.KS",
+        "share_pct": 5,
+        "moat": "한국 SMR 1위 + 자체 H-class 270MW 가스터빈"
+      },
+      {
+        "name": "Cummins / Generac / Bloom Energy",
+        "ticker": "CMI/GNRC/BE",
+        "share_pct": 12,
+        "moat": "미국 BTM 시장 진입 가속"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "한화엔진 데이터센터 BTM 진출 — 매출 2027 2.8조 가이던스",
+        "source": "한국투자증권",
+        "summary": "한화에너지 PPA 확대 + 4행정 가스엔진 부활. 매출 1.6→2.8→3조원 trajectory."
+      },
+      {
+        "date": "2026-03",
+        "title": "Meta x Calpine 1.1 GW 가스 PPA 체결",
+        "source": "Bloomberg",
+        "summary": "데이터센터향 BTM gas 발전 확산 — Wärtsilä 등 vendor 수혜"
+      },
+      {
+        "date": "2025-12",
+        "title": "EPRI 2025 AI Power Demand Outlook",
+        "source": "EPRI",
+        "summary": "2030 미국 데이터센터 +55 GW 추가 전력 필요 — BTM 비중 60%+"
+      },
+      {
+        "date": "2025-07",
+        "title": "PJM Capacity Auction +800% clearing price",
+        "source": "PJM",
+        "summary": "$269/MW-day — grid scarcity가 BTM 가속 트리거"
+      },
+      {
+        "date": "2025-06",
+        "title": "HD현대중공업 GE Vernova 가스엔진 partnership",
+        "source": "한경",
+        "summary": "한국 BIG3 yard 가스엔진 시장 진입 가속"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.0,
+      "horizon": "2025-2030",
+      "cagr_pct": 22.5
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 7450,
+        "op_income": 280,
+        "op_margin": 3.8,
+        "net_income": 180,
+        "net_margin": 2.4
+      },
+      {
+        "year": 2023,
+        "revenue": 10100,
+        "op_income": 425,
+        "op_margin": 4.2,
+        "net_income": 250,
+        "net_margin": 2.5
+      },
+      {
+        "year": 2024,
+        "revenue": 12800,
+        "op_income": 960,
+        "op_margin": 7.5,
+        "net_income": 650,
+        "net_margin": 5.1
+      },
+      {
+        "year": 2025,
+        "revenue": 14300,
+        "op_income": 1316,
+        "op_margin": 9.2,
+        "net_income": 950,
+        "net_margin": 6.6
+      },
+      {
+        "year": 2026,
+        "revenue": 16200,
+        "op_income": 1701,
+        "op_margin": 10.5,
+        "net_income": 1300,
+        "net_margin": 8.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets_KRW_bn": 22000,
+      "total_liabilities_KRW_bn": 14500,
+      "equity_KRW_bn": 7500,
+      "net_debt_KRW_bn": 1200,
+      "current_ratio": 1.8,
+      "total_liab": 14500000,
+      "equity": 7500000,
+      "total_assets": 22000000,
+      "cash": 2200000.0
+    },
+    "cf_summary": {
+      "operating_cf_KRW_bn": 1450,
+      "investing_cf_KRW_bn": -650,
+      "free_cash_flow_KRW_bn": 800,
+      "capex_intensity_pct": 4.0
+    },
+    "peer_compare": [
+      {
+        "ticker": "082740.KS",
+        "name": "한화엔진",
+        "pe": 24.5,
+        "pb": 4.5,
+        "roe": 14.0,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "329180.KS",
+        "name": "HD현대중공업",
+        "pe": 18.5,
+        "pb": 2.8,
+        "roe": 11.2,
+        "div_yield": 0.8
+      },
+      {
+        "ticker": "WRTBY",
+        "name": "Wärtsilä",
+        "pe": 26.5,
+        "pb": 4.2,
+        "roe": 16.5,
+        "div_yield": 1.2
+      },
+      {
+        "ticker": "CAT",
+        "name": "Caterpillar",
+        "pe": 18.0,
+        "pb": 7.5,
+        "roe": 42.0,
+        "div_yield": 1.5
+      },
+      {
+        "ticker": "GNRC",
+        "name": "Generac",
+        "pe": 22.0,
+        "pb": 4.0,
+        "roe": 15.0,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 130000,
+      "thesis": "데이터센터 BTM 첫 수주 2026 H2 가시화 + 2027 매출 +75% 가이던스 hit + 한화에너지 PPA 5+ 추가",
+      "key_assumptions": [
+        "BTM 신규 수주 $1B+ 2027년",
+        "조선엔진 ASP +30% 유지",
+        "OPM 12.0% 도달",
+        "Wärtsilä·HD현대 대비 10% share"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 95000,
+      "thesis": "조선 cash cow + BTM 신사업 점진적 ramp. 2027 매출 +50% (가이던스의 2/3)",
+      "key_assumptions": [
+        "BTM 매출 0 → 2,000억 점진",
+        "OPM 11.0% 안정",
+        "조선 cycle 정점 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 65000,
+      "thesis": "BTM 첫 수주 지연 (2027 H2+) + 조선 cycle peak 후 normalization",
+      "key_assumptions": [
+        "BTM 매출 2028까지 미미",
+        "조선 매출 -10% 2028",
+        "단기 -25% 차익실현 매물"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "1Q26 실적 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "매출 +24% YoY 가이던스 vs 실제 — 가이던스 hit 시 +10%"
+    },
+    {
+      "date": "2026-H2",
+      "event": "데이터센터 BTM 첫 수주 공시",
+      "type": "catalyst-major",
+      "expected_impact": "++",
+      "description": "한화에너지·외부 모두 가능. 첫 수주 시 narrative 본격 가격화 +20-30%"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "2027 매출 가이던스 +75% YoY 검증",
+      "type": "earnings",
+      "expected_impact": "++/--",
+      "description": "Hit 시 +30%, miss 시 -25% 양극단"
+    },
+    {
+      "date": "2027-H2",
+      "event": "EPA Clean Air Act 가스엔진 규제 확정",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "NOx·CO2 limit 강화 시 retrofit cost 발생"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Wärtsilä·HD현대 선점 효과",
+      "probability": "high",
+      "impact": "high",
+      "description": "Wärtsilä backlog $2.4B vs 한화엔진 $0 — first mover takes most 패턴",
+      "mitigation": "한화에너지 captive demand로 그룹 내 안정 ramp"
+    },
+    {
+      "name": "단기 +93%/+212% 차익실현 매물",
+      "probability": "high",
+      "impact": "med",
+      "description": "1M +93%·1Y +212% — 한국 mid-cap 평균 회귀 패턴 -28%",
+      "mitigation": "분할 매수, -15% Stop Loss"
+    },
+    {
+      "name": "2027 +75% 매출 가이던스 hit 실패",
+      "probability": "med",
+      "impact": "high",
+      "description": "sell-side hit rate 60% — miss 시 -25%",
+      "mitigation": "신사업 진척 분기별 추적"
+    },
+    {
+      "name": "조선 cycle 정점 후 normalization",
+      "probability": "med",
+      "impact": "med",
+      "description": "2027-2028 정점 추정 후 cyclical downturn",
+      "mitigation": "신사업 매출 비중 확대로 cyclical 완화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "한화엔진 데이터센터 BTM 진출은 한화에너지 PPA captive로 구조적 안정",
+      "type": "industry",
+      "evidence": "한화에너지 미국 174 Power Global + MS·Meta·Google PPA + 한국투자증권 리포트",
+      "testability": "high",
+      "current_status": "초기"
+    },
+    {
+      "claim": "2027 매출 +75% YoY 도달 가능",
+      "type": "financial",
+      "evidence": "한국투자증권 가이던스 1.6→2.8조원",
+      "testability": "high (분기 실적으로 검증)",
+      "current_status": "pending"
+    },
+    {
+      "claim": "AI 인프라 second wave 'power' 영역 re-rating 수혜",
+      "type": "macro",
+      "evidence": "Vertiv +400%, Bloom +180%, Cummins +35% — 미국 sector wave",
+      "testability": "medium",
+      "current_status": "초기"
+    },
+    {
+      "claim": "조선 cash cow + BTM 신사업 dual play로 기존 valuation premium 정당화",
+      "type": "valuation",
+      "evidence": "forward PE 24.5x — 한국 mid-cap industrial 평균 18x 대비 +35% premium",
+      "testability": "high",
+      "current_status": "검증 중"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-15",
+      "title": "한화엔진 1분기 매출 +24% YoY 가이던스 발표",
+      "source": "DART 공시 (정정)",
+      "summary": "marine 엔진 매출 호조 + 4행정 엔진 R&D 투자 +35%",
+      "type": "공시",
+      "impact": "+"
+    }
+  ]
+}
