@@ -1,0 +1,23 @@
+{
+  "title": "Peabody Energy (BTU) — 업데이트 보고서 (26Q1 실적 발표 + 주가 추가 하락)",
+  "date": "2026-05-05",
+  "type": "update",
+  "preceding_analysis": ".analysis-log/standalone/2026-04-30_BTU_Peabody_Energy",
+  "trigger_events": [
+    "주가 -7.3% (5거래일, $26.53 → $24.59)",
+    "1M return -26.71% (이전 -19.26%)",
+    "26Q1 실적 발표 (2026-05-05) — Adjusted EBITDA $82.5M (YoY -42.7%), GAAP 순손실 $32.4M, 매출 $973.3M (YoY +3.9%, in-line beat)",
+    "Centurion longwall commissioning 연장 (장비·roof control 일시 문제)",
+    "Anglo American 인수 종료 1회성 비용 1Q $54M, YTD $75M"
+  ],
+  "subjects": "BTU (NYSE)",
+  "verdict_change": "lean_bullish (signal +0.15) → NEUTRAL/WATCH (signal +0.02)",
+  "key_thesis_deltas": {
+    "T01_AI_thermal_coal": "support → support_strong (PRB·seaborne 견조)",
+    "T02_met_coal_demand": "support → support_with_caveats (Centurion 지연으로 시점 risk)",
+    "T03_NCAV_deep_value": "support → support_strong (PB 0.85, 장부가 하회)",
+    "T04_ESG_peak_passed": "support → support (변동 미미)",
+    "T05_LNG_arbitrage": "supporting → neutral (Q1 conf call 언급 미미)",
+    "T06_tail_risk": "core risk → neutral (drawdown -27%로 일부 가격화)"
+  }
+}
