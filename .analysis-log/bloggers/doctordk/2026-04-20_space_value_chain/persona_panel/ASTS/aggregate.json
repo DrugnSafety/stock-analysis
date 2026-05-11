@@ -1,0 +1,364 @@
+{
+  "ticker": "ASTS",
+  "name_kr": "AST 스페이스모바일",
+  "name_en": "AST SpaceMobile Inc.",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bullish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "bearish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "consensus_summary": {
+    "bullish_pct": 46.2,
+    "bearish_pct": 30.8,
+    "neutral_pct": 23.1,
+    "average_confidence": 0.61
+  },
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.4
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.42
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bearish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.9
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "BlueBird 미검증 commercial revenue — circle of competence 외부",
+        "FCF 음(-)·capital raise 의존",
+        "beta 2.6 + vol 100% — Munger의 'volatility ≠ risk' 시선에서도 위험"
+      ],
+      "key_opportunities_top3": [
+        "AT&T·Verizon·Vodafone 100+ telco 파트너십 = quasi-moat",
+        "FCC SCS framework 정책 backstop"
+      ],
+      "uncertainty": "Operating cash flow 흑자 전환 timing 불확실",
+      "narrative_vs_quant_resolution": "Buffett quality + reasonable price 기준 미달. Pre-revenue D2D는 'too hard pile'. neutral."
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.42,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "Telecom 산업의 historical capex destruction(WorldCom·Lucent)",
+        "Starlink Direct-to-Cell 직접 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "Inversion: 만약 D2D가 standard화되면 ASTS는 phased-array IP 보유"
+      ],
+      "uncertainty": "Lollapalooza factor 부재",
+      "narrative_vs_quant_resolution": "Munger 'too hard' filter 적용. Pre-commercial telecom은 quality-price 불충족."
+    },
+    "ben-graham": {
+      "verdict": "bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "No earnings·negative EPS·negative book trend",
+        "Margin of safety 완전 실종"
+      ],
+      "key_opportunities_top3": [],
+      "uncertainty": "NCAV 기준 -100% 미달",
+      "narrative_vs_quant_resolution": "Graham 정량 기준 모두 미달. Defensive·Enterprising 모두 불가. bearish."
+    },
+    "mohnish-pabrai": {
+      "verdict": "bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "Pabrai 'low risk·high uncertainty' 매트릭스에서 high risk·high uncertainty 영역",
+        "FCF yield 매우 음수",
+        "Cloning 기준: Buffett·Munger 모두 미진입"
+      ],
+      "key_opportunities_top3": [],
+      "uncertainty": "Pabrai 안전 마진 기준 미달",
+      "narrative_vs_quant_resolution": "Pabrai dabe gali 기준 미달. bearish."
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "+197% 1Y rally 후 contrarian: 'priced for perfection'",
+        "Capital raise dilution risk",
+        "Starlink 경쟁 underestimated"
+      ],
+      "key_opportunities_top3": [
+        "만약 BlueBird Block 2 deploy 1년 지연 시 short opportunity"
+      ],
+      "uncertainty": "Big short setup — execution miss 가능성",
+      "narrative_vs_quant_resolution": "Burry contrarian filter: ASTS는 high-conviction long consensus 자산 — short 후보. lean_bearish."
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "PEG 적용 불가능 (negative earnings)"
+      ],
+      "key_opportunities_top3": [
+        "'Tenbagger' 후보: 위성-폰 직접 연결은 'plain English'로 이해 가능 disruption",
+        "Six categories 중 'fast grower' top tier",
+        "Blogger emphasis = retail consensus 형성"
+      ],
+      "uncertainty": "Lynch 'do your homework' — telco partnership는 검증 가능",
+      "narrative_vs_quant_resolution": "Lynch는 high-growth disruption stock 선호. 비록 valuation 미달이나 narrative 강력 — lean_bullish."
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "key_concerns_top3": [
+        "+197% rally 후 entry timing 부담"
+      ],
+      "key_opportunities_top3": [
+        "Scuttlebutt: AT&T·Verizon·Vodafone CTO들의 endorsement = customer feedback 강력",
+        "'Defensible competitive position' = phased array antenna IP",
+        "Long runway: D2D market 2030E $90B"
+      ],
+      "uncertainty": "Management quality(Avellan brothers) 강함",
+      "narrative_vs_quant_resolution": "Fisher 15-point checklist: management·R&D·customer feedback 모두 충족. lean_bullish."
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.9,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "Capital raise 압박"
+      ],
+      "key_opportunities_top3": [
+        "ARK 5대 platform 중 'Robotics' + 'Genomics' 옆 자리 'Space Exploration' 핵심 holdings",
+        "Wright's Law: 발사 cost curve 99% 감소 → satellite communication 폭발",
+        "'Disruptive innovation' textbook case"
+      ],
+      "uncertainty": "ARKX·UFO ETF 상위 weighting 가능성",
+      "narrative_vs_quant_resolution": "Wood thesis 정확히 일치 — D2D는 telecom industry의 'old order dies' moment. bullish."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "AI capex 둔화 시 ASTS같은 high-beta 종목 first to fall"
+      ],
+      "key_opportunities_top3": [
+        "Macro tailwind: FCC SCS + 글로벌 6G NTN 표준 + 미국·중국 우주 경쟁",
+        "SpaceX IPO catalyst rotation"
+      ],
+      "uncertainty": "Position sizing — Druckenmiller는 high-conviction 종목에 30%+ allocate",
+      "narrative_vs_quant_resolution": "Druckenmiller macro lens: AI + Space + 정책 tailwind 동시. lean_bullish이나 entry timing 신중."
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "Pre-commercial revenue → activist intervention 어려움",
+        "Capital structure 복잡(SPAC merger·warrant)"
+      ],
+      "key_opportunities_top3": [
+        "Telco partnership unlock value 가능성"
+      ],
+      "uncertainty": "Activist value-add 한계",
+      "narrative_vs_quant_resolution": "Ackman은 mature business 선호 — ASTS는 너무 early stage. neutral."
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "Capital raise + execution miss 가능성 (Black Swan downside)"
+      ],
+      "key_opportunities_top3": [
+        "'Convex payoff' 구조 — 성공 시 10x, 실패 시 -80% binary",
+        "Antifragile: telecom industry disruption은 fragile system collapse 시 ASTS benefit"
+      ],
+      "uncertainty": "Position size 작게(<2%) 유지하면 antifragile play",
+      "narrative_vs_quant_resolution": "Taleb의 barbell strategy: 작은 position size로 convex upside 노출. lean_bullish."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "EM 통신사(Reliance·Bharti) 등 기존 telco 위협하나 동시 partnership 가능"
+      ],
+      "key_opportunities_top3": [
+        "Indian telecom market 14억 명 D2D 노출 가능",
+        "EM growth thesis 강력"
+      ],
+      "uncertainty": "Indian regulatory environment 우호",
+      "narrative_vs_quant_resolution": "Jhunjhunwala EM growth lens: ASTS partnership에 Vodafone Idea·Reliance Jio 추가 시 Indian addressable market 폭발. lean_bullish."
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "아스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "DCF 기반 fair value $45-60 추정 — 현재 $75는 25-40% premium",
+        "Story stock — narrative > numbers",
+        "WACC 12%+ 적용 시 EV 압박"
+      ],
+      "key_opportunities_top3": [
+        "Optionality value 인정 — 5x revenue scenario 시 fair value $120"
+      ],
+      "uncertainty": "Pre-revenue 종목은 DCF 신뢰도 낮음",
+      "narrative_vs_quant_resolution": "Damodaran story → numbers: ASTS는 지나친 narrative pricing. lean_bearish이나 optionality value 인정."
+    }
+  },
+  "evaluation_date": "2026-05-10"
+}
