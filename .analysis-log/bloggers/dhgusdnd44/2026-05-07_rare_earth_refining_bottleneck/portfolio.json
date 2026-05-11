@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-05-07",
+  "framework": "Paper Portfolio (yfinance simulation only — no real trades)",
+  "initial_value_usd": 100000,
+  "positions": [
+    {"ticker": "LYC.AX", "shares": 354, "entry_price": 19.53, "entry_currency": "AUD", "fx_aud_usd": 0.66, "value_usd": 4561, "weight_pct": 4.56},
+    {"ticker": "ILU.AX", "shares": 730, "entry_price": 8.47, "entry_currency": "AUD", "fx_aud_usd": 0.66, "value_usd": 4080, "weight_pct": 4.08},
+    {"ticker": "MP", "shares": 36, "entry_price": 69.13, "entry_currency": "USD", "value_usd": 2489, "weight_pct": 2.49},
+    {"ticker": "600111.SS", "shares": 27, "entry_price": 55.31, "entry_currency": "CNY", "fx_cny_usd": 0.139, "value_usd": 208, "weight_pct": 0.21, "note": "Northbound Connect via Hong Kong required for foreign access — actual position size limited"},
+    {"ticker": "USAR", "shares": 38, "entry_price": 26.38, "entry_currency": "USD", "value_usd": 1002, "weight_pct": 1.00}
+  ],
+  "total_invested_usd": 12340,
+  "cash_remaining_usd": 87660,
+  "cash_pct": 87.66,
+  "ree_exposure_pct": 12.34,
+  "currency_exposure": {
+    "USD": 3491,
+    "AUD": 8641,
+    "CNY": 208
+  },
+  "watchlist_for_rebalance": [
+    {"ticker": "MP", "trigger": "$55 dip", "action": "+1% to total 3.5%"},
+    {"ticker": "LYC.AX", "trigger": "11월 유예 종료 결과 confirm", "action": "+0.5% to total 5.0%"},
+    {"ticker": "ARU.AX (Arafura)", "trigger": "Nolans Project final FID", "action": "신규 0.5% starter"},
+    {"ticker": "REMX (ETF)", "trigger": "REE basket -20% drawdown", "action": "1.0% basket entry로 분산"}
+  ]
+}
