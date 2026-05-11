@@ -1,0 +1,294 @@
+{
+  "blogger": "dhgusdnd44",
+  "post_title": "ESS에서 병목찾기",
+  "extraction_date": "2026-05-10",
+  "extracted_count": 9,
+  "thesis_list": [
+    {
+      "id": "T1",
+      "title": "재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인",
+      "type": "factual",
+      "claim": "2024년 칠레 태양광 발전량의 17.2%가 버려졌고, 중국도 태양광 3.2%·풍력 4.1%로 전년 대비 1%p 이상 상승했다. EU 계통 혼잡관리 비용은 2023년 40억 유로를 돌파했다. '버려지는 전기'가 ESS 수요를 직접 만들어내고 있다.",
+      "timeframe": "current (2024 actual)",
+      "supporting_evidence": [
+        "IEA Renewables 2025 — Chile curtailment 17.2%",
+        "China NEA — 풍력 4.1%, PV 3.2% curtailment 2024",
+        "EU congestion management cost €4B (2023)",
+        "ERCOT/MISO 혼잡 비용 2020 이후 지속 상승"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.9,
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "title": "ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다",
+      "type": "predictive",
+      "claim": "2024년 전 세계 재생에너지 경매의 25%(45GW)가 ESS 의무 부착(firm capacity) 형태로 발주됐고, 이는 2021~2023년의 5~8% 대비 폭증한 수치다. 인도(40% 이상), 호주(2MWh/MW 의무), 폴란드(배터리 없으면 보조금 박탈) 등 정책 강제로 ESS 수요는 가격 비탄력적으로 변하고 있다. 2026~2027년에는 30~40%까지 상승 전망.",
+      "timeframe": "2026-2027 (medium)",
+      "supporting_evidence": [
+        "IEA Renewables 2025 — firm capacity auction 25%",
+        "India FDRE model 80~90% capacity factor 의무",
+        "EU CfD 2.0 (2027 의무화 예정)",
+        "Poland CAPEX subsidy battery requirement"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.8,
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "title": "배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크",
+      "type": "factual",
+      "claim": "글로벌 태양광 패널 제조능력은 1,100~1,350GW로 실제 설치량의 2배를 넘기며 가동률 55~65%, 모듈 가격 $0.09/W로 대부분 원가 이하다. 배터리 셀도 동일 경로 — 중국 LFP $30~40/kWh, 턴키 시스템 $62/kWh까지 하락. 2024년 주요 PV 제조사 순이익률 모두 마이너스 전환. 셀 제조사는 ESS 호황의 직접 수혜자가 되기 어렵다.",
+      "timeframe": "current + 2026-2027 outlook",
+      "supporting_evidence": [
+        "IEA — 글로벌 PV manufacturing capacity 1,100~1,350GW",
+        "BloombergNEF — 중국 LFP cell $30~40/kWh, 턴키 $62/kWh",
+        "PV 제조사 2024 순이익률 마이너스",
+        "태양광 모듈 →1.5년 내 가격하락 모델 ESS에도 적용"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.8,
+      "importance": "supporting"
+    },
+    {
+      "id": "T4",
+      "title": "ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)'",
+      "type": "factual",
+      "claim": "중국 턴키 ESS $62/kWh 대비 미국 $219/kWh, 유럽 $177/kWh로 3.5배 차이가 난다. 이 격차는 셀 가격이 아니라 변압기·BMS·EPC·PCS 등 Balance-of-System(BoS)에서 발생한다. 즉 진짜 병목은 BoS와 전력망 인프라다.",
+      "timeframe": "current",
+      "supporting_evidence": [
+        "BloombergNEF turn-key ESS 가격 — China $62, US $219, EU $177 per kWh",
+        "변압기·HVDC·EPC 등 리드타임 ESS 대비 5~10배",
+        "전 세계 전력망 대기열 1,700GW",
+        "영국 750GW, 미국 PJM 230GW interconnection queue"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.85,
+      "importance": "core"
+    },
+    {
+      "id": "T5",
+      "title": "전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분",
+      "type": "predictive",
+      "claim": "Enel·Iberdrola·EDF·E.ON 등 거대 유틸리티의 연간 CAPEX 수백억 유로 중 20~60%가 전력망에 투자되고 있으며 이 비중은 5~15%p씩 더 늘고 있다. 변압기·송전선·변전소 부족이 ESS 설치보다 더 큰 병목이며, 토목·설비의 영역이라 단기간에 풀 수 없다.",
+      "timeframe": "2026-2030 (medium-long)",
+      "supporting_evidence": [
+        "European 유틸리티 CAPEX 보고서 — grid 비중 +5~15%p",
+        "Hitachi Energy/Siemens Energy/GE Vernova 변압기 backlog 3+년",
+        "북미 grid CAPEX 2030년까지 연 5%+ 성장 (Wood Mackenzie)",
+        "EU GridAction Plan 2024 — €584B 전력망 투자 계획 2030까지"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.85,
+      "importance": "core"
+    },
+    {
+      "id": "T6",
+      "title": "ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대",
+      "type": "predictive",
+      "claim": "출력제한율이 올라가면 낮 시간대(태양광 과잉) 전력가격은 0원/마이너스로, 저녁 가격은 가스 발전 한계비용으로 수렴해 스프레드가 극단적으로 벌어진다. ESS 운영사는 이 스프레드를 먹는 트레이딩 사업이며, 커튼율 심화가 그대로 수익으로 연결된다. 핵심 해자는 '전력망에 이미 연결되어 있는가'.",
+      "timeframe": "2026-2030 (medium-long)",
+      "supporting_evidence": [
+        "ERCOT/CAISO 시간대별 전력 가격 spread 2020~2024 확대",
+        "NextEra Energy(NEE) Energy Resources segment ESS 자산 +",
+        "AES Corp battery storage portfolio 14GW+ 운영",
+        "interconnection queue가 진입장벽으로 작용"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.7,
+      "importance": "supporting"
+    },
+    {
+      "id": "T7",
+      "title": "오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대",
+      "type": "predictive",
+      "claim": "중앙 전력망 요금에는 망 건설비·혼잡관리비가 포함되어 계속 상승하는 반면 태양광+ESS 가격은 하락 → 자체 발전·자체 저장 경제성 개선. IEA에 따르면 파키스탄에서 2024년에만 6GW의 오프그리드 PV+ESS가 설치됐다. 이 시장은 소형 LFP·소형 인버터·마이크로그리드 컨트롤러가 핵심이며 유통·설치 네트워크가 경쟁력.",
+      "timeframe": "2026-2030 (medium-long)",
+      "supporting_evidence": [
+        "IEA — 파키스탄 2024 오프그리드 PV+ESS 6GW",
+        "남아공·나이지리아·인도 비도시 디스트리뷰티드 PV 성장",
+        "Enphase/SolarEdge 마이크로인버터 시장",
+        "Tesla Powerwall·CATL 가정용 ESS"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.7,
+      "importance": "supporting"
+    },
+    {
+      "id": "T8",
+      "title": "EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속",
+      "type": "conditional",
+      "claim": "유럽 CfD 2.0이 2027년까지 의무화되면 보조금 수령을 위해 ESS가 필수가 되며, 인도 FDRE 모델 확산, 호주 2MWh/MW 의무, 포르투갈·불가리아 20~30% 의무, 폴란드 보조금 박탈 등 정책이 계속 강화될 것. 정책 reversal 리스크는 낮으나 보조금 자체 감소는 가능.",
+      "timeframe": "2026-2027 (medium)",
+      "supporting_evidence": [
+        "EU Electricity Market Design Reform 2024",
+        "India FDRE 입찰 사례 SECI/MNRE",
+        "AEMO Integrated System Plan (호주)",
+        "Polish 'Capacity Market+Battery' 2024"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.75,
+      "importance": "core"
+    },
+    {
+      "id": "T9",
+      "title": "IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하",
+      "type": "factual",
+      "claim": "IEA가 올해 재생에너지 발전량 전망을 850TWh로 하향했고 그 이유 중 하나로 '버려지는 전기'를 명시적으로 지목. 이는 컨센서스 모델조차 curtailment 문제의 심각성을 인정한 의미 있는 신호이며, ESS 수요의 정책 강제가 더욱 강화될 모멘텀을 시사.",
+      "timeframe": "current (2025 actual)",
+      "supporting_evidence": [
+        "IEA Renewables 2025 — 발전량 전망 하향",
+        "IEA가 curtailment를 공식 원인으로 인정"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.85,
+      "importance": "supporting"
+    }
+  ],
+  "theses": [
+    {
+      "id": "T1",
+      "title": "재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인",
+      "type": "factual",
+      "claim": "2024년 칠레 태양광 발전량의 17.2%가 버려졌고, 중국도 태양광 3.2%·풍력 4.1%로 전년 대비 1%p 이상 상승했다. EU 계통 혼잡관리 비용은 2023년 40억 유로를 돌파했다. '버려지는 전기'가 ESS 수요를 직접 만들어내고 있다.",
+      "timeframe": "current (2024 actual)",
+      "supporting_evidence": [
+        "IEA Renewables 2025 — Chile curtailment 17.2%",
+        "China NEA — 풍력 4.1%, PV 3.2% curtailment 2024",
+        "EU congestion management cost €4B (2023)",
+        "ERCOT/MISO 혼잡 비용 2020 이후 지속 상승"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.9,
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "title": "ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다",
+      "type": "predictive",
+      "claim": "2024년 전 세계 재생에너지 경매의 25%(45GW)가 ESS 의무 부착(firm capacity) 형태로 발주됐고, 이는 2021~2023년의 5~8% 대비 폭증한 수치다. 인도(40% 이상), 호주(2MWh/MW 의무), 폴란드(배터리 없으면 보조금 박탈) 등 정책 강제로 ESS 수요는 가격 비탄력적으로 변하고 있다. 2026~2027년에는 30~40%까지 상승 전망.",
+      "timeframe": "2026-2027 (medium)",
+      "supporting_evidence": [
+        "IEA Renewables 2025 — firm capacity auction 25%",
+        "India FDRE model 80~90% capacity factor 의무",
+        "EU CfD 2.0 (2027 의무화 예정)",
+        "Poland CAPEX subsidy battery requirement"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.8,
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "title": "배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크",
+      "type": "factual",
+      "claim": "글로벌 태양광 패널 제조능력은 1,100~1,350GW로 실제 설치량의 2배를 넘기며 가동률 55~65%, 모듈 가격 $0.09/W로 대부분 원가 이하다. 배터리 셀도 동일 경로 — 중국 LFP $30~40/kWh, 턴키 시스템 $62/kWh까지 하락. 2024년 주요 PV 제조사 순이익률 모두 마이너스 전환. 셀 제조사는 ESS 호황의 직접 수혜자가 되기 어렵다.",
+      "timeframe": "current + 2026-2027 outlook",
+      "supporting_evidence": [
+        "IEA — 글로벌 PV manufacturing capacity 1,100~1,350GW",
+        "BloombergNEF — 중국 LFP cell $30~40/kWh, 턴키 $62/kWh",
+        "PV 제조사 2024 순이익률 마이너스",
+        "태양광 모듈 →1.5년 내 가격하락 모델 ESS에도 적용"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.8,
+      "importance": "supporting"
+    },
+    {
+      "id": "T4",
+      "title": "ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)'",
+      "type": "factual",
+      "claim": "중국 턴키 ESS $62/kWh 대비 미국 $219/kWh, 유럽 $177/kWh로 3.5배 차이가 난다. 이 격차는 셀 가격이 아니라 변압기·BMS·EPC·PCS 등 Balance-of-System(BoS)에서 발생한다. 즉 진짜 병목은 BoS와 전력망 인프라다.",
+      "timeframe": "current",
+      "supporting_evidence": [
+        "BloombergNEF turn-key ESS 가격 — China $62, US $219, EU $177 per kWh",
+        "변압기·HVDC·EPC 등 리드타임 ESS 대비 5~10배",
+        "전 세계 전력망 대기열 1,700GW",
+        "영국 750GW, 미국 PJM 230GW interconnection queue"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.85,
+      "importance": "core"
+    },
+    {
+      "id": "T5",
+      "title": "전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분",
+      "type": "predictive",
+      "claim": "Enel·Iberdrola·EDF·E.ON 등 거대 유틸리티의 연간 CAPEX 수백억 유로 중 20~60%가 전력망에 투자되고 있으며 이 비중은 5~15%p씩 더 늘고 있다. 변압기·송전선·변전소 부족이 ESS 설치보다 더 큰 병목이며, 토목·설비의 영역이라 단기간에 풀 수 없다.",
+      "timeframe": "2026-2030 (medium-long)",
+      "supporting_evidence": [
+        "European 유틸리티 CAPEX 보고서 — grid 비중 +5~15%p",
+        "Hitachi Energy/Siemens Energy/GE Vernova 변압기 backlog 3+년",
+        "북미 grid CAPEX 2030년까지 연 5%+ 성장 (Wood Mackenzie)",
+        "EU GridAction Plan 2024 — €584B 전력망 투자 계획 2030까지"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.85,
+      "importance": "core"
+    },
+    {
+      "id": "T6",
+      "title": "ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대",
+      "type": "predictive",
+      "claim": "출력제한율이 올라가면 낮 시간대(태양광 과잉) 전력가격은 0원/마이너스로, 저녁 가격은 가스 발전 한계비용으로 수렴해 스프레드가 극단적으로 벌어진다. ESS 운영사는 이 스프레드를 먹는 트레이딩 사업이며, 커튼율 심화가 그대로 수익으로 연결된다. 핵심 해자는 '전력망에 이미 연결되어 있는가'.",
+      "timeframe": "2026-2030 (medium-long)",
+      "supporting_evidence": [
+        "ERCOT/CAISO 시간대별 전력 가격 spread 2020~2024 확대",
+        "NextEra Energy(NEE) Energy Resources segment ESS 자산 +",
+        "AES Corp battery storage portfolio 14GW+ 운영",
+        "interconnection queue가 진입장벽으로 작용"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.7,
+      "importance": "supporting"
+    },
+    {
+      "id": "T7",
+      "title": "오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대",
+      "type": "predictive",
+      "claim": "중앙 전력망 요금에는 망 건설비·혼잡관리비가 포함되어 계속 상승하는 반면 태양광+ESS 가격은 하락 → 자체 발전·자체 저장 경제성 개선. IEA에 따르면 파키스탄에서 2024년에만 6GW의 오프그리드 PV+ESS가 설치됐다. 이 시장은 소형 LFP·소형 인버터·마이크로그리드 컨트롤러가 핵심이며 유통·설치 네트워크가 경쟁력.",
+      "timeframe": "2026-2030 (medium-long)",
+      "supporting_evidence": [
+        "IEA — 파키스탄 2024 오프그리드 PV+ESS 6GW",
+        "남아공·나이지리아·인도 비도시 디스트리뷰티드 PV 성장",
+        "Enphase/SolarEdge 마이크로인버터 시장",
+        "Tesla Powerwall·CATL 가정용 ESS"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.7,
+      "importance": "supporting"
+    },
+    {
+      "id": "T8",
+      "title": "EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속",
+      "type": "conditional",
+      "claim": "유럽 CfD 2.0이 2027년까지 의무화되면 보조금 수령을 위해 ESS가 필수가 되며, 인도 FDRE 모델 확산, 호주 2MWh/MW 의무, 포르투갈·불가리아 20~30% 의무, 폴란드 보조금 박탈 등 정책이 계속 강화될 것. 정책 reversal 리스크는 낮으나 보조금 자체 감소는 가능.",
+      "timeframe": "2026-2027 (medium)",
+      "supporting_evidence": [
+        "EU Electricity Market Design Reform 2024",
+        "India FDRE 입찰 사례 SECI/MNRE",
+        "AEMO Integrated System Plan (호주)",
+        "Polish 'Capacity Market+Battery' 2024"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.75,
+      "importance": "core"
+    },
+    {
+      "id": "T9",
+      "title": "IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하",
+      "type": "factual",
+      "claim": "IEA가 올해 재생에너지 발전량 전망을 850TWh로 하향했고 그 이유 중 하나로 '버려지는 전기'를 명시적으로 지목. 이는 컨센서스 모델조차 curtailment 문제의 심각성을 인정한 의미 있는 신호이며, ESS 수요의 정책 강제가 더욱 강화될 모멘텀을 시사.",
+      "timeframe": "current (2025 actual)",
+      "supporting_evidence": [
+        "IEA Renewables 2025 — 발전량 전망 하향",
+        "IEA가 curtailment를 공식 원인으로 인정"
+      ],
+      "verifiable": true,
+      "confidence_prior": 0.85,
+      "importance": "supporting"
+    }
+  ]
+}
