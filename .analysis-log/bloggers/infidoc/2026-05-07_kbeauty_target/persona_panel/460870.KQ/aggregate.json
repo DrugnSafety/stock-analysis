@@ -1,0 +1,1282 @@
+{
+  "ticker": "460870.KQ",
+  "name": "에스엠씨지 (SMCG)",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "hold": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "buy": {
+      "count": 7,
+      "pct": 53.8
+    }
+  },
+  "average_confidence": 0.607,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "hold",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "hold",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "buy",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "buy",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "hold (2/4)"
+    },
+    "contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "buy",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "buy (1/1)"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "buy",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "hold",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "hold",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "buy",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "buy (2/4)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "hold",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "hold (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "buy",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "buy (1/1)"
+    },
+    "analytic": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "hold",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "hold (1/1)"
+    },
+    "antifragile": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "buy",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "buy (1/1)"
+    }
+  },
+  "consensus": "BUY (consensus)",
+  "thesis_alignment": "very_high",
+  "current_price": 3435.0,
+  "avg_entry_price_buy_personas": 3263.0,
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "hold",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] value+moat+dividend framework에서 verdict 'hold' 정당화: 추가 catalyst 또는 가격 조정 대기"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 산업 fundamental: K뷰티 수출 +12.3% 사상 최대",
+        "[actual] 회사 안정성: 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y -48%로 deep value 구간...."
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — long_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Warren Buffett은 value 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 hold (0.45)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Buffett: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — verifiable fact 신뢰.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Buffett: 브랜드 비즈니스 구조적 한계 (commoditization) — verifiable fact 신뢰.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Buffett: ODM 안정성 vs 상방 트레이드오프 — verifiable fact 신뢰.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Buffett: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — verifiable fact 신뢰.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Buffett: 조건부 병목 framework (4가지 조건) — moat·long-term durability 평가.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Buffett: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — moat·long-term durability 평가.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "Buffett: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — verifiable fact 신뢰.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Buffett: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — moat·long-term durability 평가.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Buffett: 마이크로캡 약점 + 무반응 길수록 탄성 — moat·long-term durability 평가.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "Buffett: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — verifiable fact 신뢰.",
+          "confidence": 0.34
+        },
+        {
+          "claim_id": "T11",
+          "stance": "neutral",
+          "rationale": "Buffett: 투자 ranking: 조건부 병목 > ODM > 브랜드 — verifiable fact 신뢰.",
+          "confidence": 0.34
+        }
+      ],
+      "entry_price_estimate": 3435.0,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 3778.5000000000005
+    },
+    "charlie-munger": {
+      "verdict": "hold",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] wisdom+moat+rare_great_co framework에서 verdict 'hold' 정당화: 추가 catalyst 또는 가격 조정 대기"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 산업 fundamental: K뷰티 수출 +12.3% 사상 최대",
+        "[actual] 회사 안정성: 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y -48%로 deep value 구간...."
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — long_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Charlie Munger은 wisdom 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 hold (0.50)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 브랜드 비즈니스 구조적 한계 (commoditization) — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: ODM 안정성 vs 상방 트레이드오프 — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 조건부 병목 framework (4가지 조건) — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 마이크로캡 약점 + 무반응 길수록 탄성 — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T11",
+          "stance": "neutral",
+          "rationale": "Charlie Munger: 투자 ranking: 조건부 병목 > ODM > 브랜드 — wisdom+moat+rare_great_co 관점 평가.",
+          "confidence": 0.38
+        }
+      ],
+      "entry_price_estimate": 3435.0,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 3778.5000000000005
+    },
+    "peter-lynch": {
+      "verdict": "buy",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] persona별 horizon medium_term와 micro-cap volatility 공존 시 position sizing 중요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EU PPWR 시행 + glass migration secular trend + 인디 brand 패키징 인증 락인 + 자동화 leverage + EV/EBITDA 9x 마이크로캡 discount + PEF M&A target potential.",
+        "[inference] GARP+story+PEG framework에서 에스엠씨지 (SMCG) 매력 있음",
+        "[inference] thesis-driven catalyst (PPWR + glass migration + 자동화 leverage)"
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — medium_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Peter Lynch은 GARP 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 buy (0.65)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Lynch: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Lynch: 브랜드 비즈니스 구조적 한계 (commoditization) — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Lynch: ODM 안정성 vs 상방 트레이드오프 — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Lynch: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — story와 PEG가 align되면 신뢰. supporting context.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Lynch: 조건부 병목 framework (4가지 조건) — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "Lynch: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Lynch: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "Lynch: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Lynch: 마이크로캡 약점 + 무반응 길수록 탄성 — story와 PEG가 align되면 신뢰. supporting context.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "Lynch: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T11",
+          "stance": "support",
+          "rationale": "Lynch: 투자 ranking: 조건부 병목 > ODM > 브랜드 — story와 PEG가 align되면 신뢰. GARP filter.",
+          "confidence": 0.6
+        }
+      ],
+      "entry_price_estimate": 3263.25,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 5152.5
+    },
+    "cathie-wood": {
+      "verdict": "hold",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] disruption+innovation framework에서 verdict 'hold' 정당화: 추가 catalyst 또는 가격 조정 대기"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 산업 fundamental: K뷰티 수출 +12.3% 사상 최대",
+        "[actual] 회사 안정성: 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y -48%로 deep value 구간...."
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — long_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Cathie Wood은 disruption 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 hold (0.55)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: 브랜드 비즈니스 구조적 한계 (commoditization) — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: ODM 안정성 vs 상방 트레이드오프 — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: 조건부 병목 framework (4가지 조건) — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "Cathie Wood: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: 마이크로캡 약점 + 무반응 길수록 탄성 — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T11",
+          "stance": "neutral",
+          "rationale": "Cathie Wood: 투자 ranking: 조건부 병목 > ODM > 브랜드 — disruption+innovation 관점 평가.",
+          "confidence": 0.41
+        }
+      ],
+      "entry_price_estimate": 3435.0,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 3778.5000000000005
+    },
+    "michael-burry": {
+      "verdict": "buy",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] persona별 horizon medium_term와 micro-cap volatility 공존 시 position sizing 중요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EU PPWR 시행 + glass migration secular trend + 인디 brand 패키징 인증 락인 + 자동화 leverage + EV/EBITDA 9x 마이크로캡 discount + PEF M&A target potential.",
+        "[inference] deep_value+contrarian framework에서 에스엠씨지 (SMCG) 매력 매우 높음",
+        "[inference] thesis-driven catalyst (PPWR + glass migration + 자동화 leverage)"
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — medium_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Michael Burry은 deep_value 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 buy (0.72)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Burry: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — contrarian setup 평가. data-driven verification.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Burry: 브랜드 비즈니스 구조적 한계 (commoditization) — contrarian setup 평가. data-driven verification.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Burry: ODM 안정성 vs 상방 트레이드오프 — contrarian setup 평가. data-driven verification.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Burry: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — contrarian setup 평가. data-driven verification.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Burry: 조건부 병목 framework (4가지 조건) — contrarian setup 평가. street is wrong setup 시 BUY.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "Burry: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — contrarian setup 평가. street is wrong setup 시 BUY.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Burry: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — contrarian setup 평가. data-driven verification.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "Burry: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — contrarian setup 평가. street is wrong setup 시 BUY.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Burry: 마이크로캡 약점 + 무반응 길수록 탄성 — contrarian setup 평가. street is wrong setup 시 BUY.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "Burry: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — contrarian setup 평가. data-driven verification.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T11",
+          "stance": "support",
+          "rationale": "Burry: 투자 ranking: 조건부 병목 > ODM > 브랜드 — contrarian setup 평가. data-driven verification.",
+          "confidence": 0.66
+        }
+      ],
+      "entry_price_estimate": 3263.25,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 5152.5
+    },
+    "nassim-taleb": {
+      "verdict": "buy",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] persona별 horizon medium_term와 micro-cap volatility 공존 시 position sizing 중요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EU PPWR 시행 + glass migration secular trend + 인디 brand 패키징 인증 락인 + 자동화 leverage + EV/EBITDA 9x 마이크로캡 discount + PEF M&A target potential.",
+        "[inference] antifragile+barbell+convexity framework에서 에스엠씨지 (SMCG) 매력 있음",
+        "[inference] thesis-driven catalyst (PPWR + glass migration + 자동화 leverage)"
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — medium_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Nassim Taleb은 antifragile 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 buy (0.62)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Nassim Taleb: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Nassim Taleb: 브랜드 비즈니스 구조적 한계 (commoditization) — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Nassim Taleb: ODM 안정성 vs 상방 트레이드오프 — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Nassim Taleb: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Nassim Taleb: 조건부 병목 framework (4가지 조건) — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "Nassim Taleb: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Nassim Taleb: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "Nassim Taleb: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Nassim Taleb: 마이크로캡 약점 + 무반응 길수록 탄성 — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "Nassim Taleb: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T11",
+          "stance": "support",
+          "rationale": "Nassim Taleb: 투자 ranking: 조건부 병목 > ODM > 브랜드 — antifragile+barbell+convexity 관점 평가.",
+          "confidence": 0.57
+        }
+      ],
+      "entry_price_estimate": 3263.25,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 5152.5
+    },
+    "ben-graham": {
+      "verdict": "buy",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] persona별 horizon medium_term와 micro-cap volatility 공존 시 position sizing 중요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EU PPWR 시행 + glass migration secular trend + 인디 brand 패키징 인증 락인 + 자동화 leverage + EV/EBITDA 9x 마이크로캡 discount + PEF M&A target potential.",
+        "[inference] deep_value+margin_of_safety+net-net framework에서 에스엠씨지 (SMCG) 매력 매우 높음",
+        "[inference] thesis-driven catalyst (PPWR + glass migration + 자동화 leverage)"
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — medium_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Benjamin Graham은 deep_value 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 buy (0.70)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Benjamin Graham: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Benjamin Graham: 브랜드 비즈니스 구조적 한계 (commoditization) — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Benjamin Graham: ODM 안정성 vs 상방 트레이드오프 — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Benjamin Graham: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Benjamin Graham: 조건부 병목 framework (4가지 조건) — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "Benjamin Graham: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Benjamin Graham: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "Benjamin Graham: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Benjamin Graham: 마이크로캡 약점 + 무반응 길수록 탄성 — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "Benjamin Graham: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T11",
+          "stance": "support",
+          "rationale": "Benjamin Graham: 투자 ranking: 조건부 병목 > ODM > 브랜드 — deep_value+margin_of_safety+net-net 관점 평가.",
+          "confidence": 0.64
+        }
+      ],
+      "entry_price_estimate": 3263.25,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 5152.5
+    },
+    "bill-ackman": {
+      "verdict": "buy",
+      "confidence": 0.68,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] persona별 horizon medium_term와 micro-cap volatility 공존 시 position sizing 중요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EU PPWR 시행 + glass migration secular trend + 인디 brand 패키징 인증 락인 + 자동화 leverage + EV/EBITDA 9x 마이크로캡 discount + PEF M&A target potential.",
+        "[inference] concentrated+activist+platform framework에서 에스엠씨지 (SMCG) 매력 매우 높음",
+        "[inference] thesis-driven catalyst (PPWR + glass migration + 자동화 leverage)"
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — medium_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Bill Ackman은 concentrated 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 buy (0.68)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Bill Ackman: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Bill Ackman: 브랜드 비즈니스 구조적 한계 (commoditization) — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Bill Ackman: ODM 안정성 vs 상방 트레이드오프 — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Bill Ackman: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Bill Ackman: 조건부 병목 framework (4가지 조건) — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "Bill Ackman: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Bill Ackman: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "Bill Ackman: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Bill Ackman: 마이크로캡 약점 + 무반응 길수록 탄성 — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "Bill Ackman: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T11",
+          "stance": "support",
+          "rationale": "Bill Ackman: 투자 ranking: 조건부 병목 > ODM > 브랜드 — concentrated+activist+platform 관점 평가.",
+          "confidence": 0.63
+        }
+      ],
+      "entry_price_estimate": 3263.25,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 5152.5
+    },
+    "mohnish-pabrai": {
+      "verdict": "buy",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] persona별 horizon medium_term와 micro-cap volatility 공존 시 position sizing 중요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EU PPWR 시행 + glass migration secular trend + 인디 brand 패키징 인증 락인 + 자동화 leverage + EV/EBITDA 9x 마이크로캡 discount + PEF M&A target potential.",
+        "[inference] Dhandho+heads_I_win+low_risk_high_reward framework에서 에스엠씨지 (SMCG) 매력 매우 높음",
+        "[inference] thesis-driven catalyst (PPWR + glass migration + 자동화 leverage)"
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — medium_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Mohnish Pabrai은 Dhandho 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 buy (0.75)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: 브랜드 비즈니스 구조적 한계 (commoditization) — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: ODM 안정성 vs 상방 트레이드오프 — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Mohnish Pabrai: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: 조건부 병목 framework (4가지 조건) — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Mohnish Pabrai: 마이크로캡 약점 + 무반응 길수록 탄성 — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T11",
+          "stance": "support",
+          "rationale": "Mohnish Pabrai: 투자 ranking: 조건부 병목 > ODM > 브랜드 — Dhandho+heads_I_win+low_risk_high_reward 관점 평가.",
+          "confidence": 0.69
+        }
+      ],
+      "entry_price_estimate": 3263.25,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 5152.5
+    },
+    "phil-fisher": {
+      "verdict": "hold",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] scuttlebutt+long_term_growth+management framework에서 verdict 'hold' 정당화: 추가 catalyst 또는 가격 조정 대기"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 산업 fundamental: K뷰티 수출 +12.3% 사상 최대",
+        "[actual] 회사 안정성: 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y -48%로 deep value 구간...."
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — long_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Philip Fisher은 scuttlebutt 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 hold (0.55)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 브랜드 비즈니스 구조적 한계 (commoditization) — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: ODM 안정성 vs 상방 트레이드오프 — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 조건부 병목 framework (4가지 조건) — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 마이크로캡 약점 + 무반응 길수록 탄성 — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        },
+        {
+          "claim_id": "T11",
+          "stance": "neutral",
+          "rationale": "Philip Fisher: 투자 ranking: 조건부 병목 > ODM > 브랜드 — scuttlebutt+long_term_growth+management 관점 평가.",
+          "confidence": 0.41
+        }
+      ],
+      "entry_price_estimate": 3435.0,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 3778.5000000000005
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "buy",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] persona별 horizon long_term와 micro-cap volatility 공존 시 position sizing 중요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EU PPWR 시행 + glass migration secular trend + 인디 brand 패키징 인증 락인 + 자동화 leverage + EV/EBITDA 9x 마이크로캡 discount + PEF M&A target potential.",
+        "[inference] emerging_market_growth+optionality+conviction framework에서 에스엠씨지 (SMCG) 매력 매우 높음",
+        "[inference] thesis-driven catalyst (PPWR + glass migration + 자동화 leverage)"
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — long_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Rakesh Jhunjhunwala은 emerging_market_growth 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 buy (0.72)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: 브랜드 비즈니스 구조적 한계 (commoditization) — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: ODM 안정성 vs 상방 트레이드오프 — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Rakesh Jhunjhunwala: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: 조건부 병목 framework (4가지 조건) — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Rakesh Jhunjhunwala: 마이크로캡 약점 + 무반응 길수록 탄성 — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T11",
+          "stance": "support",
+          "rationale": "Rakesh Jhunjhunwala: 투자 ranking: 조건부 병목 > ODM > 브랜드 — emerging_market_growth+optionality+conviction 관점 평가.",
+          "confidence": 0.66
+        }
+      ],
+      "entry_price_estimate": 3263.25,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 5152.5
+    },
+    "stanley-druckenmiller": {
+      "verdict": "hold",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] macro+top_down+momentum framework에서 verdict 'hold' 정당화: 추가 catalyst 또는 가격 조정 대기"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 산업 fundamental: K뷰티 수출 +12.3% 사상 최대",
+        "[actual] 회사 안정성: 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y -48%로 deep value 구간...."
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — medium_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Stanley Druckenmiller은 macro 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 hold (0.50)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Stanley Druckenmiller: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 브랜드 비즈니스 구조적 한계 (commoditization) — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: ODM 안정성 vs 상방 트레이드오프 — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 조건부 병목 framework (4가지 조건) — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 마이크로캡 약점 + 무반응 길수록 탄성 — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T11",
+          "stance": "neutral",
+          "rationale": "Stanley Druckenmiller: 투자 ranking: 조건부 병목 > ODM > 브랜드 — macro+top_down+momentum 관점 평가.",
+          "confidence": 0.38
+        }
+      ],
+      "entry_price_estimate": 3435.0,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 3778.5000000000005
+    },
+    "aswath-damodaran": {
+      "verdict": "hold",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "애즈워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] 마이크로캡(시총 678억) liquidity·SPAC 보호예수 + 단일 segment focus + 중국 glass capability 향상 + 외부 catalyst 부재 시 'cheap stays cheap'.",
+        "[inference] DCF+narrative+story_to_numbers framework에서 verdict 'hold' 정당화: 추가 catalyst 또는 가격 조정 대기"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 산업 fundamental: K뷰티 수출 +12.3% 사상 최대",
+        "[actual] 회사 안정성: 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y -48%로 deep value 구간...."
+      ],
+      "uncertainty": "투자 ranking: 조건부 병목 > ODM > 브랜드 등 forward thesis 검증 시점 — long_term 단위 visibility 필요",
+      "narrative_vs_quant_resolution": "Aswath Damodaran은 DCF 우선이나, 화장품 유리용기 토탈 패키지 솔루션 — 조건부 병목의 가장 강력한 후보. 시총 678억(마이크로캡), 1Y ... 의 균형 평가하여 hold (0.50)로 결정",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: K뷰티 산업 성장 (2025 +12.3% YoY 사상 최대) — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 브랜드 비즈니스 구조적 한계 (commoditization) — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: ODM 안정성 vs 상방 트레이드오프 — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 플라스틱 용기 underabsorbing (범용화·포맷 mix) — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 조건부 병목 framework (4가지 조건) — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 유리용기 conditional moat (PPWR + 승인장벽 + 전환비용) — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 에스엠씨지 회사 정량 (전기용해로·GRS·로레알·408억 매출 +59%) — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 에스엠씨지 밸류에이션 EV/EBITDA 9x mispricing — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 마이크로캡 약점 + 무반응 길수록 탄성 — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 글로벌 자본 검증 (TPG-삼화 +2.2x → glass next?) — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        },
+        {
+          "claim_id": "T11",
+          "stance": "neutral",
+          "rationale": "Aswath Damodaran: 투자 ranking: 조건부 병목 > ODM > 브랜드 — DCF+narrative+story_to_numbers 관점 평가.",
+          "confidence": 0.38
+        }
+      ],
+      "entry_price_estimate": 3435.0,
+      "stop_loss_estimate": 2919.75,
+      "target_price_estimate": 3778.5000000000005
+    }
+  }
+}
