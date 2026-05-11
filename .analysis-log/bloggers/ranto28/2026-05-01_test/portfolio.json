@@ -1,0 +1,125 @@
+{
+  "as_of_date": "2026-05-01",
+  "total_value_target": 1025000000,
+  "total_position_pct": 73.2,
+  "summary": {
+    "buy_count": 10,
+    "hold_count": 0,
+    "sell_count": 0,
+    "total_invested_target": 1025000000
+  },
+  "by_thesis_node": {
+    "lng_export_operators": [
+      "LNG",
+      "VG",
+      "SRE"
+    ],
+    "korean_lng_carriers": [
+      "042660.KS",
+      "010140.KS",
+      "329180.KS"
+    ],
+    "us_upstream": [
+      "EQT"
+    ],
+    "majors_upstream": [
+      "XOM"
+    ],
+    "midstream": [
+      "WMB",
+      "KMI"
+    ]
+  },
+  "positions": [
+    {
+      "ticker": "LNG",
+      "name_kr": "셰니어 에너지",
+      "action": "buy",
+      "target_value": 140000000,
+      "target_quantity": 375,
+      "signal_score": 0.52,
+      "thesis_node": "lng_export_operators"
+    },
+    {
+      "ticker": "VG",
+      "name_kr": "벤처 글로벌",
+      "action": "buy",
+      "target_value": 55000000,
+      "target_quantity": 3130,
+      "signal_score": 0.34,
+      "thesis_node": "lng_export_operators"
+    },
+    {
+      "ticker": "042660.KS",
+      "name_kr": "한화오션",
+      "action": "buy",
+      "target_value": 55000000,
+      "target_quantity": 415,
+      "signal_score": 0.57,
+      "thesis_node": "korean_lng_carriers"
+    },
+    {
+      "ticker": "EQT",
+      "name_kr": "EQT 코퍼레이션",
+      "action": "buy",
+      "target_value": 105000000,
+      "target_quantity": 1297,
+      "signal_score": 0.57,
+      "thesis_node": "us_upstream"
+    },
+    {
+      "ticker": "010140.KS",
+      "name_kr": "삼성중공업",
+      "action": "buy",
+      "target_value": 55000000,
+      "target_quantity": 1718,
+      "signal_score": 0.52,
+      "thesis_node": "korean_lng_carriers"
+    },
+    {
+      "ticker": "329180.KS",
+      "name_kr": "HD현대중공업",
+      "action": "buy",
+      "target_value": 55000000,
+      "target_quantity": 79,
+      "signal_score": 0.52,
+      "thesis_node": "korean_lng_carriers"
+    },
+    {
+      "ticker": "XOM",
+      "name_kr": "엑슨모빌",
+      "action": "buy",
+      "target_value": 140000000,
+      "target_quantity": 664,
+      "signal_score": 0.3,
+      "thesis_node": "majors_upstream"
+    },
+    {
+      "ticker": "SRE",
+      "name_kr": "셈프라",
+      "action": "buy",
+      "target_value": 140000000,
+      "target_quantity": 1071,
+      "signal_score": 0.3,
+      "thesis_node": "lng_export_operators"
+    },
+    {
+      "ticker": "WMB",
+      "name_kr": "윌리엄스 컴퍼니즈",
+      "action": "buy",
+      "target_value": 140000000,
+      "target_quantity": 1342,
+      "signal_score": 0.34,
+      "thesis_node": "midstream"
+    },
+    {
+      "ticker": "KMI",
+      "name_kr": "킨더 모건",
+      "action": "buy",
+      "target_value": 140000000,
+      "target_quantity": 3118,
+      "signal_score": 0.3,
+      "thesis_node": "midstream"
+    }
+  ]
+}
