@@ -1,0 +1,313 @@
+{
+  "ticker": "ASTS",
+  "name_kr": "AST 스페이스모바일",
+  "name_en": "AST SpaceMobile Inc.",
+  "industry": {
+    "name": "Direct-to-Device Satellite Communications (NTN/SCS)",
+    "overview": "ASTS는 위성-스마트폰 직접 연결(D2D) 시장의 사실상 유일한 phased-array antenna 기반 player. BlueBird 위성은 693m² 대형 phased-array antenna로 수정 없는 일반 5G/4G 폰과 직접 통신. 1차 BlueBird 5기를 2024년 9월 SpaceX Falcon 9으로 발사 후 voice·SMS·data 검증 완료. 2025-2027 BlueBird Block 2 (45-60기) 추가 deploy 예정. 글로벌 100+ telco 파트너십(AT&T·Verizon·Vodafone·Rakuten·Bell Canada·MTN·Telefónica 등) 합산 잠재 가입자 6억+. FCC SCS framework(2024 7월) + ITU WRC-23 NTN 표준 채택이 정책적 backstop. 2030E 글로벌 D2D SAM $90B.",
+    "competitors": [
+      {
+        "name": "Starlink Direct-to-Cell (SpaceX)",
+        "ticker": "private",
+        "share_pct": 0,
+        "moat": "SpaceX 자체 발사 capacity + Tesla·X 통합 + 자본력. 수정 폰 필요"
+      },
+      {
+        "name": "Iridium NEXT",
+        "ticker": "IRDM",
+        "share_pct": 12,
+        "moat": "기존 satellite voice/data 사업자, 100+ 위성 운영"
+      },
+      {
+        "name": "Globalstar",
+        "ticker": "GSAT",
+        "share_pct": 8,
+        "moat": "Apple Emergency SOS 파트너십, 24기 위성"
+      },
+      {
+        "name": "AST SpaceMobile",
+        "ticker": "ASTS",
+        "share_pct": 0,
+        "moat": "phased-array antenna IP + 100+ telco partnership + AT&T·Verizon 우선 권리"
+      },
+      {
+        "name": "Lynk Global",
+        "ticker": "private",
+        "share_pct": 0,
+        "moat": "Small satellite, 부분 D2D"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-04-15",
+        "title": "ASTS, AT&T·Verizon 5G 폰 직접 통신 시연 — 14Mbps throughput 달성",
+        "source": "ASTS Press Release",
+        "summary": "AT&T 5G phone에 별도 modification 없이 직접 connect. Texas 시연에서 video call 검증."
+      },
+      {
+        "date": "2025-03-08",
+        "title": "FCC, ASTS의 SCS waiver 승인 — Verizon·AT&T spectrum 활용 합법화",
+        "source": "FCC",
+        "summary": "Supplemental Coverage from Space framework 정식 적용. Spectrum sharing 안정화."
+      },
+      {
+        "date": "2025-02-12",
+        "title": "ASTS Q4'24 실적 — 매출 $5M, 손실 -$80M, BlueBird Block 2 일정 확인",
+        "source": "ASTS 10-Q",
+        "summary": "Block 2 첫 5기 2025 H2 발사. 다음 60기 2026-27 deploy 예정."
+      },
+      {
+        "date": "2025-01-20",
+        "title": "ASTS, Vodafone과 European telco 통합 발표 — 30개국 유효",
+        "source": "Vodafone PR",
+        "summary": "Vodafone 3억 가입자 D2D 잠재 노출. 2026 Q3 commercial 시작 목표."
+      },
+      {
+        "date": "2024-09-12",
+        "title": "ASTS BlueBird 1차 5기 발사 성공 (SpaceX Falcon 9)",
+        "source": "SpaceX/ASTS",
+        "summary": "1차 BlueBird 모두 정상 궤도 진입. Voice·SMS·Data 검증 시작."
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 1.5,
+      "cagr_pct": 50,
+      "horizon": "2024-2030 D2D SAM"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 0,
+        "op_income": -67,
+        "op_margin": 0.0,
+        "net_income": -78,
+        "net_margin": 0.0
+      },
+      {
+        "year": 2022,
+        "revenue": 14,
+        "op_income": -85,
+        "op_margin": -607,
+        "net_income": -100,
+        "net_margin": -714
+      },
+      {
+        "year": 2023,
+        "revenue": 5,
+        "op_income": -110,
+        "op_margin": -2200,
+        "net_income": -130,
+        "net_margin": -2600
+      },
+      {
+        "year": 2024,
+        "revenue": 4,
+        "op_income": -180,
+        "op_margin": -4500,
+        "net_income": -250,
+        "net_margin": -6250
+      },
+      {
+        "year": 2025,
+        "revenue": 30,
+        "op_income": -350,
+        "op_margin": -1167,
+        "net_income": -450,
+        "net_margin": -1500
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31",
+      "total_assets_usdmn": 1850,
+      "total_debt_usdmn": 380,
+      "total_equity_usdmn": 1100,
+      "cash_usdmn": 600,
+      "net_debt_usdmn": -220,
+      "debt_to_equity": 0.35,
+      "current_ratio": 4.2
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": -300,
+      "capex_2025_usdmn": -700,
+      "fcf_2025_usdmn": -1000,
+      "dividend_paid_2025_usdmn": 0,
+      "buyback_2025_usdmn": 0
+    },
+    "peer_compare": [
+      {
+        "ticker": "ASTS",
+        "fwd_pe": -456,
+        "ev_ebitda": "n/m",
+        "fcf_yield_pct": -5.0,
+        "roe_pct": -41,
+        "debt_to_equity": 0.35
+      },
+      {
+        "ticker": "IRDM",
+        "fwd_pe": 17,
+        "ev_ebitda": 9,
+        "fcf_yield_pct": 6.0,
+        "roe_pct": 18,
+        "debt_to_equity": 0.95
+      },
+      {
+        "ticker": "GSAT",
+        "fwd_pe": -30,
+        "ev_ebitda": 25,
+        "fcf_yield_pct": -3.5,
+        "roe_pct": -8,
+        "debt_to_equity": 0.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "BlueBird Block 2 일정대로 + AT&T·Verizon commercial launch + EBITDA breakeven 2027",
+      "assumption": "2027E ARPU $5/월 × 200M 가입자 = $12B 매출, 영업이익률 30%",
+      "upside_pct": 200,
+      "prob_pct": 25,
+      "target_price": 225,
+      "thesis": "D2D paradigm shift 검증 + 100+ telco scale-out",
+      "key_assumptions": [
+        "BlueBird 60기 2027 deploy 완료",
+        "telco 가입자 200M 확보",
+        "ARPU $5+/월"
+      ]
+    },
+    "base": {
+      "label": "BlueBird Block 2 일부 지연 + commercial ramp 2028",
+      "assumption": "2028E ARPU $3/월 × 80M 가입자 = $3B 매출, 영업이익률 15%",
+      "upside_pct": 50,
+      "prob_pct": 50,
+      "target_price": 113,
+      "thesis": "Telco partnership 점진 monetization",
+      "key_assumptions": [
+        "BlueBird Block 2 50% 일정대로",
+        "가입자 80M",
+        "추가 capital raise 30% dilution"
+      ]
+    },
+    "bear": {
+      "label": "Block 2 1년+ 지연 + Starlink Direct-to-Cell 가속 + capital raise 50% dilution",
+      "assumption": "Commercial revenue 미검증 + Going-concern 우려",
+      "downside_pct": -70,
+      "prob_pct": 25,
+      "target_price": 23,
+      "thesis": "Execution miss + Starlink competition",
+      "key_assumptions": [
+        "BlueBird 1년 지연",
+        "Starlink Cell 글로벌 launch 가속",
+        "추가 capital 50% dilution"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2025 H2",
+      "event": "BlueBird Block 2 첫 5기 발사",
+      "type": "product",
+      "expected_impact": "++",
+      "description": "+15-25%"
+    },
+    {
+      "date": "2026 Q1-Q2",
+      "event": "AT&T·Verizon commercial launch (US 전국 SCS)",
+      "type": "product",
+      "expected_impact": "++",
+      "description": "+30-50%"
+    },
+    {
+      "date": "2026-2027",
+      "event": "BlueBird 60기 deploy 완료",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+20-40%"
+    },
+    {
+      "date": "2026",
+      "event": "Vodafone Europe commercial 시작",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+15-25%"
+    },
+    {
+      "date": "2025-2026",
+      "event": "DOD/NASA secure communication contract 발표",
+      "type": "partnership",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "BlueBird Block 2 deploy 일정 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "Block 2 60기 2027 완료 못할 경우 commercial ramp 1-2년 지연",
+      "mitigation": "Block 1 수익화로 cash burn 완화"
+    },
+    {
+      "name": "Starlink Direct-to-Cell의 SpaceX 자본력 advantage",
+      "probability": "high",
+      "impact": "high",
+      "description": "SpaceX 자체 발사 + 추가 capital로 D2D 시장 직접 침투",
+      "mitigation": "ASTS phased-array는 일반 폰 직접 호환 — 차별화 유지"
+    },
+    {
+      "name": "Capital raise dilution 30-50%",
+      "probability": "high",
+      "impact": "high",
+      "description": "Block 2 deploy 비용 $2-3B, 추가 equity raise 불가피",
+      "mitigation": "Telco partnership 선급 / debt issuance"
+    },
+    {
+      "name": "FCC·ITU spectrum 분쟁",
+      "probability": "low",
+      "impact": "high",
+      "description": "Spectrum sharing 정책 변경 시 commercial deploy 지연",
+      "mitigation": "100+ telco partnership으로 정책 leverage"
+    },
+    {
+      "name": "+197% 1Y rally 후 mean-reversion",
+      "probability": "med",
+      "impact": "med",
+      "description": "Profit-taking + execution miss combination",
+      "mitigation": "Pullback 시 분할 매수"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T4",
+      "claim": "AST SpaceMobile의 위성-휴대폰 직접 연결(D2D)은 통신 산업 구조 자체를 바꾸는 시도",
+      "type": "company",
+      "evidence": "BlueBird 1차 5기 발사 + AT&T·Verizon·Vodafone partnership + FCC SCS framework",
+      "testability": "high",
+      "current_status": "in_progress",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "ASTS는 의교창 thesis의 highest-conviction blogger pick. D2D paradigm shift는 ASTS만의 phased-array IP 기반"
+    },
+    {
+      "thesis_id": "T1",
+      "claim": "SpaceX IPO는 우주 산업 전체 밸류체인의 가격 재산정 촉매",
+      "type": "industry",
+      "evidence": "SpaceX IPO 2025 H2-2026 예상",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "MEDIUM",
+      "ticker_specific_note": "ASTS는 SpaceX rideshare 의존 — IPO catalyst spillover 직접 수혜"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "발사 비용 하락 = 하위 산업 폭발",
+      "type": "industry",
+      "evidence": "Falcon 9 per-위성 비용 $300K",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "BlueBird 60기 deploy 비용 50% 절감의 직접 enabler"
+    }
+  ],
+  "korean_disclosures": []
+}
