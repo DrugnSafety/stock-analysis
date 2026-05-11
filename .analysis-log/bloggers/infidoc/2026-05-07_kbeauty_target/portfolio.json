@@ -1,0 +1,87 @@
+{
+  "snapshot_at": "2026-05-07T13:40:00+09:00",
+  "portfolio_id": "infidoc_kbeauty_target_2026-05-07",
+  "total_aum_assumed_krw_bn": 1000.0,
+  "positions": [
+    {
+      "ticker": "460870.KQ",
+      "name": "에스엠씨지 (SMCG)",
+      "exchange": "KOSDAQ",
+      "shares": 3289000,
+      "entry_price_avg_krw": 3300.0,
+      "current_price_krw": 3435.0,
+      "position_value_krw_bn": 11.30,
+      "position_pct": 1.13,
+      "unrealized_pnl_krw_bn": 0.44,
+      "unrealized_pnl_pct": 4.09,
+      "thesis_status": "active - thesis_alignment very_high",
+      "stop_loss_krw": 2576.0,
+      "target_price_12m_krw": 5500.0,
+      "horizon_months": 18
+    },
+    {
+      "ticker": "192820.KS",
+      "name": "코스맥스",
+      "exchange": "KOSPI",
+      "shares": 150000,
+      "entry_price_avg_krw": 200000.0,
+      "current_price_krw": 207500.0,
+      "position_value_krw_bn": 31.13,
+      "position_pct": 3.11,
+      "unrealized_pnl_krw_bn": 1.13,
+      "unrealized_pnl_pct": 3.75,
+      "thesis_status": "active - thesis_alignment medium",
+      "stop_loss_krw": 170150.0,
+      "target_price_12m_krw": 250000.0,
+      "horizon_months": 24
+    },
+    {
+      "ticker": "161890.KS",
+      "name": "한국콜마",
+      "exchange": "KOSPI",
+      "shares": 378000,
+      "entry_price_avg_krw": 84000.0,
+      "current_price_krw": 86800.0,
+      "position_value_krw_bn": 32.81,
+      "position_pct": 3.28,
+      "unrealized_pnl_krw_bn": 1.06,
+      "unrealized_pnl_pct": 3.33,
+      "thesis_status": "active - thesis_alignment medium",
+      "stop_loss_krw": 71176.0,
+      "target_price_12m_krw": 105000.0,
+      "horizon_months": 24
+    }
+  ],
+  "summary": {
+    "total_positions": 3,
+    "total_invested_krw_bn": 75.24,
+    "total_current_value_krw_bn": 75.24,
+    "total_unrealized_pnl_pct": 3.55,
+    "concentration_kbeauty_sector_pct": 7.52,
+    "max_single_position_pct": 3.28,
+    "concentration_micro_cap_pct": 1.13
+  },
+  "scenarios_24m": {
+    "bull_case": {
+      "description": "PPWR 시행 + glass migration 가속 + 자동화 leverage + PEF M&A",
+      "smcg_target_krw": 8200,
+      "cosmax_target_krw": 290000,
+      "kolmar_target_krw": 125000,
+      "blended_return_pct": 56.7
+    },
+    "base_case": {
+      "description": "K뷰티 수출 +12% 유지, ODM 안정 성장, SMCG 인지도 점진 회복",
+      "smcg_target_krw": 5500,
+      "cosmax_target_krw": 250000,
+      "kolmar_target_krw": 105000,
+      "blended_return_pct": 30.5
+    },
+    "bear_case": {
+      "description": "중국 K뷰티 export 둔화 + 마이크로캡 underperform 지속",
+      "smcg_target_krw": 2500,
+      "cosmax_target_krw": 175000,
+      "kolmar_target_krw": 75000,
+      "blended_return_pct": -16.2
+    }
+  }
+}
