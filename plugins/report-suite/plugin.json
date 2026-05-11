@@ -1,0 +1,39 @@
+{
+  "name": "report-suite",
+  "version": "0.5.0",
+  "description": "R1 (정량 anchor) + R2 (13명 페르소나 패널) + R3 (의사결정 시트) + Deep Research + US-GAAP 재무제표(5년+5분기) + 개선된 News Timeline (중립 제외+월별 차트)을 단일 통합 PDF로 생성. v0.5.0 (2026-05-11): Deep Research 페이지 도입부 승격 + financial_statements_us_gaap 모듈 + implicit thesis 자동 추출.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "tags": ["pdf-report", "deep-research", "us-gaap", "5y-5q-financials", "implicit-thesis", "weasyprint", "korean-fonts", "multi-stock"],
+  "skills": [
+    {"name": "_common", "description": "공통 모듈 — CSS·차트·페르소나 intro·티커 resolver·deep research·뉴스·Phase 5 implicit thesis·US-GAAP financial statements"},
+    {"name": "quant-anchor-report", "description": "R1 정량 보고서 builder"},
+    {"name": "persona-panel-report", "description": "R2 13명 페르소나 보고서 builder + Thesis × Persona Matrix 정상화"},
+    {"name": "executive-summary", "description": "R3 의사결정 시트 builder"},
+    {"name": "unified-builder", "description": "⭐ v0.5.0 새 섹션 흐름 (Cover → Intro → Deep Research → Financial Statements → News Timeline → Brief → R1 → R2 → R3) 통합 PDF builder (build_combined.py + build_multi_stocks.py)"},
+    {"name": "readme-generator", "description": "분석별 instruction README.md 자동 생성 (배경·과정·결과 해석·시리즈 비교)"}
+  ],
+  "scripts": {
+    "build_combined": "skills/unified-builder/scripts/build_combined.py — 단일 종목 통합 PDF",
+    "build_multi_stocks": "skills/unified-builder/scripts/build_multi_stocks.py — Top N 종목 일괄",
+    "financial_statements": "skills/_common/financial_statements_us_gaap.py — 5년 annual + 5분기 quarterly + variance",
+    "implicit_thesis": "skills/_common/implicit_thesis_extractor.py — standalone 분석용 thesis 자동 추출",
+    "readme": "skills/readme-generator/scripts/build_readme.py — 분석 디렉토리별 README 생성"
+  },
+  "requirements": {
+    "python_packages": ["weasyprint", "matplotlib", "yfinance", "pypdf", "requests"],
+    "system_packages": ["fontconfig", "noto-sans-kr", "poppler-utils (pdftocairo)", "ghostscript"],
+    "fonts": ["~/.fonts/NotoSansKR-Regular.otf", "~/.fonts/NotoSansKR-Bold.otf"],
+    "docx_korean_fonts": ["Apple SD Gothic Neo (macOS) — eastAsia OXML attribute", "NEVER use Malgun Gothic (Windows-only)"]
+  },
+  "compatibility": {
+    "cowork_mode": true,
+    "claude_code_cli": true,
+    "python_min": "3.10"
+  },
+  "_changelog": {
+    "0.5.0": "Deep Research 위치 승격 (Section 3), financial_statements_us_gaap.py 신규 (5Y+5Q US GAAP), implicit_thesis_extractor.py 신규 (standalone 분석 자동 보강), News Timeline 중립 제외 + 월별 +/- bar chart, Thesis × Persona Matrix 진단 fallback, docx 한글 폰트 표준 (Apple SD Gothic Neo), NewsAPI.ai 통합, Claude Code CLI 호환 (.claude/commands sync)",
+    "0.4.0": "ETF holdings + Reverse DCF + Subagent debate 통합",
+    "0.3.0": "13명 페르소나 패널 + 4-Analyst 평가 + Deep Research"
+  }
+}
