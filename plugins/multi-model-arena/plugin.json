@@ -1,0 +1,27 @@
+{
+  "name": "multi-model-arena",
+  "version": "0.2.0",
+  "description": "Claude + OpenAI gpt-5.5 + Gemini 3.1 multi-model 합의 시스템. 같은 thesis를 3개 모델에 평가시켜 합의·이견을 추출. 4-Analyst (Macro/Industry/Empirical/Counter) framework 적용.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "tags": ["multi-model", "openai", "gemini", "claude", "consensus", "4-analyst"],
+  "skills": [
+    {"name": "api-key-manager", "description": ".env 파일에서 API 키 로드 + 검증"},
+    {"name": "openai-worker", "description": "OpenAI gpt-5.5 (or gpt-4.1 fallback) 호출 wrapper"},
+    {"name": "gemini-worker", "description": "Google Gemini 3.1 호출 wrapper"},
+    {"name": "arena-orchestrator", "description": "3개 모델 병렬 호출 + 결과 합의/이견 분석"},
+    {"name": "consensus-builder", "description": "weighted voting + agreement level 산출"},
+    {"name": "thesis-extractor", "description": "블로그 본문 → 6-12개 검증 가능 thesis 분해"},
+    {"name": "thesis-evaluator", "description": "각 thesis에 대한 4-Analyst (Macro/Industry/Empirical/Counter) 평가"},
+    {"name": "thesis-to-stocks", "description": "thesis에서 직간접 수혜 종목 자동 식별 (top 3-5)"}
+  ],
+  "commands": [
+    {"name": "arena-extract", "description": "블로그 → thesis 추출 → 종목 식별"},
+    {"name": "arena-analyze", "description": "thesis × 4-Analyst 평가"},
+    {"name": "arena-debate", "description": "3개 모델 합의 cycle"}
+  ],
+  "requirements": {
+    "env_variables": ["OPENAI_API_KEY", "GOOGLE_API_KEY"],
+    "python_packages": ["openai", "google-generativeai"]
+  }
+}
