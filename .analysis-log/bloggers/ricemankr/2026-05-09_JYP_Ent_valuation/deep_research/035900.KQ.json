@@ -1,0 +1,277 @@
+{
+  "industry": {
+    "name": "K-POP Entertainment",
+    "overview": "한국 K-POP 산업은 2024년 글로벌 시장 USD 12.8bn 규모로 5년 CAGR 13~15% 성장. 4대사 (HYBE·SM·JYP·YG) 합산 매출 4.2조원·영업이익 7,200억원 (2024). 글로벌 침투(미국 9%·일본 25%·동남아 30%+) + MD/IP·플랫폼 lock-in으로 multi-stream 진화. JYP는 4대사 중 다국적 라인업 가장 적극적 (NEXZ·VCHA·KickFlip·뻔푸소년·dodree).",
+    "competitors": [
+      {
+        "name": "HYBE (352820.KS)",
+        "market_share_pct": 35,
+        "strength": "BTS·SEVENTEEN 1위 IP + Weverse 플랫폼",
+        "weakness": "BTS 의존도 50%+, 차입 비율 +15%"
+      },
+      {
+        "name": "SM Entertainment (041510.KQ)",
+        "market_share_pct": 22,
+        "strength": "SM 3.0 멀티 레이블 + 디어유 23.3%",
+        "weakness": "NCT 분산·1세대 그룹 회복 미흡"
+      },
+      {
+        "name": "JYP Ent. (035900.KQ)",
+        "market_share_pct": 20,
+        "strength": "다국적 라인업·무차입·ROE 19% (4사 최고)",
+        "weakness": "스트레이키즈 매출 35~40% 의존"
+      },
+      {
+        "name": "YG Entertainment (122870.KQ)",
+        "market_share_pct": 13,
+        "strength": "BLACKPINK 글로벌 IP",
+        "weakness": "BLACKPINK 단일 의존·BABYMONSTER ramp-up 미흡"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-22",
+        "title": "JYP 1Q26 영업이익 +34~40% YoY 264~275억 추정",
+        "source": "stock.pstatic.net 한투 리포트"
+      },
+      {
+        "date": "2026-03-18",
+        "title": "JYP 사업보고서 — NEXZ·VCHA·KickFlip·뻔푸소년 데뷔 + 2026 dodree 런칭 확정",
+        "source": "DART"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "트와이스 북미 26회 투어 sold-out, 누적 관객 65만명+",
+        "source": "Touring Data"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 12.8,
+      "cagr_pct": 14.4,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2020,
+        "revenue": 1444,
+        "op_income": 441,
+        "op_margin": 30.5,
+        "net_income": 295,
+        "net_margin": 20.4
+      },
+      {
+        "year": 2021,
+        "revenue": 1939,
+        "op_income": 580,
+        "op_margin": 29.9,
+        "net_income": 421,
+        "net_margin": 21.7
+      },
+      {
+        "year": 2022,
+        "revenue": 3457,
+        "op_income": 966,
+        "op_margin": 27.9,
+        "net_income": 691,
+        "net_margin": 20.0
+      },
+      {
+        "year": 2023,
+        "revenue": 5660,
+        "op_income": 1694,
+        "op_margin": 29.9,
+        "net_income": 1181,
+        "net_margin": 20.9
+      },
+      {
+        "year": 2024,
+        "revenue": 5210,
+        "op_income": 1095,
+        "op_margin": 21.0,
+        "net_income": 824,
+        "net_margin": 15.8
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2024-12-31",
+      "total_assets_bn_krw": 8500,
+      "total_liabilities_bn_krw": 1300,
+      "total_equity_bn_krw": 7200,
+      "cash_bn_krw": 4200,
+      "debt_bn_krw": 0,
+      "net_debt_pct_of_equity": -58.3
+    },
+    "cf_summary": {
+      "ocf_2024_bn_krw": 1320,
+      "fcf_2024_bn_krw": 1180,
+      "capex_2024_bn_krw": 140,
+      "fcf_margin_pct": 22.6
+    },
+    "peer_compare": [
+      {
+        "ticker": "035900.KQ",
+        "name": "JYP",
+        "fwd_pe": 14.06,
+        "roe_pct": 19,
+        "debt_to_equity_pct": -58,
+        "fcf_margin_pct": 22.6
+      },
+      {
+        "ticker": "352820.KS",
+        "name": "HYBE",
+        "fwd_pe": 25.24,
+        "roe_pct": 14,
+        "debt_to_equity_pct": 15,
+        "fcf_margin_pct": 12.0
+      },
+      {
+        "ticker": "041510.KQ",
+        "name": "SM",
+        "fwd_pe": 13.27,
+        "roe_pct": 12,
+        "debt_to_equity_pct": -10,
+        "fcf_margin_pct": 14.5
+      },
+      {
+        "ticker": "122870.KQ",
+        "name": "YG",
+        "fwd_pe": 14.34,
+        "roe_pct": 8,
+        "debt_to_equity_pct": -5,
+        "fcf_margin_pct": 9.8
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 95000,
+      "thesis": "스트레이키즈 신보 + 북미 투어 hit + NMIXX·ITZY·KickFlip 동시 컴백 success → 2026 OP +50% YoY → PE 28x로 expansion",
+      "horizon": "12-18M"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 80000,
+      "thesis": "신인 ramp-up 정상 + MD/IP 매출 안정 + 2026E NI 1,275억 달성 → PE 22x로 회복",
+      "horizon": "12-18M"
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 48000,
+      "thesis": "신인 흥행 미흡 + 글로벌 macro slowdown + 군 입대 forward 할인 시작 → PE 14x로 derate + EPS -10%",
+      "horizon": "12-18M"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "NMIXX·ITZY 컴백",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "신인·저연차 그룹 동시 컴백으로 분기 매출 +30~40% 가능"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "KickFlip 본격 컴백·아시아 투어",
+      "type": "growth",
+      "expected_impact": "+",
+      "description": "다국적 그룹 IP 검증 + 아시아 투어 매출 +100~150억"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "스트레이키즈 신보 + 북미 투어 재개",
+      "type": "blockbuster",
+      "expected_impact": "++",
+      "description": "BIG catalyst — 분기 매출 +60% 가능 (historical 사례)"
+    },
+    {
+      "date": "2027-Q4",
+      "event": "스트레이키즈 멤버 군 입대 announce",
+      "type": "risk",
+      "expected_impact": "-",
+      "description": "Forward 12~18개월 derate 시작"
+    }
+  ],
+  "risks": [
+    {
+      "name": "스트레이키즈 군 입대 (2027말~2028초)",
+      "probability": "high",
+      "impact": "high",
+      "description": "매출 -15~20%, OP -25~35% impact. BTS 사례 (-25%) 학습효과로 forward derate 시작 가능",
+      "mitigation": "신인 ramp-up + 라인업 다양성 + 무차입 buffer"
+    },
+    {
+      "name": "신인 ramp-up 미흡",
+      "probability": "med",
+      "impact": "high",
+      "description": "NEXZ/KickFlip/dodree의 매출 기여도가 industry 평균 (24~36개월 peak) 보다 느릴 시 EPS estimate cut",
+      "mitigation": "라인업 5팀 분산으로 expected value 측면 +"
+    },
+    {
+      "name": "글로벌 macro slowdown",
+      "probability": "med",
+      "impact": "med",
+      "description": "Recession 시 콘서트·MD -10~15% 매출 + sector multiple -15~20% derate",
+      "mitigation": "무차입 + 자사주 6.8%로 surviving margin 확보"
+    },
+    {
+      "name": "AI 음악 commoditization",
+      "probability": "low",
+      "impact": "high",
+      "description": "SUNO·Udio 등 AI 작곡 도구 확산 시 K-POP 차별화 가치 약화",
+      "mitigation": "글로벌 IP·캐릭터·팬덤 lock-in으로 차별화 유지"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "다국적 라인업 5팀 (NEXZ·VCHA·KickFlip·뻔푸소년·dodree)으로 단일 시장 의존도 완화",
+      "type": "factual",
+      "evidence": "사업보고서 2026.03.18 + 4대사 라인업 비교 (JYP 9팀 vs SM 8팀 vs HYBE 7팀 vs YG 4팀)",
+      "testability": "high",
+      "current_status": "verified"
+    },
+    {
+      "claim": "MD/IP 매출 비중 28% (4사 평균 25%)로 신보 공백기 이익 방어",
+      "type": "factual",
+      "evidence": "IR 자료 분기별 매출 분해 + SKZOO 글로벌 캐릭터 차트 5위",
+      "testability": "high",
+      "current_status": "verified"
+    },
+    {
+      "claim": "Target PE 24x → 88,000~92,000원 (40~50% upside)",
+      "type": "predictive",
+      "evidence": "2026E NI 1,290~1,310억 × 24x = 시총 3.1조 = 88,000~90,000원/주",
+      "testability": "medium",
+      "current_status": "predictive"
+    },
+    {
+      "claim": "무차입 경영(순차입금/자본 -60%) + 자사주 6.8% — 4사 중 최상위",
+      "type": "factual",
+      "evidence": "DART 사업보고서 + 4사 financial statement 비교",
+      "testability": "high",
+      "current_status": "verified"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-22",
+      "type": "분기보고서",
+      "title": "1Q26 잠정 영업이익 264-275억 (+34~40% YoY)",
+      "url": "DART"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "사업보고서",
+      "title": "2025 사업보고서 — 신인 라인업 + MD/IP 매출 분해",
+      "url": "DART"
+    },
+    {
+      "date": "2026-02-28",
+      "type": "주요사항보고서",
+      "title": "이사회 결의 — 2025 결산배당 1,200원/주",
+      "url": "DART"
+    }
+  ]
+}
