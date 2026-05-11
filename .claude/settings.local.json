@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:blog.naver.com)",
+      "Bash(python3 plugins/backtester/skills/historical-blog-collector/scripts/fetch_post_body.py https://blog.naver.com/ranto28/224262008286)",
+      "Bash(mkdir -p .analysis-log/bloggers/ranto28/2026-05-01_test)",
+      "Bash(python3 plugins/backtester/skills/historical-blog-collector/scripts/fetch_post_body.py https://blog.naver.com/ranto28/224262008286 --output /tmp/ranto28_post.json)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/tmp/ranto28_post.json'\\)\\); print\\('TITLE:', d.get\\('title'\\)\\); print\\('DATE:', d.get\\('published_at'\\)\\); print\\('LEN:', d.get\\('content_length'\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/tmp/ranto28_post.json'\\)\\); print\\(d['content_text']\\)\")",
+      "Bash(ls .analysis-log/bloggers/ranto28/2026-04-23_henry_hub_LNG/analyses/)",
+      "Bash(ls .analysis-log/bloggers/ranto28/2026-04-23_henry_hub_LNG/reports/)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('.analysis-log/bloggers/ranto28/2026-04-23_henry_hub_LNG/stocks.json'\\)\\); print\\('explicit:',len\\(d['companies_explicit']\\),'implicit:',len\\(d['companies_implicit']\\),'etfs:',len\\(d.get\\('etfs',[]\\)\\)\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c 'import json; d=json.load\\(open\\('\\\\''__TRACKED_VAR__/persona_panel/290650.KQ/aggregate.json'\\\\''\\)\\); print\\(json.dumps\\(d, ensure_ascii=False, indent=2\\)\\)')",
+      "Bash(python3 *)",
+      "Read(//opt/homebrew/lib/**)",
+      "Bash(brew list *)",
+      "Bash(DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib python3 -c \"from weasyprint import HTML, CSS; print\\('OK'\\)\")",
+      "Bash(brew install *)",
+      "Bash(DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib python3 plugins/report-suite/skills/unified-builder/scripts/build_multi_stocks.py --pipeline-dir .analysis-log/bloggers/ranto28/2026-05-01_test --output-dir .analysis-log/bloggers/ranto28/2026-05-01_test/reports/combined --top-n 10)",
+      "Bash(DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib python3 plugins/report-suite/skills/unified-builder/scripts/build_combined.py --help)",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api *)",
+      "Bash(mdfind -name \"dcf-model\")",
+      "Bash(mdfind -name \"financial-services\")"
+    ]
+  }
+}
