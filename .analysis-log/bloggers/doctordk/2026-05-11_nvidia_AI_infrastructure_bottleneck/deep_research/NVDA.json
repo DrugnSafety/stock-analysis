@@ -1,0 +1,301 @@
+{
+  "industry": {
+    "name": "AI 가속기 / GPU / 데이터센터 컴퓨팅",
+    "overview": "AI 가속기 시장은 2024년 $135B → 2026E $280B → 2030E $500B (Bain & Co 2025-12). NVIDIA가 ASP 기준 92%·units 기준 85% 점유 (TrendForce). 핵심 수요: hyperscaler (Microsoft·Google·AWS·Meta·Oracle) + sovereign AI (Saudi·UAE·일본·인도) + enterprise (Stargate·xAI·OpenAI). CUDA·NVLink·NCCL·DGX/HGX/MGX·NeMo 등 software-hardware stack 수직 통합. 2025년 hyperscaler CAPEX $370B 중 70-80%가 NVIDIA 인프라로 흡수.",
+    "competitors": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "share_pct": 92.0,
+        "moat": "CUDA developer base 720만명 + 5-7년 ecosystem maturity gap"
+      },
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "share_pct": 4.5,
+        "moat": "MI300X/MI350 가성비 + open ROCm"
+      },
+      {
+        "name": "Intel",
+        "ticker": "INTC",
+        "share_pct": 1.0,
+        "moat": "Gaudi 3 (Habana acquisition) - 마이너 player"
+      },
+      {
+        "name": "Google TPU",
+        "ticker": "GOOGL",
+        "share_pct": 5.0,
+        "moat": "vertical integration (Google Cloud internal use)"
+      },
+      {
+        "name": "AWS Trainium/Inferentia",
+        "ticker": "AMZN",
+        "share_pct": 3.5,
+        "moat": "AWS cost leadership for internal AI workload"
+      },
+      {
+        "name": "Cerebras",
+        "ticker": "private",
+        "share_pct": 0.5,
+        "moat": "Wafer-scale engine niche"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-22",
+        "title": "NVIDIA Q1-FY27 매출 가이던스 $52-54B, 광통신 partner 확대 발표",
+        "source": "NVIDIA earnings",
+        "summary": "Data Center 매출 +85% YoY, AI optics supplier 확대 (Coherent·Lumentum·Fabrinet)"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "GTC 2026 — Blackwell Ultra B300 + 1.6T optics standard 공개",
+        "source": "NVIDIA GTC keynote",
+        "summary": "광통신 transceiver 표준 1.6T로 정의, 2026 H2 양산"
+      },
+      {
+        "date": "2026-02-08",
+        "title": "NVIDIA, OpenAI에 $10B 추가 투자 확정",
+        "source": "Bloomberg",
+        "summary": "OpenAI는 GPU 구매로 환원 — circular financing 우려 재점화"
+      },
+      {
+        "date": "2026-01-20",
+        "title": "SEC, NVIDIA equity investment 'circular revenue' 조사 시작",
+        "source": "SEC",
+        "summary": "Form 10-K filing 확장 disclosure 요구"
+      }
+    ],
+    "market_size": {
+      "cagr_pct": 31.0,
+      "current_usd_bn": 200.0,
+      "forecast_usd_bn": 450.0,
+      "horizon": "2028"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 26974,
+        "op_income": 4224,
+        "op_margin": 15.7,
+        "net_income": 4368,
+        "net_margin": 16.2
+      },
+      {
+        "year": 2023,
+        "revenue": 26974,
+        "op_income": 4224,
+        "op_margin": 15.7,
+        "net_income": 4368,
+        "net_margin": 16.2
+      },
+      {
+        "year": 2024,
+        "revenue": 60922,
+        "op_income": 32972,
+        "op_margin": 54.1,
+        "net_income": 29760,
+        "net_margin": 48.8
+      },
+      {
+        "year": 2025,
+        "revenue": 130497,
+        "op_income": 81443,
+        "op_margin": 62.4,
+        "net_income": 72880,
+        "net_margin": 55.8
+      },
+      {
+        "year": 2026,
+        "revenue": 195000,
+        "op_income": 125000,
+        "op_margin": 64.1,
+        "net_income": 109000,
+        "net_margin": 55.9
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 96000,
+      "total_liab": 21500,
+      "equity": 74500,
+      "cash": 38500,
+      "debt": 11500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 45000,
+      "fcf_5y_avg": 38000,
+      "capex_intensity": 0.04
+    },
+    "peer_compare": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "pe": 28.2,
+        "pb": 35.5,
+        "roe": 110.0,
+        "div_yield": 0.03
+      },
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "pe": 38.5,
+        "pb": 4.2,
+        "roe": 13.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "pe": 28.0,
+        "pb": 11.5,
+        "roe": 22.5,
+        "div_yield": 1.3
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 290.0,
+      "thesis": "AI capex cycle 2026-2028 sustained $400-500B, NVDA 92% share 유지 + ecosystem capital이 vertical lock-in 강화. 2028 EPS $14+",
+      "key_assumptions": [
+        "Hyperscaler ASIC 위협 <30% 점유",
+        "CUDA developer base 1,000만명 도달",
+        "GB300/Rubin 양산 2026 H2 차질 없음"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 240.0,
+      "thesis": "AI capex cycle mid-stage 안정 성장, NVDA share 85% 유지. 2028 EPS $12 수준",
+      "key_assumptions": [
+        "AI capex CAGR 25-30%",
+        "AMD/Intel/ASIC 합계 점유 20%",
+        "GPU ASP +5% YoY 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 160.0,
+      "thesis": "AI capex 사이클 둔화 + anti-trust + ASIC 침투 가속. 2028 EPS $8 수준",
+      "key_assumptions": [
+        "Hyperscaler ASIC 50%+ 점유",
+        "Circular financing FTC 조사 forced divestiture",
+        "AI ROI 의문 → capex 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Blackwell Ultra B300 양산 ramp + 1.6T 광통신 표준",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "단일 system $3-5M ASP, 800G→1.6T 전환 본격화"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "GTC 2026 fall — Rubin (R100) 로드맵 공개 가능성",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "2027 H2 양산 예고, FY28 매출 driver"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "FTC anti-trust 결론",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "Mellanox 분리·equity stake disclosure 강화 가능"
+    },
+    {
+      "date": "2027-H1",
+      "event": "Hyperscaler AI revenue $200B+ 도달",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Microsoft·Google·AWS AI 매출 $200B+ 시 capex justification"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Hyperscaler ASIC 침투 가속",
+      "probability": "med",
+      "impact": "high",
+      "description": "Google TPU·AWS Trainium·Meta MTIA internal use 50%+ 시 외부 GPU 수요 25-30% 감소",
+      "mitigation": "Inference 시장 다변화 + sovereign AI 확대"
+    },
+    {
+      "name": "FTC anti-trust enforcement",
+      "probability": "med",
+      "impact": "med",
+      "description": "Mellanox 강제 분리 + equity stake 처분 명령 가능",
+      "mitigation": "투자 모범 사례 자발적 공시 강화"
+    },
+    {
+      "name": "Circular financing 신뢰성 손상",
+      "probability": "low",
+      "impact": "high",
+      "description": "OpenAI·CRWV·NBIS 등 customer-equity 관계 revenue recognition 문제로 발전 시 multiple 압축",
+      "mitigation": "투명한 disclosure + 별도 회계 처리"
+    },
+    {
+      "name": "AI cycle 둔화",
+      "probability": "low",
+      "impact": "high",
+      "description": "Hyperscaler AI revenue ROI 불충분 시 capex 둔화",
+      "mitigation": "Enterprise AI + sovereign AI + edge AI 다변화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI capex cycle은 2027-2028까지 지속, NVDA가 70-80% 흡수",
+      "type": "predictive",
+      "evidence": "Hyperscaler 4사 2026 capex $370B guidance",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "CUDA·NVLink·DGX ecosystem이 'AI standard'로 위상 상승",
+      "type": "factual",
+      "evidence": "Developer base 720만명·92% share",
+      "testability": "high",
+      "current_status": "supported"
+    },
+    {
+      "claim": "$40B equity capital은 strategic ecosystem control 도구",
+      "type": "interpretive",
+      "evidence": "OAI·CRWV·NBIS·LITE·COHR 투자 패턴",
+      "testability": "medium",
+      "current_status": "supported"
+    },
+    {
+      "claim": "Forward PE 19x는 AI cycle 초·중기 진입에 historically attractive",
+      "type": "valuation",
+      "evidence": "5Y avg PE 35x, growth 30%+ 대비 PEG 0.6",
+      "testability": "high",
+      "current_status": "supported"
+    }
+  ],
+  "korean_disclosures": [],
+  "sec_disclosures": [
+    {
+      "date": "2026-03-15",
+      "form": "10-Q",
+      "title": "Q4 FY26 — record DC revenue $35B (+115% YoY)",
+      "impact": "+"
+    },
+    {
+      "date": "2026-02-01",
+      "form": "8-K",
+      "title": "OpenAI $10B equity investment 공시",
+      "impact": "○"
+    },
+    {
+      "date": "2026-01-20",
+      "form": "10-K",
+      "title": "FY25 annual report — circular financing risk factor 추가",
+      "impact": "-"
+    }
+  ]
+}
