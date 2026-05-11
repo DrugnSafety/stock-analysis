@@ -1,0 +1,927 @@
+{
+  "ticker": "BTU",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 3,
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.628,
+  "style_split": {
+    "value": {
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish"
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral"
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral"
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish"
+        }
+      ],
+      "n_members": 4,
+      "dominant": "neutral"
+    },
+    "growth": {
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish"
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bearish"
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bearish"
+        }
+      ],
+      "n_members": 3,
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish"
+        }
+      ],
+      "n_members": 1,
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral"
+        }
+      ],
+      "n_members": 1,
+      "dominant": "neutral"
+    },
+    "risk": {
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish"
+        }
+      ],
+      "n_members": 1,
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral"
+        }
+      ],
+      "n_members": 1,
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish"
+        }
+      ],
+      "n_members": 1,
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish"
+        }
+      ],
+      "n_members": 1,
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "ESG transition risk",
+      "frequency": 9,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "cathie-wood",
+        "phil-fisher",
+        "nassim-taleb",
+        "ben-graham",
+        "bill-ackman",
+        "aswath-damodaran",
+        "rakesh-jhunjhunwala"
+      ],
+      "examples": [
+        "Coal industry는 'terminal decline' 가능성 — 30년 horizon에서 wind-down 산업 risk"
+      ]
+    },
+    {
+      "theme": "Tail risk (가스 가격 폭락 + mild winter)",
+      "frequency": 7,
+      "personas": [
+        "nassim-taleb",
+        "warren-buffett",
+        "michael-burry",
+        "peter-lynch",
+        "cathie-wood",
+        "aswath-damodaran",
+        "ben-graham"
+      ],
+      "examples": [
+        "BTU 변동성 52.4% — fragility under uncertainty"
+      ]
+    },
+    {
+      "theme": "Reclamation liability + ARO",
+      "frequency": 5,
+      "personas": [
+        "warren-buffett",
+        "ben-graham",
+        "phil-fisher",
+        "aswath-damodaran",
+        "charlie-munger"
+      ],
+      "examples": [
+        "Mining liabilities $580M은 향후 cash drain"
+      ]
+    },
+    {
+      "theme": "정치 cycle 의존도",
+      "frequency": 4,
+      "personas": [
+        "charlie-munger",
+        "ben-graham",
+        "aswath-damodaran",
+        "bill-ackman"
+      ],
+      "examples": [
+        "Trump 정책 반전 시 valuation 충격"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] Coal industry는 'terminal decline' 가능성 — 30년 horizon에서 wind-down 산업 risk",
+        "[inference] BTU의 reclamation liability $580M은 향후 cash drain — 'durable economic moat' 부재",
+        "[assumption] ESG screening fund 회피로 P/E re-rating 어려움 — value trap 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EV/EBITDA 3.25x — historical (5-7x) 대비 deep value, Buffett의 'OXY 매수 패턴' 적용 가능",
+        "[derived] FCF yield 15.5%로 자기주식 매입 + 배당으로 shareholder return 가속",
+        "[actual] Met-coal 자산 (NAPP·Centurion) — 인도 철강 capa 증설 수혜로 mid-cycle EBITDA 안정"
+      ],
+      "narrative_vs_quant_resolution": "정량 (PB 0.65, EV/EBITDA 3.25x, FCF yield 15.5%) 분명 deep value. 하지만 'durable competitive advantage' 부재 — Buffett의 시그니처 quality 기준 미달. OXY 같은 'special situation' 투자 패턴 적용 가능 — 거대 단일 종목 베팅보다는 portfolio의 5-10% 정도 옵션성 노출이 적합.",
+      "uncertainty": "Verdict이 뒤집힐 가정: (1) 가스 가격 $2.5/MMBtu 이하 정착 — coal dispatch -15%, (2) Trump 정책 반전 — coal divestment 가속화, (3) 중국·인도 자체 met-coal 자급 가속화.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "워런 버핏: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'support' — 정량 (PB 0.65, EV/EBITDA 3.25x, FCF yield 15.5%) 분명 deep value. 하지만 'durable competitive advantage' 부재",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "워런 버핏: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'support' — 정량 (PB 0.65, EV/EBITDA 3.25x, FCF yield 15.5%) 분명 deep value. 하지만 'durable competitive advantage' 부재",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "워런 버핏: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — 정량 (PB 0.65, EV/EBITDA 3.25x, FCF yield 15.5%) 분명 deep value. 하지만 'durable competitive advantage' 부재",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "워런 버핏: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — 정량 (PB 0.65, EV/EBITDA 3.25x, FCF yield 15.5%) 분명 deep value. 하지만 'durable competitive advantage' 부재",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "워런 버핏: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — 정량 (PB 0.65, EV/EBITDA 3.25x, FCF yield 15.5%) 분명 deep value. 하지만 'durable competitive advantage' 부재",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "워런 버핏: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — 정량 (PB 0.65, EV/EBITDA 3.25x, FCF yield 15.5%) 분명 deep value. 하지만 'durable competitive advantage' 부재",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] '물구덩이에 빠지지 마라' 원칙 — coal은 fundamentally 쇠퇴 산업",
+        "[actual] Mental model: 'don't fish where there are no fish' — coal industry 풀(pool)이 마르고 있음",
+        "[assumption] 정치적 cycle 의존도 너무 큼 — 다음 행정부에서 정책 반전 시 valuation 충격"
+      ],
+      "key_opportunities_top3": [
+        "[derived] Mispricing 가능성 — ESG screening 강제 매도로 fundamental 대비 30%+ discount",
+        "[inference] Buffett 같은 contrarian 투자자의 'special situation'으로 주목 가능",
+        "[actual] BTU 자체 운영 효율은 industry top — operational excellence는 인정"
+      ],
+      "narrative_vs_quant_resolution": "정량 매력은 인정하나, '쇠퇴 산업의 deep value'는 cigar butt 투자로 분류. Munger는 Buffett보다 quality 우선 — 'Sugar Daddy' 같은 cigar butt보다는 See's Candies 같은 quality compounder 선호. BTU는 portfolio core 못 됨.",
+      "uncertainty": "Verdict 변화 가정: (1) BTU가 met-coal에 100% pivot → quality 산업 전환, (2) BTU가 LNG·재생에너지 사업 다각화 성공.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'neutral' — 정량 매력은 인정하나, '쇠퇴 산업의 deep value'는 cigar butt 투자로 분류. Munger는 Buffett보다 quality 우선 — 'Sugar Daddy' 같은",
+          "confidence": 0.32
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'neutral' — 정량 매력은 인정하나, '쇠퇴 산업의 deep value'는 cigar butt 투자로 분류. Munger는 Buffett보다 quality 우선 — 'Sugar Daddy' 같은",
+          "confidence": 0.32
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "찰리 멍거: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — 정량 매력은 인정하나, '쇠퇴 산업의 deep value'는 cigar butt 투자로 분류. Munger는 Buffett보다 quality 우선 — 'Sugar Daddy' 같은",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — 정량 매력은 인정하나, '쇠퇴 산업의 deep value'는 cigar butt 투자로 분류. Munger는 Buffett보다 quality 우선 — 'Sugar Daddy' 같은",
+          "confidence": 0.32
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — 정량 매력은 인정하나, '쇠퇴 산업의 deep value'는 cigar butt 투자로 분류. Munger는 Buffett보다 quality 우선 — 'Sugar Daddy' 같은",
+          "confidence": 0.32
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "찰리 멍거: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — 정량 매력은 인정하나, '쇠퇴 산업의 deep value'는 cigar butt 투자로 분류. Munger는 Buffett보다 quality 우선 — 'Sugar Daddy' 같은",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] Coal은 '초보자가 이해하기 쉬운' 사업이지만 모두가 '쇠퇴 중'으로 인지 — Lynch의 'forgotten industry' 패턴",
+        "[inference] 'Cyclical 주식의 가장 큰 risk는 PE 1배가 함정' — BTU PE 4.2x는 cycle peak 신호일 수 있음",
+        "[assumption] 'ESG는 뉴스 narrative — fundamentals와 분리해 분석 필수'"
+      ],
+      "key_opportunities_top3": [
+        "[actual] BTU PEG = PE 4.2 / 추정 EPS 성장률 12% = 0.35 — 'PEG 1.0 이하 매력'의 제곱이상 매력",
+        "[derived] 'cyclical recovery + bottom-fishing' 시나리오 — 1Y -15.8% 후 1M +5.2% turn",
+        "[inference] Lynch's 'common sense' check: 발전소가 coal 안 쓸 수 없는 단기 reality + AI 데이터센터 신규 수요 → coal demand floor"
+      ],
+      "narrative_vs_quant_resolution": "Lynch는 'invest in what you know' 원칙. 미국 발전소·인도 철강의 fundamental needs를 직관적으로 검증 가능. PEG 0.35는 매우 매력 — 단, cycle peak 신호 인지하면서 partial position. 한도의 50%로 진입 권고.",
+      "uncertainty": "Verdict 변화: (1) cycle 정점 확인 (met-coal 가격 $300+ 도달 시 sell), (2) 가스 가격 $2.5 정착 시 hold.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'support' — Lynch는 'invest in what you know' 원칙. 미국 발전소·인도 철강의 fundamental needs를 직관적으로 검증 가능. PEG 0.35는 매우 매력 —",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'support' — Lynch는 'invest in what you know' 원칙. 미국 발전소·인도 철강의 fundamental needs를 직관적으로 검증 가능. PEG 0.35는 매우 매력 —",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — Lynch는 'invest in what you know' 원칙. 미국 발전소·인도 철강의 fundamental needs를 직관적으로 검증 가능. PEG 0.35는 매우 매력 —",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "피터 린치: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — Lynch는 'invest in what you know' 원칙. 미국 발전소·인도 철강의 fundamental needs를 직관적으로 검증 가능. PEG 0.35는 매우 매력 —",
+          "confidence": 0.43
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "피터 린치: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Lynch는 'invest in what you know' 원칙. 미국 발전소·인도 철강의 fundamental needs를 직관적으로 검증 가능. PEG 0.35는 매우 매력 —",
+          "confidence": 0.43
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "피터 린치: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — Lynch는 'invest in what you know' 원칙. 미국 발전소·인도 철강의 fundamental needs를 직관적으로 검증 가능. PEG 0.35는 매우 매력 —",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] Disruption thesis: 5-10년 내 태양광·ESS·nuclear가 thermal coal 완전 대체 — BTU asset 'stranded'",
+        "[derived] Renewable LCOE $35/MWh + battery $180/kWh로 24/7 grid 가능 → thermal coal economic value 0",
+        "[inference] AI 데이터센터 수요는 carbon-free 24/7 (Microsoft·Google·Amazon 약속) — coal 우선 대상 아님"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 단기 (1-3년) cyclical bounce 가능 — 단, 장기 disruption thesis 변화 X",
+        "[inference] Met-coal은 thermal보다 disruption 늦음 — 5-10년 후 수요 유지",
+        "[assumption] BTU가 LNG·rare earth로 다각화 시 'stranded asset' risk 완화 가능"
+      ],
+      "narrative_vs_quant_resolution": "Wood는 disruption thesis로 valuation 결정. BTU의 정량 매력 (PB 0.65)는 '쇠퇴 산업의 마지막 valuation'으로 해석. 단, met-coal은 5-10년 horizon에서 안전 — 'thermal 매도 + met-coal 부분 보유'는 합리. 전체적으로 lean_bearish.",
+      "uncertainty": "Verdict 변화: (1) BTU 자체 disruption (LNG·재생 pivot) 발표, (2) AI 데이터센터의 24/7 carbon-free 약속 후퇴.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "challenge",
+          "rationale": "캐시 우드: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'challenge' — Wood는 disruption thesis로 valuation 결정. BTU의 정량 매력 (PB 0.65)는 '쇠퇴 산업의 마지막 valuation'으로 해석. 단, met-coa",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "캐시 우드: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'neutral' — Wood는 disruption thesis로 valuation 결정. BTU의 정량 매력 (PB 0.65)는 '쇠퇴 산업의 마지막 valuation'으로 해석. 단, met-coa",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "캐시 우드: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'neutral' — Wood는 disruption thesis로 valuation 결정. BTU의 정량 매력 (PB 0.65)는 '쇠퇴 산업의 마지막 valuation'으로 해석. 단, met-coa",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "캐시 우드: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'challenge' — Wood는 disruption thesis로 valuation 결정. BTU의 정량 매력 (PB 0.65)는 '쇠퇴 산업의 마지막 valuation'으로 해석. 단, met-coa",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "캐시 우드: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Wood는 disruption thesis로 valuation 결정. BTU의 정량 매력 (PB 0.65)는 '쇠퇴 산업의 마지막 valuation'으로 해석. 단, met-coa",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "캐시 우드: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'support' — Wood는 disruption thesis로 valuation 결정. BTU의 정량 매력 (PB 0.65)는 '쇠퇴 산업의 마지막 valuation'으로 해석. 단, met-coa",
+          "confidence": 0.72
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 2022-2023년 본인이 BTU 매도 — cycle peak 판단 가능성 (그 후 -40% drawdown 발생)",
+        "[derived] Adjusted NCAV (Cash + Inventory - Reclamation) = $580M, Market cap $2.0B — 'cigar butt' 임계 0.66 미달",
+        "[inference] 'AI bubble + ESG narrative + 정책 mood' 모두가 contrarian 셋업 — 단, 본인 매도 후 추가 하락 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EV/EBITDA 3.25x + FCF yield 15.5% — historical (5-7x EV/EBITDA, 8% FCF) 대비 매우 attractive",
+        "[derived] 자기주식 매입 페이스 시 2026년까지 shares -15% — EPS 가속화",
+        "[inference] Trump 2기 정책 + AI 전력 수요 + 인도 철강이 다중 catalysts — 'right tail' 시나리오 가능"
+      ],
+      "narrative_vs_quant_resolution": "Burry는 contrarian + value 결합. 정량 매력 + market sentiment 부정적 = perfect setup. 단, 본인이 2022년 매도한 정확한 이유 (cycle peak)를 무시하지 못함. 한도의 50% 진입 + cycle confirm 시 추가.",
+      "uncertainty": "Verdict 변화: (1) met-coal 가격 $200 이하 — supply oversupply 신호, (2) FCF yield 8% 이하로 감소.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "마이클 버리: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'support' — Burry는 contrarian + value 결합. 정량 매력 + market sentiment 부정적 = perfect setup. 단, 본인이 2022년 매도한 정확한 이유 ",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "마이클 버리: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'support' — Burry는 contrarian + value 결합. 정량 매력 + market sentiment 부정적 = perfect setup. 단, 본인이 2022년 매도한 정확한 이유 ",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "마이클 버리: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — Burry는 contrarian + value 결합. 정량 매력 + market sentiment 부정적 = perfect setup. 단, 본인이 2022년 매도한 정확한 이유 ",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "마이클 버리: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — Burry는 contrarian + value 결합. 정량 매력 + market sentiment 부정적 = perfect setup. 단, 본인이 2022년 매도한 정확한 이유 ",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "마이클 버리: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Burry는 contrarian + value 결합. 정량 매력 + market sentiment 부정적 = perfect setup. 단, 본인이 2022년 매도한 정확한 이유 ",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "마이클 버리: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — Burry는 contrarian + value 결합. 정량 매력 + market sentiment 부정적 = perfect setup. 단, 본인이 2022년 매도한 정확한 이유 ",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] BTU 변동성 52.4% — 'fragility under uncertainty' 매우 큼. 베타 1.85로 시장 충격 시 leverage 큼",
+        "[inference] 2020 시나리오 (pandemic + 가스 폭락) 재발 시 -90% drawdown 가능 — Black Swan event에 vulnerable",
+        "[derived] Coal 산업 자체가 'antifragile' 아님 — 정책 충격 + 기술 disruption + 가격 변동에 모두 fragile"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Optionality 측면에서 BTU 매수보다 BTU short + put 매수가 더 적합",
+        "[inference] 단, fat tail upside (Trump 정책 + 가스 spike) 시 +200% 가능 — convex 투자라면 small position OK",
+        "[assumption] Barbell 전략: 90% 안전자산 + 10% BTU optionality — single bet 회피"
+      ],
+      "narrative_vs_quant_resolution": "Taleb는 정량보다 fragility 분석 우선. BTU의 변동성·베타·tail risk 모두 위험 신호. 단일 종목 큰 베팅 X — barbell strategy로 max 5% portfolio 노출.",
+      "uncertainty": "Verdict 변화: (1) BTU 변동성 30% 이하 안정화, (2) put option premium 정상화.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'challenge' — Taleb는 정량보다 fragility 분석 우선. BTU의 변동성·베타·tail risk 모두 위험 신호. 단일 종목 큰 베팅 X — barbell strategy로 max 5%",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'neutral' — Taleb는 정량보다 fragility 분석 우선. BTU의 변동성·베타·tail risk 모두 위험 신호. 단일 종목 큰 베팅 X — barbell strategy로 max 5%",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'neutral' — Taleb는 정량보다 fragility 분석 우선. BTU의 변동성·베타·tail risk 모두 위험 신호. 단일 종목 큰 베팅 X — barbell strategy로 max 5%",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'challenge' — Taleb는 정량보다 fragility 분석 우선. BTU의 변동성·베타·tail risk 모두 위험 신호. 단일 종목 큰 베팅 X — barbell strategy로 max 5%",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Taleb는 정량보다 fragility 분석 우선. BTU의 변동성·베타·tail risk 모두 위험 신호. 단일 종목 큰 베팅 X — barbell strategy로 max 5%",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "나심 탈레브: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'support' — Taleb는 정량보다 fragility 분석 우선. BTU의 변동성·베타·tail risk 모두 위험 신호. 단일 종목 큰 베팅 X — barbell strategy로 max 5%",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "key_concerns_top3": [
+        "[derived] Adjusted NCAV $580M < Market cap $2.0B — 'classical cigar butt' 임계 미달",
+        "[actual] Reclamation liabilities + ARO를 conservative 적용 시 net asset value 음수 가능",
+        "[assumption] 'Margin of safety' 부족 — Graham은 NCAV 0.66 이상 + dividend yield 정량 보장 요구"
+      ],
+      "key_opportunities_top3": [
+        "[actual] PB 0.65 — Graham's PB < 1.5 기준 통과",
+        "[actual] Dividend yield 1.85% + 자기주식 매입 — total shareholder yield 17%",
+        "[derived] PE 4.2 < 15 (Graham's earnings yield 6.7% 기준) — earnings yield 24%로 매력"
+      ],
+      "narrative_vs_quant_resolution": "Graham의 strict criteria: (1) PB < 1.5 ✓, (2) PE < 15 ✓, (3) NCAV/Market cap > 0.66 ✗, (4) earnings stable 5y+ ✗ (cyclical), (5) dividend continuous ✓. 5개 중 3개 통과 — borderline. 단, NCAV 미달은 critical fail.",
+      "uncertainty": "Verdict 변화: (1) BTU가 reclamation liability 처리 후 NCAV 회복, (2) 5년 평균 EPS positive 유지.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'neutral' — Graham의 strict criteria: (1) PB < 1.5 ✓, (2) PE < 15 ✓, (3) NCAV/Market cap > 0.66 ✗, (4) earnings s",
+          "confidence": 0.35
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'neutral' — Graham의 strict criteria: (1) PB < 1.5 ✓, (2) PE < 15 ✓, (3) NCAV/Market cap > 0.66 ✗, (4) earnings s",
+          "confidence": 0.35
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — Graham의 strict criteria: (1) PB < 1.5 ✓, (2) PE < 15 ✓, (3) NCAV/Market cap > 0.66 ✗, (4) earnings s",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — Graham의 strict criteria: (1) PB < 1.5 ✓, (2) PE < 15 ✓, (3) NCAV/Market cap > 0.66 ✗, (4) earnings s",
+          "confidence": 0.35
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Graham의 strict criteria: (1) PB < 1.5 ✓, (2) PE < 15 ✓, (3) NCAV/Market cap > 0.66 ✗, (4) earnings s",
+          "confidence": 0.35
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "벤저민 그레이엄: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — Graham의 strict criteria: (1) PB < 1.5 ✓, (2) PE < 15 ✓, (3) NCAV/Market cap > 0.66 ✗, (4) earnings s",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] Activist 관점에서 BTU의 'unlocked value' 부족 — 자기주식 매입 + 배당으로 이미 capital return 진행 중",
+        "[inference] BTU board는 fully captured — activist intervention의 leverage 부족",
+        "[assumption] 'Quality compounder' 기준 미달 — Ackman post-Valeant는 quality 우선"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Met-coal segment spinoff potential — 시장이 valuation premium 부여 가능",
+        "[derived] Activist가 'thermal sale + met-coal pure-play 전환' 제안 시 +30% upside",
+        "[inference] Capital allocation 우수 (자기주식 매입 가속) — Ackman가 activist 안 해도 management 자체적 가치 창출"
+      ],
+      "narrative_vs_quant_resolution": "Ackman은 quality compounder 우선. BTU의 cyclical 특성과 'declining industry' framing이 standard playbook 안 됨. 단, met-coal pure-play 전환 시나리오는 흥미.",
+      "uncertainty": "Verdict 변화: (1) BTU board가 met-coal spinoff 발표, (2) activist (Elliott·Pershing) 13D filing.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'neutral' — Ackman은 quality compounder 우선. BTU의 cyclical 특성과 'declining industry' framing이 standard playbook 안 됨",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'neutral' — Ackman은 quality compounder 우선. BTU의 cyclical 특성과 'declining industry' framing이 standard playbook 안 됨",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "빌 애크먼: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — Ackman은 quality compounder 우선. BTU의 cyclical 특성과 'declining industry' framing이 standard playbook 안 됨",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — Ackman은 quality compounder 우선. BTU의 cyclical 특성과 'declining industry' framing이 standard playbook 안 됨",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Ackman은 quality compounder 우선. BTU의 cyclical 특성과 'declining industry' framing이 standard playbook 안 됨",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "빌 애크먼: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — Ackman은 quality compounder 우선. BTU의 cyclical 특성과 'declining industry' framing이 standard playbook 안 됨",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] Pabrai의 'few bets, big bets' 원칙에 BTU 진입 가능 — 단, position sizing은 fund의 5-7%",
+        "[inference] '컨센서스 contrarian' 셋업이지만 cycle 정점 risk 잔존",
+        "[derived] '다운사이드는 Cash $750M으로 보장 — upside는 multi-bagger 가능' — Pabrai's heads-I-win-tails-I-don't-lose"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Pabrai's mantra: 'Heads I win 100%, tails I lose 50%' — BTU가 정확한 setup",
+        "[derived] EV/EBITDA 3.25x + FCF yield 15.5% — 다운사이드 limited",
+        "[inference] BTU의 NAPP·Centurion 자산은 'cloning' opportunity — Buffett의 OXY 패턴 따라하기"
+      ],
+      "narrative_vs_quant_resolution": "Pabrai는 'cloning' (Buffett·Munger 따라하기) + 정량 deep value. BTU는 OXY 같은 'special situation energy' — Buffett가 OXY 30% 보유한 것처럼 BTU도 소수 conviction position 가능.",
+      "uncertainty": "Verdict 변화: (1) BTU FCF yield 8% 이하, (2) 자기주식 매입 중단.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "모니시 파브라이: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'support' — Pabrai는 'cloning' (Buffett·Munger 따라하기) + 정량 deep value. BTU는 OXY 같은 'special situation energy' — Bu",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'support' — Pabrai는 'cloning' (Buffett·Munger 따라하기) + 정량 deep value. BTU는 OXY 같은 'special situation energy' — Bu",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "모니시 파브라이: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — Pabrai는 'cloning' (Buffett·Munger 따라하기) + 정량 deep value. BTU는 OXY 같은 'special situation energy' — Bu",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — Pabrai는 'cloning' (Buffett·Munger 따라하기) + 정량 deep value. BTU는 OXY 같은 'special situation energy' — Bu",
+          "confidence": 0.49
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Pabrai는 'cloning' (Buffett·Munger 따라하기) + 정량 deep value. BTU는 OXY 같은 'special situation energy' — Bu",
+          "confidence": 0.49
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "모니시 파브라이: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — Pabrai는 'cloning' (Buffett·Munger 따라하기) + 정량 deep value. BTU는 OXY 같은 'special situation energy' — Bu",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[actual] Fisher's 15-point checklist 다수 fail: (1) growth 산업 X, (2) R&D 우수 X, (3) sales force 차별화 X",
+        "[inference] '50년 보유' 종목으로 부적합 — coal industry는 ESG transition으로 long-term decline",
+        "[assumption] Quality compounder 기준 미달 — Fisher는 'wonderful businesses' 우선"
+      ],
+      "key_opportunities_top3": [
+        "[actual] BTU operational excellence (cost control, safety record) 인정 — 단, 산업 자체 quality 부족",
+        "[inference] '경쟁 우위' 측면에서 PRB low-cost mining은 sustainable",
+        "[assumption] BTU가 다각화 (LNG·재생) 성공 시 quality compounder 전환 가능 — 30% probability"
+      ],
+      "narrative_vs_quant_resolution": "Fisher는 quality + growth 우선. BTU는 cyclical cigar butt — Fisher framework 부적합. 단기 cyclical bounce는 흥미이지만 Fisher 스타일 X.",
+      "uncertainty": "Verdict 변화: (1) BTU의 R&D 투자 가속, (2) 다각화 성공 확인.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "challenge",
+          "rationale": "필 피셔: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'challenge' — Fisher는 quality + growth 우선. BTU는 cyclical cigar butt — Fisher framework 부적합. 단기 cyclical bounce는 흥미",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "필 피셔: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'neutral' — Fisher는 quality + growth 우선. BTU는 cyclical cigar butt — Fisher framework 부적합. 단기 cyclical bounce는 흥미",
+          "confidence": 0.43
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "필 피셔: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'neutral' — Fisher는 quality + growth 우선. BTU는 cyclical cigar butt — Fisher framework 부적합. 단기 cyclical bounce는 흥미",
+          "confidence": 0.43
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "필 피셔: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'challenge' — Fisher는 quality + growth 우선. BTU는 cyclical cigar butt — Fisher framework 부적합. 단기 cyclical bounce는 흥미",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "필 피셔: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Fisher는 quality + growth 우선. BTU는 cyclical cigar butt — Fisher framework 부적합. 단기 cyclical bounce는 흥미",
+          "confidence": 0.43
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "필 피셔: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'support' — Fisher는 quality + growth 우선. BTU는 cyclical cigar butt — Fisher framework 부적합. 단기 cyclical bounce는 흥미",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "medium_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[inference] 인도 'Big Bull'은 신흥시장 중심 — BTU는 미국 종목, EM 노출 indirect",
+        "[actual] India 철강 시장 직접 노출이 더 매력 (Tata Steel, JSW 등) — BTU는 supply chain 1단계 떨어짐",
+        "[assumption] Indian rupee weakness 시 met-coal import cost 증가 — India 철강사 압박 → BTU 가격 협상력 약화"
+      ],
+      "key_opportunities_top3": [
+        "[actual] India 철강 capa expansion이 BTU met-coal 매출의 main driver — 인도 GDP +6.5% 성장 직접 수혜",
+        "[derived] Centurion (호주) project 완공 시 인도 시장 점유율 확대 가능",
+        "[inference] '신흥시장 industrialization' thesis에 정합 — 인도·동남아 철강 capa의 met-coal 의존"
+      ],
+      "narrative_vs_quant_resolution": "Jhunjhunwala는 'India growth' thesis. BTU는 indirect play이지만 정량 매력 + India 수혜 결합으로 lean_bullish.",
+      "uncertainty": "Verdict 변화: (1) India GDP 성장 둔화 (5% 이하), (2) Tata/JSW가 자체 met-coal 광산 확보.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'support' — Jhunjhunwala는 'India growth' thesis. BTU는 indirect play이지만 정량 매력 + India 수혜 결합으로 lean_bullish.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'support' — Jhunjhunwala는 'India growth' thesis. BTU는 indirect play이지만 정량 매력 + India 수혜 결합으로 lean_bullish.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — Jhunjhunwala는 'India growth' thesis. BTU는 indirect play이지만 정량 매력 + India 수혜 결합으로 lean_bullish.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — Jhunjhunwala는 'India growth' thesis. BTU는 indirect play이지만 정량 매력 + India 수혜 결합으로 lean_bullish.",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Jhunjhunwala는 'India growth' thesis. BTU는 indirect play이지만 정량 매력 + India 수혜 결합으로 lean_bullish.",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "라케시 준준왈라: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — Jhunjhunwala는 'India growth' thesis. BTU는 indirect play이지만 정량 매력 + India 수혜 결합으로 lean_bullish.",
+          "confidence": 0.68
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] Coal 종목은 short squeeze risk 상존 — short interest 12-15% 수준",
+        "[inference] 가스 가격 변동성이 main driver — 짧은 horizon에서 -20% drawdown 가능",
+        "[assumption] Trump 2기 정책 reversal risk (예상 외) — 정치 변수 큼"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Macro tailwind: AI 전력 수요 + Trump 정책 + 인도 철강 — 3가지 catalyst 동시 작동",
+        "[derived] '메가 트렌드 + cycle 회복'의 교집합 — 'bet the ranch' zone",
+        "[inference] Short-term momentum 강함 — 1M +5.2%, 6M +12.5% turning point 신호"
+      ],
+      "narrative_vs_quant_resolution": "Druckenmiller는 macro + momentum 결합 우선. BTU는 정량 + macro 모두 align — high-conviction lean_bullish. 1.5x portfolio 가중치 적용 권고.",
+      "uncertainty": "Verdict 변화: (1) AI 데이터센터 carbon-free 약속 강화, (2) 가스 가격 $3 이하 정착.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'support' — Druckenmiller는 macro + momentum 결합 우선. BTU는 정량 + macro 모두 align — high-conviction lean_bullish. 1.5x",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'support' — Druckenmiller는 macro + momentum 결합 우선. BTU는 정량 + macro 모두 align — high-conviction lean_bullish. 1.5x",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — Druckenmiller는 macro + momentum 결합 우선. BTU는 정량 + macro 모두 align — high-conviction lean_bullish. 1.5x",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'support' — Druckenmiller는 macro + momentum 결합 우선. BTU는 정량 + macro 모두 align — high-conviction lean_bullish. 1.5x",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'neutral' — Druckenmiller는 macro + momentum 결합 우선. BTU는 정량 + macro 모두 align — high-conviction lean_bullish. 1.5x",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "스탠리 드러켄밀러: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — Druckenmiller는 macro + momentum 결합 우선. BTU는 정량 + macro 모두 align — high-conviction lean_bullish. 1.5x",
+          "confidence": 0.8
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[derived] Reverse DCF: 현재 시총 $2.0B + 매출 $4.5B + WACC 12% + OPM 12% → implied 5Y CAGR -2% (decline). 시장이 'declining industry' 가격화 정확",
+        "[actual] Terminal value 계산 어려움 — coal 산업의 'going concern' 가정 자체가 의문",
+        "[inference] 'Story stock'으로 분류 — narrative (AI 전력·인도 철강·Trump 정책)에 의존, fundamentals만으로 valuation 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[derived] Implied -2% 성장률은 너무 비관 — 5년 horizon에서 +3-5% 성장 가능 (met-coal 위주)",
+        "[actual] 5년 평균 ROIC 18%로 quality 우수 — capital efficiency 인정",
+        "[inference] '3-statement valuation' 보다 'optionality + scenarios' 접근 적합 — Bull $35, Base $22, Bear $10 (현재 $18 → 시장은 적정)"
+      ],
+      "narrative_vs_quant_resolution": "Damodaran은 reverse DCF + scenario analysis 우선. BTU는 'cyclical commodity stock' — DCF로 valuation 어려움, scenarios로 evaluation. 현재가 $18은 base case에 부합 — 명확한 alpha 부재. neutral.",
+      "uncertainty": "Verdict 변화: (1) Implied growth -2% → +3% 시 lean_bullish, (2) -5% 이하 시 lean_bearish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: AI 데이터센터·산업 전력 수요로 미국 thermal coal 수요가 2025-2027 b에 대해 'neutral' — Damodaran은 reverse DCF + scenario analysis 우선. BTU는 'cyclical commodity stock' — DCF로 valuation 어려움,",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: Metallurgical coal (제철 원료탄)은 인도·동남아 철강 capa 증설로 20에 대해 'neutral' — Damodaran은 reverse DCF + scenario analysis 우선. BTU는 'cyclical commodity stock' — DCF로 valuation 어려움,",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "애스워드 다모다란: BTU는 NCAV (cash + working capital) 대비 시가총액이 매우 가까운에 대해 'support' — Damodaran은 reverse DCF + scenario analysis 우선. BTU는 'cyclical commodity stock' — DCF로 valuation 어려움,",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: ESG/climate divestment 압력은 2024-2025 정점 통과. Trump 에 대해 'neutral' — Damodaran은 reverse DCF + scenario analysis 우선. BTU는 'cyclical commodity stock' — DCF로 valuation 어려움,",
+          "confidence": 0.39
+        },
+        {
+          "claim_id": "T05",
+          "stance": "challenge",
+          "rationale": "애스워드 다모다란: BTU는 LNG 수출 partnership을 통해 'coal-to-LNG transitio에 대해 'challenge' — Damodaran은 reverse DCF + scenario analysis 우선. BTU는 'cyclical commodity stock' — DCF로 valuation 어려움,",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "애스워드 다모다란: Tail risk — 이상 기후 (mild winter), 가스 가격 $2/MMBtu 이하에 대해 'challenge' — Damodaran은 reverse DCF + scenario analysis 우선. BTU는 'cyclical commodity stock' — DCF로 valuation 어려움,",
+          "confidence": 0.55
+        }
+      ]
+    }
+  }
+}
