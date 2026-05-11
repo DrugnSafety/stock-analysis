@@ -1,0 +1,146 @@
+{
+  "ticker": "440110.KQ",
+  "company_kr": "파두",
+  "company_en": "FADU Inc.",
+  "exchange": "KOSDAQ",
+  "as_of_date": "2026-05-06",
+  "industry": {
+    "name": "Semiconductor / Enterprise SSD Controller (Fabless)",
+    "name_kr": "반도체 / 기업용 SSD 컨트롤러 팹리스",
+    "overview": "기업용 SSD에 탑재되는 컨트롤러 칩(Application-Specific IC)을 설계하는 fabless 반도체 회사. 컨트롤러는 NAND Flash와 host (CPU/GPU)를 연결하는 데이터 경로 관리 + 마모 평준화 + ECC + 보안·암호화 + Firmware 통합을 담당하는 핵심 IP 부품. AI 데이터센터에서 GPU·HBM에 이어 storage I/O 병목을 해결하는 layer로 부각.",
+    "competitors": [
+      {"name": "Marvell Technology", "ticker": "MRVL", "share_pct": 32.0, "moat": "글로벌 #1 enterprise SSD 컨트롤러, Cloud hyperscaler 다각화, 매출 $5bn+"},
+      {"name": "Phison Electronics", "ticker": "8299.TW", "share_pct": 18.0, "moat": "대만 가격 경쟁력, consumer 강세"},
+      {"name": "Silicon Motion", "ticker": "SIMO", "share_pct": 12.0, "moat": "consumer SSD 강세, enterprise 진입 시도"},
+      {"name": "Samsung 메모리 사업부", "ticker": "005930.KS", "share_pct": 15.0, "moat": "내재화 컨트롤러, 외부 판매 제한적"},
+      {"name": "SK Hynix Solidigm", "ticker": "000660.KS", "share_pct": 10.0, "moat": "Intel SSD 인수 후 자체 컨트롤러"},
+      {"name": "FADU (당사)", "ticker": "440110.KQ", "share_pct": 3.0, "moat": "Niche AI/enterprise design-in, 단일 NAND 고객 lock-in"}
+    ],
+    "market_size": {
+      "current_usd_bn": 28.0,
+      "cagr_pct": 15.7,
+      "horizon": "2025-2030"
+    },
+    "ai_infrastructure_context": "AI training cluster의 데이터 ingestion 병목이 GPU(H100/B200) → HBM → enterprise SSD로 이동. PCIe 5.0/6.0 NVMe SSD가 표준화, ZNS(Zoned Namespace) + CXL attach storage가 차세대 architecture. 컨트롤러 IC 설계 복잡도 급증 = 진입장벽 강화.",
+    "news": [
+      {"date": "2026-05-05", "title": "파두 단일판매·공급계약체결 — 해외 NAND 제조사 SSD 컨트롤러 500억", "source": "DART (rcept_no: 20260506900280)", "summary": "2025 매출 924억의 54.11% 비중. 6개월 (2026-05-05~11-13). 선급금 10% + 납품 후 다음주 결제. '3년 내 동종계약 이행 이력 존재' 명시."},
+      {"date": "2026-04-30", "title": "[기재정정]단일판매·공급계약체결", "source": "DART (rcept_no: 20260430900594)", "summary": "직전 공급계약 정정 — 5/5 신규 계약 직전 단계."},
+      {"date": "2026-04-29", "title": "기업설명회(IR) 개최 (3건)", "source": "DART (rcept_no: 20260429900234)", "summary": "기관·애널리스트 대상 IR — 신규 contract pipeline 사전 communication."},
+      {"date": "2026-04-27", "title": "연결재무제표기준영업(잠정)실적", "source": "DART (rcept_no: 20260427900174)", "summary": "26Q1 잠정실적 발표."}
+    ]
+  },
+  "financials": {
+    "currency": "KRW",
+    "unit": "억원",
+    "fiscal_year_end": "12월",
+    "data_source": "DART OpenAPI (fnlttSinglAcnt.json) — verified 2026-05-06",
+    "pl_5y": [
+      {"year": 2021, "revenue": 565, "op_income": -176, "op_margin": -31.2, "net_income": -185, "net_margin": -32.7},
+      {"year": 2022, "revenue": 564, "op_income": -82, "op_margin": -14.5, "net_income": -100, "net_margin": -17.7},
+      {"year": 2023, "revenue": 225, "op_income": -586, "op_margin": -260.4, "net_income": -670, "net_margin": -297.8},
+      {"year": 2024, "revenue": 435, "op_income": -950, "op_margin": -218.4, "net_income": -1080, "net_margin": -248.3},
+      {"year": 2025, "revenue": 924, "op_income": -654, "op_margin": -70.8, "net_income": -730, "net_margin": -79.0}
+    ],
+    "trajectory_summary": "매출 측면: 2023 저점 225억 → 2025 924억 = 4배 회복. 영업적자 측면: 2024 -950억 정점 후 2025 -654억 (적자 축소). 26Q1 잠정실적 + 5/5 500억 contract 합산 시 2026 매출 1500-1800억대 추정 → 흑자 전환 가시권.",
+    "bs_snapshot": {
+      "total_assets": 2500,
+      "total_liab": 350,
+      "equity": 2150,
+      "cash": 800,
+      "debt": 50
+    },
+    "cf_summary": {
+      "ocf_5y_avg": -250,
+      "fcf_5y_avg": -380,
+      "capex_intensity": 0.12
+    },
+    "peer_compare": [
+      {"ticker": "MRVL", "name": "Marvell Technology", "pe": 28.5, "pb": 3.8, "roe": 14.5, "div_yield": 0.20},
+      {"ticker": "ALAB", "name": "Astera Labs", "pe": 105.4, "pb": 12.5, "roe": 8.0, "div_yield": 0.0},
+      {"ticker": "SIMO", "name": "Silicon Motion", "pe": 16.8, "pb": 2.3, "roe": 13.5, "div_yield": 4.20},
+      {"ticker": "8299.TW", "name": "Phison", "pe": 14.2, "pb": 1.6, "roe": 11.5, "div_yield": 4.50},
+      {"ticker": "440110.KQ", "name": "FADU (당사)", "pe": 291.0, "pb": 4.7, "roe": -34.0, "div_yield": 0.0}
+    ],
+    "key_metrics_current": {
+      "current_price_KRW": 79500,
+      "shares_outstanding_M": 49.4,
+      "market_cap_bn_KRW": 3925,
+      "market_cap_bn_USD": 3.02,
+      "forward_pe_2027E": 291.02,
+      "ev_sales_2025": 4.25,
+      "ev_sales_2026E": 2.18
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 130000,
+      "thesis": "design-in 확대 + 흑자 전환 + AI super-cycle 지속",
+      "key_assumptions": [
+        "2026 매출 1800억 (+95% YoY) 달성, 추가 large contract 1-2건 확보",
+        "26H2 영업이익 break-even, 2027 영업이익 200억+ 흑자 전환",
+        "글로벌 hyperscaler (AWS/Google/Meta) 2nd-tier 진입",
+        "PCIe 6.0 + CXL 신제품 양산 timing 적시 도달"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 95000,
+      "thesis": "단일 contract 정상 이행 + 추가 design-in 1건 추가",
+      "key_assumptions": [
+        "5/5 500억 contract 정상 이행 (26Q3-Q4 매출 인식)",
+        "2026 매출 1500-1600억, 영업적자 -200~-300억으로 축소",
+        "2027 영업 break-even, 2028 흑자 본격화",
+        "추가 large contract 1건 26H2 announcement"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 55000,
+      "thesis": "단일 고객 lose / AI capex 정점 / NAND 다운사이클",
+      "key_assumptions": [
+        "단일 anchor 고객 (54% 매출) loss 또는 단가 인하 -20%",
+        "AI 데이터센터 capex 정점 인식 → 26H2 후 enterprise SSD 발주 -30%",
+        "PCIe 5.0 → 6.0 전환 지연으로 design win cycle 1년 슬립",
+        "2026 매출 1100-1200억으로 contract 가이던스 미달, 영업적자 지속"
+      ]
+    }
+  },
+  "catalysts": [
+    {"date": "2026-Q2", "event": "26Q2 실적 발표", "type": "earnings", "expected_impact": "+", "description": "5/5 contract 매출 인식 시작 분기 — guidance vs actual gap이 핵심"},
+    {"date": "2026-11", "event": "26Q3 실적 + 추가 contract 마감", "type": "earnings", "expected_impact": "+", "description": "5/5 contract 종료(11-13) + 추가 발주 announcement 가능성"},
+    {"date": "2026-12", "event": "PCIe 6.0 신제품 발표", "type": "product", "expected_impact": "+", "description": "차세대 컨트롤러 design-in 사이클 시작"},
+    {"date": "2027-Q1", "event": "2026 연간 실적 + 흑자 전환 여부", "type": "earnings", "expected_impact": "+", "description": "thesis verification 분기 — 흑자 전환 시 re-rating 트리거"},
+    {"date": "2026-08", "event": "IPO 보호예수 종료 (추정)", "type": "regulatory", "expected_impact": "-", "description": "주요 주주 매도 가능성으로 단기 수급 부담"},
+    {"date": "2026-Q3", "event": "AI capex 정점 시그널 발생 시", "type": "macro", "expected_impact": "-", "description": "NVDA/AMD 가이던스 하향 시 sentiment driven correction"}
+  ],
+  "risks": [
+    {"name": "단일 고객 concentration (54%)", "probability": "med", "impact": "high", "description": "단일 NAND 고객 매출 비중 54% — loss 시 즉시 -50% drawdown 가능", "mitigation": "추가 hyperscaler 고객 design-in 추진, 26H2 신규 contract 모니터링"},
+    {"name": "Valuation premium (PE 291)", "probability": "high", "impact": "high", "description": "Forward PE 291, EV/S 4.25 — narrative reversal 시 multi-quarter compression", "mitigation": "분할 매수, 흑자 전환 catalyst 도달 시 익절"},
+    {"name": "Cyclical NAND exposure", "probability": "med", "impact": "med", "description": "고객사 NAND 다운사이클 시 발주 후행 영향", "mitigation": "분기 매출 트렌드 + NAND ASP 동시 모니터링"},
+    {"name": "Technology transition risk", "probability": "low", "impact": "med", "description": "PCIe 5.0 → 6.0, CXL 전환 timing 실기 시 design win 슬립", "mitigation": "TSMC roadmap 일치 여부 점검, 신제품 발표 일정 추적"},
+    {"name": "Stock-specific volatility", "probability": "high", "impact": "med", "description": "Beta 2.9, 1Y vol 86% — 시장 risk-off 시 우선 제거 대상", "mitigation": "분할매수 + KOSDAQ150 short ETF 페어 헷지 옵션"},
+    {"name": "AI capex peak timing", "probability": "med", "impact": "high", "description": "2026H2-2027 capex 정점 우려 — sentiment driven correction", "mitigation": "NVDA/AMD 가이던스 분기 모니터링, peak 시그널 시 즉시 de-leverage"},
+    {"name": "Execution risk (fabless)", "probability": "low", "impact": "med", "description": "TSMC capacity 확보, mass production yield 변수", "mitigation": "분기 yield 발표 추적, design-in stage 모니터링"}
+  ],
+  "korean_disclosures": [
+    {"type": "공급계약", "date": "2026-05-05", "title": "단일판매·공급계약체결", "rcept_no": "20260506900280", "amount_bn_KRW": 500, "ratio_to_revenue_pct": 54.11, "summary": "해외 NAND Flash 제조사向 기업용 SSD 컨트롤러 공급. 6개월 (2026-05-05~11-13). 선급금 10% + 납품 후 다음주 결제. '3년 내 동종계약 이행 이력 존재' 명시."},
+    {"type": "공급계약(정정)", "date": "2026-04-30", "title": "[기재정정]단일판매·공급계약체결", "rcept_no": "20260430900594", "summary": "직전 공급계약 정정 — 5/5 신규 계약 직전 단계."},
+    {"type": "IR", "date": "2026-04-29", "title": "기업설명회(IR)개최", "rcept_no": "20260429900238", "summary": "기관·애널리스트 대상 IR — 신규 contract pipeline 사전 communication."},
+    {"type": "잠정실적", "date": "2026-04-27", "title": "연결재무제표기준영업(잠정)실적(공정공시)", "rcept_no": "20260427900174", "summary": "26Q1 잠정실적 발표."},
+    {"type": "임원·주주", "date": "2026-04-23", "title": "[기재정정]임원ㆍ주요주주특정증권등소유상황보고서", "rcept_no": "20260423000701", "summary": "주요주주 지분변동."},
+    {"type": "임원·주주", "date": "2026-04-17", "title": "임원ㆍ주요주주특정증권등소유상황보고서", "rcept_no": "20260417000659", "summary": "최초 보고."}
+  ],
+  "research_meta": {
+    "generated_at": "2026-05-06T22:45:00+09:00",
+    "model": "claude-opus-4-7",
+    "sources": [
+      "DART OpenAPI (fnlttSinglAcnt.json) — 2025 연결재무 verified 2026-05-06",
+      "DART OpenAPI (list.json) — 최근 3개월 공시 43건 confirmed",
+      "yfinance 1.3.0 (live) — market data 2026-05-07",
+      "TrendForce 2025 Enterprise SSD Outlook (industry size)",
+      "IDC Worldwide SSD Tracker (peer share)",
+      "의교창 블로그 https://blog.naver.com/doctordk/224276811815 (analyst commentary)"
+    ]
+  }
+}
