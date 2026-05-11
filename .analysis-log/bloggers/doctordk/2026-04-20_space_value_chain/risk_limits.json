@@ -1,0 +1,122 @@
+{
+  "evaluation_date": "2026-05-10",
+  "framework": "Risk Manager — 변동성·집중도·downside·correlation 통합 평가",
+  "portfolio_context": "우주 산업 5계층 밸류체인 5종목 — sector 분산(Layer 1·2·3·4·5)이지만 'space thesis correlation' 60-70%",
+  "global_risk_factors": {
+    "sector_concentration_risk": "high (모두 우주·항공·AI capex sensitive)",
+    "ai_space_capex_correlation": "moderate (ASTS·RKLB는 0.85 correlation, MP·HXL는 0.5, LITE는 0.7)",
+    "single_event_risk": "SpaceX IPO 무기한 연기 + AI capex 둔화 동시 시 4종목 동시 -25%+ 가능",
+    "starlink_competition_risk": "ASTS에 가장 직접적, Starlink Direct-to-Cell 가속 시 -30%+ drawdown"
+  },
+  "ticker_risk_limits": [
+    {
+      "ticker": "ASTS",
+      "name_kr": "AST 스페이스모바일",
+      "current_price": 75.05,
+      "currency": "USD",
+      "volatility_annualized_pct": 100.25,
+      "beta": 2.6,
+      "return_1y_pct": 197.23,
+      "fwd_pe": -456.48,
+      "max_position_pct": 2.5,
+      "stop_loss_pct": -25,
+      "take_profit_targets": [
+        {"level_pct": 30, "trim_pct": 33},
+        {"level_pct": 60, "trim_pct": 50}
+      ],
+      "risk_score": "VERY_HIGH",
+      "risk_rationale": "Beta 2.6 + vol 100% + pre-revenue + capital raise 압박 = 4종목 중 가장 fragile. BlueBird Block 2 deploy 1년 지연 또는 Starlink Direct-to-Cell 가속 시 -60-70% drawdown 가능. Binary outcome — 성공 시 5-10x return, 실패 시 -80%. Position size 통제가 risk management 핵심.",
+      "max_drawdown_assumed": -65,
+      "correlation_to_portfolio": 0.55
+    },
+    {
+      "ticker": "RKLB",
+      "name_kr": "로켓랩",
+      "current_price": 105.47,
+      "currency": "USD",
+      "volatility_annualized_pct": 90.82,
+      "beta": 2.31,
+      "return_1y_pct": 356.58,
+      "fwd_pe": 18247.41,
+      "max_position_pct": 4.0,
+      "stop_loss_pct": -22,
+      "take_profit_targets": [
+        {"level_pct": 25, "trim_pct": 25},
+        {"level_pct": 50, "trim_pct": 50}
+      ],
+      "risk_score": "HIGH",
+      "risk_rationale": "+357% 1Y rally + beta 2.31 + 적자 expansion = 단기 mean-reversion 위험. 그러나 Electron 100+ launch track record + Photon bus + Neutron rocket 진입으로 SpaceX의 'second-tier alternative' 위치는 견고. Starship 양산이 Neutron 경쟁 위협이지만 2027+ 본격화. SpaceX IPO catalyst는 strongly positive.",
+      "max_drawdown_assumed": -45,
+      "correlation_to_portfolio": 0.75
+    },
+    {
+      "ticker": "MP",
+      "name_kr": "MP 머티리얼스",
+      "current_price": 67.43,
+      "currency": "USD",
+      "volatility_annualized_pct": 96.28,
+      "beta": 1.91,
+      "return_1y_pct": 182.73,
+      "fwd_pe": 51.55,
+      "max_position_pct": 5.5,
+      "stop_loss_pct": -20,
+      "take_profit_targets": [
+        {"level_pct": 20, "trim_pct": 25},
+        {"level_pct": 40, "trim_pct": 50}
+      ],
+      "risk_score": "MEDIUM-HIGH",
+      "risk_rationale": "+183% 1Y rally는 EV·풍력·우주·AI 다중 thesis 결합 결과. DoD $1.1B floor price contract = downside 강한 cushion. Mountain Pass + Stillwater 자산은 비중국 alternative로 strategic moat. 단점은 (1) commodity NdPr 가격 변동성 (2) Stage III metalization execution risk (3) 가격 ramp-up 후 valuation overshoot. 5종목 중 가장 'multi-thesis' 결합 — most diversified leverage.",
+      "max_drawdown_assumed": -35,
+      "correlation_to_portfolio": 0.50
+    },
+    {
+      "ticker": "HXL",
+      "name_kr": "헥셀",
+      "current_price": 95.32,
+      "currency": "USD",
+      "volatility_annualized_pct": 33.46,
+      "beta": 1.10,
+      "return_1y_pct": 85.36,
+      "fwd_pe": 29.96,
+      "max_position_pct": 6.0,
+      "stop_loss_pct": -15,
+      "take_profit_targets": [
+        {"level_pct": 12, "trim_pct": 25},
+        {"level_pct": 25, "trim_pct": 50}
+      ],
+      "risk_score": "MEDIUM",
+      "risk_rationale": "Beta 1.10 + vol 33% — 5종목 중 가장 안정적 risk profile. Aerospace composites oligopoly + Boeing·Airbus + 우주 + UAM eVTOL 수직 cross-sell이 cyclical buffer. Boeing 737/787 cycle peak 대비 risk가 가장 큰 우려. 다만 주가는 +85%로 RKLB·ASTS·LITE 대비 moderate — 합리적 entry timing.",
+      "max_drawdown_assumed": -25,
+      "correlation_to_portfolio": 0.45
+    },
+    {
+      "ticker": "LITE",
+      "name_kr": "루멘텀",
+      "current_price": 903.80,
+      "currency": "USD",
+      "volatility_annualized_pct": 81.72,
+      "beta": 1.53,
+      "return_1y_pct": 1276.48,
+      "fwd_pe": 50.21,
+      "max_position_pct": 1.5,
+      "stop_loss_pct": -25,
+      "take_profit_targets": [
+        {"level_pct": 10, "trim_pct": 50},
+        {"level_pct": 25, "trim_pct": 50}
+      ],
+      "risk_score": "VERY_HIGH",
+      "risk_rationale": "+1276% 1Y rally는 광 부품주 history transcendent — mean-reversion 가능성 절대적. fwd_PE 50은 historic 평균 18 대비 3배. AI capex peak 도달 + ASIC 침투(AVGO·MRVL) + Starlink direct integration이 누적 risk. 우주 매출 비중 < 3%로 'space thesis pure-play' dilution 큼. 신규 매수 거의 비권장 — 보유 시 즉시 trim 권장.",
+      "max_drawdown_assumed": -55,
+      "correlation_to_portfolio": 0.65
+    }
+  ],
+  "portfolio_total_risk_budget_pct": 19.5,
+  "diversification_penalty": "Layer 1-5 분산되어 있지만 'space thesis correlation' 평균 0.6 — effective diversification 2.5-3 stocks 수준. ASTS·RKLB는 launch infrastructure correlated. 외부 sector(Healthcare·Consumer Staples·Utilities) 50%+ 유지 권장.",
+  "kill_switch_conditions": [
+    "SpaceX IPO 1년 이상 무기한 연기 발표 시 ASTS·RKLB 즉시 50% trim",
+    "BlueBird Block 2 deploy 6개월 이상 지연 시 ASTS 100% trim",
+    "Starlink Direct-to-Cell commercial launch 가속 시 ASTS 우선 trim",
+    "AI capex YoY 가이던스 둔화 시 LITE·NVDA correlated 50% trim",
+    "Boeing 737 또는 787 신규 큰 incident 시 HXL 25% trim"
+  ]
+}
