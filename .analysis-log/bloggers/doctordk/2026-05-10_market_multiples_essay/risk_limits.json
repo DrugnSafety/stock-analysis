@@ -1,0 +1,97 @@
+{
+  "evaluation_date": "2026-05-10",
+  "framework": "Risk Manager — 변동성·집중도·downside·correlation 통합 평가",
+  "portfolio_context": "의교창 멀티플 메타 에세이 기반 5종목 — multiple regime archetype 분산 포트폴리오. Sector concentration low (AI Semi 2, Korea Memory 2, Conglomerate 1). Multiple-regime concentration high (AI growth premium 2종, fear discount 1종, cycle regime 1종, multiple-skeptic 1종).",
+  "global_risk_factors": {
+    "ai_capex_correlation": "very_high (NVDA·000660.KS·005930.KS 모두 AI capex 수혜, 평균 correlation 0.75)",
+    "korea_country_risk": "medium_high (005930.KS·000660.KS 모두 KOSPI, USD investor 환율 + 정치 risk 2중 노출)",
+    "single_event_risk": "AI capex YoY 둔화 발표 시 NVDA·SK Hynix·Samsung 동시 -20%+ 가능",
+    "valuation_dispersion": "extreme — fwd PE 5(005930.KS) ~ 30배(AAPL)까지 6배 spread. Era regime별 dispersion 시각화."
+  },
+  "ticker_risk_limits": [
+    {
+      "ticker": "NVDA",
+      "name_kr": "엔비디아",
+      "annualized_volatility_pct": 39.73,
+      "beta": 2.24,
+      "vol_regime": "high",
+      "vol_multiplier": 0.65,
+      "correlation_with_existing_positions_avg": 0.70,
+      "correlation_multiplier": 0.80,
+      "thesis_alignment_multiplier": 1.10,
+      "position_limit_pct_of_portfolio": 4.0,
+      "position_limit_usd": 4000,
+      "stop_loss_trigger_pct": -25.0,
+      "rationale": "Beta 2.24 + vol 39.7%로 high-risk. AI capex cycle peak 우려 + customer concentration risk. Position 4% 상한 (max alloc $4K out of $100K)."
+    },
+    {
+      "ticker": "AAPL",
+      "name_kr": "애플",
+      "annualized_volatility_pct": 28.95,
+      "beta": 1.06,
+      "vol_regime": "medium",
+      "vol_multiplier": 1.00,
+      "correlation_with_existing_positions_avg": 0.45,
+      "correlation_multiplier": 1.05,
+      "thesis_alignment_multiplier": 1.00,
+      "position_limit_pct_of_portfolio": 6.0,
+      "position_limit_usd": 6000,
+      "stop_loss_trigger_pct": -18.0,
+      "rationale": "Quality compounder + 안정성 프리미엄 archetype. Vol 29% medium, beta 1.06 moderate. Position 6% 상한."
+    },
+    {
+      "ticker": "005930.KS",
+      "name_kr": "삼성전자",
+      "annualized_volatility_pct": 50.75,
+      "beta": 1.33,
+      "vol_regime": "high",
+      "vol_multiplier": 0.75,
+      "correlation_with_existing_positions_avg": 0.55,
+      "correlation_multiplier": 0.95,
+      "thesis_alignment_multiplier": 1.15,
+      "position_limit_pct_of_portfolio": 5.5,
+      "position_limit_usd": 5500,
+      "stop_loss_trigger_pct": -22.0,
+      "rationale": "Korea discount mean reversion + deep value play. fwd PE 6배 downside cushion 강함. Vol 50%지만 thesis alignment 보너스로 5.5% 상한."
+    },
+    {
+      "ticker": "000660.KS",
+      "name_kr": "SK하이닉스",
+      "annualized_volatility_pct": 65.52,
+      "beta": 2.03,
+      "vol_regime": "very_high",
+      "vol_multiplier": 0.50,
+      "correlation_with_existing_positions_avg": 0.75,
+      "correlation_multiplier": 0.70,
+      "thesis_alignment_multiplier": 1.10,
+      "position_limit_pct_of_portfolio": 2.5,
+      "position_limit_usd": 2500,
+      "stop_loss_trigger_pct": -30.0,
+      "rationale": "Vol 66% 매우 높음 + beta 2.03 + +899% 1Y cyclical peak signal. Position 2.5% strict 상한. Stop loss -30%."
+    },
+    {
+      "ticker": "BRK-B",
+      "name_kr": "버크셔 해서웨이",
+      "annualized_volatility_pct": 16.53,
+      "beta": 0.62,
+      "vol_regime": "low",
+      "vol_multiplier": 1.25,
+      "correlation_with_existing_positions_avg": 0.25,
+      "correlation_multiplier": 1.20,
+      "thesis_alignment_multiplier": 0.90,
+      "position_limit_pct_of_portfolio": 8.0,
+      "position_limit_usd": 8000,
+      "stop_loss_trigger_pct": -15.0,
+      "rationale": "Vol 16.5% + beta 0.62 + anti-correlation with growth names = excellent diversifier. Position 8% 상한."
+    }
+  ],
+  "portfolio_total_risk_budget_pct": 26.0,
+  "diversification_penalty": "5종목 중 NVDA·000660.KS·005930.KS는 평균 correlation 0.75로 effective diversification 1.5 stocks 수준. AAPL·BRK-B는 anti-correlation 제공. 외부 sector (Healthcare·Energy·Defense)와의 추가 balance 권장.",
+  "kill_switch_conditions": [
+    "AI capex YoY 가이던스 둔화 발표 시 NVDA·000660.KS 50% trim, 005930.KS 유지",
+    "삼성전자 governance reform 후퇴 시 005930.KS 25% trim",
+    "Korean Won 환율 1500/USD 이탈 시 Korean positions 절반 trim",
+    "Berkshire succession 발표 시 BRK-B 30% trim",
+    "전체 portfolio drawdown -15% 이탈 시 모든 high-vol position 50% trim"
+  ]
+}
