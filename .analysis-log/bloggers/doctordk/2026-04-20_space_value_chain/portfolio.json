@@ -1,0 +1,75 @@
+{
+  "portfolio_date": "2026-05-10",
+  "portfolio_type": "paper_portfolio_proposed",
+  "base_capital_usd": 100000,
+  "positions_proposed": [
+    {
+      "ticker": "MP",
+      "action": "buy",
+      "target_pct": 4.5,
+      "target_usd": 4500,
+      "shares_at_60": 75,
+      "shares_at_67": 67,
+      "rationale": "13명 페르소나 만장일치 (0 bearish), DoD $1.1B floor price downside cushion, 다중 thesis convergence (우주+EV+풍력+방산). 1/3 분할 매수 (60·64·67 USD)."
+    },
+    {
+      "ticker": "HXL",
+      "action": "buy",
+      "target_pct": 4.0,
+      "target_usd": 4000,
+      "shares_at_90": 44,
+      "shares_at_95": 42,
+      "rationale": "Beta 1.10 + vol 33%로 5종목 중 가장 안정적, aerospace composites oligopoly + Boeing·Airbus + 우주 + UAM cross-sell. 1/2 분할 매수 (90·95 USD)."
+    },
+    {
+      "ticker": "RKLB",
+      "action": "buy_on_dip",
+      "target_pct": 3.0,
+      "target_usd": 3000,
+      "shares_at_85": 35,
+      "shares_at_90": 33,
+      "rationale": "SpaceX IPO catalyst의 가장 직접적 spillover. +357% rally 후 -15-20% pullback (85-90 USD)에서 1/3 분할 매수 시작."
+    },
+    {
+      "ticker": "ASTS",
+      "action": "speculative_position",
+      "target_pct": 1.5,
+      "target_usd": 1500,
+      "shares_at_67": 22,
+      "shares_at_75": 20,
+      "rationale": "Highest-conviction blogger pick (D2D disruption) but binary outcome. Position size 1.5% 절대 초과 금지. 1/2 분할 매수 (67·75 USD)."
+    },
+    {
+      "ticker": "LITE",
+      "action": "avoid",
+      "target_pct": 0.0,
+      "target_usd": 0,
+      "rationale": "+1276% rally는 historic transcendent — 신규 entry 비권장. 보유 시 trim. 광 부품 historic mean-reversion (-50%+) 패턴 대비."
+    }
+  ],
+  "total_proposed_allocation_pct": 13.0,
+  "cash_reserve_pct": 87.0,
+  "expected_portfolio_metrics": {
+    "weighted_beta": 1.78,
+    "weighted_fwd_pe_ex_negatives": 38.5,
+    "weighted_dividend_yield_pct": 0.3,
+    "expected_annual_return_base_case_pct": 18.5,
+    "expected_max_drawdown_pct": -32.0,
+    "sharpe_ratio_estimate": 0.95,
+    "binary_position_pct": 1.5,
+    "stable_position_pct": 8.5,
+    "catalyst_position_pct": 3.0
+  },
+  "non_space_hedge_suggestions": [
+    "ASTS exposure의 hedge로 IRDM (mature satcom) 또는 GSAT 1-2% — Starlink·D2D 경쟁 hedge",
+    "MP·HXL의 hedge로 RIO·BHP·VALE (diversified mining) 2-3% — commodity cycle hedge",
+    "AI capex 둔화 hedge로 defensive sector (PG·KO·UNH·JNJ) 5-10%",
+    "우주 ETF (UFO·ARKX) 1-2%로 space thesis 다각화 — 단 RKLB·ASTS·MP 중복 노출 주의"
+  ],
+  "review_schedule": {
+    "next_check": "2026-05-25 (BlueBird Block 2 deploy progress + RKLB Q1 실적)",
+    "monthly_review": "SpaceX IPO 일정 + AI capex guidance + NdPr 가격 trend",
+    "quarterly_rebalance": "5종목 페르소나 신호 점수 재계산 + position trim/add 결정",
+    "kill_switch_review": "SpaceX IPO 1년+ 지연, BlueBird 6개월+ 지연, Starlink D2D 가속 시 즉시 review"
+  }
+}
