@@ -1,0 +1,294 @@
+{
+  "computed_at": "2026-05-11T00:45:47.456056+09:00",
+  "ledger_path": ".analysis-log/bloggers/doctordk/2026-05-10_AI_energy_infrastructure/_tmp/ledger_fixed.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/doctordk/2026-05-10_AI_energy_infrastructure/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "010120.KS",
+      "date": "2026-05-08",
+      "n_verdicts": 5,
+      "verdict_breakdown": {
+        "buy": 1,
+        "lean_bullish": 2,
+        "lean_bearish": 1,
+        "neutral": 1
+      },
+      "signal_score": 0.4658,
+      "weighted_confidence": 0.233,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "buy",
+          "confidence": 0.78,
+          "weight": 1.2,
+          "score_contribution": 0.936
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.3,
+          "score_contribution": 0.655
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.5,
+          "score_contribution": 0.756
+        },
+        "michael-burry": {
+          "verdict": "lean_bearish",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": -0.476
+        },
+        "warren-buffett": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 0.7,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000000.0,
+      "target_quantity": 175,
+      "current_price": 313000.0,
+      "position_limit_value": 110000000.0,
+      "annualized_volatility": 0.8201,
+      "reasoning": "중간 매수 신호 (+0.47), 한도의 50% 진입"
+    },
+    {
+      "ticker": "034020.KS",
+      "date": "2026-05-08",
+      "n_verdicts": 6,
+      "verdict_breakdown": {
+        "hold": 1,
+        "lean_bullish": 3,
+        "lean_bearish": 2
+      },
+      "signal_score": 0.1575,
+      "weighted_confidence": 0.18,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "hold",
+          "confidence": 0.65,
+          "weight": 1.2,
+          "score_contribution": 0.0
+        },
+        "cathie-wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.0,
+          "score_contribution": 0.504
+        },
+        "nassim-taleb": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.0,
+          "score_contribution": 0.504
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.3,
+          "score_contribution": 0.655
+        },
+        "michael-burry": {
+          "verdict": "lean_bearish",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": -0.476
+        },
+        "aswath-damodaran": {
+          "verdict": "lean_bearish",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": -0.476
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 129600.0,
+      "position_limit_value": 110000000.0,
+      "annualized_volatility": 0.7309,
+      "reasoning": "중립 신호 (+0.16), 변경 없음"
+    },
+    {
+      "ticker": "229640.KS",
+      "date": "2026-05-08",
+      "n_verdicts": 6,
+      "verdict_breakdown": {
+        "hold": 1,
+        "lean_bullish": 3,
+        "neutral": 2
+      },
+      "signal_score": 0.4338,
+      "weighted_confidence": 0.19,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "hold",
+          "confidence": 0.62,
+          "weight": 1.2,
+          "score_contribution": 0.0
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.3,
+          "score_contribution": 0.655
+        },
+        "cathie-wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.0,
+          "score_contribution": 0.504
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.5,
+          "score_contribution": 0.756
+        },
+        "warren-buffett": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 0.7,
+          "score_contribution": 0.0
+        },
+        "ben-graham": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000000.0,
+      "target_quantity": 610,
+      "current_price": 90100.0,
+      "position_limit_value": 110000000.0,
+      "annualized_volatility": 0.9473,
+      "reasoning": "중간 매수 신호 (+0.43), 한도의 50% 진입"
+    },
+    {
+      "ticker": "267260.KS",
+      "date": "2026-05-08",
+      "n_verdicts": 6,
+      "verdict_breakdown": {
+        "BUY": 1,
+        "lean_bullish": 4,
+        "neutral": 1
+      },
+      "signal_score": 0.6836,
+      "weighted_confidence": 0.187,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.85,
+          "weight": 1.2,
+          "score_contribution": 1.02
+        },
+        "warren-buffett": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 0.7,
+          "score_contribution": 0.353
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.3,
+          "score_contribution": 0.655
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.5,
+          "score_contribution": 0.756
+        },
+        "phil-fisher": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.0,
+          "score_contribution": 0.504
+        },
+        "michael-burry": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000000.0,
+      "target_quantity": 39,
+      "current_price": 1403000.0,
+      "position_limit_value": 110000000.0,
+      "annualized_volatility": 0.7471,
+      "reasoning": "중간 매수 신호 (+0.68), 한도의 50% 진입"
+    },
+    {
+      "ticker": "298040.KS",
+      "date": "2026-05-08",
+      "n_verdicts": 6,
+      "verdict_breakdown": {
+        "buy": 1,
+        "lean_bullish": 2,
+        "neutral": 2,
+        "lean_bearish": 1
+      },
+      "signal_score": 0.4003,
+      "weighted_confidence": 0.19,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "buy",
+          "confidence": 0.72,
+          "weight": 1.2,
+          "score_contribution": 0.864
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.5,
+          "score_contribution": 0.756
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.3,
+          "score_contribution": 0.655
+        },
+        "warren-buffett": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 0.7,
+          "score_contribution": 0.0
+        },
+        "phil-fisher": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "nassim-taleb": {
+          "verdict": "lean_bearish",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": -0.476
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000000.0,
+      "target_quantity": 12,
+      "current_price": 4398000.0,
+      "position_limit_value": 110000000.0,
+      "annualized_volatility": 0.7964,
+      "reasoning": "중간 매수 신호 (+0.40), 한도의 50% 진입"
+    }
+  ]
+}
