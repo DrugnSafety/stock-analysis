@@ -1,0 +1,341 @@
+{
+  "ticker": "GLW",
+  "name_kr": "코닝",
+  "name_en": "Corning Incorporated",
+  "industry": {
+    "name": "Optical Communications / Specialty Glass / Display Technologies",
+    "overview": "Corning은 1851년 설립된 175년 history 산업소재 회사로, Display Technologies(LCD substrate, Gorilla Glass), Optical Communications(광섬유·케이블), Specialty Materials(고급 반도체용 유리), Environmental Technologies(촉매 substrate), Life Sciences(실험용 vessel)의 5개 segment로 구성. 핵심 기술인 fusion draw + vapor deposition는 광섬유 preform 제조의 글로벌 30% 점유. AI 데이터센터 capex 확대로 Optical Communications가 2024-2027 고성장 segment로 부상하고 있으며, NVIDIA의 $3.2B 전략 투자(2025년 발표)로 가속. Optical Communications 매출은 2022 $4.6B → 2025E $5.8B → 2027E $8B+ 추정.",
+    "competitors": [
+      {
+        "name": "Sumitomo Electric Industries",
+        "ticker": "5802.T",
+        "share_pct": 22.0,
+        "moat": "광섬유 + 통신 케이블 글로벌 #1 (Sumitomo·SUMITUBE·Lucent fusion splicer)"
+      },
+      {
+        "name": "Furukawa Electric",
+        "ticker": "5801.T",
+        "share_pct": 12.0,
+        "moat": "OFS Optics 자회사 + 자동차 wiring harness"
+      },
+      {
+        "name": "Prysmian Group",
+        "ticker": "PRY.MI",
+        "share_pct": 18.0,
+        "moat": "케이블 글로벌 #1 (수중·산업·AI 데이터센터 케이블)"
+      },
+      {
+        "name": "Yangtze Optical Fibre and Cable",
+        "ticker": "601869.SS",
+        "share_pct": 14.0,
+        "moat": "중국 광섬유 #1, Pre-form 자체 생산"
+      },
+      {
+        "name": "Corning",
+        "ticker": "GLW",
+        "share_pct": 30.0,
+        "moat": "광섬유 preform 글로벌 30%, fusion draw 기술 + NVIDIA 전략 파트너십"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-09-15",
+        "title": "NVIDIA, Corning에 최대 $3.2B 전략 투자 발표 — AI 인프라 광섬유·케이블 우선 공급권",
+        "source": "NVIDIA Press Release",
+        "summary": "Multi-year purchase commitment + equity stake 결합. Spectrum-X·Quantum-X 광스위치용 케이블 공급. AI 인프라 fiber capacity 확장에 자금 활용."
+      },
+      {
+        "date": "2025-07-22",
+        "title": "Corning 2Q25 실적 — Optical Communications 매출 +28% YoY",
+        "source": "Corning 2Q25 Earnings",
+        "summary": "Datacenter 비중이 Optical 매출의 60%+로 확대. 영업이익률 17%로 +400bps 개선."
+      },
+      {
+        "date": "2025-06-10",
+        "title": "Corning, AI 데이터센터용 신규 광섬유 케이블 'Gen-AI 시리즈' 출시",
+        "source": "Corning Press Release",
+        "summary": "기존 OS2 fiber 대비 bend radius 50% 절감, density 2배. Hyperscaler 4사가 PoC 진행."
+      },
+      {
+        "date": "2025-05-08",
+        "title": "Corning, 노스캐롤라이나 광섬유 capacity 확장 — $1.5B 투자",
+        "source": "Bloomberg",
+        "summary": "AI 데이터센터 수요 대응 — 2027년 가동, 연 50% 추가 capacity."
+      },
+      {
+        "date": "2025-04-01",
+        "title": "Corning, AT&T·Verizon FTTH 케이블 다년 공급 계약 갱신",
+        "source": "Corning IR",
+        "summary": "FTTH(광가입자망) demand는 정부 BEAD 보조금 효과로 2024-2028 +12% CAGR 추정."
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 95.0,
+      "cagr_pct": 12.5,
+      "horizon": "2024-2030 (Optical Communications + AI Datacenter Cable 합산)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 14082,
+        "op_income": 1907,
+        "op_margin": 13.5,
+        "net_income": 1906,
+        "net_margin": 13.5
+      },
+      {
+        "year": 2022,
+        "revenue": 14189,
+        "op_income": 1438,
+        "op_margin": 10.1,
+        "net_income": 1316,
+        "net_margin": 9.3
+      },
+      {
+        "year": 2023,
+        "revenue": 12588,
+        "op_income": 1242,
+        "op_margin": 9.9,
+        "net_income": 581,
+        "net_margin": 4.6
+      },
+      {
+        "year": 2024,
+        "revenue": 13118,
+        "op_income": 1556,
+        "op_margin": 11.9,
+        "net_income": 506,
+        "net_margin": 3.9
+      },
+      {
+        "year": 2025,
+        "revenue": 14860,
+        "op_income": 2470,
+        "op_margin": 16.6,
+        "net_income": 1850,
+        "net_margin": 12.4
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31",
+      "total_assets_usdmn": 28500,
+      "total_debt_usdmn": 7200,
+      "total_equity_usdmn": 11200,
+      "cash_usdmn": 1750,
+      "net_debt_usdmn": 5450,
+      "debt_to_equity": 0.64,
+      "current_ratio": 1.6
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 2950,
+      "capex_2025_usdmn": 1450,
+      "fcf_2025_usdmn": 1500,
+      "dividend_paid_2025_usdmn": 980,
+      "buyback_2025_usdmn": 250
+    },
+    "peer_compare": [
+      {
+        "ticker": "GLW",
+        "fwd_pe": 44.92,
+        "ev_ebitda": 22.5,
+        "fcf_yield_pct": 1.0,
+        "roe_pct": 16.5,
+        "debt_to_equity": 0.64
+      },
+      {
+        "ticker": "PRY.MI",
+        "fwd_pe": 18.5,
+        "ev_ebitda": 11.2,
+        "fcf_yield_pct": 4.5,
+        "roe_pct": 14.2,
+        "debt_to_equity": 0.85
+      },
+      {
+        "ticker": "5802.T",
+        "fwd_pe": 14.8,
+        "ev_ebitda": 7.5,
+        "fcf_yield_pct": 6.0,
+        "roe_pct": 9.5,
+        "debt_to_equity": 0.45
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "AI 인프라 + FTTH + 5G 동시 확대 + Optical 비중 50%+",
+      "assumption": "Optical Communications 매출 2027E $9B+, 영업이익률 22%+ 도달, 전체 매출 +12% CAGR 유지",
+      "upside_pct": 32,
+      "prob_pct": 30,
+      "target_price": 240,
+      "thesis": "AI 인프라 + FTTH + 5G 동시 확대 + Optical 비중 50%+",
+      "key_assumptions": [
+        "Optical Communications 매출 2027E $9B+",
+        "영업이익률 22%+ 도달",
+        "전체 매출 +12% CAGR 유지"
+      ]
+    },
+    "base": {
+      "label": "AI capex 정상화 + Optical 매출 +15% CAGR",
+      "assumption": "전체 매출 +8% CAGR, 영업이익률 17%, EPS +12% CAGR",
+      "upside_pct": 7,
+      "prob_pct": 50,
+      "target_price": 195,
+      "thesis": "AI capex 정상화 + Optical 매출 +15% CAGR",
+      "key_assumptions": [
+        "전체 매출 +8% CAGR",
+        "영업이익률 17%",
+        "EPS +12% CAGR"
+      ]
+    },
+    "bear": {
+      "label": "AI capex 둔화 + Display 사이클 trough + 트랜시버 가격 압박",
+      "assumption": "Optical 매출 +5% CAGR로 둔화 + Display segment 마진 압박, 영업이익률 12% 회귀",
+      "downside_pct": -20,
+      "prob_pct": 20,
+      "target_price": 145,
+      "thesis": "AI capex 둔화 + Display 사이클 trough + 트랜시버 가격 압박",
+      "key_assumptions": [
+        "Optical 매출 +5% CAGR로 둔화 + Display segment 마진 압박",
+        "영업이익률 12% 회귀"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 H1-H2",
+      "event": "NVIDIA $3.2B tranche 가시화",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    },
+    {
+      "date": "ongoing",
+      "event": "Optical Communications 매출 분기별 +25%+ YoY 유지",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+8-15%"
+    },
+    {
+      "date": "2027 Q1",
+      "event": "노스캐롤라이나 capex 가동 (2027)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-15% (마진 확장)"
+    },
+    {
+      "date": "2026-2027",
+      "event": "BEAD 보조금 FTTH 케이블 수주",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    },
+    {
+      "date": "2026-2028",
+      "event": "AR/VR 디바이스 (Apple Vision Pro 후속) Specialty Glass 수요",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex YoY 둔화 (Hyperscaler ROIC 압박)",
+      "probability": "med",
+      "impact": "high",
+      "description": "AI capex YoY 둔화 (Hyperscaler ROIC 압박)",
+      "mitigation": "Display·Specialty 안정 매출"
+    },
+    {
+      "name": "Display 사업 LCD substrate 가격 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "Display 사업 LCD substrate 가격 압박",
+      "mitigation": "Specialty 고부가 segment 비중 확대"
+    },
+    {
+      "name": "Sumitomo·Prysmian 가격 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "Sumitomo·Prysmian 가격 경쟁",
+      "mitigation": "NVIDIA 우선 공급권으로 차별화"
+    },
+    {
+      "name": "환율 (USD 강세 시 수출 매출 감소)",
+      "probability": "high",
+      "impact": "low",
+      "description": "환율 (USD 강세 시 수출 매출 감소)",
+      "mitigation": "다지역 생산 base"
+    },
+    {
+      "name": "+311% 1Y rally 후 단기 mean-reversion",
+      "probability": "med",
+      "impact": "med",
+      "description": "+311% 1Y rally 후 단기 mean-reversion",
+      "mitigation": "Pullback에 분할 매수"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "claim": "NVIDIA의 Corning 32억 달러 투자는 단순 자본 투입이 아닌 AI 인프라 구조 재설계",
+      "type": "industry",
+      "evidence": "NVIDIA 2025-09 공시: $3.2B equity + multi-year purchase commitment",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "NVIDIA $3.2B는 단순 자본이 아닌 multi-year purchase + equity. GLW의 fiber preform capacity가 NVIDIA Spectrum-X scale-out 성공의 critical path"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "NVIDIA의 Coherent, Lumentum, Corning 동시 투자는 광통신 수직통합 전략",
+      "type": "industry",
+      "evidence": "NVIDIA 2024-25 동안 Coherent·Lumentum·Corning 3사에 동시 자본 투입 + 광스위치 직접 출시",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "NVIDIA의 Coherent·Lumentum·Corning 3-pronged 투자 중 가장 큰 단일 amount. Corning은 fiber + cable 전체 스택을 cover"
+    },
+    {
+      "thesis_id": "T6",
+      "claim": "Corning은 디스플레이 유리 회사에서 'AI 인프라 파운드리'로 재정의된다",
+      "type": "company",
+      "evidence": "GLW Optical Communications 매출 비중: 2022 32% → 2025E 39% → 2027E 45%+ trajectory",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "Optical Communications가 회사 매출 비중 2022 32% → 2027E 45%+로 mix shift, valuation re-rating의 fundamental basis"
+    },
+    {
+      "thesis_id": "T7",
+      "claim": "광통신 부품주(Coherent·Lumentum)는 NVIDIA 수요·CPO 채택의 직접 수혜",
+      "type": "industry",
+      "evidence": "COHR FY26 Q3 +38% YoY, LITE Q3 +85% YoY — datacenter optical 매출 가속",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "MEDIUM",
+      "ticker_specific_note": "GLW는 트랜시버 부품주는 아니나 fiber·cable이 광 인프라 backbone. CPO 시대에도 fiber demand는 증가"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "global_filing",
+      "date": "2025-08-08",
+      "title": "10-Q Q2 2025",
+      "summary": "Optical Communications +28% YoY, NVIDIA 파트너십 disclosure"
+    },
+    {
+      "type": "global_filing",
+      "date": "2025-02-14",
+      "title": "10-K FY2024",
+      "summary": "전체 매출 +4.2%, AI 데이터센터 catalyst 첫 언급"
+    },
+    {
+      "type": "press_release",
+      "date": "2025-09-15",
+      "title": "NVIDIA $3.2B 전략 투자 발표",
+      "summary": "Multi-year supply + equity stake 결합"
+    }
+  ]
+}
