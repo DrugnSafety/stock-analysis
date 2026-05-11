@@ -1,0 +1,19 @@
+{
+  "name": "subagent-orchestrator",
+  "version": "0.2.0",
+  "description": "Claude subagent (Task tool) 기반 multi-stage pipeline orchestrator. LangGraph 대안으로 구현. Bull-Bear-Skeptic debate cycle (convergence 추적), 저신뢰 verdict 자동 재분석, full pipeline 통합 실행 지원.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "tags": ["subagent", "multi-agent", "debate", "convergence", "pipeline-orchestration"],
+  "skills": [
+    {"name": "_common", "description": "공통 utils — persona_loader, convergence 계산"},
+    {"name": "debate-orchestrator", "description": "Bull-Bear-Skeptic 3 round debate cycle (convergence 0→1)"},
+    {"name": "refinement-orchestrator", "description": "confidence < 0.5 verdict 자동 재분석"},
+    {"name": "pipeline-orchestrator", "description": "blog → thesis → 4-Analyst → 13 personas → portfolio 풀 파이프라인"}
+  ],
+  "commands": [
+    {"name": "sa-pipeline", "description": "full multi-stage pipeline 실행"},
+    {"name": "sa-debate", "description": "특정 verdict에 대한 Bull-Bear-Skeptic debate"},
+    {"name": "sa-refine", "description": "저신뢰 verdict refinement"}
+  ]
+}
