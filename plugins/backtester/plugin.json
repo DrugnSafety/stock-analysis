@@ -1,0 +1,15 @@
+{
+  "name": "backtester",
+  "version": "0.2.0",
+  "description": "과거 블로거 verdict의 적중률·alpha·calibration을 사후 검증하는 backtest 시스템. 메르 등 8명 블로거의 historical 글 자동 수집 + entry/exit price 추적 + KOSPI/SPY benchmark 대비 alpha 계산.",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "tags": ["backtest", "alpha", "hit-rate", "calibration", "korean-stocks"],
+  "skills": [
+    {"name": "historical-blog-collector", "description": "메르 등 블로거 과거 글을 PostTitleListAsync.naver API로 일괄 수집"},
+    {"name": "backtest-engine", "description": "verdict entry → 1m/3m/6m/1y 사후 수익률 + drawdown 추적"},
+    {"name": "hit-rate-analyzer", "description": "BUY/HOLD/SELL 적중률 + 신뢰도 calibration + KOSPI/SPY alpha"},
+    {"name": "backtest-report", "description": "백테스트 결과 PDF 시각화 (히스토그램·산포도·시계열)"}
+  ],
+  "requirements": {"python_packages": ["yfinance", "pandas", "matplotlib", "weasyprint"]}
+}
