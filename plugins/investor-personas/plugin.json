@@ -1,0 +1,28 @@
+{
+  "name": "investor-personas",
+  "version": "0.4.0",
+  "description": "13명 legendary 투자자 (Buffett·Munger·Lynch·Wood·Burry·Taleb·Graham·Ackman·Pabrai·Fisher·Jhunjhunwala·Druckenmiller·Damodaran) 페르소나 평가 시스템. 각 페르소나의 철학·5단계 framework·thesis-aware lens application + thesis_lens_applications 강제 출력 + financial_statements_us_gaap anchor 의무화 (Phase 4).",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "homepage": "https://github.com/virattt/ai-hedge-fund (영감 source)",
+  "tags": ["investor-personas", "value-investing", "growth-investing", "macro", "13-persona-panel", "thesis-lens", "us-gaap-anchored"],
+  "skills": [
+    {"name": "persona-evaluator", "description": "단일 페르소나 lens로 종목 verdict + confidence 산출. thesis_lens_applications 필수 출력 (v0.4.0). financial_statements_us_gaap output을 anchor로 사용 의무 (v0.5.0)."},
+    {"name": "persona-panel", "description": "13명 페르소나 일괄 평가 + 합의·이견 분석"}
+  ],
+  "commands": [
+    {"name": "persona-panel", "description": "13명 페르소나 패널 풀 분석 슬래시 명령어"}
+  ],
+  "data": {
+    "persona_definitions": "personas/*.md",
+    "weights_file": "personas/_weights.json"
+  },
+  "compatibility": {
+    "cowork_mode": true,
+    "claude_code_cli": true
+  },
+  "_changelog": {
+    "0.4.0": "thesis_lens_applications 필수 출력 강제. financial_statements_us_gaap anchor 의무화. build_r2.py에 silent skip 제거 + 진단 fallback 추가.",
+    "0.3.0": "13명 페르소나 패널 + thesis-aware lens"
+  }
+}
