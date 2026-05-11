@@ -1,0 +1,178 @@
+{
+  "industry": {
+    "name": "황산 + 비철금속 (Cu/Ni/Zn) — China H2SO4 ban impact",
+    "overview": "2026-05-01 중국 황산 수출 공식 금지. 글로벌 황산 23% 점유 + 칠레 의존 50% — 구리 산화광 제련 (1톤당 황산 4톤) + 인도네시아 HPAL 니켈 (원가 40% 황산) 직격탄. Goldman Sachs: 글로벌 구리 -17% 추정. 한국·일본 부산물 황산 수출국 (한국 2025 순수출 238만톤) 수혜.",
+    "competitors": [
+      {
+        "name": "고려아연",
+        "ticker": "010130.KS",
+        "share_pct": 8.0,
+        "moat": "한국 아연 #1 + 황산 부산물 leader"
+      },
+      {
+        "name": "LS Corporation",
+        "ticker": "006260.KS",
+        "share_pct": 5.0,
+        "moat": "LS MnM 한국 구리 제련 #1"
+      },
+      {
+        "name": "Sumitomo Metal Mining",
+        "ticker": "5713.T",
+        "share_pct": 7.0,
+        "moat": "일본 #1 니켈/구리 제련"
+      },
+      {
+        "name": "Freeport-McMoRan",
+        "ticker": "FCX",
+        "share_pct": 12.0,
+        "moat": "글로벌 구리 4위 (황화광)"
+      },
+      {
+        "name": "풍산",
+        "ticker": "103140.KS",
+        "share_pct": 3.0,
+        "moat": "방산 + 황동 가공"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-03",
+        "title": "메르 — 중국 황산 수출 금지 나비효과 분석",
+        "source": "메르 블로그",
+        "summary": "구리·니켈·비료 직격탄"
+      },
+      {
+        "date": "2026-05-01",
+        "title": "중국 상무부 황산 수출 공식 금지 시행",
+        "source": "China MOC",
+        "summary": "글로벌 황산 23% supply 차단"
+      },
+      {
+        "date": "2026-04-25",
+        "title": "Goldman Sachs: 글로벌 구리 -17% 가능",
+        "source": "GS Research",
+        "summary": "황산 부족 영향"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "황산 spot $80→$250/톤 (+213%)",
+        "source": "Platts",
+        "summary": "3월 대비 가속화"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 28,
+      "cagr_pct": 12,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "황산 가격 +200% sustained + 황산 export 가속 + 메탈 가격 동반 상승",
+      "key_assumptions": [
+        "중국 정책 6-12개월 sustained",
+        "한국·일본 capa expansion",
+        "메탈 가격 +30%"
+      ],
+      "target_price": 1100000
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "황산 가격 +100% 안정 + 부산물 마진 boost",
+      "key_assumptions": [
+        "중국 정책 3-6개월",
+        "메탈 가격 +15%",
+        "안정 성장"
+      ],
+      "target_price": 920000
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "중국 정책 reversal + 메탈 cycle peak",
+      "key_assumptions": [
+        "중국 reversal",
+        "메탈 -15%",
+        "PE -25%"
+      ],
+      "target_price": 680000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "중국 황산 수출 정책 reversal 가능성",
+      "type": "regulatory",
+      "expected_impact": "?",
+      "description": "정치 카드 활용 여부"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "한국·일본 황산 capa expansion",
+      "type": "industry",
+      "expected_impact": "?",
+      "description": "supply 정상화 시점"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Goldman Sachs 글로벌 구리 -17% 검증",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "가격 +30% 시 anchor 종목 보강"
+    }
+  ],
+  "risks": [
+    {
+      "name": "중국 정책 reversal",
+      "probability": "med",
+      "impact": "high",
+      "description": "정치 카드로 6개월 내 reversal 시 황산 가격 mean reversion -50%",
+      "mitigation": "분기 중국 정책 모니터 + 단계적 익절"
+    },
+    {
+      "name": "메탈 cycle peak 진입",
+      "probability": "med",
+      "impact": "med",
+      "description": "1Y +55-65% 후 momentum reversal 가능",
+      "mitigation": "분할 매수 + cycle late 인지"
+    },
+    {
+      "name": "황산 전용 탱크선 capa 한계",
+      "probability": "low",
+      "impact": "med",
+      "description": "한국·일본 export volume +50% 어려움 — 가격 정상화 늦어짐",
+      "mitigation": "단기 (6-12개월) horizon trade"
+    },
+    {
+      "name": "1Y +65.5% 단기 과열 + 영풍 분쟁 governance issue 잔존",
+      "probability": "med",
+      "impact": "high",
+      "description": "고려아연 thesis: very_high (한국 아연 #1, 황산 부산물 leader)",
+      "mitigation": "Risk Manager 한도 strict"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "중국 황산 수출 금지 (2026-05-01)",
+      "type": "policy",
+      "evidence": "중국 상무부 발표",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "한국·일본 부산물 황산 수출 우위",
+      "type": "industry",
+      "evidence": "한국 2025 순수출 238만톤",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "글로벌 구리 -17% 추정 (GS)",
+      "type": "macro",
+      "evidence": "Goldman Sachs 보고서",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": []
+}
