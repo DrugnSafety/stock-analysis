@@ -1,0 +1,118 @@
+{
+  "extraction_meta": {
+    "blog_url": "https://blog.naver.com/ranto28/224262008286",
+    "blog_title": "미국 천연가스의 심장, 헨리허브(Henry Hub)를 주목하는 이유?",
+    "extraction_date": "2026-05-01",
+    "method": "native_claude",
+    "principles_applied": [
+      "explicit_vs_implicit",
+      "no_hashtag_in_post",
+      "global_exchanges",
+      "ticker_standardization",
+      "industry_vs_company_separation"
+    ]
+  },
+  "companies_explicit": [
+    {
+      "name_kr": "엑슨모빌",
+      "name_en": "ExxonMobil Corporation",
+      "ticker": "XOM",
+      "exchange": "NYSE",
+      "rationale": "본문에서 'Golden Pass LNG'를 카타르에너지와 합작건설 중인 회사로 명시. LNG 수출 capacity 확대의 핵심 플레이어",
+      "sector": "Oil & Gas Integrated",
+      "explicit_quote": "엑슨모빌과 카타르에너지가 합작건설중인 Golden Pass LNG도 2026년안에 단계적으로 가동을 시작할 예정"
+    }
+  ],
+  "companies_implicit": [
+    {
+      "name_kr": "셰니어 에너지",
+      "name_en": "Cheniere Energy Inc.",
+      "ticker": "LNG",
+      "exchange": "NYSE",
+      "rationale": "본문에 명시된 미국 최대 LNG 수출터미널 'Sabine Pass'와 'Corpus Christi Stage 3'의 운영사. 메르 thesis (수출 capacity 확대) 가장 직접 수혜",
+      "sector": "Oil & Gas Midstream",
+      "implicit_evidence": "Sabine Pass, Corpus Christi Stage 3 모두 Cheniere 운영"
+    },
+    {
+      "name_kr": "셈프라",
+      "name_en": "Sempra",
+      "ticker": "SRE",
+      "exchange": "NYSE",
+      "rationale": "본문에 명시된 'Cameron LNG' 운영사 (지분 50.2%). LNG 수출 확대 thesis의 직접 수혜",
+      "sector": "Utilities - Diversified",
+      "implicit_evidence": "Cameron LNG 운영사"
+    },
+    {
+      "name_kr": "벤처 글로벌",
+      "name_en": "Venture Global LNG",
+      "ticker": "VG",
+      "exchange": "NYSE",
+      "rationale": "본문에 명시된 'Plaquemines LNG'(2026년 4월 수출 허용용량 증액 승인) 및 'Calcasieu Pass(칼카슈패스)' 운영사. 메르 thesis 직접 수혜",
+      "sector": "Oil & Gas Midstream",
+      "implicit_evidence": "Plaquemines LNG, Calcasieu Pass 운영사",
+      "note": "2025년 1월 IPO한 신규 상장 종목"
+    },
+    {
+      "name_kr": "EQT 코퍼레이션",
+      "name_en": "EQT Corporation",
+      "ticker": "EQT",
+      "exchange": "NYSE",
+      "rationale": "미국 최대 천연가스 E&P 기업 (Appalachian Basin Marcellus/Utica). 헨리허브 가격 국제시세 수렴 thesis의 upstream 수혜자",
+      "sector": "Oil & Gas E&P",
+      "implicit_evidence": "메르 thesis: 헨리허브 가격↑ 시 미국 천연가스 producer 수혜"
+    },
+    {
+      "name_kr": "HD현대중공업",
+      "name_en": "HD Hyundai Heavy Industries",
+      "ticker": "329180.KS",
+      "exchange": "KRX",
+      "rationale": "메르가 본문 마지막에 'LNG운반선도 많이 필요해지는 상황' (strikethrough 처리) 직접 언급. 글로벌 LNG선 수주 빅3 중 하나",
+      "sector": "Shipbuilding (조선)",
+      "implicit_evidence": "메르 thesis: 미국 LNG 수출 capacity 30%+ 확대 → LNG운반선 수요 증가"
+    },
+    {
+      "name_kr": "삼성중공업",
+      "name_en": "Samsung Heavy Industries",
+      "ticker": "010140.KS",
+      "exchange": "KRX",
+      "rationale": "글로벌 LNG선 수주 빅3 중 하나. 메르의 LNG운반선 수요 thesis 수혜",
+      "sector": "Shipbuilding (조선)",
+      "implicit_evidence": "메르 thesis: LNG 운반선 수요 증가"
+    },
+    {
+      "name_kr": "한화오션",
+      "name_en": "Hanwha Ocean",
+      "ticker": "042660.KS",
+      "exchange": "KRX",
+      "rationale": "글로벌 LNG선 수주 빅3 중 하나 (구 대우조선해양). 메르의 LNG운반선 수요 thesis 수혜",
+      "sector": "Shipbuilding (조선)",
+      "implicit_evidence": "메르 thesis: LNG 운반선 수요 증가"
+    }
+  ],
+  "etfs": [
+    {
+      "name": "United States Natural Gas Fund",
+      "ticker": "UNG",
+      "exchange": "NYSE Arca",
+      "rationale": "헨리허브 천연가스 선물 직접 추종 ETF. 메르 thesis(헨리허브 가격 상승 가능성)의 가장 직접적 노출",
+      "type": "Commodity Tracking"
+    },
+    {
+      "name": "First Trust Natural Gas ETF",
+      "ticker": "FCG",
+      "exchange": "NYSE Arca",
+      "rationale": "미국 천연가스 producer 주식 포트폴리오 ETF (EQT, AR, RRC 등 포함). 헨리허브 thesis의 분산 노출",
+      "type": "Equity ETF"
+    }
+  ],
+  "industries": [
+    {"keyword": "LNG (액화천연가스) 수출", "rationale": "글의 핵심 주제 — 수출 capacity 확대"},
+    {"keyword": "조선 (LNG운반선)", "rationale": "메르가 명시적으로 수요 증가 언급"},
+    {"keyword": "천연가스 E&P", "rationale": "헨리허브 가격 상승 시 upstream 수혜"}
+  ],
+  "non_publicly_traded": [
+    {"name": "QatarEnergy", "reason": "카타르 국영기업 (비상장)"},
+    {"name": "Plaquemines LNG (단독)", "reason": "Venture Global LNG 산하 자회사 - 모회사 VG 통해 상장"}
+  ],
+  "verification_notes": "yfinance로 모든 ticker 시장가 검증 필요 (다음 단계)"
+}
