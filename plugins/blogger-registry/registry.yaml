@@ -1,0 +1,142 @@
+# Blogger Registry — 분석 대상 네이버 블로거 8명
+# 사용자가 직접 편집 가능. style·topics·trust_weight는 backtester가 자동 갱신.
+
+bloggers:
+  ranto28:
+    blog_id: ranto28
+    nickname: "메르"
+    blog_name: "메르의 블로그"
+    blog_url: "https://blog.naver.com/ranto28"
+    category: "비즈니스·경제 거시"
+    introduce: "다른 시각으로 세상을 정리해 봅니다."
+    style: "거시 economy + 실증 분석 + 한 줄 코멘트. 번호 매김 형식 (1, 2, 3, ...)으로 사실 누적 후 결론"
+    typical_topics: [원유, 정유, 조선, 반도체, 통화, 무역, 지정학]
+    typical_horizon: medium_term  # 6-24M
+    trust_weight_kr: 1.20  # Phase C 검증으로 KOSPI alpha +2% 입증
+    trust_weight_us: 1.10
+    enabled: true
+
+  doctordk:
+    blog_id: doctordk
+    nickname: "의교창"
+    blog_name: "군포금융치료센터"
+    blog_url: "https://blog.naver.com/doctordk"
+    category: "비즈니스·경제"
+    introduce: "Life is unfair, get used to it."
+    style: ""  # backtester가 첫 분석 후 자동 추론
+    typical_topics: []  # 자동 누적
+    typical_horizon: ""
+    trust_weight_kr: 1.00  # 기본 — backtest 후 갱신
+    trust_weight_us: 1.00
+    enabled: true
+
+  sungdory:
+    blog_id: sungdory
+    nickname: "승도리"
+    blog_name: "과거에 잘했다고 앞으로도 잘 할거라 생각하지 마라"
+    blog_url: "https://blog.naver.com/sungdory"
+    category: "비즈니스·경제"
+    introduce: "현실주의·냉정 투자 (블로그명 자체가 thesis)"
+    style: ""
+    typical_topics: []
+    typical_horizon: ""
+    trust_weight_kr: 1.00
+    trust_weight_us: 1.00
+    enabled: true
+
+  daegurrr_:
+    blog_id: daegurrr_
+    nickname: "DaeGurr"
+    blog_name: "..."
+    blog_url: "https://blog.naver.com/daegurrr_"
+    category: "비즈니스·경제"
+    introduce: "기본 예의만 지켜 주세요."
+    style: ""
+    typical_topics: []
+    typical_horizon: ""
+    trust_weight_kr: 1.00
+    trust_weight_us: 1.00
+    enabled: true
+
+  dlaldhr0821:
+    blog_id: dlaldhr0821
+    nickname: "GSVI"
+    blog_name: "가치투자자 GSVI 주식투자 블로그"
+    blog_url: "https://blog.naver.com/dlaldhr0821"
+    category: "비즈니스·경제"
+    introduce: "가치투자 (Graham·Buffett 계열)"
+    style: "value investing + GARP — Buffett·Graham lens와 정렬 가능성 ↑"
+    typical_topics: [value, growth, balance_sheet]
+    typical_horizon: long_term
+    trust_weight_kr: 1.00
+    trust_weight_us: 1.00
+    enabled: true
+
+  infidoc:
+    blog_id: infidoc
+    nickname: "인피의"
+    blog_name: "투자와 생각들"
+    blog_url: "https://blog.naver.com/infidoc"
+    category: "비즈니스·경제"
+    introduce: "risky world, hedged mind"
+    style: "리스크 의식 + hedged thinking — Taleb antifragility lens 정렬 가능성"
+    typical_topics: [risk, hedge, uncertainty]
+    typical_horizon: medium_term
+    trust_weight_kr: 1.00
+    trust_weight_us: 1.00
+    enabled: true
+
+  onejejuwave:
+    blog_id: onejejuwave
+    nickname: "제주바람"
+    blog_name: "제주바람의 투자기록"
+    blog_url: "https://blog.naver.com/onejejuwave"
+    category: "비즈니스·경제"
+    introduce: "제주도 전업 투자자, 통찰력 있는 투자자가 되고 싶음"
+    style: "전업 투자자 — 실전 trade·portfolio 시점 기록 가능성"
+    typical_topics: []
+    typical_horizon: ""
+    trust_weight_kr: 1.00
+    trust_weight_us: 1.00
+    enabled: true
+
+  tosoha1:
+    blog_id: tosoha1
+    nickname: "농구천재"
+    blog_name: "이것 또한 지나가리라"
+    blog_url: "https://blog.naver.com/tosoha1"
+    category: "비즈니스·경제"
+    introduce: "이것 또한 지나가리라 (인내·장기 시각)"
+    style: "장기 인내·cycle 시각 — Buffett long-duration lens 정렬"
+    typical_topics: []
+    typical_horizon: long_term
+    trust_weight_kr: 1.00
+    trust_weight_us: 1.00
+    enabled: true
+
+  ricemankr:
+    blog_id: ricemankr
+    nickname: "라이스맨"
+    blog_name: "ricemankr's blog"
+    blog_url: "https://blog.naver.com/ricemankr"
+    category: "비즈니스·경제"
+    introduce: "AI(제미나이) 보조 + 한국 종목 밸류에이션 중심 분석"
+    style: "Target P/E 기반 적정주가 산출 + 실적 catalyst·risk 점검 — DCF/Multiple lens 정렬"
+    typical_topics: [엔터테인먼트, K-POP, 밸류에이션, 한국주식]
+    typical_horizon: medium_term  # 6-18M
+    trust_weight_kr: 1.00
+    trust_weight_us: 1.00
+    enabled: true
+
+# Global 설정
+defaults:
+  trust_weight_kr: 1.00
+  trust_weight_us: 1.00
+  monitor_enabled: false  # 자동 cron monitor 여부 (사용자 옵션)
+  ledger_dir: ".analysis-log/bloggers/{blog_id}/ledger.jsonl"
+  posts_dir: ".analysis-log/bloggers/{blog_id}/posts"
+
+# Cross-blogger consolidation
+global:
+  consolidated_ledger: ".analysis-log/_global/consolidated_ledger.jsonl"
+  leaderboard_path: ".analysis-log/_global/leaderboard.json"
