@@ -1,0 +1,290 @@
+{
+  "industry": {
+    "name": "한국 전력 인프라·중전기 산업 (변압기·송배전·SMR·해저케이블·풍력·태양광)",
+    "overview": "한국 전력 인프라·중전기 산업은 글로벌 AI 데이터센터 폭증 + 전력 인프라 노후화 + 탈탄소 전환의 3-fold tailwind에서 슈퍼사이클 진입. 글로벌 변압기 시장 2024 $25B → 2030 $50B+ (BloombergNEF), 송배전 capex 미국 +$500B (DoE), 한국 동해안-수도권 HVDC ~5조원. 변압기 lead time 2-3년 (정상 6-9개월) → 한국 3사(HD현대일렉트릭·효성중공업·LS ELECTRIC) 가격 협상력 우위. 미국 hyperscaler CapEx 2025 $250-300B 중 power 인프라 비중 30%+ — $75-90B 규모 직접 노출. 두산에너빌리티 SMR/가스터빈, LS에코에너지/대한전선 해저케이블, 씨에스윈드 풍력 타워, 한화솔루션 태양광까지 한국 녹색산업 전 분야 동시 보유 (중국 외 거의 유일).",
+    "competitors": [
+      {
+        "name": "HD현대일렉트릭",
+        "ticker": "267260.KS",
+        "share_pct": 8.0,
+        "moat": "변압기 글로벌 Top3, 미국 앨라배마 capacity, OPM 17%"
+      },
+      {
+        "name": "효성중공업",
+        "ticker": "298040.KS",
+        "share_pct": 7.0,
+        "moat": "변압기 + STATCOM, 미국 멤피스 공장 2025 가동"
+      },
+      {
+        "name": "LS ELECTRIC",
+        "ticker": "010120.KS",
+        "share_pct": 5.0,
+        "moat": "한국 변압기·차단기 1위 + ESS + 미국 진출"
+      },
+      {
+        "name": "Hitachi Energy (ABB)",
+        "ticker": "6501.T",
+        "share_pct": 18.0,
+        "moat": "글로벌 #1 변압기·HVDC, 미국·EU 대규모 capacity"
+      },
+      {
+        "name": "Siemens Energy",
+        "ticker": "ENR.DE",
+        "share_pct": 15.0,
+        "moat": "가스터빈 + 변압기 + HVDC 통합 vendor"
+      },
+      {
+        "name": "GE Vernova",
+        "ticker": "GEV",
+        "share_pct": 12.0,
+        "moat": "가스터빈 + 풍력 (Haliade-X) + 송배전"
+      },
+      {
+        "name": "Eaton",
+        "ticker": "ETN",
+        "share_pct": 10.0,
+        "moat": "데이터센터 PDU·UPS + 변압기 미국 dominant"
+      },
+      {
+        "name": "두산에너빌리티",
+        "ticker": "034020.KS",
+        "share_pct": 4.0,
+        "moat": "원전 APR1400 + SMR (X-energy 협력) + 가스터빈"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-10",
+        "title": "의교창 — 'AI가 불러온 정해진 미래 (feat. 에너지)' 분석",
+        "source": "의교창 블로그 (doctordk)",
+        "summary": "AI 시대 진짜 병목은 메모리가 아니라 전력 인프라. 변압기·송배전·SMR·가스터빈·해저케이블 sector 슈퍼사이클 thesis."
+      },
+      {
+        "date": "2026-04-25",
+        "title": "PJM Interconnection 2027 capacity 가격 $269/MW-day 사상 최고",
+        "source": "PJM",
+        "summary": "2024 $28.92 대비 9배 상승 — 미국 그리드 capacity deficit 심화"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Microsoft 2026 CapEx 가이던스 +35% YoY ($95B → $128B)",
+        "source": "Microsoft 1Q26 earnings",
+        "summary": "AI 인프라 CapEx 가속 — 데이터센터 + power 인프라 핵심"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "Hitachi Energy 변압기 lead time 100주(2년) 이상 가이던스",
+        "source": "Hitachi Energy",
+        "summary": "글로벌 capacity 부족 지속, 한국 3사 가격 협상력 우위"
+      },
+      {
+        "date": "2026-02-10",
+        "title": "효성중공업 미국 멤피스 변압기 공장 2025 가동",
+        "source": "효성중공업 IR",
+        "summary": "한국 기업 미국 현지 capacity 보유 — 첫 사례"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 12.5,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 2200000,
+      "thesis": "미국 데이터센터 변압기 수요 가속 + 멕시코·EU 진출 + OPM 20%+ 정착. 2027 매출 7조원 + EPS doubling.",
+      "key_assumptions": [
+        "미국 매출 비중 50%+",
+        "OPM 20%+",
+        "수주잔고 10조원"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 1800000,
+      "thesis": "현재 트렌드 지속. 미국 매출 +30% YoY, OPM 17-18% 유지. 매출 5.5조원, EPS +25%.",
+      "key_assumptions": [
+        "미국 매출 +30%",
+        "OPM 17-18%",
+        "수주잔고 8-9조원"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 950000,
+      "thesis": "AI CapEx cycle reversal + 환율 급락 + 글로벌 capacity expansion 가속화로 가격 협상력 약화.",
+      "key_assumptions": [
+        "AI CapEx -20%",
+        "KRW/USD 1100",
+        "OPM 12-13%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "미국 hyperscaler 2026 CapEx 가이던스 update",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "Microsoft·Meta·Google·Amazon 2026 CapEx 가이던스 — 변압기 demand 가시성 확보"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "한국 동해안-수도권 HVDC 1차 입찰",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "KEPCO 약 5조원 송전망 사업 입찰 — HD현대일렉트릭·효성중공업·LS ELECTRIC 수혜"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "미국 IIJA 송배전 인프라 자금 집행 본격화",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "$73B 인프라법 자금 — 미국 변압기·송배전 발주 가속"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "두산에너빌리티 X-energy Xe-100 SMR 발주 발표 가능",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "DOE EERE 매칭 자금 + Dow Chemical 등 산업 고객 발주"
+    },
+    {
+      "date": "2027-2028",
+      "event": "한국 차기 정부 출범 + 재생에너지 정책 방향",
+      "type": "policy",
+      "expected_impact": "?",
+      "description": "진보 정권 시 재생에너지 가속, 보수 정권 시 원전 + SMR — 둘 다 power infrastructure 수혜"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI CapEx cycle reversal",
+      "probability": "med",
+      "impact": "high",
+      "description": "Microsoft·Meta·Google CapEx 가이던스 둔화 시 sector multiple compression -25-40%",
+      "mitigation": "수주잔고 5-7년치 보유 — 단기 매출 하방 protection. 분할 진입 권장."
+    },
+    {
+      "name": "Sector valuation premium",
+      "probability": "high",
+      "impact": "high",
+      "description": "forward PER 25-130배. 단기 earnings disappointment 시 -30%+ drawdown",
+      "mitigation": "PEG ratio 0.7-1.5 reasonable, EPS visibility 강력. DCA 전략 권장."
+    },
+    {
+      "name": "글로벌 변압기 capacity expansion",
+      "probability": "med",
+      "impact": "med",
+      "description": "2027-2028 Hitachi·Siemens 신규 capacity 가동 시 가격 협상력 약화",
+      "mitigation": "한국 기업 미국 현지 capacity (효성중공업 멤피스, HD현대일렉트릭 앨라배마) 보유 — geographic moat."
+    },
+    {
+      "name": "한국 정책 risk",
+      "probability": "med",
+      "impact": "med",
+      "description": "2027 대선 결과에 따라 재생에너지·원전 정책 reverse 가능",
+      "mitigation": "수출 비중 30-50% — 한국 정책 변화 일부 hedge. 어느 정권이든 power infra demand 지속."
+    },
+    {
+      "name": "환율 risk",
+      "probability": "med",
+      "impact": "low",
+      "description": "KRW/USD 1100원대 회복 시 미국 수출 마진 -10-15%",
+      "mitigation": "헷지 비율 50-70% 일반적, 미국 현지 capacity 비중 증가로 환율 영향 점진 감소."
+    },
+    {
+      "name": "지정학 risk",
+      "probability": "low",
+      "impact": "high",
+      "description": "호르무즈 해협·대만 해협 긴장 시 글로벌 supply chain 충격",
+      "mitigation": "한국 기업의 글로벌 footprint 확대 진행 중. 단기 충격은 매수 기회."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "T01 — AI 가치사슬 병목이 메모리에서 전력으로 이동",
+      "type": "predictive",
+      "evidence": "Demis Hassabis·Sam Altman 발언 + IEA 보고서 + PJM capacity 가격 9배 상승",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance": "support",
+      "rationale": "Power 병목 thesis는 IEA·PJM data로 확인",
+      "weight": 0.9
+    },
+    {
+      "claim": "T02 — 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클",
+      "type": "predictive",
+      "evidence": "한국 변압기 3사 OPM 12-17% + 수주잔고 5-7년치 + Hitachi/Siemens lead time 100주",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance": "support",
+      "rationale": "변압기 lead time 2-3년 + 수주잔고 5-7년치",
+      "weight": 0.95
+    },
+    {
+      "claim": "T04 — 한국 녹색산업 전 분야 보유 unique advantage",
+      "type": "factual",
+      "evidence": "변압기·SMR·해저케이블·태양광·풍력·ESS 모두 글로벌 Top10 보유",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance": "support",
+      "rationale": "한국 전력 인프라 sector 글로벌 competitive position 입증",
+      "weight": 0.85
+    },
+    {
+      "claim": "T06 — 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위",
+      "type": "predictive",
+      "evidence": "2024-2026 누적 수익률 변압기 +400-700% > 두산에너빌리티 +367% > LS에코에너지 +173%",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance": "support",
+      "rationale": "변압기 1차 수혜 우선순위 명확",
+      "weight": 0.9
+    },
+    {
+      "claim": "T08 — 변압기 sector PER 25-40배 — 단기 조정 활용 진입",
+      "type": "predictive",
+      "evidence": "효성중공업 PER 36, LS ELECTRIC 72, 두산에너빌리티 129 — 일반 산업재 12-15 대비 premium",
+      "testability": "medium",
+      "current_status": "pending",
+      "stance": "neutral",
+      "rationale": "Valuation premium은 fundamentals justify, 단기 진입은 분할 권장",
+      "weight": 0.7
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "분기보고서",
+      "title": "1Q26 분기보고서 — 매출·영업이익·수주잔고 상세",
+      "impact": "+ (매출/영업이익 가이던스 상회 시 +)"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "단일판매·공급계약체결",
+      "title": "북미 데이터센터향 변압기 신규 수주 (수십억-수백억원 규모)",
+      "impact": "+ (수주잔고 추가)"
+    },
+    {
+      "date": "2026-02-28",
+      "type": "사업보고서",
+      "title": "2025 연결 재무·사업부별 실적 + 2026 가이던스",
+      "impact": "+ (가이던스 상향 시 +)"
+    },
+    {
+      "date": "2026-01-15",
+      "type": "주요사항보고서",
+      "title": "미국 capacity 확장 또는 신규 capex 결정",
+      "impact": "+ (capacity 확장 → future earnings)"
+    },
+    {
+      "date": "2025-11-20",
+      "type": "공정공시",
+      "title": "분기 매출·영업이익 잠정 공시",
+      "impact": "+ (실적 상회 시 +)"
+    }
+  ]
+}
