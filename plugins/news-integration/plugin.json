@@ -1,0 +1,35 @@
+{
+  "name": "news-integration",
+  "version": "0.2.0",
+  "description": "NewsAPI.org · NewsAPI.ai (Event Registry) · Finnhub 3-source 통합 — 종목별 1년 뉴스 자동 fetch + 영향도 태깅 (+/-/○). 모든 API Freemium. NewsAPI.ai는 1-year lookback 지원 (NewsAPI.org는 30일 cap).",
+  "author": "Mingyu Kang",
+  "license": "MIT",
+  "tags": ["news", "sentiment", "us-stocks", "newsapi", "newsapi-ai", "event-registry", "finnhub"],
+  "skills": [
+    {
+      "name": "news-fetcher",
+      "description": "ticker 받아서 NewsAPI.org + NewsAPI.ai + Finnhub에서 1년 뉴스 자동 fetch. 영향도 자동 분류 (LLM 또는 keyword)."
+    }
+  ],
+  "requirements": {
+    "env_variables": [
+      "NEWSAPI_KEY (선택, 32-char hex, NewsAPI.org)",
+      "NEWSAPI_AI_KEY (선택, UUID, NewsAPI.ai/Event Registry — 1-year lookback)",
+      "FINNHUB_KEY (선택)"
+    ],
+    "python_packages": ["requests"],
+    "free_signup": [
+      "NewsAPI.org: https://newsapi.org/register (100 calls/day 무료, 30-day lookback)",
+      "NewsAPI.ai: https://newsapi.ai/register (2000 tokens 무료, 1-year lookback)",
+      "Finnhub: https://finnhub.io/register (60 calls/min 무료)"
+    ]
+  },
+  "compatibility": {
+    "cowork_mode": true,
+    "claude_code_cli": true
+  },
+  "_changelog": {
+    "0.2.0": "NewsAPI.ai (Event Registry) 통합 추가 — UUID 키 형식, 1-year lookback (vs NewsAPI.org 30일 cap)",
+    "0.1.0": "최초 릴리스 — NewsAPI.org + Finnhub"
+  }
+}
