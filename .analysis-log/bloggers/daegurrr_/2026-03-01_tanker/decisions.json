@@ -1,0 +1,146 @@
+{
+  "computed_at": "2026-04-30T06:41:50.658329+09:00",
+  "ledger_path": ".analysis-log/bloggers/daegurrr_/2026-03-01_tanker/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/daegurrr_/2026-03-01_tanker/risk_limits.json",
+  "n_decisions": 3,
+  "decisions": [
+    {
+      "ticker": "028670.KS",
+      "date": "2026-03-01",
+      "n_verdicts": 4,
+      "verdict_breakdown": {
+        "BUY": 1,
+        "neutral": 1,
+        "lean_bullish": 2
+      },
+      "signal_score": 0.6965,
+      "weighted_confidence": 0.303,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.65,
+          "weight": 1.2,
+          "score_contribution": 0.78
+        },
+        "warren-buffett": {
+          "verdict": "neutral",
+          "confidence": 0.5,
+          "weight": 0.7,
+          "score_contribution": 0.0
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.3,
+          "score_contribution": 0.655
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.5,
+          "score_contribution": 0.735
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 105420700.0,
+      "target_quantity": 19966,
+      "current_price": 5280.0,
+      "position_limit_value": 210841400.0,
+      "annualized_volatility": 0.4309,
+      "reasoning": "중간 매수 신호 (+0.70), 한도의 50% 진입"
+    },
+    {
+      "ticker": "FRO",
+      "date": "2026-03-01",
+      "n_verdicts": 4,
+      "verdict_breakdown": {
+        "BUY": 1,
+        "neutral": 1,
+        "lean_bullish": 2
+      },
+      "signal_score": 0.6396,
+      "weighted_confidence": 0.287,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.78,
+          "weight": 1.1,
+          "score_contribution": 0.858
+        },
+        "warren-buffett": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 1.2,
+          "score_contribution": 0.0
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.74,
+          "weight": 1.1,
+          "score_contribution": 0.57
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.88,
+          "weight": 1.2,
+          "score_contribution": 0.739
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 108154200.0,
+      "target_quantity": 2849913,
+      "current_price": 37.95,
+      "position_limit_value": 216308400.0,
+      "annualized_volatility": 0.3954,
+      "reasoning": "중간 매수 신호 (+0.64), 한도의 50% 진입"
+    },
+    {
+      "ticker": "INSW",
+      "date": "2026-03-01",
+      "n_verdicts": 4,
+      "verdict_breakdown": {
+        "BUY": 1,
+        "neutral": 1,
+        "lean_bullish": 2
+      },
+      "signal_score": 0.6366,
+      "weighted_confidence": 0.287,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.74,
+          "weight": 1.1,
+          "score_contribution": 0.814
+        },
+        "warren-buffett": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 1.2,
+          "score_contribution": 0.0
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.78,
+          "weight": 1.1,
+          "score_contribution": 0.601
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.92,
+          "weight": 1.2,
+          "score_contribution": 0.773
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 108985800.0,
+      "target_quantity": 1442947,
+      "current_price": 75.53,
+      "position_limit_value": 217971600.0,
+      "annualized_volatility": 0.3846,
+      "reasoning": "중간 매수 신호 (+0.64), 한도의 50% 진입"
+    }
+  ]
+}
