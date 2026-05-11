@@ -1,0 +1,61 @@
+{
+  "summary_one_liner": "농구천재 — 1Q26 메모리·스토리지 5사 비교: 펀더멘털 vs 시총 갭이 큼. 하이닉스·키옥시아는 이익/매출 우위 대비 시총 저평가 (코리아·일본 디스카운트), 마이크론·샌디스크는 미국 프리미엄.",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "SK하이닉스는 1Q26 영업이익 마이크론 대비 약 +10bil USD (100억 달러) 우위, DRAM/NAND 매출 +50% — 그러나 시총은 비슷하게 상승. 코리아 디스카운트 명백",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "본문 §1. 분기 차이 (마이크론 12-2월, 하이닉스 1-3월) 보정해도 차이 큼. 한국 반도체 평균 PE 글로벌 peer 대비 -25-35%."
+    },
+    {
+      "claim_id": "T02",
+      "claim": "샌디스크 vs Seagate — 과거 동조하던 NAND vs HDD가 이번 분기 극단적으로 갈라짐. 샌디스크 Gross Profit Seagate 대비 3배. 그럼에도 시총 같이 상승",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "본문 §2. NAND가 AI 향 demand로 가격 가속화 vs HDD는 천천히. 시장은 Seagate가 따라붙거나 HDD 과점 프리미엄을 가격화."
+    },
+    {
+      "claim_id": "T03",
+      "claim": "샌디스크 vs 키옥시아 (NAND JV 파트너) — 키옥시아 매출 +20-30% 우위 + 일본 생산 NAND 웨이퍼 6:4 키옥시아 우세. 그러나 시총은 샌디스크 우위 — 베인캐피탈 오버행 + 일본 디스카운트 + 미국 프리미엄",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "본문 §3. JV로 일본 생산시설 공유 — 핵심 기술·생산능력 거의 동일."
+    },
+    {
+      "claim_id": "T04",
+      "claim": "메모리·NAND 사이클 진입 — AI 데이터센터 수요 + DDR5/HBM 가격 +85% YoY + NAND 가격 가속화. 사이클 mid-cycle 진입",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "DDR5 가격 +85% YoY, HBM3E 공급 부족, NAND 가격 1Q26 +25% QoQ. AI 데이터센터 storage demand inelastic."
+    },
+    {
+      "claim_id": "T05",
+      "claim": "코리아 디스카운트 normalization 가능성 — 정부 밸류업 프로그램 + KOSPI Newrating + 외국인 매수 가속화 시 -30% gap 일부 회복 가능",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "long_term",
+      "supporting_evidence": "2024년 정부 밸류업 가이드라인 발표 + 2025 외국인 KOSPI 매수 +25조원. 단, 지정학 risk + 거버넌스 issue로 normalization 부분적."
+    },
+    {
+      "claim_id": "T06",
+      "claim": "Anchor pick: SK하이닉스 (이익 우위 + 코리아 디스카운트 회복 옵션) + 키옥시아 (매출 우위 + 일본 디스카운트). 단, 키옥시아는 베인 오버행 risk 존재",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "본문 마지막 — '펀더멘털은 같이 좋으면서 밸류가 싼 애들은 더 크게 칭찬해줘야 함'. 명시적 매수 아니지만 framing이 hint."
+    },
+    {
+      "claim_id": "T07",
+      "claim": "마이크론·샌디스크는 미국 프리미엄 + HBM 지배력 수렴 narrative 가격화 — fair value or slightly overpriced",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "medium_term",
+      "supporting_evidence": "마이크론 HBM3E NVDA 진입 단계 — share 5-10% 추정 (vs SK하이닉스 80%+). 샌디스크 NAND AI 수혜 강함 but 시총 이미 가격화."
+    }
+  ]
+}
