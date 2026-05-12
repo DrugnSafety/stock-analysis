@@ -1,0 +1,342 @@
+{
+  "industry": {
+    "name": "Memory Semiconductor (DRAM + NAND, Specialty/Controller)",
+    "overview": "2026년 메모리 산업은 (1) AI accelerator HBM 수요 폭증, (2) hyperscaler capex 가속 ($300B+/2026E), (3) IDM의 HBM·leading-edge DRAM 우선 capacity 배분이 동시 진행되며 슈퍼사이클에 진입. Niche specialty DRAM·NAND module·NAND controller 영역은 mainstream IDM의 capacity 이동에서 reflexive 수혜를 받는 'second derivative' 구조. NAND 부족은 2027 심화, 2028 이후까지 지속될 가능성 (SIMO CEO 1Q26 컨콜).",
+    "competitors": [
+      {
+        "name": "Winbond Electronics",
+        "ticker": "2344.TW",
+        "share_pct": 4.5,
+        "moat": "Specialty DRAM 60%+ 점유 (industrial/automotive)"
+      },
+      {
+        "name": "Phison Electronics",
+        "ticker": "8299.TWO",
+        "share_pct": 9.0,
+        "moat": "NAND module + controller dual"
+      },
+      {
+        "name": "Silicon Motion",
+        "ticker": "SIMO",
+        "share_pct": 22.0,
+        "moat": "Client SSD controller leader (fabless)"
+      },
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 41.0,
+        "moat": "DRAM·HBM·NAND 통합 IDM"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 23.0,
+        "moat": "HBM 1위 (Samsung 추월)"
+      },
+      {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "share_pct": 19.0,
+        "moat": "DRAM·HBM·NAND 통합 IDM"
+      },
+      {
+        "name": "Marvell Technology",
+        "ticker": "MRVL",
+        "share_pct": 18.0,
+        "moat": "Enterprise SSD controller leader"
+      },
+      {
+        "name": "CXMT (private)",
+        "ticker": "—",
+        "share_pct": 6.0,
+        "moat": "중국 내수 (수율·품질 미지수)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-05",
+        "title": "Winbond 1Q26 record revenue, specialty DRAM 강세",
+        "source": "Taiwan stock exchange",
+        "summary": "1Q26 매출 yoy 강한 성장. 컨콜에서 CXMT 위협 제한적 평가."
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Phison 1Q26 GPM 18년 이래 최고 궤적",
+        "source": "TPEx disclosure",
+        "summary": "NAND 가격 +50% (3월 1일), +20% (4월) 인용. 매출과 GPM 동반 expansion."
+      },
+      {
+        "date": "2026-04-29",
+        "title": "Silicon Motion 1Q26: 2027-2028 NAND 부족 지속 전망",
+        "source": "SEC EDGAR 10-Q + 컨콜",
+        "summary": "CEO 발언: 'DRAM은 2027 말 완화, NAND는 2028+ tightness'"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Trendforce: 1Q26 NAND contract price +42% QoQ",
+        "source": "Trendforce 2026-04 report",
+        "summary": "Phison CEO '3월 50% 하루 인상' 발언과 산업 평균 일치"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "Samsung 2026 capex $40B 중 HBM $18B+ 배분",
+        "source": "Samsung IR",
+        "summary": "NAND 비중 17.5%로 deprioritization 명시"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 165.0,
+      "cagr_pct": 22.5,
+      "horizon": "2024-2028"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue": 65.0,
+        "op_income": 9.0,
+        "op_margin": 13.8,
+        "net_income": 7.5,
+        "net_margin": 11.5
+      },
+      {
+        "year": "FY22",
+        "revenue": 58.0,
+        "op_income": 6.5,
+        "op_margin": 11.2,
+        "net_income": 5.0,
+        "net_margin": 8.6
+      },
+      {
+        "year": "FY23",
+        "revenue": 50.0,
+        "op_income": 3.5,
+        "op_margin": 7.0,
+        "net_income": 2.5,
+        "net_margin": 5.0
+      },
+      {
+        "year": "FY24",
+        "revenue": 58.0,
+        "op_income": 5.5,
+        "op_margin": 9.5,
+        "net_income": 4.0,
+        "net_margin": 6.9
+      },
+      {
+        "year": "FY25",
+        "revenue": 78.0,
+        "op_income": 14.5,
+        "op_margin": 18.6,
+        "net_income": 11.5,
+        "net_margin": 14.7
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 92.0,
+      "total_liab": 38.0,
+      "equity": 54.0,
+      "cash": 22.0,
+      "debt": 14.0,
+      "as_of_date": "2026-03-31"
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 18.0,
+      "fcf_5y_avg": 14.0,
+      "capex_intensity": 0.05128205128205128
+    },
+    "peer_compare": [
+      {
+        "ticker": "8299.TWO",
+        "name": "Phison",
+        "pe": 17.38,
+        "pb": 3.95,
+        "roe": 21.5,
+        "div_yield": 1.8
+      },
+      {
+        "ticker": "SIMO",
+        "name": "Silicon Motion",
+        "pe": 27.1,
+        "pb": 5.85,
+        "roe": 18.0,
+        "div_yield": 1.0
+      },
+      {
+        "ticker": "2344.TW",
+        "name": "Winbond",
+        "pe": 5.15,
+        "pb": 1.45,
+        "roe": 14.8,
+        "div_yield": 4.2
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "tag": "Bull",
+      "upside_pct": 42.3,
+      "prob_pct": 30,
+      "target_price": 3800,
+      "thesis": "NAND 가격 +30% 2H26 추가 상승, GPM 26%+ peak, FY26 EPS +90%. Module mix 우위 지속.",
+      "key_assumptions": [
+        "NAND 가격 +30% 2H26 추가 상승",
+        "GPM 26%+ peak",
+        "FY26 EPS +90%"
+      ]
+    },
+    "base": {
+      "tag": "Base",
+      "upside_pct": 6.7,
+      "prob_pct": 40,
+      "target_price": 2850,
+      "thesis": "NAND 가격 +10% 2H26, FY26 GPM 22%, FY27 normalization 15-17%. EPS FY26 +60%, FY27 -30%.",
+      "key_assumptions": [
+        "NAND 가격 +10% 2H26",
+        "FY26 GPM 22%",
+        "FY27 normalization 15-17%"
+      ]
+    },
+    "bear": {
+      "tag": "Bear",
+      "upside_pct": -36.3,
+      "prob_pct": 30,
+      "target_price": 1700,
+      "thesis": "NAND 가격 2H26 -20% reversal, inventory writedown, FY26 GPM 14%, EPS FY27 -50%.",
+      "key_assumptions": [
+        "NAND 가격 2H26 -20% reversal",
+        "inventory writedown",
+        "FY26 GPM 14%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "2Q26 실적 — NAND 가격 인상 효과 마진 확인",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Enterprise SSD module 신규 customer 발표 가능성",
+      "type": "product",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q4",
+      "event": "NAND spot price reversal 신호 시 빠른 -GPM",
+      "type": "product",
+      "expected_impact": "-",
+      "description": ""
+    },
+    {
+      "date": "2027-Q1",
+      "event": "FY26 record 후 cycle peak 우려 valuation 압박",
+      "type": "product",
+      "expected_impact": "-",
+      "description": ""
+    },
+    {
+      "date": "2026-2027",
+      "event": "AI inference SSD 채택률 확대 — NAND 수요 backstop",
+      "type": "product",
+      "expected_impact": "+",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "NAND 가격 reversal — inventory writedown shock",
+      "probability": "high",
+      "impact": "high",
+      "description": "발생 확률 40%, 가격 영향 -45%",
+      "mitigation": "Risk Manager HOLD verdict (signal +0.15) — 진입 안 함"
+    },
+    {
+      "name": "Cycle peak GPM 22.5% mean-reversion (역사적 12-14%)",
+      "probability": "high",
+      "impact": "med",
+      "description": "발생 확률 50%, 가격 영향 -30%",
+      "mitigation": "Phison 자체 inventory turnover 8주로 빠른 회전"
+    },
+    {
+      "name": "PE 17 multiple compression 시 -25%",
+      "probability": "med",
+      "impact": "med",
+      "description": "발생 확률 25%, 가격 영향 -25%",
+      "mitigation": "FY26 EPS growth가 PE 흡수"
+    },
+    {
+      "name": "TWD 강세",
+      "probability": "med",
+      "impact": "low",
+      "description": "발생 확률 20%, 가격 영향 -8%",
+      "mitigation": "환헤지 60%"
+    },
+    {
+      "name": "Vol 69% drawdown risk",
+      "probability": "med",
+      "impact": "high",
+      "description": "발생 확률 30%, 가격 영향 -40%",
+      "mitigation": "Portfolio HOLD — no entry"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "evidence": "Phison CEO 직접 인용 — Trendforce confirm",
+      "alignment_score": 0.92,
+      "claim": "T4 — NAND 가격 +50% (3월), +20% (4월)",
+      "type": "company",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "evidence": "FY25 OPM 18.6% (FY23 7.0%에서 회복), 1Q26 GPM +14ppt",
+      "alignment_score": 0.88,
+      "claim": "T5 — Module inventory profit 극대화",
+      "type": "company",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "evidence": "Phison 매출 18yr unseen track 발언",
+      "alignment_score": 0.85,
+      "claim": "T1 — 슈퍼사이클 강도",
+      "type": "company",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "evidence": "Samsung NAND 17.5% 비중 confirm",
+      "alignment_score": 0.75,
+      "claim": "T7 — IDM NAND capa 후순위",
+      "type": "company",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05-08",
+      "title": "Phison 1Q26 실적 발표",
+      "type": "Earnings (TPEx)",
+      "summary": "GPM 22.5% 18yr 최고, NAND 가격 코멘트 detailed"
+    },
+    {
+      "date": "2026-02-18",
+      "title": "신규 enterprise SSD 모듈 라인 가동",
+      "type": "Press release",
+      "summary": "Capacity +30% expansion"
+    },
+    {
+      "date": "2026-01-25",
+      "title": "FY25 dividend 1.8% yield",
+      "type": "Board resolution",
+      "summary": "TWD 48/share"
+    }
+  ]
+}
