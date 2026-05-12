@@ -1,0 +1,1155 @@
+{
+  "ticker": "2344.TW",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.65,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (2/3)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "dcf": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "사이클 정점",
+      "frequency": 7,
+      "personas": [
+        "aswath-damodaran",
+        "ben-graham",
+        "charlie-munger",
+        "mohnish-pabrai",
+        "nassim-taleb",
+        "stanley-druckenmiller",
+        "warren-buffett"
+      ],
+      "examples": [
+        "[Munger] '사이클은 보는 게 아니라 피하는 것' — niche memory도 본질은 cyclical",
+        "[Pabrai] '50-cent dollar' 정의 시 cycle peak EPS 회피"
+      ]
+    },
+    {
+      "theme": "단기과열",
+      "frequency": 6,
+      "personas": [
+        "ben-graham",
+        "michael-burry",
+        "mohnish-pabrai",
+        "peter-lynch",
+        "rakesh-jhunjhunwala",
+        "warren-buffett"
+      ],
+      "examples": [
+        "[actual] 1Y +660% — 'too late?' 의심 들 정도",
+        "[actual] 1Y +660% 후 'too euphoric' 가능성"
+      ]
+    },
+    {
+      "theme": "Fragility",
+      "frequency": 2,
+      "personas": [
+        "michael-burry",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "[actual] Vol 72% = extreme — Burry 평소 admit 'I don't like high vol'",
+        "[Taleb] Vol 72% + beta 1.6 = '4-sigma event 자주 발생하는 자산'"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 1Y +660% — 'too late?' 의심 들 정도",
+        "[inference] specialty DRAM 익숙하지 않은 영역 — Lynch 'invest in what you know'"
+      ],
+      "key_opportunities_top3": [
+        "[Lynch] Cyclical at trough-to-recovery → PE 5는 정확히 Lynch가 좋아하는 진입 zone",
+        "[actual] Niche reflexivity thesis는 'understand the story' 측면에서 명확",
+        "[inference] PEG implied: PE 5 / FY26 growth 80%+ = 0.06 — 'incredible PEG'"
+      ],
+      "uncertainty": "FY26 growth 추정의 reliability — Lynch는 'compute, don't guess'",
+      "narrative_vs_quant_resolution": "Lynch: PEG가 압도적으로 매력 + story 단순 — 정량+narrative 양방향 지지",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[피터 린치] Growth lens — 메모리 슈퍼사이클 강도 (2016-18 능가)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[피터 린치] Growth lens — 상위 IDM HBM 전환 → 니치 reflexivity이 매출 가속 견인하는지 점검.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[피터 린치] Growth lens — CXMT 위협 제한이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[피터 린치] Growth lens — NAND 가격 급등 (3월 +50%, 4월 +20%)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[피터 린치] Growth lens — NAND 모듈 inventory uplift (Phison)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[피터 린치] Growth lens — 2028+ NAND tightness 지속 (SIMO CEO)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[피터 린치] Growth lens — IDM capa NAND 후순위 구조적이 매출 가속 견인하는지 점검.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[피터 린치] Growth lens — SIMO controller volume thesis (가격 둔감)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 1Y +660% 후 'too euphoric' 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[Jhunjhunwala] 'Asia rising, semis are the oil' thesis",
+        "[actual] Taiwan exchange + niche dominance = EM big-bet 후보",
+        "[inference] Patience over cycle = long-term position"
+      ],
+      "uncertainty": "Cycle 정점 — Jhunjhunwala도 cycle 끝물 회피",
+      "narrative_vs_quant_resolution": "RJ: Big bet aspect + EM exposure — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[라케시 준준왈라] EM big-bet — 메모리 슈퍼사이클 강도 (2016-18 능가)이 Asia semis ecosystem 측 큰 그림과 정렬.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[라케시 준준왈라] EM big-bet — 상위 IDM HBM 전환 → 니치 reflexivity이 Asia semis ecosystem 측 큰 그림과 정렬.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[라케시 준준왈라] EM big-bet — CXMT 위협 제한이 Asia semis ecosystem 측 큰 그림과 정렬.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[라케시 준준왈라] EM big-bet — NAND 가격 급등 (3월 +50%, 4월 +20%)이 Asia semis ecosystem 측 큰 그림과 정렬.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[라케시 준준왈라] EM big-bet — NAND 모듈 inventory uplift (Phison)이 Asia semis ecosystem 측 큰 그림과 정렬.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[라케시 준준왈라] EM big-bet — 2028+ NAND tightness 지속 (SIMO CEO)이 Asia semis ecosystem 측 큰 그림과 정렬.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[라케시 준준왈라] EM big-bet — IDM capa NAND 후순위 구조적이 Asia semis ecosystem 측 큰 그림과 정렬.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[라케시 준준왈라] EM big-bet — SIMO controller volume thesis (가격 둔감)이 Asia semis ecosystem 측 큰 그림과 정렬.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[Munger] '사이클은 보는 게 아니라 피하는 것' — niche memory도 본질은 cyclical",
+        "[actual] specialty DRAM peer 비교 데이터 부족 — quality 측정 곤란"
+      ],
+      "key_opportunities_top3": [
+        "[actual] PE 5는 절대 mistake price 아님 — Munger도 deep value 기회 시 진입",
+        "[inference] 60%+ specialty 점유는 'lollapalooza' 양상"
+      ],
+      "uncertainty": "사이클 강도 vs 가격 multiple compression 어느 쪽 우세",
+      "narrative_vs_quant_resolution": "Munger: 정량 매력 vs cyclical 본질 — 절제된 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "[찰리 멍거] 정량 검증 후 — 메모리 슈퍼사이클 강도 (2016-18 능가) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "[찰리 멍거] 정량 검증 후 — 상위 IDM HBM 전환 → 니치 reflexivity 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[찰리 멍거] 정량 검증 후 — CXMT 위협 제한 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[찰리 멍거] 정량 검증 후 — NAND 가격 급등 (3월 +50%, 4월 +20%) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[찰리 멍거] 정량 검증 후 — NAND 모듈 inventory uplift (Phison) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[찰리 멍거] 정량 검증 후 — 2028+ NAND tightness 지속 (SIMO CEO) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[찰리 멍거] 정량 검증 후 — IDM capa NAND 후순위 구조적 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[찰리 멍거] 정량 검증 후 — SIMO controller volume thesis (가격 둔감) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] 1Y +660% 후 cigar-butt entry 아닌 momentum entry",
+        "[Pabrai] '50-cent dollar' 정의 시 cycle peak EPS 회피"
+      ],
+      "key_opportunities_top3": [
+        "[Pabrai] 'Heads I win, tails I don't lose much' — PE 5 + specialty moat = downside protection",
+        "[actual] Niche reflexivity thesis는 정확히 Pabrai가 좋아하는 'low-risk high-uncertainty' 구조",
+        "[inference] India·EM 투자자 안목으로 Asian small/mid cap 특화 = Pabrai 영역"
+      ],
+      "uncertainty": "Normalized EPS 추정 보수도",
+      "narrative_vs_quant_resolution": "Pabrai: Position sizing 작게 + cycle hedge — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[모니시 파브라이] 정량 검증 후 — 메모리 슈퍼사이클 강도 (2016-18 능가) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[모니시 파브라이] 정량 검증 후 — 상위 IDM HBM 전환 → 니치 reflexivity 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[모니시 파브라이] 정량 검증 후 — CXMT 위협 제한 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[모니시 파브라이] 정량 검증 후 — NAND 가격 급등 (3월 +50%, 4월 +20%) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[모니시 파브라이] 정량 검증 후 — NAND 모듈 inventory uplift (Phison) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[모니시 파브라이] 정량 검증 후 — 2028+ NAND tightness 지속 (SIMO CEO) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[모니시 파브라이] 정량 검증 후 — IDM capa NAND 후순위 구조적 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[모니시 파브라이] 정량 검증 후 — SIMO controller volume thesis (가격 둔감) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 메모리 사이클 종속 — 정상화 EPS 추정 어려움 (Buffett: 'circle of competence outside')",
+        "[actual] 1Y +660% 급등 — margin of safety 부족",
+        "[inference] specialty DRAM은 wide moat 아닌 niche shelter"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Fwd PE 5.15 — 정량 측 cycle peak earnings에 5배 PE는 매력적",
+        "[inference] 60%+ specialty DRAM 점유율은 narrow moat 인정 가능"
+      ],
+      "uncertainty": "Cycle 정점 timing — peak earnings 대비 PE 5는 함정일 수 있음",
+      "narrative_vs_quant_resolution": "Buffett은 정량 우선이나 cycle 정점 EPS 사용 위험 인지 → neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[워런 버핏] 정량 검증 후 — 메모리 슈퍼사이클 강도 (2016-18 능가) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[워런 버핏] 정량 검증 후 — 상위 IDM HBM 전환 → 니치 reflexivity 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[워런 버핏] 정량 검증 후 — CXMT 위협 제한 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[워런 버핏] 정량 검증 후 — NAND 가격 급등 (3월 +50%, 4월 +20%) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[워런 버핏] 정량 검증 후 — NAND 모듈 inventory uplift (Phison) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[워런 버핏] 정량 검증 후 — 2028+ NAND tightness 지속 (SIMO CEO) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[워런 버핏] 정량 검증 후 — IDM capa NAND 후순위 구조적 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[워런 버핏] 정량 검증 후 — SIMO controller volume thesis (가격 둔감) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] Cycle 정점 시 macro의 fast reversal — Druck는 'cut quick' patterns"
+      ],
+      "key_opportunities_top3": [
+        "[Druck] '메모리 슈퍼사이클 + AI capex + IDM HBM 전환' = 3-rail macro tailwind = textbook setup",
+        "[Druck] 'Capital flows to anomalies' — niche specialty가 그 anomaly",
+        "[actual] Forward PE 5 + macro alignment = asymmetric upside"
+      ],
+      "uncertainty": "Macro reversal timing (Druck는 빠르게 cut)",
+      "narrative_vs_quant_resolution": "Druck: Macro narrative >> 정량 — 가장 강한 bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[스탠리 드러켄밀러] 거시 측 — 메모리 슈퍼사이클 강도 (2016-18 능가)는 macro tailwind alignment 명확. 신호 강도 적합.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[스탠리 드러켄밀러] 거시 측 — 상위 IDM HBM 전환 → 니치 reflexivity는 macro tailwind alignment 명확. 신호 강도 적합.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[스탠리 드러켄밀러] 거시 측 — CXMT 위협 제한는 macro tailwind alignment 명확. 신호 강도 적합.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[스탠리 드러켄밀러] 거시 측 — NAND 가격 급등 (3월 +50%, 4월 +20%)는 macro tailwind alignment 명확. 신호 강도 적합.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[스탠리 드러켄밀러] 거시 측 — NAND 모듈 inventory uplift (Phison)는 macro tailwind alignment 명확. 신호 강도 적합.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[스탠리 드러켄밀러] 거시 측 — 2028+ NAND tightness 지속 (SIMO CEO)는 macro tailwind alignment 명확. 신호 강도 적합.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[스탠리 드러켄밀러] 거시 측 — IDM capa NAND 후순위 구조적는 macro tailwind alignment 명확. 신호 강도 적합.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[스탠리 드러켄밀러] 거시 측 — SIMO controller volume thesis (가격 둔감)는 macro tailwind alignment 명확. 신호 강도 적합.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[Ackman] Taiwan 거래소 상장 + small cap = Pershing Square scale 미달",
+        "[inference] Activist angle 부재 — capital structure 단순"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Specialty market dominance 60%+ = competitive moat 분명",
+        "[Ackman] 'Predictable cash flow business' — niche specialty memory 일부 충족"
+      ],
+      "uncertainty": "거버넌스/capital allocation efficiency",
+      "narrative_vs_quant_resolution": "Ackman: Scale + capital allocation 측 보통 — neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "[빌 애크먼] Special situation lens — 메모리 슈퍼사이클 강도 (2016-18 능가) 자체에 activist hook 없음.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "[빌 애크먼] Special situation lens — 상위 IDM HBM 전환 → 니치 reflexivity 자체에 activist hook 없음.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[빌 애크먼] Special situation lens — CXMT 위협 제한 자체에 activist hook 없음.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[빌 애크먼] Special situation lens — NAND 가격 급등 (3월 +50%, 4월 +20%) 자체에 activist hook 없음.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[빌 애크먼] Special situation lens — NAND 모듈 inventory uplift (Phison) 자체에 activist hook 없음.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[빌 애크먼] Special situation lens — 2028+ NAND tightness 지속 (SIMO CEO) 자체에 activist hook 없음.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[빌 애크먼] Special situation lens — IDM capa NAND 후순위 구조적 자체에 activist hook 없음.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[빌 애크먼] Special situation lens — SIMO controller volume thesis (가격 둔감) 자체에 activist hook 없음.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[Fisher] '1Q26 strong growth start'는 'beginning' — Fisher 15-point list 검증 필요",
+        "[actual] specialty market 미래 R&D pipeline 정보 부족"
+      ],
+      "key_opportunities_top3": [
+        "[Fisher] 'Industries with growing demand and lazy competitors' — exactly Winbond niche",
+        "[inference] Management의 long-term focus (specialty 60% 유지)는 Fisher 선호",
+        "[actual] PE 5는 growth investor에게도 매력"
+      ],
+      "uncertainty": "R&D pipeline visibility",
+      "narrative_vs_quant_resolution": "Fisher: Growth + 정량 매력 — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[필 피셔] Growth lens — 메모리 슈퍼사이클 강도 (2016-18 능가)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[필 피셔] Growth lens — 상위 IDM HBM 전환 → 니치 reflexivity이 매출 가속 견인하는지 점검.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[필 피셔] Growth lens — CXMT 위협 제한이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[필 피셔] Growth lens — NAND 가격 급등 (3월 +50%, 4월 +20%)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[필 피셔] Growth lens — NAND 모듈 inventory uplift (Phison)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[필 피셔] Growth lens — 2028+ NAND tightness 지속 (SIMO CEO)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[필 피셔] Growth lens — IDM capa NAND 후순위 구조적이 매출 가속 견인하는지 점검.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[필 피셔] Growth lens — SIMO controller volume thesis (가격 둔감)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[Burry] 1Y +660% — bubble territory의 신호일 수 있음",
+        "[actual] Vol 72% = extreme — Burry 평소 admit 'I don't like high vol'"
+      ],
+      "key_opportunities_top3": [
+        "[Burry] PE 5 + 60%+ specialty 점유율 = textbook contrarian value",
+        "[inference] Burry The Big Short pattern: 'consensus가 놓치는 niche 가치' — Winbond exactly fits",
+        "[actual] 메이저 sell-side coverage 적음 → Wall Street 미진입 영역"
+      ],
+      "uncertainty": "사이클 정점 시점 — Burry는 cycle peak에서 빠르게 exit",
+      "narrative_vs_quant_resolution": "Burry: Deep value 정량 압도 + contrarian niche 매력 — bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "[마이클 버리] Contrarian lens — 메모리 슈퍼사이클 강도 (2016-18 능가) 컨센서스 위치 확인 후 평가.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[마이클 버리] Contrarian lens — 상위 IDM HBM 전환 → 니치 reflexivity 컨센서스 위치 확인 후 평가.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[마이클 버리] Contrarian lens — CXMT 위협 제한 컨센서스 위치 확인 후 평가.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[마이클 버리] Contrarian lens — NAND 가격 급등 (3월 +50%, 4월 +20%) 컨센서스 위치 확인 후 평가.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[마이클 버리] Contrarian lens — NAND 모듈 inventory uplift (Phison) 컨센서스 위치 확인 후 평가.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[마이클 버리] Contrarian lens — 2028+ NAND tightness 지속 (SIMO CEO) 컨센서스 위치 확인 후 평가.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[마이클 버리] Contrarian lens — IDM capa NAND 후순위 구조적 컨센서스 위치 확인 후 평가.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[마이클 버리] Contrarian lens — SIMO controller volume thesis (가격 둔감) 컨센서스 위치 확인 후 평가.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[Graham] Cyclical EPS 사용 시 정상화 EPS 적용 의무 — Fwd PE 5도 정상화 PE 8-10일 수 있음",
+        "[actual] 1Y +660% 후 'speculative' phase 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] PE 5 = Graham defensive criteria (PE < 15) 충족",
+        "[inference] specialty 60%+ 점유 = pricing power 기반 'intrinsic value' 정량 가능",
+        "[Graham] Book value 대비 P/B 등 추가 검증 필요하나 PE alone 충분히 attractive"
+      ],
+      "uncertainty": "Normalized EPS 추정 — Graham 보수 가정 시도 가치 잔존",
+      "narrative_vs_quant_resolution": "Graham: 정량 (PE) 강력 + value 정렬 — lean_bullish with margin of safety check",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[벤저민 그레이엄] 정량 검증 후 — 메모리 슈퍼사이클 강도 (2016-18 능가) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[벤저민 그레이엄] 정량 검증 후 — 상위 IDM HBM 전환 → 니치 reflexivity 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[벤저민 그레이엄] 정량 검증 후 — CXMT 위협 제한 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[벤저민 그레이엄] 정량 검증 후 — NAND 가격 급등 (3월 +50%, 4월 +20%) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[벤저민 그레이엄] 정량 검증 후 — NAND 모듈 inventory uplift (Phison) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[벤저민 그레이엄] 정량 검증 후 — 2028+ NAND tightness 지속 (SIMO CEO) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[벤저민 그레이엄] 정량 검증 후 — IDM capa NAND 후순위 구조적 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[벤저민 그레이엄] 정량 검증 후 — SIMO controller volume thesis (가격 둔감) 적용 가능 여부 평가. cycle EPS 보수 필요.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[Wood] specialty/legacy DRAM은 disruption frontier 아닌 'displaced' 영역",
+        "[actual] Niche reflexivity는 cyclical phenomenon, not secular S-curve"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Industrial·automotive embedded memory는 EV/IoT 침투 시 partial S-curve"
+      ],
+      "uncertainty": "TAM 확장 visibility 낮음",
+      "narrative_vs_quant_resolution": "Wood: 정량 매력은 인정하지만 'innovation' 측면 약 — neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[캐시 우드] Growth lens — 메모리 슈퍼사이클 강도 (2016-18 능가)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[캐시 우드] Growth lens — 상위 IDM HBM 전환 → 니치 reflexivity이 매출 가속 견인하는지 점검.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[캐시 우드] Growth lens — CXMT 위협 제한이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[캐시 우드] Growth lens — NAND 가격 급등 (3월 +50%, 4월 +20%)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[캐시 우드] Growth lens — NAND 모듈 inventory uplift (Phison)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[캐시 우드] Growth lens — 2028+ NAND tightness 지속 (SIMO CEO)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[캐시 우드] Growth lens — IDM capa NAND 후순위 구조적이 매출 가속 견인하는지 점검.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[캐시 우드] Growth lens — SIMO controller volume thesis (가격 둔감)이 매출 가속 견인하는지 점검.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[Damodaran] Cycle peak EPS 사용 시 PE 5는 misleading",
+        "[actual] Normalized EPS 적용 시 PE 10-12 추정 — fair value 근접"
+      ],
+      "key_opportunities_top3": [
+        "[Damodaran] Specialty market 점유율 60% = 'sustainable competitive advantage' 입력",
+        "[actual] R&D intensity 확인 후 reinvestment rate 적정 추정 가능"
+      ],
+      "uncertainty": "Cycle normalization period (3yr? 5yr?)",
+      "narrative_vs_quant_resolution": "Damodaran: 'Story is consistent but numbers need normalization' — fair value 약 +20% (neutral)",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "[애스워스 다모다란] Story-to-numbers — 메모리 슈퍼사이클 강도 (2016-18 능가)을 normalized cash flow에 반영 시 fair value 변화 측정.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "[애스워스 다모다란] Story-to-numbers — 상위 IDM HBM 전환 → 니치 reflexivity을 normalized cash flow에 반영 시 fair value 변화 측정.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[애스워스 다모다란] Story-to-numbers — CXMT 위협 제한을 normalized cash flow에 반영 시 fair value 변화 측정.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[애스워스 다모다란] Story-to-numbers — NAND 가격 급등 (3월 +50%, 4월 +20%)을 normalized cash flow에 반영 시 fair value 변화 측정.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[애스워스 다모다란] Story-to-numbers — NAND 모듈 inventory uplift (Phison)을 normalized cash flow에 반영 시 fair value 변화 측정.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[애스워스 다모다란] Story-to-numbers — 2028+ NAND tightness 지속 (SIMO CEO)을 normalized cash flow에 반영 시 fair value 변화 측정.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[애스워스 다모다란] Story-to-numbers — IDM capa NAND 후순위 구조적을 normalized cash flow에 반영 시 fair value 변화 측정.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[애스워스 다모다란] Story-to-numbers — SIMO controller volume thesis (가격 둔감)을 normalized cash flow에 반영 시 fair value 변화 측정.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈렙",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[Taleb] Vol 72% + beta 1.6 = '4-sigma event 자주 발생하는 자산'",
+        "[actual] 사이클 reversal black swan은 historically -50%+ drawdown 패턴",
+        "[inference] 메모리 industry 특성상 'Procrustean Bed' — fitting cyclical to linear forecasts"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 정량 deep value는 부분적 cushion"
+      ],
+      "uncertainty": "Tail event probability — Taleb는 'we don't know'를 정직하게 인정",
+      "narrative_vs_quant_resolution": "Taleb: fragility-positive 자산 → fragile (negative skew) — 회피",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "[나심 탈렙] Fragility lens — 메모리 슈퍼사이클 강도 (2016-18 능가) 시 tail risk 검토. Cycle 본질 회피 성향.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "[나심 탈렙] Fragility lens — 상위 IDM HBM 전환 → 니치 reflexivity 시 tail risk 검토. Cycle 본질 회피 성향.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "[나심 탈렙] Fragility lens — CXMT 위협 제한 시 tail risk 검토. Cycle 본질 회피 성향.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "[나심 탈렙] Fragility lens — NAND 가격 급등 (3월 +50%, 4월 +20%) 시 tail risk 검토. Cycle 본질 회피 성향.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "[나심 탈렙] Fragility lens — NAND 모듈 inventory uplift (Phison) 시 tail risk 검토. Cycle 본질 회피 성향.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "[나심 탈렙] Fragility lens — 2028+ NAND tightness 지속 (SIMO CEO) 시 tail risk 검토. Cycle 본질 회피 성향.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "[나심 탈렙] Fragility lens — IDM capa NAND 후순위 구조적 시 tail risk 검토. Cycle 본질 회피 성향.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "rationale": "[나심 탈렙] Fragility lens — SIMO controller volume thesis (가격 둔감) 시 tail risk 검토. Cycle 본질 회피 성향.",
+          "confidence": 0.45
+        }
+      ],
+      "_meta": {
+        "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+        "evaluator": "claude-opus-4-7-direct",
+        "ticker": "2344.TW",
+        "ticker_name_kr": "윈본드일렉트로닉스",
+        "ticker_name_en": "Winbond Electronics"
+      }
+    }
+  },
+  "_meta": {
+    "evaluated_at": "2026-05-12T10:32:07.628552+09:00",
+    "ticker_name_kr": "윈본드일렉트로닉스",
+    "ticker_name_en": "Winbond Electronics"
+  }
+}
