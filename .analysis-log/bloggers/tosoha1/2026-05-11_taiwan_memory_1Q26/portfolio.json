@@ -1,0 +1,36 @@
+{
+  "initial_value_usd": 1000000,
+  "as_of_date": "2026-05-11",
+  "trades": [
+    {
+      "date": "2026-05-11",
+      "ticker": "2344.TW",
+      "action": "buy",
+      "quantity": 0,
+      "value_usd": 85000.0,
+      "rationale": "중간 매수 신호 (+0.41), 한도의 50% 진입"
+    },
+    {
+      "date": "2026-05-11",
+      "ticker": "SIMO",
+      "action": "buy",
+      "quantity": 0,
+      "value_usd": 110000.0,
+      "rationale": "중간 매수 신호 (+0.39), 한도의 50% 진입"
+    }
+  ],
+  "positions": {
+    "2344.TW": {
+      "quantity": 0,
+      "entry_value_usd": 85000.0,
+      "current_value_usd": 85000.0
+    },
+    "SIMO": {
+      "quantity": 0,
+      "entry_value_usd": 110000.0,
+      "current_value_usd": 110000.0
+    }
+  },
+  "cash": 805000.0,
+  "total_value": 1000000
+}
