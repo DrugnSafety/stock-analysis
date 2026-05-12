@@ -1,0 +1,227 @@
+{
+  "source": {
+    "blogger": "tosoha1",
+    "url": "https://blog.naver.com/tosoha1/224282243243",
+    "extracted_at": "2026-05-11T23:55:00+09:00",
+    "extraction_method": "claude-opus-4-7-direct"
+  },
+  "theses": [
+    {
+      "id": "T1",
+      "claim": "현재 메모리 사이클은 2016-2018 서버사이클, 2021 코로나 사이클을 능가하는 강도이며, 1Q26 실적에서 확인되기 시작했다.",
+      "type": "factual_with_predictive",
+      "timeframe": "12-24M",
+      "supporting_evidence": [
+        "Winbond 1Q26: 강한 실적 성장 시작 — 과거 사이클과 비교 가능 데이터",
+        "Phison 매출·GPM이 '18년 이래 보지 못한 궤적'으로 진입 중",
+        "Silicon Motion 매출 Q 증가가 가격 효과가 아닌 순수 물량 증가"
+      ],
+      "exposure": {
+        "++": [
+          "2344.TW",
+          "8299.TWO",
+          "SIMO",
+          "000660.KS",
+          "005930.KS",
+          "MU"
+        ],
+        "0": [],
+        "-": []
+      },
+      "confidence": 0.8,
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "claim": "상위 IDM(Samsung·SK Hynix·Micron)이 DDR5·3D NAND·HBM에 집중하면서 니치/레거시 메모리 시장에서 Winbond 같은 플레이어가 반사이익을 얻고 있다.",
+      "type": "factual",
+      "timeframe": "6-18M",
+      "supporting_evidence": [
+        "Winbond 컨콜: 상위 회사들이 DDR5·3D NAND로 이동하며 그 아래 시장에서 기회 발생",
+        "1Q26 실적이 그 효과를 정량적으로 보여줌"
+      ],
+      "exposure": {
+        "++": [
+          "2344.TW"
+        ],
+        "+": [
+          "8299.TWO"
+        ],
+        "0": [
+          "SIMO",
+          "000660.KS",
+          "005930.KS",
+          "MU"
+        ]
+      },
+      "confidence": 0.85,
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "claim": "중국 CXMT의 위협은 현재 시장에서 제한적이다 — 매출이 Micron의 1/5에 불과, 중국 내수 위주, 수율 미지수.",
+      "type": "factual_normative",
+      "timeframe": "12-24M",
+      "supporting_evidence": [
+        "Winbond CEO 컨콜 인용: 'CXMT 매출은 Micron의 5분의 1, 자기 고객 중 사용처가 거의 없음'",
+        "CEO: '보조금이나 장비와 교환하는 것일 수도 있다'며 의구심 표명",
+        "수율 데이터 부재"
+      ],
+      "exposure": {
+        "+": [
+          "MU",
+          "000660.KS",
+          "005930.KS"
+        ],
+        "0": [
+          "2344.TW",
+          "8299.TWO",
+          "SIMO"
+        ]
+      },
+      "confidence": 0.65,
+      "counter_evidence_potential": "CXMT capa는 빠르게 ramp 가능, 정책 지원 강도 변수",
+      "importance": "secondary"
+    },
+    {
+      "id": "T4",
+      "claim": "NAND 가격이 3월 하루 50% 인상, 4월 추가 20% 인상되었다 — 월별로 계약가 상승이 지속.",
+      "type": "factual",
+      "timeframe": "1-6M",
+      "supporting_evidence": [
+        "Phison 1Q26 컨콜 직접 인용: '3월 하루 만에 부품 ASP 50% 인상, 4월 20% 인상'",
+        "Phison: 'NAND 공급업체에 따르면 부품과 모듈 가격은 계속 상승'"
+      ],
+      "exposure": {
+        "++": [
+          "8299.TWO",
+          "SIMO",
+          "MU"
+        ],
+        "+": [
+          "000660.KS",
+          "005930.KS"
+        ],
+        "0": [
+          "2344.TW"
+        ]
+      },
+      "confidence": 0.9,
+      "importance": "core"
+    },
+    {
+      "id": "T5",
+      "claim": "NAND 모듈 소싱 비즈니스(Phison)는 NAND 가격 상승기에 낮은 가격 소싱 → 오른 가격 모듈 판매로 GPM이 극대화된다.",
+      "type": "factual_conditional",
+      "timeframe": "6-12M",
+      "supporting_evidence": [
+        "Phison 매출 비중: 컨트롤러 20%→10%, NAND 모듈 비중 증가",
+        "'매출과 GPM 모두 과거 18년 동안 보지 못했던 궤적으로 진입 중'"
+      ],
+      "exposure": {
+        "++": [
+          "8299.TWO"
+        ],
+        "+": [
+          "SIMO"
+        ],
+        "0": [
+          "2344.TW",
+          "MU",
+          "000660.KS",
+          "005930.KS"
+        ]
+      },
+      "confidence": 0.85,
+      "risk": "역방향 — NAND 가격 하락 시 동일한 inventory effect로 GPM 급락 가능",
+      "importance": "core"
+    },
+    {
+      "id": "T6",
+      "claim": "Silicon Motion CEO는 2027년 DRAM·NAND 공급이 2026년보다 더 심각하게 부족하며, NAND는 2028년 이후까지 부족할 것이라 본다.",
+      "type": "predictive",
+      "timeframe": "24-36M",
+      "supporting_evidence": [
+        "Silicon Motion 1Q26 컨콜 직접 인용: '2027년 DRAM·NAND 공급이 2026년보다 더 심각하게 부족'",
+        "'DRAM은 2027년 말~2028년부터 완화 (신규 메가팹 ramp)'",
+        "'NAND는 2028년 초~하반기부터 완화 시작 가능하지만 여전히 부족 상태'"
+      ],
+      "exposure": {
+        "++": [
+          "SIMO",
+          "8299.TWO",
+          "MU"
+        ],
+        "+": [
+          "000660.KS",
+          "005930.KS",
+          "2344.TW"
+        ]
+      },
+      "confidence": 0.7,
+      "counter_evidence_potential": "산업 in-house 전망은 종종 낙관 편향; 수요 사이클 둔화 시 빠른 supply 회복 가능",
+      "importance": "core"
+    },
+    {
+      "id": "T7",
+      "claim": "메모리 IDM의 capa는 HBM·DRAM에 우선 배분되어 NAND wafer 생산이 구조적으로 부족하며, Pure NAND 회사 외에는 NAND 증설 여력이 거의 없다.",
+      "type": "factual_with_predictive",
+      "timeframe": "12-36M",
+      "supporting_evidence": [
+        "글 본문: '지금 모두 HBM, 디램 위주로만 팹을 겨우겨우 채우고 있어서 낸드를 채울 공간이 Pure nand회사 아니면 거의 없음'"
+      ],
+      "exposure": {
+        "++": [
+          "8299.TWO",
+          "SIMO",
+          "MU"
+        ],
+        "+": [
+          "000660.KS",
+          "2344.TW"
+        ],
+        "0": [
+          "005930.KS"
+        ]
+      },
+      "confidence": 0.75,
+      "importance": "core"
+    },
+    {
+      "id": "T8",
+      "claim": "Silicon Motion은 NAND 가격에 ASP·GPM이 직접 영향 받기보다는 매출이 순수 Q(volume) 증가로 일어나고 있어, NAND 가격 변동에 상대적으로 둔감한 구조다.",
+      "type": "factual",
+      "timeframe": "6-12M",
+      "supporting_evidence": [
+        "글 본문: 'NAND 컨트롤러 사업이 대다수인 편이라 NAND 가격에 ASP와 GPM이 영향을 받기 보다는 매출 증가가 순수하게 Q의 증가로 일어나고 있음'"
+      ],
+      "exposure": {
+        "+": [
+          "SIMO"
+        ],
+        "0": [
+          "8299.TWO",
+          "2344.TW",
+          "000660.KS",
+          "005930.KS",
+          "MU"
+        ]
+      },
+      "confidence": 0.8,
+      "importance": "secondary"
+    }
+  ],
+  "summary": {
+    "n_theses": 8,
+    "weighted_signal": {
+      "2344.TW": "+ (Winbond — 니치 reflexivity, T1+T2 강함)",
+      "8299.TWO": "++ (Phison — NAND inventory uplift, T4+T5+T7 강함)",
+      "SIMO": "++ (Silicon Motion — 구조적 volume thesis, T6+T7+T8 강함)"
+    },
+    "key_risks": [
+      "NAND 가격 reversal 시 Phison의 GPM 급락 위험 (T5 역방향)",
+      "CXMT 위협 평가가 한 회사 CEO 코멘트에 의존 (T3 신뢰도 보강 필요)",
+      "Silicon Motion CEO 사이클 전망의 산업 in-house 편향 가능성 (T6)"
+    ]
+  }
+}
