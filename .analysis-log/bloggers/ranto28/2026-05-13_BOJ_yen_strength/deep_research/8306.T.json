@@ -1,0 +1,270 @@
+{
+  "industry": {
+    "name": "일본 금융 산업 (메가뱅크·보험·다각화 금융)",
+    "overview": "일본 금융 산업은 2024년 3월 BOJ 마이너스 금리 종료 + 2024년 7월 추가 15bp 인상 → 2026년 6월 추가 인상 가능성 있는 'gradual normalization' 단계. 3대 메가뱅크(MUFG·SMFG·Mizuho)는 합산 자산 ¥800조+, 시장점유율 60%+ 과점 구조. 지방은행은 reorganization 가속화 (Mebuki FG, Concordia FG 등). 보험사는 JGB 보유로 yield 상승 직접 수혜. 메가뱅크는 PBR 0.85-1.0x로 미국 메가뱅크 (1.4-1.8x) 대비 deep discount — BOJ 정상화 trigger 시 valuation re-rating 가능.",
+    "market_size": {
+      "current_usd_bn": 850,
+      "cagr_pct": 3.5,
+      "horizon": "2024-2030 (NIM-driven re-rating)"
+    },
+    "competitors": [
+      {
+        "name": "Mitsubishi UFJ FG",
+        "ticker": "8306.T",
+        "share_pct": 24.0,
+        "moat": "일본 1위, 글로벌 commercial banking (Morgan Stanley 22% 지분)"
+      },
+      {
+        "name": "Sumitomo Mitsui FG",
+        "ticker": "8316.T",
+        "share_pct": 20.0,
+        "moat": "SMBC America + 동남아 진출 가속, 미국 5위 commercial bank"
+      },
+      {
+        "name": "Mizuho FG",
+        "ticker": "8411.T",
+        "share_pct": 16.0,
+        "moat": "투자은행·자산운용 강세, 다이와증권 연합"
+      },
+      {
+        "name": "Tokio Marine",
+        "ticker": "8766.T",
+        "share_pct": 30.0,
+        "moat": "일본 P&C 1위, 미국 Philadelphia Consolidated + HCC"
+      },
+      {
+        "name": "ORIX",
+        "ticker": "8591.T",
+        "share_pct": 12.0,
+        "moat": "리스·private equity·부동산 다각화, ROE 11-12% 유지"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-13",
+        "title": "메르 — 'BOJ 6월 16일 금리 인상 가능성 매우 높음' 분석",
+        "source": "메르 블로그",
+        "summary": "베센트 방일 + FX 개입 압박 → BOJ 정상화 가속 전망"
+      },
+      {
+        "date": "2026-05-12",
+        "title": "BOJ 4월 의사록 공개 — '다음 회의부터 금리 인상 충분히 가능'",
+        "source": "Reuters/BOJ",
+        "summary": "9명 중 3명 dissent + hawkish 발언 확인"
+      },
+      {
+        "date": "2026-05-11",
+        "title": "베센트 미 재무장관 도쿄 방문 (5/11-13)",
+        "source": "Bloomberg",
+        "summary": "일본 재무성·BOJ에 외환 정책 논의"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "일본 재무성 ¥5.48조 단일일 FX 개입 — 2024년 7월 이후 최대",
+        "source": "재무성",
+        "summary": "엔 매수 → USD/JPY -3% 단기"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "BOJ 통화정책회의 — 9명 중 3명이 금리 인상에 dissent",
+        "source": "BOJ",
+        "summary": "이례적 33% dissent rate, 다음 회의 인상 시그널"
+      },
+      {
+        "date": "2026-05-01",
+        "title": "MUFG 4Q FY24 결과 — 순이익 ¥1.45조 (YoY +8%), NIM 1.7% 확대",
+        "source": "MUFG IR",
+        "summary": "BOJ 정상화 sensitivity 보고: 25bp 인상 시 NII +¥1500억"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "MUFG Morgan Stanley 22% 지분 평가차익 ¥3조 인식",
+        "source": "MUFG IR",
+        "summary": "Morgan Stanley 주가 +25% YoY로 MUFG 자본 비율 +0.3p"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 4155,
+      "thesis": "BOJ 6월 + 9월 +50bp + Morgan Stanley re-rating + 일본 corporate governance reform → NIM +40bp + ROE 11% → 13% + PBR 1.2x re-rating. 12개월 +40-50%.",
+      "key_assumptions": [
+        "BOJ 50bp 인상 H2",
+        "Morgan Stanley 주가 +30% YoY",
+        "deposit beta 35%",
+        "PBR 1.2x"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 3453,
+      "thesis": "BOJ 6월 25bp 인상 + Morgan Stanley 안정 + 정상 NIM 확대 → ROE 10% + PBR 1.0x. 12개월 +15-20%.",
+      "key_assumptions": [
+        "BOJ 25bp H2",
+        "Morgan Stanley flat",
+        "deposit beta 30%",
+        "PBR 1.0x"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 2575,
+      "thesis": "BOJ 인상 9월 이후 deferred + 일본 부동산 cascade + 글로벌 risk-off → ROE 7% + PBR 0.85x. 12개월 -10-15%.",
+      "key_assumptions": [
+        "BOJ 인상 deferred",
+        "일본 부동산 부실 cascade",
+        "Morgan Stanley -15%",
+        "PBR 0.85x"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-03",
+      "event": "우에다 BOJ 총재 연설",
+      "type": "monetary_policy_signal",
+      "expected_impact": "high",
+      "description": "6월 16일 결정 전 forward guidance — hawkish 시그널 시 메가뱅크 +5-8%"
+    },
+    {
+      "date": "2026-06-15-16",
+      "event": "BOJ 통화정책회의",
+      "type": "monetary_policy_decision",
+      "expected_impact": "very_high",
+      "description": "25bp 인상 시 메가뱅크 +8-12%, deferred 시 -5-10%"
+    },
+    {
+      "date": "2026-07-25",
+      "event": "Q1 FY25 분기 실적 발표 (메가뱅크 3사)",
+      "type": "earnings",
+      "expected_impact": "medium",
+      "description": "BOJ 인상 후 첫 분기 NIM 가이던스 — beat 시 +5%"
+    },
+    {
+      "date": "2026-09-18-19",
+      "event": "BOJ 추가 통화정책회의",
+      "type": "monetary_policy_decision",
+      "expected_impact": "high",
+      "description": "6월 + 9월 연속 인상 시 NIM cumul +30bp, 메가뱅크 추가 +10%"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "Q2 FY25 실적 + 중기 경영계획 update",
+      "type": "earnings + strategy",
+      "expected_impact": "medium",
+      "description": "TSE 압박 + corporate governance reform 결과"
+    }
+  ],
+  "risks": [
+    {
+      "name": "BOJ 6월 16일 인상 deferred (9월/12월로 미뤄짐)",
+      "probability": "med",
+      "impact": "high",
+      "description": "다음 회의 인상이 deferred되면 thesis collapse — 메가뱅크 -10-15% drawdown",
+      "mitigation": "사전 우에다 연설(6/3) 모니터링; deferred 시 평가차익 일부 lock-in 후 9월 회의 대비"
+    },
+    {
+      "name": "일본 부동산·중소기업 대출 부실 cascade",
+      "probability": "low",
+      "impact": "high",
+      "description": "BOJ 인상으로 marginal borrower 부실 → NIM 확대 효과 offset",
+      "mitigation": "credit cost 가이던스 분기별 모니터링; 부실 +0.5% 초과 시 메가뱅크 weight 50% 축소"
+    },
+    {
+      "name": "글로벌 risk-off (Fed surprise, 중국 부동산, 지정학)",
+      "probability": "med",
+      "impact": "high",
+      "description": "VIX 30+ 시 일본 메가뱅크 단기 -15% drawdown 가능",
+      "mitigation": "VIX > 30 시 포지션 30% 축소; 엔 강세 hedge 활용"
+    },
+    {
+      "name": "엔 캐리 unwind에 따른 일본 시장 일시 패닉",
+      "probability": "med",
+      "impact": "med",
+      "description": "2024년 8월 case 패턴 — USD/JPY -10% + Nikkei -12% in 1주",
+      "mitigation": "단기 -10% drawdown은 buy-the-dip opportunity로 활용"
+    },
+    {
+      "name": "미국채 매각 압박 강화 시 외환 vol 증가",
+      "probability": "med",
+      "impact": "low",
+      "description": "USD/JPY 옵션 vol 24%+ 시 헷지 비용 증가",
+      "mitigation": "옵션 vol 모니터링; 자체 헷지 전략 적용"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "BOJ 6월 16일 금리 인상 가능성 매우 높음 (T1)",
+      "type": "policy",
+      "evidence": "4월 28일 회의 9명 중 3명 dissent + 5/12 의사록 'sufficiently possible' 발언",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "일본 재무성 미국채 매각·엔 매수 패턴 unsustainable (T2)",
+      "type": "macro",
+      "evidence": "¥10조 ($670억) 1-2주 누적 + 10Y UST 4.481% 상승",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "엔화 2026 하반기 강세 dominant (T3)",
+      "type": "fx",
+      "evidence": "CFTC 엔 net short -85k contracts + 미일 금리차 401bp 축소 trigger",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "BOJ 인상 → 일본 메가뱅크 NIM 직접 수혜 (T4)",
+      "type": "earnings",
+      "evidence": "MUFG/SMFG/Mizuho 분기 sensitivity: 25bp 인상 → NII +¥2000-3000억",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "엔 강세 → 일본 수출주 (자동차·반도체) 환산 부담 (T5)",
+      "type": "industry",
+      "evidence": "토요타 1엔당 영업이익 -¥400-500억, 도쿄일렉트론 매출 80% 해외",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "엔 강세 → 한국 수출 경합주 가격 경쟁력 개선 (T6)",
+      "type": "industry",
+      "evidence": "원/엔 100엔당 950원 이상 시 KR 자동차·조선 마진 확대 (2020-21 case)",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "일본 미국채 매각 지속 → 10Y UST 금리 상승 (T7)",
+      "type": "macro",
+      "evidence": "일본 보유 $1.0087조 + 매각 시 일별 -4-6bp 추정",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "엔 강세 + BOJ 정상화 → 글로벌 캐리 unwind risk-off (T8)",
+      "type": "risk",
+      "evidence": "2024년 8월 case: USD/JPY -10% + S&P -8% + Nikkei -12% in 1주",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "베센트-카타야마 implicit deal (미국채 매도 ↔ BOJ 인상) (T9)",
+      "type": "policy",
+      "evidence": "5/11-13 베센트 방일 + 카타야마 '공동성명 양해' 발언",
+      "testability": "low",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [],
+  "financial_anchor_5y": {
+    "currency": "JPY",
+    "fy24_revenue_bn": 9800,
+    "fy24_net_income_bn": 1450,
+    "fy24_roe_pct": 8.2,
+    "fy24_pbr": 0.95,
+    "note": "최근 4년 (FY21-FY24) earnings CAGR: MUFG +12%, SMFG +14%, Mizuho +8%, Tokio Marine +9%, ORIX +6%. BOJ 정상화 시나리오에서 메가뱅크 3사 FY25 earnings growth +15-25% 추정."
+  }
+}
