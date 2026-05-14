@@ -3,54 +3,58 @@
     {
       "ticker": "8306.T",
       "action": "buy",
-      "signal_score": 0.59,
-      "target_quantity": 545985,
-      "target_value": 147000000,
-      "position_limit_value": 210000000,
+      "signal_score": 0.523,
+      "target_quantity": 7574,
+      "target_value": 199500000,
+      "position_limit_value": 199500000,
       "primary_risks": [
-        "BOJ 6월 16일 인상 deferred 시 thesis collapse (-10-15% 단기)",
-        "일본 부동산 부실 cascade로 NIM 확대 offset 가능 (-15-25%)",
-        "USD/JPY 급변동 시 일본 시장 risk-off (-10%)"
-      ]
+        "Forward PE 19x = 정상화 일부 priced-in",
+        "BOJ 인상 시 가계·부동산 NPL 비율 상승 risk",
+        "보유 JGB AOCI 변동성"
+      ],
+      "rationale": "verdict_dist={'lean_bullish': {'count': 10, 'pct': 76.9}, 'neutral': {'count': 3, 'pct': 23.1}}, avg_conf=0.68"
     },
     {
       "ticker": "8316.T",
       "action": "buy",
-      "signal_score": 0.58,
-      "target_quantity": 273039,
-      "target_value": 147000000,
-      "position_limit_value": 210000000,
+      "signal_score": 0.523,
+      "target_quantity": 3787,
+      "target_value": 199500000,
+      "position_limit_value": 199500000,
       "primary_risks": [
-        "BOJ 6월 16일 인상 deferred 시 thesis collapse (-10-15% 단기)",
-        "SMBC America 부진 + 중국 익스포저 (-10%)",
-        "글로벌 risk-off 시 banking sector 약세 (-15%)"
-      ]
+        "Forward PE 19x = 정상화 일부 priced-in",
+        "BOJ 인상 시 가계·부동산 NPL 비율 상승 risk",
+        "보유 JGB AOCI 변동성"
+      ],
+      "rationale": "verdict_dist={'lean_bullish': {'count': 10, 'pct': 76.9}, 'neutral': {'count': 3, 'pct': 23.1}}, avg_conf=0.68"
     },
     {
       "ticker": "8411.T",
-      "action": "buy_partial",
-      "signal_score": 0.19,
-      "target_quantity": 129509,
-      "target_value": 84000000,
-      "position_limit_value": 210000000,
+      "action": "buy",
+      "signal_score": 0.523,
+      "target_quantity": 3144,
+      "target_value": 199500000,
+      "position_limit_value": 199500000,
       "primary_risks": [
-        "Mizuho IT 시스템 장애 history → operational risk premium",
-        "BOJ 인상 sensitivity가 MUFG/SMFG보다 낮음 (-30% relative)",
-        "다음 분기 NIM disappointment 가능성 (-8%)"
-      ]
+        "Forward PE 19x = 정상화 일부 priced-in",
+        "BOJ 인상 시 가계·부동산 NPL 비율 상승 risk",
+        "보유 JGB AOCI 변동성"
+      ],
+      "rationale": "verdict_dist={'lean_bullish': {'count': 10, 'pct': 76.9}, 'neutral': {'count': 3, 'pct': 23.1}}, avg_conf=0.68"
     },
     {
       "ticker": "8766.T",
-      "action": "buy_partial",
-      "signal_score": 0.29,
-      "target_quantity": 123903,
-      "target_value": 84000000,
-      "position_limit_value": 210000000,
+      "action": "buy",
+      "signal_score": 0.525,
+      "target_quantity": 3008,
+      "target_value": 199500000,
+      "position_limit_value": 199500000,
       "primary_risks": [
-        "JGB yield 상승 시 단기 평가손 (-5% AOCI hit)",
-        "P&C 보험금 cycle 부담 (자연재해 시즌 6-10월)",
-        "엔 강세 시 해외 보험 자회사 환산 부담 (-3-5%)"
-      ]
+        "Forward PE 19x = 정상화 일부 priced-in",
+        "글로벌 매크로 변동 (Fed·미일 무역) 영향",
+        "글로벌 매크로 변동 (Fed·미일 무역) 영향"
+      ],
+      "rationale": "verdict_dist={'lean_bullish': {'count': 11, 'pct': 84.6}, 'neutral': {'count': 2, 'pct': 15.4}}, avg_conf=0.62"
     },
     {
       "ticker": "8591.T",
@@ -58,12 +62,13 @@
       "signal_score": 0.0,
       "target_quantity": 0,
       "target_value": 0,
-      "position_limit_value": 280000000,
+      "position_limit_value": 266000000,
       "primary_risks": [
-        "다각화 구조 → BOJ 정상화 직접 수혜 sensitivity 낮음 (-50% relative)",
-        "부동산·private equity 자산의 valuation risk (-15%)",
-        "leasing business는 금리 인상에 negative exposure 일부"
-      ]
+        "글로벌 매크로 변동 (Fed·미일 무역) 영향",
+        "글로벌 매크로 변동 (Fed·미일 무역) 영향",
+        "글로벌 매크로 변동 (Fed·미일 무역) 영향"
+      ],
+      "rationale": "verdict_dist={'neutral': {'count': 13, 'pct': 100.0}}, avg_conf=0.5"
     }
   ]
 }
