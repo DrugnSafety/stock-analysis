@@ -1,0 +1,94 @@
+{
+  "computed_at": "2026-05-14T09:07:27.111866+09:00",
+  "start_cash": 1000000.0,
+  "start_date": "2026-05-13",
+  "end_date": "2026-05-13",
+  "n_decisions": 5,
+  "total_trades": 4,
+  "total_buy_value": 447996.13,
+  "total_sell_value": 0.0,
+  "final_cash": 552003.87,
+  "end_positions_value": 447996.13,
+  "final_nav": 1000000.0,
+  "total_return_pct": -0.0,
+  "final_positions": {
+    "ASTS": {
+      "qty": 1336,
+      "avg_cost": 74.81,
+      "last_price": 74.81,
+      "market_value": 99946.16,
+      "unrealized_pnl": -0.0,
+      "unrealized_return_pct": -0.0
+    },
+    "NVDA": {
+      "qty": 635,
+      "avg_cost": 225.83,
+      "last_price": 225.83,
+      "market_value": 143402.05,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "RKLB": {
+      "qty": 805,
+      "avg_cost": 124.15,
+      "last_price": 124.15,
+      "market_value": 99940.75,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "VRT": {
+      "qty": 283,
+      "avg_cost": 369.99,
+      "last_price": 369.99,
+      "market_value": 104707.17,
+      "unrealized_pnl": -0.0,
+      "unrealized_return_pct": -0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-13",
+      "ticker": "ASTS",
+      "action": "buy",
+      "qty": 1336,
+      "price": 74.81,
+      "cost": 99946.16,
+      "cash_after": 900053.84
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "NVDA",
+      "action": "buy",
+      "qty": 635,
+      "price": 225.83,
+      "cost": 143402.05,
+      "cash_after": 756651.79
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "RKLB",
+      "action": "buy",
+      "qty": 805,
+      "price": 124.15,
+      "cost": 99940.75,
+      "cash_after": 656711.04
+    },
+    {
+      "date": "2026-05-13",
+      "ticker": "VRT",
+      "action": "buy",
+      "qty": 283,
+      "price": 369.99,
+      "cost": 104707.17,
+      "cash_after": 552003.87
+    }
+  ],
+  "benchmark_comparison": {
+    "SPY": {
+      "start_price": 742.31,
+      "end_price": 742.31,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    }
+  }
+}
