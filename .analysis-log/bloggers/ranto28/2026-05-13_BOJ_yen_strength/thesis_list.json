@@ -1,0 +1,123 @@
+{
+  "blogger": "ranto28",
+  "post_date": "2026-05-13",
+  "post_url": "https://blog.naver.com/ranto28/224283790534",
+  "extraction_date": "2026-05-13",
+  "thesis_count": 9,
+  "theses": [
+    {
+      "id": "T1",
+      "claim": "BOJ는 2026년 6월 15~16일 통화정책회의에서 기준금리를 인상할 가능성이 매우 높다",
+      "type": "predictive",
+      "timeframe": "short_term (1개월 이내)",
+      "supporting_evidence": [
+        "4월 28일 통화정책회의에서 9명 중 3명이 금리인상에 투표 (이례적 dissent rate 33%)",
+        "5월 12일 공개된 4월 BOJ 의사록: '다음 통화정책회의부터 금리 인상이 충분히 가능' 발언",
+        "중동 정세 불안으로 인한 에너지 가격 상승 → 일본 물가 목표(2%) 상회 가능성",
+        "6월 3일 우에다 총재 연설이 사전 가이던스 역할 수행 예정",
+        "베센트 미 재무장관이 직접 도쿄를 방문(5/11~13)해서 정책 압박을 가한 것으로 해석"
+      ],
+      "verifiable_by": "2026-06-16 BOJ 통화정책회의 결정"
+    },
+    {
+      "id": "T2",
+      "claim": "일본 재무성의 외환 개입 (FEFSA를 통한 미국국채 매각 → 엔 매수) 패턴은 지속 불가능하고, 미국 측의 강한 반발에 직면해 있다",
+      "type": "factual + predictive",
+      "timeframe": "ongoing",
+      "supporting_evidence": [
+        "2026년 4월 30일 ¥5.48조($350억) 단일일 개입 — 2024년 7월 이후 최대 규모",
+        "5월 1·4·6일 추가 개입 ¥5.01조($320억) → 총 ¥10조($670억) 투입",
+        "그럼에도 엔화는 '슬금슬금' 약세 지속 → 개입 효과 미미",
+        "10Y UST 금리 4.481% 상승 → 베센트의 핵심 우려 지표",
+        "베센트의 도쿄 직접 방문은 미국국채 매각을 통한 개입 중단 압박의 시그널"
+      ],
+      "verifiable_by": "재무성 월별 외환 개입 보고서, 10Y UST 금리 추이"
+    },
+    {
+      "id": "T3",
+      "claim": "엔화는 2026년 하반기 강세 추세가 지배적일 것이다 (USD/JPY 추가 하락)",
+      "type": "predictive",
+      "timeframe": "medium_term (3~6개월)",
+      "supporting_evidence": [
+        "메르 한 줄 코멘트: '하반기에는 강해진 엔화를 가정할 필요'",
+        "BOJ 금리 인상 → 미일 금리차 축소 → 캐리 트레이드 unwind",
+        "일본 재무성의 적극적 개입 의지 + 미국 묵인(공동성명)",
+        "FEFSA 보유 미국국채 $1.0087조 = 충분한 개입 실탄"
+      ],
+      "verifiable_by": "USD/JPY 환율, FX 헤지펀드 포지션 보고서"
+    },
+    {
+      "id": "T4",
+      "claim": "BOJ 금리 인상은 일본 은행주(메가뱅크)의 NIM(순이자마진) 확대로 직접적 수혜를 가져온다",
+      "type": "predictive",
+      "timeframe": "medium_term (3~12개월)",
+      "supporting_evidence": [
+        "일본 메가뱅크는 거대 예금 베이스에 거의 0% 금리 지급 — 자산-부채 듀레이션 갭에서 금리 인상 시 직접 수혜",
+        "BOJ 기준금리가 1%까지 상승할 경우 일본 3대 메가뱅크(MUFG·SMFG·미즈호) 연간 순이익 +¥3000~5000억 추가 추정 (시장 컨센서스)",
+        "YCC(수익률곡선통제) 종료 + 보유 JGB 평가차익 회수 기대"
+      ],
+      "verifiable_by": "MUFG/SMFG/Mizuho 분기 NIM 보고, 일본 10Y JGB 금리"
+    },
+    {
+      "id": "T5",
+      "claim": "엔화 강세는 일본 수출주(자동차·반도체장비·전자기기)의 환산 수익에 부정적 영향을 미친다",
+      "type": "predictive",
+      "timeframe": "medium_term (2~4 분기)",
+      "supporting_evidence": [
+        "토요타·혼다·닛산 등 자동차 OEM은 USD/JPY 1엔 절상당 영업이익 -¥400~500억 추정",
+        "Sony·Nikon 등 전자제품 OEM도 동일한 노출 (해외 매출 비중 60%+)",
+        "도쿄일렉트론 등 반도체장비 업체도 매출의 80%가 비엔화 → 환산 부담"
+      ],
+      "verifiable_by": "Toyota·Sony·Tokyo Electron 분기 가이던스 (FX sensitivity)"
+    },
+    {
+      "id": "T6",
+      "claim": "엔화 강세는 한국 수출 경합주(자동차·반도체·조선)의 가격 경쟁력을 상대적으로 개선시킨다",
+      "type": "predictive + conditional",
+      "timeframe": "medium_term (2~4 분기)",
+      "supporting_evidence": [
+        "현대차 vs 토요타, 삼성전자 vs 일본 반도체장비, HD현대중공업 vs 일본 조선소 — 글로벌 시장에서 직접 경합",
+        "원/엔 환율이 100엔당 950원 이상으로 상승 시 한국 수출주 마진 확대 (2020-2021 사례)",
+        "단, 원화도 동반 강세 가능성이 있으므로 절대적 수혜폭은 제한적"
+      ],
+      "verifiable_by": "현대차·삼성전자·HD현대중공업 분기 ASP·시장점유율 보고"
+    },
+    {
+      "id": "T7",
+      "claim": "일본의 미국국채 매각이 지속되면 10Y UST 금리는 추가 상승 압력을 받을 것이다",
+      "type": "predictive",
+      "timeframe": "short_term (1~3개월)",
+      "supporting_evidence": [
+        "10Y UST는 이미 4.481%까지 상승 (베센트가 가장 중시하는 지표)",
+        "일본은 미국채 외국인 최대 보유국 ($1.0087조) — 일본 매각 영향은 즉시 가격에 반영",
+        "단, BOJ 금리 인상으로 개입 필요성이 줄어들면 매도 압력 완화 가능성도 동시 존재"
+      ],
+      "verifiable_by": "10Y UST 일별 종가, TIC 보고서 (일본 보유고 추이)"
+    },
+    {
+      "id": "T8",
+      "claim": "엔화 강세 + BOJ 정상화는 글로벌 '엔 캐리 트레이드' unwind를 가속화시켜 risk-off를 유발할 수 있다",
+      "type": "predictive + conditional",
+      "timeframe": "medium_term",
+      "supporting_evidence": [
+        "2024년 8월 일본 금리 인상 시 USD/JPY -10% + S&P -8% + Nikkei -12% (단기 패닉)",
+        "엔으로 차입하여 high-yield 자산에 투자한 헤지펀드 포지션이 unwind 압력",
+        "단, 2026년의 인상은 사전 forward guidance가 강하게 제공된 상황 → 2024년 8월의 surprise 효과는 제한적"
+      ],
+      "verifiable_by": "CFTC 엔 net short 포지션, JPMorgan G7 vol index"
+    },
+    {
+      "id": "T9",
+      "claim": "베센트(미국 재무) vs 카타야마(일본 재무)의 협상은 '미국채 매도 제한 ↔ BOJ 금리인상'을 교환하는 implicit deal이다",
+      "type": "factual_speculative",
+      "timeframe": "ongoing",
+      "supporting_evidence": [
+        "카타야마: '환율 개입은 양해받았다' (=공동성명 범위 내)",
+        "메르의 해석: '미국채 매각까지 양해받지는 않았을 것'",
+        "베센트가 BOJ 총재가 아니라 재무상을 만난 점 → FEFSA 의사결정 주체는 재무성",
+        "미국은 명시적으로 'BOJ 금리 인상' 요구할 수 없으나 비공식적 압박 가능"
+      ],
+      "verifiable_by": "재무성 외환 개입 추가 발표, BOJ 6월 결정"
+    }
+  ]
+}
