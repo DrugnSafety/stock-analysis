@@ -1,0 +1,138 @@
+{
+  "computed_at": "2026-05-14T09:07:15.297126+09:00",
+  "ledger_path": ".analysis-log/bloggers/ranto28/2026-05-13_space_datacenter_unified/verdicts_ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/ranto28/2026-05-13_space_datacenter_unified/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "ASTS",
+      "date": "2026-05-13",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.55,
+          "weight": 1.1,
+          "score_contribution": 0.424
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 100000.0,
+      "target_quantity": 1336,
+      "current_price": 74.81,
+      "position_limit_value": 100000.0,
+      "annualized_volatility": 1.038,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    },
+    {
+      "ticker": "NVDA",
+      "date": "2026-05-13",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "BUY": 1
+      },
+      "signal_score": 1.0,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.85,
+          "weight": 1.1,
+          "score_contribution": 0.935
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 143550.0,
+      "target_quantity": 635,
+      "current_price": 225.83,
+      "position_limit_value": 143550.0,
+      "annualized_volatility": 0.3645,
+      "reasoning": "강한 매수 신호 (+1.00), 한도까지 진입"
+    },
+    {
+      "ticker": "RKLB",
+      "date": "2026-05-13",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.1,
+          "score_contribution": 0.477
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 100000.0,
+      "target_quantity": 805,
+      "current_price": 124.15,
+      "position_limit_value": 100000.0,
+      "annualized_volatility": 1.0958,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    },
+    {
+      "ticker": "TSLA",
+      "date": "2026-05-13",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "HOLD": 1
+      },
+      "signal_score": 0.0,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "HOLD",
+          "confidence": 0.45,
+          "weight": 1.1,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 445.27,
+      "position_limit_value": 147378.0,
+      "annualized_volatility": 0.3964,
+      "reasoning": "중립 신호 (+0.00), 변경 없음"
+    },
+    {
+      "ticker": "VRT",
+      "date": "2026-05-13",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "BUY": 1
+      },
+      "signal_score": 1.0,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.8,
+          "weight": 1.1,
+          "score_contribution": 0.88
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 105000.0,
+      "target_quantity": 283,
+      "current_price": 369.99,
+      "position_limit_value": 105000.0,
+      "annualized_volatility": 0.5719,
+      "reasoning": "강한 매수 신호 (+1.00), 한도까지 진입"
+    }
+  ]
+}
