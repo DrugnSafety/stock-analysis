@@ -17,7 +17,8 @@
         "6월 3일 우에다 총재 연설이 사전 가이던스 역할 수행 예정",
         "베센트 미 재무장관이 직접 도쿄를 방문(5/11~13)해서 정책 압박을 가한 것으로 해석"
       ],
-      "verifiable_by": "2026-06-16 BOJ 통화정책회의 결정"
+      "verifiable_by": "2026-06-16 BOJ 통화정책회의 결정",
+      "importance": "core"
     },
     {
       "id": "T2",
@@ -31,7 +32,8 @@
         "10Y UST 금리 4.481% 상승 → 베센트의 핵심 우려 지표",
         "베센트의 도쿄 직접 방문은 미국국채 매각을 통한 개입 중단 압박의 시그널"
       ],
-      "verifiable_by": "재무성 월별 외환 개입 보고서, 10Y UST 금리 추이"
+      "verifiable_by": "재무성 월별 외환 개입 보고서, 10Y UST 금리 추이",
+      "importance": "secondary"
     },
     {
       "id": "T3",
@@ -44,7 +46,8 @@
         "일본 재무성의 적극적 개입 의지 + 미국 묵인(공동성명)",
         "FEFSA 보유 미국국채 $1.0087조 = 충분한 개입 실탄"
       ],
-      "verifiable_by": "USD/JPY 환율, FX 헤지펀드 포지션 보고서"
+      "verifiable_by": "USD/JPY 환율, FX 헤지펀드 포지션 보고서",
+      "importance": "core"
     },
     {
       "id": "T4",
@@ -56,7 +59,8 @@
         "BOJ 기준금리가 1%까지 상승할 경우 일본 3대 메가뱅크(MUFG·SMFG·미즈호) 연간 순이익 +¥3000~5000억 추가 추정 (시장 컨센서스)",
         "YCC(수익률곡선통제) 종료 + 보유 JGB 평가차익 회수 기대"
       ],
-      "verifiable_by": "MUFG/SMFG/Mizuho 분기 NIM 보고, 일본 10Y JGB 금리"
+      "verifiable_by": "MUFG/SMFG/Mizuho 분기 NIM 보고, 일본 10Y JGB 금리",
+      "importance": "core"
     },
     {
       "id": "T5",
@@ -68,7 +72,8 @@
         "Sony·Nikon 등 전자제품 OEM도 동일한 노출 (해외 매출 비중 60%+)",
         "도쿄일렉트론 등 반도체장비 업체도 매출의 80%가 비엔화 → 환산 부담"
       ],
-      "verifiable_by": "Toyota·Sony·Tokyo Electron 분기 가이던스 (FX sensitivity)"
+      "verifiable_by": "Toyota·Sony·Tokyo Electron 분기 가이던스 (FX sensitivity)",
+      "importance": "secondary"
     },
     {
       "id": "T6",
@@ -80,7 +85,8 @@
         "원/엔 환율이 100엔당 950원 이상으로 상승 시 한국 수출주 마진 확대 (2020-2021 사례)",
         "단, 원화도 동반 강세 가능성이 있으므로 절대적 수혜폭은 제한적"
       ],
-      "verifiable_by": "현대차·삼성전자·HD현대중공업 분기 ASP·시장점유율 보고"
+      "verifiable_by": "현대차·삼성전자·HD현대중공업 분기 ASP·시장점유율 보고",
+      "importance": "supporting"
     },
     {
       "id": "T7",
@@ -92,7 +98,8 @@
         "일본은 미국채 외국인 최대 보유국 ($1.0087조) — 일본 매각 영향은 즉시 가격에 반영",
         "단, BOJ 금리 인상으로 개입 필요성이 줄어들면 매도 압력 완화 가능성도 동시 존재"
       ],
-      "verifiable_by": "10Y UST 일별 종가, TIC 보고서 (일본 보유고 추이)"
+      "verifiable_by": "10Y UST 일별 종가, TIC 보고서 (일본 보유고 추이)",
+      "importance": "secondary"
     },
     {
       "id": "T8",
@@ -104,7 +111,8 @@
         "엔으로 차입하여 high-yield 자산에 투자한 헤지펀드 포지션이 unwind 압력",
         "단, 2026년의 인상은 사전 forward guidance가 강하게 제공된 상황 → 2024년 8월의 surprise 효과는 제한적"
       ],
-      "verifiable_by": "CFTC 엔 net short 포지션, JPMorgan G7 vol index"
+      "verifiable_by": "CFTC 엔 net short 포지션, JPMorgan G7 vol index",
+      "importance": "secondary"
     },
     {
       "id": "T9",
@@ -117,7 +125,8 @@
         "베센트가 BOJ 총재가 아니라 재무상을 만난 점 → FEFSA 의사결정 주체는 재무성",
         "미국은 명시적으로 'BOJ 금리 인상' 요구할 수 없으나 비공식적 압박 가능"
       ],
-      "verifiable_by": "재무성 외환 개입 추가 발표, BOJ 6월 결정"
+      "verifiable_by": "재무성 외환 개입 추가 발표, BOJ 6월 결정",
+      "importance": "supporting"
     }
   ]
 }
