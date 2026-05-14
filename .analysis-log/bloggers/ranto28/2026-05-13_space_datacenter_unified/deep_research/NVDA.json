@@ -1,0 +1,275 @@
+{
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T02",
+      "claim": "AI 데이터센터 핵심 병목은 전력/냉각 (45%)",
+      "ticker_exposure": "++",
+      "reasoning": "NVDA Blackwell이 직접 야기. DC 병목 → GPU shipment 지연 (-) but DC capex 가속 → GPU 수요 (+). Net (++)."
+    },
+    {
+      "thesis_id": "T03",
+      "claim": "Blackwell 13배 전력집적도, 액체냉각 필수",
+      "ticker_exposure": "++",
+      "reasoning": "NVDA core narrative. 4-Analyst aggregate support 0.81."
+    },
+    {
+      "thesis_id": "T01",
+      "claim": "우주 데이터센터 메가테마",
+      "ticker_exposure": "+",
+      "reasoning": "GPU 공급자로 추가 TAM, immediate impact 없음"
+    }
+  ],
+  "industry": {
+    "name": "AI Accelerator (GPU) + AI Data Center Compute",
+    "overview": "AI 가속기 시장은 2025-2030 CAGR 35%+ 추정 ($50B → $250B). NVIDIA가 데이터센터 GPU 시장점유율 80%+ 유지. Blackwell B200/GB200 NVL72 rack은 H100 대비 4배 throughput, 25배 inference TCO 개선. 차세대 Rubin 2026 발표 예정.",
+    "competitors": [
+      {
+        "name": "Advanced Micro Devices",
+        "ticker": "AMD",
+        "share_pct": 12.0,
+        "moat": "MI300X로 H100 대안 시장 진입, 2026 MI400 예정 — software stack(ROCm) 격차 좁히는 중"
+      },
+      {
+        "name": "Intel",
+        "ticker": "INTC",
+        "share_pct": 2.0,
+        "moat": "Gaudi 3 출시, 데이터센터 GPU 점유율 미미"
+      },
+      {
+        "name": "Google (TPU captive)",
+        "ticker": "GOOG",
+        "share_pct": 6.0,
+        "moat": "TPU v5e/v6 in-house, GCP 내부 사용 위주"
+      },
+      {
+        "name": "Amazon (Trainium captive)",
+        "ticker": "AMZN",
+        "share_pct": 4.0,
+        "moat": "Trainium2 in-house, AWS 내부"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 50.0,
+      "cagr_pct": 35.0,
+      "horizon": "2024-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-12",
+        "title": "NVDA FY26 Q1 가이던스 — Data Center 매출 $45B+ 추정",
+        "source": "Bloomberg",
+        "summary": "Blackwell ramp 가속, GB200 NVL72 lead time 12개월"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "Stargate Phase 1 GPU 발주 — OpenAI/Microsoft/SoftBank $100B",
+        "source": "Reuters",
+        "summary": "NVDA가 single largest beneficiary"
+      },
+      {
+        "date": "2026-03-19",
+        "title": "GTC 2026 — Rubin 로드맵 공개",
+        "source": "NVIDIA Press",
+        "summary": "2027 launch 확정, throughput 추가 3배"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY22",
+        "revenue": 27000,
+        "op_income": 10070,
+        "op_margin": 37.3,
+        "net_income": 9750,
+        "net_margin": 36.1
+      },
+      {
+        "year": "FY23",
+        "revenue": 26970,
+        "op_income": 4230,
+        "op_margin": 15.7,
+        "net_income": 4370,
+        "net_margin": 16.2
+      },
+      {
+        "year": "FY24",
+        "revenue": 60920,
+        "op_income": 32970,
+        "op_margin": 54.1,
+        "net_income": 29760,
+        "net_margin": 48.9
+      },
+      {
+        "year": "FY25",
+        "revenue": 130500,
+        "op_income": 81430,
+        "op_margin": 62.4,
+        "net_income": 70500,
+        "net_margin": 54.0
+      },
+      {
+        "year": "FY26E",
+        "revenue": 200000,
+        "op_income": 128000,
+        "op_margin": 64.0,
+        "net_income": 110000,
+        "net_margin": 55.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 96100,
+      "total_liab": 31100,
+      "equity": 65000,
+      "cash": 38500,
+      "debt": 8500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 24180,
+      "fcf_5y_avg": 21450,
+      "capex_intensity": 0.04
+    },
+    "peer_compare": [
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "pe": 31.5,
+        "pb": 27.0,
+        "roe": 75.0,
+        "div_yield": 0.04
+      },
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "pe": 28.0,
+        "pb": 4.5,
+        "roe": 12.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "pe": 32.0,
+        "pb": 14.0,
+        "roe": 18.0,
+        "div_yield": 1.2
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "pe": 22.0,
+        "pb": 6.5,
+        "roe": 28.0,
+        "div_yield": 1.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 320,
+      "thesis": "Blackwell backlog 12개월+ 유지, Rubin 2027 ramp 성공, 우주 데이터센터 GPU 공급자 추가 TAM (T01·T03)",
+      "key_assumptions": [
+        "AI capex sustain 2027+",
+        "DC GPU 80%+ 점유율 유지",
+        "GB200 ASP +30%",
+        "China export controls 완화"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 260,
+      "thesis": "AI capex 정상화 (2026 +35% YoY → 2027 +20%), AMD MI400 점유율 잠식 시작 (NVDA 점유율 80→70%), Forward PE 22-25 적정",
+      "key_assumptions": [
+        "GPU 점유율 70%대 유지",
+        "Forward PE de-rate 22-25",
+        "Rubin 일정 준수"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 165,
+      "thesis": "Hyperscaler in-house ASIC 가속, AI capex digestion phase, China export controls 추가 강화로 매출 -15%",
+      "key_assumptions": [
+        "TPU/Trainium 점유율 30%+",
+        "AI capex YoY 둔화",
+        "China cut $10B"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "GTC 2026 (Rubin 발표)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "차세대 GPU 로드맵 공개"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Blackwell B300 출시",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "B200 후속, throughput +30%"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "FY26 Q2 earnings",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Data Center 매출 $50B+ 기대"
+    },
+    {
+      "date": "2026-H2",
+      "event": "OpenAI Stargate Phase 1 GPU shipment",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "$500B 인프라 중 NVDA capture"
+    },
+    {
+      "date": "2027-H1",
+      "event": "Rubin first deliveries",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "다음 step-function"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Hyperscaler in-house ASIC 가속화",
+      "probability": "high",
+      "impact": "high",
+      "description": "Google TPU, AWS Trainium, MS Maia가 점유율 잠식. 2027 이후 GPU dependency 감소",
+      "mitigation": "Software moat (CUDA/cuDNN), networking (NVLink/Mellanox)"
+    },
+    {
+      "name": "AI capex digestion phase",
+      "probability": "med",
+      "impact": "high",
+      "description": "2024-2026 폭발 후 2027-2028 둔화 가능",
+      "mitigation": "Inference 시장으로 mix shift, edge AI"
+    },
+    {
+      "name": "China export controls 추가 강화",
+      "probability": "high",
+      "impact": "med",
+      "description": "현재 H800·H20 등 중국 전용 chip 추가 규제 가능",
+      "mitigation": "Sovereign AI 다변화 (UAE, Saudi, Japan)"
+    },
+    {
+      "name": "AMD MI400/MI500 경쟁력",
+      "probability": "med",
+      "impact": "med",
+      "description": "AMD가 software stack 격차 좁힐 시 점유율 5-10% 잠식",
+      "mitigation": "CUDA ecosystem moat"
+    },
+    {
+      "name": "전력·냉각 인프라 병목",
+      "probability": "high",
+      "impact": "med",
+      "description": "T02 thesis와 직접 연결 — DC 인프라 부재로 GPU shipment 지연 가능",
+      "mitigation": "VRT 등 인프라 파트너십"
+    }
+  ],
+  "korean_disclosures": []
+}
