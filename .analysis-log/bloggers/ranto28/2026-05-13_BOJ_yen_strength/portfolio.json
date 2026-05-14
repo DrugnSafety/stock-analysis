@@ -1,30 +1,57 @@
 {
-  "start_cash": 1400000000,
-  "deployed_capital": 462000000,
-  "remaining_cash": 938000000,
-  "final_nav": 1400000000,
-  "total_return_pct": 0.0,
-  "total_trades": 4,
-  "current_holdings": {
-    "8306.T": {
-      "qty": 545985,
-      "value": 147000000,
-      "action": "buy"
+  "as_of_date": "2026-05-13",
+  "total_value_krw": 1400000000,
+  "cash_krw": 602000000,
+  "positions": [
+    {
+      "ticker": "8306.T",
+      "name": "Mitsubishi UFJ Financial Group, Inc.",
+      "quantity": 7574,
+      "entry_price": 2926.5,
+      "currency": "JPY",
+      "value_krw": 199500000,
+      "weight_pct": 14.25,
+      "action": "buy",
+      "as_of_date": "2026-05-13"
     },
-    "8316.T": {
-      "qty": 273039,
-      "value": 147000000,
-      "action": "buy"
+    {
+      "ticker": "8316.T",
+      "name": "Sumitomo Mitsui Financial Group, Inc.",
+      "quantity": 3787,
+      "entry_price": 5852.0,
+      "currency": "JPY",
+      "value_krw": 199500000,
+      "weight_pct": 14.25,
+      "action": "buy",
+      "as_of_date": "2026-05-13"
     },
-    "8411.T": {
-      "qty": 129509,
-      "value": 84000000,
-      "action": "buy_partial"
+    {
+      "ticker": "8411.T",
+      "name": "Mizuho Financial Group, Inc.",
+      "quantity": 3144,
+      "entry_price": 7050.0,
+      "currency": "JPY",
+      "value_krw": 199500000,
+      "weight_pct": 14.25,
+      "action": "buy",
+      "as_of_date": "2026-05-13"
     },
-    "8766.T": {
-      "qty": 123903,
-      "value": 84000000,
-      "action": "buy_partial"
+    {
+      "ticker": "8766.T",
+      "name": "Tokio Marine Holdings, Inc.",
+      "quantity": 3008,
+      "entry_price": 7369.0,
+      "currency": "JPY",
+      "value_krw": 199500000,
+      "weight_pct": 14.25,
+      "action": "buy",
+      "as_of_date": "2026-05-13"
     }
+  ],
+  "summary": {
+    "n_positions": 4,
+    "total_invested_krw": 798000000,
+    "cash_pct": 43.0,
+    "theme": "Japan financial normalization (BOJ rate hike beneficiaries)"
   }
 }
