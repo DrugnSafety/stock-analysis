@@ -1,0 +1,129 @@
+{
+  "post_meta": {
+    "url": "https://blog.naver.com/ranto28/[3편 통합]",
+    "title": "[3편 통합] AI 다음 떡밥 = 우주 데이터센터? — AI 다음 떡밥 1·2 + 다보스포럼 시리즈",
+    "author": "메르(ranto28)",
+    "source_posts": [
+      {"order": 1, "title": "AI 다음 떡밥은 무엇일까? 2", "url": "https://blog.naver.com/ranto28/224108445346", "published_at": "2025-12-14"},
+      {"order": 2, "title": "AI 다음 떡밥은 무엇일까? A/S (feat 중국의 움직임, 우주냉각)", "url": "https://blog.naver.com/ranto28/224109268327", "published_at": "2025-12-14"},
+      {"order": 3, "title": "다보스포럼에서 어떤일이 일어날까?(feat 우주데이터센터,트럼프)", "url": "https://blog.naver.com/ranto28/224152127595", "published_at": "2026-01-20"}
+    ]
+  },
+  "summary_one_liner": "AI 시대 다음의 메가 투자 테마는 '우주 데이터센터(우주 태양광 + 저온 우주냉각 + AI 위성)'이며, 미국(머스크·젠슨 황·샘 알트먼)과 중국(우주 삼협댐 + 삼체 컴퓨팅 별자리)이 이미 경쟁을 시작했고, 2026년 1월 다보스포럼에서 정상회담 의제로 격상된다.",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "AI를 탑재한 위성이 우주 태양광발전과 연계되면 위성 자체를 '지구궤도를 도는 우주 데이터센터'로 만들 수 있다는 것임. 우주 태양광 발전과 AI인공위성이 결합된 우주데이터센터가 AI열풍 다음의 새로운 떡밥이 될 수 있을것 같음. 닷컴버블이 데이터압축기술로 무너졌듯이, 새로운 기술발전은 뜨는 기업과 지는 기업을 재정의 할 수 있음.",
+      "evidence_section": "원문 108-109번 (편 1)",
+      "tags": ["우주데이터센터", "메가테마", "AI다음"]
+    },
+    {
+      "claim_id": "T02",
+      "claim": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의 결정 요인이 된다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "데이터센터가 사용하는 전력의 45%가 서버의 온도 유지에 사용되고 있음. 얼마만큼 효율적으로 냉각을 하는지가 데이터센터의 성능을 가르는 관건이 되고 있음.",
+      "evidence_section": "원문 87-88번 (편 1)",
+      "tags": ["냉각", "데이터센터경제성", "전력"]
+    },
+    {
+      "claim_id": "T03",
+      "claim": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "short_term",
+      "supporting_evidence": "엔비디아의 블렉웰 GPU를 탑재한 서버는 일반 서버보다 전력 집적도가 13배 이상 높아서, 4배 이상 많은 열을 발생시키고 있음. 젠슨 황은 차세대 블랙웰을 액체냉각 기반으로 설계해서, 열관리 효율을 높이고, 데이터센터 소모전력의 28%를 줄이겠다고 발표함.",
+      "evidence_section": "원문 80-86번 (편 1)",
+      "tags": ["엔비디아", "Blackwell", "액체냉각", "액침냉각"]
+    },
+    {
+      "claim_id": "T04",
+      "claim": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "스페이스X IPO는 지금까지 가장 큰 규모였던 사우디 아람코급으로 예상되고 있음. 스페이스 X는 2026년 하반기 IPO를 통해서 기업가치 1조달러 이상의 평가를 받고, 300억달러이상 조달을 목표로 하고 있음. 일론 머스크는 스페이스X IPO로 조달된 자금중 일부를 우주 데이터센터 개발에 활용하겠다고 밝히고 있음.",
+      "evidence_section": "원문 89-92번 (편 1)",
+      "tags": ["SpaceX", "IPO", "머스크", "1조달러"]
+    },
+    {
+      "claim_id": "T05",
+      "claim": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터센터)' 프로젝트를 가동 중이며, 2025년 5월부터 1단계 12기 위성을 이미 발사했다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "중국은 충칭에서 테스트에 성공한 우주 태양광 발전소를 지구 정지궤도에 세계 최초로 설치하겠다고 밝히고 있음. 25년 5월 14일, 중국은 이것을 위한 12개의 위성을 이미 우주로 발사했다. 2030년까지 1,000개 위성을 쏘아 올리는 것이 2차 목표이고, 최종 목표는 2,800개 위성 군으로 AI 데이터센터를 만드는 것이다.",
+      "evidence_section": "원문 21-25, 추가 12-50기 (편 2)",
+      "tags": ["중국", "삼체컴퓨팅", "우주삼협댐", "위성AI"]
+    },
+    {
+      "claim_id": "T06",
+      "claim": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센터 영역으로 수렴하고 있다.",
+      "type": "factual",
+      "importance": "supporting",
+      "timeframe": "present",
+      "supporting_evidence": "오픈AI의 샘 알트먼도 우주 데이터센터를 위한 로켓발사 기업 매수를 추진하고 있음. 일론 머스크, 엔비디아의 젠슨 황, 오픈AI의 샘 알트먼이 겹치는 지점이 있다면 주의해서 지켜볼 필요가 있다고 생각됨.",
+      "evidence_section": "원문 한줄 코멘트 (편 1)",
+      "tags": ["머스크", "젠슨황", "샘알트먼", "수렴투자"]
+    },
+    {
+      "claim_id": "T07",
+      "claim": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정상급 의제로 격상된다.",
+      "type": "factual",
+      "importance": "supporting",
+      "timeframe": "short_term",
+      "supporting_evidence": "트럼프가 연설하는 2026년 1월 21일에 'The Future Space Economy'라는 공개세션이 열림. 이 세션에서 AI시대의 막대한 전력소모와 냉각문제를 해결하기 위해, 우주공간을 데이터센터로 활용하는 방안이 논의된다고 함.",
+      "evidence_section": "원문 42-44번 (편 3)",
+      "tags": ["다보스포럼", "트럼프", "정상의제"]
+    },
+    {
+      "claim_id": "T08",
+      "claim": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 확장)를 볼 때 회의론 단계는 지나갔다.",
+      "type": "conditional",
+      "importance": "supporting",
+      "timeframe": "present",
+      "supporting_evidence": "우주는 냉각이 안 됩니다. 우주는 매질이 없어 열전도, 대류가 되지 않아서 — 냉각 자체가 안 됩니다 (열 복사는 느려서 냉각이 거의 0). 한 줄 코멘트. 중국의 속도를 보면, 냉각 논란 단계는 지나간 것 같다.",
+      "evidence_section": "댓글 인용 + 한줄 코멘트 (편 2)",
+      "tags": ["우주냉각", "회의론", "기술적실증"]
+    },
+    {
+      "claim_id": "T09",
+      "claim": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 '우주에서 직접 데이터센터 운영' 발상이 추진되고 있다.",
+      "type": "factual",
+      "importance": "supporting",
+      "timeframe": "medium_term",
+      "supporting_evidence": "우주 태양광의 남은 가장 큰 숙제는 우주와 지상간 36,000km거리에서 전기에너지를 15%이상 효율로 보내는 기술임. 가장 큰 숙제가 풀리지 않은 상황에서, 발상을 전환한 새로운 방법이 추진되기 시작함. 우주에서 태양광 발전을 해서, 전력을 무선으로 지상전송하는게 아니[라 우주에서 데이터센터 직접 운영]",
+      "evidence_section": "원문 72-93번 (편 1)",
+      "tags": ["우주태양광", "무선전송", "발상전환"]
+    },
+    {
+      "claim_id": "T10",
+      "claim": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의 신호이다.",
+      "type": "normative",
+      "importance": "aside",
+      "timeframe": "long_term",
+      "supporting_evidence": "아직 기술적인 문제들이 많아서 지적질할 부분이 많이 보일것임. 투자 관점에서 이것은 장점임. 지적질할 여지가 없다면 성장산업이 아니라 이미 성숙산업임.",
+      "evidence_section": "원문 한줄 코멘트 (편 1)",
+      "tags": ["투자철학", "성장산업판별", "메르관점"]
+    }
+  ],
+  "extraction_meta": {
+    "extracted_at": "2026-05-13T00:00:00+09:00",
+    "model": "claude-opus-4-7 (current session, fallback for sandbox API timeout)",
+    "provider": "claude",
+    "n_total": 10,
+    "n_core": 5,
+    "n_supporting": 4,
+    "n_aside": 1,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "thinking_tokens": 0,
+    "elapsed_seconds": 0.0,
+    "note": "OpenAI/Gemini API 호출이 sandbox 환경에서 45s timeout으로 실패. 본문이 이미 컨텍스트에 있어 Claude 직접 추출. multi-model-arena thesis-extractor와 동일한 schema·philosophy 준수."
+  }
+}
