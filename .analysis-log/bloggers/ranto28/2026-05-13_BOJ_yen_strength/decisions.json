@@ -1,0 +1,69 @@
+{
+  "decisions": [
+    {
+      "ticker": "8306.T",
+      "action": "buy",
+      "signal_score": 0.59,
+      "target_quantity": 545985,
+      "target_value": 147000000,
+      "position_limit_value": 210000000,
+      "primary_risks": [
+        "BOJ 6월 16일 인상 deferred 시 thesis collapse (-10-15% 단기)",
+        "일본 부동산 부실 cascade로 NIM 확대 offset 가능 (-15-25%)",
+        "USD/JPY 급변동 시 일본 시장 risk-off (-10%)"
+      ]
+    },
+    {
+      "ticker": "8316.T",
+      "action": "buy",
+      "signal_score": 0.58,
+      "target_quantity": 273039,
+      "target_value": 147000000,
+      "position_limit_value": 210000000,
+      "primary_risks": [
+        "BOJ 6월 16일 인상 deferred 시 thesis collapse (-10-15% 단기)",
+        "SMBC America 부진 + 중국 익스포저 (-10%)",
+        "글로벌 risk-off 시 banking sector 약세 (-15%)"
+      ]
+    },
+    {
+      "ticker": "8411.T",
+      "action": "buy_partial",
+      "signal_score": 0.19,
+      "target_quantity": 129509,
+      "target_value": 84000000,
+      "position_limit_value": 210000000,
+      "primary_risks": [
+        "Mizuho IT 시스템 장애 history → operational risk premium",
+        "BOJ 인상 sensitivity가 MUFG/SMFG보다 낮음 (-30% relative)",
+        "다음 분기 NIM disappointment 가능성 (-8%)"
+      ]
+    },
+    {
+      "ticker": "8766.T",
+      "action": "buy_partial",
+      "signal_score": 0.29,
+      "target_quantity": 123903,
+      "target_value": 84000000,
+      "position_limit_value": 210000000,
+      "primary_risks": [
+        "JGB yield 상승 시 단기 평가손 (-5% AOCI hit)",
+        "P&C 보험금 cycle 부담 (자연재해 시즌 6-10월)",
+        "엔 강세 시 해외 보험 자회사 환산 부담 (-3-5%)"
+      ]
+    },
+    {
+      "ticker": "8591.T",
+      "action": "hold",
+      "signal_score": 0.0,
+      "target_quantity": 0,
+      "target_value": 0,
+      "position_limit_value": 280000000,
+      "primary_risks": [
+        "다각화 구조 → BOJ 정상화 직접 수혜 sensitivity 낮음 (-50% relative)",
+        "부동산·private equity 자산의 valuation risk (-15%)",
+        "leasing business는 금리 인상에 negative exposure 일부"
+      ]
+    }
+  ]
+}
