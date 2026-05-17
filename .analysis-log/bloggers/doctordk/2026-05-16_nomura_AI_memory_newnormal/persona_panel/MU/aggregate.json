@@ -1,0 +1,203 @@
+{
+  "ticker": "MU",
+  "ticker_name": "Micron Technology",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "average_confidence": 0.635,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "mixed/neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "mixed/neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "mixed/neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "mixed/neutral"
+    }
+  },
+  "consensus_narrative": "Micron Technology: 8/13 lean_bullish, avg_conf 0.635. DRAM·NAND 3사 oligopoly, HBM 후발 진입 (HBM3E 2025 Q4 양산)",
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "style": "value"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "style": "value"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "style": "value"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "style": "value"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "style": "value-contrarian"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "style": "growth"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "style": "growth"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "style": "growth"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "style": "macro"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "style": "activist"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "style": "risk"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "style": "growth-em"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "style": "valuation"
+    }
+  }
+}
