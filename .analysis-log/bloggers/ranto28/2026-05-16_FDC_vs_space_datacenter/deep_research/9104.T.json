@@ -1,0 +1,253 @@
+{
+  "name": "미쓰이OSK라인즈 (MOL)",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T5",
+      "claim": "MOL이 일본 4사 컨소시엄 lead로서 FDC 가동 first-mover 우위 확보",
+      "ticker_exposure": "++",
+      "reasoning": "9,731톤급 PCTC 개조 + Hitachi/NTT/NYK 4사 vertical integration"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "FDC가 우주 DC보다 빠른 상용화로 데이터센터 즉시 해법",
+      "ticker_exposure": "++",
+      "reasoning": "2027 첫 가동 명시 — 글로벌 FDC 운영 first-mover"
+    },
+    {
+      "thesis_id": "T1",
+      "claim": "SpaceX V3 발사로 우주 DC 가능성 가시화",
+      "ticker_exposure": "0",
+      "reasoning": "우주 DC 가시화는 long-term하므로 MOL FDC에 미치는 영향 minor"
+    }
+  ],
+  "industry": {
+    "name": "글로벌 해운 / 자동차운반선(PCTC) + FDC consortium",
+    "overview": "PCTC(Pure Car Truck Carrier) 시장 글로벌 top-3 (~17% share). MOL의 자동차운반선 fleet ~150척. FDC 4사 컨소시엄 (MOL+Hitachi+NYK+NTT) lead로 2027 가동 목표. WIND CHALLENGER 풍력추진선 deployment 4척.",
+    "competitors": [
+      {
+        "name": "NYK Line",
+        "ticker": "9101.T",
+        "share_pct": 18.0,
+        "moat": "일본 1위 해운, 자동차·LNG 강점"
+      },
+      {
+        "name": "Kawasaki Kisen (K-Line)",
+        "ticker": "9107.T",
+        "share_pct": 8.0,
+        "moat": "일본 3대 해운"
+      },
+      {
+        "name": "Wallenius Wilhelmsen",
+        "ticker": "WAWI.OL",
+        "share_pct": 15.0,
+        "moat": "글로벌 PCTC 1위"
+      },
+      {
+        "name": "Hoegh Autoliners",
+        "ticker": "HAUTO.OL",
+        "share_pct": 12.0,
+        "moat": "PCTC 4위"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 6.0,
+      "horizon": "2024-2030 PCTC + FDC"
+    },
+    "news": [
+      {
+        "date": "2026-04-12",
+        "title": "MOL FDC 4사 컨소시엄 9,731톤 PCTC 개조 시작 발표",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-08",
+        "title": "MOL WIND CHALLENGER 4번 선박 인도",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue": 1270,
+        "op_income": 110,
+        "op_margin": 8.7,
+        "net_income": 720,
+        "net_margin": 56.7
+      },
+      {
+        "year": "FY22",
+        "revenue": 1610,
+        "op_income": 250,
+        "op_margin": 15.5,
+        "net_income": 800,
+        "net_margin": 49.7
+      },
+      {
+        "year": "FY23",
+        "revenue": 1680,
+        "op_income": 380,
+        "op_margin": 22.6,
+        "net_income": 425,
+        "net_margin": 25.3
+      },
+      {
+        "year": "FY24",
+        "revenue": 1620,
+        "op_income": 290,
+        "op_margin": 17.9,
+        "net_income": 256,
+        "net_margin": 15.8
+      },
+      {
+        "year": "FY25E",
+        "revenue": 1680,
+        "op_income": 300,
+        "op_margin": 17.9,
+        "net_income": 280,
+        "net_margin": 16.7
+      }
+    ],
+    "bs_snapshot": {
+      "assets_bn": 3500,
+      "liabilities_bn": 1800,
+      "equity_bn": 1700,
+      "cash_bn": 480,
+      "debt_bn": 1100
+    },
+    "cf_summary": {
+      "ocf_bn": 320,
+      "fcf_bn": 220,
+      "capex_bn": 100
+    },
+    "peer_compare": [
+      {
+        "ticker": "9104.T",
+        "name": "MOL",
+        "forward_pe": 10.4,
+        "pb": 1.08,
+        "ev_ebitda": 7.5,
+        "roe_pct": 11.0,
+        "div_yield_pct": 5.4
+      },
+      {
+        "ticker": "9101.T",
+        "name": "NYK",
+        "forward_pe": 11.2,
+        "pb": 0.95,
+        "ev_ebitda": 6.8,
+        "roe_pct": 10.5,
+        "div_yield_pct": 5.8
+      },
+      {
+        "ticker": "9107.T",
+        "name": "K-Line",
+        "forward_pe": 12.5,
+        "pb": 1.15,
+        "ev_ebitda": 8.2,
+        "roe_pct": 9.5,
+        "div_yield_pct": 4.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 8500,
+      "thesis": "FDC 2027 가동 + AI 데이터센터 internal demand + PCTC EV 수출 호황. P/B 1.5x re-rating.",
+      "key_assumptions": [
+        "FDC 첫 가동 2027 Q1",
+        "Yen 안정",
+        "AI 캐파 가속"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 7000,
+      "thesis": "FDC 진행 + Yen 정상화 + Dividend 5%+. Forward PE 11-12x 유지.",
+      "key_assumptions": [
+        "FDC 진척 on schedule",
+        "Yen 150 안정"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 4200,
+      "thesis": "Yen 강세 + 컨테이너 운임 normalization + FDC cooling. Forward PE 8x compression.",
+      "key_assumptions": [
+        "Yen 130 강세",
+        "FDC 지연"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-H2",
+      "event": "MOL FDC 첫 vessel 개조 시작",
+      "type": "operations",
+      "expected_impact": "+",
+      "description": "9,731톤 자동차운반선 → FDC 변환"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "FDC 첫 가동 — Tokyo Bay 정박",
+      "type": "operations",
+      "expected_impact": "+",
+      "description": "글로벌 첫 commercial FDC"
+    },
+    {
+      "date": "2026-12",
+      "event": "MOL 사업계획 발표 — FDC 발주 pipeline",
+      "type": "guidance",
+      "expected_impact": "+",
+      "description": "FDC 후속 발주 가능성"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "BOJ 금리 인상 가능성",
+      "type": "macro",
+      "expected_impact": "-",
+      "description": "Yen 강세 시 해운 영업이익 압박"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Yen 강세 시 매출 원화환산 압박",
+      "probability": "high",
+      "impact": "high",
+      "description": "BOJ 정책 변화 시 수익성 즉시 영향",
+      "mitigation": "다통화 hedge + cost discipline"
+    },
+    {
+      "name": "4사 컨소시엄 unanimous decision speed loss",
+      "probability": "med",
+      "impact": "med",
+      "description": "일본 corporate governance 보수적",
+      "mitigation": "MOL 단독 의사결정 영역 확대"
+    },
+    {
+      "name": "PCTC 운임 약세",
+      "probability": "med",
+      "impact": "med",
+      "description": "글로벌 무역 둔화 시",
+      "mitigation": "장기 계약 비중 확대"
+    },
+    {
+      "name": "NYK·MISC 등 경쟁 컨소시엄 진입",
+      "probability": "med",
+      "impact": "med",
+      "description": "FDC first-mover advantage 약화",
+      "mitigation": "Speed-to-market 가속"
+    },
+    {
+      "name": "FDC MARPOL·SOLAS 적합화 risk",
+      "probability": "low",
+      "impact": "med",
+      "description": "해상 안전성 인증 지연 가능",
+      "mitigation": "선급 인증 사전 확보"
+    }
+  ],
+  "korean_disclosures": []
+}
