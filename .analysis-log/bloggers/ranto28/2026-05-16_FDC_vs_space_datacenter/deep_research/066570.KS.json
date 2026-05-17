@@ -1,0 +1,274 @@
+{
+  "name": "LG전자",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T7",
+      "claim": "LG전자 공조 부문 두 자릿수 성장 sustained — 2026-Q1 매출 3.05조 (+18%), 영업이익 4,067억 (+21%)",
+      "ticker_exposure": "++",
+      "reasoning": "공조 segment가 전사 영업이익의 35% — B2B pivot 가시화"
+    },
+    {
+      "thesis_id": "T6",
+      "claim": "AI 데이터센터 cooling 수요로 칠러 (air-side) demand 강함",
+      "ticker_exposure": "+",
+      "reasoning": "Centum Chiller 라인업 데이터센터 spec 인증 누적"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "FDC 채택 시 칠러·HVAC 외주 spec 가능",
+      "ticker_exposure": "0",
+      "reasoning": "FDC sub-vendor 가능성 — indirect 수혜 limited"
+    }
+  ],
+  "industry": {
+    "name": "한국 가전 / 글로벌 HVAC·Chiller (Data Center Cooling)",
+    "overview": "글로벌 HVAC top-4 (Johnson Controls·Trane·Daikin·Carrier) 추격 5위. 한국 칠러 시장 #1. Centum Chiller·Multi V 글로벌 reference. 가전·TV는 cyclical, 공조는 secular growth.",
+    "competitors": [
+      {
+        "name": "Daikin",
+        "ticker": "6367.T",
+        "share_pct": 22.0,
+        "moat": "글로벌 HVAC 1위, R&D"
+      },
+      {
+        "name": "Carrier",
+        "ticker": "CARR",
+        "share_pct": 18.0,
+        "moat": "미국 1위, AC 강점"
+      },
+      {
+        "name": "Trane Technologies",
+        "ticker": "TT",
+        "share_pct": 15.0,
+        "moat": "Pure-play HVAC"
+      },
+      {
+        "name": "Johnson Controls",
+        "ticker": "JCI",
+        "share_pct": 12.0,
+        "moat": "산업 HVAC + building automation"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 120.0,
+      "cagr_pct": 8.0,
+      "horizon": "2024-2030 글로벌 HVAC"
+    },
+    "news": [
+      {
+        "date": "2026-04-25",
+        "title": "LG전자 2026-Q1 공조 매출 +18%, 영업이익 +21%",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-12",
+        "title": "LG전자 Inverter 압축기 美 텍사스 공장 가동",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue": 74720,
+        "op_income": 4060,
+        "op_margin": 5.4,
+        "net_income": 1410,
+        "net_margin": 1.9
+      },
+      {
+        "year": "FY22",
+        "revenue": 83470,
+        "op_income": 3550,
+        "op_margin": 4.3,
+        "net_income": 1170,
+        "net_margin": 1.4
+      },
+      {
+        "year": "FY23",
+        "revenue": 84230,
+        "op_income": 3550,
+        "op_margin": 4.2,
+        "net_income": 1290,
+        "net_margin": 1.5
+      },
+      {
+        "year": "FY24",
+        "revenue": 85000,
+        "op_income": 4000,
+        "op_margin": 4.7,
+        "net_income": 1410,
+        "net_margin": 1.7
+      },
+      {
+        "year": "FY25E",
+        "revenue": 87500,
+        "op_income": 4100,
+        "op_margin": 4.7,
+        "net_income": 1530,
+        "net_margin": 1.7
+      }
+    ],
+    "bs_snapshot": {
+      "assets_bn": 56000,
+      "liabilities_bn": 33000,
+      "equity_bn": 23000,
+      "cash_bn": 9500,
+      "debt_bn": 12000
+    },
+    "cf_summary": {
+      "ocf_bn": 6800,
+      "fcf_bn": 4500,
+      "capex_bn": 2300
+    },
+    "peer_compare": [
+      {
+        "ticker": "066570.KS",
+        "name": "LG전자",
+        "forward_pe": 15.7,
+        "pb": 1.5,
+        "ev_ebitda": 8.5,
+        "roe_pct": 8.0,
+        "div_yield_pct": 0.9
+      },
+      {
+        "ticker": "6367.T",
+        "name": "Daikin",
+        "forward_pe": 22.0,
+        "pb": 2.8,
+        "ev_ebitda": 13.5,
+        "roe_pct": 13.0,
+        "div_yield_pct": 1.4
+      },
+      {
+        "ticker": "CARR",
+        "name": "Carrier",
+        "forward_pe": 21.5,
+        "pb": 6.5,
+        "ev_ebitda": 16.0,
+        "roe_pct": 32.0,
+        "div_yield_pct": 1.3
+      },
+      {
+        "ticker": "TT",
+        "name": "Trane Tech",
+        "forward_pe": 28.0,
+        "pb": 12.0,
+        "ev_ebitda": 20.0,
+        "roe_pct": 44.0,
+        "div_yield_pct": 0.9
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 320000,
+      "thesis": "공조 영업이익 +20%+ sustained + 글로벌 HVAC top-4 진입 + B2B re-rating. Forward PE 20x.",
+      "key_assumptions": [
+        "공조 +20% sustained",
+        "B2B 비중 25%+"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 270000,
+      "thesis": "공조 두 자릿수 성장 유지 + 가전 안정. Forward PE 17x.",
+      "key_assumptions": [
+        "공조 +15-18%",
+        "가전 +5%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 170000,
+      "thesis": "가전 down cycle + 공조 normalization + 1Y +240% mean-reversion. Forward PE 12x.",
+      "key_assumptions": [
+        "가전 -10%",
+        "공조 +5%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "LG전자 Q2 실적 — 공조 +18% 이상 유지",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "최대 catalyst"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "한국 데이터센터 capex 발주 라운드",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "LG칠러 수주 모멘텀"
+    },
+    {
+      "date": "2026-H2",
+      "event": "LG전자 grid 인프라 신규 발표",
+      "type": "guidance",
+      "expected_impact": "+",
+      "description": "LNG·SMR·태양광 인접 사업"
+    },
+    {
+      "date": "ongoing",
+      "event": "Multi V Inverter 압축기 글로벌 OEM 채택",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "B2B leverage 확장"
+    }
+  ],
+  "risks": [
+    {
+      "name": "가전·TV 다운사이클 시 그룹 margin 압박",
+      "probability": "high",
+      "impact": "high",
+      "description": "글로벌 가전 demand 둔화 가능",
+      "mitigation": "B2B 비중 확대"
+    },
+    {
+      "name": "1Y +240% 모멘텀 후 mean-reversion",
+      "probability": "med",
+      "impact": "med",
+      "description": "단기 valuation 압박",
+      "mitigation": "실적 sustained로 multiple defend"
+    },
+    {
+      "name": "원/달러 강세 가전 수출 마진 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "1,400원 이하 시 영향",
+      "mitigation": "달러 hedge"
+    },
+    {
+      "name": "Daikin·Carrier 대비 brand 약함",
+      "probability": "med",
+      "impact": "med",
+      "description": "글로벌 customer relationship gap",
+      "mitigation": "Reference 누적 + 가격 경쟁력"
+    },
+    {
+      "name": "LG그룹 SOTP discount",
+      "probability": "low",
+      "impact": "med",
+      "description": "Conglomerate 구조 잔존",
+      "mitigation": "공조 spin-off 가능성"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-25",
+      "type": "분기보고서",
+      "title": "2026-Q1 공조 매출 3.05조원 (+18% YoY), 영업이익 4,067억원 (+21% YoY)",
+      "impact": "+"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "사업보고서",
+      "title": "2025 전사 매출 87.5조원, 영업이익 4.1조원",
+      "impact": "○"
+    }
+  ]
+}
