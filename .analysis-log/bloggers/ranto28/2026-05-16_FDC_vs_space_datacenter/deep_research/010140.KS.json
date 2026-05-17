@@ -1,0 +1,272 @@
+{
+  "name": "삼성중공업",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T3",
+      "claim": "부유식 해상데이터센터(FDC)가 우주 DC보다 빠른 상용화 — 메르의 핵심 thesis",
+      "ticker_exposure": "++",
+      "reasoning": "삼성중공업이 50MW FDC 개념설계 ABS·LR 양대 인증 획득 — FDC 첫 표준 빌더"
+    },
+    {
+      "thesis_id": "T4",
+      "claim": "삼성중공업이 FDC 표준 빌더로 자리잡고 ABS·LR 인증 선점이 글로벌 발주 파이프라인 우위로 이어진다",
+      "ticker_exposure": "++",
+      "reasoning": "Mousterian(미국) MOU + LNG/FLNG/FSRU/Powership 운영 노하우 패키지"
+    },
+    {
+      "thesis_id": "T1",
+      "claim": "SpaceX V3 Starship 5/19 발사로 우주 DC kg당 $500 가능성",
+      "ticker_exposure": "+",
+      "reasoning": "우주 DC narrative 강화 시 FDC가 '빠른 대안'으로 재조명 — indirect tailwind"
+    }
+  ],
+  "industry": {
+    "name": "한국 조선업 / FDC (Floating Data Center) 신규 카테고리",
+    "overview": "K-조선 LNG·FLNG·FSRU 시장 2위 (HD현대 다음). 2026년 FDC라는 새 카테고리 첫 진입 — 50MW 개념설계 ABS·LR 양대 선급 인증. 글로벌 데이터센터 부지·전력·냉각 3대 병목의 'floating' 해법.",
+    "competitors": [
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 35.0,
+        "moat": "K-조선 1위, LNG선 최다 수주"
+      },
+      {
+        "name": "한화오션",
+        "ticker": "042660.KS",
+        "share_pct": 18.0,
+        "moat": "Q-Max LNG선 + 잠수함, FDC 인증 미보유"
+      },
+      {
+        "name": "Sembcorp Marine",
+        "ticker": "S51.SI",
+        "share_pct": 8.0,
+        "moat": "싱가포르 offshore, FPSO 강점"
+      },
+      {
+        "name": "Fincantieri",
+        "ticker": "FCT.MI",
+        "share_pct": 5.0,
+        "moat": "이탈리아 cruise + 군함"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 35.0,
+      "cagr_pct": 28.0,
+      "horizon": "2024-2030 FDC + LNG/FLNG segment"
+    },
+    "news": [
+      {
+        "date": "2026-04-22",
+        "title": "삼성중공업 FDC 50MW 개념설계 ABS·LR 양대 인증 획득",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "Mousterian(미국)과 FDC MOU 체결",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue": 6500,
+        "op_income": -1100,
+        "op_margin": -16.9,
+        "net_income": -1250,
+        "net_margin": -19.2
+      },
+      {
+        "year": "FY22",
+        "revenue": 7100,
+        "op_income": -390,
+        "op_margin": -5.5,
+        "net_income": -340,
+        "net_margin": -4.8
+      },
+      {
+        "year": "FY23",
+        "revenue": 8090,
+        "op_income": 220,
+        "op_margin": 2.7,
+        "net_income": 110,
+        "net_margin": 1.4
+      },
+      {
+        "year": "FY24",
+        "revenue": 8345,
+        "op_income": 530,
+        "op_margin": 6.4,
+        "net_income": 460,
+        "net_margin": 5.5
+      },
+      {
+        "year": "FY25E",
+        "revenue": 9500,
+        "op_income": 684,
+        "op_margin": 7.2,
+        "net_income": 620,
+        "net_margin": 6.5
+      }
+    ],
+    "bs_snapshot": {
+      "assets_bn": 15800,
+      "liabilities_bn": 11200,
+      "equity_bn": 4600,
+      "cash_bn": 1800,
+      "debt_bn": 4200
+    },
+    "cf_summary": {
+      "ocf_bn": 1100,
+      "fcf_bn": 380,
+      "capex_bn": 720
+    },
+    "peer_compare": [
+      {
+        "ticker": "010140.KS",
+        "name": "삼성중공업",
+        "forward_pe": 16.7,
+        "pb": 1.4,
+        "ev_ebitda": 12.5,
+        "roe_pct": 13.5,
+        "div_yield_pct": 1.5
+      },
+      {
+        "ticker": "329180.KS",
+        "name": "HD현대중공업",
+        "forward_pe": 18.2,
+        "pb": 1.8,
+        "ev_ebitda": 13.8,
+        "roe_pct": 12.0,
+        "div_yield_pct": 1.2
+      },
+      {
+        "ticker": "042660.KS",
+        "name": "한화오션",
+        "forward_pe": 22.5,
+        "pb": 2.1,
+        "ev_ebitda": 15.5,
+        "roe_pct": 9.5,
+        "div_yield_pct": 0.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 42000,
+      "thesis": "FDC 글로벌 ABS·LR 인증 + Mousterian deal 진척 + 일본 MOL 컨소시엄 follow-on. LNG선 P&L peak 동시 발생.",
+      "key_assumptions": [
+        "FDC 첫 계약 2026-Q3",
+        "LNG선 신조 가격 $300M+",
+        "원/달러 1,400+ 유지"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 35000,
+      "thesis": "FDC 2027 가동 첫 vessel 인도. LNG선 cycle 정점 유지. Forward PE 18-20x re-rating.",
+      "key_assumptions": [
+        "FDC 본계약 2026-Q4~2027",
+        "LNG선 수주 $10B+"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 22000,
+      "thesis": "FDC narrative cooling + LNG선 발주 둔화 + 원/달러 약세. Forward PE 12-14x compression.",
+      "key_assumptions": [
+        "Mousterian MOU 무산",
+        "LNG선 신조가 $250M 하락"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Mousterian FDC 본계약 가능",
+      "type": "contract",
+      "expected_impact": "+",
+      "description": "현재 MOU 단계 — 본계약 시 첫 FDC 수주 가시화"
+    },
+    {
+      "date": "2027-H2",
+      "event": "MOL FDC 첫 vessel 인도",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "글로벌 FDC 표준 정립 시점 — 삼성중공업 인증 가치 증대"
+    },
+    {
+      "date": "2026-Q2-Q3",
+      "event": "LNG선 신조 가격 $290M+ 유지",
+      "type": "pricing",
+      "expected_impact": "+",
+      "description": "수주 momentum 핵심 지표"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "2026 LNG 수주 가이던스 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "$10B+ 가이던스 시 강한 catalyst"
+    }
+  ],
+  "risks": [
+    {
+      "name": "조선 EBITDA cycle peak 도래",
+      "probability": "high",
+      "impact": "high",
+      "description": "2027-28 cycle 정점 후 둔화 가능성",
+      "mitigation": "FDC·offshore 신규 카테고리로 다변화"
+    },
+    {
+      "name": "Mousterian credit risk",
+      "probability": "med",
+      "impact": "med",
+      "description": "비공개 startup — 자금 조달 risk",
+      "mitigation": "MOU 후 본계약 시 선수금 receipt 확인"
+    },
+    {
+      "name": "원/달러 강세 마진 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "달러 환율 하락 시 매출 원화환산 감소",
+      "mitigation": "달러 매출 hedge"
+    },
+    {
+      "name": "Sembcorp·Keppel 동등 인증 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "1-2년 내 ABS·LR 인증 획득 가능",
+      "mitigation": "Mousterian deal 본계약 fast-tracking"
+    },
+    {
+      "name": "K-조선 cycle peak 후 multiple compression",
+      "probability": "med",
+      "impact": "high",
+      "description": "Forward PE 16.7x 압박",
+      "mitigation": "FDC narrative re-rating"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-15",
+      "type": "사업보고서",
+      "title": "2025 매출 9.5조원, 영업이익 6,840억원",
+      "impact": "+"
+    },
+    {
+      "date": "2026-04-22",
+      "type": "수시공시",
+      "title": "50MW FDC 개념설계 ABS·LR 양대 선급 인증",
+      "impact": "+"
+    },
+    {
+      "date": "2026-04-28",
+      "type": "수시공시",
+      "title": "Mousterian(미국)과 FDC MOU 체결",
+      "impact": "+"
+    }
+  ]
+}
