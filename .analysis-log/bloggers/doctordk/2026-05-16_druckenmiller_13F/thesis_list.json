@@ -1,0 +1,169 @@
+{
+  "post_meta": {
+    "url": "https://blog.naver.com/doctordk/224287187737",
+    "title": "스탠리 드러켄밀러의 2026년 1분기 13F 뜯어보기 (feat. 의교창의 생각)",
+    "author": "의교창 (doctordk)",
+    "published_at": "2026-05-16"
+  },
+  "summary_one_liner": "드러켄밀러의 2026년 1분기 13F가 '알파벳 전량 매도 + AI 인프라·병목 자산 매수 + 아르헨티나 정상화 베팅'을 동시에 보여줌. AI 자금 흐름이 플랫폼(빅테크)에서 인프라(네트워크·메모리·첨단 공정)로 이동하는 구조 변화 초입을 시사. 학습→추론 패러다임 전환에 따라 메모리·스토리지·CPU 효율이 새로운 병목으로 부상. 보조축으로 밀레이 정부 개혁기에 진입한 아르헨티나(YPF·바카 무에르타·ARGT)에 대한 contrarian 정상화 베팅.",
+  "extraction_method": "manual_llm_analysis",
+  "extracted_at": "2026-05-17T11:31:34.138176+09:00",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "드러켄밀러가 알파벳을 전량 매도 — AI 플랫폼 빅테크의 risk/reward가 정점에 도달했다는 시그널",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "이번 13F에서 가장 눈에 띄는 건 알파벳 전량 매도입니다. 시장은 아직도 AI 시대의 승자를 플랫폼 기업 중심으로 바라보지만, 드러켄밀러는 이번 분기에서 오히려 그 아래 레이어로 내려갔습니다.",
+      "tags": [
+        "GOOGL",
+        "알파벳",
+        "13F",
+        "플랫폼매도"
+      ]
+    },
+    {
+      "claim_id": "T02",
+      "claim": "AI 시대 자금 흐름이 '플랫폼'에서 '인프라·병목 자산'으로 구조적 이동 — 초기 인터넷 시대 광케이블·데이터센터·서버·반도체 멀티플 재평가 패턴 재현",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "초기 인터넷 시대에도 가장 먼저 돈을 번 기업은 인터넷 서비스 기업들이었지만, 시간이 지날수록 더 강한 멀티플을 받은 건 결국 '필수 인프라'였습니다. AI 역시 비슷한 흐름으로 가고 있습니다. 결국 AI는 물리 산업입니다.",
+      "tags": [
+        "인프라병목",
+        "멀티플리레이팅",
+        "역사적패턴",
+        "물리산업"
+      ]
+    },
+    {
+      "claim_id": "T03",
+      "claim": "브로드컴 신규 매수 — AI 데이터센터 확장에서 GPU 수량보다 '네트워크·커스텀 ASIC·데이터 흐름 통제'가 핵심 가치로 부상",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "브로드컴은 AI 네트워크와 커스텀 ASIC 시장의 핵심 플레이어로 빠르게 올라서고 있습니다. AI 데이터센터가 커질수록 중요한 건 단순 GPU 숫자가 아니라 GPU끼리 얼마나 빠르게 연결되는가, 데이터 병목 없이 효율적으로 움직이는가입니다.",
+      "tags": [
+        "AVGO",
+        "브로드컴",
+        "ASIC",
+        "AI네트워크"
+      ]
+    },
+    {
+      "claim_id": "T04",
+      "claim": "Arm 홀딩스 신규 편입 — AI 추론 시장이 본격화될수록 데이터센터 경쟁이 '최고 성능'에서 '최고 효율(저전력)' 경쟁으로 전환",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "AI 시대가 본격화될수록 전력 효율은 점점 더 중요해집니다. 지금 데이터센터 산업의 가장 큰 문제 중 하나는 전력 부족입니다. 미래 데이터센터는 '최고 성능'보다 '최고 효율' 경쟁으로 이동할 가능성이 높습니다.",
+      "tags": [
+        "ARM",
+        "저전력CPU",
+        "전력병목",
+        "추론시장"
+      ]
+    },
+    {
+      "claim_id": "T05",
+      "claim": "AI 시장 패러다임이 '학습(training) 중심'에서 '실사용(inference) 중심'으로 전환 — 데이터 폭증으로 메모리·스토리지가 새로운 병목 자산화",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "지금까지 AI 시장이 '학습' 중심이었다면 앞으로는 '실사용' 중심으로 넘어갑니다. 실사용 시대에서는 저장장치와 메모리의 중요성이 훨씬 커집니다. AI 모델이 커질수록 필요한 건 단순 계산 능력이 아니라 엄청난 양의 데이터를 읽고, 저장하고, 이동시키는 것입니다.",
+      "tags": [
+        "추론시대",
+        "메모리병목",
+        "데이터폭증",
+        "패러다임전환"
+      ]
+    },
+    {
+      "claim_id": "T06",
+      "claim": "샌디스크 신규 + 마이크론·씨게이트 추가 매수 — AI 데이터 폭증에 대한 메모리·스토리지 단순 사이클이 아닌 '구조적 수요' 베팅",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "샌디스크 신규 매수 역시 굉장히 상징적입니다. 그 흐름 속에서 드러켄밀러는 마이크론, 씨게이트까지 신규 또는 추가 매수했습니다. 이건 단순 메모리 사이클 베팅이 아닙니다. AI 시대 데이터 폭증에 대한 투자입니다.",
+      "tags": [
+        "SNDK",
+        "MU",
+        "STX",
+        "메모리",
+        "스토리지"
+      ]
+    },
+    {
+      "claim_id": "T07",
+      "claim": "TSMC 보유 확대 — AI 시대는 '설계 경쟁'처럼 보이지만 실제로는 '3nm 이하 첨단 공정 생산 능력 경쟁'이며 TSMC가 사실상 독점적 병목",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "AI 시대의 가장 강력한 병목 중 하나는 결국 첨단 공정입니다. 누가 AI 칩을 설계하든 최첨단 공정에서 실제 생산 가능한 기업은 제한적입니다. 특히 3nm 이하 초미세 공정은 사실상 진입장벽 자체가 국가급 규모입니다. TSMC는 단순 파운드리 기업이 아니라 AI 산업 전체의 수도관 같은 존재입니다.",
+      "tags": [
+        "TSM",
+        "TSMC",
+        "파운드리",
+        "3nm",
+        "첨단공정"
+      ]
+    },
+    {
+      "claim_id": "T08",
+      "claim": "YPF 비중 유지 + 아르헨티나 ETF 신규 매수 — 밀레이 정부 긴축·시장 개혁이 '붕괴 이후 정상화' 사이클 진입 시 에너지·금융·인프라 전반 리레이팅 촉발",
+      "type": "conditional",
+      "importance": "secondary",
+      "timeframe": "long_term",
+      "supporting_evidence": "하비에르 밀레이 정부 출범 이후 아르헨티나는 극단적인 긴축과 시장 개혁 실험에 들어갔습니다. 단기적으로는 고통스럽지만 글로벌 자금은 오히려 여기서 가능성을 보기 시작합니다. 만약 아르헨티나가 정상화 사이클에 진입한다면 에너지·금융·인프라 전반에서 엄청난 리레이팅이 발생할 가능성이 생깁니다.",
+      "tags": [
+        "YPF",
+        "ARGT",
+        "아르헨티나",
+        "밀레이",
+        "정상화"
+      ]
+    },
+    {
+      "claim_id": "T09",
+      "claim": "YPF가 보유한 바카 무에르타 셰일 자원은 세계 최대급 비전통 에너지 자산 — 아르헨티나 정상화 시 비대칭 upside 보유",
+      "type": "factual",
+      "importance": "secondary",
+      "timeframe": "long_term",
+      "supporting_evidence": "YPF가 보유한 바카 무에르타 셰일 자원은 세계 최대급 비전통 에너지 자산 중 하나로 평가받습니다. 특히 에너지 자산이 핵심입니다.",
+      "tags": [
+        "YPF",
+        "바카무에르타",
+        "셰일",
+        "비전통에너지"
+      ]
+    },
+    {
+      "claim_id": "T10",
+      "claim": "드러켄밀러는 '구조 변화 초입에서 큰 방향성에 베팅' 패턴 (1990 인터넷, 2000 중국, 2020 AI·유동성) — 이번 13F도 그 연장선상",
+      "type": "normative",
+      "importance": "context",
+      "timeframe": "long_term",
+      "supporting_evidence": "1990년대 인터넷 혁명, 2000년대 중국 성장, 2020년 이후 AI와 유동성 사이클까지. 그는 늘 시대 변화 초입에서 가장 큰 방향성에 베팅해왔습니다. 결국 AI는 물리 산업이고 드러켄밀러의 포트폴리오는 바로 그 방향을 보여줍니다.",
+      "tags": [
+        "드러켄밀러",
+        "트랙레코드",
+        "구조변화",
+        "메타관점"
+      ]
+    },
+    {
+      "claim_id": "T11",
+      "claim": "단기적으로 다음 월요일 시장 변동성 경고 — 13F 시그널과 단기 가격 시그널은 분리되어 해석 필요",
+      "type": "predictive",
+      "importance": "context",
+      "timeframe": "short_term",
+      "supporting_evidence": "ps 하지만 당장 돌아오는 월요일은 이빨 꽉 물어야.. (작성자가 단기 시장 변동성을 명시적으로 경고)",
+      "tags": [
+        "단기변동성",
+        "월요일",
+        "타이밍분리"
+      ]
+    }
+  ]
+}
