@@ -1,0 +1,166 @@
+{
+  "ticker": "AVGO",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "strong_bullish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.676,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "strong_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (2/3)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "strong_bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "strong_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "AI 인프라 사이클 정점",
+      "frequency": 6,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "phil-fisher"
+      ]
+    },
+    {
+      "theme": "시총 $2T 대형주 한계",
+      "frequency": 4,
+      "personas": [
+        "warren-buffett",
+        "peter-lynch",
+        "rakesh-jhunjhunwala",
+        "ben-graham"
+      ]
+    }
+  ],
+  "unique_alpha": [
+    {
+      "persona_id": "cathie-wood",
+      "verdict": "strong_bullish",
+      "alpha": "AI disruption '5Y 5x' 시나리오"
+    }
+  ],
+  "aggregated_at": "2026-05-17T11:45:09.304001+09:00"
+}
