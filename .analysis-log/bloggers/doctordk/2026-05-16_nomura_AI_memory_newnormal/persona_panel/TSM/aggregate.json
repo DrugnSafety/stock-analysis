@@ -1,0 +1,203 @@
+{
+  "ticker": "TSM",
+  "ticker_name": "TSMC",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 10,
+      "pct": 76.9
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.762,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.88
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "mixed/neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.82
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.92
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "consensus_narrative": "TSMC: 10/13 lean_bullish, avg_conf 0.762. 글로벌 foundry 절대 독점 (Apple·Nvidia·AMD·Broadcom 등 leading-edge customer)",
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "style": "value"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.88,
+      "style": "value"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "style": "value"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "style": "value"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "style": "value-contrarian"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "style": "growth"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.82,
+      "style": "growth"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.92,
+      "style": "growth"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "style": "macro"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "style": "activist"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "style": "risk"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "style": "growth-em"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "style": "valuation"
+    }
+  }
+}
