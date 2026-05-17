@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-05-17T11:41:52+09:00",
+  "portfolio_value_initial_usd": 100000000,
+  "total_allocated_usd": 42310400.0,
+  "cash_remaining_usd": 57689600.0,
+  "positions": [
+    {
+      "ticker": "010140.KS",
+      "action": "buy",
+      "quantity": 375,
+      "allocation_usd": 11000000.0,
+      "signal_score": 0.8287,
+      "weighted_confidence": 0.081,
+      "annualized_volatility_pct": 74.4,
+      "size_factor": 1.0
+    },
+    {
+      "ticker": "066570.KS",
+      "action": "buy",
+      "quantity": 45,
+      "allocation_usd": 11000000.0,
+      "signal_score": 0.848,
+      "weighted_confidence": 0.081,
+      "annualized_volatility_pct": 84.9,
+      "size_factor": 1.0
+    },
+    {
+      "ticker": "9104.T",
+      "action": "buy",
+      "quantity": 2509,
+      "allocation_usd": 14810400.0,
+      "signal_score": 0.7747,
+      "weighted_confidence": 0.08,
+      "annualized_volatility_pct": 45.4,
+      "size_factor": 1.0
+    },
+    {
+      "ticker": "TSLA",
+      "action": "hold",
+      "quantity": 0,
+      "allocation_usd": 0.0,
+      "signal_score": -0.2242,
+      "weighted_confidence": 0.08,
+      "annualized_volatility_pct": 40.9,
+      "size_factor": 0.0
+    },
+    {
+      "ticker": "VRT",
+      "action": "buy",
+      "quantity": 14827,
+      "allocation_usd": 5500000.0,
+      "signal_score": 0.4592,
+      "weighted_confidence": 0.08,
+      "annualized_volatility_pct": 57.3,
+      "size_factor": 0.5
+    }
+  ],
+  "summary": {
+    "n_buy": 4,
+    "n_hold": 1,
+    "n_sell": 0
+  }
+}
