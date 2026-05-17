@@ -1,0 +1,136 @@
+{
+  "source_url": "https://blog.naver.com/ranto28/224287501270",
+  "extraction_date": "2026-05-16",
+  "extractor": "claude-opus-4-7",
+  "thesis_count": 9,
+  "theses": [
+    {
+      "id": "T1",
+      "claim": "SpaceX의 V3 Starship(2026-05-19 12차 시험비행)이 200톤급 발사 능력을 검증하면 우주 데이터센터가 지상 데이터센터와 비용 경쟁이 가능한 kg당 $500 임계치에 도달한다",
+      "type": "predictive",
+      "timeframe": "short_term (1-3M)",
+      "supporting_evidence": [
+        "Voyager Technologies SEC 공시: 2029 우주정거장 스타십 발사 $90M 계약 = kg당 $600",
+        "V1 35톤 → V2 100톤 → V3 200톤 capability ladder",
+        "Musk 공식 목표: kg당 $10 (150톤 → $1.5M)"
+      ],
+      "verifiability": "high — 2026-05-19 발사 결과로 직접 검증",
+      "directional_bet": "+ Space DC 인프라 종목 (SpaceX private, Tesla/xAI 간접)",
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "claim": "중국이 '우주 삼협댐' + '삼체 컴퓨팅 별자리' 통합 프로젝트로 2030년까지 위성 1,000기를 발사하여 우주 AI 데이터센터를 선점한다",
+      "type": "predictive",
+      "timeframe": "medium_term (3-12M signal, 5Y completion)",
+      "supporting_evidence": [
+        "2025-05-14: 12기 위성 발사 완료",
+        "2025년 말: 38기 추가 발사로 누적 50기 도달",
+        "충칭 우주 태양광 발전 지상 테스트 성공 + 마이크로파 무선전력 전송 검증 (2023)",
+        "최종 목표 2,800기 위성군"
+      ],
+      "verifiability": "medium — 매년 위성 발사 수로 트래킹",
+      "directional_bet": "+ 중국 우주·태양광·페로브스카이트, - 미국 데이터센터 독점 가정",
+      "importance": "supporting"
+    },
+    {
+      "id": "T3",
+      "claim": "부유식 해상데이터센터(FDC)가 우주 DC보다 훨씬 빠른 시간 내에 상용화되어 데이터센터 냉각·전력·님비 문제의 즉시 해법으로 자리잡는다",
+      "type": "predictive",
+      "timeframe": "short-medium (12-24M)",
+      "supporting_evidence": [
+        "MOL(일본)·Hitachi·NYK·NTT 컨소시엄: 9,731톤 자동차운반선 개조, 2027 가동 목표",
+        "삼성중공업: 50MW FDC 개념설계 ABS·LR 인증 (2026-04)",
+        "건설 속도: 지상 5-7년 vs FDC 몇 달",
+        "MS Natick 해저 DC 중단 (AI칩 교체 불가) → 해상 부유식이 보완"
+      ],
+      "verifiability": "high — MOU·건조 진행 상황으로 트래킹",
+      "directional_bet": "+ 조선업(삼성중공업·MOL), + LNG 발전선 인접 수요",
+      "importance": "core"
+    },
+    {
+      "id": "T4",
+      "claim": "삼성중공업이 FDC 표준 빌더로 자리잡으며 ABS·LR 인증 선점이 글로벌 발주 파이프라인 우위로 이어진다",
+      "type": "predictive",
+      "timeframe": "medium_term (12-24M)",
+      "supporting_evidence": [
+        "삼성중공업이 2026-04 50MW FDC 개념설계 미국선급(ABS)·영국선급(LR) 양대 인증 획득",
+        "2026-04 삼성중공업-Mousterian(미국) MOU 체결",
+        "FLNG → FSRU → Powership 패키지 솔루션 보유"
+      ],
+      "verifiability": "medium — 신규 MOU·수주 공시로 트래킹",
+      "directional_bet": "+ 010140.KS 삼성중공업",
+      "importance": "core"
+    },
+    {
+      "id": "T5",
+      "claim": "MOL(미쓰이OSK라인즈)이 일본 컨소시엄 주도자로서 FDC 가동 first-mover 우위를 확보한다",
+      "type": "predictive",
+      "timeframe": "medium_term (12-24M)",
+      "supporting_evidence": [
+        "MOL이 9,731톤 자동차운반선 자산 보유 + 개조 주도",
+        "Hitachi(IT/전력)·NTT(통신)·NYK(해상) 4사 컨소시엄 형성",
+        "2027 가동 명시 (3년 이내)"
+      ],
+      "verifiability": "high — 컨소시엄 진척 공시",
+      "directional_bet": "+ 9104.T MOL, + 6501.T Hitachi",
+      "importance": "core"
+    },
+    {
+      "id": "T6",
+      "claim": "Vertiv가 액침냉각(immersion cooling) 기술 선점으로 데이터센터 냉각 시장 5년 140조원 성장의 최대 수혜주가 된다",
+      "type": "predictive",
+      "timeframe": "medium-long (1-3Y)",
+      "supporting_evidence": [
+        "글로벌 데이터센터 냉각 시장 Vertiv·GST 선두 (메르 명시)",
+        "액침냉각 미상용화 → 선점 시 후발주자 진입장벽 큼",
+        "HVAC 전체 시장 5년 내 140조원 예상"
+      ],
+      "verifiability": "medium — Vertiv 분기 실적·immersion cooling 채택률",
+      "directional_bet": "+ VRT Vertiv",
+      "importance": "core"
+    },
+    {
+      "id": "T7",
+      "claim": "LG전자 공조 부문(칠러)이 한국 데이터센터 냉각 수요 + 글로벌 챌린저 지위로 두 자릿수 성장을 지속한다",
+      "type": "factual+predictive",
+      "timeframe": "near_term (quarterly visibility)",
+      "supporting_evidence": [
+        "2026-Q1 LG전자 공조 매출 3.05조원, 영업이익 4,067억원",
+        "전년 동기 대비 매출 +18%, 영업이익 +21%",
+        "글로벌 HVAC 4강 추격 (Johnson Controls·Trane·Daikin·Carrier)"
+      ],
+      "verifiability": "high — 분기 실적 공시",
+      "directional_bet": "+ 066570.KS LG전자",
+      "importance": "supporting"
+    },
+    {
+      "id": "T8",
+      "claim": "삼성전자의 Flakt Group(€1.5B 인수) HVAC 사업이 데이터센터 신규 시장에서 시너지를 내며 비메모리 의존도를 낮춘다",
+      "type": "predictive",
+      "timeframe": "medium-long (1-3Y)",
+      "supporting_evidence": [
+        "Flakt Group: 유럽 최대 HVAC, €1.5B(2.4조원) 인수",
+        "HVAC 5년 내 140조원 시장",
+        "삼성전자 메모리 cycle 의존도 완화 필요"
+      ],
+      "verifiability": "medium — 삼성전자 사업부별 segment 보고",
+      "directional_bet": "+ 005930.KS 삼성전자 (낮은 비중)",
+      "importance": "supporting"
+    },
+    {
+      "id": "T9",
+      "claim": "Anthropic·Anduril 등 비상장 AI 인프라 기업의 평가가치는 우주·해상 DC 발전과 정비례로 상승할 것이지만 메르는 한국 일반 투자자가 직접 접근 불가하다고 명시",
+      "type": "normative",
+      "timeframe": "long_term (3-5Y)",
+      "supporting_evidence": [
+        "메르가 인터뷰에서 직접 언급한 두 비상장 기업",
+        "둘 다 미상장 — 일반 투자자 직접 매수 불가",
+        "AI compute 수요 지속"
+      ],
+      "verifiability": "low — 비상장 평가 데이터 부족",
+      "directional_bet": "관망 (private market exposure)",
+      "importance": "supporting"
+    }
+  ]
+}
