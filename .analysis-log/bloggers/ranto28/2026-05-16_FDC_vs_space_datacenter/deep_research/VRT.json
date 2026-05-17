@@ -1,0 +1,253 @@
+{
+  "name": "Vertiv Holdings",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T6",
+      "claim": "Vertiv 액침냉각 선점 — 데이터센터 냉각 5년 140조원 시장 최대 수혜",
+      "ticker_exposure": "++",
+      "reasoning": "Liebert 50년 brand + CDU 시장점유율 40%+ + AI rack 100kW+ 의무 liquid cooling"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "FDC 새 카테고리에서도 cooling sub-component 공급 가능",
+      "ticker_exposure": "+",
+      "reasoning": "FDC도 데이터센터 — 냉각 chiller·CDU 발주 indirect 수혜"
+    },
+    {
+      "thesis_id": "T1",
+      "claim": "AI capex sustained 가정 시 picks-and-shovels 1위",
+      "ticker_exposure": "++",
+      "reasoning": "Backlog $7B+로 12-18M visibility 확보, hyperscaler 60%+ exposure"
+    }
+  ],
+  "industry": {
+    "name": "AI Data Center Critical Infrastructure (Power · Cooling · UPS · PDU)",
+    "overview": "AI 데이터센터의 전력·냉각·UPS·rack PDU 등 'critical infrastructure'. NVIDIA Blackwell의 mandatory liquid cooling 표준 + 800VDC power architecture 전환 직접 수혜. 2024 Geist 인수로 rack PDU 강화.",
+    "competitors": [
+      {
+        "name": "Schneider Electric",
+        "ticker": "SBGSY",
+        "share_pct": 25.0,
+        "moat": "글로벌 1위, EcoStruxure platform"
+      },
+      {
+        "name": "Eaton",
+        "ticker": "ETN",
+        "share_pct": 20.0,
+        "moat": "전력 distribution 강점"
+      },
+      {
+        "name": "Munters",
+        "ticker": "MTRS.ST",
+        "share_pct": 5.0,
+        "moat": "스웨덴 specialty cooling"
+      },
+      {
+        "name": "CoolIT Systems",
+        "ticker": "private",
+        "share_pct": 3.0,
+        "moat": "DLC pure-play"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 70.0,
+      "cagr_pct": 14.0,
+      "horizon": "2024-2030 DC critical infra"
+    },
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "Vertiv 2026-Q1 매출 +35% YoY, EPS beat",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "NVIDIA GB300 200kW rack 발표 — liquid cooling 의무화",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue": 4980,
+        "op_income": 195,
+        "op_margin": 3.9,
+        "net_income": -250,
+        "net_margin": -5.0
+      },
+      {
+        "year": "FY22",
+        "revenue": 5690,
+        "op_income": 540,
+        "op_margin": 9.5,
+        "net_income": 70,
+        "net_margin": 1.2
+      },
+      {
+        "year": "FY23",
+        "revenue": 6860,
+        "op_income": 1015,
+        "op_margin": 14.8,
+        "net_income": 460,
+        "net_margin": 6.7
+      },
+      {
+        "year": "FY24",
+        "revenue": 8010,
+        "op_income": 1402,
+        "op_margin": 17.5,
+        "net_income": 996,
+        "net_margin": 12.4
+      },
+      {
+        "year": "FY25E",
+        "revenue": 10500,
+        "op_income": 1950,
+        "op_margin": 18.6,
+        "net_income": 1450,
+        "net_margin": 13.8
+      }
+    ],
+    "bs_snapshot": {
+      "assets_bn": 9400,
+      "liabilities_bn": 7600,
+      "equity_bn": 1800,
+      "cash_bn": 1200,
+      "debt_bn": 3500
+    },
+    "cf_summary": {
+      "ocf_bn": 1500,
+      "fcf_bn": 1200,
+      "capex_bn": 280
+    },
+    "peer_compare": [
+      {
+        "ticker": "VRT",
+        "name": "Vertiv",
+        "forward_pe": 42.1,
+        "pb": 14.0,
+        "ev_ebitda": 26.0,
+        "roe_pct": 55.0,
+        "div_yield_pct": 0.03
+      },
+      {
+        "ticker": "ETN",
+        "name": "Eaton",
+        "forward_pe": 28.5,
+        "pb": 7.5,
+        "ev_ebitda": 20.5,
+        "roe_pct": 28.0,
+        "div_yield_pct": 1.2
+      },
+      {
+        "ticker": "SBGSY",
+        "name": "Schneider Electric",
+        "forward_pe": 30.2,
+        "pb": 6.8,
+        "ev_ebitda": 19.8,
+        "roe_pct": 22.0,
+        "div_yield_pct": 1.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 470,
+      "thesis": "AI capex sustained + 액침냉각 채택 가속 + immersion fluid partnership. Forward PE 45x.",
+      "key_assumptions": [
+        "AI capex $600B+ 2026",
+        "Backlog $10B+",
+        "GB300 ramp 가속"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 380,
+      "thesis": "현재 valuation 적정. Backlog 가시성 confirm. Forward PE 40x.",
+      "key_assumptions": [
+        "AI capex $550B 2026",
+        "Backlog 안정"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 230,
+      "thesis": "AI capex peak signal + Spruce Point short thesis 일부 confirmation + multiple compression.",
+      "key_assumptions": [
+        "AI capex 2027 -10%",
+        "Hyperscaler insourcing 가속"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "NVIDIA GTC 2026 — GB300 200kW+ rack",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "immersion cooling 의무화 시 직접 수혜"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Vertiv Q3 2026 실적 + 가이던스",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Backlog 가이던스 update"
+    },
+    {
+      "date": "2026-H2",
+      "event": "Two-phase immersion 본격 출시",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "GB300 호환 cooling solution"
+    },
+    {
+      "date": "ongoing",
+      "event": "hyperscaler 2026 capex 가이던스 $550B+",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "backlog visibility 추가 확장"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 42 + 1Y +252% 부담",
+      "probability": "high",
+      "impact": "high",
+      "description": "Multiple compression 1차 후보 — AI bubble 신호 시 first-correct",
+      "mitigation": "Backlog 가시성으로 P&L 보호"
+    },
+    {
+      "name": "Schneider·Eaton liquid cooling 경쟁 가속",
+      "probability": "high",
+      "impact": "med",
+      "description": "IP race + NVIDIA reference design 변화",
+      "mitigation": "R&D 12-18M cycle 유지"
+    },
+    {
+      "name": "Spruce Point 2024-12 short report",
+      "probability": "med",
+      "impact": "med",
+      "description": "인벤토리·매출인식 의문",
+      "mitigation": "투명성 제고 + audit 강화"
+    },
+    {
+      "name": "Hyperscaler customer 60%+ concentration",
+      "probability": "med",
+      "impact": "high",
+      "description": "single-customer 의존도",
+      "mitigation": "Enterprise customer 다변화"
+    },
+    {
+      "name": "AI capex peak signal 시 first-correct",
+      "probability": "med",
+      "impact": "high",
+      "description": "Beta 2.1 + vol 58% high cyclicality",
+      "mitigation": "Dividend 도입 + buyback"
+    }
+  ],
+  "korean_disclosures": []
+}
