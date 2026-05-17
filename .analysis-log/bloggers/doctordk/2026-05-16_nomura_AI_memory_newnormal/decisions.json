@@ -1,0 +1,138 @@
+{
+  "computed_at": "2026-05-17T11:38:04.259618+09:00",
+  "ledger_path": ".analysis-log/bloggers/doctordk/2026-05-16_nomura_AI_memory_newnormal/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/doctordk/2026-05-16_nomura_AI_memory_newnormal/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "000660.KS",
+      "date": "2026-05-16",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "BUY": 1
+      },
+      "signal_score": 1.0,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.85,
+          "weight": 1.2,
+          "score_contribution": 1.02
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 84,
+      "current_price": 1819000.0,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.9423,
+      "reasoning": "강한 매수 신호 (+1.00), 한도까지 진입"
+    },
+    {
+      "ticker": "005930.KS",
+      "date": "2026-05-16",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "BUY": 1
+      },
+      "signal_score": 1.0,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.78,
+          "weight": 1.2,
+          "score_contribution": 0.936
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 569,
+      "current_price": 270500.0,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.8021,
+      "reasoning": "강한 매수 신호 (+1.00), 한도까지 진입"
+    },
+    {
+      "ticker": "LRCX",
+      "date": "2026-05-16",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.1,
+          "score_contribution": 0.5
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 540882,
+      "current_price": 284.72,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.5927,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    },
+    {
+      "ticker": "MU",
+      "date": "2026-05-16",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.68,
+          "weight": 1.1,
+          "score_contribution": 0.524
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 212513,
+      "current_price": 724.66,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.7869,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    },
+    {
+      "ticker": "TSM",
+      "date": "2026-05-16",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.75,
+          "weight": 1.1,
+          "score_contribution": 0.577
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 209840400.0,
+      "target_quantity": 518957,
+      "current_price": 404.35,
+      "position_limit_value": 209840400.0,
+      "annualized_volatility": 0.4374,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    }
+  ]
+}
