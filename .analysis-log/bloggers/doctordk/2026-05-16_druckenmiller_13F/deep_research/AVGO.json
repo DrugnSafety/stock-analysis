@@ -1,0 +1,296 @@
+{
+  "industry": {
+    "name": "AI 네트워크·커스텀 ASIC (반도체)",
+    "overview": "AI 데이터센터 확장으로 GPU 간 고속 네트워크(NVLink·InfiniBand·Tomahawk Ethernet) 수요가 폭증. AVGO Tomahawk 5/6는 데이터센터 fabric switch 시장 80%+ 점유. 동시에 hyperscaler들이 NVDA GPU 의존 탈피를 위해 자체 ASIC을 개발하는데, AVGO는 Google TPU·Meta MTIA·OpenAI 추론 칩 설계 파트너로서 ASIC 시장 확대의 가장 큰 수혜자.",
+    "competitors": [
+      {
+        "name": "Broadcom",
+        "ticker": "AVGO",
+        "share_pct": 35.0,
+        "moat": "AI 네트워크 switch ASIC 80%+ 점유 + custom ASIC 설계 ecosystem"
+      },
+      {
+        "name": "Marvell",
+        "ticker": "MRVL",
+        "share_pct": 15.0,
+        "moat": "Inphi 인수 후 광통신·메모리 컨트롤러 + AI ASIC 디자인 윈"
+      },
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "share_pct": 30.0,
+        "moat": "GPU + NVLink 수직 통합 + CUDA"
+      },
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "share_pct": 8.0,
+        "moat": "MI300X + Pensando 네트워크"
+      },
+      {
+        "name": "Cisco",
+        "ticker": "CSCO",
+        "share_pct": 5.0,
+        "moat": "기존 enterprise 네트워크"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-10",
+        "title": "Broadcom Tomahawk 6 launch — 204.8 Tbps",
+        "source": "Broadcom IR",
+        "summary": "next-gen 데이터센터 fabric ASIC, FY26 4Q 양산"
+      },
+      {
+        "date": "2026-03-25",
+        "title": "Google TPU v6 partnership confirmed",
+        "source": "Google Cloud Next 2026",
+        "summary": "AVGO와 TPU v6 design win — multi-year contract"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "Druckenmiller 13F: AVGO 신규 매수",
+        "source": "SEC 13F",
+        "summary": "Duquesne Family Office 약 $200M 추정"
+      }
+    ],
+    "impact_tagging": "+ (signal)"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 27450,
+        "op_income": 8530,
+        "op_margin": 31.1,
+        "net_income": 6736,
+        "net_margin": 24.5
+      },
+      {
+        "year": 2022,
+        "revenue": 33203,
+        "op_income": 11900,
+        "op_margin": 35.8,
+        "net_income": 11495,
+        "net_margin": 34.6
+      },
+      {
+        "year": 2023,
+        "revenue": 35819,
+        "op_income": 13350,
+        "op_margin": 37.3,
+        "net_income": 14082,
+        "net_margin": 39.3
+      },
+      {
+        "year": 2024,
+        "revenue": 51574,
+        "op_income": 13520,
+        "op_margin": 26.2,
+        "net_income": 5895,
+        "net_margin": 11.4
+      },
+      {
+        "year": 2025,
+        "revenue": 61500,
+        "op_income": 21500,
+        "op_margin": 35.0,
+        "net_income": 19400,
+        "net_margin": 31.5
+      }
+    ],
+    "bs_snapshot": {
+      "year": 2025,
+      "total_assets": 165000,
+      "total_debt": 67000,
+      "cash": 12000,
+      "shareholders_equity": 70000,
+      "debt_to_equity": 0.96
+    },
+    "cf_summary": {
+      "year": 2025,
+      "ocf": 28500,
+      "fcf": 25000,
+      "capex": 3500,
+      "fcf_margin": 41.0,
+      "shareholder_returns": 12500
+    },
+    "peer_compare": [
+      {
+        "ticker": "AVGO",
+        "fwd_pe": 23.2,
+        "pb": 18.0,
+        "ev_ebitda": 21,
+        "fcf_yield": 1.2,
+        "roe": 28
+      },
+      {
+        "ticker": "NVDA",
+        "fwd_pe": 35,
+        "pb": 25,
+        "ev_ebitda": 32,
+        "fcf_yield": 1.0,
+        "roe": 95
+      },
+      {
+        "ticker": "MRVL",
+        "fwd_pe": 28,
+        "pb": 4,
+        "ev_ebitda": 24,
+        "fcf_yield": 0.8,
+        "roe": 12
+      },
+      {
+        "ticker": "QCOM",
+        "fwd_pe": 16,
+        "pb": 8,
+        "ev_ebitda": 14,
+        "fcf_yield": 2.0,
+        "roe": 38
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 525,
+      "thesis": "AI 매출 비중 45%+ 달성, ASIC 시장 점유율 확대, VMware 통합 효과",
+      "key_assumptions": [
+        "FY26 AI 매출 $30B+",
+        "Tomahawk 6 양산 일정 준수",
+        "Google·Meta·OpenAI ASIC 디자인 윈 후속"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 450,
+      "thesis": "AI 매출 mix 확대 지속, valuation rerating 제한적",
+      "key_assumptions": [
+        "AI 매출 mix 40% 도달",
+        "FCF margin 38%+",
+        "valuation P/E 22x 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 320,
+      "thesis": "AI capex slowdown, MRVL 경쟁 격화, Cisco 진영 반격",
+      "key_assumptions": [
+        "hyperscaler capex 2027 -10%",
+        "ASIC 점유율 80% → 65%",
+        "non-AI 매출 -10% YoY"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-15",
+      "event": "FY25 Q2 어닝 발표",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "AI 매출 가이던스 상향 시 +10%, miss 시 -10%"
+    },
+    {
+      "date": "2026-08-30",
+      "event": "Tomahawk 6 양산 launch",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "204.8 Tbps next-gen 데이터센터 fabric — 5-10% upside"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "FY26 AI 매출 가이던스 확정",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "AI 매출 $30B+ 가이드 시 +15%"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Google TPU v6 production ramp",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "TPU v6 양산 시 AVGO co-design revenue 인식 가속"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex 사이클 정점 risk",
+      "probability": "med",
+      "impact": "high",
+      "description": "hyperscaler capex 2027 -10% scenario 시 매출 직접 영향",
+      "mitigation": "VMware software 매출 mix 24%로 cyclical sensitivity 분산"
+    },
+    {
+      "name": "Marvell·NVDA·AMD 경쟁 격화",
+      "probability": "high",
+      "impact": "med",
+      "description": "ASIC 시장 점유율 80% → 65%로 축소 가능",
+      "mitigation": "Google·Meta·OpenAI long-term partnership으로 sticky design wins"
+    },
+    {
+      "name": "VMware 통합 ROIC 희석",
+      "probability": "med",
+      "impact": "med",
+      "description": "software OPM 30% vs 기존 사업 50%",
+      "mitigation": "VMware 구조조정·가격 인상 진행"
+    },
+    {
+      "name": "관세·수출 제재",
+      "probability": "low",
+      "impact": "med",
+      "description": "중국 hyperscaler 매출 비중 12%",
+      "mitigation": "non-China hyperscaler 비중 88% 안정"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI 매출 비중 FY24 23% → FY26 컨센서스 45%",
+      "type": "company",
+      "evidence": "Broadcom FY25 매출 $61.5B, AI 매출 $20B (33%) — quarterly disclosure",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Tomahawk 5/6 switch ASIC 80%+ 점유 — sole-source pricing power",
+      "type": "industry",
+      "evidence": "데이터센터 fabric 시장 점유율 reports (Dell'Oro 2025)",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "hyperscaler self-design ASIC 시장 $14B → $90B (2024-2028)",
+      "type": "macro",
+      "evidence": "McKinsey AI Compute 2025 보고서",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "VMware 통합으로 hybrid cloud + AI infrastructure stack 강화",
+      "type": "company",
+      "evidence": "VMware 인수 후 cross-sell 시너지 실적",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [],
+  "etf_holdings": [
+    {
+      "etf": "SOXX (iShares Semiconductor)",
+      "weight_pct": 8.5
+    },
+    {
+      "etf": "SMH (VanEck Semiconductor)",
+      "weight_pct": 11.2
+    },
+    {
+      "etf": "XLK (Tech Select Sector)",
+      "weight_pct": 4.8
+    }
+  ],
+  "reverse_dcf": {
+    "current_price": 425.19,
+    "implied_growth_rate_yrs_10": 22,
+    "implied_terminal_margin_pct": 38,
+    "comment": "current price assumes 22%/yr revenue growth × 38% terminal margin over 10 years — 'priced for AI 매출 mix 확대 + ASIC 시장 점유율 유지'"
+  }
+}
