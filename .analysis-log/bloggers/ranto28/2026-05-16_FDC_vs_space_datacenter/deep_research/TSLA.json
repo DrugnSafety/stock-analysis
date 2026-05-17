@@ -1,0 +1,258 @@
+{
+  "name": "Tesla",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "claim": "SpaceX V3 Starship 5/19 발사 — kg당 $500 임계 가능성 (Musk-Tesla indirect proxy)",
+      "ticker_exposure": "+",
+      "reasoning": "SpaceX-xAI 합병 + Musk umbrella, Tesla는 SpaceX 직접 노출 없으나 narrative co-movement"
+    },
+    {
+      "thesis_id": "T9",
+      "claim": "Anthropic·Anduril 비상장 AI 인프라 valuation 상승 (메르: 한국 직접 접근 불가)",
+      "ticker_exposure": "+",
+      "reasoning": "Tesla xAI 합병으로 publicly accessible AI capex proxy"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "중국 우주 삼협댐 vs 미국 우주 DC 경쟁",
+      "ticker_exposure": "0",
+      "reasoning": "Geopolitical narrative — Tesla 직접 영향 minor"
+    }
+  ],
+  "industry": {
+    "name": "글로벌 EV + Robotaxi + Energy + xAI/SpaceX umbrella",
+    "overview": "글로벌 EV 점유율 16% (1위 BYD 17%). Robotaxi/Optimus 글로벌 first-mover. xAI/SpaceX visionary proxy. 5개 secular S-curve overlay (Auto·Robotaxi·FSD·Optimus·Energy + xAI/SpaceX hidden optionality).",
+    "competitors": [
+      {
+        "name": "BYD",
+        "ticker": "1211.HK",
+        "share_pct": 17.0,
+        "moat": "중국 1위 EV, 배터리 in-house"
+      },
+      {
+        "name": "Xpeng",
+        "ticker": "XPEV",
+        "share_pct": 3.5,
+        "moat": "중국 신생 EV, FSD 강점"
+      },
+      {
+        "name": "Li Auto",
+        "ticker": "LI",
+        "share_pct": 4.0,
+        "moat": "중국 EREV 1위"
+      },
+      {
+        "name": "Rivian",
+        "ticker": "RIVN",
+        "share_pct": 1.5,
+        "moat": "미국 EV pickup"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 3500.0,
+      "cagr_pct": 18.0,
+      "horizon": "2024-2030 EV + Robotaxi + Energy + xAI"
+    },
+    "news": [
+      {
+        "date": "2026-04-30",
+        "title": "SpaceX V3 Starship 5/19 발사 일정 확정",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-10",
+        "title": "Tesla Q1 2026 매출 $23B, EPS $0.45 beat",
+        "impact": "+"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "SpaceX-xAI 합병 진척 — 우주 DC '효과적 건설' 명분",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue": 53800,
+        "op_income": 6520,
+        "op_margin": 12.1,
+        "net_income": 5520,
+        "net_margin": 10.3
+      },
+      {
+        "year": "FY22",
+        "revenue": 81460,
+        "op_income": 13660,
+        "op_margin": 16.8,
+        "net_income": 12560,
+        "net_margin": 15.4
+      },
+      {
+        "year": "FY23",
+        "revenue": 96770,
+        "op_income": 8890,
+        "op_margin": 9.2,
+        "net_income": 14997,
+        "net_margin": 15.5
+      },
+      {
+        "year": "FY24",
+        "revenue": 97700,
+        "op_income": 7800,
+        "op_margin": 8.0,
+        "net_income": 6890,
+        "net_margin": 7.1
+      },
+      {
+        "year": "FY25E",
+        "revenue": 100000,
+        "op_income": 8500,
+        "op_margin": 8.5,
+        "net_income": 7200,
+        "net_margin": 7.2
+      }
+    ],
+    "bs_snapshot": {
+      "assets_bn": 122000,
+      "liabilities_bn": 43000,
+      "equity_bn": 79000,
+      "cash_bn": 30000,
+      "debt_bn": 5500
+    },
+    "cf_summary": {
+      "ocf_bn": 14000,
+      "fcf_bn": 4500,
+      "capex_bn": 9000
+    },
+    "peer_compare": [
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "forward_pe": 167.95,
+        "pb": 11.0,
+        "ev_ebitda": 60.0,
+        "roe_pct": 12.0,
+        "div_yield_pct": 0.0
+      },
+      {
+        "ticker": "BYDDY",
+        "name": "BYD",
+        "forward_pe": 18.5,
+        "pb": 3.2,
+        "ev_ebitda": 10.5,
+        "roe_pct": 18.0,
+        "div_yield_pct": 1.5
+      },
+      {
+        "ticker": "XPEV",
+        "name": "Xpeng",
+        "forward_pe": 35.0,
+        "pb": 3.5,
+        "ev_ebitda": 18.0,
+        "roe_pct": 5.0,
+        "div_yield_pct": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 600,
+      "thesis": "Robotaxi 가속 + Optimus 양산 + SpaceX V3 성공 + xAI 매출 가시화. Forward PE 200x.",
+      "key_assumptions": [
+        "Robotaxi 5+ cities",
+        "Optimus 2027 양산",
+        "V3 성공"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 430,
+      "thesis": "현재 narrative valuation 유지. Forward PE 168x.",
+      "key_assumptions": [
+        "Auto 매출 안정",
+        "Robotaxi 점진적"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 220,
+      "thesis": "Auto 매출 침체 + Optimus 지연 + xAI valuation correction. Damodaran fair value $200.",
+      "key_assumptions": [
+        "Auto 매출 -10%",
+        "BYD 점유율 추월"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-05-19",
+      "event": "SpaceX V3 Starship 12회차 시험비행",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "200톤급 첫 검증 — Tesla narrative tailwind"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Robotaxi 본격 가동 도시 추가",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Austin·Bay Area 외 추가"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Optimus Gen 3 발표",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "양산 가시성 update"
+    },
+    {
+      "date": "ongoing",
+      "event": "xAI·SpaceX 합병 진척",
+      "type": "corporate",
+      "expected_impact": "+",
+      "description": "FCC 위성 DC 100만기 허가 신청"
+    }
+  ],
+  "risks": [
+    {
+      "name": "PE 168 — Buffett/Graham 절대 violation",
+      "probability": "high",
+      "impact": "high",
+      "description": "'pricing the story'로 multiple compression 큼",
+      "mitigation": "Robotaxi/Optimus 실적 가시화"
+    },
+    {
+      "name": "Model Y refresh 둔화 + BYD/Xpeng 경쟁",
+      "probability": "high",
+      "impact": "high",
+      "description": "EV 수익성 압박",
+      "mitigation": "FSD/Robotaxi pivot"
+    },
+    {
+      "name": "Robotaxi/Optimus 지연 시 narrative breaking",
+      "probability": "med",
+      "impact": "high",
+      "description": "마일스톤 miss 시 multiple collapse",
+      "mitigation": "milestone communication 강화"
+    },
+    {
+      "name": "Twitter/X·Trump 정치 brand polarization",
+      "probability": "med",
+      "impact": "med",
+      "description": "consumer demand 양분 가능",
+      "mitigation": "신규 시장 진출"
+    },
+    {
+      "name": "AI bubble peak 시 high-beta first-correct",
+      "probability": "med",
+      "impact": "high",
+      "description": "Beta 1.79 + volatility 48%",
+      "mitigation": "FCF positive로 BK 없음"
+    }
+  ],
+  "korean_disclosures": []
+}
