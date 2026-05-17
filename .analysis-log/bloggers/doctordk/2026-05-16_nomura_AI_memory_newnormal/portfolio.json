@@ -1,0 +1,117 @@
+{
+  "computed_at": "2026-05-17T11:38:12.140657+09:00",
+  "start_cash": 1400000000.0,
+  "start_date": "2026-05-16",
+  "end_date": "2026-05-16",
+  "n_decisions": 5,
+  "total_trades": 5,
+  "total_buy_value": 824550356.57,
+  "total_sell_value": 0.0,
+  "final_cash": 575449643.43,
+  "end_positions_value": 824550354.69,
+  "final_nav": 1399999998.12,
+  "total_return_pct": -0.0,
+  "final_positions": {
+    "000660.KS": {
+      "qty": 84,
+      "avg_cost": 1819000.0,
+      "last_price": 1819000.0,
+      "market_value": 152796000.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "005930.KS": {
+      "qty": 569,
+      "avg_cost": 270500.0,
+      "last_price": 270500.0,
+      "market_value": 153914500.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "LRCX": {
+      "qty": 540882,
+      "avg_cost": 284.72,
+      "last_price": 284.72,
+      "market_value": 153999923.7,
+      "unrealized_pnl": 0.66,
+      "unrealized_return_pct": 0.0
+    },
+    "MU": {
+      "qty": 212513,
+      "avg_cost": 724.66,
+      "last_price": 724.66,
+      "market_value": 153999664.87,
+      "unrealized_pnl": -5.71,
+      "unrealized_return_pct": -0.0
+    },
+    "TSM": {
+      "qty": 518957,
+      "avg_cost": 404.35,
+      "last_price": 404.35,
+      "market_value": 209840266.12,
+      "unrealized_pnl": 3.17,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-16",
+      "ticker": "000660.KS",
+      "action": "buy",
+      "qty": 84,
+      "price": 1819000.0,
+      "cost": 152796000.0,
+      "cash_after": 1247204000.0
+    },
+    {
+      "date": "2026-05-16",
+      "ticker": "005930.KS",
+      "action": "buy",
+      "qty": 569,
+      "price": 270500.0,
+      "cost": 153914500.0,
+      "cash_after": 1093289500.0
+    },
+    {
+      "date": "2026-05-16",
+      "ticker": "LRCX",
+      "action": "buy",
+      "qty": 540882,
+      "price": 284.72,
+      "cost": 153999923.04,
+      "cash_after": 939289576.96
+    },
+    {
+      "date": "2026-05-16",
+      "ticker": "MU",
+      "action": "buy",
+      "qty": 212513,
+      "price": 724.66,
+      "cost": 153999670.58,
+      "cash_after": 785289906.38
+    },
+    {
+      "date": "2026-05-16",
+      "ticker": "TSM",
+      "action": "buy",
+      "qty": 518957,
+      "price": 404.35,
+      "cost": 209840262.95,
+      "cash_after": 575449643.43
+    }
+  ],
+  "benchmark_comparison": {
+    "^KS11": {
+      "start_price": 7493.18,
+      "end_price": 7493.18,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    },
+    "SPY": {
+      "start_price": 739.17,
+      "end_price": 739.17,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    }
+  }
+}
