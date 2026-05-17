@@ -1,0 +1,315 @@
+{
+  "ticker": "000660.KS",
+  "name": "SK하이닉스",
+  "industry": {
+    "name": "AI 메모리 반도체 (DRAM·HBM·NAND + 첨단 패키징·장비)",
+    "overview": "AI 시대의 메모리 산업은 2024년까지의 'commodity cycle' 패러다임에서 'AI 인프라 독점 산업' 패러다임으로 구조적 전환 중. Nomura·Morgan Stanley·Goldman 등 글로벌 IB는 메모리 3사 (SK하이닉스·삼성·Micron) 밸류에이션 기준을 'D램 사이클 P/E 5~6x'에서 'TSMC 멀티플 P/E 22~28x'로 변경 권고. 핵심 동인은 (1) Inference·Agentic AI 도래로 토큰 사용량 수십만 배 폭증 — 단순 챗봇 vs 1시간 AI 영상 = 5,000 vs 1억 토큰, (2) KV cache 수요 5년간 수천 배 증가 — Llama 3 70B 100K context = 125GB, (3) 메모리 공급은 TSV·MR-MUF·Hybrid Bonding 제약으로 연 30% 한계, (4) 데이터센터 CapEx $1.16T→$6.13T + 메모리 BOM 비중 9%→23%, (5) LTA가 3~5년 선급금 + 팹증설 비용 분담 구조로 진화. 결과: HBM 사실상 sold out 2027년까지, 2028년도 80% pre-booked. PBR(asset replacement) → PER(earnings power) 밸류에이션 프레임 전환.",
+    "competitors": [
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS",
+        "share_pct": 33.0,
+        "moat": "HBM 사실상 독점 (Nvidia·Google·AMD 70%+ 점유), MR-MUF·HBM4·HBM5 R&D 1위"
+      },
+      {
+        "name": "삼성전자",
+        "ticker": "005930.KS",
+        "share_pct": 41.0,
+        "moat": "메모리 1위 + Foundry 2위 + LPDDR5X 50%+, HBM4 catch-up 2026 Q3-Q4"
+      },
+      {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "share_pct": 23.0,
+        "moat": "DRAM 3순위, HBM3E 2025 Q4 양산 진입, CHIPS Act 직접 수혜"
+      },
+      {
+        "name": "Nanya / Winbond",
+        "ticker": "2408.TW",
+        "share_pct": 2.0,
+        "moat": "specialty DRAM (자동차·산업용) 일부 점유"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 0.0,
+        "moat": "HBM CoWoS 패키징 사실상 독점 — 메모리 제조사가 TSMC 의존"
+      },
+      {
+        "name": "Lam Research",
+        "ticker": "LRCX",
+        "share_pct": 40.0,
+        "moat": "TSV etching·Hybrid Bonding 장비 1위"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-16",
+        "title": "Nomura, 삼성·하이닉스 목표가 +120% 상향 — TSMC 멀티플 적용",
+        "source": "Nomura Research",
+        "summary": "삼성 34→59만원, 하이닉스 234→400만원. 'PBR→PER 프레임 전환' 선언"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "SK하이닉스 HBM3E 12-Hi Nvidia Rubin 인증 통과",
+        "source": "SK하이닉스 IR",
+        "summary": "Rubin (R100) 출시 2026 H2 — HBM3E 12-Hi 사실상 독점 공급"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "삼성 HBM3E 12-Hi Nvidia 양산 인증 통과 (2년 지연 끝)",
+        "source": "삼성전자 발표",
+        "summary": "Nomura가 'catch-up 시작' catalyst로 인용. HBM4 2026 Q3-Q4 진입 예정"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "Micron HBM3E 양산 시작 — CHIPS Act $6.4B 보조금 확정",
+        "source": "Micron Q2 FY26",
+        "summary": "Idaho fab 2026 Q4 가동, Syracuse 2027~"
+      },
+      {
+        "date": "2026-02-14",
+        "title": "Hyperscaler 5사 2026 CapEx 가이던스 합계 $400B+ (vs 2025 $290B)",
+        "source": "공시 합산",
+        "summary": "Microsoft·Google·Meta·Amazon·Oracle 합산. AI infrastructure 핵심 driver"
+      },
+      {
+        "date": "2026-01-20",
+        "title": "글로벌 데이터센터 메모리 비중 9% → 23% 도달 (IDC)",
+        "source": "IDC 2026 Worldwide DC Report",
+        "summary": "AI 서버 비중 증가로 BOM 내 메모리 weight 급증"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 165.0,
+      "cagr_pct": 28.0,
+      "horizon": "2024-2030 (Gartner·IDC consensus)"
+    }
+  },
+  "financials": {
+    "currency": "KRW (조원)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 42997,
+        "op_income": 12410,
+        "op_margin": 28.9,
+        "net_income": 9616,
+        "net_margin": 22.4
+      },
+      {
+        "year": 2022,
+        "revenue": 44622,
+        "op_income": 6810,
+        "op_margin": 15.3,
+        "net_income": 2438,
+        "net_margin": 5.5
+      },
+      {
+        "year": 2023,
+        "revenue": 32766,
+        "op_income": -7720,
+        "op_margin": -23.6,
+        "net_income": -9138,
+        "net_margin": -27.9
+      },
+      {
+        "year": 2024,
+        "revenue": 66193,
+        "op_income": 23467,
+        "op_margin": 35.5,
+        "net_income": 19798,
+        "net_margin": 29.9
+      },
+      {
+        "year": 2025,
+        "revenue": 84800,
+        "op_income": 34500,
+        "op_margin": 40.7,
+        "net_income": 28600,
+        "net_margin": 33.7
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 152000,
+      "cash": 22500,
+      "equity": 92000,
+      "as_of": "2026 Q1",
+      "debt": 28500,
+      "total_liab": 60000
+    },
+    "cf_summary": {
+      "operating_cf": 42500,
+      "capex": -22000,
+      "fcf": 20500,
+      "fy": 2025
+    },
+    "peer_compare": [
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 11.8,
+        "pb": 3.45,
+        "roe": 31.5,
+        "div_yield": 0.4
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "pe": 14.5,
+        "pb": 1.85,
+        "roe": 12.8,
+        "div_yield": 2.1
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "pe": 12.5,
+        "pb": 4.2,
+        "roe": 22.1,
+        "div_yield": 0.3
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "pe": 22.0,
+        "pb": 8.5,
+        "roe": 37.5,
+        "div_yield": 1.6
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 4001800,
+      "thesis": "Nomura target 400만원 — HBM3E·HBM4 독점 + KV cache 폭증 1순위 수혜 + LTA 선급금 누적 $10B+",
+      "key_assumptions": [
+        "Nomura target 400만원 — HBM3E·HBM4 독점 + KV cache 폭증 1순위 수혜 + LTA 선급금 누적 $10B+"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 3001350,
+      "thesis": "HBM 시장 점유율 60%+ 유지, EPS CAGR 30%+",
+      "key_assumptions": [
+        "HBM 시장 점유율 60%+ 유지",
+        "EPS CAGR 30%+"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 1455200,
+      "thesis": "Micron HBM4 진입 빠름 + 삼성 catch-up 가속 → 마진 -15%",
+      "key_assumptions": [
+        "Micron HBM4 진입 빠름 + 삼성 catch-up 가속 → 마진 -15%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-H2",
+      "event": "Nvidia Rubin HBM3E 12-Hi 단독 공급",
+      "type": "demand",
+      "expected_impact": "+",
+      "description": "+30~50% — Rubin R100 2026 H2 출시 — HBM3E 12-Hi 단독 공급사 지위 강화"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "HBM4 12-Hi 양산 진입",
+      "type": "milestone",
+      "expected_impact": "+",
+      "description": "+20~35% — Hybrid Bonding 도입, 단가 +30~50% 인상"
+    },
+    {
+      "date": "2027-H1",
+      "event": "M15X HBM 전용 fab 풀가동",
+      "type": "milestone",
+      "expected_impact": "+",
+      "description": "+15~25% — HBM capa 2025 대비 2배"
+    },
+    {
+      "date": "2027-H2",
+      "event": "HBM5 R&D 발표 + 단가 lock",
+      "type": "milestone",
+      "expected_impact": "+",
+      "description": "+10~20% — 차세대 HBM 표준 선점"
+    }
+  ],
+  "risks": [
+    {
+      "name": "단일 제품 의존도 (HBM 매출 비중 40%+)",
+      "probability": "med",
+      "impact": "high",
+      "description": "HBM 시장 둔화 또는 경쟁 격화 시 EPS -25~40%",
+      "mitigation": "DDR5·LPDDR5·SSD 다각화"
+    },
+    {
+      "name": "Micron HBM4 진입 (2026 Q4)",
+      "probability": "high",
+      "impact": "high",
+      "description": "3사 경쟁 본격화 → HBM 단가 -10~15% 압력",
+      "mitigation": "HBM4E·HBM5 차세대 선도"
+    },
+    {
+      "name": "변동성 38%+ (high beta 1.45)",
+      "probability": "high",
+      "impact": "med",
+      "description": "Macro shock 시 -30~50% drawdown",
+      "mitigation": "long-term hold 권장, position size 제한"
+    },
+    {
+      "name": "Customer concentration (Nvidia 매출 50%+)",
+      "probability": "med",
+      "impact": "high",
+      "description": "Nvidia 수요 둔화 시 매출 직접 타격",
+      "mitigation": "Google·AMD·Broadcom 비중 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Nomura TSMC 멀티플 적용 → 삼성·하이닉스 +120% upside",
+      "type": "factual",
+      "evidence": "Nomura 2026 Q2 리포트, sell-side 컨센서스 +30~80% 수렴",
+      "testability": "high — 6~12개월 내 실현 여부 확인 가능",
+      "current_status": "partial — re-rating 30~40% 이미 진행"
+    },
+    {
+      "claim": "KV cache 수요 5년간 수천 배 폭증",
+      "type": "predictive",
+      "evidence": "Anthropic Claude 4 reasoning model query 토큰 4.5배 증가, Llama 3 70B 100K context = 125GB",
+      "testability": "medium — 정량 측정은 hyperscaler 비공개 지표 의존",
+      "current_status": "trending — 정량 'thousands of times' 외부 검증 부족"
+    },
+    {
+      "claim": "메모리 공급 증가 연 30% 한계 → 구조적 부족 진입",
+      "type": "factual",
+      "evidence": "SK하이닉스 M15X 양산 연기, 삼성 P3 HBM yield 65%, TSV 장비 lead time 18개월",
+      "testability": "high — capa 증설 일정 추적 가능",
+      "current_status": "confirmed — 2027년까지 HBM sold out"
+    },
+    {
+      "claim": "데이터센터 메모리 비중 9% → 23%",
+      "type": "factual",
+      "evidence": "IDC 2026 보고서, Dell/HPE/Supermicro AI 서버 BOM 분석 (22~26%)",
+      "testability": "high — server BOM 공개 데이터",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-28",
+      "type": "사업보고서",
+      "title": "SK하이닉스 2026 1Q 분기보고서",
+      "impact": "+",
+      "summary": "SK하이닉스: HBM·메모리 부문 매출/영업이익 컨센서스 +15~25% upside surprise"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "주요사항보고서",
+      "title": "SK하이닉스 시설투자 결정",
+      "impact": "○",
+      "summary": "AI 메모리 capa 증설 — 2027~2028 ramp 예정"
+    }
+  ]
+}
