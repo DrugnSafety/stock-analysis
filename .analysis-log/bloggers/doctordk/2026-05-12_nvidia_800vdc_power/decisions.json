@@ -1,0 +1,145 @@
+{
+  "as_of": "2026-05-12",
+  "portfolio_value_usd": 100000,
+  "decisions": [
+    {
+      "ticker": "NVTS",
+      "name_kr": "나비타스 세미컨덕터",
+      "current_price_usd": 19.81,
+      "signal_score": 0.177,
+      "action": "HOLD",
+      "position_limit_pct": 0.11,
+      "position_limit_usd": 11000.0,
+      "target_shares": 0,
+      "verdict_distribution": {
+        "lean_bearish": {
+          "count": 3,
+          "pct": 23.1
+        },
+        "lean_bullish": {
+          "count": 3,
+          "pct": 23.1
+        },
+        "bullish": {
+          "count": 3,
+          "pct": 23.1
+        },
+        "bearish": {
+          "count": 2,
+          "pct": 15.4
+        },
+        "neutral": {
+          "count": 2,
+          "pct": 15.4
+        }
+      },
+      "average_confidence": 0.668,
+      "rationale": "NVTS: 13-persona weighted signal +0.177 → 'HOLD'. Position limit $11,000 at $19.81 = 0 sh."
+    },
+    {
+      "ticker": "VRT",
+      "name_kr": "버티브 홀딩스",
+      "current_price_usd": 363.84,
+      "signal_score": 0.507,
+      "action": "BUY",
+      "position_limit_pct": 0.11,
+      "position_limit_usd": 11000.0,
+      "target_shares": 30,
+      "verdict_distribution": {
+        "lean_bullish": {
+          "count": 6,
+          "pct": 46.2
+        },
+        "bullish": {
+          "count": 4,
+          "pct": 30.8
+        },
+        "lean_bearish": {
+          "count": 3,
+          "pct": 23.1
+        }
+      },
+      "average_confidence": 0.695,
+      "rationale": "VRT: 13-persona weighted signal +0.507 → 'BUY'. Position limit $11,000 at $363.84 = 30 sh."
+    },
+    {
+      "ticker": "ETN",
+      "name_kr": "이튼",
+      "current_price_usd": 400.03,
+      "signal_score": 0.637,
+      "action": "BUY",
+      "position_limit_pct": 0.1556,
+      "position_limit_usd": 15557.3,
+      "target_shares": 38,
+      "verdict_distribution": {
+        "bullish": {
+          "count": 4,
+          "pct": 30.8
+        },
+        "lean_bullish": {
+          "count": 8,
+          "pct": 61.5
+        },
+        "neutral": {
+          "count": 1,
+          "pct": 7.7
+        }
+      },
+      "average_confidence": 0.697,
+      "rationale": "ETN: 13-persona weighted signal +0.637 → 'BUY'. Position limit $15,557 at $400.03 = 38 sh."
+    },
+    {
+      "ticker": "WOLF",
+      "name_kr": "울프스피드",
+      "current_price_usd": 50.91,
+      "signal_score": -0.205,
+      "action": "TRIM",
+      "position_limit_pct": 0.11,
+      "position_limit_usd": 11000.0,
+      "target_shares": 0,
+      "verdict_distribution": {
+        "bearish": {
+          "count": 4,
+          "pct": 30.8
+        },
+        "neutral": {
+          "count": 4,
+          "pct": 30.8
+        },
+        "lean_bearish": {
+          "count": 1,
+          "pct": 7.7
+        },
+        "lean_bullish": {
+          "count": 4,
+          "pct": 30.8
+        }
+      },
+      "average_confidence": 0.634,
+      "rationale": "WOLF: 13-persona weighted signal -0.205 → 'TRIM'. Position limit $11,000 at $50.91 = 0 sh."
+    },
+    {
+      "ticker": "ON",
+      "name_kr": "온세미",
+      "current_price_usd": 101.85,
+      "signal_score": 0.468,
+      "action": "BUY",
+      "position_limit_pct": 0.11,
+      "position_limit_usd": 11000.0,
+      "target_shares": 108,
+      "verdict_distribution": {
+        "lean_bullish": {
+          "count": 12,
+          "pct": 92.3
+        },
+        "neutral": {
+          "count": 1,
+          "pct": 7.7
+        }
+      },
+      "average_confidence": 0.687,
+      "rationale": "ON: 13-persona weighted signal +0.468 → 'BUY'. Position limit $11,000 at $101.85 = 108 sh."
+    }
+  ],
+  "methodology": "13-persona weighted signal: score = Σ(verdict_score × persona_weight × confidence) / Σweights. BUY ≥ 0.45, ACCUMULATE ≥ 0.20, HOLD ≥ -0.15, TRIM ≥ -0.40, AVOID < -0.40."
+}
