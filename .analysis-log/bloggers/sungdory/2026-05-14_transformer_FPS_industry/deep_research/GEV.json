@@ -1,0 +1,166 @@
+{
+  "name": "GE Vernova",
+  "industry": {
+    "tam_2024_usd_bn": 250,
+    "tam_2030_usd_bn": 450,
+    "cagr_pct": 10.3,
+    "key_drivers": [
+      "글로벌 그리드 modernization (Electrification segment $20B+/연)",
+      "Gas turbine super-cycle (Power segment 데이터센터 전력원)",
+      "Wind onshore + offshore (Wind segment 정부 정책 driven)"
+    ],
+    "competitive_position": "Mega-cap power & grid leader, Spin-off from GE in 2024년 4월. 3 segments: Power ($20B 매출, gas turbine·nuclear), Wind ($10B, on/offshore), Electrification ($9B, grid solutions·HVDC·전력 분배). Hitachi Energy·Siemens Energy·ABB와 글로벌 빅3 경쟁. Customer base — utility·hyperscaler·industrial 다각화.",
+    "market_share_pct": 18,
+    "key_competitors": [
+      "Hitachi Energy",
+      "Siemens Energy",
+      "ABB",
+      "Schneider Electric",
+      "Eaton"
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 1450,
+      "thesis": "그리드 modernization 가속화 + 데이터센터 SMR 파트너십 + Electrification margin 17%+",
+      "key_assumptions": [
+        "Electrification +35%/연",
+        "Wind segment break-even",
+        "EPS $36 × 40x"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 1200,
+      "thesis": "Electrification 30%+ growth + Power 호조 + Wind 부진 회복",
+      "key_assumptions": [
+        "Electrification +30%/연",
+        "Power 안정",
+        "EPS $32 × 38x"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 750,
+      "thesis": "Wind segment loss 확대 + 데이터센터 capex 둔화 + multiple contraction",
+      "key_assumptions": [
+        "Wind loss $1B+",
+        "데이터센터 capex 둔화",
+        "PE 35x → 22x"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07-22",
+      "event": "Q2 FY2026 실적 발표",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "Wind segment 회복 신호 watch"
+    },
+    {
+      "date": "2026-09",
+      "event": "Investor Day",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "2027-2029 가이던스 update"
+    },
+    {
+      "date": "2026 H2",
+      "event": "데이터센터 SMR 파트너십",
+      "type": "m&a",
+      "expected_impact": "+",
+      "description": "Microsoft·Google·Amazon·Meta SMR"
+    },
+    {
+      "date": "2026 ongoing",
+      "event": "HVDC 신규 win",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "EU·중동·아시아 프로젝트"
+    },
+    {
+      "date": "2027",
+      "event": "Wind segment turnaround",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "Onshore·offshore loss 종료"
+    }
+  ],
+  "risks": [
+    {
+      "name": "PE 35x — 2.3x premium",
+      "probability": "med",
+      "impact": "high",
+      "description": "Historical 평균 대비 multiple contraction 위험",
+      "mitigation": "Electrification 30%+ growth로 정당화"
+    },
+    {
+      "name": "Wind segment loss",
+      "probability": "med",
+      "impact": "high",
+      "description": "Onshore·offshore contract loss + warranty 비용",
+      "mitigation": "Restructuring + selective bidding"
+    },
+    {
+      "name": "GE carve-out management",
+      "probability": "low",
+      "impact": "med",
+      "description": "Larry Culp leadership 1년 history",
+      "mitigation": "GE 시절 turnaround track record"
+    },
+    {
+      "name": "Gas turbine cycle peak",
+      "probability": "med",
+      "impact": "med",
+      "description": "2027-2028 backlog 감소 위험",
+      "mitigation": "데이터센터 secondary cycle"
+    },
+    {
+      "name": "Geopolitical risk",
+      "probability": "med",
+      "impact": "med",
+      "description": "러시아·중국 시장 access 차단",
+      "mitigation": "US·EU·인도·중동 시장 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "글로벌 power & grid mega-cap leader",
+      "type": "industry",
+      "evidence": "3 segments $40B 매출, ABB·Hitachi·Siemens 빅3 경쟁",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Electrification segment 30%+ growth 지속",
+      "type": "company",
+      "evidence": "Q1 2026 +35% YoY, margin 13% 확장 중",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Wind segment loss 부담 — turnaround 진행",
+      "type": "company",
+      "evidence": "Onshore·offshore contract loss",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Gas turbine cycle — 데이터센터 전력원 secondary cycle",
+      "type": "industry",
+      "evidence": "Power segment backlog 확대",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "PE 35x = narrative-heavy valuation, multiple contraction risk",
+      "type": "valuation",
+      "evidence": "Historical 평균 12-15x",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "us_disclosures": []
+}
