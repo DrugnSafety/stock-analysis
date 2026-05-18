@@ -1,0 +1,376 @@
+{
+  "ticker": "RUN",
+  "name": "Sunrun Inc.",
+  "industry": {
+    "name": "미국 주거용 태양광 — Lease/PPA (다운스트림)",
+    "overview": "Sunrun은 미국 주거용 태양광 시장 1위 사업자 (점유율 ~30%). Solar-as-a-Service (lease/PPA) 비즈니스 모델로 고객은 시스템 구매 없이 월 임대료를 지불. ITC 30% 세액공제는 회사가 직접 수취하여 lease 모델의 핵심 수익성 변수. 2026 Q1 모듈 procurement의 92%가 IRA-eligible supplier로 전환됨. 부채비율 240% — 자본 구조의 leverage가 가장 큰 risk factor. 본 블로그에서 명시적으로 언급된 'Sunrun이 중국 모듈업체 승인 대상에서 제외' 사례 → 본 thesis의 trigger 종목.",
+    "competitors": [
+      {
+        "name": "Sunrun",
+        "ticker": "RUN",
+        "share_pct": 30,
+        "moat": "미국 주거용 1위 + 전국 설치 네트워크"
+      },
+      {
+        "name": "Sunnova Energy",
+        "ticker": "NOVA",
+        "share_pct": 12,
+        "moat": "비주거용 확대 + financing diversification"
+      },
+      {
+        "name": "SunPower / Complete Solar",
+        "ticker": "비상장",
+        "share_pct": 8,
+        "moat": "프리미엄 시장 + Maxeon 파트너십"
+      },
+      {
+        "name": "Tesla Energy",
+        "ticker": "TSLA",
+        "share_pct": 18,
+        "moat": "Tesla 브랜드 + Powerwall 통합"
+      },
+      {
+        "name": "Generac",
+        "ticker": "GNRC",
+        "share_pct": 6,
+        "moat": "백업 generator + 솔라 확장"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-11",
+        "title": "Sunrun, 중국 모듈업체 승인 대상 제외 — Qcells·Silfab·Elin·REC 적격 명시",
+        "source": "하나증권 윤재성",
+        "summary": "BBBA Non-PFE 적용 + ITC 적격성 보장 위해 공급망 재편 본격화"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Sunrun 2026 Q1 매출 +12% YoY, EBITDA margin -150bp 압박",
+        "source": "RUN Q1 IR",
+        "summary": "모듈 단가 인상 부담 + 금리 환경 부담"
+      },
+      {
+        "date": "2026-03-25",
+        "title": "Sunrun, Qcells와 3년 모듈 공급 계약 체결",
+        "source": "Sunrun",
+        "summary": "연 2GW 모듈 공급 — 미국 Georgia 풀스택 풀가동 활용"
+      },
+      {
+        "date": "2026-02-08",
+        "title": "Sunrun 잉여 leverage 우려 + 분기 적자 -$120M",
+        "source": "RUN 분기보고서",
+        "summary": "부채비율 240% 도달 — 금리 sensitivity 매우 높음"
+      },
+      {
+        "date": "2026-01-20",
+        "title": "미국 주거용 솔라 2026 TAM 회복 — 5.5GW 전망 (BNEF)",
+        "source": "BloombergNEF",
+        "summary": "고금리 환경 완화 시 회복 가속화 가능"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 12,
+      "cagr_pct": 12,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 1.61,
+        "op_income": -0.18,
+        "op_margin": -11.2,
+        "net_income": -0.07,
+        "net_margin": -4.3
+      },
+      {
+        "year": 2022,
+        "revenue": 2.32,
+        "op_income": -0.36,
+        "op_margin": -15.5,
+        "net_income": -0.3,
+        "net_margin": -12.9
+      },
+      {
+        "year": 2023,
+        "revenue": 2.26,
+        "op_income": -0.43,
+        "op_margin": -19.0,
+        "net_income": -1.45,
+        "net_margin": -64.2
+      },
+      {
+        "year": 2024,
+        "revenue": 1.94,
+        "op_income": -0.32,
+        "op_margin": -16.5,
+        "net_income": -0.62,
+        "net_margin": -32.0
+      },
+      {
+        "year": 2025,
+        "revenue": 2.15,
+        "op_income": -0.18,
+        "op_margin": -8.4,
+        "net_income": -0.45,
+        "net_margin": -20.9
+      }
+    ],
+    "quarterly_5q": [
+      {
+        "q": "2025Q1",
+        "revenue": 0.48,
+        "op_income": -0.08,
+        "op_margin": -16.7
+      },
+      {
+        "q": "2025Q2",
+        "revenue": 0.52,
+        "op_income": -0.05,
+        "op_margin": -9.6
+      },
+      {
+        "q": "2025Q3",
+        "revenue": 0.55,
+        "op_income": -0.03,
+        "op_margin": -5.5
+      },
+      {
+        "q": "2025Q4",
+        "revenue": 0.6,
+        "op_income": -0.02,
+        "op_margin": -3.3
+      },
+      {
+        "q": "2026Q1",
+        "revenue": 0.54,
+        "op_income": -0.06,
+        "op_margin": -11.1
+      }
+    ],
+    "bs_snapshot_usd_bn": {
+      "total_assets": 18.5,
+      "total_liab": 12.9,
+      "equity": 5.6,
+      "cash": 0.85,
+      "debt": 7.5
+    },
+    "cf_summary_usd_bn": {
+      "ocf_5y_avg": 0.35,
+      "fcf_5y_avg": -1.2,
+      "capex_intensity": 0.85,
+      "debt_to_equity": 2.4
+    },
+    "peer_compare": [
+      {
+        "ticker": "RUN",
+        "name": "Sunrun",
+        "pe": 0,
+        "pb": 0.65,
+        "roe": -8,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NOVA",
+        "name": "Sunnova Energy",
+        "pe": 0,
+        "pb": 0.55,
+        "roe": -15,
+        "div_yield": 0
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pe": 65,
+        "pb": 8.5,
+        "roe": 15,
+        "div_yield": 0
+      },
+      {
+        "ticker": "GNRC",
+        "name": "Generac",
+        "pe": 25,
+        "pb": 3.5,
+        "roe": 10,
+        "div_yield": 0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 18.5,
+      "total_liab": 12.9,
+      "equity": 5.6,
+      "cash": 0.85,
+      "debt": 7.5
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 0.35,
+      "fcf_5y_avg": -1.2,
+      "capex_intensity": 0.85,
+      "debt_to_equity": 2.4
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price_usd": 28,
+      "thesis": "미국 주거용 솔라 시장 회복(5.5GW → 7GW 2027) + ITC 30% 안정적 수취 + 모듈 단가 안정. 영업이익 break-even 도달 + leverage 부담 일부 완화.",
+      "key_assumptions": [
+        "주거용 시장 회복 +35% YoY",
+        "ITC 30% 안정적 수취",
+        "EBITDA margin -8% → +5% 회복",
+        "부채비율 240% → 180% 축소"
+      ],
+      "target_price": 28
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price_usd": 16,
+      "thesis": "시장 회복 모멘텀 약함 + ITC 수취 안정화 + 영업적자 점진 축소. Leverage 부담 지속.",
+      "key_assumptions": [
+        "주거용 시장 +12% YoY",
+        "ITC 30% 안정 수취",
+        "EBITDA margin -8% 유지",
+        "부채비율 240% 유지"
+      ],
+      "target_price": 16
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price_usd": 7,
+      "thesis": "IRA 후퇴 + 고금리 환경 지속 + 부채 refinancing 어려움. Bankruptcy risk 실현 가능성.",
+      "key_assumptions": [
+        "ITC 30% → 15% 축소",
+        "부채 refinancing 비용 +200bp 상승",
+        "주거용 시장 -5% 감소",
+        "EBITDA margin -15% 악화"
+      ],
+      "target_price": 7
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Sunrun Q2 IR — 모듈 procurement 100% Non-China 전환 확인",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Qcells·Silfab 공급 안정성 확인"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "FED 금리 인하 가능성 — leverage 부담 완화",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "75bp 인하 시 차입비용 -$70M/년"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "ITC 30% guidance 최종 확정",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "30% 안정 시 IRR 시나리오 견고"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "주거용 시장 회복 가속화 가능성",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "FED rate cut 60-100bp 시 시장 +40% 가능"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "부채 refinancing — 만기 도래 $2.5B",
+      "type": "corporate_action",
+      "expected_impact": "-",
+      "description": "금리 환경에 따라 cost 변동"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Leverage / Bankruptcy risk",
+      "probability": "med",
+      "impact": "high",
+      "description": "부채비율 240% + 영업적자 지속으로 refinancing 위험",
+      "mitigation": "Cash $850M + ITC 수취 + 시장 회복 기대"
+    },
+    {
+      "name": "IRA·BBBA 정책 후퇴",
+      "probability": "med",
+      "impact": "high",
+      "description": "ITC 30% 축소 시 lease 모델 IRR 자체 무너짐",
+      "mitigation": "공화당 주 일자리 효과 + sunset clause 2034"
+    },
+    {
+      "name": "고금리 환경 지속",
+      "probability": "med",
+      "impact": "high",
+      "description": "차입금 $7.5B의 금리 sensitivity 매우 높음",
+      "mitigation": "FED rate cut 기대 + 부채 hedging"
+    },
+    {
+      "name": "주거용 시장 회복 부진",
+      "probability": "med",
+      "impact": "med",
+      "description": "FED 금리 동결 시 가구 lease 신청률 -25% 지속",
+      "mitigation": "다양화된 financing 옵션 + 가격 절감"
+    },
+    {
+      "name": "Tesla Energy 점유율 잠식",
+      "probability": "med",
+      "impact": "med",
+      "description": "Tesla 브랜드 + Powerwall 통합으로 점유율 확대",
+      "mitigation": "전국 설치 네트워크 + 가격 경쟁력"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "BBBA Non-PFE 정책으로 중국 모듈업체가 미국 시장에서 구조적으로 배제",
+      "type": "policy",
+      "evidence": "Treasury Notice 2024-41 + Sunrun 공급망 재편 사례 (하나증권 2026-05-11)",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "ITC/PTC 적격 여부가 모듈 procurement의 1차 필터로 자리잡음",
+      "type": "macro",
+      "evidence": "BNEF 2026-Q1 자료: 미국 utility-scale 신규 발주 78%가 'Non-China 모듈' 시방서 적용",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "24GW 강제 교체 시장이 Non-China 모듈 capacity로 흡수됨",
+      "type": "industry",
+      "evidence": "Qcells(8.4GW+4GW) + First Solar(12GW) + Silfab(1.4GW) + REC(8GW) 합산 capacity 30GW+",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Sunrun Inc.는 본 정책 변화의 1차 수혜 위치 (기업별 thesis 특정)",
+      "type": "company",
+      "evidence": "본문 §1-2 + 해당 종목 deep_research scenarios",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Non-China 공급망 프리미엄 valuation 구조가 2026-2027 sustainable",
+      "type": "valuation",
+      "evidence": "FSLR P/E 14x vs Jinko 5x (3x 프리미엄) - 정책 moat 형성",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "2028 대선 결과에 따라 IRA·BBBA 후퇴 가능성 (Risk thesis)",
+      "type": "risk",
+      "evidence": "Sunset clause 2034 + 공화당 주 일자리 효과로 폐지 어려움 (발현 확률 25-30%)",
+      "testability": "low",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [],
+  "thesis_strength_summary": {
+    "core_thesis_strength": "weak (T08 다운스트림 thesis는 capital structure 우려로 약함)",
+    "supporting_thesis_strength": "moderate (모듈 procurement 전환은 valid)",
+    "risk_thesis_strength": "high (T10 + leverage + 시장 회복 risk 결합)",
+    "investment_horizon": "short_term to medium_term — 회복 catalyst 의존"
+  }
+}
