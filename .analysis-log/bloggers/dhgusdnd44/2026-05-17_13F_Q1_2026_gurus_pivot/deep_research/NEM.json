@@ -1,0 +1,211 @@
+{
+  "industry": {
+    "name": "글로벌 금 광산 — 7-fund consensus + 마진 레버리지 explosion 직전",
+    "overview": "Newmont는 글로벌 1위 금 광산사 (연 production 6M oz, 2024 매출 $19B). 호주·캐나다·페루·도미니카·아프리카 등 다각화 — single-asset risk 분산. AISC(All-In Sustaining Cost) $1,400-1,600/oz 대비 금가격 $4,400+ → 마진 $2,800-3,000/oz. EV/EBITDA 6-9배 (S&P 500 12-14배 대비 50% 할인). 산업분석러 본문: 7개 펀드(도널드 스미스·르네상스·하워드 막스·드러켄밀러·켄 피셔·베일리 기포드 등)가 GLD 현물 ETF가 아닌 금 광산주 동시 매수. '7-fund consensus first time'. GDX/GLD 비율 역사적 최저 → mean reversion 발생 시 +100-200% return potential. 중앙은행 금 매수(BIS: 2020 대비 +20% 보유 비중) + 디달러화 trend + 인플레이션 헷지 multi-driver.",
+    "competitors": [
+      {
+        "name": "Barrick Mining",
+        "ticker": "GOLD",
+        "share_pct": 12.0,
+        "moat": "Reko Diq + Donlin + Nevada Joint Venture, low cost"
+      },
+      {
+        "name": "Newmont",
+        "ticker": "NEM",
+        "share_pct": 15.0,
+        "moat": "글로벌 1위 production + Newcrest 인수 후 reserve 확대"
+      },
+      {
+        "name": "AngloGold Ashanti",
+        "ticker": "AU",
+        "share_pct": 8.0,
+        "moat": "Africa·Americas 다각화, recent US listing"
+      },
+      {
+        "name": "Agnico Eagle",
+        "ticker": "AEM",
+        "share_pct": 9.0,
+        "moat": "Canada-focused, high-quality reserve"
+      },
+      {
+        "name": "Kinross Gold",
+        "ticker": "KGC",
+        "share_pct": 6.0,
+        "moat": "Tasiast + Round Mountain, 운영 효율"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-08",
+        "title": "금 가격 $4,580/oz break — multi-year high 다시 갱신",
+        "source": "COMEX",
+        "summary": "중앙은행 매수 + ETF 유입 지속"
+      },
+      {
+        "date": "2026-04-26",
+        "title": "NEM Q1 2026 매출 $5.2B (+12%), 영업이익률 38%",
+        "source": "NEM earnings",
+        "summary": "AISC $1,490, margin $3,100/oz"
+      },
+      {
+        "date": "2026-04-10",
+        "title": "산업분석러 본문 — 7개 펀드 금 광산주 동시 매수 consensus",
+        "source": "13F filing",
+        "summary": "GDX/GLD 비율 역사적 최저"
+      },
+      {
+        "date": "2026-03-12",
+        "title": "BIS 2026 reports — 글로벌 중앙은행 금 보유 비중 multi-year high",
+        "source": "BIS",
+        "summary": "디달러화 trend 확인"
+      },
+      {
+        "date": "2026-02-18",
+        "title": "GDX(Gold Miners ETF) AUM Q1 2026 +35% YoY",
+        "source": "VanEck",
+        "summary": "리테일·기관 자금흐름 가속"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 220.0,
+      "cagr_pct": 10.0,
+      "horizon": "2024-2030 (글로벌 금 광산 시장)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 170,
+      "thesis": "GDX/GLD mean reversion 발생 + 금가격 $5,000/oz+. NEM EBITDA $11B+ 2027. EV/EBITDA 10배 expansion.",
+      "key_assumptions": [
+        "금 $5,000/oz",
+        "AISC 통제",
+        "EV/EBITDA 10배"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 145,
+      "thesis": "금 $4,000-4,500/oz 유지, EBITDA $9B 2027. EV/EBITDA 8배 → multiple expansion 부분 실현.",
+      "key_assumptions": [
+        "금 stable",
+        "Production +3% CAGR",
+        "Multiple expansion 50%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 75,
+      "thesis": "인플레이션 진정 + 실질금리 +200bp → 금 $3,200/oz retracement. NEM EBITDA -25%.",
+      "key_assumptions": [
+        "금 -25%",
+        "EBITDA -25%",
+        "Multiple compression"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "NEM Q2 earnings + AISC guidance + capital return update",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Operating leverage 가시화"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Newcrest 통합 효과 본격 가시화",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "Synergy $500M+/년"
+    },
+    {
+      "date": "2027",
+      "event": "글로벌 금 ETF·중앙은행 매수 추세 update",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "디달러화 + 인플레이션 hedge"
+    },
+    {
+      "date": "2026-2028",
+      "event": "GDX(Gold Miners ETF) AUM 추세 — institutional rotation",
+      "type": "flows",
+      "expected_impact": "+",
+      "description": "Mean reversion catalyst"
+    }
+  ],
+  "risks": [
+    {
+      "name": "금 가격 retracement risk",
+      "severity": "moderate",
+      "mitigation": "Multi-driver(중앙은행·인플레이션·디달러화) 지속 시 sustain. 그러나 단기 변동 가능."
+    },
+    {
+      "name": "Reserve replacement capex 미달 → long-term production 감소",
+      "severity": "moderate",
+      "mitigation": "Newcrest 인수로 reserve 확대 + exploration capex $400M/년 유지"
+    },
+    {
+      "name": "Single-asset operational risk",
+      "severity": "moderate",
+      "mitigation": "글로벌 다각화 — 호주·캐나다·페루·도미니카 분산"
+    },
+    {
+      "name": "변동성 51% — commodity 특성",
+      "severity": "high",
+      "mitigation": "장기 thesis 유지, 단기 timing 어려움"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "T02 금 광산주 7-fund consensus (도널드 스미스·르네상스·하워드 막스 등)",
+      "type": "thesis",
+      "evidence": "13F Q1 2026 동조 매수",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AISC $1,400-1,600/oz vs 금가격 $4,400+ = 마진 $3,000/oz",
+      "type": "industry",
+      "evidence": "FY2025 영업이익률 38%, EBITDA $8.5B",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "EV/EBITDA 6-9배 (S&P 500 12-14배 대비 50% 할인)",
+      "type": "valuation",
+      "evidence": "Forward EV/EBITDA 7배 vs peer 12배",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "중앙은행 매수 + 디달러화 = 다년 driver",
+      "type": "macro",
+      "evidence": "BIS 2024 글로벌 중앙은행 금 보유 +20%",
+      "testability": "medium",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "GDX/GLD 비율 역사적 최저 — mean reversion 발생 시 +100-200%",
+      "type": "valuation",
+      "evidence": "Historical GDX/GLD vs 5Y moving average",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "us_disclosures": {
+    "recent_10k_summary": "FY2024 매출 $18.5B (+15% YoY), Adjusted EBITDA $7.8B. 금 production 6.1M oz.",
+    "key_filings": [
+      {
+        "date": "2026-04-26",
+        "type": "10-Q Q1 2026",
+        "summary": "매출 $5.2B(+12%), EBITDA $2B, AISC $1,490"
+      },
+      {
+        "date": "2026-02-21",
+        "type": "10-K FY2025",
+        "summary": "매출 $19.5B(+20%), EBITDA $8.5B, capital return $1.5B"
+      }
+    ]
+  }
+}
