@@ -1,0 +1,211 @@
+{
+  "industry": {
+    "name": "Liquid Biopsy / MRD ctDNA / MCED — 혈액 기반 암 진단",
+    "overview": "혈액에서 ctDNA(circulating tumor DNA)를 검출하여 (1) 잔존 종양 추적(MRD, Minimal Residual Disease) 및 (2) 다종 암 조기진단(MCED, Multi-Cancer Early Detection) 시장. NTRA의 Signatera는 MRD 분야 leader — FDA·메디케어 보험 급여 누적 확대. 매출 2024 +50% YoY ($1.5B), Signatera +50-60%. 일루미나 Grail 분사 후 MCED 시장 reshape — NTRA·Guardant·Exact Sciences·Grail·Caris 경쟁. 미국 메디케어(65세+) 인구 2024년 6,500만 → 2030년 7,500만. 산업분석러 본문: 드러켄밀러가 NTRA를 포트 1위(18.14%)로 집중 보유 — '매크로 독립 toll booth 비즈니스'. FDA가 multi-cancer panel 급여 확정 시 TAM 폭증.",
+    "competitors": [
+      {
+        "name": "Guardant Health",
+        "ticker": "GH",
+        "share_pct": 18.0,
+        "moat": "GuardantOMNI MRD + therapy selection"
+      },
+      {
+        "name": "Exact Sciences",
+        "ticker": "EXAS",
+        "share_pct": 15.0,
+        "moat": "Cologuard + Oncotype DX + Cancerguard MCED"
+      },
+      {
+        "name": "Grail (illumina spin-off)",
+        "ticker": "GRAL",
+        "share_pct": 10.0,
+        "moat": "Galleri MCED 첫 mover"
+      },
+      {
+        "name": "Natera",
+        "ticker": "NTRA",
+        "share_pct": 22.0,
+        "moat": "Signatera MRD leader + tumor-informed assay platform"
+      },
+      {
+        "name": "Caris Life Sciences",
+        "ticker": "CAI",
+        "share_pct": 8.0,
+        "moat": "Comprehensive profiling, recent IPO 2025"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-08",
+        "title": "Signatera 매출 Q1 2026 +55% YoY — 임상 채택 가속화",
+        "source": "NTRA earnings",
+        "summary": "전체 매출 $580M(+45%), Signatera $310M(+55%)"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "FDA — MCED draft guidance 발표, panel coverage path 명시",
+        "source": "FDA",
+        "summary": "보험 급여 확대 시 NTRA·GH·EXAS·GRAL 4-way race"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "드러켄밀러 13F NTRA 비중 18.14% — 'highest conviction signal'",
+        "source": "13F filing",
+        "summary": "산업분석러 본문 핵심 인용"
+      },
+      {
+        "date": "2026-02-10",
+        "title": "메디케어 NTRA Colorectal MRD coverage expansion",
+        "source": "CMS",
+        "summary": "정기 보험 급여 확대 — 환자 access 증가"
+      },
+      {
+        "date": "2026-01-18",
+        "title": "JP Morgan Healthcare — NTRA platform 'best MRD coverage'",
+        "source": "JPM conference",
+        "summary": "Sell-side momentum 강화"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 3.5,
+      "cagr_pct": 38.0,
+      "horizon": "2024-2030 (MRD+MCED 시장)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 280,
+      "thesis": "FDA MCED panel 급여 확정 + Signatera 보험 coverage 추가 cancer types. 매출 +50% CAGR 2027+, EV/Sales 12배 expansion.",
+      "key_assumptions": [
+        "FDA MCED 급여 2026 H2",
+        "Signatera coverage +5 cancer types",
+        "EBITDA breakeven 2026"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 220,
+      "thesis": "Signatera +50% CAGR 유지, MCED progressive expansion. EV/Sales 10배 fair value.",
+      "key_assumptions": [
+        "Signatera +50% growth",
+        "MCED gradual",
+        "EBITDA positive 2027"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 130,
+      "thesis": "FDA 급여 확대 지연 + 경쟁사(GH·EXAS) catch up. multiple compression.",
+      "key_assumptions": [
+        "급여 정체",
+        "Competition intensifies",
+        "Profitability 지연"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "FDA MCED draft → final guidance",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "TAM 폭증 catalyst"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Signatera coverage expansion — additional cancer types",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "Pancreatic·Hepatocellular MRD coverage"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "NTRA Q3 earnings — Signatera revenue inflection check",
+      "type": "earnings",
+      "expected_impact": "?",
+      "description": "EBITDA breakeven 가시화"
+    },
+    {
+      "date": "2027",
+      "event": "MCED commercial launch (NTRA platform)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Multi-cancer screening 시장 진입"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Profitless growth — capital raise risk",
+      "severity": "high",
+      "mitigation": "Adjusted EBITDA approaching breakeven. Operating leverage 가시화 시 완화."
+    },
+    {
+      "name": "FDA 정치 risk (2026 중간선거)",
+      "severity": "moderate",
+      "mitigation": "정권 변화 시 healthcare policy 변동 가능."
+    },
+    {
+      "name": "경쟁사 catch-up — Guardant, EXAS, GRAL",
+      "severity": "moderate",
+      "mitigation": "Signatera tumor-informed approach 차별화 유지."
+    },
+    {
+      "name": "변동성 56% — 단기 -20-30% drawdown 가능",
+      "severity": "high",
+      "mitigation": "장기 conviction holder 위치 유지 — 단기 timing 어려움."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "T04 드러켄밀러 18% 집중 — 'highest conviction signal'",
+      "type": "thesis",
+      "evidence": "13F filing Q1 2026",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Signatera 매출 +50-60% YoY 지속 — 'toll booth' biz model",
+      "type": "industry",
+      "evidence": "NTRA Q1 2026 +55%",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "FDA MCED 급여 확대 catalyst — TAM 폭증 setup",
+      "type": "regulatory",
+      "evidence": "FDA 2026 H2 guidance, 2024-26 정책 우선",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "매크로 독립 — 인플레이션 / 유가 / 전쟁 모두 무관",
+      "type": "macro",
+      "evidence": "검사 진단은 환자 행동 — 통화·정책 무관",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "경쟁사 Guardant·EXAS·GRAL — Signatera 차별화 유지",
+      "type": "industry",
+      "evidence": "Tumor-informed assay specificity",
+      "testability": "medium",
+      "current_status": "confirmed"
+    }
+  ],
+  "us_disclosures": {
+    "recent_10k_summary": "FY2024 매출 $1.5B (+50% YoY), Adjusted EBITDA $-180M (개선 추세). Signatera 매출 $830M.",
+    "key_filings": [
+      {
+        "date": "2026-05-08",
+        "type": "10-Q Q1 2026",
+        "summary": "매출 $580M(+45%), Signatera $310M(+55%)"
+      },
+      {
+        "date": "2026-02-26",
+        "type": "10-K FY2025",
+        "summary": "매출 $2.1B(+40%), Adj EBITDA $-50M"
+      }
+    ]
+  }
+}
