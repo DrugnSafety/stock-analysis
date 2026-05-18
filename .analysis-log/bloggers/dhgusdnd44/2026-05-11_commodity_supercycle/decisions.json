@@ -1,0 +1,170 @@
+{
+  "computed_at": "2026-05-12T08:53:36.209287+09:00",
+  "ledger_path": ".analysis-log/bloggers/dhgusdnd44/2026-05-11_commodity_supercycle/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/dhgusdnd44/2026-05-11_commodity_supercycle/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "010130.KS",
+      "date": "2026-05-11",
+      "n_verdicts": 2,
+      "verdict_breakdown": {
+        "lean_bullish": 2
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 0.673,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.2,
+          "score_contribution": 0.546
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.5,
+          "score_contribution": 0.651
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 100,
+      "current_price": 1528000.0,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.7496,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    },
+    {
+      "ticker": "103140.KS",
+      "date": "2026-05-11",
+      "n_verdicts": 2,
+      "verdict_breakdown": {
+        "BUY": 1,
+        "lean_bullish": 1
+      },
+      "signal_score": 0.8436,
+      "weighted_confidence": 0.67,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.78,
+          "weight": 1.2,
+          "score_contribution": 0.936
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.68,
+          "weight": 1.5,
+          "score_contribution": 0.714
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 1652,
+      "current_price": 93200.0,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.6584,
+      "reasoning": "강한 매수 신호 (+0.84), 한도까지 진입"
+    },
+    {
+      "ticker": "FCX",
+      "date": "2026-05-11",
+      "n_verdicts": 2,
+      "verdict_breakdown": {
+        "BUY": 2
+      },
+      "signal_score": 1.0,
+      "weighted_confidence": 0.574,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.82,
+          "weight": 1.1,
+          "score_contribution": 0.902
+        },
+        "stanley-druckenmiller": {
+          "verdict": "BUY",
+          "confidence": 0.78,
+          "weight": 1.2,
+          "score_contribution": 0.936
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 2392418,
+      "current_price": 64.37,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.5445,
+      "reasoning": "강한 매수 신호 (+1.00), 한도까지 진입"
+    },
+    {
+      "ticker": "FSLR",
+      "date": "2026-05-11",
+      "n_verdicts": 2,
+      "verdict_breakdown": {
+        "BUY": 1,
+        "lean_bullish": 1
+      },
+      "signal_score": 0.8602,
+      "weighted_confidence": 0.526,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.75,
+          "weight": 1.1,
+          "score_contribution": 0.825
+        },
+        "cathie-wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.0,
+          "score_contribution": 0.504
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 660179,
+      "current_price": 233.27,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.5081,
+      "reasoning": "강한 매수 신호 (+0.86), 한도까지 진입"
+    },
+    {
+      "ticker": "MP",
+      "date": "2026-05-11",
+      "n_verdicts": 2,
+      "verdict_breakdown": {
+        "lean_bullish": 2
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 0.524,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.1,
+          "score_contribution": 0.477
+        },
+        "cathie-wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.66,
+          "weight": 1.0,
+          "score_contribution": 0.462
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 154000000.0,
+      "target_quantity": 2284527,
+      "current_price": 67.41,
+      "position_limit_value": 154000000.0,
+      "annualized_volatility": 0.6983,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    }
+  ]
+}
