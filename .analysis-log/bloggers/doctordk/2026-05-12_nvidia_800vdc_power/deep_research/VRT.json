@@ -1,0 +1,223 @@
+{
+  "ticker": "VRT",
+  "name_kr": "버티브 홀딩스",
+  "name_en": "Vertiv Holdings Co.",
+  "ipo_year": 2020,
+  "market_data_snapshot": {
+    "ticker": "VRT",
+    "name": "Vertiv Holdings Co",
+    "current_price": 363.84,
+    "currency": "USD",
+    "forward_pe": 41.6,
+    "trailing_pe": 91.65,
+    "beta": 2.1,
+    "return_1m_pct": 23.29,
+    "return_3m_pct": 80.16,
+    "return_6m_pct": 93.82,
+    "return_1y_pct": 260.5,
+    "volatility_annualized_pct": 59.85,
+    "market_cap_local_bn": 139.75,
+    "market_cap_usd_bn": 139.75,
+    "ev_ebitda": 59.62,
+    "div_yield_pct": 0.07,
+    "pb": 35.31,
+    "fetched_at": "2026-05-12T17:59:31",
+    "fetched_via": "yfinance 1.3.0 (live)",
+    "as_of_date": "2026-05-12"
+  },
+  "industry": {
+    "name": "AI Data Center Critical Infrastructure (Power+Cooling+Service)",
+    "overview": "글로벌 데이터센터 critical infra 시장 2024 $35B → 2030 $80-100B (Gartner·451 Research). AI DC segment 비중이 2024 30% → 2030 60%+로 확대. Vertiv는 글로벌 점유율 ~25%, US AI DC segment 점유율 ~35%로 카테고리 leader. NVIDIA HGX·DGX·Blackwell reference design에 Vertiv power+cooling 솔루션 직접 추천.",
+    "competitors": [
+      {
+        "name": "Schneider Electric",
+        "ticker": "SBGSY",
+        "share_pct": 22.0,
+        "moat": "Big 4, 글로벌 service + AI DC offering 강화 중"
+      },
+      {
+        "name": "ABB",
+        "ticker": "ABBNY",
+        "share_pct": 14.0,
+        "moat": "산업 자동화·SST 강자"
+      },
+      {
+        "name": "Eaton",
+        "ticker": "ETN",
+        "share_pct": 12.0,
+        "moat": "Power 관리 100년, AI DC + EV + grid 다중"
+      },
+      {
+        "name": "Vertiv",
+        "ticker": "VRT",
+        "share_pct": 25.0,
+        "moat": "AI DC system integration leader, NVIDIA partnership"
+      },
+      {
+        "name": "Cummins",
+        "ticker": "CMI",
+        "share_pct": 6.0,
+        "moat": "Backup gen + DC power, secondary"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 35.0,
+      "cagr_pct": 16.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "$8.0B (YoY +17%)",
+    "revenue_2025_est": "$10-11B (AI DC backlog 가속)",
+    "gross_margin": "약 35%",
+    "operating_margin": "약 18-20% (positive scaling)",
+    "balance_sheet": "현금 $1B+, 부채 $2B (manageable), interest coverage 강",
+    "fcf": "$1B+ annual, sustained growth",
+    "comment": "Vertiv는 본문 (의교창 #2)에서 ABB·Eaton·Schneider와 함께 'NVIDIA 800V 로드맵에 SST 통합 계획 반영' 기업으로 명시. AI DC backlog는 historical high 갱신 중, 2024-2025 backlog YoY +35% 이상."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 600.0,
+      "thesis": "AI DC capex 100GW+ 2035 시나리오 정합 시 2027 revenue $14-16B, 2030 $25B+. EBITDA margin 22%+로 확장 → 5-year upside 1.6x with multiple expansion.",
+      "key_assumptions": [
+        "AI capex CAGR 25%+ sustain",
+        "800VDC market leader 30%+ share 유지",
+        "Liquid cooling segment 매출 가속"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 420.0,
+      "thesis": "AI capex 사이클 sustain, 2027 revenue $12-13B, gross margin 35-37%, EBITDA margin 20%. 5-year upside 1.15x with valuation compression.",
+      "key_assumptions": [
+        "AI DC backlog YoY +20-25%",
+        "Multiple fwd PE 42 → 35",
+        "Competitive position 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 230.0,
+      "thesis": "AI capex cycle peak + valuation reset (fwd PE 42 → 25) → -35~-40% drawdown. 다만 underlying fundamentals 강해 mean-reversion 정상.",
+      "key_assumptions": [
+        "AI capex 둔화 → backlog growth 정체",
+        "Multiple compression fwd PE 25",
+        "Schneider·ABB·Eaton 경쟁 강화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q1",
+      "event": "2025 FY earnings — backlog YoY growth disclosure",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI DC backlog 가속 신호"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "800VDC product line 매출 첫 disclosure",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "thesis 직접 검증"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Liquid cooling 신제품 발표",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "thermal segment 가속"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "NVIDIA Kyber NVL576 reference design partnership 공개",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "vendor lock-in 강화"
+    },
+    {
+      "date": "2027-Q4",
+      "event": "Cooling segment M&A 가능성",
+      "type": "m&a",
+      "expected_impact": "+",
+      "description": "thermal portfolio 확장"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex cycle peak 시 multiple compression",
+      "probability": "med",
+      "impact": "high",
+      "description": "Forward PE 42 → 25 시 -40% drawdown, 1Y +260% rally 이후",
+      "mitigation": "Underlying fundamentals 강·long-term secular tailwind"
+    },
+    {
+      "name": "경쟁사 (Schneider·ABB·Eaton) AI DC offering 강화",
+      "probability": "med",
+      "impact": "med",
+      "description": "system-level integration 영역에서 share 압박",
+      "mitigation": "NVIDIA partnership·service network·scuttlebutt 강"
+    },
+    {
+      "name": "Supply chain disruption (transformers·copper)",
+      "probability": "med",
+      "impact": "med",
+      "description": "원가 상승 + delivery 지연 위험",
+      "mitigation": "vertical capa 확장·multi-source procurement"
+    },
+    {
+      "name": "Hyperscaler in-house custom design 확대",
+      "probability": "low",
+      "impact": "high",
+      "description": "AWS·MS·Google 자체 power infra 설계 시 partnership 약화",
+      "mitigation": "system 통합·service 차별점 강조"
+    },
+    {
+      "name": "FX 노출 (해외 매출 60%+)",
+      "probability": "high",
+      "impact": "low",
+      "description": "달러 강세 시 매출 압박",
+      "mitigation": "FX hedge·natural hedging"
+    }
+  ],
+  "valuation_context": "Forward PE 41.6, Trailing PE 91.7, PB 35.3, EV/EBITDA 59.6. Premium valuation으로 시장이 이미 4-5년치 growth pre-priced. 1Y +260% rally 이후 단기 mean-reversion 위험 vs. 장기 secular growth justification — 'great business at rich price' 구도.",
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020A",
+        "revenue": 4366,
+        "op_margin": 8.0,
+        "net_margin": 0.5
+      },
+      {
+        "year": "2021A",
+        "revenue": 4998,
+        "op_margin": 9.0,
+        "net_margin": 2.0
+      },
+      {
+        "year": "2022A",
+        "revenue": 5691,
+        "op_margin": 12.0,
+        "net_margin": 4.0
+      },
+      {
+        "year": "2023A",
+        "revenue": 6862,
+        "op_margin": 15.0,
+        "net_margin": 7.0
+      },
+      {
+        "year": "2024A",
+        "revenue": 8012,
+        "op_margin": 18.5,
+        "net_margin": 9.5
+      }
+    ],
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": []
+  }
+}
