@@ -1,0 +1,332 @@
+{
+  "ticker": "010130.KS",
+  "company_kr": "고려아연",
+  "company_en": "Korea Zinc Company, Ltd.",
+  "sector": "Zinc/Lead/Silver Smelting + Battery Materials + 신재생",
+  "industry": {
+    "name": "Non-Ferrous Metal Smelting + Battery Material + Renewable",
+    "overview": "고려아연은 세계 1위 아연 제련소(연 130만톤 capacity)이자 한국 최대 비철금속 종합기업. 동래제련소·온산제련소 + 호주 Sun Metals(신재생 + 아연 제련) + 미국 Igneo Holdings(폐배터리 재활용)의 글로벌 footprint. 본 분석의 비교 thesis는 LSMnM과 동일한 '비중국 전구체 + 미·중 critical mineral 동맹' 전략을 추진 중이나, 2024.10부터 MBK·영풍·최씨가 거버넌스 분쟁이 진행되며 핵심 의사결정 지연이 핵심 변수라는 점. 미 국방부 지분 인수 협상은 LSMnM 대비 선행했지만, 거버넌스 안정성에서 LS그룹이 우위.",
+    "competitors": [
+      {
+        "name": "Glencore Zinc",
+        "ticker": "GLEN.L",
+        "share_pct": 10.0,
+        "moat": "글로벌 zinc 1위 mining + trading"
+      },
+      {
+        "name": "LS MnM (비상장)",
+        "ticker": "006260.KS (모회사)",
+        "share_pct": 0.0,
+        "moat": "구리 + 황산 + 비중국 전구체 — 본 분석의 직접 비교"
+      },
+      {
+        "name": "Boliden",
+        "ticker": "BOL.ST",
+        "share_pct": 6.0,
+        "moat": "스웨덴 zinc + copper, EU 신재생 통합"
+      },
+      {
+        "name": "Sumitomo Metal Mining",
+        "ticker": "5713.T",
+        "share_pct": 8.0,
+        "moat": "일본 비철 + 인니 niquel + Sumitomo 그룹 vertical"
+      },
+      {
+        "name": "Korea Mine Rehabilitation",
+        "ticker": "Public",
+        "share_pct": 0.0,
+        "moat": "국내 광산 운영, 정책 시너지"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-14",
+        "title": "산업분석러: LSMnM과 동일 비중국 전구체 전략 비교",
+        "source": "산업분석러 블로그",
+        "summary": "거버넌스 변수 + 미국 국방부 협력 선행 시 valuation re-rating 가능"
+      },
+      {
+        "date": "2026-04",
+        "title": "고려아연 자사주 매입 추가 발표",
+        "source": "DART",
+        "summary": "거버넌스 방어 vs 자본 효율성"
+      },
+      {
+        "date": "2026-03",
+        "title": "Igneo Holdings 폐배터리 처리 capacity 확대",
+        "source": "Earnings",
+        "summary": "미국 cathode 재활용 시장 진입"
+      },
+      {
+        "date": "2025-12",
+        "title": "Sun Metals 그린 아연 인증 획득",
+        "source": "Press release",
+        "summary": "유럽 grid demand"
+      },
+      {
+        "date": "2025-09",
+        "title": "MBK-영풍 vs 최씨가 분쟁 1주년 — 의결권 분쟁 계속",
+        "source": "Korea Economic Daily",
+        "summary": "법적 분쟁 + 자본 비용"
+      },
+      {
+        "date": "2025-06",
+        "title": "미 국방부 critical mineral 협력 MOU 가능성 보도",
+        "source": "Reuters",
+        "summary": "고려아연의 비중국 챔피언 후보 선정 가능성"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 75,
+      "cagr_pct": 8,
+      "horizon": "글로벌 비철 + 비중국 battery material 통합"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 9799,
+        "op_income": 1175,
+        "op_margin": 12.0,
+        "net_income": 903,
+        "net_margin": 9.2
+      },
+      {
+        "year": 2022,
+        "revenue": 11231,
+        "op_income": 935,
+        "op_margin": 8.3,
+        "net_income": 825,
+        "net_margin": 7.3
+      },
+      {
+        "year": 2023,
+        "revenue": 9583,
+        "op_income": 681,
+        "op_margin": 7.1,
+        "net_income": 707,
+        "net_margin": 7.4
+      },
+      {
+        "year": 2024,
+        "revenue": 12009,
+        "op_income": 1071,
+        "op_margin": 8.9,
+        "net_income": 803,
+        "net_margin": 6.7
+      },
+      {
+        "year": "2025E",
+        "revenue": 13800,
+        "op_income": 1380,
+        "op_margin": 10.0,
+        "net_income": 1050,
+        "net_margin": 7.6
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2024-12-31",
+      "total_assets_bn_krw": 15200,
+      "total_liabilities_bn_krw": 4800,
+      "total_equity_bn_krw": 10400,
+      "cash_and_equivalents_bn_krw": 2400,
+      "interest_bearing_debt_bn_krw": 2100,
+      "net_debt_to_ebitda": "-0.2 (net cash)"
+    },
+    "cf_snapshot": {
+      "as_of_year": 2024,
+      "ocf_bn_krw": 1620,
+      "capex_bn_krw": -980,
+      "fcf_bn_krw": 640,
+      "dividend_paid_bn_krw": -420
+    },
+    "material_variance_summary": "2024 매출 +25% YoY 호조 (>$1B threshold 통과), OP +57% (>15%). KPI: 신재생·재활용·미국 진출 동시 진행이 자본 부담. 거버넌스 분쟁 자본 비용 약 0.3-0.5조 추가 발생 (자사주 매입). LSMnM 대비 큰 시가총액·이익 규모이나 valuation premium 적용 어려움."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.3,
+      "horizon": "3-5Y",
+      "target_price": 2300000,
+      "prob_pct": 30,
+      "thesis": "(1) 거버넌스 분쟁 12-18M 내 resolution (최씨가 방어 성공 or MBK 매각) → 자본 효율 정상화 + 시장 신뢰 회복 -> re-rating +25%, (2) 미 국방부 critical mineral MOU 체결 → MP·라이너스급 정책 partner 지위 확보, (3) Igneo 폐배터리 + Sun Metals 신재생이 안정적 secondary growth driver, (4) 호주·미국 footprint로 미국 IRA 30D/45X 동시 수혜, (5) 황산 cycle은 secondary tailwind"
+    },
+    "base": {
+      "probability": 0.45,
+      "horizon": "2-3Y",
+      "target_price": 1750000,
+      "prob_pct": 45,
+      "thesis": "(1) 거버넌스 장기화 but operational steady-state, (2) 비중국 전구체 사업 점진적 확장, (3) 미 국방부 partnership 형식적 협력 단계, (4) zinc·납·은 cyclical 정상, (5) PE 22-24x range 유지"
+    },
+    "bear": {
+      "probability": 0.25,
+      "horizon": "1-2Y",
+      "target_price": 1050000,
+      "prob_pct": 25,
+      "thesis": "(1) 거버넌스 분쟁 4-5년 장기화 + 자본 효율 악화, (2) 미 국방부 협력이 형식적 수준에 그침, (3) 비중국 전구체 사업이 LSMnM에 밀려 시장 잃음, (4) 자사주 매입 자금 부담으로 CAPEX 축소 → 신사업 ramp 지연, (5) PE 17x 회귀"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3-Q4",
+      "event": "MBK-최씨가 분쟁 1차 법원 판결",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "어느 방향이든 변동성 ↑"
+    },
+    {
+      "date": "2026-2027",
+      "event": "미 국방부 critical mineral MOU 체결 가능성",
+      "type": "policy",
+      "expected_impact": "++",
+      "description": "공식화 시 valuation re-rating"
+    },
+    {
+      "date": "2026-Q2-Q3",
+      "event": "Igneo 미국 폐배터리 처리 capacity 확장",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "cathode 재활용 시장 점유 확대"
+    },
+    {
+      "date": "2026",
+      "event": "Sun Metals 신재생 전력 PPA 추가 계약",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Scope 2 배출 감축 → EU 그린 프리미엄"
+    },
+    {
+      "date": "2027",
+      "event": "비중국 전구체 본격 capacity 가동",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "LSMnM과 competition"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Governance (지배구조)",
+      "type": "governance",
+      "probability": "med",
+      "impact": "high",
+      "description": "거버넌스 분쟁 4-5년 장기화 — 핵심 의사결정 지연 + 자본 비용",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Policy (정책·규제)",
+      "type": "policy",
+      "probability": "med",
+      "impact": "med",
+      "description": "미 국방부 협력이 형식적 수준에 그칠 가능성",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Competitor (경쟁)",
+      "type": "competitor",
+      "probability": "med",
+      "impact": "med",
+      "description": "LSMnM·포스코퓨처엠 비중국 전구체 시장 우위 가능성",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Cyclical (경기·산업)",
+      "type": "cyclical",
+      "probability": "med",
+      "impact": "med",
+      "description": "zinc·납·은 가격 cyclical 하락",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Valuation",
+      "type": "valuation",
+      "probability": "med",
+      "impact": "med",
+      "description": "거버넌스 분쟁 장기화 시 valuation re-rating delay",
+      "mitigation": "다양화·hedge·모니터링"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T7",
+      "claim": "고려아연 vs LSMnM — 동일 비중국 전구체 전략의 검증 가능성",
+      "evidence": "본 thesis는 LSMnM 우위 주장 — 고려아연 거버넌스 disadvantage",
+      "type": "comparative",
+      "testability": "high",
+      "current_status": "invalidated",
+      "impact": "--"
+    },
+    {
+      "claim_id": "T5",
+      "claim": "LSMnM = 부산물 황산 + 호르무즈 무관 + 초고순도 황산 + 비중국 전구체 4중 해자",
+      "evidence": "고려아연도 유사 구조 — 황산 부산물 + 비중국 전구체 + 폐배터리",
+      "type": "factual+forward",
+      "testability": "medium",
+      "current_status": "validated",
+      "impact": "+"
+    },
+    {
+      "claim_id": "T1",
+      "claim": "황산 가격 구조적 상승 (호르무즈 봉쇄 + 중·러·터키 수출 금지)",
+      "evidence": "동제련소 일부 황산 부산물 매출 수혜",
+      "type": "factual",
+      "testability": "high",
+      "current_status": "validated",
+      "impact": "+"
+    },
+    {
+      "claim_id": "T2",
+      "claim": "구리 제련 양극화: 건식 부산물 수익화 vs 습식 원가 폭증으로 양쪽 모두 감산 압력",
+      "evidence": "고려아연은 zinc 중심, copper 비중 작음",
+      "type": "predictive",
+      "testability": "high",
+      "current_status": "pending",
+      "impact": "+/-"
+    },
+    {
+      "claim_id": "T4",
+      "claim": "에너지 전환의 황 역설 — 호르무즈 해제로도 해결 불가한 구조적 모순",
+      "evidence": "Sun Metals 신재생 + Igneo 재활용 = 에너지 전환 핵심",
+      "type": "predictive (structural)",
+      "testability": "medium",
+      "current_status": "validated",
+      "impact": "+"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-25",
+      "type": "주요사항보고",
+      "title": "자사주 매입 추가 결정 2,000억",
+      "impact": "+/-",
+      "summary": "거버넌스 방어 vs 자본 효율"
+    },
+    {
+      "date": "2026-03-31",
+      "type": "사업보고서",
+      "title": "2025 매출 12.0조 OP 1,071억",
+      "impact": "+",
+      "summary": "ZnC·납·은 가격 호조"
+    },
+    {
+      "date": "2026-02-28",
+      "type": "주요사항보고",
+      "title": "MBK 공개매수 2차 시도 — 의결권 분쟁 격화",
+      "impact": "-",
+      "summary": "장기 분쟁 가능성"
+    },
+    {
+      "date": "2025-12-15",
+      "type": "주요사항보고",
+      "title": "Igneo 미국 capacity 확장 발표",
+      "impact": "+",
+      "summary": "$300M CAPEX"
+    },
+    {
+      "date": "2025-08-30",
+      "type": "분기보고서",
+      "title": "Sun Metals 신재생 인증 + EU 그린 프리미엄 계약",
+      "impact": "+",
+      "summary": "Scope 2 배출 감축"
+    }
+  ]
+}
