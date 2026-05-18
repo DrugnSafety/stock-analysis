@@ -1,0 +1,117 @@
+{
+  "computed_at": "2026-05-14T15:46:35",
+  "start_cash_usd": 1000000,
+  "start_date": "2026-05-14",
+  "end_date": "2026-05-14",
+  "n_decisions": 5,
+  "total_trades": 5,
+  "total_buy_value_usd": 423653.94,
+  "total_sell_value_usd": 0.0,
+  "final_cash_usd": 576346.06,
+  "end_positions_value_usd": 423653.94,
+  "final_nav_usd": 1000000.0,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "006260.KS": {
+      "qty": 274,
+      "avg_cost_usd": 364.0952,
+      "last_price_usd": 364.0952,
+      "market_value_usd": 99762.08,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "066970.KQ": {
+      "qty": 605,
+      "avg_cost_usd": 123.7924,
+      "last_price_usd": 123.7924,
+      "market_value_usd": 74894.4,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "010130.KS": {
+      "qty": 45,
+      "avg_cost_usd": 1089.4016,
+      "last_price_usd": 1089.4016,
+      "market_value_usd": 49023.07,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "FCX": {
+      "qty": 1519,
+      "avg_cost_usd": 65.82,
+      "last_price_usd": 65.82,
+      "market_value_usd": 99980.58,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "VALE": {
+      "qty": 5993,
+      "avg_cost_usd": 16.6851,
+      "last_price_usd": 16.6851,
+      "market_value_usd": 99993.8,
+      "unrealized_pnl_usd": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-14",
+      "ticker": "006260.KS",
+      "action": "buy",
+      "qty": 274,
+      "price_usd": 364.0952,
+      "cost_usd": 99762.08,
+      "cash_after_usd": 900237.92
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "066970.KQ",
+      "action": "buy",
+      "qty": 605,
+      "price_usd": 123.7924,
+      "cost_usd": 74894.4,
+      "cash_after_usd": 825343.51
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "010130.KS",
+      "action": "buy",
+      "qty": 45,
+      "price_usd": 1089.4016,
+      "cost_usd": 49023.07,
+      "cash_after_usd": 776320.44
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "FCX",
+      "action": "buy",
+      "qty": 1519,
+      "price_usd": 65.82,
+      "cost_usd": 99980.58,
+      "cash_after_usd": 676339.86
+    },
+    {
+      "date": "2026-05-14",
+      "ticker": "VALE",
+      "action": "buy",
+      "qty": 5993,
+      "price_usd": 16.6851,
+      "cost_usd": 99993.8,
+      "cash_after_usd": 576346.06
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": null,
+      "end_price": null,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    },
+    "SPY": {
+      "start_price": null,
+      "end_price": null,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    }
+  }
+}
