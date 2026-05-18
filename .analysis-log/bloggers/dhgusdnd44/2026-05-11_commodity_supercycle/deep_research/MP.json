@@ -1,0 +1,214 @@
+{
+  "industry": {
+    "name": "Rare Earth — 채굴·정제·자석 (US Mountain Pass)",
+    "overview": "북미 유일 운영 중인 희토류 광산 (Mountain Pass, CA). 단계별 vertical integration: Stage 1 (채굴), 2 (정련), 3 (분리), 4 (금속화), 5 (alloy), 6 (자석). 펜타곤 NdPr 가격 floor $110/kg + Apple 5년 자석 공급 계약 (2025-12 발표). 글로벌 NdPr·SmCo magnet에서 중국 95% 독점 깨기 시도.",
+    "competitors": [
+      {
+        "name": "China Northern Rare Earth",
+        "ticker": "600111.SS",
+        "share_pct": 35.0,
+        "moat": "중국 정부 통제, 글로벌 light REE #1"
+      },
+      {
+        "name": "Lynas Rare Earths",
+        "ticker": "LYC.AX",
+        "share_pct": 8.0,
+        "moat": "Mt Weld + Malaysia 정제, China 외 최대"
+      },
+      {
+        "name": "MP Materials",
+        "ticker": "MP",
+        "share_pct": 6.0,
+        "moat": "Mountain Pass 단일 광산 + 미국 vertical integration"
+      },
+      {
+        "name": "Shenghe Resources",
+        "ticker": "600392.SS",
+        "share_pct": 4.0,
+        "moat": "중국 정제 + Greenland Tanbreez 지분"
+      },
+      {
+        "name": "USA Rare Earth",
+        "ticker": "USAR",
+        "share_pct": 1.0,
+        "moat": "텍사스 Round Top deposit (heavy REE)"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 15,
+      "cagr_pct": 9.8,
+      "horizon": "2025-2030"
+    },
+    "news": [],
+    "recent_news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 332,
+        "op_income": 193,
+        "op_margin": 58.2,
+        "net_income": 135,
+        "net_margin": 40.7
+      },
+      {
+        "year": 2022,
+        "revenue": 528,
+        "op_income": 272,
+        "op_margin": 51.5,
+        "net_income": 213,
+        "net_margin": 40.3
+      },
+      {
+        "year": 2023,
+        "revenue": 268,
+        "op_income": -14,
+        "op_margin": -5.2,
+        "net_income": -27,
+        "net_margin": -10.1
+      },
+      {
+        "year": 2024,
+        "revenue": 312,
+        "op_income": 27,
+        "op_margin": 8.8,
+        "net_income": -12,
+        "net_margin": -3.8
+      },
+      {
+        "year": 2025,
+        "revenue": 425,
+        "op_income": 76,
+        "op_margin": 18.0,
+        "net_income": 35,
+        "net_margin": 8.2
+      }
+    ],
+    "summary": "2021-22 NdPr 가격 (peak $200/kg) 이후 cyclical pullback. 2024-25 vertical integration capex로 FCF 음수. Stage 4-5 자석 사업 commercialization은 2026-27 예상.",
+    "balance_sheet_snapshot": {},
+    "cf_summary": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 110,
+      "thesis": "자석 사업 commercialization, Apple 매출 본격화, NdPr $150+/kg",
+      "key_assumptions": [
+        "NdPr spot $150+/kg 회복 (현 $85)",
+        "Apple 자석 공급 2026 매출 $50M+, 2027 $200M+",
+        "Stage 6 자석 sold-out 발표"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 82,
+      "thesis": "정부 floor $110 유지, 자석 ramp 정상화",
+      "key_assumptions": [
+        "NdPr $100-120/kg",
+        "Apple 매출 2026 $30M",
+        "Stage 4-5 commercial ramping"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 42,
+      "thesis": "중국 가격 dumping, 자석 사업 지연",
+      "key_assumptions": [
+        "NdPr spot $60-70/kg",
+        "Stage 4-5 commercial 2028 지연",
+        "Apple 계약 잠정 보류"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Apple 자석 공급 본격화 (5년 계약 매출 기록)",
+      "type": "earnings",
+      "expected_impact": "++",
+      "description": "2025-12 Apple 5년 계약 매출 인식 시작"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Stage 4-5 자석 사업 commercial production 시작",
+      "type": "operational",
+      "expected_impact": "++",
+      "description": "Texas Fort Worth 자석 공장 가동"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "GM·Ford 등 EV 자석 신규 계약 잠재",
+      "type": "demand",
+      "expected_impact": "+",
+      "description": "OEM 희토류 자석 supply 다변화 요구"
+    },
+    {
+      "date": "2027-H1",
+      "event": "Stage 6 (alloy + 자석) sold-out 발표 가능성",
+      "type": "demand",
+      "expected_impact": "++",
+      "description": "Mountain Pass 후속 광산 evaluation"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 52+ 단기 과열",
+      "probability": "high",
+      "impact": "high",
+      "description": "1Y +207%, multiple compression 위험",
+      "mitigation": "정부 floor + Apple 계약으로 EPS visibility 확보"
+    },
+    {
+      "name": "Stage 4-5 자석 사업 execution 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "기술적 난이도 + scale-up 어려움",
+      "mitigation": "Pentagon DPA 자금 지원, GM·Apple 파트너십"
+    },
+    {
+      "name": "중국 정부 가격 dumping",
+      "probability": "med",
+      "impact": "med",
+      "description": "중국이 NdPr 가격 인하로 압박",
+      "mitigation": "Pentagon $110 floor + IRA tax credit"
+    },
+    {
+      "name": "Single-asset risk",
+      "probability": "low",
+      "impact": "med",
+      "description": "Mountain Pass 단일 광산 노출 (자연재해·사고)",
+      "mitigation": "보험 + 후속 광산 evaluation (Greenland 등)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "재생E 광물 수요 7-13배 가스 대비 — 구조적 호재",
+      "type": "macro",
+      "evidence": "IEA Critical Minerals 2025, NZE 시나리오",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "재생E·EV 자석 광물 수요 — 풍력 1MW = NdPr 200kg, EV 1대 = 1.5kg"
+    },
+    {
+      "claim": "AI 데이터센터가 구리·은·희토류 쇼티지 가속화",
+      "type": "industry",
+      "evidence": "IEA Electricity 2026, Hyperscaler $360B capex",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "AI 데이터센터 자석 (HVAC 모터·로봇·드론) 수요"
+    },
+    {
+      "claim": "원자재 슈퍼사이클 — 재생E·공급 병목·약달러 3대 요인",
+      "type": "macro",
+      "evidence": "BlackRock 2026 Commodity Outlook, BCI +18.7% YTD",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "광물 supercycle thesis — 정부 정책 lock-in으로 더 강한 driver"
+    }
+  ],
+  "korean_disclosures": []
+}
