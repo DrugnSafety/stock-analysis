@@ -1,0 +1,168 @@
+{
+  "name": "HD Hyundai Electric",
+  "industry": {
+    "tam_2024_krw_tn": 60,
+    "tam_2030_krw_tn": 110,
+    "cagr_pct": 10.7,
+    "key_drivers": [
+      "미국 데이터센터 변압기 수출 (매출의 35%, 2027E 50%)",
+      "한전 765kV 송전선·변환소 신설 (본토 매출 30%)",
+      "글로벌 그리드 modernization (EU·중동 향 수출 확대)"
+    ],
+    "competitive_position": "한국 변압기 #1 leader (HD현대 그룹 전력 부문). 2023년 분할 상장. 765kV·345kV UHV 변압기·power transformer·industrial transformer 라인업. Alabama 미국 공장 (2025년 가동) + 울산 본사 공장. 미국 BIS 안티덤핑 관세 (한국 변압기 부분 5-15%) 영향 받지만 lead time·quality 우위로 시장 진출 지속. ABB·Hitachi Energy capacity 부족 반사이익.",
+    "market_share_pct_korea": 35,
+    "market_share_pct_global": 4,
+    "key_competitors": [
+      "효성중공업",
+      "LS일렉트릭",
+      "일진전기",
+      "ABB",
+      "Hitachi Energy",
+      "Siemens Energy"
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 1800000,
+      "thesis": "미국 매출 50%+ 확대 + 한전 765kV 프로젝트 가속 + 영업이익률 22%+",
+      "key_assumptions": [
+        "Alabama 공장 ramp 성공",
+        "한전 매년 KRW 1조+ 발주",
+        "영업이익률 22%+ 도달"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 1500000,
+      "thesis": "2026E 매출 KRW 7.0조 (+23% YoY), 영업이익률 20%+, EPS KRW 78,000",
+      "key_assumptions": [
+        "미국 매출 비중 35-40%",
+        "한전 본토 매출 안정",
+        "EPS KRW 78,000 × 19x"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 900000,
+      "thesis": "주가 25x 상승 후 multiple contraction + 미국 관세 강화",
+      "key_assumptions": [
+        "Trump 관세 한국 변압기 30%+",
+        "한전 발주 둔화",
+        "PE 18x → 14x"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07-30",
+      "event": "Q2 FY2026 실적 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "미국 매출 비중 35%+ 확인"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "Q3 FY2026 실적 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Alabama ramp + 수출 가속"
+    },
+    {
+      "date": "2026 H2",
+      "event": "한전 765kV 송전망 발주",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "1차 프로젝트 win"
+    },
+    {
+      "date": "2026 H2",
+      "event": "Alabama 추가 capacity 확장",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "미국 시장 점유율 확대"
+    },
+    {
+      "date": "2027 H1",
+      "event": "FY2027 매출 KRW 8조+ 가이던스",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "미국 매출 40%+ 달성"
+    }
+  ],
+  "risks": [
+    {
+      "name": "미국 BIS anti-dumping 관세 강화",
+      "probability": "med",
+      "impact": "high",
+      "description": "Trump 관세 정책 — 한국 변압기 5-15% 추가 상승 위험",
+      "mitigation": "Alabama 공장 'domestic content' 일부 충족"
+    },
+    {
+      "name": "주가 25x 상승 후 multiple contraction",
+      "probability": "med",
+      "impact": "med",
+      "description": "PE 18x → 12-14x 위험",
+      "mitigation": "Earnings growth +35-50%으로 maintain"
+    },
+    {
+      "name": "한전 발주 둔화",
+      "probability": "low",
+      "impact": "med",
+      "description": "한국 정부 전력 정책 변경 시",
+      "mitigation": "수출 비중 확대로 의존도 감소"
+    },
+    {
+      "name": "환율 변동",
+      "probability": "med",
+      "impact": "low",
+      "description": "USD 강세 → KRW 평가 손실",
+      "mitigation": "Currency hedging"
+    },
+    {
+      "name": "Raw material (전기강판)",
+      "probability": "med",
+      "impact": "low",
+      "description": "POSCO 의존도 높음",
+      "mitigation": "POSCO와 장기 계약"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "한국 변압기 #1 — 미국·한국 dual exposure",
+      "type": "company",
+      "evidence": "매출 KRW 5.7조, 영업이익률 18%",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Alabama 공장 가동 → 미국 시장 직접 진출 (anti-dumping 회피)",
+      "type": "policy",
+      "evidence": "2025년 가동, FY2026 ramp",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "한전 765kV 송전망 다년 발주 → 본토 매출 30% cushion",
+      "type": "policy",
+      "evidence": "한국 전력공사 2025-2034 그리드 KRW 60조",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "ABB·Hitachi·Siemens capacity 부족 반사이익",
+      "type": "industry",
+      "evidence": "글로벌 변압기 lead time 18-24개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "주가 2-3년 25x 상승 — multiple contraction risk",
+      "type": "valuation",
+      "evidence": "PE 18x vs historical 평균 10-12x",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": []
+}
