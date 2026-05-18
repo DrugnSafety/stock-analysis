@@ -1,0 +1,216 @@
+{
+  "industry": {
+    "name": "구리·황동·방산 소재",
+    "overview": "글로벌 구리 supercycle (LME 구리 $5.10/lb, YTD +24%) + 데이터센터·전력망·EV 수요 가속화로 한국 #1 동(구리) 정련사 풍산이 직접 수혜. 방산 (탄약·소재) 매출 25%로 전쟁비용 thesis(T1)에도 노출. 글로벌 구리 deficit 2025 -250kt → 2030 -6Mt (CRU·Wood Mackenzie).",
+    "competitors": [
+      {
+        "name": "LS MnM",
+        "ticker": "006260.KS",
+        "share_pct": 28.0,
+        "moat": "한국 #1 비철금속 (구리·아연·은) 통합, 황산 부산물"
+      },
+      {
+        "name": "고려아연",
+        "ticker": "010130.KS",
+        "share_pct": 15.0,
+        "moat": "세계 #1 아연 제련, 은 부산물 top-3"
+      },
+      {
+        "name": "Hindalco",
+        "ticker": "500440.BO",
+        "share_pct": 8.0,
+        "moat": "인도 #1 알루미늄·구리 통합"
+      },
+      {
+        "name": "Sumitomo Metal Mining",
+        "ticker": "5713.T",
+        "share_pct": 6.0,
+        "moat": "일본 구리·니켈 제련"
+      },
+      {
+        "name": "풍산",
+        "ticker": "103140.KS",
+        "share_pct": 4.0,
+        "moat": "한국 #1 동·황동 + 방산 (탄약·소재) 25%"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 165,
+      "cagr_pct": 5.5,
+      "horizon": "2025-2030"
+    },
+    "news": [],
+    "recent_news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 3215,
+        "op_income": 135,
+        "op_margin": 4.2,
+        "net_income": 95,
+        "net_margin": 3.0
+      },
+      {
+        "year": 2022,
+        "revenue": 3520,
+        "op_income": 169,
+        "op_margin": 4.8,
+        "net_income": 118,
+        "net_margin": 3.4
+      },
+      {
+        "year": 2023,
+        "revenue": 4108,
+        "op_income": 250,
+        "op_margin": 6.1,
+        "net_income": 178,
+        "net_margin": 4.3
+      },
+      {
+        "year": 2024,
+        "revenue": 4750,
+        "op_income": 356,
+        "op_margin": 7.5,
+        "net_income": 251,
+        "net_margin": 5.3
+      },
+      {
+        "year": 2025,
+        "revenue": 5180,
+        "op_income": 425,
+        "op_margin": 8.2,
+        "net_income": 305,
+        "net_margin": 5.9
+      }
+    ],
+    "summary": "5년 매출 CAGR +13%, OPM 점진 개선 (4% → 8%). FCF generation 강함. 구리 슈퍼사이클 진입으로 2026-2030 OPM 10-12% 가능.",
+    "balance_sheet_snapshot": {},
+    "cf_summary": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 145000,
+      "thesis": "구리 $7+/lb 도달 + 방산 +30% 매출 + 데이터센터 변압기 동선 수요 확대 trio",
+      "key_assumptions": [
+        "구리 LME spot $7/lb 도달 (BlackRock·BofA 2027 target)",
+        "방산 매출 비중 25% → 30% (155mm 탄약 미국 수출)",
+        "원달러 환율 1,380-1,420 KRW 유지 (약달러 수출 마진)"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 115000,
+      "thesis": "구리 $5.5/lb 유지 + 방산 안정 + 데이터센터 수요 점진",
+      "key_assumptions": [
+        "구리 LME spot $5-5.5/lb 유지",
+        "방산 매출 비중 25% 유지",
+        "글로벌 manufacturing PMI 50+ 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 72000,
+      "thesis": "구리 $4/lb 후퇴 + 중국 부동산 deeper recession + 방산 신규 계약 부진",
+      "key_assumptions": [
+        "구리 LME spot $3.8-4.2/lb",
+        "중국 부동산 투자 -20% YoY",
+        "방산 매출 -10%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "구리 spot $6/lb 돌파 가능성",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "LME 구리 inventory 추가 감소 (88kt → 60kt 가능성)"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "방산 신규 계약 (155mm 탄약 미국 수출 확대)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "유럽·우크라이나 재고 보충 수요 + 미국 NATO 보유 의무 강화"
+    },
+    {
+      "date": "2027-H1",
+      "event": "데이터센터 변압기 backlog로 동선 수요 확대",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "Hitachi·Schneider·Siemens Energy 변압기 backlog 3년 → 5년"
+    }
+  ],
+  "risks": [
+    {
+      "name": "구리 가격 cyclical pullback",
+      "probability": "med",
+      "impact": "high",
+      "description": "구리 -30% 시 OPM 절반 이하 (4% 미만)",
+      "mitigation": "방산 매출 hedging, 장기 contract 비중 50% 유지"
+    },
+    {
+      "name": "중국 부동산 deeper recession",
+      "probability": "med",
+      "impact": "med",
+      "description": "글로벌 구리 수요의 50%가 중국 (건설·전력·EV) — 부동산 침체 시 -8-12% 영향",
+      "mitigation": "EU·미국 매출 비중 확대 (40% → 50% 목표)"
+    },
+    {
+      "name": "FX (원달러 환율) 강세",
+      "probability": "low",
+      "impact": "med",
+      "description": "원화 강세 시 수출 매출 -5-8%",
+      "mitigation": "통화 헷지 비중 40% 유지"
+    },
+    {
+      "name": "ESG·탄소 규제 강화",
+      "probability": "low",
+      "impact": "med",
+      "description": "구리 정련 탄소 배출 규제 도입 시 capex +",
+      "mitigation": "재생에너지 PPA 확대, 친환경 공정 도입"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "원자재 슈퍼사이클 — 재생E·공급 병목·약달러 3대 요인",
+      "type": "macro",
+      "evidence": "BlackRock 2026 Commodity Outlook, BCI +18.7% YTD",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "구리 supercycle 직접 수혜 — 매출 60% 구리 사업"
+    },
+    {
+      "claim": "AI 데이터센터가 구리·은·희토류 쇼티지 가속화",
+      "type": "industry",
+      "evidence": "IEA Electricity 2026, Hyperscaler $360B capex",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "데이터센터 변압기·서버 동선 수요 직접 노출"
+    },
+    {
+      "claim": "이란전쟁 비용 720억 → 미 국채·인플레→ Fed 인하 제약",
+      "type": "macro",
+      "evidence": "OMB 보고서, Fed funds futures, WTI/Brent 가격",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "방산 매출 25%로 전쟁비용 thesis 직접 수혜"
+    },
+    {
+      "claim": "재생E 광물 수요 7-13배 가스 대비 — 구조적 호재",
+      "type": "macro",
+      "evidence": "IEA Critical Minerals 2025, NZE 시나리오",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "재생E 전력망 구리 수요 증폭 — 한국 #1 동 정련"
+    }
+  ],
+  "korean_disclosures": []
+}
