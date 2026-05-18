@@ -1,0 +1,225 @@
+{
+  "industry": {
+    "name": "아연·은·납 제련 + 황산 부산물",
+    "overview": "세계 #1 아연 제련사 (글로벌 9%). 은·납 부산물로 silver 시장 top-5. 황산 (광물 정제 핵심 인풋) 한국 최대 producer. 페루 비상령(T6)에 따른 silver supply 차질 시 직접 수혜. 단 MBK 경영권 분쟁이 거버넌스 리스크.",
+    "competitors": [
+      {
+        "name": "Glencore",
+        "ticker": "GLEN.L",
+        "share_pct": 15.0,
+        "moat": "글로벌 광산·트레이딩 #1"
+      },
+      {
+        "name": "Boliden",
+        "ticker": "BOL.ST",
+        "share_pct": 6.0,
+        "moat": "스웨덴 통합 광산·제련"
+      },
+      {
+        "name": "Teck Resources",
+        "ticker": "TECK",
+        "share_pct": 7.0,
+        "moat": "캐나다 통합 광산"
+      },
+      {
+        "name": "Nyrstar",
+        "ticker": "NYR.BR",
+        "share_pct": 5.0,
+        "moat": "유럽 #1 아연 제련"
+      },
+      {
+        "name": "고려아연",
+        "ticker": "010130.KS",
+        "share_pct": 9.0,
+        "moat": "세계 #1 단일 사업장 아연, 은·납 부산물, 황산 한국 #1"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 90,
+      "cagr_pct": 4.8,
+      "horizon": "2025-2030"
+    },
+    "news": [],
+    "recent_news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 11500,
+        "op_income": 943,
+        "op_margin": 8.2,
+        "net_income": 765,
+        "net_margin": 6.7
+      },
+      {
+        "year": 2022,
+        "revenue": 12800,
+        "op_income": 1216,
+        "op_margin": 9.5,
+        "net_income": 982,
+        "net_margin": 7.7
+      },
+      {
+        "year": 2023,
+        "revenue": 14200,
+        "op_income": 1676,
+        "op_margin": 11.8,
+        "net_income": 1325,
+        "net_margin": 9.3
+      },
+      {
+        "year": 2024,
+        "revenue": 13800,
+        "op_income": 1173,
+        "op_margin": 8.5,
+        "net_income": 924,
+        "net_margin": 6.7
+      },
+      {
+        "year": 2025,
+        "revenue": 14500,
+        "op_income": 1334,
+        "op_margin": 9.2,
+        "net_income": 1058,
+        "net_margin": 7.3
+      }
+    ],
+    "summary": "안정적 매출 성장 (CAGR +6%), OPM 9-12% 변동. 거버넌스 분쟁으로 신사업 (배터리 소재) 진행 지연 가능.",
+    "balance_sheet_snapshot": {},
+    "cf_summary": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 2000000,
+      "thesis": "은 $40+, 페루 비상령 지속 + MBK 분쟁 종결 + 배터리 신사업 ramping",
+      "key_assumptions": [
+        "은 spot $40/oz 돌파",
+        "페루 광산 60일+ 가동 중단으로 은 spike",
+        "MBK 분쟁 H2 종결로 신사업 가동 가속화"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 1650000,
+      "thesis": "은 $33-35 유지, 거버넌스 분쟁 답보, 신사업 점진 진행",
+      "key_assumptions": [
+        "은 spot $33-35 유지",
+        "MBK 분쟁 장기화",
+        "배터리 신사업 commercial production 2027"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 1200000,
+      "thesis": "은 $28- 후퇴, 거버넌스 fail, 신사업 무산",
+      "key_assumptions": [
+        "은 spot $28 미만",
+        "MBK 적대적 인수 성공",
+        "배터리 신사업 중단"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2-Q3",
+      "event": "MBK vs 최씨일가 거버넌스 분쟁 결과",
+      "type": "governance",
+      "expected_impact": "±",
+      "description": "MBK 적대적 인수 시도 결과 — 종결 시 +30%, fail 시 -25%"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "페루 비상령 광산 가동 차질 신호 시 은 spike",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Buenaventura·Volcan 가동 중단 시 글로벌 은 spot +5-15%"
+    },
+    {
+      "date": "2027",
+      "event": "배터리 소재 (전구체·니켈) 신사업 가동",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "온산 신공장 6만톤 capa, 2027 H1 commercial production"
+    }
+  ],
+  "risks": [
+    {
+      "name": "거버넌스 분쟁 (MBK)",
+      "probability": "high",
+      "impact": "high",
+      "description": "MBK가 적대적 인수 진행, R&D·capex 의사결정 지연",
+      "mitigation": "최씨일가 + 한앤컴퍼니 + 한화 등 white knight 연합"
+    },
+    {
+      "name": "고밸류에이션 (PE 24+)",
+      "probability": "med",
+      "impact": "med",
+      "description": "한국 화학·소재 peer (PE 15-18) 대비 프리미엄, multiple compression 위험",
+      "mitigation": "신사업 EBITDA 기여로 PE 정상화"
+    },
+    {
+      "name": "아연·은 cyclical pullback",
+      "probability": "low",
+      "impact": "med",
+      "description": "아연·은 -30% 시 OPM 5% 이하",
+      "mitigation": "황산 매출 (구조적 가격 상승)으로 hedge"
+    },
+    {
+      "name": "신사업 진입 늦음",
+      "probability": "med",
+      "impact": "low",
+      "description": "배터리 소재 사업 경쟁사 (LG·삼성SDI·POSCO) 대비 늦음",
+      "mitigation": "차별화 (전구체 + 니켈 vertical) 강조"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "페루 비상령 → 세계 2위 은 생산국 가동 차질",
+      "type": "geopolitical",
+      "evidence": "페루 Decreto de Emergencia Energética 2026-05-04",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "페루 비상령 영향 시 은 spot +10%, 고려아연 은 부산물 매출 +10-15%"
+    },
+    {
+      "claim": "황산 수급 부족 → 광산 가동 중단 → 비료·배터리 파급",
+      "type": "industry",
+      "evidence": "글로벌 황산 +220%, 비료 indices +34%",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "황산 가격 +250%는 고려아연 부산물 매출 직접 수혜"
+    },
+    {
+      "claim": "원자재 슈퍼사이클 — 재생E·공급 병목·약달러 3대 요인",
+      "type": "macro",
+      "evidence": "BlackRock 2026 Commodity Outlook, BCI +18.7% YTD",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "원자재 supercycle thesis 핵심 수혜 — 아연·은·황산 트리플 노출"
+    },
+    {
+      "claim": "AI 데이터센터가 구리·은·희토류 쇼티지 가속화",
+      "type": "industry",
+      "evidence": "IEA Electricity 2026, Hyperscaler $360B capex",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "lean_support",
+      "rationale_for_ticker": "AI 데이터센터 은 (CPU·EUV·솔더링) 수요 간접 노출"
+    },
+    {
+      "claim": "재생E 광물 수요 7-13배 가스 대비 — 구조적 호재",
+      "type": "macro",
+      "evidence": "IEA Critical Minerals 2025, NZE 시나리오",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "재생E 광물 수요 — 솔라 1GW = 은 5톤 → 글로벌 +590GW 솔라 = 2,950톤 은 수요"
+    }
+  ],
+  "korean_disclosures": []
+}
