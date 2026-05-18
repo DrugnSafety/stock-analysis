@@ -1,0 +1,1353 @@
+{
+  "ticker": "ENPH",
+  "ticker_name": "엔페이즈 에너지",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "neutral": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.57,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.52
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "neutral (3/4)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "cycle",
+      "frequency": 6,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "nassim-taleb",
+        "mohnish-pabrai",
+        "rakesh-jhunjhunwala",
+        "stanley-druckenmiller"
+      ],
+      "examples": [
+        "[inference] Cycle 노출 + residential 시장 미회복",
+        "[inference] Cycle bottom contrarian entry 후보"
+      ]
+    },
+    {
+      "theme": "회복",
+      "frequency": 5,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "mohnish-pabrai",
+        "phil-fisher"
+      ],
+      "examples": [
+        "[actual] 1Y -3.5% — 시장이 회복 인정 안 함",
+        "[inference] Cycle 노출 + residential 시장 미회복"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 1Y -3.5% — 시장이 회복 인정 안 함",
+        "[actual] forward P/E 25x — high",
+        "[inference] Cycle 노출 + residential 시장 미회복"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 마이크로인버터 60% 미국 점유율 — wide moat",
+        "[actual] EBITDA margin 27% 가이던스 회복",
+        "[inference] 안정적 비즈니스 model + brand recognition"
+      ],
+      "uncertainty": "Residential solar 회복 + valuation",
+      "narrative_vs_quant_resolution": "Buffett: Wide moat 인정하나 valuation high + cycle 노출로 cautious. Neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "워런 버핏: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. value 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "neutral",
+          "confidence": 0.46
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "워런 버핏: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "워런 버핏: 24GW 강제 교체는 추정치이나 방향성은 명확. value 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "워런 버핏: 프리미엄 밸류에이션은 이미 진행 중. value 관점에서 sustainability가 핵심 질문.",
+          "stance": "neutral",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "워런 버핏: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "neutral",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "워런 버핏: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. value 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "워런 버핏: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. value 측면에서 quality는 인정.",
+          "stance": "neutral",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "워런 버핏: 다운스트림 사업자의 단가-세액공제 trade-off. value 측면에서 capital structure가 결정적 변수.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "워런 버핏: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. value 관점에서 추가 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "워런 버핏: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "neutral",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] 마이크로인버터 commodity 가능성 — 중국 competition 진입 시",
+        "[actual] 1Y -3.5% — momentum 약함",
+        "[inference] 회복 thesis는 지난 2년간 반복"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 마이크로인버터 wide moat — 60% 미국 점유율 + brand",
+        "[actual] Cycle bottom 통과 — 매출 +35% 회복",
+        "[inference] \"Wonderful business\" 측면 강함"
+      ],
+      "uncertainty": "Cycle 정상화 + valuation 부담",
+      "narrative_vs_quant_resolution": "Munger: Wonderful business이나 fair price 미달. Neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "찰리 멍거: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. value 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "neutral",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "찰리 멍거: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "neutral",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "찰리 멍거: 24GW 강제 교체는 추정치이나 방향성은 명확. value 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "neutral",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "찰리 멍거: 프리미엄 밸류에이션은 이미 진행 중. value 관점에서 sustainability가 핵심 질문.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "찰리 멍거: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "찰리 멍거: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. value 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "찰리 멍거: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. value 측면에서 quality는 인정.",
+          "stance": "neutral",
+          "confidence": 0.49
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "찰리 멍거: 다운스트림 사업자의 단가-세액공제 trade-off. value 측면에서 capital structure가 결정적 변수.",
+          "stance": "neutral",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "찰리 멍거: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. value 관점에서 추가 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "찰리 멍거: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "neutral",
+          "confidence": 0.57
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 1Y -3.5% — 시장이 turnaround 인정 안 함",
+        "[actual] forward P/E 25x → PEG 1.0+ (성장 25% 가정 시)",
+        "[inference] Residential solar 시장 mature"
+      ],
+      "key_opportunities_top3": [
+        "[inference] \"Turnaround\" 매력 — 매출 회복 + 마진 회복 동시",
+        "[actual] 미국 residential 60% 시장 점유율",
+        "[inference] \"Story\": 미국 청정에너지 + Non-China 인프라"
+      ],
+      "uncertainty": "Cycle 회복 속도",
+      "narrative_vs_quant_resolution": "Lynch: Turnaround story + market leadership — Lean_bullish modest.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "피터 린치: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. growth 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "support",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "피터 린치: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "support",
+          "confidence": 0.61
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "피터 린치: 24GW 강제 교체는 추정치이나 방향성은 명확. growth 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "support",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "피터 린치: 프리미엄 밸류에이션은 이미 진행 중. growth 관점에서 sustainability가 핵심 질문.",
+          "stance": "support",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "피터 린치: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "support",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "피터 린치: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. growth 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "support",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "피터 린치: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. growth 측면에서 quality는 인정.",
+          "stance": "support",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "피터 린치: 다운스트림 사업자의 단가-세액공제 trade-off. growth 측면에서 capital structure가 결정적 변수.",
+          "stance": "support",
+          "confidence": 0.73
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "피터 린치: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. growth 관점에서 추가 검증 필요.",
+          "stance": "support",
+          "confidence": 0.73
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "피터 린치: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "challenge",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] 마이크로인버터 commodity 가능성",
+        "[inference] AI/SaaS 등 ARK themes와 거리",
+        "[actual] 1Y -3.5% — disruption thesis 진행 미흡"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 마이크로인버터 = 인버터 산업 disruption",
+        "[actual] 미국 residential solar TAM 회복 — Enphase 1차 수혜",
+        "[inference] IQ 시리즈 = next-gen 기술"
+      ],
+      "uncertainty": "Disruption 진행 속도",
+      "narrative_vs_quant_resolution": "Wood: 마이크로인버터 disruption thesis 인정하나 mature phase. Lean_bullish modest.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "캐시 우드: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. growth 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "support",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "캐시 우드: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "support",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "캐시 우드: 24GW 강제 교체는 추정치이나 방향성은 명확. growth 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "support",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "캐시 우드: 프리미엄 밸류에이션은 이미 진행 중. growth 관점에서 sustainability가 핵심 질문.",
+          "stance": "support",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "캐시 우드: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "support",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "캐시 우드: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. growth 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "support",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "캐시 우드: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. growth 측면에서 quality는 인정.",
+          "stance": "support",
+          "confidence": 0.61
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "캐시 우드: 다운스트림 사업자의 단가-세액공제 trade-off. growth 측면에서 capital structure가 결정적 변수.",
+          "stance": "support",
+          "confidence": 0.69
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "캐시 우드: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. growth 관점에서 추가 검증 필요.",
+          "stance": "support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "캐시 우드: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "challenge",
+          "confidence": 0.71
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[inference] -45% 매출 충격 후 일부 회복",
+        "[actual] 시장이 회복 thesis 일부만 인정",
+        "[inference] Cycle bottom contrarian entry 후보"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 매출 회복 +35% YoY — turning point 확인",
+        "[inference] Burry-style: deep value + contrarian + recovery",
+        "[inference] 시장 underestimating 회복 속도"
+      ],
+      "uncertainty": "회복 속도 + valuation reset",
+      "narrative_vs_quant_resolution": "Burry: '시장이 회복을 너무 늦게 인식' — contrarian thesis 매력. Lean_bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "마이클 버리: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. value-contrarian 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "support",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "마이클 버리: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "support",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "마이클 버리: 24GW 강제 교체는 추정치이나 방향성은 명확. value-contrarian 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "support",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "마이클 버리: 프리미엄 밸류에이션은 이미 진행 중. value-contrarian 관점에서 sustainability가 핵심 질문.",
+          "stance": "support",
+          "confidence": 0.61
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "마이클 버리: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "마이클 버리: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. value-contrarian 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "support",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "마이클 버리: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. value-contrarian 측면에서 quality는 인정.",
+          "stance": "support",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "마이클 버리: 다운스트림 사업자의 단가-세액공제 trade-off. value-contrarian 측면에서 capital structure가 결정적 변수.",
+          "stance": "support",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "마이클 버리: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. value-contrarian 관점에서 추가 검증 필요.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "마이클 버리: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "challenge",
+          "confidence": 0.66
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] Volatility 82% — high",
+        "[inference] Residential cycle sensitivity",
+        "[inference] 중국 competition 진입 시 fragility"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 비대칭 — bottom 통과 후 upside potential",
+        "[actual] 시총 $6.1B mid-cap → institutional support",
+        "[inference] Multi-product (인버터 + ESS) → diversification"
+      ],
+      "uncertainty": "Cycle 회복 + competition entry",
+      "narrative_vs_quant_resolution": "Taleb: 사이클 fragility 있으나 antifragility (multi-product) 일부 보유. Neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "나심 탈레브: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. risk 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "neutral",
+          "confidence": 0.46
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "나심 탈레브: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "나심 탈레브: 24GW 강제 교체는 추정치이나 방향성은 명확. risk 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "나심 탈레브: 프리미엄 밸류에이션은 이미 진행 중. risk 관점에서 sustainability가 핵심 질문.",
+          "stance": "neutral",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "나심 탈레브: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "neutral",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "나심 탈레브: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. risk 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "나심 탈레브: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. risk 측면에서 quality는 인정.",
+          "stance": "neutral",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "나심 탈레브: 다운스트림 사업자의 단가-세액공제 trade-off. risk 측면에서 capital structure가 결정적 변수.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "나심 탈레브: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. risk 관점에서 추가 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "나심 탈레브: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "neutral",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] Forward P/E 25x — Graham 기준 위반",
+        "[inference] EPS 변동성 높음",
+        "[actual] 무배당 — defensive 기준 미달"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 마이크로인버터 점유율 = 자산 value의 일종",
+        "[actual] PBR 5x — Graham 기준 위반이나 IP·기술 value",
+        "[inference] 회복 시 EPS $4+ → P/E reset 가능"
+      ],
+      "uncertainty": "EPS 정상화 + valuation reset",
+      "narrative_vs_quant_resolution": "Graham: 정량 기준 미달이나 cycle 정상화 EPS 적용 시 합리화 가능. Neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "벤저민 그레이엄: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. value 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "neutral",
+          "confidence": 0.46
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "벤저민 그레이엄: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "벤저민 그레이엄: 24GW 강제 교체는 추정치이나 방향성은 명확. value 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "벤저민 그레이엄: 프리미엄 밸류에이션은 이미 진행 중. value 관점에서 sustainability가 핵심 질문.",
+          "stance": "neutral",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "벤저민 그레이엄: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "neutral",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "벤저민 그레이엄: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. value 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "벤저민 그레이엄: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. value 측면에서 quality는 인정.",
+          "stance": "neutral",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "벤저민 그레이엄: 다운스트림 사업자의 단가-세액공제 trade-off. value 측면에서 capital structure가 결정적 변수.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "벤저민 그레이엄: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. value 관점에서 추가 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "벤저민 그레이엄: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "neutral",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[inference] Mature business — activism 효과 제한",
+        "[actual] 시총 $6B — mid-cap activism 가능",
+        "[inference] 마이크로인버터 mature segment"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 분리상장 (ESS 부문 등) catalyst 가능",
+        "[actual] 미국 residential 60% 시장 점유율 = leadership",
+        "[inference] Cycle 회복 시 operating leverage"
+      ],
+      "uncertainty": "Activism opportunity 제한",
+      "narrative_vs_quant_resolution": "Ackman: Quality business but activism alpha 제한. Neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "빌 애크먼: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. activist 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "neutral",
+          "confidence": 0.46
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "빌 애크먼: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "빌 애크먼: 24GW 강제 교체는 추정치이나 방향성은 명확. activist 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "빌 애크먼: 프리미엄 밸류에이션은 이미 진행 중. activist 관점에서 sustainability가 핵심 질문.",
+          "stance": "neutral",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "빌 애크먼: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "neutral",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "빌 애크먼: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. activist 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "빌 애크먼: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. activist 측면에서 quality는 인정.",
+          "stance": "neutral",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "빌 애크먼: 다운스트림 사업자의 단가-세액공제 trade-off. activist 측면에서 capital structure가 결정적 변수.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "빌 애크먼: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. activist 관점에서 추가 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "빌 애크먼: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "neutral",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] Forward P/E 25x → Dhandho ratio low",
+        "[actual] Cycle 정상화 시 reset risk",
+        "[inference] -45% 매출 후 회복 시기 불확실"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Cycle bottom recovery — asymmetric upside",
+        "[actual] 마이크로인버터 점유율 + brand moat",
+        "[inference] \"Cloning\" 가능한 high-quality business"
+      ],
+      "uncertainty": "Recovery timing",
+      "narrative_vs_quant_resolution": "Pabrai: Dhandho ratio 일부 매력하나 valuation 부담 — Lean_bullish modest.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "모니쉬 파브라이: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. value 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "모니쉬 파브라이: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "support",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "모니쉬 파브라이: 24GW 강제 교체는 추정치이나 방향성은 명확. value 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "support",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "모니쉬 파브라이: 프리미엄 밸류에이션은 이미 진행 중. value 관점에서 sustainability가 핵심 질문.",
+          "stance": "support",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "모니쉬 파브라이: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "support",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "모니쉬 파브라이: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. value 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "모니쉬 파브라이: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. value 측면에서 quality는 인정.",
+          "stance": "support",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "모니쉬 파브라이: 다운스트림 사업자의 단가-세액공제 trade-off. value 측면에서 capital structure가 결정적 변수.",
+          "stance": "support",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "모니쉬 파브라이: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. value 관점에서 추가 검증 필요.",
+          "stance": "support",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "모니쉬 파브라이: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "challenge",
+          "confidence": 0.68
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[inference] 중국 competition 진입 시 R&D 차별화 부족 가능",
+        "[actual] 매출 -45% 후 회복 시점 불확실",
+        "[inference] 15-Point Checklist 일부 약점"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 마이크로인버터 기술 leader — IQ 시리즈",
+        "[actual] 미국 60% 점유율 = sales capability + product superiority",
+        "[inference] R&D + management excellence + sales capability triple"
+      ],
+      "uncertainty": "R&D 차별화의 sustainable",
+      "narrative_vs_quant_resolution": "Fisher: 진정한 wide-moat 기업. R&D + sales + management excellence. Lean_bullish strong.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "필립 피셔: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. growth 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "필립 피셔: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "support",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "필립 피셔: 24GW 강제 교체는 추정치이나 방향성은 명확. growth 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "support",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "필립 피셔: 프리미엄 밸류에이션은 이미 진행 중. growth 관점에서 sustainability가 핵심 질문.",
+          "stance": "support",
+          "confidence": 0.71
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "필립 피셔: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "support",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "필립 피셔: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. growth 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "support",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "필립 피셔: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. growth 측면에서 quality는 인정.",
+          "stance": "support",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "필립 피셔: 다운스트림 사업자의 단가-세액공제 trade-off. growth 측면에서 capital structure가 결정적 변수.",
+          "stance": "support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "필립 피셔: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. growth 관점에서 추가 검증 필요.",
+          "stance": "support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "필립 피셔: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "challenge",
+          "confidence": 0.77
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 미국 stock — 신흥국 외",
+        "[inference] Mature 시장 vs 신흥국 IPO 차별성",
+        "[inference] Cycle 노출"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Recovery + Non-China 인프라 결합",
+        "[actual] 마이크로인버터 점유율 = strong moat",
+        "[inference] Long-term 청정에너지 trend"
+      ],
+      "uncertainty": "Cycle 회복 + valuation reset",
+      "narrative_vs_quant_resolution": "Jhunjhunwala: GARP — growth pacing OK이나 valuation 부담. Neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "라케시 준준왈라: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. growth-em 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "neutral",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "라케시 준준왈라: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "라케시 준준왈라: 24GW 강제 교체는 추정치이나 방향성은 명확. growth-em 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "라케시 준준왈라: 프리미엄 밸류에이션은 이미 진행 중. growth-em 관점에서 sustainability가 핵심 질문.",
+          "stance": "neutral",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "라케시 준준왈라: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "라케시 준준왈라: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. growth-em 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "neutral",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "라케시 준준왈라: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. growth-em 측면에서 quality는 인정.",
+          "stance": "neutral",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "라케시 준준왈라: 다운스트림 사업자의 단가-세액공제 trade-off. growth-em 측면에서 capital structure가 결정적 변수.",
+          "stance": "neutral",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "라케시 준준왈라: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. growth-em 관점에서 추가 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "라케시 준준왈라: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "neutral",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[inference] 직접 Non-PFE 수혜 약함 — 인버터는 모듈 대비 정책 노출 약함",
+        "[actual] 1Y -3.5% — trend 부적합",
+        "[inference] Residential solar cycle 노출"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Macro tailwind 일부 — residential solar 회복",
+        "[actual] 마이크로인버터 1위 — 시장 회복 시 leader",
+        "[inference] Cycle bottom + 회복 + Non-China 통합 시스템 결합"
+      ],
+      "uncertainty": "Macro flow vs micro fundamentals",
+      "narrative_vs_quant_resolution": "Druckenmiller: 매크로는 모듈 종목보다 약함 — Enphase는 secondary trend. Neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "스탠리 드러켄밀러: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. macro 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "neutral",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "스탠리 드러켄밀러: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "스탠리 드러켄밀러: 24GW 강제 교체는 추정치이나 방향성은 명확. macro 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "스탠리 드러켄밀러: 프리미엄 밸류에이션은 이미 진행 중. macro 관점에서 sustainability가 핵심 질문.",
+          "stance": "neutral",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "스탠리 드러켄밀러: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "neutral",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "스탠리 드러켄밀러: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. macro 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "neutral",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "스탠리 드러켄밀러: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. macro 측면에서 quality는 인정.",
+          "stance": "neutral",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "스탠리 드러켄밀러: 다운스트림 사업자의 단가-세액공제 trade-off. macro 측면에서 capital structure가 결정적 변수.",
+          "stance": "neutral",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "스탠리 드러켄밀러: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. macro 관점에서 추가 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "스탠리 드러켄밀러: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "neutral",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "아스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] forward P/E 25x — implied 25%+ growth 가정",
+        "[inference] Recovery thesis가 implied growth 충족하는지 검증 필요",
+        "[inference] Discount Rate에 cyclical risk premium"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Reverse DCF — 시장이 mature growth 가정",
+        "[actual] EBITDA margin 회복 27% → cash flow 견고",
+        "[inference] Story-numbers 일관성 — recovery story와 fundamentals 일치"
+      ],
+      "uncertainty": "Recovery 속도 + valuation",
+      "narrative_vs_quant_resolution": "Damodaran: \"Story must match numbers\" — recovery story 진행 중이나 valuation 약간 stretched. Lean_bearish modest.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "미국 대형 태양광 사업자(Sunrun 등)는 프로젝트 승인 단계에서 중국계 모듈업체를 공급망에서 명시적으로 배제하기 시작했고, 이는 일시적 결정...",
+          "persona_take": "아스워스 다모다란: Sunrun 사례는 단일 데이터 포인트이나 산업 전반 신호. valuation 관점에서 정책 변화는 검증 가능한 명백한 사실.",
+          "stance": "challenge",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "미국 태양광 프로젝트의 핵심 수익성 변수는 가격이 아니라 ITC/PTC 적격 여부이며, BBBA(Build Back Better Act) 청정세...",
+          "persona_take": "아스워스 다모다란: ITC/PTC 수익성 직결은 결정론적 정량 변수. BBBA Non-PFE 정책은 매크로·정량 두 lens에서 valid.",
+          "stance": "challenge",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "미국 내 설치 설비의 약 40%(약 24GW)가 여전히 중국 연계 공급망에 의존하고 있으나 정책 강화로 빠르게 감소할 수밖에 없는 구조이며, 이...",
+          "persona_take": "아스워스 다모다란: 24GW 강제 교체는 추정치이나 방향성은 명확. valuation 측면에서 'TAM 강제 전환'은 매우 중요 사실.",
+          "stance": "challenge",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "Non-China 공급망(Qcells, Silfab, REC, First Solar 등)은 가격 경쟁이 아닌 정책 적격성을 기반으로 자연스럽게 ...",
+          "persona_take": "아스워스 다모다란: 프리미엄 밸류에이션은 이미 진행 중. valuation 관점에서 sustainability가 핵심 질문.",
+          "stance": "challenge",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "OCI 홀딩스는 미국 Mississippi에 위치한 폴리실리콘 생산설비를 보유한 글로벌 최상위 비중국 폴리실리콘 공급자로서, BBBA Non-P...",
+          "persona_take": "아스워스 다모다란: Mississippi 폴리실리콘 = 'choke-point' position. 비중국 capa 글로벌 4만톤 only는 매우 sticky moat.",
+          "stance": "challenge",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "한화솔루션 자회사 Qcells는 미국 Georgia 통합 생산(잉곳-웨이퍼-셀-모듈)을 갖춘 사실상 유일한 비중국 풀스택 모듈업체로, Sunru...",
+          "persona_take": "아스워스 다모다란: Qcells 풀스택 = 정책 + 위치 + 기술 trifecta. valuation 관점에서 wide moat이나 부모회사 dilution 우려 존재.",
+          "stance": "challenge",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "First Solar(FSLR)는 박막(CdTe) 기반 완전 Non-China 공급망 모듈업체로, 폴리실리콘 의존도가 구조적으로 없어 BBBA ...",
+          "persona_take": "아스워스 다모다란: First Solar의 CdTe 박막 + 폴리실리콘 미사용 = 가장 견고한 Non-China 노출. valuation 측면에서 quality는 인정.",
+          "stance": "challenge",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "Sunrun을 비롯한 미국 다운스트림 사업자는 단기적으로 모듈 단가 상승 부담을 떠안지만, 세액공제 수취 보장으로 프로젝트 IRR이 오히려 안정...",
+          "persona_take": "아스워스 다모다란: 다운스트림 사업자의 단가-세액공제 trade-off. valuation 측면에서 capital structure가 결정적 변수.",
+          "stance": "challenge",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "마이크로인버터·전력관리 인프라(Enphase, SolarEdge 등)는 모듈만큼 명시적인 Non-PFE 규제 대상은 아니지만 다운스트림 미국 시...",
+          "persona_take": "아스워스 다모다란: 인버터 인프라의 간접 수혜는 직접 모듈 수혜 대비 약함. valuation 관점에서 추가 검증 필요.",
+          "stance": "challenge",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "정책 리스크 시나리오: 2027년 미국 대선 결과에 따라 BBBA·IRA 청정세액공제 구조 자체가 후퇴할 가능성이 존재하며, 이는 Non-Chi...",
+          "persona_take": "아스워스 다모다란: 정책 후퇴 risk는 valid하나 sunset clause + 공화당 주 노출 + 의회 입법 어려움으로 발현 확률 25-30% 추정.",
+          "stance": "support",
+          "confidence": 0.6
+        }
+      ]
+    }
+  }
+}
