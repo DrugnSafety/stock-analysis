@@ -1,0 +1,194 @@
+{
+  "ticker": "ETN",
+  "ticker_name": "이튼",
+  "ticker_name_en": "Eaton Corporation plc",
+  "sector": "Power Management (변압기·배전·데이터센터)",
+  "aggregated_at": "2026-05-13T03:06:03.846148+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bullish": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bullish": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "dominant_verdict": "lean_bullish",
+  "average_confidence": 0.697,
+  "style_split": {
+    "value": {
+      "n_members": 6,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "macro": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ]
+    }
+  },
+  "thesis_lens_summary": {
+    "T01": {
+      "theme": "1MW 랙·415/480VAC 한계 임박"
+    },
+    "T02": {
+      "theme": "NVIDIA 800VDC: 손실 5%↓·구리 45%↓·전송 85%↑·TCO 30%↓"
+    },
+    "T03": {
+      "theme": "2027 Kyber NVL576 DC 전환 분기점"
+    },
+    "T04": {
+      "theme": "다계층 ESS(슈퍼커패시터+BESS+BBU) 필수화"
+    },
+    "T05": {
+      "theme": "SiC(고압) + GaN(고주파) 역할분담"
+    },
+    "T06": {
+      "theme": "Navitas: MW당 GaN $10-15K, SiC $5-8K, 비선형 5x"
+    },
+    "T07": {
+      "theme": "SST 2030 상용화 — ABB·Eaton·Schneider·Vertiv"
+    },
+    "T08": {
+      "theme": "총 구리 수요 ↑·송배전 CAPEX 100GW+ 확장"
+    },
+    "T09": {
+      "theme": "Feasibility 종료, Timing/Pace 질문 단계"
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "bullish",
+      "confidence": 0.8
+    },
+    "charlie-munger": {
+      "verdict": "bullish",
+      "confidence": 0.78
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68
+    },
+    "bill-ackman": {
+      "verdict": "bullish",
+      "confidence": 0.78
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.5
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.78
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72
+    }
+  }
+}
