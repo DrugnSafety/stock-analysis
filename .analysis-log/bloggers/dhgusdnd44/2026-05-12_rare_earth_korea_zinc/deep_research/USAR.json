@@ -1,0 +1,255 @@
+{
+  "ticker": "USAR",
+  "company_kr": "USA 레어어스",
+  "company_en": "USA Rare Earth, Inc.",
+  "sector": "Rare Earth Mining + Magnet Manufacturing (US — early stage)",
+  "industry": {
+    "name": "US Rare Earth Magnet Vertical (Early Stage)",
+    "overview": "2024 SPAC 합병 통해 NASDAQ 상장. Round Top deposit(텍사스) = 미국 내 최대 중희토류 추정매장량 + Stillwater(오클라호마) 자석 manufacturing 시설 확보. 2026.1 미 상무부와 최대 15.8억$ 지원 + 8-16% 지분 인수 패키지 체결. Mining → 분리 → 자석 complete US vertical 추진 중이나 commercial production 미달성, operating history 짧음.",
+    "competitors": [
+      {
+        "name": "MP Materials",
+        "ticker": "MP",
+        "share_pct": 6.5,
+        "moat": "선행 vertical — Stage 3 자석 진입"
+      },
+      {
+        "name": "Energy Fuels",
+        "ticker": "UUUU",
+        "share_pct": 0.1,
+        "moat": "monazite 정제 — 디스프로슘 29kg 파일럿"
+      },
+      {
+        "name": "Lynas USA",
+        "ticker": "LYSDY",
+        "share_pct": 16.4,
+        "moat": "Kalgoorlie 미국 분리 시설"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-01",
+        "title": "미 상무부 15.8억$ 지원 + 8-16% 지분 인수",
+        "source": "Commerce Dept Press",
+        "summary": "정부 backing 패키지 — RE 산업 두 번째 historic deal"
+      },
+      {
+        "date": "2025-Q3",
+        "title": "Stillwater 자석 시설 매입 완료",
+        "source": "USAR IR",
+        "summary": "complete vertical 인프라 — mining + 분리 + 자석"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.5,
+      "cagr_pct": 12.5,
+      "horizon": "2025-2030 비중국 정제"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 0,
+        "op_income": -15,
+        "op_margin": 0.0,
+        "net_income": -15,
+        "net_margin": 0.0
+      },
+      {
+        "year": 2022,
+        "revenue": 0,
+        "op_income": -25,
+        "op_margin": 0.0,
+        "net_income": -25,
+        "net_margin": 0.0
+      },
+      {
+        "year": 2023,
+        "revenue": 0,
+        "op_income": -40,
+        "op_margin": 0.0,
+        "net_income": -45,
+        "net_margin": 0.0
+      },
+      {
+        "year": 2024,
+        "revenue": 5,
+        "op_income": -55,
+        "op_margin": -1100.0,
+        "net_income": -65,
+        "net_margin": -1300.0
+      },
+      {
+        "year": 2025,
+        "revenue": 25,
+        "op_income": -45,
+        "op_margin": -180.0,
+        "net_income": -50,
+        "net_margin": -200.0
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-Q4e",
+      "total_assets": 350,
+      "total_liabilities": 80,
+      "total_equity": 270,
+      "cash": 180,
+      "debt": 30,
+      "net_debt": -150,
+      "current_ratio": 8.5,
+      "debt_to_equity": 0.11
+    },
+    "cf_summary": {
+      "ocf_avg_5y": -30,
+      "fcf_avg_5y": -80,
+      "capex_avg_5y": 60,
+      "note": "단위: USD M. CapEx heavy — Round Top + Stillwater 동시 진행. 정부 자금 15.8억$ tranche 유입 예정"
+    },
+    "peer_compare": [
+      {
+        "ticker": "USAR",
+        "name": "USA Rare Earth",
+        "pe": 0,
+        "pb": 4.0,
+        "roe": -20.0,
+        "div_yield": 0
+      },
+      {
+        "ticker": "MP",
+        "name": "MP Materials",
+        "pe": 0,
+        "pb": 4.5,
+        "roe": 0.3,
+        "div_yield": 0
+      },
+      {
+        "ticker": "UUUU",
+        "name": "Energy Fuels",
+        "pe": 0,
+        "pb": 4.2,
+        "roe": -3.0,
+        "div_yield": 0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.3,
+      "horizon": "3-5Y",
+      "target_price": 45.0,
+      "prob_pct": 30,
+      "thesis": "(1) Round Top mining permit 통과 + 2027 첫 ore 추출, (2) Stillwater 자석 시설 commercial 출하 (2026.下), (3) DoD 자석 매입 계약 체결, (4) 추가 정부 자금 유입, (5) 중희토류 분리 케파 확보시 미국 유일 plug-and-play",
+      "key_assumptions": [
+        "horizon: 3-5Y",
+        "(1) Round Top mining permit 통과 + 2027 첫 ore 추출, (2) Stillwater 자석 시설 commercial 출하 (2026.下), (3) DoD"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "horizon": "2-3Y",
+      "target_price": 30.0,
+      "prob_pct": 40,
+      "thesis": "(1) Stillwater 자석 출하 시작 ($25-50M 매출), (2) Round Top permit 진행 — 광산 가동은 2028+, (3) 정부 자금 tranche 유입으로 운영 자금 안전",
+      "key_assumptions": [
+        "horizon: 2-3Y",
+        "(1) Stillwater 자석 출하 시작 ($25-50M 매출), (2) Round Top permit 진행 — 광산 가동은 2028+, (3) 정부 자금 tranche 유입으로"
+      ]
+    },
+    "bear": {
+      "probability": 0.3,
+      "horizon": "1-2Y",
+      "target_price": 15.0,
+      "prob_pct": 30,
+      "thesis": "(1) Round Top permit 지연 + 환경 단체 소송, (2) Stillwater 자석 시설 ramp 지연, (3) SPAC 후 dilution + 추가 자금 조달 부담, (4) MP·Lynas의 US 시설 확장이 시장 흡수",
+      "key_assumptions": [
+        "horizon: 1-2Y",
+        "(1) Round Top permit 지연 + 환경 단체 소송, (2) Stillwater 자석 시설 ramp 지연, (3) SPAC 후 dilution + 추가 자금 조달 부담,"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "Round Top mining permit 통과",
+      "type": "policy",
+      "expected_impact": "++",
+      "description": "텍사스 환경·광산 허가"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Stillwater 자석 첫 commercial 출하",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "오클라호마 자석 시설 first revenue"
+    },
+    {
+      "date": "2026-2027",
+      "event": "DoD 자석 매입 계약 체결",
+      "type": "policy",
+      "expected_impact": "++",
+      "description": "MP 사례 유사 — 전량 매입 계약"
+    },
+    {
+      "date": "2026-2028",
+      "event": "추가 정부 자금 tranche",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "15.8억$ 약정의 단계별 disbursement"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Round Top permit 지연/거부",
+      "probability": "med",
+      "impact": "high",
+      "description": "텍사스 환경 단체 소송 가능성",
+      "mitigation": "Stillwater 자석 시설 별도 수익 — diversification"
+    },
+    {
+      "name": "Stillwater 자석 ramp-up 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "first commercial 출하 + OEM qualification",
+      "mitigation": "DoD 매입 계약 가능시 매출 floor"
+    },
+    {
+      "name": "SPAC 후 dilution + 추가 자금조달",
+      "probability": "med",
+      "impact": "med",
+      "description": "운영 손실 지속 시 추가 발행",
+      "mitigation": "15.8억$ 정부 자금 disbursement이 일부 차단"
+    },
+    {
+      "name": "MP·Lynas의 시장 선점",
+      "probability": "med",
+      "impact": "med",
+      "description": "선행 케파 보유 기업 점유",
+      "mitigation": "중희토류 차별화"
+    },
+    {
+      "name": "2028 행정부 변경시 정책 reversal",
+      "probability": "low",
+      "impact": "high",
+      "description": "정부 자금 변경 가능성",
+      "mitigation": "양당 합의 가능성 ↑"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "미 정부 3중 안전망 (T08)",
+      "type": "policy",
+      "evidence": "15.8억$ 지원; 8-16% 지분; MP 사례 패턴",
+      "testability": "high",
+      "current_status": "validated"
+    },
+    {
+      "claim": "관계 해자 (T09) — early-stage 신뢰 시작",
+      "type": "macro",
+      "evidence": "정부 backing; 안보 framework 진입",
+      "testability": "low",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": []
+}
