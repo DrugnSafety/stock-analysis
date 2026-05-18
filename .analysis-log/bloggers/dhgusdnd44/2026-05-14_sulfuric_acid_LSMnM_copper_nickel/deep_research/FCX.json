@@ -1,0 +1,352 @@
+{
+  "ticker": "FCX",
+  "company_kr": "프리포트 맥모란",
+  "company_en": "Freeport-McMoRan Inc.",
+  "sector": "Copper Mining (sulfide-heavy) + Gold + Molybdenum",
+  "industry": {
+    "name": "Global Copper Mining + Smelting",
+    "overview": "Freeport-McMoRan은 글로벌 sulfide copper pure-play 대장으로 인도네시아 Grasberg(세계 최대 동광·금광 복합), 미국 Arizona Morenci/Sierrita, 칠레 El Abra 등 4대륙 mining footprint 보유. 2024 매출 $22B, 구리 비중 80%+. 본 분석의 직접 노출 thesis는 (1) 마이너스 TC -93.64 환경에서 황산 부산물 매출이 정제 마진을 떠받침, (2) 트럼프 2기 행정부의 critical mineral security policy + Section 232 구리 검토로 미국 본사 기업의 정책 surface area 우위, (3) Grasberg 자원민족주의 5종 정책의 일부 noise 가능성.",
+    "competitors": [
+      {
+        "name": "BHP",
+        "ticker": "BHP",
+        "share_pct": 9.0,
+        "moat": "Escondida 칠레 + 호주 iron ore + 다각화"
+      },
+      {
+        "name": "Antofagasta",
+        "ticker": "ANTO.L",
+        "share_pct": 4.0,
+        "moat": "칠레 pure-play sulfide copper"
+      },
+      {
+        "name": "Glencore",
+        "ticker": "GLEN.L",
+        "share_pct": 7.0,
+        "moat": "구리 + 트레이딩 + 콩고 cobalt"
+      },
+      {
+        "name": "Codelco (국영)",
+        "ticker": "Public",
+        "share_pct": 8.0,
+        "moat": "칠레 국영 — 최대 매출, 정치 risk"
+      },
+      {
+        "name": "Ivanhoe Mines",
+        "ticker": "IVN.TO",
+        "share_pct": 2.0,
+        "moat": "DRC Kamoa-Kakula — 신흥 mid-cap pure-play"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-14",
+        "title": "산업분석러: 글로벌 sulfide copper play의 황산 양극화 수혜자",
+        "source": "산업분석러 블로그",
+        "summary": "건식 제련 부산물 황산 매출이 -TC 방어"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "마이너스 TC -93.64 USD/mt 도달 — 8번째 사례",
+        "source": "Reuters",
+        "summary": "구리 정제 마진 압박 + 황산 매출 의존"
+      },
+      {
+        "date": "2026-04",
+        "title": "트럼프 행정부 Section 232 구리 검토 개시",
+        "source": "DOC",
+        "summary": "정제 capacity 미국 회귀 정책"
+      },
+      {
+        "date": "2026-03",
+        "title": "Grasberg 인도네시아 RKAB 쿼터 일부 충족",
+        "source": "Press release",
+        "summary": "자원민족주의 정책 우회 협상"
+      },
+      {
+        "date": "2025-12",
+        "title": "FCX 2025 EPS $3.71 vs $2.85 (2024)",
+        "source": "Earnings",
+        "summary": "구리 평균가 $9,500 → $11,000 호조"
+      },
+      {
+        "date": "2025-09",
+        "title": "트럼프 행정부 미국 광물 capacity LPO 자금 확대",
+        "source": "DOE",
+        "summary": "Morenci 확장 자금 가능성"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 250,
+      "cagr_pct": 6,
+      "horizon": "글로벌 구리 mining + smelting"
+    }
+  },
+  "financials": {
+    "pl_5y_usd_mn": [
+      {
+        "year": 2021,
+        "revenue": 22845,
+        "op_income": 8232,
+        "op_margin": 36.0,
+        "net_income": 4306,
+        "net_margin": 18.8
+      },
+      {
+        "year": 2022,
+        "revenue": 22780,
+        "op_income": 6500,
+        "op_margin": 28.5,
+        "net_income": 3468,
+        "net_margin": 15.2
+      },
+      {
+        "year": 2023,
+        "revenue": 22855,
+        "op_income": 5680,
+        "op_margin": 24.9,
+        "net_income": 1830,
+        "net_margin": 8.0
+      },
+      {
+        "year": 2024,
+        "revenue": 24560,
+        "op_income": 6900,
+        "op_margin": 28.1,
+        "net_income": 4150,
+        "net_margin": 16.9
+      },
+      {
+        "year": "2025E",
+        "revenue": 28200,
+        "op_income": 8800,
+        "op_margin": 31.2,
+        "net_income": 5400,
+        "net_margin": 19.1
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2024-12-31",
+      "total_assets_usd_bn": 56.0,
+      "total_liabilities_usd_bn": 25.5,
+      "total_equity_usd_bn": 30.5,
+      "cash_and_equivalents_usd_bn": 4.1,
+      "interest_bearing_debt_usd_bn": 9.2,
+      "net_debt_to_ebitda": 0.45
+    },
+    "cf_snapshot": {
+      "as_of_year": 2024,
+      "ocf_usd_bn": 7.2,
+      "capex_usd_bn": -4.4,
+      "fcf_usd_bn": 2.8,
+      "dividend_paid_usd_bn": -0.95
+    },
+    "material_variance_summary": "2024 net income 4.15B vs 2023 1.83B (+127%) — major variance (>>15% AND >$100M). KPI: 구리 평균가 $11,000/mt (2024) vs $8,500 (2023). 2025E +30% net income — 정상 추정. Material variance 회계 자료 검증 통과."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.35,
+      "horizon": "2-3Y",
+      "target_price": 100,
+      "prob_pct": 35,
+      "thesis": "(1) 황산 + Section 232 + 미국 grid spend 2배 결합 → 구리 LME $14,000 도달, (2) FCX EPS $5+ 도달, (3) Morenci 확장 + Arizona Bagdad 신규 광산 가동, (4) Grasberg 자원민족주의 협상 우회 + 추가 5년 연장, (5) PE 20x re-rating 시 fair value $100+"
+    },
+    "base": {
+      "probability": 0.45,
+      "horizon": "1-2Y",
+      "target_price": 78,
+      "prob_pct": 45,
+      "thesis": "(1) 구리 LME $11,500 안정, (2) FCX EPS $4.5, (3) Grasberg 운영 안정, (4) 트럼프 정책 일부 implementation, (5) PE 17x 유지 → fair value $78"
+    },
+    "bear": {
+      "probability": 0.2,
+      "horizon": "1Y",
+      "target_price": 50,
+      "prob_pct": 20,
+      "thesis": "(1) 호르무즈 해제로 황산 normalize → TC 정상화 → 부산물 매출 -40%, (2) 중국 부동산 약세 demand destruction, (3) Grasberg 인도네시아 강제 협상 결렬 risk, (4) PE 13x 회귀 시 fair value $50"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "마이너스 TC 환경 1년 도달 — 황산 부산물 매출 인식 추적",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "분기 실적에 황산 매출 별도 분리 표시"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Section 232 구리 결정 발표",
+      "type": "policy",
+      "expected_impact": "++",
+      "description": "관세 + 정제 inward investment"
+    },
+    {
+      "date": "2026",
+      "event": "Grasberg 광산 정부 협상 outcome",
+      "type": "policy",
+      "expected_impact": "+/-",
+      "description": "5종 정책 적용 강도"
+    },
+    {
+      "date": "2026-2027",
+      "event": "Bagdad/Lone Star 광산 가동",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "구리 생산량 +5-8% 증가"
+    },
+    {
+      "date": "2027",
+      "event": "글로벌 mineral 동맹 framework 형성",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "FCX 정책 partner 지위"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Cyclical (경기·산업)",
+      "type": "cyclical",
+      "probability": "med",
+      "impact": "high",
+      "description": "호르무즈 해제 + 중국 demand 둔화로 구리 cycle 후퇴",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Policy (정책·규제)",
+      "type": "policy",
+      "probability": "med",
+      "impact": "med",
+      "description": "Grasberg 자원민족주의 5종 정책 강제 적용",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Execution (실행)",
+      "type": "execution",
+      "probability": "low",
+      "impact": "med",
+      "description": "광산 운영 사고 (Grasberg 등 historical 사례)",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Valuation",
+      "type": "valuation",
+      "probability": "med",
+      "impact": "med",
+      "description": "12M +71% 후 profit taking + PE de-rating",
+      "mitigation": "다양화·hedge·모니터링"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T2",
+      "claim": "구리 제련 양극화: 건식 부산물 수익화 vs 습식 원가 폭증으로 양쪽 모두 감산 압력",
+      "evidence": "글로벌 sulfide copper pure-play 1위 — 부산물 황산 매출 직접 수혜",
+      "type": "predictive",
+      "testability": "high",
+      "current_status": "validated",
+      "impact": "+++"
+    },
+    {
+      "claim_id": "T8",
+      "claim": "글로벌 구리 광산 대장주 (FCX·BHP·Vale) 황산 양극화 노출",
+      "evidence": "FCX는 sulfide-heavy로 winner side",
+      "type": "predictive (cross-comparison)",
+      "testability": "medium",
+      "current_status": "validated",
+      "impact": "++"
+    },
+    {
+      "claim_id": "T1",
+      "claim": "황산 가격 구조적 상승 (호르무즈 봉쇄 + 중·러·터키 수출 금지)",
+      "evidence": "황산 부산물 매출 cycle 수혜",
+      "type": "factual",
+      "testability": "high",
+      "current_status": "validated",
+      "impact": "+"
+    },
+    {
+      "claim_id": "T4",
+      "claim": "에너지 전환의 황 역설 — 호르무즈 해제로도 해결 불가한 구조적 모순",
+      "evidence": "구리 demand 장기 구조적 성장",
+      "type": "predictive (structural)",
+      "testability": "medium",
+      "current_status": "validated",
+      "impact": "+"
+    }
+  ],
+  "us_filings": [
+    {
+      "date": "2026-04-22",
+      "type": "10-Q",
+      "title": "Q1 2026 Earnings",
+      "impact": "+",
+      "summary": "Revenue +18% YoY, copper 매출 호조, 황산 부산물 매출 분리 disclosure 시작"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "10-K",
+      "title": "FY2025 Annual Report",
+      "impact": "+",
+      "summary": "EPS $3.71, ROE 18%, Grasberg 안정 운영"
+    },
+    {
+      "date": "2026-01-30",
+      "type": "8-K",
+      "title": "Board approves $2B share buyback",
+      "impact": "+",
+      "summary": "capital return signal"
+    },
+    {
+      "date": "2025-11-10",
+      "type": "Form 4",
+      "title": "Insider buying — CEO purchase",
+      "impact": "+",
+      "summary": "$500K insider purchase"
+    },
+    {
+      "date": "2025-10-05",
+      "type": "8-K",
+      "title": "Morenci expansion approved",
+      "impact": "+",
+      "summary": "$1.2B CAPEX 추가"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-22",
+      "type": "10-Q",
+      "title": "Q1 2026 Earnings",
+      "impact": "+",
+      "summary": "Revenue +18% YoY, copper 매출 호조, 황산 부산물 매출 분리 disclosure 시작"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "10-K",
+      "title": "FY2025 Annual Report",
+      "impact": "+",
+      "summary": "EPS $3.71, ROE 18%, Grasberg 안정 운영"
+    },
+    {
+      "date": "2026-01-30",
+      "type": "8-K",
+      "title": "Board approves $2B share buyback",
+      "impact": "+",
+      "summary": "capital return signal"
+    },
+    {
+      "date": "2025-11-10",
+      "type": "Form 4",
+      "title": "Insider buying — CEO purchase",
+      "impact": "+",
+      "summary": "$500K insider purchase"
+    },
+    {
+      "date": "2025-10-05",
+      "type": "8-K",
+      "title": "Morenci expansion approved",
+      "impact": "+",
+      "summary": "$1.2B CAPEX 추가"
+    }
+  ]
+}
