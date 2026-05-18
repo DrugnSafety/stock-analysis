@@ -1,0 +1,1048 @@
+{
+  "ticker": "FCX",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "bullish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.675,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "growth": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (2/2)"
+    },
+    "growth-disruption": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "concentrated-activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "growth-emerging": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "antifragility": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "weighted_verdict_score": 0.284,
+  "persona_results": {
+    "warren-buffett": {
+      "persona_kr": "워런 버핏",
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "Grasberg + Arizona = world-class copper assets. Forward PE 17.7x는 reasonable. 단 cyclical commodity 노출.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "워런 버핏: 정량·산업 fact로 검증 가능 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "워런 버핏: 정량·산업 fact로 검증 가능 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "워런 버핏: 정량·산업 fact로 검증 가능 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "워런 버핏: 장기 가설은 검증 어려움 — 보수적 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.68,
+          "rationale": "워런 버핏: 부산물 원가 0원 + 호르무즈 무관은 검증된 advantage — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.6,
+          "rationale": "워런 버핏: vertical integration premium은 holding discount로 상쇄됨 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.58,
+          "rationale": "워런 버핏: 거버넌스 변수 양면성 — 둘 다 모니터링 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "워런 버핏: pure-play premium은 다각화로 희석됨 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "charlie-munger": {
+      "persona_kr": "찰리 멍거",
+      "verdict": "neutral",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "moat 분명 (irreplaceable mines) + 트럼프 mineral policy 지원.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "찰리 멍거: 정량·산업 fact로 검증 가능 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "찰리 멍거: 정량·산업 fact로 검증 가능 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "찰리 멍거: 정량·산업 fact로 검증 가능 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "찰리 멍거: 장기 가설은 검증 어려움 — 보수적 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.68,
+          "rationale": "찰리 멍거: 부산물 원가 0원 + 호르무즈 무관은 검증된 advantage — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.6,
+          "rationale": "찰리 멍거: vertical integration premium은 holding discount로 상쇄됨 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.58,
+          "rationale": "찰리 멍거: 거버넌스 변수 양면성 — 둘 다 모니터링 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "찰리 멍거: pure-play premium은 다각화로 희석됨 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "ben-graham": {
+      "persona_kr": "벤저민 그레이엄",
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "PE 17.7x, PB ~2.5x — 다소 비싼 편이나 historical median 수준. 12M +71% 후 entry 어려움.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "벤저민 그레이엄: 정량·산업 fact로 검증 가능 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "벤저민 그레이엄: 정량·산업 fact로 검증 가능 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "벤저민 그레이엄: 정량·산업 fact로 검증 가능 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "벤저민 그레이엄: 장기 가설은 검증 어려움 — 보수적 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.68,
+          "rationale": "벤저민 그레이엄: 부산물 원가 0원 + 호르무즈 무관은 검증된 advantage — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.6,
+          "rationale": "벤저민 그레이엄: vertical integration premium은 holding discount로 상쇄됨 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.58,
+          "rationale": "벤저민 그레이엄: 거버넌스 변수 양면성 — 둘 다 모니터링 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "벤저민 그레이엄: pure-play premium은 다각화로 희석됨 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "persona_kr": "모니시 파브라이",
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "copper sulfide pure-play + 12-year cycle bottom + 황산 부산물 = multiple catalysts.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "모니시 파브라이: 정량·산업 fact로 검증 가능 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "모니시 파브라이: 정량·산업 fact로 검증 가능 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "모니시 파브라이: 정량·산업 fact로 검증 가능 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "모니시 파브라이: 장기 가설은 검증 어려움 — 보수적 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.68,
+          "rationale": "모니시 파브라이: 부산물 원가 0원 + 호르무즈 무관은 검증된 advantage — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.6,
+          "rationale": "모니시 파브라이: vertical integration premium은 holding discount로 상쇄됨 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.58,
+          "rationale": "모니시 파브라이: 거버넌스 변수 양면성 — 둘 다 모니터링 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "모니시 파브라이: pure-play premium은 다각화로 희석됨 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "michael-burry": {
+      "persona_kr": "마이클 버리",
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "narrative pricing 일부 있지만 -TC + 황산 부산물 매출은 actual cash flow 증가.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "마이클 버리: 정량·산업 fact로 검증 가능 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "마이클 버리: 정량·산업 fact로 검증 가능 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "마이클 버리: 정량·산업 fact로 검증 가능 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "마이클 버리: paradigm 차원 thesis는 conviction 어려움 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.68,
+          "rationale": "마이클 버리: 부산물 원가 0원 + 호르무즈 무관은 검증된 advantage — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "마이클 버리: 시너지 정량화 어려움 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.6,
+          "rationale": "마이클 버리: LS그룹 안정성 우위는 medium-term execution에 유리 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "마이클 버리: pure-play premium은 다각화로 희석됨 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "peter-lynch": {
+      "persona_kr": "피터 린치",
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "classic cyclical growth — supply shock + grid demand + EV all aligned.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "피터 린치: 단기 supply shock thesis 지지 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "피터 린치: 단기 supply shock thesis 지지 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "피터 린치: 단기 supply shock thesis 지지 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "피터 린치: paradigm 차원 thesis는 conviction 어려움 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.78,
+          "rationale": "피터 린치: 4중 해자 narrative 강력, 비중국 전구체 catalyst — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "피터 린치: 시너지 정량화 어려움 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.6,
+          "rationale": "피터 린치: LS그룹 안정성 우위는 medium-term execution에 유리 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "피터 린치: cross-comparison 시장 nuance 많음 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "phil-fisher": {
+      "persona_kr": "필립 피셔",
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "management의 cost discipline 검증 — 2020-2024 사이클 통과 입증.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "필립 피셔: 단기 supply shock thesis 지지 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "필립 피셔: 단기 supply shock thesis 지지 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "필립 피셔: 단기 supply shock thesis 지지 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "필립 피셔: paradigm 차원 thesis는 conviction 어려움 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.78,
+          "rationale": "필립 피셔: 4중 해자 narrative 강력, 비중국 전구체 catalyst — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "필립 피셔: 시너지 정량화 어려움 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.6,
+          "rationale": "필립 피셔: LS그룹 안정성 우위는 medium-term execution에 유리 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "필립 피셔: cross-comparison 시장 nuance 많음 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "cathie-wood": {
+      "persona_kr": "캐시 우드",
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "에너지 전환 핵심 metal이지만 mining 자체는 disruption 아님.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "캐시 우드: 단기 supply shock thesis 지지 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "캐시 우드: 단기 supply shock thesis 지지 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "캐시 우드: 단기 supply shock thesis 지지 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.72,
+          "rationale": "캐시 우드: 구조적 모순 인식, 5-10년 thesis 적합 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.78,
+          "rationale": "캐시 우드: 4중 해자 narrative 강력, 비중국 전구체 catalyst — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "캐시 우드: 시너지 정량화 어려움 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.6,
+          "rationale": "캐시 우드: LS그룹 안정성 우위는 medium-term execution에 유리 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "캐시 우드: cross-comparison 시장 nuance 많음 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "persona_kr": "스탠리 드러켄밀러",
+      "verdict": "bullish",
+      "confidence": 0.82,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "트럼프 mineral security + grid spend 2배 증가 + 황산 부산물 = US copper pure-play의 perfect storm.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "스탠리 드러켄밀러: 정량·산업 fact로 검증 가능 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "스탠리 드러켄밀러: 정량·산업 fact로 검증 가능 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "스탠리 드러켄밀러: 정량·산업 fact로 검증 가능 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.72,
+          "rationale": "스탠리 드러켄밀러: 구조적 모순 인식, 5-10년 thesis 적합 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.78,
+          "rationale": "스탠리 드러켄밀러: 4중 해자 narrative 강력, 비중국 전구체 catalyst — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.65,
+          "rationale": "스탠리 드러켄밀러: 그룹 시너지 valuation premium 가능 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.6,
+          "rationale": "스탠리 드러켄밀러: LS그룹 안정성 우위는 medium-term execution에 유리 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "스탠리 드러켄밀러: 글로벌 광산 분류는 macro investing 핵심 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "bill-ackman": {
+      "persona_kr": "빌 액크먼",
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "concentrated bet — Grasberg cash flow의 visibility 강함.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "빌 액크먼: 단기 supply shock thesis 지지 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "빌 액크먼: 단기 supply shock thesis 지지 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "빌 액크먼: 단기 supply shock thesis 지지 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "빌 액크먼: paradigm 차원 thesis는 conviction 어려움 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.78,
+          "rationale": "빌 액크먼: 4중 해자 narrative 강력, 비중국 전구체 catalyst — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.65,
+          "rationale": "빌 액크먼: 그룹 시너지 valuation premium 가능 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.58,
+          "rationale": "빌 액크먼: 거버넌스 변수 양면성 — 둘 다 모니터링 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "빌 액크먼: cross-comparison 시장 nuance 많음 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "persona_kr": "라케시 준준왈라",
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "global mineral cycle winner — emerging market 인프라 demand.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "라케시 준준왈라: 단기 supply shock thesis 지지 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "라케시 준준왈라: 단기 supply shock thesis 지지 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "라케시 준준왈라: 단기 supply shock thesis 지지 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "라케시 준준왈라: paradigm 차원 thesis는 conviction 어려움 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.78,
+          "rationale": "라케시 준준왈라: 4중 해자 narrative 강력, 비중국 전구체 catalyst — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "라케시 준준왈라: 시너지 정량화 어려움 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.6,
+          "rationale": "라케시 준준왈라: LS그룹 안정성 우위는 medium-term execution에 유리 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "라케시 준준왈라: cross-comparison 시장 nuance 많음 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "persona_kr": "나심 탈레브",
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "구리 cycle은 tail upside 강함 (+50%) vs downside cushion (cost curve 60th percentile).",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "나심 탈레브: 정량·산업 fact로 검증 가능 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "나심 탈레브: 정량·산업 fact로 검증 가능 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "나심 탈레브: 정량·산업 fact로 검증 가능 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.72,
+          "rationale": "나심 탈레브: 구조적 모순 인식, 5-10년 thesis 적합 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.7,
+          "rationale": "나심 탈레브: optionality (반도체+배터리+그룹시너지) 비대칭 — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "나심 탈레브: 시너지 정량화 어려움 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.6,
+          "rationale": "나심 탈레브: LS그룹 안정성 우위는 medium-term execution에 유리 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "나심 탈레브: cross-comparison 시장 nuance 많음 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "persona_kr": "애스워드 다모다란",
+      "verdict": "neutral",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Grasberg 인도네시아 자원민족주의 노출 (HPM·로열티)",
+        "[actual] Forward PE 17.7x — historical median 14x 대비 premium",
+        "[inference] 12M +71% 후 entry valuation 어려움, profit taking 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 마이너스 TC -93.64 + 황산 부산물 매출 = 제련-광산 vertical 수혜",
+        "[actual] 트럼프 mineral security policy + Arizona 광산 도메스틱 우대",
+        "[inference] 글로벌 grid spend 2배 증가 + EV demand normalize 시 cyclical recovery"
+      ],
+      "uncertainty": "DCF: 구리 LME $11,000 baseline + 황산 부산물 매출 EBITDA +5-8% 추가. fair value at current price ~+10-15% upside.",
+      "thesis_lens_applications": [
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "애스워드 다모다란: 정량·산업 fact로 검증 가능 — 호르무즈 봉쇄 + 중·러·터키 황산 수출 금지로 글로벌 황산 구조적 급등",
+          "claim_id": "T1"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "애스워드 다모다란: 정량·산업 fact로 검증 가능 — 구리 제련 양극화 — 건식 부산물 수익 vs 습식 원가 폭증, 양쪽 동시 감산 압력",
+          "claim_id": "T2"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.75,
+          "rationale": "애스워드 다모다란: 정량·산업 fact로 검증 가능 — 인도네시아 HPAL 황산 50% + 5종 자원민족주의로 니켈 구조적 비용 상승",
+          "claim_id": "T3"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "애스워드 다모다란: 장기 가설은 검증 어려움 — 보수적 — 에너지 전환의 황 역설 — 화석연료↓ → 황 부산물↓ vs 전환 금속 수요↑",
+          "claim_id": "T4"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.6,
+          "rationale": "애스워드 다모다란: forward narrative 강하나 quantification 불확실 — LSMnM 4중 해자 — 부산물 황산 + 호르무즈 무관 + 초고순도 + 비중국 전구체",
+          "claim_id": "T5"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.6,
+          "rationale": "애스워드 다모다란: vertical integration premium은 holding discount로 상쇄됨 — LS그룹 vertical integration — LSMnM → LS전선·일렉트릭 우선 공급 경쟁력",
+          "claim_id": "T6"
+        },
+        {
+          "stance": "support",
+          "confidence": 0.6,
+          "rationale": "애스워드 다모다란: LS그룹 안정성 우위는 medium-term execution에 유리 — 고려아연 거버넌스 vs LSMnM 안정성 — LSMnM이 정책 partner 선호도 우위",
+          "claim_id": "T7"
+        },
+        {
+          "stance": "neutral",
+          "confidence": 0.55,
+          "rationale": "애스워드 다모다란: cross-comparison 시장 nuance 많음 — 글로벌 copper miners (FCX·BHP·Vale) sulfide vs oxide 양극화 노출",
+          "claim_id": "T8"
+        }
+      ]
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "황산 cycle 정상화 시 demand destruction risk (12-24M)",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "ben-graham",
+        "michael-burry",
+        "charlie-munger",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "황산 cycle 정상화 시 demand destruction risk (12-24M)"
+      ]
+    },
+    {
+      "theme": "정책 backlash 가능성 (자원민족주의 → trade war escalation)",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "ben-graham",
+        "michael-burry",
+        "charlie-munger",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "정책 backlash 가능성 (자원민족주의 → trade war escalation)"
+      ]
+    }
+  ]
+}
