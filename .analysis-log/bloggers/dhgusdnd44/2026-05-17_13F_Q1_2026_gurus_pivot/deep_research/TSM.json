@@ -1,0 +1,199 @@
+{
+  "industry": {
+    "name": "글로벌 첨단 파운드리 / AI 가속기 supply chain",
+    "overview": "TSMC는 3nm 이하 첨단 파운드리에서 90%+ 점유율로 사실상 독점. Apple·NVIDIA·AMD·Qualcomm·Broadcom·MediaTek 등 모든 fabless가 의존. 2024-2026 AI Capex $1T+ 누적 (Microsoft·Google·Amazon·Meta·xAI·Oracle) → 80%+가 TSMC 칩으로 실현. 매출 2024 +30%, 2025E +25%, 2026E +20% guidance. 영업이익률 45%+ 반도체 최고. CoWoS·SoIC 첨단 패키징도 독점. 경쟁사 Samsung Foundry는 yield 문제, Intel Foundry는 18A 양산 risk. 미국·일본·독일 정부 보조금으로 해외 fab 분산화 진행. 산업분석러 글에서 거의 모든 구루(드러켄밀러·타이거 글로벌·레이 달리오)가 TSMC 보유 또는 매수 confirmed.",
+    "competitors": [
+      {
+        "name": "Samsung Foundry",
+        "ticker": "005930.KS",
+        "share_pct": 8.0,
+        "moat": "내부 design+manufacturing 통합, 3nm 양산 시도"
+      },
+      {
+        "name": "Intel Foundry",
+        "ticker": "INTC",
+        "share_pct": 2.0,
+        "moat": "18A 2026 양산, US 정부 지원, but execution risk"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 90.0,
+        "moat": "3nm 이하 첨단 독점 + CoWoS·SoIC 패키징 + customer captivity"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-10",
+        "title": "TSMC 4월 매출 +47% YoY — AI 가속기 demand 가속 지속",
+        "source": "TSMC IR",
+        "summary": "월간 매출 NT$317B, AI 칩 매출 +60%+ 추정"
+      },
+      {
+        "date": "2026-04-18",
+        "title": "TSMC Q1 2026 매출 +35% YoY, 영업이익률 47.5%",
+        "source": "TSMC earnings",
+        "summary": "AI revenue 전체의 22% (2024 14%)→ 가속"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "타이거 글로벌 TSMC 비중 4.42pp 추매 → 8.23%",
+        "source": "13F 산업분석러",
+        "summary": "성장 펀드 최대 conviction signal"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "Intel Foundry 18A 양산 일정 6개월 지연 보도",
+        "source": "Reuters",
+        "summary": "TSMC 독점 지위 추가 강화"
+      },
+      {
+        "date": "2026-01-25",
+        "title": "TSMC 애리조나 fab1 양산 시작, fab2 2027 가동",
+        "source": "TSMC",
+        "summary": "US CHIPS Act $6.6B 보조금 활용"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 100.0,
+      "cagr_pct": 22.0,
+      "horizon": "2024-2028 (AI 가속기 칩 시장)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 550,
+      "thesis": "AI Capex 사이클 지속 + 첨단 패키징 demand 폭증 + 가격 +20-30% pass-through. EPS 2027 $15+, PE 30배 → $450+.",
+      "key_assumptions": [
+        "AI Capex sustain 2027+",
+        "CoWoS capacity +50%/년",
+        "ASP +20% pass-through"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 470,
+      "thesis": "AI Capex sustain, 영업이익률 45-47% 유지, EPS 2026 $12, 2027 $14. Forward PE 25-28배 유지.",
+      "key_assumptions": [
+        "AI Capex 안정",
+        "Margin 45%+ 유지",
+        "Capex outpaces growth"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 280,
+      "thesis": "AI Capex deceleration 또는 대만 침공 risk 실현. 대만 침공 시 가치 -80-100%.",
+      "key_assumptions": [
+        "AI Capex -30%",
+        "Geopolitical event",
+        "Multi-quarter de-rate"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "TSMC Q2 earnings + 2026 매출 guidance update",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI revenue mix 30%+ confirm 시 multiple expansion"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Apple iPhone 18 / A19 chip launch + 2nm node ramp",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "2nm 첫 양산 — premium pricing 시작"
+    },
+    {
+      "date": "2027",
+      "event": "Arizona fab2 + Japan Kumamoto fab2 양산",
+      "type": "operational",
+      "expected_impact": "○",
+      "description": "지정학 risk 완화 + capex 가시화"
+    },
+    {
+      "date": "2026-2027",
+      "event": "Davidson Window — 대만 침공 risk 시기적 정점",
+      "type": "geopolitical",
+      "expected_impact": "-",
+      "description": "Pentagon Adm. Davidson 2021 testimony 인용"
+    }
+  ],
+  "risks": [
+    {
+      "name": "대만 침공 tail risk",
+      "severity": "extreme",
+      "mitigation": "US/Japan/Germany fab 분산화 진행 중. 미국이 묵과 불가 사안 — '글로벌 GDP -10-15%' deterrent."
+    },
+    {
+      "name": "AI Capex 정점 우려",
+      "severity": "high",
+      "mitigation": "Hyperscaler ROIC 의심 시 Capex deceleration. inference shift로 chip demand 변동 가능."
+    },
+    {
+      "name": "Forward PE 25배 — historical high",
+      "severity": "moderate",
+      "mitigation": "Earnings +25% CAGR이면 multiple sustain 가능. PEG 1.0 부근."
+    },
+    {
+      "name": "지정학 — CHIPS Act backlash + 중국 제재 강화",
+      "severity": "moderate",
+      "mitigation": "TSMC 해외 fab 분산화로 위험 분산. Customer captivity 유지."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI 가속기 demand 5-7년 sustained (Hyperscaler $1T+ Capex)",
+      "type": "industry",
+      "evidence": "T03 본문 + TSMC AI revenue 14%→22%",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "TSMC 3nm 이하 첨단 파운드리 사실상 독점 (90%+)",
+      "type": "industry",
+      "evidence": "Samsung yield issue + Intel 18A 지연",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "대만 침공 tail risk가 미국 deterrent로 contained",
+      "type": "geopolitical",
+      "evidence": "글로벌 GDP -10-15% deterrent + 해외 fab 분산",
+      "testability": "low",
+      "current_status": "pending"
+    },
+    {
+      "claim": "T06 NAND/HDD 다음 bottleneck — 칩 설계는 TSMC",
+      "type": "industry",
+      "evidence": "드러켄밀러 시게이트·샌디스크 매수",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "T12 매크로 인식 수렴 — 실물·에너지 시대에도 TSMC 핵심",
+      "type": "macro",
+      "evidence": "거의 모든 구루 보유 (style 차이 무관)",
+      "testability": "medium",
+      "current_status": "confirmed"
+    }
+  ],
+  "us_disclosures": {
+    "recent_10k_summary": "FY2024 매출 NT$2.9T (+34% YoY), 영업이익률 45.7%. AI revenue 14% → 2025 25% guidance.",
+    "key_filings": [
+      {
+        "date": "2026-04-18",
+        "type": "20-F",
+        "summary": "Q1 2026 매출 NT$839B (+35%), AI 22%"
+      },
+      {
+        "date": "2026-01-15",
+        "type": "20-F annual",
+        "summary": "FY2025 매출 NT$2.9T+, capex $30B+ guidance"
+      }
+    ]
+  }
+}
