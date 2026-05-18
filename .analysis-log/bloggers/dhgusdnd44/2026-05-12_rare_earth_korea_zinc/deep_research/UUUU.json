@@ -1,0 +1,262 @@
+{
+  "ticker": "UUUU",
+  "company_kr": "Energy Fuels",
+  "company_en": "Energy Fuels Inc.",
+  "sector": "Uranium + Rare Earth (US monazite 정제)",
+  "industry": {
+    "name": "Uranium + RE Diversified Mining (US)",
+    "overview": "1979 설립, 미국·캐나다 상장. White Mesa Mill(유타) = 미국 내 유일 가동 우라늄·바나듐 mill이며 2024 monazite 정제 시작. 2025 디스프로슘 산화물 29kg 파일럿 — 미국 내 첫 중희토류 분리 사례지만 상업 규모 아님. 우라늄 cycle 회복 + RE 부산물 모델 결합.",
+    "competitors": [
+      {
+        "name": "Cameco",
+        "ticker": "CCJ",
+        "share_pct": 18.0,
+        "moat": "글로벌 우라늄 1위"
+      },
+      {
+        "name": "Centrus Energy",
+        "ticker": "LEU",
+        "share_pct": 3.0,
+        "moat": "농축 우라늄"
+      },
+      {
+        "name": "USA Rare Earth",
+        "ticker": "USAR",
+        "share_pct": 0.5,
+        "moat": "중희토류 deposit + 자석 시설"
+      },
+      {
+        "name": "MP Materials",
+        "ticker": "MP",
+        "share_pct": 6.5,
+        "moat": "RE vertical"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-Q3",
+        "title": "White Mesa Mill 디스프로슘 산화물 29kg 파일럿 생산",
+        "source": "UUUU IR",
+        "summary": "미국 첫 중희토류 분리 사례지만 규모 작음"
+      },
+      {
+        "date": "2025-Q4",
+        "title": "monazite 원료 확보 계약 다수 체결",
+        "source": "UUUU IR",
+        "summary": "RE 사업 ramp-up 준비"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.5,
+      "cagr_pct": 12.5,
+      "horizon": "2025-2030 비중국 정제 + 우라늄"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 4,
+        "op_income": -25,
+        "op_margin": -625.0,
+        "net_income": -30,
+        "net_margin": -750.0
+      },
+      {
+        "year": 2022,
+        "revenue": 18,
+        "op_income": -15,
+        "op_margin": -83.3,
+        "net_income": -20,
+        "net_margin": -111.1
+      },
+      {
+        "year": 2023,
+        "revenue": 25,
+        "op_income": -10,
+        "op_margin": -40.0,
+        "net_income": -12,
+        "net_margin": -48.0
+      },
+      {
+        "year": 2024,
+        "revenue": 35,
+        "op_income": -5,
+        "op_margin": -14.3,
+        "net_income": -8,
+        "net_margin": -22.9
+      },
+      {
+        "year": 2025,
+        "revenue": 50,
+        "op_income": 5,
+        "op_margin": 10.0,
+        "net_income": 3,
+        "net_margin": 6.0
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-Q4e",
+      "total_assets": 480,
+      "total_liabilities": 65,
+      "total_equity": 415,
+      "cash": 180,
+      "debt": 20,
+      "net_debt": -160,
+      "current_ratio": 6.0,
+      "debt_to_equity": 0.05
+    },
+    "cf_summary": {
+      "ocf_avg_5y": -8,
+      "fcf_avg_5y": -22,
+      "capex_avg_5y": 14,
+      "note": "단위: USD M. CapEx 안정 — White Mesa Mill 운영 + RE 라인 확장"
+    },
+    "peer_compare": [
+      {
+        "ticker": "UUUU",
+        "name": "Energy Fuels",
+        "pe": 0,
+        "pb": 4.2,
+        "roe": -3.0,
+        "div_yield": 0
+      },
+      {
+        "ticker": "CCJ",
+        "name": "Cameco",
+        "pe": 38.0,
+        "pb": 2.6,
+        "roe": 7.0,
+        "div_yield": 0.2
+      },
+      {
+        "ticker": "MP",
+        "name": "MP Materials",
+        "pe": 0,
+        "pb": 4.5,
+        "roe": 0.3,
+        "div_yield": 0
+      },
+      {
+        "ticker": "USAR",
+        "name": "USA Rare Earth",
+        "pe": 0,
+        "pb": 4.0,
+        "roe": -20.0,
+        "div_yield": 0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.25,
+      "horizon": "3-5Y",
+      "target_price": 45.0,
+      "prob_pct": 25,
+      "thesis": "(1) 우라늄 가격 cycle 강세 + 원자력 부활, (2) 디스프로슘 29kg → 100-500톤 ramp, (3) DoD 디스프로슘 매입 계약 체결, (4) White Mesa Mill 캐파 확장",
+      "key_assumptions": [
+        "horizon: 3-5Y",
+        "(1) 우라늄 가격 cycle 강세 + 원자력 부활, (2) 디스프로슘 29kg → 100-500톤 ramp, (3) DoD 디스프로슘 매입 계약 체결, (4) White Mesa"
+      ]
+    },
+    "base": {
+      "probability": 0.5,
+      "horizon": "2-3Y",
+      "target_price": 28.0,
+      "prob_pct": 50,
+      "thesis": "(1) 우라늄 매출 안정 증가, (2) RE 정제 ramp는 점진적 (29kg → 5-20톤), (3) 손익분기점 달성 후 점진 회복",
+      "key_assumptions": [
+        "horizon: 2-3Y",
+        "(1) 우라늄 매출 안정 증가, (2) RE 정제 ramp는 점진적 (29kg → 5-20톤), (3) 손익분기점 달성 후 점진 회복"
+      ]
+    },
+    "bear": {
+      "probability": 0.25,
+      "horizon": "1-2Y",
+      "target_price": 12.0,
+      "prob_pct": 25,
+      "thesis": "(1) 우라늄 가격 약세 동반, (2) RE 정제 ramp 실패 시 monazite 원료 sunk cost, (3) 추가 dilution",
+      "key_assumptions": [
+        "horizon: 1-2Y",
+        "(1) 우라늄 가격 약세 동반, (2) RE 정제 ramp 실패 시 monazite 원료 sunk cost, (3) 추가 dilution"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "디스프로슘 산화물 ramp (29kg → 100kg+)",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "중희토류 첫 commercial 증가"
+    },
+    {
+      "date": "2026-2027",
+      "event": "우라늄 spot 가격 $100+ 진입",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "원자력 부활 + 우라늄 cycle 강세"
+    },
+    {
+      "date": "2026-2027",
+      "event": "DoD/DoE 디스프로슘 매입 계약",
+      "type": "policy",
+      "expected_impact": "++",
+      "description": "중희토류 비중국 케파 확보 의지"
+    },
+    {
+      "date": "2026-2027",
+      "event": "White Mesa Mill 캐파 확장 발표",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "monazite 처리량 ↑"
+    }
+  ],
+  "risks": [
+    {
+      "name": "RE 정제 ramp 실패 (29kg → scale 어려움)",
+      "probability": "med",
+      "impact": "high",
+      "description": "파일럿에서 commercial 100-500톤 scaling 미증명",
+      "mitigation": "우라늄 본업 매출 floor"
+    },
+    {
+      "name": "우라늄 가격 cycle 약세",
+      "probability": "med",
+      "impact": "med",
+      "description": "spot 가격 변동성 큼",
+      "mitigation": "RE 사업 다변화 진행"
+    },
+    {
+      "name": "monazite 원료 확보 차질",
+      "probability": "med",
+      "impact": "med",
+      "description": "원료 공급 불안정",
+      "mitigation": "장기 공급 계약 추진"
+    },
+    {
+      "name": "환경 규제 강화 (White Mesa Mill)",
+      "probability": "low",
+      "impact": "med",
+      "description": "유타 환경 규제 risk",
+      "mitigation": "방사성 부산물 처리 노하우 보유"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "알타·고려아연·MP·UUUU 등 commercial 검증 미완 (T03)",
+      "type": "industry",
+      "evidence": "29kg 파일럿 사례; commercial scale 미증명",
+      "testability": "high",
+      "current_status": "validated"
+    },
+    {
+      "claim": "중국 중희토류 99% 점유 (T07) — UUUU 진입 의미",
+      "type": "macro",
+      "evidence": "미국 첫 중희토류 분리 사례 — 비중국 케파 확보 의의",
+      "testability": "high",
+      "current_status": "validated"
+    }
+  ],
+  "korean_disclosures": []
+}
