@@ -1,0 +1,223 @@
+{
+  "ticker": "ETN",
+  "name_kr": "이튼",
+  "name_en": "Eaton Corporation plc",
+  "ipo_year": 1923,
+  "market_data_snapshot": {
+    "ticker": "ETN",
+    "name": "Eaton Corporation plc",
+    "current_price": 400.03,
+    "currency": "USD",
+    "forward_pe": 25.49,
+    "trailing_pe": 39.14,
+    "beta": 1.24,
+    "return_1m_pct": -0.46,
+    "return_3m_pct": 6.72,
+    "return_6m_pct": 6.01,
+    "return_1y_pct": 25.64,
+    "volatility_annualized_pct": 33.9,
+    "market_cap_local_bn": 155.33,
+    "market_cap_usd_bn": 155.33,
+    "ev_ebitda": 28.98,
+    "div_yield_pct": 1.05,
+    "pb": 7.87,
+    "fetched_at": "2026-05-12T17:59:31",
+    "fetched_via": "yfinance 1.3.0 (live)",
+    "as_of_date": "2026-05-12"
+  },
+  "industry": {
+    "name": "Power Management — 변압기·배전반·UPS·산업 자동화·전기차 powertrain",
+    "overview": "글로벌 전력장비 시장 2024 $300B → 2030 $500B+ (IEA). Eaton은 AI DC + 송배전 + 전기차 + 산업 자동화 4대 secular trend 동시 노출. AI DC 비중 2024 5% → 2030 15%로 확대 예상. 본문에서 ABB·Schneider·Vertiv와 함께 NVIDIA 800V 로드맵에 SST 통합 계획 반영 기업으로 명시.",
+    "competitors": [
+      {
+        "name": "Schneider Electric",
+        "ticker": "SBGSY",
+        "share_pct": 11.0,
+        "moat": "Big 4 leader, AI DC + Energy mgmt"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIEGY",
+        "share_pct": 10.0,
+        "moat": "산업 자동화·digital factory leader"
+      },
+      {
+        "name": "ABB",
+        "ticker": "ABBNY",
+        "share_pct": 9.0,
+        "moat": "Robotics·SST·산업 자동화"
+      },
+      {
+        "name": "Eaton",
+        "ticker": "ETN",
+        "share_pct": 8.5,
+        "moat": "100년 brand, AI DC + EV + grid 다중"
+      },
+      {
+        "name": "Vertiv",
+        "ticker": "VRT",
+        "share_pct": 4.5,
+        "moat": "AI DC system integration"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 300.0,
+      "cagr_pct": 9.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "$24.9B (YoY +7%)",
+    "revenue_2025_est": "$26-27B",
+    "gross_margin": "약 37%",
+    "operating_margin": "약 22% (industry-leading)",
+    "balance_sheet": "현금 $0.5B, 부채 $9B (manageable, leverage 2.0x), interest coverage 강",
+    "fcf": "$3.5B annual, sustained 5%+ growth",
+    "comment": "Eaton은 본문에서 ABB·Schneider·Vertiv와 함께 'NVIDIA 800V 로드맵에 SST 통합 계획 반영' 기업으로 명시. AI 외 EV·산업·grid modernization 다중 노출로 valuation 안전판."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 540.0,
+      "thesis": "AI DC backlog + grid modernization capex peak 시 2027 revenue $32B+, EBITDA $7B+. Multiple expansion 시 5-year upside 1.35x.",
+      "key_assumptions": [
+        "AI DC segment 매출 비중 5%→15%",
+        "Grid modernization CAPEX peak 2027-2030",
+        "EBITDA margin 25%+"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 460.0,
+      "thesis": "Sustained 7-9% revenue growth, EBITDA margin 25%+. 5-year upside 1.15x with compounding.",
+      "key_assumptions": [
+        "Revenue CAGR 7-9%",
+        "Multiple fwd PE 25 → 22",
+        "EV·산업 segment 안정 성장"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 300.0,
+      "thesis": "Industrial recession + valuation compression (fwd PE 25 → 18) → -25% drawdown. Underlying fundamentals 강해 빠른 회복 가능.",
+      "key_assumptions": [
+        "산업 recession + EV 둔화",
+        "Multiple fwd PE 18",
+        "AI capex peak 후 backlog 정체"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q1",
+      "event": "2025 FY earnings — AI DC segment 매출 disclosure",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI 비중 5%→10% 가속 신호 여부"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "PJM·ERCOT interconnect queue 해소 progress",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "송배전 capex deployment 가속"
+    },
+    {
+      "date": "2026-H2",
+      "event": "Dividend increase announcement (annual)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "수십 년 dividend growth history 연장"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "EV powertrain segment 매출 ramp",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "OEM 다변화 가속"
+    },
+    {
+      "date": "2027-Q4",
+      "event": "Power electronics 또는 grid AI 분야 M&A",
+      "type": "m&a",
+      "expected_impact": "+",
+      "description": "secular tailwind 가속"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex cycle peak 시 backlog growth 둔화",
+      "probability": "med",
+      "impact": "med",
+      "description": "AI 비중 5% 수준으로 multiple compression 영향 제한적",
+      "mitigation": "EV·산업 다중 노출로 분산"
+    },
+    {
+      "name": "EV market 둔화 시 powertrain segment 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "Tesla·VW·Ford SiC purchases 둔화 가능",
+      "mitigation": "산업·grid·AI segment 다각화"
+    },
+    {
+      "name": "경쟁사 (Schneider·Siemens·ABB) AI DC offering 강화",
+      "probability": "med",
+      "impact": "med",
+      "description": "Big 4 share 경쟁 격화",
+      "mitigation": "100년 brand·service network·R&D"
+    },
+    {
+      "name": "FX 노출 (해외 매출 50%+)",
+      "probability": "high",
+      "impact": "low",
+      "description": "달러 강세 시 매출 압박",
+      "mitigation": "FX hedge·natural hedging"
+    },
+    {
+      "name": "Interest rates 상승 시 utility customer 영향",
+      "probability": "low",
+      "impact": "med",
+      "description": "Capital intensive customer (utility) 발주 둔화",
+      "mitigation": "Government grant·infra bill tailwind"
+    }
+  ],
+  "valuation_context": "Forward PE 25.5, Trailing PE 39.1, PB 7.87, EV/EBITDA 29, div yield 1.05%. Quality compounder valuation으로 historic 평균 (PE 18-22)보다 약간 비싸지만 secular growth justify. 'Wonderful company at fair-to-slightly-rich price' — Buffett 기준 borderline.",
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020A",
+        "revenue": 17858,
+        "op_margin": 14.0,
+        "net_margin": 7.5
+      },
+      {
+        "year": "2021A",
+        "revenue": 19628,
+        "op_margin": 17.5,
+        "net_margin": 11.0
+      },
+      {
+        "year": "2022A",
+        "revenue": 20752,
+        "op_margin": 18.5,
+        "net_margin": 11.5
+      },
+      {
+        "year": "2023A",
+        "revenue": 23196,
+        "op_margin": 20.0,
+        "net_margin": 13.0
+      },
+      {
+        "year": "2024A",
+        "revenue": 24879,
+        "op_margin": 22.0,
+        "net_margin": 15.5
+      }
+    ],
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": []
+  }
+}
