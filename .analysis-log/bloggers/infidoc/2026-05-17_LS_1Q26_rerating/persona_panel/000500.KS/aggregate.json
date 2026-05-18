@@ -1,0 +1,213 @@
+{
+  "ticker": "000500.KS",
+  "name": "가온전선",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 9,
+      "pct": 69.2
+    },
+    "lean_bullish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "bullish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.57,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.52
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.52
+        }
+      ],
+      "dominant": "neutral (4/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.52
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (2/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "skeptic": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "em-growth": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "academic": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns_top3": [
+    "[actual] LS 계열 아님 — 시너지 효과 한정",
+    "[inference] SPARK 발주 timing 2027~2028로 시차 — 단기 catalyst 부족",
+    "[actual] 1Q26 어닝 후 6주차 — 시장 가격이 이미 부분 반영, 2Q26 어닝 확인 필요"
+  ],
+  "unique_alpha_top3": [
+    "[actual] 미국 SPARK 재도체화 가공선 직접 수혜 — 글 직접 언급",
+    "[inference] BEAD 통신망 동시 발주로 dual catalyst",
+    "[actual] 인피의 글 특유의 '비상장 자회사 가치 인식 lag' 알파 — 시장은 시차로 인식"
+  ],
+  "consensus_summary": "가온전선 (000500.KS) — 13명 페르세나 패널 평균 confidence 0.57. verdict 분포: neutral(9), lean_bullish(3), bullish(1). 인피의 1Q26 다축 thesis는 macro/growth 페르소나(Druckenmiller·Lynch·Wood·Fisher) 강한 지지, value 페르소나(Buffett·Munger·Pabrai)는 SOTP catalyst 인정, skeptic(Taleb·Burry)는 황산 평균회귀·Metal Gain reversal risk 강조.",
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "medium_term"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "short_term"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "short_term"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "medium_term"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "short_term"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term"
+    }
+  }
+}
