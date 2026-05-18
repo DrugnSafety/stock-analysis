@@ -1,0 +1,22 @@
+{
+  "start_cash_usd": 15000000,
+  "start_cash_krw": 20000000000,
+  "final_nav_usd": 15000000,
+  "final_nav_krw": 20000000000,
+  "total_return_pct": 0.0,
+  "total_trades": 5,
+  "current_holdings": {},
+  "pending_trades": {
+    "FPS": {"action": "buy_small", "quantity": 7400, "value_usd": 374300, "horizon": "6-12M"},
+    "POWL": {"action": "buy", "quantity": 1900, "value_usd": 562900, "horizon": "12-24M"},
+    "GEV": {"action": "buy", "quantity": 635, "value_usd": 674540, "horizon": "12-24M"},
+    "267260.KS": {"action": "buy_large", "quantity": 1500, "value_krw": 1900500000, "horizon": "24-36M"},
+    "298040.KS": {"action": "buy", "quantity": 350, "value_krw": 1408750000, "horizon": "12-24M"}
+  },
+  "metadata": {
+    "as_of_date": "2026-05-14",
+    "strategy": "변압기·전력 분배 장비 sector 분산 portfolio — 한국 makers overweight (PE discount + dual tailwind), 미국 incumbents (POWL·GEV) core, FPS small allocation (high growth + high risk)",
+    "rebalance_frequency": "quarterly",
+    "stop_loss_method": "-25% from entry OR backlog book-to-bill < 1.0 sustained"
+  }
+}
