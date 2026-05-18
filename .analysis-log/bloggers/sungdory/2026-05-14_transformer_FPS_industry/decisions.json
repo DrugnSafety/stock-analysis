@@ -1,0 +1,82 @@
+{
+  "decisions": [
+    {
+      "ticker": "FPS",
+      "action": "buy_small",
+      "signal_score": 0.18,
+      "target_quantity": 7400,
+      "primary_risks": [
+        "PE-led roll-up risk — 4개 인수 통합 후 organic growth 둔화 위험",
+        "신생 기업 (2023년 설립) — track record 부족, IPO 직후 6개월 매수 lock-up expiration",
+        "데이터센터 customer concentration 30%+ — hyperscaler capex 둔화 시 직접 영향"
+      ],
+      "rationale_short": "Druckenmiller·Lynch·Fisher·Wood support strong (data center growth play). 단 Buffett·Burry·Graham rebut/neutral — PE 25x rich + track record 부족으로 small allocation",
+      "target_value": 374300,
+      "position_limit_value": 1500000
+    },
+    {
+      "ticker": "POWL",
+      "action": "buy",
+      "signal_score": 0.42,
+      "target_quantity": 1900,
+      "primary_risks": [
+        "Cycle 후반 진입 — 2027-2028년 backlog peak 후 multiple contraction 위험",
+        "Oil & gas customer 30% — 유가·시추 활동 위축 시 영향",
+        "Customer concentration — 상위 10개 customer가 매출 40%+ 차지"
+      ],
+      "rationale_short": "13명 페르소나 중 7명 support (Buffett·Munger·Lynch·Ackman·Fisher·Druckenmiller·Jhunjhunwala) — established quality + 데이터센터 노출 + reasonable PE 22x. Strong buy",
+      "target_value": 562900,
+      "position_limit_value": 2250000
+    },
+    {
+      "ticker": "GEV",
+      "action": "buy",
+      "signal_score": 0.31,
+      "target_quantity": 635,
+      "primary_risks": [
+        "PE 35x — historical 평균 (12-15x) 대비 2.3x premium = 가장 큰 valuation risk",
+        "Power Conversion segment margin 변동성 (gas turbine cycle 영향)",
+        "Spin-off 후 management 검증 (2024년 carve-out from GE)"
+      ],
+      "rationale_short": "Mega-cap grid leader — Ackman·Wood·Fisher·Druckenmiller·Jhunjhunwala support. 단 Buffett·Burry·Graham rebut due to PE 35x. Buy with PE risk awareness",
+      "target_value": 674540,
+      "position_limit_value": 2700000
+    },
+    {
+      "ticker": "267260.KS",
+      "action": "buy_large",
+      "signal_score": 0.65,
+      "target_quantity": 1500,
+      "primary_risks": [
+        "주가 2-3년간 25x 상승 — short-term multiple contraction 위험",
+        "미국 BIS anti-dumping 관세 한국 변압기 부분 (5-15%) 적용 — 마진 압박",
+        "한전 발주 의존 한국 본토 매출 — 정부 정책 변경 시 영향"
+      ],
+      "rationale_short": "13명 중 10명 support — 한국 변압기 #1 leader, PE 18x (vs 미국 22-35x discount), dual tailwind (수출+본토). Strongest conviction",
+      "target_value": 1900500000,
+      "position_limit_value": 3000000000
+    },
+    {
+      "ticker": "298040.KS",
+      "action": "buy",
+      "signal_score": 0.42,
+      "target_quantity": 350,
+      "primary_risks": [
+        "변압기·전력 외 건설·발전 부문 cyclical risk",
+        "PE 22x — HD현대일렉트릭(18x) 대비 premium",
+        "미국 Tennessee 공장 capex burden — ROI 2027+"
+      ],
+      "rationale_short": "13명 중 6명 support — 한국 변압기 #2, 미국 진출 가속, EBITDA 마진 확장 중. HD현대일렉트릭과 함께 한국 sector top pick",
+      "target_value": 1408750000,
+      "position_limit_value": 2800000000
+    }
+  ],
+  "metadata": {
+    "as_of_date": "2026-05-14",
+    "portfolio_value_usd": 15000000,
+    "portfolio_value_krw": 20000000000,
+    "signal_score_method": "Persona panel verdict_score (support=+1, neutral=0, rebut=-1) × confidence, averaged across 13 personas, then weighted with thesis support score from 4-Analyst eval",
+    "thesis_average_support_score": 0.78,
+    "thesis_average_confidence": 0.78
+  }
+}
