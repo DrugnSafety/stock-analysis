@@ -1,0 +1,268 @@
+{
+  "ticker": "LYSDY",
+  "company_kr": "라이너스 레어어스 ADR",
+  "company_en": "Lynas Rare Earths Limited (ADR)",
+  "underlying": "LYC.AX",
+  "sector": "Rare Earth Mining + Refining (비중국 1위)",
+  "industry": {
+    "name": "Rare Earth Vertical (Australia/Malaysia/US)",
+    "overview": "1985 설립, 1989 ASX 상장. Mt Weld(서호주) 광산 + Malaysia LAMP plant(정제·분리) + US Kalgoorlie 시설 확장 중. 2025 NdPr 산화물 6,555톤 — 비중국 글로벌 1위. 30년+ 분리 공정 안정 가동. 2026.3 미 행정부와 9,600만$ REO 공급 계약 + 가격 하한 $110/kg 보장. 일본의 RE 무기화 대응 안전망(2010~) 핵심 파트너.",
+    "competitors": [
+      {
+        "name": "MP Materials",
+        "ticker": "MP",
+        "share_pct": 6.5,
+        "moat": "미국 vertical 후발 — NdPr 2,599톤(2025), Stage 3 자석 진입"
+      },
+      {
+        "name": "Shenghe Resources",
+        "ticker": "600392.SS",
+        "share_pct": 20.0,
+        "moat": "중국 최대 trader"
+      },
+      {
+        "name": "China Northern Rare Earth",
+        "ticker": "600111.SS",
+        "share_pct": 28.0,
+        "moat": "중국 최대 mining + 분리"
+      },
+      {
+        "name": "Korea Zinc",
+        "ticker": "010130.KS",
+        "share_pct": 0.3,
+        "moat": "재활용 기반 진입 — 미국 합작 + DoD 지분"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-03",
+        "title": "미 행정부 9,600만$ REO 공급계약 + $110/kg floor",
+        "source": "US Government",
+        "summary": "미국 시장 진입 확정 + 가격 안전망"
+      },
+      {
+        "date": "2025-Q4",
+        "title": "US Kalgoorlie 분리 시설 가동 시작 — 2026 ramp 예정",
+        "source": "Lynas IR",
+        "summary": "미국 내 정제 케파 확보 — 정책 winner 강화"
+      },
+      {
+        "date": "2026-02",
+        "title": "중국, 일본 기업 20곳 블랙리스트 → 라이너스 일본 수요 ↑",
+        "source": "Japan METI",
+        "summary": "tail wind — 무기화 가속"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.5,
+      "cagr_pct": 12.5,
+      "horizon": "2025-2030 비중국 정제"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 490,
+        "op_income": 165,
+        "op_margin": 33.7,
+        "net_income": 110,
+        "net_margin": 22.4
+      },
+      {
+        "year": 2022,
+        "revenue": 920,
+        "op_income": 360,
+        "op_margin": 39.1,
+        "net_income": 311,
+        "net_margin": 33.8
+      },
+      {
+        "year": 2023,
+        "revenue": 740,
+        "op_income": 200,
+        "op_margin": 27.0,
+        "net_income": 150,
+        "net_margin": 20.3
+      },
+      {
+        "year": 2024,
+        "revenue": 460,
+        "op_income": 80,
+        "op_margin": 17.4,
+        "net_income": 50,
+        "net_margin": 10.9
+      },
+      {
+        "year": 2025,
+        "revenue": 720,
+        "op_income": 220,
+        "op_margin": 30.6,
+        "net_income": 170,
+        "net_margin": 23.6
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-Q4e",
+      "total_assets": 2100,
+      "total_liabilities": 480,
+      "total_equity": 1620,
+      "cash": 650,
+      "debt": 100,
+      "net_debt": -550,
+      "current_ratio": 4.8,
+      "debt_to_equity": 0.06
+    },
+    "cf_summary": {
+      "ocf_avg_5y": 280,
+      "fcf_avg_5y": 80,
+      "capex_avg_5y": 220,
+      "note": "단위: AUD M. Kalgoorlie 확장 CapEx — 2026-2027 ramp 후 FCF 정상화 예상"
+    },
+    "peer_compare": [
+      {
+        "ticker": "LYSDY",
+        "name": "Lynas Rare Earths",
+        "pe": 25.0,
+        "pb": 2.4,
+        "roe": 10.5,
+        "div_yield": 0
+      },
+      {
+        "ticker": "MP",
+        "name": "MP Materials",
+        "pe": 0,
+        "pb": 4.5,
+        "roe": 0.3,
+        "div_yield": 0
+      },
+      {
+        "ticker": "010130.KS",
+        "name": "Korea Zinc",
+        "pe": 9.5,
+        "pb": 0.95,
+        "roe": 9.0,
+        "div_yield": 1.8
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.4,
+      "horizon": "3-5Y",
+      "target_price": 25.0,
+      "prob_pct": 40,
+      "thesis": "(1) Kalgoorlie 미국 시설 ramp + DoE 추가 자금, (2) NdPr 가격 cycle 상승 + $110/kg floor 효력, (3) 중희토류 분리 진입 (현재 LAMP 부산물 기반)으로 valuation 재평가, (4) 일본 자석 OEM 장기 계약 확대",
+      "key_assumptions": [
+        "horizon: 3-5Y",
+        "(1) Kalgoorlie 미국 시설 ramp + DoE 추가 자금, (2) NdPr 가격 cycle 상승 + $110/kg floor 효력, (3) 중희토류 분리 진입 (현재 L"
+      ]
+    },
+    "base": {
+      "probability": 0.45,
+      "horizon": "2-3Y",
+      "target_price": 18.0,
+      "prob_pct": 45,
+      "thesis": "(1) NdPr 6,555 → 8,500톤 ramp, (2) 미국 시설 commercial 가동, (3) FCF 정상화 진행, 단 valuation discount는 유지",
+      "key_assumptions": [
+        "horizon: 2-3Y",
+        "(1) NdPr 6,555 → 8,500톤 ramp, (2) 미국 시설 commercial 가동, (3) FCF 정상화 진행, 단 valuation discount는 유지"
+      ]
+    },
+    "bear": {
+      "probability": 0.15,
+      "horizon": "1-2Y",
+      "target_price": 10.0,
+      "prob_pct": 15,
+      "thesis": "(1) Malaysia 환경 규제 강화 → LAMP plant 비용 증가, (2) NdPr 가격 floor 미달 시 매출 부담, (3) 중국 덤핑 동향",
+      "key_assumptions": [
+        "horizon: 1-2Y",
+        "(1) Malaysia 환경 규제 강화 → LAMP plant 비용 증가, (2) NdPr 가격 floor 미달 시 매출 부담, (3) 중국 덤핑 동향"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Kalgoorlie 첫 commercial NdPr 출하",
+      "type": "company",
+      "expected_impact": "++",
+      "description": "미국 내 분리 시설 commercial 가동"
+    },
+    {
+      "date": "2027",
+      "event": "중희토류 (Dy/Tb) 분리 진입 발표",
+      "type": "company",
+      "expected_impact": "++",
+      "description": "LAMP 부산물 기반 디스프로슘·테르비움 확장"
+    },
+    {
+      "date": "2026-2027",
+      "event": "일본 자석 OEM 장기 계약 추가",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "중국 블랙리스트 대응 안전망 수요"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "DoE 추가 보조금 1.34억$ NOFO 수혜",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "미국 시설 확장 자금 지원"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Malaysia LAMP 환경 규제 비용",
+      "probability": "med",
+      "impact": "med",
+      "description": "정제 부산물 처리 비용 ↑",
+      "mitigation": "Kalgoorlie 미국 시설 + 다변화"
+    },
+    {
+      "name": "NdPr 가격 cycle 하락 (DoD floor 부재 시기)",
+      "probability": "med",
+      "impact": "med",
+      "description": "비미국 매출은 floor 부재",
+      "mitigation": "일본 장기 계약 + 미국 9,600만$ deal"
+    },
+    {
+      "name": "Kalgoorlie 미국 시설 ramp 지연",
+      "probability": "low",
+      "impact": "med",
+      "description": "first commercial 출하 지연 risk",
+      "mitigation": "Malaysia LAMP 기존 케파로 보완"
+    },
+    {
+      "name": "MP의 Stage 3 자석 시설이 OEM 수요 흡수",
+      "probability": "low",
+      "impact": "low",
+      "description": "미국 시장 점유 경쟁",
+      "mitigation": "라이너스 + MP 차별화 (라이너스는 정제 IP, MP는 vertical)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "비중국 정제 = 라이너스 사실상 유일 (T06)",
+      "type": "industry",
+      "evidence": "NdPr 6,555톤; 30년 검증된 분리 공정",
+      "testability": "high",
+      "current_status": "validated"
+    },
+    {
+      "claim": "미 정부 3중 안전망 (T08) — 라이너스도 수혜자",
+      "type": "policy",
+      "evidence": "$110/kg floor; 9,600만$ deal; Kalgoorlie 가동",
+      "testability": "high",
+      "current_status": "validated"
+    },
+    {
+      "claim": "관계 해자 (T09) — 미·일·호 안보 framework default winner",
+      "type": "macro",
+      "evidence": "30년 history + 일본 안전망 + 미국 시설 + DoE 자금",
+      "testability": "medium",
+      "current_status": "validated"
+    }
+  ],
+  "korean_disclosures": []
+}
