@@ -1,0 +1,211 @@
+{
+  "industry": {
+    "name": "글로벌 구리 · 금 광산 — 전기화 · AI 데이터센터 · 리쇼어링 multi-driver",
+    "overview": "Freeport-McMoRan은 미국·인도네시아 기반 글로벌 톱 5 구리 광산사. Grasberg (인도네시아) + 미국 Bagdad·Sierrita·Morenci 등 다각화. AI 데이터센터 전력 수요(EPRI: 미국 데이터센터 전력 2024 4.4% → 2030 9-12%), 글로벌 EV 침투율, 미국 리쇼어링이 구리 demand 폭증 driver. 지난 10년간 광산 capex 부족(Wood Mackenzie: 2025 글로벌 capex $90B vs 2012 정점 $145B, -38%) + 구리 신규 광산 lead time 7-12년 → 2027-2030 공급 부족 임박. 산업분석러 본문: 12개 펀드가 광산·금속·원자재 동조 매수. 켄 피셔(프리포트 추매), 베일리 기포드(프리포트 신규), 드러켄밀러(서던 코퍼·알코아 추매·GSG)",
+    "competitors": [
+      {
+        "name": "BHP Group",
+        "ticker": "BHP",
+        "share_pct": 12.0,
+        "moat": "철광석 + 구리 + 코킹콜 diversified, low cost"
+      },
+      {
+        "name": "Rio Tinto",
+        "ticker": "RIO",
+        "share_pct": 10.0,
+        "moat": "철광석 + 구리 + 리튬 — 2026 Oyu Tolgoi underground 양산"
+      },
+      {
+        "name": "Southern Copper",
+        "ticker": "SCCO",
+        "share_pct": 6.0,
+        "moat": "Peru·Mexico 저비용 광산, 80년+ reserve"
+      },
+      {
+        "name": "Freeport-McMoRan",
+        "ticker": "FCX",
+        "share_pct": 8.0,
+        "moat": "Grasberg(세계 2위 구리·금 reserve) + 미국 자산 비중"
+      },
+      {
+        "name": "Glencore",
+        "ticker": "GLEN.L",
+        "share_pct": 7.0,
+        "moat": "Trading + mining integration, 코발트·아연 leadership"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-12",
+        "title": "LME 구리 재고 multi-year low — 2024 -55% YoY 누적",
+        "source": "LME data",
+        "summary": "물리적 supply shortage 가시화"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "FCX Q1 2026 매출 $7.2B (+18%), 구리 production +8% YoY",
+        "source": "FCX earnings",
+        "summary": "Grasberg open-pit → underground 전환 in-line"
+      },
+      {
+        "date": "2026-04-12",
+        "title": "베일리 기포드 13F FCX 신규 매수",
+        "source": "13F filing",
+        "summary": "성장 펀드의 commodity 매수 = 산업분석러 핵심 인용"
+      },
+      {
+        "date": "2026-03-25",
+        "title": "구리 가격 $5.20/lb 돌파 — multi-year high",
+        "source": "COMEX",
+        "summary": "AI 전력 demand + EV + 리쇼어링 multi-driver"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "BHP·RIO·FCX capex guidance — 2026 +15% YoY",
+        "source": "earnings calls",
+        "summary": "capital discipline 종료 phase 신호"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 280.0,
+      "cagr_pct": 8.0,
+      "horizon": "2024-2030 (글로벌 구리 시장)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 95,
+      "thesis": "구리 super-cycle 본격 진입. 가격 $6/lb+ 지속, FCX EBITDA $11B+ 2027. EV/EBITDA 6배 expansion → $90+.",
+      "key_assumptions": [
+        "구리 $6/lb+",
+        "AI 데이터센터 capex sustain",
+        "Grasberg underground 정상 ramp"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 75,
+      "thesis": "구리 $5-5.5/lb 유지, EBITDA $8.5B 2027. EV/EBITDA 5.5배.",
+      "key_assumptions": [
+        "구리 안정",
+        "Production +5% CAGR",
+        "Grasberg ramp 부드러움"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 42,
+      "thesis": "중국 부동산 디플레이션 + 글로벌 PMI 약세 → 구리 demand -10-15%, 가격 $3.8/lb로 retracement.",
+      "key_assumptions": [
+        "중국 GDP <4%",
+        "구리 -25%",
+        "Multiple compression"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "FCX Q2 earnings + Grasberg underground production update",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Underground 양산 가시화"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "글로벌 구리 supply-demand balance update (Wood Mackenzie)",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "2027-2030 deficit 공식화"
+    },
+    {
+      "date": "2027",
+      "event": "Indonesia smelter 가동 + Atlantic Copper 매각 가능성",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "Downstream integration completion"
+    },
+    {
+      "date": "2026-2028",
+      "event": "구리 super-cycle 인플레이션 + 정부 정책 (CHIPS · IRA) 강화",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "미국 자원 안보 강조"
+    }
+  ],
+  "risks": [
+    {
+      "name": "구리 가격 cycle 변동성 — 2022 -40% 폭락 사례",
+      "severity": "high",
+      "mitigation": "Capital allocation discipline + cost curve 하위 25% 위치"
+    },
+    {
+      "name": "인도네시아 Grasberg 광산 지정학·smelter capex risk",
+      "severity": "moderate",
+      "mitigation": "Indonesia 정부 partnership 안정. Smelter 자체 운영 시 매출 회수"
+    },
+    {
+      "name": "변동성 55% — 단기 commodity 변동",
+      "severity": "high",
+      "mitigation": "장기 super-cycle thesis 유지 — cycle low entry 적절"
+    },
+    {
+      "name": "Capex inflation — 신규 광산 cost overrun",
+      "severity": "moderate",
+      "mitigation": "Brownfield expansion 우선 (greenfield risk 회피)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "T01 원자재 super-cycle — 12개 펀드 동조",
+      "type": "macro",
+      "evidence": "Wood Mackenzie capex -38% from 2012 peak",
+      "testability": "medium",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "구리 lead time 7-12년 + 미국 capex 누적 부족",
+      "type": "industry",
+      "evidence": "신규 광산 부재 + LME 재고 multi-year low",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "T05 남미 — Grasberg(인도네시아) + 미국 자산 다각화",
+      "type": "geographic",
+      "evidence": "Grasberg world#2 구리·금 reserve + Bagdad/Sierrita",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI 데이터센터 전력 demand → 구리 demand +20-25%",
+      "type": "industry",
+      "evidence": "EPRI 미국 데이터센터 전력 9-12%/2030",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "T12 실물자산 시대 — multiple expansion 50-100%",
+      "type": "macro",
+      "evidence": "EV/EBITDA 5배 → 7-8배 fair value",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "us_disclosures": {
+    "recent_10k_summary": "FY2024 매출 $25.5B (+8% YoY), Adjusted EBITDA $8.2B. 구리 production 4.2B lbs.",
+    "key_filings": [
+      {
+        "date": "2026-04-30",
+        "type": "10-Q Q1 2026",
+        "summary": "매출 $7.2B(+18%), EBITDA $2.5B, Grasberg ramp in-line"
+      },
+      {
+        "date": "2026-02-13",
+        "type": "10-K FY2025",
+        "summary": "매출 $28B(+10%), EBITDA $9.5B, 자본환원 $2.5B"
+      }
+    ]
+  }
+}
