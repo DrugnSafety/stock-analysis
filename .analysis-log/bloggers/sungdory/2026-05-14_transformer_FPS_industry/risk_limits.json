@@ -1,0 +1,71 @@
+{
+  "limits": [
+    {
+      "ticker": "FPS",
+      "as_of_date": "2026-05-14",
+      "volatility_metrics": {
+        "annualized_volatility": 0.62
+      },
+      "vol_multiplier": 0.5,
+      "correlation_multiplier": 0.85,
+      "combined_limit_pct": 0.1,
+      "max_quantity": 29650,
+      "position_limit_value": 1500000
+    },
+    {
+      "ticker": "POWL",
+      "as_of_date": "2026-05-14",
+      "volatility_metrics": {
+        "annualized_volatility": 0.45
+      },
+      "vol_multiplier": 0.75,
+      "correlation_multiplier": 0.9,
+      "combined_limit_pct": 0.15,
+      "max_quantity": 7593,
+      "position_limit_value": 2250000
+    },
+    {
+      "ticker": "GEV",
+      "as_of_date": "2026-05-14",
+      "volatility_metrics": {
+        "annualized_volatility": 0.42
+      },
+      "vol_multiplier": 0.85,
+      "correlation_multiplier": 0.95,
+      "combined_limit_pct": 0.18,
+      "max_quantity": 2542,
+      "position_limit_value": 2700000
+    },
+    {
+      "ticker": "267260.KS",
+      "as_of_date": "2026-05-14",
+      "volatility_metrics": {
+        "annualized_volatility": 0.48
+      },
+      "vol_multiplier": 0.75,
+      "correlation_multiplier": 0.92,
+      "combined_limit_pct": 0.15,
+      "max_quantity": 2368,
+      "position_limit_value": 3000000000
+    },
+    {
+      "ticker": "298040.KS",
+      "as_of_date": "2026-05-14",
+      "volatility_metrics": {
+        "annualized_volatility": 0.52
+      },
+      "vol_multiplier": 0.7,
+      "correlation_multiplier": 0.92,
+      "combined_limit_pct": 0.14,
+      "max_quantity": 695,
+      "position_limit_value": 2800000000
+    }
+  ],
+  "metadata": {
+    "calculation_method": "60-day rolling stdev * sqrt(252), then vol-adjusted multiplier (저변동성 1.25× / 고변동성 0.50×) + correlation multiplier",
+    "portfolio_value_usd": 15000000,
+    "portfolio_value_krw": 20000000000,
+    "max_single_position_pct": 0.2,
+    "as_of_date": "2026-05-14"
+  }
+}
