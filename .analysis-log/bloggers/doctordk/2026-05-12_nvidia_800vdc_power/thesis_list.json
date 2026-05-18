@@ -1,0 +1,95 @@
+{
+  "post_meta": {
+    "urls": [
+      "https://blog.naver.com/doctordk/224283043012",
+      "https://blog.naver.com/doctordk/224283063758"
+    ],
+    "title_series": "NVIDIA 800VDC Power Architecture: AI 데이터센터 전력구조 대전환 본격화 (#1 + #2)",
+    "author": "의교창 (doctordk)",
+    "published_at": "2026-05-12"
+  },
+  "summary_one_liner": "AI 데이터센터 랙당 전력 부하가 600kW→1MW급으로 진입하면서 415/480VAC 구조가 한계 도달. NVIDIA는 800VDC 아키텍처로 패러다임 전환(손실 5%↓, 구리 45%↓, 전송량 85%↑, TCO 30%↓). 2027년 Kyber NVL576이 '1MW 랙 시대' 분기점. 전력 스파이크 대응을 위해 다계층 ESS 필수. WBG 반도체(SiC·GaN) 비선형 성장: 전력 2배 시 SiC 5배. SST(고체상태변압기)는 2030년 전후 상용화 전망. 수혜 영역: ① GaN 반도체(Navitas), ② SiC 반도체(Wolfspeed·Onsemi·STMicro·Infineon), ③ 데이터센터 전력장비(Vertiv·Eaton·ABB·Schneider), ④ 구리·BESS·유틸리티·송배전 CAPEX.",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "AI 데이터센터 랙당 전력 부하가 600kW→1MW급으로 진입하면서 기존 415/480VAC 저압 AC 구조가 I²R 손실·발열·냉각 한계로 물리적 임계점에 도달했다",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "GB200·GB300·Vera Rubin·Rubin Ultra로 세대가 진행되며 랙당 부하가 수십 kW(CPU 시대)에서 600kW를 넘어 1MW로 진입. 기존 13.8~35kVAC → 저압 AC → UPS → 415/480VAC → 54VDC 변환 체인은 MW급 환경에서 전류 폭증으로 I²R 손실이 누적, 케이블 굵기·구리 사용량·발열·냉각 비용이 비선형 증가하여 GPU를 더 넣고 싶어도 전력선·냉각 구조가 먼저 한계에 도달.",
+      "tags": ["AI인프라", "데이터센터", "전력병목", "GB200", "Kyber"]
+    },
+    {
+      "claim_id": "T02",
+      "claim": "NVIDIA 800VDC 아키텍처는 손실 5% 개선, 구리 45% 절감, 동일 단면적 전송량 85% 증가, TCO 30% 절감을 달성하는 데이터센터 전력 패러다임 전환이다",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "전압을 800V로 극단적으로 높여 전류를 낮추면 I²R 손실·구리 사용량·케이블 질량·냉각 부담이 동시에 감소. NVIDIA 공개 수치: 손실 5%↓, 구리 45%↓, 전송량 85%↑, TCO 30%↓. AC/DC 변환 단계 대폭 축소(DC 2선식 직접 배전 → 고비율 LLC DC-DC로 12VDC 변환 → GPU 인접부 최종 변환). 기존 AC 전원선반 제거로 유효공간·냉각유량·GPU 밀도·유지보수성·냉각효율 모두 개선.",
+      "tags": ["800VDC", "NVIDIA", "효율", "TCO", "패러다임"]
+    },
+    {
+      "claim_id": "T03",
+      "claim": "2027년 Kyber NVL576 출시는 단순 신제품 출시가 아니라 데이터센터 전력 생태계 자체가 'DC 중심 구조'로 전환되는 역사적 분기점이다",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "GB200·GB300 NVL72 → Vera Rubin NVL144 → Kyber NVL576로 진화. NVIDIA는 이미 800V 사이드카 전원모듈 시연 완료. 초기엔 기존 UPS 기반 AC 구조와 병행되는 하이브리드, 장기적으로는 DC 중심 구조로 이동. 2026-2027 Kyber 상용화가 '1MW 랙 시대' 개막 분기점.",
+      "tags": ["Kyber", "NVL576", "2027", "DC전환"]
+    },
+    {
+      "claim_id": "T04",
+      "claim": "AI 클러스터는 Compute/Communication 단계가 밀리초 단위로 반복되며 거대한 전력 스파이크를 발생시키므로, 다계층 에너지 스토리지(슈퍼커패시터+BESS+BBU)가 필수 인프라가 된다",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "MS·OpenAI·NVIDIA 공동 연구: AI 클러스터는 일정 전력 소비 시설이 아니라 거대 전력 진동 발생 시설. 클러스터 단위 전력 진동이 시설 안정성·지역 전력망(Grid) 자체를 흔들 수준. NVIDIA 제시 구조: 랙 인접 슈퍼커패시터(sub-second) + Facility 단위 BESS(sec-minute) + 초고속 보호회로 + 랙단 BBU. 랙 내부 고속 스토리지 통합 시 피크부하 30% 절감 가능.",
+      "tags": ["BESS", "에너지스토리지", "슈퍼커패시터", "그리드"]
+    },
+    {
+      "claim_id": "T05",
+      "claim": "WBG(Wide Bandgap) 반도체 시장은 SiC와 GaN이 역할 분담 구조로 진화 — SiC는 초고압 정류·SST 전단·고전력 AC/DC, GaN은 랙 내부 DC-DC·초고속 스위칭·고밀도 변환을 장악",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "전력 구조 4단계 진화: ①고전력 AC/DC(SiC 중심) ②랙 상단 DC/DC(GaN 침투 확대) ③랙 내부 트레이 직접 강하(GaN 사실상 독점) ④SST 고체상태변압기(초고압 SiC 폭증). 단일 기술로는 전력 체인 커버 불가, GaN+SiC 융합 아키텍처가 표준. Navitas 등 GaN+SiC 동시 보유 기업 전략적 가치 상승.",
+      "tags": ["SiC", "GaN", "WBG", "Navitas", "역할분담"]
+    },
+    {
+      "claim_id": "T06",
+      "claim": "Navitas 어닝콜에 따르면 800V HVDC 전환 본격화로 MW당 GaN 콘텐츠 $10-15K, SiC 콘텐츠 $5-8K 시장 형성 — 전력 2배 증가 시 SiC 콘텐츠는 5배 비선형 증가하는 구조",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "Navitas는 최근 어닝콜에서 AI 데이터센터 800V HVDC 전환 본격화로 메가와트당 GaN 콘텐츠 $10-15K, SiC $5-8K 시장이 형성되고 있다고 언급. 더 중요한 것은 전력 2배 증가 시 SiC 콘텐츠 약 5배 증가하는 비선형 구조 — 전력 밀도가 올라갈수록 발열·냉각·안정성·스위칭 속도·전력효율 요구치가 기하급수적으로 어려워지기 때문. PSU 요구치 5-10kW → 18.5kW → 30kW로 상승 전망.",
+      "tags": ["Navitas", "NVTS", "PSU", "MW당콘텐츠", "비선형성장"]
+    },
+    {
+      "claim_id": "T07",
+      "claim": "SST(Solid-State Transformer)는 기존 구리·철심 변압기를 반도체화하는 흐름의 종착점 — ABB·Eaton·Schneider·Vertiv 등 글로벌 전력장비 기업이 이미 NVIDIA 800V 로드맵에 SST 통합 계획을 반영, 2030년 전후 상용화 전망",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "long_term",
+      "supporting_evidence": "데이터센터 전력 밀도가 계속 상승하면 기존 변압기는 크기·무게·냉각·응답속도·설치공간 한계에 직면. ABB·Eaton·Schneider·Vertiv가 NVIDIA 800V 로드맵에 SST 통합 계획을 이미 반영. 상용화는 2030년 전후 유력이지만 시장은 이미 방향성 선반영. 사실상 '전력망 자체가 반도체화되는 흐름'.",
+      "tags": ["SST", "Vertiv", "ABB", "Eaton", "Schneider", "2030"]
+    },
+    {
+      "claim_id": "T08",
+      "claim": "800VDC 구조는 단위당 구리 사용량 45% 절감하지만 AI 전력 수요 폭증으로 총 구리 수요는 증가 — 동시에 알루미늄 버스웨이 채택 확대, 2035년까지 AI 데이터센터 부하 100GW+ 증가로 유틸리티·송배전 CAPEX 확대 가능성",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "long_term",
+      "supporting_evidence": "단위당 구리 사용량 45% 절감 vs 총 AI 전력 수요 자체가 폭증 → 결과적으로 총 구리 수요는 오히려 증가. 알루미늄 버스웨이 채택 확대 가능성. 2035년까지 AI 데이터센터 부하 100GW+ 증가 전망 → 유틸리티·송배전 CAPEX 폭증 가능성. AI 인프라 경쟁의 핵심이 'GPU 숫자'에서 '누가 더 높은 전력 밀도/효율/안정성/그리드 연결'로 이동.",
+      "tags": ["구리", "알루미늄", "유틸리티", "송배전", "100GW"]
+    },
+    {
+      "claim_id": "T09",
+      "claim": "현실적 병목으로 표준화·보험·AHJ 승인·안전 규정·SiC 공급망·전력망 연결 지연이 존재하지만, 시장은 '800VDC가 가능한가'에서 '언제·얼마나 빠르게 전환되는가'로 질문이 이동한 단계",
+      "type": "conditional",
+      "importance": "supporting",
+      "timeframe": "medium_term",
+      "supporting_evidence": "800VDC·SST는 기술적으로 구현 가능하나 표준화·보험·AHJ(Authority Having Jurisdiction) 승인·안전 규정·SiC 공급망·전력망 연결 지연 등 현실적 병목이 잔존. 하지만 NVIDIA·ABB·Eaton·Vertiv 핵심 플레이어 로드맵·투자 계획은 매우 구체적 단계까지 진입. 즉 'feasibility 질문'이 아니라 'timing·pace 질문' 단계.",
+      "tags": ["리스크", "표준화", "공급망", "타이밍"]
+    }
+  ]
+}
