@@ -1,0 +1,49 @@
+{
+  "computed_at": "2026-05-13T03:04:38.881734+09:00",
+  "start_cash": 1000000.0,
+  "start_date": "2026-05-12",
+  "end_date": "2026-05-12",
+  "n_decisions": 5,
+  "total_trades": 1,
+  "total_buy_value": 54999.89,
+  "total_sell_value": 0.0,
+  "final_cash": 945000.11,
+  "end_positions_value": 54999.89,
+  "final_nav": 1000000.0,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "LYSDY": {
+      "qty": 3937,
+      "avg_cost": 13.97,
+      "last_price": 13.97,
+      "market_value": 54999.89,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-12",
+      "ticker": "LYSDY",
+      "action": "buy",
+      "qty": 3937,
+      "price": 13.97,
+      "cost": 54999.89,
+      "cash_after": 945000.11
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 7822.24,
+      "end_price": 7822.24,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    },
+    "SPY": {
+      "start_price": 735.17,
+      "end_price": 735.17,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    }
+  }
+}
