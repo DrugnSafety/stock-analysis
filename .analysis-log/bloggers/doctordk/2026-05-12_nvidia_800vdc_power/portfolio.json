@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-05-12",
+  "snapshot_at": "2026-05-13T03:14:20.469871+09:00",
+  "starting_cash_usd": 100000,
+  "positions": [
+    {
+      "ticker": "VRT",
+      "name_kr": "버티브 홀딩스",
+      "shares": 30,
+      "entry_price_usd": 363.84,
+      "cost_basis_usd": 10915.2,
+      "weight_pct": 10.92,
+      "action": "BUY"
+    },
+    {
+      "ticker": "ETN",
+      "name_kr": "이튼",
+      "shares": 38,
+      "entry_price_usd": 400.03,
+      "cost_basis_usd": 15201.14,
+      "weight_pct": 15.2,
+      "action": "BUY"
+    },
+    {
+      "ticker": "ON",
+      "name_kr": "온세미",
+      "shares": 108,
+      "entry_price_usd": 101.85,
+      "cost_basis_usd": 10999.8,
+      "weight_pct": 11.0,
+      "action": "BUY"
+    }
+  ],
+  "cash_used_usd": 37116.14,
+  "cash_remaining_usd": 62883.86,
+  "nav_usd": 100000,
+  "trades": [
+    {
+      "ticker": "VRT",
+      "action": "BUY",
+      "shares": 30,
+      "price_usd": 363.84,
+      "cost_basis_usd": 10915.2,
+      "timestamp": "2026-05-13T03:14:20.469871+09:00"
+    },
+    {
+      "ticker": "ETN",
+      "action": "BUY",
+      "shares": 38,
+      "price_usd": 400.03,
+      "cost_basis_usd": 15201.14,
+      "timestamp": "2026-05-13T03:14:20.469871+09:00"
+    },
+    {
+      "ticker": "ON",
+      "action": "BUY",
+      "shares": 108,
+      "price_usd": 101.85,
+      "cost_basis_usd": 10999.8,
+      "timestamp": "2026-05-13T03:14:20.469871+09:00"
+    }
+  ]
+}
