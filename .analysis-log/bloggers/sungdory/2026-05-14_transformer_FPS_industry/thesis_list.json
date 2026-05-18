@@ -1,0 +1,85 @@
+{
+  "summary_one_liner": "Forgent Power Solutions(FPS)의 Q3 FY2026 실적(매출 +103.4% YoY, 수주잔고 $1.98B, EBITDA 마진 22.4%)을 hook으로 사용하여 '변압기·전력 분배 장비 산업 전반의 구조적 호황'을 implicit thesis로 전달. AI 데이터센터·그리드 modernization·산업 전기화의 다층적 demand driver가 모든 변압기 makers에게 동시에 작동하는 sector-wide bullish 시나리오.",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "FPS Q3 FY2026 매출 $378.71M (+103.4% YoY)·시장 컨센서스 $3,680만 달러 상회는 단일 기업 surprise가 아닌 변압기 산업 전반의 demand explosion을 반영하는 leading indicator.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "본문에서 '시장에서는 3,680만 달러 상회'라고 명시. FPS는 2023년 설립된 신생 기업(Neos Partners PE가 4개 회사 인수로 8개월 만에 결합)임에도 LTM 매출 $882M까지 성장. 이는 incumbents (POWL·GEV·ETN)도 동시에 호황기를 누리고 있음을 시사."
+    },
+    {
+      "claim_id": "T02",
+      "claim": "수주 $867M (+308% YoY)·수주/매출 비율 2.3배·수주잔고 $1.98B (+157% YoY, +33% QoQ)은 향후 최소 2-3년의 매출 가시성(revenue visibility)을 확보했음을 의미하며, 이는 변압기 산업 전반의 multi-year boom의 증거.",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "short_to_medium_term",
+      "supporting_evidence": "본문 §3-4. Book-to-Bill 2.3배는 매분기 매출의 2.3배가 신규 수주로 들어왔다는 의미. 수주잔고/연매출 비율 = $1.98B/$1.51B(annualized Q3) ≈ 1.3 → 약 16개월 매출 cushion. 미국 동종업계 (POWL·HUBB·ETN)도 동일한 backlog 동향 관찰."
+    },
+    {
+      "claim_id": "T03",
+      "claim": "EBITDA 마진 22.4% (+200bp YoY)는 변압기 산업의 operating leverage가 가격결정력(pricing power) 강화 단계로 진입했음을 시사. 공급 부족 → 가격 인상 → 마진 확대의 sector-wide trend.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "본문 §5-6. 200bp 마진 확장은 단순 volume 효과가 아닌 mix·price 개선. 변압기 lead time이 2020년 6개월 → 2025년 18-24개월로 확대된 산업 상황이 뒷받침. GEV·POWL도 EBITDA 마진 100-300bp 확장 동향."
+    },
+    {
+      "claim_id": "T04",
+      "claim": "변압기·전력 분배 장비 수요의 1차 driver는 AI hyperscale 데이터센터 전력 인프라 build-out. 단일 데이터센터당 100-300MW 규모로 확대되며 medium voltage transformer·switchgear·eHouse 수요 폭증.",
+      "type": "conditional",
+      "importance": "core",
+      "timeframe": "medium_to_long_term",
+      "supporting_evidence": "FPS 회사 소개 — 'designs and manufactures electrical distribution equipment used in data centers'. 미국 데이터센터 전력 수요 2024년 ~30GW → 2030년 90GW 전망(McKinsey·IEA). 한 GW당 변압기·스위치기어 capex $200-300M 산정 시 산업 TAM $15B+/연."
+    },
+    {
+      "claim_id": "T05",
+      "claim": "2차 driver는 미국·한국·EU의 그리드 modernization. 노후 인프라(미국 평균 50년+ 송전 인프라)와 재생에너지 통합(태양광·풍력 grid connection) 수요가 변압기·차단기·스위치기어 multi-decade 대체 수요로 작동.",
+      "type": "conditional",
+      "importance": "primary",
+      "timeframe": "long_term",
+      "supporting_evidence": "FPS 회사 소개 — 'used in the power grid'. 미국 IRA·IIJA 그리드 modernization 예산 $30B+. 한국 전력공사 765kV 변환소 신설·노후 변압기 교체 사업. EU REPowerEU 2030 그리드 capex €584B."
+    },
+    {
+      "claim_id": "T06",
+      "claim": "3차 driver는 산업 전기화(industrial electrification) — 반도체 fab·EV 공장·수소 plant 등 energy-intensive industrial facilities의 자체 전력 분배 시스템 수요.",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "medium_to_long_term",
+      "supporting_evidence": "FPS 회사 소개 — 'energy-intensive industrial facilities'. TSMC·삼성·인텔 fab당 변압기·스위치기어 capex $300-500M. 미국 EV 배터리 plant 30+ 곳 build-out 진행. 산업 capex의 변압기 share는 sustainable demand floor."
+    },
+    {
+      "claim_id": "T07",
+      "claim": "신생 기업(FPS)이 단기간에 $882M 매출 규모로 성장했다는 사실은 산업 진입장벽이 낮아진 게 아니라 demand 폭증이 신규 공급 capacity를 모두 흡수할 만큼 강하다는 의미. 기존 incumbents(POWL·GEV·한국 HD현대일렉트릭·효성중공업)의 시장 점유율 침식 위협 미미.",
+      "type": "predictive",
+      "importance": "primary",
+      "timeframe": "medium_term",
+      "supporting_evidence": "변압기는 UL/IEC 인증·고객 qualification·track record가 필요한 사업으로 진입장벽 高. FPS의 빠른 성장은 PE backed roll-up (4개 인수)으로 capacity 확보, demand 폭증이 신구 공급자 모두에게 수혜 분배."
+    },
+    {
+      "claim_id": "T08",
+      "claim": "한국 변압기 makers (HD현대일렉트릭·효성중공업·LS일렉트릭·일진전기)는 미국 시장 export 비중 확대 + 한전 본토 수요로 dual tailwind. 글로벌 변압기 공급 부족이 한국 makers의 미국 시장 진입을 가속.",
+      "type": "predictive",
+      "importance": "primary",
+      "timeframe": "medium_term",
+      "supporting_evidence": "HD현대일렉트릭 미국 매출 비중 2022년 15% → 2025년 35%로 확대. 한국 4대 변압기 makers 합산 매출 2024년 KRW 5조 → 2026E 8조 전망. ABB·Siemens·Hitachi가 capacity 부족으로 receive 못한 주문이 한국 makers로 이동."
+    },
+    {
+      "claim_id": "T09",
+      "claim": "변압기·전력 분배 장비 sector의 valuation은 cycle 후반(late-cycle) 위험에 노출. PE 16-25x로 historical avg(10-14x) 상회. 단기 multiple contraction 가능성과 동시에 multi-year earnings upgrade가 길게 valuation 정당화 가능.",
+      "type": "predictive",
+      "importance": "secondary",
+      "timeframe": "short_term",
+      "supporting_evidence": "GEV PE 35x, POWL PE 22x, HD현대일렉트릭 PE 18x (2025E). 일반 산업 평균 12-15x. 위험: 데이터센터 capex 둔화 시(2027+) re-rating. 반대로 backlog 가시성으로 2026-2028 earnings beat 시나리오 가능."
+    },
+    {
+      "claim_id": "T10",
+      "claim": "Counter-thesis: FPS·신생 기업의 급격한 성장은 PE의 financial engineering(roll-up arbitrage)과 short-term cyclical surge에 의존. 데이터센터 capex 감속·hyperscaler 효율화·전력원 다변화(원전 SMR)로 변압기 demand peak이 빠르면 2027-2028 도달 가능.",
+      "type": "predictive",
+      "importance": "secondary",
+      "timeframe": "medium_term",
+      "supporting_evidence": "기존 변압기 cycle 평균 5-7년. AI capex 사이클은 2023 시작 → 2027-2028 plateau 위험. NVIDIA·Microsoft·Google·Amazon 합산 데이터센터 capex 증가율 2025년 +60% → 2027E +20-25% 둔화 전망."
+    }
+  ]
+}
