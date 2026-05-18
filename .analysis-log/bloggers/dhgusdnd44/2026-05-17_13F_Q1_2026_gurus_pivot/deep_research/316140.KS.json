@@ -1,0 +1,222 @@
+{
+  "industry": {
+    "name": "한국 4대 금융지주 — Value-up 정책 + 외국인 자금흐름 + 딥밸류 리레이팅",
+    "overview": "우리금융지주는 한국 4대 금융지주(KB·신한·하나·우리) 중 하나, 우리은행 중심. PBR 0.45 · PER 5-6배 · 배당수익률 6% · ROE 9-10%. Korea Value-up Program(2024 시작) + K-IFRS 1118호(2026 시행) 회계 투명성 강화 + 주주환원 의지로 multi-year rerating thesis. 산업분석러 본문: 도널드 스미스(딥밸류 펀드)가 우리금융지주 신규 매수 — '저렴하기만 했던 기업이 이젠 그 너머를 볼 수 있는 지점'. 베일리 기포드(성장)·드러켄밀러도 한국 ETF/주식 보유. 외국인 한국 주식 순매수 2024 +$15B, KOSPI +28%. 일본 14년 corporate governance reform cycle 재현 가능성. 2024-25 자사주 매입 $1B+ + 배당 +30%.",
+    "competitors": [
+      {
+        "name": "KB금융지주",
+        "ticker": "105560.KS",
+        "share_pct": 28.0,
+        "moat": "1위 자산 + IB·증권 + KB증권 통합"
+      },
+      {
+        "name": "신한지주",
+        "ticker": "055550.KS",
+        "share_pct": 26.0,
+        "moat": "신한카드 + 신한투자증권 + KB와 함께 1-2위 경쟁"
+      },
+      {
+        "name": "하나금융지주",
+        "ticker": "086790.KS",
+        "share_pct": 18.0,
+        "moat": "외환은행 통합 + 다각화 + 디지털 우위"
+      },
+      {
+        "name": "우리금융지주",
+        "ticker": "316140.KS",
+        "share_pct": 14.0,
+        "moat": "우리은행 + 자사주매입 + Value-up 적극, 가장 deep value"
+      },
+      {
+        "name": "BNK금융지주",
+        "ticker": "138930.KS",
+        "share_pct": 6.0,
+        "moat": "부산은행·경남은행 — 지방 금융 1위"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-10",
+        "title": "우리금융지주 Q1 2026 순이익 +12% YoY — Value-up 정책 지속",
+        "source": "우리금융지주 IR",
+        "summary": "ROE 9.8%, 배당성향 35% 가이드"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "도널드 스미스 13F — 우리금융지주 신규 매수 confirmed",
+        "source": "13F filing",
+        "summary": "산업분석러 본문 인용 — 딥밸류 펀드의 한국 entry"
+      },
+      {
+        "date": "2026-04-08",
+        "title": "금감원 — Value-up 인센티브 강화 ETP 출시 가속",
+        "source": "금감원",
+        "summary": "KOSPI 200 Value 우대 지수 + 세제 혜택"
+      },
+      {
+        "date": "2026-03-12",
+        "title": "K-IFRS 1118호 2026 시행 — 회계 투명성 강화",
+        "source": "금감원",
+        "summary": "한국 금융지주 valuation discount 부분 해소"
+      },
+      {
+        "date": "2026-02-18",
+        "title": "외국인 한국 금융주 순매수 1Q26 — 한국 금융지주 매입 가속화",
+        "source": "한국거래소",
+        "summary": "글로벌 자금흐름 한국 지향"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 250.0,
+      "cagr_pct": 8.0,
+      "horizon": "2024-2028 (한국 금융지주 자산 기준)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 48000,
+      "thesis": "Value-up 본격 효과 + 외국인 매수 가속 + ROE 11% 회복. PBR 0.8배 회복. 일본 2014-2024 cycle 재현.",
+      "key_assumptions": [
+        "ROE 11%+",
+        "PBR 0.8 회복",
+        "배당성향 40%+"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 40000,
+      "thesis": "Value-up 점진 효과 + ROE 9.5%. PBR 0.6배 회복. 자사주 매입 지속.",
+      "key_assumptions": [
+        "ROE 9.5%",
+        "PBR 0.6",
+        "배당+자사주 7%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 25000,
+      "thesis": "한국 부동산 PF 부실 + 자영업 대출 부실 + 경기침체 → 대손충당금 폭증. ROE 6%로 하락.",
+      "key_assumptions": [
+        "PF 부실 -30%",
+        "대손충당금 +50%",
+        "PBR 0.4 유지"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "우리금융지주 Q2 earnings + 중간배당 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Value-up 정량 효과 확인"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Value-up 우대 ETP 출시 가속 + 외국인 매수 momentum",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "ETF 매수 가속 catalyst"
+    },
+    {
+      "date": "2027",
+      "event": "K-IFRS 1118호 본격 시행 효과 가시화",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "한국 valuation discount 부분 해소"
+    },
+    {
+      "date": "2027 대선",
+      "event": "Value-up 정책 일관성 confirm 또는 reverse",
+      "type": "policy",
+      "expected_impact": "?",
+      "description": "정권 변화 시 정책 변동 risk"
+    }
+  ],
+  "risks": [
+    {
+      "name": "한국 부동산 PF 부실 risk",
+      "severity": "high",
+      "mitigation": "Q1 2026 대손충당금 보강 — 부실율 1.0% 미만 통제. 자본비율 13%+ buffer"
+    },
+    {
+      "name": "2027 대선 cycle — Value-up 정책 변동",
+      "severity": "moderate",
+      "mitigation": "주주환원 trend는 정권 무관 지속 가능. 외국인 매수 시 정책 압력 유지"
+    },
+    {
+      "name": "글로벌 메이저 은행 대비 ROE gap 잔존 (9% vs JPM 15%)",
+      "severity": "moderate",
+      "mitigation": "PBR 0.45 = ROE gap 이상의 할인 — re-rating 여지 충분"
+    },
+    {
+      "name": "변동성 43% — 한국 금융주 cyclical 특성",
+      "severity": "moderate",
+      "mitigation": "장기 thesis 유지, 단기 cycle 변동 수용"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "T11 한국 시장 재발견 — 도널드 스미스 우리금융지주 신규",
+      "type": "thesis",
+      "evidence": "13F Q1 2026 entry",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Korea Value-up Program + K-IFRS 1118호 = 리레이팅 catalyst",
+      "type": "regulatory",
+      "evidence": "금감원 2024-2026 정책 발표 + 자사주 매입 +$1B/년",
+      "testability": "medium",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "PBR 0.45 · PER 5-6배 · 배당 6% — Graham/Munger 매력적 cheap",
+      "type": "valuation",
+      "evidence": "한국 4대 금융지주 평균 PBR 0.5 vs JPM 1.8",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "일본 2014-2024 corporate governance reform cycle 재현",
+      "type": "macro",
+      "evidence": "TOPIX 14년 +200% precedent + 한국 외국인 매수 가속",
+      "testability": "low",
+      "current_status": "pending"
+    },
+    {
+      "claim": "외국인 한국 주식 순매수 2024 +$15B — 자금흐름 확인",
+      "type": "flows",
+      "evidence": "한국거래소 외국인 순매수 통계",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05-10",
+      "type": "분기보고서 Q1",
+      "title": "우리금융지주 Q1 2026 분기보고서",
+      "summary": "순이익 ₩890B(+12%), ROE 9.8%, NIM 1.65%",
+      "impact": "+",
+      "source": "DART 공시"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "사업보고서",
+      "title": "우리금융지주 FY2025 사업보고서",
+      "summary": "순이익 ₩3.6T(+13%), 배당성향 38%, 자사주 ₩2T",
+      "impact": "+",
+      "source": "DART 공시"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "주요사항보고",
+      "title": "자사주 매입 결정 — ₩1T 추가 계획",
+      "summary": "Value-up 정책 일환 자사주 매입 ₩1T 추가 결정",
+      "impact": "+",
+      "source": "DART 공시"
+    }
+  ]
+}
