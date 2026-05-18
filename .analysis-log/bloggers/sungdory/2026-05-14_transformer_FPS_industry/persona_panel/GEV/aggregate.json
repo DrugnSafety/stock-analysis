@@ -1,0 +1,1240 @@
+{
+  "ticker": "GEV",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 3,
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.59,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (2/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Cycle 후반 진입 — 2027-2028 backlog peak 후 drawdown 위험",
+      "frequency": 9,
+      "personas": [
+        "michael-burry",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "charlie-munger",
+        "ben-graham",
+        "warren-buffett",
+        "mohnish-pabrai",
+        "bill-ackman",
+        "stanley-druckenmiller"
+      ],
+      "examples": [
+        "변압기 cycle 5-7년, 현재 mid-cycle"
+      ]
+    },
+    {
+      "theme": "Valuation premium (PE 18-35x) — historical 평균 (10-14x) 대비 1.5-3x rich",
+      "frequency": 7,
+      "personas": [
+        "warren-buffett",
+        "ben-graham",
+        "michael-burry",
+        "aswath-damodaran",
+        "mohnish-pabrai",
+        "charlie-munger",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "PE 22x → 15x multiple contraction 위험"
+      ]
+    },
+    {
+      "theme": "Hyperscaler capex 둔화 risk — 데이터센터 1차 driver acceleration phase 종료",
+      "frequency": 6,
+      "personas": [
+        "michael-burry",
+        "nassim-taleb",
+        "stanley-druckenmiller",
+        "aswath-damodaran",
+        "cathie-wood",
+        "ben-graham"
+      ],
+      "examples": [
+        "NVIDIA·MS·Google·AWS 2027+ capex growth 둔화"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] GE Vernova PEG ratio 1.2x — Lynch 기준 (PEG < 1.0) 미달",
+        "[inference] 'story stocks' bias 위험 — 데이터센터 narrative만으로 PE 정당화 가능",
+        "[actual] GE Vernova 한국·미국 dual exposure 시 환율 위험"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Electrification +35% YoY = Lynch가 좋아하는 'Fast Grower' (20-50% EPS growth)",
+        "[actual] 변압기 산업 PEG 0.5-1.0 영역 = under-priced GARP",
+        "[actual] 일반인이 이해 가능한 product — 'invest in what you know'"
+      ],
+      "uncertainty": "EPS growth deceleration timing — 2027 +20% → 2029 +10% 전환점",
+      "narrative_vs_quant_resolution": "Lynch는 PEG ratio + 'Story Strength' 종합 → 한국 makers (PEG 0.4-0.6)는 strong buy, GEV·FPS (PEG 0.8-1.5)는 buy with caution",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피터 린치: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "피터 린치: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "피터 린치: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "피터 린치: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "피터 린치: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "rebut",
+          "rationale": "피터 린치: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "피터 린치: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[inference] 변압기 산업은 emerging market 발전 단계와 매우 연동 — 글로벌 macro slowdown 시 affect",
+        "[actual] GE Vernova valuation PE 35x — Jhunjhunwala는 'pay for growth' 허용하나 PE 25x+는 신중",
+        "[assumption] 한국 makers는 India equity market dynamics와 다름 — Jhunjhunwala's edge 약화"
+      ],
+      "key_opportunities_top3": [
+        "[inference] India·Korea·US 동시 그리드 modernization = structural multi-decade theme",
+        "[actual] GE Vernova = decade-long compounder candidate",
+        "[inference] 한국 makers (HD현대일렉트릭) = Jhunjhunwala가 좋아하는 'high quality, multi-bagger candidate'"
+      ],
+      "uncertainty": "Macro slowdown·금리 cycle 영향",
+      "narrative_vs_quant_resolution": "Jhunjhunwala는 structural growth + EM equity preference로 한국 makers 강력 선호. GEV·POWL도 long-term hold candidates",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "rebut",
+          "rationale": "라케시 준준왈라: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] GE Vernova cycle 후반 multiple contraction 위험 (Munger: 'avoid stupidity')",
+        "[actual] PE 35x — 'circle of competence' 밖 (Munger는 산업재 cyclical 회피 성향)",
+        "[assumption] PE-led roll-up (FPS)·신생 carved-out (GEV) — track record 부족"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 변압기 산업 = utility-like demand stability + tech-like growth (mental model overlap)",
+        "[actual] 13% EBITDA 마진 — moat 입증",
+        "[inference] 글로벌 oligopoly 구조 (10-15개 makers) = pricing power"
+      ],
+      "uncertainty": "Sustained pricing power vs cyclical excess 구분",
+      "narrative_vs_quant_resolution": "Munger는 'fish where the fish are' — 변압기 산업은 fish 많은 pond이나 PE 25x 이상은 'pay too much for excellent'",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "찰리 멍거: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "찰리 멍거: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "찰리 멍거: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "찰리 멍거: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "찰리 멍거: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] GE Vernova 'heads I win big' margin — PE 35x는 downside 30-50% 위험",
+        "[inference] Pabrai's Dhandho 'low risk, high return' — 변압기 cycle 후반은 'high risk, moderate return'",
+        "[assumption] PE-led roll-up (FPS) 또는 carve-out (GEV) = '복잡한 비즈니스 모델' (Pabrai 회피)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 한국 makers PE 14-18x = Pabrai의 'good business at good price' 일치",
+        "[inference] 한국 makers의 미국 export 가속 = optionality with low downside",
+        "[actual] GE Vernova balance sheet 강함 = downside protection"
+      ],
+      "uncertainty": "Margin of safety 측면",
+      "narrative_vs_quant_resolution": "Pabrai는 한국 makers (HD현대일렉트릭·일진전기·LS일렉트릭) 선호 — Dhandho 기준 (PE < 15)에 부합하는 KR makers 일부 small position",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "모니시 파브라이: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T09",
+          "stance": "rebut",
+          "rationale": "모니시 파브라이: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] GE Vernova PE forward 35x — historical 평균 (10-14x) 대비 premium",
+        "[inference] 변압기 cycle 후반 진입 위험 — earnings sustainability 의문",
+        "[assumption] FPS·POWL·GEV의 wide moat 검증 부족 (신생 또는 카브아웃)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Electrification +35% YoY — 실증 earnings 강함",
+        "[inference] 변압기 산업의 진입장벽(인증·track record) = 'undisruptable' moat",
+        "[actual] backlog visibility 24-30개월 → owner earnings 예측 가능"
+      ],
+      "uncertainty": "Cycle peak이 2026 vs 2028 — earnings sustainability 차이 큼",
+      "narrative_vs_quant_resolution": "Buffett은 정량 (margin of safety) 우선이나, 변압기 산업의 multi-decade tailwind와 wide moat을 인정하여 PE 18-22x도 'fair'로 평가 가능",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "워런 버핏: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "워런 버핏: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "워런 버핏: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "워런 버핏: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T09",
+          "stance": "rebut",
+          "rationale": "워런 버핏: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[inference] 변압기 산업 'crowded trade' 가능 — institutional consensus bullish ($20T+ thematic exposure)",
+        "[actual] GE Vernova valuation PE 35x — macro 둔화 시 multiple contraction risk",
+        "[assumption] hyperscaler capex 가이던스 둔화 시 entire 변압기 thesis re-rate"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 capex super-cycle = decade-long macro tailwind",
+        "[actual] GE Vernova의 backlog visibility + EBITDA expansion = compelling earnings momentum",
+        "[inference] 한국 makers는 dollar-strong + KRW-weak 환경에서 export beneficiary"
+      ],
+      "uncertainty": "Fed cycle·data center capex sustainability — macro tail risk",
+      "narrative_vs_quant_resolution": "Druckenmiller는 변압기 sector 강력 long, 단 cycle 전환 신호 (book-to-bill < 1.0) 즉시 exit. 현재 phase는 concentrated overweight",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[inference] GE Vernova small-mid cap (FPS·POWL) = Ackman의 concentrated mega-cap 스타일과 불일치",
+        "[actual] FPS는 신생 기업 — track record 부족",
+        "[assumption] 변압기는 'cyclical industrial' — Ackman의 'compounding quality' 기준 모호"
+      ],
+      "key_opportunities_top3": [
+        "[actual] GEV (대형주 $285B)는 Ackman의 high-quality concentrated bet 후보",
+        "[inference] GE Vernova customer concentration (hyperscaler) = recurring oligopoly dynamics",
+        "[actual] backlog visibility = predictable cash flow = Ackman favorite"
+      ],
+      "uncertainty": "Cyclical vs secular debate — Ackman은 secular 우선",
+      "narrative_vs_quant_resolution": "Ackman은 GEV·POWL 같은 large/mid-cap quality에 concentrated 후보 — 한국 makers는 ADR 부재로 제외",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "빌 애크먼: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "빌 애크먼: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "빌 애크먼: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "빌 애크먼: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "빌 애크먼: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[inference] GE Vernova customer concentration risk — hyperscaler 4-5개사가 매출의 30-50% 차지",
+        "[actual] R&D 비중 산업 평균 (3-5%) — Fisher 기준 (5%+) 미달 가능",
+        "[assumption] FPS·GEV의 management quality 검증 부족"
+      ],
+      "key_opportunities_top3": [
+        "[actual] GE Vernova의 '15-point check' 통과 — long-term competitive position 강함",
+        "[inference] Electrification +35% YoY = 'growth at reasonable price' 일치",
+        "[actual] industry growth secular (10-20년) — Fisher long-duration compatible"
+      ],
+      "uncertainty": "Management quality·R&D depth — scuttlebutt 필요",
+      "narrative_vs_quant_resolution": "Fisher는 POWL·HD현대일렉트릭 같은 established quality growth 선호 — FPS는 추가 management 검증 필요",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "필립 피셔: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "필립 피셔: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "필립 피셔: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "필립 피셔: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "필립 피셔: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "필립 피셔: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "필립 피셔: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "필립 피셔: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "rebut",
+          "rationale": "필립 피셔: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "short_to_medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] GE Vernova PE 35x — historical 평균 대비 1.5-2.5x premium = bubble flag",
+        "[inference] FPS·POWL·GEV의 backlog 가시성은 'last cycle's quality earnings' — peak 후 30-50% drawdown 가능",
+        "[assumption] PE roll-up (FPS)·SPAC-like (GEV)·hot growth (POWL) = bubble signature"
+      ],
+      "key_opportunities_top3": [
+        "[inference] cycle 직전 short opportunity (Burry style) — 단 timing 어려움",
+        "[actual] 한국 makers (PE 18-22x) 일부는 valuation 여유 있어 long-able",
+        "[assumption] cycle peak 후 distressed 매수 기회"
+      ],
+      "uncertainty": "Cycle peak timing — 2026? 2027? 2028? 18-24개월 차이는 short P&L 결정",
+      "narrative_vs_quant_resolution": "Burry는 valuation 우선 → PE 20x 이상 모든 종목 'too rich'. 한국 makers만 long-able, 미국 incumbents는 wait or short cycle peak",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "마이클 버리: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "마이클 버리: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "마이클 버리: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "마이클 버리: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "마이클 버리: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "rebut",
+          "rationale": "마이클 버리: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T10",
+          "stance": "rebut",
+          "rationale": "마이클 버리: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "key_concerns_top3": [
+        "[actual] GE Vernova PE 35x — Graham 임계 (PE 15x 이하) 미달",
+        "[inference] FPS·GEV의 P/B 4-6x = Graham defensive criterion 미달",
+        "[actual] GE Vernova dividend yield 0-1% — Graham defensive 기준 부족"
+      ],
+      "key_opportunities_top3": [
+        "[actual] GE Vernova earnings stability — backlog visibility = Graham이 좋아하는 'defensive' 요건",
+        "[inference] 한국 makers PE 18x는 Graham 'enterprising investor' 기준 가능",
+        "[actual] balance sheet strong — net cash 또는 low leverage"
+      ],
+      "uncertainty": "Margin of safety 측면 충분한지 — PE 18-35x range",
+      "narrative_vs_quant_resolution": "Graham은 PE 15x 이상 거의 모든 종목 'speculative' — 한국 makers PE 18-22x는 'enterprising'으로 small position 허용",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T09",
+          "stance": "rebut",
+          "rationale": "벤저민 그레이엄: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "short_to_medium_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] 변압기는 'disruptive innovation' 측면에서 incremental — ARK 핵심 thesis와 거리",
+        "[actual] 5-year 100%+ growth thesis는 어려움 — 데이터센터 capex peak 후 감속",
+        "[assumption] AI 자체 vs AI infrastructure 중 ARK는 AI 자체 (NVIDIA·software) 선호"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI hyperscaler capex super-cycle의 second-derivative 수혜자",
+        "[actual] GE Vernova EV·태양광·data center 동시 노출 = innovation platform play",
+        "[inference] 글로벌 electrification은 ARK의 'Big Idea 2025' 일부"
+      ],
+      "uncertainty": "Innovation S-curve vs cyclical industrial — 5-year holding compatible?",
+      "narrative_vs_quant_resolution": "Wood는 'innovation enablers'로 변압기·전력 분배 장비 재해석 → AI infrastructure secondary play로 small position",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "캐시 우드: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "캐시 우드: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "캐시 우드: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "캐시 우드: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "캐시 우드: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "캐시 우드: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "에스와스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] GE Vernova DCF intrinsic value — revenue growth 30% sustained 가정 시 fair value 적정, but 가정 강함",
+        "[inference] 현재 PE 35x는 'narrative-driven' — 'numbers' 측면에서 1.5-2.0x premium",
+        "[assumption] terminal growth rate 3-5% 가정 시 변압기 산업 long-term margin 18-22% 가정 필요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] backlog visibility 24-36개월 = DCF growth assumption 신뢰도 높음",
+        "[inference] GE Vernova의 product mix shift (low → medium voltage)으로 margin expansion sustainable",
+        "[actual] 한국 makers DCF에서 currency tailwind + export growth 합쳐진 fair value PE 22-25x"
+      ],
+      "uncertainty": "Terminal growth rate·cost of capital 가정 sensitivity",
+      "narrative_vs_quant_resolution": "Damodaran은 narrative + numbers 결합 — 한국 makers는 numbers 통과, GEV는 narrative dominant. POWL은 borderline fair value",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "에스와스 다모다란: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "에스와스 다모다란: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "에스와스 다모다란: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "에스와스 다모다란: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "에스와스 다모다란: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "에스와스 다모다란: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "에스와스 다모다란: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "에스와스 다모다란: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "에스와스 다모다란: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "에스와스 다모다란: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "short_to_medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] GE Vernova cycle 후반 = concave payoff (small gains, large losses possible)",
+        "[inference] Backlog 가시성은 'narrative comfort' — black swan (전쟁·panic·hyperscaler capex collapse) tail risk 미반영",
+        "[assumption] PE-led roll-up (FPS) = fragility (over-leveraged, integration risk)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 변압기 산업은 'antifragile' — supply chain shock·전쟁 시 demand 증가",
+        "[actual] GE Vernova optionality on AI super-cycle + grid modernization + EV — multi-driver",
+        "[inference] 한국 makers는 미국 시장 진출 optionality = positive convexity"
+      ],
+      "uncertainty": "Tail risk (cycle peak·geopolitical·hyperscaler collapse) vs antifragility (supply chain shock benefit)",
+      "narrative_vs_quant_resolution": "Taleb은 barbell — 한국 makers (저PE) long + 변동성 OTM put hedge. 미국 highflyers (FPS·GEV) avoid",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 'FPS Q3 매출 surprise = 산업 leading indicator' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 'Book-to-Bill 2.3x + backlog $1.98B = multi-year visibility' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 'EBITDA 마진 22.4% (+200bp) = pricing power 산업 전반' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "나심 탈레브: 'AI 데이터센터 capex 1차 driver — multi-year demand' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "나심 탈레브: '그리드 modernization 2차 driver — multi-decade tail' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "rebut",
+          "rationale": "나심 탈레브: '산업 전기화(반도체 fab·EV plant) 3차 driver' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '신생 entrant도 incumbents도 동시 수혜 — demand>>>supply' 명제에 대해 'neutral' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "나심 탈레브: '한국 변압기 makers dual tailwind (수출+본토)' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "rebut",
+          "rationale": "나심 탈레브: 'Valuation premium 위험 (PE 18-35x) — cycle 후반 risk' 명제에 대해 'rebut' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "나심 탈레브: 'Counter-thesis: 데이터센터 capex 둔화·cycle peak 2027-2028' 명제에 대해 'support' 입장 — 페르소나 철학(가치/거시/사이클) 기준 평가",
+          "confidence": 0.72
+        }
+      ]
+    }
+  }
+}
