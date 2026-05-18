@@ -1,0 +1,1182 @@
+{
+  "ticker": "FSLR",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bullish": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "bullish": {
+      "count": 3,
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.68,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.66
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "growth": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "bullish (1/2)"
+    },
+    "growth-disruption": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Cycle timing",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "peter-lynch",
+        "ben-graham",
+        "bill-ackman"
+      ],
+      "examples": [
+        "[actual] 1Y +65.8% — cycle 중상단 진행, 단기 차익실현 매물 가능"
+      ]
+    },
+    {
+      "theme": "Geopolitical exposure",
+      "frequency": 5,
+      "personas": [
+        "nassim-taleb",
+        "stanley-druckenmiller",
+        "michael-burry",
+        "aswath-damodaran",
+        "charlie-munger"
+      ],
+      "examples": [
+        "[actual] 페루·인도네시아·중국·미중 무역 분쟁 등 다층 geo risk"
+      ]
+    }
+  ],
+  "unique_alpha_opportunities": [
+    {
+      "theme": "Commodity supercycle multi-driver",
+      "personas": [
+        "stanley-druckenmiller",
+        "peter-lynch",
+        "rakesh-jhunjhunwala",
+        "cathie-wood"
+      ],
+      "examples": [
+        "[actual] First Solar: 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW"
+      ]
+    },
+    {
+      "theme": "Policy lock-in (IRA·CRMA·DoD)",
+      "personas": [
+        "bill-ackman",
+        "phil-fisher",
+        "stanley-druckenmiller"
+      ],
+      "examples": [
+        "[actual] 정부 policy backstop으로 downside risk 제한"
+      ]
+    }
+  ],
+  "narrative_vs_quant_resolution": "13명 페르소나 종합 verdict {'neutral': {'count': 3, 'pct': 23.1}, 'lean_bullish': {'count': 7, 'pct': 53.8}, 'bullish': {'count': 3, 'pct': 23.1}}. 평균 confidence 0.68. Macro·Growth·EM 페르소나 (Druckenmiller·Lynch·Jhunjhunwala) bullish, Value 페르소나 (Buffett·Munger·Graham) 신중, Disruption (Wood) FSLR·MP 강하게 bullish. First Solar (솔라 PV 모듈)는 supercycle thesis에 핵심 노출 — verdict 분포가 thesis 강도 반영.",
+  "blogger_specialty_alignment": {
+    "specialty": "원자재 슈퍼사이클·광물 공급망·에너지 전환",
+    "weight_kr": 1.0,
+    "weight_us": 1.0,
+    "rationale": "Unregistered blogger — default weight 1.0. 본 분석은 First Solar이 본문의 commodity supercycle thesis에 직접 노출됨을 정량·정성 양 차원에서 검증."
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] Buffett은 mining capex 정확한 추정 어려움 — 'I don't know mining'이라 본인 admission",
+        "[actual] Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화 — margin of safety 30%+ 요구 시 First Solar 현 가격은 borderline"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] 약달러 환경에서 commodity producer는 currency tailwind",
+        "[derived] Wide moat (글로벌 #1 또는 #2 position)은 Buffett의 'durable competitive advantage'와 정합"
+      ],
+      "uncertainty": "value style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "Buffett은 cyclical commodity 사업에 보수적이나, First Solar의 미국 domiciled IRA 직접 수혜는 wide moat 가능성. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화로 'fair price' 수준. Long-term EPS 정상화는 cycle peak·trough 평균 EPS 추정 필요 — 불확실성으로 verdict neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "워런 버핏: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "워런 버핏: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "워런 버핏: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "워런 버핏: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] value style 관점에서 specific risk 검토 필요",
+        "[derived] Cycle timing 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] value style의 'sweet spot' 일부 정합",
+        "[derived] Long-term structural tailwind 강함"
+      ],
+      "uncertainty": "value style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "찰리 멍거 (value): 'First Solar'은 솔라 PV 모듈 사업으로 thesis 노출 강함. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화. 종합 verdict neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "찰리 멍거: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "찰리 멍거: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "medium_to_long",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] value style 관점에서 specific risk 검토 필요",
+        "[derived] Cycle timing 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] value style의 'sweet spot' 일부 정합",
+        "[derived] Long-term structural tailwind 강함"
+      ],
+      "uncertainty": "value style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄 (value): 'First Solar'은 솔라 PV 모듈 사업으로 thesis 노출 강함. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화. 종합 verdict lean bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.7300000000000001
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.7300000000000001
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] value style 관점에서 specific risk 검토 필요",
+        "[derived] Cycle timing 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] value style의 'sweet spot' 일부 정합",
+        "[derived] Long-term structural tailwind 강함"
+      ],
+      "uncertainty": "value style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "모니시 파브라이 (value): 'First Solar'은 솔라 PV 모듈 사업으로 thesis 노출 강함. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화. 종합 verdict lean bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.66,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 1Y +65.8% — Burry는 consensus·crowd-trade 회피",
+        "[actual] commodity ETF flow 2026 YTD +37% — 'Reflexivity' 신호 가능",
+        "[inference] EM 자본 유출이 commodity 가격에 단기 압박 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화",
+        "[derived] Contrarian — '광산주는 평범한 투자자가 회피' (Buffett: 'when others are fearful, be greedy')",
+        "[inference] FCF yield 분석 시 일부 case에서 8-12% — 매력적"
+      ],
+      "uncertainty": "value-contrarian style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "Burry contrarian — 시장이 'First Solar'을 어떻게 mispricing하는가? 1Y ++65.8%는 일부 과열 신호. 단 미국 domiciled IRA 직접 수혜는 시장이 아직 'discount'할 수 있음. 단기 매물 후 진입 검토.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "마이클 버리: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "마이클 버리: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "마이클 버리: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "마이클 버리: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.7100000000000001
+        },
+        {
+          "claim_id": "T9",
+          "stance": "lean_support",
+          "rationale": "마이클 버리: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.7100000000000001
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_to_long",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] growth style 관점에서 specific risk 검토 필요",
+        "[derived] Cycle timing 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] growth style의 'sweet spot' 일부 정합",
+        "[derived] Long-term structural tailwind 강함"
+      ],
+      "uncertainty": "growth style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "피터 린치 (growth): 'First Solar'은 솔라 PV 모듈 사업으로 thesis 노출 강함. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화. 종합 verdict lean bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "피터 린치: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "피터 린치: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "피터 린치: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "피터 린치: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "피터 린치: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "피터 린치: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "피터 린치: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "피터 린치: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "피터 린치: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.8
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] Cathie의 ARK ETF는 commodity exposure 낮음 — disruption lens는 'mining vs material recycling'에서 후자 선호",
+        "[inference] 'Trad commodity'는 her thesis 외부 — 일부 한정적 enthusiasm",
+        "[actual] Disruption potential은 FSLR·MP에 제한적으로 강함"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FSLR 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[derived] 'Innovation Platform' — Energy Transition (재생E) + Materials Innovation (희토류 vertical) 둘 다",
+        "[inference] 정부 정책 lock-in (IRA·CRMA)으로 platform stability"
+      ],
+      "uncertainty": "growth-disruption style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "Cathie Wood — Disruption lens. First Solar은 솔라 PV 모듈로 'Innovation Platform' 분류 어려운 case. 단 FSLR (FSLR·MP 등)은 Energy Transition + Materials Innovation에 정확히 위치. 5년 후 valuation expansion +150% upside 가능.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "캐시 우드: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "캐시 우드: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "캐시 우드: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "캐시 우드: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.9
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "캐시 우드: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] growth style 관점에서 specific risk 검토 필요",
+        "[derived] Cycle timing 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] growth style의 'sweet spot' 일부 정합",
+        "[derived] Long-term structural tailwind 강함"
+      ],
+      "uncertainty": "growth style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "필립 피셔 (growth): 'First Solar'은 솔라 PV 모듈 사업으로 thesis 노출 강함. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화. 종합 verdict bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "필립 피셔: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "필립 피셔: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "필립 피셔: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "필립 피셔: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "필립 피셔: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.8500000000000001
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] Cycle inflection 시 sharp drawdown 가능 (1Y -40% 가능)",
+        "[inference] Crowd positioning 검토 필요 — commodity ETF flow가 reflexivity 신호인가?",
+        "[actual] 약달러 reversal 시 thesis 일부 무너짐"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[derived] Macro trifecta (약달러 + fiscal dominance + 산업 정책)은 1970년대 패턴과 가장 정합",
+        "[inference] {ticker}는 'fattest pitch' — 6-24M horizon에서 +50-100% 가능"
+      ],
+      "uncertainty": "macro style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "Druckenmiller macro — 'Have the courage to be a pig'. First Solar은 거시 (약달러·Fed 인하 제약·commodity supercycle) 트리플 tailwind에 가장 노출. 'Big bet' 가능한 case — lean bullish verdict는 정량적 quanti 합리화.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.77
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "medium_to_long",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] activist style 관점에서 specific risk 검토 필요",
+        "[derived] Cycle timing 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] activist style의 'sweet spot' 일부 정합",
+        "[derived] Long-term structural tailwind 강함"
+      ],
+      "uncertainty": "activist style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "빌 애크먼 (activist): 'First Solar'은 솔라 PV 모듈 사업으로 thesis 노출 강함. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화. 종합 verdict lean bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "빌 애크먼: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.7300000000000001
+        },
+        {
+          "claim_id": "T9",
+          "stance": "lean_support",
+          "rationale": "빌 애크먼: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.7300000000000001
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] Cycle 상단 ≥ 18개월 진행, peak 가까운 가능성 30%",
+        "[inference] Skin-in-the-game — mining executive options 분석 필요",
+        "[actual] Geopolitical tail (중국 대만, 페루 더 큰 차질) 영향"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[derived] Optionality — 광산은 'optionality value' (가격 상승 시 marginal mine 활성화)",
+        "[inference] Government backstop (정책 lock-in)으로 일부 tail risk 완화"
+      ],
+      "uncertainty": "risk style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "Taleb antifragility — 'First Solar'은 supercycle 시 +100% 가능, downside는 -40-60% (cyclical bottom). Convex payoff 위치. 단 'unknown unknowns' (정책 후퇴, China 둔화) 노출.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "나심 탈레브: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "나심 탈레브: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.6000000000000001
+        },
+        {
+          "claim_id": "T9",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] growth-em style 관점에서 specific risk 검토 필요",
+        "[derived] Cycle timing 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] growth-em style의 'sweet spot' 일부 정합",
+        "[derived] Long-term structural tailwind 강함"
+      ],
+      "uncertainty": "growth-em style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "라케시 준준왈라 (growth-em): 'First Solar'은 솔라 PV 모듈 사업으로 thesis 노출 강함. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화. 종합 verdict bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.8500000000000001
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_to_long",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] Trump 2기 IRA 정책 후퇴 리스크, China overcapacity로 ASP 압박 가능, AI cooling 가격 변동",
+        "[inference] valuation style 관점에서 specific risk 검토 필요",
+        "[derived] Cycle timing 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 domiciled IRA 직접 수혜, sold-out 2026 Q4까지, CdTe thin-film 차별화 (silicon 의존 적음), 백로그 89.2 GW",
+        "[inference] valuation style의 'sweet spot' 일부 정합",
+        "[derived] Long-term structural tailwind 강함"
+      ],
+      "uncertainty": "valuation style — cycle timing 및 가격 정상화 EPS 추정",
+      "narrative_vs_quant_resolution": "애스워드 다모다란 (valuation): 'First Solar'은 솔라 PV 모듈 사업으로 thesis 노출 강함. Forward PE 9.7 — 매우 저평가, EV/EBITDA 6.8, 백로그 안정성으로 정당화. 종합 verdict lean bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 전쟁비용·약달러·Fed 인하 제약은 commodity producer에 net positive. First Solar 솔라 PV 모듈 사업에 약달러는 +5-8% 매출 영향.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 원자재 슈퍼사이클 thesis는 First Solar(솔라 PV 모듈) 핵심 driver. 17년 mine permitting + 약달러 + 약구조적 supply deficit는 long-term 강한 tailwind.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: AI 데이터센터 → 구리·전력망·은·희토류 수요 가속화. First Solar는 솔라 인프라 노출.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: SNS 사용 시간 감소는 First Solar에 직접 영향 없음 — 광물·원자재 thesis와 무관 (orthogonal).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: Meta 방어적 AI 투자는 First Solar 입장에서는 'AI 데이터센터 capex 증가 = 광물 수요' 간접 thesis로만 연관 (T3 경유).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 페루 비상령 영향 — First Solar는 minor or no exposure. 단기 가격 spike 가능.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 황산 수급 부족은 First Solar에 minor exposure.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "애스워드 다모다란: 태양광+ESS LCOE 70% breakeven은 First Solar에 코어 driver (FSLR 핵심 thesis).",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "claim_id": "T9",
+          "stance": "lean_support",
+          "rationale": "애스워드 다모다란: 재생E 광물 수요 7-13배는 First Solar(솔라 PV 모듈)의 구조적 호재. IEA NZE 시나리오에서 2030 수요 +50-400% (광물별).",
+          "confidence": 0.7000000000000001
+        }
+      ]
+    }
+  }
+}
