@@ -1,0 +1,123 @@
+{
+  "computed_at": "2026-05-14T15:46:35",
+  "as_of_date": "2026-05-14",
+  "risk_limits_path": ".analysis-log/bloggers/dhgusdnd44/2026-05-14_sulfuric_acid_LSMnM_copper_nickel/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "006260.KS",
+      "date": "2026-05-14",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "neutral": 6,
+        "lean_bullish": 5,
+        "bullish": 2
+      },
+      "signal_score": 0.371,
+      "weighted_confidence": 0.719,
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value_usd": 100000.0,
+      "target_quantity": 274,
+      "current_price": 505000.0,
+      "currency": "KRW",
+      "current_price_usd": 364.0952,
+      "position_limit_value_usd": 100000.0,
+      "annualized_volatility": 0.8379,
+      "reasoning": "BUY signal — weighted score +0.371, panel confidence 0.72, vol_mult applied"
+    },
+    {
+      "ticker": "066970.KQ",
+      "date": "2026-05-14",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bearish": 3,
+        "bearish": 1,
+        "neutral": 3,
+        "lean_bullish": 4,
+        "bullish": 2
+      },
+      "signal_score": 0.117,
+      "weighted_confidence": 0.688,
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value_usd": 75000.0,
+      "target_quantity": 605,
+      "current_price": 171700.0,
+      "currency": "KRW",
+      "current_price_usd": 123.7924,
+      "position_limit_value_usd": 150000.0,
+      "annualized_volatility": 0.55,
+      "reasoning": "BUY signal — weighted score +0.117, panel confidence 0.69, vol_mult applied"
+    },
+    {
+      "ticker": "010130.KS",
+      "date": "2026-05-14",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "neutral": 6,
+        "lean_bearish": 1,
+        "lean_bullish": 4,
+        "bullish": 2
+      },
+      "signal_score": 0.293,
+      "weighted_confidence": 0.678,
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value_usd": 50000.0,
+      "target_quantity": 45,
+      "current_price": 1511000.0,
+      "currency": "KRW",
+      "current_price_usd": 1089.4016,
+      "position_limit_value_usd": 100000.0,
+      "annualized_volatility": 0.7641,
+      "reasoning": "BUY signal — weighted score +0.293, panel confidence 0.68, vol_mult applied"
+    },
+    {
+      "ticker": "FCX",
+      "date": "2026-05-14",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "neutral": 5,
+        "lean_bearish": 1,
+        "lean_bullish": 6,
+        "bullish": 1
+      },
+      "signal_score": 0.284,
+      "weighted_confidence": 0.675,
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value_usd": 100000.0,
+      "target_quantity": 1519,
+      "current_price": 65.82,
+      "currency": "USD",
+      "current_price_usd": 65.82,
+      "position_limit_value_usd": 200000.0,
+      "annualized_volatility": 0.5417,
+      "reasoning": "BUY signal — weighted score +0.284, panel confidence 0.68, vol_mult applied"
+    },
+    {
+      "ticker": "VALE",
+      "date": "2026-05-14",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "neutral": 9,
+        "lean_bullish": 3,
+        "bullish": 1
+      },
+      "signal_score": 0.205,
+      "weighted_confidence": 0.633,
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value_usd": 100000.0,
+      "target_quantity": 5993,
+      "current_price": 16.6851,
+      "currency": "USD",
+      "current_price_usd": 16.6851,
+      "position_limit_value_usd": 200000.0,
+      "annualized_volatility": 0.375,
+      "reasoning": "BUY signal — weighted score +0.205, panel confidence 0.63, vol_mult applied"
+    }
+  ],
+  "method": "weighted_verdict_score → action threshold (-0.30 SELL strong, -0.10 SELL half, +0.10 HOLD, +0.30 BUY half, +0.30+ BUY full)"
+}
