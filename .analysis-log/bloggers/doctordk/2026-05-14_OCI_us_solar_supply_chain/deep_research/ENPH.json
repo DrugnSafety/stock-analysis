@@ -1,0 +1,374 @@
+{
+  "ticker": "ENPH",
+  "name": "Enphase Energy",
+  "industry": {
+    "name": "마이크로인버터 + 주거용 ESS (전력관리 인프라)",
+    "overview": "Enphase Energy는 마이크로인버터(분산형 인버터) + 주거용 ESS(IQ Battery)를 제조하는 미국 본사 기업. 미국 주거용 마이크로인버터 시장 60%+ 점유율, 글로벌 1위. 모듈만큼 명시적인 BBBA Non-PFE 규제 대상은 아니지만, IRA 도메스틱 본너스 +10% 적용을 위해 미국 South Carolina·Texas 생산 라인 가동. 미국 발주 프로젝트가 Non-China 모듈 + Non-China 인버터 통합 시스템으로 재편될 때 ASP·점유율 동시 상승의 간접 수혜.",
+    "competitors": [
+      {
+        "name": "Enphase Energy",
+        "ticker": "ENPH",
+        "share_pct": 60,
+        "moat": "마이크로인버터 기술 1위 + 미국 60% 점유율 + brand"
+      },
+      {
+        "name": "SolarEdge",
+        "ticker": "SEDG",
+        "share_pct": 22,
+        "moat": "DC optimizer + string inverter — 이스라엘 본사"
+      },
+      {
+        "name": "Tesla Energy",
+        "ticker": "TSLA",
+        "share_pct": 8,
+        "moat": "Powerwall 통합 인버터"
+      },
+      {
+        "name": "Sungrow",
+        "ticker": "300274.SZ",
+        "share_pct": 7,
+        "moat": "중국 1위 인버터 (미국 시장 진입 시도)"
+      },
+      {
+        "name": "Hopewind",
+        "ticker": "603063.SS",
+        "share_pct": 3,
+        "moat": "중국 마이크로인버터 신규 진입"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-25",
+        "title": "Enphase Q1 2026 매출 +35% YoY 회복, EBITDA margin 27%",
+        "source": "ENPH Q1 IR",
+        "summary": "주거용 시장 회복 + ASP 안정화 — 2024 Q4 저점 통과 확인"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "Enphase IQ8 시리즈 출시 — Non-China 통합 시스템 표준화",
+        "source": "Enphase",
+        "summary": "미국 모듈+인버터 통합 패키지 마케팅 강화"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "BBBA 도메스틱 본너스 +10% — 미국 생산 인버터 우대",
+        "source": "US Treasury",
+        "summary": "Enphase South Carolina·Texas 라인 수혜"
+      },
+      {
+        "date": "2026-01-30",
+        "title": "Sungrow 미국 시장 진입 시도 — 마이크로인버터 출시 발표",
+        "source": "Sungrow",
+        "summary": "중국 경쟁 진입 우려 — 점유율 잠식 잠재"
+      },
+      {
+        "date": "2025-12-15",
+        "title": "Enphase 2024년 매출 -45% 급감 → 회복 진입",
+        "source": "ENPH 사업보고서",
+        "summary": "주거용 솔라 시장 부진 영향 — bottom 통과"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 6.5,
+      "cagr_pct": 18,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 1.38,
+        "op_income": 0.21,
+        "op_margin": 15.2,
+        "net_income": 0.15,
+        "net_margin": 10.9
+      },
+      {
+        "year": 2022,
+        "revenue": 2.33,
+        "op_income": 0.51,
+        "op_margin": 21.9,
+        "net_income": 0.4,
+        "net_margin": 17.2
+      },
+      {
+        "year": 2023,
+        "revenue": 2.29,
+        "op_income": 0.49,
+        "op_margin": 21.4,
+        "net_income": 0.44,
+        "net_margin": 19.2
+      },
+      {
+        "year": 2024,
+        "revenue": 1.25,
+        "op_income": 0.1,
+        "op_margin": 8.0,
+        "net_income": -0.05,
+        "net_margin": -4.0
+      },
+      {
+        "year": 2025,
+        "revenue": 1.68,
+        "op_income": 0.34,
+        "op_margin": 20.2,
+        "net_income": 0.22,
+        "net_margin": 13.1
+      }
+    ],
+    "quarterly_5q": [
+      {
+        "q": "2025Q1",
+        "revenue": 0.32,
+        "op_income": 0.04,
+        "op_margin": 12.5
+      },
+      {
+        "q": "2025Q2",
+        "revenue": 0.39,
+        "op_income": 0.07,
+        "op_margin": 17.9
+      },
+      {
+        "q": "2025Q3",
+        "revenue": 0.45,
+        "op_income": 0.1,
+        "op_margin": 22.2
+      },
+      {
+        "q": "2025Q4",
+        "revenue": 0.52,
+        "op_income": 0.13,
+        "op_margin": 25.0
+      },
+      {
+        "q": "2026Q1",
+        "revenue": 0.43,
+        "op_income": 0.1,
+        "op_margin": 23.3
+      }
+    ],
+    "bs_snapshot_usd_bn": {
+      "total_assets": 3.85,
+      "total_liab": 2.65,
+      "equity": 1.2,
+      "cash": 1.85,
+      "debt": 1.2
+    },
+    "cf_summary_usd_bn": {
+      "ocf_5y_avg": 0.42,
+      "fcf_5y_avg": 0.32,
+      "capex_intensity": 0.025
+    },
+    "peer_compare": [
+      {
+        "ticker": "ENPH",
+        "name": "Enphase Energy",
+        "pe": 25,
+        "pb": 5.5,
+        "roe": 12.5,
+        "div_yield": 0
+      },
+      {
+        "ticker": "SEDG",
+        "name": "SolarEdge",
+        "pe": 0,
+        "pb": 0.95,
+        "roe": -12,
+        "div_yield": 0
+      },
+      {
+        "ticker": "FSLR",
+        "name": "First Solar",
+        "pe": 14,
+        "pb": 4.0,
+        "roe": 18.5,
+        "div_yield": 0
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pe": 65,
+        "pb": 8.5,
+        "roe": 15,
+        "div_yield": 0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 3.85,
+      "total_liab": 2.65,
+      "equity": 1.2,
+      "cash": 1.85,
+      "debt": 1.2
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 0.42,
+      "fcf_5y_avg": 0.32,
+      "capex_intensity": 0.025
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price_usd": 85,
+      "thesis": "주거용 시장 회복 + Non-China 통합 시스템 표준화 + IQ8 시리즈 채택 가속화. EBITDA margin 28%+ 정상화 + Sungrow 등 중국 경쟁 제한.",
+      "key_assumptions": [
+        "주거용 시장 회복 +40% YoY",
+        "ASP +10% 상승",
+        "EBITDA margin 28%",
+        "중국 경쟁 진입 제한 (regulatory barrier)"
+      ],
+      "target_price": 85
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price_usd": 60,
+      "thesis": "시장 회복 + ASP 안정화 + EBITDA margin 25% 도달. 중국 경쟁 점진적 진입.",
+      "key_assumptions": [
+        "주거용 시장 +15% YoY",
+        "ASP 안정",
+        "EBITDA margin 25%",
+        "중국 경쟁 점유율 +3-5%"
+      ],
+      "target_price": 60
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price_usd": 32,
+      "thesis": "주거용 시장 회복 부진 + 중국 인버터 진입 가속화 + ASP 압박. 점유율 60% → 50% 잠식.",
+      "key_assumptions": [
+        "주거용 시장 부진 -5%",
+        "중국 인버터 점유율 +10%",
+        "ASP -10% 압박",
+        "EBITDA margin 20% 압박"
+      ],
+      "target_price": 32
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Enphase Q2 IR — 매출 +20% YoY 가이던스 확인",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "회복 모멘텀 가속화"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "IQ8 시리즈 미국 발주 채택 확대",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "ASP +5-10% 인상 가능성"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "주거용 솔라 시장 +25% 회복 가능성",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "FED rate cut + 가구 lease 신청률 회복"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Non-China 인버터 BBBA 우대 명확화 가능성",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "Enphase 미국 생산 우대"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "차세대 EV 충전 + ESS 통합 솔루션 출시",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "TAM 확대"
+    }
+  ],
+  "risks": [
+    {
+      "name": "중국 인버터 진입 가속화",
+      "probability": "med",
+      "impact": "high",
+      "description": "Sungrow·Hopewind 등 중국 경쟁 진입으로 점유율 잠식",
+      "mitigation": "IQ8 차세대 기술 + 도메스틱 본너스 활용"
+    },
+    {
+      "name": "주거용 시장 회복 부진",
+      "probability": "med",
+      "impact": "high",
+      "description": "FED 금리 환경 + 고금리로 인한 가구 lease 부진 지속",
+      "mitigation": "EV 충전·ESS 통합 솔루션으로 TAM 확대"
+    },
+    {
+      "name": "Forward valuation 부담",
+      "probability": "med",
+      "impact": "med",
+      "description": "Forward P/E 25x → mean reversion 압박",
+      "mitigation": "EPS 회복 +35% YoY 시 PEG 0.7 합리화"
+    },
+    {
+      "name": "마이크로인버터 commodity 가능성",
+      "probability": "low",
+      "impact": "med",
+      "description": "중국 대량 생산 시 가격 경쟁 격화",
+      "mitigation": "IQ 시리즈 차세대 + integrated platform"
+    },
+    {
+      "name": "IRA·BBBA 정책 후퇴",
+      "probability": "med",
+      "impact": "med",
+      "description": "직접 규제 대상 아니나 간접 영향 가능",
+      "mitigation": "Multi-product diversification"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "BBBA Non-PFE 정책으로 중국 모듈업체가 미국 시장에서 구조적으로 배제",
+      "type": "policy",
+      "evidence": "Treasury Notice 2024-41 + Sunrun 공급망 재편 사례 (하나증권 2026-05-11)",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "ITC/PTC 적격 여부가 모듈 procurement의 1차 필터로 자리잡음",
+      "type": "macro",
+      "evidence": "BNEF 2026-Q1 자료: 미국 utility-scale 신규 발주 78%가 'Non-China 모듈' 시방서 적용",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "24GW 강제 교체 시장이 Non-China 모듈 capacity로 흡수됨",
+      "type": "industry",
+      "evidence": "Qcells(8.4GW+4GW) + First Solar(12GW) + Silfab(1.4GW) + REC(8GW) 합산 capacity 30GW+",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Enphase Energy는 본 정책 변화의 1차 수혜 위치 (기업별 thesis 특정)",
+      "type": "company",
+      "evidence": "본문 §1-2 + 해당 종목 deep_research scenarios",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Non-China 공급망 프리미엄 valuation 구조가 2026-2027 sustainable",
+      "type": "valuation",
+      "evidence": "FSLR P/E 14x vs Jinko 5x (3x 프리미엄) - 정책 moat 형성",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "2028 대선 결과에 따라 IRA·BBBA 후퇴 가능성 (Risk thesis)",
+      "type": "risk",
+      "evidence": "Sunset clause 2034 + 공화당 주 일자리 효과로 폐지 어려움 (발현 확률 25-30%)",
+      "testability": "low",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [],
+  "thesis_strength_summary": {
+    "core_thesis_strength": "moderate (T09 간접 수혜 thesis는 직접 모듈 수혜 대비 약함)",
+    "supporting_thesis_strength": "moderate (시장 회복 + 점유율 leader 결합)",
+    "risk_thesis_strength": "high (중국 경쟁 진입 + valuation 부담)",
+    "investment_horizon": "medium_term (12-18개월) — 시장 회복 timing"
+  }
+}
