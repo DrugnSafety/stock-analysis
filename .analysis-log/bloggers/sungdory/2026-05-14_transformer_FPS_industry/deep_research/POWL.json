@@ -1,0 +1,166 @@
+{
+  "name": "Powell Industries",
+  "industry": {
+    "tam_2024_usd_bn": 45,
+    "tam_2030_usd_bn": 85,
+    "cagr_pct": 11.2,
+    "key_drivers": [
+      "AI 데이터센터 capex (POWL 매출의 40%+)",
+      "Oil & gas industrial 회복 (30%)",
+      "Utility transformer rebuild (20%)"
+    ],
+    "competitive_position": "Established quality leader, Texas 본사. 1947년 설립, 78년 history. medium voltage switchgear·bus duct·integrated power solutions 분야 niche specialist. ETN·HUBB·GEV의 mid-size 대안. customer relationships 깊음. Texas Gulf Coast oil & gas 전통 customer + 데이터센터·utility 빠른 확장.",
+    "market_share_pct": 4.5,
+    "key_competitors": [
+      "FPS",
+      "GEV",
+      "ETN Electrical",
+      "HUBB Utility",
+      "Schneider Electric"
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 420,
+      "thesis": "데이터센터 매출 비중 50%+ 확대 + EBITDA 마진 27%+ 도달",
+      "key_assumptions": [
+        "Data center mix shift 50%",
+        "EBITDA margin 27%+",
+        "EPS $18 × 24x"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 350,
+      "thesis": "Backlog $1.4B + B/B 1.3-1.5x 유지, FY2026 매출 $1.4B (+33% YoY)",
+      "key_assumptions": [
+        "데이터센터 customer 안정 성장",
+        "EBITDA margin 25% 유지",
+        "EPS $15 × 23x"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 200,
+      "thesis": "데이터센터 capex 둔화 + Oil & gas spend cut + multiple contraction",
+      "key_assumptions": [
+        "hyperscaler capex 둔화",
+        "O&G capex -20%",
+        "PE 22x → 15x"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-05",
+      "event": "Q3 FY2026 실적 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "데이터센터 매출 비중 watch"
+    },
+    {
+      "date": "2026-12-10",
+      "event": "FY2026 연간 + FY2027 가이던스",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "FY2027 EPS $18+ 가능"
+    },
+    {
+      "date": "2026 Q3",
+      "event": "데이터센터 신규 win",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Hyperscaler 신규 contract"
+    },
+    {
+      "date": "2026 Q4",
+      "event": "S&P 500 inclusion 가능성",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Market cap 임계 충족"
+    },
+    {
+      "date": "2026 ongoing",
+      "event": "Oil & gas customer capex",
+      "type": "macro",
+      "expected_impact": "○",
+      "description": "Chevron·ExxonMobil·Saudi Aramco 동향"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Oil & gas customer 30% 비중",
+      "probability": "med",
+      "impact": "high",
+      "description": "유가 $60 이하 시 capex 위축",
+      "mitigation": "데이터센터·utility 빠른 확장으로 mix shift"
+    },
+    {
+      "name": "Cycle 후반 valuation contraction",
+      "probability": "med",
+      "impact": "med",
+      "description": "PE 22x → 15-18x 위험",
+      "mitigation": "Backlog visibility로 short-term downside 흡수"
+    },
+    {
+      "name": "Customer concentration",
+      "probability": "med",
+      "impact": "med",
+      "description": "상위 10개 customer 매출 40%+",
+      "mitigation": "데이터센터 hyperscaler 다각화 진행"
+    },
+    {
+      "name": "Raw material 가격 상승",
+      "probability": "low",
+      "impact": "med",
+      "description": "공급망 압박",
+      "mitigation": "장기 공급 계약"
+    },
+    {
+      "name": "Skilled labor shortage",
+      "probability": "med",
+      "impact": "med",
+      "description": "변압기 manufacturing 인력 부족",
+      "mitigation": "Texas 본사 + Mexico 확장"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "변압기·스위치기어 quality leader — niche moat",
+      "type": "company",
+      "evidence": "78년 history, Texas Gulf Coast 강점",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "데이터센터 매출 비중 40%+로 mix shift",
+      "type": "industry",
+      "evidence": "2022년 15% → 2025년 40%",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Oil & gas customer 30% — 유가 둔화 시 영향",
+      "type": "macro",
+      "evidence": "전통 Texas O&G customer base",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Backlog $1.4B = 16개월 visibility",
+      "type": "company",
+      "evidence": "B/B 1.3-1.5x 유지",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "PE 22x — historical 평균 (14-16x) 대비 premium",
+      "type": "valuation",
+      "evidence": "Cycle 후반 multiple contraction risk",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "us_disclosures": []
+}
