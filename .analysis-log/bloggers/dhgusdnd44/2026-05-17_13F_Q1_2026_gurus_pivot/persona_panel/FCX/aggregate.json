@@ -1,0 +1,264 @@
+{
+  "ticker": "?",
+  "aggregated_at": "2026-05-18T08:40:11.734555+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    }
+  },
+  "average_confidence": 0.629,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
