@@ -1,0 +1,97 @@
+{
+  "computed_at": "2026-05-15T00:46:16.753735+09:00",
+  "portfolio_value": 1400000000,
+  "aggregation_method": "13-persona panel + 4-Analyst thesis evaluation",
+  "decisions": [
+    {
+      "ticker": "456040.KS",
+      "ticker_name": "OCI홀딩스",
+      "thesis_alignment": "very_high",
+      "verdict_summary": {
+        "lean_bullish": 8,
+        "neutral": 5,
+        "lean_bearish": 0,
+        "avg_confidence": 0.65
+      },
+      "signal_score": 0.4,
+      "action": "buy",
+      "action_confidence": "high",
+      "target_quantity": 1014,
+      "target_value_local": 139932000.0,
+      "max_position_quantity": 1014,
+      "rationale": "OCI홀딩스 13명 패널 중 bullish 8명 vs bearish 0명, 평균 confidence 0.65, signal score +0.40. Thesis alignment very_high — Non-China 공급망 정책 수혜 핵심 종목."
+    },
+    {
+      "ticker": "009830.KS",
+      "ticker_name": "한화솔루션",
+      "thesis_alignment": "very_high",
+      "verdict_summary": {
+        "lean_bullish": 9,
+        "neutral": 4,
+        "lean_bearish": 0,
+        "avg_confidence": 0.66
+      },
+      "signal_score": 0.457,
+      "action": "buy",
+      "action_confidence": "high",
+      "target_quantity": 3244,
+      "target_value_local": 139978600.0,
+      "max_position_quantity": 3244,
+      "rationale": "한화솔루션 13명 패널 중 bullish 9명 vs bearish 0명, 평균 confidence 0.66, signal score +0.46. Thesis alignment very_high — Non-China 공급망 정책 수혜 핵심 종목."
+    },
+    {
+      "ticker": "FSLR",
+      "ticker_name": "퍼스트솔라",
+      "thesis_alignment": "high",
+      "verdict_summary": {
+        "lean_bullish": 7,
+        "neutral": 5,
+        "lean_bearish": 1,
+        "avg_confidence": 0.65
+      },
+      "signal_score": 0.3,
+      "action": "buy",
+      "action_confidence": "high",
+      "target_quantity": 442,
+      "target_value_local": 102071.06,
+      "max_position_quantity": 442,
+      "rationale": "퍼스트솔라 13명 패널 중 bullish 7명 vs bearish 1명, 평균 confidence 0.65, signal score +0.30. Thesis alignment high — Non-China 공급망 정책 수혜 핵심 종목."
+    },
+    {
+      "ticker": "RUN",
+      "ticker_name": "선런",
+      "thesis_alignment": "medium",
+      "verdict_summary": {
+        "lean_bullish": 1,
+        "neutral": 6,
+        "lean_bearish": 6,
+        "avg_confidence": 0.61
+      },
+      "signal_score": -0.235,
+      "action": "reduce",
+      "action_confidence": "medium",
+      "target_quantity": 1045,
+      "target_value_local": 15319.7,
+      "max_position_quantity": 6970,
+      "rationale": "선런 bearish 6명 > bullish 1명 confidence 0.61, 위험 우위. 기존 포지션 점진 축소."
+    },
+    {
+      "ticker": "ENPH",
+      "ticker_name": "엔페이즈 에너지",
+      "thesis_alignment": "medium",
+      "verdict_summary": {
+        "lean_bullish": 5,
+        "neutral": 7,
+        "lean_bearish": 1,
+        "avg_confidence": 0.57
+      },
+      "signal_score": 0.175,
+      "action": "buy",
+      "action_confidence": "medium",
+      "target_quantity": 1315,
+      "target_value_local": 61265.85,
+      "max_position_quantity": 2193,
+      "rationale": "엔페이즈 에너지 13명 패널 중 bullish 5명 vs bearish 1명, 평균 confidence 0.57, signal score +0.18. Thesis alignment medium — Non-China 공급망 정책 수혜 핵심 종목."
+    }
+  ]
+}
