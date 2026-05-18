@@ -1,0 +1,184 @@
+{
+  "computed_at": "2026-05-13T03:04:27.061893+09:00",
+  "ledger_path": ".analysis-log/bloggers/dhgusdnd44/2026-05-12_rare_earth_korea_zinc/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/dhgusdnd44/2026-05-12_rare_earth_korea_zinc/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "010130.KS",
+      "date": "2026-05-12",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "lean_bullish": 5,
+        "neutral": 3,
+        "lean_bearish": 4,
+        "bullish": 2
+      },
+      "signal_score": 0.0624,
+      "weighted_confidence": 0.072,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.2,
+          "score_contribution": 0.521
+        },
+        "persona-panel": {
+          "verdict": "neutral",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 1528000.0,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.7496,
+      "reasoning": "중립 신호 (+0.06), 변경 없음"
+    },
+    {
+      "ticker": "LYSDY",
+      "date": "2026-05-12",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "BUY": 1,
+        "lean_bullish": 6,
+        "neutral": 6,
+        "bullish": 1
+      },
+      "signal_score": 0.3768,
+      "weighted_confidence": 0.072,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.8,
+          "weight": 1.1,
+          "score_contribution": 0.88
+        },
+        "persona-panel": {
+          "verdict": "neutral",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 3937,
+      "current_price": 13.97,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.6305,
+      "reasoning": "중간 매수 신호 (+0.38), 한도의 50% 진입"
+    },
+    {
+      "ticker": "MP",
+      "date": "2026-05-12",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "BUY": 1,
+        "lean_bullish": 5,
+        "neutral": 6,
+        "bullish": 1,
+        "lean_bearish": 1
+      },
+      "signal_score": 0.2915,
+      "weighted_confidence": 0.072,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.74,
+          "weight": 1.1,
+          "score_contribution": 0.814
+        },
+        "persona-panel": {
+          "verdict": "neutral",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 64.5,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.7046,
+      "reasoning": "중립 신호 (+0.29), 변경 없음"
+    },
+    {
+      "ticker": "USAR",
+      "date": "2026-05-12",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "lean_bullish": 4,
+        "lean_bearish": 3,
+        "neutral": 5,
+        "bullish": 2
+      },
+      "signal_score": 0.054,
+      "weighted_confidence": 0.072,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.1,
+          "score_contribution": 0.477
+        },
+        "persona-panel": {
+          "verdict": "neutral",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 25.29,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.0208,
+      "reasoning": "중립 신호 (+0.05), 변경 없음"
+    },
+    {
+      "ticker": "UUUU",
+      "date": "2026-05-12",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "neutral": 6,
+        "lean_bullish": 3,
+        "lean_bearish": 4,
+        "bullish": 1
+      },
+      "signal_score": -0.0519,
+      "weighted_confidence": 0.072,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 1.1,
+          "score_contribution": 0.0
+        },
+        "persona-panel": {
+          "verdict": "neutral",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 20.7,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.8335,
+      "reasoning": "중립 신호 (-0.05), 변경 없음"
+    }
+  ]
+}
