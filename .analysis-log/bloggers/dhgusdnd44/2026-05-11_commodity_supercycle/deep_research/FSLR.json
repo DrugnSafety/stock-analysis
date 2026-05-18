@@ -1,0 +1,214 @@
+{
+  "industry": {
+    "name": "Solar PV Module — CdTe Thin-Film",
+    "overview": "미국 #1 솔라 모듈 제조사. CdTe (Cadmium Telluride) thin-film 차별화 — silicon polysilicon 가격 변동 무관, 고온·고습 성능 우월. 2026 backlog 89.2 GW (4년치 sold-out), ASP $0.33/W 안정. IRA 직접 수혜.",
+    "competitors": [
+      {
+        "name": "LONGi Green Energy",
+        "ticker": "601012.SS",
+        "share_pct": 18.0,
+        "moat": "중국 #1 silicon wafer + module"
+      },
+      {
+        "name": "Trina Solar",
+        "ticker": "688599.SS",
+        "share_pct": 12.0,
+        "moat": "중국 #2 module"
+      },
+      {
+        "name": "JinkoSolar",
+        "ticker": "JKS",
+        "share_pct": 11.0,
+        "moat": "중국 #3, 글로벌 manufacturing"
+      },
+      {
+        "name": "Hanwha Q Cells",
+        "ticker": "009830.KS",
+        "share_pct": 5.0,
+        "moat": "한국 + 미국 (Georgia), IRA 수혜"
+      },
+      {
+        "name": "First Solar",
+        "ticker": "FSLR",
+        "share_pct": 4.0,
+        "moat": "CdTe 독점, US domiciled IRA 수혜, sold-out 2026Q4"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 215,
+      "cagr_pct": 12.5,
+      "horizon": "2025-2030"
+    },
+    "news": [],
+    "recent_news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 2923,
+        "op_income": -240,
+        "op_margin": -8.2,
+        "net_income": -45,
+        "net_margin": -1.5
+      },
+      {
+        "year": 2022,
+        "revenue": 2619,
+        "op_income": 144,
+        "op_margin": 5.5,
+        "net_income": -44,
+        "net_margin": -1.7
+      },
+      {
+        "year": 2023,
+        "revenue": 3318,
+        "op_income": 425,
+        "op_margin": 12.8,
+        "net_income": 831,
+        "net_margin": 25.0
+      },
+      {
+        "year": 2024,
+        "revenue": 4214,
+        "op_income": 948,
+        "op_margin": 22.5,
+        "net_income": 1290,
+        "net_margin": 30.6
+      },
+      {
+        "year": 2025,
+        "revenue": 5800,
+        "op_income": 1636,
+        "op_margin": 28.2,
+        "net_income": 2050,
+        "net_margin": 35.3
+      }
+    ],
+    "summary": "IRA 도입 후 OPM 폭발적 개선 (5% → 28%). FCF generation 강함, 순현금 포지션. backlog visibility 2027-Q4까지.",
+    "balance_sheet_snapshot": {},
+    "cf_summary": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 340,
+      "thesis": "IRA 유지 + AI 데이터센터 솔라 PPA 가속화 + 인도·베트남 fab capa 확대",
+      "key_assumptions": [
+        "IRA section 45X·48E 유지",
+        "Hyperscaler 솔라 PPA 30 GW 추가",
+        "ASP $0.33/W 유지"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 275,
+      "thesis": "IRA 부분 유지 + sold-out 안정 + 자체 capa expansion",
+      "key_assumptions": [
+        "IRA 일부 후퇴 (section 45X 보존)",
+        "Backlog 2027-Q4까지 sold-out 유지",
+        "ASP $0.30/W"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 170,
+      "thesis": "Trump 2기 IRA 후퇴 + China overcapacity로 ASP -30%",
+      "key_assumptions": [
+        "IRA 폐지 또는 section 45X 단계적 후퇴",
+        "China module ASP $0.18/W로 -45%",
+        "신규 backlog cancellation 10%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "AI 데이터센터 PPA 신규 계약 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Microsoft·Google·Amazon 솔라 PPA 가속화"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "IRA section 45X tax credit 명확화",
+      "type": "regulatory",
+      "expected_impact": "+/-",
+      "description": "Trump 2기 IRA 정책 명확화"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Vietnam fab capa expansion 발표",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "기존 4 GW → 6 GW 확대"
+    },
+    {
+      "date": "2027-H1",
+      "event": "Backlog 2028까지 sold-out 발표 가능성",
+      "type": "demand",
+      "expected_impact": "++",
+      "description": "장기 visibility 확보"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Trump 2기 IRA 정책 후퇴",
+      "probability": "med",
+      "impact": "high",
+      "description": "section 45X·48E 후퇴 시 EPS -25-35%",
+      "mitigation": "Backlog 4년치로 단기 buffer + 인도·베트남 fab"
+    },
+    {
+      "name": "Perovskite/tandem cell 차세대 tech",
+      "probability": "low",
+      "impact": "high",
+      "description": "Perovskite 상용화 시 CdTe disrupt",
+      "mitigation": "자체 R&D + perovskite tandem 옵션"
+    },
+    {
+      "name": "China module ASP 추가 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "Chinese ASP $0.18로 -45% 시 수주 압박",
+      "mitigation": "US 시장 IRA 보호 + 안정적 backlog"
+    },
+    {
+      "name": "Customer cancellation",
+      "probability": "low",
+      "impact": "low",
+      "description": "Backlog 일부 cancellation clause",
+      "mitigation": "선수금 + 위약금 조항"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "태양광+ESS LCOE 70% 시간 가스 대비 저렴",
+      "type": "tech",
+      "evidence": "BNEF 2026 LCOE 보고서, 13개 시장 평균",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "태양광+ESS LCOE 70% breakeven thesis의 코어 driver"
+    },
+    {
+      "claim": "재생E 광물 수요 7-13배 가스 대비 — 구조적 호재",
+      "type": "macro",
+      "evidence": "IEA Critical Minerals 2025, NZE 시나리오",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "재생E 광물 수요 — 솔라가 광물 demand pull (구리·은·텔루륨)"
+    },
+    {
+      "claim": "AI 데이터센터가 구리·은·희토류 쇼티지 가속화",
+      "type": "industry",
+      "evidence": "IEA Electricity 2026, Hyperscaler $360B capex",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "lean_support",
+      "rationale_for_ticker": "AI 데이터센터 솔라 PPA 가속화"
+    }
+  ],
+  "korean_disclosures": []
+}
