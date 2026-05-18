@@ -1,0 +1,360 @@
+{
+  "ticker": "VALE",
+  "company_kr": "발레",
+  "company_en": "Vale S.A.",
+  "sector": "Iron Ore + Nickel Mining + Copper",
+  "industry": {
+    "name": "Diversified Mining (Iron Ore + Nickel + Copper)",
+    "overview": "Vale는 브라질 본사 글로벌 광산 메이저로 (1) Carajás 철광석 (세계 최대 고품위), (2) Vale Indonesia HPAL niquel, (3) Salobo 구리, (4) Sudbury 캐나다 niquel sulfide의 4대 자산 보유. 매출의 약 70%가 철광석, 20%가 비철 (니켈·구리), 10%가 기타. 본 분석의 핵심 노출은 PT Vale Indonesia를 통한 인도네시아 HPAL niquel — 황산 50% 비중 + 5종 자원민족주의 정책 직접 노출이라는 양면성. Brazil 본사 자체는 안정적이나 BRL 환율 + Brumadinho 댐 사고 등 reputational risks 존재.",
+    "competitors": [
+      {
+        "name": "Rio Tinto",
+        "ticker": "RIO",
+        "share_pct": 18.0,
+        "moat": "글로벌 1위 iron ore + 호주 본사 안정성"
+      },
+      {
+        "name": "BHP",
+        "ticker": "BHP",
+        "share_pct": 16.0,
+        "moat": "철광석 + 구리 + nickel 다각화"
+      },
+      {
+        "name": "Fortescue",
+        "ticker": "FMG.AX",
+        "share_pct": 8.0,
+        "moat": "호주 iron ore + 그린 수소"
+      },
+      {
+        "name": "Anglo American",
+        "ticker": "AAL.L",
+        "share_pct": 7.0,
+        "moat": "다이아·구리·니켈 다각화 + 영국 본사"
+      },
+      {
+        "name": "PT VALE Indonesia",
+        "ticker": "INCO.JK (자회사)",
+        "share_pct": 0.0,
+        "moat": "Vale 보유 60% — 인도네시아 HPAL niquel"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-14",
+        "title": "산업분석러: VALE 글로벌 광산 cross-comparison 분석",
+        "source": "산업분석러 블로그",
+        "summary": "인니 HPAL niquel 노출 양면성"
+      },
+      {
+        "date": "2026-05",
+        "title": "인도네시아 자원민족주의 5종 정책 — PT Vale 영향 분석",
+        "source": "Reuters",
+        "summary": "HPAL 가동률 압박, 황산 cost +50%"
+      },
+      {
+        "date": "2026-04",
+        "title": "Vale Q1 2026 EPS $0.65 vs $0.54",
+        "source": "Earnings",
+        "summary": "철광석 가격 호조 + niquel 헤드윈드"
+      },
+      {
+        "date": "2026-03",
+        "title": "Salobo III 구리 확장 announce",
+        "source": "Press release",
+        "summary": "구리 비중 확대 전략"
+      },
+      {
+        "date": "2025-12",
+        "title": "Vale 2025 매출 $45B, FCF $15B",
+        "source": "Earnings",
+        "summary": "iron ore 평균가 $115/t"
+      },
+      {
+        "date": "2025-09",
+        "title": "Vale Indonesia (INCO) 정부 지분 인수 협상 진행",
+        "source": "Reuters",
+        "summary": "인도네시아 정부 우선매수권 행사 가능성"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 350,
+      "cagr_pct": 4,
+      "horizon": "글로벌 diversified mining"
+    }
+  },
+  "financials": {
+    "pl_5y_usd_mn": [
+      {
+        "year": 2021,
+        "revenue": 54530,
+        "op_income": 32400,
+        "op_margin": 59.4,
+        "net_income": 22454,
+        "net_margin": 41.2
+      },
+      {
+        "year": 2022,
+        "revenue": 43839,
+        "op_income": 22150,
+        "op_margin": 50.5,
+        "net_income": 18785,
+        "net_margin": 42.8
+      },
+      {
+        "year": 2023,
+        "revenue": 41784,
+        "op_income": 16850,
+        "op_margin": 40.3,
+        "net_income": 7980,
+        "net_margin": 19.1
+      },
+      {
+        "year": 2024,
+        "revenue": 45350,
+        "op_income": 17640,
+        "op_margin": 38.9,
+        "net_income": 8920,
+        "net_margin": 19.7
+      },
+      {
+        "year": "2025E",
+        "revenue": 47500,
+        "op_income": 19500,
+        "op_margin": 41.1,
+        "net_income": 9800,
+        "net_margin": 20.6
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2024-12-31",
+      "total_assets_usd_bn": 92.5,
+      "total_liabilities_usd_bn": 45.2,
+      "total_equity_usd_bn": 47.3,
+      "cash_and_equivalents_usd_bn": 4.8,
+      "interest_bearing_debt_usd_bn": 14.3,
+      "net_debt_to_ebitda": 0.45
+    },
+    "cf_snapshot": {
+      "as_of_year": 2024,
+      "ocf_usd_bn": 14.5,
+      "capex_usd_bn": -6.2,
+      "fcf_usd_bn": 8.3,
+      "dividend_paid_usd_bn": -4.5
+    },
+    "material_variance_summary": "2023 net income 7.98B vs 2022 18.79B (-58%) — major variance, 철광석 가격 normalize ($163 → $115). 2024 +12% YoY 안정. KPI: dividend yield 6% + capital return discipline. Brumadinho 댐 사고 (2019) 관련 충당금 잔액 BRL 7B는 long-term overhang."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.3,
+      "horizon": "2-3Y",
+      "target_price": 22,
+      "prob_pct": 30,
+      "thesis": "(1) 중국 부동산 stabilization + India infra demand → iron ore $130+ 유지, (2) Salobo III 풀가동으로 구리 비중 25%로 확대, (3) 인니 HPAL 정책 noise 완화 + 황산 cycle 우호적 가격 pass-through, (4) Brazil 통화 안정 + dividend yield 7% 유지, (5) PE 10x re-rating"
+    },
+    "base": {
+      "probability": 0.5,
+      "horizon": "1-2Y",
+      "target_price": 18.5,
+      "prob_pct": 50,
+      "thesis": "(1) iron ore $110-120 안정, (2) niquel cycle 회복 부분 진행, (3) PT Vale 정책 risk 일부 흡수, (4) dividend yield 6%, (5) PE 8x 유지 — fair value $18.5"
+    },
+    "bear": {
+      "probability": 0.2,
+      "horizon": "1Y",
+      "target_price": 12,
+      "prob_pct": 20,
+      "thesis": "(1) 중국 부동산 추가 위축으로 iron ore $90 회귀, (2) 인니 HPAL 강제 감산 + 황산 cost +50%로 niquel EBITDA -30%, (3) Brazil fiscal crisis + BRL 폭락, (4) 신규 댐 사고 가능성 (tail risk), (5) PE 5x discounted"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "PT Vale Indonesia 정부 지분 인수 outcome",
+      "type": "policy",
+      "expected_impact": "+/-",
+      "description": "Vale 지분 dilution risk"
+    },
+    {
+      "date": "2026",
+      "event": "Salobo III 구리 expansion commissioning",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "구리 생산 +200kt/y"
+    },
+    {
+      "date": "2026-2027",
+      "event": "인도네시아 5종 정책 강제 시행 phase-in",
+      "type": "policy",
+      "expected_impact": "-",
+      "description": "PT Vale operational cost 상승"
+    },
+    {
+      "date": "2026",
+      "event": "중국 부동산 stabilization signal",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "iron ore floor 확보"
+    },
+    {
+      "date": "2026",
+      "event": "Carajás S11D 추가 capacity 확대",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "최고 품위 광산 점유 확대"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Cyclical (경기·산업)",
+      "type": "cyclical",
+      "probability": "med",
+      "impact": "high",
+      "description": "중국 부동산 추가 위축으로 iron ore demand -20%",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Policy (정책·규제)",
+      "type": "policy",
+      "probability": "high",
+      "impact": "med",
+      "description": "인도네시아 자원민족주의 PT Vale 직접 적용",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Operational (운영)",
+      "type": "operational",
+      "probability": "low",
+      "impact": "high",
+      "description": "댐·tailings 사고 tail risk (Brumadinho repeat)",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Currency (환율)",
+      "type": "currency",
+      "probability": "med",
+      "impact": "med",
+      "description": "BRL 환율 변동성 + Brazil fiscal risk",
+      "mitigation": "다양화·hedge·모니터링"
+    },
+    {
+      "name": "Competitor (경쟁)",
+      "type": "competitor",
+      "probability": "med",
+      "impact": "low",
+      "description": "Rio Tinto·BHP의 호주 가격 경쟁력",
+      "mitigation": "다양화·hedge·모니터링"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T3",
+      "claim": "인도네시아 니켈 HPAL: 황산 비중 50% + 5종 자원민족주의 정책으로 구조 악화",
+      "evidence": "PT Vale HPAL 황산 + 5종 정책 직접 노출",
+      "type": "factual+predictive",
+      "testability": "high",
+      "current_status": "invalidated",
+      "impact": "--"
+    },
+    {
+      "claim_id": "T8",
+      "claim": "글로벌 구리 광산 대장주 (FCX·BHP·Vale) 황산 양극화 노출",
+      "evidence": "다각화로 thesis 희석",
+      "type": "predictive (cross-comparison)",
+      "testability": "medium",
+      "current_status": "pending",
+      "impact": "+/-"
+    },
+    {
+      "claim_id": "T1",
+      "claim": "황산 가격 구조적 상승 (호르무즈 봉쇄 + 중·러·터키 수출 금지)",
+      "evidence": "Carajás iron은 무관, PT Vale niquel은 cost-push 직접",
+      "type": "factual",
+      "testability": "high",
+      "current_status": "invalidated",
+      "impact": "-"
+    },
+    {
+      "claim_id": "T4",
+      "claim": "에너지 전환의 황 역설 — 호르무즈 해제로도 해결 불가한 구조적 모순",
+      "evidence": "구리·니켈 long-term demand 수혜",
+      "type": "predictive (structural)",
+      "testability": "medium",
+      "current_status": "validated",
+      "impact": "+"
+    }
+  ],
+  "us_filings": [
+    {
+      "date": "2026-04-22",
+      "type": "20-F",
+      "title": "Annual Report FY2025",
+      "impact": "+",
+      "summary": "EPS $1.85, ROE 19%, dividend $2.30"
+    },
+    {
+      "date": "2026-04-10",
+      "type": "6-K",
+      "title": "Q1 2026 Earnings",
+      "impact": "+",
+      "summary": "Revenue $11.2B, FCF $2.4B"
+    },
+    {
+      "date": "2026-02-20",
+      "type": "6-K",
+      "title": "Salobo III commissioning timeline confirmed",
+      "impact": "+",
+      "summary": "2026 H2 first metal"
+    },
+    {
+      "date": "2025-11-15",
+      "type": "6-K",
+      "title": "Indonesia government stake increase signal",
+      "impact": "-",
+      "summary": "정책 risk 명시"
+    },
+    {
+      "date": "2025-08-05",
+      "type": "6-K",
+      "title": "Iron ore 5-year guidance update",
+      "impact": "+",
+      "summary": "$110-130 baseline"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-22",
+      "type": "20-F",
+      "title": "Annual Report FY2025",
+      "impact": "+",
+      "summary": "EPS $1.85, ROE 19%, dividend $2.30"
+    },
+    {
+      "date": "2026-04-10",
+      "type": "6-K",
+      "title": "Q1 2026 Earnings",
+      "impact": "+",
+      "summary": "Revenue $11.2B, FCF $2.4B"
+    },
+    {
+      "date": "2026-02-20",
+      "type": "6-K",
+      "title": "Salobo III commissioning timeline confirmed",
+      "impact": "+",
+      "summary": "2026 H2 first metal"
+    },
+    {
+      "date": "2025-11-15",
+      "type": "6-K",
+      "title": "Indonesia government stake increase signal",
+      "impact": "-",
+      "summary": "정책 risk 명시"
+    },
+    {
+      "date": "2025-08-05",
+      "type": "6-K",
+      "title": "Iron ore 5-year guidance update",
+      "impact": "+",
+      "summary": "$110-130 baseline"
+    }
+  ]
+}
