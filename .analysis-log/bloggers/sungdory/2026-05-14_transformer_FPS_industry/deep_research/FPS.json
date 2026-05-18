@@ -1,0 +1,168 @@
+{
+  "name": "Forgent Power Solutions",
+  "industry": {
+    "tam_2024_usd_bn": 45,
+    "tam_2030_usd_bn": 85,
+    "cagr_pct": 11.2,
+    "key_drivers": [
+      "AI 데이터센터 capex super-cycle ($400B+/연 2025-2030)",
+      "그리드 modernization 정부 예산 ($170B+ 10년)",
+      "산업 전기화 (반도체 fab·EV plant·수소 plant)"
+    ],
+    "competitive_position": "신생 entrant (2023년 설립) — Neos Partners PE roll-up으로 단기간 $882M 매출 도달. medium-voltage VPI transformer·eHouse·padmount transformer로 데이터센터 최적화. Minnesota·Texas·Maryland·California·Mexico 5개 사이트 manufacturing footprint. 직원 2,000명. 진입장벽 (인증·track record·customer qualification)이 높은 산업에서 PE 인수 통합으로 진입.",
+    "market_share_pct": 1.5,
+    "key_competitors": [
+      "POWL",
+      "GEV",
+      "ETN",
+      "HUBB",
+      "ABB",
+      "Siemens Energy",
+      "Hitachi Energy"
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 85,
+      "thesis": "데이터센터 capex acceleration 지속 + capacity ramp 성공 + 추가 M&A로 $2B+ LTM 매출 도달",
+      "key_assumptions": [
+        "hyperscaler capex +30%/연 지속",
+        "EBITDA margin 24%+ 도달",
+        "IPO lock-up 후 selling 흡수"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 65,
+      "thesis": "Backlog $1.98B 기반 24-36개월 매출 가시성, FY2027 매출 $1.5-1.8B, EBITDA 마진 22-24% 유지",
+      "key_assumptions": [
+        "데이터센터 capex 안정 성장",
+        "PE-led roll-up integration 성공",
+        "EPS $2.80 × forward PE 23x"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 32,
+      "thesis": "PE-led roll-up integration 실패 + 데이터센터 capex 둔화 + IPO lock-up expiration sell pressure",
+      "key_assumptions": [
+        "hyperscaler capex 둔화",
+        "integration 실패로 organic growth <50%",
+        "PE 25x → 15x multiple contraction"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-15",
+      "event": "Q4 FY2026 실적 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Q3 trajectory 유지 + EBITDA 마진 22%+ 유지 시 추가 multiple expansion"
+    },
+    {
+      "date": "2026-11-15",
+      "event": "FY2026 연간 + FY2027 가이던스",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "FY2027 매출 $1.5B+ 가이던스 가능"
+    },
+    {
+      "date": "2026-07-15",
+      "event": "IPO lock-up 6개월 expiration",
+      "type": "macro",
+      "expected_impact": "-",
+      "description": "Insider·PE selling pressure"
+    },
+    {
+      "date": "2026 H2",
+      "event": "신규 hyperscaler customer 발표",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Amazon·Microsoft·Google·Meta 신규 win"
+    },
+    {
+      "date": "2026 H2",
+      "event": "추가 PE-backed M&A",
+      "type": "m&a",
+      "expected_impact": "+",
+      "description": "capacity 확장 + 매출 증가"
+    }
+  ],
+  "risks": [
+    {
+      "name": "PE roll-up integration 실패",
+      "probability": "med",
+      "impact": "high",
+      "description": "4개 인수 기업 culture·system 통합 실패 시 organic growth 둔화",
+      "mitigation": "Neos Partners PE 경영 노하우 + 명확한 integration roadmap"
+    },
+    {
+      "name": "데이터센터 customer concentration",
+      "probability": "high",
+      "impact": "high",
+      "description": "hyperscaler 1-2개 capex 둔화 시 매출 30%+ 직접 영향",
+      "mitigation": "Customer 다각화 (utility·산업 customer 확대)"
+    },
+    {
+      "name": "IPO 6개월 lock-up expiration",
+      "probability": "high",
+      "impact": "med",
+      "description": "2026-07 insider·PE selling pressure",
+      "mitigation": "Strong earnings momentum이 selling 흡수 가능"
+    },
+    {
+      "name": "Raw material 가격 상승",
+      "probability": "med",
+      "impact": "med",
+      "description": "구리·강판·실리콘 강판 가격 상승 시 마진 압박",
+      "mitigation": "장기 공급 계약 + 가격 인상 pass-through"
+    },
+    {
+      "name": "Trump 관세 정책",
+      "probability": "med",
+      "impact": "med",
+      "description": "Mexico 공장 수출 제한 시 supply chain 영향",
+      "mitigation": "Mexico capacity는 LATAM 시장 향"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "FPS Q3 어닝 surprise = 변압기 산업 leading indicator",
+      "type": "industry",
+      "evidence": "매출 +103% YoY, 컨센서스 상회, EBITDA 마진 22.4%",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "PE-led roll-up이 신생 capacity 빠르게 시장 진입 가능케 함",
+      "type": "company",
+      "evidence": "Neos Partners 4개 인수 8개월 → $882M LTM 매출",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "데이터센터 customer 30%+ 의존 — concentration risk",
+      "type": "company",
+      "evidence": "하이퍼스케일러 4-5사가 매출 대부분",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Backlog $1.98B (B/B 2.3x) = 24-36개월 매출 visibility",
+      "type": "company",
+      "evidence": "수주잔고/매출 비율 historical high",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "IPO 6개월 lock-up expiration sell pressure 위험",
+      "type": "technical",
+      "evidence": "2026-07-15 expected lock-up release",
+      "testability": "high",
+      "current_status": "pending"
+    }
+  ],
+  "us_disclosures": []
+}
