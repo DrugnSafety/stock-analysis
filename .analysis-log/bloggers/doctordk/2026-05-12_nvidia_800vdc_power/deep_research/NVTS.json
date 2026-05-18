@@ -1,0 +1,229 @@
+{
+  "ticker": "NVTS",
+  "name_kr": "나비타스 세미컨덕터",
+  "name_en": "Navitas Semiconductor Corporation",
+  "ipo_year": 2021,
+  "market_data_snapshot": {
+    "ticker": "NVTS",
+    "name": "Navitas Semiconductor Corporation",
+    "current_price": 19.81,
+    "currency": "USD",
+    "forward_pe": -137.99,
+    "trailing_pe": null,
+    "beta": 3.62,
+    "return_1m_pct": 107.6,
+    "return_3m_pct": 114.8,
+    "return_6m_pct": 106.3,
+    "return_1y_pct": 856.76,
+    "volatility_annualized_pct": 202.0,
+    "market_cap_local_bn": 4.63,
+    "market_cap_usd_bn": 4.63,
+    "ev_ebitda": -78.82,
+    "div_yield_pct": 0,
+    "pb": 10.29,
+    "fetched_at": "2026-05-12T17:59:31",
+    "fetched_via": "yfinance 1.3.0 (live)",
+    "as_of_date": "2026-05-12"
+  },
+  "industry": {
+    "name": "Wide Bandgap (WBG) Power Semiconductor — GaN/SiC pure-play",
+    "overview": "글로벌 WBG 반도체 시장은 2024 $3-4B에서 2030 $15-20B로 가속 (Yole/Omdia 전망). AI 데이터센터 segment는 800VDC 전환과 동반하여 2024 ~$0.3B → 2030 ~$3-4B로 10배 확대 예상. Navitas는 GaN 점유율 25-30%, SiC는 2024 GeneSiC 인수로 신규 진입. 본문(의교창 #2)에서 직접 인용된 어닝콜 quote의 주체 — MW당 GaN $10-15K, SiC $5-8K disclosure 출처.",
+    "competitors": [
+      {
+        "name": "Infineon",
+        "ticker": "IFNNY",
+        "share_pct": 20.0,
+        "moat": "Scale + portfolio breadth, EV·산업 강자"
+      },
+      {
+        "name": "STMicro",
+        "ticker": "STM",
+        "share_pct": 15.0,
+        "moat": "EU 기반 자동차 SiC, Tesla 공급"
+      },
+      {
+        "name": "Onsemi",
+        "ticker": "ON",
+        "share_pct": 12.0,
+        "moat": "200mm wafer capa 확장, Tesla 공급"
+      },
+      {
+        "name": "Wolfspeed",
+        "ticker": "WOLF",
+        "share_pct": 8.0,
+        "moat": "SiC pure-play (distressed), Mohawk Valley fab"
+      },
+      {
+        "name": "Power Integrations",
+        "ticker": "POWI",
+        "share_pct": 6.0,
+        "moat": "GaN AC/DC adapter 강자"
+      },
+      {
+        "name": "Navitas",
+        "ticker": "NVTS",
+        "share_pct": 5.0,
+        "moat": "GaN+SiC 통합, AI DC 침투 가속"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 3.5,
+      "cagr_pct": 28.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "$83.3M (YoY +8% 추정)",
+    "revenue_2025_est": "$95-110M (consensus, AI DC 본격 ramp)",
+    "gross_margin": "약 40% (positive trend)",
+    "operating_margin": "음수 (-30~-50%, R&D + SG&A 비중 큼)",
+    "balance_sheet": "현금 ~$100M (2024 말 기준), 부채 minimal — runway 1.5-2년 추정",
+    "fcf": "음수 — 2026~2027 sustained free cash flow positive 전망",
+    "comment": "Navitas는 본문 (의교창 #2)에서 직접 인용된 어닝콜 quote의 주체 — MW당 GaN $10-15K, SiC $5-8K disclosure 출처. AI DC TAM ramp 가속 시 2026-2027 revenue inflection 가능, 다만 정확한 timing은 hyperscaler design-win rollout 속도에 의존."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 60.0,
+      "thesis": "2027 Kyber NVL576 rollout 시 NVIDIA·Vertiv·Dell GaN BoM 50%+ share 확보 → 2028 revenue $400-500M, gross margin 50%+, EBITDA positive. 5-year upside 5-10x.",
+      "key_assumptions": [
+        "NVIDIA 800V 사이드카 design-win 50%+ 확보",
+        "Big Tech in-house ASIC <30% 점유",
+        "GaN+SiC margin expansion 50%+ 도달"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 25.0,
+      "thesis": "2026-2028 sustained design-win expansion, 2027 revenue $200M, 2028 cash flow break-even. 5-year upside 1.3-2x with valuation compression.",
+      "key_assumptions": [
+        "AI DC GaN content $10-15K/MW Navitas disclosure 일치",
+        "Capital raise 1회 (~30% dilution)",
+        "competitive ramp from Infineon·STMicro 일부 share 잠식"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 7.0,
+      "thesis": "Infineon·STMicro·Power Integrations catch-up + Big Tech in-house design 강화로 design-win share 잠식. 2027-2028 capital raise 필요, 50% dilution 시 EPS damage. 5-year downside -65~-70%.",
+      "key_assumptions": [
+        "AI cycle peak 후 multiple compression -60%",
+        "GaN incumbent catch-up 가속",
+        "50%+ dilution capital raise"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q1",
+      "event": "NVIDIA Vera Rubin NVL144 800V PSU design-win 발표 가능성",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "GaN 비중 disclosure 시 thesis 확인 첫 inflection"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "Earnings — AI DC segment 매출 disclosure",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "MW당 GaN/SiC 콘텐츠 분기 갱신, design-win pipeline"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Capital raise timing (cash runway 1.5-2년)",
+      "type": "earnings",
+      "expected_impact": "-",
+      "description": "dilution 30-50% 위험, equity reset 가능"
+    },
+    {
+      "date": "2027-H1",
+      "event": "Kyber NVL576 BoM 공개 — GaN content share 확인",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "thesis 검증의 critical moment"
+    },
+    {
+      "date": "2027-H2",
+      "event": "Dell·HPE·Supermicro 800V PSU adoption 확산",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "design-win pipeline 가시화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Cash runway 1.5-2년 (capital raise)",
+      "probability": "high",
+      "impact": "high",
+      "description": "추가 capital raise 시 30-50% dilution 위험, 음수 EPS 지속",
+      "mitigation": "AI DC design-win 가속·CHIPS Act 보조금·전략적 파트너십"
+    },
+    {
+      "name": "Big Tech in-house ASIC 강화",
+      "probability": "med",
+      "impact": "high",
+      "description": "GoogleTPU·MetaMTIA·AWS Trainium 자체설계로 ecosystem revenue 둔화",
+      "mitigation": "Hyperscaler 외 customer 다변화 (Dell·HPE·Supermicro)"
+    },
+    {
+      "name": "Infineon·STMicro·Power Integrations catch-up",
+      "probability": "high",
+      "impact": "med",
+      "description": "GaN 가격 경쟁력·scale 압박, gross margin pressure",
+      "mitigation": "GaN+SiC 통합·IP moat·NVIDIA partnership"
+    },
+    {
+      "name": "AI capex cycle peak 후 momentum unwind",
+      "probability": "med",
+      "impact": "high",
+      "description": "1Y +857% rally 후 mean-reversion 가능, sentiment-driven volatility",
+      "mitigation": "long-cycle thesis 강조·재무 실적 가속"
+    },
+    {
+      "name": "표준화·AHJ 승인 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "800VDC 상용화 timing 2027 → 2029 지연 시 design-win delay",
+      "mitigation": "OCP·IEEE·UL working group 적극 참여"
+    }
+  ],
+  "valuation_context": "Forward PE 음수, Trailing PE n/a, PB 10x, EV/EBITDA -79. Pure thematic name으로 DCF·multiple based valuation 어렵고 narrative-driven. AI DC TAM share 가정에 따라 fair value 범위 $5-$50 (10배 spread) — story stock의 전형.",
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2021A",
+        "revenue": 23.7,
+        "op_margin": -60.0,
+        "net_margin": -250.0
+      },
+      {
+        "year": "2022A",
+        "revenue": 38.6,
+        "op_margin": -65.0,
+        "net_margin": -180.0
+      },
+      {
+        "year": "2023A",
+        "revenue": 77.5,
+        "op_margin": -55.0,
+        "net_margin": -65.0
+      },
+      {
+        "year": "2024A",
+        "revenue": 83.3,
+        "op_margin": -45.0,
+        "net_margin": -50.0
+      },
+      {
+        "year": "2025E",
+        "revenue": 105.0,
+        "op_margin": -30.0,
+        "net_margin": -28.0
+      }
+    ],
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": []
+  }
+}
