@@ -1,0 +1,223 @@
+{
+  "industry": {
+    "name": "구리 채굴 #1 (US·Indonesia)",
+    "overview": "글로벌 정제동 #1 producer (Grasberg·Cerro Verde·Morenci). 2024 매출 230억 달러, 구리 4.2 Bn lbs + 금 1.9 Moz. 데이터센터 구리 수요 직접 노출, 페루 Cerro Verde가 T6 비상령 직접 수혜. EV·전력망·재생E 트리플 demand driver.",
+    "competitors": [
+      {
+        "name": "Codelco (Chile state)",
+        "ticker": "",
+        "share_pct": 11.0,
+        "moat": "Escondida·Chuquicamata, 칠레 국가 소유"
+      },
+      {
+        "name": "BHP",
+        "ticker": "BHP",
+        "share_pct": 8.0,
+        "moat": "Escondida 57.5% + 다각화"
+      },
+      {
+        "name": "Freeport-McMoRan",
+        "ticker": "FCX",
+        "share_pct": 7.0,
+        "moat": "Grasberg + Cerro Verde + Morenci, US listed largest pure copper"
+      },
+      {
+        "name": "Glencore",
+        "ticker": "GLEN.L",
+        "share_pct": 6.0,
+        "moat": "광산·트레이딩 통합"
+      },
+      {
+        "name": "Antofagasta",
+        "ticker": "ANTO.L",
+        "share_pct": 5.0,
+        "moat": "Centinela·Los Pelambres (칠레)"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 195,
+      "cagr_pct": 6.2,
+      "horizon": "2025-2030"
+    },
+    "news": [],
+    "recent_news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 22845,
+        "op_income": 7128,
+        "op_margin": 31.2,
+        "net_income": 4306,
+        "net_margin": 18.8
+      },
+      {
+        "year": 2022,
+        "revenue": 22780,
+        "op_income": 6342,
+        "op_margin": 27.8,
+        "net_income": 3468,
+        "net_margin": 15.2
+      },
+      {
+        "year": 2023,
+        "revenue": 22855,
+        "op_income": 6320,
+        "op_margin": 27.6,
+        "net_income": 1848,
+        "net_margin": 8.1
+      },
+      {
+        "year": 2024,
+        "revenue": 23106,
+        "op_income": 5658,
+        "op_margin": 24.5,
+        "net_income": 1885,
+        "net_margin": 8.2
+      },
+      {
+        "year": 2025,
+        "revenue": 25220,
+        "op_income": 7263,
+        "op_margin": 28.8,
+        "net_income": 2890,
+        "net_margin": 11.5
+      }
+    ],
+    "summary": "2021-22 supercycle peak 이후 cyclical pullback. 2026 구리 가격 회복으로 OPM 30%+ 복귀 가능. FCF generation 강함, 순부채 $4.2B 관리 가능.",
+    "balance_sheet_snapshot": {},
+    "cf_summary": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 95,
+      "thesis": "구리 $7+/lb (BlackRock target), Grasberg 안정 가동, 데이터센터 수요 가속화",
+      "key_assumptions": [
+        "구리 LME spot $7/lb 도달",
+        "Grasberg PT-FI 30년 운영 계약 갱신 (2027)",
+        "Hyperscaler capex $360B 유지로 변압기·서버 동 수요"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 78,
+      "thesis": "구리 $5.5/lb 유지, 페루 차질 -3-5%, 데이터센터 수요 점진",
+      "key_assumptions": [
+        "구리 spot $5.5/lb 유지",
+        "Cerro Verde 페루 광산 가동률 -3-5%",
+        "전기차 침투율 +5pp"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 48,
+      "thesis": "구리 $4/lb, Grasberg 정치 리스크 (인도네시아 광물 수출 규제 강화)",
+      "key_assumptions": [
+        "구리 spot $4/lb",
+        "Grasberg 광물 수출 25% 규제",
+        "중국 부동산 -20% deeper recession"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2-Q3",
+      "event": "페루 Cerro Verde 가동 영향 평가",
+      "type": "operational",
+      "expected_impact": "+/-",
+      "description": "페루 비상령 영향 30-90일 평가"
+    },
+    {
+      "date": "2026-Q3-Q4",
+      "event": "데이터센터 구리 수요 검증",
+      "type": "demand",
+      "expected_impact": "+",
+      "description": "Hyperscaler capex 가이드, 변압기 backlog 검증"
+    },
+    {
+      "date": "2027-H1",
+      "event": "구리 $7+/lb 돌파 시 EPS +60% revision",
+      "type": "earnings",
+      "expected_impact": "++",
+      "description": "Sell-side EPS 추정 revision"
+    },
+    {
+      "date": "2027-H2",
+      "event": "Grasberg PTFI 30년 운영 계약 갱신",
+      "type": "regulatory",
+      "expected_impact": "++",
+      "description": "인도네시아 정부와 협상 진행"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Grasberg 인도네시아 정치 리스크",
+      "probability": "med",
+      "impact": "high",
+      "description": "광물 수출 규제·세제 변경 시 매출 -8-15%",
+      "mitigation": "정부 지분 51% 보유, 장기 계약 갱신 협상"
+    },
+    {
+      "name": "구리 가격 cyclical pullback",
+      "probability": "med",
+      "impact": "high",
+      "description": "구리 -30% 시 OPM 절반",
+      "mitigation": "장기 contract + hedging, 비용 절감"
+    },
+    {
+      "name": "ESG·water management",
+      "probability": "low",
+      "impact": "med",
+      "description": "탄소 배출·물 사용 규제 강화",
+      "mitigation": "Scope 1+2 -30% 2030 목표, 재생E PPA"
+    },
+    {
+      "name": "Country exposure (페루·DRC·인도네시아)",
+      "probability": "low",
+      "impact": "med",
+      "description": "정치 변동·자원민족주의",
+      "mitigation": "지역 분산 + 정부와 장기 파트너십"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "원자재 슈퍼사이클 — 재생E·공급 병목·약달러 3대 요인",
+      "type": "macro",
+      "evidence": "BlackRock 2026 Commodity Outlook, BCI +18.7% YTD",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "구리 supercycle 직접 수혜 — 글로벌 #1 정제동 producer"
+    },
+    {
+      "claim": "AI 데이터센터가 구리·은·희토류 쇼티지 가속화",
+      "type": "industry",
+      "evidence": "IEA Electricity 2026, Hyperscaler $360B capex",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "데이터센터 구리 수요 직접 노출"
+    },
+    {
+      "claim": "페루 비상령 → 세계 2위 은 생산국 가동 차질",
+      "type": "geopolitical",
+      "evidence": "페루 Decreto de Emergencia Energética 2026-05-04",
+      "testability": "high",
+      "current_status": "confirmed",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "Cerro Verde 페루 광산 직접 노출"
+    },
+    {
+      "claim": "재생E 광물 수요 7-13배 가스 대비 — 구조적 호재",
+      "type": "macro",
+      "evidence": "IEA Critical Minerals 2025, NZE 시나리오",
+      "testability": "high",
+      "current_status": "pending",
+      "stance_for_ticker": "support",
+      "rationale_for_ticker": "재생E·EV·전력망 구리 수요 트리플 driver"
+    }
+  ],
+  "korean_disclosures": []
+}
