@@ -1,0 +1,223 @@
+{
+  "ticker": "ON",
+  "name_kr": "온세미",
+  "name_en": "ON Semiconductor Corp.",
+  "ipo_year": 2000,
+  "market_data_snapshot": {
+    "ticker": "ON",
+    "name": "ON Semiconductor Corporation",
+    "current_price": 101.85,
+    "currency": "USD",
+    "forward_pe": 23.87,
+    "trailing_pe": 74.87,
+    "beta": 1.94,
+    "return_1m_pct": 48.36,
+    "return_3m_pct": 56.45,
+    "return_6m_pct": 109.83,
+    "return_1y_pct": 128.26,
+    "volatility_annualized_pct": 57.45,
+    "market_cap_local_bn": 39.9,
+    "market_cap_usd_bn": 39.9,
+    "ev_ebitda": 20.94,
+    "div_yield_pct": 0,
+    "pb": 5.46,
+    "fetched_at": "2026-05-12T17:59:32",
+    "fetched_via": "yfinance 1.3.0 (live)",
+    "as_of_date": "2026-05-12"
+  },
+  "industry": {
+    "name": "Power Semiconductor (SiC + Si) + Image Sensors",
+    "overview": "Power Discrete 시장 2024 $25B → 2030 $40B. Image sensor 시장 $15B+. ON은 SiC 양산 capa 2위권 (Wolfspeed 다음). EV(Tesla 등) + 산업 + AI DC 다중 노출. CHIPS Act 수혜자, EU·미국 보조금 활용 양호. 자동차 의존도가 높아 EV 사이클 영향.",
+    "competitors": [
+      {
+        "name": "STMicro",
+        "ticker": "STM",
+        "share_pct": 14.0,
+        "moat": "SiC + 자동차"
+      },
+      {
+        "name": "Infineon",
+        "ticker": "IFNNY",
+        "share_pct": 18.0,
+        "moat": "Power leader 광범위"
+      },
+      {
+        "name": "Onsemi",
+        "ticker": "ON",
+        "share_pct": 10.0,
+        "moat": "SiC + Image sensor 양립"
+      },
+      {
+        "name": "Wolfspeed",
+        "ticker": "WOLF",
+        "share_pct": 8.0,
+        "moat": "SiC pure-play (distressed)"
+      },
+      {
+        "name": "Sony (image sensor)",
+        "ticker": "SONY",
+        "share_pct": 45.0,
+        "moat": "Smartphone CIS 절대 강자"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 8.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "$7.1B (YoY -14%, 자동차 부진)",
+    "revenue_2025_est": "$7.3-7.8B (회복 기조)",
+    "gross_margin": "약 45%",
+    "operating_margin": "약 22-25%",
+    "balance_sheet": "현금 $2.5B+, 부채 $3.5B, leverage 1.0x — 매우 healthy",
+    "fcf": "$1.5-2B annual",
+    "comment": "Onsemi는 SiC 양산 capa 글로벌 2위, AI DC segment 진입 가속. 다만 자동차 의존도가 높아 EV 사이클에 영향. 800VDC thesis exposure는 mid-strong, Wolfspeed보다 안정적 배팅."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 180.0,
+      "thesis": "EV 회복 + AI DC SiC content 확대 + Image sensor AI vision 가속 → 2027 revenue $10B+, EBITDA margin 30%+. 5-year upside 1.75x.",
+      "key_assumptions": [
+        "EV market 회복 (Tesla·VW·Ford)",
+        "AI DC SiC design-win 확보",
+        "Image sensor AI vision ramp"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 130.0,
+      "thesis": "Sustained 8-10% growth, EBITDA margin 25%+. 5-year upside 1.27x.",
+      "key_assumptions": [
+        "Revenue CAGR 8-10%",
+        "Multiple fwd PE 15-18 유지",
+        "Diversified customer base 안정"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 70.0,
+      "thesis": "EV 둔화 + SiC 가격 경쟁 → revenue stagnation, EBITDA 압박. 5-year downside -30%.",
+      "key_assumptions": [
+        "EV 추가 둔화",
+        "SiC ASP 압박",
+        "Image sensor 경쟁 심화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q1",
+      "event": "2025 FY earnings — EV recovery 신호",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "자동차 segment 회복 가속 여부"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "AI DC SiC design-win 첫 disclosure",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "thesis 직접 노출 확대"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Image sensor AI vision applications 매출 ramp",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "edge AI segment 가속"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Buyback/dividend 발표 timing",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "shareholder return 가속"
+    },
+    {
+      "date": "2027-H2",
+      "event": "Adjacent power 또는 sensor 분야 M&A",
+      "type": "m&a",
+      "expected_impact": "+",
+      "description": "포트폴리오 다각화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "EV market 둔화 — 자동차 segment 매출 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "Tesla·VW·Ford 등 EV OEM 발주 둔화 시 SiC 매출 압박",
+      "mitigation": "산업·AI DC 다각화·다중 OEM 확보"
+    },
+    {
+      "name": "SiC 가격 경쟁 (Wolfspeed·STMicro·Infineon)",
+      "probability": "high",
+      "impact": "med",
+      "description": "ASP 압박으로 gross margin 회복 지연",
+      "mitigation": "200mm wafer scale·yield 우위"
+    },
+    {
+      "name": "Image sensor segment Sony·Samsung 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "고급 image sensor 시장 share 압박",
+      "mitigation": "Automotive·industrial image sensor 차별화"
+    },
+    {
+      "name": "FX·supply chain disruption",
+      "probability": "med",
+      "impact": "low",
+      "description": "Wafer·packaging supply chain 변동",
+      "mitigation": "Multi-source procurement·inventory buffer"
+    },
+    {
+      "name": "Capital intensive (capex 15% of revenue)",
+      "probability": "high",
+      "impact": "low",
+      "description": "Free cash flow 변동성 — capex peaks 시 cash 부담",
+      "mitigation": "Healthy balance sheet (leverage 1.0x)·sustained FCF"
+    }
+  ],
+  "valuation_context": "Mid-cycle valuation, fwd PE ~15-18x, PB ~2x, healthy balance sheet. SiC pure-play의 대안으로 'mid-risk mid-reward' 노출. Buffett·Munger·Lynch 모두 acceptable.",
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020A",
+        "revenue": 5255,
+        "op_margin": 12.0,
+        "net_margin": 4.0
+      },
+      {
+        "year": "2021A",
+        "revenue": 6740,
+        "op_margin": 18.0,
+        "net_margin": 12.0
+      },
+      {
+        "year": "2022A",
+        "revenue": 8326,
+        "op_margin": 32.0,
+        "net_margin": 23.0
+      },
+      {
+        "year": "2023A",
+        "revenue": 8253,
+        "op_margin": 31.0,
+        "net_margin": 26.0
+      },
+      {
+        "year": "2024A",
+        "revenue": 7117,
+        "op_margin": 22.0,
+        "net_margin": 18.0
+      }
+    ],
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": []
+  }
+}
