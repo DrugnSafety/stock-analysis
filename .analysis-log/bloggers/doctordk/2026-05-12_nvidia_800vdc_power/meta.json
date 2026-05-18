@@ -1,0 +1,33 @@
+{
+  "blogger": "doctordk",
+  "blogger_name": "의교창",
+  "blog_urls": [
+    "https://blog.naver.com/doctordk/224283043012",
+    "https://blog.naver.com/doctordk/224283063758"
+  ],
+  "log_nos": ["224283043012", "224283063758"],
+  "title_series": "NVIDIA 800VDC Power Architecture: AI 데이터센터 전력구조 대전환 본격화 (#1 + #2)",
+  "post_titles": [
+    "NVIDIA 800VDC Power Architecture: AI 데이터센터 전력구조 대전환 본격화 #1",
+    "NVIDIA 800VDC Power Architecture: AI 데이터센터 전력구조 대전환 본격화 #2"
+  ],
+  "post_date": "2026-05-12",
+  "analysis_date": "2026-05-12",
+  "slug": "nvidia_800vdc_power",
+  "topic": "AI 데이터센터의 800VDC 전력 아키텍처 전환 — WBG(SiC/GaN) 반도체·전력장비·SST의 산업 재편",
+  "categories": [
+    "AI 인프라",
+    "데이터센터 전력",
+    "전력반도체 (WBG)",
+    "SiC / GaN",
+    "BESS / 에너지스토리지",
+    "SST (Solid State Transformer)",
+    "유틸리티·송배전"
+  ],
+  "content_length_total": 5644,
+  "content_length_post1": 2321,
+  "content_length_post2": 3323,
+  "language": "ko",
+  "key_thesis_summary": "NVIDIA GTC를 관통한 핵심 키워드는 AI 모델·CUDA·로봇이 아닌 '전력 문제'. GB200→GB300→Vera Rubin→Rubin Ultra→Kyber NVL576(2027) 세대로 가며 랙당 600kW→1MW급으로 진입. 기존 415/480VAC 구조는 I²R 손실로 한계 도달, NVIDIA는 800VDC 아키텍처를 채택(손실 5%↓, 구리 45%↓, 전송량 85%↑, TCO 30%↓). AI 클러스터는 Compute/Communication 반복으로 밀리초 단위 전력 스파이크 발생 → 다계층 ESS(슈퍼커패시터·BESS·BBU) 필수. WBG 반도체 시장 재편: SiC는 초고압 정류·SST 전단, GaN은 랙 내부 DC-DC 영역. Navitas 어닝콜에서 MW당 GaN 콘텐츠 $10-15K, SiC $5-8K 명시, 전력 2배 증가시 SiC는 5배 비선형 증가. PSU 요구치 5-10kW→18.5kW→30kW. 장기적으로 SST(Solid State Transformer)가 변압기를 반도체화하는 흐름. AI 데이터센터 부하 2035년까지 100GW+ 증가 예상 → 유틸리티·송배전 CAPEX 폭증. 시장 핵심 질문은 'GPU 누가 만드는가'에서 '누가 AI 시대 전력 구조를 지배하는가'로 이동.",
+  "stage": "stage1_collected"
+}
