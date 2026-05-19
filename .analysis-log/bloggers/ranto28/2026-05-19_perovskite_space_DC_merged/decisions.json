@@ -1,0 +1,72 @@
+{
+  "portfolio_value_usd": 100000,
+  "decision_methodology": "persona verdict aggregation x risk_limit (Portfolio Manager pattern)",
+  "computed_at": "2026-05-19T21:08:54.383579+09:00",
+  "decisions": [
+    {
+      "ticker": "010140.KS",
+      "name": "삼성중공업",
+      "action": "BUY",
+      "signal_score": 0.308,
+      "persona_bull": 4,
+      "persona_neutral": 9,
+      "persona_bear": 0,
+      "avg_confidence": 0.55,
+      "target_pct": 15.0,
+      "target_usd": 15000.0,
+      "rationale": "4/13 bull, 0 bear, signal 0.31, avg conf 0.55 -> BUY"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "테슬라",
+      "action": "HOLD_BIAS_NEUTRAL",
+      "signal_score": 0.0,
+      "persona_bull": 5,
+      "persona_neutral": 3,
+      "persona_bear": 5,
+      "avg_confidence": 0.6,
+      "target_pct": 4.5,
+      "target_usd": 4500.0,
+      "rationale": "5/13 bull, 5 bear, signal 0.00, avg conf 0.60 -> HOLD_BIAS_NEUTRAL"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "퍼스트솔라",
+      "action": "BUY",
+      "signal_score": 0.846,
+      "persona_bull": 12,
+      "persona_neutral": 0,
+      "persona_bear": 1,
+      "avg_confidence": 0.658,
+      "target_pct": 10.0,
+      "target_usd": 10000.0,
+      "rationale": "12/13 bull, 1 bear, signal 0.85, avg conf 0.66 -> BUY"
+    },
+    {
+      "ticker": "014680.KS",
+      "name": "Hansol Chemical Co., Ltd.",
+      "action": "BUY",
+      "signal_score": 0.462,
+      "persona_bull": 7,
+      "persona_neutral": 5,
+      "persona_bear": 1,
+      "avg_confidence": 0.592,
+      "target_pct": 15.0,
+      "target_usd": 15000.0,
+      "rationale": "7/13 bull, 1 bear, signal 0.46, avg conf 0.59 -> BUY"
+    },
+    {
+      "ticker": "9104.T",
+      "name": "미쓰이OSK라인즈",
+      "action": "BUY",
+      "signal_score": 0.692,
+      "persona_bull": 9,
+      "persona_neutral": 4,
+      "persona_bear": 0,
+      "avg_confidence": 0.604,
+      "target_pct": 20.0,
+      "target_usd": 20000.0,
+      "rationale": "9/13 bull, 0 bear, signal 0.69, avg conf 0.60 -> BUY"
+    }
+  ]
+}
