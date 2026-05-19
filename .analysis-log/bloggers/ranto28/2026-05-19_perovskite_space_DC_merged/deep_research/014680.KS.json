@@ -1,0 +1,224 @@
+{
+  "name": "한솔케미칼",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T10",
+      "claim": "페로브스카이트 태양전지가 우주 진공·방사선 환경에서 실리콘 대비 자연적 약점 해소(습기·산소·열) + 자기치유(soft ionic lattice) 우위로 우주 DC 전력 솔루션 표준이 된다",
+      "ticker_exposure": "++",
+      "reasoning": "T10 direct positive driver — + 페로브스카이트 셀·소재 (FSLR, 한솔케미칼), + SpaceX/Tesla 채택",
+      "type": "predictive"
+    },
+    {
+      "thesis_id": "T11",
+      "claim": "일론 머스크의 SpaceX-xAI-페로브스카이트 vertical integration이 미국 우주 DC의 대중국 경쟁 카드이며, 2026-02 중국 페로브스카이트 기업 비공개 방문이 그 신호다",
+      "ticker_exposure": "++",
+      "reasoning": "T11 direct positive driver — + TSLA(SpaceX-xAI proxy), + 페로브스카이트 글로벌 공급망",
+      "type": "predictive"
+    },
+    {
+      "thesis_id": "T13",
+      "claim": "한국 페로브스카이트 소재·셀 기업(한솔케미칼·유니테스트·한화솔루션 등)이 SpaceX/중국 우주 DC 양측 공급망에 동시 진입할 수 있다",
+      "ticker_exposure": "++",
+      "reasoning": "T13 direct positive driver — + 014680.KS 한솔케미칼, + 086390.KQ 유니테스트, + 한화솔루션",
+      "type": "predictive"
+    }
+  ],
+  "industry": {
+    "overview": "반도체·디스플레이·솔라 화학소재. 페로브스카이트 도판트·증착 소재 기술. UNIST·KAIST R&D 네트워크.",
+    "tam_5y_bn_usd": 5,
+    "tailwinds": [
+      "K-제조 우대",
+      "HBM 회복"
+    ],
+    "headwinds": [
+      "페로브스카이트 매출 비중 작음 (~5%)"
+    ],
+    "name": "한솔케미칼",
+    "competitors": [],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 5.0,
+      "cagr_pct": 25.0,
+      "horizon": "2025-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 723,
+        "op_income": 137,
+        "op_margin_pct": 19.0,
+        "net_income": 102.8
+      },
+      {
+        "year": 2022,
+        "revenue": 853,
+        "op_income": 145,
+        "op_margin_pct": 17.0,
+        "net_income": 108.8
+      },
+      {
+        "year": 2023,
+        "revenue": 763,
+        "op_income": 90,
+        "op_margin_pct": 11.8,
+        "net_income": 67.5
+      },
+      {
+        "year": 2024,
+        "revenue": 880,
+        "op_income": 130,
+        "op_margin_pct": 14.8,
+        "net_income": 97.5
+      },
+      {
+        "year": 2025,
+        "revenue": 950,
+        "op_income": 145,
+        "op_margin_pct": 15.3,
+        "net_income": 108.8
+      }
+    ],
+    "bs_snapshot": {
+      "asof": "2024-12",
+      "currency": "KRW (bn)"
+    },
+    "cf_summary": {
+      "ocf_5y": [
+        123.3,
+        130.5,
+        81.0,
+        117.0,
+        130.5
+      ],
+      "currency": "KRW (bn)"
+    },
+    "peer_compare": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 450000,
+      "thesis": "페로브스카이트 매출 10%+ 확장 + HBM 회복 + SpaceX/중국 third source 진입",
+      "key_assumptions": [
+        "페로브스카이트 라인 양산",
+        "HBM4 SK하이닉스 매출 확장",
+        "우주 매출 1차 확보"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 340000,
+      "thesis": "HBM 회복 + 페로브스카이트 점진",
+      "key_assumptions": [
+        "반도체 cycle 회복",
+        "OLED 매출 지속"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 240000,
+      "thesis": "HBM 둔화 + 페로브스카이트 지연",
+      "key_assumptions": [
+        "반도체 capex 둔화",
+        "페로브스카이트 매출 정체"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-04",
+      "event": "페로브스카이트 도판트 신규 라인 가동",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "매출 비중 확대"
+    },
+    {
+      "date": "2026-01",
+      "event": "HBM4 SK하이닉스 공급 확정",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "반도체 cycle 회복"
+    },
+    {
+      "date": "2025-11",
+      "event": "UNIST 페로브스카이트 공동 연구 MOU",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "R&D 네트워크"
+    },
+    {
+      "date": "2025-06",
+      "event": "OLED iPhone 17 소재 채택",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "디스플레이 매출"
+    },
+    {
+      "date": "예정",
+      "event": "한국 정부 페로브스카이트 양산 보조",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "정책 backdrop"
+    }
+  ],
+  "risks": [
+    {
+      "name": "페로브스카이트 매출 비중 작음 (~5%)",
+      "probability": "med",
+      "impact": "high",
+      "description": "페로브스카이트 매출 비중 작음 (~5%)",
+      "mitigation": "점진 확대 (10% 목표)"
+    },
+    {
+      "name": "HBM cycle 의존",
+      "probability": "med",
+      "impact": "med",
+      "description": "HBM cycle 의존",
+      "mitigation": "다각화 (OLED·솔라)"
+    },
+    {
+      "name": "ITAR 우주용 인증 어려움",
+      "probability": "med",
+      "impact": "high",
+      "description": "ITAR 우주용 인증 어려움",
+      "mitigation": "중국·한국 시장 우선"
+    },
+    {
+      "name": "한화솔루션 Qcells 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "한화솔루션 Qcells 경쟁",
+      "mitigation": "소재 niche 차별화"
+    },
+    {
+      "name": "글로벌 솔라 경쟁 (Wacker·Tongwei)",
+      "probability": "med",
+      "impact": "med",
+      "description": "글로벌 솔라 경쟁 (Wacker·Tongwei)",
+      "mitigation": "K-제조 우대 활용"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-12",
+      "doc": "페로브스카이트 도판트 라인 가동 공시",
+      "url": "dart.fss.or.kr",
+      "impact": "+",
+      "type": "주요사항",
+      "title": "페로브스카이트 도판트 라인 가동 공시"
+    },
+    {
+      "date": "2026-01-22",
+      "doc": "HBM4 SK하이닉스 공급 확정",
+      "url": "dart.fss.or.kr",
+      "impact": "+",
+      "type": "주요사항",
+      "title": "HBM4 SK하이닉스 공급 확정"
+    }
+  ],
+  "ticker": "014680.KS",
+  "generated_at": "2026-05-19T21:14:46.756702+09:00",
+  "source": "claude_direct_synthesis from Post1+Post2 + market_data + curated financials"
+}
