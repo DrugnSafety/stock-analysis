@@ -1,0 +1,215 @@
+{
+  "name": "First Solar",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T10",
+      "claim": "페로브스카이트 태양전지가 우주 진공·방사선 환경에서 실리콘 대비 자연적 약점 해소(습기·산소·열) + 자기치유(soft ionic lattice) 우위로 우주 DC 전력 솔루션 표준이 된다",
+      "ticker_exposure": "++",
+      "reasoning": "T10 direct positive driver — + 페로브스카이트 셀·소재 (FSLR, 한솔케미칼), + SpaceX/Tesla 채택",
+      "type": "predictive"
+    },
+    {
+      "thesis_id": "T14",
+      "claim": "First Solar 등 미국 페로브스카이트-실리콘 탠덤 셀 메이커가 SpaceX-xAI 우주 전력 공급망 단독 후보가 된다",
+      "ticker_exposure": "++",
+      "reasoning": "T14 direct positive driver — + FSLR First Solar",
+      "type": "predictive"
+    },
+    {
+      "thesis_id": "T15",
+      "claim": "kg당 발사비용이 $500 → $100 → $10으로 하락하면 페로브스카이트의 셀 자체 프리미엄(3x)이 의미 없어지고 무게·필름·자기치유 우위만 결정 변수로 남는다",
+      "ticker_exposure": "++",
+      "reasoning": "T15 direct positive driver — + 우주 페로브스카이트 셀 메이커 (T1 + T10 + T14 동시 충족)",
+      "type": "conditional"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "중국이 '우주 삼협댐' + '삼체 컴퓨팅 별자리' 통합 프로젝트로 2030년까지 위성 1,000기를 발사하여 우주 AI 데이터센터를 선점한다",
+      "ticker_exposure": "-",
+      "reasoning": "T2 negative impact — + 중국 우주·태양광·페로브스카이트, - 미국 데이터센터 독점 가정",
+      "type": "predictive"
+    }
+  ],
+  "industry": {
+    "overview": "미국 최대 CdTe 박막 솔라셀 메이커. AZ·OH 8GW+ 공장. IRA 45X 보조금. 페로브스카이트 탠덤 R&D 1순위.",
+    "tam_5y_bn_usd": 100,
+    "tailwinds": [
+      "IRA 보호주의",
+      "AI capex"
+    ],
+    "headwinds": [
+      "IRA 정책 변경 위험",
+      "Sunpower 경쟁"
+    ],
+    "name": "First Solar",
+    "competitors": [],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 100.0,
+      "cagr_pct": 25.0,
+      "horizon": "2025-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 2.92,
+        "op_income": 0.35,
+        "op_margin_pct": 12.0,
+        "net_income": 0.3
+      },
+      {
+        "year": 2022,
+        "revenue": 2.62,
+        "op_income": -0.16,
+        "op_margin_pct": -6.1,
+        "net_income": -0.1
+      },
+      {
+        "year": 2023,
+        "revenue": 3.31,
+        "op_income": 0.92,
+        "op_margin_pct": 27.7,
+        "net_income": 0.7
+      },
+      {
+        "year": 2024,
+        "revenue": 4.21,
+        "op_income": 1.28,
+        "op_margin_pct": 30.4,
+        "net_income": 1.0
+      },
+      {
+        "year": 2025,
+        "revenue": 5.0,
+        "op_income": 1.5,
+        "op_margin_pct": 30.0,
+        "net_income": 1.1
+      }
+    ],
+    "bs_snapshot": {
+      "asof": "2024-12",
+      "currency": "USD (bn)"
+    },
+    "cf_summary": {
+      "ocf_5y": [
+        0.3,
+        -0.1,
+        0.8,
+        1.2,
+        1.4
+      ],
+      "currency": "USD (bn)"
+    },
+    "peer_compare": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 380,
+      "thesis": "페로브스카이트 35% 양산 + SpaceX 계약 + 백로그 $30B",
+      "key_assumptions": [
+        "페로브스카이트 2027 양산",
+        "SpaceX 우주 솔라 계약 2027",
+        "백로그 $30B+"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 270,
+      "thesis": "백로그 실행 + IRA 지속 + 영업이익률 28-30%",
+      "key_assumptions": [
+        "IRA 45X 2032까지",
+        "AZ·OH 정상 가동"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 170,
+      "thesis": "IRA 축소 + 중국 솔라 가격 경쟁",
+      "key_assumptions": [
+        "IRA 보조금 축소",
+        "백로그 cancellation 5%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-04",
+      "event": "AZ 신공장 5GW 가동",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "양산 capacity 확장"
+    },
+    {
+      "date": "2026-01",
+      "event": "페로브스카이트 탠덤 35.2% 효율 인증",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "기술적 우위"
+    },
+    {
+      "date": "2027",
+      "event": "SpaceX 우주 솔라 공급 계약 가능성",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "ITAR 미국 단독 후보"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "백로그 $30B 갱신",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "실적 가시성"
+    },
+    {
+      "date": "확정",
+      "event": "IRA 45X 보조금 2032까지",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "안정 수익"
+    }
+  ],
+  "risks": [
+    {
+      "name": "IRA 정책 변경/축소",
+      "probability": "med",
+      "impact": "high",
+      "description": "IRA 정책 변경/축소",
+      "mitigation": "백로그 lock-in"
+    },
+    {
+      "name": "페로브스카이트 양산 시점 불확실",
+      "probability": "med",
+      "impact": "med",
+      "description": "페로브스카이트 양산 시점 불확실",
+      "mitigation": "R&D 지속 투자"
+    },
+    {
+      "name": "Sunpower·Maxeon 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "Sunpower·Maxeon 경쟁",
+      "mitigation": "미국 양산 우위"
+    },
+    {
+      "name": "PE 25+ multiple 부담",
+      "probability": "med",
+      "impact": "med",
+      "description": "PE 25+ multiple 부담",
+      "mitigation": "실적 가시화"
+    },
+    {
+      "name": "Musk 자체 페로브스카이트 우회 가능",
+      "probability": "med",
+      "impact": "med",
+      "description": "Musk 자체 페로브스카이트 우회 가능",
+      "mitigation": "SpaceX 계약 잠금"
+    }
+  ],
+  "korean_disclosures": [],
+  "ticker": "FSLR",
+  "generated_at": "2026-05-19T21:14:46.755368+09:00",
+  "source": "claude_direct_synthesis from Post1+Post2 + market_data + curated financials"
+}
