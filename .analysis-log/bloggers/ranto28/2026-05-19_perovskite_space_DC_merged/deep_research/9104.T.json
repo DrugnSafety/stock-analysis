@@ -1,0 +1,206 @@
+{
+  "name": "미쓰이 OSK 라인즈",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T3",
+      "claim": "부유식 해상데이터센터(FDC)가 우주 DC보다 훨씬 빠른 시간 내에 상용화되어 데이터센터 냉각·전력·님비 문제의 즉시 해법으로 자리잡는다",
+      "ticker_exposure": "++",
+      "reasoning": "T3 direct positive driver — + 조선업(삼성중공업·MOL), + LNG 발전선 인접 수요",
+      "type": "predictive"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "MOL(미쓰이OSK라인즈)이 일본 컨소시엄 주도자로서 FDC 가동 first-mover 우위를 확보한다",
+      "ticker_exposure": "++",
+      "reasoning": "T5 direct positive driver — + 9104.T MOL, + 6501.T Hitachi",
+      "type": "predictive"
+    },
+    {
+      "thesis_id": "T9",
+      "claim": "MS의 해저 데이터센터(Project Natick) 종료는 '봉인형 인프라'의 구조적 한계를 입증했고, FDC가 그 학습 위에 부유식으로 진화한다",
+      "ticker_exposure": "++",
+      "reasoning": "T9 direct positive driver — + FDC, - 봉인형 해저 인프라",
+      "type": "normative"
+    }
+  ],
+  "industry": {
+    "overview": "일본 3대 해운사. PCTC 100+척. MOL+Hitachi+NYK+NTT 컨소시엄 주도. 2027 FDC 1호선 목표.",
+    "tam_5y_bn_usd": 15,
+    "tailwinds": [
+      "일본 GX 8조엔",
+      "엔/달러 150 export 우호"
+    ],
+    "headwinds": [
+      "컨소시엄 4사 수익 분배"
+    ],
+    "name": "미쓰이 OSK 라인즈",
+    "competitors": [],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 15.0,
+      "cagr_pct": 25.0,
+      "horizon": "2025-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 1006,
+        "op_income": 76,
+        "op_margin_pct": 7.6,
+        "net_income": 57.0
+      },
+      {
+        "year": 2022,
+        "revenue": 1268,
+        "op_income": 213,
+        "op_margin_pct": 16.8,
+        "net_income": 159.8
+      },
+      {
+        "year": 2023,
+        "revenue": 1612,
+        "op_income": 258,
+        "op_margin_pct": 16.0,
+        "net_income": 193.5
+      },
+      {
+        "year": 2024,
+        "revenue": 1700,
+        "op_income": 250,
+        "op_margin_pct": 14.7,
+        "net_income": 187.5
+      },
+      {
+        "year": 2025,
+        "revenue": 1750,
+        "op_income": 260,
+        "op_margin_pct": 14.9,
+        "net_income": 195.0
+      }
+    ],
+    "bs_snapshot": {
+      "asof": "2024-12",
+      "currency": "JPY (bn)"
+    },
+    "cf_summary": {
+      "ocf_5y": [
+        68.4,
+        191.7,
+        232.2,
+        225.0,
+        234.0
+      ],
+      "currency": "JPY (bn)"
+    },
+    "peer_compare": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 7800,
+      "thesis": "2027 FDC 가동 성공 + 추가 5척 발주 + 일본 GX 자금",
+      "key_assumptions": [
+        "2027 1호선 가동",
+        "FDC 후속선 5척 발주"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 6700,
+      "thesis": "2027 FDC 1호선 + 일본 captive 수요",
+      "key_assumptions": [
+        "1호선 가동 정상",
+        "엔/달러 145-155"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 4900,
+      "thesis": "FDC 가동 지연 + 해운 cycle 둔화",
+      "key_assumptions": [
+        "FDC 2028로 지연",
+        "해운 freight rate 하락"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-04",
+      "event": "MOL-Hitachi FDC MOU 체결",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "컨소시엄 공식 출범"
+    },
+    {
+      "date": "2026-03",
+      "event": "9,731t PCTC FDC 개조 결정",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "실제 개조 시작"
+    },
+    {
+      "date": "2025-12",
+      "event": "일본 GX 8조엔 자금 활용",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "정부 지원 확보"
+    },
+    {
+      "date": "2027",
+      "event": "2027 FDC 1호선 가동",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "매출 가시화"
+    },
+    {
+      "date": "진행중",
+      "event": "PCTC 자동차 운반 매출",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "본업 안정"
+    }
+  ],
+  "risks": [
+    {
+      "name": "컨소시엄 4사 수익 분배 불투명",
+      "probability": "med",
+      "impact": "high",
+      "description": "컨소시엄 4사 수익 분배 불투명",
+      "mitigation": "MOL 주도지위 강화"
+    },
+    {
+      "name": "개조선 vs 신축선 성능·수명 열위",
+      "probability": "med",
+      "impact": "med",
+      "description": "개조선 vs 신축선 성능·수명 열위",
+      "mitigation": "저비용 우위"
+    },
+    {
+      "name": "엔 강세 전환 시 export 부담",
+      "probability": "med",
+      "impact": "low",
+      "description": "엔 강세 전환 시 export 부담",
+      "mitigation": "엔 변동 헷지"
+    },
+    {
+      "name": "컨소시엄 의사결정 속도 느림",
+      "probability": "med",
+      "impact": "med",
+      "description": "컨소시엄 의사결정 속도 느림",
+      "mitigation": "한국 단독 경쟁자 견제"
+    },
+    {
+      "name": "단일선 50MW capacity 한계",
+      "probability": "med",
+      "impact": "med",
+      "description": "단일선 50MW capacity 한계",
+      "mitigation": "후속선 확장 계획"
+    }
+  ],
+  "korean_disclosures": [],
+  "ticker": "9104.T",
+  "generated_at": "2026-05-19T21:14:46.758671+09:00",
+  "source": "claude_direct_synthesis from Post1+Post2 + market_data + curated financials"
+}
