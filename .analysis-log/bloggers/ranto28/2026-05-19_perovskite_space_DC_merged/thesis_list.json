@@ -1,0 +1,242 @@
+{
+  "source_posts": [
+    "https://blog.naver.com/ranto28/224288651743",
+    "https://blog.naver.com/ranto28/224287501270"
+  ],
+  "extraction_date": "2026-05-19",
+  "extractor": "claude-opus-4-7 (merged extension from 2026-05-16_FDC analysis)",
+  "merge_strategy": "existing 9 theses preserved (T1-T9) + 6 new perovskite theses added (T10-T15)",
+  "thesis_count": 15,
+  "theses": [
+    {
+      "id": "T1",
+      "claim": "SpaceX의 V3 Starship(2026-05-19 12차 시험비행)이 200톤급 발사 능력을 검증하면 우주 데이터센터가 지상 데이터센터와 비용 경쟁이 가능한 kg당 $500 임계치에 도달한다",
+      "type": "predictive",
+      "timeframe": "short_term (1-3M)",
+      "supporting_evidence": [
+        "SpaceX Falcon 9 발사비 kg당 $2,700 → V3 Starship 6회 재사용시 kg당 $100 이내 목표",
+        "Musk 공식 목표: kg당 $10 (150톤 = $1.5M 발사비)",
+        "기존 데이터센터 GW급 신설 5-7년, FDC 1년, Space DC kg/$ 결정"
+      ],
+      "verifiability": "high — 2026-05-19 발사 결과로 직접 검증",
+      "directional_bet": "+ Space DC 인프라 종목 (SpaceX private, Tesla/xAI 간접)",
+      "importance": "core",
+      "source_post": "224287501270 + 224288651743 (both)"
+    },
+    {
+      "id": "T2",
+      "claim": "중국이 '우주 삼협댐' + '삼체 컴퓨팅 별자리' 통합 프로젝트로 2030년까지 위성 1,000기를 발사하여 우주 AI 데이터센터를 선점한다",
+      "type": "predictive",
+      "timeframe": "medium_term (3-12M signal, 5Y completion)",
+      "supporting_evidence": [
+        "2026-05-14 12기 위성 1차 발사 완료",
+        "2025년말 38기 추가 → 50기 누적",
+        "우주 삼협댐 폭 1km, 모듈식 무한 확장",
+        "지구 정지궤도 마이크로파 무선 전송 실험 성공 (2023)"
+      ],
+      "verifiability": "medium — 매년 위성 발사 수로 트래킹",
+      "directional_bet": "+ 중국 우주·태양광·페로브스카이트, - 미국 데이터센터 독점 가정",
+      "importance": "supporting",
+      "source_post": "224287501270"
+    },
+    {
+      "id": "T3",
+      "claim": "부유식 해상데이터센터(FDC)가 우주 DC보다 훨씬 빠른 시간 내에 상용화되어 데이터센터 냉각·전력·님비 문제의 즉시 해법으로 자리잡는다",
+      "type": "predictive",
+      "timeframe": "short-medium (12-24M)",
+      "supporting_evidence": [
+        "2026-04 MOL-Hitachi MOU + 삼성중공업-Mousterian MOU 연속 체결",
+        "2027 일본 MOL FDC 가동 목표 (9,731톤 자동차운반선 개조)",
+        "지상 DC 5-7년 vs FDC 몇 달 (전력연결 시간)",
+        "지상 대비 +20% 비용 (중고선 활용시 격차 축소)"
+      ],
+      "verifiability": "high — MOU·건조 진행 상황으로 트래킹",
+      "directional_bet": "+ 조선업(삼성중공업·MOL), + LNG 발전선 인접 수요",
+      "importance": "core",
+      "source_post": "224287501270"
+    },
+    {
+      "id": "T4",
+      "claim": "삼성중공업이 FDC 표준 빌더로 자리잡으며 ABS·LR 인증 선점이 글로벌 발주 파이프라인 우위로 이어진다",
+      "type": "predictive",
+      "timeframe": "medium_term (12-24M)",
+      "supporting_evidence": [
+        "2026-04 삼성중공업 50MW FDC 개념설계 ABS(미국)·LR(영국) 인증 한국 최초",
+        "FLNG → FSRU → FDC 전력 cascade 구조 설계 보유",
+        "Mousterian 등 MOU 진행"
+      ],
+      "verifiability": "medium — 신규 MOU·수주 공시로 트래킹",
+      "directional_bet": "+ 010140.KS 삼성중공업",
+      "importance": "core",
+      "source_post": "224287501270"
+    },
+    {
+      "id": "T5",
+      "claim": "MOL(미쓰이OSK라인즈)이 일본 컨소시엄 주도자로서 FDC 가동 first-mover 우위를 확보한다",
+      "type": "predictive",
+      "timeframe": "medium_term (12-24M)",
+      "supporting_evidence": [
+        "MOL + Hitachi + NYK + NTT 4사 컨소시엄 구성",
+        "9,731톤 자동차운반선(PCTC) 개조 결정",
+        "2027 가동 목표 일정 확정"
+      ],
+      "verifiability": "high — 컨소시엄 진척 공시",
+      "directional_bet": "+ 9104.T MOL, + 6501.T Hitachi",
+      "importance": "core",
+      "source_post": "224287501270"
+    },
+    {
+      "id": "T6",
+      "claim": "Vertiv가 액침냉각(immersion cooling) 기술 선점으로 데이터센터 냉각 시장 5년 140조원 성장의 최대 수혜주가 된다",
+      "type": "predictive",
+      "timeframe": "medium-long (1-3Y)",
+      "supporting_evidence": [
+        "글로벌 DC 냉각 시장 5년 내 140조원 추정",
+        "Vertiv liquid cooling 매출 YoY 50%+ 성장 (2025 기준)",
+        "FDC와 액침냉각은 보완재 (FDC 해수 cool + 칩 단위 immersion)"
+      ],
+      "verifiability": "medium — Vertiv 분기 실적·immersion cooling 채택률",
+      "directional_bet": "+ VRT Vertiv",
+      "importance": "supporting",
+      "source_post": "224287501270"
+    },
+    {
+      "id": "T7",
+      "claim": "LG전자 공조 부문(칠러)이 한국 데이터센터 냉각 수요 + 글로벌 챌린저 지위로 두 자릿수 성장을 지속한다",
+      "type": "factual+predictive",
+      "timeframe": "near_term (quarterly visibility)",
+      "supporting_evidence": [
+        "25Q1 공조 부문 매출 3조 544억 (+18% YoY), 영업이익 4,067억 (+21% YoY)",
+        "Johnson Controls/Trane/Daikin/Carrier 추격 구도",
+        "LG 자체 사업부 확장 (M&A 없는 organic)"
+      ],
+      "verifiability": "high — 분기 실적 공시",
+      "directional_bet": "+ 066570.KS LG전자 (supporting only in merged scope)",
+      "importance": "supporting",
+      "source_post": "224287501270"
+    },
+    {
+      "id": "T8",
+      "claim": "삼성전자의 Flakt Group(€1.5B 인수) HVAC 사업이 데이터센터 신규 시장에서 시너지를 내며 비메모리 의존도를 낮춘다",
+      "type": "predictive",
+      "timeframe": "medium-long (1-3Y)",
+      "supporting_evidence": [
+        "Flakt Group 유럽 최대 HVAC, 2025 인수 종결",
+        "삼성전자 가전 + Flakt B2B HVAC 통합 영업",
+        "비메모리 cycle 의존도 완화 시도"
+      ],
+      "verifiability": "medium — 삼성전자 사업부별 segment 보고",
+      "directional_bet": "+ 005930.KS 삼성전자 (낮은 비중)",
+      "importance": "supporting",
+      "source_post": "224287501270"
+    },
+    {
+      "id": "T9",
+      "claim": "MS의 해저 데이터센터(Project Natick) 종료는 '봉인형 인프라'의 구조적 한계를 입증했고, FDC가 그 학습 위에 부유식으로 진화한다",
+      "type": "normative",
+      "timeframe": "long_term (3-5Y)",
+      "supporting_evidence": [
+        "MS Natick 2018 시작 → 2020년 인양 → 사업 종료",
+        "고장률 1/8로 기술 성공이었으나 AI칩 교체 불가가 결정타",
+        "FDC는 해상 위에서 교체 가능 + 해수 냉각 유지"
+      ],
+      "verifiability": "low — 학습 효과는 사후 추론",
+      "directional_bet": "+ FDC, - 봉인형 해저 인프라",
+      "importance": "structural",
+      "source_post": "224287501270"
+    },
+    {
+      "id": "T10",
+      "claim": "페로브스카이트 태양전지가 우주 진공·방사선 환경에서 실리콘 대비 자연적 약점 해소(습기·산소·열) + 자기치유(soft ionic lattice) 우위로 우주 DC 전력 솔루션 표준이 된다",
+      "type": "predictive",
+      "timeframe": "medium-long (1-3Y to 5Y)",
+      "supporting_evidence": [
+        "g당 전력: 실리콘 0.5-2W vs 페로브스카이트 23-30W (10-15배 우위)",
+        "두께: 실리콘 150μm vs 페로브스카이트 0.3μm (1/500)",
+        "soft ionic lattice 방사선 자기치유 — 실리콘은 격자파괴 누적",
+        "효율 27.3%로 실리콘 26% 이미 초과 (2024-2025 발표)"
+      ],
+      "verifiability": "high — 우주 발사 패널 효율 측정",
+      "directional_bet": "+ 페로브스카이트 셀·소재 (FSLR, 한솔케미칼), + SpaceX/Tesla 채택",
+      "importance": "core",
+      "source_post": "224288651743"
+    },
+    {
+      "id": "T11",
+      "claim": "일론 머스크의 SpaceX-xAI-페로브스카이트 vertical integration이 미국 우주 DC의 대중국 경쟁 카드이며, 2026-02 중국 페로브스카이트 기업 비공개 방문이 그 신호다",
+      "type": "predictive",
+      "timeframe": "medium_term (6-18M)",
+      "supporting_evidence": [
+        "2026-02-04 Musk + SpaceX 기술팀 중국 태양광 기업 비공개 방문",
+        "벨류체인 전반 시찰 후 페로브스카이트 기업 집중 방문 보고",
+        "Musk의 xAI + SpaceX 시너지 추진 (우주 컴퓨팅)"
+      ],
+      "verifiability": "medium — Musk·SpaceX의 페로브스카이트 공식 발표/특허·M&A 시점",
+      "directional_bet": "+ TSLA(SpaceX-xAI proxy), + 페로브스카이트 글로벌 공급망",
+      "importance": "core",
+      "source_post": "224288651743"
+    },
+    {
+      "id": "T12",
+      "claim": "지구에서 페로브스카이트의 3대 약점(습기, 산소, 열·납독성)이 우주 진공·방사선 환경에서 자연적으로 무력화되고, 가벼움·필름성·자기치유 장점만 남으면서 '환경 결정론' 경제성 역전이 발생한다",
+      "type": "predictive",
+      "timeframe": "long_term (3-5Y)",
+      "supporting_evidence": [
+        "진공: 산소·습기 제거",
+        "캡슐화: 열·납독성 격리",
+        "soft ionic lattice: 방사선 격자 자기치유 vs 실리콘 격자파괴 누적",
+        "유연 필름: 우주 발사시 돌돌 말아 패키징 가능 (전개형 패널)"
+      ],
+      "verifiability": "high — 우주 환경 실증 데이터로 검증",
+      "directional_bet": "+ 페로브스카이트 우주용 셀 (장기)",
+      "importance": "supporting",
+      "source_post": "224288651743"
+    },
+    {
+      "id": "T13",
+      "claim": "한국 페로브스카이트 소재·셀 기업(한솔케미칼·유니테스트·한화솔루션 등)이 SpaceX/중국 우주 DC 양측 공급망에 동시 진입할 수 있다",
+      "type": "predictive",
+      "timeframe": "medium_term (12-24M)",
+      "supporting_evidence": [
+        "한솔케미칼: 페로브스카이트 도판트·증착 소재 기술 보유",
+        "유니테스트: 페로브스카이트-실리콘 탠덤 셀 시제품",
+        "한국이 SpaceX-중국 양측 견제 외 옵션의 third-source 후보"
+      ],
+      "verifiability": "low-medium — 한국 기업 공식 SpaceX/중국 공급 계약 여부",
+      "directional_bet": "+ 014680.KS 한솔케미칼, + 086390.KQ 유니테스트, + 한화솔루션",
+      "importance": "core",
+      "source_post": "224288651743"
+    },
+    {
+      "id": "T14",
+      "claim": "First Solar 등 미국 페로브스카이트-실리콘 탠덤 셀 메이커가 SpaceX-xAI 우주 전력 공급망 단독 후보가 된다",
+      "type": "predictive",
+      "timeframe": "medium-long (1-3Y)",
+      "supporting_evidence": [
+        "First Solar 박막(CdTe) → 페로브스카이트 탠덤 R&D 확장 발표 (2024-2025)",
+        "미국 IRA + ITAR 규제로 중국산 페로브스카이트 우주 채택 제약",
+        "Musk의 SpaceX는 미국 단독 공급망 선호"
+      ],
+      "verifiability": "high — First Solar 페로브스카이트 양산 시점·SpaceX 계약 공시",
+      "directional_bet": "+ FSLR First Solar",
+      "importance": "core",
+      "source_post": "224288651743"
+    },
+    {
+      "id": "T15",
+      "claim": "kg당 발사비용이 $500 → $100 → $10으로 하락하면 페로브스카이트의 셀 자체 프리미엄(3x)이 의미 없어지고 무게·필름·자기치유 우위만 결정 변수로 남는다",
+      "type": "conditional",
+      "timeframe": "long_term (3-5Y, conditional on V3 success)",
+      "supporting_evidence": [
+        "현재 실리콘 W당 $0.2 vs 페로브스카이트 W당 $0.57 (3배)",
+        "kg당 $2,700 → $500 가정시 1kg 절감 = $2,200 절감",
+        "실리콘 100배 무거움 → 페로브스카이트 패널 무게 1/100",
+        "발사비 우위가 셀 가격 3배 차이를 압도"
+      ],
+      "verifiability": "medium — V3 Starship 발사비 실현 + 페로브스카이트 양산가 동시 관찰",
+      "directional_bet": "+ 우주 페로브스카이트 셀 메이커 (T1 + T10 + T14 동시 충족)",
+      "importance": "core",
+      "source_post": "224288651743"
+    }
+  ]
+}
