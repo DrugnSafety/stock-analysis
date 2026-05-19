@@ -1,0 +1,232 @@
+{
+  "name": "삼성중공업",
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T3",
+      "claim": "부유식 해상데이터센터(FDC)가 우주 DC보다 훨씬 빠른 시간 내에 상용화되어 데이터센터 냉각·전력·님비 문제의 즉시 해법으로 자리잡는다",
+      "ticker_exposure": "++",
+      "reasoning": "T3 direct positive driver — + 조선업(삼성중공업·MOL), + LNG 발전선 인접 수요",
+      "type": "predictive"
+    },
+    {
+      "thesis_id": "T4",
+      "claim": "삼성중공업이 FDC 표준 빌더로 자리잡으며 ABS·LR 인증 선점이 글로벌 발주 파이프라인 우위로 이어진다",
+      "ticker_exposure": "++",
+      "reasoning": "T4 direct positive driver — + 010140.KS 삼성중공업",
+      "type": "predictive"
+    },
+    {
+      "thesis_id": "T9",
+      "claim": "MS의 해저 데이터센터(Project Natick) 종료는 '봉인형 인프라'의 구조적 한계를 입증했고, FDC가 그 학습 위에 부유식으로 진화한다",
+      "ticker_exposure": "++",
+      "reasoning": "T9 direct positive driver — + FDC, - 봉인형 해저 인프라",
+      "type": "normative"
+    }
+  ],
+  "industry": {
+    "overview": "한국 조선 빅3 중 FDC·LNG/FLNG/FSRU 강자. 글로벌 LNG선 점유 ~40%+. FDC 50MW ABS/LR 동시 인증 한국 최초·세계 두번째.",
+    "tam_5y_bn_usd": 25,
+    "tailwinds": [
+      "AI DC 전력 수요",
+      "IRA 미국 우대"
+    ],
+    "headwinds": [
+      "조선 cycle 2027-28 정점 우려"
+    ],
+    "name": "삼성중공업",
+    "competitors": [],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 25.0,
+      "horizon": "2025-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 6587,
+        "op_income": -1226,
+        "op_margin_pct": -18.6,
+        "net_income": -919.5
+      },
+      {
+        "year": 2022,
+        "revenue": 8467,
+        "op_income": -829,
+        "op_margin_pct": -9.8,
+        "net_income": -621.8
+      },
+      {
+        "year": 2023,
+        "revenue": 9444,
+        "op_income": 277,
+        "op_margin_pct": 2.9,
+        "net_income": 207.8
+      },
+      {
+        "year": 2024,
+        "revenue": 9956,
+        "op_income": 511,
+        "op_margin_pct": 5.1,
+        "net_income": 383.2
+      },
+      {
+        "year": 2025,
+        "revenue": 11000,
+        "op_income": 660,
+        "op_margin_pct": 6.0,
+        "net_income": 495.0
+      }
+    ],
+    "bs_snapshot": {
+      "asof": "2024-12",
+      "currency": "KRW (bn)"
+    },
+    "cf_summary": {
+      "ocf_5y": [
+        -1103.4,
+        -746.1,
+        249.3,
+        459.9,
+        594.0
+      ],
+      "currency": "KRW (bn)"
+    },
+    "peer_compare": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 42000,
+      "thesis": "FDC 본수주 2026-Q3 + LNG cycle peak + 원/달러 1400+",
+      "key_assumptions": [
+        "FDC 첫 본계약 2026-Q3",
+        "LNG선 신조 $300M+/척",
+        "Mousterian 진척"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 35000,
+      "thesis": "FDC 2027 가동 + LNG 수주 지속 + Forward PE 18-20x re-rating",
+      "key_assumptions": [
+        "FDC 본계약 2026-Q4~2027",
+        "LNG 수주 $10B+"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 22000,
+      "thesis": "FDC narrative cooling + LNG 둔화 + 원/달러 약세 → Forward PE 12-14x",
+      "key_assumptions": [
+        "Mousterian MOU 무산",
+        "LNG 신조 $250M 하락"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-04",
+      "event": "50MW FDC ABS·LR 인증 한국 최초",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "글로벌 발주 파이프라인 입장권"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Mousterian MOU 본계약 전환",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "첫 미국 발주 가시화"
+    },
+    {
+      "date": "2026-2027",
+      "event": "추가 FDC 글로벌 수주",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "Hyperscaler 채택"
+    },
+    {
+      "date": "진행중",
+      "event": "LNG선 분기 5+ 척 수주 페이스",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "본업 수익성"
+    },
+    {
+      "date": "2027+",
+      "event": "FLNG cascade 모델 확장",
+      "type": "event",
+      "expected_impact": "+",
+      "description": "일관 공급 솔루션 차별화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "조선 cycle 2027-2028 정점 우려",
+      "probability": "med",
+      "impact": "med",
+      "description": "조선 cycle 2027-2028 정점 우려",
+      "mitigation": "FDC·해양플랜트 cycle 분산"
+    },
+    {
+      "name": "한화오션·HD현대 FDC 추격 12-24M 격차 좁힘",
+      "probability": "med",
+      "impact": "med",
+      "description": "한화오션·HD현대 FDC 추격 12-24M 격차 좁힘",
+      "mitigation": "인증 격차 first-mover"
+    },
+    {
+      "name": "원/달러 1300+ 유지시 export 부담",
+      "probability": "med",
+      "impact": "low",
+      "description": "원/달러 1300+ 유지시 export 부담",
+      "mitigation": "헷지 사용"
+    },
+    {
+      "name": "FDC 실수주 변환율 — MOU→본계약 lag",
+      "probability": "med",
+      "impact": "high",
+      "description": "FDC 실수주 변환율 — MOU→본계약 lag",
+      "mitigation": "Mousterian 2026-Q3 모니터링"
+    },
+    {
+      "name": "FDC 시장 자체 채택 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "FDC 시장 자체 채택 지연",
+      "mitigation": "AI DC 정책 환경 모니터링"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-25",
+      "doc": "50MW FDC ABS·LR 인증 획득 공시",
+      "url": "dart.fss.or.kr",
+      "impact": "+",
+      "type": "주요사항",
+      "title": "50MW FDC ABS·LR 인증 획득 공시"
+    },
+    {
+      "date": "2026-04-18",
+      "doc": "Mousterian (미국) FDC MOU 체결",
+      "url": "dart.fss.or.kr",
+      "impact": "+",
+      "type": "주요사항",
+      "title": "Mousterian (미국) FDC MOU 체결"
+    },
+    {
+      "date": "2025-12-15",
+      "doc": "2025 1H 영업이익 흑자전환",
+      "url": "dart.fss.or.kr",
+      "impact": "+",
+      "type": "주요사항",
+      "title": "2025 1H 영업이익 흑자전환"
+    }
+  ],
+  "ticker": "010140.KS",
+  "generated_at": "2026-05-19T21:14:46.749929+09:00",
+  "source": "claude_direct_synthesis from Post1+Post2 + market_data + curated financials"
+}
