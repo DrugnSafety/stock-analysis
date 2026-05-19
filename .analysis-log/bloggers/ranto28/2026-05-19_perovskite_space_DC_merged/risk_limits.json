@@ -1,0 +1,52 @@
+{
+  "portfolio_value_usd": 100000,
+  "risk_methodology": "vol_multiplier x correlation_multiplier on $100K portfolio (ai-hedge-fund risk_manager pattern)",
+  "computed_at": "2026-05-19T21:08:54.383568+09:00",
+  "positions": [
+    {
+      "ticker": "010140.KS",
+      "name": "삼성중공업",
+      "vol_multiplier": 0.75,
+      "volatility_pct": 53.48,
+      "max_position_pct": 15.0,
+      "max_position_usd": 15000.0,
+      "reasoning": "vol 53.5% -> mult 0.75, base 20% -> max 15.0% = $15000"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "테슬라",
+      "vol_multiplier": 0.75,
+      "volatility_pct": 48.39,
+      "max_position_pct": 15.0,
+      "max_position_usd": 15000.0,
+      "reasoning": "vol 48.4% -> mult 0.75, base 20% -> max 15.0% = $15000"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "퍼스트솔라",
+      "vol_multiplier": 0.5,
+      "volatility_pct": 61.12,
+      "max_position_pct": 10.0,
+      "max_position_usd": 10000.0,
+      "reasoning": "vol 61.1% -> mult 0.5, base 20% -> max 10.0% = $10000"
+    },
+    {
+      "ticker": "014680.KS",
+      "name": "Hansol Chemical Co., Ltd.",
+      "vol_multiplier": 0.75,
+      "volatility_pct": 54.15,
+      "max_position_pct": 15.0,
+      "max_position_usd": 15000.0,
+      "reasoning": "vol 54.1% -> mult 0.75, base 20% -> max 15.0% = $15000"
+    },
+    {
+      "ticker": "9104.T",
+      "name": "미쓰이OSK라인즈",
+      "vol_multiplier": 1.0,
+      "volatility_pct": 30.3,
+      "max_position_pct": 20.0,
+      "max_position_usd": 20000.0,
+      "reasoning": "vol 30.3% -> mult 1.0, base 20% -> max 20.0% = $20000"
+    }
+  ]
+}
