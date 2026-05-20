@@ -1,0 +1,17 @@
+{
+  "name": "codex-integration",
+  "version": "0.1.0",
+  "description": "OpenAI Codex CLI integration. Activates only when claude-code or CLI environment is detected (NOT Cowork sandbox). Provides second-opinion analysis via OpenAI o3/o4-mini/GPT-5 through Codex CLI subprocess.",
+  "skills": [
+    {"name": "codex-thesis-validator", "trigger": "thesis 검증 OpenAI 2nd opinion"},
+    {"name": "codex-code-reviewer", "trigger": "plugin code review by codex"}
+  ],
+  "environment": {
+    "preferred": "claude-code (CLI)",
+    "fallback_for_cowork": "Direct OpenAI API via OPENAI_API_KEY"
+  },
+  "depends_on_external": [
+    "@openai/codex (npm i -g @openai/codex)",
+    "ChatGPT Plus/Pro account OR OPENAI_API_KEY"
+  ]
+}
