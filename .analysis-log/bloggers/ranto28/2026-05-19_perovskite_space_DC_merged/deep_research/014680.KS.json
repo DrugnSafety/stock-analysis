@@ -43,8 +43,70 @@
       "페로브스카이트 매출 비중 작음 (~5%)"
     ],
     "name": "한솔케미칼",
-    "competitors": [],
-    "news": [],
+    "competitors": [
+      {
+        "name": "한솔케미칼",
+        "ticker": "014680.KS",
+        "share_pct": 12,
+        "moat": "페로브스카이트 도판트·HBM 소재·OLED 다각화"
+      },
+      {
+        "name": "솔브레인",
+        "ticker": "357780.KQ",
+        "share_pct": 18,
+        "moat": "반도체 식각액·CMP slurry 1위"
+      },
+      {
+        "name": "한미반도체",
+        "ticker": "042700.KS",
+        "share_pct": 8,
+        "moat": "HBM TC bonder 독점 공급"
+      },
+      {
+        "name": "SK Materials",
+        "ticker": "private",
+        "share_pct": 15,
+        "moat": "SK그룹 반도체 가스·소재"
+      },
+      {
+        "name": "Wacker Chemie",
+        "ticker": "WCH.DE",
+        "share_pct": 22,
+        "moat": "글로벌 폴리실리콘·실리콘 화학 1위"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-12",
+        "title": "페로브스카이트 도판트·전자수송층(ETL) 신규 라인 가동",
+        "source": "DART 공시",
+        "summary": "UNIST·KAIST R&D 네트워크 활용, 우주용 신규 공급망 진입 가능성"
+      },
+      {
+        "date": "2026-01-22",
+        "title": "HBM4 SK하이닉스 공급 확정",
+        "source": "DART 공시",
+        "summary": "HBM cycle 회복 + AI 반도체 수혜"
+      },
+      {
+        "date": "2025-11-08",
+        "title": "UNIST와 페로브스카이트 공동연구 MOU",
+        "source": "연합뉴스",
+        "summary": "한국 페로브스카이트 third source 입지 강화"
+      },
+      {
+        "date": "2025-08-25",
+        "title": "3Q25 반도체 소재 매출 회복 가속 (+18% YoY)",
+        "source": "한국경제",
+        "summary": "HBM cycle 회복 + OLED iPhone 17"
+      },
+      {
+        "date": "2025-06-15",
+        "title": "OLED iPhone 17 소재 채택",
+        "source": "머니투데이",
+        "summary": "디스플레이 매출 단계 확장"
+      }
+    ],
     "market_size": {
       "current_usd_bn": 5.0,
       "cagr_pct": 25.0,
@@ -58,35 +120,45 @@
         "revenue": 723,
         "op_income": 137,
         "op_margin_pct": 19.0,
-        "net_income": 102.8
+        "net_income": 102.8,
+        "op_margin": 19.0,
+        "net_margin": 14.2
       },
       {
         "year": 2022,
         "revenue": 853,
         "op_income": 145,
         "op_margin_pct": 17.0,
-        "net_income": 108.8
+        "net_income": 108.8,
+        "op_margin": 17.0,
+        "net_margin": 12.8
       },
       {
         "year": 2023,
         "revenue": 763,
         "op_income": 90,
         "op_margin_pct": 11.8,
-        "net_income": 67.5
+        "net_income": 67.5,
+        "op_margin": 11.8,
+        "net_margin": 8.8
       },
       {
         "year": 2024,
         "revenue": 880,
         "op_income": 130,
         "op_margin_pct": 14.8,
-        "net_income": 97.5
+        "net_income": 97.5,
+        "op_margin": 14.8,
+        "net_margin": 11.1
       },
       {
         "year": 2025,
         "revenue": 950,
         "op_income": 145,
         "op_margin_pct": 15.3,
-        "net_income": 108.8
+        "net_income": 108.8,
+        "op_margin": 15.3,
+        "net_margin": 11.5
       }
     ],
     "bs_snapshot": {
