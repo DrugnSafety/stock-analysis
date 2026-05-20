@@ -1,0 +1,127 @@
+{
+  "portfolio_value": 1000000,
+  "as_of": "2026-05-20",
+  "base_limit_pct": 10.0,
+  "limits": [
+    {
+      "ticker": "NEM",
+      "as_of_date": "2026-05-20",
+      "current_price": 107.51,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03251,
+        "annualized_volatility": 0.5161,
+        "volatility_percentile": 74.3,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 1023
+    },
+    {
+      "ticker": "AEM",
+      "as_of_date": "2026-05-20",
+      "current_price": 178.07,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.02972,
+        "annualized_volatility": 0.4717,
+        "volatility_percentile": 75.7,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.664,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.1461,
+      "position_limit_value": 146113.0,
+      "remaining_position_limit_value": 146113.0,
+      "max_quantity": 820
+    },
+    {
+      "ticker": "GDX",
+      "as_of_date": "2026-05-20",
+      "current_price": 86.26,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03329,
+        "annualized_volatility": 0.5284,
+        "volatility_percentile": 79.3,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 1275
+    },
+    {
+      "ticker": "FCX",
+      "as_of_date": "2026-05-20",
+      "current_price": 60.32,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03496,
+        "annualized_volatility": 0.555,
+        "volatility_percentile": 60.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 1823
+    },
+    {
+      "ticker": "TECK",
+      "as_of_date": "2026-05-20",
+      "current_price": 60.81,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03185,
+        "annualized_volatility": 0.5056,
+        "volatility_percentile": 62.9,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 1808
+    }
+  ]
+}
