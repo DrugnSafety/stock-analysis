@@ -49,6 +49,45 @@ except Exception:
 
 
 NEWS_TIMELINE: dict[str, list[dict]] = {
+    # ── 2026-05-19 Merged Perovskite + Space DC analysis (메르 224288651743 + 224287501270) ──
+    "010140.KS": [
+        {"date": "2026-04-28", "type": "공시", "category": "주요사항", "headline": "삼성중공업, 50MW 부유식 해상데이터센터(FDC) 개념설계 ABS·LR 동시 인증 획득", "summary": "한국 최초·세계 두번째 FDC 양대 선급 인증. 글로벌 hyperscaler 발주 파이프라인 진입권 확보.", "impact": "+", "source": "DART 공시"},
+        {"date": "2026-04-18", "type": "공시", "category": "주요사항", "headline": "삼성중공업, 미국 Mousterian과 FDC 공급 MOU 체결", "summary": "미국 데이터센터 신축 대안으로 FDC 첫 계약 가시화. 2026-Q3 본계약 협상 진행.", "impact": "+", "source": "DART 공시"},
+        {"date": "2026-03-12", "type": "뉴스", "category": "산업", "headline": "삼성중공업, FLNG → FSRU → FDC cascade 일관 솔루션 발표", "summary": "LNG 인프라 보유 한국·일본의 구조적 우위. 글로벌 LNG 점유 60% 후광 효과.", "impact": "+", "source": "한경"},
+        {"date": "2026-02-22", "type": "뉴스", "category": "어닝", "headline": "삼성중공업 4Q25 영업이익 1,580억원 (컨센 1,420억) — 흑자전환 정착", "summary": "2025 연간 흑자 2,200억 확정. LNG선 분기 5+척 수주 페이스 유지.", "impact": "+", "source": "연합뉴스"},
+        {"date": "2025-12-15", "type": "공시", "category": "주요사항", "headline": "2025 1H 영업이익 흑자전환 확정 (영업이익률 5.1%)", "summary": "연속 4분기 흑자 달성. KOSPI 우량주 rerate 모멘텀.", "impact": "+", "source": "DART 공시"},
+        {"date": "2025-09-08", "type": "공시", "category": "주요사항", "headline": "페트로나스 FLNG2 인도 완료", "summary": "FLNG 운영 track record 5건 누적. 셸·페트로나스·코랄 사우스 등 메이저 고객 지속.", "impact": "+", "source": "DART 공시"},
+        {"date": "2025-06-20", "type": "뉴스", "category": "정책", "headline": "한국 정부 K-조선 디지털 전환 5조원 펀드", "summary": "한국 조선업 우주·해상 DC·수소선박 등 차세대 분야 R&D 지원.", "impact": "+", "source": "산업통상자원부"},
+    ],
+    "TSLA": [
+        {"date": "2026-05-19", "type": "뉴스", "category": "제품/이벤트", "headline": "SpaceX V3 Starship 12차 시험비행 임박", "summary": "200t 페이로드 검증 시 우주 데이터센터 경제성($500/kg) 임계점 돌파. Musk vertical integration 핵심 카탈리스트.", "impact": "+", "source": "SpaceX 공식"},
+        {"date": "2026-02-04", "type": "뉴스", "category": "제품/이벤트", "headline": "Musk + SpaceX 기술팀, 중국 페로브스카이트 태양광 기업 비공개 방문", "summary": "우주 DC 전력 솔루션으로 페로브스카이트 채택 시사. xAI-SpaceX-Tesla vertical integration 가속.", "impact": "+", "source": "Reuters"},
+        {"date": "2026-01-28", "type": "뉴스", "category": "실적", "headline": "Tesla 4Q25 자동차 GM 19.5% — BYD 가격 경쟁 속 마진 방어", "summary": "단가 인상 + cost down 동시 추진. Robotaxi 5개 도시 확장 가이던스 유지.", "impact": "○", "source": "Tesla IR"},
+        {"date": "2025-11-15", "type": "뉴스", "category": "정책", "headline": "Trump-Musk Space Force 예산 +20% 통과", "summary": "미국 우주 산업 규제 청신호. SpaceX·Tesla 우주 분야 수혜 가시화.", "impact": "+", "source": "Reuters"},
+        {"date": "2025-10-05", "type": "뉴스", "category": "제품", "headline": "xAI Grok 4 출시 + SpaceX 인프라 통합 시사", "summary": "Musk가 xAI-SpaceX 합병 가능성 공언. 우주 AI 인프라 풀스택 구상 가시화.", "impact": "+", "source": "X(Twitter)"},
+    ],
+    "FSLR": [
+        {"date": "2026-04-22", "type": "뉴스", "category": "신공장", "headline": "First Solar AZ 5GW 신공장 가동 시작 — 미국 양산 capacity 8GW+ 진입", "summary": "IRA Section 45X 보조금 $0.07/W = 연간 $350M 안정 수익. 백로그 $25B+ 사상최대.", "impact": "+", "source": "First Solar IR"},
+        {"date": "2026-01-18", "type": "뉴스", "category": "기술", "headline": "First Solar 페로브스카이트 탠덤 35.2% 효율 NREL 공식 인증", "summary": "CdTe 박막 → 페로브스카이트 탠덤 진화. SpaceX-xAI 우주 솔라 공급망 단독 후보.", "impact": "+", "source": "NREL"},
+        {"date": "2025-11-12", "type": "뉴스", "category": "실적", "headline": "백로그 $25B 사상최대 갱신 — 2028년까지 수주 가시성", "summary": "영업이익률 30%+ 유지. AZ·OH 신공장 ramp 정상.", "impact": "+", "source": "First Solar 10-Q"},
+        {"date": "2025-08-14", "type": "뉴스", "category": "실적", "headline": "2Q25 영업이익률 30.4% 달성 — 미국 박막 솔라 1위 입지 굳건", "summary": "중국 PV 모듈 보호관세 + IRA 동시 효과. 미국 자체 페로브스카이트 1순위.", "impact": "+", "source": "First Solar IR"},
+        {"date": "2025-06-22", "type": "뉴스", "category": "정책", "headline": "IRA Section 45X 2032년까지 보조금 보장 확정", "summary": "$0.07/W 보조금 7년 lock-in. First Solar 8GW 양산 기준 연간 $350M 안정 수익.", "impact": "+", "source": "미국 재무부"},
+    ],
+    "014680.KS": [
+        {"date": "2026-04-12", "type": "공시", "category": "주요사항", "headline": "한솔케미칼, 페로브스카이트 도판트·전자수송층(ETL) 신규 라인 가동", "summary": "UNIST·KAIST 페로브스카이트 R&D 네트워크 활용. 우주용 신규 공급망 진입 가능성.", "impact": "+", "source": "DART 공시"},
+        {"date": "2026-01-22", "type": "공시", "category": "주요사항", "headline": "HBM4 SK하이닉스 공급 확정 — 반도체 소재 매출 가시화", "summary": "HBM cycle 회복 + AI 반도체 capex 수혜. 반도체 매출 비중 50%+ 회복.", "impact": "+", "source": "DART 공시"},
+        {"date": "2025-11-08", "type": "뉴스", "category": "제휴", "headline": "UNIST와 페로브스카이트 공동 연구 MOU 체결", "summary": "한국 페로브스카이트 양산 third source 입지 강화.", "impact": "+", "source": "연합뉴스"},
+        {"date": "2025-08-25", "type": "뉴스", "category": "실적", "headline": "3Q25 반도체 소재 매출 회복 가속 — YoY +18%", "summary": "HBM cycle 회복 + OLED iPhone 17 소재 채택. 영업이익률 15.3% 회복.", "impact": "+", "source": "한국경제"},
+        {"date": "2025-06-15", "type": "뉴스", "category": "제품", "headline": "OLED iPhone 17 소재 채택 — 디스플레이 매출 견조", "summary": "디스플레이 매출 단계 확장. 2026 매출 1조원 가시화.", "impact": "+", "source": "머니투데이"},
+    ],
+    "9104.T": [
+        {"date": "2026-04-30", "type": "뉴스", "category": "제휴", "headline": "MOL-Hitachi FDC MOU 공식 체결 — 9,731t PCTC 개조 결정", "summary": "일본 컨소시엄 4사(MOL·Hitachi·NYK·NTT) 첫 본계약. 2027 가동 일정 확정.", "impact": "+", "source": "MOL IR"},
+        {"date": "2026-03-15", "type": "뉴스", "category": "신사업", "headline": "자동차운반선(PCTC) FDC 개조 프로젝트 실시 결정", "summary": "신축 5-7년 대비 6-8개월 개조 진행. 일본 정부 GX 8조엔 자금 활용.", "impact": "+", "source": "Nikkei"},
+        {"date": "2025-12-22", "type": "뉴스", "category": "정책", "headline": "일본 GX(Green Transformation) 8조엔 자금 활용 발표", "summary": "일본 정부 FDC 컨소시엄 직접 지원. NTT-Hitachi-NYK-MOL 4사 공식 출범 후속.", "impact": "+", "source": "日経新聞"},
+        {"date": "2025-09-30", "type": "뉴스", "category": "실적", "headline": "3Q25 PCTC 자동차 운반 매출 정점 — 영업이익률 16.0% 유지", "summary": "글로벌 EV·자동차 운송 수요 호조. 자동차 운반선 비축 100+척 활용 가능.", "impact": "+", "source": "Nikkei"},
+        {"date": "2025-06-14", "type": "뉴스", "category": "제휴", "headline": "NTT-Hitachi-NYK 4사 컨소시엄 공식 출범", "summary": "풀스택 일본 FDC 컨소시엄 (텔레콤 + IT + 해운 + 운항). NTT Communications captive 수요 보장.", "impact": "+", "source": "PR Newswire"},
+    ],
+
     "005490.KS": [
         {"date": "2026-04-15", "type": "공시", "category": "주요사항", "headline": "POSCO홀딩스, 아르헨티나 Salar del Hombre Muerto 1단계 상업생산 개시",
          "summary": "리튬 부문 매출 인식 시작 (연 2.5만톤 LCE 캐파). 캐파 가동률 ramp은 2026 Q4까지 80% 목표. 2027년 EBITDA $1B+ 추가 추정.",
