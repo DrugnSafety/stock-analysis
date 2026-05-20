@@ -1,0 +1,17 @@
+{
+  "name": "specialist-agents",
+  "version": "0.1.0",
+  "description": "Specialist agents inspired by Anthropic Financial Services Agent templates (2026-05) — Research Manager, Sentiment Analyst, Earnings Reviewer, Model Builder. Augments 13-persona panel + 4-analyst lens with sector/issuer specialist intelligence.",
+  "skills": [
+    {"name": "research-manager", "trigger": "sector intelligence·issuer development tracking"},
+    {"name": "sentiment-analyst", "trigger": "news/social sentiment quantification"},
+    {"name": "earnings-reviewer", "trigger": "earnings call transcript + 10-Q/K thesis-relevant change extraction"},
+    {"name": "model-builder", "trigger": "financial model creation from filings + analyst inputs"}
+  ],
+  "depends_on": ["report-suite", "investor-personas", "news-integration"],
+  "based_on": [
+    "https://www.anthropic.com/news/finance-agents (2026-05-05)",
+    "https://github.com/tauricresearch/tradingagents (LangGraph multi-agent)",
+    "https://github.com/Chen-zexi/LangAlpha (L/S Hedge Fund analyst pattern)"
+  ]
+}
