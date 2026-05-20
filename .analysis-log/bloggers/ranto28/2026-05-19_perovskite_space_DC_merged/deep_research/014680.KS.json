@@ -6,21 +6,30 @@
       "claim": "페로브스카이트 태양전지가 우주 진공·방사선 환경에서 실리콘 대비 자연적 약점 해소(습기·산소·열) + 자기치유(soft ionic lattice) 우위로 우주 DC 전력 솔루션 표준이 된다",
       "ticker_exposure": "++",
       "reasoning": "T10 direct positive driver — + 페로브스카이트 셀·소재 (FSLR, 한솔케미칼), + SpaceX/Tesla 채택",
-      "type": "predictive"
+      "type": "industry",
+      "evidence": "페로브스카이트 도판트·증착 소재 신규 라인 가동 (2026-04)",
+      "testability": "high",
+      "current_status": "pending"
     },
     {
       "thesis_id": "T11",
       "claim": "일론 머스크의 SpaceX-xAI-페로브스카이트 vertical integration이 미국 우주 DC의 대중국 경쟁 카드이며, 2026-02 중국 페로브스카이트 기업 비공개 방문이 그 신호다",
       "ticker_exposure": "++",
       "reasoning": "T11 direct positive driver — + TSLA(SpaceX-xAI proxy), + 페로브스카이트 글로벌 공급망",
-      "type": "predictive"
+      "type": "company",
+      "evidence": "Musk vertical integration → 글로벌 페로브스카이트 공급망 third-source 후보",
+      "testability": "low",
+      "current_status": "pending"
     },
     {
       "thesis_id": "T13",
       "claim": "한국 페로브스카이트 소재·셀 기업(한솔케미칼·유니테스트·한화솔루션 등)이 SpaceX/중국 우주 DC 양측 공급망에 동시 진입할 수 있다",
       "ticker_exposure": "++",
       "reasoning": "T13 direct positive driver — + 014680.KS 한솔케미칼, + 086390.KQ 유니테스트, + 한화솔루션",
-      "type": "predictive"
+      "type": "company",
+      "evidence": "UNIST 페로브스카이트 공동연구 MOU + 한국 정부 양산 보조",
+      "testability": "med",
+      "current_status": "pending"
     }
   ],
   "industry": {
@@ -81,20 +90,44 @@
       }
     ],
     "bs_snapshot": {
-      "asof": "2024-12",
-      "currency": "KRW (bn)"
+      "total_assets": 1280,
+      "total_liab": 320,
+      "equity": 960,
+      "cash": 285,
+      "debt": 95
     },
     "cf_summary": {
-      "ocf_5y": [
-        123.3,
-        130.5,
-        81.0,
-        117.0,
-        130.5
-      ],
-      "currency": "KRW (bn)"
+      "ocf_5y_avg": 175,
+      "fcf_5y_avg": 110,
+      "capex_intensity": 0.075,
+      "fcf_conversion_pct": 0.63
     },
-    "peer_compare": []
+    "peer_compare": [
+      {
+        "ticker": "014680.KS",
+        "name": "한솔케미칼",
+        "pe": 17.5,
+        "pb": 1.9,
+        "roe": 13.5,
+        "div_yield": 0.7
+      },
+      {
+        "ticker": "042700.KS",
+        "name": "한미반도체",
+        "pe": 28.0,
+        "pb": 6.5,
+        "roe": 18.5,
+        "div_yield": 0.4
+      },
+      {
+        "ticker": "009830.KS",
+        "name": "한화솔루션",
+        "pe": null,
+        "pb": 0.85,
+        "roe": -3.5,
+        "div_yield": 0.5
+      }
+    ]
   },
   "scenarios": {
     "bull": {
