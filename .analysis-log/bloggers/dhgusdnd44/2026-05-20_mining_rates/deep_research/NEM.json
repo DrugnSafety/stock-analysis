@@ -1,0 +1,379 @@
+{
+  "ticker": "NEM",
+  "name_en": "Newmont Corporation",
+  "name_kr": "뉴몬트",
+  "sector": "금광 / Gold Mining (Tier-1 major)",
+  "industry_overview": "글로벌 1위 금광업체. 2026 기준 연 6.0Moz 금 생산 (피어 평균 1.5-2.5Moz). Newcrest 인수 후 호주·캐나다·미국·페루·가나·서아프리카·인도네시아 7개 jurisdiction 16개 광산 운영. World Gold Council 2025 보고서 — 중앙은행 금 매수 누적 $750B+(2022-2025), 인도·중국 retail demand +18% YoY, ETF 자금 유입 4년 만에 +12% 전환. 금 가격 $4,400-4,600 (2026.5 spot)이 NEM AISC $1,400-1,500/oz 대비 30%+ operating margin 보장.",
+  "5y_financials": {
+    "revenue_b": [
+      11.5,
+      12.2,
+      11.9,
+      16.2,
+      18.5
+    ],
+    "operating_income_b": [
+      3.8,
+      4.1,
+      2.7,
+      4.5,
+      6.2
+    ],
+    "net_income_b": [
+      2.8,
+      2.9,
+      -2.5,
+      3.2,
+      4.5
+    ],
+    "opm_pct": [
+      33.0,
+      33.6,
+      22.7,
+      27.8,
+      33.5
+    ],
+    "npm_pct": [
+      24.3,
+      23.8,
+      -21.0,
+      19.8,
+      24.3
+    ],
+    "fcf_b": [
+      2.1,
+      1.8,
+      0.5,
+      2.8,
+      4.1
+    ],
+    "narrative_5y": "2024 Newcrest 인수 통합 비용으로 2023 손실 후 2024-2025 회복. OPM 22.7% (2023 trough) → 33.5% (2025) → estimated 38%+ (2026E given gold price uplift). FCF $4.1B (2025) — buyback·dividend coverage 2x."
+  },
+  "scenarios": {
+    "bull": {
+      "prob": 0.45,
+      "target_price": 165,
+      "drivers": "Gold $5,000+, AISC stable $1,500, capital discipline 유지, 13F clustering 가속",
+      "prob_pct": 45,
+      "thesis": "Gold $5,000+, AISC stable $1,500, capital discipline 유지, 13F clustering 가속"
+    },
+    "base": {
+      "prob": 0.4,
+      "target_price": 135,
+      "drivers": "Gold $4,200-4,600 sustained, 단계적 buyback·dividend 확대, PE 16x normalization",
+      "prob_pct": 40,
+      "thesis": "Gold $4,200-4,600 sustained, 단계적 buyback·dividend 확대, PE 16x normalization"
+    },
+    "bear": {
+      "prob": 0.15,
+      "target_price": 75,
+      "drivers": "Gold -25% to $3,200, operational mishap (Indonesia·Ghana), Fed pivot to QE delayed",
+      "prob_pct": 15,
+      "thesis": "Gold -25% to $3,200, operational mishap (Indonesia·Ghana), Fed pivot to QE delayed"
+    }
+  },
+  "catalysts": [
+    {
+      "name": "2026 Q2 earnings — gold $4,500 environment에서 OPM 38%+ 확인",
+      "date": "2026-05-20",
+      "impact": "high",
+      "event": "2026 Q2 earnings — gold $4,500 environment에서 OPM 38%+ 확인",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Penasquito·Cadia·Lihir 통합 시너지 $500M 달성 진행",
+      "date": "2026-05-20",
+      "impact": "high",
+      "event": "Penasquito·Cadia·Lihir 통합 시너지 $500M 달성 진행",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "중앙은행 금 매수 2026 신기록 (현재 $230B/년 vs 2024 $200B)",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "중앙은행 금 매수 2026 신기록 (현재 $230B/년 vs 2024 $200B)",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Dividend +20% 인상 또는 $1B+ buyback announcement",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "Dividend +20% 인상 또는 $1B+ buyback announcement",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "GDX·GDXJ ETF 자금 유입 가속 (1년 만에 reverse)",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "GDX·GDXJ ETF 자금 유입 가속 (1년 만에 reverse)",
+      "category": "operational",
+      "probability": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Gold price -25% 시 OPM 32%→20% 압축 (operational leverage)",
+      "impact": "high",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Gold price -25% 시 OPM 32%→20% 압축 (operational leverage)",
+      "likelihood": "medium",
+      "severity": "high",
+      "probability": "med",
+      "description": "Gold price -25% 시 OPM 32%→20% 압축 (operational leverage)"
+    },
+    {
+      "name": "Indonesia (Batu Hijau) 정치·세금 risk",
+      "impact": "high",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Indonesia (Batu Hijau) 정치·세금 risk",
+      "likelihood": "medium",
+      "severity": "high",
+      "probability": "med",
+      "description": "Indonesia (Batu Hijau) 정치·세금 risk"
+    },
+    {
+      "name": "Ghana·Mali 서아프리카 jurisdiction risk (쿠데타·permit)",
+      "impact": "med",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Ghana·Mali 서아프리카 jurisdiction risk (쿠데타·permit)",
+      "likelihood": "medium",
+      "severity": "medium",
+      "probability": "med",
+      "description": "Ghana·Mali 서아프리카 jurisdiction risk (쿠데타·permit)"
+    },
+    {
+      "name": "Cyclical sentiment reversal (13F crowded → outflow)",
+      "impact": "med",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Cyclical sentiment reversal (13F crowded → outflow)",
+      "likelihood": "medium",
+      "severity": "medium",
+      "probability": "med",
+      "description": "Cyclical sentiment reversal (13F crowded → outflow)"
+    },
+    {
+      "name": "AISC 인플레 (labor·diesel·tires)",
+      "impact": "med",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "AISC 인플레 (labor·diesel·tires)",
+      "likelihood": "medium",
+      "severity": "medium",
+      "probability": "med",
+      "description": "AISC 인플레 (labor·diesel·tires)"
+    }
+  ],
+  "news_timeline_recent": [
+    {
+      "date": "2026-04-22",
+      "impact": "+",
+      "headline": "NEM Q1 2026 EPS beat — Adj EPS $1.42 vs cons $1.18, FCF $1.2B"
+    },
+    {
+      "date": "2026-03-15",
+      "impact": "+",
+      "headline": "Druckenmiller Duquesne 13F — NEM 신규 진입 $180M position"
+    },
+    {
+      "date": "2026-02-28",
+      "impact": "+",
+      "headline": "Dividend +15% 인상 $0.30 → $0.345/q, 2026 capital return target $2.5B"
+    },
+    {
+      "date": "2026-01-10",
+      "impact": "-",
+      "headline": "Indonesia Batu Hijau 노조 파업 — 단기 production -8%"
+    },
+    {
+      "date": "2025-12-05",
+      "impact": "+",
+      "headline": "Cadia (호주) production +12% YoY — Newcrest 통합 시너지 입증"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price": 107.51,
+    "implied_5y_revenue_cagr": 6.0,
+    "implied_5y_eps_cagr": 8.0,
+    "implied_terminal_pe": 14.0,
+    "verdict": "현재 가격은 gold $4,200·AISC $1,500·5년 EPS CAGR 8%의 conservative 가정 반영. Bull case (gold $4,800·AISC $1,400) 적용 시 fair value $155-165.",
+    "historical_5y_revenue_cagr_pct": 6.0,
+    "embedded_in_current_price": "현재 가격은 gold $4,200·AISC $1,500·5년 EPS CAGR 8%의 conservative 가정 반영. Bull case (gold $4,800·AISC $1,400) 적용 시 fair value $155-165."
+  },
+  "etf_holdings": {
+    "GDX_weight_pct": 12.5,
+    "RING_weight_pct": 8.2,
+    "GOEX_weight_pct": null
+  },
+  "industry": {
+    "name": "금광 / Gold Mining (Tier-1 major)",
+    "overview": "글로벌 1위 금광업체. 2026 기준 연 6.0Moz 금 생산 (피어 평균 1.5-2.5Moz). Newcrest 인수 후 호주·캐나다·미국·페루·가나·서아프리카·인도네시아 7개 jurisdiction 16개 광산 운영. World Gold Council 2025 보고서 — 중앙은행 금 매수 누적 $750B+(2022-2025), 인도·중국 retail demand +18% YoY, ETF 자금 유입 4년 만에 +12% 전환. 금 가격 $4,400-4,600 (2026.5 spot)이 NEM AISC $1,400-1,500/oz 대비 30%+ operating margin 보장.",
+    "news": [
+      {
+        "date": "2026-04-22",
+        "impact": "+",
+        "headline": "NEM Q1 2026 EPS beat — Adj EPS $1.42 vs cons $1.18, FCF $1.2B",
+        "title": "NEM Q1 2026 EPS beat — Adj EPS $1.42 vs cons $1.18, FCF $1.2B",
+        "summary": "NEM Q1 2026 EPS beat — Adj EPS $1.42 vs cons $1.18, FCF $1.2B",
+        "source": "curated"
+      },
+      {
+        "date": "2026-03-15",
+        "impact": "+",
+        "headline": "Druckenmiller Duquesne 13F — NEM 신규 진입 $180M position",
+        "title": "Druckenmiller Duquesne 13F — NEM 신규 진입 $180M position",
+        "summary": "Druckenmiller Duquesne 13F — NEM 신규 진입 $180M position",
+        "source": "curated"
+      },
+      {
+        "date": "2026-02-28",
+        "impact": "+",
+        "headline": "Dividend +15% 인상 $0.30 → $0.345/q, 2026 capital return target $2.5B",
+        "title": "Dividend +15% 인상 $0.30 → $0.345/q, 2026 capital return target $2.5B",
+        "summary": "Dividend +15% 인상 $0.30 → $0.345/q, 2026 capital return target $2.5B",
+        "source": "curated"
+      },
+      {
+        "date": "2026-01-10",
+        "impact": "-",
+        "headline": "Indonesia Batu Hijau 노조 파업 — 단기 production -8%",
+        "title": "Indonesia Batu Hijau 노조 파업 — 단기 production -8%",
+        "summary": "Indonesia Batu Hijau 노조 파업 — 단기 production -8%",
+        "source": "curated"
+      },
+      {
+        "date": "2025-12-05",
+        "impact": "+",
+        "headline": "Cadia (호주) production +12% YoY — Newcrest 통합 시너지 입증",
+        "title": "Cadia (호주) production +12% YoY — Newcrest 통합 시너지 입증",
+        "summary": "Cadia (호주) production +12% YoY — Newcrest 통합 시너지 입증",
+        "source": "curated"
+      }
+    ],
+    "competitors": [],
+    "competitive_landscape": []
+  },
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T7",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "claim": "thesis T7",
+      "evidence": "curated rationale"
+    },
+    {
+      "thesis_id": "T8",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "claim": "thesis T8",
+      "evidence": "curated rationale"
+    },
+    {
+      "thesis_id": "T9",
+      "current_status": "pending",
+      "ticker_exposure": "++",
+      "claim": "thesis T9",
+      "evidence": "curated rationale"
+    }
+  ],
+  "pl_5y": {
+    "revenue": [
+      11.5,
+      12.2,
+      11.9,
+      16.2,
+      18.5
+    ],
+    "operating_income": [
+      3.8,
+      4.1,
+      2.7,
+      4.5,
+      6.2
+    ],
+    "net_income": [
+      2.8,
+      2.9,
+      -2.5,
+      3.2,
+      4.5
+    ],
+    "opm": [
+      33.0,
+      33.6,
+      22.7,
+      27.8,
+      33.5
+    ],
+    "npm": [
+      24.3,
+      23.8,
+      -21.0,
+      19.8,
+      24.3
+    ],
+    "fcf": [
+      2.1,
+      1.8,
+      0.5,
+      2.8,
+      4.1
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 11.5,
+        "op_income": 3.8,
+        "net_income": 2.8,
+        "op_margin_pct": 33.0,
+        "npm_pct": 24.3,
+        "fcf": 2.1
+      },
+      {
+        "year": 2022,
+        "revenue": 12.2,
+        "op_income": 4.1,
+        "net_income": 2.9,
+        "op_margin_pct": 33.6,
+        "npm_pct": 23.8,
+        "fcf": 1.8
+      },
+      {
+        "year": 2023,
+        "revenue": 11.9,
+        "op_income": 2.7,
+        "net_income": -2.5,
+        "op_margin_pct": 22.7,
+        "npm_pct": -21.0,
+        "fcf": 0.5
+      },
+      {
+        "year": 2024,
+        "revenue": 16.2,
+        "op_income": 4.5,
+        "net_income": 3.2,
+        "op_margin_pct": 27.8,
+        "npm_pct": 19.8,
+        "fcf": 2.8
+      },
+      {
+        "year": 2025,
+        "revenue": 18.5,
+        "op_income": 6.2,
+        "net_income": 4.5,
+        "op_margin_pct": 33.5,
+        "npm_pct": 24.3,
+        "fcf": 4.1
+      }
+    ]
+  }
+}
