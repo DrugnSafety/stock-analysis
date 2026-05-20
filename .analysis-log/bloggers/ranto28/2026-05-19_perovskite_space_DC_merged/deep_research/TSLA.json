@@ -55,8 +55,70 @@
       "Musk 정치 리스크"
     ],
     "name": "테슬라",
-    "competitors": [],
-    "news": [],
+    "competitors": [
+      {
+        "name": "Tesla",
+        "ticker": "TSLA",
+        "share_pct": 17,
+        "moat": "EV 글로벌 1위·SpaceX/xAI vertical integration·Robotaxi"
+      },
+      {
+        "name": "BYD",
+        "ticker": "BYDDY",
+        "share_pct": 22,
+        "moat": "중국 EV #1, 가격경쟁력·배터리 자체 (Blade)"
+      },
+      {
+        "name": "Volkswagen",
+        "ticker": "VOW3.DE",
+        "share_pct": 9,
+        "moat": "EU EV leader, PPE 플랫폼"
+      },
+      {
+        "name": "GM",
+        "ticker": "GM",
+        "share_pct": 7,
+        "moat": "Ultium 플랫폼, Cruise 자율주행 (제한적)"
+      },
+      {
+        "name": "Ford",
+        "ticker": "F",
+        "share_pct": 5,
+        "moat": "F-150 Lightning, Mustang Mach-E"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-19",
+        "title": "SpaceX V3 Starship 12차 시험비행 임박",
+        "source": "SpaceX 공식",
+        "summary": "200t 페이로드 검증 시 우주 DC 경제성 임계점 ($500/kg)"
+      },
+      {
+        "date": "2026-02-04",
+        "title": "Musk + SpaceX 기술팀, 중국 페로브스카이트 기업 비공개 방문",
+        "source": "Reuters",
+        "summary": "우주 DC 전력 솔루션으로 페로브스카이트 채택 시사"
+      },
+      {
+        "date": "2026-01-28",
+        "title": "Tesla 4Q25 자동차 GM 19.5% — BYD 경쟁 속 마진 방어",
+        "source": "Tesla IR",
+        "summary": "cost down + 단가 인상 동시 추진"
+      },
+      {
+        "date": "2025-11-15",
+        "title": "Trump-Musk Space Force 예산 +20% 통과",
+        "source": "Reuters",
+        "summary": "미국 우주 산업 규제 청신호"
+      },
+      {
+        "date": "2025-10-05",
+        "title": "xAI Grok 4 출시 + SpaceX 인프라 통합 시사",
+        "source": "X(Twitter)",
+        "summary": "Musk SpaceX-xAI 합병 가능성 공언"
+      }
+    ],
     "market_size": {
       "current_usd_bn": 500.0,
       "cagr_pct": 25.0,
@@ -70,35 +132,45 @@
         "revenue": 53.8,
         "op_income": 6.5,
         "op_margin_pct": 12.1,
-        "net_income": 4.9
+        "net_income": 4.9,
+        "op_margin": 12.1,
+        "net_margin": 9.1
       },
       {
         "year": 2022,
         "revenue": 81.5,
         "op_income": 13.7,
         "op_margin_pct": 16.8,
-        "net_income": 10.3
+        "net_income": 10.3,
+        "op_margin": 16.8,
+        "net_margin": 12.6
       },
       {
         "year": 2023,
         "revenue": 96.8,
         "op_income": 8.9,
         "op_margin_pct": 9.2,
-        "net_income": 6.7
+        "net_income": 6.7,
+        "op_margin": 9.2,
+        "net_margin": 6.9
       },
       {
         "year": 2024,
         "revenue": 97.7,
         "op_income": 7.1,
         "op_margin_pct": 7.3,
-        "net_income": 5.3
+        "net_income": 5.3,
+        "op_margin": 7.3,
+        "net_margin": 5.4
       },
       {
         "year": 2025,
         "revenue": 110.0,
         "op_income": 9.5,
         "op_margin_pct": 8.6,
-        "net_income": 7.1
+        "net_income": 7.1,
+        "op_margin": 8.6,
+        "net_margin": 6.5
       }
     ],
     "bs_snapshot": {
