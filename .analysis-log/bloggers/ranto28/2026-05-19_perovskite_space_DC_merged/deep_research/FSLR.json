@@ -54,8 +54,70 @@
       "Sunpower 경쟁"
     ],
     "name": "First Solar",
-    "competitors": [],
-    "news": [],
+    "competitors": [
+      {
+        "name": "First Solar",
+        "ticker": "FSLR",
+        "share_pct": 6,
+        "moat": "미국 박막 CdTe 1위·페로브스카이트 탠덤 R&D"
+      },
+      {
+        "name": "JinkoSolar",
+        "ticker": "JKS",
+        "share_pct": 14,
+        "moat": "중국 결정질 실리콘 글로벌 1위"
+      },
+      {
+        "name": "Trina Solar",
+        "ticker": "688599.SS",
+        "share_pct": 10,
+        "moat": "중국 #2, TOPCon 기술"
+      },
+      {
+        "name": "Enphase Energy",
+        "ticker": "ENPH",
+        "share_pct": 3,
+        "moat": "마이크로인버터 1위, residential 솔라"
+      },
+      {
+        "name": "Maxeon Solar",
+        "ticker": "MAXN",
+        "share_pct": 2,
+        "moat": "SunPower spin-off, 프리미엄 셀"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-09",
+        "title": "Freedom Broker, FSLR Buy로 상향",
+        "source": "Yahoo/Finnhub",
+        "summary": "10대 5Y Quality Stock 중 하나로 선정"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "AZ 신공장 5GW 가동 시작 — 미국 양산 capacity 8GW+",
+        "source": "First Solar IR",
+        "summary": "IRA Section 45X $0.07/W = 연간 $350M 안정 수익"
+      },
+      {
+        "date": "2026-01-18",
+        "title": "페로브스카이트 탠덤 35.2% 효율 NREL 공식 인증",
+        "source": "NREL",
+        "summary": "CdTe → 페로브스카이트 진화, SpaceX-xAI 우주 솔라 단독 후보"
+      },
+      {
+        "date": "2025-11-12",
+        "title": "백로그 $25B 사상최대 갱신 (2028까지 수주 가시성)",
+        "source": "First Solar 10-Q",
+        "summary": "영업이익률 30%+ 유지, AZ·OH 신공장 ramp 정상"
+      },
+      {
+        "date": "2025-06-22",
+        "title": "IRA Section 45X 2032까지 보조금 보장 확정",
+        "source": "미국 재무부",
+        "summary": "$0.07/W 보조금 7년 lock-in"
+      }
+    ],
     "market_size": {
       "current_usd_bn": 100.0,
       "cagr_pct": 25.0,
@@ -69,35 +131,45 @@
         "revenue": 2.92,
         "op_income": 0.35,
         "op_margin_pct": 12.0,
-        "net_income": 0.3
+        "net_income": 0.3,
+        "op_margin": 12.0,
+        "net_margin": 10.3
       },
       {
         "year": 2022,
         "revenue": 2.62,
         "op_income": -0.16,
         "op_margin_pct": -6.1,
-        "net_income": -0.1
+        "net_income": -0.1,
+        "op_margin": -6.1,
+        "net_margin": -3.8
       },
       {
         "year": 2023,
         "revenue": 3.31,
         "op_income": 0.92,
         "op_margin_pct": 27.7,
-        "net_income": 0.7
+        "net_income": 0.7,
+        "op_margin": 27.7,
+        "net_margin": 21.1
       },
       {
         "year": 2024,
         "revenue": 4.21,
         "op_income": 1.28,
         "op_margin_pct": 30.4,
-        "net_income": 1.0
+        "net_income": 1.0,
+        "op_margin": 30.4,
+        "net_margin": 23.8
       },
       {
         "year": 2025,
         "revenue": 5.0,
         "op_income": 1.5,
         "op_margin_pct": 30.0,
-        "net_income": 1.1
+        "net_income": 1.1,
+        "op_margin": 30.0,
+        "net_margin": 22.0
       }
     ],
     "bs_snapshot": {
