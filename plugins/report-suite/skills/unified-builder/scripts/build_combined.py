@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 from weasyprint import HTML, CSS
@@ -536,6 +537,125 @@ def render_deep_research_section(deep: dict, ticker: str, current_price: float =
     return body
 
 
+def render_specialist_agents_section(ticker: str, pdir) -> str:
+    """Render specialist-agents plugin output (Tier 2 — Anthropic Financial Services Agents pattern)."""
+    from pathlib import Path as _Path
+    import json as _json
+
+    pdir = _Path(pdir)
+    sections = []
+
+    # Research Manager
+    ri_path = pdir / "research_intel" / f"{ticker}_sector.json"
+    if ri_path.exists():
+        try:
+            ri = _json.loads(ri_path.read_text(encoding="utf-8"))
+            dev_rows = "".join(
+                f"<tr><td>{d.get('date','-')}</td><td>{d.get('headline', d.get('event','-'))}</td><td>{d.get('impact', d.get('expected_impact','○'))}</td></tr>"
+                for d in (ri.get("sector_developments_30d", []) + ri.get("issuer_developments_30d", []))[:5]
+            )
+            sections.append(f"""
+            <h2>🧭 Research Manager — Sector & Issuer Intelligence</h2>
+            <div class="info">Anthropic Financial Services Market Researcher 패턴 (2026-05) — sector·issuer 동향 종합. 페르소나 lens 적용 전 정량 anchor.</div>
+            <table class="dt"><tr><th>섹터</th><td>{ri.get('sector','-')}</td></tr>
+              <tr><th>경쟁사 수</th><td>{ri.get('competitive_intel',{}).get('peer_count','-')}</td></tr>
+              <tr><th>Tailwinds</th><td>{', '.join(ri.get('tailwinds', [])) or '-'}</td></tr>
+              <tr><th>Headwinds</th><td>{', '.join(ri.get('headwinds', [])) or '-'}</td></tr>
+              <tr><th>Credit risk flags</th><td>{', '.join(ri.get('credit_risk_flags', [])) or '없음'}</td></tr>
+            </table>
+            <h3>최근 30일 sector·issuer development</h3>
+            <table class="dt"><thead><tr><th style="width:14%">날짜</th><th>내용</th><th style="width:8%">영향</th></tr></thead><tbody>{dev_rows or '<tr><td colspan="3" style="text-align:center;color:#9ca3af;">최근 30일 신규 development 부재</td></tr>'}</tbody></table>
+            """)
+        except Exception as e:
+            sections.append(f"<p style='color:#dc2626;'>Research Manager 파싱 실패: {e}</p>")
+
+    # Sentiment Analyst
+    sa_path = pdir / "sentiment" / f"{ticker}_score.json"
+    if sa_path.exists():
+        try:
+            sa = _json.loads(sa_path.read_text(encoding="utf-8"))
+            s30 = sa.get("news_sentiment_30d", 0)
+            s_color = "#16a34a" if s30 > 0.3 else "#dc2626" if s30 < -0.3 else "#ca8a04"
+            pos_rows = "".join(f"<li>{p['date']} — {p['headline']}</li>" for p in sa.get("key_drivers_positive", []))
+            neg_rows = "".join(f"<li>{n['date']} — {n['headline']}</li>" for n in sa.get("key_drivers_negative", []))
+            sections.append(f"""
+            <h2>💭 Sentiment Analyst — News & Social Mood</h2>
+            <div class="info">PrimoAgent NLP + TradingAgents Researcher 패턴. news impact flag aggregation.</div>
+            <table class="dt">
+              <tr><th>30일 sentiment</th><td><strong style="color:{s_color};font-size:14pt;">{s30:+.2f}</strong> (n={sa.get('n_items_30d', 0)})</td></tr>
+              <tr><th>90일 sentiment</th><td>{sa.get('news_sentiment_90d', 0):+.2f}</td></tr>
+              <tr><th>365일 sentiment</th><td>{sa.get('news_sentiment_365d', 0):+.2f}</td></tr>
+              <tr><th>30d vs 90d trend</th><td>{sa.get('trend_30d_vs_90d', 0):+.2f}</td></tr>
+              <tr><th>Confidence</th><td>{sa.get('confidence', '-')}</td></tr>
+              <tr><th>Calibration</th><td>{sa.get('calibration_check', '-')}</td></tr>
+            </table>
+            <h3>긍정 driver (최근 30일)</h3><ul style="font-size:9.5pt;">{pos_rows or '<li style="color:#9ca3af;">강한 긍정 driver 부재</li>'}</ul>
+            <h3>부정 driver (최근 30일)</h3><ul style="font-size:9.5pt;">{neg_rows or '<li style="color:#9ca3af;">부정 driver 부재</li>'}</ul>
+            """)
+        except Exception as e:
+            sections.append(f"<p style='color:#dc2626;'>Sentiment Analyst 파싱 실패: {e}</p>")
+
+    # Earnings Reviewer
+    er_path = pdir / "earnings_review" / f"{ticker}_latest.json"
+    if er_path.exists():
+        try:
+            er = _json.loads(er_path.read_text(encoding="utf-8"))
+            km = er.get("key_metrics", {})
+            tone = er.get("management_tone", {})
+            thesis_rows = "".join(
+                f"<tr><td><strong>{t.get('thesis_id','-')}</strong></td><td>{(t.get('claim','-') or '-')[:100]}</td><td>{t.get('impact_direction','-')}</td><td>{t.get('confidence_delta','-')}</td></tr>"
+                for t in er.get("thesis_impact", [])[:5]
+            )
+            sections.append(f"""
+            <h2>📊 Earnings Reviewer — Thesis-Relevant Change Extraction</h2>
+            <div class="info">Anthropic Earnings Reviewer Agent 패턴 (2026-05). 최근 실적 → thesis verdict impact 자동 추출.</div>
+            <table class="dt">
+              <tr><th>최근 결산</th><td>{er.get('latest_period','-')} vs {er.get('comparison_period','-')}</td></tr>
+              <tr><th>매출 YoY</th><td>{km.get('revenue',{}).get('actual','-'):,} ({km.get('revenue',{}).get('yoy_pct','-')}%)</td></tr>
+              <tr><th>영업이익 YoY</th><td>{km.get('op_income',{}).get('actual','-'):,} ({km.get('op_income',{}).get('yoy_pct','-')}%)</td></tr>
+              <tr><th>영업이익률 변화</th><td>{km.get('op_margin',{}).get('actual','-')}% ({km.get('op_margin',{}).get('delta_bps','-'):+.0f}bps)</td></tr>
+              <tr><th>경영진 톤</th><td><strong>{tone.get('label','-')}</strong> (점수 {tone.get('score','-')})</td></tr>
+              <tr><th>Red flags</th><td>{', '.join(er.get('red_flags', [])) or '없음'}</td></tr>
+            </table>
+            <h3>Thesis impact 추출</h3>
+            <table class="dt"><thead><tr><th>ID</th><th>Claim</th><th>방향</th><th>Δconf</th></tr></thead><tbody>{thesis_rows or '<tr><td colspan="4" style="text-align:center;color:#9ca3af;">최근 실적과 직접 정렬된 thesis 없음</td></tr>'}</tbody></table>
+            """)
+        except Exception as e:
+            sections.append(f"<p style='color:#dc2626;'>Earnings Reviewer 파싱 실패: {e}</p>")
+
+    # Model Builder
+    mb_path = pdir / "models" / f"{ticker}_dcf.json"
+    if mb_path.exists():
+        try:
+            mb = _json.loads(mb_path.read_text(encoding="utf-8"))
+            dcf = mb.get("dcf_summary", {})
+            ls = mb.get("long_short_signal", "-")
+            ls_color = "#16a34a" if "Long" in ls else "#dc2626" if "Short" in ls else "#ca8a04"
+            peer = mb.get("peer_multiple_check", {})
+            sections.append(f"""
+            <h2>📐 Model Builder — DCF + Reverse-DCF + L/S Signal</h2>
+            <div class="info">Anthropic Model Builder + LangAlpha L/S Hedge Fund 패턴. probability-weighted scenario synthesis.</div>
+            <table class="dt">
+              <tr><th>현재가</th><td>{mb.get('current_price','-'):,} {mb.get('currency','')}</td></tr>
+              <tr><th>기대 가격 (확률 가중)</th><td>{dcf.get('scenarios_weighted_target','-'):,} ({dcf.get('expected_upside_pct','-'):+.1f}%)</td></tr>
+              <tr><th>Bull (확률 {dcf.get('bull',{}).get('prob','-')}%)</th><td>{dcf.get('bull',{}).get('target','-'):,} — {dcf.get('bull',{}).get('thesis','-')[:80]}</td></tr>
+              <tr><th>Base (확률 {dcf.get('base',{}).get('prob','-')}%)</th><td>{dcf.get('base',{}).get('target','-'):,} — {dcf.get('base',{}).get('thesis','-')[:80]}</td></tr>
+              <tr><th>Bear (확률 {dcf.get('bear',{}).get('prob','-')}%)</th><td>{dcf.get('bear',{}).get('target','-'):,} — {dcf.get('bear',{}).get('thesis','-')[:80]}</td></tr>
+              <tr><th>Reverse-DCF</th><td>{mb.get('reverse_dcf_check',{}).get('embedded_in_current_price','-')}</td></tr>
+              <tr><th>Peer multiple</th><td>Forward PE {peer.get('current_fwd_pe','-')} vs peer avg {peer.get('peer_avg_pe','-')} → <strong>{peer.get('relative_position','-')}</strong></td></tr>
+              <tr><th>L/S Signal</th><td><strong style="color:{ls_color};font-size:13pt;">{ls}</strong></td></tr>
+            </table>
+            """)
+        except Exception as e:
+            sections.append(f"<p style='color:#dc2626;'>Model Builder 파싱 실패: {e}</p>")
+
+    if not sections:
+        return ""
+    return '<h1 style="page-break-before:always;">🤖 Specialist Agents — Tier 2 Augmentation</h1>' + \
+           '<div class="info">Anthropic Financial Services Agents (2026-05) + TradingAgents/LangAlpha 패턴 기반 추가 분석 layer. 13 persona panel + 4-Analyst lens를 보완하는 정량·정성 anchor.</div>' + \
+           "".join(sections)
+
+
 def render_appendix_glossary() -> str:
     """Final appendix — full glossary for self-study."""
     body = '<h1 style="page-break-before:always;">📚 부록 — 학습용 용어 사전</h1>'
@@ -616,11 +736,20 @@ def main():
         except Exception as e:
             print(f"[combined] implicit thesis extraction failed: {e}")
 
-    eval_data: dict = {}
+    # Thesis evaluation — use normalizer (handles both legacy 'aggregates' and v2 'evaluations' schemas)
+    # 2026-05-12 fix: previously hardcoded for 'aggregates' key, silently dropped v2-schema files.
+    try:
+        from thesis_eval_normalizer import load_and_normalize as _normalize_eval
+    except ImportError:
+        # _common is on sys.path via _common_path injection; fall back if not yet on path
+        import sys as _sys
+        _sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "_common"))
+        from thesis_eval_normalizer import load_and_normalize as _normalize_eval
+
     eval_path = Path(args.eval_dir) / "all_aggregate.json"
-    if eval_path.exists():
-        for a in (_read_json(str(eval_path)) or {}).get("aggregates", []):
-            eval_data[a["claim_id"]] = a
+    eval_data: dict = _normalize_eval(eval_path)
+    if not eval_data and eval_path.exists():
+        print(f"[combined] WARN: thesis_eval/{eval_path.name} present but no evaluations parsed — check schema (expect 'aggregates' or 'evaluations' list)")
 
     risk_limits = _read_json(args.risk_limits) or {"limits": []}
     decisions = (_read_json(args.decisions) or {}).get("decisions", [])
@@ -642,7 +771,7 @@ def main():
     deep = _read_json(args.deep_research) if args.deep_research else {}
 
     # ── Auto-fetch DART financials for KR tickers if API key is set ──
-    if args.ticker.endswith((".KS", ".KQ")):
+    if args.ticker.endswith((".KS", ".KQ")) and os.environ.get("DISABLE_FIN_FETCH") != "1":
         live_fin = fetch_financials_for_deep_research(args.ticker)
         if live_fin and live_fin.get("pl_5y"):
             if not deep:
@@ -718,6 +847,18 @@ def main():
     # [8] R2 Persona Panel (Matrix 정상화 — 사용자 요청 #2)
     body += render_persona_section_for_ticker(persona_agg, persona_full, theses, args.ticker)
 
+    # [8.5] Specialist Agents (Tier 2 — specialist-agents plugin)
+    try:
+        from pathlib import Path as _Path
+        import json as _json
+        pdir_for_specialist = _Path(args.thesis).parent if args.thesis else None
+        if pdir_for_specialist:
+            specialist_html = render_specialist_agents_section(args.ticker, pdir_for_specialist)
+            if specialist_html:
+                body += '<div style="page-break-before:always;"></div>' + specialist_html
+    except Exception as e:
+        print(f"[combined] specialist-agents section skipped: {e}")
+
     # [10] Optional: ETF holdings
     if args.ticker in ETF_HOLDINGS:
         body += '<div style="page-break-before:always;"></div>' + render_etf_holdings(args.ticker)
@@ -772,7 +913,6 @@ def main():
     finally:
         Path(tmp_pdf).unlink(missing_ok=True)
 
-    import os
     print(f"[combined] saved: {args.output} ({os.path.getsize(args.output):,} bytes)")
 
     # ── Post-build hook: GitHub + Notion sync (v0.5.0+) ──────────────
