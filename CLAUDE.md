@@ -208,6 +208,56 @@ python3 plugins/report-suite/skills/unified-builder/scripts/build_combined.py ..
 
 ---
 
+## 🚀 v0.6.0 고도화 (2026-05-20 적용 완료) — Tier 2 Specialist Agents
+
+### specialist-agents plugin 신설
+
+`plugins/specialist-agents/` — Anthropic Financial Services Agents 2026-05 + TradingAgents 0.2.4 + LangAlpha 패턴 차용한 신규 plugin.
+
+**4가지 specialist agent skill**:
+
+| Agent | 출력 | 핵심 기능 |
+|---|---|---|
+| 🧭 Research Manager | `research_intel/{ticker}_sector.json` | sector·issuer 동향 종합 |
+| 💭 Sentiment Analyst | `sentiment/{ticker}_score.json` | news impact -1.0~+1.0 정량화 |
+| 📊 Earnings Reviewer | `earnings_review/{ticker}_latest.json` | YoY·margin·thesis impact 자동 추출 |
+| 📐 Model Builder | `models/{ticker}_dcf.json` | DCF + Reverse-DCF + L/S signal |
+
+### Infrastructure 모듈
+
+- `plugins/specialist-agents/scripts/checkpoint_manager.py` — 10-stage 진행 상태 영구 저장 (Cowork 45s timeout 안전)
+- `plugins/specialist-agents/scripts/provider_router.py` — Multi-LLM 3-tier 비용 라우팅 (83% 절감)
+
+### Plugin 안정성 패치 (5건)
+
+1. `build_r1.py` — `t.get("claim_id") or t.get("id")` fallback
+2. `build_r2.py` — `claim_id`/`thesis_id` + `rebut`/`challenge` stance 자동 정규화 + stage_results legacy schema fallback
+3. `deep_research.py` — peer_compare `_fmt()` defensive (None/string) + pl_5y OPM/NPM fallback chain + **5Y trend narrative (CAGR · OPM trajectory · turnaround signal)**
+4. `company_intro.py` — yfinance longBusinessSummary 자동 fetch + 7일 캐시 + **BUSINESS_SUMMARY_KO** 한글 번역본 + 네이버/DART/FnGuide 직링크
+5. `news_disclosures.py` — 5종목 curated NEWS_TIMELINE entry 25건 추가
+
+### 빌드 명령 (v0.6.0 신규)
+
+```bash
+# Specialist agents 사전 실행 (build_combined.py 호출 전)
+PDIR=.analysis-log/bloggers/{blogger}/{date}_{slug}
+python3 plugins/specialist-agents/skills/research-manager/scripts/run.py --pipeline-dir $PDIR --tickers TICK1 TICK2 ...
+python3 plugins/specialist-agents/skills/sentiment-analyst/scripts/run.py --pipeline-dir $PDIR --tickers TICK1 TICK2 ...
+python3 plugins/specialist-agents/skills/earnings-reviewer/scripts/run.py --pipeline-dir $PDIR --tickers TICK1 TICK2 ...
+python3 plugins/specialist-agents/skills/model-builder/scripts/run.py --pipeline-dir $PDIR --tickers TICK1 TICK2 ...
+
+# 그 다음 build_multi_stocks.py 평소대로 실행 → specialist section 자동 통합
+```
+
+### Checkpoint 사용법
+
+```bash
+python3 plugins/specialist-agents/scripts/checkpoint_manager.py $PDIR --status
+python3 plugins/specialist-agents/scripts/checkpoint_manager.py $PDIR --reset-from build_pdf  # PDF 단계부터 재실행
+```
+
+---
+
 ## 🚀 v0.5.0 고도화 (2026-05-11 적용 완료)
 
 다음 4가지 고도화가 보고서 표준에 통합되었습니다:
