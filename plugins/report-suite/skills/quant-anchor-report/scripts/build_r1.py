@@ -101,7 +101,7 @@ def render_4analyst(theses: list[dict], evals: dict) -> str:
     col_labels = ["Macro", "Industry", "Empirical", "Counter"]
     stance_to_num = {"support": 1.0, "neutral": 0.0, "rebut": -1.0}
     for t in theses[:8]:
-        cid = t.get("claim_id")
+        cid = t.get("claim_id") or t.get("id")  # robust: fall back to 'id' if claim_id absent
         agg = evals.get(cid, {})
         eval_data = agg.get("evaluations", {})
         row = []
@@ -120,7 +120,7 @@ def render_4analyst(theses: list[dict], evals: dict) -> str:
 
     body += '<h3>2-2. Thesis별 4-Analyst 평가 상세</h3>'
     for t in theses[:8]:  # core 8개만
-        cid = t.get("claim_id")
+        cid = t.get("claim_id") or t.get("id")  # robust: fall back to 'id'
         agg = evals.get(cid, {})
         agg_data = agg.get("aggregate", {})
         body += f"""
@@ -242,11 +242,21 @@ def main():
         with open(args.thesis, encoding="utf-8") as f:
             theses = json.load(f).get("theses", [])
     if args.eval_dir:
-        eval_path = Path(args.eval_dir) / "all_aggregate.json"
-        if eval_path.exists():
-            agg_data = json.load(open(eval_path, encoding="utf-8"))
-            for a in agg_data.get("aggregates", []):
-                evals[a["claim_id"]] = a
+        # 2026-05-12 fix: use normalizer to accept both 'aggregates' (canonical) and 'evaluations' (v2) schemas
+        try:
+            import sys as _sys
+            _common_dir = str(Path(__file__).resolve().parents[2] / "_common")
+            if _common_dir not in _sys.path:
+                _sys.path.insert(0, _common_dir)
+            from thesis_eval_normalizer import load_and_normalize as _normalize_eval
+            evals = _normalize_eval(Path(args.eval_dir) / "all_aggregate.json")
+        except ImportError:
+            # legacy fallback (canonical-only)
+            eval_path = Path(args.eval_dir) / "all_aggregate.json"
+            if eval_path.exists():
+                agg_data = json.load(open(eval_path, encoding="utf-8"))
+                for a in agg_data.get("aggregates", []):
+                    evals[a["claim_id"]] = a
 
     risk_limits = json.load(open(args.risk_limits)) if args.risk_limits else {"limits": []}
 
