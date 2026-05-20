@@ -1,0 +1,93 @@
+{
+  "portfolio_value": 1000000,
+  "as_of": "2026-05-20",
+  "framework": "13-persona panel verdict + 4-analyst stance → signal score → risk-adjusted sizing",
+  "trust_weights": {
+    "blogger": {"dhgusdnd44": {"kr": 1.0, "us": 1.0}},
+    "persona_overrides": {
+      "michael-burry": 1.3,
+      "stanley-druckenmiller": 1.3,
+      "warren-buffett": 1.1
+    }
+  },
+  "decisions": [
+    {
+      "ticker": "NEM",
+      "name_kr": "Newmont Corporation",
+      "signal_score": 0.78,
+      "weighted_bullish_pct": 92.3,
+      "verdict": "buy",
+      "action": "BUY",
+      "rationale": "13명 중 11명 lean_bullish/bullish (Burry·Druckenmiller·Pabrai·Taleb 모두 confidence 0.78+). T7·T8·T9 모두 정합. Forward PE 12-13x, gold $4,400 환경에서 마진 30%+. 13F clustering 시그널 (Druckenmiller·Burry·Donald Smith·Renaissance·Howard Marks 등).",
+      "target_allocation_pct": 11.0,
+      "target_allocation_usd": 110000,
+      "current_price_usd": 107.51,
+      "max_quantity": 1023,
+      "horizon": "long_term_3-5Y"
+    },
+    {
+      "ticker": "AEM",
+      "name_kr": "Agnico Eagle Mines",
+      "signal_score": 0.72,
+      "weighted_bullish_pct": 84.6,
+      "verdict": "buy",
+      "action": "BUY",
+      "rationale": "Tier-1 quality miner (Canada·Mexico·Finland jurisdiction). AISC $1,300/oz로 NEM 대비 우위. Fisher·Buffett 등 quality tribe 더 호의적. PE 18x로 premium이나 capital discipline 입증.",
+      "target_allocation_pct": 9.0,
+      "target_allocation_usd": 90000,
+      "current_price_usd": 177.68,
+      "max_quantity": 506,
+      "horizon": "long_term_3-5Y"
+    },
+    {
+      "ticker": "GDX",
+      "name_kr": "VanEck Gold Miners ETF",
+      "signal_score": 0.62,
+      "weighted_bullish_pct": 61.5,
+      "verdict": "lean_buy",
+      "action": "BUY (sector exposure)",
+      "rationale": "Sector basket — 종목 선택 risk 분산. Taleb (convex hedge), Druckenmiller (sector beta), Burry (분산) 모두 동의. Buffett·Munger·Ackman·Pabrai는 ETF 회피 — 위 4명 individual stock으로 대체.",
+      "target_allocation_pct": 7.0,
+      "target_allocation_usd": 70000,
+      "current_price_usd": 86.19,
+      "max_quantity": 812,
+      "horizon": "medium_term_2-3Y"
+    },
+    {
+      "ticker": "FCX",
+      "name_kr": "Freeport-McMoRan",
+      "signal_score": 0.70,
+      "weighted_bullish_pct": 76.9,
+      "verdict": "buy",
+      "action": "BUY",
+      "rationale": "Copper 1위 — EV·data center·grid CAPEX 4대 megatrend의 직접 수혜. Druckenmiller·Lynch·Pabrai·Burry 강력 지지. Buffett·Munger는 cyclical 우려로 neutral. Grasberg·Cerro Verde Tier-1 자산.",
+      "target_allocation_pct": 9.0,
+      "target_allocation_usd": 90000,
+      "current_price_usd": 60.12,
+      "max_quantity": 1497,
+      "horizon": "long_term_5-7Y"
+    },
+    {
+      "ticker": "TECK",
+      "name_kr": "Teck Resources",
+      "signal_score": 0.62,
+      "weighted_bullish_pct": 53.8,
+      "verdict": "lean_buy",
+      "action": "BUY (smaller size)",
+      "rationale": "Coal divestiture 후 pure copper play로 재포지셔닝. Burry·Druckenmiller·Pabrai·Lynch 지지. Beta 1.57 — 변동성 큼. Vol_multiplier 0.5 적용해 size 축소.",
+      "target_allocation_pct": 6.0,
+      "target_allocation_usd": 60000,
+      "current_price_usd": 60.71,
+      "max_quantity": 988,
+      "horizon": "medium_term_2-3Y"
+    }
+  ],
+  "portfolio_summary": {
+    "total_target_allocation_pct": 42.0,
+    "total_target_allocation_usd": 420000,
+    "cash_reserve_pct": 58.0,
+    "cash_reserve_usd": 580000,
+    "rationale_for_cash": "T1·T4·T5 (CAPE·1970s vs 닷컴·yield 상승) — broad market caution. 광산 sector 집중 시 sector-specific risk 회피 위해 dry powder 유지. Buffett·Burry framework 정합.",
+    "sector_concentration_risk": "5종목 모두 mining → sector concentration 42%. Vol-adjusted limit 적용해 individual cap. 추가 diversification (energy·healthcare·utilities)는 별도 분석 권장."
+  }
+}
