@@ -186,21 +186,24 @@ def render_thesis_persona_matrix(personas_full: dict, theses: list[dict]) -> str
         body += '</tbody></table>'
         return body
 
-    # Heatmap matrix
-    stance_to_num = {"support": 1.0, "neutral": 0.0, "challenge": -1.0}
+    # Heatmap matrix — accept both 'challenge' and 'rebut' as the negative stance
+    stance_to_num = {"support": 1.0, "neutral": 0.0, "challenge": -1.0, "rebut": -1.0}
     persona_ids = sorted(personas_full.keys())
     persona_labels = [PERSONA_NAMES.get(pid, (pid, "", ""))[0] for pid in persona_ids]
     matrix = []
     row_labels = []
     for t in theses[:8]:
-        cid = t.get("claim_id")
+        cid = t.get("claim_id") or t.get("id")  # robust: fall back to 'id'
         row = []
         for pid in persona_ids:
             p = personas_full[pid]
             stance = "neutral"
             for app in (p.get("thesis_lens_applications") or []):
-                if app.get("claim_id") == cid:
-                    stance = app.get("stance", "neutral")
+                # Accept both 'claim_id' and 'thesis_id'
+                app_cid = app.get("claim_id") or app.get("thesis_id")
+                if app_cid == cid:
+                    raw = app.get("stance", "neutral")
+                    stance = "challenge" if raw == "rebut" else raw
                     break
             row.append(stance_to_num.get(stance, 0))
         matrix.append(row)
@@ -220,14 +223,16 @@ def render_thesis_persona_matrix(personas_full: dict, theses: list[dict]) -> str
     body += '</tr></thead><tbody>'
 
     for t in theses[:8]:
-        cid = t.get("claim_id")
+        cid = t.get("claim_id") or t.get("id")
         body += f'<tr><td><strong>{cid}</strong><br/><span style="font-size:8pt;">{t.get("claim", "")}</span></td>'
         for pid in persona_ids:
             p = personas_full[pid]
             stance = "?"
             for app in (p.get("thesis_lens_applications") or []):
-                if app.get("claim_id") == cid:
-                    stance = app.get("stance", "?")
+                app_cid = app.get("claim_id") or app.get("thesis_id")
+                if app_cid == cid:
+                    raw = app.get("stance", "?")
+                    stance = "challenge" if raw == "rebut" else raw
                     break
             color = {"support": "#16a34a", "challenge": "#dc2626", "neutral": "#ca8a04"}.get(stance, "#e5e7eb")
             symbol = {"support": "✓", "challenge": "✗", "neutral": "○"}.get(stance, "·")
@@ -284,14 +289,28 @@ def render_persona_details(personas_full: dict) -> str:
         </div>
         """
 
-        # Stage results — 5단계 분석
+        # Stage results — 5단계 분석 (accept both canonical and legacy schema)
         stage_rows = ""
-        for s in (p.get("stage_results") or [])[:5]:
+        for i, s in enumerate((p.get("stage_results") or [])[:5], 1):
+            # Canonical schema fields
+            stage_num = s.get('stage_num', i)
+            stage_name = s.get('stage_name')
+            rationale = s.get('rationale')
+            passed_field = s.get('passed')
+            # Legacy schema fallback: {'stage': '이해 (Understand)', 'content': '...'}
+            if not stage_name:
+                stage_name = s.get('stage', f'Stage {i}')
+            if not rationale:
+                rationale = s.get('content', '')
+            # If 'passed' field missing, assume the persona completed its stage (= Pass)
+            if passed_field is None:
+                passed_field = bool(rationale)  # has content → pass
+            status_html = '✓ Pass' if passed_field else '✗ Fail'
             stage_rows += f"""
             <tr>
-              <td><strong>Stage {s.get('stage_num', '?')}. {s.get('stage_name', '?')}</strong></td>
-              <td>{'✓ Pass' if s.get('passed') else '✗ Fail'}</td>
-              <td style="font-size:9.5pt;">{s.get('rationale') or ''}</td>
+              <td><strong>Stage {stage_num}. {stage_name}</strong></td>
+              <td>{status_html}</td>
+              <td style="font-size:9.5pt;">{rationale}</td>
             </tr>
             """
         if stage_rows:
