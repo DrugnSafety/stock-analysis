@@ -1,0 +1,216 @@
+{
+  "ticker": "NEM",
+  "ticker_kr": "Newmont Corporation",
+  "ticker_type": "gold_major",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 6,
+      "members": [
+        "warren-buffett",
+        "charlie-munger",
+        "ben-graham",
+        "peter-lynch",
+        "bill-ackman",
+        "rakesh-jhunjhunwala"
+      ],
+      "pct": 46.2
+    },
+    "bullish": {
+      "count": 4,
+      "members": [
+        "mohnish-pabrai",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "nassim-taleb"
+      ],
+      "pct": 30.8
+    },
+    "neutral": {
+      "count": 3,
+      "members": [
+        "phil-fisher",
+        "cathie-wood",
+        "aswath-damodaran"
+      ],
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.687,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.42
+        }
+      ],
+      "dominant": "neutral (2/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.88
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "tail-hedge": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "emerging-growth": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Commodity price -20% sensitivity (31% 마진 → 18-22% 압축)",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "nassim-taleb"
+      ],
+      "description": "Commodity price -20% sensitivity (31% 마진 → 18-22% 압축)"
+    },
+    {
+      "theme": "Shiller CAPE 42 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "nassim-taleb"
+      ],
+      "description": "Shiller CAPE 42 광범위 지수 mean reversion 시 sector 동반 derate 위험"
+    },
+    {
+      "theme": "Geopolitical mining jurisdiction risk (Indonesia·DRC·Chile p",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "nassim-taleb"
+      ],
+      "description": "Geopolitical mining jurisdiction risk (Indonesia·DRC·Chile permit·environmental)"
+    }
+  ],
+  "unique_alpha_insights": [
+    {
+      "theme": "Druckenmiller Teva 패턴 — perception lag alpha 광산 sector 적용 (T",
+      "personas": [
+        "stanley-druckenmiller",
+        "michael-burry"
+      ],
+      "description": "Druckenmiller Teva 패턴 — perception lag alpha 광산 sector 적용 (T9)"
+    },
+    {
+      "theme": "신규 광산 10년+ supply lag — capital discipline 동반 강화 (T8)",
+      "personas": [
+        "stanley-druckenmiller",
+        "michael-burry"
+      ],
+      "description": "신규 광산 10년+ supply lag — capital discipline 동반 강화 (T8)"
+    },
+    {
+      "theme": "13F 7개 펀드 동시 매수 — '꿀통' contrarian-to-contrarian 시그널 (T7)",
+      "personas": [
+        "stanley-druckenmiller",
+        "michael-burry"
+      ],
+      "description": "13F 7개 펀드 동시 매수 — '꿀통' contrarian-to-contrarian 시그널 (T7)"
+    }
+  ]
+}
