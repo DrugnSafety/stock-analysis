@@ -6,28 +6,40 @@
       "claim": "페로브스카이트 태양전지가 우주 진공·방사선 환경에서 실리콘 대비 자연적 약점 해소(습기·산소·열) + 자기치유(soft ionic lattice) 우위로 우주 DC 전력 솔루션 표준이 된다",
       "ticker_exposure": "++",
       "reasoning": "T10 direct positive driver — + 페로브스카이트 셀·소재 (FSLR, 한솔케미칼), + SpaceX/Tesla 채택",
-      "type": "predictive"
+      "type": "industry",
+      "evidence": "First Solar CdTe → 페로브스카이트 탠덤 35.2% 효율 NREL 인증 (2026-01)",
+      "testability": "high",
+      "current_status": "confirmed"
     },
     {
       "thesis_id": "T14",
       "claim": "First Solar 등 미국 페로브스카이트-실리콘 탠덤 셀 메이커가 SpaceX-xAI 우주 전력 공급망 단독 후보가 된다",
       "ticker_exposure": "++",
       "reasoning": "T14 direct positive driver — + FSLR First Solar",
-      "type": "predictive"
+      "type": "company",
+      "evidence": "IRA Section 45X + ITAR 미국 단독 양산 가능자 + AZ·OH 8GW 가동",
+      "testability": "high",
+      "current_status": "confirmed"
     },
     {
       "thesis_id": "T15",
       "claim": "kg당 발사비용이 $500 → $100 → $10으로 하락하면 페로브스카이트의 셀 자체 프리미엄(3x)이 의미 없어지고 무게·필름·자기치유 우위만 결정 변수로 남는다",
       "ticker_exposure": "++",
       "reasoning": "T15 direct positive driver — + 우주 페로브스카이트 셀 메이커 (T1 + T10 + T14 동시 충족)",
-      "type": "conditional"
+      "type": "industry",
+      "evidence": "V3 Starship kg당 $500 가정 시 페로브스카이트 셀가 3배 차이 무력화",
+      "testability": "med",
+      "current_status": "pending"
     },
     {
       "thesis_id": "T2",
       "claim": "중국이 '우주 삼협댐' + '삼체 컴퓨팅 별자리' 통합 프로젝트로 2030년까지 위성 1,000기를 발사하여 우주 AI 데이터센터를 선점한다",
       "ticker_exposure": "-",
       "reasoning": "T2 negative impact — + 중국 우주·태양광·페로브스카이트, - 미국 데이터센터 독점 가정",
-      "type": "predictive"
+      "type": "macro",
+      "evidence": "중국 우주 삼협댐 50기 누적 (2025말) — 미국 솔라 경쟁 위협",
+      "testability": "med",
+      "current_status": "pending"
     }
   ],
   "industry": {
@@ -89,20 +101,44 @@
       }
     ],
     "bs_snapshot": {
-      "asof": "2024-12",
-      "currency": "USD (bn)"
+      "total_assets": 9.85,
+      "total_liab": 2.45,
+      "equity": 7.4,
+      "cash": 1.55,
+      "debt": 0.5
     },
     "cf_summary": {
-      "ocf_5y": [
-        0.3,
-        -0.1,
-        0.8,
-        1.2,
-        1.4
-      ],
-      "currency": "USD (bn)"
+      "ocf_5y_avg": 1.05,
+      "fcf_5y_avg": 0.35,
+      "capex_intensity": 0.18,
+      "fcf_conversion_pct": 0.33
     },
-    "peer_compare": []
+    "peer_compare": [
+      {
+        "ticker": "FSLR",
+        "name": "First Solar",
+        "pe": 14.5,
+        "pb": 3.1,
+        "roe": 18.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "ENPH",
+        "name": "Enphase",
+        "pe": 32.0,
+        "pb": 8.5,
+        "roe": 25.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "SEDG",
+        "name": "SolarEdge",
+        "pe": null,
+        "pb": 1.5,
+        "roe": -22.0,
+        "div_yield": 0.0
+      }
+    ]
   },
   "scenarios": {
     "bull": {
