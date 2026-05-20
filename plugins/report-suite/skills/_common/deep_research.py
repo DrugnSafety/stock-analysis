@@ -87,15 +87,23 @@ def render_financial_deep_dive(
 ) -> str:
     """Financial deep dive — 5y P&L, balance sheet, cash flow, peer comparison."""
 
+    def _calc_margin(income, revenue):
+        try:
+            if revenue and float(revenue) != 0:
+                return float(income) / float(revenue) * 100.0
+        except (ValueError, TypeError):
+            pass
+        return 0.0
+
     pl_rows = "".join(
         f"""
         <tr>
           <td>{r['year']}</td>
           <td style="text-align:right;">{r['revenue']:,.0f}</td>
           <td style="text-align:right;">{r.get('op_income', 0):,.0f}</td>
-          <td style="text-align:right;">{r.get('op_margin', 0):.1f}%</td>
+          <td style="text-align:right;">{(r.get('op_margin') or r.get('op_margin_pct') or _calc_margin(r.get('op_income', 0), r.get('revenue', 0))):.1f}%</td>
           <td style="text-align:right;">{r.get('net_income', 0):,.0f}</td>
-          <td style="text-align:right;">{r.get('net_margin', 0):.1f}%</td>
+          <td style="text-align:right;">{(r.get('net_margin') or r.get('net_margin_pct') or _calc_margin(r.get('net_income', 0), r.get('revenue', 0))):.1f}%</td>
         </tr>
         """
         for r in pl_5y
@@ -104,18 +112,85 @@ def render_financial_deep_dive(
     de_ratio = (bs_snapshot.get("total_liab", 0) / max(bs_snapshot.get("equity", 1), 1)) * 100
     cash_ratio = (bs_snapshot.get("cash", 0) / max(bs_snapshot.get("total_assets", 1), 1)) * 100
 
+    def _fmt(val, dp=1, suffix=""):
+        """Defensive formatter — handle None/string values gracefully."""
+        if val is None or val == "" or val == "-":
+            return "N/A"
+        try:
+            return f"{float(val):.{dp}f}{suffix}"
+        except (ValueError, TypeError):
+            return str(val)
+
     peer_rows = "".join(
         f"""
         <tr>
-          <td><code>{p['ticker']}</code> <strong>{p.get('name', '-')}</strong></td>
-          <td style="text-align:right;">{p.get('pe', 0):.1f}</td>
-          <td style="text-align:right;">{p.get('pb', 0):.2f}</td>
-          <td style="text-align:right;">{p.get('roe', 0):.1f}%</td>
-          <td style="text-align:right;">{p.get('div_yield', 0):.2f}%</td>
+          <td><code>{p.get('ticker', '-')}</code> <strong>{p.get('name', '-')}</strong></td>
+          <td style="text-align:right;">{_fmt(p.get('pe'), 1)}</td>
+          <td style="text-align:right;">{_fmt(p.get('pb'), 2)}</td>
+          <td style="text-align:right;">{_fmt(p.get('roe'), 1, '%')}</td>
+          <td style="text-align:right;">{_fmt(p.get('div_yield'), 2, '%')}</td>
         </tr>
         """
         for p in peer_compare
     )
+
+    # ── PL 5Y Trend Narrative (analytic agent) ─────────────────────
+    trend_html = ""
+    if len(pl_5y) >= 3:
+        try:
+            r_first = float(pl_5y[0]["revenue"])
+            r_last = float(pl_5y[-1]["revenue"])
+            n_years = len(pl_5y) - 1
+            cagr_pct = (pow(r_last / r_first, 1 / n_years) - 1) * 100 if r_first > 0 else 0
+
+            op_first = float(pl_5y[0].get("op_margin") or pl_5y[0].get("op_margin_pct") or 0)
+            op_last = float(pl_5y[-1].get("op_margin") or pl_5y[-1].get("op_margin_pct") or 0)
+            opm_delta = op_last - op_first
+
+            ni_first = float(pl_5y[0].get("net_margin") or _calc_margin(pl_5y[0].get("net_income", 0), pl_5y[0].get("revenue", 0)))
+            ni_last = float(pl_5y[-1].get("net_margin") or _calc_margin(pl_5y[-1].get("net_income", 0), pl_5y[-1].get("revenue", 0)))
+            npm_delta = ni_last - ni_first
+
+            # Detect turnaround (negative → positive transitions)
+            negative_years = [r["year"] for r in pl_5y if (r.get("op_income") or 0) < 0]
+            positive_years = [r["year"] for r in pl_5y if (r.get("op_income") or 0) > 0]
+            has_turnaround = bool(negative_years) and bool(positive_years) and max(negative_years) < min(positive_years)
+
+            # Direction labels
+            rev_label = "고성장 (CAGR 15%+)" if cagr_pct > 15 else "두 자릿수 성장" if cagr_pct > 10 else "안정 성장" if cagr_pct > 3 else "정체" if cagr_pct > -3 else "축소"
+            opm_label = ("개선 가속" if opm_delta > 5 else "꾸준한 개선" if opm_delta > 1 else "안정 유지" if abs(opm_delta) <= 1 else "둔화" if opm_delta > -5 else "구조적 압박")
+
+            # Turnaround / cycle insight
+            cycle_insight = ""
+            if has_turnaround:
+                cycle_insight = f"<strong>턴어라운드 확인</strong>: {max(negative_years)}년 적자 → {min(positive_years)}년 흑자전환. 영업이익률 {op_first:+.1f}% → {op_last:+.1f}% (+{opm_delta:.1f}pp). 사이클 회복 단계로 판단."
+            elif op_last > op_first + 2:
+                cycle_insight = f"<strong>이익률 확장 단계</strong>: 영업이익률 {op_first:.1f}% → {op_last:.1f}%로 {opm_delta:+.1f}pp 확장. 단순 매출 성장 이상의 operating leverage 작동."
+            elif op_last < op_first - 2:
+                cycle_insight = f"<strong>마진 압박 단계</strong>: 영업이익률 {op_first:.1f}% → {op_last:.1f}%로 {opm_delta:+.1f}pp 축소. cost 인플레·경쟁 격화·믹스 악화 등 점검 필요."
+            else:
+                cycle_insight = f"<strong>마진 안정 유지</strong>: 영업이익률 {op_first:.1f}% → {op_last:.1f}% (변동 {opm_delta:+.1f}pp). cyclical pressure 없이 base 수익성 유지."
+
+            # Net margin vs operating margin gap (debt cost·tax efficiency proxy)
+            avg_op_margin = sum(float(r.get("op_margin") or r.get("op_margin_pct") or 0) for r in pl_5y) / len(pl_5y)
+            avg_np_margin = sum(float(r.get("net_margin") or _calc_margin(r.get("net_income", 0), r.get("revenue", 0))) for r in pl_5y) / len(pl_5y)
+            margin_gap = avg_op_margin - avg_np_margin
+
+            trend_html = f"""
+            <h4 style="margin-top:8pt;">📈 추세 분석 (Analytic Agent)</h4>
+            <table class="dt">
+              <tr><th style="width:18%">매출 CAGR ({n_years}년)</th><td><strong>{cagr_pct:+.1f}%</strong> — {rev_label}</td></tr>
+              <tr><th>OPM 변화</th><td>{op_first:+.1f}% → {op_last:+.1f}% (<strong>{opm_delta:+.1f}pp</strong>) — {opm_label}</td></tr>
+              <tr><th>NPM 변화</th><td>{ni_first:+.1f}% → {ni_last:+.1f}% (<strong>{npm_delta:+.1f}pp</strong>)</td></tr>
+              <tr><th>OP→NP gap</th><td>평균 {margin_gap:.1f}pp (이자비용·세금·기타 손익 합산) — {'재무비용 부담 큼' if margin_gap > 5 else '효율적 비용 구조' if margin_gap < 2 else '정상 범위'}</td></tr>
+            </table>
+            <p style="font-size:10pt;line-height:1.6;background:#f0f9ff;padding:10pt 14pt;border-left:3pt solid #0ea5e9;margin-top:6pt;">
+              <strong>해석</strong>: {cycle_insight}
+            </p>
+            <p style="font-size:9pt;color:#6b7280;">위 narrative는 analytic agent가 PL 5Y 수치로부터 CAGR·margin trajectory·turnaround signal·op/np gap을 자동 계산하여 생성. 외부 LLM 호출 없음 (deterministic).</p>
+            """
+        except Exception as e:
+            trend_html = f"<p style='font-size:9pt;color:#dc2626;'>Trend 분석 실패: {e}</p>"
 
     return f"""
     <h2>💰 재무 심층 분석 (Financial Deep Dive)</h2>
@@ -126,6 +201,8 @@ def render_financial_deep_dive(
       <tbody>{pl_rows}</tbody>
     </table>
     <p style="font-size:9pt;color:#6b7280;">단위: 십억 원 (KRW) 또는 백만 달러 (USD), 통화는 ticker별 자동 결정.</p>
+
+    {trend_html}
 
     <h3>대차대조표 스냅샷</h3>
     <table class="dt">
