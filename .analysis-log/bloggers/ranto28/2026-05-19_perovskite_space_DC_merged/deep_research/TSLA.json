@@ -6,28 +6,40 @@
       "claim": "SpaceX의 V3 Starship(2026-05-19 12차 시험비행)이 200톤급 발사 능력을 검증하면 우주 데이터센터가 지상 데이터센터와 비용 경쟁이 가능한 kg당 $500 임계치에 도달한다",
       "ticker_exposure": "++",
       "reasoning": "T1 direct positive driver — + Space DC 인프라 종목 (SpaceX private, Tesla/xAI 간접)",
-      "type": "predictive"
+      "type": "industry",
+      "evidence": "V3 Starship 12차 발사 임박 (2026-05-19) — kg당 $500 임계점 도달 가능",
+      "testability": "high",
+      "current_status": "pending"
     },
     {
       "thesis_id": "T10",
       "claim": "페로브스카이트 태양전지가 우주 진공·방사선 환경에서 실리콘 대비 자연적 약점 해소(습기·산소·열) + 자기치유(soft ionic lattice) 우위로 우주 DC 전력 솔루션 표준이 된다",
       "ticker_exposure": "++",
       "reasoning": "T10 direct positive driver — + 페로브스카이트 셀·소재 (FSLR, 한솔케미칼), + SpaceX/Tesla 채택",
-      "type": "predictive"
+      "type": "industry",
+      "evidence": "페로브스카이트 효율 27.3% NREL 인증, g당 23-30W vs 실리콘 0.5-2W",
+      "testability": "high",
+      "current_status": "pending"
     },
     {
       "thesis_id": "T11",
       "claim": "일론 머스크의 SpaceX-xAI-페로브스카이트 vertical integration이 미국 우주 DC의 대중국 경쟁 카드이며, 2026-02 중국 페로브스카이트 기업 비공개 방문이 그 신호다",
       "ticker_exposure": "++",
       "reasoning": "T11 direct positive driver — + TSLA(SpaceX-xAI proxy), + 페로브스카이트 글로벌 공급망",
-      "type": "predictive"
+      "type": "company",
+      "evidence": "2026-02-04 Musk + SpaceX 기술팀 중국 페로브스카이트 기업 비공개 방문",
+      "testability": "med",
+      "current_status": "pending"
     },
     {
       "thesis_id": "T15",
       "claim": "kg당 발사비용이 $500 → $100 → $10으로 하락하면 페로브스카이트의 셀 자체 프리미엄(3x)이 의미 없어지고 무게·필름·자기치유 우위만 결정 변수로 남는다",
       "ticker_exposure": "++",
       "reasoning": "T15 direct positive driver — + 우주 페로브스카이트 셀 메이커 (T1 + T10 + T14 동시 충족)",
-      "type": "conditional"
+      "type": "industry",
+      "evidence": "발사비 $2,700/kg → $500/kg → $10/kg 단계적 도달 가정",
+      "testability": "med",
+      "current_status": "pending"
     }
   ],
   "industry": {
@@ -90,20 +102,44 @@
       }
     ],
     "bs_snapshot": {
-      "asof": "2024-12",
-      "currency": "USD (bn)"
+      "total_assets": 122.0,
+      "total_liab": 50.0,
+      "equity": 72.0,
+      "cash": 36.5,
+      "debt": 12.5
     },
     "cf_summary": {
-      "ocf_5y": [
-        5.9,
-        12.3,
-        8.0,
-        6.4,
-        8.6
-      ],
-      "currency": "USD (bn)"
+      "ocf_5y_avg": 12.5,
+      "fcf_5y_avg": 5.1,
+      "capex_intensity": 0.085,
+      "fcf_conversion_pct": 0.41
     },
-    "peer_compare": []
+    "peer_compare": [
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pe": 90.0,
+        "pb": 18.5,
+        "roe": 21.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "BYDDY",
+        "name": "BYD",
+        "pe": 18.0,
+        "pb": 1.9,
+        "roe": 11.5,
+        "div_yield": 1.5
+      },
+      {
+        "ticker": "F",
+        "name": "Ford",
+        "pe": 11.5,
+        "pb": 1.1,
+        "roe": 9.0,
+        "div_yield": 5.5
+      }
+    ]
   },
   "scenarios": {
     "bull": {
