@@ -1,0 +1,66 @@
+{
+  "name": "stock-analysis-marketplace",
+  "version": "1.0.0",
+  "description": "주식 분석 시스템 — 13명 페르소나 패널 + 4-Analyst + specialist agents + Tier 2 augmentation. private marketplace for Mingyu (회사·집 양쪽 sync 용도).",
+  "owner": "DrugnSafety",
+  "plugins": {
+    "report-suite": {
+      "source": "./plugins/report-suite",
+      "description": "13 persona panel + 4-Analyst + R1/R2/R3 통합 PDF 보고서 생성"
+    },
+    "specialist-agents": {
+      "source": "./plugins/specialist-agents",
+      "description": "Research Manager + Sentiment + Earnings Reviewer + Model Builder + LangSmith wrapper (Anthropic Finance Agents 패턴)"
+    },
+    "investor-personas": {
+      "source": "./plugins/investor-personas",
+      "description": "13명 legendary investor persona 정의 (Buffett·Munger·Lynch·Wood·Burry 등)"
+    },
+    "multi-model-arena": {
+      "source": "./plugins/multi-model-arena",
+      "description": "Claude + OpenAI gpt-5 + Gemini 3.1 cross-validation"
+    },
+    "trade-engine": {
+      "source": "./plugins/trade-engine",
+      "description": "Risk Manager + Portfolio Manager + Paper Portfolio"
+    },
+    "backtester": {
+      "source": "./plugins/backtester",
+      "description": "과거 verdict 적중률 + KOSPI/SPY alpha"
+    },
+    "blogger-registry": {
+      "source": "./plugins/blogger-registry",
+      "description": "8명 네이버 블로거 메타데이터 + 신규 글 자동 수집"
+    },
+    "dart-integration": {
+      "source": "./plugins/dart-integration",
+      "description": "한국 DART 전자공시 + 5Y 재무 자동 fetch"
+    },
+    "sec-edgar-integration": {
+      "source": "./plugins/sec-edgar-integration",
+      "description": "미국 SEC EDGAR 10-K/10-Q/8-K + 5Y 재무 자동 fetch"
+    },
+    "news-integration": {
+      "source": "./plugins/news-integration",
+      "description": "NewsAPI + Finnhub 뉴스 자동 fetch"
+    },
+    "subagent-orchestrator": {
+      "source": "./plugins/subagent-orchestrator",
+      "description": "Bull/Bear/Skeptic debate cycle"
+    },
+    "github-notion-sync": {
+      "source": "./plugins/github-notion-sync",
+      "description": "분석 결과 GitHub + Notion 자동 동기화"
+    },
+    "codex-integration": {
+      "source": "./plugins/codex-integration",
+      "description": "OpenAI Codex CLI + API cross-validation"
+    },
+    "notion-page-manager": {
+      "source": "./plugins/notion-page-manager",
+      "description": "Notion 페이지 자동 생성/업데이트"
+    }
+  },
+  "install_all_command": "/plugin marketplace install-all stock-analysis-marketplace",
+  "update_command": "/plugin marketplace update stock-analysis-marketplace"
+}
