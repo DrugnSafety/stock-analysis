@@ -1,0 +1,31 @@
+{
+  "portfolio_name": "dhgusdnd44_mining_rates_2026-05-20",
+  "as_of": "2026-05-20",
+  "starting_value_usd": 1000000,
+  "current_value_usd": 1000000,
+  "cash_balance_usd": 580000,
+  "positions": [
+    {"ticker": "NEM",  "qty": 1023, "entry_price": 107.51, "entry_date": "2026-05-20", "current_price": 107.51, "value_usd": 109984, "weight_pct": 11.0, "unrealized_pnl_usd": 0, "unrealized_pnl_pct": 0.0},
+    {"ticker": "AEM",  "qty": 506,  "entry_price": 177.68, "entry_date": "2026-05-20", "current_price": 177.68, "value_usd": 89906,  "weight_pct": 9.0,  "unrealized_pnl_usd": 0, "unrealized_pnl_pct": 0.0},
+    {"ticker": "GDX",  "qty": 812,  "entry_price": 86.19,  "entry_date": "2026-05-20", "current_price": 86.19,  "value_usd": 69986,  "weight_pct": 7.0,  "unrealized_pnl_usd": 0, "unrealized_pnl_pct": 0.0},
+    {"ticker": "FCX",  "qty": 1497, "entry_price": 60.12,  "entry_date": "2026-05-20", "current_price": 60.12,  "value_usd": 90000,  "weight_pct": 9.0,  "unrealized_pnl_usd": 0, "unrealized_pnl_pct": 0.0},
+    {"ticker": "TECK", "qty": 988,  "entry_price": 60.71,  "entry_date": "2026-05-20", "current_price": 60.71,  "value_usd": 59981,  "weight_pct": 6.0,  "unrealized_pnl_usd": 0, "unrealized_pnl_pct": 0.0}
+  ],
+  "trade_ledger": [
+    {"date": "2026-05-20", "ticker": "NEM",  "action": "BUY", "qty": 1023, "price": 107.51, "value": 109984, "rationale": "Initial entry — gold major thesis T7·T8·T9"},
+    {"date": "2026-05-20", "ticker": "AEM",  "action": "BUY", "qty": 506,  "price": 177.68, "value": 89906,  "rationale": "Quality miner — Tier-1 jurisdiction"},
+    {"date": "2026-05-20", "ticker": "GDX",  "action": "BUY", "qty": 812,  "price": 86.19,  "value": 69986,  "rationale": "Sector basket for convex tail hedge"},
+    {"date": "2026-05-20", "ticker": "FCX",  "action": "BUY", "qty": 1497, "price": 60.12,  "value": 90000,  "rationale": "Copper megatrend — EV·data center·grid"},
+    {"date": "2026-05-20", "ticker": "TECK", "action": "BUY", "qty": 988,  "price": 60.71,  "value": 59981,  "rationale": "Pure copper play post-divestiture"}
+  ],
+  "performance": {
+    "1d_pct": 0.0,
+    "wtd_pct": 0.0,
+    "mtd_pct": 0.0,
+    "ytd_pct": 0.0,
+    "benchmark_spy_ytd_pct": null,
+    "benchmark_gdx_ytd_pct": null,
+    "alpha_vs_spy_pct": null
+  },
+  "notes": "Paper portfolio — no real trade executed. yfinance live entry price."
+}
