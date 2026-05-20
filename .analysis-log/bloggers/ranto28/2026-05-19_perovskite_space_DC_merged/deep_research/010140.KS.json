@@ -43,8 +43,70 @@
       "조선 cycle 2027-28 정점 우려"
     ],
     "name": "삼성중공업",
-    "competitors": [],
-    "news": [],
+    "competitors": [
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 33,
+        "moat": "한국 조선 #1 LNG선·컨테이너 multi-segment 최강"
+      },
+      {
+        "name": "한화오션",
+        "ticker": "042660.KS",
+        "share_pct": 22,
+        "moat": "한화그룹 인수 후 방산(군함·잠수함) duo, 미국 Philly 인수"
+      },
+      {
+        "name": "삼성중공업",
+        "ticker": "010140.KS",
+        "share_pct": 18,
+        "moat": "FLNG·FSRU 독보 + 50MW FDC ABS·LR 인증 1순위"
+      },
+      {
+        "name": "Imabari (Japan)",
+        "ticker": "7012.T",
+        "share_pct": 12,
+        "moat": "일본 조선 #1, LNG선 한국 추격"
+      },
+      {
+        "name": "China State Shipbuilding",
+        "ticker": "private",
+        "share_pct": 25,
+        "moat": "국유 기업, 단가 경쟁력 + 컨테이너선 점유 #1"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-28",
+        "title": "삼성중공업, 50MW FDC ABS·LR 양대 인증 한국 최초",
+        "source": "DART 공시",
+        "summary": "글로벌 발주 파이프라인 진입권 확보, 첫 본계약 2026-Q3 협상 진행"
+      },
+      {
+        "date": "2026-04-18",
+        "title": "삼성중공업-Mousterian 美 FDC 공급 MOU",
+        "source": "DART 공시",
+        "summary": "미국 데이터센터 신축 대안으로 FDC 첫 계약 가시화"
+      },
+      {
+        "date": "2026-02-22",
+        "title": "4Q25 영업이익 1,580억 — 컨센서스 11% 상회",
+        "source": "연합뉴스",
+        "summary": "연속 4분기 흑자, 2025 연간 흑자 2,200억 확정"
+      },
+      {
+        "date": "2025-12-15",
+        "title": "2025 1H 영업이익 흑자전환 (영업이익률 5.1%)",
+        "source": "DART 공시",
+        "summary": "KOSPI 우량주 rerate 모멘텀 시작"
+      },
+      {
+        "date": "2025-09-08",
+        "title": "페트로나스 FLNG2 인도 완료",
+        "source": "DART 공시",
+        "summary": "FLNG 운영 track record 5건 누적"
+      }
+    ],
     "market_size": {
       "current_usd_bn": 25.0,
       "cagr_pct": 25.0,
@@ -58,35 +120,45 @@
         "revenue": 6587,
         "op_income": -1226,
         "op_margin_pct": -18.6,
-        "net_income": -919.5
+        "net_income": -919.5,
+        "op_margin": -18.6,
+        "net_margin": -14.0
       },
       {
         "year": 2022,
         "revenue": 8467,
         "op_income": -829,
         "op_margin_pct": -9.8,
-        "net_income": -621.8
+        "net_income": -621.8,
+        "op_margin": -9.8,
+        "net_margin": -7.3
       },
       {
         "year": 2023,
         "revenue": 9444,
         "op_income": 277,
         "op_margin_pct": 2.9,
-        "net_income": 207.8
+        "net_income": 207.8,
+        "op_margin": 2.9,
+        "net_margin": 2.2
       },
       {
         "year": 2024,
         "revenue": 9956,
         "op_income": 511,
         "op_margin_pct": 5.1,
-        "net_income": 383.2
+        "net_income": 383.2,
+        "op_margin": 5.1,
+        "net_margin": 3.8
       },
       {
         "year": 2025,
         "revenue": 11000,
         "op_income": 660,
         "op_margin_pct": 6.0,
-        "net_income": 495.0
+        "net_income": 495.0,
+        "op_margin": 6.0,
+        "net_margin": 4.5
       }
     ],
     "bs_snapshot": {
