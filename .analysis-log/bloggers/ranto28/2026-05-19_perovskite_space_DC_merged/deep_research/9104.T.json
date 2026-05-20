@@ -43,8 +43,70 @@
       "컨소시엄 4사 수익 분배"
     ],
     "name": "미쓰이 OSK 라인즈",
-    "competitors": [],
-    "news": [],
+    "competitors": [
+      {
+        "name": "Mitsui O.S.K. (MOL)",
+        "ticker": "9104.T",
+        "share_pct": 18,
+        "moat": "일본 3대 해운 + FDC 컨소시엄 first-mover"
+      },
+      {
+        "name": "NYK Line",
+        "ticker": "9101.T",
+        "share_pct": 22,
+        "moat": "일본 해운 #1, LNG 운반선 강자"
+      },
+      {
+        "name": "K Line",
+        "ticker": "9107.T",
+        "share_pct": 14,
+        "moat": "일본 해운 #3, 자동차운반선 강자"
+      },
+      {
+        "name": "Maersk",
+        "ticker": "MAERSK-B.CO",
+        "share_pct": 25,
+        "moat": "글로벌 컨테이너 #2"
+      },
+      {
+        "name": "HMM (현대상선)",
+        "ticker": "011200.KS",
+        "share_pct": 5,
+        "moat": "한국 해운 #1, 컨테이너 글로벌 #7"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-30",
+        "title": "MOL-Hitachi FDC MOU 공식 체결 — 9,731t PCTC 개조",
+        "source": "MOL IR",
+        "summary": "일본 4사(MOL·Hitachi·NYK·NTT) 컨소시엄 첫 본계약, 2027 가동"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "자동차운반선(PCTC) FDC 개조 프로젝트 실시 결정",
+        "source": "Nikkei",
+        "summary": "신축 5-7년 대비 6-8개월 개조 진행"
+      },
+      {
+        "date": "2025-12-22",
+        "title": "일본 GX 8조엔 자금 활용 발표",
+        "source": "日経新聞",
+        "summary": "일본 정부 FDC 컨소시엄 직접 지원"
+      },
+      {
+        "date": "2025-09-30",
+        "title": "3Q25 PCTC 자동차 운반 매출 정점 — 영업이익률 16.0%",
+        "source": "Nikkei",
+        "summary": "글로벌 EV·자동차 운송 수요 호조"
+      },
+      {
+        "date": "2025-06-14",
+        "title": "NTT-Hitachi-NYK 4사 컨소시엄 공식 출범",
+        "source": "PR Newswire",
+        "summary": "풀스택 일본 FDC (텔레콤+IT+해운+운항)"
+      }
+    ],
     "market_size": {
       "current_usd_bn": 15.0,
       "cagr_pct": 25.0,
@@ -58,35 +120,45 @@
         "revenue": 1006,
         "op_income": 76,
         "op_margin_pct": 7.6,
-        "net_income": 57.0
+        "net_income": 57.0,
+        "op_margin": 7.6,
+        "net_margin": 5.7
       },
       {
         "year": 2022,
         "revenue": 1268,
         "op_income": 213,
         "op_margin_pct": 16.8,
-        "net_income": 159.8
+        "net_income": 159.8,
+        "op_margin": 16.8,
+        "net_margin": 12.6
       },
       {
         "year": 2023,
         "revenue": 1612,
         "op_income": 258,
         "op_margin_pct": 16.0,
-        "net_income": 193.5
+        "net_income": 193.5,
+        "op_margin": 16.0,
+        "net_margin": 12.0
       },
       {
         "year": 2024,
         "revenue": 1700,
         "op_income": 250,
         "op_margin_pct": 14.7,
-        "net_income": 187.5
+        "net_income": 187.5,
+        "op_margin": 14.7,
+        "net_margin": 11.0
       },
       {
         "year": 2025,
         "revenue": 1750,
         "op_income": 260,
         "op_margin_pct": 14.9,
-        "net_income": 195.0
+        "net_income": 195.0,
+        "op_margin": 14.9,
+        "net_margin": 11.1
       }
     ],
     "bs_snapshot": {
