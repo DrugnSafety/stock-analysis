@@ -208,6 +208,38 @@ python3 plugins/report-suite/skills/unified-builder/scripts/build_combined.py ..
 
 ---
 
+## 🚀 v0.7.0 고도화 (2026-05-20 적용 완료) — LangSmith + Codex + Claude Code 호환
+
+### 신규 통합
+
+1. **LangSmith Tracing** (`plugins/specialist-agents/scripts/langsmith_wrapper.py`)
+   - `@traced_call` decorator로 모든 LLM call 자동 추적
+   - 미설치/미설정 시 graceful no-op (overhead 0)
+   - env 설정: `LANGSMITH_TRACING=true` + `LANGSMITH_API_KEY` + `LANGSMITH_PROJECT=stock-analysis`
+   - Dashboard: https://smith.langchain.com → stock-analysis project
+
+2. **codex-integration plugin** (`plugins/codex-integration/`)
+   - OpenAI Codex CLI subprocess 호출 (Claude Code 환경) 또는 OpenAI API 직접 호출 (Cowork)
+   - 2개 skill: codex-thesis-validator (Claude vs OpenAI cross-validation), codex-code-reviewer
+   - 환경 자동 감지 (`shutil.which("codex")` → CLI / OPENAI_API_KEY → API / none → error)
+
+3. **Claude Code 호환** (`CLAUDE_CODE_QUICKSTART.md`)
+   - macOS Terminal에서 `claude` 실행으로 동일 분석 가능
+   - Office-Home 동기화는 GitHub repo (.env는 별도 보관)
+   - 5분 셋업 가이드 + Cowork와 환경 비교 표
+
+### 통합 사용 예시 (Claude Code 환경)
+
+```bash
+cd ~/stock-analysis  # GitHub clone
+claude                # Claude Code 시작
+# Claude Code 내부에서:
+> /analyze-blog https://blog.naver.com/ranto28/...
+> # 자동으로 specialist-agents → codex cross-validation → LangSmith trace → PDF 빌드
+```
+
+---
+
 ## 🚀 v0.6.0 고도화 (2026-05-20 적용 완료) — Tier 2 Specialist Agents
 
 ### specialist-agents plugin 신설
