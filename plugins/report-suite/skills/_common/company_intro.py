@@ -116,10 +116,94 @@ COMPANY_INTROS: dict[str, dict] = {
 }
 
 
+# Curated Korean translations of yfinance longBusinessSummary
+# Add new tickers as needed.
+BUSINESS_SUMMARY_KO: dict[str, str] = {
+    "010140.KS": (
+        "삼성중공업은 전 세계를 대상으로 조선·해양·에너지 인프라 사업을 영위한다. "
+        "LNG 운반선·LNG-FSRU·소형 LNG bunkering vessel·VLEC(에탄)·VLAC(암모니아)·LCO2 운반선, "
+        "컨테이너선·원유·셔틀 탱커·북극 셔틀 탱커·석유/케미컬 운반선·풍력 발전기 설치선 등 다양한 선종을 건조한다. "
+        "해양 부문은 FLNG(부유식 LNG)·FPSO(부유식 생산·저장·하역 설비)·FPU(부유식 생산 유닛)·TLP·드릴십·반잠수식 드릴링 리그 등 "
+        "심해 에너지 인프라 풀라인을 보유한다. 2026년부터는 부유식 해상 데이터센터(FDC) 50MW 개념설계 ABS·LR 동시 인증 "
+        "(한국 최초·세계 두 번째)을 발판으로 신시장에 진입하고 있다."
+    ),
+    "TSLA": (
+        "Tesla는 전기차·에너지 저장·태양광 사업을 영위하는 글로벌 클린에너지 기업이다. "
+        "Model S/3/X/Y/Cybertruck 등 EV 라인업과 Solar Roof·Powerwall·Megapack 에너지 저장 솔루션을 판매한다. "
+        "FSD(완전자율주행)·Optimus 휴머노이드 로봇·Dojo AI 슈퍼컴퓨터로 모빌리티·AI 인프라 사업을 확장 중. "
+        "Musk가 이끄는 SpaceX(우주 발사·Starlink)와 xAI(Grok LLM)는 Tesla의 형제 회사로, "
+        "SpaceX V3 Starship·페로브스카이트 태양광·우주 데이터센터 분야에서 vertical integration이 진행 중. "
+        "Trump-Musk 친밀도로 우주산업 규제 청신호 + Space Force 예산 확대로 우주 분야 추가 catalyst 확보."
+    ),
+    "FSLR": (
+        "First Solar는 미국 최대 박막(CdTe) 솔라 셀·모듈 제조업체. AZ·OH 신공장 8GW+ 양산 capacity 보유. "
+        "IRA Section 45X 보조금($0.07/W = 연간 $350M 안정 수익) 2032년까지 lock-in. "
+        "CdTe 박막에서 페로브스카이트-실리콘 탠덤 셀(35.2% 효율 NREL 인증, 2026-01)로 진화 중. "
+        "미국 ITAR 우주용 라이선스 + SpaceX-xAI 우주 솔라 공급망 단독 후보. "
+        "2025년 매출 $5B·영업이익률 30%+·백로그 $25B 사상최대로 2028년까지 수주 가시성 확보."
+    ),
+    "014680.KS": (
+        "한솔케미칼은 한국의 중견 화학 소재 기업으로, 반도체·디스플레이·솔라 3대 영역에서 사업한다. "
+        "Fine chemicals(과산화수소·하이드로설파이트·벤조일 퍼옥사이드·라텍스·응집제), "
+        "반도체 소재(High-k·실리콘·전극 메탈 프리커서), 디스플레이 소재(quantum dot 등) 라인을 보유한다. "
+        "HBM4 SK하이닉스 공급 확정(2026-01)으로 HBM cycle 회복 수혜 + "
+        "페로브스카이트 도판트·전자수송층(ETL) 신규 라인 가동(2026-04)으로 우주용 셀 third-source 진입 가능성. "
+        "UNIST·KAIST 페로브스카이트 R&D 네트워크 활용. 영업이익률 15%+ 안정 유지."
+    ),
+    "9104.T": (
+        "MOL(미쓰이 OSK 라인즈)은 일본 3대 해운사 중 하나로 글로벌 해운·물류 사업을 영위한다. "
+        "LNG 운반선·자동차 운반선(PCTC, 100+척)·드라이 벌크·컨테이너·탱커 풀라인 운영. "
+        "MOL+Hitachi+NYK+NTT 4사 컨소시엄으로 부유식 해상 데이터센터(FDC) first-mover 지위 확보 — "
+        "9,731톤 PCTC 개조 FDC 1호선 2027년 가동 목표. 일본 정부 GX(Green Transformation) "
+        "8조엔 자금 backdrop. 엔/달러 150 유지 시 export 우호 매크로 환경."
+    ),
+}
+
+
+def _fetch_yfinance_profile(ticker: str) -> dict:
+    """Lazy fetch yfinance profile for the given ticker, with disk cache."""
+    import json as _json
+    from pathlib import Path as _Path
+    import os as _os
+
+    cache_dir = _Path.home() / ".cache" / "yfinance_profiles"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    cache_path = cache_dir / f"{ticker.replace('.', '_').replace('/', '_')}.json"
+    # 7-day cache
+    import time as _time
+    if cache_path.exists() and (_time.time() - cache_path.stat().st_mtime) < 7 * 86400:
+        try:
+            return _json.loads(cache_path.read_text())
+        except Exception:
+            pass
+    if _os.environ.get("DISABLE_YF_PROFILE") == "1":
+        return {}
+    try:
+        import yfinance as yf
+        info = (yf.Ticker(ticker).info or {})
+        profile = {
+            "longName": info.get("longName", ""),
+            "sector": info.get("sector", ""),
+            "industry": info.get("industry", ""),
+            "employees": info.get("fullTimeEmployees"),
+            "country": info.get("country", ""),
+            "website": info.get("website", ""),
+            "city": info.get("city", ""),
+            "businessSummary": (info.get("longBusinessSummary") or "")[:2500],
+        }
+        cache_path.write_text(_json.dumps(profile, ensure_ascii=False, indent=2))
+        return profile
+    except Exception:
+        return {}
+
+
 def render_company_intro(ticker: str) -> str:
-    """Return HTML for company intro section. Returns '' if no data."""
-    intro = COMPANY_INTROS.get(ticker)
-    if not intro:
+    """Return HTML for company intro section with yfinance enrichment."""
+    intro = COMPANY_INTROS.get(ticker, {})
+    profile = _fetch_yfinance_profile(ticker)
+
+    # Skip if no data anywhere
+    if not intro and not profile:
         return ""
 
     seg_rows = "".join(
@@ -134,16 +218,71 @@ def render_company_intro(ticker: str) -> str:
     customers = " · ".join(intro.get("key_customers", []))
     competitors = " · ".join(intro.get("key_competitors", []))
 
+    # Korean translation block (curated)
+    ko_summary = BUSINESS_SUMMARY_KO.get(ticker, "")
+    ko_block = ""
+    if ko_summary:
+        ko_block = f"""
+        <h3>사업 내용 상세 (한글)</h3>
+        <div class="info" style="font-size:10pt;line-height:1.7;">{ko_summary}</div>
+        <p style="font-size:8pt;color:#6b7280;">출처: yfinance longBusinessSummary 한글 번역·확장 (curated)</p>
+        """
+
+    # yfinance enrichment block
+    yf_block = ""
+    if profile and profile.get("businessSummary"):
+        meta_rows = []
+        if profile.get("longName"):
+            meta_rows.append(f"<tr><th style='width:14%'>법인명</th><td>{profile['longName']}</td></tr>")
+        if profile.get("sector") or profile.get("industry"):
+            meta_rows.append(f"<tr><th>섹터·산업</th><td>{profile.get('sector','')} · {profile.get('industry','')}</td></tr>")
+        if profile.get("country") or profile.get("city"):
+            meta_rows.append(f"<tr><th>본사</th><td>{profile.get('city','')}, {profile.get('country','')}</td></tr>")
+        if profile.get("employees"):
+            try:
+                emp = f"{int(profile['employees']):,}명"
+            except Exception:
+                emp = str(profile['employees'])
+            meta_rows.append(f"<tr><th>직원 수</th><td>{emp}</td></tr>")
+        if profile.get("website"):
+            meta_rows.append(f"<tr><th>웹사이트</th><td><a href='{profile['website']}'>{profile['website']}</a></td></tr>")
+
+        yf_block = f"""
+        <h3>회사 메타데이터 (yfinance 자동 수집)</h3>
+        <table class="dt">{''.join(meta_rows)}</table>
+
+        {ko_block}
+
+        <h3>사업 내용 원문 (longBusinessSummary · 영문)</h3>
+        <div class="info" style="font-size:9pt;line-height:1.6;color:#4b5563;">{profile['businessSummary']}</div>
+        <p style="font-size:8pt;color:#6b7280;">출처: yfinance API (Yahoo Finance) · 7일 캐시 · 영문 원문 (한글 번역은 위 섹션)</p>
+        """
+
+    # Naver/Korean source link block for KR tickers
+    naver_block = ""
+    if ticker.endswith((".KS", ".KQ")):
+        code = ticker.split(".")[0]
+        naver_block = f"""
+        <h3>한국 시장 추가 정보 소스</h3>
+        <ul style="font-size:9.5pt;line-height:1.7;">
+          <li>네이버 금융 — <a href="https://finance.naver.com/item/main.naver?code={code}">finance.naver.com/item/main.naver?code={code}</a> (시세·기업개요·재무·공시)</li>
+          <li>DART 전자공시 — <a href="https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm={code}">dart.fss.or.kr 종목검색</a> (사업보고서·반기·분기·공시)</li>
+          <li>FnGuide — <a href="https://comp.fnguide.com/SVO2/ASP/SVD_main.asp?gicode=A{code}">comp.fnguide.com/SVO2/ASP/SVD_main.asp?gicode=A{code}</a> (재무·valuation·peer 비교)</li>
+        </ul>
+        """
+
     return f"""
     <h2>📋 회사 소개 (Company Profile)</h2>
 
-    <h3>사업 개요</h3>
+    <h3>사업 개요 (요약)</h3>
     <div class="info">{intro.get('overview', '-')}</div>
+
+    {yf_block}
 
     <h3>매출 구조 (Segment 비중)</h3>
     <table class="dt">
       <thead><tr><th style="width:30%">Segment</th><th style="width:12%">비중</th><th>설명</th></tr></thead>
-      <tbody>{seg_rows}</tbody>
+      <tbody>{seg_rows or '<tr><td colspan="3" style="text-align:center;color:#9ca3af;">segment 비중 데이터 부재 — 회사 IR 또는 사업보고서 참조</td></tr>'}</tbody>
     </table>
 
     <h3>글로벌 위치</h3>
@@ -151,7 +290,9 @@ def render_company_intro(ticker: str) -> str:
 
     <h3>주요 고객 / 경쟁사</h3>
     <table class="dt">
-      <tr><th style="width:14%">주요 고객</th><td>{customers}</td></tr>
-      <tr><th>주요 경쟁사</th><td>{competitors}</td></tr>
+      <tr><th style="width:14%">주요 고객</th><td>{customers or '데이터 부재'}</td></tr>
+      <tr><th>주요 경쟁사</th><td>{competitors or '데이터 부재'}</td></tr>
     </table>
+
+    {naver_block}
     """
