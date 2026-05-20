@@ -2,20 +2,40 @@
 
 > 네이버 블로그 (메르·의교창·DaeGurr 등 8명) 또는 사용자 지정 종목에 대해 **13명 페르소나 패널 + 4-Analyst + Risk·Portfolio Manager + Backtester** 통합 분석을 수행하고 **Deep Research 형식의 단일 통합 PDF 보고서**를 자동 생성합니다.
 
-**현재 버전**: v0.5.0 (2026-05-11)
+**현재 버전**: v0.6.0 (2026-05-20)
 
 ---
 
 ## ✨ 주요 기능
 
 ### 코어 분석
-- **다중 종목 분석**: Top 3-5 종목 동시 보고서 생성 (각 60-69 페이지)
+- **다중 종목 분석**: Top 3-5 종목 동시 보고서 생성 (각 60-70+ 페이지)
 - **13명 legendary 투자자 패널**: Buffett·Munger·Lynch·Wood·Burry·Taleb·Graham·Ackman·Pabrai·Fisher·Jhunjhunwala·Druckenmiller·Damodaran
 - **4-Analyst 평가**: Macro / Industry / Empirical / Counter-thesis
+- **Specialist Agents (Tier 2)**: Research Manager · Sentiment Analyst · Earnings Reviewer · Model Builder
 - **Multi-model arena**: Claude + OpenAI gpt-5.5 + Gemini 3.1
 - **Backtester**: 과거 verdict 적중률 + KOSPI/SPY 대비 alpha
 
-### v0.5.0 신규 기능
+### v0.6.0 신규 기능 (2026-05-20)
+
+- **specialist-agents plugin 신설** (Anthropic Financial Services Agents 2026-05 + TradingAgents 0.2.4 + LangAlpha 패턴 차용):
+  - 🧭 **Research Manager** — sector·issuer 동향 종합 + tailwinds/headwinds + credit risk flags
+  - 💭 **Sentiment Analyst** — news impact aggregation (30d/90d/365d) + trend + overheat 경고
+  - 📊 **Earnings Reviewer** — YoY revenue·op_margin·net_income + thesis impact 자동 추출 + 경영진 톤
+  - 📐 **Model Builder** — DCF + Reverse-DCF + Bull/Base/Bear scenario + L/S signal
+- **Checkpoint Manager** (`plugins/specialist-agents/scripts/checkpoint_manager.py`):
+  - 10-stage canonical pipeline (collect_blog → sync) 진행 상태 영구 저장
+  - Cowork 45s timeout 발생 시 중단점에서 자동 재개
+- **Multi-Provider Router** (`plugins/specialist-agents/scripts/provider_router.py`):
+  - 3-tier 자동 라우팅 (cheap → mid → premium) by task complexity
+  - 비용 절감 ~83% (typical analysis $12.62 → $2.08)
+- **Plugin 안정성 패치 (v0.5.x → v0.6.0)**:
+  - `build_r1.py`·`build_r2.py`: `claim_id`/`id`, `thesis_id`/`claim_id`, `rebut`/`challenge` 다중 schema fallback
+  - `deep_research.py`: peer_compare `_fmt()` 헬퍼 (None/string graceful handling), pl_5y OPM/NPM fallback chain + 5Y trend narrative (CAGR · OPM trajectory · turnaround signal · op→np gap)
+  - `company_intro.py`: yfinance longBusinessSummary 자동 fetch + 7일 캐시 + **한글 번역본** (BUSINESS_SUMMARY_KO 5종목)
+  - `news_disclosures.py`: 5종목 curated NEWS_TIMELINE entry 25건 추가
+
+### v0.5.0 기능
 - **5년 + 5분기 US-GAAP 재무제표 자동 분석** (`financial_statements_us_gaap.py`):
   - SEC EDGAR (미국) + DART (한국 K-IFRS → US GAAP equivalent) 통합 fetch
   - ASC 220 / 210 / 230 (US GAAP) 형식 Income Statement / Balance Sheet / Cash Flow
