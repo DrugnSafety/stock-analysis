@@ -1,0 +1,67 @@
+{
+  "000660.KS": {
+    "ticker": "000660.KS",
+    "name": "SK하이닉스",
+    "volatility_annualized_pct": 66.37,
+    "vol_multiplier": 0.75,
+    "correlation_multiplier": 0.85,
+    "base_limit_pct": 8.0,
+    "final_limit_pct": 5.1,
+    "final_limit_usd": 5100.0,
+    "currency": "KRW",
+    "as_of": "2026-05-22",
+    "method": "60-day rolling stdev annualized; vol_mult * corr_mult applied"
+  },
+  "MU": {
+    "ticker": "MU",
+    "name": "마이크론",
+    "volatility_annualized_pct": 61.88,
+    "vol_multiplier": 0.75,
+    "correlation_multiplier": 0.85,
+    "base_limit_pct": 8.0,
+    "final_limit_pct": 5.1,
+    "final_limit_usd": 5100.0,
+    "currency": "USD",
+    "as_of": "2026-05-22",
+    "method": "60-day rolling stdev annualized; vol_mult * corr_mult applied"
+  },
+  "005930.KS": {
+    "ticker": "005930.KS",
+    "name": "삼성전자",
+    "volatility_annualized_pct": 51.91,
+    "vol_multiplier": 1.0,
+    "correlation_multiplier": 0.85,
+    "base_limit_pct": 8.0,
+    "final_limit_pct": 6.8,
+    "final_limit_usd": 6800.0,
+    "currency": "KRW",
+    "as_of": "2026-05-22",
+    "method": "60-day rolling stdev annualized; vol_mult * corr_mult applied"
+  },
+  "AMD": {
+    "ticker": "AMD",
+    "name": "AMD",
+    "volatility_annualized_pct": 62.71,
+    "vol_multiplier": 0.75,
+    "correlation_multiplier": 1.0,
+    "base_limit_pct": 8.0,
+    "final_limit_pct": 6.0,
+    "final_limit_usd": 6000.0,
+    "currency": "USD",
+    "as_of": "2026-05-22",
+    "method": "60-day rolling stdev annualized; vol_mult * corr_mult applied"
+  },
+  "042700.KS": {
+    "ticker": "042700.KS",
+    "name": "HANMI Semiconductor Co., Ltd.",
+    "volatility_annualized_pct": 83.06,
+    "vol_multiplier": 0.5,
+    "correlation_multiplier": 0.8,
+    "base_limit_pct": 8.0,
+    "final_limit_pct": 3.2,
+    "final_limit_usd": 3200.0,
+    "currency": "KRW",
+    "as_of": "2026-05-22",
+    "method": "60-day rolling stdev annualized; vol_mult * corr_mult applied"
+  }
+}
