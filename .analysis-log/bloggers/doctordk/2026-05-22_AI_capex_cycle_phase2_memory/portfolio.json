@@ -1,0 +1,129 @@
+{
+  "as_of": "2026-05-22",
+  "portfolio_value_usd": 100000.0,
+  "currency_base": "USD",
+  "fx_rates": {
+    "KRW_USD": 0.000725
+  },
+  "positions": [
+    {
+      "ticker": "000660.KS",
+      "name": "SK하이닉스",
+      "shares": 2,
+      "entry_price_local": 1941000.0,
+      "entry_price_usd": 1407.225,
+      "currency": "KRW",
+      "position_value_usd": 2814.45,
+      "position_pct": 2.81,
+      "entry_date": "2026-05-22",
+      "action": "BUY"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "shares": 3,
+      "entry_price_local": 766.2,
+      "entry_price_usd": 766.2,
+      "currency": "USD",
+      "position_value_usd": 2298.6,
+      "position_pct": 2.3,
+      "entry_date": "2026-05-22",
+      "action": "BUY"
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "삼성전자",
+      "shares": 17,
+      "entry_price_local": 292500.0,
+      "entry_price_usd": 212.0625,
+      "currency": "KRW",
+      "position_value_usd": 3605.06,
+      "position_pct": 3.61,
+      "entry_date": "2026-05-22",
+      "action": "BUY"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "shares": 6,
+      "entry_price_local": 470.22,
+      "entry_price_usd": 470.22,
+      "currency": "USD",
+      "position_value_usd": 2821.32,
+      "position_pct": 2.82,
+      "entry_date": "2026-05-22",
+      "action": "BUY"
+    },
+    {
+      "ticker": "042700.KS",
+      "name": "한미반도체",
+      "shares": 3,
+      "entry_price_local": 320500.0,
+      "entry_price_usd": 232.3625,
+      "currency": "KRW",
+      "position_value_usd": 697.09,
+      "position_pct": 0.7,
+      "entry_date": "2026-05-22",
+      "action": "BUY"
+    }
+  ],
+  "summary": {
+    "total_target_usd": 12236.52,
+    "total_target_pct": 12.24,
+    "num_positions": 5,
+    "cash_remainder_usd": 87763.48,
+    "cash_remainder_pct": 87.76
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-22",
+      "ticker": "000660.KS",
+      "action": "BUY",
+      "shares": 2,
+      "price_local": 1941000.0,
+      "price_usd": 1407.225,
+      "value_usd": 2814.45,
+      "rationale": "Consensus very_bullish (score 4.0/5), average confidence 0.745. Position size = limit $5,100 x weight 1.0 x conf 0.745."
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "MU",
+      "action": "BUY",
+      "shares": 3,
+      "price_local": 766.2,
+      "price_usd": 766.2,
+      "value_usd": 2298.6,
+      "rationale": "Consensus bullish (score 3.23/5), average confidence 0.675. Position size = limit $5,100 x weight 0.8 x conf 0.675."
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "005930.KS",
+      "action": "BUY",
+      "shares": 17,
+      "price_local": 292500.0,
+      "price_usd": 212.0625,
+      "value_usd": 3605.06,
+      "rationale": "Consensus bullish (score 3.46/5), average confidence 0.686. Position size = limit $6,800 x weight 0.8 x conf 0.686."
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "AMD",
+      "action": "BUY",
+      "shares": 6,
+      "price_local": 470.22,
+      "price_usd": 470.22,
+      "value_usd": 2821.32,
+      "rationale": "Consensus bullish (score 3.15/5), average confidence 0.649. Position size = limit $6,000 x weight 0.8 x conf 0.649."
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "042700.KS",
+      "action": "BUY",
+      "shares": 3,
+      "price_local": 320500.0,
+      "price_usd": 232.3625,
+      "value_usd": 697.09,
+      "rationale": "Consensus lean_bullish (score 2.62/5), average confidence 0.572. Position size = limit $3,200 x weight 0.5 x conf 0.572."
+    }
+  ]
+}
