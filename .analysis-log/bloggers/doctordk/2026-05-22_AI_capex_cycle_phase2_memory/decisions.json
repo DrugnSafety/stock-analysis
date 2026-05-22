@@ -1,0 +1,122 @@
+{
+  "computed_at": "2026-05-22T21:10:27.170848",
+  "risk_limits_path": ".analysis-log/bloggers/doctordk/2026-05-22_AI_capex_cycle_phase2_memory/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "000660.KS",
+      "name": "SK하이닉스",
+      "date": "2026-05-22",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "very_bullish": 5,
+        "bullish": 4,
+        "lean_bullish": 3,
+        "neutral": 1,
+        "lean_bearish": 0,
+        "bearish": 0
+      },
+      "signal_score": 0.75,
+      "weighted_confidence": 0.745,
+      "action": "STRONG_BUY",
+      "action_desc": "강한 매수 권장",
+      "target_quantity": 2,
+      "target_value_local": 5243310.0,
+      "target_value_pct_portfolio": 3.8,
+      "max_quantity_per_risk": 3,
+      "rationale": "Consensus very_bullish (score 4.0/5), average confidence 0.745. Position size = limit $5,100 x weight 1.0 x conf 0.745."
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "date": "2026-05-22",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "very_bullish": 1,
+        "bullish": 5,
+        "lean_bullish": 4,
+        "neutral": 2,
+        "lean_bearish": 1,
+        "bearish": 0
+      },
+      "signal_score": 0.5,
+      "weighted_confidence": 0.675,
+      "action": "ACCUMULATE",
+      "action_desc": "분할 매수 권장",
+      "target_quantity": 3,
+      "target_value_local": 2754.0,
+      "target_value_pct_portfolio": 2.75,
+      "max_quantity_per_risk": 6,
+      "rationale": "Consensus bullish (score 3.23/5), average confidence 0.675. Position size = limit $5,100 x weight 0.8 x conf 0.675."
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "삼성전자",
+      "date": "2026-05-22",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "very_bullish": 0,
+        "bullish": 8,
+        "lean_bullish": 3,
+        "neutral": 2,
+        "lean_bearish": 0,
+        "bearish": 0
+      },
+      "signal_score": 0.5,
+      "weighted_confidence": 0.686,
+      "action": "ACCUMULATE",
+      "action_desc": "분할 매수 권장",
+      "target_quantity": 17,
+      "target_value_local": 5149939.2,
+      "target_value_pct_portfolio": 3.73,
+      "max_quantity_per_risk": 32,
+      "rationale": "Consensus bullish (score 3.46/5), average confidence 0.686. Position size = limit $6,800 x weight 0.8 x conf 0.686."
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "date": "2026-05-22",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "very_bullish": 3,
+        "bullish": 3,
+        "lean_bullish": 4,
+        "neutral": 1,
+        "lean_bearish": 0,
+        "bearish": 2
+      },
+      "signal_score": 0.5,
+      "weighted_confidence": 0.649,
+      "action": "ACCUMULATE",
+      "action_desc": "분할 매수 권장",
+      "target_quantity": 6,
+      "target_value_local": 3115.2,
+      "target_value_pct_portfolio": 3.12,
+      "max_quantity_per_risk": 12,
+      "rationale": "Consensus bullish (score 3.15/5), average confidence 0.649. Position size = limit $6,000 x weight 0.8 x conf 0.649."
+    },
+    {
+      "ticker": "042700.KS",
+      "name": "한미반도체",
+      "date": "2026-05-22",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "very_bullish": 0,
+        "bullish": 5,
+        "lean_bullish": 2,
+        "neutral": 4,
+        "lean_bearish": 0,
+        "bearish": 2
+      },
+      "signal_score": 0.25,
+      "weighted_confidence": 0.572,
+      "action": "ACCUMULATE",
+      "action_desc": "분할 매수 권장",
+      "target_quantity": 3,
+      "target_value_local": 1262976.0,
+      "target_value_pct_portfolio": 0.92,
+      "max_quantity_per_risk": 13,
+      "rationale": "Consensus lean_bullish (score 2.62/5), average confidence 0.572. Position size = limit $3,200 x weight 0.5 x conf 0.572."
+    }
+  ]
+}
