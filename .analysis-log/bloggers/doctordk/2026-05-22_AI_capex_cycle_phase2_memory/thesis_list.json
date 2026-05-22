@@ -1,0 +1,108 @@
+{
+  "source": {
+    "blogger": "doctordk (의교창)",
+    "post_url": "https://blog.naver.com/doctordk/224293333701",
+    "title": "AI CapEx 사이클 1단계에서 2단계로 넘어가는 초입",
+    "published_at": "2026-05-22",
+    "extracted_at": "2026-05-22T16:00:00+09:00"
+  },
+  "extraction_method": "claude-opus-4-7 thesis extraction from full body (2750 chars)",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "thesis": "AI 시장은 Training Era(GPU+HBM 중심)에서 Agentic/Inference Era(전 시스템 병목)로 구조적 전환에 진입하고 있다.",
+      "type": "predictive",
+      "timeframe": "medium_term (12-24M)",
+      "supporting_evidence": "필자가 'AI CapEx 사이클의 1단계에서 2단계로 넘어가는 초입'으로 시장 단계를 정의. Vera Rubin 플랫폼 출시 임박이 inflection point.",
+      "confidence": 0.78,
+      "directionality": "positive_for_memory_full_stack",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T02",
+      "thesis": "AI 서버의 GPU:CPU 비율이 과거 8:1에서 장기적으로 1:1 수준까지 이동하며 CPU 수요가 폭발적으로 증가한다.",
+      "type": "predictive",
+      "timeframe": "long_term (3-5Y)",
+      "supporting_evidence": "필자가 직접 언급, AMD가 서버 CPU 시장 전망을 2030년 600억 → 1,200억 달러로 2배 상향 조정한 점이 시장 인식 변화의 증거.",
+      "confidence": 0.72,
+      "directionality": "positive_for_AMD_INTC_server_CPU",
+      "importance": "supporting"
+    },
+    {
+      "claim_id": "T03",
+      "thesis": "AMD CEO Lisa Su가 CPU 시장이 향후 5년간 매년 35% 이상 성장한다고 전망. CPU 시장 TAM 자체가 2030년 1,200억 달러로 2배 상향됨.",
+      "type": "factual",
+      "timeframe": "medium_term (12-36M)",
+      "supporting_evidence": "Lisa Su 공식 발언 인용, 시장 컨센서스의 구조적 재평가 신호.",
+      "confidence": 0.85,
+      "directionality": "positive_for_AMD",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T04",
+      "thesis": "Agentic AI 확산은 단일 GPU 병목 해결이 아닌 전 시스템(CPU, Server DRAM, SOCAMM, eSSD, 기판, 패키징) 동시 공급 부족을 유발한다.",
+      "type": "predictive",
+      "timeframe": "medium_term (12-36M)",
+      "supporting_evidence": "메모리 부족이 단순 HBM에서 Server DRAM, SOCAMM, eSSD, 기판으로 확산. 인터커넥트·서버 플랫폼 전체 동시 확장 필요.",
+      "confidence": 0.8,
+      "directionality": "positive_for_memory_substrate_supply_chain",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T05",
+      "thesis": "Nvidia Vera Rubin 출하만 고려해도 2027년 LPDDR 총수요는 9,084PB로, 전 세계 스마트폰 연간 LPDDR 출하량(11.9억 대)과 동일 규모이다.",
+      "type": "predictive",
+      "timeframe": "medium_term (24-36M)",
+      "supporting_evidence": "Vera Rubin 2027년 출하량 기준 LPDDR 수요 9,084PB로 정량 추정. 데이터센터가 스마트폰 산업과 메모리 수요 경쟁 단계.",
+      "confidence": 0.7,
+      "directionality": "positive_for_memory_makers_Samsung_SKhynix_Micron",
+      "importance": "supporting"
+    },
+    {
+      "claim_id": "T06",
+      "thesis": "Nvidia가 Vera CPU 외부 판매 본격화 시 추가 6,144PB LPDDR 수요가 발생할 가능성. 메모리 공급망 전체가 재편되는 변곡점.",
+      "type": "conditional",
+      "timeframe": "medium_term (24M)",
+      "supporting_evidence": "Vera CPU 독립 랙 외판 가능성. 본격화되지 않은 옵셔널 수요로 upside 시나리오에 해당.",
+      "confidence": 0.55,
+      "directionality": "positive_optionality_for_LPDDR",
+      "importance": "supporting"
+    },
+    {
+      "claim_id": "T07",
+      "thesis": "SOCAMM 기판 시장은 2025년 1,417억원에서 2027년 3,410억원으로 2.4배 성장. Nvidia 외판 본격화 시 추가 2,800억원 신규 시장 형성.",
+      "type": "predictive",
+      "timeframe": "medium_term (24-36M)",
+      "supporting_evidence": "Vera CPU 랙당 SOCAMM 모듈 수 2,048개로 기존 서버랙 288개 대비 7배 증가. 기판 산업 직접 수혜.",
+      "confidence": 0.65,
+      "directionality": "positive_for_SOCAMM_substrate_simmtec_daeduck",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T08",
+      "thesis": "AI 시대 메모리 산업은 과거 시클리컬(호황기 흑자·불황기 적자 반복)에서 전력망 같은 '인프라 산업'으로 구조가 변화한다.",
+      "type": "normative",
+      "timeframe": "long_term (3-5Y)",
+      "supporting_evidence": "메모리 업체들의 3-5년 장기계약 비중 확대, 재무보증·선불금 지급·생산라인 투자 지원 포함. 시장은 실적 변동성 축소에 높은 밸류에이션 부여.",
+      "confidence": 0.72,
+      "directionality": "positive_for_memory_PE_re-rating",
+      "importance": "core"
+    }
+  ],
+  "metadata": {
+    "total_theses": 8,
+    "type_distribution": {
+      "factual": 1,
+      "predictive": 5,
+      "normative": 1,
+      "conditional": 1
+    },
+    "timeframe_distribution": {
+      "short_term": 0,
+      "medium_term": 6,
+      "long_term": 2
+    },
+    "overall_thesis_strength": "high",
+    "key_inflection": "AI 메모리 시클리컬 → 인프라 산업 구조 전환"
+  }
+}
