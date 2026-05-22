@@ -1,0 +1,264 @@
+{
+  "name": "AMD (Advanced Micro Devices)",
+  "industry": {
+    "name": "Server CPU + AI Accelerator",
+    "overview": "EPYC 서버 CPU 시장 점유율 30%+ 돌파 (Mercury Research 2025). Lisa Su가 서버 CPU TAM 2030년 1,200억 달러로 2배 상향 (시장 컨센서스의 구조적 재평가 신호). MI300X·MI400 AI 가속기 라인업으로 Nvidia 대안 포지션 강화. TSMC N3·N2 노드 우선권 확보.",
+    "competitors": [
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "role": "서버 CPU 1위 (점유율 65%, 하락 추세)",
+        "share_pct": 65.0,
+        "moat": "x86 lock-in (해체 중)"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "role": "AI 가속기 90%+ 점유율",
+        "share_pct": 90.0,
+        "moat": "CUDA ecosystem"
+      }
+    ],
+    "tam_2030_bn_usd": 120,
+    "growth_cagr_pct": 35,
+    "thesis_alignment": "very_high"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 16434,
+        "op_income": 3648,
+        "op_margin": 22.2,
+        "net_income": 3162,
+        "net_margin": 19.2,
+        "unit": "$M"
+      },
+      {
+        "year": 2022,
+        "revenue": 23601,
+        "op_income": 1264,
+        "op_margin": 5.4,
+        "net_income": 1320,
+        "net_margin": 5.6
+      },
+      {
+        "year": 2023,
+        "revenue": 22680,
+        "op_income": 401,
+        "op_margin": 1.8,
+        "net_income": 854,
+        "net_margin": 3.8
+      },
+      {
+        "year": 2024,
+        "revenue": 25785,
+        "op_income": 1900,
+        "op_margin": 7.4,
+        "net_income": 1641,
+        "net_margin": 6.4
+      },
+      {
+        "year": 2025,
+        "revenue": 35000,
+        "op_income": 5800,
+        "op_margin": 16.6,
+        "net_income": 4500,
+        "net_margin": 12.9,
+        "note": "estimated"
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 67800,
+      "total_debt": 1700,
+      "cash_and_equiv": 5200,
+      "total_equity": 56700,
+      "unit": "$M",
+      "as_of": "2025Q1"
+    },
+    "cf_summary": {
+      "ocf_2024": 3300,
+      "capex_2024": -650,
+      "fcf_2024": 2650,
+      "unit": "$M"
+    },
+    "peer_compare": [
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "pe": 36.28,
+        "pb": 4.5,
+        "roe": 3.8,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "pe": 5.56,
+        "pb": 1.2,
+        "roe": 18.2,
+        "div_yield": 2.1
+      }
+    ],
+    "trend_narrative_5y": "2022 메모리/PC 둔화로 OPM 5%대 → 2023 저점 → 2024-2025 데이터센터 매출 YoY +120% (Q1 2025)으로 V자 회복. 2025E 매출 $35B (+36% YoY), OPM 16.6%. Lisa Su 1,200억 달러 TAM 발표 후 시장 재평가.",
+    "5y_revenue_cagr": 16.4,
+    "5y_opm_trajectory": "recovery: 22.2% → 1.8% → 16.6%"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "EPYC Turin 본격 ramp + MI400 출시 + Intel 점유율 잠식 가속",
+      "key_assumptions": [
+        "서버 CPU 점유율 40%",
+        "MI400 Nvidia 대안"
+      ],
+      "target_price": 728
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "서버 CPU 점진적 점유율 확대 + AI GPU 안정 성장",
+      "key_assumptions": [
+        "EPYC Turin Tier1 채택"
+      ],
+      "target_price": 564
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "PE 36x AI 거품 + ARM 서버 CPU 위협",
+      "key_assumptions": [
+        "ARM 서버 CPU (Graviton) 가속",
+        "AI 거품 burst"
+      ],
+      "target_price": 329
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026Q3",
+      "event": "EPYC Turin 본격 양산",
+      "type": "company",
+      "expected_impact": "+15%",
+      "description": "EPYC Turin 본격 양산"
+    },
+    {
+      "date": "2026H2",
+      "event": "MI400 출시",
+      "type": "company",
+      "expected_impact": "+20%",
+      "description": "MI400 출시"
+    },
+    {
+      "date": "2027",
+      "event": "Vera Rubin 대안 platform 본격화",
+      "type": "company",
+      "expected_impact": "+15%",
+      "description": "Vera Rubin 대안 platform 본격화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Fwd PE 36x 높음, 1Y 324% 과열",
+      "probability": "high",
+      "impact": "med",
+      "description": "Fwd PE 36x 높음, 1Y 324% 과열",
+      "category": "valuation",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "ARM 서버 CPU (Graviton, Cobalt) 위협",
+      "probability": "high",
+      "impact": "med",
+      "description": "ARM 서버 CPU (Graviton, Cobalt) 위협",
+      "category": "competitive",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "TSMC N3 capacity 제약",
+      "probability": "med",
+      "impact": "med",
+      "description": "TSMC N3 capacity 제약",
+      "category": "supply",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "AI capex 둔화",
+      "probability": "med",
+      "impact": "med",
+      "description": "AI capex 둔화",
+      "category": "macro",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI Inference Era 전환 — GPU+HBM 단일 병목에서 전 시스템 동시 확장",
+      "type": "macro",
+      "evidence": "본 분석 thesis 'T01 Training→Agentic Era' alignment score=0.78; AMD 관련성 = 직접 — Lisa Su 1,200억 달러 TAM 인용 = T03 thesis 직접 주체. 서버 CPU 점유율 확대 + AI 가속기 2nd source 포",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.78
+    },
+    {
+      "claim": "메모리 공급 부족이 HBM 외 Server DRAM·SOCAMM·eSSD·기판 전 영역 확산",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T04 Supply chain squeeze' alignment score=0.85; 서버 CPU 점유율 30% (Mercury Research)",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.85
+    },
+    {
+      "claim": "AMD CPU TAM 2030년 1,200억 달러 (2배 상향)",
+      "type": "company",
+      "evidence": "본 분석 thesis 'T03 AMD CPU TAM 2x' alignment score=0.95; MI300X 매출 4분기 연속 가이던스 상향",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.95
+    },
+    {
+      "claim": "메모리 산업 시클리컬 → 인프라 산업으로 구조 변화 (LTA 비중 확대, 변동성 축소)",
+      "type": "structural",
+      "evidence": "본 분석 thesis 'T08 Infrastructure industrialization' alignment score=0.75; EPYC Turin Tier1 채택",
+      "testability": "medium",
+      "current_status": "in_progress",
+      "alignment_score": 0.75
+    },
+    {
+      "claim": "Vera Rubin 2027 LPDDR 수요 9,084PB = 스마트폰 산업 동일 규모",
+      "type": "demand",
+      "evidence": "본 분석 thesis 'T05 LPDDR scale' alignment score=0.65; Nvidia Vera Rubin 출하 추정 기반",
+      "testability": "medium",
+      "current_status": "monitoring",
+      "alignment_score": 0.65
+    }
+  ],
+  "sec_disclosures": [
+    {
+      "date": "2026-05-08",
+      "type": "10-Q",
+      "title": "Q1 2026 데이터센터 매출 +120% YoY",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-04-30",
+      "type": "8-K",
+      "title": "Lisa Su 서버 CPU TAM 1,200억 달러 발표",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "10-K",
+      "title": "FY2025 데이터센터 매출 비중 50% 돌파",
+      "impact": "+/긍정적"
+    }
+  ],
+  "etf_holdings": {
+    "is_etf": false,
+    "note": "SOXX, SMH, SPY top 30 holding"
+  },
+  "reverse_dcf": {
+    "current_price": 470,
+    "fwd_pe_implied_eps_growth_pct": 25.0,
+    "10y_eps_cagr_required_for_fair_value": 22.0,
+    "verdict": "Fwd PE 36x는 22% 10Y CAGR 요구. 서버 CPU + AI GPU 동시 가속화 시 25-30% 가능. FAIR (stretched but justified)."
+  }
+}
