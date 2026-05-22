@@ -1,0 +1,272 @@
+{
+  "name": "Micron Technology",
+  "industry": {
+    "name": "Memory Semiconductor (HBM 3rd + SOCAMM 1st mover)",
+    "overview": "글로벌 메모리 3위 (DRAM 25% / NAND 23%). 2024년 Nvidia SOCAMM 1차 공급선으로 선정, 2025년 본격 양산. US Idaho/NY fab CHIPS Act 보조금 60억 달러 확보. HBM3E qual 통과로 Nvidia·AMD 가속기 채택 본격화.",
+    "competitors": [
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "role": "HBM 1위",
+        "share_pct": 50.0,
+        "moat": "HBM 기술 2-3 gen 선행"
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "role": "HBM 2위 + 풀스택 메모리",
+        "share_pct": 30.0,
+        "moat": "수직계열화"
+      }
+    ],
+    "tam_2030_bn_usd": 280,
+    "growth_cagr_pct": 28,
+    "thesis_alignment": "very_high"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 27705,
+        "op_income": 6195,
+        "op_margin": 22.4,
+        "net_income": 5861,
+        "net_margin": 21.2,
+        "unit": "$M"
+      },
+      {
+        "year": 2022,
+        "revenue": 30758,
+        "op_income": 9039,
+        "op_margin": 29.4,
+        "net_income": 8687,
+        "net_margin": 28.2
+      },
+      {
+        "year": 2023,
+        "revenue": 15540,
+        "op_income": -5750,
+        "op_margin": -37.0,
+        "net_income": -5833,
+        "net_margin": -37.5
+      },
+      {
+        "year": 2024,
+        "revenue": 25111,
+        "op_income": 1297,
+        "op_margin": 5.2,
+        "net_income": 778,
+        "net_margin": 3.1
+      },
+      {
+        "year": 2025,
+        "revenue": 38500,
+        "op_income": 14000,
+        "op_margin": 36.4,
+        "net_income": 11200,
+        "net_margin": 29.1,
+        "note": "estimated"
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 71200,
+      "total_debt": 14800,
+      "cash_and_equiv": 8900,
+      "total_equity": 45100,
+      "unit": "$M",
+      "as_of": "2025Q3"
+    },
+    "cf_summary": {
+      "ocf_2024": 8500,
+      "capex_2024": -8200,
+      "fcf_2024": 300,
+      "unit": "$M"
+    },
+    "peer_compare": [
+      {
+        "ticker": "MU",
+        "name": "Micron Technology",
+        "pe": 7.46,
+        "pb": 2.2,
+        "roe": 24.8,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 5.08,
+        "pb": 2.85,
+        "roe": 32.5,
+        "div_yield": 0.35
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "pe": 5.56,
+        "pb": 1.2,
+        "roe": 18.2,
+        "div_yield": 2.1
+      }
+    ],
+    "trend_narrative_5y": "2022 cycle peak ($30.8B 매출) → 2023 다운사이클 (-37% OPM) → 2024 회복 → 2025E $38.5B 매출 + 36.4% OPM. SOCAMM·HBM3E 본격 ramp으로 V자 회복. ROE 24% 회복.",
+    "5y_revenue_cagr": 7.8,
+    "5y_opm_trajectory": "V-shape recovery: 22.4% → -37.0% → 36.4%"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "SOCAMM 본격 ramp + HBM3E 점유율 확대 + US fab 가동",
+      "key_assumptions": [
+        "Nvidia SOCAMM 본격 양산",
+        "CHIPS Act 추가 보조금"
+      ],
+      "target_price": 1149
+    },
+    "base": {
+      "prob_pct": 55,
+      "thesis": "메모리 안정 + SOCAMM 점진적 ramp",
+      "key_assumptions": [
+        "HBM3E qual 안정"
+      ],
+      "target_price": 919
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "Nvidia 의존도 risk + 메모리 cycle reversion",
+      "key_assumptions": [
+        "Nvidia internal silicon",
+        "메모리 가격 하락"
+      ],
+      "target_price": 574
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026Q2",
+      "event": "SOCAMM 본격 양산 시작",
+      "type": "company",
+      "expected_impact": "+10-15%",
+      "description": "SOCAMM 본격 양산 시작"
+    },
+    {
+      "date": "2026H2",
+      "event": "HBM4 qual 통과 (예상)",
+      "type": "company",
+      "expected_impact": "+10%",
+      "description": "HBM4 qual 통과 (예상)"
+    },
+    {
+      "date": "2027",
+      "event": "Vera Rubin LPDDR 공급 본격화",
+      "type": "company",
+      "expected_impact": "+20%",
+      "description": "Vera Rubin LPDDR 공급 본격화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Nvidia 단일 customer 의존도 35%+",
+      "probability": "high",
+      "impact": "med",
+      "description": "Nvidia 단일 customer 의존도 35%+",
+      "category": "concentration",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "AI capex 둔화",
+      "probability": "high",
+      "impact": "med",
+      "description": "AI capex 둔화",
+      "category": "macro",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "SK하이닉스 SOCAMM 추격",
+      "probability": "med",
+      "impact": "med",
+      "description": "SK하이닉스 SOCAMM 추격",
+      "category": "competitive",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "1Y 709% 단기 과열",
+      "probability": "high",
+      "impact": "med",
+      "description": "1Y 709% 단기 과열",
+      "category": "valuation",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI Inference Era 전환 — GPU+HBM 단일 병목에서 전 시스템 동시 확장",
+      "type": "macro",
+      "evidence": "본 분석 thesis 'T01 Training→Agentic Era' alignment score=0.78; MU 관련성 = 직접 — Nvidia SOCAMM 1차 공급선 + US fab 보조금으로 AI 메모리 인프라화의 미국 챔피언",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.78
+    },
+    {
+      "claim": "메모리 공급 부족이 HBM 외 Server DRAM·SOCAMM·eSSD·기판 전 영역 확산",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T04 Supply chain squeeze' alignment score=0.85; Nvidia SOCAMM qual 통과",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.85
+    },
+    {
+      "claim": "AMD CPU TAM 2030년 1,200억 달러 (2배 상향)",
+      "type": "company",
+      "evidence": "본 분석 thesis 'T03 AMD CPU TAM 2x' alignment score=0.4; CHIPS Act $6B 보조금",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.4
+    },
+    {
+      "claim": "메모리 산업 시클리컬 → 인프라 산업으로 구조 변화 (LTA 비중 확대, 변동성 축소)",
+      "type": "structural",
+      "evidence": "본 분석 thesis 'T08 Infrastructure industrialization' alignment score=0.75; Fwd PE 7.46x discount to growth",
+      "testability": "medium",
+      "current_status": "in_progress",
+      "alignment_score": 0.75
+    },
+    {
+      "claim": "Vera Rubin 2027 LPDDR 수요 9,084PB = 스마트폰 산업 동일 규모",
+      "type": "demand",
+      "evidence": "본 분석 thesis 'T05 LPDDR scale' alignment score=0.65; Nvidia Vera Rubin 출하 추정 기반",
+      "testability": "medium",
+      "current_status": "monitoring",
+      "alignment_score": 0.65
+    }
+  ],
+  "sec_disclosures": [
+    {
+      "date": "2026-04-25",
+      "type": "10-Q",
+      "title": "Q3 FY2026 매출 가이던스 상향 (+25% QoQ)",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-04-12",
+      "type": "8-K",
+      "title": "Nvidia 장기공급계약 체결 (LPDDR 5Y)",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-02-28",
+      "type": "10-Q",
+      "title": "HBM3E 매출 기여 본격화 (전체 매출의 15%)",
+      "impact": "+/긍정적"
+    }
+  ],
+  "etf_holdings": {
+    "is_etf": false,
+    "note": "SOXX, SMH top 15 holding"
+  },
+  "reverse_dcf": {
+    "current_price": 766,
+    "fwd_pe_implied_eps_growth_pct": 14.5,
+    "10y_eps_cagr_required_for_fair_value": 11.0,
+    "verdict": "Fwd PE 7.46x는 11% 10Y CAGR만 요구. SOCAMM·HBM3E 가속화 시 18%+ 가능. UNDERVALUED."
+  }
+}
