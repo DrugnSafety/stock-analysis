@@ -1,0 +1,1206 @@
+{
+  "ticker": "005930.KS",
+  "stock_name": "삼성전자",
+  "verdict_distribution": {
+    "very_bullish": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "bullish": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "lean_bullish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "lean_bearish": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "bearish": {
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "average_confidence": 0.686,
+  "style_split": {
+    "value": {
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "average_score": 3.4,
+      "consensus_label": "lean_bullish"
+    },
+    "growth": {
+      "members": [
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.78
+        }
+      ],
+      "average_score": 3.6,
+      "consensus_label": "bullish"
+    },
+    "balanced": {
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "bullish",
+          "confidence": 0.72
+        }
+      ],
+      "average_score": 3.33,
+      "consensus_label": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "AI capex 사이클 지속성 불확실",
+      "frequency": 9,
+      "personas": [
+        "warren-buffett",
+        "ben-graham",
+        "michael-burry",
+        "nassim-taleb",
+        "charlie-munger",
+        "aswath-damodaran",
+        "mohnish-pabrai",
+        "bill-ackman",
+        "phil-fisher"
+      ],
+      "examples": [
+        "AI capex 둔화 시 EPS ±30% 변동성"
+      ]
+    },
+    {
+      "theme": "단기 1Y returns 과열 (mean-reversion risk)",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "ben-graham",
+        "michael-burry",
+        "charlie-munger",
+        "aswath-damodaran",
+        "mohnish-pabrai",
+        "nassim-taleb",
+        "bill-ackman"
+      ],
+      "examples": [
+        "1Y +700%+ 종목은 historical mean-reversion 50%+ 가능"
+      ]
+    },
+    {
+      "theme": "메모리 cycle reversion (2027 oversupply)",
+      "frequency": 7,
+      "personas": [
+        "michael-burry",
+        "ben-graham",
+        "warren-buffett",
+        "aswath-damodaran",
+        "charlie-munger",
+        "nassim-taleb",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "capacity 증설 가속으로 2027년 oversupply 가능성"
+      ]
+    }
+  ],
+  "unique_alpha_per_persona": {
+    "warren-buffett": "Fwd PE 5.56 + IDM moat + 미국 보조금. 단 단기 1Y 434% 과열, HBM 추격 부담.",
+    "charlie-munger": "Wide moat (IDM scale + 수직계열화). Foundry/메모리 결합 unique.",
+    "peter-lynch": "PEG 매력. Full stack play 이해하기 쉬움. 단 SK하이닉스 vs 삼성 선택지에서 후순위.",
+    "cathie-wood": "Foundry 비중 발목. Memory pure-play 대비 disruption 노출 약함.",
+    "michael-burry": "PE 5.56 deep value 영역. 단 HBM 추격 cost 부담.",
+    "nassim-taleb": "수직계열화는 antifragility. 단 거버넌스 risk는 left-tail.",
+    "ben-graham": "Fwd PE 5.56 + BV 1.2x 추정. Net-net 근접. Defensive enterprise.",
+    "bill-ackman": "Concentrated long 가능. Catalyst: HBM4 양산, Foundry 매출 회복.",
+    "mohnish-pabrai": "Heads upside +150% / Tails -25%. Indian-style asymmetry.",
+    "phil-fisher": "R&D scale unmatched. Long-term compounder. HBM4 leadership 회복 시 prime.",
+    "rakesh-jhunjhunwala": "Structural memory bull + Korean 챔피언. Multi-year hold.",
+    "stanley-druckenmiller": "Macro tailwind 강함. 단 SK하이닉스 대비 후순위.",
+    "aswath-damodaran": "Sum-of-parts: Memory 8x + Foundry 12x + Display 6x. 30% upside."
+  },
+  "consensus_verdict": "bullish",
+  "overall_score": 3.46,
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — HBM3E quality 이슈",
+        "[inference] 워런 버핏 관점: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평가.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "HBM3E quality 이슈",
+      "narrative_vs_quant_resolution": "워런 버핏는 Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평가.를 기준으로 Fwd PE 5.56 + IDM moat + 미국 보조금. 단 단기 1Y 434% 과열, HBM 추격 부담.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens 적용: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평... → 'Training Era → Agentic Era 전환'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens 적용: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평... → 'GPU:CPU 비율 8:1 → 1:1'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "워런 버핏 lens 적용: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "워런 버핏 lens 적용: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens 적용: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens 적용: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens 적용: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "워런 버핏 lens 적용: Margin of Safety, 검증 가능한 사실 anchor, 예측 의존도 낮음. 시클리컬 산업 회피 경향, 단 인프라화 thesis 시 재평... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Fwd PE 5.56 + IDM moat + 미국 보조금. 단 단기 1Y 434% 과열, HBM 추격 부담."
+    },
+    "charlie-munger": {
+      "verdict": "bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — 조직 거버넌스",
+        "[inference] 찰리 멍거 관점: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "조직 거버넌스",
+      "narrative_vs_quant_resolution": "찰리 멍거는 Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.를 기준으로 Wide moat (IDM scale + 수직계열화). Foundry/메모리 결합 unique.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "찰리 멍거 lens 적용: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "찰리 멍거 lens 적용: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "찰리 멍거 lens 적용: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "찰리 멍거 lens 적용: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 lens 적용: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 lens 적용: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "찰리 멍거 lens 적용: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "찰리 멍거 lens 적용: Mental Models, Inversion, 단순성, 장기 compounding. 기술 변화에 신중하나 명백한 trend는 follow.... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Wide moat (IDM scale + 수직계열화). Foundry/메모리 결합 unique."
+    },
+    "ben-graham": {
+      "verdict": "bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — 예측 의존",
+        "[inference] 벤저민 그레이엄 관점: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "예측 의존",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄는 Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.를 기준으로 Fwd PE 5.56 + BV 1.2x 추정. Net-net 근접. Defensive enterprise.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens 적용: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.... → 'Training Era → Agentic Era 전환'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens 적용: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.... → 'GPU:CPU 비율 8:1 → 1:1'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄 lens 적용: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens 적용: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens 적용: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "rebut",
+          "rationale": "벤저민 그레이엄 lens 적용: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 rebut",
+          "confidence": 0.35
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens 적용: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄 lens 적용: Net-net, BV multiple, defensive enterprise. PER 5x 메모리는 deep value 영역.... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Fwd PE 5.56 + BV 1.2x 추정. Net-net 근접. Defensive enterprise."
+    },
+    "mohnish-pabrai": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — Foundry 손실",
+        "[inference] 모니쉬 파브라이 관점: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetric upside 추구.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "Foundry 손실",
+      "narrative_vs_quant_resolution": "모니쉬 파브라이는 Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetric upside 추구.를 기준으로 Heads upside +150% / Tails -25%. Indian-style asymmetry.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 lens 적용: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetri... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 lens 적용: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetri... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 lens 적용: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetri... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 lens 적용: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetri... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 lens 적용: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetri... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 lens 적용: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetri... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 lens 적용: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetri... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 lens 적용: Cloning, Heads I win/Tails I don't lose much, Indian-style deep value. Asymmetri... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Heads upside +150% / Tails -25%. Indian-style asymmetry."
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — 메모리 cycle",
+        "[inference] 마이클 버리 관점: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "메모리 cycle",
+      "narrative_vs_quant_resolution": "마이클 버리는 Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.를 기준으로 PE 5.56 deep value 영역. 단 HBM 추격 cost 부담.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens 적용: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.... → 'Training Era → Agentic Era 전환'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens 적용: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.... → 'GPU:CPU 비율 8:1 → 1:1'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "마이클 버리 lens 적용: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "마이클 버리 lens 적용: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens 적용: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "rebut",
+          "rationale": "마이클 버리 lens 적용: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 rebut",
+          "confidence": 0.35
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens 적용: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens 적용: Contrarian deep value, 거품 인식, supply/demand imbalance 직시. AI CapEx 일부 거품론.... → '메모리 산업 시클리컬 → 인프라 산업화'에 neutral",
+          "confidence": 0.45
+        }
+      ],
+      "rationale_summary": "PE 5.56 deep value 영역. 단 HBM 추격 cost 부담."
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — foundry overhead",
+        "[inference] 캐시 우드 관점: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "foundry overhead",
+      "narrative_vs_quant_resolution": "캐시 우드는 Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.를 기준으로 Foundry 비중 발목. Memory pure-play 대비 disruption 노출 약함.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "캐시 우드 lens 적용: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드 lens 적용: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "캐시 우드 lens 적용: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "캐시 우드 lens 적용: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "캐시 우드 lens 적용: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "캐시 우드 lens 적용: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "캐시 우드 lens 적용: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "캐시 우드 lens 적용: Disruption thesis, secular growth, S-curve adoption. AI agentic shift 적극 추종.... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Foundry 비중 발목. Memory pure-play 대비 disruption 노출 약함."
+    },
+    "peter-lynch": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — HBM 추격 timing",
+        "[inference] 피터 린치 관점: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직관적 이해 가능.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "HBM 추격 timing",
+      "narrative_vs_quant_resolution": "피터 린치는 PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직관적 이해 가능.를 기준으로 PEG 매력. Full stack play 이해하기 쉬움. 단 SK하이닉스 vs 삼성 선택지에서 후순위.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치 lens 적용: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치 lens 적용: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치 lens 적용: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피터 린치 lens 적용: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "피터 린치 lens 적용: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "피터 린치 lens 적용: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "피터 린치 lens 적용: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "피터 린치 lens 적용: PEG ratio, growth at reasonable price, easy-to-understand business. AI/메모리 사이클 직... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "PEG 매력. Full stack play 이해하기 쉬움. 단 SK하이닉스 vs 삼성 선택지에서 후순위."
+    },
+    "phil-fisher": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — 단기 valuation",
+        "[inference] 필립 피셔 관점: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D leader 선호.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "단기 valuation",
+      "narrative_vs_quant_resolution": "필립 피셔는 Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D leader 선호.를 기준으로 R&D scale unmatched. Long-term compounder. HBM4 leadership 회복 시 prime.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "필립 피셔 lens 적용: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "필립 피셔 lens 적용: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "필립 피셔 lens 적용: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "필립 피셔 lens 적용: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "필립 피셔 lens 적용: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "필립 피셔 lens 적용: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "필립 피셔 lens 적용: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "필립 피셔 lens 적용: Scuttlebutt, growth at reasonable price, R&D leadership, long-term hold. 메모리 R&D... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "R&D scale unmatched. Long-term compounder. HBM4 leadership 회복 시 prime."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — rate cut",
+        "[inference] 스탠리 드러켄밀러 관점: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex 사이클 강세.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "rate cut",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러는 Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex 사이클 강세.를 기준으로 Macro tailwind 강함. 단 SK하이닉스 대비 후순위.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens 적용: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex ... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens 적용: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex ... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens 적용: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex ... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens 적용: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex ... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens 적용: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex ... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens 적용: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex ... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens 적용: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex ... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens 적용: Macro tailwind + concentrated long, momentum 활용, market psychology 활용. AI capex ... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Macro tailwind 강함. 단 SK하이닉스 대비 후순위."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — 단기 cycle",
+        "[inference] 라케시 준준왈라 관점: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "단기 cycle",
+      "narrative_vs_quant_resolution": "라케시 준준왈라는 Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.를 기준으로 Structural memory bull + Korean 챔피언. Multi-year hold.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens 적용: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens 적용: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens 적용: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens 적용: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens 적용: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라 lens 적용: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens 적용: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens 적용: Indian Buffett, structural bull, long-cycle CapEx 베팅. 메모리 인프라화 thesis 적극 지지.... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Structural memory bull + Korean 챔피언. Multi-year hold."
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — 거버넌스 discount",
+        "[inference] 빌 애크먼 관점: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "거버넌스 discount",
+      "narrative_vs_quant_resolution": "빌 애크먼는 Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio.를 기준으로 Concentrated long 가능. Catalyst: HBM4 양산, Foundry 매출 회복.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens 적용: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens 적용: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens 적용: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens 적용: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "빌 애크먼 lens 적용: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "빌 애크먼 lens 적용: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens 적용: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens 적용: Concentrated long bets, quality business, catalyst-driven. 7-12개 종목 집중 portfolio... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Concentrated long 가능. Catalyst: HBM4 양산, Foundry 매출 회복."
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — 거버넌스 risk",
+        "[inference] 나심 탈레브 관점: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "거버넌스 risk",
+      "narrative_vs_quant_resolution": "나심 탈레브는 Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.를 기준으로 수직계열화는 antifragility. 단 거버넌스 risk는 left-tail.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "나심 탈레브 lens 적용: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.... → 'Training Era → Agentic Era 전환'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈레브 lens 적용: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.... → 'GPU:CPU 비율 8:1 → 1:1'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "나심 탈레브 lens 적용: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "나심 탈레브 lens 적용: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "나심 탈레브 lens 적용: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "나심 탈레브 lens 적용: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "나심 탈레브 lens 적용: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "나심 탈레브 lens 적용: Tail risk, anti-fragility, optionality. 메모리 산업 인프라화는 fragility 감소 시그널.... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "수직계열화는 antifragility. 단 거버넌스 risk는 left-tail."
+    },
+    "aswath-damodaran": {
+      "verdict": "bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "아스왓 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "stock": {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "fwd_pe": 5.56,
+        "volatility_annualized_pct": 51.91,
+        "return_1y_pct": 434.4
+      },
+      "key_concerns_top3": [
+        "[actual] Fwd PE 5.56 / Vol 51.91% / 1Y 434.4% — growth 가정",
+        "[inference] 아스왓 다모다란 관점: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.",
+        "[inference] AI capex cycle 지속성 — 잘못 판단 시 EPS 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DRAM #1 점유율 + NAND #1 + Foundry + HBM 추격 + 수직계열화",
+        "[actual] Moat: IDM 모델, 수직계열화, 미국 보조금, 한국 GVC 위치",
+        "[inference] 메모리 산업 인프라화 (T08) re-rating 트리거 적용 시 +30-60% upside"
+      ],
+      "uncertainty": "growth 가정",
+      "narrative_vs_quant_resolution": "아스왓 다모다란는 Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.를 기준으로 Sum-of-parts: Memory 8x + Foundry 12x + Display 6x. 30% upside.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "아스왓 다모다란 lens 적용: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.... → 'Training Era → Agentic Era 전환'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "아스왓 다모다란 lens 적용: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.... → 'GPU:CPU 비율 8:1 → 1:1'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "아스왓 다모다란 lens 적용: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.... → 'AMD CPU TAM 2030년 1,200억 달러 (2배 상향)'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "아스왓 다모다란 lens 적용: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.... → '메모리 공급 부족이 HBM 외 전 영역으로 확산'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens 적용: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.... → 'LPDDR 2027년 9,084PB 수요 = 스마트폰 동일 규모'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens 적용: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.... → 'Vera CPU 외판 시 추가 6,144PB LPDDR upside'에 neutral",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "아스왓 다모다란 lens 적용: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.... → 'SOCAMM 기판 시장 2025년 1,417억 → 2027년 3,410억원'에 support",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "아스왓 다모다란 lens 적용: Valuation rigor, story+numbers framework, DCF 기반. 메모리 인프라화 시 terminal value 재평가.... → '메모리 산업 시클리컬 → 인프라 산업화'에 support",
+          "confidence": 0.58
+        }
+      ],
+      "rationale_summary": "Sum-of-parts: Memory 8x + Foundry 12x + Display 6x. 30% upside."
+    }
+  },
+  "unique_alpha": [
+    {
+      "persona_id": "stanley-druckenmiller",
+      "verdict": "very_bullish",
+      "alpha": "Macro tailwind 완벽 정렬 — Vera Rubin + agentic capex + LTA의 trifecta"
+    },
+    {
+      "persona_id": "cathie-wood",
+      "verdict": "very_bullish",
+      "alpha": "Agentic AI S-curve의 메모리 인프라 — ARK Korea 펀드 top holding 후보"
+    },
+    {
+      "persona_id": "phil-fisher",
+      "verdict": "very_bullish",
+      "alpha": "R&D leadership + 30-yr customer relationship — Quality compounder"
+    }
+  ]
+}
