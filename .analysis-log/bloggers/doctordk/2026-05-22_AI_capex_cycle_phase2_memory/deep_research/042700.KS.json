@@ -1,0 +1,264 @@
+{
+  "name": "한미반도체",
+  "industry": {
+    "name": "Semiconductor Equipment (HBM TC Bonder Monopoly)",
+    "overview": "HBM Through-Silicon Via (TSV) bonder 글로벌 사실상 독점 (95%+ 점유율). SK하이닉스·Micron·Samsung 모두 한미반도체 TC bonder 사용. Advanced packaging 장비 전반 확대 (Hybrid Bonder, MicroSAW). 2025년 매출 6,800억원 → 2027년 1.5조원 가이드.",
+    "competitors": [
+      {
+        "ticker": "ASMI.AS",
+        "name": "ASM International",
+        "role": "Wafer 처리 장비 (PVD/ALD)",
+        "share_pct": 0,
+        "moat": "다른 segment"
+      },
+      {
+        "ticker": "AMAT",
+        "name": "Applied Materials",
+        "role": "Wafer fab equipment",
+        "share_pct": 0,
+        "moat": "다른 segment"
+      }
+    ],
+    "tam_2030_bn_usd": 25,
+    "growth_cagr_pct": 45,
+    "thesis_alignment": "high"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 3784,
+        "op_income": 1110,
+        "op_margin": 29.3,
+        "net_income": 920,
+        "net_margin": 24.3,
+        "unit": "억원"
+      },
+      {
+        "year": 2022,
+        "revenue": 3145,
+        "op_income": 815,
+        "op_margin": 25.9,
+        "net_income": 680,
+        "net_margin": 21.6
+      },
+      {
+        "year": 2023,
+        "revenue": 1590,
+        "op_income": 280,
+        "op_margin": 17.6,
+        "net_income": 240,
+        "net_margin": 15.1
+      },
+      {
+        "year": 2024,
+        "revenue": 5520,
+        "op_income": 1860,
+        "op_margin": 33.7,
+        "net_income": 1500,
+        "net_margin": 27.2
+      },
+      {
+        "year": 2025,
+        "revenue": 6800,
+        "op_income": 2380,
+        "op_margin": 35.0,
+        "net_income": 1900,
+        "net_margin": 27.9,
+        "note": "estimated"
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 12500,
+      "total_debt": 850,
+      "cash_and_equiv": 3200,
+      "total_equity": 10800,
+      "unit": "억원",
+      "as_of": "2025Q4E"
+    },
+    "cf_summary": {
+      "ocf_2024": 1850,
+      "capex_2024": -380,
+      "fcf_2024": 1470,
+      "unit": "억원"
+    },
+    "peer_compare": [
+      {
+        "ticker": "042700.KS",
+        "name": "한미반도체",
+        "pe": 57.65,
+        "pb": 8.5,
+        "roe": 18.5,
+        "div_yield": 0.3
+      },
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 5.08,
+        "pb": 2.85,
+        "roe": 32.5,
+        "div_yield": 0.35
+      }
+    ],
+    "trend_narrative_5y": "2023 메모리 다운사이클로 매출 1,590억원 → 2024 V자 회복 (5,520억원) → 2025E 6,800억원. OPM 33-35% 유지. HBM TC bonder 독점으로 cycle 회복 가속.",
+    "5y_revenue_cagr": 12.5,
+    "5y_opm_trajectory": "stable high: 29.3% → 17.6% → 35.0%"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "HBM4 양산 가속화 + Hybrid Bonder 양산 + Micron·Samsung 수주",
+      "key_assumptions": [
+        "HBM4 TC bonder 추가 수주",
+        "Hybrid Bonder qual 통과"
+      ],
+      "target_price": 480750
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "HBM3E 안정 + 점진적 매출 성장",
+      "key_assumptions": [
+        "SK하이닉스 HBM 점유율 유지"
+      ],
+      "target_price": 368575
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "PE 57x 거품 + 메모리 cycle reversion + 경쟁 진입",
+      "key_assumptions": [
+        "PE 57x mean-reversion",
+        "TC bonder 경쟁사 진입"
+      ],
+      "target_price": 208325
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026Q2",
+      "event": "HBM4 TC bonder 추가 수주",
+      "type": "company",
+      "expected_impact": "+15%",
+      "description": "HBM4 TC bonder 추가 수주"
+    },
+    {
+      "date": "2026H2",
+      "event": "Hybrid Bonder Samsung·Micron qual",
+      "type": "company",
+      "expected_impact": "+20%",
+      "description": "Hybrid Bonder Samsung·Micron qual"
+    },
+    {
+      "date": "2027",
+      "event": "Advanced packaging 전반 확대",
+      "type": "company",
+      "expected_impact": "+10%",
+      "description": "Advanced packaging 전반 확대"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Fwd PE 57x 매우 비쌈, Vol 83% 극심",
+      "probability": "high",
+      "impact": "high",
+      "description": "Fwd PE 57x 매우 비쌈, Vol 83% 극심",
+      "category": "valuation",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "SK하이닉스 단일 customer 의존 60%+",
+      "probability": "high",
+      "impact": "med",
+      "description": "SK하이닉스 단일 customer 의존 60%+",
+      "category": "concentration",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "ASM·BESI TC bonder 진입 가능성",
+      "probability": "med",
+      "impact": "med",
+      "description": "ASM·BESI TC bonder 진입 가능성",
+      "category": "competitive",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "AI capex 둔화",
+      "probability": "med",
+      "impact": "med",
+      "description": "AI capex 둔화",
+      "category": "macro",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI Inference Era 전환 — GPU+HBM 단일 병목에서 전 시스템 동시 확장",
+      "type": "macro",
+      "evidence": "본 분석 thesis 'T01 Training→Agentic Era' alignment score=0.78; 042700.KS 관련성 = 직접 — HBM TC bonder 글로벌 독점 = picks-and-shovels play. AI capex Phase 2 메모리 인프라화의 장비 단 직",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.78
+    },
+    {
+      "claim": "메모리 공급 부족이 HBM 외 Server DRAM·SOCAMM·eSSD·기판 전 영역 확산",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T04 Supply chain squeeze' alignment score=0.85; HBM TC bonder 점유율 95%+",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.85
+    },
+    {
+      "claim": "AMD CPU TAM 2030년 1,200억 달러 (2배 상향)",
+      "type": "company",
+      "evidence": "본 분석 thesis 'T03 AMD CPU TAM 2x' alignment score=0.4; SK하이닉스 Capex 증액 직접 수혜",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.4
+    },
+    {
+      "claim": "메모리 산업 시클리컬 → 인프라 산업으로 구조 변화 (LTA 비중 확대, 변동성 축소)",
+      "type": "structural",
+      "evidence": "본 분석 thesis 'T08 Infrastructure industrialization' alignment score=0.75; Hybrid Bonder 차세대 진입",
+      "testability": "medium",
+      "current_status": "in_progress",
+      "alignment_score": 0.75
+    },
+    {
+      "claim": "Vera Rubin 2027 LPDDR 수요 9,084PB = 스마트폰 산업 동일 규모",
+      "type": "demand",
+      "evidence": "본 분석 thesis 'T05 LPDDR scale' alignment score=0.65; Nvidia Vera Rubin 출하 추정 기반",
+      "testability": "medium",
+      "current_status": "monitoring",
+      "alignment_score": 0.65
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05-12",
+      "type": "사업보고서",
+      "title": "2026Q1 매출 1,950억원 (+85% YoY)",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-04-28",
+      "type": "공정공시",
+      "title": "SK하이닉스 HBM4 TC bonder 5,000억원 수주",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "주요사항보고서",
+      "title": "Hybrid Bonder 양산 라인 가동",
+      "impact": "+/긍정적"
+    }
+  ],
+  "etf_holdings": {
+    "is_etf": false,
+    "note": "KODEX 반도체 ETF top 5 holding"
+  },
+  "reverse_dcf": {
+    "current_price": 320500,
+    "fwd_pe_implied_eps_growth_pct": 28.0,
+    "10y_eps_cagr_required_for_fair_value": 24.0,
+    "verdict": "Fwd PE 57x는 24% 10Y CAGR 요구 — aggressive. HBM TC bonder 독점 + AI capex 가속 시 가능하나 valuation premium risk 高. FAIR (high risk)."
+  }
+}
