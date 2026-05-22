@@ -1,0 +1,272 @@
+{
+  "name": "삼성전자",
+  "industry": {
+    "name": "Memory + Foundry IDM (Multi-segment)",
+    "overview": "글로벌 DRAM 1위 (40%+), NAND 1위 (35%+), HBM 2위 (HBM3E 추격 중), Foundry 2위 (TSMC 추격). 2024년 HBM3E Nvidia qual 통과 지연으로 HBM 시장 점유율 30%로 축소. 2026년 HBM4 양산 본격화로 점유율 회복 시도. Foundry 부문은 2nm GAA 양산 (2026년) 가이드.",
+    "competitors": [
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "role": "HBM 1위 (50%+)",
+        "share_pct": 50.0,
+        "moat": "HBM 2-3 gen 선행"
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron Technology",
+        "role": "HBM 3위 + SOCAMM 1st mover",
+        "share_pct": 25.0,
+        "moat": "Nvidia 협력 우선"
+      }
+    ],
+    "tam_2030_bn_usd": 450,
+    "growth_cagr_pct": 18,
+    "thesis_alignment": "high"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 2796048,
+        "op_income": 516339,
+        "op_margin": 18.5,
+        "net_income": 392438,
+        "net_margin": 14.0,
+        "unit": "억원"
+      },
+      {
+        "year": 2022,
+        "revenue": 3022314,
+        "op_income": 433766,
+        "op_margin": 14.4,
+        "net_income": 556541,
+        "net_margin": 18.4
+      },
+      {
+        "year": 2023,
+        "revenue": 2589355,
+        "op_income": 65670,
+        "op_margin": 2.5,
+        "net_income": 144734,
+        "net_margin": 5.6
+      },
+      {
+        "year": 2024,
+        "revenue": 3009343,
+        "op_income": 327259,
+        "op_margin": 10.9,
+        "net_income": 348874,
+        "net_margin": 11.6
+      },
+      {
+        "year": 2025,
+        "revenue": 3450000,
+        "op_income": 530000,
+        "op_margin": 15.4,
+        "net_income": 450000,
+        "net_margin": 13.0,
+        "note": "estimated"
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 4550000,
+      "total_debt": 235000,
+      "cash_and_equiv": 1200000,
+      "total_equity": 3850000,
+      "unit": "억원",
+      "as_of": "2025Q4E"
+    },
+    "cf_summary": {
+      "ocf_2024": 650000,
+      "capex_2024": -540000,
+      "fcf_2024": 110000,
+      "unit": "억원"
+    },
+    "peer_compare": [
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "pe": 5.56,
+        "pb": 1.2,
+        "roe": 18.2,
+        "div_yield": 2.1
+      },
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 5.08,
+        "pb": 2.85,
+        "roe": 32.5,
+        "div_yield": 0.35
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron Technology",
+        "pe": 7.46,
+        "pb": 2.2,
+        "roe": 24.8,
+        "div_yield": 0.5
+      }
+    ],
+    "trend_narrative_5y": "2023 메모리 cycle 저점 (영업이익 6.5조원) → 2024 V자 회복 (32.7조원) → 2025E 53조원. HBM3E qual 지연으로 SK하이닉스 대비 추격 부담. Foundry 부문은 적자 지속.",
+    "5y_revenue_cagr": 5.4,
+    "5y_opm_trajectory": "moderate cycle: 18.5% → 2.5% → 15.4%"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "HBM4 양산 + Foundry 흑자 전환 + 메모리 강세",
+      "key_assumptions": [
+        "HBM4 Nvidia qual",
+        "Foundry 2nm 양산",
+        "DRAM 가격 상승"
+      ],
+      "target_price": 424125
+    },
+    "base": {
+      "prob_pct": 55,
+      "thesis": "메모리 안정 + HBM 점진적 회복",
+      "key_assumptions": [
+        "HBM3E Nvidia 후행 채택"
+      ],
+      "target_price": 345150
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "HBM 추격 실패 + Foundry 적자 지속",
+      "key_assumptions": [
+        "HBM3E 점유율 추가 하락"
+      ],
+      "target_price": 248625
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026Q2",
+      "event": "HBM3E 12-stack Nvidia 본격 채택",
+      "type": "company",
+      "expected_impact": "+10%",
+      "description": "HBM3E 12-stack Nvidia 본격 채택"
+    },
+    {
+      "date": "2026Q4",
+      "event": "HBM4 양산 시작",
+      "type": "company",
+      "expected_impact": "+15%",
+      "description": "HBM4 양산 시작"
+    },
+    {
+      "date": "2027",
+      "event": "Foundry 2nm GAA 양산",
+      "type": "company",
+      "expected_impact": "+10%",
+      "description": "Foundry 2nm GAA 양산"
+    }
+  ],
+  "risks": [
+    {
+      "name": "SK하이닉스 HBM 격차 확대",
+      "probability": "high",
+      "impact": "med",
+      "description": "SK하이닉스 HBM 격차 확대",
+      "category": "competitive",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "Foundry 적자 지속 (-2조원/년)",
+      "probability": "high",
+      "impact": "med",
+      "description": "Foundry 적자 지속 (-2조원/년)",
+      "category": "operational",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "이재용 회장 사법 리스크",
+      "probability": "med",
+      "impact": "med",
+      "description": "이재용 회장 사법 리스크",
+      "category": "governance",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    },
+    {
+      "name": "AI capex 둔화",
+      "probability": "med",
+      "impact": "med",
+      "description": "AI capex 둔화",
+      "category": "macro",
+      "mitigation": "포지션 사이즈 조절 + stop-loss 설정, 분기별 카탈리스트 점검"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI Inference Era 전환 — GPU+HBM 단일 병목에서 전 시스템 동시 확장",
+      "type": "macro",
+      "evidence": "본 분석 thesis 'T01 Training→Agentic Era' alignment score=0.78; 005930.KS 관련성 = 직접 — AI 메모리 인프라화 thesis에서 SK하이닉스 후순위, 그러나 IDM scale + 수직계열화 + 미국 보조금이 unique advantag",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.78
+    },
+    {
+      "claim": "메모리 공급 부족이 HBM 외 Server DRAM·SOCAMM·eSSD·기판 전 영역 확산",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T04 Supply chain squeeze' alignment score=0.85; DRAM #1, NAND #1 점유율",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.85
+    },
+    {
+      "claim": "AMD CPU TAM 2030년 1,200억 달러 (2배 상향)",
+      "type": "company",
+      "evidence": "본 분석 thesis 'T03 AMD CPU TAM 2x' alignment score=0.4; 미국 Taylor fab 가동",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.4
+    },
+    {
+      "claim": "메모리 산업 시클리컬 → 인프라 산업으로 구조 변화 (LTA 비중 확대, 변동성 축소)",
+      "type": "structural",
+      "evidence": "본 분석 thesis 'T08 Infrastructure industrialization' alignment score=0.75; Fwd PE 5.56x deep value",
+      "testability": "medium",
+      "current_status": "in_progress",
+      "alignment_score": 0.75
+    },
+    {
+      "claim": "Vera Rubin 2027 LPDDR 수요 9,084PB = 스마트폰 산업 동일 규모",
+      "type": "demand",
+      "evidence": "본 분석 thesis 'T05 LPDDR scale' alignment score=0.65; Nvidia Vera Rubin 출하 추정 기반",
+      "testability": "medium",
+      "current_status": "monitoring",
+      "alignment_score": 0.65
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05-10",
+      "type": "사업보고서",
+      "title": "2026Q1 영업이익 13.2조원 (YoY +280%)",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-04-15",
+      "type": "주요사항보고서",
+      "title": "Taylor fab 2nm 양산 가이드 (2027년)",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-03-22",
+      "type": "공정공시",
+      "title": "HBM4 12-stack 양산 로드맵 발표",
+      "impact": "+/긍정적"
+    }
+  ],
+  "etf_holdings": {
+    "is_etf": false,
+    "note": "KODEX 200 top holding 26%+, MSCI Korea top holding"
+  },
+  "reverse_dcf": {
+    "current_price": 292500,
+    "fwd_pe_implied_eps_growth_pct": 16.0,
+    "10y_eps_cagr_required_for_fair_value": 12.5,
+    "verdict": "Fwd PE 5.56x는 12.5% 10Y CAGR만 요구. HBM4 ramp 성공 시 16%+ 가능. UNDERVALUED."
+  }
+}
