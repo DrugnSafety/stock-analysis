@@ -1,0 +1,66 @@
+{
+  "computed_at": "2026-05-26T08:00:13.409772+09:00",
+  "start_cash": 1000000,
+  "start_date": "2026-05-25",
+  "end_date": "2026-05-25",
+  "n_decisions": 5,
+  "total_trades": 2,
+  "total_buy_value": 164807.42,
+  "total_sell_value": 0.0,
+  "final_cash": 835192.58,
+  "end_positions_value": 170697.42,
+  "final_nav": 1005890.0,
+  "total_return_pct": 0.589,
+  "final_positions": {
+    "2351.TW": {
+      "qty": 589,
+      "avg_cost": 186.5,
+      "last_price": 196.5,
+      "market_value": 115738.5,
+      "unrealized_pnl": 5890.0,
+      "unrealized_return_pct": 5.36
+    },
+    "STM": {
+      "qty": 822,
+      "avg_cost": 66.86,
+      "last_price": 66.86,
+      "market_value": 54958.92,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-25",
+      "ticker": "2351.TW",
+      "action": "buy",
+      "qty": 589,
+      "price": 186.5,
+      "cost": 109848.5,
+      "cash_after": 890151.5
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "STM",
+      "action": "buy",
+      "qty": 822,
+      "price": 66.86,
+      "cost": 54958.92,
+      "cash_after": 835192.58
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 7847.71,
+      "end_price": 7847.71,
+      "return_pct": 0.0,
+      "alpha_pct": 0.589
+    },
+    "SPY": {
+      "start_price": 745.64,
+      "end_price": 745.64,
+      "return_pct": 0.0,
+      "alpha_pct": 0.589
+    }
+  }
+}
