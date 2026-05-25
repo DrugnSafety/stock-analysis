@@ -1,7 +1,9 @@
 {
   "blogger": "doctordk",
   "post_date": "2026-05-25",
-  "source_urls": ["https://blog.naver.com/doctordk/224295944672"],
+  "source_urls": [
+    "https://blog.naver.com/doctordk/224295944672"
+  ],
   "extracted_at": "2026-05-25T22:50:00+09:00",
   "extraction_model": "claude-opus-4-7",
   "theses": [
@@ -15,8 +17,14 @@
         "Infineon·STMicroelectronics 등 글로벌 IDM 주문 확대 확인",
         "랙당 전력 600kW→1MW급 진입 (NVIDIA GB200→GB300→Vera Rubin→Rubin Ultra→Kyber NVL576 로드맵)"
       ],
-      "stocks_implicated": ["IFX.DE", "STM", "2351.TW", "195870.KS"],
-      "confidence_signal": 0.85
+      "stocks_implicated": [
+        "IFX.DE",
+        "STM",
+        "2351.TW",
+        "195870.KS"
+      ],
+      "confidence_signal": 0.85,
+      "importance": "core"
     },
     {
       "claim_id": "T02",
@@ -28,8 +36,13 @@
         "Jih Lin: AI 관련 매출 비중 2025년 5-7% → 2027년 10% 초과 시장 전망",
         "양사 모두 2026년 두 자릿수 매출 성장 가이던스"
       ],
-      "stocks_implicated": ["2351.TW", "195870.KS", "AMKR"],
-      "confidence_signal": 0.80
+      "stocks_implicated": [
+        "2351.TW",
+        "195870.KS",
+        "AMKR"
+      ],
+      "confidence_signal": 0.8,
+      "importance": "core"
     },
     {
       "claim_id": "T03",
@@ -41,8 +54,14 @@
         "자동차와 AI 서버의 공통 요구: 고전력 처리·방열·신뢰성",
         "Jih Lin 양면냉각(Double-sided cooling) 자동차 기술의 AI 서버 이식"
       ],
-      "stocks_implicated": ["2351.TW", "195870.KS", "IFX.DE", "STM"],
-      "confidence_signal": 0.85
+      "stocks_implicated": [
+        "2351.TW",
+        "195870.KS",
+        "IFX.DE",
+        "STM"
+      ],
+      "confidence_signal": 0.85,
+      "importance": "core"
     },
     {
       "claim_id": "T04",
@@ -54,8 +73,11 @@
         "HVDC 프로젝트 매출 기여도 2026년 하반기부터 본격 확대 전망",
         "AI 매출 비중 1% → 6% 분기 점프는 ramp-up 시작의 신호"
       ],
-      "stocks_implicated": ["2351.TW"],
-      "confidence_signal": 0.78
+      "stocks_implicated": [
+        "2351.TW"
+      ],
+      "confidence_signal": 0.78,
+      "importance": "core"
     },
     {
       "claim_id": "T05",
@@ -67,8 +89,12 @@
         "프레스 + 에칭 공정 통합 기술력으로 사업 영역 확장 중",
         "매년 40-50개 신규 제품 지속 개발"
       ],
-      "stocks_implicated": ["AMKR", "2351.TW"],
-      "confidence_signal": 0.72
+      "stocks_implicated": [
+        "AMKR",
+        "2351.TW"
+      ],
+      "confidence_signal": 0.72,
+      "importance": "supplementary"
     },
     {
       "claim_id": "T06",
@@ -80,8 +106,12 @@
         "기존 자동차 재고 조정 국면 마무리 + 2026년 하반기 출하 모멘텀 강화 전망",
         "전기차 cyclical + AI structural의 dual-driver"
       ],
-      "stocks_implicated": ["IFX.DE", "STM"],
-      "confidence_signal": 0.80
+      "stocks_implicated": [
+        "IFX.DE",
+        "STM"
+      ],
+      "confidence_signal": 0.8,
+      "importance": "core"
     },
     {
       "claim_id": "T07",
@@ -93,8 +123,13 @@
         "기존 재고 조정 사실상 마무리 + 출하 모멘텀 강화",
         "Diversified exposure → earnings volatility 감소 → multiple expansion potential"
       ],
-      "stocks_implicated": ["IFX.DE", "STM", "AMKR"],
-      "confidence_signal": 0.70
+      "stocks_implicated": [
+        "IFX.DE",
+        "STM",
+        "AMKR"
+      ],
+      "confidence_signal": 0.7,
+      "importance": "supplementary"
     },
     {
       "claim_id": "T08",
@@ -107,7 +142,8 @@
         "메르 자체 referencing — 5월11일이면 딱 한발 이었음 → 현재는 second wave 진입"
       ],
       "stocks_implicated": [],
-      "confidence_signal": 0.65
+      "confidence_signal": 0.65,
+      "importance": "supplementary"
     }
   ]
 }
