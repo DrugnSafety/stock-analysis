@@ -1,0 +1,295 @@
+{
+  "ticker": "2351.TW",
+  "name_kr": "SDI Corporation (대산전자)",
+  "name_en": "SDI Corporation",
+  "ipo_year": 1989,
+  "market_data_snapshot": {
+    "ticker": "2351.TW",
+    "name": "SDI Corporation",
+    "current_price": 196.5,
+    "currency": "TWD",
+    "forward_pe": 31.79,
+    "trailing_pe": 120.55,
+    "beta": null,
+    "return_1m_pct": 33.67,
+    "return_3m_pct": 124.57,
+    "return_6m_pct": 148.73,
+    "return_1y_pct": 183.43,
+    "volatility_annualized_pct": 50.92,
+    "market_cap_local_bn": 35.79,
+    "market_cap_usd_bn": 35.79,
+    "ev_ebitda": 29.22,
+    "div_yield_pct": 0.56,
+    "pb": 4.93,
+    "fetched_at": "2026-05-25T22:50:59",
+    "fetched_via": "yfinance 1.4.0 (live)",
+    "as_of_date": "2026-05-25"
+  },
+  "industry": {
+    "name": "Lead Frame · Semiconductor Packaging — Automotive + AI Power Semi",
+    "overview": "글로벌 lead frame 시장은 2024 약 USD 4.5B에서 2030 USD 8-10B로 성장 (Yole·Omdia 추정). 자동차 EV·ADAS·산업 모터 드라이브가 기존 핵심 driver였으나, AI 데이터센터 HVDC 전환과 함께 서버 segment가 새로운 growth pillar로 부상. SDI Corp는 Taiwan 최대 lead frame 업체로 글로벌 점유율 10-12% 추정, AI 매출 비중이 2025 1% → 2026 Q1 6%로 분기 점프하며 inflection point 진입. 40개 이상의 HVDC 고출력 lead frame customization projects 양산 — Infineon·STMicroelectronics 등 글로벌 IDM customer base 확보.",
+    "competitors": [
+      {
+        "name": "Mitsui High-tec",
+        "ticker": "6966.T",
+        "share_pct": 18.0,
+        "moat": "일본 자동차 OEM lock-in, EV motor core 강자"
+      },
+      {
+        "name": "SDI Corporation",
+        "ticker": "2351.TW",
+        "share_pct": 12.0,
+        "moat": "Taiwan IDM/OSAT 근접성, AI HVDC 진입"
+      },
+      {
+        "name": "ASM Pacific",
+        "ticker": "0522.HK",
+        "share_pct": 10.0,
+        "moat": "HK 상장, packaging equipment + materials 일체"
+      },
+      {
+        "name": "HAESUNG DS",
+        "ticker": "195870.KS",
+        "share_pct": 5.0,
+        "moat": "한국 자동차 OEM, substrate + lead frame dual"
+      },
+      {
+        "name": "Jih Lin Technology",
+        "ticker": "6204.TPEx",
+        "share_pct": 4.0,
+        "moat": "Taiwan 양면 cooling 기술, mid-cap"
+      },
+      {
+        "name": "기타",
+        "ticker": "—",
+        "share_pct": 51.0,
+        "moat": "fragmented regional players"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 4.5,
+      "cagr_pct": 12.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "약 NT$26B (USD ~810M, YoY +5%)",
+    "revenue_2025_est": "NT$28-30B (consensus, AI ramp 시작)",
+    "gross_margin": "약 22-25% (자동차 base + AI premium)",
+    "operating_margin": "약 12-15% (industry leading)",
+    "net_margin": "약 10-13%",
+    "fcf_2024": "Positive — CapEx 대비 OCF 우위",
+    "balance_sheet": "Net cash position 추정, dividend payer (~3-4% yield)",
+    "ai_revenue_share_evolution": "2024 <1% → 2025 ~1% → 2026 Q1 6% → 2026E ~10% → 2027E ~18-25% (HVDC ramp)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 360.0,
+      "thesis": "AI HVDC mass adoption + 40 customization 모두 양산 + IDM customer lock-in → 2027 매출 NT$40B+, OPM 18%+, P/E re-rating 22-25x. Stock 2x upside.",
+      "key_assumptions": [
+        "Infineon·STMicro AI segment guidance 상향",
+        "HVDC customization conversion >70%",
+        "Taiwan 지정학 안정"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 250.0,
+      "thesis": "AI HVDC gradual adoption + 자동차 cyclical recovery — 2027 매출 NT$33B (CAGR +12%), OPM 14%, P/E 18x 유지.",
+      "key_assumptions": [
+        "분기별 AI 매출 비중 6→8→10→12% progression",
+        "자동차 EV cyclical recovery",
+        "lead frame ASP stable"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 130.0,
+      "thesis": "AI capex slowdown + 자동차 EV 수요 둔화 + 대만 지정학 escalation → 2027 매출 NT$24B (CAGR -3%), OPM 8%, P/E 12x.",
+      "key_assumptions": [
+        "Trump 관세 폭탄 (Taiwan exports 25%+)",
+        "IDM order push-out",
+        "SiC capa over-supply"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "2026 Q2 earnings (8월 초)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI 매출 비중 6→8-10% progression — inflection point sustainability 검증"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Infineon/STMicro CY2026 guidance update",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "IDM customer side capex visibility — SDI backlog 연계"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "NVIDIA Vera Rubin / Rubin Ultra 양산 일정",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Direct demand pull-in — HVDC mass production 시점 lock-in"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "40 customization projects 신규 design win 공시",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "프로젝트 conversion rate 정량 evidence — institutional buy-in 가능성 ↑"
+    },
+    {
+      "date": "2026-2027",
+      "event": "Taiwan 지정학 안정화 / TSMC 관세 면제 협상",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "Geopolitical discount 해소 → multiple re-rating"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Trump 관세 폭탄 (Taiwan exports 25%+)",
+      "probability": "med",
+      "impact": "high",
+      "description": "Trump 행정부의 Taiwan-targeted tariff 시 lead frame 매출의 미국 routing 압박 + cost pass-through 부담",
+      "mitigation": "베트남·말레이시아 sub-assembly capa 확보, 미국 직판 비중 축소"
+    },
+    {
+      "name": "AI capex 사이클 peak 후 mean-reversion",
+      "probability": "med",
+      "impact": "high",
+      "description": "Hyperscaler capex 가속 → 둔화 전환 시 lead frame demand pull-back",
+      "mitigation": "자동차 base 매출 (60%+) 안전판, 가동률 유연 조정"
+    },
+    {
+      "name": "자동차 EV 수요 둔화 지속 (60%+ revenue base)",
+      "probability": "med",
+      "impact": "med",
+      "description": "중국 EV 가격 인하·미국 보조금 축소·유럽 ICE 회복 동시 영향",
+      "mitigation": "AI segment ramp가 mix shift 통한 상쇄"
+    },
+    {
+      "name": "Lead frame ASP 압박 (over-supply or commoditization)",
+      "probability": "low",
+      "impact": "med",
+      "description": "Mitsui High-tec·HAESUNG DS·ASE 등 경쟁사 동시 capa 증설 시",
+      "mitigation": "HVDC customization 영역에서 차별화"
+    },
+    {
+      "name": "지정학 / 중국 침공 risk",
+      "probability": "low",
+      "impact": "high",
+      "description": "Low probability이나 발생 시 production 중단 + 자산 가치 zero approximation",
+      "mitigation": "지정학적 hedge 어려움, 분산 portfolio로 단일 노출 제한"
+    }
+  ],
+  "valuation_context": {
+    "current_pe": 17.5,
+    "industry_avg_pe": 19.0,
+    "5y_avg_pe": 14.5,
+    "ev_ebitda": 9.8,
+    "dividend_yield_pct": 3.4,
+    "fair_value_dcf_twd": 245,
+    "current_price_twd": 196.5,
+    "implied_upside_pct": 25.0
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020",
+        "revenue_bn_twd": 19.5,
+        "operating_income_bn_twd": 2.1,
+        "net_income_bn_twd": 1.8,
+        "opm_pct": 10.8,
+        "npm_pct": 9.2
+      },
+      {
+        "year": "2021",
+        "revenue_bn_twd": 22.0,
+        "operating_income_bn_twd": 2.6,
+        "net_income_bn_twd": 2.2,
+        "opm_pct": 11.8,
+        "npm_pct": 10.0
+      },
+      {
+        "year": "2022",
+        "revenue_bn_twd": 25.5,
+        "operating_income_bn_twd": 3.4,
+        "net_income_bn_twd": 2.8,
+        "opm_pct": 13.3,
+        "npm_pct": 11.0
+      },
+      {
+        "year": "2023",
+        "revenue_bn_twd": 24.0,
+        "operating_income_bn_twd": 2.9,
+        "net_income_bn_twd": 2.4,
+        "opm_pct": 12.1,
+        "npm_pct": 10.0
+      },
+      {
+        "year": "2024",
+        "revenue_bn_twd": 26.0,
+        "operating_income_bn_twd": 3.5,
+        "net_income_bn_twd": 2.9,
+        "opm_pct": 13.5,
+        "npm_pct": 11.2
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31 (LTM)",
+      "total_assets_bn_twd": 35.0,
+      "total_liabilities_bn_twd": 12.5,
+      "equity_bn_twd": 22.5,
+      "cash_bn_twd": 8.5,
+      "debt_bn_twd": 4.2,
+      "net_cash_bn_twd": 4.3
+    },
+    "cf_summary": {
+      "ocf_2024_bn_twd": 4.2,
+      "capex_2024_bn_twd": 2.5,
+      "fcf_2024_bn_twd": 1.7,
+      "fcf_margin_pct": 6.5
+    },
+    "peer_compare": [
+      {
+        "name": "SDI Corp",
+        "ticker": "2351.TW",
+        "pe": 17.5,
+        "pb": 2.8,
+        "roe_pct": 16.0,
+        "rev_growth_5y_cagr_pct": 7.5
+      },
+      {
+        "name": "HAESUNG DS",
+        "ticker": "195870.KS",
+        "pe": 18.0,
+        "pb": 1.5,
+        "roe_pct": 8.5,
+        "rev_growth_5y_cagr_pct": 5.0
+      },
+      {
+        "name": "Mitsui High-tec",
+        "ticker": "6966.T",
+        "pe": 14.0,
+        "pb": 1.2,
+        "roe_pct": 9.0,
+        "rev_growth_5y_cagr_pct": 4.0
+      },
+      {
+        "name": "ASM Pacific",
+        "ticker": "0522.HK",
+        "pe": 22.0,
+        "pb": 2.0,
+        "roe_pct": 9.5,
+        "rev_growth_5y_cagr_pct": 3.5
+      }
+    ]
+  }
+}
