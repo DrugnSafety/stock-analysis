@@ -1,0 +1,537 @@
+{
+  "computed_at": "2026-05-26T08:00:00.919844+09:00",
+  "ledger_path": ".analysis-log/bloggers/doctordk/2026-05-25_taiwan_leadframe_AI_HVDC/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/doctordk/2026-05-25_taiwan_leadframe_AI_HVDC/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "195870.KS",
+      "date": "2026-05-25",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "BUY": 3,
+        "HOLD": 3,
+        "lean_bullish": 8
+      },
+      "signal_score": 0.6787,
+      "weighted_confidence": 0.076,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.72,
+          "weight": 1.2,
+          "score_contribution": 0.864
+        },
+        "warren-buffett": {
+          "verdict": "HOLD",
+          "confidence": 0.55,
+          "weight": 0.7,
+          "score_contribution": 0.0
+        },
+        "charlie-munger": {
+          "verdict": "HOLD",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "benjamin-graham": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "bill-ackman": {
+          "verdict": "HOLD",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "mohnish-pabrai": {
+          "verdict": "BUY",
+          "confidence": 0.72,
+          "weight": 1.0,
+          "score_contribution": 0.72
+        },
+        "aswath-damodaran": {
+          "verdict": "lean_bullish",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": 0.476
+        },
+        "peter-lynch": {
+          "verdict": "BUY",
+          "confidence": 0.75,
+          "weight": 1.3,
+          "score_contribution": 0.975
+        },
+        "philip-fisher": {
+          "verdict": "lean_bullish",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": 0.476
+        },
+        "cathie-wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.434
+        },
+        "michael-burry": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "nassim-taleb": {
+          "verdict": "lean_bullish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.42
+        },
+        "rakesh-jhunjhunwala": {
+          "verdict": "lean_bullish",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": 0.476
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.5,
+          "score_contribution": 0.682
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 0,
+      "current_price": 83500.0,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.0151,
+      "reasoning": "중간 매수 신호 (+0.68), 한도의 50% 진입"
+    },
+    {
+      "ticker": "2351.TW",
+      "date": "2026-05-25",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "BUY": 5,
+        "lean_bullish": 7,
+        "HOLD": 2
+      },
+      "signal_score": 0.7526,
+      "weighted_confidence": 0.075,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.82,
+          "weight": 1.1,
+          "score_contribution": 0.902
+        },
+        "warren-buffett": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.2,
+          "score_contribution": 0.546
+        },
+        "charlie-munger": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.434
+        },
+        "benjamin-graham": {
+          "verdict": "HOLD",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "bill-ackman": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "mohnish-pabrai": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.434
+        },
+        "aswath-damodaran": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "peter-lynch": {
+          "verdict": "BUY",
+          "confidence": 0.78,
+          "weight": 1.1,
+          "score_contribution": 0.858
+        },
+        "philip-fisher": {
+          "verdict": "BUY",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.8
+        },
+        "cathie-wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.68,
+          "weight": 1.0,
+          "score_contribution": 0.476
+        },
+        "michael-burry": {
+          "verdict": "HOLD",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "nassim-taleb": {
+          "verdict": "lean_bullish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.42
+        },
+        "rakesh-jhunjhunwala": {
+          "verdict": "BUY",
+          "confidence": 0.78,
+          "weight": 1.0,
+          "score_contribution": 0.78
+        },
+        "stanley-druckenmiller": {
+          "verdict": "BUY",
+          "confidence": 0.82,
+          "weight": 1.2,
+          "score_contribution": 0.984
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 110000.0,
+      "target_quantity": 589,
+      "current_price": 186.5,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.6954,
+      "reasoning": "강한 매수 신호 (+0.75), 한도까지 진입"
+    },
+    {
+      "ticker": "AMKR",
+      "date": "2026-05-25",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "lean_bullish": 7,
+        "lean_bearish": 2,
+        "HOLD": 5
+      },
+      "signal_score": 0.2664,
+      "weighted_confidence": 0.075,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.58,
+          "weight": 1.1,
+          "score_contribution": 0.447
+        },
+        "warren-buffett": {
+          "verdict": "lean_bearish",
+          "confidence": 0.6,
+          "weight": 1.2,
+          "score_contribution": -0.504
+        },
+        "charlie-munger": {
+          "verdict": "lean_bearish",
+          "confidence": 0.58,
+          "weight": 1.0,
+          "score_contribution": -0.406
+        },
+        "benjamin-graham": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "bill-ackman": {
+          "verdict": "HOLD",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "mohnish-pabrai": {
+          "verdict": "lean_bullish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.42
+        },
+        "aswath-damodaran": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.434
+        },
+        "peter-lynch": {
+          "verdict": "HOLD",
+          "confidence": 0.55,
+          "weight": 1.1,
+          "score_contribution": 0.0
+        },
+        "philip-fisher": {
+          "verdict": "HOLD",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "cathie-wood": {
+          "verdict": "HOLD",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "michael-burry": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "nassim-taleb": {
+          "verdict": "HOLD",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "rakesh-jhunjhunwala": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.6,
+          "weight": 1.2,
+          "score_contribution": 0.504
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 65.75,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.7079,
+      "reasoning": "중립 신호 (+0.27), 변경 없음"
+    },
+    {
+      "ticker": "IFX.DE",
+      "date": "2026-05-25",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "BUY": 3,
+        "lean_bullish": 10,
+        "HOLD": 1
+      },
+      "signal_score": 0.7337,
+      "weighted_confidence": 0.075,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "BUY",
+          "confidence": 0.75,
+          "weight": 1.1,
+          "score_contribution": 0.825
+        },
+        "warren-buffett": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.2,
+          "score_contribution": 0.588
+        },
+        "charlie-munger": {
+          "verdict": "lean_bullish",
+          "confidence": 0.72,
+          "weight": 1.0,
+          "score_contribution": 0.504
+        },
+        "benjamin-graham": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "bill-ackman": {
+          "verdict": "BUY",
+          "confidence": 0.78,
+          "weight": 1.0,
+          "score_contribution": 0.78
+        },
+        "mohnish-pabrai": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "aswath-damodaran": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.1,
+          "score_contribution": 0.5
+        },
+        "philip-fisher": {
+          "verdict": "BUY",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.8
+        },
+        "cathie-wood": {
+          "verdict": "HOLD",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "michael-burry": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.434
+        },
+        "nassim-taleb": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "rakesh-jhunjhunwala": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.2,
+          "score_contribution": 0.588
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 110000.0,
+      "target_quantity": 0,
+      "current_price": NaN,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.645,
+      "reasoning": "강한 매수 신호 (+0.73), 한도까지 진입"
+    },
+    {
+      "ticker": "STM",
+      "date": "2026-05-25",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "lean_bullish": 10,
+        "HOLD": 4
+      },
+      "signal_score": 0.5247,
+      "weighted_confidence": 0.075,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.1,
+          "score_contribution": 0.5
+        },
+        "warren-buffett": {
+          "verdict": "HOLD",
+          "confidence": 0.55,
+          "weight": 1.2,
+          "score_contribution": 0.0
+        },
+        "charlie-munger": {
+          "verdict": "HOLD",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "benjamin-graham": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "bill-ackman": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.434
+        },
+        "mohnish-pabrai": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.434
+        },
+        "aswath-damodaran": {
+          "verdict": "HOLD",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "peter-lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.1,
+          "score_contribution": 0.477
+        },
+        "philip-fisher": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "cathie-wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.42
+        },
+        "michael-burry": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.0,
+          "score_contribution": 0.455
+        },
+        "nassim-taleb": {
+          "verdict": "HOLD",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "rakesh-jhunjhunwala": {
+          "verdict": "lean_bullish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.42
+        },
+        "stanley-druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "weight": 1.2,
+          "score_contribution": 0.546
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 822,
+      "current_price": 66.86,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.5814,
+      "reasoning": "중간 매수 신호 (+0.52), 한도의 50% 진입"
+    }
+  ]
+}
