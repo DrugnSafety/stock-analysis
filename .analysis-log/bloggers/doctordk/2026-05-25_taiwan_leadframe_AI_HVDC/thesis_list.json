@@ -1,0 +1,113 @@
+{
+  "blogger": "doctordk",
+  "post_date": "2026-05-25",
+  "source_urls": ["https://blog.naver.com/doctordk/224295944672"],
+  "extracted_at": "2026-05-25T22:50:00+09:00",
+  "extraction_model": "claude-opus-4-7",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "AI 데이터센터의 800V HVDC(고전압 직류) 전력 아키텍처 전환이 본격화되면서, 기존 415/480VAC 구조에서 처리할 수 없는 랙당 600kW~1MW급 부하를 효율적으로 분배·전송하기 위한 전력반도체(SiC/GaN) 수요가 구조적으로 급증한다.",
+      "type": "predictive",
+      "timeframe": "12-36개월",
+      "supporting_evidence": [
+        "메리츠증권 양승수 리포트 인용 — 'AI data centers spark 800V HVDC rush for Taiwan lead frame suppliers'",
+        "Infineon·STMicroelectronics 등 글로벌 IDM 주문 확대 확인",
+        "랙당 전력 600kW→1MW급 진입 (NVIDIA GB200→GB300→Vera Rubin→Rubin Ultra→Kyber NVL576 로드맵)"
+      ],
+      "stocks_implicated": ["IFX.DE", "STM", "2351.TW", "195870.KS"],
+      "confidence_signal": 0.85
+    },
+    {
+      "claim_id": "T02",
+      "claim": "전력반도체 패키징의 핵심 부품인 리드프레임(lead frame) 시장이 자동차 중심에서 AI 서버 중심으로 구조 변화하는 변곡점에 있으며, 2026년은 서버 매출이 자동차 매출을 빠르게 추격·대체하는 분기점이 된다.",
+      "type": "predictive",
+      "timeframe": "6-18개월",
+      "supporting_evidence": [
+        "SDI Corp: AI 매출 비중 2025년 약 1% → 2026년 1분기 6%로 급상승",
+        "Jih Lin: AI 관련 매출 비중 2025년 5-7% → 2027년 10% 초과 시장 전망",
+        "양사 모두 2026년 두 자릿수 매출 성장 가이던스"
+      ],
+      "stocks_implicated": ["2351.TW", "195870.KS", "AMKR"],
+      "confidence_signal": 0.80
+    },
+    {
+      "claim_id": "T03",
+      "claim": "자동차용 전력반도체 양산에서 축적된 차량용 등급(automotive-grade) 노하우 — 고전력 처리·방열·신뢰성 — 가 AI 서버용 전력관리 시장 진입의 결정적 진입장벽이자 경쟁우위가 된다.",
+      "type": "factual",
+      "timeframe": "현재 진행 중",
+      "supporting_evidence": [
+        "본문 직접 인용: '리드프레임 업체들은 수년간 축적한 차량용 등급 제품 개발 경험이 AI 서버 전력관리 시장 진입에 중요한 기반'",
+        "자동차와 AI 서버의 공통 요구: 고전력 처리·방열·신뢰성",
+        "Jih Lin 양면냉각(Double-sided cooling) 자동차 기술의 AI 서버 이식"
+      ],
+      "stocks_implicated": ["2351.TW", "195870.KS", "IFX.DE", "STM"],
+      "confidence_signal": 0.85
+    },
+    {
+      "claim_id": "T04",
+      "claim": "SDI Corporation의 HVDC용 고출력 리드프레임 제품이 연구개발 단계를 넘어 양산 진입했으며, 40개 이상의 고객별 맞춤형 프로젝트가 진행 중인 것은 매출 inflection point의 선행 지표다.",
+      "type": "factual",
+      "timeframe": "6-12개월",
+      "supporting_evidence": [
+        "본문 직접 인용: 'HVDC용 고출력 리드프레임 제품은 연구개발 단계를 넘어 양산에 진입했으며, 현재 40개 이상의 맞춤형 프로젝트가 진행 중'",
+        "HVDC 프로젝트 매출 기여도 2026년 하반기부터 본격 확대 전망",
+        "AI 매출 비중 1% → 6% 분기 점프는 ramp-up 시작의 신호"
+      ],
+      "stocks_implicated": ["2351.TW"],
+      "confidence_signal": 0.78
+    },
+    {
+      "claim_id": "T05",
+      "claim": "Jih Lin Technology의 가동률이 70-75%까지 상승하고 2026년 매출이 분기별로 증가해 연간 60억 대만달러(약 USD 187M) 목표 달성이 가능한 것은 자동차+AI 이중 모멘텀의 가시화다.",
+      "type": "predictive",
+      "timeframe": "12개월",
+      "supporting_evidence": [
+        "본문 직접 인용: '가동률이 70~75% 수준까지 상승, 2026년 매출 60억 대만달러 달성 가능'",
+        "프레스 + 에칭 공정 통합 기술력으로 사업 영역 확장 중",
+        "매년 40-50개 신규 제품 지속 개발"
+      ],
+      "stocks_implicated": ["AMKR", "2351.TW"],
+      "confidence_signal": 0.72
+    },
+    {
+      "claim_id": "T06",
+      "claim": "Infineon·STMicroelectronics 등 글로벌 IDM(Integrated Device Manufacturer)의 AI 데이터센터 전력반도체 주문 확대는 단순 cyclical recovery가 아니라, AI 인프라 capex 사이클의 structural up-cycle 신호다.",
+      "type": "predictive",
+      "timeframe": "12-24개월",
+      "supporting_evidence": [
+        "본문 직접 인용: 'Infineon과 STMicroelectronics 등 글로벌 IDM 고객사들의 주문도 확대'",
+        "기존 자동차 재고 조정 국면 마무리 + 2026년 하반기 출하 모멘텀 강화 전망",
+        "전기차 cyclical + AI structural의 dual-driver"
+      ],
+      "stocks_implicated": ["IFX.DE", "STM"],
+      "confidence_signal": 0.80
+    },
+    {
+      "claim_id": "T07",
+      "claim": "전기차(ADAS·전동화) cyclical 회복과 AI 서버 structural 성장이 동시에 작동하며, 자동차 + AI 분산 노출을 갖춘 IDM·패키징 업체가 단일 응용 player 대비 valuation re-rating 가능성이 높다.",
+      "type": "predictive",
+      "timeframe": "18-36개월",
+      "supporting_evidence": [
+        "본문 직접 인용: '자동차 시장 비중이 높은 업체들은 ADAS 확대와 차량 전동화 트렌드 역시 자동차용 반도체 수요 회복을 견인할 것'",
+        "기존 재고 조정 사실상 마무리 + 출하 모멘텀 강화",
+        "Diversified exposure → earnings volatility 감소 → multiple expansion potential"
+      ],
+      "stocks_implicated": ["IFX.DE", "STM", "AMKR"],
+      "confidence_signal": 0.70
+    },
+    {
+      "claim_id": "T08",
+      "claim": "메르의 메타-thesis — '딱 한발만 빠르면 충분', '따라 사지 말고 why?를 고민해야' — 는 시장이 consensus화되기 전 1-step ahead로 thesis를 internalize해야 alpha 창출 가능하다는 행동지침이며, 본 글은 그 시점이 이미 'first wave'를 지나 'broader awareness' 진입 단계임을 시사한다.",
+      "type": "normative",
+      "timeframe": "현재 진행 중",
+      "supporting_evidence": [
+        "본문 첫 문장: '이제 막 보고서가 쏟아집니다'",
+        "본문 마지막: '따라 사지 말고 왜? 인지 고민해야 다음번 기회에 한발 먼저 갈 수 있음'",
+        "메르 자체 referencing — 5월11일이면 딱 한발 이었음 → 현재는 second wave 진입"
+      ],
+      "stocks_implicated": [],
+      "confidence_signal": 0.65
+    }
+  ]
+}
