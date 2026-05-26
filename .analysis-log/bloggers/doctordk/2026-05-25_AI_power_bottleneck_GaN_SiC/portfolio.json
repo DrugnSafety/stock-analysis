@@ -1,0 +1,117 @@
+{
+  "computed_at": "2026-05-26T10:00:28.791382+09:00",
+  "start_cash": 1000000,
+  "start_date": "2026-05-25",
+  "end_date": "2026-05-25",
+  "n_decisions": 5,
+  "total_trades": 5,
+  "total_buy_value": 596598.56,
+  "total_sell_value": 0.0,
+  "final_cash": 403401.44,
+  "end_positions_value": 596598.56,
+  "final_nav": 1000000.0,
+  "total_return_pct": -0.0,
+  "final_positions": {
+    "AOSL": {
+      "qty": 2636,
+      "avg_cost": 41.72,
+      "last_price": 41.72,
+      "market_value": 109973.92,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "NVDA": {
+      "qty": 728,
+      "avg_cost": 215.33,
+      "last_price": 215.33,
+      "market_value": 156760.24,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "NVTS": {
+      "qty": 3760,
+      "avg_cost": 29.25,
+      "last_price": 29.25,
+      "market_value": 109980.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "ON": {
+      "qty": 946,
+      "avg_cost": 116.2,
+      "last_price": 116.2,
+      "market_value": 109925.2,
+      "unrealized_pnl": -0.0,
+      "unrealized_return_pct": -0.0
+    },
+    "POWI": {
+      "qty": 1552,
+      "avg_cost": 70.85,
+      "last_price": 70.85,
+      "market_value": 109959.2,
+      "unrealized_pnl": -0.0,
+      "unrealized_return_pct": -0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-25",
+      "ticker": "AOSL",
+      "action": "buy",
+      "qty": 2636,
+      "price": 41.72,
+      "cost": 109973.92,
+      "cash_after": 890026.08
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "NVDA",
+      "action": "buy",
+      "qty": 728,
+      "price": 215.33,
+      "cost": 156760.24,
+      "cash_after": 733265.84
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "NVTS",
+      "action": "buy",
+      "qty": 3760,
+      "price": 29.25,
+      "cost": 109980.0,
+      "cash_after": 623285.84
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "ON",
+      "action": "buy",
+      "qty": 946,
+      "price": 116.2,
+      "cost": 109925.2,
+      "cash_after": 513360.64
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "POWI",
+      "action": "buy",
+      "qty": 1552,
+      "price": 70.85,
+      "cost": 109959.2,
+      "cash_after": 403401.44
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 8124.85,
+      "end_price": 8124.85,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    },
+    "SPY": {
+      "start_price": 745.64,
+      "end_price": 745.64,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    }
+  }
+}
