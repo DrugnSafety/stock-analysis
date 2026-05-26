@@ -1,0 +1,66 @@
+{
+  "computed_at": "2026-05-26T09:59:58.517837+09:00",
+  "start_cash": 100000.0,
+  "start_date": "2026-05-25",
+  "end_date": "2026-05-25",
+  "n_decisions": 5,
+  "total_trades": 2,
+  "total_buy_value": 21494.0,
+  "total_sell_value": 0.0,
+  "final_cash": 78506.0,
+  "end_positions_value": 21494.0,
+  "final_nav": 100000.0,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "MRAAY": {
+      "qty": 488,
+      "avg_cost": 22.5,
+      "last_price": 22.5,
+      "market_value": 10980.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "MU": {
+      "qty": 14,
+      "avg_cost": 751.0,
+      "last_price": 751.0,
+      "market_value": 10514.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-25",
+      "ticker": "MRAAY",
+      "action": "buy",
+      "qty": 488,
+      "price": 22.5,
+      "cost": 10980.0,
+      "cash_after": 89020.0
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "MU",
+      "action": "buy",
+      "qty": 14,
+      "price": 751.0,
+      "cost": 10514.0,
+      "cash_after": 78506.0
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 8125.35,
+      "end_price": 8125.35,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    },
+    "SPY": {
+      "start_price": 745.64,
+      "end_price": 745.64,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    }
+  }
+}
