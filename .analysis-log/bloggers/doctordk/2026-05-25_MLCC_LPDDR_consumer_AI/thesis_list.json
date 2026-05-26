@@ -1,0 +1,89 @@
+{
+  "source": {
+    "blog_url": "https://blog.naver.com/doctordk/224296111861",
+    "blogger": "doctordk (의교창)",
+    "title": "MLCC와 LPDDR은 AI 시대의 혈관과 피다.",
+    "fetched_at": "2026-05-25"
+  },
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "다이요유덴·무라타·TDK 등 일본 MLCC 3사가 2026-05-25 단일 일자에 사상 최고가 동반 급등 (다이요유덴 16-17%)을 기록 — 테마성 상승을 넘어선 강한 흐름",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "오늘 일본 증시에서 다이요유덴이 하루 만에 16~17% 급등하며 사상 최고가를 찍고, 무라타와 TDK까지 동반 폭등했다. 단순한 테마성 상승으로 보기엔 흐름이 너무 강하다.",
+      "tags": ["MLCC", "Taiyo_Yuden", "Murata", "TDK", "일본증시", "사상최고가"]
+    },
+    {
+      "claim_id": "T02",
+      "claim": "이번 MLCC 급등의 트리거는 데이터센터가 아닌 Lenovo AI PC 출시 — AI가 B2B(클라우드)에서 B2C(개인 기기)로 내려오기 시작했다는 시장 신호",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "near_term",
+      "supporting_evidence": "흥미로운 건 이번 상승의 트리거가 데이터센터가 아니라 Lenovo AI PC였다는 점이다. 이건 굉장히 중요하다. 그동안 AI는 B2B 중심의 투자였다. 그런데 이제는 AI 기능이 개인용 기기로 내려오기 시작했다.",
+      "tags": ["AI_PC", "Lenovo", "B2C", "consumer_AI", "edge_inference"]
+    },
+    {
+      "claim_id": "T03",
+      "claim": "데이터센터(제한적 숫자) 대비 스마트폰·PC(수십억 대) 시장 격차가 압도적이며, AI 로컬 추론 시 기기당 MLCC·LPDDR 탑재량이 폭증하여 즉시 공급 부족이 시작됨",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "데이터센터는 숫자가 제한적이지만 스마트폰과 PC는 수십억 대 시장이다. AI가 로컬에서 추론하기 시작하면 모든 기기 안에 더 많은 MLCC와 LPDDR이 들어가야 한다. 그리고 이 순간부터 공급 부족이 시작된다.",
+      "tags": ["B2C_volume", "supply_shortage", "edge_AI", "MLCC", "LPDDR"]
+    },
+    {
+      "claim_id": "T04",
+      "claim": "씨티증권은 서버용 MLCC 시장의 CAGR을 약 40%로 전망 — 단순 성장이 아닌 산업 구조 자체의 변화",
+      "type": "factual",
+      "importance": "supporting",
+      "timeframe": "medium_term",
+      "supporting_evidence": "실제로 씨티증권은 서버용 MLCC 시장 CAGR을 약 40%로 전망했다. 단순 성장 정도가 아니라 산업 구조 자체가 바뀌는 수준이다.",
+      "tags": ["Citi_research", "CAGR_40pct", "server_MLCC", "TAM"]
+    },
+    {
+      "claim_id": "T05",
+      "claim": "MLCC는 사실상 과점 시장으로 일본·한국의 4사(무라타·다이요유덴·TDK·삼성전기)가 글로벌 시장 대부분을 장악 — 진입장벽이 높아 가격 결정권이 제조사로 이동",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "흥미로운 건 이 산업이 사실상 과점 시장이라는 것. 아무나 못 만든다. 극도로 높은 정밀도와 수율이 필요하다. 무라타, 다이요유덴, TDK, 삼성전기. 이 네 회사가 사실상 시장을 지배한다. 공급자가 제한돼 있다는 건 결국 가격 결정권이 제조사로 이동한다는 의미다.",
+      "tags": ["oligopoly", "pricing_power", "moat", "Samsung_Electromechanics"]
+    },
+    {
+      "claim_id": "T06",
+      "claim": "AI PC와 AI 스마트폰의 로컬 추론을 위해 기기당 메모리(LPDDR) 탑재량이 8GB → 16/32GB로 2배 이상 증가",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "near_term",
+      "supporting_evidence": "AI PC와 AI 스마트폰은 로컬 추론을 위해 훨씬 많은 메모리를 요구한다. 기존 8GB 수준에서 16GB, 32GB로 올라간다. 단순 계산으로도 기기당 탑재량이 거의 2배다.",
+      "tags": ["LPDDR_capacity", "AI_PC_memory", "edge_inference", "2x_content"]
+    },
+    {
+      "claim_id": "T07",
+      "claim": "메모리 업계가 HBM 생산에 집중하면서 동일 웨이퍼 capacity 안에서 LPDDR 생산 여력이 줄어, 공급 감소와 수요 폭증이 동시에 발생 — 가격 결정권이 메모리 제조사(삼성전자·SK하이닉스·Micron)로 이동",
+      "type": "conditional",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "지금 메모리 업계는 HBM 생산에 미친 듯이 집중하고 있다. 그런데 웨이퍼는 무한하지 않다. HBM을 많이 만들수록 LPDDR 생산 여력은 줄어든다. 공급 감소와 수요 폭증이 동시에 일어난다. 결국 가격 결정권은 제조사로 넘어간다.",
+      "tags": ["HBM_crowdout", "wafer_constraint", "LPDDR_shortage", "memory_pricing_power"]
+    },
+    {
+      "claim_id": "T08",
+      "claim": "시장은 GPU·HBM 이외 'AI 인프라의 숨겨진 병목'을 찾고 있으며, 전력 안정화 부품(MLCC)과 저전력 메모리(LPDDR)가 다음 차례 — 이번 단일 일자 상승은 일회성 뉴스가 아닌 구조 전환 신호",
+      "type": "normative",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "시장은 지금 AI 인프라의 '숨겨진 병목'을 찾고 있는 중이다. GPU는 이미 모두가 안다. HBM도 모두가 안다. 하지만 AI 기기가 진짜 폭발적으로 늘어나기 시작하면 결국 전력 안정화 부품과 저전력 메모리가 가장 먼저 부족해진다.",
+      "tags": ["hidden_bottleneck", "structural_shift", "MLCC_LPDDR", "AI_infra_2.0"]
+    }
+  ],
+  "extraction_meta": {
+    "extracted_at": "2026-05-25",
+    "method": "manual_LLM_extraction",
+    "total_theses": 8,
+    "core_theses": 6,
+    "supporting_theses": 2
+  }
+}
