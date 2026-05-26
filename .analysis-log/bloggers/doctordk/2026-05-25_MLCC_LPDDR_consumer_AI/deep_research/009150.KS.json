@@ -1,0 +1,350 @@
+{
+  "industry": {
+    "name": "MLCC / Passive Components / Camera Module",
+    "overview": "MLCC(Multi-Layer Ceramic Capacitor)는 전기를 안정적으로 흐르게 하고 노이즈를 제거하는 초미세 전자부품. AI 시대에는 AI 서버·AI PC·AI 스마트폰의 전력 안정화 핵심 부품으로 부상. 2017-2019 IoT shortage, 2020-2022 EV shortage에 이어 2026-2028 AI edge inflection cycle 진입. 4사(무라타·삼성전기·다이요유덴·TDK) 합산 점유 82%의 명백한 oligopoly. 진입장벽 ceramic thin-film co-firing 기술 5-7년. 글로벌 시장 2025E $35.2bn → 2030E $78.5bn (CAGR +17.4%)",
+    "competitors": [
+      {
+        "name": "Murata Manufacturing",
+        "ticker": "6981.T / MRAAY",
+        "share_pct": 38.0,
+        "moat": "Global #1, high-cap MLCC 52% 점유, Apple iPhone 75% supplier"
+      },
+      {
+        "name": "Samsung Electro-Mechanics",
+        "ticker": "009150.KS",
+        "share_pct": 22.0,
+        "moat": "Global #2, 한국 #1, Samsung Galaxy captive + 자동차 niche"
+      },
+      {
+        "name": "Taiyo Yuden",
+        "ticker": "6976.T",
+        "share_pct": 13.0,
+        "moat": "0201 ultra-small + high-frequency niche"
+      },
+      {
+        "name": "TDK Corporation",
+        "ticker": "6762.T / TTDKY",
+        "share_pct": 9.0,
+        "moat": "자동차 + 산업용 MLCC + 배터리 cell"
+      },
+      {
+        "name": "Yageo (대만)",
+        "ticker": "2327.TW",
+        "share_pct": 8.0,
+        "moat": "low-cap commodity MLCC, 대만 제조"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-25",
+        "title": "일본 MLCC 3사 사상 최고가 동반 급등 (Taiyo Yuden +16.7%, Murata +9.2%, TDK +7.4%)",
+        "source": "Nikkei + Bloomberg",
+        "summary": "단일 일 +16-17% 점프 — Lenovo AI PC 트리거 + Citi MLCC AI inflection 보고서"
+      },
+      {
+        "date": "2026-05-22",
+        "title": "Citi Research: AI MLCC TAM $14bn → $42bn by 2030",
+        "source": "Citigroup Equity Research",
+        "summary": "서버용 MLCC CAGR +40%, AI server 1대당 MLCC content 250-300% 증가"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "Murata: AI server MLCC backlog 2026 H2 capacity 130% 예약",
+        "source": "Murata Q1 FY27 결산 컨퍼런스콜",
+        "summary": "역사적 cycle 진입 — pricing power 가시화"
+      },
+      {
+        "date": "2026-05-24",
+        "title": "Lenovo AI PC 2.0 Roadshow — 60% PC 2027 AI 전환 목표",
+        "source": "Lenovo Corporate",
+        "summary": "AI B2B → B2C 전환 가속 — Snapdragon X2 + 32GB LPDDR5X mandatory"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "Microsoft Copilot+ PC 인증: 16GB RAM minimum",
+        "source": "Microsoft Build 2026",
+        "summary": "AI PC hardware floor mandate — LPDDR 8GB → 16/32GB 강제 전환"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 35.2,
+      "cagr_pct": 17.4,
+      "horizon": "2025-2030",
+      "note": "Server MLCC sub-segment은 CAGR +35-40% (Citi/Goldman)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 9675,
+        "op_income": 1481,
+        "op_margin": 15.3,
+        "net_income": 1183,
+        "net_margin": 12.2
+      },
+      {
+        "year": 2022,
+        "revenue": 9436,
+        "op_income": 1184,
+        "op_margin": 12.5,
+        "net_income": 920,
+        "net_margin": 9.7
+      },
+      {
+        "year": 2023,
+        "revenue": 8856,
+        "op_income": 612,
+        "op_margin": 6.9,
+        "net_income": 480,
+        "net_margin": 5.4
+      },
+      {
+        "year": 2024,
+        "revenue": 9520,
+        "op_income": 802,
+        "op_margin": 8.4,
+        "net_income": 620,
+        "net_margin": 6.5
+      },
+      {
+        "year": 2025,
+        "revenue": 11200,
+        "op_income": 1290,
+        "op_margin": 11.5,
+        "net_income": 998,
+        "net_margin": 8.9
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 13800,
+      "total_liab": 4200,
+      "equity": 9600,
+      "cash": 2100,
+      "debt": 1850
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 1450,
+      "fcf_5y_avg": 620,
+      "capex_intensity": 0.085
+    },
+    "peer_compare": [
+      {
+        "ticker": "009150.KS",
+        "name": "삼성전기",
+        "pe": 54.86,
+        "pb": 4.8,
+        "roe": 8.9,
+        "div_yield": 0.85
+      },
+      {
+        "ticker": "MRAAY",
+        "name": "Murata",
+        "pe": 26.5,
+        "pb": 2.45,
+        "roe": 9.5,
+        "div_yield": 1.65
+      },
+      {
+        "ticker": "6976.T",
+        "name": "Taiyo Yuden",
+        "pe": 32.0,
+        "pb": 2.85,
+        "roe": 8.2,
+        "div_yield": 1.2
+      },
+      {
+        "ticker": "TTDKY",
+        "name": "TDK",
+        "pe": 22.5,
+        "pb": 1.95,
+        "roe": 8.8,
+        "div_yield": 1.95
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 1800000,
+      "thesis": "AI PC + AI smartphone 침투율 2027 30%+, MLCC ASP +25-30%, OPM 14-16% 진입",
+      "key_assumptions": [
+        "Citi +40% server MLCC CAGR 실현",
+        "AI server MLCC mix 2027 35%+",
+        "OPM 14-16% peak"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 1600000,
+      "thesis": "AI 침투율 2027 18-22%, MLCC ASP +12-18%, OPM 11-13% 유지",
+      "key_assumptions": [
+        "Server MLCC mix 2027 25-30%",
+        "OPM 11-13%",
+        "2027E EPS 22,000원 × PE 28"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 1100000,
+      "thesis": "중국 자립 + 일본 3사 capacity expansion 가속 → 2027 shortage 조기 해소",
+      "key_assumptions": [
+        "MLCC ASP -5%",
+        "OPM 8-9% 회귀",
+        "PE 30 contraction"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "2026 Q2 결산 — AI server MLCC mix 가이던스",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "AI server MLCC mix 2025 13% → 25% 점프 시 sell-side estimate revision wave"
+    },
+    {
+      "date": "2026-08",
+      "event": "Galaxy Z Flip 7 출시",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Samsung Galaxy captive MLCC demand boost"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Citi/Goldman MLCC sector deep-dive update",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "TAM upgrade 가능 — sector multiple expansion"
+    },
+    {
+      "date": "2026-12",
+      "event": "천안 line +25% capacity expansion 가동",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "AI server MLCC 증산 — Q4 매출 ramp"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "AI PC 침투율 15-20% 도달",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "고가 MLCC content premium 가속화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "중국 자립 정책 (MIIT 50% 자립 목표)",
+      "probability": "med",
+      "impact": "high",
+      "description": "MLCC low-cap commodity segment에서 중국 점유 확대 — Samsung 점유 정체",
+      "mitigation": "high-cap niche 집중 + AI server 특화"
+    },
+    {
+      "name": "Murata가 high-cap segment 압도적 우위",
+      "probability": "med",
+      "impact": "med",
+      "description": "high-cap (10µF+) Murata 52% 점유 → Samsung 점유 정체 가능",
+      "mitigation": "0402/0201 size niche 확장"
+    },
+    {
+      "name": "AI PC adoption 속도 expectations 대비 늦음",
+      "probability": "med",
+      "impact": "med",
+      "description": "consumer pushback + WTP 부족",
+      "mitigation": "자동차 MLCC mix 다변화"
+    },
+    {
+      "name": "카메라 모듈 / 기판 segment 부진",
+      "probability": "med",
+      "impact": "low",
+      "description": "Galaxy 출하 감소 시 mix headwind",
+      "mitigation": "AI-related camera (LiDAR·ToF) 진입"
+    },
+    {
+      "name": "Forward PE 54 multiple compression 위험",
+      "probability": "low",
+      "impact": "high",
+      "description": "cyclical peak earnings expectation에 대한 premium",
+      "mitigation": "2027E EPS visibility 확보로 PE 28-30 정상화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI가 데이터센터(B2B)에서 소비자 기기(B2C)로 확장 — Lenovo AI PC가 트리거",
+      "type": "macro",
+      "evidence": "Lenovo AI PC 2.0 Roadshow + Microsoft Copilot+ 16GB 인증 + Apple M5 32GB unified memory",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "MLCC 글로벌 4사 (Murata·Samsung·Taiyo·TDK) 합산 점유 82%로 명백한 oligopoly",
+      "type": "industry",
+      "evidence": "시장 점유율 데이터 + Yole 2025 + Citi 2026-05 보고서",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "HBM 생산 집중 → 동일 wafer capacity 안에서 LPDDR 생산 여력 감소",
+      "type": "industry",
+      "evidence": "Mizuho 2026-05: LPDDR available capacity 2026 H2 -12%",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+ 증가",
+      "type": "industry",
+      "evidence": "Microsoft 인증, Apple unified memory, Galaxy S26 spec",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Citi Research: 서버용 MLCC 시장 CAGR ~40% — 단순 성장 아닌 구조 변화",
+      "type": "company",
+      "evidence": "Citi 2026-05-22 보고서 + Goldman/Mizuho 컨센서스 +30-35%",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "시장은 GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3",
+      "type": "macro",
+      "evidence": "Goldman AI Infrastructure 2.0 보고서 + 일본 MLCC 동반 급등 signal",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "단일 일 일본 3사 +16-17% 급등은 over-reaction 가능 — 단기 조정 위험",
+      "type": "macro",
+      "evidence": "2018 IoT MLCC rally 시 첫 2주 +25% 후 -15% 조정",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "중국 자립 정책 (MIIT 2027 50% 자립 목표)으로 long-term oligopoly 변화 가능",
+      "type": "policy",
+      "evidence": "MIIT 2026-Q1 발표 + Fenghua Advanced 매출 +85% YoY",
+      "testability": "low",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05-15",
+      "type": "주요사항",
+      "title": "2026 Q1 분기보고서 — MLCC 매출 +18% YoY",
+      "impact": "AI server MLCC 분기 mix 13% → 19% 점프 — 영업이익 +35% YoY"
+    },
+    {
+      "date": "2026-04-22",
+      "type": "주요사항",
+      "title": "천안 line capacity expansion +25% announce",
+      "impact": "2026-12 가동 시작 — 2027 매출 +5-7% 기여 예상"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "컨퍼런스콜",
+      "title": "CEO 장덕현 — \"2026 H2 AI MLCC 비중 25% 진입\"",
+      "impact": "sell-side EPS estimate revision 가속화"
+    }
+  ]
+}
