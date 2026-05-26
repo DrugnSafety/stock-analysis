@@ -1,0 +1,246 @@
+{
+  "ticker": "NVTS",
+  "name_kr": "Navitas Semiconductor (나비타스 세미컨덕터)",
+  "name_en": "Navitas Semiconductor",
+  "ipo_year": 2020,
+  "market_data_snapshot": {
+    "ticker": "NVTS",
+    "name": "Navitas Semiconductor Corporation",
+    "current_price": 29.25,
+    "currency": "USD",
+    "forward_pe": -203.8,
+    "trailing_pe": null,
+    "beta": 3.62,
+    "return_1m_pct": 58.36,
+    "return_3m_pct": 262.0,
+    "return_6m_pct": 287.42,
+    "return_1y_pct": 479.21,
+    "volatility_annualized_pct": 203.68,
+    "market_cap_local_bn": 6.84,
+    "market_cap_usd_bn": 6.84,
+    "ev_ebitda": -102.76,
+    "div_yield_pct": 0,
+    "pb": 16.15,
+    "fetched_at": "2026-05-26T00:49:47",
+    "fetched_via": "yfinance 1.4.0 (live)",
+    "as_of_date": "2026-05-22"
+  },
+  "industry": {
+    "name": "Wide-Bandgap Power Semiconductors — GaN/SiC for AI Data Center 800V DC",
+    "overview": "GaN(Gallium Nitride)·SiC(Silicon Carbide) 광대역 반도체 시장은 2024 약 USD 4B에서 2030 USD 20B+ (Yole, CAGR 30%+)로 exponential growth 단계. 기존 자동차 EV 사이클(2020-2024)에서 검증된 600V/1200V WBG가 AI 데이터센터 800V DC 아키텍처라는 second wave demand로 확장 중. Navitas는 GaN(주로 100-650V class)·SiC(1200V class)를 동시에 보유한 거의 유일한 pure-play로, NVIDIA의 차세대 800V DC AI 팩토리에서 reference design 파트너로 부상. FY24 매출 약 $84M으로 small-cap이나, 98% 효율 8.5kW AI DC 전원 모듈 demo + 40+ design wins 진행 — 6-12개월 내 매출 inflection 진입 trajectory.",
+    "competitors": [
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": 25.0,
+        "moat": "글로벌 IDM #1, SiC capa 1위, automotive lock-in"
+      },
+      {
+        "name": "onsemi",
+        "ticker": "ON",
+        "share_pct": 18.0,
+        "moat": "SiC vertical integration, Tesla supplier"
+      },
+      {
+        "name": "Wolfspeed",
+        "ticker": "WOLF",
+        "share_pct": 12.0,
+        "moat": "200mm SiC wafer leader (Mohawk Valley) — 다만 chapter 11 risk"
+      },
+      {
+        "name": "STMicroelectronics",
+        "ticker": "STM",
+        "share_pct": 15.0,
+        "moat": "SiC Catania·Tesla 공급, EU IDM"
+      },
+      {
+        "name": "Navitas Semiconductor",
+        "ticker": "NVTS",
+        "share_pct": 2.0,
+        "moat": "GaN+SiC pure-play, NVIDIA 800V partner"
+      },
+      {
+        "name": "기타",
+        "ticker": "—",
+        "share_pct": 28.0,
+        "moat": "EPC, Power Integrations, Texas Instruments, ROHM, fragmented"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 4.0,
+      "cagr_pct": 30.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "약 $84M (FY24 GAAP, YoY +3%)",
+    "revenue_2025_est": "$105-120M (consensus, AI/DC inflection 시작)",
+    "gross_margin": "약 40-42% (제품 mix 변화로 개선 trend)",
+    "operating_margin": "Negative — FY24 약 -160% (R&D 집중, AI 시장 진입 단계)",
+    "net_margin": "Negative — FY24 약 -135M loss",
+    "fcf_2024": "Negative ~$50-70M, cash burn 진행 중",
+    "balance_sheet": "Cash $80M+, 잠재 dilution risk — 2025-2026 secondary offering 가능성",
+    "ai_revenue_share_evolution": "2024 < 5% → 2025 ~15-20% → 2026E 30-40% → 2027E 50%+ (NVIDIA 800V program ramp)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 55.0,
+      "thesis": "NVIDIA 800V DC mass adoption + 40+ design wins → 2027 매출 $200M+, GM 50%, operating profitability 진입. Stock 2x upside.",
+      "key_assumptions": [
+        "NVIDIA Vera Rubin Ultra 양산 2027 1H",
+        "GaN+SiC dual integration의 unique value",
+        "operating leverage 폭발"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 35.0,
+      "thesis": "AI DC ramp + 자동차 cyclical recovery — 2027 매출 $150M, GM 45%, 적자 폭 축소. 점진 multiple expansion.",
+      "key_assumptions": [
+        "AI mix 30%로 안정 진입",
+        "EV recovery 2026 2H",
+        "cash burn 통제"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 15.0,
+      "thesis": "NVIDIA 800V 채택 지연 + cash burn 가속 + dilutive offering → 매출 stagnation, stock -50%.",
+      "key_assumptions": [
+        "AMD/Google의 12V/48V 고수",
+        "Wolfspeed 파산 contagion",
+        "secondary offering"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "FY2Q26 earnings (8월 초)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI DC revenue contribution 명시 — design wins → revenue conversion 검증"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "OCP Global Summit (10월)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "차세대 800V 모듈 spec 공개 — NVIDIA·hyperscaler reference 검증"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "NVIDIA Vera Rubin 양산 일정 update",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Vera Rubin Ultra(2027 launch)의 power supplier 명시 시 NVTS upside"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "NVIDIA Vera Rubin 양산 본격화",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "800V DC architecture mass volume — NVTS BoM 위치 검증"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "FY2027 가이던스 발표",
+      "type": "guidance",
+      "expected_impact": "+",
+      "description": "$200M+ revenue + GM 45%+ guidance 시 multiple expansion 가속"
+    }
+  ],
+  "risks": [
+    {
+      "name": "NVIDIA 800V 채택 지연 risk",
+      "probability": "med",
+      "impact": "high",
+      "description": "NVIDIA 외 hyperscaler가 12V/48V 고수 또는 800V mass volume이 2028로 1년 지연 시 NVTS 매출 trajectory 둔화",
+      "mitigation": "자동차·산업용 base 매출 유지, EV recovery 2nd-half tailwind"
+    },
+    {
+      "name": "Dilutive Secondary Offering risk",
+      "probability": "high",
+      "impact": "med",
+      "description": "FY24 -$135M loss + Cash $80M으로 18-24개월 runway — 2025-2026 secondary offering 가능성",
+      "mitigation": "Strategic partnership (NVIDIA 등 anchor investor) 가능성"
+    },
+    {
+      "name": "Wolfspeed Chapter 11 Contagion",
+      "probability": "med",
+      "impact": "med",
+      "description": "Wolfspeed 파산 시 SiC pure-play 자체에 fund flow 비판 → NVTS 동반 펀딩 우려",
+      "mitigation": "GaN+SiC dual sufficiency, NVIDIA 공식 파트너십 차별화"
+    },
+    {
+      "name": "Crowded Trade Unwind",
+      "probability": "med",
+      "impact": "high",
+      "description": "6M +60-100% rally의 retail 과열 → narrative reset 시 -30-40% drawdown",
+      "mitigation": "long-term 1-3y horizon, partial entry strategy"
+    },
+    {
+      "name": "Trump Tariff / China Tech 통제",
+      "probability": "low",
+      "impact": "med",
+      "description": "GaN/SiC export control + 중국 capa 확장 견제로 ASP 압박",
+      "mitigation": "US/EU 시장 집중, 한국·일본 supplier 분산"
+    }
+  ],
+  "valuation_context": {
+    "current_pe": null,
+    "industry_avg_pe": 35.0,
+    "5y_avg_pe": null,
+    "ev_ebitda": null,
+    "dividend_yield_pct": 0.0,
+    "fair_value_dcf_usd": 35.0,
+    "current_price_usd": 29.25,
+    "implied_upside_pct": 19.7
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020",
+        "revenue_mn_usd": 24,
+        "operating_income_mn_usd": -65,
+        "net_income_mn_usd": -65,
+        "opm_pct": -271,
+        "npm_pct": -271
+      },
+      {
+        "year": "2021",
+        "revenue_mn_usd": 24,
+        "operating_income_mn_usd": -86,
+        "net_income_mn_usd": -88,
+        "opm_pct": -358,
+        "npm_pct": -367
+      },
+      {
+        "year": "2022",
+        "revenue_mn_usd": 38,
+        "operating_income_mn_usd": -106,
+        "net_income_mn_usd": -114,
+        "opm_pct": -279,
+        "npm_pct": -300
+      },
+      {
+        "year": "2023",
+        "revenue_mn_usd": 79,
+        "operating_income_mn_usd": -127,
+        "net_income_mn_usd": -147,
+        "opm_pct": -161,
+        "npm_pct": -186
+      },
+      {
+        "year": "2024",
+        "revenue_mn_usd": 84,
+        "operating_income_mn_usd": -135,
+        "net_income_mn_usd": -135,
+        "opm_pct": -161,
+        "npm_pct": -161
+      }
+    ]
+  }
+}
