@@ -1,0 +1,49 @@
+{
+  "computed_at": "2026-05-29T03:25:00.212887+09:00",
+  "start_cash": 1000000000.0,
+  "start_date": "2026-05-28",
+  "end_date": "2026-05-28",
+  "n_decisions": 3,
+  "total_trades": 1,
+  "total_buy_value": 54945000.0,
+  "total_sell_value": 0.0,
+  "final_cash": 945055000.0,
+  "end_positions_value": 54945000.0,
+  "final_nav": 1000000000.0,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "103140.KS": {
+      "qty": 666,
+      "avg_cost": 82500.0,
+      "last_price": 82500.0,
+      "market_value": 54945000.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-28",
+      "ticker": "103140.KS",
+      "action": "buy",
+      "qty": 666,
+      "price": 82500.0,
+      "cost": 54945000.0,
+      "cash_after": 945055000.0
+    }
+  ],
+  "benchmark_comparison": {
+    "^KS11": {
+      "start_price": 8228.7,
+      "end_price": 8228.7,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    },
+    "SPY": {
+      "start_price": 754.8,
+      "end_price": 754.8,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    }
+  }
+}
