@@ -123,9 +123,19 @@ def render_4analyst(theses: list[dict], evals: dict) -> str:
         cid = t.get("claim_id") or t.get("id")  # robust: fall back to 'id'
         agg = evals.get(cid, {})
         agg_data = agg.get("aggregate", {})
+        # robust: claim → thesis → thesis_summary → summary 3중 fallback
+        thesis_text = (
+            t.get('claim')
+            or t.get('thesis')
+            or t.get('thesis_summary')
+            or t.get('summary')
+            or agg.get('thesis_summary')
+            or ''
+        )
+        importance = t.get('importance') or t.get('priority') or 'support'
         body += f"""
-        <h3>{cid} — {t.get('claim', '')}</h3>
-        <p><span class="tag-{ 'actual' if t.get('type')=='factual' else 'inference'}">{t.get('type')}</span> · {t.get('importance')} · {t.get('timeframe')}</p>
+        <h3>{cid} — {thesis_text}</h3>
+        <p><span class="tag-{ 'actual' if t.get('type')=='factual' else 'inference'}">{t.get('type')}</span> · {importance} · {t.get('timeframe')}</p>
         """
         eval_data = agg.get("evaluations", {})
         rows = ""
@@ -189,16 +199,50 @@ def render_data_tags_summary(theses: list[dict], evals: dict) -> str:
         if evid:
             counts["actual"] += 1
 
+    # ── Sprint E-3: skip __metadata__ pseudo-entry + expand source keyword matching ──
+    # Authoritative source keywords (Korean + English) → [actual]
+    ACTUAL_KEYWORDS = (
+        # 공식 보고서·통계 (한글)
+        "통계", "공식", "발표", "보고서", "공시", "사업보고서",
+        "정부", "ministry", "재무제표", "분기보고서",
+        # 공식 보고서·통계 (영문)
+        "report", "filing", "10-k", "10-q", "8-k",
+        "fed", "ecb", "boj", "imf", "world bank", "oecd", "wsts",
+        "ministry of", "earnings call", "press release",
+        "bloomberg", "reuters", "wsj", "ft.com",
+        # 데이터 제공자
+        "yfinance", "fred", "dart", "sec edgar", "kosis",
+    )
+    INFERENCE_KEYWORDS = ("추론", "inference", "estimate", "forecast", "projection")
+
+    def _classify_source(src: str) -> str:
+        s = (src or "").lower().strip()
+        if not s:
+            return "unavailable"
+        if any(kw in s for kw in ACTUAL_KEYWORDS):
+            return "actual"
+        if any(kw in s for kw in INFERENCE_KEYWORDS):
+            return "inference"
+        return "assumption"
+
     for cid, agg in evals.items():
+        if cid.startswith("__"):  # __metadata__ 등 pseudo-entries
+            continue
+        if not isinstance(agg, dict):
+            continue
         for a, e in (agg.get("evaluations") or {}).items():
+            if not isinstance(e, dict):
+                continue
             for d in (e.get("supporting_data") or []):
-                tag = (d.get("source", "") or "").lower()
-                if "report" in tag or "통계" in tag or "공식" in tag or "발표" in tag:
-                    counts["actual"] += 1
-                elif "추론" in tag or "inference" in tag:
-                    counts["inference"] += 1
-                else:
-                    counts["assumption"] += 1
+                if not isinstance(d, dict):
+                    continue
+                tag = _classify_source(d.get("source", ""))
+                counts[tag] += 1
+            # counter_evidence도 [actual] 카운트 (검증가능한 반박 근거)
+            for d in (e.get("counter_evidence") or []):
+                if not isinstance(d, dict):
+                    continue
+                counts[_classify_source(d.get("source", ""))] += 1
 
     total = sum(counts.values()) or 1
     body = '<h2>4. 데이터 태깅 요약 (분석의 사실 anchor 강도)</h2>'
