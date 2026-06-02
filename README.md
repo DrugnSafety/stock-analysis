@@ -169,18 +169,20 @@ python3 plugins/sec-edgar-integration/scripts/sec_client.py BTU
 
 ## 📊 보고서 섹션 흐름
 
-per-stock combined PDF의 섹션 순서 (v0.5.0 기준):
+per-stock combined PDF의 섹션 순서 (v0.8.0 기준):
 
 ```
 1.  Cover
 2.  Company Intro
 3.  Deep Research (산업 + 재무 + 카탈리스트/리스크)
+      └ 산업 뉴스에 ✓출처 하이퍼링크, 시나리오 가정에 ✓출처/⚠반박 배지 (Phase 7)
 4.  Financial Statements US-GAAP (5Y annual + 5Q quarterly + variance)
 5.  News Timeline (중립 제외 + 월별 +/- bar chart)
 6.  Executive Brief + Thesis List (implicit thesis 자동 보강)
 7.  R1 Quant Anchor
 8.  R2 Persona Panel (Thesis × Persona Matrix)
 9.  R3 Decision Section
+9b. 🔎 Citation Audit (Phase 7 — 출처 검증: 🔴모순 / 🟡무출처 / 🟢확인)
 10. (선택) ETF Holdings · Reverse DCF · Subagent Debate
 11. Appendix
 ```
@@ -263,6 +265,22 @@ per-stock combined PDF의 섹션 순서 (v0.5.0 기준):
 ---
 
 ## 📜 Version History
+
+### v0.8.0 (2026-06-02) — Phase 7 Evidence Layer (외부 근거 강화 + 팩트체크)
+
+AMEET-style "외부 1차 자료 조회 → 교차검증 → 인용" 레이어 신설. `report-suite/skills/_common/`에 stdlib-only 2개 모듈.
+
+- **절차 A — `evidence_retriever.py`** (Evidence Retrieval)
+  - 출처 URL 박힌 외부 1차 자료를 `evidence/{ticker}.json`으로 격리 저장
+  - 소스(무료): ① WebSearch hits(backbone) ② SEC EDGAR EFTS(날짜필터·최신순) ③ DART(.KS/.KQ) ④ news-integration
+  - `register_source()` pluggable (향후 bigdata.com 등 prepend) · `merge_into_deep()` · `annotate_scenarios()`(가정에 ✓출처/⚠반박 배지)
+- **절차 B — `fact_checker.py`** (Fact-Check / Citation Lock)
+  - 발행 전 3종 체크: thesis↔evidence 모순(stance-aware) · 무출처 정량주장 · 밸류에이션 정합성
+  - 등급: 🔴 conflict / 🟡 unsourced / 🟢 confirmed → 보고서 말미 **Citation Audit** 섹션
+  - `make_codex_verifier()` — codex-integration LLM 검증기 plug (opt-in `FACTCHECK_LLM=1`, 그 외 graceful no-op)
+- **build 배선** (`build_combined.py`): evidence 주입 → scenarios 근거태깅 → 팩트체크 → Citation Audit 자동. `DISABLE_FACTCHECK=1`로 끔
+- **deep_research.py 렌더**: 산업 뉴스 출처를 하이퍼링크 + ✓출처 배지로 표시
+- **검증(BTU)**: 뉴스 5건(URL 0%)→12건(URL 7), scenarios 9건 태깅, Citation Audit가 **EIA -9% 전망이 bull "AI=석탄수요" 논리 반박**을 자동 탐지(🔴4/🟡3/🟢1). stdlib-only → Cowork·Claude Code 양쪽 portable
 
 ### v0.5.0 (2026-05-11) — 재무 분석 + Standalone 강화
 구체적인 5단계 phase 작업으로 진행:
@@ -356,6 +374,18 @@ per-stock combined PDF의 섹션 순서 (v0.5.0 기준):
 ```bash
 bash scripts/sync_commands.sh
 ```
+
+### Phase 7 Evidence Layer — 환경 호환성 (재검증 2026-06-02)
+
+| 구성요소 | Cowork sandbox | Claude Code (macOS) |
+|---|---|---|
+| `evidence_retriever.py` (WebSearch·SEC EFTS·DART) | ✅ stdlib-only | ✅ 동일 |
+| `fact_checker.py` (3종 체크) | ✅ | ✅ |
+| codex LLM 검증기 (`FACTCHECK_LLM=1`) | OPENAI_API_KEY 경로 | ✅ **codex CLI 네이티브** (더 유리) |
+| PDF rasterize (weasyprint) | ⚠️ 디스크/시스템libs 제약 가능 | ✅ `pip install weasyprint` 정상 |
+| DART corp_code 예열 | ⚠️ 45초 timeout 가능 | ✅ 제한 없음 |
+
+→ **Phase 7 신규 모듈은 외부 패키지 의존이 없어(stdlib-only) 두 환경 모두 작동.** Cowork sandbox에서 막히는 weasyprint PDF 최종 빌드·DART 예열은 Claude Code(로컬 macOS)에서 제약 없이 실행됩니다.
 
 ---
 
