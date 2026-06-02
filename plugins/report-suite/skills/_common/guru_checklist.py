@@ -13,6 +13,7 @@ Sprint Fix-C (2026-05-28) 대규모 강화:
 - column width 명시 (판단 항목 28%, 결과 8%, 설명 64%)
 """
 from __future__ import annotations
+from pathlib import Path
 from typing import Optional
 
 
@@ -1434,14 +1435,32 @@ def evaluate_checklist(persona_id: str, ticker: str, persona_data: dict,
                         "페르소나 본문에서 추출한 의견:</em>" + evidence["note"]
                     ),
                     "explanation": explanation,
-                    "data_based": True,  # persona's qualitative opinion = data-based judgment
+                    "data_based": True,
                 })
                 continue
-            # 진짜 evidence 없음 → 명시적 안내
+            # Sprint F-3: evidence 없으면 LLM이 종목 데이터 + 페르소나 철학 기반 정성 평가 작성
+            llm_eval = _llm_qualitative_assessment(
+                criterion=item, explanation=explanation,
+                persona_id=persona_id, persona_data=persona_data,
+                company_data=company_data, ticker=ticker,
+            )
+            if llm_eval:
+                results.append({
+                    "item": item,
+                    "status": llm_eval["status"],
+                    "note": (
+                        "<em style='color:#475569;'>정성 평가 — 정량 metric·페르소나 본문 부재. "
+                        "AI가 페르소나 철학·종목 데이터 기반 추정:</em><br/>" + llm_eval["note"]
+                    ),
+                    "explanation": explanation,
+                    "data_based": False,  # LLM inference, not hard data
+                })
+                continue
+            # LLM 실패 시 최종 fallback
             status = "[?]"
             note = (
-                "<em>정성 평가 — 실데이터로 정량 검증 불가. 페르소나 본문에서도 이 criterion에 "
-                "대한 명시적 평가 없음. 학습 가이드 column에서 평가 framework 확인 가능.</em>"
+                "<em>정성 평가 — 실데이터·페르소나 본문·LLM 추정 모두 부재. "
+                "학습 가이드 column에서 평가 framework 확인 가능.</em>"
             )
             results.append({"item": item, "status": status, "note": note,
                             "explanation": explanation, "data_based": False})
@@ -1455,11 +1474,30 @@ def evaluate_checklist(persona_id: str, ticker: str, persona_data: dict,
                 "status": evidence["status"],
                 "note": evidence["note"],
                 "explanation": explanation,
-                "data_based": True,  # persona's own evidence counts as data-based
+                "data_based": True,
             })
             continue
 
-        # 4. Heuristic fallback (오직 evidence 매핑 실패 시에만)
+        # 3.5. ── Sprint F-3: LLM qualitative assessment (heuristic fallback 전) ──
+        llm_eval = _llm_qualitative_assessment(
+            criterion=item, explanation=explanation,
+            persona_id=persona_id, persona_data=persona_data,
+            company_data=company_data, ticker=ticker,
+        )
+        if llm_eval:
+            results.append({
+                "item": item,
+                "status": llm_eval["status"],
+                "note": (
+                    "<em style='color:#475569;'>AI 정성 평가 (페르소나 철학·종목 데이터 종합):</em><br/>"
+                    + llm_eval["note"]
+                ),
+                "explanation": explanation,
+                "data_based": False,
+            })
+            continue
+
+        # 4. Heuristic fallback (오직 LLM·evidence 모두 실패 시에만)
         item_seed = (seed + i * 17) % 100
         if verdict == "lean_bullish":
             threshold = item_seed + int(confidence * 30)
@@ -1669,3 +1707,313 @@ def render_guru_checklist(persona_id: str, persona_kr: str, ticker: str,
       <tbody>{rows}</tbody>
     </table>
     """
+
+
+# ════════════════════════════════════════════════════════════════════════════
+# Sprint F-3 (2026-06-02): LLM-based qualitative assessment
+# ════════════════════════════════════════════════════════════════════════════
+# evidence·heuristic 모두 실패할 때 gpt-4o-mini가 페르소나 철학 + 종목 데이터
+# 종합하여 정성 평가 작성. 음슴체 어조. 7일 cache.
+# 비활성화: DISABLE_LLM_CHECKLIST=1
+# ════════════════════════════════════════════════════════════════════════════
+
+PERSONA_PHILOSOPHY: dict[str, str] = {
+    "warren-buffett": "Quality moat + 10년 예측 가능 비즈니스 + ROE 15%+ 일관성 + Margin of Safety 30%+. Tech·biotech 회피, 단순한 비즈니스 모델 선호.",
+    "charlie-munger": "Mental models 다양화. Quality at fair price >>> Junk at low price. Opportunity cost · avoid leveraged businesses · concentrated few-name portfolio.",
+    "peter-lynch": "GARP — PEG < 1.0, EPS growth 15-30% sustainable. '내가 매일 쓰는 회사' 우선. Tenbagger 추구. Boring industry 좋아함.",
+    "cathie-wood": "Disruptive innovation — AI · robotics · genomics · blockchain · energy storage. 5년 매출 CAGR 15%+ 요구. TAM 거대 + 점유율 확장.",
+    "michael-burry": "Contrarian deep value — DCF 50% MOS. Market structure 미시 분석. Short squeeze · burry-style activist. Tail event 베팅.",
+    "nassim-taleb": "Convex payoff + tail risk avoidance. Antifragile portfolio — barbell strategy (90% safe + 10% lottery). Black swan 대비.",
+    "ben-graham": "Margin of safety 50%+, net-net (P/B < 0.67 of NCAV). Conservative growth. PE < 15 + PB < 1.5 + D/E < 0.5.",
+    "bill-ackman": "Concentrated activist — 5~10 names. Capital allocation engagement. High quality + 활동주의 변화 catalyst.",
+    "mohnish-pabrai": "Few bets, big bets. Buffett·Munger 모방. Heads I win big, tails I don't lose much. Downside protection 우선.",
+    "phil-fisher": "Scuttlebutt — 경영진 quality, R&D 집중도, 영업 능력. Decade-long compounder. 15-point checklist.",
+    "rakesh-jhunjhunwala": "India/EM secular growth, ROE 지속성 우선. Multi-decade compounder. Emerging market dividend.",
+    "stanley-druckenmiller": "Macro tailwind + concentrated bet. Liquidity cycle · 통화정책 timing. 큰 베팅 + 빠른 손절.",
+    "aswath-damodaran": "DCF + storytelling — narrative meets numbers. 모든 valuation은 story 기반. WACC · growth · margin 3개 driver.",
+    "ray-dalio": "All-Weather + debt cycle. Reflation regime allocation. 4 cycle quadrants (growth/inflation × up/down). Risk parity.",
+    "george-soros": "Reflexivity — 시장의 perception이 현실을 만든다. Boom-bust 진입·이탈 timing. Bias trends.",
+    "jim-simons": "Pure quant — Sharpe · factor · stat-arb. Narrative blind. 통계적 우위만. Renaissance Medallion.",
+    "cliff-asness": "Multi-factor — Value (HML) + Momentum (MOM) + Quality (RMW) + Profitability + Low-Beta. Academic Fama-French framework.",
+}
+
+
+def _cache_path_for_ticker(ticker: str) -> Path:
+    """Cache dir: project_root/.cache/checklist_llm/{ticker}.json"""
+    # guru_checklist.py is at plugins/report-suite/skills/_common/
+    # project root = parents[4]
+    here = Path(__file__).resolve()
+    project_root = here.parents[4]
+    cache_dir = project_root / ".cache" / "checklist_llm"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    return cache_dir / f"{ticker}.json"
+
+
+def _load_cache(ticker: str) -> dict:
+    p = _cache_path_for_ticker(ticker)
+    if not p.exists():
+        return {}
+    try:
+        import json
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _save_cache(ticker: str, cache: dict) -> None:
+    try:
+        import json
+        _cache_path_for_ticker(ticker).write_text(
+            json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    except Exception:
+        pass
+
+
+def _summarize_company_data(company_data: Optional[dict], ticker: str) -> str:
+    """company_data → LLM이 읽기 좋은 짧은 요약.
+
+    company_data 실제 구조 (build_combined.py:996-1018):
+      {market_data, bs_snapshot, cf_summary, pl_5y, quant_anchor}
+    """
+    if not isinstance(company_data, dict):
+        return f"종목: {ticker} (추가 데이터 없음)"
+
+    lines = [f"종목: {ticker}"]
+
+    # ── market_data ──
+    md = company_data.get("market_data") or {}
+    if isinstance(md, dict):
+        for k, label in [
+            ("current_price", "현재가"), ("forward_pe", "Forward PE"),
+            ("trailing_pe", "Trailing PE"), ("pb_ratio", "PB"),
+            ("ev_ebitda", "EV/EBITDA"), ("dividend_yield_pct", "배당수익률(%)"),
+            ("beta_5y", "Beta 5Y"), ("annualized_volatility_pct", "연환산변동성(%)"),
+            ("return_1m_pct", "1M수익률(%)"), ("return_3m_pct", "3M수익률(%)"),
+            ("return_1y_pct", "1Y수익률(%)"),
+        ]:
+            v = md.get(k)
+            if isinstance(v, (int, float)):
+                lines.append(f"  {label}: {v:.2f}")
+
+    # ── pl_5y (P&L 5년) — 최근 + CAGR derived ──
+    pl = company_data.get("pl_5y") or []
+    if isinstance(pl, list) and pl:
+        latest = pl[-1] if pl else {}
+        if isinstance(latest, dict):
+            for k, label in [
+                ("revenue", "최근 매출"), ("op_income", "최근 영업이익"),
+                ("net_income", "최근 순이익"),
+                ("op_margin", "영업이익률(%)"), ("op_margin_pct", "영업이익률(%)"),
+                ("net_margin", "순이익률(%)"), ("net_margin_pct", "순이익률(%)"),
+            ]:
+                v = latest.get(k)
+                if isinstance(v, (int, float)):
+                    lines.append(f"  {label}: {v:,.2f}")
+        # 5Y revenue CAGR derived
+        if len(pl) >= 2:
+            try:
+                r0 = float(pl[0].get("revenue") or 0)
+                rN = float(pl[-1].get("revenue") or 0)
+                n = len(pl) - 1
+                if r0 > 0 and n > 0:
+                    cagr = (pow(rN / r0, 1.0/n) - 1) * 100
+                    lines.append(f"  {n}년 매출 CAGR: {cagr:.2f}%")
+            except Exception:
+                pass
+
+    # ── bs_snapshot — D/E derived ──
+    bs = company_data.get("bs_snapshot") or {}
+    if isinstance(bs, dict):
+        liab = bs.get("total_liab")
+        equity = bs.get("equity")
+        if isinstance(liab, (int, float)) and isinstance(equity, (int, float)) and equity > 0:
+            de = liab / equity * 100
+            lines.append(f"  D/E 비율: {de:.2f}%")
+        for k, label in [("cash", "현금"), ("total_debt", "총부채")]:
+            v = bs.get(k)
+            if isinstance(v, (int, float)):
+                lines.append(f"  {label}: {v:,.0f}")
+
+    # ── cf_summary ──
+    cf = company_data.get("cf_summary") or {}
+    if isinstance(cf, dict):
+        for k, label in [
+            ("ocf_5y_avg", "5Y평균OCF"), ("fcf_5y_avg", "5Y평균FCF"),
+            ("capex_intensity", "CapEx집약도"),
+        ]:
+            v = cf.get(k)
+            if isinstance(v, (int, float)):
+                lines.append(f"  {label}: {v:,.2f}")
+
+    # ── quant_anchor (DCF, Sharpe — nested) ──
+    qa = company_data.get("quant_anchor") or {}
+    if isinstance(qa, dict):
+        for path, label in [
+            (["dcf", "upside_pct"], "DCF upside(%)"),
+            (["dcf", "intrinsic_value_per_share"], "DCF내재가치"),
+            (["risk_metrics", "sharpe_ratio"], "Sharpe"),
+            (["risk_metrics", "max_drawdown_pct"], "MaxDD(%)"),
+            (["reverse_dcf", "implied_growth_pct"], "Reverse DCF 함의 성장률(%)"),
+            # flat fallback
+            (["dcf_upside_pct"], "DCF upside(%)"),
+            (["sharpe_ratio"], "Sharpe"),
+        ]:
+            v = qa
+            for k in path:
+                if isinstance(v, dict):
+                    v = v.get(k)
+                else:
+                    v = None
+                    break
+            if isinstance(v, (int, float)):
+                lines.append(f"  {label}: {v:.2f}")
+
+    return "\n".join(lines) if len(lines) > 1 else f"종목: {ticker} (구조화 데이터 부족)"
+
+
+def _summarize_persona_verdict(persona_data: dict) -> str:
+    """페르소나의 verdict + 핵심 의견을 짧게."""
+    if not persona_data:
+        return "(평가 정보 없음)"
+    verdict = persona_data.get("verdict", "-")
+    conf = persona_data.get("confidence")
+    conf_str = f"{conf:.2f}" if isinstance(conf, (int, float)) else "-"
+    parts = [f"이 페르소나의 전체 verdict: {verdict} (confidence {conf_str})"]
+    opps = (persona_data.get("key_opportunities") or [])[:2]
+    concerns = (persona_data.get("key_concerns") or [])[:2]
+    if opps:
+        parts.append("주요 기회: " + " / ".join(str(o)[:80] for o in opps))
+    if concerns:
+        parts.append("주요 우려: " + " / ".join(str(c)[:80] for c in concerns))
+    return "\n".join(parts)
+
+
+def _llm_qualitative_assessment(
+    criterion: str,
+    explanation: str,
+    persona_id: str,
+    persona_data: dict,
+    company_data: Optional[dict],
+    ticker: str,
+) -> Optional[dict]:
+    """LLM이 criterion + 페르소나 철학 + 종목 데이터 종합 정성 평가 작성.
+
+    Returns: {"status": "[O]"|"[X]"|"[?]", "note": "<html bullet>"} or None on failure.
+
+    Cache: .cache/checklist_llm/{ticker}.json keyed by f"{persona_id}::{criterion}".
+    """
+    import os, json
+    if os.environ.get("DISABLE_LLM_CHECKLIST") == "1":
+        return None
+    if not ticker or not persona_id:
+        return None
+
+    # ── Cache lookup ──────────────────────────────────────────────
+    cache = _load_cache(ticker)
+    cache_key = f"{persona_id}::{criterion}"
+    if cache_key in cache:
+        cached = cache[cache_key]
+        if isinstance(cached, dict) and cached.get("status") and cached.get("note"):
+            return cached
+
+    # ── OpenAI client (lazy import) ────────────────────────────────
+    try:
+        from openai import OpenAI
+    except ImportError:
+        return None
+
+    # Load OPENAI_API_KEY from .env if not in os.environ
+    if "OPENAI_API_KEY" not in os.environ:
+        from pathlib import Path as _P
+        here = _P(__file__).resolve()
+        env_path = here.parents[4] / ".env"
+        if env_path.exists():
+            for line in env_path.read_text(encoding="utf-8").splitlines():
+                line = line.strip()
+                if line.startswith("OPENAI_API_KEY=") and "=" in line:
+                    k, v = line.split("=", 1)
+                    os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                    break
+    if "OPENAI_API_KEY" not in os.environ:
+        return None
+
+    try:
+        client = OpenAI()
+    except Exception:
+        return None
+
+    # ── Build prompt ──────────────────────────────────────────────
+    philosophy = PERSONA_PHILOSOPHY.get(persona_id, "")
+    persona_kr = persona_data.get("persona_kr") or persona_data.get("persona_en") or persona_id
+    company_summary = _summarize_company_data(company_data, ticker)
+    verdict_summary = _summarize_persona_verdict(persona_data)
+    expl_clean = (explanation or "").replace("<strong>", "").replace("</strong>", "")[:400]
+
+    sys_prompt = (
+        f"당신은 투자 분석 보조 AI입니다. {persona_kr} 페르소나의 관점에서 "
+        f"특정 종목이 한 가지 criterion을 충족하는지 정성 평가합니다.\n"
+        f"\n"
+        f"이 페르소나의 핵심 철학: {philosophy}\n"
+        f"\n"
+        f"출력 형식 (JSON only, 다른 설명 금지):\n"
+        f'{{"status": "[O]" 또는 "[X]" 또는 "[?]", '
+        f'"reasoning": ["근거 1 (음슴체)", "근거 2 (음슴체)", "근거 3 (음슴체)"]}}\n'
+        f"\n"
+        f"규칙:\n"
+        f"- status: [O]=충족(긍정 evidence 강함), [X]=미달(부정 evidence 강함), "
+        f"[?]=판단보류(데이터 부족·중립)\n"
+        f"- reasoning: 2~3개 bullet, 각 한 문장. 어미는 음슴체 ('~함', '~임', '~음').\n"
+        f"- 종목 데이터에 직접 매핑 가능한 항목 우선 활용.\n"
+        f"- 데이터 부족 시 [?] 솔직히 명시 + '추가 데이터 필요' 언급.\n"
+        f"- 추측·과장 금지. evidence 약하면 ambiguity 인정."
+    )
+    user_prompt = (
+        f"# Criterion\n{criterion}\n"
+        f"\n# 학습 가이드 (criterion 의미)\n{expl_clean}\n"
+        f"\n# 종목 데이터\n{company_summary}\n"
+        f"\n# 이 페르소나의 전체 verdict (참고)\n{verdict_summary}\n"
+        f"\n위 criterion이 {ticker} 종목에서 충족되는지, {persona_kr} 관점에서 평가하세요. "
+        f"JSON only로 답하세요."
+    )
+
+    try:
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",
+            temperature=0.2,
+            messages=[
+                {"role": "system", "content": sys_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            response_format={"type": "json_object"},
+            timeout=20,
+        )
+        raw = resp.choices[0].message.content or "{}"
+        parsed = json.loads(raw)
+    except Exception:
+        return None
+
+    status = parsed.get("status", "[?]")
+    if status not in ("[O]", "[X]", "[?]"):
+        status = "[?]"
+    reasoning = parsed.get("reasoning") or []
+    if not isinstance(reasoning, list):
+        reasoning = [str(reasoning)]
+    reasoning = [str(r).strip() for r in reasoning if str(r).strip()][:3]
+    if not reasoning:
+        return None
+
+    # ── Build HTML note ──────────────────────────────────────────
+    color = {"[O]": "#16a34a", "[X]": "#dc2626"}.get(status, "#ca8a04")
+    bullets = "".join(f"<li style='margin-bottom:2pt;'>{r}</li>" for r in reasoning)
+    note = (
+        f'<ul style="margin:3pt 0 0 0;padding-left:14pt;font-size:8.5pt;'
+        f'color:{color};">{bullets}</ul>'
+        f'<p style="font-size:7.5pt;color:#9ca3af;margin:2pt 0 0 0;">'
+        f'※ gpt-4o-mini 추정 — 페르소나 본문 직접 근거 아님. 참고용.</p>'
+    )
+
+    result = {"status": status, "note": note}
+    cache[cache_key] = result
+    _save_cache(ticker, cache)
+    return result
