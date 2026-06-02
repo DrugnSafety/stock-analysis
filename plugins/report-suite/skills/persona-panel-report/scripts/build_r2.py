@@ -30,7 +30,235 @@ PERSONA_NAMES = {
     "rakesh-jhunjhunwala": ("라케시 준준왈라", "Rakesh Jhunjhunwala", "growth-em"),
     "stanley-druckenmiller": ("스탠리 드러켄밀러", "Stanley Druckenmiller", "macro"),
     "aswath-damodaran": ("애스워드 다모다란", "Aswath Damodaran", "valuation"),
+    # Phase 2 additions (2026-05-27)
+    "ray-dalio": ("레이 달리오", "Ray Dalio", "macro-cycle"),
+    "george-soros": ("조지 소로스", "George Soros", "reflexivity"),
+    "jim-simons": ("짐 사이먼스", "Jim Simons", "pure-quant"),
+    "cliff-asness": ("클리프 애스니스", "Cliff Asness", "factor"),
 }
+
+
+# Phase 2 페르소나 특화 필드 정의 — render_special_lens()가 이걸 참조
+PHASE_2_SPECIAL_LENSES = {
+    "ray-dalio": {
+        "title": "🌐 Dalio Special Lens — 글로벌 매크로 & 부채사이클",
+        "color": "#0284c7",
+        "fields": [
+            ("macro_cycle_position", "매크로 사이클 위치", {
+                "early_expansion": ("초기 확장", "#16a34a"),
+                "mid_expansion": ("중기 확장", "#0284c7"),
+                "late_expansion": ("후기 확장", "#ca8a04"),
+                "early_recession": ("초기 침체", "#ea580c"),
+                "deep_recession": ("심층 침체", "#dc2626"),
+            }),
+            ("cycle_quadrant", "4-Quadrant 자산배분", None),
+            ("debt_cycle_phase", "부채사이클 단계", {
+                "leveraging": ("레버리지 확대", "#0284c7"),
+                "beautiful_deleveraging": ("순조로운 deleveraging", "#16a34a"),
+                "ugly_deleveraging": ("거친 deleveraging", "#dc2626"),
+                "post_deleveraging": ("post-deleveraging", "#64748b"),
+            }),
+            ("stock_quadrant_fit", "현 quadrant 적합도", {
+                "favorable": ("우호적", "#16a34a"),
+                "neutral": ("중립", "#64748b"),
+                "unfavorable": ("불리", "#dc2626"),
+            }),
+            ("all_weather_portfolio_role", "All Weather 역할", None),
+        ],
+    },
+    "george-soros": {
+        "title": "🌀 Soros Special Lens — Reflexivity & Boom-Bust",
+        "color": "#7c3aed",
+        "fields": [
+            ("reflexivity_stage", "Reflexivity 8-단계", {
+                "1_unrecognized": ("1. 미발견 trend", "#16a34a"),
+                "2_beginning": ("2. 자기강화 시작", "#0284c7"),
+                "3_test": ("3. 첫 시험·통과", "#0284c7"),
+                "4_growing": ("4. 확신 증가", "#ca8a04"),
+                "5_reality_gap": ("5. fundamentals 괴리", "#ea580c"),
+                "6_climax": ("6. 광기·climax", "#dc2626"),
+                "7_reverse": ("7. 반전 시작", "#991b1b"),
+                "8_crash": ("8. crash", "#7f1d1d"),
+            }),
+            ("narrative_strength", "Narrative 강도", {
+                "weak": ("약함", "#64748b"),
+                "moderate": ("보통", "#0284c7"),
+                "strong": ("강함", "#ca8a04"),
+                "euphoric": ("euphoric", "#dc2626"),
+            }),
+            ("fundamentals_narrative_gap", "Fund vs Narrative", None),
+            ("conviction_level", "Conviction", {
+                "low": ("낮음", "#64748b"),
+                "medium": ("중간", "#0284c7"),
+                "high": ("높음", "#16a34a"),
+                "very_high": ("매우 높음", "#15803d"),
+            }),
+            ("position_sizing_recommendation", "Position sizing", None),
+        ],
+        "list_fields": [("catalyst_for_reversal", "🔁 Narrative 반전 catalyst")],
+    },
+    "jim-simons": {
+        "title": "📐 Simons Special Lens — Pure Quant / Stat Arb",
+        "color": "#475569",
+        "fields": [
+            ("volatility_regime", "변동성 regime", {
+                "low": ("낮음 (<15%)", "#16a34a"),
+                "medium": ("중간 (15-30%)", "#0284c7"),
+                "high": ("높음 (>30%)", "#dc2626"),
+            }),
+            ("mean_reversion_or_momentum", "Mean-revert vs Momentum", {
+                "mean_revert": ("Mean Reversion", "#0284c7"),
+                "momentum": ("Momentum", "#16a34a"),
+                "neutral": ("중립", "#64748b"),
+            }),
+            ("sharpe_quality_tier", "Sharpe 등급", {
+                "skip": ("Skip", "#64748b"),
+                "marginal": ("Marginal", "#ca8a04"),
+                "acceptable": ("Acceptable", "#0284c7"),
+                "strong": ("Strong", "#16a34a"),
+                "suspicious": ("의심 (data anomaly)", "#dc2626"),
+            }),
+            ("beta_classification", "Beta 분류", {
+                "low_correlation": ("저상관 (|β|<0.5)", "#16a34a"),
+                "market_like": ("Market-like (β≈1)", "#0284c7"),
+                "high_beta": ("High β (>1.5)", "#dc2626"),
+                "inverse": ("Inverse (β<0)", "#7c3aed"),
+            }),
+            ("stat_arb_signal", "Stat-Arb 신호", {
+                "buy_dip": ("Buy Dip", "#16a34a"),
+                "trim_top": ("Trim Top", "#ea580c"),
+                "hold": ("Hold", "#64748b"),
+                "avoid": ("Avoid", "#dc2626"),
+            }),
+        ],
+        "numeric_fields": [
+            ("portfolio_optimizer_weight_pct", "Optimizer 권장 가중치 (%)"),
+            ("equal_weight_pct", "Equal-weight (%)"),
+            ("risk_parity_position_size_pct", "Risk-parity size (%)"),
+        ],
+    },
+    "cliff-asness": {
+        "title": "📊 Asness Special Lens — Fama-French 6-Factor",
+        "color": "#0d9488",
+        "fields": [
+            ("value_factor_tier", "Value (HML)", {
+                "deep_value": ("Deep Value", "#15803d"),
+                "value": ("Value", "#16a34a"),
+                "neutral": ("Neutral", "#64748b"),
+                "growth": ("Growth", "#0284c7"),
+                "expensive": ("Expensive", "#dc2626"),
+            }),
+            ("profitability_factor_tier", "Profitability (RMW)", {
+                "high_quality": ("High Quality", "#16a34a"),
+                "mid": ("Mid", "#64748b"),
+                "low_quality": ("Low Quality", "#dc2626"),
+            }),
+            ("momentum_factor_tier", "Momentum", {
+                "strong_positive": ("Strong +", "#16a34a"),
+                "positive": ("+", "#0284c7"),
+                "neutral": ("Neutral", "#64748b"),
+                "negative": ("-", "#dc2626"),
+            }),
+            ("size_factor", "Size", None),
+            ("regime_adjusted_signal", "Regime-adjusted 결론", None),
+        ],
+        "numeric_fields": [
+            ("composite_score", "Composite z-score"),
+            ("market_beta", "Market β"),
+            ("value_factor_zscore", "Value z"),
+        ],
+        "breakdown_field": ("factor_breakdown", "Factor breakdown"),
+    },
+}
+
+
+def render_special_lens(pid: str, p: dict) -> str:
+    """Phase 2 페르소나의 추가 필드를 표시하는 special-lens panel.
+
+    pid가 PHASE_2_SPECIAL_LENSES에 없으면 빈 문자열 반환 (기존 13명은 영향 0).
+    """
+    config = PHASE_2_SPECIAL_LENSES.get(pid)
+    if not config:
+        return ""
+
+    color = config["color"]
+    parts = [
+        f'<div style="background:#f8fafc;border-left:4pt solid {color};padding:12pt 16pt;margin:10pt 0;">'
+        f'<div style="font-size:11pt;font-weight:700;color:{color};margin-bottom:8pt;">{config["title"]}</div>'
+    ]
+
+    # ── Categorical / labeled fields ──
+    rows = []
+    for field_key, label, value_map in config.get("fields", []):
+        v = p.get(field_key)
+        if v is None or v == "":
+            continue
+        # Map value to display string + color
+        if value_map and v in value_map:
+            disp, vcolor = value_map[v]
+        else:
+            disp, vcolor = str(v), "#0f172a"
+        rows.append(
+            f'<tr>'
+            f'<td style="padding:4pt 8pt;color:#64748b;font-size:10pt;">{label}</td>'
+            f'<td style="padding:4pt 8pt;"><span style="background:{vcolor};color:white;'
+            f'padding:2pt 8pt;border-radius:8pt;font-size:9pt;font-weight:600;">{disp}</span></td>'
+            f'</tr>'
+        )
+    if rows:
+        parts.append(f'<table style="width:100%;border-collapse:collapse;">{"".join(rows)}</table>')
+
+    # ── Numeric fields ──
+    num_rows = []
+    for field_key, label in config.get("numeric_fields", []):
+        v = p.get(field_key)
+        if v is None:
+            continue
+        # Try format as float
+        try:
+            v_str = f"{float(v):+.2f}" if isinstance(v, (int, float)) else str(v)
+        except (TypeError, ValueError):
+            v_str = str(v)
+        num_rows.append(
+            f'<tr><td style="padding:4pt 8pt;color:#64748b;font-size:10pt;">{label}</td>'
+            f'<td style="padding:4pt 8pt;text-align:right;font-family:monospace;font-size:10pt;">{v_str}</td></tr>'
+        )
+    if num_rows:
+        parts.append(
+            f'<table style="width:100%;border-collapse:collapse;margin-top:6pt;'
+            f'border-top:1pt solid #e5e7eb;padding-top:4pt;">{"".join(num_rows)}</table>'
+        )
+
+    # ── List fields (catalyst, etc) ──
+    for field_key, label in config.get("list_fields", []):
+        items = p.get(field_key) or []
+        if items:
+            parts.append(
+                f'<div style="margin-top:8pt;"><strong style="font-size:10pt;color:{color};">{label}:</strong>'
+                f'<ul style="font-size:9.5pt;margin:4pt 0 4pt 18pt;">'
+                + "".join(f'<li>{item}</li>' for item in items)
+                + '</ul></div>'
+            )
+
+    # ── Breakdown field (nested dict, e.g. Asness factor_breakdown) ──
+    bd = config.get("breakdown_field")
+    if bd:
+        bd_key, bd_label = bd
+        bd_data = p.get(bd_key) or {}
+        if bd_data and isinstance(bd_data, dict):
+            bd_rows = "".join(
+                f'<tr><td style="padding:3pt 8pt;font-size:9pt;color:#64748b;">{k}</td>'
+                f'<td style="padding:3pt 8pt;text-align:right;font-family:monospace;font-size:9pt;">'
+                f'{(f"{v:+.2f}" if isinstance(v, (int, float)) else str(v))}</td></tr>'
+                for k, v in bd_data.items()
+            )
+            parts.append(
+                f'<div style="margin-top:8pt;"><strong style="font-size:10pt;color:{color};">{bd_label}:</strong>'
+                f'<table style="width:100%;border-collapse:collapse;margin-top:4pt;">{bd_rows}</table></div>'
+            )
+
+    parts.append('</div>')
+    return "".join(parts)
 
 
 def build_cover(meta: dict, agg: dict) -> str:
@@ -187,34 +415,74 @@ def render_thesis_persona_matrix(personas_full: dict, theses: list[dict]) -> str
         return body
 
     # Heatmap matrix — accept both 'challenge' and 'rebut' as the negative stance
+    # Sprint E-10 (2026-06): 미평가 cell은 None (heatmap 0 cell ≠ neutral 평가)
     stance_to_num = {"support": 1.0, "neutral": 0.0, "challenge": -1.0, "rebut": -1.0}
     persona_ids = sorted(personas_full.keys())
     persona_labels = [PERSONA_NAMES.get(pid, (pid, "", ""))[0] for pid in persona_ids]
     matrix = []
     row_labels = []
+
+    # Track actual stance distribution (not heatmap-0 default)
+    stance_counter = {"support": 0, "neutral": 0, "challenge": 0, "unevaluated": 0}
+
     for t in theses[:8]:
         cid = t.get("claim_id") or t.get("id")  # robust: fall back to 'id'
+        claim_txt = (t.get("claim") or "")[:50]
         row = []
         for pid in persona_ids:
             p = personas_full[pid]
-            stance = "neutral"
+            stance = None  # None = unevaluated (distinct from 'neutral')
             for app in (p.get("thesis_lens_applications") or []):
-                # Accept both 'claim_id' and 'thesis_id'
+                # Accept both 'claim_id' and 'thesis_id'; substring fuzzy fallback
                 app_cid = app.get("claim_id") or app.get("thesis_id")
-                if app_cid == cid:
-                    raw = app.get("stance", "neutral")
-                    stance = "challenge" if raw == "rebut" else raw
+                app_ct = (app.get("claim_text") or "")[:50]
+                if app_cid == cid or (app_ct and claim_txt and (app_ct in claim_txt or claim_txt in app_ct)):
+                    raw = (app.get("stance") or "").lower().strip()
+                    stance = "challenge" if raw in ("rebut", "rebuts", "opposes", "challenge") else (
+                        "support" if raw in ("support", "supports", "agree") else
+                        "neutral" if raw in ("neutral", "mixed", "uncertain") else None
+                    )
                     break
-            row.append(stance_to_num.get(stance, 0))
+            if stance is None:
+                stance_counter["unevaluated"] += 1
+                row.append(0)  # heatmap-side: render as gray/0
+            else:
+                stance_counter[stance] += 1
+                row.append(stance_to_num.get(stance, 0))
         matrix.append(row)
         row_labels.append(cid)
 
+    n_evaluated = stance_counter["support"] + stance_counter["neutral"] + stance_counter["challenge"]
+    n_total = n_evaluated + stance_counter["unevaluated"]
+
+    # Heatmap render: show if ANY non-zero (support or challenge)
     if matrix and any(any(v != 0 for v in r) for r in matrix):
         body += cu.heatmap(matrix, row_labels, persona_labels,
-                            title="Thesis × Persona Stance Matrix (녹: support · 빨: challenge)",
+                            title="Thesis × Persona Stance Matrix (녹: support · 빨: challenge · 회: 미평가)",
                             cmap="RdYlGn", vmin=-1, vmax=1, annotate=False)
     else:
-        body += '<div class="info">⚠️ 모든 stance가 neutral로 평가됨 — 13명 페르소나의 thesis별 의견 분화가 발견되지 않음.</div>'
+        # Truly all-zero → either all neutral or all unevaluated
+        if stance_counter["unevaluated"] > n_evaluated:
+            body += (
+                f'<div class="info">ℹ️ Thesis × Persona 매트릭스 sparse — '
+                f'17명 페르소나 중 {n_evaluated}개 cell만 명시적 stance 평가 '
+                f'(support {stance_counter["support"]} · neutral {stance_counter["neutral"]} · challenge {stance_counter["challenge"]}). '
+                f'나머지 {stance_counter["unevaluated"]}개 cell은 페르소나가 해당 thesis를 별도 언급하지 않음(미평가). '
+                f'페르소나 본문 (R2 §5)에서 각 thesis별 자세한 평가 참조.</div>'
+            )
+        else:
+            body += (
+                f'<div class="info">⚠️ 평가된 {n_evaluated}개 cell 모두 neutral — '
+                f'13명 페르소나의 thesis별 의견 분화가 발견되지 않음.</div>'
+            )
+
+    # Always emit actual stance distribution summary regardless of heatmap render
+    body += (
+        f'<p style="font-size:9pt;color:#475569;margin:6pt 0;">'
+        f'<strong>실제 stance 분포</strong>: support {stance_counter["support"]} · '
+        f'neutral {stance_counter["neutral"]} · challenge {stance_counter["challenge"]} · '
+        f'미평가 {stance_counter["unevaluated"]} (총 {n_total} cells)</p>'
+        )
 
     body += '<table class="dt"><thead><tr><th>Thesis</th>'
     for pid in persona_ids:
@@ -224,15 +492,20 @@ def render_thesis_persona_matrix(personas_full: dict, theses: list[dict]) -> str
 
     for t in theses[:8]:
         cid = t.get("claim_id") or t.get("id")
+        claim_txt = (t.get("claim") or "")[:50]
         body += f'<tr><td><strong>{cid}</strong><br/><span style="font-size:8pt;">{t.get("claim", "")}</span></td>'
         for pid in persona_ids:
             p = personas_full[pid]
             stance = "?"
             for app in (p.get("thesis_lens_applications") or []):
                 app_cid = app.get("claim_id") or app.get("thesis_id")
-                if app_cid == cid:
-                    raw = app.get("stance", "?")
-                    stance = "challenge" if raw == "rebut" else raw
+                app_ct = (app.get("claim_text") or "")[:50]
+                if app_cid == cid or (app_ct and claim_txt and (app_ct in claim_txt or claim_txt in app_ct)):
+                    raw = (app.get("stance") or "").lower().strip()
+                    stance = "challenge" if raw in ("rebut", "rebuts", "opposes", "challenge") else (
+                        "support" if raw in ("support", "supports", "agree") else
+                        "neutral" if raw in ("neutral", "mixed", "uncertain") else "?"
+                    )
                     break
             color = {"support": "#16a34a", "challenge": "#dc2626", "neutral": "#ca8a04"}.get(stance, "#e5e7eb")
             symbol = {"support": "✓", "challenge": "✗", "neutral": "○"}.get(stance, "·")
@@ -347,9 +620,15 @@ def render_persona_details(personas_full: dict) -> str:
               <strong>⚠️ Verdict이 뒤집힐 가정</strong>: <span style="font-size:10pt;">{p["uncertainty"]}</span>
             </div>"""
 
+        # Phase 2 special-lens panel — Dalio·Soros·Simons·Asness만 추가 필드 표시
+        # 기존 13명은 PHASE_2_SPECIAL_LENSES에 없으므로 빈 문자열 반환 (no-op)
+        body += render_special_lens(pid, p)
+
         # NEW (요청 #5): Guru별 판단 framework checklist (10+ 항목 만족 여부)
+        # Sprint C-3 (2026-05-28): personas_full에 company_data 있으면 실데이터 검증
         ticker_meta = p.get("ticker", "이 종목")
-        body += render_guru_checklist(pid, kr, ticker_meta, p)
+        company_data = p.get("_company_data") or personas_full.get("_company_data")
+        body += render_guru_checklist(pid, kr, ticker_meta, p, company_data=company_data)
 
         body += '<hr style="margin:18pt 0;border:none;border-top:1pt solid #e5e7eb;"/>'
     return body
