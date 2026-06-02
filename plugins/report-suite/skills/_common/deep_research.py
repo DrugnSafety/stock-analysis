@@ -549,11 +549,113 @@ def _derive_status_from_evaluations(evaluations: dict) -> tuple[str, str]:
     return ("pending", summary)
 
 
-def _short_rationale(evaluations: dict, max_len: int = 240) -> str:
-    """4-analyst rationale을 짧은 multi-line summary로 변환."""
+def _to_eumsumche(text: str) -> str:
+    """한국어 격식체("~습니다") → 음슴체("~함/임/됨") 변환 — Sprint F-2.
+
+    Korean RM/sell-side 보고서 표준 스타일. paragraph 단위로 적용.
+    의미 보존 우선 — 변환 실패 시 원문 유지.
+
+    3-pass:
+      pass 1: 자주 쓰는 어미 직접 매핑
+      pass 2: "습니다" → "음", "ㅂ니다" → "ㅁ" (자모 변환)
+      pass 3: "~한다/된다/이다" → "~함/됨/임" (반말 → 음슴체)
+    """
+    import re as _re
+    if not text:
+        return text
+
+    # ── Pass 1: 특정 어미 직접 매핑 (substring shadowing 방지 — 긴 패턴 먼저) ──
+    direct_map = [
+        # 부정 contraction (긴 패턴 먼저)
+        (r"하지\s*않습니다", "하지 않음"),
+        (r"되지\s*않습니다", "되지 않음"),
+        # 비교적 자주 쓰는 ㅂ니다 패턴 (자모 변환보다 명시적 매핑이 안전)
+        (r"보입니다", "보임"),
+        (r"있습니다", "있음"),
+        (r"없습니다", "없음"),
+        (r"많습니다", "많음"),
+        (r"적습니다", "적음"),
+        (r"높습니다", "높음"),
+        (r"낮습니다", "낮음"),
+        (r"좋습니다", "좋음"),
+        (r"강합니다", "강함"),
+        (r"약합니다", "약함"),
+        # ~합니다 / ~됩니다 / ~입니다
+        (r"합니다", "함"),
+        (r"됩니다", "됨"),
+        (r"입니다", "임"),
+    ]
+    out = text
+    for pat, rep in direct_map:
+        out = _re.sub(pat, rep, out)
+
+    # ── Pass 1.5: 과거형 + 잔여 "습니다" → "음" (catch-all) ──
+    # "지원했습니다 → 지원했음", "입증되지 않았습니다 → 입증되지 않았음" 등
+    # (한글 종성 ㅆ 또는 ㅄ + 습니다 → 종성 유지 + 음)
+    out = _re.sub(r"습니다", "음", out)
+
+    # ── Pass 2: 한글 자모 종성 ㅂ → ㅁ 자동 변환 (~ㅂ니다 일반 처리) ──
+    # "나타냅니다" → "냅"의 종성 ㅂ(17) → ㅁ(16) → "나타냄"
+    # "습니다" 패턴도 같이 처리: "있슴"이 아닌 "있음" 원하므로 위에서 직접 매핑이 우선
+    def _convert_pm(m: "_re.Match") -> str:
+        syl = m.group(1)
+        code = ord(syl) - 0xAC00
+        if not (0 <= code < 11172):
+            return m.group(0)
+        jong = code % 28
+        if jong == 17:  # ㅂ 종성
+            new_code = code - 17 + 16  # ㅂ → ㅁ
+            return chr(new_code + 0xAC00)
+        return m.group(0)
+
+    out = _re.sub(r"([가-힣])니다", _convert_pm, out)
+
+    # ── Pass 3: 반말 종결 → 음슴체 ──
+    pass3 = [
+        # 형용사 종결 "~하다" → "~함" (필요하다 → 필요함)
+        (r"하다([\.,;:!?\s\)\"])", r"함\1"),
+        (r"하다$", "함"),
+        # 동사 현재 종결 "~한다" → "~함"
+        (r"한다([\.,;:!?\s\)\"])", r"함\1"),
+        (r"한다$", "함"),
+        # ~된다 → ~됨
+        (r"된다([\.,;:!?\s\)\"])", r"됨\1"),
+        (r"된다$", "됨"),
+        # ~이다 → ~임 (서술 종결)
+        (r"이다([\.,;:!?\s\)\"])", r"임\1"),
+        (r"이다$", "임"),
+    ]
+    for pat, rep in pass3:
+        out = _re.sub(pat, rep, out)
+    return out
+
+
+def _split_to_sentences(text: str) -> list[str]:
+    """한글 문장 단위 split (마침표·줄바꿈 기준)."""
+    import re as _re
+    if not text:
+        return []
+    parts = _re.split(
+        r"(?<=함[.])\s+|(?<=됨[.])\s+|(?<=임[.])\s+|(?<=음[.])\s+|"
+        r"(?<=다[.])\s+|(?<=요[.])\s+|"
+        r"(?<=[.])\s+(?=[A-Z가-힣])|\n+",
+        text
+    )
+    return [p.strip() for p in parts if p and len(p.strip()) >= 8]
+
+
+def _short_rationale(evaluations: dict, max_sentences: int = 4) -> str:
+    """4-analyst rationale을 bullet-point + 음슴체로 변환 — Sprint F-2.
+
+    각 analyst 결과를 nested ul로 표시:
+      🌍 거시 (0.68) ✅
+        • 문장1 (음슴체)
+        • 문장2 (음슴체)
+        ...
+    """
     if not evaluations or not isinstance(evaluations, dict):
         return "-"
-    lines = []
+    blocks = []
     analyst_label = {
         "macro": "🌍 거시", "industry": "🏭 산업",
         "empirical": "📊 정량", "counter": "⚖️ 반박"
@@ -566,13 +668,32 @@ def _short_rationale(evaluations: dict, max_len: int = 240) -> str:
         conf = e.get("confidence")
         stance_emoji = {"support": "✅", "challenge": "❌", "rebut": "❌",
                          "neutral": "◯", "supports": "✅", "opposes": "❌"}.get(stance, "◯")
-        rationale = (e.get("rationale") or "")[:max_len].strip()
+        rationale = (e.get("rationale") or "").strip()
         conf_str = f" ({conf:.2f})" if isinstance(conf, (int, float)) else ""
         label = analyst_label.get(aid, aid)
-        lines.append(f"<li><strong>{label}{conf_str}</strong> {stance_emoji} {rationale}</li>")
-    if not lines:
+
+        # Split → 음슴체 변환 → max_sentences 제한
+        sentences = _split_to_sentences(rationale)[:max_sentences]
+        if not sentences:
+            # 짧은 rationale은 그냥 단일 음슴체 변환
+            short = _to_eumsumche(rationale[:200].strip()) if rationale else "-"
+            blocks.append(
+                f'<li style="margin-bottom:3pt;"><strong>{label}{conf_str}</strong> {stance_emoji} {short}</li>'
+            )
+            continue
+
+        inner_bullets = "".join(
+            f'<li style="margin-bottom:1pt;">{_to_eumsumche(s)}</li>'
+            for s in sentences
+        )
+        blocks.append(
+            f'<li style="margin-bottom:4pt;"><strong>{label}{conf_str}</strong> {stance_emoji}'
+            f'<ul style="margin:1pt 0 0 0;padding-left:14pt;font-size:8.5pt;list-style-type:disc;">{inner_bullets}</ul>'
+            f'</li>'
+        )
+    if not blocks:
         return "-"
-    return f'<ul style="margin:2pt 0 0 0;padding-left:14pt;font-size:8.5pt;">{"".join(lines)}</ul>'
+    return f'<ul style="margin:2pt 0 0 0;padding-left:14pt;font-size:9pt;list-style-type:none;">{"".join(blocks)}</ul>'
 
 
 def render_thesis_decomposition(theses: list[dict], thesis_eval: dict | None = None) -> str:
