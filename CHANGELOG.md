@@ -1,3 +1,36 @@
+## v0.9.1 (2026-06-02) — Sprint F-3: Checklist qualitative LLM 평가
+
+evidence·heuristic 모두 실패하는 경우 단순 "[?]" 표시 대신, gpt-4o-mini가 종목 데이터 + 페르소나 철학 종합하여 정성 평가 작성.
+
+### `guru_checklist.py` 신규 함수
+
+- `_llm_qualitative_assessment()`: criterion + persona_id + company_data + ticker 입력 → `{"status": "[O]/[X]/[?]", "note": "<html bullet 음슴체>"}` 출력. gpt-4o-mini · temperature 0.2 · JSON response.
+- `_summarize_company_data()`: market_data + pl_5y + bs_snapshot + cf_summary + quant_anchor → LLM이 읽기 좋은 짧은 요약. D/E·5Y CAGR 등 derived metric 자동 계산.
+- `_summarize_persona_verdict()`: 페르소나 전체 verdict + 핵심 우려/기회 짧은 context.
+- `PERSONA_PHILOSOPHY` dict: 17명 페르소나별 핵심 철학 brief (Buffett=Quality moat, Lynch=GARP, Asness=Multi-factor 등).
+
+### 호출 순서
+
+1. 정량 metric 매핑 가능 → 직접 계산
+2. Qualitative item: 페르소나 본문 evidence 추출 (E-9·F-1) → 성공 시 사용
+3. **신규 F-3**: LLM 정성 평가 → 성공 시 사용
+4. 최종 fallback: heuristic verdict-based 추정
+
+### Cache & 비용
+
+- Cache: `.cache/checklist_llm/{ticker}.json` — `{persona_id}::{criterion}` 키
+- 1 ticker × 17 personas × ~3 qualitative items/persona ≈ 50건/run → 약 $0.005
+- 재실행 시 cache hit → 비용 0
+- 비활성화: `DISABLE_LLM_CHECKLIST=1`
+
+### 검증 (Samsung 005930.KS)
+
+- Jhunjhunwala × "India/EM growth story" → `[X]` "한국 기업으로 인도 성장 스토리와 직접적인 연관이 없음 / 라케시 준준왈라의 투자 철학에 부합하지 않음"
+- Cliff Asness × "Value factor z-score (HML 노출)" → `[O]` "Forward PE가 5.94로 낮은 수준임 / EV/EBITDA가 14.11로 상대적으로 높은 평가 / 모멘텀 긍정적임"
+- 음슴체 어조 100% 적용 ("없음", "부족함", "낮은 수준임", "긍정적임" 등)
+
+---
+
 # CHANGELOG
 
 ## v0.9.0 (2026-06-02) — Sprint E + F: PDF 보고서 결함 일괄 패치 (12건)
