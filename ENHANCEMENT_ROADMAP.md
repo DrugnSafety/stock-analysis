@@ -256,3 +256,138 @@
 - **Backtester**: 메르 글 5건만 적용. 더 다양한 블로거·기간으로 확장 필요.
 
 위 한계는 모두 Phase 2-3에서 해결 예정이며, **현재도 시스템은 충분히 작동**합니다. 단, 사용자가 결과를 신뢰할 때 위 한계를 의식하면 더 정확한 의사결정이 가능합니다.
+
+---
+
+# Phase 7 — 외부 근거 강화 & 팩트체크 (AMEET-style Evidence Layer)
+
+> **작성일**: 2026-05-30 / **트리거**: ameet-media.com 사례 벤치마킹 brainstorming
+> **목표**: 현재 "공시는 1차 자료로 잘 쓰지만, 산업·경쟁·사례 맥락은 외부 조회 없이 LLM 추론으로 채워지는" 구조를 → **외부 1차 자료 폭넓게 조회 → 교차검증 → 인용**하는 구조로 전환
+
+## 7-0. 진단 — 현재 외부 자료 활용의 격차
+
+AMEET 방법론(데이터수집 → **맥락추출** → 다관점토론 → **팩트체크** → 발행)과 비교한 결과, 본 시스템은 **양 끝단(입력 폭·출력 검증)이 비어 있음**:
+
+| AMEET 단계 | 현 시스템 | 격차 |
+|---|---|---|
+| 뉴스 RSS·API (시간별) | NewsAPI 30일/curated fallback | lookback·소스 폭 부족 |
+| 공시 DART·KIND·SEC | DART·SEC (✅) / KIND ✗ | 거래소 공시·IR PT 미연동 |
+| 시계열 FRED·ECB·BOK | macro plugin 보유하나 종목 분석에 미주입 | 거시변수 → DCF 미연결 |
+| **맥락 추출**(과거·유사사례 연결) | ✗ 없음 | 유사기업·과거국면 retrieval 부재 |
+| **팩트체크**(원문 자동 대조) | ✗ 없음 | 인용 수치 hallucination 검증 단계 부재 |
+| 다관점 토론 | 13 페르소나 + subagent (✅ 더 강함) | — |
+
+**핵심 진단**: 부족한 건 데이터 소스가 아니라 **① 조회 폭 ② 팩트체크 ③ 사례연결** 3개 절차.
+
+## 7-1. A/B 프로토타입 결과 (BTU 실측, 2026-05-30)
+
+기존 `deep_research/BTU.json` vs WebSearch evidence-retrieval 출력 비교:
+
+| 항목 | 현재 (LLM 생성 deep_research) | WebSearch Evidence Retrieval |
+|---|---|---|
+| 뉴스 건수 | 5건 (curated) | 즉시 5+ URL 반환 |
+| **출처 URL** | ❌ 없음 (source는 "EIA Monthly Energy Review" 텍스트만) | ✅ stocktitan·fool·globeandmail 등 직링크 |
+| **provenance** | `research_meta: {}` (비어 있음) | ✅ 각 fact에 URL·매체·일자 |
+| 사실 신선도 | 추정·일반론 | ✅ Q1'26 Centurion 250k톤 미달, FY 목표 10.3–11.3M톤 재확인, ICF 25% 수요전망, 가스 $3.45/MMBtu |
+| 검증 가능성 | 불가 (대조 원문 없음) | ✅ 원문 대조 가능 |
+
+**결론**: 현재 deep_research는 *그럴듯하지만 검증 불가능한 주장*을 생산. WebSearch만으로도 **출처 URL이 박힌 현재 사실**로 즉시 대체 가능 → 절차 A의 투자 가치 입증됨.
+
+## 7-2. 가용 외부 skill 전수조사 (활용 맵)
+
+이 환경에 설치된 자산을 파이프라인 절차에 매핑:
+
+| 자산 | 상태 | 매핑 절차 | 비고 |
+|---|---|---|---|
+| **WebSearch / web_fetch** | ✅ 즉시 가용 | A(Evidence), B(Fact-check) | **Evidence 백본** — 출처 URL 자동 확보 |
+| **SEC EDGAR full-text + DART** | ✅ 보유 (무료) | A(Evidence) | 1차 공시. EDGAR EFTS 전문검색 확장 가능 |
+| **news-integration** (NewsAPI·Finnhub 무료 tier) | ✅ 보유 | A(Evidence) | lookback 한계 보완은 WebSearch로 |
+| **bigdata-com** (`financial-research-analyst` + 27 commands) | ❌ **제외** (사용자 계정 없음 + 동적등록 미지원) | — | 유료 기관 코퍼스. 향후 계정 확보 시 소스 ①로 끼움. 현재 계획에서 제외 |
+| **moai-research:patent-search** (KIPRIS) | ✅ skill (무료) | C(사례연결) | SMR·수소 등 기술 moat 종목 특허 근거 |
+| **moai-research:paper-search** (RISS/KCI) | ✅ skill | C(사례연결) | 학술 근거 |
+| **moai-finance:korean-stock-search** (KRX) | ✅ skill | A(시세 보강) | DART 보완 |
+| **macro-economic-integration** (FRED/ECB/IMF/OECD/BOK) | ✅ 보유, 미주입 | D(거시주입) | 금리·환율 → DCF 할인율 |
+| **multi-model-arena / codex-integration** | ✅ 보유 | B(팩트체크 재배치) | 신규 인프라 0 |
+
+## 7-2b. 구현 현황 (2026-06-02 프로토타입 완료)
+
+절차 A·B·C가 BTU 종목으로 **end-to-end 동작 검증** 완료:
+
+| 산출물 | 위치 | 상태 |
+|---|---|---|
+| `evidence_retriever.py` | `report-suite/skills/_common/` | ✅ A 모듈 (WebSearch hits + SEC EFTS 직접 fetch + `register_source` pluggable + `merge_into_deep` + `audit_deep_research`) |
+| `fact_checker.py` | `report-suite/skills/_common/` | ✅ B 모듈 (thesis-evidence 모순 / 무출처 정량 / 밸류 정합성 3종 체크 + `register_verifier` LLM plug) |
+| build_combined.py 배선 | line 773 직후 | ✅ A 주입 — evidence 있으면 industry.news를 URL 인용 버전으로 prepend |
+| deep_research.py 렌더 | `render_industry_context` | ✅ news 출처를 하이퍼링크 + ✓출처 배지 |
+| `evidence/BTU.json`, `factcheck/BTU.json` | 분석 디렉토리 | ✅ 표준 스키마 산출물 |
+
+**검증 결과 (BTU)**: 기존 deep_research 뉴스 5건(URL 0%) → 주입 후 12건(URL 7건). 팩트체크가 **EIA -9% 전망이 bull "AI=석탄수요" 논리를 반박**(🔴), market_size·점유율 무출처(🟡), bull 목표가 $35 vs 컨센서스 $34.42 정합(🟢)을 자동 탐지. SEC EFTS 날짜필터로 2026-06-02 최신 공시 반환(구 2017 공시 배제).
+
+**다듬기 완료 (2026-06-02)**:
+- ✅ **stance-aware 팩트체크** — 헤지/부정 가정을 conflict에서 제외(`_stance()`). BTU conflict 6→4건으로 과탐지 제거, 남은 4건 모두 정당(bull AI-coal·3중catalyst·base thermal회복·bear -74% 괴리). 추가 정밀화는 `register_verifier()`에 codex 연결.
+- ✅ **Citation Audit PDF 렌더** — `build_combined.py` deep research 섹션 뒤에 `render_citation_audit_html` 삽입(`DISABLE_FACTCHECK=1`로 off). factcheck/{ticker}.json 자동 저장.
+- ✅ **DART evidence fetcher** — `evidence_retriever.fetch_dart()` 추가(dart-integration 재사용). US ticker skip·graceful 검증 완료. ⚠️ *live KR fetch는 DART corp_code 캐시 예열 필요* — CORPCODE.zip 최초 다운로드가 Cowork 45초 sandbox 초과(기존 알려진 제약). `/dart-status` 등으로 1회 예열하면 이후 정상.
+
+**확장 완료 (2026-06-02 2차)**:
+- ✅ **codex LLM 검증기 plug** — `fact_checker.make_codex_verifier()` (codex-integration 재사용). `build_combined`가 `register_verifier`로 등록. opt-in `FACTCHECK_LLM=1` + codex/OPENAI_API_KEY 가용 시만 동작, 그 외 graceful no-op(검증 완료).
+- ✅ **evidence → scenarios 주입** — `EvidenceRetriever.annotate_scenarios()`로 bull/base/bear 가정에 ✓출처/⚠반박 배지 부착(BTU 9건). build_combined 배선.
+- ✅ **통합 회귀 테스트(렌더 경로)** — merge→annotate→industry/scenarios/citation-audit 렌더까지 BTU end-to-end 정상(출처링크 7·근거배지 13·Audit 표). 4개 파일 py_compile OK. ⚠️ *PDF 최종 rasterize(weasyprint)는 sandbox 디스크 부족으로 미실행* — 코드 무결성은 확인됨, 실 PDF 빌드는 정상 환경(로컬/Claude Code)에서 검증 필요.
+
+**Phase 7 종합**: A(evidence 수집) → 주입 → scenarios 근거태깅 → B(팩트체크 + LLM plug) → Citation Audit PDF 섹션까지 **전 구간 배선·검증 완료**. 잔여는 (1) 정상 환경에서 실 PDF 빌드 확인 (2) KR DART corp_code 예열 (3) 다종목 배치 적용.
+
+## 7-3. 신규 절차 A — Evidence Retrieval 단계 (우선순위 🔥)
+
+deep_research 생성 **전에** 외부 1차 자료를 폭넓게 수집·격리저장하는 단계.
+
+- **구현 위치**: `report-suite/skills/_common/`에 `evidence_retriever.py` 신설 (one-off 금지 원칙 → 기존 plugin 확장)
+- **출력**: `evidence/{ticker}.json` — `[{claim, value, source_url, publisher, date, retrieved_via}]` 스키마
+- **소스 우선순위 (전부 무료)**: ① WebSearch 5–10건 → ② SEC EDGAR/DART 공시 → ③ web_fetch IR/보도자료 → ④ news-integration(NewsAPI·Finnhub). *bigdata-com은 사용자 계정 없어 제외; 향후 확보 시 소스 ⓪로 prepend만 하면 되도록 pluggable 설계*
+- **연결**: `deep_research.py`의 `competitive_landscape`·`market_size`·`recent_news`를 **evidence/{ticker}.json에서 주입** (현재 LLM 생성 대체)
+- **공수**: 중 (evidence_retriever.py 1개 + deep_research.py 연결부 수정)
+
+## 7-4. 신규 절차 B — Fact-Check / Citation Lock 단계 (우선순위 🔥, 신뢰도 직결)
+
+PDF 빌드 **직전**, 본문 정량 주장을 원본과 자동 대조. **기존 multi-model-arena/codex를 재배치 → 신규 인프라 0.**
+
+**아키텍처 (3단계)**:
+
+1. **Claim 추출** — `build_combined.py`가 생성한 본문 HTML에서 정량 문장(매출·PER·점유율·성장률) regex/LLM 추출 → `claims_{ticker}.json`
+2. **출처 대조** — 각 claim을 다음과 순서대로 대조:
+   - `stocks.json`(yfinance live) — 가격·밸류에이션 지표
+   - `financial_statements_us_gaap.py` 출력 — 재무 수치
+   - `evidence/{ticker}.json`(절차 A) — 산업·뉴스 수치
+   - 불일치/무출처 → **flag**
+3. **검증 의견** — codex-integration(OpenAI) 또는 arena 2차 모델에 "이 claim이 출처와 일치하는가" 질의 → cross-model 합의. 불일치 claim은 보고서에 `⚠️ 출처 확인 불가` 태깅 (CLAUDE.md 응답원칙 일치)
+- **출력**: `factcheck_{ticker}.json` (claim·status·source·verdict) + 보고서 말미 **Citation Audit 섹션**
+- **공수**: 중상 (claim 추출기 + 대조 로직; arena/codex는 재사용)
+
+## 7-5. 신규 절차 C — 유사 사례·과거 국면 연결 (우선순위 ⭐)
+
+AMEET의 "맥락 추출: 과거 사례 연결"에 대응.
+
+- **기술 moat 종목**: `moai-research:patent-search`(KIPRIS)로 특허 동향 → "실행력" 근거 (SMR·수소·2차전지)
+- **시나리오 보강**: `bigdata-com:scenario-analysis`·`thematic-research`로 Bull/Base/Bear를 외부 테마 리서치로 뒷받침 (현재 LLM 단독)
+- **과거 유사국면**: backtester ledger와 연결 — "고밸류 성장주 조정" 등 유사 국면 사후수익률 인용
+- **공수**: 중 (skill 호출 + deep_research scenarios 연결)
+
+## 7-6. 신규 절차 D — 거시 자료의 종목 분석 주입 (우선순위 ⭐)
+
+- 보유 중인 `macro-economic-integration`(FRED/ECB/IMF/BOK) 출력을 **deep_research `scenarios`의 실제 변수로 연결** (금리 → DCF 할인율, 환율 → 수출주 민감도)
+- **공수**: 소~중 (plugin 이미 존재, 연결부만 작성)
+
+## 7-7. 우선순위·실행 순서
+
+| 순위 | 절차 | 임팩트 | 공수 | 선결 조건 |
+|---|---|---|---|---|
+| 1 | **A. Evidence Retrieval** | 🔥 최상 | 중 | WebSearch만으로 즉시 시작 가능 |
+| 2 | **B. Fact-Check / Citation Lock** | 🔥 최상(신뢰도) | 중상 | A 완료(evidence가 대조 소스) |
+| 3 | **D. 거시 주입** | ⭐ | 소~중 | macro plugin 기존 |
+| 4 | **C. 사례 연결** | ⭐ | 중 | patent/paper skill |
+| — | ~~bigdata-com MCP 인증~~ | — | — | **제외** (사용자 계정 없음). 무료 소스 스택으로 진행 |
+
+## 7-8. 다음 단계 (사용자 결정 필요)
+
+1. **절차 A 우선 구현** — `evidence_retriever.py`(무료 소스 pluggable)를 신규 1개 종목에 적용 후 기존 deep_research/PDF와 품질 A/B 비교
+2. **절차 B claim 추출 범위** — 전체 정량 문장 vs 핵심 지표(매출·PER·시총)만 우선
+3. **KIND 통합(Phase 2-2)과 통합** — 절차 A의 한국 종목 소스로 KIND 동시 진행 권장
+4. **(보류) bigdata-com** — 사용자 계정 없어 제외. 향후 구독 확보 시 소스 ⓪로 prepend
