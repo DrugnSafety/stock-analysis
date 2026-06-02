@@ -120,6 +120,38 @@ python3 plugins/report-suite/skills/unified-builder/scripts/build_multi_stocks.p
 # build_combined.py post-build hook으로 자동 실행
 ```
 
+## 6b. Phase 7 Evidence Layer (외부 근거 + 팩트체크) — Claude Code 재검증 완료
+
+> **재검증 결과 (2026-06-02)**: Phase 7 신규 모듈은 **stdlib-only**(`urllib`·`json`·`re`)라 외부 패키지 의존이 없습니다. Cowork sandbox에서 막히던 **weasyprint PDF 최종 빌드·DART corp_code 예열이 Claude Code(로컬 macOS)에서는 제약 없이 실행**됩니다. 즉 Phase 7은 Claude Code에서 **더 완전하게** 동작합니다.
+
+```bash
+PDIR=.analysis-log/standalone/2026-04-30_BTU_Peabody_Energy
+
+# (1) evidence 수집 — WebSearch hits는 Claude Code 세션에서 agent가 주입,
+#     SEC EFTS·DART는 Python이 직접 fetch (timeout 제약 없음)
+python3 -c "
+import sys; sys.path.insert(0,'plugins/report-suite/skills/_common')
+from evidence_retriever import EvidenceRetriever
+er = EvidenceRetriever('BTU', exchange='NYSE', company='Peabody Energy')
+er.fetch_sec_efts(forms=['8-K','10-Q'], lookback_days=400)
+er.fetch_dart()          # .KS/.KQ 종목만 (corp_code 예열 제약 없음)
+er.write('$PDIR/evidence')
+"
+
+# (2) 빌드 — evidence/{ticker}.json 있으면 자동으로 주입+팩트체크 Citation Audit 렌더
+python3 plugins/report-suite/skills/unified-builder/scripts/build_combined.py \
+  --ticker BTU --deep-research $PDIR/deep_research/BTU.json \
+  --stocks $PDIR/stocks.json --thesis $PDIR/thesis_list.json \
+  --eval-dir $PDIR/thesis_eval --risk-limits $PDIR/risk_limits.json \
+  --decisions $PDIR/decisions.json --portfolio $PDIR/portfolio.json \
+  --output $PDIR/reports/BTU_combined.pdf
+
+# (3) codex LLM 검증기 추가 (선택) — codex CLI 네이티브라 Claude Code에서 유리
+FACTCHECK_LLM=1 python3 ... (동일 빌드)   # codex가 stance-aware 모순 판단 보강
+```
+
+**Phase 7 env 플래그**: `DISABLE_FACTCHECK=1`(팩트체크/Audit 끔) · `FACTCHECK_LLM=1`(codex 검증기 on).
+
 ## 7. Office-Home 동기화 워크플로우
 
 ```bash
@@ -151,6 +183,9 @@ git pull
 | `codex` 명령 not found | OpenAI Codex CLI 미설치 | `npm i -g @openai/codex` |
 | LangSmith trace 안 보임 | LANGSMITH_TRACING=false | `.env` 확인 |
 | 한글 PDF 깨짐 | Noto Sans CJK 미설치 | `brew install --cask font-noto-sans-cjk-kr` |
+| Citation Audit 섹션 안 나옴 | `evidence/{ticker}.json` 없음 | evidence_retriever로 먼저 수집 (6b 참조) |
+| DART evidence 0건 | corp_code 캐시 없음 | Claude Code는 예열 제약 없음 — 첫 fetch 시 자동 다운로드 |
+| codex 검증기 no-op | `FACTCHECK_LLM` 미설정 or codex 없음 | `FACTCHECK_LLM=1` + `npm i -g @openai/codex` |
 
 ## 10. 추가 학습 자료
 
