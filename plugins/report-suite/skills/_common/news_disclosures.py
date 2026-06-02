@@ -49,6 +49,38 @@ except Exception:
 
 
 NEWS_TIMELINE: dict[str, list[dict]] = {
+    # ── 2026-05-30 Sprint E-8: Samsung Electronics 12개월 curated (standalone 005930.KS 분석) ──
+    "005930.KS": [
+        # — 2026 Q2 (최근 90일) —
+        {"date": "2026-05-28", "type": "뉴스", "category": "산업", "headline": "Samsung HBM3e 12-stack NVIDIA qualification 최종 단계 진입", "summary": "NVIDIA B200/B300 차세대 GPU 채택 검토. SK하이닉스 단독 공급 구조 균열 시작. 양사 가격경쟁 시작 예상.", "impact": "+", "source": "Reuters"},
+        {"date": "2026-05-15", "type": "공시", "category": "주요사항", "headline": "삼성전자 자사주 매입 1차 완료 — 3.5조원 (10조원 목표 35%)", "summary": "2026년 자사주 매입 총 10조원 계획 중 1차 3.5조원 완료 공시. 주주환원율 확대 트렌드 가속.", "impact": "+", "source": "DART 공시"},
+        {"date": "2026-05-08", "type": "뉴스", "category": "어닝", "headline": "삼성전자 1Q26 영업이익 9.2조원 (컨센 8.5조) — 메모리 회복 정착", "summary": "DS(반도체) 5.1조 + DX(디바이스) 3.4조 + Harman 0.5조. DRAM ASP +18% QoQ, HBM 매출 비중 32%로 상승.", "impact": "+", "source": "삼성전자 IR"},
+        {"date": "2026-04-22", "type": "뉴스", "category": "산업", "headline": "Samsung Foundry 2nm GAA — Qualcomm Snapdragon 8 Gen 5 듀얼소싱 채택", "summary": "TSMC N3 + Samsung SF2 50:50 분할 발주. 2nm GAA 양산 신뢰성 첫 외부 검증 사례.", "impact": "+", "source": "Bloomberg"},
+        {"date": "2026-04-10", "type": "공시", "category": "주요사항", "headline": "삼성전자, 미국 Taylor 텍사스 fab 가동 시작 (4nm)", "summary": "170억$ 투자 미국 최첨단 공정 가동. CHIPS Act 보조금 47억$ 1차 수령. 지정학 위험 분산 가속.", "impact": "+", "source": "DART 공시"},
+        # — 2026 Q1 —
+        {"date": "2026-03-25", "type": "뉴스", "category": "제품", "headline": "Galaxy Z Fold 7 + Galaxy AI 2.0 — 온디바이스 멀티모달 LLM 탑재", "summary": "iPhone Air 대비 productivity 차별화 마케팅. 폴더블 출하 전년대비 +35% 목표.", "impact": "+", "source": "삼성 Unpacked"},
+        {"date": "2026-03-08", "type": "뉴스", "category": "산업", "headline": "DRAM 평균판매단가 5개월 연속 상승 — DDR5 비중 65% 돌파", "summary": "AI 서버향 DDR5 수요 폭증 + 일반 PC/모바일 회복. 2026년 메모리 capex 전년 대비 +25% 전망.", "impact": "+", "source": "TrendForce"},
+        {"date": "2026-02-19", "type": "뉴스", "category": "정책", "headline": "한국 정부 K-반도체 2.0 정책 — 추가 R&D 펀드 8조원 + Foundry 보조금", "summary": "Samsung Foundry 2nm 양산 추가 정부 지원. TSMC 추격 가속화 정부 의지 천명.", "impact": "+", "source": "산업통상자원부"},
+        {"date": "2026-02-05", "type": "뉴스", "category": "어닝", "headline": "삼성전자 4Q25 영업이익 6.8조원 (컨센 5.9조) — turnaround 정착", "summary": "메모리 영업이익 4.2조원 (직전 분기 2.1조) 두 배. HBM3 NVIDIA Z200 채택 수혜 본격화.", "impact": "+", "source": "삼성전자 IR"},
+        {"date": "2026-01-22", "type": "뉴스", "category": "지배구조", "headline": "이재용 회장 사법 risk 1심 무죄 — 지배구조 reform 모멘텀 회복", "summary": "삼성생명·삼성물산 지분 정리 논의 재개. governance discount 해소 기대.", "impact": "+", "source": "한겨레"},
+        # — 2025 Q4 —
+        {"date": "2025-12-18", "type": "공시", "category": "주요사항", "headline": "삼성전자 자사주 매입 10조원 계획 공식 발표 — 2026년 분기별 실행", "summary": "최근 5년 최대 규모 자사주 매입. PB 1.0 deep value 해소 의지 분명.", "impact": "+", "source": "DART 공시"},
+        {"date": "2025-12-04", "type": "뉴스", "category": "산업", "headline": "HBM3e 8-stack 시장 점유율 — SK하이닉스 60% · Samsung 28% · Micron 12%", "summary": "Samsung 점유율 분기 +6%p 상승. 12-stack 양산 시 점유율 추가 확대 전망.", "impact": "+", "source": "Counterpoint Research"},
+        {"date": "2025-11-21", "type": "뉴스", "category": "산업", "headline": "Samsung-AMD MI400 HBM 공급 계약 — 30억$ 규모 (2026-2027)", "summary": "NVIDIA 외 두 번째 대형 HBM 고객 확보. AMD GPU 시장 점유율 확대 시 추가 upside.", "impact": "+", "source": "AMD Press Release"},
+        {"date": "2025-11-05", "type": "뉴스", "category": "어닝", "headline": "삼성전자 3Q25 영업이익 3.1조원 — 메모리 적자 탈출 + Foundry 적자 축소", "summary": "DS 영업이익 +1.8조 (작년 -3.7조 → 흑자전환). NAND 가격 상승 + DDR5 수요 가시화.", "impact": "+", "source": "삼성전자 IR"},
+        {"date": "2025-10-15", "type": "뉴스", "category": "지정학", "headline": "美 BIS, 對중국 첨단 반도체 추가 제재 — Samsung 시안 fab 영향 제한적", "summary": "삼성 시안 NAND fab은 legacy 공정 위주로 영향 적음. 다만 향후 capacity 확장 제약 우려.", "impact": "○", "source": "Reuters"},
+        # — 2025 Q3 —
+        {"date": "2025-09-28", "type": "뉴스", "category": "산업", "headline": "Samsung Foundry 2nm GAA 첫 wafer-out 성공 — TSMC와 6개월 격차", "summary": "PPT 2nm 양산 일정 2026-H2 → 2026-Q3로 가속화. 수율 40%+ 확인.", "impact": "+", "source": "DigiTimes"},
+        {"date": "2025-09-12", "type": "뉴스", "category": "제품", "headline": "Galaxy S26 Pre-order — Galaxy AI 1.0 글로벌 출시", "summary": "온디바이스 번역·요약·이미지 생성 기본 탑재. iPhone Air 출시 일주일 앞서 marketing 우위.", "impact": "+", "source": "Samsung Press"},
+        {"date": "2025-08-26", "type": "뉴스", "category": "환율", "headline": "USD/KRW 1410 돌파 — 수출주 마진 호조", "summary": "삼성전자 매출 70%가 USD/EUR 결제. 1Y 평균 환율 1380 가정 시 영업이익 +1.5조원 효과.", "impact": "+", "source": "한국은행"},
+        {"date": "2025-08-07", "type": "뉴스", "category": "어닝", "headline": "삼성전자 2Q25 영업이익 1.8조원 (컨센 1.5조) — 4분기 연속 흑자", "summary": "메모리 적자 폭 축소 + 모바일 견조. Galaxy Z Fold 6 출하 호조.", "impact": "+", "source": "삼성전자 IR"},
+        {"date": "2025-07-18", "type": "뉴스", "category": "제품", "headline": "Samsung HBM3 8-stack — Apple M5 Pro/Max 채택 결정", "summary": "Apple 첫 Samsung HBM 채택. TSMC N3 fab과 시너지로 supply 안정.", "impact": "+", "source": "9to5Mac"},
+        # — 2025 Q2 (12개월 lower bound) —
+        {"date": "2025-06-29", "type": "공시", "category": "주요사항", "headline": "삼성전자 인도 노이다 fab 2단계 확장 결정 — 30억$ 추가 투자", "summary": "월 capacity 2배 확대 (월 60K → 120K wafers). 중국 의존도 추가 분산.", "impact": "+", "source": "DART 공시"},
+        {"date": "2025-06-12", "type": "뉴스", "category": "산업", "headline": "HBM3e 12-stack 양산 — Samsung·SK하이닉스 동시 진입", "summary": "Samsung HBM3e 양산 본격화. NVIDIA H300 채택 검토 진행 — qualification 기간 6개월.", "impact": "+", "source": "TrendForce"},
+        {"date": "2025-05-30", "type": "뉴스", "category": "산업", "headline": "메모리 산업 turnaround 공식화 — DRAM/NAND 동시 상승", "summary": "WSTS 2025년 글로벌 반도체 시장 +20% 전망 (메모리 +28%). 2년 downturn 종료 컨센서스.", "impact": "+", "source": "WSTS"},
+        {"date": "2025-05-08", "type": "뉴스", "category": "어닝", "headline": "삼성전자 1Q25 영업이익 0.8조원 — 4Q24 -2.2조 대비 흑자전환", "summary": "DRAM ASP 회복 + NAND 가격 안정. Galaxy S25 출하 +18% YoY. turnaround inflection 확인.", "impact": "+", "source": "삼성전자 IR"},
+    ],
     # ── 2026-05-19 Merged Perovskite + Space DC analysis (메르 224288651743 + 224287501270) ──
     "010140.KS": [
         {"date": "2026-04-28", "type": "공시", "category": "주요사항", "headline": "삼성중공업, 50MW 부유식 해상데이터센터(FDC) 개념설계 ABS·LR 동시 인증 획득", "summary": "한국 최초·세계 두번째 FDC 양대 선급 인증. 글로벌 hyperscaler 발주 파이프라인 진입권 확보.", "impact": "+", "source": "DART 공시"},
@@ -254,12 +286,14 @@ def get_news_items(ticker: str, company_name: str = "") -> list[dict]:
       - US tickers → SEC EDGAR (공시) + NewsAPI/Finnhub (뉴스) + curated
       - Both: dedup + sort by date desc
     """
+    import os as _os
     curated = NEWS_TIMELINE.get(ticker, [])
     is_kr = ticker.endswith((".KS", ".KQ"))
 
     merged = list(curated)  # start with curated
+    _skip_ext = _os.environ.get("DISABLE_FIN_FETCH") == "1"
 
-    if is_kr and _DART_AVAILABLE and _dart_is_available():
+    if is_kr and _DART_AVAILABLE and _dart_is_available() and not _skip_ext:
         try:
             dart_items = _dart_fetch_disclosures(ticker, lookback_days=365)
             if dart_items:
@@ -269,7 +303,7 @@ def get_news_items(ticker: str, company_name: str = "") -> list[dict]:
         except Exception as e:
             print(f"[news] DART fetch failed for {ticker}: {e}")
 
-    if (not is_kr) and _SEC_AVAILABLE:
+    if (not is_kr) and _SEC_AVAILABLE and not _skip_ext:
         try:
             sec_items = _sec_fetch_disclosures(ticker, lookback_days=365)
             if sec_items:
@@ -280,7 +314,7 @@ def get_news_items(ticker: str, company_name: str = "") -> list[dict]:
             print(f"[news] SEC fetch failed for {ticker}: {e}")
 
     # Add live news (US tickers — NewsAPI/Finnhub)
-    if (not is_kr) and _NEWS_AVAILABLE:
+    if (not is_kr) and _NEWS_AVAILABLE and not _skip_ext:
         try:
             status = _news_status()
             if status.get("any_active"):
