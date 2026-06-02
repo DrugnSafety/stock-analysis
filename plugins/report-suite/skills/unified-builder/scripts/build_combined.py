@@ -485,17 +485,22 @@ def render_decision_section(decisions: list[dict], portfolio: dict, theses: list
 
 
 def render_deep_research_section(deep: dict, ticker: str, current_price: float = 0,
-                                   currency: str = "KRW") -> str:
-    """Deep Research-style sections — industry, financials, scenarios, catalysts, risks."""
+                                   currency: str = "KRW", thesis_eval: dict | None = None) -> str:
+    """Deep Research-style sections — industry, financials, scenarios, catalysts, risks.
+
+    thesis_eval: thesis_eval/all_aggregate.json content — overlays 4-analyst evaluation
+                 onto thesis_decomposition section (Sprint E-2 patch).
+    """
     if not deep:
         return ""
 
     company = resolve_ticker(ticker).get("kr", ticker)
-    body = f'<h1 style="page-break-before:always;">🔬 Deep Research — {company} 심층 분석</h1>'
+    # NOTE: page-break는 caller의 <div>가 담당 (중복 시 blank page 발생)
+    body = f'<h1>🔬 Deep Research — {company} 심층 분석</h1>'
     body += '<div class="info">전문 sell-side 보고서 형식의 심층 분석 — 산업 맥락, 5년 재무, 시나리오, 카탈리스트, 리스크 매트릭스를 포함합니다.</div>'
 
     if "thesis_decomposition" in deep:
-        body += dr.render_thesis_decomposition(deep["thesis_decomposition"])
+        body += dr.render_thesis_decomposition(deep["thesis_decomposition"], thesis_eval=thesis_eval)
 
     if "industry" in deep:
         ind = deep["industry"]
@@ -512,9 +517,10 @@ def render_deep_research_section(deep: dict, ticker: str, current_price: float =
         body += dr.render_financial_deep_dive(
             ticker=ticker,
             pl_5y=fin.get("pl_5y", []),
-            bs_snapshot=fin.get("bs_snapshot", {}),
-            cf_summary=fin.get("cf_summary", {}),
+            bs_snapshot=deep.get("bs_snapshot") or fin.get("bs_snapshot", {}),
+            cf_summary=deep.get("cf_summary") or fin.get("cf_summary", {}),
             peer_compare=fin.get("peer_compare", []),
+            financial_unit=deep.get("financial_unit") or fin.get("financial_unit"),
         )
 
     if "scenarios" in deep:
@@ -770,6 +776,41 @@ def main():
 
     deep = _read_json(args.deep_research) if args.deep_research else {}
 
+    # ── Phase 7 절차 A: evidence/{ticker}.json 주입 (출처 URL 박힌 외부 근거) ──
+    # evidence 파일이 있으면 industry.news 를 URL 인용 버전으로 prepend (graceful).
+    if deep and args.deep_research:
+        try:
+            from evidence_retriever import EvidenceRetriever as _ER
+            _pdir = Path(args.deep_research).resolve().parent.parent  # deep_research/{t}.json → pipeline_dir
+            _ev_path = _pdir / "evidence" / f"{args.ticker}.json"
+            deep = _ER.merge_into_deep(deep, _ev_path)
+            deep = _ER.annotate_scenarios(deep, _ev_path)   # 시나리오 가정에 근거 배지
+            if deep.get("_evidence", {}).get("injected"):
+                _ev_meta = deep["_evidence"]
+                print(f"[combined] evidence injected: {_ev_meta['news_with_url']} URL-backed items "
+                      f"({_ev_meta['evidence_total']} total), "
+                      f"scenarios annotated: {_ev_meta.get('scenarios_annotated', 0)}")
+        except ImportError:
+            pass
+        except Exception as e:
+            print(f"[combined] evidence injection skipped: {e}")
+
+    # ── Auto-convert dict-by-year financials → pl_5y/bs_snapshot/cf_summary ──
+    # (Sprint A-2 fix, 2026-05-28 — 미국 ticker LNG.json 형식 호환)
+    if deep:
+        try:
+            from financial_format_helper import auto_convert_deep_research_financials
+            deep = auto_convert_deep_research_financials(deep, ticker=args.ticker)
+            fin = deep.get("financials") or {}
+            if fin.get("pl_5y"):
+                print(f"[combined] auto-converted financials: pl_5y={len(fin['pl_5y'])} years, "
+                      f"bs_snapshot={'yes' if fin.get('bs_snapshot') else 'no'}, "
+                      f"cf_summary={'yes' if fin.get('cf_summary') else 'no'}")
+        except ImportError as e:
+            print(f"[combined] financial_format_helper not available: {e}")
+        except Exception as e:
+            print(f"[combined] financials auto-conversion failed: {e}")
+
     # ── Auto-fetch DART financials for KR tickers if API key is set ──
     if args.ticker.endswith((".KS", ".KQ")) and os.environ.get("DISABLE_FIN_FETCH") != "1":
         live_fin = fetch_financials_for_deep_research(args.ticker)
@@ -796,18 +837,19 @@ def main():
             break
 
     # ── Compose body ─────────────────────────────────────────────────
-    # SECTION ORDER (v0.5.0, 2026-05-11 lock-in):
+    # SECTION ORDER (v0.6.0, 2026-05-27 — Sprint 1.5: Macro Anchor 추가):
     #   1. Cover
     #   2. Company Intro
-    #   3. Deep Research (산업 + 재무 + 카탈리스트/리스크) ← 승격 from 8th to 3rd
-    #   4. Financial Statements US-GAAP (5Y annual + 5Q quarterly + variance) ← NEW
-    #   5. News Timeline (중립 제외 + 월별 +/- bar chart) ← 개선됨
-    #   6. Executive Brief + Thesis List
-    #   7. R1 Quant Anchor
-    #   8. R2 Persona Panel (Thesis × Persona Matrix 정상화)
-    #   9. R3 Decision Section
-    #  10. (선택) ETF Holdings, Reverse DCF, Subagent Debate
-    #  11. Appendix
+    #   3. ★ Macro Anchor (FRED + IMF WEO) — Deep Research 도입부 ★ NEW (Sprint 1.5)
+    #   4. Deep Research (산업 + 재무 + 카탈리스트/리스크)
+    #   5. Financial Statements US-GAAP (5Y annual + 5Q quarterly + variance)
+    #   6. News Timeline (중립 제외 + 월별 +/- bar chart)
+    #   7. Executive Brief + Thesis List
+    #   8. R1 Quant Anchor
+    #   9. R2 Persona Panel (Thesis × Persona Matrix 정상화)
+    #  10. R3 Decision Section
+    #  11. (선택) ETF Holdings, Reverse DCF, Subagent Debate
+    #  12. Appendix
     body = render_combined_cover(args.ticker, meta, persona_agg)
 
     # [2] Company Intro
@@ -815,9 +857,95 @@ def main():
     if company_intro_html:
         body += '<div style="page-break-before:always;"></div>' + company_intro_html
 
-    # [3] Deep Research — 페이지 도입부로 승격 (사용자 요청 #4)
+    # [3] Macro Anchor — Sprint 1.5 신설 (FRED + IMF WEO)
+    # plugins/macro-economic-integration이 생성하는 macro_snapshot.json을
+    # Deep Research 도입부 anchor로 자동 삽입. 환경변수 DISABLE_MACRO=1로 비활성화 가능.
+    if os.environ.get("DISABLE_MACRO") != "1":
+        try:
+            from macro_renderer import ensure_macro_snapshot, render_macro_anchor_section
+            from macro_sector_impact import get_sector_from_stocks
+            from pathlib import Path as _Path
+            pdir_for_macro = _Path(args.thesis).parent if args.thesis else None
+            if pdir_for_macro:
+                macro_snap = ensure_macro_snapshot(pdir_for_macro, stocks)
+                if macro_snap:
+                    # Sprint B-2: sector 기반 macro impact narrative 자동 추가
+                    sector = get_sector_from_stocks(stocks, args.ticker)
+                    company_kr = resolve_ticker(args.ticker).get("kr", "")
+                    macro_html = render_macro_anchor_section(
+                        macro_snap, sector=sector,
+                        ticker=args.ticker, company_name=company_kr,
+                    )
+                    if macro_html:
+                        body += '<div style="page-break-before:always;"></div>' + macro_html
+                        print(f"[combined] macro anchor section added (sector={sector or 'N/A'})")
+        except ImportError as e:
+            print(f"[combined] macro_renderer not available: {e}")
+        except Exception as e:
+            print(f"[combined] macro section failed: {e}")
+
+    # [4] Deep Research — 페이지 도입부로 승격 (사용자 요청 #4)
+    # Sprint E-2: thesis_eval/all_aggregate.json raw inject → thesis_decomposition overlay
     if deep:
-        body += '<div style="page-break-before:always;"></div>' + render_deep_research_section(deep, args.ticker, current_price, currency)
+        thesis_eval_raw = None
+        try:
+            if eval_path.exists():
+                with open(eval_path, encoding="utf-8") as _f:
+                    thesis_eval_raw = json.load(_f)
+        except Exception as _e:
+            print(f"[combined] thesis_eval raw load failed: {_e}")
+        body += '<div style="page-break-before:always;"></div>' + render_deep_research_section(
+            deep, args.ticker, current_price, currency, thesis_eval=thesis_eval_raw
+        )
+
+    # [4b] Citation Audit — Phase 7 절차 B (evidence 기반 자동 팩트체크)
+    # evidence/{ticker}.json 이 있으면 deep_research 주장을 대조해 ⚠️ 플래그.
+    # 환경변수 DISABLE_FACTCHECK=1 로 비활성화 가능.
+    if deep and args.deep_research and os.environ.get("DISABLE_FACTCHECK") != "1":
+        try:
+            from evidence_retriever import EvidenceRetriever as _ER  # noqa: F401
+            from fact_checker import FactChecker, render_citation_audit_html, make_codex_verifier
+            _pdir = Path(args.deep_research).resolve().parent.parent
+            _ev_path = _pdir / "evidence" / f"{args.ticker}.json"
+            if _ev_path.exists():
+                _evidence = json.loads(_ev_path.read_text(encoding="utf-8"))
+                _fc = FactChecker(args.ticker)
+                _fc.register_verifier(make_codex_verifier())  # FACTCHECK_LLM=1 일 때만 동작
+                _fc_res = _fc.run(deep, _evidence)
+                _fc.write(_pdir / "factcheck")
+                body += ('<div style="page-break-before:always;"></div>'
+                         + render_citation_audit_html(_fc_res))
+                print(f"[combined] citation audit: {_fc_res['verdict']} "
+                      f"(🔴{_fc_res['summary']['conflict']} "
+                      f"🟡{_fc_res['summary']['unsourced']} "
+                      f"🟢{_fc_res['summary']['confirmed']})")
+        except ImportError:
+            pass
+        except Exception as e:
+            print(f"[combined] citation audit skipped: {e}")
+
+    # [5] Quantitative Anchor — Sprint 2 신설 (DCF + Reverse DCF + Risk + Portfolio)
+    # plugins/quant-anchor가 생성하는 quant_anchor_{TICKER}.json을 자동 삽입.
+    # 환경변수 DISABLE_QUANT_ANCHOR=1로 비활성화 가능.
+    if os.environ.get("DISABLE_QUANT_ANCHOR") != "1":
+        try:
+            from quant_anchor_renderer import (
+                ensure_quant_anchor as ensure_qa,
+                render_quant_anchor_section,
+            )
+            from pathlib import Path as _Path
+            pdir_for_qa = _Path(args.thesis).parent if args.thesis else None
+            if pdir_for_qa:
+                qa = ensure_qa(pdir_for_qa, args.ticker, stocks)
+                if qa:
+                    qa_html = render_quant_anchor_section(qa)
+                    if qa_html:
+                        body += '<div style="page-break-before:always;"></div>' + qa_html
+                        print(f"[combined] quant anchor section added")
+        except ImportError as e:
+            print(f"[combined] quant_anchor_renderer not available: {e}")
+        except Exception as e:
+            print(f"[combined] quant anchor section failed: {e}")
 
     # [4] Financial Statements US-GAAP — 5Y annual + 5Q quarterly + variance (사용자 요청 #1)
     try:
@@ -842,9 +970,53 @@ def main():
     body += render_brief_and_thesis_combined(args.ticker, decisions, persona_agg, theses, stocks)
 
     # [7] R1 Quant
+    # Fix-A (2026-05-28): thesis_eval mock data 감지 시 경고 배너 추가
+    eval_meta = eval_data.get("__metadata__") or {}
+    if eval_meta.get("is_mock_data"):
+        mock_ratio_val = eval_meta.get("mock_ratio", 0) * 100
+        mock_warning = '<div style="page-break-before:always;"></div>'
+        mock_warning += (
+            '<div style="background:#fef3c7;border-left:5pt solid #ea580c;padding:14pt 18pt;'
+            'margin:14pt 0;border-radius:0 6pt 6pt 0;">'
+            '<h3 style="margin-top:0;color:#9a3412;">[주의] Thesis × 4-Analyst 평가 데이터 부재</h3>'
+            '<p style="font-size:11pt;margin:6pt 0;">현재 <strong>all_aggregate.json의 '
+            + f"{mock_ratio_val:.0f}%" +
+            '</strong>가 mock(placeholder) 데이터입니다. 4-Analyst (Macro·Industry·Empirical·'
+            'Counter-thesis)가 실제 LLM 호출로 thesis를 평가하지 않은 상태입니다.</p>'
+            '<p style="font-size:10.5pt;margin:6pt 0;color:#475569;">→ 실제 평가를 실행하려면 '
+            '<code>plugins/multi-model-arena/skills/thesis-evaluator/scripts/evaluate_theses.py</code>를 '
+            '실행하세요 (cost 추정: thesis 12개 × 4 analyst × tier_mid = ~$0.03 with gpt-4o-mini).</p>'
+            '</div>'
+        )
+        body += mock_warning
+
     body += render_quant_section(stocks, theses, eval_data, risk_limits, args.ticker)
 
     # [8] R2 Persona Panel (Matrix 정상화 — 사용자 요청 #2)
+    # Sprint C-3 (2026-05-28): personas_full에 company_data 주입 — guru_checklist 실데이터 검증용
+    # market_data + bs_snapshot + cf_summary + pl_5y + quant_anchor를 한 곳에
+    company_data_pkg = {}
+    for s in stocks:
+        if s.get("ticker") == args.ticker:
+            company_data_pkg["market_data"] = s.get("market_data") or {}
+            break
+    if deep and deep.get("financials"):
+        fin = deep["financials"]
+        company_data_pkg["bs_snapshot"] = fin.get("bs_snapshot") or {}
+        company_data_pkg["cf_summary"] = fin.get("cf_summary") or {}
+        company_data_pkg["pl_5y"] = fin.get("pl_5y") or []
+    # Quant Anchor JSON 로드 (있으면)
+    try:
+        from pathlib import Path as _Path
+        pdir_for_qa = _Path(args.thesis).parent if args.thesis else None
+        if pdir_for_qa:
+            qa_file = pdir_for_qa / f"quant_anchor_{args.ticker.replace('.', '_')}.json"
+            if qa_file.exists():
+                company_data_pkg["quant_anchor"] = _read_json(str(qa_file))
+    except Exception:
+        pass
+    persona_full["_company_data"] = company_data_pkg
+
     body += render_persona_section_for_ticker(persona_agg, persona_full, theses, args.ticker)
 
     # [8.5] Specialist Agents (Tier 2 — specialist-agents plugin)
