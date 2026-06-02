@@ -23,6 +23,11 @@ PERSONA_CATEGORY = {
     "nassim-taleb": "risk",
     "aswath-damodaran": "valuation",
     "rakesh-jhunjhunwala": "growth-em",
+    # Phase 2 additions (v0.2.0, 2026-05-27) — lens 다양화
+    "ray-dalio": "macro",
+    "george-soros": "macro-reflexivity",
+    "jim-simons": "quant",
+    "cliff-asness": "factor-quant",
 }
 
 
@@ -40,6 +45,11 @@ PERSONA_NAMES = {
     "rakesh-jhunjhunwala": ("라케시 준준왈라", "Rakesh Jhunjhunwala"),
     "stanley-druckenmiller": ("스탠리 드러켄밀러", "Stanley Druckenmiller"),
     "aswath-damodaran": ("애스워드 다모다란", "Aswath Damodaran"),
+    # Phase 2 additions (v0.2.0)
+    "ray-dalio": ("레이 달리오", "Ray Dalio"),
+    "george-soros": ("조지 소로스", "George Soros"),
+    "jim-simons": ("짐 사이먼스", "Jim Simons"),
+    "cliff-asness": ("클리프 애스니스", "Cliff Asness"),
 }
 
 
@@ -154,6 +164,23 @@ def main():
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(aggregate, f, ensure_ascii=False, indent=2)
+
+    # ── Also update _all_aggregates.json in panel_panel parent ──────────────
+    # (build_combined.py expects this cross-ticker view for multi-stock builds)
+    out_path = Path(args.output)
+    # If output is .../persona_panel/{ticker}/aggregate.json,
+    # write _all_aggregates.json at .../persona_panel/_all_aggregates.json
+    panel_parent = panel_dir.parent
+    all_agg_path = panel_parent / "_all_aggregates.json"
+    try:
+        existing = json.loads(all_agg_path.read_text(encoding="utf-8")) if all_agg_path.exists() else {}
+    except Exception:
+        existing = {}
+    if not isinstance(existing, dict):
+        existing = {}
+    existing[ticker] = aggregate
+    all_agg_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  → _all_aggregates.json updated ({len(existing)} tickers)")
 
     print(f"\n=== {ticker} Persona Panel 종합 ===")
     print(f"  참여 페르소나: {n}")
