@@ -582,3 +582,85 @@ python3 plugins/report-suite/skills/unified-builder/scripts/build_overview.py \
 - yfinance docs: [https://pypi.org/project/yfinance/](https://pypi.org/project/yfinance/) (가격·재무)
 - Naver 블로그 API: PostTitleListAsync.naver (블로그 글 list)
 
+
+---
+
+## 🚀 v0.9.x 고도화 (2026-06-02 적용 완료) — Sprint E+F: PDF 결함 14건 일괄 패치
+
+삼성전자 005930.KS 90페이지 검증 과정에서 발견된 데이터 누락·렌더링 오류·UX 결함 14건을 일괄 패치. 자세한 내용은 `CHANGELOG.md` 참조.
+
+### 핵심 변경 (v0.9.0 — 12건)
+
+| Sprint | 패치 위치 | 효과 |
+|---|---|---|
+| E-1 | `aggregate_panel.py` | persona 17명 aggregate 누락 — `aggregate.json` + `_all_aggregates.json` 자동 생성. Dalio·Soros·Simons·Asness 4명 추가 |
+| E-2 | `deep_research.py` + `build_combined.py` | thesis_decomposition × 4-Analyst overlay (claim_id + claim_text fuzzy 매칭) |
+| E-3 | `thesis_eval_normalizer.py` | `supporting_data`·`counter_evidence`·`key_assumption` 보존. data tagging keyword 33종 확장 |
+| E-4·5 | `company_intro.py` · `deep_research.py` | paragraph → bullet 자동 변환 (한글 문장 끝 split) |
+| E-6 | `translate_thesis_eval.py` (utility) | 영어 rationale → 한글 (gpt-4o-mini batch, ~$0.01/run) |
+| E-7 | `macro_renderer.py` | OECD 57개국 raw → 1줄 summary 기본. `OECD_FULL_TABLE=1`로 강제 |
+| E-8 | `news_disclosures.py` | Samsung NEWS_TIMELINE 24건 (13개월 분포) |
+| E-9 | `guru_checklist.py` | `_extract_persona_evidence()` — 페르소나 본문 4 sources fuzzy match |
+| E-10 | `build_r2.py` | thesis × persona matrix 거짓 "neutral" 진단 수정. 미평가 cell 명시 |
+| F-1 | `guru_checklist.py` | qualitative 항목도 페르소나 evidence 추출 |
+| F-2 | `deep_research.py` | 4-Analyst rationale → bullet + 음슴체 (격식체 0건) |
+
+### v0.9.1 신규 — Sprint F-3: Checklist LLM 정성 평가
+
+`guru_checklist.py`에 `_llm_qualitative_assessment()` 신설 — evidence·heuristic 모두 실패 시 gpt-4o-mini가 종목 데이터 + 페르소나 철학 종합하여 정성 평가.
+
+```python
+# 호출 순서 (qualitative + heuristic 양쪽 fallback)
+1. 정량 metric 매핑 → 직접 계산
+2. 페르소나 본문 evidence 추출 (E-9·F-1)
+3. ★ NEW F-3: LLM 정성 평가
+4. 최종 heuristic fallback (verdict-based)
+```
+
+**비용**: 1 ticker × 17 personas × ~3 qualitative items/persona ≈ 50건/run → **~$0.005/build**.
+**캐시**: `.cache/checklist_llm/{ticker}.json` — `{persona_id}::{criterion}` 키. 영구 캐시.
+**비활성화**: `DISABLE_LLM_CHECKLIST=1`
+
+### 신규 환경변수 (v0.9.x)
+
+```bash
+# Sprint E+F 옵션 (모두 default OFF/ON 자동)
+OECD_FULL_TABLE=1            # OECD 57개국 raw table 강제 (default: 1줄 summary)
+DISABLE_LLM_CHECKLIST=1      # Checklist LLM 평가 비활성화 (default: enabled)
+# 기존 v0.8.0 env (재명시)
+DISABLE_FACTCHECK=1          # Citation Audit 비활성화
+FACTCHECK_LLM=1              # codex LLM fact-checker 활성화
+DISABLE_SYNC=1               # GitHub+Notion auto-sync 비활성화
+```
+
+### 표준 어조 (Sprint F-2 lock-in)
+
+- 4-Analyst rationale + Checklist LLM 평가는 **bullet point + 한국어 음슴체** 사용 의무.
+- 격식체 ("~합니다/입니다/됩니다/습니다") → 음슴체 ("~함/임/됨/음") 자동 변환 (`_to_eumsumche()` 3-pass).
+- 영어 rationale 잔존 시 `translate_thesis_eval.py` 1회 실행 (~$0.01).
+
+### Checklist 5-column layout (Sprint Fix-C → v0.9.x 확장)
+
+```
+| # | 판단 항목 (Criterion) | 결과 | 설명 (검증 결과) | 학습 가이드 (의미·해석법) |
+| 5%| 25%                   | 7%   | 33%              | 30%                        |
+```
+
+- 결과: `[O]` 충족 · `[X]` 미달 · `[?]` 판단보류
+- 설명 (검증 결과) 우선순위:
+  1. **실데이터 검증**: 충족 evidence + metric 값 + 기준
+  2. **페르소나 evidence**: `[Stage: ...]` `[Quant Anchor]` 등 source 태그 + 본문 직접 인용
+  3. **AI 정성 평가**: gpt-4o-mini bullet 3개 + "※ gpt-4o-mini 추정 — 페르소나 본문 직접 근거 아님. 참고용." disclaimer
+  4. **Heuristic fallback**: verdict-based 추정 (최종 fallback)
+
+### Persona Panel aggregate 신규 절차 (E-1)
+
+```bash
+# persona individual JSON 17개 → aggregate.json + _all_aggregates.json
+python3 plugins/investor-personas/skills/persona-panel/scripts/aggregate_panel.py \
+  .analysis-log/standalone/{date}_{ticker}_{name}/persona_panel/{ticker} \
+  --output .analysis-log/.../persona_panel/{ticker}/aggregate.json
+```
+
+→ build_combined.py가 `--persona-aggregate aggregate.json` + `--persona-aggregates-all _all_aggregates.json` 양쪽 요구. run_panel.py 실행 후 반드시 aggregate_panel.py 실행 의무.
+
