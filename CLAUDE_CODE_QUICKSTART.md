@@ -1,6 +1,7 @@
-# Claude Code 환경 Quick-Start
+# Claude Code 환경 Quick-Start (v0.9.x)
 
 > Cowork(데스크탑 GUI)와 별도로 **Claude Code (macOS CLI)** 에서 동일 분석을 실행하기 위한 5분 가이드.
+> 본 가이드는 v0.9.x baseline (Sprint E+F+F-3 모든 패치 적용 후) 기준입니다. v0.8.0 이전 명령은 backwards compatible 하나, F-3 LLM Checklist 등 신규 기능 활용 권장.
 
 ## 0. 환경 비교
 
@@ -195,3 +196,165 @@ git pull
 - [Anthropic Claude Code docs](https://docs.claude.com/en/docs/agents/code-overview)
 - [LangSmith docs](https://docs.smith.langchain.com)
 - [OpenAI Codex CLI](https://github.com/openai/codex)
+
+---
+
+## 11. v0.9.x baseline 명령 (Sprint E+F+F-3 모두 적용 후)
+
+### A. 기존 분석을 Claude Code로 이어가기
+
+Cowork에서 진행 중이던 삼성전자(005930.KS) 분석을 그대로 Claude Code에서 재빌드하려면:
+
+```bash
+cd ~/stock-analysis  # 또는 ~/Documents/Claude/Projects/주식 분석
+git pull             # cowork에서 push한 v0.9.x 패치 모두 받기
+
+SAMSUNG=".analysis-log/standalone/2026-05-30_005930_삼성전자"
+
+# (1) Persona 17명 aggregate — Sprint E-1 신규 의무 절차
+python3 plugins/investor-personas/skills/persona-panel/scripts/aggregate_panel.py \
+  $SAMSUNG/persona_panel/005930.KS \
+  --output $SAMSUNG/persona_panel/005930.KS/aggregate.json
+
+# (2) (선택) 영어 rationale 한글 번역 — Sprint E-6, 처음 1회만
+# .bak 자동 백업, 캐시 없으므로 다시 실행 시 비용 발생
+python3 scripts/translate_thesis_eval.py $SAMSUNG/thesis_eval/all_aggregate.json
+
+# (3) PDF 빌드 — F-3 LLM Checklist 자동 작동 (~50건 call, ~$0.005)
+DISABLE_SYNC=1 python3 plugins/report-suite/skills/unified-builder/scripts/build_combined.py \
+  --ticker 005930.KS \
+  --stocks "$SAMSUNG/stocks.json" \
+  --meta "$SAMSUNG/meta.json" \
+  --thesis "$SAMSUNG/thesis_list.json" \
+  --eval-dir "$SAMSUNG/thesis_eval" \
+  --persona-aggregate "$SAMSUNG/persona_panel/005930.KS/aggregate.json" \
+  --persona-aggregates-all "$SAMSUNG/persona_panel/_all_aggregates.json" \
+  --persona-full "$SAMSUNG/persona_panel/005930.KS" \
+  --decisions "$SAMSUNG/decisions.json" \
+  --portfolio "$SAMSUNG/portfolio.json" \
+  --risk-limits "$SAMSUNG/risk_limits.json" \
+  --deep-research "$SAMSUNG/deep_research/005930.KS.json" \
+  --output "$SAMSUNG/reports/combined/1_005930.KS_삼성전자_combined_v6.pdf"
+
+open "$SAMSUNG/reports/combined/1_005930.KS_삼성전자_combined_v6.pdf"
+```
+
+→ Cowork v5 PDF와 동일 결과, F-3 LLM Checklist 캐시는 `.cache/checklist_llm/005930.KS.json`이 git tracked가 아니라면 다시 LLM 호출 발생.
+
+### B. 새 종목 standalone 분석 (Claude Code 권장)
+
+```bash
+# Claude Code 세션 시작
+claude
+
+# 세션 안에서:
+> /analyze-stock 000660.KS SK하이닉스
+```
+
+→ Claude가 8단계 파이프라인 자동 실행:
+1. meta.json 작성
+2. yfinance live fetch → stocks.json
+3. thesis_list.json (DART 사업보고서·뉴스 기반)
+4. deep_research/{ticker}.json (DART 5Y 재무 + 산업 + 시나리오 + 카탈리스트 + 리스크)
+5. macro_snapshot.json (6 institutions)
+6. quant_anchor_{ticker}.json (DCF + Reverse DCF + Risk Metrics)
+7. thesis_eval/ (real 4-Analyst — gpt-4o-mini)
+8. persona_panel/{ticker}/ (17명) → `aggregate_panel.py` 실행
+9. risk_limits + decisions + portfolio
+10. PDF 빌드 (F-3 LLM Checklist 자동 적용)
+
+### C. v0.9.x 신규 환경변수
+
+```bash
+# .env 또는 명령 prefix로 설정 가능
+OECD_FULL_TABLE=1            # OECD 57개국 raw table 강제 (default: 1줄 summary)
+DISABLE_LLM_CHECKLIST=1      # F-3 LLM Checklist 비활성화 (default: 켜짐)
+DISABLE_FACTCHECK=1          # v0.8.0 Citation Audit 끔
+FACTCHECK_LLM=1              # codex LLM fact-checker 켬 (codex CLI 필요)
+DISABLE_SYNC=1               # GitHub+Notion auto-sync 끔
+```
+
+### D. F-3 LLM Checklist 캐시 관리
+
+```bash
+# 캐시 위치
+ls -la .cache/checklist_llm/
+
+# 특정 종목 캐시 삭제 (LLM 재호출 강제)
+rm .cache/checklist_llm/005930.KS.json
+
+# 전체 캐시 정리
+rm -rf .cache/checklist_llm/
+
+# 캐시 영구 보관 (git에 push 원할 시 .gitignore에서 제거)
+# 기본 .gitignore는 .cache/ 무시 — 캐시는 local 전용
+```
+
+## 12. v0.9.x 핵심 차이 (Cowork → Claude Code)
+
+| 항목 | Cowork (45초 timeout) | Claude Code (timeout 없음) |
+|---|---|---|
+| Persona 17명 panel | ✅ 가능하지만 분할 실행 권장 | ✅ 한 번에 17 thread 병렬 |
+| F-3 LLM Checklist (~50 calls) | ⚠️ 끝나기 직전 timeout 가능 | ✅ 여유 있음 |
+| E-6 영어→한글 번역 | ❌ 30~60초 소요로 timeout | ✅ 1~2분 완료 |
+| weasyprint PDF 빌드 | ⚠️ system lib 의존 (brew 권장) | ✅ macOS 직접 brew 설치 가능 |
+| Phase 7 evidence_retriever | ⚠️ WebSearch 의존 시 timeout | ✅ DART corp_code 예열 가능 |
+| Multi-stock (5종목) 일괄 | ⚠️ chunk 분할 필요 | ✅ 한 번에 가능 |
+
+## 13. macOS 첫 설치 체크리스트 (한 번에 묶음)
+
+```bash
+# 1. 필수 brew packages
+brew install python@3.11 git node
+brew install pango cairo gdk-pixbuf libffi      # weasyprint
+brew install --cask font-noto-sans-cjk-kr       # 한글 PDF 폰트
+
+# 2. Claude Code + Codex CLI (선택)
+brew install claude-code                         # 또는 npm i -g @anthropic-ai/claude-code
+npm install -g @openai/codex                     # OpenAI Codex (FACTCHECK_LLM용)
+
+# 3. 본 repo clone
+cd ~
+git clone https://<USERNAME>:<GITHUB_PAT>@github.com/DrugnSafety/stock-analysis.git
+cd stock-analysis
+
+# 4. Python venv + 패키지
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install yfinance pdfkit reportlab python-docx python-pptx requests beautifulsoup4 \
+            matplotlib pandas numpy lxml weasyprint langsmith openai anthropic pypdf
+
+# 5. .env 작성 (Cowork .env 복사 또는 1Password 동기화)
+# 필수: OPENAI_API_KEY, ANTHROPIC_API_KEY, DART_API_KEY, GITHUB_TOKEN
+# 권장: NEWSAPI_KEY, FINNHUB_KEY, LANGSMITH_API_KEY
+
+# 6. 첫 분석 실행
+claude
+> 삼성전자 005930.KS 분석해줘
+```
+
+## 14. Cowork와 결과 공유 (Office-Home 워크플로우)
+
+```bash
+# Claude Code 측 (분석 실행 후)
+git add -A
+git commit -m "삼성전자 v6 분석 + F-3 캐시 갱신"
+git push
+
+# Cowork 측 (사용자 데스크탑)
+# CLAUDE.md 자동 reload — 별도 작업 불필요
+# 단, .cache/checklist_llm/은 cowork/Claude Code 서로 다른 위치라 캐시 공유 안 됨
+```
+
+## 15. F-3 LLM Checklist 사용 사례
+
+Claude Code에서 가장 큰 이점:
+
+| 사례 | Cowork | Claude Code |
+|---|---|---|
+| 5종목 분석 × 17 persona × 50 LLM calls = 4,250 calls | ❌ 8시간+ chunk 분할 | ✅ 약 15~25분 |
+| 회사 데이터 사전 캐시 후 17×10 LLM 평가 보고서 자동화 | 어려움 | 1줄 명령 |
+| LangSmith trace 분석 (어느 페르소나가 가장 비용 큰지) | timeout으로 일부만 | 전체 trace 확보 |
+
+Cowork는 "빠른 1-2종목 검증·prototyping"에, Claude Code는 "프로덕션 배치·다종목 비교"에 최적.
