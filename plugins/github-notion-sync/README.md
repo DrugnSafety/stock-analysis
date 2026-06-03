@@ -2,7 +2,15 @@
 
 분석 완료 시 **GitHub repo + Notion database**에 자동 동기화하는 plugin.
 
-`build_combined.py`가 PDF 생성을 완료하면 post-build hook으로 자동 호출되며, local 분석 결과(meta·thesis·decisions·persona aggregate·README·PDF)를 GitHub에 push하고 Notion DB에 row를 생성/업데이트합니다.
+`build_combined.py` **및 `build_multi_stocks.py`** (v0.5.1+)가 PDF 생성을 완료하면 post-build hook으로 자동 호출되며, local 분석 결과(meta·thesis·decisions·persona aggregate·README·PDF)를 GitHub에 push하고 Notion DB에 row를 생성/업데이트합니다.
+
+> **v0.5.1 (2026-05-18) 변경 사항**:
+> - `build_multi_stocks.py`에 post-build sync hook 추가 (이전: `build_combined.py` 전용 → 멀티 종목 분석 sync 누락 원인 해결)
+> - `universal_concerns`가 str 리스트인 경우 처리 (`'str' object has no attribute 'get'` KeyError 방지)
+> - `meta.json`의 `blog_author`/`blogger`가 dict 객체일 때 nickname/blog_id 자동 추출
+> - PDF Report URL을 ticker별 매칭으로 정확히 선택 (이전: 첫 PDF 고정 → 모든 종목 동일 URL)
+>
+> **NOTION_TOKEN 미설정 시 한계**: Notion 직접 API 미작동 → sync_analysis.py가 `mcp_payload_ready` 상태만 반환합니다. 이 경우 Cowork/Claude Code 세션에서 MCP `notion-create-pages` 호출이 필요합니다. 자동화하려면 `.env`에 `NOTION_TOKEN=secret_...` 추가 (https://www.notion.so/profile/integrations).
 
 ## 셋업
 
