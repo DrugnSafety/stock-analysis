@@ -1,0 +1,91 @@
+{
+  "computed_at": "2026-06-02T15:00:00+09:00",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "000660.KS",
+      "name": "SK하이닉스",
+      "action": "BUY",
+      "decision": "BUY",
+      "signal_score": 0.758,
+      "components": {
+        "persona_confidence": 0.7,
+        "verdict_bias": 0.642,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.85
+      },
+      "current_price": 2360000.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 12,
+      "rationale": "000660.KS score=0.758 (BUY) — persona conf 0.70 + verdict bias 0.64 + thesis 1.0 + val 0.85"
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "삼성전자",
+      "action": "BUY",
+      "decision": "BUY",
+      "signal_score": 0.709,
+      "components": {
+        "persona_confidence": 0.653,
+        "verdict_bias": 0.642,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.85
+      },
+      "current_price": 360500.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 84,
+      "rationale": "005930.KS score=0.709 (BUY) — persona conf 0.65 + verdict bias 0.64 + thesis 0.85 + val 0.85"
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "action": "BUY",
+      "decision": "BUY",
+      "signal_score": 0.738,
+      "components": {
+        "persona_confidence": 0.7,
+        "verdict_bias": 0.692,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.5
+      },
+      "current_price": 445.16,
+      "max_position_value_krw": 40000.0,
+      "max_quantity": 89,
+      "rationale": "TSM score=0.738 (BUY) — persona conf 0.70 + verdict bias 0.69 + thesis 1.0 + val 0.5"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "엔비디아",
+      "action": "BUY",
+      "decision": "BUY",
+      "signal_score": 0.731,
+      "components": {
+        "persona_confidence": 0.701,
+        "verdict_bias": 0.719,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.65
+      },
+      "current_price": 226.45,
+      "max_position_value_krw": 40000.0,
+      "max_quantity": 176,
+      "rationale": "NVDA score=0.731 (BUY) — persona conf 0.70 + verdict bias 0.72 + thesis 0.85 + val 0.65"
+    },
+    {
+      "ticker": "VST",
+      "name": "비스트라",
+      "action": "HOLD",
+      "decision": "HOLD",
+      "signal_score": 0.618,
+      "components": {
+        "persona_confidence": 0.603,
+        "verdict_bias": 0.638,
+        "thesis_alignment_score": 0.6,
+        "valuation_discount": 0.65
+      },
+      "current_price": 159.21,
+      "max_position_value_krw": 40000.0,
+      "max_quantity": 251,
+      "rationale": "VST score=0.618 (HOLD) — persona conf 0.60 + verdict bias 0.64 + thesis 0.6 + val 0.65"
+    }
+  ]
+}

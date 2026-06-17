@@ -1,0 +1,289 @@
+{
+  "industry": {
+    "name": "광통신 / Optical Transceiver / Photonic",
+    "overview": "Optical transceiver 시장은 2024년 $12B → 2027E $42B (LightCounting), 800G·1.6T AI datacenter 수요가 핵심 동력. AI fabric 내 GPU-GPU·rack-rack interconnect의 backbone. 주요 기술: pluggable transceiver (현 표준), LPO (linear-drive, 2025-2026), CPO (co-packaged optics, 2027-2028). NVIDIA Spectrum-X·Quantum InfiniBand 등 AI networking standard의 supplier.",
+    "competitors": [
+      {
+        "name": "Coherent",
+        "ticker": "COHR",
+        "share_pct": 25.0,
+        "moat": "800G LR4/DR4 design-win 1위 + NVIDIA partnership"
+      },
+      {
+        "name": "Lumentum",
+        "ticker": "LITE",
+        "share_pct": 18.0,
+        "moat": "NeoPhotonics 인수 후 high-speed optics expertise + NVIDIA equity stake"
+      },
+      {
+        "name": "InnoLight",
+        "ticker": "private",
+        "share_pct": 18.0,
+        "moat": "중국 최대 transceiver maker, hyperscaler direct supply"
+      },
+      {
+        "name": "Eoptolink",
+        "ticker": "private",
+        "share_pct": 12.0,
+        "moat": "중국 2위 transceiver, cost leadership"
+      },
+      {
+        "name": "Marvell",
+        "ticker": "MRVL",
+        "share_pct": 0.0,
+        "moat": "DSP/CDR chip supplier (transceiver 내부 핵심 부품 60% 점유)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-30",
+        "title": "Coherent FY26 Q3 — datacomm revenue +85% YoY, AI optics backlog $5.2B",
+        "source": "Coherent earnings",
+        "summary": "Book-to-bill 1.6x, 1.6T design-win 5건 확보"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "NVIDIA, Coherent와 1.6T LR4 양산 계약 체결 발표",
+        "source": "NVIDIA GTC",
+        "summary": "2026 H2 본격 ramp, COHR 단독 supplier 위상 확보"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "Coherent, R&D capex +50% 가이던스 — CPO 전환 대비",
+        "source": "Coherent guidance",
+        "summary": "2027-2028 CPO 양산 대비 vertical integration"
+      }
+    ],
+    "market_size": {
+      "cagr_pct": 32.0,
+      "current_usd_bn": 18.0,
+      "forecast_usd_bn": 42.0,
+      "horizon": "2027"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 5161,
+        "op_income": -120,
+        "op_margin": -2.3,
+        "net_income": -300,
+        "net_margin": -5.8
+      },
+      {
+        "year": 2023,
+        "revenue": 4710,
+        "op_income": -380,
+        "op_margin": -8.1,
+        "net_income": -440,
+        "net_margin": -9.3
+      },
+      {
+        "year": 2024,
+        "revenue": 4900,
+        "op_income": 250,
+        "op_margin": 5.1,
+        "net_income": 150,
+        "net_margin": 3.1
+      },
+      {
+        "year": 2025,
+        "revenue": 6500,
+        "op_income": 1200,
+        "op_margin": 18.5,
+        "net_income": 850,
+        "net_margin": 13.1
+      },
+      {
+        "year": 2026,
+        "revenue": 8800,
+        "op_income": 1980,
+        "op_margin": 22.5,
+        "net_income": 1480,
+        "net_margin": 16.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 14500,
+      "total_liab": 8200,
+      "equity": 6300,
+      "cash": 850,
+      "debt": 5500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 380,
+      "fcf_5y_avg": 50,
+      "capex_intensity": 0.085
+    },
+    "peer_compare": [
+      {
+        "ticker": "COHR",
+        "name": "Coherent",
+        "pe": 42.0,
+        "pb": 5.5,
+        "roe": 13.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "LITE",
+        "name": "Lumentum",
+        "pe": 50.0,
+        "pb": 8.2,
+        "roe": 16.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "FN",
+        "name": "Fabrinet",
+        "pe": 28.0,
+        "pb": 4.5,
+        "roe": 22.0,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 480.0,
+      "thesis": "AI optics 800G→1.6T 전환 ramp, COHR share 30%+ 확대. 2027 EPS $14+",
+      "key_assumptions": [
+        "1.6T 양산 차질 없음",
+        "CPO 전환 2028년 이후 지연",
+        "NVIDIA partnership 확대"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 380.0,
+      "thesis": "AI optics 안정 성장 + 시장점유율 25% 유지. 2027 EPS $10 수준",
+      "key_assumptions": [
+        "1.6T 적정 ramp",
+        "Customer 다변화 (NVDA + MSFT + Meta)",
+        "OPM 22% 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 220.0,
+      "thesis": "AI optics 시장 둔화 + CPO 조기 전환으로 transceiver 시장 잠식. 2027 EPS $6 수준",
+      "key_assumptions": [
+        "NVIDIA CPO 양산 2027 H1 조기",
+        "Hyperscaler self-design",
+        "광통신 capex 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "1.6T LR4/DR4 양산 ramp 시작",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "ASP 800G 대비 +80%, revenue $1B+ 추가"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "NVIDIA GB300 양산 — COHR optics 단가 상승",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "rack 당 transceiver 5,184개, AI optics premium 본격화"
+    },
+    {
+      "date": "2027-H1",
+      "event": "CPO 양산 timeline 확정",
+      "type": "competitive",
+      "expected_impact": "○",
+      "description": "양산 2027 H2 → 2028 지연 시 pluggable cycle 연장"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "II-VI Coherent 합병 시너지 효과 본격화",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "OPM 22% → 25% 가능"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Customer concentration",
+      "probability": "high",
+      "impact": "high",
+      "description": "NVIDIA + Microsoft 합계 매출 60%+ — 주문 변경 시 분기 매출 -20-30%",
+      "mitigation": "Meta·Google·Amazon 등 hyperscaler 다변화"
+    },
+    {
+      "name": "CPO 조기 양산",
+      "probability": "med",
+      "impact": "high",
+      "description": "NVIDIA·Broadcom CPO 2027 H1 출시 시 pluggable transceiver 시장 점진 잠식",
+      "mitigation": "COHR도 CPO 자체 개발 (R&D +50%)"
+    },
+    {
+      "name": "Valuation reset",
+      "probability": "med",
+      "impact": "med",
+      "description": "Forward PE 42x는 historical 2x premium, AI 성장률 둔화 시 30-50% multiple compression",
+      "mitigation": "EPS growth 60%+ 유지 시 PE compression 흡수"
+    },
+    {
+      "name": "공급 부족 → capex 부담",
+      "probability": "low",
+      "impact": "med",
+      "description": "Indium phosphide·EML wafer capa 부족 시 OPM 하락",
+      "mitigation": "Vertical integration (II-VI 합병 효과)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI 데이터센터 광통신은 capex의 14% (2026)·금액 $90B로 polynomial 성장 중",
+      "type": "factual",
+      "evidence": "Dell'Oro 2026 forecast",
+      "testability": "high",
+      "current_status": "supported"
+    },
+    {
+      "claim": "COHR은 800G/1.6T design-win 25% 점유로 leader 위치",
+      "type": "factual",
+      "evidence": "Cignal AI 2025-Q4 보고서",
+      "testability": "high",
+      "current_status": "supported"
+    },
+    {
+      "claim": "NVIDIA equity stake 인근(rumored 2025-Q3) → supply chain criticality 인정",
+      "type": "interpretive",
+      "evidence": "LITE precedent + COHR FY26 guidance",
+      "testability": "medium",
+      "current_status": "supported"
+    },
+    {
+      "claim": "Forward PE 42x는 historical 2x premium이나 EPS growth 60%+로 PEG 0.7 = fast grower",
+      "type": "valuation",
+      "evidence": "Peer compare LITE 50x · FN 28x",
+      "testability": "high",
+      "current_status": "supported"
+    }
+  ],
+  "korean_disclosures": [],
+  "sec_disclosures": [
+    {
+      "date": "2026-04-30",
+      "form": "10-Q",
+      "title": "FY26 Q3 — datacomm +85% YoY, AI optics backlog $5.2B",
+      "impact": "+"
+    },
+    {
+      "date": "2026-03-22",
+      "form": "8-K",
+      "title": "1.6T design-win 5건 확보 disclosure",
+      "impact": "+"
+    },
+    {
+      "date": "2026-02-15",
+      "form": "10-Q",
+      "title": "R&D capex +50% guidance, CPO 대비 disclosure",
+      "impact": "○"
+    }
+  ]
+}

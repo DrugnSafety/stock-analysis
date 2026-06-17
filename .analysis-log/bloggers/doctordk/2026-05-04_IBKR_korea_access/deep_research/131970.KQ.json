@@ -1,0 +1,296 @@
+{
+  "industry": {
+    "name": "OSAT (Outsourced Assembly and Test) — Korea SoC test",
+    "overview": "OSAT 산업은 반도체 후공정 (조립·검사·테스트) 의 outsourcing 시장. 글로벌 leader 는 ASE(대만)·Amkor(미국)·SPIL(대만) 3사 — 합계 점유 ~60%. 한국 native player 는 두산테스나 (SoC/CIS/MCU) 와 LB세미콘 (DRAM) 등이 작은 segment 점유. 두산테스나는 Samsung System LSI 와 SK Hynix System IC 의 SoC test outsourcing #1 vendor — 2025 하반기부터 NVIDIA 자동차 ADAS 라인 (Drive Thor) test partner 로 ramping. 시가총액 ~$1.7B (KRW 1.6조) — KOSDAQ small-mid cap, 외국인 SNS 매수 후보.",
+    "competitors": [
+      {
+        "name": "두산테스나",
+        "ticker": "131970.KQ",
+        "share_pct": 1.0,
+        "moat": "Samsung/SK Hynix dual-customer + NVIDIA ramping (note: Korea SoC #1 (~40% 한국 SoC test))"
+      },
+      {
+        "name": "ASE Technology",
+        "ticker": "ASX",
+        "share_pct": 31.0,
+        "moat": "글로벌 OSAT leader — scale 절대 우위"
+      },
+      {
+        "name": "Amkor Technology",
+        "ticker": "AMKR",
+        "share_pct": 16.0,
+        "moat": "AI/HPC 패키징 전문화"
+      },
+      {
+        "name": "SPIL",
+        "ticker": "—",
+        "share_pct": 8.0,
+        "moat": "ASE 자회사 — 합병"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "두산테스나 NVIDIA Drive Thor test partner 공식 협약",
+        "source": "회사 공시",
+        "summary": "자동차 ADAS SoC test — 6년 multi-year contract"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "K-Stock Value Hunters X 트윗 — 24시간 +12%",
+        "source": "X (paljaboys)",
+        "summary": "글로벌 retail 영문 narrative 확산 사례"
+      },
+      {
+        "date": "2026-02-18",
+        "title": "1Q26 매출 +28% YoY",
+        "source": "회사 공시",
+        "summary": "Samsung System LSI 차지 +35% — 영업레버 확대"
+      },
+      {
+        "date": "2026-01-30",
+        "title": "신규 fab 4 라인 증설 결정",
+        "source": "보도",
+        "summary": "$200M capex — 2026 H2 가동"
+      },
+      {
+        "date": "2025-12-15",
+        "title": "Hynix System IC 차세대 CIS test 단독 수주",
+        "source": "회사 발표",
+        "summary": "Hynix CIS 점유율 90% 가능"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 42,
+      "cagr_pct": 9,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 280,
+        "op_income": 65,
+        "op_margin": 23.2,
+        "net_income": 48,
+        "net_margin": 17.1
+      },
+      {
+        "year": 2022,
+        "revenue": 310,
+        "op_income": 72,
+        "op_margin": 23.2,
+        "net_income": 55,
+        "net_margin": 17.7
+      },
+      {
+        "year": 2023,
+        "revenue": 285,
+        "op_income": 58,
+        "op_margin": 20.4,
+        "net_income": 42,
+        "net_margin": 14.7
+      },
+      {
+        "year": 2024,
+        "revenue": 360,
+        "op_income": 84,
+        "op_margin": 23.3,
+        "net_income": 65,
+        "net_margin": 18.1
+      },
+      {
+        "year": 2025,
+        "revenue": 480,
+        "op_income": 124,
+        "op_margin": 25.8,
+        "net_income": 92,
+        "net_margin": 19.2
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 1100,
+      "total_liab": 320,
+      "equity": 780,
+      "cash": 180,
+      "debt": 150
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 95,
+      "fcf_5y_avg": 45,
+      "capex_intensity": 0.18
+    },
+    "peer_compare": [
+      {
+        "ticker": "131970.KQ",
+        "name": "두산테스나",
+        "pe": 16.5,
+        "pb": 2.1,
+        "roe": 13.5,
+        "div_yield": 0.8
+      },
+      {
+        "ticker": "ASX",
+        "name": "ASE Technology",
+        "pe": 11.5,
+        "pb": 1.45,
+        "roe": 12.8,
+        "div_yield": 4.2
+      },
+      {
+        "ticker": "AMKR",
+        "name": "Amkor",
+        "pe": 14.5,
+        "pb": 1.85,
+        "roe": 14.2,
+        "div_yield": 1.1
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 220000,
+      "thesis": "NVIDIA Drive Thor + Samsung System LSI dual-customer 가속 — 2026-2027 매출 +60%, P/E 25 정당화"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 165000,
+      "thesis": "기존 customer 안정 성장 — NVIDIA segment +12% YoY 기여"
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 90000,
+      "thesis": "Samsung in-house test capacity 확대 + AI capex 둔화 시 가동률 -15%"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "NVIDIA Drive Thor 양산 ramp",
+      "type": "product",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q4",
+      "event": "신규 fab 4 라인 가동 — capacity +35%",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "Hynix CIS 점유율 90% 확보 가시화",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q2",
+      "event": "SNS 영문 narrative 확산 — 외국인 retail flow",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Samsung System LSI 첨단 공정 ramp",
+      "type": "product",
+      "expected_impact": "0",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "Samsung in-house test capacity 확대",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 30% / 심각도 high",
+      "mitigation": "Samsung 자체 capacity 확장 cost 측면 어려움"
+    },
+    {
+      "name": "NVIDIA Drive Thor 양산 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 25% / 심각도 medium",
+      "mitigation": "기존 Samsung/Hynix segment 안정"
+    },
+    {
+      "name": "Customer concentration (Samsung+Hynix 63%)",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 45% / 심각도 high",
+      "mitigation": "NVIDIA 채널 다각화 진행"
+    },
+    {
+      "name": "small-cap 변동성 (52% annualized)",
+      "probability": "high",
+      "impact": "med",
+      "description": "확률 60% / 심각도 medium",
+      "mitigation": "기관 ownership 확대 — 외국인 28% → 35%"
+    },
+    {
+      "name": "Capex over-investment risk",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 25% / 심각도 medium",
+      "mitigation": "current ROE 13.5% — capex 회수 가능"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "Korean SoC test #1 outsourcer 명확한 역할",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD2",
+      "claim": "NVIDIA partnership ramping (Drive Thor)",
+      "type": "company",
+      "evidence": "지속 기간: 12-24개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD3",
+      "claim": "small-cap SNS 확산 후보",
+      "type": "company",
+      "evidence": "지속 기간: 3-12개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD4",
+      "claim": "Samsung+Hynix dual customer base 안정",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-15",
+      "type": "주요사항보고",
+      "title": "NVIDIA Drive Thor 6년 contract 공시",
+      "impact": "-"
+    },
+    {
+      "date": "2026-02-18",
+      "type": "1Q26 분기보고서",
+      "title": "매출 +28% YoY, 영업이익률 25.8%",
+      "impact": "-"
+    },
+    {
+      "date": "2026-01-30",
+      "type": "주요사항보고",
+      "title": "신규 fab 4 라인 $200M capex 결의",
+      "impact": "-"
+    }
+  ]
+}

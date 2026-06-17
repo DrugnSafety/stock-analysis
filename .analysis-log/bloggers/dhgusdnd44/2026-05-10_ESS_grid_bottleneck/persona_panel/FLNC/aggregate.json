@@ -1,0 +1,1244 @@
+{
+  "ticker": "FLNC",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bearish": {
+      "count": 7,
+      "pct": 53.8
+    }
+  },
+  "average_confidence": 0.67,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish (4/4)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (2/3)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Forward PE 203",
+      "frequency": 13,
+      "personas": [
+        "nassim-taleb",
+        "charlie-munger",
+        "warren-buffett",
+        "rakesh-jhunjhunwala",
+        "peter-lynch",
+        "aswath-damodaran",
+        "ben-graham",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "bill-ackman",
+        "mohnish-pabrai",
+        "cathie-wood",
+        "phil-fisher"
+      ],
+      "examples": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음"
+      ]
+    },
+    {
+      "theme": "+401% 1Y",
+      "frequency": 11,
+      "personas": [
+        "nassim-taleb",
+        "charlie-munger",
+        "rakesh-jhunjhunwala",
+        "peter-lynch",
+        "aswath-damodaran",
+        "ben-graham",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "bill-ackman",
+        "mohnish-pabrai",
+        "phil-fisher"
+      ],
+      "examples": [
+        "[actual] +401% 1Y — extreme momentum overheating"
+      ]
+    },
+    {
+      "theme": "Beta 2.62",
+      "frequency": 11,
+      "personas": [
+        "nassim-taleb",
+        "charlie-munger",
+        "rakesh-jhunjhunwala",
+        "peter-lynch",
+        "aswath-damodaran",
+        "ben-graham",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "bill-ackman",
+        "mohnish-pabrai",
+        "phil-fisher"
+      ],
+      "examples": [
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ]
+    }
+  ],
+  "summary": {
+    "dominant_verdict": "lean_bearish",
+    "consensus_strength": "medium"
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Buffett은 valuation 매력적이나 moat 약화 risk로 lean_bearish 평가",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "워런 버핏: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "워런 버핏: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "워런 버핏: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "워런 버핏: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "워런 버핏: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "워런 버핏: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "워런 버핏: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "워런 버핏: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Munger는 quality + reasonable price 기준에서 lean_bearish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "찰리 멍거: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "찰리 멍거: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "찰리 멍거: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "찰리 멍거: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "찰리 멍거: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "찰리 멍거: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "찰리 멍거: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "찰리 멍거: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Lynch는 thesis growth potential 평가하여 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "피터 린치: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "피터 린치: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "피터 린치: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "피터 린치: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "피터 린치: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "피터 린치: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "피터 린치: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "피터 린치: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "피터 린치: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[inference] Tesla Megapack vertical integration 경쟁 압력",
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Wood는 disruptive innovation 노출도 high → lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "캐시 우드: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "캐시 우드: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "캐시 우드: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "캐시 우드: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "캐시 우드: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "캐시 우드: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "캐시 우드: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "캐시 우드: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Burry는 contrarian 입장 — momentum 정점 vs 저점 진입 평가하여 lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "마이클 버리: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "마이클 버리: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "마이클 버리: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "마이클 버리: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "마이클 버리: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "마이클 버리: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "마이클 버리: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "마이클 버리: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.55
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Taleb은 fragility/antifragile 관점에서 lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "나심 탈레브: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "나심 탈레브: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "나심 탈레브: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "나심 탈레브: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.73
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "나심 탈레브: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "나심 탈레브: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "나심 탈레브: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.73
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "나심 탈레브: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.6
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Graham defensive investor 기준 lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "벤저민 그레이엄: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Ackman concentrated bet 적격 여부 평가 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "빌 애크먼: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "빌 애크먼: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "빌 애크먼: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "빌 애크먼: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "빌 애크먼: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "빌 애크먼: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "빌 애크먼: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "빌 애크먼: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Pabrai dhandho framework — heads I win/tails I don't lose much 검증 후 lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "모니시 파브라이: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "모니시 파브라이: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "모니시 파브라이: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "모니시 파브라이: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "모니시 파브라이: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "모니시 파브라이: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Fisher 15-points 기준 management + R&D quality 평가 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "필립 피셔: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "필립 피셔: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "필립 피셔: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "필립 피셔: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "필립 피셔: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "필립 피셔: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "필립 피셔: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "필립 피셔: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Jhunjhunwala EM structural growth thesis lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "라케시 준준왈라: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Druckenmiller 18개월 forward earnings power 우선 lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "스탠리 드러켄밀러: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "아스와스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] Forward PE 203 — earnings 가시성 매우 낮음",
+        "[actual] +401% 1Y — extreme momentum overheating",
+        "[actual] Beta 2.62 — S&P 500 대비 변동성 2.6배"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Backlog $5B+ — ESS 통합 시장 선두",
+        "[inference] Siemens 기술 leverage + AES 운영 know-how",
+        "[actual] +401% 1Y — momentum 계속 시 추가 upside"
+      ],
+      "uncertainty": "ESS 통합 시장 saturation timing + Tesla Megapack 경쟁 격화 timing",
+      "narrative_vs_quant_resolution": "Damodaran reverse DCF로 implicit growth assumption 검증 후 lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: 재생에너지 출력제한율(curtailment) 상승이 ESS 수요의 1차 동인 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: ESS는 '경제성'이 아니라 '규제 강제'에 의해 구매되고 있다 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "oppose",
+          "rationale": "아스와스 다모다란: 배터리 셀은 병목이 아니다 — 셀 제조사는 마진 파괴 리스크 관점에서 'oppose' 입장",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: ESS 시스템 가격 차이의 본질은 셀이 아니라 '셀 외 모든 것(BoS)' 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: 전력망 장비(변압기·HVDC·송전선)가 진짜 병목 — 유틸리티 CAPEX 재배분 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: ESS 운영사는 커튼율 상승의 직접 수혜자 — 트레이딩 스프레드 확대 관점에서 'support' 입장",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "아스와스 다모다란: 오프그리드(off-grid) 시장 — 그리드 부재 국가 + 기업·가정 자체 발전 확대 관점에서 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: EU CfD 2.0 / 인도 FDRE / 호주 의무저장 — 정책 모멘텀이 2027까지 지속 관점에서 'support' 입장",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: IEA 2025 발전량 전망 하향(850TWh) — 시장 컨센서스의 신뢰성 저하 관점에서 'support' 입장",
+          "confidence": 0.65
+        }
+      ],
+      "data_tags": {
+        "actual_count": 5,
+        "inference_count": 4,
+        "assumption_count": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "ticker": "000660.KS",
+  "name_kr": "SK하이닉스 (SK hynix Inc.)",
+  "name_en": "SK hynix Inc.",
+  "industry": {
+    "name": "글로벌 메모리 반도체 + HBM 절대 leader",
+    "overview": "SK hynix는 글로벌 DRAM 2위·NAND 4~5위·HBM 1위(점유율 50%+) 한국 메모리 반도체 leader. 시총 $1.2T+ (2026.05 기준). NVIDIA H100/H200/B200/Rubin HBM 핵심 공급사 — 2024~2026 HBM3·HBM3E·HBM4 양산. SK 그룹 모회사 — NVIDIA-SK 50K GPU AI Factory 파트너십(2025.10) 직접 수혜. 인피의 thesis에서 'NVIDIA HBM 종속도 50%+'로 명시 — Physical AI Data Factory 인프라의 foundation layer.",
+    "competitors": [
+      {
+        "name": "삼성전자",
+        "ticker": "005930.KS",
+        "share_pct": 40,
+        "moat": "DRAM 1위 but HBM 후발 (HBM3E 인증 지연)"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 22,
+        "moat": "미국 HBM 진입 + DRAM 3위"
+      },
+      {
+        "name": "YMTC (CXMT)",
+        "ticker": "-",
+        "share_pct": 5,
+        "moat": "중국 DRAM 진입 — 미국 제재로 export 제한"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "HBM4 양산 시작 일정 4Q26로 확정",
+        "impact": "+",
+        "reason": "NVIDIA Rubin 차세대 GPU 수요 매칭"
+      },
+      {
+        "date": "2026-04",
+        "title": "NVIDIA 임원 SK hynix 회동 — Physical AI 파트너십 확장",
+        "impact": "+",
+        "reason": "HBM 외 디지털 트윈·로보틱스 협업 가능성"
+      },
+      {
+        "date": "2026-03",
+        "title": "GTC 2026 SK hynix HBM 협업 강조",
+        "impact": "+",
+        "reason": "NVIDIA 키노트에서 HBM3E·HBM4 협력 공식화"
+      },
+      {
+        "date": "2025-10",
+        "title": "NVIDIA-SK 그룹 50,000+ GPU AI Factory 파트너십",
+        "impact": "+",
+        "reason": "SK hynix HBM·메모리 솔루션 deepening 명시"
+      },
+      {
+        "date": "2025-12",
+        "title": "AI 매출 비중 65%+ 분기 첫 돌파",
+        "impact": "+",
+        "reason": "메모리 cycle peak forward 신호"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12월",
+    "currency": "KRW",
+    "five_year_pnl": {
+      "headers": [
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025",
+        "FY2026E"
+      ],
+      "revenue_bn": [
+        44400,
+        32800,
+        66000,
+        95000,
+        135000
+      ],
+      "op_income_bn": [
+        7000,
+        -7700,
+        15000,
+        32000,
+        55000
+      ],
+      "net_income_bn": [
+        2300,
+        -9100,
+        12000,
+        27000,
+        46000
+      ],
+      "op_margin_pct": [
+        15.8,
+        -23.5,
+        22.7,
+        33.7,
+        40.7
+      ],
+      "net_margin_pct": [
+        5.2,
+        -27.7,
+        18.2,
+        28.4,
+        34.1
+      ],
+      "source": "SK hynix 사업보고서 + 컨센서스 2026E"
+    },
+    "five_quarter_pnl": {
+      "headers": [
+        "1Q25",
+        "2Q25",
+        "3Q25",
+        "4Q25",
+        "1Q26E"
+      ],
+      "revenue_bn": [
+        19500,
+        22000,
+        25500,
+        28000,
+        32000
+      ],
+      "op_income_bn": [
+        6500,
+        7500,
+        9000,
+        9000,
+        12500
+      ],
+      "op_margin_pct": [
+        33.3,
+        34.1,
+        35.3,
+        32.1,
+        39.1
+      ]
+    },
+    "balance_sheet_snapshot": {
+      "as_of": "1Q26",
+      "total_assets_bn": 145000,
+      "total_liab_bn": 52000,
+      "total_equity_bn": 93000,
+      "cash_bn": 18000,
+      "debt_bn": 28000,
+      "net_debt_bn": 10000
+    },
+    "material_variance_summary": [
+      {
+        "item": "매출",
+        "yoy": "+44%",
+        "driver": "HBM 가격·물량 동시 상승"
+      },
+      {
+        "item": "OPM",
+        "yoy": "+7%p",
+        "driver": "HBM mix 65%+"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "thesis": "HBM4 양산 + NVIDIA Rubin 점유율 60% + Physical AI Capex 추가. 2027E OP 75조 가능.",
+      "target_price": 3500000
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "HBM 사이클 2027까지 유지. 2026E OP 55조, 2027E OP 65조.",
+      "target_price": 2800000
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "AI Capex 감속 + 삼성 HBM 점유율 회복. 2027E OP 40조 후퇴.",
+      "target_price": 1500000
+    }
+  },
+  "catalysts_risks": {
+    "near_term_catalysts": [
+      {
+        "date": "2026-07",
+        "event": "2Q26 어닝 (HBM 매출 비중 70%+ 전망)",
+        "impact": "high"
+      },
+      {
+        "date": "2026-09",
+        "event": "NVIDIA Rubin HBM 공급 계약 공식",
+        "impact": "high"
+      },
+      {
+        "date": "2026-Q4",
+        "event": "HBM4 양산 시작",
+        "impact": "high"
+      }
+    ],
+    "key_risks": [
+      {
+        "risk": "메모리 cycle peak 통과",
+        "prob": "30%",
+        "impact": "-30%"
+      },
+      {
+        "risk": "삼성 HBM3E 점유율 회복",
+        "prob": "40%",
+        "impact": "-15~20%"
+      },
+      {
+        "risk": "NVIDIA capex 감속",
+        "prob": "25%",
+        "impact": "-25%"
+      },
+      {
+        "risk": "중국 메모리 자급화",
+        "prob": "20%",
+        "impact": "-10~15%"
+      },
+      {
+        "risk": "M&A·capex 과부담",
+        "prob": "15%",
+        "impact": "-15%"
+      }
+    ]
+  }
+}

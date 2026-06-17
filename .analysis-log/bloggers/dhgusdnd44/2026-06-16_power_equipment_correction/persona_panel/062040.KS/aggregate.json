@@ -1,0 +1,444 @@
+{
+  "ticker": "062040.KS",
+  "aggregated_at": "2026-06-17T12:21:48.116572+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 8,
+      "pct": 47.1
+    },
+    "neutral": {
+      "count": 9,
+      "pct": 52.9
+    }
+  },
+  "average_confidence": 0.659,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성과 tail risk",
+        "신뢰할 수 없는 Beta 데이터"
+      ],
+      "key_opportunities_top3": [
+        "시장 변동성 가라앉을 시 높은 잠재 수익",
+        "수주의 강한 펀더멘털 장기적 수익 가능성"
+      ],
+      "uncertainty": "변동성 regime 변화, 시장 안정화 시 결론이 뒤집힐 가능성",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "전력기기 수요의 대기열 과대 평가 가능성",
+        "고성장 마진의 지속 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "전력기기 섹터 수요의 지속적 상승 가능성",
+        "지정학적 잠재 고객의 신용도"
+      ],
+      "uncertainty": "수주 대기열의 실제 수요로의 전환율이 현재 가정보다 높거나, 새로운 지정학적 우위가 발생할 경우",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 시장 평가로 인한 valuation 부담",
+        "베타 값의 부재로 인한 정량 분석의 한계"
+      ],
+      "key_opportunities_top3": [
+        "강력한 수주 모멘텀과 이전 대비 증가한 수익성",
+        "전력 수요 지속 증가 가능성"
+      ],
+      "uncertainty": "AI 수주 및 대기열 사이클이 예상과 달리 급격히 식을 경우, 수익성 및 주가 평가에 부정적 영향 가능성 있음.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "수주잔고에 대한 과대평가 위험",
+        "미래 성장 추정치 기반의 투자 리스크"
+      ],
+      "key_opportunities_top3": [
+        "전력규제와 지정학적 이점 수혜 가능성",
+        "기술적 역량에 기반한 고마진 유지"
+      ],
+      "uncertainty": "글로벌 경기의 급속한 둔화가 발생하며 부채 사이클이 악화될 경우, verdict 변경 가능.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "수주 잔고의 실질 가치",
+        "향후 '대기열'로부터 오는 이익의 지속 가능성"
+      ],
+      "key_opportunities_top3": [
+        "전력기기에 대한 AI 및 디지털 수요 증가",
+        "한국 전력기기 시장의 기술력 경쟁 우위"
+      ],
+      "uncertainty": "만약 수주 잔고의 실제 지불 능력 및 의지가 부정적으로 확인될 경우, 현재의 긍정적인 평가가 뒤집힐 수 있다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "대기열 부풀림으로 인한 잠재적 수요 감소",
+        "단기 계약의 연속성 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "긴밀한 계약 관계를 통한 지속 가능성",
+        "기술적 강점과 지정학적 이점"
+      ],
+      "uncertainty": "AI 산업 수요의 지속 가능성과 대기열 부풀림의 정당성 여부에 따라서 결정이 뒤바뀔 수 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "전방 수요의 대기열 부풀림",
+        "2027년 이후 증설에 따른 수익성 축소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "단순 비즈니스 구조로 인한 안정성",
+        "현재까지 높은 수주 성장률"
+      ],
+      "uncertainty": "미래 전방 수요의 대기열 문제와 증설 후 수익성 변화에 따라 평가가 달라질 수 있다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "수주잔고의 유령 부하 가능성",
+        "미래 수주 추정치의 과장 가능성"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장 내 지정학적 경쟁 우위",
+        "기술적 우위에 기반한 장기적 이익 창출"
+      ],
+      "uncertainty": "대기열로 인한 이익이 없어지거나 과대평가된 경우, 주가 가치가 급격히 낮아질 수 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주 대기열의 과장 가능성",
+        "미래 수주 추정치의 과장"
+      ],
+      "key_opportunities_top3": [
+        "선행지표로써의 Capex 증가",
+        "전력기기 부문의 지정학적 이점"
+      ],
+      "uncertainty": "AI 테마의 실질적 안정성이 확인되거나, 수주 대기열에서 실제 상업 운전 비율이 기대 이상일 경우.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주잔고의 경제적 가치 여부",
+        "대기열 리스크로 인한 이익 둔화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "북미 시장의 규제 이점",
+        "기술력에 기반한 장기적 경쟁 우위"
+      ],
+      "uncertainty": "증설 후에도 대기열 기반 이익이 지속 가능한 경우, verdict가 뒤집힐 가능성",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "대기열(GW)의 부풀림 우려",
+        "기술력과 지정학적 장점의 지속 가능성"
+      ],
+      "key_opportunities_top3": [
+        "북미 수주 증가",
+        "후속 수주 내 과대평가 우려에 따른 조정 기회"
+      ],
+      "uncertainty": "대기열 문제와 관련된 부풀림이 커질 경우 시장 전망이 현실화되지 않을 위험이 있습니다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주의 대기열 구조 문제",
+        "전력기기 업종의 높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "현재 수주는 높은 증가를 보이고 있음",
+        "미국 전력망의 브로드밴드 수요 증가"
+      ],
+      "uncertainty": "EV/EBITDA 멀티플 이상의 실제 매출 및 이익 증가로 이어지지 않으면 투자 의견이 달라질 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주 구성의 불확실성과 과도한 대기열",
+        "향후 수요에 대한 과도한 낙관"
+      ],
+      "key_opportunities_top3": [
+        "북미향 수주의 질적 우수성",
+        "지정학적 요인에 따른 경쟁 우위"
+      ],
+      "uncertainty": "수주 대기열의 실질적 수요 여부가 확실시될 경우, 나래티브의 밸류에이션이 더 정당화될 수 있음.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PER이 내재가치 대비 과대평가를 시사.",
+        "수주 증가율이 실제 수익성 개선으로 이어질지 불확실."
+      ],
+      "key_opportunities_top3": [
+        "기술력으로 인한 경쟁 우위.",
+        "지정학적 요인으로 인한 수익 기회."
+      ],
+      "uncertainty": "수익성 개선이 진정한 이익 원천으로 입증될 경우 verdict가 변경될 수 있음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "대기열의 정확성 및 수요 지속 가능성",
+        "수익성 증가의 일시성 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI와 데이터센터의 견고한 수주 증가",
+        "미국 시장에서의 지정학적 이점"
+      ],
+      "uncertainty": "대기열 통계가 부풀려진 것이 사실로 된다면 투자가 위험해질 수 있습니다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "전방 수요의 '대기열' 문제로 실수요가 정확히 반영되지 않을 가능성",
+        "향후 증설로 인한 이익률 하락 우려"
+      ],
+      "key_opportunities_top3": [
+        "현 수주잔고의 높은 계약 실현 가능성",
+        "전력기기 특유의 지정학적 이점으로 높은 마진 유지 가능"
+      ],
+      "uncertainty": "수주 대기열이 기대만큼 실제 수주로 전환되지 않으면 이야기가 깨질 수 있다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주 대기열의 현실성 부족",
+        "수익성의 지속 가능성 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "북미시장에서의 지정학적 이점",
+        "기술력에 의한 장기적 경쟁력"
+      ],
+      "uncertainty": "대기열이 실제 수주로 전환되고 수익성을 지속할 수 있으면 verdict가 긍정적으로 뒤집힐 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

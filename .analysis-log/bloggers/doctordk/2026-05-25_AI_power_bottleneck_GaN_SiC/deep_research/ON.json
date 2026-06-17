@@ -1,0 +1,239 @@
+{
+  "ticker": "ON",
+  "name_kr": "onsemi (온세미)",
+  "name_en": "onsemi",
+  "ipo_year": 2000,
+  "market_data_snapshot": {
+    "ticker": "ON",
+    "name": "ON Semiconductor Corporation",
+    "current_price": 116.2,
+    "currency": "USD",
+    "forward_pe": 27.33,
+    "trailing_pe": 85.44,
+    "beta": 1.94,
+    "return_1m_pct": 30.58,
+    "return_3m_pct": 70.66,
+    "return_6m_pct": 158.8,
+    "return_1y_pct": 174.77,
+    "volatility_annualized_pct": 53.71,
+    "market_cap_local_bn": 45.18,
+    "market_cap_usd_bn": 45.18,
+    "ev_ebitda": 22.66,
+    "div_yield_pct": 0,
+    "pb": 6.24,
+    "fetched_at": "2026-05-26T00:49:48",
+    "fetched_via": "yfinance 1.4.0 (live)",
+    "as_of_date": "2026-05-22"
+  },
+  "industry": {
+    "name": "Power Semiconductors (SiC IDM) — Automotive + Industrial + AI Data Center",
+    "overview": "onsemi는 SiC IDM 글로벌 #2 (Wolfspeed·Infineon에 이어), vertically integrated SiC wafer→device→module supply chain 보유. FY24 매출 $7.0B (FY23 대비 -14%, EV cyclical trough), 매출 mix는 Automotive 55% (Tesla·BMW·VW), Industrial 25%, Comm/Computing 20%. GM 45%, operating margin 25%+. FY25-FY26 EV recovery + AI data center mix shift dual driver. EV cycle bottom 통과 신호 (FY24 4Q 매출 sequentially +5% reverse) + AI data center 매출 8-12% 진입 시작.",
+    "competitors": [
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": 28.0,
+        "moat": "글로벌 IDM #1, Catania·Kulim SiC fab"
+      },
+      {
+        "name": "STMicroelectronics",
+        "ticker": "STM",
+        "share_pct": 22.0,
+        "moat": "Tesla 공급, Catania SiC"
+      },
+      {
+        "name": "onsemi",
+        "ticker": "ON",
+        "share_pct": 15.0,
+        "moat": "SiC vertical integration, 200mm leader"
+      },
+      {
+        "name": "Wolfspeed",
+        "ticker": "WOLF",
+        "share_pct": 10.0,
+        "moat": "Mohawk Valley 200mm SiC wafer — 다만 chapter 11 risk"
+      },
+      {
+        "name": "ROHM",
+        "ticker": "6963.T",
+        "share_pct": 8.0,
+        "moat": "Toyota·일본 OEM lock-in"
+      },
+      {
+        "name": "기타",
+        "ticker": "—",
+        "share_pct": 17.0,
+        "moat": "Texas Instruments, Renesas, fragmented"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 6.5,
+      "cagr_pct": 25.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "$7.0B (FY24, YoY -14%, cyclical trough)",
+    "revenue_2025_est": "$7.8-8.2B (FY25E, +12% recovery)",
+    "gross_margin": "45-47%",
+    "operating_margin": "25-28%",
+    "net_margin": "22-25%",
+    "fcf_2024": "$1.6B+ (FCF/매출 23%)",
+    "balance_sheet": "Cash $2.5B+, debt $3B (leverage 적절), dividend 시작",
+    "ai_revenue_share_evolution": "2024 ~10% → 2025 ~13% → 2026E ~18-22% (AI server SiC 시작 가속)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 165.0,
+      "thesis": "EV recovery + AI SiC 가속 dual → 2027 매출 $10B+, OPM 30%, P/E 18x. Stock +42%.",
+      "key_assumptions": [
+        "EV 2026 2H 본격 회복",
+        "AI mix 20%+",
+        "Wolfspeed 인수 가능성"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 130.0,
+      "thesis": "Steady recovery — 2027 매출 $9B, OPM 27%, P/E 15x. Stock +12%.",
+      "key_assumptions": [
+        "EV moderate recovery",
+        "AI mix 15%",
+        "margins stable"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 85.0,
+      "thesis": "EV 회복 지연 + AI mix stagnation → 매출 stagnation, multiple compression. -27%.",
+      "key_assumptions": [
+        "EV 회복 2027 후반",
+        "AI mix 둔화",
+        "SiC oversupply"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "FY2Q26 earnings (7월 말)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "EV recovery + AI mix update — 가이던스 상향 가능성"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Tesla Q3 delivery",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Tesla EV 회복 신호 → onsemi SiC 매출 leverage"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "OCP Summit",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "AI data center SiC 모듈 공개"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "FY26 full-year results",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "EV/AI dual cycle thesis 검증"
+    }
+  ],
+  "risks": [
+    {
+      "name": "EV Cycle Recovery Delayed",
+      "probability": "med",
+      "impact": "high",
+      "description": "EV 회복이 2027 이후로 지연 시 자동차 55% 매출 drag 지속",
+      "mitigation": "Industrial·AI mix 가속 확장"
+    },
+    {
+      "name": "SiC Oversupply (Wafer Glut)",
+      "probability": "high",
+      "impact": "med",
+      "description": "Wolfspeed·STM·Infineon 동시 capa 확장 → SiC wafer ASP -10-15%",
+      "mitigation": "vertical integration 차별화, 차별화 device 집중"
+    },
+    {
+      "name": "AI Server SiC Conversion Speed",
+      "probability": "med",
+      "impact": "med",
+      "description": "AI mix 두 자리 % 진입 속도 expectation 미달 risk",
+      "mitigation": "Wolfspeed 인수 또는 partnership 가능성"
+    },
+    {
+      "name": "Tesla Customer Concentration",
+      "probability": "med",
+      "impact": "med",
+      "description": "매출 ~15-20%가 Tesla — Tesla 자체 EV 부진 시 leverage 영향",
+      "mitigation": "BMW·VW·Hyundai 등 다각화 계속"
+    },
+    {
+      "name": "Chapter 11 Wolfspeed Contagion",
+      "probability": "med",
+      "impact": "low",
+      "description": "Wolfspeed 파산 시 SiC pure-play 전반에 부정 sentiment",
+      "mitigation": "onsemi의 financial fortress 강조"
+    }
+  ],
+  "valuation_context": {
+    "current_pe": 27.33,
+    "industry_avg_pe": 20.0,
+    "5y_avg_pe": 16.0,
+    "ev_ebitda": 22.66,
+    "dividend_yield_pct": 0.5,
+    "fair_value_dcf_usd": 135.0,
+    "current_price_usd": 116.2,
+    "implied_upside_pct": 16.2
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020",
+        "revenue_bn_usd": 5.3,
+        "operating_income_bn_usd": 0.45,
+        "net_income_bn_usd": 0.23,
+        "opm_pct": 8.5,
+        "npm_pct": 4.4
+      },
+      {
+        "year": "2021",
+        "revenue_bn_usd": 6.7,
+        "operating_income_bn_usd": 1.45,
+        "net_income_bn_usd": 1.0,
+        "opm_pct": 21.6,
+        "npm_pct": 15.0
+      },
+      {
+        "year": "2022",
+        "revenue_bn_usd": 8.3,
+        "operating_income_bn_usd": 2.7,
+        "net_income_bn_usd": 1.9,
+        "opm_pct": 32.4,
+        "npm_pct": 22.9
+      },
+      {
+        "year": "2023",
+        "revenue_bn_usd": 8.1,
+        "operating_income_bn_usd": 2.5,
+        "net_income_bn_usd": 2.2,
+        "opm_pct": 31.0,
+        "npm_pct": 26.9
+      },
+      {
+        "year": "2024",
+        "revenue_bn_usd": 7.0,
+        "operating_income_bn_usd": 1.9,
+        "net_income_bn_usd": 1.6,
+        "opm_pct": 27.0,
+        "npm_pct": 22.9
+      }
+    ]
+  }
+}

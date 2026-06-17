@@ -1,0 +1,175 @@
+{
+  "industry": {
+    "name": "유전체 분석 / NGS / Methylation",
+    "overview": "글로벌 NGS 시장은 2024 $15B → 2030 $35B (CAGR 15%). Illumina(ILMN) 70% 점유 + BGI·Macrogen·Pacific Biosciences 등 경쟁. Longevity 임상에서 DNA methylation(epigenetic clock) 분석이 표준 endpoint로 자리잡음 — 후성유전체 분석 수요 증가. 한국 Macrogen은 NGS 1위 + clinical genomics 진입.",
+    "competitors": [
+      {
+        "name": "Illumina",
+        "ticker": "ILMN",
+        "share_pct": 70,
+        "moat": "NGS 글로벌 표준 + EPIC methylation chip"
+      },
+      {
+        "name": "BGI Genomics",
+        "ticker": "300676.SZ",
+        "share_pct": 10,
+        "moat": "중국 NGS leader + 가격 경쟁력"
+      },
+      {
+        "name": "PacBio",
+        "ticker": "PACB",
+        "share_pct": 5,
+        "moat": "Long-read sequencing"
+      },
+      {
+        "name": "마크로젠",
+        "ticker": "038290.KQ",
+        "share_pct": 2,
+        "moat": "한국 NGS 1위 + clinical genomics service"
+      },
+      {
+        "name": "Oxford Nanopore",
+        "ticker": "ONT.L",
+        "share_pct": 5,
+        "moat": "Real-time long-read sequencing"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-19",
+        "title": "메르 글 - epigenetic clock = ER-100 임상 endpoint",
+        "source": "메르 블로그",
+        "summary": "DNA methylation 패턴 분석이 longevity 임상 표준 endpoint로 자리잡음"
+      },
+      {
+        "date": "2026-04-10",
+        "title": "Illumina EPIC v2 methylation chip 출시 — longevity assay 표준",
+        "source": "Illumina IR",
+        "summary": "EPIC v2 = 935k CpG sites, longevity 학계 1순위 선택"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "마크로젠 1Q26 매출 320억 (+12% YoY), clinical genomics 비중 ↑",
+        "source": "마크로젠 IR",
+        "summary": "Macrogen Clinical Lab의 매출 성장 가속"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 15.0,
+      "cagr_pct": 15.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 28000.0,
+      "thesis": "Macrogen longevity epigenetic clock assay 수요 폭증",
+      "key_assumptions": [
+        "epigenetic clock 표준화 가속",
+        "longevity assay 매출 10%+",
+        "Illumina partnership"
+      ],
+      "description": "Macrogen longevity epigenetic clock assay 수요 폭증"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 14000.0,
+      "thesis": "NGS 본업 안정 + clinical genomics 점진 성장",
+      "key_assumptions": [
+        "NGS 본업 안정",
+        "longevity 매출 미미"
+      ],
+      "description": "NGS 본업 안정 + clinical genomics 점진 성장"
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 9100.0,
+      "thesis": "BGI 등 가격 경쟁 + 매출 둔화",
+      "key_assumptions": [
+        "BGI 가격 경쟁",
+        "clinical genomics 수요 둔화"
+      ],
+      "description": "BGI 등 가격 경쟁 + 매출 둔화"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q4",
+      "event": "ER-100 1상 sector beta + longevity assay 매출 첫 disclosure",
+      "expected_impact": "+15%"
+    },
+    {
+      "date": "2027",
+      "event": "Illumina EPIC v2 chip 본격 도입",
+      "expected_impact": "+10%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Small Cap Liquidity",
+      "probability": "high",
+      "impact": "med",
+      "description": "market cap $0.12B — institutional 매수세 진입 어려움",
+      "mitigation": "low-volume 매매 자제, 분할 매수"
+    },
+    {
+      "name": "Commodity Compression",
+      "probability": "med",
+      "impact": "high",
+      "description": "NGS gross margin 압박 (BGI 가격 경쟁)",
+      "mitigation": "gross margin 분기 추적"
+    },
+    {
+      "name": "Longevity 매출 미미",
+      "probability": "high",
+      "impact": "med",
+      "description": "현재 longevity 매출 비중 1% 미만 — 베타 영향 제한적",
+      "mitigation": "Macrogen Clinical Lab disclosure 모니터링"
+    },
+    {
+      "name": "Korea Bio Sentiment",
+      "probability": "med",
+      "impact": "med",
+      "description": "한국 bio sector multiple 압축 historical",
+      "mitigation": "KOSDAQ Bio ETF 베타 헷지"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "type": "company",
+      "claim": "마크로젠 = epigenetic clock NGS infrastructure 한국 1위",
+      "evidence": "한국 NGS 시장 점유율 1위, 2024 매출 1,200억, Illumina partnership",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "type": "industry",
+      "claim": "ER-100 sector beta 노출은 indirect — 매출 기여 미미",
+      "evidence": "longevity assay 매출 비중 추정 1% 미만, 본업 NGS 위주",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "type": "company",
+      "claim": "한국 NGS 1위 platform value vs market cap mismatch (deep value angle)",
+      "evidence": "market cap $0.12B, 1Q26 매출 +12% YoY, clinical genomics 비중 증가",
+      "testability": "high",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-15",
+      "type": "분기보고서",
+      "title": "1Q26 매출 320억 (+12% YoY), clinical genomics 비중 ↑",
+      "impact": "긍정 — 매출 성장 가속"
+    },
+    {
+      "date": "2026-03-08",
+      "type": "주요사항",
+      "title": "Macrogen Clinical Lab 신규 서비스 launch",
+      "impact": "긍정 — 매출 다각화"
+    }
+  ]
+}

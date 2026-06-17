@@ -1,0 +1,1103 @@
+{
+  "ticker": "MRAAY",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "strong_bullish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.678,
+  "style_split": {
+    "analytical": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치)"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "bullish (1/1 만장일치)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "strong_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "bullish (2/3)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "bullish (1/1 만장일치)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "strong_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "strong_bullish (1/1 만장일치)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Cyclical_peak_위험",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "ben-graham",
+        "michael-burry",
+        "aswath-damodaran",
+        "nassim-taleb",
+        "peter-lynch",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "[actual] 메모리·MLCC 모두 cyclical industry — peak earnings 진입 시 EPS multiple contraction 위험",
+        "[inference] 2027 H2 cycle peak 진입 가능성 — over-extrapolation 경계"
+      ]
+    },
+    {
+      "theme": "Capacity_ramp_응답",
+      "frequency": 6,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "aswath-damodaran",
+        "nassim-taleb",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "[actual] MLCC/LPDDR 4사 모두 신규 capacity expansion announce (Samsung 평택 P5, Murata, SK Hynix M16)",
+        "[inference] shortage 기간이 12-18개월에 그칠 가능 — magnitude는 inevitable이나 timing 단축 위험"
+      ]
+    },
+    {
+      "theme": "중국_자립_정책",
+      "frequency": 5,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "rakesh-jhunjhunwala",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "[actual] MIIT 2027 50% 자립 목표 + Fenghua Advanced 매출 +85% YoY",
+        "[inference] long-term oligopoly 약화 위험 — 단, high-cap niche에서는 여전히 일·한 4사 우세"
+      ]
+    },
+    {
+      "theme": "AI_PC_smartphone_adoption_속도",
+      "frequency": 4,
+      "personas": [
+        "warren-buffett",
+        "ben-graham",
+        "nassim-taleb",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "[actual] Counterpoint 2026-04 survey: 소비자 41%가 AI 기능 없이도 가격 낮은 PC 선호",
+        "[inference] consumer WTP + 가격 sensitivity로 inflection 2-3분기 지연 가능"
+      ]
+    }
+  ],
+  "persona_results": {
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] Story-numbers fusion — narrative (AI edge inflection) vs numbers (PE/PEG/EV/EBITDA) align 정도 평가",
+        "[inference] DCF terminal value — 2030E TAM × oligopoly market share × margin × multiplier → fair value range",
+        "[inference] Probabilistic verdict — base case 60% / bull 25% / bear 15%로 weighted_stance 도출"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Story alignment — AI edge inflection 강함",
+        "[actual] Numbers — PE/PEG/EV·EBITDA 메모리 3사 deep value zone",
+        "[inference] Implied DCF value — base case fair value above current price 15-25%"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "애스워드 다모다란: narrative_numbers_alignment 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "애스워드 다모다란: Story → Numbers → DCF → Probabilistic verdict 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona analytical_dcf 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "애스워드 다모다란: Story → Numbers → DCF → Probabilistic verdict 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona analytical_dcf 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "애스워드 다모다란: Story → Numbers → DCF → Probabilistic verdict 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona analytical_dcf 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "애스워드 다모다란: Story → Numbers → DCF → Probabilistic verdict 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona analytical_dcf 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "애스워드 다모다란: Story → Numbers → DCF → Probabilistic verdict 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona analytical_dcf 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: Story → Numbers → DCF → Probabilistic verdict 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: Story → Numbers → DCF → Probabilistic verdict 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "애스워드 다모다란: Story → Numbers → DCF → Probabilistic verdict 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona analytical_dcf 일치)",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] P/E 측면 — 메모리 3사 PE 5-7 (deep value zone), MLCC 4사 PE 25-60 (premium)",
+        "[inference] '안전마진' 측면: 메모리 3사는 적합 (PE 5-7 + 자본구조 안정), MLCC는 cyclical peak premium 위험",
+        "[actual] Current ratio·D/E·yield 등 정량 screen — 5종목 모두 quality bar 통과"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Samsung/SK Hynix/Micron PE 5-7 = MOS 100%+ (Graham 기준 PE 15 fair value)",
+        "[inference] Current ratio·D/E 모두 quality screen 통과",
+        "[actual] Net-net 측면은 No (자산 부족) but earning power value (EPV) 측면 적합"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄: statistical_cheapness 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — quant 우세",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: P/B → P/E → Current ratio → D/E → Dividend yield → MOS 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: P/B → P/E → Current ratio → D/E → Dividend yield → MOS 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: P/B → P/E → Current ratio → D/E → Dividend yield → MOS 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: P/B → P/E → Current ratio → D/E → Dividend yield → MOS 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: P/B → P/E → Current ratio → D/E → Dividend yield → MOS 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: P/B → P/E → Current ratio → D/E → Dividend yield → MOS 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: P/B → P/E → Current ratio → D/E → Dividend yield → MOS 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: P/B → P/E → Current ratio → D/E → Dividend yield → MOS 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[inference] Simple business — MLCC + LPDDR = 'sells more chips when AI grows' 명료",
+        "[actual] FCF generation — Murata 2025 FCF yield 4.2%, SK Hynix 5.8% — 적합",
+        "[inference] Concentration 적합도: SK Hynix > 삼성전자 > 삼성전기 > Micron > Murata 순"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Simple high-quality — 'memory/MLCC oligopoly + AI tailwind' 1-line 가능",
+        "[actual] FCF yield 4-6% reasonable",
+        "[inference] Concentrated 적합 — 5종목 중 top 1-2개에 25-30% 비중"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "빌 애크먼: high_quality_simple_business 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "빌 애크먼: Simple business → Predictable FCF → Reasonable valuation → Concentration 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona concentrated_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "빌 애크먼: Simple business → Predictable FCF → Reasonable valuation → Concentration 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona concentrated_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "빌 애크먼: Simple business → Predictable FCF → Reasonable valuation → Concentration 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona concentrated_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "빌 애크먼: Simple business → Predictable FCF → Reasonable valuation → Concentration 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona concentrated_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "빌 애크먼: Simple business → Predictable FCF → Reasonable valuation → Concentration 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona concentrated_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: Simple business → Predictable FCF → Reasonable valuation → Concentration 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: Simple business → Predictable FCF → Reasonable valuation → Concentration 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "빌 애크먼: Simple business → Predictable FCF → Reasonable valuation → Concentration 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona concentrated_quality 일치)",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "strong_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] AI edge inference disruptive curve — 5년 TAM expansion 매우 강함",
+        "[actual] AI PC/AI smartphone 침투율 2026 ~5% → 2030E ~80% S-curve",
+        "[inference] Wright's Law — LPDDR/MLCC cost decline + AI demand exponential → 매출 ramp 가속"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI on-device disruption — 'Wright's Law' applied to memory/MLCC: 단가 -15%/yr × demand +50%/yr = 매출 ramp",
+        "[actual] 5-year forward TAM expansion — LPDDR +180% (2026-2030), MLCC server +250%",
+        "[inference] Convergence — AI + edge + on-device inference convergence accelerating"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "캐시 우드: disruptive_innovation_inflection 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — narrative 우세",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "캐시 우드: TAM expansion → Wright's Law cost decline → Convergence → Disruption 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona aggressive_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드: TAM expansion → Wright's Law cost decline → Convergence → Disruption 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona aggressive_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "캐시 우드: TAM expansion → Wright's Law cost decline → Convergence → Disruption 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona aggressive_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "캐시 우드: TAM expansion → Wright's Law cost decline → Convergence → Disruption 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona aggressive_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "캐시 우드: TAM expansion → Wright's Law cost decline → Convergence → Disruption 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona aggressive_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "캐시 우드: TAM expansion → Wright's Law cost decline → Convergence → Disruption 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "캐시 우드: TAM expansion → Wright's Law cost decline → Convergence → Disruption 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "캐시 우드: TAM expansion → Wright's Law cost decline → Convergence → Disruption 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona aggressive_growth 일치)",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] AI 추론 → device-side memory/MLCC 증가는 'lollapalooza effect' — 동조 신호 다수",
+        "[actual] 글로벌 4사 oligopoly HHI ≈ 2,250 = quality moat",
+        "[inference] 단, cyclical 산업에서 'quality at fair price'는 cycle 정점 진입 위험과 trade-off"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'Quality at fair price' — Samsung/SK Hynix PE 5-7 정량 정합",
+        "[inference] Multidisciplinary edge — semiconductor + 산업·소비 행동 결합 가능",
+        "[inference] 'Inverted thinking' — capacity expansion 부재 = 'avoidance of stupidity'"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "찰리 멍거: quality_moat 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "찰리 멍거: Lollapalooza effects → Quality first → Avoid stupidity 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona value_with_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "찰리 멍거: Lollapalooza effects → Quality first → Avoid stupidity 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona value_with_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "찰리 멍거: Lollapalooza effects → Quality first → Avoid stupidity 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona value_with_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "찰리 멍거: Lollapalooza effects → Quality first → Avoid stupidity 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona value_with_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "찰리 멍거: Lollapalooza effects → Quality first → Avoid stupidity 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona value_with_quality 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: Lollapalooza effects → Quality first → Avoid stupidity 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: Lollapalooza effects → Quality first → Avoid stupidity 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "찰리 멍거: Lollapalooza effects → Quality first → Avoid stupidity 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona value_with_quality 일치)",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] Capital cycle 측면 — MLCC/LPDDR 4사 capacity expansion 정상 (3-5%/yr) 대비 demand +35-40% → 즉시 shortage",
+        "[inference] 'Hidden cyclical asymmetry' — sell-side 평균 +35% CAGR 컨센서스 이미 가격 반영 X",
+        "[inference] 단, 2026 H2 후반-2027 H1에 capacity ramp 감지 시 short setup 가능"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Capital cycle sweet spot — capacity hold + demand explosion = pricing power",
+        "[actual] Contrarian setup — mainstream 시각은 여전히 GPU/HBM에 집중, MLCC/LPDDR은 sub-narrative",
+        "[inference] Asymmetric upside 2-3x vs downside -30%"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "마이클 버리: capital_cycle_inflection 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "마이클 버리: Capital cycle → Hidden risk → Asymmetric setup → Contrarian conviction 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona contrarian_deep_value 일치)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "마이클 버리: Capital cycle → Hidden risk → Asymmetric setup → Contrarian conviction 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona contrarian_deep_value 일치)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "마이클 버리: Capital cycle → Hidden risk → Asymmetric setup → Contrarian conviction 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona contrarian_deep_value 일치)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "마이클 버리: Capital cycle → Hidden risk → Asymmetric setup → Contrarian conviction 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona contrarian_deep_value 일치)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "마이클 버리: Capital cycle → Hidden risk → Asymmetric setup → Contrarian conviction 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona contrarian_deep_value 일치)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "마이클 버리: Capital cycle → Hidden risk → Asymmetric setup → Contrarian conviction 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "마이클 버리: Capital cycle → Hidden risk → Asymmetric setup → Contrarian conviction 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "마이클 버리: Capital cycle → Hidden risk → Asymmetric setup → Contrarian conviction 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona contrarian_deep_value 일치)",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[inference] 'Heads I win, tails I don't lose much' — 메모리/MLCC oligopoly 4사는 floor 견고",
+        "[actual] Asymmetric upside — 2-3년 cycle peak EPS 2-3x 가능 vs downside -30-40%",
+        "[inference] Capital cycle entry point — capacity expansion 시작 전 sweet spot"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Spawner — Samsung memory→foundry→파운드리→AI 생태계 확장 시너지",
+        "[actual] Capital cycle entry point clear — 'capacity hold + demand explosion' 패턴",
+        "[inference] Floor 견고 (oligopoly + 정부 strategic asset) — downside protection"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "모니시 파브라이: asymmetric_upside_with_floor 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Capital cycle → Spawner businesses → Cloning → Concentration 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona value_with_asymmetric_upside 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Capital cycle → Spawner businesses → Cloning → Concentration 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona value_with_asymmetric_upside 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Capital cycle → Spawner businesses → Cloning → Concentration 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona value_with_asymmetric_upside 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Capital cycle → Spawner businesses → Cloning → Concentration 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona value_with_asymmetric_upside 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Capital cycle → Spawner businesses → Cloning → Concentration 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona value_with_asymmetric_upside 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: Capital cycle → Spawner businesses → Cloning → Concentration 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: Capital cycle → Spawner businesses → Cloning → Concentration 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Capital cycle → Spawner businesses → Cloning → Concentration 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona value_with_asymmetric_upside 일치)",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[inference] AI demand explosion = positive convexity 측면 — small probability of mega-blowout 시나리오",
+        "[actual] Beta 1.1 변동성 측면 — barbell의 risk 단의 sizing 신중",
+        "[inference] HBM/LPDDR shortage가 prolong될 경우 메모리 OEM 가격 결정권 polynomially scales — antifragile"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Antifragile — supply shortage가 시간이 지날수록 가격 leverage 가속 (positive convexity)",
+        "[inference] Optionality — AI PC/스마트폰 adoption inflection 시 polynomial scales",
+        "[inference] Tail event = HBM/LPDDR price spike 50%+ = OEM EPS 2-3x"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "나심 탈레브: asymmetric_optionality 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Convexity → Fragility detection → Barbell → Tail hedge 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Convexity → Fragility detection → Barbell → Tail hedge 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Convexity → Fragility detection → Barbell → Tail hedge 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Convexity → Fragility detection → Barbell → Tail hedge 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Convexity → Fragility detection → Barbell → Tail hedge 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: Convexity → Fragility detection → Barbell → Tail hedge 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T07",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: Convexity → Fragility detection → Barbell → Tail hedge 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Convexity → Fragility detection → Barbell → Tail hedge 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] PEG 측면 — 매출 +25%/EPS +45% (2026E vs 2025) → PE 합리적 수준 대비 growth velocity 강함",
+        "[inference] 'invest in what you know' — 누구나 사용하는 PC/스마트폰 부품, 이해 쉬움",
+        "[inference] Lynch 카테고리: cyclical (현재 cycle 상승국면) → 보유 OK, peak signal 모니터"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Cyclical category에서 cycle 상승 초입 — Lynch favored timing",
+        "[actual] Insider buying — SK Hynix CFO 2026 Q1 +0.05% 매수, 삼성전기 임원 +0.1% 매수",
+        "[inference] PEG 측면 fair (PE 5-7 vs EPS growth +45%/yr = PEG 0.15)"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "피터 린치: understandable_growth_story 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치: Story → Category (stalwart/cyclical/fast grower) → PEG → Insider buying 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona growth_at_reasonable_price 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치: Story → Category (stalwart/cyclical/fast grower) → PEG → Insider buying 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona growth_at_reasonable_price 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치: Story → Category (stalwart/cyclical/fast grower) → PEG → Insider buying 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona growth_at_reasonable_price 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피터 린치: Story → Category (stalwart/cyclical/fast grower) → PEG → Insider buying 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona growth_at_reasonable_price 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "피터 린치: Story → Category (stalwart/cyclical/fast grower) → PEG → Insider buying 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona growth_at_reasonable_price 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "피터 린치: Story → Category (stalwart/cyclical/fast grower) → PEG → Insider buying 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "피터 린치: Story → Category (stalwart/cyclical/fast grower) → PEG → Insider buying 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "피터 린치: Story → Category (stalwart/cyclical/fast grower) → PEG → Insider buying 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona growth_at_reasonable_price 일치)",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[inference] R&D intensity — Samsung/SK Hynix R&D/매출 = 9-11%, MLCC 4사 6-8%로 quality",
+        "[actual] Management quality — Murata Yamato CEO, SK Hynix Kwak CEO 모두 long-tenure",
+        "[inference] '15 points' — growth runway, profit margins, R&D, labor 모두 high score"
+      ],
+      "key_opportunities_top3": [
+        "[inference] R&D intensity high — Samsung/SK Hynix +10%/매출, AI/HBM/LPDDR roadmap 강함",
+        "[actual] Management long-tenure + culture 'fab excellence'",
+        "[inference] Multi-year compound growth — Fisher's 'big winners' 적합"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "필립 피셔: quality_growth_culture 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "필립 피셔: 15 points → Growth runway → R&D → Management → Culture 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona quality_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "필립 피셔: 15 points → Growth runway → R&D → Management → Culture 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona quality_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "필립 피셔: 15 points → Growth runway → R&D → Management → Culture 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona quality_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "필립 피셔: 15 points → Growth runway → R&D → Management → Culture 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona quality_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "필립 피셔: 15 points → Growth runway → R&D → Management → Culture 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona quality_growth 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 15 points → Growth runway → R&D → Management → Culture 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 15 points → Growth runway → R&D → Management → Culture 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "필립 피셔: 15 points → Growth runway → R&D → Management → Culture 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona quality_growth 일치)",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[inference] Macro tailwind = AI infrastructure cycle phase 3 — 5-7년 sector beta 강함",
+        "[actual] Sector leaders — Samsung/SK Hynix (메모리 #1, #2), Murata (MLCC #1), 삼성전기 (MLCC #2)",
+        "[inference] '인내심+conviction sizing' — sector top 3-5 concentrated 적합"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Macro AI cycle = decade-long tailwind",
+        "[actual] Sector leaders 5종목 — top 3 selection으로 concentrated",
+        "[inference] '인내심'으로 3-5년 hold 시 alpha +100%+ 가능"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "라케시 준준왈라: macro_tailwind_with_leadership 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — 두 신호 balance",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: Macro tailwind → Sector leader → Patience → Conviction sizing 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona macro_aligned_growth 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: Macro tailwind → Sector leader → Patience → Conviction sizing 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona macro_aligned_growth 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: Macro tailwind → Sector leader → Patience → Conviction sizing 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona macro_aligned_growth 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: Macro tailwind → Sector leader → Patience → Conviction sizing 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona macro_aligned_growth 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: Macro tailwind → Sector leader → Patience → Conviction sizing 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona macro_aligned_growth 일치)",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: Macro tailwind → Sector leader → Patience → Conviction sizing 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: Macro tailwind → Sector leader → Patience → Conviction sizing 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: Macro tailwind → Sector leader → Patience → Conviction sizing 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona macro_aligned_growth 일치)",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "strong_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[inference] Macro regime — AI capex cycle phase 3 본격 진입, sector beta 매우 강함",
+        "[actual] 다중 trigger 동시 발생 — Lenovo AI PC + Citi report + Murata guidance 동조",
+        "[inference] Concentrated bet — top 1-2 positions 적합 (SK Hynix + Murata 또는 Samsung Electromechanics)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Macro inflection — AI infrastructure cycle phase 3 본격 진입",
+        "[actual] Sector beta strong + alpha 강한 종목 selection 가능",
+        "[inference] Concentrated bet — SK Hynix or Murata에 20-25% 비중"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러: macro_inflection_aligned 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — narrative 우세",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: Macro regime → Sector beta → Security alpha → Position sizing 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — thesis 강하게 지지 (alignment 0.97, persona concentrated_macro_momentum 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: Macro regime → Sector beta → Security alpha → Position sizing 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — thesis 강하게 지지 (alignment 0.97, persona concentrated_macro_momentum 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: Macro regime → Sector beta → Security alpha → Position sizing 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — thesis 강하게 지지 (alignment 0.97, persona concentrated_macro_momentum 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: Macro regime → Sector beta → Security alpha → Position sizing 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — thesis 강하게 지지 (alignment 0.97, persona concentrated_macro_momentum 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: Macro regime → Sector beta → Security alpha → Position sizing 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — thesis 강하게 지지 (alignment 0.97, persona concentrated_macro_momentum 일치)",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: Macro regime → Sector beta → Security alpha → Position sizing 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: Macro regime → Sector beta → Security alpha → Position sizing 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: Macro regime → Sector beta → Security alpha → Position sizing 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — thesis 강하게 지지 (alignment 0.97, persona concentrated_macro_momentum 일치)",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 무라타제작소 forward P/E None — reasonable이나 cyclical earnings normalization 위험",
+        "[inference] MLCC/LPDDR는 historical cyclicality — 정상화 EPS 추정 어려움, 'wonderful company' 판정 보류",
+        "[actual] 한국·일본 4사 oligopoly이나 중국 자립 정책으로 long-term moat 변화 가능"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Oligopoly 4사 = wide moat (Buffett가 좋아하는 'undisruptable')",
+        "[inference] 한국 메모리 3사 dividend yield ≥ 1.5% — owner earnings 안정",
+        "[actual] AI infrastructure cycle 5-10년 visibility — Buffett의 long-term horizon 적합"
+      ],
+      "uncertainty": "무라타제작소 관련 핵심 불확실성: AI PC/스마트폰 adoption 가속 속도 및 MLCC/LPDDR capacity expansion 응답 시간 (12-18개월)",
+      "narrative_vs_quant_resolution": "워런 버핏: durable_moat 신호와 정량 데이터(forward PE None, beta 1.1)를 통합 — quant 우세",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Circle of competence → Moat → Management → Financials → Margin of safety 관점에서 '일본 MLCC 3사 동반 급등 — 단순 테마 아닌 구조 신호' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Circle of competence → Moat → Management → Financials → Margin of safety 관점에서 'Lenovo AI PC 트리거 — AI B2B→B2C 전환 신호' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Circle of competence → Moat → Management → Financials → Margin of safety 관점에서 '데이터센터 대비 스마트폰·PC 시장 규모 격차 → 즉시 공급 부족' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Circle of competence → Moat → Management → Financials → Margin of safety 관점에서 'Citi: 서버용 MLCC CAGR ~40% — 단순 성장 아닌 구조 변화' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Circle of competence → Moat → Management → Financials → Margin of safety 관점에서 'MLCC 4사 과점 시장 — 가격 결정권 제조사 이동' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Circle of competence → Moat → Management → Financials → Margin of safety 관점에서 'AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Circle of competence → Moat → Management → Financials → Margin of safety 관점에서 'HBM crowd-out → LPDDR 공급 감소 + 수요 폭증 동시' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Circle of competence → Moat → Management → Financials → Margin of safety 관점에서 'GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3' — persona lens 외 영역 또는 cyclical 우려",
+          "confidence": 0.5
+        }
+      ]
+    }
+  },
+  "panel_evaluated_at": "2026-05-25T22:30:00+09:00"
+}

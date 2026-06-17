@@ -1,0 +1,431 @@
+{
+  "ticker": "FCX",
+  "name_en": "Freeport-McMoRan Inc.",
+  "name_kr": "프리포트-맥모란",
+  "sector": "구리·금 / Copper-Gold Mining",
+  "industry_overview": "글로벌 구리 1위 (Codelco·Glencore 다음). 2026 기준 연 4.2Blbs 구리 + 1.4Moz 금 + 80Mlbs 몰리브덴 생산. 핵심 자산: Indonesia Grasberg (세계 최대 단일 구리·금 광산), Cerro Verde (페루), Morenci/Bagdad (애리조나). 구리는 EV (대당 80kg) · 데이터센터 (서버랙 50kg+) · 신재생 grid · 인프라 megatrend 직접 수혜.",
+  "5y_financials": {
+    "revenue_b": [
+      14.2,
+      22.8,
+      22.9,
+      25.6,
+      28.5
+    ],
+    "operating_income_b": [
+      3.2,
+      7.5,
+      5.8,
+      8.2,
+      10.5
+    ],
+    "net_income_b": [
+      1.8,
+      4.3,
+      3.5,
+      4.8,
+      6.5
+    ],
+    "opm_pct": [
+      22.5,
+      32.9,
+      25.3,
+      32.0,
+      36.8
+    ],
+    "npm_pct": [
+      12.7,
+      18.9,
+      15.3,
+      18.8,
+      22.8
+    ],
+    "fcf_b": [
+      1.5,
+      5.5,
+      3.2,
+      4.5,
+      6.8
+    ],
+    "narrative_5y": "구리 가격 $3.00→$4.80 (2020→2026)로 매출 2x. OPM 22.5%→36.8%. Net debt $9B → $5B 축소. 2025 ROIC 18% 신기록. 'CAPEX discipline + shareholder return' 명시."
+  },
+  "scenarios": {
+    "bull": {
+      "prob": 0.45,
+      "target_price": 90,
+      "drivers": "Copper $5.50+, Grasberg full ramp, Atlantic Copper smelter 가동",
+      "prob_pct": 45,
+      "thesis": "Copper $5.50+, Grasberg full ramp, Atlantic Copper smelter 가동"
+    },
+    "base": {
+      "prob": 0.4,
+      "target_price": 72,
+      "drivers": "Copper $4.50-5.00, OPM 32%+ stable",
+      "prob_pct": 40,
+      "thesis": "Copper $4.50-5.00, OPM 32%+ stable"
+    },
+    "bear": {
+      "prob": 0.15,
+      "target_price": 42,
+      "drivers": "Copper -25% recession, Indonesia smelter 의무 cost overrun",
+      "prob_pct": 15,
+      "thesis": "Copper -25% recession, Indonesia smelter 의무 cost overrun"
+    }
+  },
+  "catalysts": [
+    {
+      "name": "Grasberg Block Cave underground full ramp 2026 H2",
+      "date": "2026-05-20",
+      "impact": "high",
+      "event": "Grasberg Block Cave underground full ramp 2026 H2",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Atlantic Copper smelter 가동 — value chain integration",
+      "date": "2026-05-20",
+      "impact": "high",
+      "event": "Atlantic Copper smelter 가동 — value chain integration",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Indonesia DMO (Domestic Market Obligation) 협상 결정",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "Indonesia DMO (Domestic Market Obligation) 협상 결정",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Copper price breakout $5.50+ (NVDA·data center capex 인플레)",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "Copper price breakout $5.50+ (NVDA·data center capex 인플레)",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "2026 H2 dividend hike + buyback",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "2026 H2 dividend hike + buyback",
+      "category": "operational",
+      "probability": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Indonesia Grasberg PT-FI 51% 정부 지분 — political/tax risk 지속",
+      "impact": "high",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Indonesia Grasberg PT-FI 51% 정부 지분 — political/tax risk 지속",
+      "likelihood": "medium",
+      "severity": "high",
+      "probability": "med",
+      "description": "Indonesia Grasberg PT-FI 51% 정부 지분 — political/tax risk 지속"
+    },
+    {
+      "name": "Cerro Verde 페루 protest cycle (2024 부정선거 후 정치 불안)",
+      "impact": "high",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Cerro Verde 페루 protest cycle (2024 부정선거 후 정치 불안)",
+      "likelihood": "medium",
+      "severity": "high",
+      "probability": "med",
+      "description": "Cerro Verde 페루 protest cycle (2024 부정선거 후 정치 불안)"
+    },
+    {
+      "name": "Copper -25% 시 OPM 36%→22%로 큰 압축",
+      "impact": "med",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Copper -25% 시 OPM 36%→22%로 큰 압축",
+      "likelihood": "medium",
+      "severity": "medium",
+      "probability": "med",
+      "description": "Copper -25% 시 OPM 36%→22%로 큰 압축"
+    },
+    {
+      "name": "Debt refinancing $1.5B 만기 2027 5%대 비용",
+      "impact": "med",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Debt refinancing $1.5B 만기 2027 5%대 비용",
+      "likelihood": "medium",
+      "severity": "medium",
+      "probability": "med",
+      "description": "Debt refinancing $1.5B 만기 2027 5%대 비용"
+    }
+  ],
+  "news_timeline_recent": [
+    {
+      "date": "2026-04-25",
+      "impact": "+",
+      "headline": "Q1 2026 EPS $0.65 beat $0.55, copper 마진 strong"
+    },
+    {
+      "date": "2026-03-28",
+      "impact": "+",
+      "headline": "Grasberg underground +20% production YoY"
+    },
+    {
+      "date": "2026-02-12",
+      "impact": "+",
+      "headline": "Druckenmiller Q4 13F — FCX 신규 진입 $250M position"
+    },
+    {
+      "date": "2026-01-20",
+      "impact": "○",
+      "headline": "Indonesia copper smelter 가동 지연 → 2026 Q3 target"
+    },
+    {
+      "date": "2025-12-10",
+      "impact": "+",
+      "headline": "Copper $4.80/lb 신고가 — AI/data center demand 인용"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price": 60.12,
+    "implied_5y_revenue_cagr": 8.0,
+    "implied_5y_eps_cagr": 12.0,
+    "implied_terminal_pe": 14.0,
+    "verdict": "Conservative copper $4.50 가정. Bull case copper $5.50+ + AI/data center upside → fair value $85-90.",
+    "historical_5y_revenue_cagr_pct": 8.0,
+    "embedded_in_current_price": "Conservative copper $4.50 가정. Bull case copper $5.50+ + AI/data center upside → fair value $85-90."
+  },
+  "etf_holdings": {
+    "COPX_weight_pct": 12.0,
+    "XME_weight_pct": 6.5
+  },
+  "industry": {
+    "name": "구리·금 / Copper-Gold Mining",
+    "overview": "글로벌 구리 1위 (Codelco·Glencore 다음). 2026 기준 연 4.2Blbs 구리 + 1.4Moz 금 + 80Mlbs 몰리브덴 생산. 핵심 자산: Indonesia Grasberg (세계 최대 단일 구리·금 광산), Cerro Verde (페루), Morenci/Bagdad (애리조나). 구리는 EV (대당 80kg) · 데이터센터 (서버랙 50kg+) · 신재생 grid · 인프라 megatrend 직접 수혜.",
+    "news": [
+      {
+        "date": "2026-04-25",
+        "impact": "+",
+        "headline": "Q1 2026 EPS $0.65 beat $0.55, copper 마진 strong",
+        "title": "Q1 2026 EPS $0.65 beat $0.55, copper 마진 strong",
+        "summary": "Q1 2026 EPS $0.65 beat $0.55, copper 마진 strong",
+        "source": "curated"
+      },
+      {
+        "date": "2026-03-28",
+        "impact": "+",
+        "headline": "Grasberg underground +20% production YoY",
+        "title": "Grasberg underground +20% production YoY",
+        "summary": "Grasberg underground +20% production YoY",
+        "source": "curated"
+      },
+      {
+        "date": "2026-02-12",
+        "impact": "+",
+        "headline": "Druckenmiller Q4 13F — FCX 신규 진입 $250M position",
+        "title": "Druckenmiller Q4 13F — FCX 신규 진입 $250M position",
+        "summary": "Druckenmiller Q4 13F — FCX 신규 진입 $250M position",
+        "source": "curated"
+      },
+      {
+        "date": "2026-01-20",
+        "impact": "○",
+        "headline": "Indonesia copper smelter 가동 지연 → 2026 Q3 target",
+        "title": "Indonesia copper smelter 가동 지연 → 2026 Q3 target",
+        "summary": "Indonesia copper smelter 가동 지연 → 2026 Q3 target",
+        "source": "curated"
+      },
+      {
+        "date": "2025-12-10",
+        "impact": "+",
+        "headline": "Copper $4.80/lb 신고가 — AI/data center demand 인용",
+        "title": "Copper $4.80/lb 신고가 — AI/data center demand 인용",
+        "summary": "Copper $4.80/lb 신고가 — AI/data center demand 인용",
+        "source": "curated"
+      }
+    ],
+    "competitors": [],
+    "competitive_landscape": []
+  },
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T8",
+      "claim_id": "T8",
+      "claim": "광물 수요는 일회성 사이클이 아닌 구조적 — 탈달러·인플레 헷지(금), 신재생 에너지(구리·리튬·니켈), 데이터센터·전력망(구리·은) 메가트렌드. 신규 광산 개발에 10년 이상 소요 → 공급 부족 (shortage) 장기화. 광물 가격이 단기 조정 받아도 이전 가격대로 복귀 불가",
+      "type": "industry",
+      "evidence": "EV 80kg copper/대 (ICE 23kg) · IEA 2030 copper demand +40% · data center 서버랙 50kg+ · grid CAPEX $1.7T",
+      "testability": "med",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T6",
+      "claim_id": "T6",
+      "claim": "투자 전략 전환 필요 — '유동성 기반 PER 리레이팅' 패러다임 종료. 실물자산 보유 기업, 또는 고금리 환경에서도 성장 가능한 비싼 PER 정당화 가능 기업 선별 중요. 채권 발행에 의존하는 빅테크조차 가려야 함",
+      "type": "policy",
+      "evidence": "ROIC 18% (2025) · OPM 36.8% · Net debt $9B → $5B 축소 · 2025 ROIC 신기록",
+      "testability": "low",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T7",
+      "claim_id": "T7",
+      "claim": "광업의 시대 도래 — 글로벌 상위 20개 귀금속·비철금속 광업 기업의 마진율 중간값 31%로 S&P500 모든 섹터 1위. 기술 섹터(17%)의 거의 2배. PER 6-15배에 거래 중 — 시장은 금속 가격 하락 가정한 디스카운트 유지",
+      "type": "industry",
+      "evidence": "Grasberg copper-gold margin 32% · Cerro Verde scale · Atlantic Copper smelter value chain integration",
+      "testability": "high",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T9",
+      "claim_id": "T9",
+      "claim": "Druckenmiller 'Teva 패턴' = 광산주에 적용 가능 — 시장이 여전히 '경기 변동·금속가격 종속' 프레임으로 광산주를 평가하지만, 실제로는 '구조적 수요 + 자본 절제'로 펀더멘털 체질이 변화. 시장 인식 시차가 알파의 원천",
+      "type": "company",
+      "evidence": "Druckenmiller Q4 2025 13F — FCX 신규 $250M position · structural demand re-rating 후보",
+      "testability": "med",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    },
+    {
+      "thesis_id": "T4",
+      "claim_id": "T4",
+      "claim": "1998년형 외부 시스템 충격(금리 급등)이 'IT 부진' 아닌 외생 변수로 단기 폭락 트리거. 단 1998년과 달리 지금은 인플레이션 때문에 연준의 공격적 금리 인하 카드가 봉쇄 — 1970년대형 시나리오 또는 닷컴버블 재현 사이의 갈림길",
+      "type": "macro",
+      "evidence": "구리는 1970s 스태그플레이션에서 +400% 사례 · macro tailwind",
+      "testability": "low",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    },
+    {
+      "thesis_id": "T5",
+      "claim_id": "T5",
+      "claim": "G7 국채 수익률 20년 만에 최고치. 4가지 구조적 요인: (1) 이란 전쟁발 에너지 인플레, (2) 재정적자 증가로 채권 발행량 폭증, (3) 중앙은행 QT 가속, (4) 탈세계화 따른 기간 프리미엄 상승 — 어느 하나도 단기 해결 불가",
+      "type": "macro",
+      "evidence": "Bond yield 환경에서 dividend 1.5% + capital return 강화 — quality cyclical",
+      "testability": "high",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    }
+  ],
+  "pl_5y": {
+    "revenue": [
+      14.2,
+      22.8,
+      22.9,
+      25.6,
+      28.5
+    ],
+    "operating_income": [
+      3.2,
+      7.5,
+      5.8,
+      8.2,
+      10.5
+    ],
+    "net_income": [
+      1.8,
+      4.3,
+      3.5,
+      4.8,
+      6.5
+    ],
+    "opm": [
+      22.5,
+      32.9,
+      25.3,
+      32.0,
+      36.8
+    ],
+    "npm": [
+      12.7,
+      18.9,
+      15.3,
+      18.8,
+      22.8
+    ],
+    "fcf": [
+      1.5,
+      5.5,
+      3.2,
+      4.5,
+      6.8
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 14.2,
+        "op_income": 3.2,
+        "net_income": 1.8,
+        "op_margin_pct": 22.5,
+        "npm_pct": 12.7,
+        "fcf": 1.5
+      },
+      {
+        "year": 2022,
+        "revenue": 22.8,
+        "op_income": 7.5,
+        "net_income": 4.3,
+        "op_margin_pct": 32.9,
+        "npm_pct": 18.9,
+        "fcf": 5.5
+      },
+      {
+        "year": 2023,
+        "revenue": 22.9,
+        "op_income": 5.8,
+        "net_income": 3.5,
+        "op_margin_pct": 25.3,
+        "npm_pct": 15.3,
+        "fcf": 3.2
+      },
+      {
+        "year": 2024,
+        "revenue": 25.6,
+        "op_income": 8.2,
+        "net_income": 4.8,
+        "op_margin_pct": 32.0,
+        "npm_pct": 18.8,
+        "fcf": 4.5
+      },
+      {
+        "year": 2025,
+        "revenue": 28.5,
+        "op_income": 10.5,
+        "net_income": 6.5,
+        "op_margin_pct": 36.8,
+        "npm_pct": 22.8,
+        "fcf": 6.8
+      }
+    ]
+  },
+  "bs_snapshot": {
+    "total_assets": 55.0,
+    "total_liab": 25.5,
+    "equity": 29.5,
+    "cash": 4.5,
+    "debt": 9.0,
+    "ocf_5y_avg": 4.5,
+    "fcf_5y_avg": 3.0,
+    "capex_intensity": 0.085
+  },
+  "cf_summary": {
+    "ocf_5y_avg": 4.5,
+    "fcf_5y_avg": 3.0,
+    "capex_intensity": 0.085
+  },
+  "financial_unit": {
+    "currency": "USD",
+    "scale": "B"
+  }
+}

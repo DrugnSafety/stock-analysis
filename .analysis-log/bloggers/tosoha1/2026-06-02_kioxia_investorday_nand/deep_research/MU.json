@@ -1,0 +1,124 @@
+{
+  "ticker": "MU",
+  "name_kr": "마이크론",
+  "name_en": "Micron Technology Inc.",
+  "sector": "Memory Semiconductor (DRAM/NAND)",
+  "industry": {
+    "name": "Memory Semiconductor (DRAM·NAND·HBM)",
+    "overview": "Micron은 US 본토 메모리 oligopoly 회원. DRAM/NAND 양립, HBM3E에서 SK Hynix·삼성 추격. CHIPS Act $6.1B 보조금 수혜. 본 KIOXIA 분석 thesis(NAND tightness)의 직접 수혜자. P/E fwd 9.89x는 cycle 대비 cheap.",
+    "competitors": [
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS"
+      },
+      {
+        "name": "Samsung",
+        "ticker": "005930.KS"
+      },
+      {
+        "name": "SanDisk",
+        "ticker": "SNDK"
+      },
+      {
+        "name": "KIOXIA",
+        "ticker": "285A.T"
+      }
+    ],
+    "news": []
+  },
+  "five_year_pnl_summary": {
+    "fiscal_year_end": "08-31",
+    "currency": "USD",
+    "notes": "FY23 영업적자 (메모리 불황) → FY24 흑자 → FY25 OPM ~30%+. HBM3E 매출 기여 +400% YoY"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "HBM3E 점유 20%+ 확보 + NAND tightness + 미국 보조금. 5년 EPS CAGR +20%.",
+      "key_assumptions": [
+        "HBM3E ramp",
+        "NAND ASP 회복",
+        "CHIPS Act 수혜"
+      ],
+      "target_price_usd": 1500
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "DRAM/NAND oligopoly 안정. P/E 10x → 14x 정상화 시 +40% upside.",
+      "key_assumptions": [
+        "사이클 안정",
+        "HBM 추격",
+        "margin 28%+"
+      ],
+      "target_price_usd": 1250
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "HBM 경쟁 패배 + 사이클 bust + capex over-investment.",
+      "key_assumptions": [
+        "HBM 점유 정체",
+        "NAND 가격 하락",
+        "leverage 부담"
+      ],
+      "target_price_usd": 700
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "FY26 Q4 earnings",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "HBM3E 매출 비중 + NAND ASP 추세"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Idaho fab 본격 가동",
+      "type": "capex",
+      "expected_impact": "med",
+      "description": "$15B 투자 미국 본토 첫 DRAM fab"
+    },
+    {
+      "date": "2027",
+      "event": "HBM4 양산 진입",
+      "type": "product",
+      "expected_impact": "very_high",
+      "description": "NVIDIA HBM4 supply slot 확보 여부"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM 추격 실패",
+      "probability": "med",
+      "impact": "high",
+      "description": "SK·삼성 대비 HBM 기술 격차",
+      "mitigation": "R&D 가속 + capex 집중"
+    },
+    {
+      "name": "NAND 사이클",
+      "probability": "high",
+      "impact": "med",
+      "description": "NAND segment 35% 매출",
+      "mitigation": "DRAM 우위로 cushion"
+    },
+    {
+      "name": "US-China 무역 갈등",
+      "probability": "med",
+      "impact": "med",
+      "description": "중국 매출 비중 25% 노출",
+      "mitigation": "지역 다변화"
+    },
+    {
+      "name": "capex over-leverage",
+      "probability": "low",
+      "impact": "med",
+      "description": "Idaho fab + 인도 fab 동시 진행",
+      "mitigation": "CHIPS Act 보조금"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_usd": 1042,
+    "implied_growth_pct": "P/E fwd 9.89x → 향후 5년 EPS CAGR 8~10%. 실제 expected 15~18%.",
+    "narrative": "undervalued. P/E 12x normalization 시 fair value $1,260 (+21%). bull case HBM ramp 성공 시 $1,500+."
+  }
+}

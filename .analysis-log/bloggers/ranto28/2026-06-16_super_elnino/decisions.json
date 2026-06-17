@@ -1,0 +1,106 @@
+{
+  "computed_at": "2026-06-16T15:00:00+09:00",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "AA",
+      "name": "알코아",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.852,
+      "components": {
+        "persona_confidence": 0.8,
+        "verdict_bias": 0.823,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.85
+      },
+      "current_price": 62.87,
+      "target_quantity": 284,
+      "target_value": 24639900.0,
+      "position_limit_value": 24667500.0,
+      "max_position_value_krw": 24639900.0,
+      "max_quantity": 284,
+      "rationale": "AA score=0.852 (BUY) — 확신 0.80 + bias 0.82 + 정렬 1.0 + 밸류 0.85"
+    },
+    {
+      "ticker": "011200.KS",
+      "name": "HMM",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.743,
+      "components": {
+        "persona_confidence": 0.715,
+        "verdict_bias": 0.673,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.55
+      },
+      "current_price": 22550.0,
+      "target_quantity": 1988,
+      "target_value": 44829300.0,
+      "position_limit_value": 44850000.0,
+      "max_position_value_krw": 44829300.0,
+      "max_quantity": 1988,
+      "rationale": "011200.KS score=0.743 (BUY) — 확신 0.71 + bias 0.67 + 정렬 1.0 + 밸류 0.55"
+    },
+    {
+      "ticker": "025860.KS",
+      "name": "남해화학",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.694,
+      "components": {
+        "persona_confidence": 0.658,
+        "verdict_bias": 0.535,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.7
+      },
+      "current_price": 6610.0,
+      "target_quantity": 6785,
+      "target_value": 44848620.0,
+      "position_limit_value": 44850000.0,
+      "max_position_value_krw": 44848620.0,
+      "max_quantity": 6785,
+      "rationale": "025860.KS score=0.694 (BUY) — 확신 0.66 + bias 0.53 + 정렬 1.0 + 밸류 0.7"
+    },
+    {
+      "ticker": "ADM",
+      "name": "아처대니얼스미들랜드",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.78,
+      "components": {
+        "persona_confidence": 0.769,
+        "verdict_bias": 0.823,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.55
+      },
+      "current_price": 78.02,
+      "target_quantity": 520,
+      "target_value": 55986600.0,
+      "position_limit_value": 56062500.0,
+      "max_position_value_krw": 55986600.0,
+      "max_quantity": 520,
+      "rationale": "ADM score=0.78 (BUY) — 확신 0.77 + bias 0.82 + 정렬 0.85 + 밸류 0.55"
+    },
+    {
+      "ticker": "005180.KS",
+      "name": "빙그레",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.789,
+      "components": {
+        "persona_confidence": 0.738,
+        "verdict_bias": 0.796,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.85
+      },
+      "current_price": 68800.0,
+      "target_quantity": 651,
+      "target_value": 44789280.0,
+      "position_limit_value": 44850000.0,
+      "max_position_value_krw": 44789280.0,
+      "max_quantity": 651,
+      "rationale": "005180.KS score=0.789 (BUY) — 확신 0.74 + bias 0.80 + 정렬 0.85 + 밸류 0.85"
+    }
+  ]
+}

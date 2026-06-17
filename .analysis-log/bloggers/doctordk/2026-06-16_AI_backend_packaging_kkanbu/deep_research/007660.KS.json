@@ -1,0 +1,211 @@
+{
+  "industry": {
+    "name": "AI 대기판 — MLB(다층기판) / 구글 TPU·ASIC 기판",
+    "overview": "이수페타시스는 고다층 MLB(Multi-Layer Board) 기판 선두로, 블로그 'VERA CPU=대기판의 시대' 프레임의 핵심 수혜주다. 구글 TPU용 MLB 기준 G사 내 점유율 40%+ 추정, 2026 TPU 출하 최소 2배 확대 전망. 북미 빅테크 ASIC 샘플 공급 지속, TPU 7세대·400G+ AI 스위치 수요로 가격·물량 동반 상승. 5공장 완공이 2027이라 2026 공급은 타이트 — 우호적 수급. AI 인프라(스위치·가속기) 기판 수요가 구조적 성장 동력.",
+    "competitors": [
+      {
+        "name": "이수페타시스",
+        "ticker": "007660.KS",
+        "share_pct": 40.0,
+        "moat": "구글 TPU MLB 40%+ 점유 + 고다층 기판 기술 + 북미 ASIC 레퍼런스"
+      },
+      {
+        "name": "TTM Technologies",
+        "ticker": "TTMI",
+        "share_pct": 20.0,
+        "moat": "북미 고다층 PCB·방산"
+      },
+      {
+        "name": "Unimicron(유니마이크론)",
+        "ticker": "3037.TW",
+        "share_pct": 15.0,
+        "moat": "대만 패키지기판·HDI"
+      },
+      {
+        "name": "Shennan(선난)",
+        "ticker": "002916.SZ",
+        "share_pct": 12.0,
+        "moat": "중국 고다층 PCB"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "TPU시장 확대 수혜로 신고가 행진",
+        "source": "dailyinvest.kr/69399",
+        "summary": "구글 MLB 40%+·2026 TPU 출하 2배+",
+        "impact": "+"
+      },
+      {
+        "date": "2025-11",
+        "title": "3Q25 NDR — 북미 전략고객 2026 물량 2배+ 제시",
+        "source": "한국투자증권",
+        "summary": "ASIC 샘플 공급 지속·5공장 2027",
+        "impact": "+"
+      },
+      {
+        "date": "2026",
+        "title": "서버 기판 공급 확대가 실적 기준 변경",
+        "source": "topstarnews 16057387",
+        "summary": "AI 인프라 기판 수요 견조",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06-17",
+        "title": "1Y 주가 +174% — fwd PE 21.6×",
+        "source": "yfinance live",
+        "summary": "6종목 중 밸류 가장 합리적",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-17)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.64,
+        "op_income": 0.12,
+        "net_income": 0.1,
+        "op_margin": 18.1,
+        "net_margin": 15.9
+      },
+      {
+        "year": 2023,
+        "revenue": 0.68,
+        "op_income": 0.06,
+        "net_income": 0.05,
+        "op_margin": 9.2,
+        "net_margin": 7.1
+      },
+      {
+        "year": 2024,
+        "revenue": 0.84,
+        "op_income": 0.1,
+        "net_income": 0.07,
+        "op_margin": 12.2,
+        "net_margin": 8.8
+      },
+      {
+        "year": 2025,
+        "revenue": 1.09,
+        "op_income": 0.21,
+        "net_income": 0.16,
+        "op_margin": 18.9,
+        "net_margin": 14.7
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.64조 → 2023 ₩0.68조 → 2024 ₩0.84조 → 2025 ₩1.09조로 꾸준히 성장, 영업이익률은 2023 9.2% 저점에서 2025 18.9%로 회복 — AI 기판 mix 상승이 마진을 끌어올렸다. TPU·ASIC·AI 스위치향 고부가 기판 비중 확대가 구조적 성장·마진 개선을 동시 견인. 5공장(2027) 가동 전까지 캐파 타이트가 가격 협상력으로 작용.",
+    "valuation_summary": "Forward PE 21.58× (yfinance live) — 6종목 중 가장 합리적 밸류. 현재가 ₩125,200 / 1Y +174% / 연변동성 79%. 목표가 컨센 14~18만(타깃 PER 40~53배)."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.42,
+      "description": "구글 TPU 7세대 출하 2배+ 실현 + 북미 빅테크 ASIC 양산 채택 + 5공장 조기 효과. 매출·OPM 동반 상승, 목표가 상단(18만) 지향.",
+      "key_drivers": [
+        "TPU 7세대 양산",
+        "북미 ASIC 신규 수주",
+        "캐파 타이트 가격력"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "TPU 물량 견조 성장·OPM 18~20% 유지, 5공장 2027 가동 전 캐파 제약 속 안정 성장. 컨센 목표가 14~17만 수렴.",
+      "key_drivers": [
+        "TPU 견조 성장",
+        "고부가 mix",
+        "마진 유지"
+      ]
+    },
+    "bear": {
+      "probability": 0.18,
+      "description": "구글 TPU 로드맵 변경/물량 둔화 + ASIC 경쟁(대만·중국 기판) 심화 + 5공장 capex 부담. 멀티플 조정.",
+      "key_drivers": [
+        "TPU 물량 둔화",
+        "기판 경쟁",
+        "capex 부담"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-분기",
+      "name": "분기 실적(AI 기판 매출)",
+      "impact": "high",
+      "description": "TPU·ASIC 물량·OPM 확인"
+    },
+    {
+      "date": "2026-2H",
+      "name": "북미 ASIC 양산 채택",
+      "impact": "high",
+      "description": "신규 빅테크 소켓 — 고객 다변화"
+    },
+    {
+      "date": "2027",
+      "name": "5공장 가동",
+      "impact": "medium",
+      "description": "캐파 확대 — 2027+ 성장 동력"
+    }
+  ],
+  "risks": [
+    {
+      "name": "구글 고객 집중",
+      "probability": "medium",
+      "impact": "high",
+      "description": "TPU 단일 대형고객 로드맵 의존"
+    },
+    {
+      "name": "기판 경쟁(대만·중국)",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "Unimicron·선난 등 고다층 경쟁"
+    },
+    {
+      "name": "5공장 capex 부담",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "증설 투자가 현금흐름 압박"
+    },
+    {
+      "name": "AI capex 사이클",
+      "probability": "medium",
+      "impact": "high",
+      "description": "하이퍼스케일러 capex 둔화 시 물량 변동"
+    },
+    {
+      "name": "고변동성(vol 79%)",
+      "probability": "high",
+      "impact": "medium",
+      "description": "테마 변동성 — 포지션 관리 필요"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T04",
+      "claim": "구글 TPU 대기판 40%+ 수혜",
+      "current_status": "confirmed",
+      "evidence": "MLB G사 점유 40%+·2026 출하 2배+(한투)"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "구글 TPU 깐부",
+      "current_status": "confirmed",
+      "evidence": "TPU MLB 직접 공급"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "대기판=후공정 부가가치",
+      "current_status": "confirmed",
+      "evidence": "VERA CPU 대형기판 비중 상승"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025-11",
+      "type": "IR/NDR",
+      "summary": "북미 전략고객 2026 물량 2025 대비 2배+ 제시·ASIC 샘플 공급",
+      "title": "3Q25 NDR — 2026 물량 2배+ (한투)"
+    }
+  ]
+}

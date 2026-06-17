@@ -1,0 +1,147 @@
+{
+  "computed_at": "2026-06-01T11:39:58.781777+09:00",
+  "ledger_path": ".analysis-log/bloggers/infidoc/2026-05-31_ASMB_assembly_bio/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/infidoc/2026-05-31_ASMB_assembly_bio/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "ASMB",
+      "date": "2026-05-31",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "lean_bullish": 12,
+        "lean_bearish": 1,
+        "BUY": 1
+      },
+      "signal_score": 0.6395,
+      "weighted_confidence": 0.071,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "BUY",
+          "confidence": 0.72,
+          "weight": 1.0,
+          "score_contribution": 0.72
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 1988,
+      "current_price": 27.66,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.5058,
+      "reasoning": "중간 매수 신호 (+0.64), 한도의 50% 진입"
+    },
+    {
+      "ticker": "GILD",
+      "date": "2026-05-31",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "neutral": 2,
+        "lean_bearish": 1,
+        "lean_bullish": 11
+      },
+      "signal_score": 0.5905,
+      "weighted_confidence": 0.071,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": 0.434
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 106491.0,
+      "target_quantity": 792,
+      "current_price": 134.43,
+      "position_limit_value": 212982.0,
+      "annualized_volatility": 0.2138,
+      "reasoning": "중간 매수 신호 (+0.59), 한도의 50% 진입"
+    },
+    {
+      "ticker": "GSK",
+      "date": "2026-05-31",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "neutral": 9,
+        "lean_bearish": 5
+      },
+      "signal_score": -0.263,
+      "weighted_confidence": 0.071,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.45,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 50.54,
+      "position_limit_value": 208879.0,
+      "annualized_volatility": 0.2511,
+      "reasoning": "중립 신호 (-0.26), 변경 없음"
+    },
+    {
+      "ticker": "MIRM",
+      "date": "2026-05-31",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "lean_bullish": 2,
+        "lean_bearish": 4,
+        "neutral": 8
+      },
+      "signal_score": -0.0814,
+      "weighted_confidence": 0.071,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.45,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 101.5,
+      "position_limit_value": 145035.0,
+      "annualized_volatility": 0.4815,
+      "reasoning": "중립 신호 (-0.08), 변경 없음"
+    },
+    {
+      "ticker": "VIR",
+      "date": "2026-05-31",
+      "n_verdicts": 14,
+      "verdict_breakdown": {
+        "lean_bullish": 1,
+        "lean_bearish": 7,
+        "neutral": 6
+      },
+      "signal_score": -0.304,
+      "weighted_confidence": 0.071,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.45,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "sell_partial",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 5765,
+      "current_price": 9.54,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.5172,
+      "reasoning": "중간 매도 신호 (-0.30), 보유분 50% 청산"
+    }
+  ]
+}

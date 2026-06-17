@@ -1,0 +1,60 @@
+{
+  "as_of": "2026-05-25",
+  "nav_usd": 1000000,
+  "cash_usd": 818621.0,
+  "positions": [
+    {
+      "ticker": "010060.KS",
+      "name": "OCI홀딩스",
+      "quantity": 163,
+      "avg_cost_usd": 246.14,
+      "market_value_usd": 40260.0,
+      "pct_of_nav": 4.0
+    },
+    {
+      "ticker": "009830.KS",
+      "name": "한화솔루션",
+      "quantity": 1262,
+      "avg_cost_usd": 31.36,
+      "market_value_usd": 39600.0,
+      "pct_of_nav": 4.0
+    },
+    {
+      "ticker": "FSLR",
+      "name": "퍼스트솔라",
+      "quantity": 393,
+      "avg_cost_usd": 257.85,
+      "market_value_usd": 101519.0,
+      "pct_of_nav": 10.2
+    }
+  ],
+  "trade_ledger_today": [
+    {
+      "date": "2026-05-25",
+      "ticker": "010060.KS",
+      "action": "BUY",
+      "quantity": 163,
+      "price_usd": 246.14,
+      "total_usd": 40260.0,
+      "verdict_source": "doctordk_OCI_solar_security_2026-05-25_persona_panel_13"
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "009830.KS",
+      "action": "BUY",
+      "quantity": 1262,
+      "price_usd": 31.36,
+      "total_usd": 39600.0,
+      "verdict_source": "doctordk_OCI_solar_security_2026-05-25_persona_panel_13"
+    },
+    {
+      "date": "2026-05-25",
+      "ticker": "FSLR",
+      "action": "BUY",
+      "quantity": 393,
+      "price_usd": 257.85,
+      "total_usd": 101519.0,
+      "verdict_source": "doctordk_OCI_solar_security_2026-05-25_persona_panel_13"
+    }
+  ]
+}

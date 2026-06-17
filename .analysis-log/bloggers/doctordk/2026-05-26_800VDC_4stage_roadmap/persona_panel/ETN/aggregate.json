@@ -1,0 +1,353 @@
+{
+  "ticker": "ETN",
+  "ticker_name": "이튼",
+  "ticker_name_en": "Eaton Corporation plc",
+  "sector": "Power Management (변압기·배전·데이터센터)",
+  "aggregated_at": "2026-05-27T10:39:42.845760+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bullish": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bullish": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "dominant_verdict": "lean_bullish",
+  "average_confidence": 0.697,
+  "style_split": {
+    "value": {
+      "n_members": 6,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "benjamin-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "philip-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "macro": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ]
+    }
+  },
+  "thesis_lens_summary": {
+    "T01": {
+      "theme": "600kW+ 랙·48V/AC 한계, 800VDC 전환 필연성"
+    },
+    "T02": {
+      "theme": "1단계 White-Space Retrofit (2026-2027, OCP Diablo 400)"
+    },
+    "T03": {
+      "theme": "2단계 Native Compute (2027-2028, 분산형 BBU)"
+    },
+    "T04": {
+      "theme": "3단계 Gray-Space DC화 (2028-2029)"
+    },
+    "T05": {
+      "theme": "4단계 SST Endgame (2029+, 효율 99%)"
+    },
+    "T06": {
+      "theme": "HVDC Power Rack(Sidecar) — 1단계 핵심"
+    },
+    "T07": {
+      "theme": "SSCB — DC 배전 필수 보호장치, SiC MOSFET 수혜"
+    },
+    "T08": {
+      "theme": "자본의 이동: Gray Space → White Space 가치 상승"
+    },
+    "T09": {
+      "theme": "리스크: 접지·NEC 2029·냉각 표준화 지연"
+    },
+    "T10": {
+      "theme": "공급망 양극화: pure-play vs 통합 vendor"
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN (Power Management (변압기·배전·데이터센터)) valuation rich — 800VDC narrative은 4-5년 future growth pre-priced, pullback 위험",
+        "[inference] AI capex cycle peak 후 mean-reversion — high beta names 우선 hit 가능성",
+        "[assumption] 표준화·AHJ 승인 지연 시 thesis 이행 timing 2027→2029로 밀릴 risk"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 800VDC thesis (T01-T09)의 직접·강한 노출 — Navitas 어닝콜·NVIDIA roadmap 양 측 인용",
+        "[inference] AI DC 부하 100GW+ 2035 시나리오 → backlog·매출 multi-year compounding",
+        "[assumption] 워런 버핏 핵심 철학 (Quality + moat + margin of safety (장기 hold). 'wonderful comp)과 정합 — long-cycle hold candidate"
+      ],
+      "narrative_vs_quant_resolution": "워런 버핏는 Quality + moat + margin of safety (장기 hold). 'wonderful company at fai 기준으로 본 종목 평가 — verdict는 'bullish'. Quality + wide moat (변압기·배전·UPS 100년 history) + reasonable price (fwd PE 25) — 'wonderful company at fair price' 정확히 부합"
+    },
+    "charlie-munger": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN (Power Management (변압기·배전·데이터센터)) valuation rich — 800VDC narrative은 4-5년 future growth pre-priced, pullback 위험",
+        "[inference] AI capex cycle peak 후 mean-reversion — high beta names 우선 hit 가능성",
+        "[assumption] 표준화·AHJ 승인 지연 시 thesis 이행 timing 2027→2029로 밀릴 risk"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 800VDC thesis (T01-T09)의 직접·강한 노출 — Navitas 어닝콜·NVIDIA roadmap 양 측 인용",
+        "[inference] AI DC 부하 100GW+ 2035 시나리오 → backlog·매출 multi-year compounding",
+        "[assumption] 찰리 멍거 핵심 철학 (Lollapalooza + 다학제 mental model. 'great business at reasonab)과 정합 — long-cycle hold candidate"
+      ],
+      "narrative_vs_quant_resolution": "찰리 멍거는 Lollapalooza + 다학제 mental model. 'great business at reasonable price'. 기준으로 본 종목 평가 — verdict는 'bullish'. Lollapalooza — quality·moat·secular·reasonable price 모두 결합. Industrial classic, hold forever 후보"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN는 800VDC thesis 직접 노출이나 valuation은 rich — fwd PE·PB 모두 historic 평균 상위 quartile",
+        "[inference] AI capex 사이클 peak 우려 — late-cycle entry risk, position size 신중",
+        "[assumption] 페르소나 철학 일부 부합, 다만 valuation discipline 측면에서 trim·partial 추천"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 본문 (의교창 글) 직접 인용 또는 thesis 직접 수혜",
+        "[inference] 다중 thesis 노출 (T01·T04·T08 등) — 단일 catalyst 부재 시에도 secular tailwind 강",
+        "[assumption] 피터 린치 스타일과 부분 정합 — full position보다 partial 권장"
+      ],
+      "narrative_vs_quant_resolution": "피터 린치는 PEG 직관 + 'invest in what you know'. Stalwart/Fast-Grower/Turnaround/Cy 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Stalwart 분류 — slow-mid grower with diversified exposure, PEG 합리"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN는 800VDC narrative 노출 강하나 fundamental 또는 valuation에 명확한 우려 존재",
+        "[inference] 캐시 우드의 핵심 critera (Disruptive innovation thesis (Wright's Law). 5년+ e)에서 borderline — pass or wait 권장",
+        "[assumption] 시장 narrative과 quant reality 간 격차 모호 — convergence 신호 대기 필요"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 thesis (의교창 800VDC)에 노출되어 있으나 페르소나 기준에서는 매수보다 추적 대상",
+        "[inference] Valuation 조정 또는 fundamental improvement 시 entry zone 재평가 가능",
+        "[assumption] 현재 시점에서는 sidelined로 유지, catalyst 발생 시 reassess"
+      ],
+      "narrative_vs_quant_resolution": "캐시 우드는 Disruptive innovation thesis (Wright's Law). 5년+ exponential growth. C 기준으로 본 종목 평가 — verdict는 'neutral'. Hardware industrials는 disruption thesis와 미흡, 다만 grid modernization theme 일부 인정"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "short_to_medium",
+      "key_concerns": [
+        "[actual] ETN는 800VDC thesis 직접 노출이나 valuation은 rich — fwd PE·PB 모두 historic 평균 상위 quartile",
+        "[inference] AI capex 사이클 peak 우려 — late-cycle entry risk, position size 신중",
+        "[assumption] 페르소나 철학 일부 부합, 다만 valuation discipline 측면에서 trim·partial 추천"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 본문 (의교창 글) 직접 인용 또는 thesis 직접 수혜",
+        "[inference] 다중 thesis 노출 (T01·T04·T08 등) — 단일 catalyst 부재 시에도 secular tailwind 강",
+        "[assumption] 마이클 버리 스타일과 부분 정합 — full position보다 partial 권장"
+      ],
+      "narrative_vs_quant_resolution": "마이클 버리는 Contrarian deep value + macro pattern. Crowding/momentum unwind 경계. 기준으로 본 종목 평가 — verdict는 'lean_bullish'. 1Y +25%로 momentum 적정, valuation reasonable — defensive AI exposure로 매력"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns": [
+        "[actual] ETN는 800VDC thesis 직접 노출이나 valuation은 rich — fwd PE·PB 모두 historic 평균 상위 quartile",
+        "[inference] AI capex 사이클 peak 우려 — late-cycle entry risk, position size 신중",
+        "[assumption] 페르소나 철학 일부 부합, 다만 valuation discipline 측면에서 trim·partial 추천"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 본문 (의교창 글) 직접 인용 또는 thesis 직접 수혜",
+        "[inference] 다중 thesis 노출 (T01·T04·T08 등) — 단일 catalyst 부재 시에도 secular tailwind 강",
+        "[assumption] 나심 탈레브 스타일과 부분 정합 — full position보다 partial 권장"
+      ],
+      "narrative_vs_quant_resolution": "나심 탈레브는 Antifragile barbell (90% 안전 + 10% convex options). Black swan 흡수. 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Barbell 90% 안전 layer 후보, downside 보호 양호"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN는 800VDC thesis 직접 노출이나 valuation은 rich — fwd PE·PB 모두 historic 평균 상위 quartile",
+        "[inference] AI capex 사이클 peak 우려 — late-cycle entry risk, position size 신중",
+        "[assumption] 페르소나 철학 일부 부합, 다만 valuation discipline 측면에서 trim·partial 추천"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 본문 (의교창 글) 직접 인용 또는 thesis 직접 수혜",
+        "[inference] 다중 thesis 노출 (T01·T04·T08 등) — 단일 catalyst 부재 시에도 secular tailwind 강",
+        "[assumption] 벤저민 그레이엄 스타일과 부분 정합 — full position보다 partial 권장"
+      ],
+      "narrative_vs_quant_resolution": "벤저민 그레이엄는 Margin of safety + intrinsic value. PE·PB 보수적 기준. 손실 회피 우선. 기준으로 본 종목 평가 — verdict는 'lean_bullish'. PE 25·PB 7.87·div 1% — Graham 기준 borderline value, intrinsic value 안정"
+    },
+    "bill-ackman": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN (Power Management (변압기·배전·데이터센터)) valuation rich — 800VDC narrative은 4-5년 future growth pre-priced, pullback 위험",
+        "[inference] AI capex cycle peak 후 mean-reversion — high beta names 우선 hit 가능성",
+        "[assumption] 표준화·AHJ 승인 지연 시 thesis 이행 timing 2027→2029로 밀릴 risk"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 800VDC thesis (T01-T09)의 직접·강한 노출 — Navitas 어닝콜·NVIDIA roadmap 양 측 인용",
+        "[inference] AI DC 부하 100GW+ 2035 시나리오 → backlog·매출 multi-year compounding",
+        "[assumption] 빌 액크먼 핵심 철학 (Quality compounder + concentrated. Pricing power·cash flow·b)과 정합 — long-cycle hold candidate"
+      ],
+      "narrative_vs_quant_resolution": "빌 액크먼는 Quality compounder + concentrated. Pricing power·cash flow·brand 우선. 기준으로 본 종목 평가 — verdict는 'bullish'. Quality compounder 정확히 부합 — pricing power·brand·moat 명확, AI exposure는 보너스"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN는 800VDC thesis 직접 노출이나 valuation은 rich — fwd PE·PB 모두 historic 평균 상위 quartile",
+        "[inference] AI capex 사이클 peak 우려 — late-cycle entry risk, position size 신중",
+        "[assumption] 페르소나 철학 일부 부합, 다만 valuation discipline 측면에서 trim·partial 추천"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 본문 (의교창 글) 직접 인용 또는 thesis 직접 수혜",
+        "[inference] 다중 thesis 노출 (T01·T04·T08 등) — 단일 catalyst 부재 시에도 secular tailwind 강",
+        "[assumption] 모니쉬 파브라이 스타일과 부분 정합 — full position보다 partial 권장"
+      ],
+      "narrative_vs_quant_resolution": "모니쉬 파브라이는 Few bets, big bets, infrequent. Heads I win, tails I don't lose much. 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Asymmetric upside (AI capex tailwind) + 'tails' downside 보호 양호"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN는 800VDC thesis 직접 노출이나 valuation은 rich — fwd PE·PB 모두 historic 평균 상위 quartile",
+        "[inference] AI capex 사이클 peak 우려 — late-cycle entry risk, position size 신중",
+        "[assumption] 페르소나 철학 일부 부합, 다만 valuation discipline 측면에서 trim·partial 추천"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 본문 (의교창 글) 직접 인용 또는 thesis 직접 수혜",
+        "[inference] 다중 thesis 노출 (T01·T04·T08 등) — 단일 catalyst 부재 시에도 secular tailwind 강",
+        "[assumption] 필립 피셔 스타일과 부분 정합 — full position보다 partial 권장"
+      ],
+      "narrative_vs_quant_resolution": "필립 피셔는 Scuttlebutt + 15-Point quality checklist. 혁신 leader long-term hold. 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Quality checklist 다수 충족, 다만 innovation intensity는 mid"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "key_concerns": [
+        "[actual] ETN (Power Management (변압기·배전·데이터센터)) valuation rich — 800VDC narrative은 4-5년 future growth pre-priced, pullback 위험",
+        "[inference] AI capex cycle peak 후 mean-reversion — high beta names 우선 hit 가능성",
+        "[assumption] 표준화·AHJ 승인 지연 시 thesis 이행 timing 2027→2029로 밀릴 risk"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 800VDC thesis (T01-T09)의 직접·강한 노출 — Navitas 어닝콜·NVIDIA roadmap 양 측 인용",
+        "[inference] AI DC 부하 100GW+ 2035 시나리오 → backlog·매출 multi-year compounding",
+        "[assumption] 라케시 준준왈라 핵심 철학 (Megatrend riding + India/EM secular. Long-cycle compounding.)과 정합 — long-cycle hold candidate"
+      ],
+      "narrative_vs_quant_resolution": "라케시 준준왈라는 Megatrend riding + India/EM secular. Long-cycle compounding. 기준으로 본 종목 평가 — verdict는 'bullish'. Power infra megatrend의 안정 picker — long-cycle compounding 확실"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "key_concerns": [
+        "[actual] ETN는 800VDC thesis 직접 노출이나 valuation은 rich — fwd PE·PB 모두 historic 평균 상위 quartile",
+        "[inference] AI capex 사이클 peak 우려 — late-cycle entry risk, position size 신중",
+        "[assumption] 페르소나 철학 일부 부합, 다만 valuation discipline 측면에서 trim·partial 추천"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 본문 (의교창 글) 직접 인용 또는 thesis 직접 수혜",
+        "[inference] 다중 thesis 노출 (T01·T04·T08 등) — 단일 catalyst 부재 시에도 secular tailwind 강",
+        "[assumption] 스탠리 드러켄밀러 스타일과 부분 정합 — full position보다 partial 권장"
+      ],
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러는 Top-down macro + concentrated positioning. Liquidity·rates·dollar cycl 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Macro: 송배전 CAPEX 100GW+ exposure 강, 다만 NVTS·VRT 대비 leverage 낮음"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns": [
+        "[actual] ETN는 800VDC thesis 직접 노출이나 valuation은 rich — fwd PE·PB 모두 historic 평균 상위 quartile",
+        "[inference] AI capex 사이클 peak 우려 — late-cycle entry risk, position size 신중",
+        "[assumption] 페르소나 철학 일부 부합, 다만 valuation discipline 측면에서 trim·partial 추천"
+      ],
+      "key_opportunities": [
+        "[actual] ETN는 본문 (의교창 글) 직접 인용 또는 thesis 직접 수혜",
+        "[inference] 다중 thesis 노출 (T01·T04·T08 등) — 단일 catalyst 부재 시에도 secular tailwind 강",
+        "[assumption] 애즈워스 다모다란 스타일과 부분 정합 — full position보다 partial 권장"
+      ],
+      "narrative_vs_quant_resolution": "애즈워스 다모다란는 Narrative + numbers. Story-to-DCF discipline. Pricing vs valuation 분리. 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Story-DCF gap 적정 — fair to slight premium, narrative discipline 양호"
+    }
+  }
+}

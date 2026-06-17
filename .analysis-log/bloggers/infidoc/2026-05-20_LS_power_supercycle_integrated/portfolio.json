@@ -1,0 +1,69 @@
+{
+  "computed_at": "2026-05-18T12:51:58.427492+09:00",
+  "start_cash": 100000000.0,
+  "start_date": "2026-05-17",
+  "end_date": "2026-05-17",
+  "n_decisions": 5,
+  "total_trades": 2,
+  "total_buy_value": 10661900.0,
+  "total_sell_value": 0.0,
+  "final_cash": 89338100.0,
+  "end_positions_value": 11239400.0,
+  "final_nav": 100577500.0,
+  "total_return_pct": 0.578,
+  "final_positions": {
+    "006260.KS": {
+      "qty": 11,
+      "avg_cost": 472500.0,
+      "last_price": 525000.0,
+      "market_value": 5775000.0,
+      "unrealized_pnl": 577500.0,
+      "unrealized_return_pct": 11.11
+    },
+    "060370.KS": {
+      "qty": 152,
+      "avg_cost": 35950.0,
+      "last_price": 35950.0,
+      "market_value": 5464400.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-17",
+      "ticker": "006260.KS",
+      "action": "buy",
+      "qty": 11,
+      "price": 472500.0,
+      "cost": 5197500.0,
+      "cash_after": 94802500.0
+    },
+    {
+      "date": "2026-05-17",
+      "ticker": "060370.KS",
+      "action": "buy",
+      "qty": 152,
+      "price": 35950.0,
+      "cost": 5464400.0,
+      "cash_after": 89338100.0
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 7516.32,
+      "end_price": 7516.32,
+      "return_pct": 0.0,
+      "alpha_pct": 0.578
+    },
+    "SPY": {
+      "start_price": 739.17,
+      "end_price": 739.17,
+      "return_pct": 0.0,
+      "alpha_pct": 0.578
+    }
+  },
+  "analysis_mode": "integrated",
+  "slug": "2026-05-20_LS_power_supercycle_integrated",
+  "integrated_note": "Top 5 LS 그룹 포지션 유지. T11(변압기 precedent)이 LS·가온전선·LS ELECTRIC strong tailwind. T12(MSCI catalyst)가 8월 트리거. Risk Manager 변동성-조정 한도 내에서 portfolio 조정."
+}

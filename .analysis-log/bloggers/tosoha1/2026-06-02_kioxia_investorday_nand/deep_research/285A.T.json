@@ -1,0 +1,135 @@
+{
+  "ticker": "285A.T",
+  "name_kr": "키옥시아",
+  "name_en": "Kioxia Holdings Corporation",
+  "sector": "NAND Flash Memory (Japan)",
+  "industry": {
+    "name": "NAND Flash Memory · Enterprise SSD",
+    "overview": "KIOXIA는 NAND 플래시 메모리 pure-play 일본 기업이다. 2024년 12월 도쿄 거래소 재상장 후 AI 데이터센터 enterprise SSD 수요 폭증으로 시총이 약 40배 상승했다. BiCS FLASH 218-layer로 차세대 enterprise QLC SSD에서 경쟁력을 보유하며, 본 IR Day에서 2026~2028년 CAPEX +66% 증액과 22% bit CAGR 가이던스를 공식화했다. SanDisk(과거 한 회사였던 NAND JV 파트너)와 LTA 패턴이 유사하며 글로벌 NAND 5강 중 fab 여유가 있는 유일한 비중국 기업이다.",
+    "competitors": [
+      {
+        "name": "SanDisk",
+        "ticker": "SNDK"
+      },
+      {
+        "name": "Samsung",
+        "ticker": "005930.KS"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU"
+      },
+      {
+        "name": "YMTC",
+        "ticker": "unlisted"
+      }
+    ],
+    "news": []
+  },
+  "five_year_pnl_summary": {
+    "fiscal_year_end": "03-31",
+    "currency": "JPY",
+    "notes": "Recent IPO — FY23 영업적자 (NAND 불황), FY24 흑자전환, FY25 New Phase. 2026 CAPEX +66%"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "NAND 사이클 New Phase + LTA 80%+ coverage + AI SSD 채택 가속. 2027~2028 EPS 추가 +50% 상회.",
+      "key_assumptions": [
+        "NAND ASP 사이클 지속",
+        "BiCS 218L 점유 확대",
+        "LTA discipline"
+      ],
+      "target_price_jpy": 110000
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "NAND 호황 지속되나 1Y +3,594% 선반영으로 변동성 박스권. 실적 surprise에 의존.",
+      "key_assumptions": [
+        "bit CAGR 22%",
+        "마진 안정",
+        "CAPEX 4,700억엔 discipline"
+      ],
+      "target_price_jpy": 75000
+    },
+    "bear": {
+      "prob_pct": 25,
+      "thesis": "NAND cycle bust 회귀 + 중국 YMTC 점유 잠식 + 멀티플 mean-reversion(P/B 30x → 8x).",
+      "key_assumptions": [
+        "사이클 bust 12~18개월",
+        "capex over-build",
+        "경쟁 심화"
+      ],
+      "target_price_jpy": 35000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적 & 4x 가이던스 검증",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "본 IR Day에서 언급한 다음분기 4배 가이던스 실현 여부 — 본 thesis의 핵심 검증"
+    },
+    {
+      "date": "2026-2H",
+      "event": "LTA 구체 계약 체결 공시",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "하이퍼스케일러 LTA 80% coverage 달성 시 supply visibility 확보"
+    },
+    {
+      "date": "2027",
+      "event": "BiCS 7세대 양산 ramp",
+      "type": "product",
+      "expected_impact": "med",
+      "description": "차세대 218L QLC NAND 대량 양산 효율성"
+    },
+    {
+      "date": "2026~2028",
+      "event": "CAPEX 4,700억엔 분기별 집행",
+      "type": "capex",
+      "expected_impact": "med",
+      "description": "규율 있는 CAPEX 정책 유지 여부"
+    }
+  ],
+  "risks": [
+    {
+      "name": "P/B 30x mean-reversion",
+      "probability": "high",
+      "impact": "very_high",
+      "description": "메모리 oligopoly historical P/B median 4~6x 대비 5~7x premium. 사이클 둔화 시 -50% 가능",
+      "mitigation": "earnings growth로 BV 빠르게 누적"
+    },
+    {
+      "name": "NAND 사이클 bust 회귀",
+      "probability": "med",
+      "impact": "high",
+      "description": "메모리 oligopoly 'discipline' 약속은 historically 깨졌다. 2017·2021 패턴 우려",
+      "mitigation": "LTA로 가격 visibility 일부 확보"
+    },
+    {
+      "name": "중국 YMTC 점유 잠식",
+      "probability": "med",
+      "impact": "med",
+      "description": "YMTC 200+ layer 양산 진입 + 정부 보조금. 중저가 segment 위협",
+      "mitigation": "고부가 enterprise SSD 차별화"
+    },
+    {
+      "name": "엔/달러 환변동",
+      "probability": "med",
+      "impact": "med",
+      "description": "수출주 — 엔 강세 시 마진 압박",
+      "mitigation": "수입 원자재 hedging"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_jpy": 77540,
+    "implied_growth_pct": "향후 10년 ROIC 30%+/yr 또는 매출 +25% CAGR 가정 필요",
+    "narrative": "P/B 30x 정당화 위해 향후 10년 net income CAGR 25%+ 필요 — historical NAND oligopoly avg 10% 대비 강한 가정. fair value 추정 시 50% margin of safety 적용 시 P/B 15x 수준 = 38,000 JPY대 (50% downside)."
+  }
+}

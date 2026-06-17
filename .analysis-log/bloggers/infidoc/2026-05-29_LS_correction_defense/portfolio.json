@@ -1,0 +1,100 @@
+{
+  "computed_at": "2026-05-29T23:33:54.482979+09:00",
+  "start_cash": 100000000.0,
+  "start_date": "2026-05-29",
+  "end_date": "2026-05-29",
+  "n_decisions": 5,
+  "total_trades": 4,
+  "total_buy_value": 21634450.0,
+  "total_sell_value": 0.0,
+  "final_cash": 78365550.0,
+  "end_positions_value": 21634450.0,
+  "final_nav": 100000000.0,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "000500.KS": {
+      "qty": 17,
+      "avg_cost": 322000.0,
+      "last_price": 322000.0,
+      "market_value": 5474000.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "006260.KS": {
+      "qty": 12,
+      "avg_cost": 446000.0,
+      "last_price": 446000.0,
+      "market_value": 5352000.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "010120.KS": {
+      "qty": 22,
+      "avg_cost": 241500.0,
+      "last_price": 241500.0,
+      "market_value": 5313000.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "322180.KQ": {
+      "qty": 839,
+      "avg_cost": 6550.0,
+      "last_price": 6550.0,
+      "market_value": 5495450.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-29",
+      "ticker": "000500.KS",
+      "action": "buy",
+      "qty": 17,
+      "price": 322000.0,
+      "cost": 5474000.0,
+      "cash_after": 94526000.0
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "006260.KS",
+      "action": "buy",
+      "qty": 12,
+      "price": 446000.0,
+      "cost": 5352000.0,
+      "cash_after": 89174000.0
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "010120.KS",
+      "action": "buy",
+      "qty": 22,
+      "price": 241500.0,
+      "cost": 5313000.0,
+      "cash_after": 83861000.0
+    },
+    {
+      "date": "2026-05-29",
+      "ticker": "322180.KQ",
+      "action": "buy",
+      "qty": 839,
+      "price": 6550.0,
+      "cost": 5495450.0,
+      "cash_after": 78365550.0
+    }
+  ],
+  "benchmark_comparison": {
+    "^KS11": {
+      "start_price": 8476.15,
+      "end_price": 8476.15,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    },
+    "^KQ11": {
+      "start_price": 1074.8,
+      "end_price": 1074.8,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "blogger": "doctordk",
+  "blog_title": "휴머노이드 시대의 핵심 부품 공급자 (feat. 현대모비스)",
+  "blog_url": "https://blog.naver.com/doctordk/224303836338",
+  "published_at": "2026-06-02",
+  "extracted_at": "2026-06-02",
+  "theses": [
+    {
+      "id": "T1",
+      "claim_id": "T1",
+      "title": "Boston Dynamics 5세대 Atlas 부품 표준화 + 대량생산 구조",
+      "claim": "CES 2026에서 공개될 양산형 Boston Dynamics 5세대 Atlas는 단 2종류의 Body Actuator만으로 총 31개를 탑재하는 부품 표준화·단순화 설계를 채택했다. 액추에이터 종류를 줄여 대량생산이 가능한 구조를 만든 것이 핵심 변곡점이며, 이는 'lab demo'에서 'industrial product'로 넘어가는 임계점을 의미한다.",
+      "type": "factual",
+      "timeframe": "near_term",
+      "horizon_months": 6,
+      "supporting_evidence": [
+        "CES 2026 공개 예정",
+        "Body Actuator 2종류 × 31개 = 부품 표준화",
+        "단순화 = 대량생산 전제조건"
+      ],
+      "verifiability": "high",
+      "confidence": 0.78,
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "claim_id": "T2",
+      "title": "현대모비스의 미국 현지 액추에이터 양산 = 휴머노이드 공급망의 critical node",
+      "claim": "현대모비스는 Boston Dynamics 5세대 Atlas용 액추에이터를 미국 현지 생산기지에서 양산한다. 자동차 산업에서 수십 년간 축적한 대량생산 노하우를 로봇 액추에이터로 전이하는 사례로, '기술 보유 기업'과 '양산 능력 기업'의 가치는 다르게 평가되어야 한다는 변곡점이 형성된다.",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "horizon_months": 12,
+      "supporting_evidence": [
+        "미국 현지 생산기지 입지",
+        "자동차 부품 대량생산 노하우 전이",
+        "Boston Dynamics와 직접 supply 계약"
+      ],
+      "verifiability": "medium",
+      "confidence": 0.72,
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "claim_id": "T3",
+      "title": "2026 H2 미국 세일즈 로드쇼 — Google DeepMind 첫 고객 + 5개 산업군 확장",
+      "claim": "Boston Dynamics와 현대차그룹은 2026년 하반기 미국 세일즈 로드쇼를 시행하며, 첫 고객으로 Google DeepMind가 언급된다. 이후 자동차 OEM, 물류창고, 반도체 공장, 에너지 설비, 건설 현장 등 5개 산업군으로 시장을 확대한다. 휴머노이드 평가 기준이 '얼마나 똑똑한가'에서 '몇 대를 팔 수 있는가'로 전환된다.",
+      "type": "predictive",
+      "timeframe": "near_term",
+      "horizon_months": 9,
+      "supporting_evidence": [
+        "2026 H2 로드쇼 일정 명시",
+        "Google DeepMind first reference customer",
+        "5개 vertical (auto, logistics, semi, energy, construction)"
+      ],
+      "verifiability": "high",
+      "confidence": 0.68,
+      "importance": "high"
+    },
+    {
+      "id": "T4",
+      "claim_id": "T4",
+      "title": "메리츠 2028 액추에이터 350K 추정 → 매출 5,250억 / EBITDA 1,575억",
+      "claim": "메리츠증권은 현대모비스의 2028년 액추에이터 생산목표를 35만 개로 제시했으며, 매출 5,250억원·EBITDA 1,575억원(30% 마진)을 추정한다. 현시점에서는 절대 규모가 작지만, 시장이 평가하는 것은 현재 이익이 아니라 미래 TAM과 점유율이라는 점이 핵심이다.",
+      "type": "predictive",
+      "timeframe": "long_term",
+      "horizon_months": 30,
+      "supporting_evidence": [
+        "350,000 units annually by 2028",
+        "Revenue 525B KRW (~$390M USD)",
+        "EBITDA 158B KRW (~$117M USD) implies 30% margin"
+      ],
+      "verifiability": "medium",
+      "confidence": 0.55,
+      "importance": "high"
+    },
+    {
+      "id": "T5",
+      "claim_id": "T5",
+      "title": "현대모비스 supply 확장 — Hand Actuator + 센서 + 제어기까지 가능",
+      "claim": "현대모비스는 Body Actuator를 시작으로 향후 Hand Actuator, 센서, 제어기까지 supply 영역을 확대할 수 있다. 휴머노이드 부품 중 가장 부가가치가 높은 정밀 부품군을 captive 공급망 안에 가져오는 시나리오로, 단일 부품 supplier에서 multi-component platform supplier로 재평가될 가능성이 있다.",
+      "type": "predictive",
+      "timeframe": "long_term",
+      "horizon_months": 36,
+      "supporting_evidence": [
+        "Body Actuator 양산 → ramp-up base",
+        "Hand Actuator (정밀 grippers) — 휴머노이드 차세대 핵심",
+        "센서·제어기 — 자동차 부품 노하우 직접 전이 가능"
+      ],
+      "verifiability": "low",
+      "confidence": 0.5,
+      "importance": "high"
+    },
+    {
+      "id": "T6",
+      "claim_id": "T6",
+      "title": "자동차 부품 → 자동차+로봇 플랫폼 기업 재평가 (rerating thesis)",
+      "claim": "현대모비스는 자동차 부품 기업으로 평가받던 시장 인식에서 자동차와 로봇을 동시에 생산하는 플랫폼 기업으로 재평가받기 시작한다. 자동차 부품 multiple (P/E 6-8배) 대신 robotics platform multiple (P/E 15-25배)이 일부 적용되는 multiple expansion 시나리오가 가능하다.",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "horizon_months": 18,
+      "supporting_evidence": [
+        "Auto Parts P/E baseline: 6-8x",
+        "Robotics platform P/E: 15-25x",
+        "복합 multiple expansion potential"
+      ],
+      "verifiability": "low",
+      "confidence": 0.45,
+      "importance": "core"
+    },
+    {
+      "id": "T7",
+      "claim_id": "T7",
+      "title": "한국 휴머노이드 ecosystem 동반 수혜 — 현대차그룹 captive + 레인보우·두산로보틱스",
+      "claim": "현대모비스의 Boston Dynamics 액추에이터 supply가 가시화되면 한국 휴머노이드 ecosystem 전체가 재평가된다. 현대차(BD 80% 모회사), 현대로템(방산로봇 협업), 레인보우로보틱스(삼성전자 captive), 두산로보틱스(코스피 신규) 등 한국 robotics 종목이 동반 multiple expansion을 받을 가능성이 있다.",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "horizon_months": 12,
+      "supporting_evidence": [
+        "현대차 80% Boston Dynamics 지분",
+        "삼성전자 ↔ 레인보우로보틱스",
+        "두산그룹 ↔ 두산로보틱스 cobot leader"
+      ],
+      "verifiability": "medium",
+      "confidence": 0.58,
+      "importance": "medium"
+    },
+    {
+      "id": "T8",
+      "claim_id": "T8",
+      "title": "Tesla Optimus 경쟁 — 단가·양산속도·verticalization 3-axis race",
+      "claim": "Tesla Optimus가 2026~2027 양산 ramp 중이며 현대모비스/Boston Dynamics와 직접 경쟁 구도가 형성된다. 단가(Tesla in-house actuator), 양산속도(Texas Gigafactory), 수직계열화(Tesla full stack vs 현대모비스 supply only) 3축에서 우열이 갈리며, Tesla 우위 시 현대모비스 thesis는 약화될 수 있다.",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "horizon_months": 18,
+      "supporting_evidence": [
+        "Tesla Optimus Gen 3 시연 일정 (2026)",
+        "Tesla in-house actuator + 자체 AI",
+        "현대모비스는 supply only — full-stack 아님"
+      ],
+      "verifiability": "medium",
+      "confidence": 0.5,
+      "counter_thesis": true,
+      "importance": "counter"
+    }
+  ],
+  "implicit_thesis_summary": "현대모비스는 자동차 부품 producer에서 휴머노이드 액추에이터 platform supplier로 재평가받는 변곡점에 있다. CES 2026 5세대 Atlas 양산 + 2026 H2 미국 세일즈 로드쇼 + Google DeepMind 첫 고객 + 메리츠 350K 액추에이터 추정이라는 4가지 catalyst가 단기·중기에 집중되며, Hand Actuator·센서·제어기로 supply 확장 시 long-term TAM이 크게 확장된다. 다만 Tesla Optimus 수직계열화 경쟁이 가장 큰 counter-thesis다.",
+  "total_theses": 8
+}

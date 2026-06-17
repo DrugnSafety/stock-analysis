@@ -1,0 +1,296 @@
+{
+  "industry": {
+    "name": "지주회사 / SK하이닉스 NAV-Discount Play",
+    "overview": "SK스퀘어는 SK텔레콤 분할회사 (2021)로 SK하이닉스 20.07% 지분 보유 + 11번가, 웨이브, SK쉴더스 등 ICT 자회사 다수. NAV (순자산가치) 의 ~40% 할인 거래 — 한국 holding company discount 평균. 본문 thesis는 '하이닉스를 -40% 가격에 사는 우회 베팅' 으로 글로벌 retail 에 직관적 번역 가능. 일본 SoftBank Group 과 유사한 구조 — 외국인 retail 의 NAV-narrowing trade 후보.",
+    "competitors": [
+      {
+        "name": "SK스퀘어",
+        "ticker": "402340.KS",
+        "share_pct": 100.0,
+        "moat": "SK하이닉스 20.07% 지분 — 직접 지배"
+      },
+      {
+        "name": "SoftBank Group",
+        "ticker": "9984.T",
+        "share_pct": 0.0,
+        "moat": "NAV play sister case — 외국인 retail 친화"
+      },
+      {
+        "name": "삼성물산",
+        "ticker": "028260.KS",
+        "share_pct": 0.0,
+        "moat": "삼성전자 NAV play"
+      },
+      {
+        "name": "LG",
+        "ticker": "003550.KS",
+        "share_pct": 0.0,
+        "moat": "LG 그룹 holding"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-18",
+        "title": "SK스퀘어 자사주 매입 1조원 발표",
+        "source": "DART 공시",
+        "summary": "ROE 개선 + NAV discount narrowing 의도"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "11번가 IPO 재추진 검토",
+        "source": "보도",
+        "summary": "NAV 분리 가치화 catalyst"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "웨이브 가입자 +25% YoY",
+        "source": "회사 발표",
+        "summary": "콘텐츠 segment value-up"
+      },
+      {
+        "date": "2026-01-30",
+        "title": "정부 value-up program 가이드라인 발표",
+        "source": "기재부",
+        "summary": "지주사 discount 개선 인센티브"
+      },
+      {
+        "date": "2025-12-10",
+        "title": "외국인 보유율 28.5% → 31.2%",
+        "source": "KRX 통계",
+        "summary": "외국인 retail flow 직접 진입"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 22,
+      "cagr_pct": 8,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 6850,
+        "op_income": 920,
+        "op_margin": 13.4,
+        "net_income": 5400,
+        "net_margin": 78.8
+      },
+      {
+        "year": 2022,
+        "revenue": 7100,
+        "op_income": 1050,
+        "op_margin": 14.8,
+        "net_income": 1850,
+        "net_margin": 26.1
+      },
+      {
+        "year": 2023,
+        "revenue": 7500,
+        "op_income": 1250,
+        "op_margin": 16.7,
+        "net_income": -3200,
+        "net_margin": -42.7
+      },
+      {
+        "year": 2024,
+        "revenue": 8100,
+        "op_income": 1480,
+        "op_margin": 18.3,
+        "net_income": 7800,
+        "net_margin": 96.3
+      },
+      {
+        "year": 2025,
+        "revenue": 8800,
+        "op_income": 1720,
+        "op_margin": 19.5,
+        "net_income": 12500,
+        "net_margin": 142.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 24500,
+      "total_liab": 8500,
+      "equity": 16000,
+      "cash": 3200,
+      "debt": 4500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 1500,
+      "fcf_5y_avg": 950,
+      "capex_intensity": 0.06
+    },
+    "peer_compare": [
+      {
+        "ticker": "402340.KS",
+        "name": "SK스퀘어",
+        "pe": 6.0,
+        "pb": 0.85,
+        "roe": 18.5,
+        "div_yield": 1.1
+      },
+      {
+        "ticker": "9984.T",
+        "name": "SoftBank",
+        "pe": 12.5,
+        "pb": 1.05,
+        "roe": 8.5,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "028260.KS",
+        "name": "삼성물산",
+        "pe": 8.5,
+        "pb": 0.65,
+        "roe": 7.8,
+        "div_yield": 2.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 1400000,
+      "thesis": "NAV discount -40% → -25% narrowing + SK하이닉스 +20% 동반 상승 + 11번가 IPO catalyst 동시 작동"
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 1100000,
+      "thesis": "NAV discount -38% 유지, 하이닉스 +15% 동반 — 안정적 NAV 추적"
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 700000,
+      "thesis": "11번가 적자 지속 + 자회사 valuation hit + SK하이닉스 -20% pullback"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "11번가 IPO 본격 추진",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-12",
+      "event": "SK하이닉스 ADR 상장 → SK스퀘어 NAV 가시화 가속",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q2",
+      "event": "자사주 매입 1조원 실행",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "value-up program 정책 backstop",
+      "type": "policy",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026-Q4",
+      "event": "외국인 retail '하이닉스 우회' narrative 확산",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "SK하이닉스 가격 -20% pullback",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 30% / 심각도 high",
+      "mitigation": "NAV discount narrowing 부분 흡수"
+    },
+    {
+      "name": "11번가 적자 지속 — 자회사 valuation hit",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 40% / 심각도 medium",
+      "mitigation": "IPO 시 분리 정리 가능"
+    },
+    {
+      "name": "NAV discount 구조적 sustained",
+      "probability": "high",
+      "impact": "med",
+      "description": "확률 50% / 심각도 medium",
+      "mitigation": "한국 chaebol historical pattern — 단기 narrowing 어려움"
+    },
+    {
+      "name": "SK Group 거버넌스 이슈",
+      "probability": "low",
+      "impact": "med",
+      "description": "확률 20% / 심각도 medium",
+      "mitigation": "역사적으로 SK 분할/합병 빈번"
+    },
+    {
+      "name": "1Y +985% 단기 과열",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 35% / 심각도 high",
+      "mitigation": "NAV-discount 가치 backstop"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "NAV 40% 할인 영어 한문장 번역 직관성",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD2",
+      "claim": "SK하이닉스 indirect leverage",
+      "type": "company",
+      "evidence": "지속 기간: 6-24개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD3",
+      "claim": "11번가 IPO 자회사 분리 catalyst",
+      "type": "company",
+      "evidence": "지속 기간: 12-18개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD4",
+      "claim": "value-up program 정책 backstop",
+      "type": "company",
+      "evidence": "지속 기간: 12-30개월",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-18",
+      "type": "주요사항보고",
+      "title": "자사주 매입 1조원 결의",
+      "impact": "-"
+    },
+    {
+      "date": "2026-03-30",
+      "type": "사업보고서",
+      "title": "SK하이닉스 지분 20.07% 평가가치 공시",
+      "impact": "-"
+    },
+    {
+      "date": "2026-02-25",
+      "type": "정기보고서 (4Q25)",
+      "title": "NAV $44B 추정 — 시가총액 대비 -40% 할인",
+      "impact": "-"
+    }
+  ]
+}

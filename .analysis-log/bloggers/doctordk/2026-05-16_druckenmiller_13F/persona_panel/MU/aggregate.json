@@ -1,0 +1,395 @@
+{
+  "ticker": "MU",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "strong_bullish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.67,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (2/3)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "strong_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "strong_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "cyclical industry 변동성",
+      "frequency": 7,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "ben-graham",
+        "peter-lynch",
+        "phil-fisher",
+        "nassim-taleb",
+        "bill-ackman"
+      ]
+    },
+    {
+      "theme": "1Y +661% 단기 과열",
+      "frequency": 5,
+      "personas": [
+        "michael-burry",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "ben-graham",
+        "charlie-munger"
+      ]
+    }
+  ],
+  "unique_alpha": [
+    {
+      "persona_id": "michael-burry",
+      "verdict": "lean_bullish",
+      "alpha": "deep value (P/E 7x) + HBM secular 차별화"
+    }
+  ],
+  "aggregated_at": "2026-05-17T11:45:09.326751+09:00",
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 사이클 산업은 Lynch 'turnaround' 카테고리 — risk 큼",
+        "[inference] PEG meaningless (cyclical EPS)",
+        "[actual] 변동성 62%로 individual investor 부적합"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'turnaround' 카테고리 위험 큼",
+        "[actual] HBM 차별화 가능",
+        "[inference] cycle 회복"
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 사이클 회복 + AI secular = double catalyst — EM 투자자 매력",
+        "[inference] India 메모리 사업 확장 시 partnership 가능성",
+        "[actual] cycle risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 사이클 회복 + AI secular dual catalyst",
+        "[inference] India 메모리 partnership 잠재",
+        "[actual] EM-friendly P/E 7x"
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] 'memory는 commodity business' — Munger 회피 분야",
+        "[inference] cycle peak risk",
+        "[actual] HBM 외 conventional DRAM/NAND 마진 압박"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM이 'memory specialty'로 전환 — 단순 commodity 탈피",
+        "[actual] 사이클 회복",
+        "[inference] 'sit on hands and wait'"
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] forward P/E 7x = '큰 downside 제한' + 사이클 회복 시 +50-100% upside — classic asymmetric",
+        "[inference] cycle peak risk는 진입 timing 문제",
+        "[actual] HBM 매출 mix 확대로 'memory cyclicality' 일부 해소"
+      ],
+      "key_opportunities_top3": [
+        "[actual] downside -25%(cycle) / upside +80-150% — 강한 asymmetric",
+        "[inference] HBM secular + cycle dual driver",
+        "[actual] FCF $15B 강력"
+      ]
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] cyclical 산업 — 'normalized EPS' 추정 어려움 (Buffett은 사이클 회피)",
+        "[inference] capex $14B/yr — capital-intensive, ROIC 변동성 큼",
+        "[actual] HBM 경쟁(SK하이닉스·삼성) 격화"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM 사업이 'memory commodity'에서 'specialty' 전환 중",
+        "[actual] FCF $15B, BS 건강",
+        "[inference] AI 추론 secular demand"
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "strong_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] 추가 매수 — '추론 시대' macro thesis",
+        "[inference] cycle 회복 + AI secular dual driver",
+        "[actual] FCF 회복 가속화"
+      ],
+      "key_opportunities_top3": [
+        "[actual] '추가 매수 conviction'",
+        "[inference] 추론 시대 메모리 macro",
+        "[actual] cycle + secular dual"
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "빌 액크만",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] cyclical은 Ackman 회피 분야",
+        "[inference] HBM 사업이 'compounding' 측면 매력 — 일부 평가",
+        "[actual] FCF margin 30% 사이클 의존"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM 사업의 '컴파운딩 가능성'",
+        "[actual] FCF $15B 회복",
+        "[inference] cycle 우려 잔존"
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[actual] commodity 산업은 Fisher 회피 — 'low quality compounding'",
+        "[inference] HBM 사업이 '진정한 compounding'으로 진화 중",
+        "[actual] R&D intensity 9% (semiconductor 평균)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM이 'memory specialty' 전환",
+        "[actual] R&D 9% 평균 수준",
+        "[inference] AI memory leader 가능성"
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] forward P/E 7x = 'deep value' — Burry 좋아하는 setup",
+        "[inference] '메모리 사이클 종료' 일부 시그널이지만 AI thesis로 cycle 연장 가능",
+        "[actual] 1Y +661% — momentum 우려"
+      ],
+      "key_opportunities_top3": [
+        "[actual] forward P/E 7x — 'deep value cyclical' 매력",
+        "[inference] HBM 차별화 진행",
+        "[actual] BS clean"
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] forward P/E 7x — Graham 'cheap enough'",
+        "[inference] cycle peak earnings on P/E 7x 라는 평가는 'peak EPS'에 대한 의문",
+        "[actual] net-net 기준은 충족 X (cash < liabilities)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] forward P/E 7x — 'deep value' 영역",
+        "[inference] BS clean, capex 회복 진행",
+        "[actual] HBM secular component"
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] HBM은 'enabling technology' — AI inference disruption 핵심",
+        "[inference] AI capex 폭증 + 사이클 회복 더블 베타",
+        "[actual] 단 commodity 측면 잔존"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM disruption + memory 사이클 dual",
+        "[inference] '5Y 3x' 가능성",
+        "[actual] AI 추론 enabling tech"
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "아스왓 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] 'cyclical normalized EPS' 추정 — peak EPS×0.6×forward P/E 12x = fair value $700+ vs 현재 $725 fair",
+        "[inference] HBM가 secular component로 기여 시 추가 upside",
+        "[actual] cycle 위험도 명확히 가격 반영"
+      ],
+      "key_opportunities_top3": [
+        "[actual] normalized EPS DCF로 fair value $700+ — 현재 $725 fair",
+        "[inference] HBM secular 추가 upside",
+        "[actual] cycle 위험 가격 반영"
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] cycle peak 진입 — '깨지기 쉬운 기업'",
+        "[inference] capex spike → cycle 정점 패턴",
+        "[actual] HBM 의존도 집중"
+      ],
+      "key_opportunities_top3": [
+        "[inference] cyclical 본질 — 'mean reversion option'",
+        "[actual] HBM 차별화 진행",
+        "[inference] cycle bottom asymmetric"
+      ]
+    }
+  }
+}

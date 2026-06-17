@@ -1,0 +1,263 @@
+{
+  "industry": {
+    "name": "메모리 반도체 (HBM challenger) + Foundry + Consumer Electronics",
+    "overview": "삼성전자는 글로벌 DRAM #2(약 40% 점유율) + NAND #1 + 시스템반도체(Foundry) + Mobile·CE 종합 IT업체. HBM 시장에서는 SK하이닉스 대비 후발주자였으나 2025-2026년 HBM3E 12-Hi qualification 진행 중. 의교창 thesis와 정렬: HBM 공급 부족 시 catch-up 수혜자 + foundry에서도 advanced node CoWoS-competitor 위치. Foundry 분할 가능성도 거론 (Stratechery 등).",
+    "competitors": [
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 40.0,
+        "moat": "수직계열화 + 자금력 + foundry+memory dual track. HBM3E catch-up 중"
+      },
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS",
+        "share_pct": 35.0,
+        "moat": "HBM 선도 (53% HBM share) + commodity DRAM 25% share"
+      },
+      {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "share_pct": 22.0,
+        "moat": "미국 본토 + CHIPS Act + custom HBM"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 0.0,
+        "moat": "Foundry 비교 — Samsung Foundry는 advanced node 점유율 10-15%, TSMC 60%+ 압도적"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-25",
+        "title": "HBM3E 12-Hi NVIDIA Blackwell 공급 qualification 통과 (보도)",
+        "source": "Bloomberg",
+        "summary": "2026 Q3-Q4 ramp 가능, Rubin 공급은 2027 H1로 지연",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "1Q26 영업이익 ₩9.5조 (yoy +160%) — 반도체 ₩6.8조",
+        "source": "DART 분기보고서",
+        "summary": "메모리 회복 + foundry 적자 축소",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-10",
+        "title": "평택 P5 fab 1단계 가동 — HBM4 양산 라인",
+        "source": "press release",
+        "summary": "$20B 투자, 2027 양산",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "Foundry 분할 검토 보도 (denied)",
+        "source": "Reuters",
+        "summary": "장기적으로 Memory와 Foundry 분리 가능성 거론, 회사는 공식 denial",
+        "impact": "○"
+      },
+      {
+        "date": "2026-02-28",
+        "title": "Mobile/CE 사업부 수익성 개선",
+        "source": "press release",
+        "summary": "Galaxy S26 출시 + AI 기능 강화로 ASP +12%",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "source": "DART 사업보고서 (K-IFRS → US GAAP equivalent)",
+    "currency": "KRW",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 279.6,
+        "op_income": 51.63,
+        "net_income": 39.91,
+        "op_margin": 18.5,
+        "net_margin": 14.3
+      },
+      {
+        "year": 2022,
+        "revenue": 302.23,
+        "op_income": 43.38,
+        "net_income": 55.65,
+        "op_margin": 14.4,
+        "net_margin": 18.4
+      },
+      {
+        "year": 2023,
+        "revenue": 258.94,
+        "op_income": 6.57,
+        "net_income": 14.47,
+        "op_margin": 2.5,
+        "net_margin": 5.6
+      },
+      {
+        "year": 2024,
+        "revenue": 300.87,
+        "op_income": 32.73,
+        "net_income": 28.49,
+        "op_margin": 10.9,
+        "net_margin": 9.5
+      },
+      {
+        "year": 2025,
+        "revenue": 335.4,
+        "op_income": 52.1,
+        "net_income": 42.8,
+        "op_margin": 15.5,
+        "net_margin": 12.8
+      }
+    ],
+    "bs_snapshot_2025e": {
+      "total_assets_tn": 540.5,
+      "total_liab_tn": 102.3,
+      "total_equity_tn": 438.2,
+      "cash_tn": 96.4,
+      "debt_tn": 24.8,
+      "net_debt_tn": -71.6
+    },
+    "trend_narrative": "5Y 매출 CAGR +4.7%, 영업이익 CAGR +0% (cyclical). 2023년 cycle 저점(OPM 2.5%) → 2025E OPM 15.5%로 회복 중이나 SK하이닉스(43%)와 큰 차이 — HBM mix 미흡. Net cash position ₩71.6조로 자금 cushion 매우 크나 ROE 9% 수준으로 SK하이닉스(40%+) 대비 capital efficiency 약함.",
+    "valuation_summary": "Forward PE 6.5× (yfinance live, 2026-06-02) — 역사 multiple 9-13× 대비 discount. PB 1.5× / EV/EBITDA 3.8× / Div yield 2.0%. 가치주 성격이 더 강함."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.3,
+      "description": "HBM3E 점유율 35-40%로 catch-up 성공 + foundry advanced node 점유율 회복. FY26 영업이익 ₩65조+. Forward PE 9× 적용 시 시가총액 ₩600조 (+30-40%)",
+      "key_drivers": [
+        "HBM3E qualification 가속화",
+        "Foundry 2nm 진입",
+        "Mobile/CE 마진 회복"
+      ]
+    },
+    "base": {
+      "probability": 0.5,
+      "description": "FY26 영업이익 ₩55조 컨센서스 hit. HBM 점유율 28-32% (현재 ~25%에서 점진 catch-up). Forward PE 7× → 시가총액 +10-20%",
+      "key_drivers": [
+        "HBM3E 12-Hi 양산 안정화",
+        "Foundry 적자 축소"
+      ]
+    },
+    "bear": {
+      "probability": 0.2,
+      "description": "HBM3E catch-up 실패 + foundry 추가 적자 + Mobile 시장 둔화. FY26 영업이익 ₩35조로 -30% 하락. PE de-rating, 시가총액 -20%",
+      "key_drivers": [
+        "HBM qualification 추가 지연",
+        "Apple iPhone foundry 발주 회수",
+        "Galaxy 출하 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07-31",
+      "name": "2Q26 실적 + HBM 가이던스",
+      "impact": "high",
+      "description": "HBM3E 매출 비중과 Rubin 공급 timeline 확인"
+    },
+    {
+      "date": "2026-09-15",
+      "name": "HBM4 sample shipment 가능 시점",
+      "impact": "high",
+      "description": "SK하이닉스 대비 약 3-6개월 lag"
+    },
+    {
+      "date": "2026-12-31",
+      "name": "Foundry 분할 결정 (가능성)",
+      "impact": "high",
+      "description": "시장 가치 unlock 가능하나 미확정"
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Galaxy S26 후속 라인 발표",
+      "impact": "medium",
+      "description": "Mobile 마진 trajectory"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM catch-up 실패",
+      "probability": "medium",
+      "impact": "high",
+      "description": "SK하이닉스 대비 2-3 generation 뒤처지면 HBM revenue gap 영구화"
+    },
+    {
+      "name": "Foundry 지속 적자",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "Advanced node (3nm·2nm) yield 미흡 시 TSMC와 격차 확대"
+    },
+    {
+      "name": "Mobile 시장 둔화",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "Apple·Xiaomi 등 경쟁 + China 수요 둔화"
+    },
+    {
+      "name": "한국 K-반도체 정책 변경",
+      "probability": "low",
+      "impact": "medium",
+      "description": "K-Chips Act 축소"
+    },
+    {
+      "name": "AI capex air pocket",
+      "probability": "medium",
+      "impact": "high",
+      "description": "2027년 hyperscaler 둔화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T02",
+      "claim": "AI 공급 부족이 본질",
+      "current_status": "confirmed",
+      "evidence": "삼성도 HBM3E 12-Hi 100% allocated"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "CoWoS·HBM·전력 3대 병목",
+      "current_status": "confirmed",
+      "evidence": "삼성도 Memory + Foundry capex의 80%를 HBM·Advanced packaging 분배"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "SK하이닉스 5년 2배 (간접 적용)",
+      "current_status": "indirect",
+      "evidence": "삼성도 평택 P4·P5에서 동일 패턴 — capacity expansion이 demand follow"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "효율화 → 더 많은 수요 (간접)",
+      "current_status": "pending",
+      "evidence": "삼성 LPDDR·DRAM 매출 trajectory 확인 필요"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "수요 20-30% vs 공급 15%",
+      "current_status": "pending",
+      "evidence": "삼성 HBM 매출 trajectory ('catch-up speed') 확인"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "분기보고서",
+      "summary": "1Q26 영업이익 ₩9.5조 — 반도체 ₩6.8조",
+      "title": "1Q26 영업이익 ₩9.5조 — 반도체 ₩6.8조"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "사업보고서 (FY25)",
+      "summary": "FY25 매출 ₩335.4조 — HBM 매출 비중 9% (vs SK 65%)",
+      "title": "FY25 매출 ₩335.4조 — HBM 매출 비중 9% (vs SK 65%)"
+    },
+    {
+      "date": "2026-02-10",
+      "type": "주요사항보고서",
+      "summary": "평택 P5 fab $20B 투자 결의",
+      "title": "평택 P5 fab $20B 투자 결의"
+    }
+  ]
+}

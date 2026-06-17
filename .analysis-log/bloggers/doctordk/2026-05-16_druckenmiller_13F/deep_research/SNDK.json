@@ -1,0 +1,302 @@
+{
+  "industry": {
+    "name": "NAND Flash 메모리 (스토리지)",
+    "overview": "NAND Flash 메모리 — 데이터센터 SSD·consumer SSD·mobile storage 주력. AI 추론 시대 '데이터 폭증'으로 (1) 데이터센터 SSD 비중 25% → 35% 확대, (2) high-density QLC NAND 수요 폭발, (3) vector DB·checkpoint storage 신규 demand. SanDisk(SNDK)는 Western Digital에서 2026년 2월 spin-off — pure-play NAND focus로 재출범. 1Y +3372% 수익률은 spin-off 효과로 split-adjusted 검증 필요.",
+    "competitors": [
+      {
+        "name": "SanDisk",
+        "ticker": "SNDK",
+        "share_pct": 17.0,
+        "moat": "post-spin pure-play NAND focus, BiCS 8 (218-layer) 양산"
+      },
+      {
+        "name": "Samsung",
+        "ticker": "005930.KS",
+        "share_pct": 33.0,
+        "moat": "NAND 1위 + 자체 controller·SSD"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 21.0,
+        "moat": "Solidigm 인수 후 enterprise SSD 강화"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 12.0,
+        "moat": "DRAM·NAND·HBM 통합 IDM"
+      },
+      {
+        "name": "Kioxia",
+        "ticker": "285A.T",
+        "share_pct": 14.0,
+        "moat": "NAND 원조, Western Digital 합작"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-10",
+        "title": "SanDisk first standalone earnings (post-spin)",
+        "source": "SNDK IR",
+        "summary": "1Q26 매출 $2.6B, NAND ASP +18% QoQ"
+      },
+      {
+        "date": "2026-02-25",
+        "title": "Western Digital spin-off complete — SNDK ticker 출범",
+        "source": "SEC 8-K",
+        "summary": "WDC가 NAND 사업을 SanDisk(SNDK)로 spin-off, 기존 주주에게 distribute"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "Druckenmiller 13F: SNDK 신규 매수",
+        "source": "SEC 13F",
+        "summary": "Duquesne 약 $80M 추정"
+      }
+    ],
+    "impact_tagging": "+ (spin-off catalyst + AI tailwind)"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 9000,
+        "op_income": 1800,
+        "op_margin": 20.0,
+        "net_income": 1200,
+        "net_margin": 13.3,
+        "_note": "WDC NAND segment baseline"
+      },
+      {
+        "year": 2023,
+        "revenue": 6500,
+        "op_income": -800,
+        "op_margin": -12.3,
+        "net_income": -1200,
+        "net_margin": -18.5
+      },
+      {
+        "year": 2024,
+        "revenue": 5500,
+        "op_income": -1500,
+        "op_margin": -27.3,
+        "net_income": -1800,
+        "net_margin": -32.7
+      },
+      {
+        "year": 2025,
+        "revenue": 9000,
+        "op_income": 1200,
+        "op_margin": 13.3,
+        "net_income": 700,
+        "net_margin": 7.8
+      },
+      {
+        "year": 2026,
+        "revenue": 10500,
+        "op_income": 2300,
+        "op_margin": 21.9,
+        "net_income": 1700,
+        "net_margin": 16.2,
+        "_note": "FY26 컨센서스 (1Q $2.6B annualized + AI tailwind)"
+      }
+    ],
+    "bs_snapshot": {
+      "year": 2025,
+      "total_assets": 13000,
+      "total_debt": 3500,
+      "cash": 1800,
+      "shareholders_equity": 6500,
+      "debt_to_equity": 0.54
+    },
+    "cf_summary": {
+      "year": 2025,
+      "ocf": 1500,
+      "fcf": -500,
+      "capex": 2000,
+      "fcf_margin": -5.6,
+      "shareholder_returns": 0,
+      "_note": "post-spin transition phase — capex heavy"
+    },
+    "peer_compare": [
+      {
+        "ticker": "SNDK",
+        "fwd_pe": 8.2,
+        "pb": 5,
+        "ev_ebitda": 6,
+        "fcf_yield": 1.5,
+        "roe": 12
+      },
+      {
+        "ticker": "MU",
+        "fwd_pe": 7.1,
+        "pb": 4.0,
+        "ev_ebitda": 5,
+        "fcf_yield": 1.8,
+        "roe": 21
+      },
+      {
+        "ticker": "000660.KS",
+        "fwd_pe": 8.5,
+        "pb": 2.8,
+        "ev_ebitda": 4,
+        "fcf_yield": 3.0,
+        "roe": 33
+      },
+      {
+        "ticker": "WDC",
+        "fwd_pe": 11,
+        "pb": 2.2,
+        "ev_ebitda": 5,
+        "fcf_yield": 4.0,
+        "roe": 10
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 1900,
+      "thesis": "AI 데이터센터 SSD 비중 40%+ 도달, NAND ASP +30% 연간 인상",
+      "key_assumptions": [
+        "AI SSD demand acceleration",
+        "BiCS 9 yield 95%+",
+        "NAND ASP +30%"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 1500,
+      "thesis": "NAND 사이클 회복 지속, post-spin 안정화",
+      "key_assumptions": [
+        "NAND ASP +18%/yr",
+        "FCF margin 18%",
+        "post-spin debt 관리"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 850,
+      "thesis": "NAND cycle 정점 → 2027 supply glut, post-spin volatility",
+      "key_assumptions": [
+        "NAND ASP -25% 2027",
+        "post-spin 매출 둔화",
+        "1Y +3372% anomaly 반전"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07-XX",
+      "event": "2Q FY26 어닝 — first full standalone quarter",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "first full quarter — 가이던스 ±20%"
+    },
+    {
+      "date": "2026-09-XX",
+      "event": "BiCS 9 (256-layer) 양산 시작",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "+5-15% 가능"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "FY26 가이던스 + capex plan",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "정상화 시 +15%, capex over-spend 시 -10%"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "AI 데이터센터 SSD 비중 update",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "SSD 35% 달성 시 +"
+    }
+  ],
+  "risks": [
+    {
+      "name": "post-spin price discovery 변동성",
+      "probability": "high",
+      "impact": "high",
+      "description": "1Y vol 95% — high volatility",
+      "mitigation": "분기 거듭하며 transparency 개선, IR 활동 적극화"
+    },
+    {
+      "name": "NAND cycle peak",
+      "probability": "med",
+      "impact": "high",
+      "description": "2027 supply glut risk",
+      "mitigation": "BiCS 9 (256-layer) cost reduction, AI 매출 mix 확대"
+    },
+    {
+      "name": "1Y +3372% anomaly 검증 필요",
+      "probability": "high",
+      "impact": "med",
+      "description": "split-adjusted 데이터 검증",
+      "mitigation": "정상화 후 분기별 매출·EPS 트랙 확인"
+    },
+    {
+      "name": "post-spin debt 부담",
+      "probability": "med",
+      "impact": "med",
+      "description": "WDC 분할 시 inherited debt + capex burden",
+      "mitigation": "spin-off 후 BS clean-up + asset disposal"
+    },
+    {
+      "name": "consumer SSD 시장 둔화",
+      "probability": "low",
+      "impact": "low",
+      "description": "PC·모바일 SSD 수요 정체",
+      "mitigation": "enterprise·AI 데이터센터 매출 비중 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "데이터센터 SSD 비중 25% → 35% (2024-2026)",
+      "type": "industry",
+      "evidence": "IDC NAND market 2025-Q4 보고서",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "high-density QLC NAND 수요 폭발 — vector DB·AI checkpoint",
+      "type": "industry",
+      "evidence": "vector DB 시장 $1.5B → $13B (2024-2027)",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "WDC spin-off로 pure-play NAND focus 단순화",
+      "type": "company",
+      "evidence": "SEC 8-K 2026-02-25 spin-off complete",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI 추론 시대 storage 비중 매년 +20%+",
+      "type": "macro",
+      "evidence": "글로벌 데이터 generation 175 ZB → 290 ZB (2024-2027)",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [],
+  "etf_holdings": [
+    {
+      "etf": "SOXX",
+      "weight_pct": 1.0
+    },
+    {
+      "etf": "SMH",
+      "weight_pct": 1.5
+    }
+  ],
+  "reverse_dcf": {
+    "current_price": 1407.61,
+    "implied_growth_rate_yrs_10": 15,
+    "implied_terminal_margin_pct": 22,
+    "comment": "post-spin valuation 검증 어려움. cycle normalized EPS 가정 시 fair value $1,000-1,400 range. 1Y +3372% 수익률은 split-adjusted 확인 필요"
+  }
+}

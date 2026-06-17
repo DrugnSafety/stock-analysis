@@ -1,0 +1,73 @@
+{
+  "initial_nav_krw": 1000000000,
+  "current_nav_krw": 1000000000,
+  "positions": [
+    {
+      "ticker": "012330.KS",
+      "name": "현대모비스",
+      "shares": 39,
+      "entry_price": 646000.0,
+      "entry_krw": 25194000.0,
+      "current_price": 646000.0,
+      "current_krw": 25194000.0,
+      "unrealized_pnl_krw": 0,
+      "unrealized_pnl_pct": 0.0,
+      "entry_date": "2026-05-22"
+    },
+    {
+      "ticker": "005380.KS",
+      "name": "현대차",
+      "shares": 38,
+      "entry_price": 655000.0,
+      "entry_krw": 24890000.0,
+      "current_price": 655000.0,
+      "current_krw": 24890000.0,
+      "unrealized_pnl_krw": 0,
+      "unrealized_pnl_pct": 0.0,
+      "entry_date": "2026-05-22"
+    },
+    {
+      "ticker": "000270.KS",
+      "name": "기아",
+      "shares": 204,
+      "entry_price": 164800.0,
+      "entry_krw": 33619200.0,
+      "current_price": 164800.0,
+      "current_krw": 33619200.0,
+      "unrealized_pnl_krw": 0,
+      "unrealized_pnl_pct": 0.0,
+      "entry_date": "2026-05-22"
+    }
+  ],
+  "cash_krw": 916296800.0,
+  "ledger": [
+    {
+      "date": "2026-05-22",
+      "ticker": "012330.KS",
+      "action": "BUY",
+      "shares": 39,
+      "price": 646000.0,
+      "krw_amount": 25194000.0,
+      "verdict_source": "doctordk_2026-05-22_BD_governance"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "005380.KS",
+      "action": "BUY",
+      "shares": 38,
+      "price": 655000.0,
+      "krw_amount": 24890000.0,
+      "verdict_source": "doctordk_2026-05-22_BD_governance"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "000270.KS",
+      "action": "BUY",
+      "shares": 204,
+      "price": 164800.0,
+      "krw_amount": 33619200.0,
+      "verdict_source": "doctordk_2026-05-22_BD_governance"
+    }
+  ],
+  "simulated_at": "2026-05-22T17:55:00+09:00"
+}

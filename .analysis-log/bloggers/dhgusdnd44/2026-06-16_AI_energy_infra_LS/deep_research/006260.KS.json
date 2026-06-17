@@ -1,0 +1,163 @@
+{
+  "ticker": "006260.KS",
+  "company_kr": "LS",
+  "company_en": "LS Corporation",
+  "exchange": "KOSPI",
+  "as_of_date": "2026-06-16",
+  "industry": {
+    "name": "전력 인프라 지주 (전선·HVDC·비철·전력기기)",
+    "name_kr": "전력 인프라 종합 (LS전선 HVDC해저케이블·LS MnM 구리·LS ELECTRIC)",
+    "overview": "LS그룹 지주. 핵심은 LS전선(해저케이블·HVDC, 해상풍력 수혜)·LS MnM(구리/비철 제련)·LS ELECTRIC(전력기기). 블로거가 '해상풍력-HVDC-LS / 태양광-전력화-LS'로 직접 지목한 AI 전력·인프라 비대칭의 최선호 종목. 미국 내 HVDC 공장 건설로 현지화 수요 직결.",
+    "competitors": [
+      {
+        "name": "Prysmian",
+        "ticker": "PRY.MI",
+        "share_pct": null,
+        "moat": "해저케이블 글로벌 1위"
+      },
+      {
+        "name": "Nexans",
+        "ticker": "NEX.PA",
+        "share_pct": null,
+        "moat": "유럽 해저케이블"
+      },
+      {
+        "name": "대한전선",
+        "ticker": "001440.KS",
+        "share_pct": null,
+        "moat": "국내 2위 전선"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "AI 데이터센터·신재생 전환으로 해저케이블·HVDC TAM 구조적 확대. 글로벌 해저케이블 시장 2030년까지 두 자릿수 CAGR 전망(전력망·해상풍력 수요)."
+    },
+    "ai_infrastructure_context": "AI 전력수요→데이터센터 전력 인입·장거리 송전(HVDC)·구리 수요 동시 견인. LS는 케이블+구리(MnM)+전력기기 3중 수혜 구조.",
+    "news": []
+  },
+  "financials": {
+    "currency": "KRW",
+    "unit": "KRW 조",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, KRW 조)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 17.491,
+        "op_income": 0.562,
+        "op_margin": 3.2,
+        "net_income": 0.793,
+        "net_margin": 4.5
+      },
+      {
+        "year": 2023,
+        "revenue": 24.481,
+        "op_income": 0.902,
+        "op_margin": 3.7,
+        "net_income": 0.436,
+        "net_margin": 1.8
+      },
+      {
+        "year": 2024,
+        "revenue": 27.545,
+        "op_income": 1.09,
+        "op_margin": 4.0,
+        "net_income": 0.237,
+        "net_margin": 0.9
+      },
+      {
+        "year": 2025,
+        "revenue": 31.87,
+        "op_income": 1.07,
+        "op_margin": 3.4,
+        "net_income": 0.271,
+        "net_margin": 0.8
+      }
+    ],
+    "trajectory_summary": "매출 17.5조→31.9조 (CAGR 22.1%). AI 전력·인프라 수요로 외형 성장 지속.",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 560000,
+      "thesis": "미국 HVDC 공장 가동+해상풍력 회복+구리 가격 강세 동시 발생",
+      "key_assumptions": [
+        "미국 HVDC 수주 본격화",
+        "해저케이블 ASP 상승",
+        "구리 가격 상방"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 470000,
+      "thesis": "전선 성장 지속하나 비철 가격·지주 디스카운트 잔존",
+      "key_assumptions": [
+        "해저케이블 견조",
+        "구리 박스권",
+        "지주 NAV 할인 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 330000,
+      "thesis": "미국 신재생 정책 지연+구리 약세+capex 둔화",
+      "key_assumptions": [
+        "미국 프로젝트 지연",
+        "구리 하락",
+        "AI capex cut"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "미국 HVDC 공장 가동·수주",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "현지화 수요 전환"
+    },
+    {
+      "date": "2026-H2",
+      "event": "해상풍력 프로젝트 재개(풍력 항소 취하)",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "해저케이블 발주"
+    }
+  ],
+  "risks": [
+    {
+      "name": "미국 신재생 정책 변동성",
+      "probability": "med",
+      "impact": "high",
+      "description": "트럼프 행정부 정책 반전 시 HVDC 수요 지연",
+      "mitigation": "전력망 교체 수요로 일부 상쇄"
+    },
+    {
+      "name": "지주 디스카운트",
+      "probability": "high",
+      "impact": "med",
+      "description": "복합 사업구조의 NAV 할인",
+      "mitigation": "자회사 가치 부각·배당"
+    },
+    {
+      "name": "구리 가격 변동",
+      "probability": "med",
+      "impact": "med",
+      "description": "MnM 실적 비철가격 연동",
+      "mitigation": "제련 수수료·부산물(황산) 다변화"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 '흥미로운 데이터 6-4'",
+      "yfinance income_stmt (live)"
+    ]
+  }
+}

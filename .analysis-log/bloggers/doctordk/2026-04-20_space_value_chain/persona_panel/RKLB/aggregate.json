@@ -1,0 +1,362 @@
+{
+  "ticker": "RKLB",
+  "name_kr": "로켓랩",
+  "name_en": "Rocket Lab USA Inc.",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bullish": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "lean_bullish": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "consensus_summary": {
+    "bullish_pct": 46.2,
+    "bearish_pct": 23.1,
+    "neutral_pct": 30.8,
+    "average_confidence": 0.62
+  },
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.42
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bearish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.88
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "Negative ROE·negative FCF — Buffett quality 기준 미달",
+        "SpaceX의 80%+ launch market 점유 — competitive moat 약함",
+        "Beta 2.31 + vol 91% — owner mindset 어려움"
+      ],
+      "key_opportunities_top3": [
+        "Electron rocket 100+ 발사 track record",
+        "Photon bus·Neutron 수직통합 진행"
+      ],
+      "uncertainty": "Buffett은 'commodity launch' 비즈니스 우려 — Falcon 9 가격 압박",
+      "narrative_vs_quant_resolution": "Buffett quality lens 미달. neutral border."
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.42,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "Inversion: 만약 SpaceX가 Starship 양산하면 RKLB 경제성 악화",
+        "Capital intensive·negative cash flow"
+      ],
+      "key_opportunities_top3": [
+        "'Lollapalooza' factor: 발사 + 위성 + 정부 contract 동시"
+      ],
+      "uncertainty": "Munger 'too hard' filter 적용 가능성",
+      "narrative_vs_quant_resolution": "Munger는 quality + price 충족 어려움 — neutral."
+    },
+    "ben-graham": {
+      "verdict": "bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "Negative EPS·high P/E·negative FCF 모두 Graham 기준 미달",
+        "Margin of safety 실종"
+      ],
+      "key_opportunities_top3": [],
+      "uncertainty": "Defensive·Enterprising 모두 불가",
+      "narrative_vs_quant_resolution": "Graham 정량 기준 모두 미달. bearish."
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "FCF yield 음수",
+        "Pabrai 'low risk·high uncertainty' 매트릭스 미달"
+      ],
+      "key_opportunities_top3": [
+        "Buffett·Munger·Berkshire 미진입 — cloning 기준 미달"
+      ],
+      "uncertainty": "Pabrai 매수 후보 아님",
+      "narrative_vs_quant_resolution": "Pabrai 매수 기준 미달. lean_bearish."
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "+356% 1Y rally — 'priced for perfection'",
+        "SpaceX Starship cost curve 위협 underestimated",
+        "Insider selling 패턴 모니터링 필요"
+      ],
+      "key_opportunities_top3": [
+        "만약 SpaceX IPO 후 RKLB underperform 시 short opportunity"
+      ],
+      "uncertainty": "Burry contrarian: RKLB는 retail consensus 우주 종목",
+      "narrative_vs_quant_resolution": "Burry contrarian filter: 강력 short 후보. lean_bearish."
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "PEG 적용 어려움 (negative earnings)"
+      ],
+      "key_opportunities_top3": [
+        "'Six categories' 중 'fast grower' top",
+        "Visible product (Electron rocket·Neutron)",
+        "Plain English 이해 가능"
+      ],
+      "uncertainty": "Lynch는 narrative 강한 종목 선호",
+      "narrative_vs_quant_resolution": "Lynch는 high-growth disruptor 선호. lean_bullish."
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "key_concerns_top3": [
+        "Beck Beck CEO 매도 패턴 모니터링 필요"
+      ],
+      "key_opportunities_top3": [
+        "Scuttlebutt: NASA·DoD customer endorsement 강력",
+        "R&D depth: Electron + Photon + Neutron 3-tier roadmap",
+        "Long runway: 글로벌 launch 시장 $25B → $80B 2030"
+      ],
+      "uncertainty": "Management quality 검증",
+      "narrative_vs_quant_resolution": "Fisher 15-point checklist 통과. lean_bullish."
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.88,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "Beta 2.31 — short-term volatility"
+      ],
+      "key_opportunities_top3": [
+        "ARK 'Space Exploration' 핵심",
+        "Wright's Law cost curve 직접 player",
+        "Vertical integration: launch + bus + photon"
+      ],
+      "uncertainty": "ARKX 상위 weighting",
+      "narrative_vs_quant_resolution": "Wood thesis 정확히 일치. bullish."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "AI capex peak 대비"
+      ],
+      "key_opportunities_top3": [
+        "Macro: SpaceX IPO catalyst spillover · Falcon 9 alternative · 정부 launch capex",
+        "High-conviction position 가능성"
+      ],
+      "uncertainty": "Druckenmiller는 catalyst-driven concentrated bets",
+      "narrative_vs_quant_resolution": "Druckenmiller catalyst rotation: launch infrastructure top pick. bullish."
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "Capital structure 미성숙",
+        "Activist intervention 어려움"
+      ],
+      "key_opportunities_top3": [],
+      "uncertainty": "Ackman은 mature compounder 선호",
+      "narrative_vs_quant_resolution": "Ackman style 미스매치. neutral."
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "Capital intensive — execution miss 시 dilution risk"
+      ],
+      "key_opportunities_top3": [
+        "'Convex payoff' — Neutron 성공 시 100x revenue",
+        "Antifragile: SpaceX 독점 위협이 fragile system → RKLB는 alternative"
+      ],
+      "uncertainty": "Position size <3% barbell strategy",
+      "narrative_vs_quant_resolution": "Taleb barbell convex play. lean_bullish."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "EM penetration limited — 미국·NZ 중심"
+      ],
+      "key_opportunities_top3": [
+        "Long-term growth thesis 강력",
+        "Defense contract uplift"
+      ],
+      "uncertainty": "India space tie-in 가능성",
+      "narrative_vs_quant_resolution": "Jhunjhunwala growth lens: lean_bullish."
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "아스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "DCF fair value $70-90 — 현재 $105는 15-50% premium",
+        "Pre-FCF stage — terminal value sensitivity 큼"
+      ],
+      "key_opportunities_top3": [
+        "Optionality value 인정 — Neutron 성공 시 fair value $200"
+      ],
+      "uncertainty": "DCF 신뢰도 낮음",
+      "narrative_vs_quant_resolution": "Damodaran story+numbers balance: neutral."
+    }
+  },
+  "evaluation_date": "2026-05-10"
+}

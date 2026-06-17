@@ -1,0 +1,235 @@
+{
+  "ticker": "038290.KQ",
+  "name": "마크로젠",
+  "sector": "Bio (유전체 분석·메틸화·NGS)",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 9,
+      "pct": 69.2
+    },
+    "lean_bullish": {
+      "count": 4,
+      "pct": 30.8
+    }
+  },
+  "average_confidence": 0.5,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.48
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (3/3)"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.48
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.4
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.42
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.4
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "ER-100 1상 binary catalyst risk",
+      "frequency": 13,
+      "mention_count_pct": 100.0
+    },
+    {
+      "theme": "thesis_alignment=high",
+      "frequency": 13,
+      "mention_count_pct": 100.0
+    }
+  ],
+  "unique_alpha": [
+    {
+      "theme": "마크로젠 sector positioning",
+      "personas": [
+        "cathie-wood",
+        "stanley-druckenmiller",
+        "peter-lynch"
+      ]
+    }
+  ],
+  "thesis_alignment": "high",
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.48,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "라케시 준준왈라"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.48,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "모니쉬 파브라이"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.42,
+      "horizon": "long_term",
+      "persona_kr": "스탠리 드러켄밀러"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "long_term",
+      "persona_kr": "빌 액크먼"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "필립 피셔"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "마이클 버리"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "persona_kr": "애스워드 다모다란"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브"
+    }
+  }
+}

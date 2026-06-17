@@ -1,0 +1,267 @@
+{
+  "industry": {
+    "name": "호텔·면세(TR) · 인바운드 관광",
+    "overview": "호텔신라는 신라호텔(호텔·레저)과 TR(면세, Travel Retail) 부문을 보유. 매출의 대부분은 면세에서 발생하며 인바운드 관광·따이궁(중국 보따리상)·공항 임대료 구조에 민감. jp187 글의 '호텔' 섹터를 대표하나 카지노와 driver가 다름 — 면세는 인바운드 회복 수혜이나 따이궁 수수료·중국 소비 침체·공항 임대료 부담으로 수익성 변동이 큼. 카지노 3사 대비 thesis 정합도는 중간(인바운드 공유, 환율은 면세에 양면).",
+    "competitors": [
+      {
+        "name": "신세계(면세)",
+        "ticker": "004170.KS",
+        "share_pct": 25,
+        "moat": "면세 점유·명동·공항"
+      },
+      {
+        "name": "현대백화점면세",
+        "ticker": "069960.KS",
+        "share_pct": 10,
+        "moat": "백화점 연계"
+      },
+      {
+        "name": "호텔롯데(롯데면세)",
+        "ticker": "N/A",
+        "share_pct": 35,
+        "moat": "국내 최대 면세(비상장)"
+      },
+      {
+        "name": "파라다이스(복합리조트 호텔)",
+        "ticker": "034230.KS",
+        "share_pct": 0,
+        "moat": "카지노 결합 호텔(다른 모델)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026",
+        "title": "인바운드 회복(2025 방한 1,894만 record)으로 면세·호텔 수요 개선",
+        "source": "한국관광공사",
+        "summary": "방문객 회복은 호재이나 1인 구매·따이궁 수수료 구조가 수익성 좌우"
+      },
+      {
+        "date": "2026",
+        "title": "중국 소비 침체·따이궁 수수료 부담 지속",
+        "source": "업계",
+        "summary": "면세 수익성의 핵심 변수 — 매출 회복≠이익 회복"
+      },
+      {
+        "date": "2026",
+        "title": "공항 임대료 구조 정상화 협상",
+        "source": "업계",
+        "summary": "인천공항 임대료가 면세 고정비 — 협상 결과가 마진 좌우"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 12.0,
+      "cagr_pct": 6.0,
+      "horizon": "2026-2030 한국 면세·인바운드"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 4922.0,
+        "op_income": 78.3,
+        "op_margin": 1.6,
+        "net_income": -50.2,
+        "net_margin": -1.0
+      },
+      {
+        "year": 2023,
+        "revenue": 3568.5,
+        "op_income": 91.2,
+        "op_margin": 2.6,
+        "net_income": 86.0,
+        "net_margin": 2.4
+      },
+      {
+        "year": 2024,
+        "revenue": 3947.6,
+        "op_income": -5.2,
+        "op_margin": -0.1,
+        "net_income": -61.5,
+        "net_margin": -1.6
+      },
+      {
+        "year": 2025,
+        "revenue": 2623.5,
+        "op_income": 23.7,
+        "op_margin": 0.9,
+        "net_income": -213.0,
+        "net_margin": -8.1
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 2930.6,
+      "total_liab": 1909.7,
+      "equity": 1020.9,
+      "cash": 211.6,
+      "debt": 1371.2
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 148.1,
+      "fcf_5y_avg": 91.8,
+      "capex_intensity": 0.01
+    },
+    "peer_compare": [
+      {
+        "ticker": "008770.KS",
+        "name": "호텔신라",
+        "pe": 16.3,
+        "pb": null,
+        "roe": -20.9,
+        "div_yield": 0
+      },
+      {
+        "ticker": "034230.KS",
+        "name": "파라다이스",
+        "pe": 11.92,
+        "pb": null,
+        "roe": null,
+        "div_yield": 1.02
+      },
+      {
+        "ticker": "032350.KS",
+        "name": "롯데관광개발",
+        "pe": 12.34,
+        "pb": null,
+        "roe": null,
+        "div_yield": 0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 75000,
+      "thesis": "인바운드 2,036만 + 중국 개별관광 회복 + 공항 임대료 정상화 → 면세 마진 회복·턴어라운드",
+      "key_assumptions": [
+        "중국 개별관광 회복",
+        "따이궁 수수료 정상화",
+        "공항 임대료 인하"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 58000,
+      "thesis": "방문객 회복은 지속되나 따이궁·임대료로 마진 점진 — 완만한 회복",
+      "key_assumptions": [
+        "면세 매출 +5%",
+        "마진 소폭 개선",
+        "호텔 부문 견조"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 42000,
+      "thesis": "중국 소비 침체 + 따이궁 수수료 + 공항 임대료 부담 지속 → 면세 적자성 압박",
+      "key_assumptions": [
+        "중국 소비 부진 지속",
+        "수수료 경쟁 심화",
+        "임대료 고착"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "중국 개별관광(FIT)·무비자 정책",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "면세·호텔 수요 핵심 driver"
+    },
+    {
+      "date": "2026",
+      "event": "인천공항 면세 임대료 협상",
+      "type": "regulatory",
+      "expected_impact": "○",
+      "description": "면세 고정비 구조 — 마진의 최대 스윙"
+    },
+    {
+      "date": "2026",
+      "event": "따이궁 수수료 정상화",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "수익성 회복의 핵심"
+    },
+    {
+      "date": "2026-분기",
+      "event": "분기 실적(면세 마진)",
+      "type": "company",
+      "expected_impact": "○",
+      "description": "매출 회복이 이익으로 전이되는지 점검"
+    }
+  ],
+  "risks": [
+    {
+      "name": "중국 소비 침체·따이궁 의존",
+      "probability": "high",
+      "impact": "high",
+      "description": "면세 매출·마진이 중국 따이궁 수수료에 종속 — 구조적 수익성 변수",
+      "mitigation": "개별관광·내국인·온라인 면세 다변화"
+    },
+    {
+      "name": "공항 임대료 고정비 부담",
+      "probability": "med",
+      "impact": "high",
+      "description": "인천공항 임대료가 면세 마진 압박",
+      "mitigation": "임대료 구조 재협상"
+    },
+    {
+      "name": "jp187 thesis 부분 비정합(카지노 아님)",
+      "probability": "med",
+      "impact": "med",
+      "description": "호텔/면세는 카지노와 driver 상이 — 환율도 면세엔 양면(수입원가↑)",
+      "mitigation": "인바운드 공유 수혜로 부분 정합"
+    },
+    {
+      "name": "환율 양면성",
+      "probability": "med",
+      "impact": "med",
+      "description": "원화 약세는 인바운드 호재이나 면세 수입 원가·해외 매입 부담",
+      "mitigation": "인바운드 볼륨 효과로 일부 상쇄"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "호텔 섹터 인바운드 수혜",
+      "type": "factual",
+      "evidence": "[actual] 방한 1,894만 record",
+      "testability": "high",
+      "current_status": "지지 — 단 면세 마진은 별도"
+    },
+    {
+      "claim": "환율 호재",
+      "type": "factual",
+      "evidence": "[inference] 면세엔 양면(수입원가↑)",
+      "testability": "med",
+      "current_status": "부분 — 카지노만큼 단순 호재 아님"
+    },
+    {
+      "claim": "실적 최고 vs 주가 바닥",
+      "type": "predictive",
+      "evidence": "[inference] 면세 마진 변동",
+      "testability": "med",
+      "current_status": "검증중 — 매출≠이익"
+    },
+    {
+      "claim": "순환매 대피처",
+      "type": "predictive",
+      "evidence": "[inference] 섹터 묶음",
+      "testability": "low",
+      "current_status": "약함 — 면세 고유 리스크 큼"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026",
+      "type": "산업",
+      "title": "인바운드 회복 vs 따이궁·공항임대료 마진 압박",
+      "impact": "○"
+    },
+    {
+      "date": "2026",
+      "type": "실적",
+      "title": "면세 매출 회복기 진입 — 마진 정상화 관건",
+      "impact": "○"
+    }
+  ]
+}

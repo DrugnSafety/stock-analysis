@@ -1,0 +1,214 @@
+{
+  "industry": {
+    "name": "AI 반도체 패키징·후공정·전력 인프라 산업",
+    "overview": "AI 반도체 산업의 가치 무게중심이 '더 빠른 칩 설계'에서 '패키지 시스템 통합'으로 이동 중. 글로벌 advanced packaging 시장 2024 $45B → 2030E $109B (CAGR 16%, Yole Group). HBM TAM 2024 $15B → 2027E $52B (TrendForce). 한국은 (1) 기판/MLCC [삼성전기·LG이노텍], (2) 후공정 검사 [리노공업·티에스이], (3) 데이터센터 전력 [LS ELECTRIC·HD현대일렉] 3개 layer 모두 글로벌 leadership 확보. TSMC CoWoS capex 2024-2026 누적 $30B+. 미국 grid 인프라 — Trump 2.0 IRA 유지 + fast-track 정책으로 Hyperscaler ($250B+ capex 2026E) → 전력·변압기·HVDC backlog 2027 H1까지 견고.",
+    "competitors": [
+      {
+        "name": "삼성전기",
+        "ticker": "009150.KS",
+        "share_pct": 15.0,
+        "moat": "MLCC+FCBGA+실리콘 커패시터 vertical integration — 글로벌 유일"
+      },
+      {
+        "name": "Murata Manufacturing",
+        "ticker": "MRAAY",
+        "share_pct": 35.0,
+        "moat": "MLCC 글로벌 1위, 다양한 application"
+      },
+      {
+        "name": "TDK",
+        "ticker": "TTDKY",
+        "share_pct": 12.0,
+        "moat": "MLCC + 자석 부품 통합"
+      },
+      {
+        "name": "Ibiden",
+        "ticker": "4062.T",
+        "share_pct": 22.0,
+        "moat": "FCBGA 글로벌 1위 (NVIDIA·AMD)"
+      },
+      {
+        "name": "Shinko Denki",
+        "ticker": "6967.T",
+        "share_pct": 8.0,
+        "moat": "FCBGA 2위, 일본 기판 leader"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-26",
+        "title": "SK증권 — 삼성전기 MLCC 가격 인상 사이클 초입, 목표가 200만원 상향",
+        "source": "newsis",
+        "summary": "MLCC 가격 인상 본격화, AI 비중 35% 가이드 — 추가 인상 협의 중",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-25",
+        "title": "삼성전기 1Q26 컨콜 — AI 기판 BB ratio 1.4x, OPM 15.8% 7년 최고",
+        "source": "company filing",
+        "summary": "수요 > 공급 50% 초과 명시",
+        "impact": "+"
+      },
+      {
+        "date": "2025-12-15",
+        "title": "삼성전기 1.5조원 실리콘 커패시터 공급계약 체결",
+        "source": "DART 공시",
+        "summary": "GPU/HBM 패키지 내부 전력 안정화 부품 — 5년 누적 매출 효과",
+        "impact": "+"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 2200500.0,
+      "thesis": "Hyperscaler capex 2026~2028 일관 성장 + AI 추론 시장 본격 개화 + 패키지 단가 상승 지속",
+      "key_assumptions": [
+        "GPT-5 모델 상용화 → 추론 demand polynomial 증가",
+        "Nvidia Blackwell 양산 가속",
+        "삼성전기 1.5조 실리콘 cap 계약 확대"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 1923400.0,
+      "thesis": "AI capex steady, 패키지 단가 인상 18M 지속 후 oversupply 진입 — re-rating 일부 mean revert",
+      "key_assumptions": [
+        "하이퍼스케일러 2026 capex 가이드 +20%",
+        "HBM4 mass production 2026 Q4",
+        "한국 패키지 PE re-rate continues"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 1222500.0,
+      "thesis": "AI 모델 ROI 의문 + Microsoft·Meta capex 가이드 둔화 + 중국 OSAT 양산 발표",
+      "key_assumptions": [
+        "AI 매출 Microsoft·Meta 가이드 -10%",
+        "JCET ABF 양산 발표",
+        "Forward PE >50x 종목 일제 sell-off"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q2/Q3",
+      "event": "MLCC 추가 가격 인상 협의 결과 발표 (예상 +5~10%)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "MLCC 추가 가격 인상 협의 결과 발표 (예상 +5~10%)"
+    },
+    {
+      "date": "2026 Q4",
+      "event": "HBM4 mass production 시작 → 삼성전기 기판/실리콘 cap design-in 확정",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "HBM4 mass production 시작 → 삼성전기 기판/실리콘 cap design-in 확정"
+    },
+    {
+      "date": "2027",
+      "event": "AI 패키지 단가 인상 사이클 정점 (peak earnings)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI 패키지 단가 인상 사이클 정점 (peak earnings)"
+    },
+    {
+      "date": "신규 hyperscaler 자체 칩 (Microsoft, Meta) 패키지 customer 추가 가능",
+      "event": "",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 35x vs 5년 평균 14x",
+      "probability": "med",
+      "impact": "high",
+      "description": "Forward PE 35x vs 5년 평균 14x — valuation overshoot risk",
+      "mitigation": "모니터링 + 분할매수"
+    },
+    {
+      "name": "YTD +492% momentum exhaustion",
+      "probability": "med",
+      "impact": "high",
+      "description": "YTD +492% momentum exhaustion — 단기 consolidation 30% 가능",
+      "mitigation": "모니터링 + 분할매수"
+    },
+    {
+      "name": "중국 JCET·TFME ABF·MLCC capacity 증설 (3-5년)",
+      "probability": "med",
+      "impact": "high",
+      "description": "중국 JCET·TFME ABF·MLCC capacity 증설 (3-5년)",
+      "mitigation": "모니터링 + 분할매수"
+    },
+    {
+      "name": "삼성그룹 governance overhang 잔존",
+      "probability": "med",
+      "impact": "high",
+      "description": "삼성그룹 governance overhang 잔존",
+      "mitigation": "모니터링 + 분할매수"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "MLCC+FCBGA+실리콘 커패시터 vertical integration이 글로벌 유일 — moat 명확",
+      "type": "company",
+      "evidence": "경쟁사 분석 — 무라타/이비덴/Shinko 모두 단일 카테고리",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI 기판 수요가 회사 capacity 50%+ 초과 — pricing power",
+      "type": "industry",
+      "evidence": "SK증권 5/26 리포트 + 회사 1Q26 컨콜",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "실리콘 커패시터 1.5조 계약 = design-in lock-in",
+      "type": "company",
+      "evidence": "2025년 12월 DART 공시",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Forward PE 35x로 valuation overshoot 가능 — 30~40% correction risk",
+      "type": "macro",
+      "evidence": "5년 평균 PE 14x vs 현재 35x",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025-12-15",
+      "type": "주요계약공시",
+      "summary": "실리콘 커패시터 1.5조원 공급계약",
+      "impact": "+",
+      "title": "실리콘 커패시터 1.5조원 공급계약"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "1Q26 사업보고서",
+      "summary": "FCBGA 매출 비중 32% (전년 22%), OPM 15.8%",
+      "impact": "+",
+      "title": "FCBGA 매출 비중 32% (전년 22%), OPM 15.8%"
+    }
+  ],
+  "five_year_financials": {
+    "revenue_cagr": 14.5,
+    "opm_trajectory": "2021 9.2% → 2026E 16.5%",
+    "roe_trajectory": "2021 11.5% → 2026E 18.5%",
+    "fcf_yield": 3.8,
+    "turnaround_signal": "Strong margin expansion — pricing power 입증 (cost-pass-through ratio > 0.8)"
+  },
+  "reverse_dcf": {
+    "current_price": 1630000,
+    "implied_growth_rate": 18.5,
+    "fair_value_dcf_low": 1100000,
+    "fair_value_dcf_base": 1450000,
+    "fair_value_dcf_high": 1900000,
+    "verdict": "현재가 1.63M은 base case 1.45M 대비 12% 프리미엄 — bull case 진입 시 +17% 추가 upside 가능"
+  }
+}

@@ -1,0 +1,1880 @@
+{
+  "ticker": "TSLA",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 6,
+      "personas": [
+        "aswath-damodaran",
+        "ben-graham",
+        "charlie-munger",
+        "michael-burry",
+        "mohnish-pabrai",
+        "warren-buffett"
+      ]
+    },
+    "neutral": {
+      "count": 4,
+      "personas": [
+        "bill-ackman",
+        "nassim-taleb",
+        "peter-lynch",
+        "phil-fisher"
+      ]
+    },
+    "lean_bullish": {
+      "count": 3,
+      "personas": [
+        "cathie-wood",
+        "rakesh-jhunjhunwala",
+        "stanley-druckenmiller"
+      ]
+    }
+  },
+  "average_confidence": 0.676923076923077,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.95
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.95
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.4
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.35
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "other",
+      "frequency": 10,
+      "personas": [
+        "aswath-damodaran",
+        "ben-graham",
+        "bill-ackman",
+        "charlie-munger",
+        "michael-burry",
+        "mohnish-pabrai",
+        "nassim-taleb",
+        "phil-fisher",
+        "rakesh-jhunjhunwala"
+      ],
+      "examples": [
+        "Volatility",
+        "Munger의 알려진 TSLA skeptic 입장 (since 2020)",
+        "Dhandho 정면 violation (heads I win small, tails I lose huge)"
+      ]
+    },
+    {
+      "theme": "valuation",
+      "frequency": 8,
+      "personas": [
+        "ben-graham",
+        "charlie-munger",
+        "michael-burry",
+        "peter-lynch",
+        "stanley-druckenmiller",
+        "warren-buffett"
+      ],
+      "examples": [
+        "PEG = 177/15 = 11.8 — 정면 위반",
+        "PE 177은 모든 quality 가치 무력화",
+        "Forward PE 177 — 극단 valuation"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "ticker": "TSLA",
+      "persona_id": "peter-lynch",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Story Identification",
+          "passed": true,
+          "rationale": "Story: 우주 데이터센터 + AI 인프라 + 엔드 마켓 폭발 — T04(++), T06(++), T10(++) thesis로 묶이는 명확한 narrative. TSLA(테슬라)는 EV·AI·Robotics·Energy에서 Optimus humanoid robot, Dojo AI compute, FSD data flywheel, 머스크↔SpaceX 시너지."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Earnings Power & PEG",
+          "passed": true,
+          "rationale": "Earnings & PEG: PEG ~7.08 (assume 25% growth). Lynch는 PEG<1을 선호 — TSLA는 성장 프리미엄 인정."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Category 분류 (Stalwart/Fast Grower/Cyclical)",
+          "passed": true,
+          "rationale": "Category 분류: Asset Play / Turnaround. Asset Play / Turnaround 종목은 opportunistic."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "개인적 검증 (Use the product)",
+          "passed": true,
+          "rationale": "Use the product test: NVDA GPU/CUDA는 모든 AI 개발자가 사용, VRT 냉각은 hyperscaler 사용, ASTS/RKLB는 일반인 직접 체험 어려움 → ‘invest in what you understand’ 원칙에서 직접 체험 가능."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Position 결정",
+          "passed": true,
+          "rationale": "Verdict: NEUTRAL. position 5-10% (Lynch의 분산 portfolio)."
+        }
+      ],
+      "key_concerns": [
+        "PEG = 177/15 = 11.8 — 정면 위반"
+      ],
+      "key_opportunities": [
+        "Story stock의 정통, 다만 multiple 너무 높음"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "피터 린치 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "피터 린치 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "피터 린치 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "피터 린치 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "피터 린치 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "피터 린치 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "피터 린치 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "피터 린치 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "피터 린치 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "피터 린치 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "PEG ratio, growth at reasonable price, story stocks",
+        "enriched_at": "2026-05-14T09:47:46.093612+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Story Identification\nStory: 우주 데이터센터 + AI 인프라 + 엔드 마켓 폭발 — T04(++), T06(++), T10(++) thesis로 묶이는 명확한 narrative. TSLA(테슬라)는 EV·AI·Robotics·Energy에서 Optimus humanoid robot, Dojo AI compute, FSD data flywheel, 머스크↔SpaceX 시너지.\n\n[2] Earnings Power & PEG\nEarnings & PEG: PEG ~7.08 (assume 25% growth). Lynch는 PEG<1을 선호 — TSLA는 성장 프리미엄 인정.\n\n[3] Category 분류 (Stalwart/Fast Grower/Cyclical)\nCategory 분류: Asset Play / Turnaround. Asset Play / Turnaround 종목은 opportunistic.\n\n[4] 개인적 검증 (Use the product)\nUse the product test: NVDA GPU/CUDA는 모든 AI 개발자가 사용, VRT 냉각은 hyperscaler 사용, ASTS/RKLB는 일반인 직접 체험 어려움 → ‘invest in what you understand’ 원칙에서 직접 체험 가능.\n\n[5] Position 결정\nVerdict: NEUTRAL. position 5-10% (Lynch의 분산 portfolio).",
+      "key_concerns_top3": [
+        "PEG = 177/15 = 11.8 — 정면 위반"
+      ],
+      "key_opportunities_top3": [
+        "Story stock의 정통, 다만 multiple 너무 높음"
+      ],
+      "narrative_vs_quant_resolution": "피터 린치는 narrative + quant 균형 — story가 명확하고 numbers가 뒷받침되면 진입."
+    },
+    "rakesh-jhunjhunwala": {
+      "ticker": "TSLA",
+      "persona_id": "rakesh-jhunjhunwala",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Big-Theme Convergence (India parallel)",
+          "passed": true,
+          "rationale": "Big-Theme Convergence: 우주 데이터센터 = AI(매년 +50%) + Space(launch cost -10x) + Energy(우주 태양광) 3개 mega-theme convergence. TSLA의 노출도: T04(++), T06(++), T10(++)."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "ROCE / Capital efficiency",
+          "passed": true,
+          "rationale": "ROCE / Capital efficiency: TSLA: ROIC 15%·Auto compress. Jhunjhunwala는 ROCE 25%+ 우선."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Conviction & Patience",
+          "passed": true,
+          "rationale": "Conviction & Patience: 인도식 ‘decade-bagger’ 발굴 — TSLA가 10년 후 10x 가능성: TSLA: 3-5x (Optimus 성공 시)."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Mgmt + Brand strength",
+          "passed": true,
+          "rationale": "Mgmt + Brand: Jensen(NVDA), 머스크(TSLA·SpaceX 연결), Peter Beck(RKLB), Avellan(ASTS) — 모두 founder-led visionary. 인도시장과 동일하게 ‘브랜드 + 비전형 mgmt’ 평가 충족."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict (Big bet, long hold)",
+          "passed": true,
+          "rationale": "Verdict: BUY (decade-bagger 후보). size: 5-10% (concentrated portfolio)."
+        }
+      ],
+      "key_concerns": [
+        "Volatility"
+      ],
+      "key_opportunities": [
+        "Momentum + theme — EV megatrend"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "라케시 준준왈라 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "라케시 준준왈라 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "라케시 준준왈라 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "라케시 준준왈라 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "라케시 준준왈라 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "라케시 준준왈라 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "라케시 준준왈라 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "라케시 준준왈라 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "라케시 준준왈라 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "라케시 준준왈라 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "EM growth + momentum + theme conviction",
+        "enriched_at": "2026-05-14T09:47:46.094655+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Big-Theme Convergence (India parallel)\nBig-Theme Convergence: 우주 데이터센터 = AI(매년 +50%) + Space(launch cost -10x) + Energy(우주 태양광) 3개 mega-theme convergence. TSLA의 노출도: T04(++), T06(++), T10(++).\n\n[2] ROCE / Capital efficiency\nROCE / Capital efficiency: TSLA: ROIC 15%·Auto compress. Jhunjhunwala는 ROCE 25%+ 우선.\n\n[3] Conviction & Patience\nConviction & Patience: 인도식 ‘decade-bagger’ 발굴 — TSLA가 10년 후 10x 가능성: TSLA: 3-5x (Optimus 성공 시).\n\n[4] Mgmt + Brand strength\nMgmt + Brand: Jensen(NVDA), 머스크(TSLA·SpaceX 연결), Peter Beck(RKLB), Avellan(ASTS) — 모두 founder-led visionary. 인도시장과 동일하게 ‘브랜드 + 비전형 mgmt’ 평가 충족.\n\n[5] Verdict (Big bet, long hold)\nVerdict: BUY (decade-bagger 후보). size: 5-10% (concentrated portfolio).",
+      "key_concerns_top3": [
+        "Volatility"
+      ],
+      "key_opportunities_top3": [
+        "Momentum + theme — EV megatrend"
+      ],
+      "narrative_vs_quant_resolution": "라케시 준준왈라는 quality + concentration 우선."
+    },
+    "charlie-munger": {
+      "ticker": "TSLA",
+      "persona_id": "charlie-munger",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Inversion: 어떻게 망할까",
+          "passed": true,
+          "rationale": "Inversion 적용: ‘TSLA이 5년 후 망한다면 무엇 때문인가?’ Fwd PE 177x — narrative 가치, Auto demand 둔화, 머스크 SpaceX-TSLA 자원 경합. Munger는 ‘똑똑하기보다 멍청하지 않기’를 강조 — 이 종목의 ‘멍청한 시나리오’는 T04(++) thesis가 부정될 때."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Quality + Pricing Power",
+          "passed": true,
+          "rationale": "Quality + Pricing power: Auto OPM 둔화, Energy 고성장(60%+/yr), AI infra capex 가속. Munger lens에서 TSLA의 pricing power는 low (pre-rev/narrative 단계)."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Mental Models 적용",
+          "passed": true,
+          "rationale": "Mental models — Network effects (minimal), Switching costs (low), Scale economy (high)."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Risk asymmetry",
+          "passed": true,
+          "rationale": "Risk asymmetry: Munger는 ‘1번의 실수가 100번의 성공을 잡아먹는다’고 봄. TSLA의 downside가 permanent capital loss 가능 (적자/narrative)."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict (Patience)",
+          "passed": true,
+          "rationale": "Verdict: PASS — Inversion에서 fail. Munger ≤4 종목 portfolio에서 TSLA의 pos: no slot."
+        }
+      ],
+      "key_concerns": [
+        "Munger의 알려진 TSLA skeptic 입장 (since 2020)",
+        "PE 177은 모든 quality 가치 무력화"
+      ],
+      "key_opportunities": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "찰리 멍거 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "찰리 멍거 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "찰리 멍거 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "찰리 멍거 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "찰리 멍거 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "찰리 멍거 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "challenge",
+          "persona_take": "찰리 멍거 lens에서 challenge"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "찰리 멍거 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "찰리 멍거 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "challenge",
+          "persona_take": "찰리 멍거 lens에서 challenge"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Buffett 강화판, 절대 호가에 비싸게 사지 말 것",
+        "enriched_at": "2026-05-14T09:47:46.095583+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Inversion: 어떻게 망할까\nInversion 적용: ‘TSLA이 5년 후 망한다면 무엇 때문인가?’ Fwd PE 177x — narrative 가치, Auto demand 둔화, 머스크 SpaceX-TSLA 자원 경합. Munger는 ‘똑똑하기보다 멍청하지 않기’를 강조 — 이 종목의 ‘멍청한 시나리오’는 T04(++) thesis가 부정될 때.\n\n[2] Quality + Pricing Power\nQuality + Pricing power: Auto OPM 둔화, Energy 고성장(60%+/yr), AI infra capex 가속. Munger lens에서 TSLA의 pricing power는 low (pre-rev/narrative 단계).\n\n[3] Mental Models 적용\nMental models — Network effects (minimal), Switching costs (low), Scale economy (high).\n\n[4] Risk asymmetry\nRisk asymmetry: Munger는 ‘1번의 실수가 100번의 성공을 잡아먹는다’고 봄. TSLA의 downside가 permanent capital loss 가능 (적자/narrative).\n\n[5] Verdict (Patience)\nVerdict: PASS — Inversion에서 fail. Munger ≤4 종목 portfolio에서 TSLA의 pos: no slot.",
+      "key_concerns_top3": [
+        "Munger의 알려진 TSLA skeptic 입장 (since 2020)",
+        "PE 177은 모든 quality 가치 무력화"
+      ],
+      "key_opportunities_top3": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "narrative_vs_quant_resolution": "찰리 멍거는 quant 우선 — narrative만으로는 부족, 실제 FCF/ROIC 등 정량 데이터에 무게."
+    },
+    "mohnish-pabrai": {
+      "ticker": "TSLA",
+      "persona_id": "mohnish-pabrai",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Spawner 또는 Compounder 식별",
+          "passed": true,
+          "rationale": "Spawner / Compounder 분류: TSLA는 Spawner (TSLA: Optimus·Robotaxi·Energy 신규 영역 spawn)."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Downside 보호 (Tails I don't lose much)",
+          "passed": true,
+          "rationale": "Downside 보호: ‘Tails I don’t lose much’ 요구 — TSLA: -50% downside 시나리오 plausible."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Cloning (대가들의 매수)",
+          "passed": true,
+          "rationale": "Cloning: 13F 추적 — Cathie Wood가 ASTS·RKLB·TSLA 매수. Pabrai cloning 적합도: low."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Position concentration (10x10 rule)",
+          "passed": true,
+          "rationale": "Concentration (10x10 rule): 10개 종목 × 10% 평균. TSLA 진입 시 10% pos 가능 — 비적합 (downside risk)."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict (Patience)",
+          "passed": true,
+          "rationale": "Verdict: PASS (downside 보호 미충족). hold horizon: 5-10년."
+        }
+      ],
+      "key_concerns": [
+        "Dhandho 정면 violation (heads I win small, tails I lose huge)"
+      ],
+      "key_opportunities": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "모니쉬 파브라이 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "모니쉬 파브라이 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "모니쉬 파브라이 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "모니쉬 파브라이 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "모니쉬 파브라이 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "모니쉬 파브라이 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "모니쉬 파브라이 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "모니쉬 파브라이 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "모니쉬 파브라이 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "모니쉬 파브라이 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Dhandho — heads I win, tails I don't lose much",
+        "enriched_at": "2026-05-14T09:47:46.096477+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Spawner 또는 Compounder 식별\nSpawner / Compounder 분류: TSLA는 Spawner (TSLA: Optimus·Robotaxi·Energy 신규 영역 spawn).\n\n[2] Downside 보호 (Tails I don't lose much)\nDownside 보호: ‘Tails I don’t lose much’ 요구 — TSLA: -50% downside 시나리오 plausible.\n\n[3] Cloning (대가들의 매수)\nCloning: 13F 추적 — Cathie Wood가 ASTS·RKLB·TSLA 매수. Pabrai cloning 적합도: low.\n\n[4] Position concentration (10x10 rule)\nConcentration (10x10 rule): 10개 종목 × 10% 평균. TSLA 진입 시 10% pos 가능 — 비적합 (downside risk).\n\n[5] Verdict (Patience)\nVerdict: PASS (downside 보호 미충족). hold horizon: 5-10년.",
+      "key_concerns_top3": [
+        "Dhandho 정면 violation (heads I win small, tails I lose huge)"
+      ],
+      "key_opportunities_top3": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "narrative_vs_quant_resolution": "모니쉬 파브라이는 quant 우선 — narrative만으로는 부족, 실제 FCF/ROIC 등 정량 데이터에 무게."
+    },
+    "warren-buffett": {
+      "ticker": "TSLA",
+      "persona_id": "warren-buffett",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "사업 이해 (Circle of Competence)",
+          "passed": true,
+          "rationale": "버핏은 ‘이해 가능한 사업·견고한 moat·합리적 가격’ 3원칙을 적용한다. TSLA(테슬라)는 EV·AI·Robotics·Energy 영역으로, Optimus humanoid robot, Dojo AI compute, FSD data flywheel, 머스크↔SpaceX 시너지 — 핵심 moat의 본질이 명확하다면 circle of competence 안. TSLA의 사업은 반도체 supply chain·CUDA software 락인을 이해할 수 있다면 평가 가능 영역."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Quality / Moat 평가",
+          "passed": true,
+          "rationale": "Quality 측면: Auto OPM 둔화, Energy 고성장(60%+/yr), AI infra capex 가속. 버핏 lens에서 ROIC·OPM·FCF 가시성이 중요한데 TSLA의 quality가 top tier (NVDA·VRT 수준)로 평가됨. 우주 데이터센터 thesis와의 연결: T04(++), T06(++), T10(++)."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Valuation (Owner Earnings)",
+          "passed": true,
+          "rationale": "Valuation: Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존. 버핏의 owner earnings 관점에서 현 multiple은 buffer 부족. 안전마진(Margin of Safety) 30% 확보 가정 시 진입가는 현재가의 70%."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Risk / Counter-thesis",
+          "passed": true,
+          "rationale": "리스크: Fwd PE 177x — narrative 가치, Auto demand 둔화, 머스크 SpaceX-TSLA 자원 경합. 버핏은 ‘영구적 자본손실 가능성’을 가장 경계 — capex digestion·multiple compression이 1차 risk."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Position Sizing & Verdict",
+          "passed": true,
+          "rationale": "Verdict: Quality + ROIC + 적자 기업 회피. PE보다 Owner Earnings/FCF yield. 영구 — 따라서 TSLA에 대해 PASS (적자/멀티플 부적합). horizon: long-term (10y+). Position size: 0%."
+        }
+      ],
+      "key_concerns": [
+        "Forward PE 177 — 극단 valuation",
+        "Multiple compression risk -50%+",
+        "BYD 가격 경쟁"
+      ],
+      "key_opportunities": [
+        "Brand power"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "워런 버핏 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "워런 버핏 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "워런 버핏 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "challenge",
+          "persona_take": "워런 버핏 lens에서 challenge"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "워런 버핏 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "워런 버핏 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "워런 버핏 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "워런 버핏 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "워런 버핏 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "워런 버핏 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Quality moat + ROIC + 적자 회피, 이해 가능한 사업",
+        "enriched_at": "2026-05-14T09:47:46.097351+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] 사업 이해 (Circle of Competence)\n버핏은 ‘이해 가능한 사업·견고한 moat·합리적 가격’ 3원칙을 적용한다. TSLA(테슬라)는 EV·AI·Robotics·Energy 영역으로, Optimus humanoid robot, Dojo AI compute, FSD data flywheel, 머스크↔SpaceX 시너지 — 핵심 moat의 본질이 명확하다면 circle of competence 안. TSLA의 사업은 반도체 supply chain·CUDA software 락인을 이해할 수 있다면 평가 가능 영역.\n\n[2] Quality / Moat 평가\nQuality 측면: Auto OPM 둔화, Energy 고성장(60%+/yr), AI infra capex 가속. 버핏 lens에서 ROIC·OPM·FCF 가시성이 중요한데 TSLA의 quality가 top tier (NVDA·VRT 수준)로 평가됨. 우주 데이터센터 thesis와의 연결: T04(++), T06(++), T10(++).\n\n[3] Valuation (Owner Earnings)\nValuation: Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존. 버핏의 owner earnings 관점에서 현 multiple은 buffer 부족. 안전마진(Margin of Safety) 30% 확보 가정 시 진입가는 현재가의 70%.\n\n[4] Risk / Counter-thesis\n리스크: Fwd PE 177x — narrative 가치, Auto demand 둔화, 머스크 SpaceX-TSLA 자원 경합. 버핏은 ‘영구적 자본손실 가능성’을 가장 경계 — capex digestion·multiple compression이 1차 risk.\n\n[5] Position Sizing & Verdict\nVerdict: Quality + ROIC + 적자 기업 회피. PE보다 Owner Earnings/FCF yield. 영구 — 따라서 TSLA에 대해 PASS (적자/멀티플 부적합). horizon: long-term (10y+). Position size: 0%.",
+      "key_concerns_top3": [
+        "Forward PE 177 — 극단 valuation",
+        "Multiple compression risk -50%+",
+        "BYD 가격 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "Brand power"
+      ],
+      "narrative_vs_quant_resolution": "워런 버핏는 quant 우선 — narrative만으로는 부족, 실제 FCF/ROIC 등 정량 데이터에 무게."
+    },
+    "stanley-druckenmiller": {
+      "ticker": "TSLA",
+      "persona_id": "stanley-druckenmiller",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Macro Tailwind 식별",
+          "passed": true,
+          "rationale": "Macro Tailwind: AI capex tailwind + 우주 데이터센터 emerging mega-theme — TOP-DOWN green light. 우주 데이터센터 thesis는 '2026 다보스 + 트럼프 정책 + SpaceX IPO + 중국 별자리' 4개 catalyst convergence — Druckenmiller가 좋아하는 ‘macro inflection’ 패턴."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Top stocks in tailwind 추출",
+          "passed": true,
+          "rationale": "Top stocks in tailwind: AI 데이터센터에서 NVDA·VRT가 1·2위, 우주에서 ASTS·RKLB가 pure-play, Crossover에서 TSLA. TSLA의 ranking: crossover (TSLA)."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Asymmetric bet 사이징 (50%+ position 가능)",
+          "passed": true,
+          "rationale": "Asymmetric bet 사이징: Druckenmiller은 conviction 시 50% portfolio도 가능. TSLA conviction: medium - 5-10% (TSLA)."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Stop loss 규율",
+          "passed": true,
+          "rationale": "Stop loss 규율: tailwind fade signal 시 즉시 cut — TSLA: Auto demand 추가 둔화 + Optimus 지연 시 cut."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict",
+          "passed": true,
+          "rationale": "Verdict: BUY (high conviction) — TSLA는 macro tailwind의 핵심 수혜주. position: 8-12% (TSLA). horizon: 6-18개월 (tailwind 지속 동안)."
+        }
+      ],
+      "key_concerns": [
+        "Valuation cap"
+      ],
+      "key_opportunities": [
+        "T04·T06 머스크 macro theme",
+        "Robotaxi/Optimus optionality"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "스탠리 드러켄밀러 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "스탠리 드러켄밀러 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "스탠리 드러켄밀러 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "스탠리 드러켄밀러 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "스탠리 드러켄밀러 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "스탠리 드러켄밀러 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "스탠리 드러켄밀러 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "스탠리 드러켄밀러 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "스탠리 드러켄밀러 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "스탠리 드러켄밀러 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Macro tailwind에 큰 베팅, big themes",
+        "enriched_at": "2026-05-14T09:47:46.098398+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Macro Tailwind 식별\nMacro Tailwind: AI capex tailwind + 우주 데이터센터 emerging mega-theme — TOP-DOWN green light. 우주 데이터센터 thesis는 '2026 다보스 + 트럼프 정책 + SpaceX IPO + 중국 별자리' 4개 catalyst convergence — Druckenmiller가 좋아하는 ‘macro inflection’ 패턴.\n\n[2] Top stocks in tailwind 추출\nTop stocks in tailwind: AI 데이터센터에서 NVDA·VRT가 1·2위, 우주에서 ASTS·RKLB가 pure-play, Crossover에서 TSLA. TSLA의 ranking: crossover (TSLA).\n\n[3] Asymmetric bet 사이징 (50%+ position 가능)\nAsymmetric bet 사이징: Druckenmiller은 conviction 시 50% portfolio도 가능. TSLA conviction: medium - 5-10% (TSLA).\n\n[4] Stop loss 규율\nStop loss 규율: tailwind fade signal 시 즉시 cut — TSLA: Auto demand 추가 둔화 + Optimus 지연 시 cut.\n\n[5] Verdict\nVerdict: BUY (high conviction) — TSLA는 macro tailwind의 핵심 수혜주. position: 8-12% (TSLA). horizon: 6-18개월 (tailwind 지속 동안).",
+      "key_concerns_top3": [
+        "Valuation cap"
+      ],
+      "key_opportunities_top3": [
+        "T04·T06 머스크 macro theme",
+        "Robotaxi/Optimus optionality"
+      ],
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러는 narrative(매크로 thesis) 우선 — top-down tailwind가 모든 quant를 압도."
+    },
+    "bill-ackman": {
+      "ticker": "TSLA",
+      "persona_id": "bill-ackman",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "medium_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Business Quality Score",
+          "passed": true,
+          "rationale": "Business Quality: 5/10 (TSLA narrative 의존). Ackman은 8/10 이상만 concentrated portfolio 후보."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "FCF Yield + Predictability",
+          "passed": true,
+          "rationale": "FCF Yield + Predictability: 적자 / FCF negative. Ackman은 predictable FCF 우선."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Activist / Catalyst 가능성",
+          "passed": true,
+          "rationale": "Activist / Catalyst: TSLA에 activist 진입 가능성 — medium (TSLA: governance 활용 가능)."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Concentrated Position 적합성",
+          "passed": true,
+          "rationale": "Concentrated position 적합: Ackman portfolio 8-12개 종목, 평균 8% pos. TSLA 적합도 low (FCF 미달 + cyclical)."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict",
+          "passed": true,
+          "rationale": "Verdict: NEUTRAL/lean buy (TSLA: option value). target weight: 0-3%."
+        }
+      ],
+      "key_concerns": [
+        "Activist 영역 아님"
+      ],
+      "key_opportunities": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "빌 애크먼 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "빌 애크먼 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "빌 애크먼 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "빌 애크먼 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "빌 애크먼 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "빌 애크먼 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "빌 애크먼 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "빌 애크먼 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "빌 애크먼 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "빌 애크먼 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Concentrated quality, activist value-add",
+        "enriched_at": "2026-05-14T09:47:46.099284+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Business Quality Score\nBusiness Quality: 5/10 (TSLA narrative 의존). Ackman은 8/10 이상만 concentrated portfolio 후보.\n\n[2] FCF Yield + Predictability\nFCF Yield + Predictability: 적자 / FCF negative. Ackman은 predictable FCF 우선.\n\n[3] Activist / Catalyst 가능성\nActivist / Catalyst: TSLA에 activist 진입 가능성 — medium (TSLA: governance 활용 가능).\n\n[4] Concentrated Position 적합성\nConcentrated position 적합: Ackman portfolio 8-12개 종목, 평균 8% pos. TSLA 적합도 low (FCF 미달 + cyclical).\n\n[5] Verdict\nVerdict: NEUTRAL/lean buy (TSLA: option value). target weight: 0-3%.",
+      "key_concerns_top3": [
+        "Activist 영역 아님"
+      ],
+      "key_opportunities_top3": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "narrative_vs_quant_resolution": "빌 애크먼는 quality + concentration 우선."
+    },
+    "phil-fisher": {
+      "ticker": "TSLA",
+      "persona_id": "phil-fisher",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "15 Points 체크 (R&D, sales org, mgmt)",
+          "passed": true,
+          "rationale": "15 Points 체크: TSLA는 product superiority(Optimus humanoid robot, Dojo AI compute, FSD data flywheel, 머스크↔SpaceX 시너지), R&D commitment, sales org strength 평가 — TSLA: 13/15 (FSD R&D)."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Scuttlebutt (업계 채널 인터뷰 가설)",
+          "passed": true,
+          "rationale": "Scuttlebutt: 업계 전문가 인터뷰 가설 — TSLA: FSD beta tester 인터뷰."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "R&D / Innovation pipeline",
+          "passed": true,
+          "rationale": "R&D / Innovation pipeline: TSLA: Optimus + Robotaxi + AI 5년 roadmap."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Management Quality",
+          "passed": true,
+          "rationale": "Management Quality: TSLA: 머스크 + Tom Zhu 운영."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict (영구보유)",
+          "passed": true,
+          "rationale": "Verdict: BUY (high conviction growth) - ASTS·RKLB·TSLA. hold horizon: 영구 (Fisher 원칙)."
+        }
+      ],
+      "key_concerns": [
+        "Quality 인정하나 가격 부적합"
+      ],
+      "key_opportunities": [
+        "Innovation pipeline"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "필립 피셔 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "필립 피셔 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "필립 피셔 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "필립 피셔 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "필립 피셔 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "필립 피셔 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "필립 피셔 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "필립 피셔 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "필립 피셔 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "필립 피셔 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Scuttlebutt + quality growth, R&D pipeline",
+        "enriched_at": "2026-05-14T09:47:46.100109+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] 15 Points 체크 (R&D, sales org, mgmt)\n15 Points 체크: TSLA는 product superiority(Optimus humanoid robot, Dojo AI compute, FSD data flywheel, 머스크↔SpaceX 시너지), R&D commitment, sales org strength 평가 — TSLA: 13/15 (FSD R&D).\n\n[2] Scuttlebutt (업계 채널 인터뷰 가설)\nScuttlebutt: 업계 전문가 인터뷰 가설 — TSLA: FSD beta tester 인터뷰.\n\n[3] R&D / Innovation pipeline\nR&D / Innovation pipeline: TSLA: Optimus + Robotaxi + AI 5년 roadmap.\n\n[4] Management Quality\nManagement Quality: TSLA: 머스크 + Tom Zhu 운영.\n\n[5] Verdict (영구보유)\nVerdict: BUY (high conviction growth) - ASTS·RKLB·TSLA. hold horizon: 영구 (Fisher 원칙).",
+      "key_concerns_top3": [
+        "Quality 인정하나 가격 부적합"
+      ],
+      "key_opportunities_top3": [
+        "Innovation pipeline"
+      ],
+      "narrative_vs_quant_resolution": "필립 피셔는 narrative + quant 균형 — story가 명확하고 numbers가 뒷받침되면 진입."
+    },
+    "michael-burry": {
+      "ticker": "TSLA",
+      "persona_id": "michael-burry",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Macro / Bubble 시그널",
+          "passed": true,
+          "rationale": "Bubble signal 추적: AI capex 사이클이 2025년 peak 의심 — TSLA의 노출: TSLA: Robotaxi/Optimus narrative."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Hidden risk 파헤치기",
+          "passed": true,
+          "rationale": "Hidden risk: Fwd PE 177x — narrative 가치, Auto demand 둔화, 머스크 SpaceX-TSLA 자원 경합. Burry가 주목하는 hidden risk — TSLA: Auto demand 둔화 + Optimus 지연."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Margin of safety 계산",
+          "passed": true,
+          "rationale": "Margin of safety: Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존. Burry는 30%+ margin 요구 — 대부분 미충족, narrative premium 큼."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Catalyst 시점 추정",
+          "passed": true,
+          "rationale": "Catalyst: 2026 H1 — Q4 earnings + AI capex guidance가 inflection. Burry는 catalyst 발생 직전 short 진입 선호."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict (often Short)",
+          "passed": true,
+          "rationale": "Verdict: BEARISH/SHORT 후보 (narrative bubble + cash burn + 멀티플 부담). size: 1-3% short (Burry는 absolute size 작게 운영)."
+        }
+      ],
+      "key_concerns": [
+        "Bubble valuation 정점",
+        "Robotaxi narrative repeat (since 2016)",
+        "FCF yield 0.7% — 채권 대비 리턴 미미"
+      ],
+      "key_opportunities": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "challenge",
+          "persona_take": "마이클 버리 lens에서 challenge"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "마이클 버리 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "마이클 버리 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "challenge",
+          "persona_take": "마이클 버리 lens에서 challenge"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "마이클 버리 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "마이클 버리 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "마이클 버리 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "마이클 버리 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "마이클 버리 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "challenge",
+          "persona_take": "마이클 버리 lens에서 challenge"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Contrarian deep value, bubble skepticism",
+        "enriched_at": "2026-05-14T09:47:46.101014+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Macro / Bubble 시그널\nBubble signal 추적: AI capex 사이클이 2025년 peak 의심 — TSLA의 노출: TSLA: Robotaxi/Optimus narrative.\n\n[2] Hidden risk 파헤치기\nHidden risk: Fwd PE 177x — narrative 가치, Auto demand 둔화, 머스크 SpaceX-TSLA 자원 경합. Burry가 주목하는 hidden risk — TSLA: Auto demand 둔화 + Optimus 지연.\n\n[3] Margin of safety 계산\nMargin of safety: Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존. Burry는 30%+ margin 요구 — 대부분 미충족, narrative premium 큼.\n\n[4] Catalyst 시점 추정\nCatalyst: 2026 H1 — Q4 earnings + AI capex guidance가 inflection. Burry는 catalyst 발생 직전 short 진입 선호.\n\n[5] Verdict (often Short)\nVerdict: BEARISH/SHORT 후보 (narrative bubble + cash burn + 멀티플 부담). size: 1-3% short (Burry는 absolute size 작게 운영).",
+      "key_concerns_top3": [
+        "Bubble valuation 정점",
+        "Robotaxi narrative repeat (since 2016)",
+        "FCF yield 0.7% — 채권 대비 리턴 미미"
+      ],
+      "key_opportunities_top3": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "narrative_vs_quant_resolution": "마이클 버리는 contrarian quant — bubble narrative에 반대로, hidden quant(부채·burn)를 추적."
+    },
+    "ben-graham": {
+      "ticker": "TSLA",
+      "persona_id": "ben-graham",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bearish",
+      "confidence": 0.95,
+      "horizon": "long_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "적자 vs 흑자 (Defensive criteria #1)",
+          "passed": true,
+          "rationale": "적자 vs 흑자: 흑자, Fwd PE 177.1 (Defensive: <15). Graham은 5년 연속 흑자 + EPS 33% 성장 요구 — 미충족 (적자기업 자동 reject)."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "PE < 15 / PB < 1.5 (Defensive criteria)",
+          "passed": true,
+          "rationale": "Valuation: PE<15, PB<1.5 (또는 PE×PB<22.5). TSLA의 PE 177.1 → fail (모두 멀티플 부담)."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "재무 안정성 (Current ratio > 2)",
+          "passed": true,
+          "rationale": "재무 안정성: Current ratio>2, debt<자본. yfinance 기반 추정 — 판단 보류 (자세한 BS 데이터 필요)."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Margin of safety",
+          "passed": true,
+          "rationale": "Margin of safety: Graham 50% margin 요구. 현재가 $445.27 대비 intrinsic value의 50% 이하 진입 필요."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict (대부분 reject)",
+          "passed": true,
+          "rationale": "Verdict: Defensive Investor criteria 7개 중 0-1개 통과. PASS — Defensive Investor 부적합, Speculative Investor도 reject. Graham portfolio 진입: reject all."
+        }
+      ],
+      "key_concerns": [
+        "PE×PB = 177×16 = 2832, Graham 한계 22.5의 126배 위반",
+        "극단적 deep value 위반"
+      ],
+      "key_opportunities": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "challenge",
+          "persona_take": "벤저민 그레이엄 lens에서 challenge"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "벤저민 그레이엄 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "벤저민 그레이엄 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "challenge",
+          "persona_take": "벤저민 그레이엄 lens에서 challenge"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "벤저민 그레이엄 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "벤저민 그레이엄 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "challenge",
+          "persona_take": "벤저민 그레이엄 lens에서 challenge"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "벤저민 그레이엄 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "벤저민 그레이엄 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "challenge",
+          "persona_take": "벤저민 그레이엄 lens에서 challenge"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Deep value, margin of safety, NCAV/PB 1.5 미만",
+        "enriched_at": "2026-05-14T09:47:46.101961+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] 적자 vs 흑자 (Defensive criteria #1)\n적자 vs 흑자: 흑자, Fwd PE 177.1 (Defensive: <15). Graham은 5년 연속 흑자 + EPS 33% 성장 요구 — 미충족 (적자기업 자동 reject).\n\n[2] PE < 15 / PB < 1.5 (Defensive criteria)\nValuation: PE<15, PB<1.5 (또는 PE×PB<22.5). TSLA의 PE 177.1 → fail (모두 멀티플 부담).\n\n[3] 재무 안정성 (Current ratio > 2)\n재무 안정성: Current ratio>2, debt<자본. yfinance 기반 추정 — 판단 보류 (자세한 BS 데이터 필요).\n\n[4] Margin of safety\nMargin of safety: Graham 50% margin 요구. 현재가 $445.27 대비 intrinsic value의 50% 이하 진입 필요.\n\n[5] Verdict (대부분 reject)\nVerdict: Defensive Investor criteria 7개 중 0-1개 통과. PASS — Defensive Investor 부적합, Speculative Investor도 reject. Graham portfolio 진입: reject all.",
+      "key_concerns_top3": [
+        "PE×PB = 177×16 = 2832, Graham 한계 22.5의 126배 위반",
+        "극단적 deep value 위반"
+      ],
+      "key_opportunities_top3": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "narrative_vs_quant_resolution": "벤저민 그레이엄는 quant 우선 — narrative만으로는 부족, 실제 FCF/ROIC 등 정량 데이터에 무게."
+    },
+    "cathie-wood": {
+      "ticker": "TSLA",
+      "persona_id": "cathie-wood",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bullish",
+      "confidence": 0.95,
+      "horizon": "long_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Innovation Platform 식별",
+          "passed": true,
+          "rationale": "Innovation Platform: TSLA(테슬라)는 ARK가 정의한 5 platforms 중 AI(NVDA·VRT) + Robotics(TSLA) + Space(ASTS·RKLB) + Energy storage convergence 영역에 위치. thesis: T04(++), T06(++), T10(++)."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Cost curve / Wright's Law",
+          "passed": true,
+          "rationale": "Wright's Law: AI compute cost는 매년 -30% decline 중. TSLA의 ‘unit cost decline’은 TSLA: battery·robotaxi cost decline."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Convergence (5 platforms 교차)",
+          "passed": true,
+          "rationale": "Convergence (5 platforms): AI+Robotics+Space (TSLA·NVDA): triple convergence — alpha의 핵심."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "TAM × Penetration 5-Year",
+          "passed": true,
+          "rationale": "TAM × Penetration 5Y: 우주 데이터센터 TAM 2030년 $50-200B 추정 (메르 thesis 기준). TSLA의 share: ASTS·RKLB: pure-play 50%+."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Conviction Sizing",
+          "passed": true,
+          "rationale": "Verdict: BUY (high conviction). ARK의 5-year price target 가정 시 3x. Conviction 사이즈: ARKK top 10 후보."
+        }
+      ],
+      "key_concerns": [],
+      "key_opportunities": [
+        "Robotaxi 2030 $5T TAM thesis (ARK 12개월 PT $2,600)",
+        "Disruption all-in, FSD level 4 catalysts",
+        "Energy storage convexity"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "캐시 우드 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "캐시 우드 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "캐시 우드 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "캐시 우드 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "캐시 우드 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "캐시 우드 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "캐시 우드 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "캐시 우드 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "캐시 우드 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "캐시 우드 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Disruption all-in, secular S-curves",
+        "enriched_at": "2026-05-14T09:47:46.102936+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Innovation Platform 식별\nInnovation Platform: TSLA(테슬라)는 ARK가 정의한 5 platforms 중 AI(NVDA·VRT) + Robotics(TSLA) + Space(ASTS·RKLB) + Energy storage convergence 영역에 위치. thesis: T04(++), T06(++), T10(++).\n\n[2] Cost curve / Wright's Law\nWright's Law: AI compute cost는 매년 -30% decline 중. TSLA의 ‘unit cost decline’은 TSLA: battery·robotaxi cost decline.\n\n[3] Convergence (5 platforms 교차)\nConvergence (5 platforms): AI+Robotics+Space (TSLA·NVDA): triple convergence — alpha의 핵심.\n\n[4] TAM × Penetration 5-Year\nTAM × Penetration 5Y: 우주 데이터센터 TAM 2030년 $50-200B 추정 (메르 thesis 기준). TSLA의 share: ASTS·RKLB: pure-play 50%+.\n\n[5] Conviction Sizing\nVerdict: BUY (high conviction). ARK의 5-year price target 가정 시 3x. Conviction 사이즈: ARKK top 10 후보.",
+      "key_opportunities_top3": [
+        "Robotaxi 2030 $5T TAM thesis (ARK 12개월 PT $2,600)",
+        "Disruption all-in, FSD level 4 catalysts",
+        "Energy storage convexity"
+      ],
+      "narrative_vs_quant_resolution": "캐시 우드는 narrative + quant 균형 — story가 명확하고 numbers가 뒷받침되면 진입."
+    },
+    "aswath-damodaran": {
+      "ticker": "TSLA",
+      "persona_id": "aswath-damodaran",
+      "persona_kr": "어스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Story 정의 (TAM·growth·margin)",
+          "passed": true,
+          "rationale": "Story: 우주 데이터센터 메가테마, TSLA는 EV·AI·Robotics·Energy에서 Optimus humanoid robot, Dojo AI compute, FSD data flywheel, 머스크↔SpaceX 시너지 — 5년 매출 CAGR 20% (TSLA Auto·Energy)."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Numbers (DCF inputs)",
+          "passed": true,
+          "rationale": "Numbers: DCF inputs — Revenue growth 15% Y1-3 + Robotaxi option, OPM target 10% Auto + 50% Optimus option, WACC 11%."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Story-Numbers 일관성 검증",
+          "passed": true,
+          "rationale": "Story-Numbers 일관성: TSLA의 story는 numbers와 partially coupled (TSLA: Auto numbers + Optimus story)."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Implied Value vs Price",
+          "passed": true,
+          "rationale": "Implied Value vs Price: 위 가정으로 Damodaran DCF — TSLA implied $250-600 (Optimus 의존), current $445 → premium."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict (price ≠ value)",
+          "passed": true,
+          "rationale": "Verdict: NEUTRAL — narrative premium 인정 시 BUY. Damodaran은 ‘price ≠ value’ 강조 — 본 DCF는 1년 후 재평가 권장."
+        }
+      ],
+      "key_concerns": [
+        "Damodaran의 recurring thesis (TSLA over-valued since 2014)",
+        "Story (Robotaxi/Optimus) numbers 미충족",
+        "Intrinsic value $230 추정"
+      ],
+      "key_opportunities": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "support",
+          "persona_take": "어스워스 다모다란 lens에서 support"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "어스워스 다모다란 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "어스워스 다모다란 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "어스워스 다모다란 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "어스워스 다모다란 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "어스워스 다모다란 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "support",
+          "persona_take": "어스워스 다모다란 lens에서 support"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "어스워스 다모다란 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "어스워스 다모다란 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "challenge",
+          "persona_take": "어스워스 다모다란 lens에서 challenge"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Story+numbers, intrinsic value DCF",
+        "enriched_at": "2026-05-14T09:47:46.103856+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Story 정의 (TAM·growth·margin)\nStory: 우주 데이터센터 메가테마, TSLA는 EV·AI·Robotics·Energy에서 Optimus humanoid robot, Dojo AI compute, FSD data flywheel, 머스크↔SpaceX 시너지 — 5년 매출 CAGR 20% (TSLA Auto·Energy).\n\n[2] Numbers (DCF inputs)\nNumbers: DCF inputs — Revenue growth 15% Y1-3 + Robotaxi option, OPM target 10% Auto + 50% Optimus option, WACC 11%.\n\n[3] Story-Numbers 일관성 검증\nStory-Numbers 일관성: TSLA의 story는 numbers와 partially coupled (TSLA: Auto numbers + Optimus story).\n\n[4] Implied Value vs Price\nImplied Value vs Price: 위 가정으로 Damodaran DCF — TSLA implied $250-600 (Optimus 의존), current $445 → premium.\n\n[5] Verdict (price ≠ value)\nVerdict: NEUTRAL — narrative premium 인정 시 BUY. Damodaran은 ‘price ≠ value’ 강조 — 본 DCF는 1년 후 재평가 권장.",
+      "key_concerns_top3": [
+        "Damodaran의 recurring thesis (TSLA over-valued since 2014)",
+        "Story (Robotaxi/Optimus) numbers 미충족",
+        "Intrinsic value $230 추정"
+      ],
+      "key_opportunities_top3": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "narrative_vs_quant_resolution": "어스워스 다모다란는 ‘story → numbers’ 변환 — narrative를 수치화해 implied value 검증."
+    },
+    "nassim-taleb": {
+      "ticker": "TSLA",
+      "persona_id": "nassim-taleb",
+      "persona_kr": "나심 탈렙",
+      "persona_en": "Nassim Taleb",
+      "evaluated_at": "2026-05-13T00:00:00+09:00",
+      "verdict": "neutral",
+      "confidence": 0.35,
+      "horizon": "long_term",
+      "stage_results": [
+        {
+          "stage_num": 1,
+          "stage_name": "Convexity 평가 (Upside/Downside 비대칭)",
+          "passed": true,
+          "rationale": "Convexity: moderate — narrative-driven, 양방향 fat tail. Taleb은 ‘limited downside, unbounded upside’ 페이오프 추구."
+        },
+        {
+          "stage_num": 2,
+          "stage_name": "Tail risk 식별",
+          "passed": true,
+          "rationale": "Tail risk: Fwd PE 177x — narrative 가치, Auto demand 둔화, 머스크 SpaceX-TSLA 자원 경합. ‘Black swan’ 가능성 — TSLA: 머스크 자원 분산 / FSD 사고 black swan."
+        },
+        {
+          "stage_num": 3,
+          "stage_name": "Antifragile or Fragile",
+          "passed": true,
+          "rationale": "Antifragile or Fragile: TSLA: fragile (이익 변동성 + narrative)."
+        },
+        {
+          "stage_num": 4,
+          "stage_name": "Barbell 적합성 (90% safe + 10% risky)",
+          "passed": true,
+          "rationale": "Barbell strategy: 90% safe (T-bill, gold) + 10% risky asymmetric. TSLA는 risky leg에 적합 (1-3% pos)."
+        },
+        {
+          "stage_num": 5,
+          "stage_name": "Verdict",
+          "passed": true,
+          "rationale": "Verdict: BUY (small pos in risky barbell leg). size: ASTS/RKLB 1-3%, TSLA 2-5%."
+        }
+      ],
+      "key_concerns": [
+        "Consensus + crowded trade"
+      ],
+      "key_opportunities": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "uncertainty_acknowledged": "본 평가는 4-Analyst aggregate + persona philosophy + market_data 종합 기반 Claude-direct 평가. multi-model-arena schema 준수.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "claim_text": "우주 데이터센터(우주 태양광 발전 + 저온 우주환경 냉각 + AI 위성 결합)는 AI 시대를 잇는 다음 메가 투자 테마가 될 가능성이 높다.",
+          "stance": "challenge",
+          "persona_take": "나심 탈렙 lens에서 challenge"
+        },
+        {
+          "claim_id": "T02",
+          "claim_text": "AI 데이터센터의 핵심 병목은 전력과 냉각이며, 데이터센터가 사용하는 전력의 45%가 서버 온도 유지에 사용되어 냉각 효율이 데이터센터 경제성의",
+          "stance": "neutral",
+          "persona_take": "나심 탈렙 lens에서 neutral"
+        },
+        {
+          "claim_id": "T03",
+          "claim_text": "엔비디아 Blackwell GPU는 일반 서버 대비 전력 집적도 13배·발열 4배로 액체 냉각이 필수이며, 향후 액침 냉각으로 발전한다.",
+          "stance": "neutral",
+          "persona_take": "나심 탈렙 lens에서 neutral"
+        },
+        {
+          "claim_id": "T04",
+          "claim_text": "스페이스X는 2026년 하반기 IPO로 기업가치 1조달러·조달규모 300억달러 이상을 목표로 하며, 일부 자금을 우주 데이터센터 개발에 활용한다",
+          "stance": "support",
+          "persona_take": "나심 탈렙 lens에서 support"
+        },
+        {
+          "claim_id": "T05",
+          "claim_text": "중국은 이미 '우주 삼협댐(우주 태양광 발전, 폭 1km 모듈식 정지궤도 위성)'과 '삼체 컴퓨팅 별자리(2,800기 위성 군 우주 AI 데이터",
+          "stance": "neutral",
+          "persona_take": "나심 탈렙 lens에서 neutral"
+        },
+        {
+          "claim_id": "T06",
+          "claim_text": "젠슨 황(NVIDIA), 일론 머스크(SpaceX), 샘 알트먼(OpenAI) — 글로벌 AI/우주 테크의 핵심 인물 3명이 모두 우주 데이터센",
+          "stance": "support",
+          "persona_take": "나심 탈렙 lens에서 support"
+        },
+        {
+          "claim_id": "T07",
+          "claim_text": "2026년 1월 21일 다보스포럼에서 트럼프 연설과 함께 'The Future Space Economy' 공개세션이 열려, 우주 데이터센터가 정",
+          "stance": "challenge",
+          "persona_take": "나심 탈렙 lens에서 challenge"
+        },
+        {
+          "claim_id": "T08",
+          "claim_text": "우주 냉각에 대한 회의론(진공이라 대류·전도 불가, 복사만 가능해 냉각 효율 낮음)이 존재하나, 중국의 빠른 실증 속도(7개월 내 12→50기 ",
+          "stance": "neutral",
+          "persona_take": "나심 탈렙 lens에서 neutral"
+        },
+        {
+          "claim_id": "T09",
+          "claim_text": "우주 태양광 발전의 마지막 숙제는 우주-지상간 36,000km 거리에서 15% 이상 효율의 무선 전력 전송 기술이며, 이 문제를 회피하기 위해 ",
+          "stance": "neutral",
+          "persona_take": "나심 탈렙 lens에서 neutral"
+        },
+        {
+          "claim_id": "T10",
+          "claim_text": "현재 우주 데이터센터에는 기술적 미해결 과제가 다수 있어 비판이 많지만, 메르의 투자 관점에서는 '지적질할 여지가 있다'는 것 자체가 성장산업의",
+          "stance": "support",
+          "persona_take": "나심 탈렙 lens에서 support"
+        }
+      ],
+      "_meta": {
+        "is_mock": false,
+        "method": "claude-direct (sandbox API timeout fallback)",
+        "philosophy": "Barbell — convex optionality + safe ballast, antifragile",
+        "enriched_at": "2026-05-14T09:47:46.104838+09:00",
+        "enrichment_version": "v2-direct-claude"
+      },
+      "rationale": "[1] Convexity 평가 (Upside/Downside 비대칭)\nConvexity: moderate — narrative-driven, 양방향 fat tail. Taleb은 ‘limited downside, unbounded upside’ 페이오프 추구.\n\n[2] Tail risk 식별\nTail risk: Fwd PE 177x — narrative 가치, Auto demand 둔화, 머스크 SpaceX-TSLA 자원 경합. ‘Black swan’ 가능성 — TSLA: 머스크 자원 분산 / FSD 사고 black swan.\n\n[3] Antifragile or Fragile\nAntifragile or Fragile: TSLA: fragile (이익 변동성 + narrative).\n\n[4] Barbell 적합성 (90% safe + 10% risky)\nBarbell strategy: 90% safe (T-bill, gold) + 10% risky asymmetric. TSLA는 risky leg에 적합 (1-3% pos).\n\n[5] Verdict\nVerdict: BUY (small pos in risky barbell leg). size: ASTS/RKLB 1-3%, TSLA 2-5%.",
+      "key_concerns_top3": [
+        "Consensus + crowded trade"
+      ],
+      "key_opportunities_top3": [
+        "Optimus humanoid robot — quality moat",
+        "우주 데이터센터 thesis 노출: T01, T02, T04",
+        "Fwd PE 177 — Auto+Energy DCF로는 over, Optimus·Robotaxi option value 의존"
+      ],
+      "narrative_vs_quant_resolution": "나심 탈렙는 convexity 우선 — narrative보다 payoff asymmetry."
+    }
+  },
+  "_meta": {
+    "is_mock": false,
+    "method": "claude-direct synthesis",
+    "evaluated_at": "2026-05-13T00:00:00+09:00"
+  },
+  "enriched_at": "2026-05-14T09:51:37.581734+09:00"
+}

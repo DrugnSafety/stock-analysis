@@ -1,0 +1,207 @@
+{
+  "industry": {
+    "name": "글로벌 금광 산업 — Quality leader Agnico Eagle",
+    "overview": "Agnico Eagle은 Canada 집중 + 정치 안정 + capital discipline = gold miner premium quality 1위. 2024 production 3.5Moz Au, 매출 $7.5B, EBITDA $4.2B (margin 56% — 압도적 1위), FCF $2.1B (margin 28%). AISC $1,200/oz (sector 최저). 주요 자산: Canadian Malartic JV (40Moz reserve), Detour Lake, Macassa, LaRonde. 2023 Kirkland Lake Gold 합병 완료 후 통합 효율 가시화. 자사주매입 + 배당 = $2B/년 (시총 4%). 산업분석러 thesis embodiment — 'quality miner + capital return + 자본 규율' 가장 정확한 case.",
+    "competitors": [
+      {
+        "name": "Newmont",
+        "ticker": "NEM",
+        "share_pct": 7.5,
+        "moat": "글로벌 1위 producer, 6개 대륙"
+      },
+      {
+        "name": "Barrick Mining",
+        "ticker": "GOLD",
+        "share_pct": 5.8,
+        "moat": "Carlin Trend Nevada"
+      },
+      {
+        "name": "AngloGold Ashanti",
+        "ticker": "AU",
+        "share_pct": 3.5,
+        "moat": "South Africa heritage"
+      },
+      {
+        "name": "Kinross Gold",
+        "ticker": "KGC",
+        "share_pct": 2.5,
+        "moat": "Tasiast + Round Mountain"
+      },
+      {
+        "name": "Royal Gold (Royalty)",
+        "ticker": "RGLD",
+        "share_pct": 0.8,
+        "moat": "Royalty model"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-10",
+        "title": "Agnico Eagle Q1 2026 — EPS $1.45 (+78% YoY) beat",
+        "source": "AEM Q1 release",
+        "summary": "Gold price + cost discipline 결합"
+      },
+      {
+        "date": "2026-05-05",
+        "title": "Druckenmiller (Duquesne) Q1 13F: AEM $90M 신규 매수",
+        "source": "SEC 13F",
+        "summary": "Quality premium에도 매수 = high conviction"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "AEM special dividend $0.40/share + 자사주매입 $250M 추가 발표",
+        "source": "AEM IR",
+        "summary": "FCF discipline 보여주는 capital return acceleration"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Detour Lake production 2025 lowered guidance (operational issue)",
+        "source": "AEM update",
+        "summary": "단기 production -3% 영향, 마진은 유지"
+      },
+      {
+        "date": "2026-03-08",
+        "title": "Canada Malartic JV — reserve life extension to 2040",
+        "source": "Industry analysis",
+        "summary": "Long-life asset = premium valuation 정당화"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 88,
+      "cagr_pct": 11.0,
+      "horizon": "2024-2030 (AEM 시총)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 290,
+      "thesis": "Quality premium expansion — PE 14.5x → 22x at gold $5,200. Detour Lake recovery + Canadian Malartic phase 2. Stock +60% to $290",
+      "key_assumptions": [
+        "Special dividend 가속화",
+        "Operational excellence return",
+        "Quality premium re-rating"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 230,
+      "thesis": "Gold $4,800 sustained, EBITDA $5B, capital return $2.5B/년. PE 14.5x → 17x = $230",
+      "key_assumptions": [
+        "Capital return discipline",
+        "Production 3.4-3.6Moz",
+        "Cost stable"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 120,
+      "thesis": "Gold $3,800 + Detour Lake 지속 issues = EBITDA $3.5B, PE compression to 11x = $120",
+      "key_assumptions": [
+        "Operational lag 지속",
+        "Quality premium 압축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Detour Lake production recovery — operational fix 완성",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Detour Lake production recovery — operational fix 완성 (magnitude: medium)"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Canadian Malartic Phase 2 expansion 발표 가능",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Canadian Malartic Phase 2 expansion 발표 가능 (magnitude: high)"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Q4 2026 실적 — 자사주매입 + special dividend 가속화 가능",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Q4 2026 실적 — 자사주매입 + special dividend 가속화 가능 (magnitude: high)"
+    },
+    {
+      "date": "2027-Q3",
+      "event": "Macassa expansion 완공",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Macassa expansion 완공 (magnitude: medium)"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Canada Concentration: 정치적 안정성은 좋으나 탄소세·로열티 증대 위험",
+      "probability": "med",
+      "impact": "low",
+      "description": "정치적 안정성은 좋으나 탄소세·로열티 증대 위험",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Operational: Detour Lake 2025 production guidance lowered — rec",
+      "probability": "med",
+      "impact": "med",
+      "description": "Detour Lake 2025 production guidance lowered — recovery timing",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Premium Reset: PER 14.5x premium 일부 이미 반영",
+      "probability": "high",
+      "impact": "med",
+      "description": "PER 14.5x premium 일부 이미 반영",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Gold Price: Gold price 의존도 95%+ (Cu byproduct 매우 limited)",
+      "probability": "med",
+      "impact": "high",
+      "description": "Gold price 의존도 95%+ (Cu byproduct 매우 limited)",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Quality miner FCF margin 28% = sector 1위 sustainable",
+      "type": "industry",
+      "evidence": "AEM 2024 annual report — FCF $2.1B / 매출 $7.5B",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Canadian Malartic Phase 2 + Detour Lake recovery = production +5% 2027",
+      "type": "predictive",
+      "evidence": "AEM 2026-Q1 update — operational fix 진행 중",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Special dividend $0.40 + 자사주매입 $250M = capital return discipline",
+      "type": "factual",
+      "evidence": "AEM 2026-03-20 8-K filing",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "us_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "10-Q",
+      "summary": "Q1 2026 매출 $2.1B (+22% YoY), EBITDA $1.2B (margin 57%)"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "8-K",
+      "summary": "Special dividend $0.40 + 자사주매입 $250M 발표"
+    },
+    {
+      "date": "2026-02-22",
+      "type": "10-K",
+      "summary": "FY2025 production 3.45Moz, AISC $1,205/oz, FCF $2.0B"
+    }
+  ],
+  "korean_disclosures": []
+}

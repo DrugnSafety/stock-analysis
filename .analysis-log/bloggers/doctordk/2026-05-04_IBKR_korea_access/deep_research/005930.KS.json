@@ -1,0 +1,296 @@
+{
+  "industry": {
+    "name": "Memory + Foundry — 종합 반도체",
+    "overview": "삼성전자는 Memory(DRAM·NAND) + Foundry(파운드리) + System LSI(설계) + Display + Mobile 다각화 구조. AI super-cycle 직접 수혜 segment 인 HBM3E 12-stack 검증이 NVIDIA quotient 미진입 (2026 Q1 시점), Foundry 도 TSMC 대비 첨단 node 격차 — '메모리 + Foundry' 종합 narrative 가 retail 에 dilute. 본문은 'AI 인프라 핵심 공급자' 서사 강도가 SK하이닉스 대비 약하다고 평가.",
+    "competitors": [
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 28.0,
+        "moat": "글로벌 #1 DRAM scale + IDM (note: Memory 28% + Foundry 16%)"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 56.0,
+        "moat": "Foundry 절대 dominance (note: Foundry 56%)"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 32.0,
+        "moat": "HBM 단독 supplier (note: Memory 32%)"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 18.0,
+        "moat": "HBM3E 8-stack 진입 (note: Memory 18%)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-12",
+        "title": "삼성 HBM3E 12-stack NVIDIA 재검증 통과 시도",
+        "source": "industry source",
+        "summary": "HBM4 부터 진입 가능성 — 2026 H2"
+      },
+      {
+        "date": "2026-03-25",
+        "title": "Foundry 2nm GAA 양산 시작",
+        "source": "회사 공시",
+        "summary": "TSMC 대비 6개월 시차 단축"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "1Q26 영업이익 +28% YoY",
+        "source": "회사 공시",
+        "summary": "Memory 가격 회복 + Mobile 안정"
+      },
+      {
+        "date": "2026-01-20",
+        "title": "삼성 ICT 자회사 분할 검토",
+        "source": "보도",
+        "summary": "디스플레이·모바일 분리 구조 개선"
+      },
+      {
+        "date": "2025-12-05",
+        "title": "Tesla Optimus 칩 Foundry 수주",
+        "source": "회사 발표",
+        "summary": "AI 인프라 segment 다변화"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 250,
+      "cagr_pct": 10,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 279600,
+        "op_income": 51630,
+        "op_margin": 18.5,
+        "net_income": 39240,
+        "net_margin": 14.0
+      },
+      {
+        "year": 2022,
+        "revenue": 302230,
+        "op_income": 43380,
+        "op_margin": 14.4,
+        "net_income": 55700,
+        "net_margin": 18.4
+      },
+      {
+        "year": 2023,
+        "revenue": 258940,
+        "op_income": 6560,
+        "op_margin": 2.5,
+        "net_income": 15487,
+        "net_margin": 6.0
+      },
+      {
+        "year": 2024,
+        "revenue": 304400,
+        "op_income": 32700,
+        "op_margin": 10.7,
+        "net_income": 32310,
+        "net_margin": 10.6
+      },
+      {
+        "year": 2025,
+        "revenue": 322500,
+        "op_income": 45800,
+        "op_margin": 14.2,
+        "net_income": 38500,
+        "net_margin": 11.9
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 460000,
+      "total_liab": 95000,
+      "equity": 365000,
+      "cash": 95000,
+      "debt": 28000
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 65000,
+      "fcf_5y_avg": 22000,
+      "capex_intensity": 0.16
+    },
+    "peer_compare": [
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "pe": 14.0,
+        "pb": 1.45,
+        "roe": 12.5,
+        "div_yield": 1.85
+      },
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 3.9,
+        "pb": 2.85,
+        "roe": 35.2,
+        "div_yield": 0.35
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "pe": 22.5,
+        "pb": 5.8,
+        "roe": 28.5,
+        "div_yield": 1.45
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 320000,
+      "thesis": "HBM4 NVIDIA 진입 + Foundry 2nm 양산 + Optimus chip + Tesla AI dominance"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 270000,
+      "thesis": "Memory cycle 안정 + Foundry segment 점진 회복"
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 195000,
+      "thesis": "HBM4 진입 지연 + Foundry TSMC 격차 확대 + Mobile 감소"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM4 NVIDIA 진입 가능성",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Foundry 2nm 본격 양산",
+      "type": "product",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "value-up program 자사주 배당 확대",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026-Q2",
+      "event": "ICT 자회사 분할 검토 결론",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "외국인 retail 한국 대표주 inflow",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM4 NVIDIA 검증 또 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 35% / 심각도 high",
+      "mitigation": "메모리 일반 segment 보완"
+    },
+    {
+      "name": "Foundry TSMC 격차 지속",
+      "probability": "high",
+      "impact": "high",
+      "description": "확률 50% / 심각도 medium-high",
+      "mitigation": "Tesla Optimus 등 적은 customer 다각화"
+    },
+    {
+      "name": "Mobile segment 점진 감소",
+      "probability": "high",
+      "impact": "med",
+      "description": "확률 60% / 심각도 medium",
+      "mitigation": "AI smartphone 전환 가속"
+    },
+    {
+      "name": "diluted narrative — retail flow 미진입",
+      "probability": "med",
+      "impact": "low",
+      "description": "확률 40% / 심각도 low-medium",
+      "mitigation": "한국 대표주 인덱스 inclusion"
+    },
+    {
+      "name": "geopolitical (US-China)",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 35% / 심각도 medium",
+      "mitigation": "다각화된 매출 mix"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "T03 보조 — Memory 회복 안정",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD2",
+      "claim": "Foundry 2nm 양산 catch-up",
+      "type": "company",
+      "evidence": "지속 기간: 12-24개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD3",
+      "claim": "HBM4 NVIDIA 진입 optionality",
+      "type": "company",
+      "evidence": "지속 기간: 6-12개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD4",
+      "claim": "다각화 mix → narrative dilute",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-12",
+      "type": "주요사항보고",
+      "title": "HBM3E 12-stack NVIDIA 재검증 시도 진행",
+      "impact": "-"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "주요사항보고",
+      "title": "Foundry 2nm GAA 양산 시작",
+      "impact": "-"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "1Q26 분기보고서",
+      "title": "영업이익 +28% YoY, Memory 가격 회복",
+      "impact": "-"
+    }
+  ]
+}

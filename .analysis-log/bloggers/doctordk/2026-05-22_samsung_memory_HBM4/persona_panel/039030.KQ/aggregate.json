@@ -1,0 +1,965 @@
+{
+  "ticker": "039030.KQ",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bearish": {
+      "count": 6,
+      "pct": 46.2
+    }
+  },
+  "average_confidence": 0.55,
+  "style_split": {
+    "value": {
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "count": 5
+    },
+    "value-contrarian": {
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "count": 1
+    },
+    "growth": {
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "count": 4
+    },
+    "macro": {
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "count": 2
+    },
+    "activist": {
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "count": 1
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "메모리 cycle peak timing 불확실성",
+      "frequency": 8,
+      "personas": [
+        "michael-burry",
+        "nassim-taleb",
+        "warren-buffett",
+        "ben-graham",
+        "charlie-munger",
+        "aswath-damodaran",
+        "mohnish-pabrai",
+        "phil-fisher"
+      ],
+      "examples": [
+        "EPS 변동성 50%+ 가능 — historical cycle 정점 직후 -30~-50% 패턴 반복"
+      ]
+    },
+    {
+      "theme": "Valuation 부담 (1Y 상승 과열)",
+      "frequency": 7,
+      "personas": [
+        "michael-burry",
+        "ben-graham",
+        "warren-buffett",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "charlie-munger",
+        "bill-ackman"
+      ],
+      "examples": [
+        "1Y 상승률 200%+ 종목 다수 — multiple compression risk + entry timing 어려움"
+      ]
+    },
+    {
+      "theme": "Capex 사이클 + 글로벌 IDM 경쟁 격화",
+      "frequency": 6,
+      "personas": [
+        "warren-buffett",
+        "phil-fisher",
+        "ben-graham",
+        "michael-burry",
+        "nassim-taleb",
+        "charlie-munger"
+      ],
+      "examples": [
+        "메모리 + 파운드리 동시 capex 효율 위험 + 중국 추격(CXMT/YMTC) capa 증설"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 1Y 348.52% 단기 과열 — margin of safety 부족",
+        "[inference] Valuation 부담 (Fwd PE 46) + 한미반도체 대비 niche position + cycle dependency."
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM-spec laser 시스템 + EUV-related niche tech + Korea customer base.",
+        "[inference] PE 부담 — 다른 quality 종목 대안",
+        "[inference] long-term compounder 가능성"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "워런 버핏은 정량(margin of safety, Fwd PE 46.0, vol 72.74%) 우선이며, narrative AI/HBM 메가트렌드는 30% 가중. cycle 정규화 EPS 기준으로 판단.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] cycle peak 부근 capital allocation 위험",
+        "[inference] Valuation 부담 (Fwd PE 46) + 한미반도체 대비 niche position + cycle dependency."
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM-spec laser 시스템 + EUV-related niche tech + Korea customer base. — Munger 'wonderful business'",
+        "[actual] 1Y +348.52% — quality stock 동반 가속",
+        "[inference] long-term compounding 가능"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "찰리 멍거은 정량(margin of safety, Fwd PE 46.0, vol 72.74%) 우선이며, narrative AI/HBM 메가트렌드는 30% 가중. cycle 정규화 EPS 기준으로 판단.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 1Y 348.52% — 'too good to be true'?",
+        "[inference] cycle 정점 risk"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM4 laser drilling 신규 수요 + EUV mask infra + 다각화 (laser·test·EUV).",
+        "[inference] PEG = Fwd PE 46.0 / growth = 매력적",
+        "[inference] 'category killer' story 이해 가능"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "피터 린치은 narrative(AI/HBM TAM 확대, 5~10년 성장) 우선이며, 단기 정량은 50% 가중. PEG·DCF로 정량과 narrative 결합.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "피터 린치: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "피터 린치: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "피터 린치: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "피터 린치: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "피터 린치: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 성장 영향 약함 — TAM 확대 가능성",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "피터 린치: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "피터 린치: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 성장 영향 약함 — TAM 확대 가능성",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] cycle dependency 부담",
+        "[inference] disruptor가 아닌 기존 IDM"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 메가트렌드 + HBM 침투율 가속",
+        "[inference] 5년 TAM 확대 시나리오",
+        "[inference] HBM4 laser drilling 신규 수요 + EUV mask infra + 다각화 (laser·test·EUV)."
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "캐시 우드은 narrative(AI/HBM TAM 확대, 5~10년 성장) 우선이며, 단기 정량은 50% 가중. PEG·DCF로 정량과 narrative 결합.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "캐시 우드: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "캐시 우드: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "캐시 우드: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "캐시 우드: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 성장 영향 약함 — TAM 확대 가능성",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "캐시 우드: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 성장 영향 약함 — TAM 확대 가능성",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 1Y +348.52% — bubble 의심 신호",
+        "[inference] sell-side 100% bullish — contrarian 신호"
+      ],
+      "key_opportunities_top3": [
+        "[inference] short candidate 가능성",
+        "[inference] contrarian short opportunity"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "마이클 버리은 정량(margin of safety, Fwd PE 46.0, vol 72.74%) 우선이며, narrative AI/HBM 메가트렌드는 30% 가중. cycle 정규화 EPS 기준으로 판단.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] Vol 72.74% — fat tail 가능성",
+        "[inference] AI bubble unwind 시 대형 손실"
+      ],
+      "key_opportunities_top3": [
+        "[inference] pure cyclical = fragile",
+        "[inference] tail-hedge 동반 long 가능성"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "나심 탈레브은 narrative(AI/HBM TAM 확대, 5~10년 성장) 우선이며, 단기 정량은 50% 가중. PEG·DCF로 정량과 narrative 결합.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "나심 탈레브: 거시 흐름 lens — '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "나심 탈레브: 거시 흐름 lens — '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "나심 탈레브: 거시 흐름 lens — 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "나심 탈레브: 거시 흐름 lens — 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 매크로 지원은 약하나 challenge 아님",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "나심 탈레브: 거시 흐름 lens — 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 매크로 지원은 약하나 challenge 아님",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] Fwd PE 46.0 — defensive criteria 미달",
+        "[inference] cyclical EPS 정규화 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 안전마진 추정 필요",
+        "[inference] book value 안정성"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄은 정량(margin of safety, Fwd PE 46.0, vol 72.74%) 우선이며, narrative AI/HBM 메가트렌드는 30% 가중. cycle 정규화 EPS 기준으로 판단.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[inference] 정부 정책 변동 risk",
+        "[inference] capex 부담"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM-spec laser 시스템 + EUV-related niche tech + Korea customer base.",
+        "[inference] high-quality compounder 가능성",
+        "[inference] capital return 가능성"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "빌 애크먼은 high-quality compounder 자질이 narrative와 정량 일치 시 confident — capital allocation 효율 정량 점검.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "빌 애크먼: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'는 quality moat 강화 신호",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: thesis 영향 제한적",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: thesis 영향 제한적",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "빌 애크먼: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'는 quality moat 강화 신호",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: thesis 영향 제한적",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: thesis 영향 제한적",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: thesis 영향 제한적",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[inference] cycle timing risk",
+        "[inference] 단기 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[inference] asymmetric setup 가능",
+        "[inference] HBM4 laser drilling 신규 수요 + EUV mask infra + 다각화 (laser·test·EUV)."
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "모니시 파브라이은 정량(margin of safety, Fwd PE 46.0, vol 72.74%) 우선이며, narrative AI/HBM 메가트렌드는 30% 가중. cycle 정규화 EPS 기준으로 판단.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "key_concerns_top3": [
+        "[inference] R&D 효율성 검증 필요",
+        "[inference] customer concentration 우려"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM-spec laser 시스템 + EUV-related niche tech + Korea customer base. — long-term scuttlebutt 양호",
+        "[inference] 5~10년 hold 가능 신뢰성",
+        "[inference] organic growth + R&D 가속"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "필립 피셔은 narrative(AI/HBM TAM 확대, 5~10년 성장) 우선이며, 단기 정량은 50% 가중. PEG·DCF로 정량과 narrative 결합.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "필립 피셔: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "필립 피셔: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "필립 피셔: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "필립 피셔: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 성장 영향 약함 — TAM 확대 가능성",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "필립 피셔: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 성장 영향 약함 — TAM 확대 가능성",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[inference] valuation 부담 — 단기 entry timing",
+        "[inference] cycle 정점 risk"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 시대 mega-trend long-term",
+        "[inference] Asia-EM tech leader",
+        "[inference] Concentration bet 가능"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "라케시 준준왈라은 narrative(AI/HBM TAM 확대, 5~10년 성장) 우선이며, 단기 정량은 50% 가중. PEG·DCF로 정량과 narrative 결합.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 성장 영향 약함 — TAM 확대 가능성",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 성장 thesis로 강력 — TAM 확대 가능성",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 성장 영향 약함 — TAM 확대 가능성",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[inference] sentiment overshoot 단기 risk",
+        "[inference] Fed 정책 전환 risk"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 메가트렌드 + HBM 침투율 = strongest macro tailwind",
+        "[actual] 1Y +348.52% — momentum 확인",
+        "[inference] HBM4 laser drilling 신규 수요 + EUV mask infra + 다각화 (laser·test·EUV)."
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러은 narrative(AI/HBM TAM 확대, 5~10년 성장) 우선이며, 단기 정량은 50% 가중. PEG·DCF로 정량과 narrative 결합.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 흐름 lens — '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 흐름 lens — '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 흐름 lens — 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 흐름 lens — 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 매크로 지원은 약하나 challenge 아님",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 흐름 lens — 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 매크로 tailwind에 부합",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 매크로 지원은 약하나 challenge 아님",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "애즈워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[inference] DCF 기준 growth 가정 sensitive",
+        "[inference] terminal value 큰 비중"
+      ],
+      "key_opportunities_top3": [
+        "[inference] story: AI HBM 메가트렌드 + 침투율",
+        "[actual] Fwd PE 46.0 DCF intrinsic 추정 가능",
+        "[inference] base/bull/bear DCF spread 비교"
+      ],
+      "uncertainty": "AI capex 사이클 지속성 — 잘못 판단 시 EPS -30~50% 가능",
+      "narrative_vs_quant_resolution": "애즈워스 다모다란은 정량(margin of safety, Fwd PE 46.0, vol 72.74%) 우선이며, narrative AI/HBM 메가트렌드는 30% 가중. cycle 정규화 EPS 기준으로 판단.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "애즈워스 다모다란: '메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "애즈워스 다모다란: '삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "애즈워스 다모다란: 'LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "애즈워스 다모다란: 'P4 라인 가동이 범용 메모리 부족을 가속화한다'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "애즈워스 다모다란: 'Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "애즈워스 다모다란: 'HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "애즈워스 다모다란: 'HBM 후공정·테스터·본더·소부장 수혜 확대'은 예측 의존적 — margin of safety lens에서 약함",
+          "confidence": 0.5
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "ticker": "CRWV",
+  "aggregated_at": "2026-06-03T04:21:56.760586+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    }
+  },
+  "average_confidence": 0.669,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 8,
+      "personas": [
+        "cathie-wood",
+        "charlie-munger",
+        "aswath-damodaran",
+        "mohnish-pabrai",
+        "rakesh-jhunjhunwala",
+        "stanley-druckenmiller",
+        "nassim-taleb",
+        "phil-fisher"
+      ],
+      "examples": [
+        "높은 시장 변동성",
+        "변동성이 큰 시장 환경",
+        "높은 변동성 [actual]"
+      ]
+    }
+  ],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 정직성 불명확",
+        "높은 시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "에지 컴퓨팅의 성장 잠재력",
+        "강력한 R&D 투자 기반"
+      ],
+      "uncertainty": "R&D 효율성이 현저하게 감소하거나 시장의 대규모 경쟁으로 성장 잠재력이 저하될 경우 verdict가 뒤집힐 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수익성 부재와 높은 forward PE",
+        "복잡하고 이해하기 어려운 사업 모델"
+      ],
+      "key_opportunities_top3": [
+        "AI 엣지 컴퓨팅에 대한 잠재적 수요 증가"
+      ],
+      "uncertainty": "AI추론 인프라 전환에 대한 업계 내 지속적 수요가 불확실해진다면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 밸류에이션이 지속 가능한가",
+        "변동성이 큰 시장 환경"
+      ],
+      "key_opportunities_top3": [
+        "엘지 컴퓨팅 수요 증가",
+        "AI 추론 시장에서의 선도적 위치 확립 가능성"
+      ],
+      "uncertainty": "분산형 AI 추론 인프라 수요 감소 시 verdict가 뒤집힐 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성 [actual]",
+        "마이너스 forward PE [actual]"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 다중화 [inference]",
+        "분산형 AI의 부상 [inference]"
+      ],
+      "uncertainty": "AI 인프라에 대한 수요가 지속적으로 증가하지 않을 경우, CoreWeave의 전략이 흔들릴 수 있음.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "재무적 지표 부재",
+        "비즈니스 모델의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 확장",
+        "엣지 컴퓨팅 트렌드"
+      ],
+      "uncertainty": "수익성 전환 여부가 확인되지 않으면, 비즈니스 지속 가능성에 의문이 제기될 수 있음.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고평가된 Valuation",
+        "변동성"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론 성장 지원 인프라",
+        "글로벌 엣지 네트워크"
+      ],
+      "uncertainty": "AI 인프라 수요 감소나 기술적 발전의 실패 시 verdict가 바뀔 수 있음.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "미래 수익 실현 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "엣지 인프라 전환",
+        "AI 시대의 분산화된 인프라 필요"
+      ],
+      "uncertainty": "AI 시장 전반의 기술발전 속도가 예상보다 느려질 경우, 동사의 기대 수익 잠재력은 감소할 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 배수는 과대평가를 의미",
+        "Catalyst 부재로 투자 시기 불확실"
+      ],
+      "key_opportunities_top3": [
+        "AI 시대 엣지 컴퓨팅 인프라 확장에 따른 성장 가능성",
+        "다양한 컴퓨팅 자원 확장이 시장에서 잠재적 기회를 제공할 수 있음"
+      ],
+      "uncertainty": "EV/EBITDA가 낮아지거나 명확한 catalyst가 발생하면 투자 관점이 달라질 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "지속적인 수익성을 입증할 수 있는 재무적 데이터 부족",
+        "강력한 FCF 생성력 결여"
+      ],
+      "key_opportunities_top3": [
+        "분산 AI 패러다임에서의 CoreWeave의 인프라 활용 가능성",
+        "Anthropic과의 협력을 통한 시장 위치 강화"
+      ],
+      "uncertainty": "만약 CRWV가 긍정적인 FCF 전환을 이루어내고, ROIC 데이터를 통해 더 나은 자본 효율성을 증명한다면, 투자된 시각을 재고할 가능성이 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "음수의 forward_PE는 경제적 구조의 취약성 가능성을 시사",
+        "높은 시장 변동성으로 인해 예측 및 대비가 어려움"
+      ],
+      "key_opportunities_top3": [
+        "AI 시대의 인프라 다변화 수혜 가능성",
+        "분산형 AI 추세에서의 구조적 수혜"
+      ],
+      "uncertainty": "AI 인프라 관련 기술 발전 속도나 방향이 예측과 다르게 진행될 경우 Verdict에 영향",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PBR과 부정적 EPS",
+        "배당 미지급"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론 인프라 시장의 성장",
+        "다중화된 컴퓨팅 자원의 잠재적 이점"
+      ],
+      "uncertainty": "AI 추론의 중요성이 CRWV의 수익성을 빠르게 회복시킬 수 있는 경우",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "부정적인 forward PE"
+      ],
+      "key_opportunities_top3": [
+        "엣지 AI로의 전환 증가",
+        "Anthropic 등과의 전략적 파트너십"
+      ],
+      "uncertainty": "'엣지 AI'로의 전환이 가속화되지 않거나 경쟁이 예상보다 치열해질 경우, 성장 기대치가 하락할 수 있음.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성: 106.38% [actual]",
+        "Forward PE 음수: -189.91 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "에지 AI에서의 구조적 수혜",
+        "글로벌 인프라에 대한 강력한 활용"
+      ],
+      "uncertainty": "AI 트렌드가 엣지 중심에서 중앙 집중형으로 다시 이동하면 평가가 달라질 수 있습니다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "industry": {
+    "name": "Operational Database + AI Data Layer",
+    "overview": "Document DB + Atlas managed cloud + Vector search 통합. AI RAG 워크로드의 underlying DB.",
+    "competitors": [
+      {
+        "name": "PostgreSQL + pgvector (OSS)",
+        "ticker": null,
+        "share_pct": 35.0,
+        "moat": "무료 + ubiquitous + AWS RDS · Aurora 통합"
+      },
+      {
+        "name": "Pinecone (private)",
+        "ticker": null,
+        "share_pct": 6.0,
+        "moat": "Vector DB pure-play"
+      },
+      {
+        "name": "Couchbase",
+        "ticker": "BASE",
+        "share_pct": 3.0,
+        "moat": "Edge + multi-model"
+      },
+      {
+        "name": "DynamoDB (AWS)",
+        "ticker": "AMZN",
+        "share_pct": 18.0,
+        "moat": "AWS 통합 + serverless"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 80,
+      "cagr_pct": 13,
+      "horizon": "2025-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-29",
+        "title": "MongoDB Q1 FY27 Atlas +30% YoY, Vector Search 빠른 ramp",
+        "url": "https://investors.mongodb.com/",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "Atlas Vector Search GA + AI agent 통합 발표",
+        "url": "https://www.mongodb.com/news/",
+        "impact": "+"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "target_pct": 40,
+      "rationale": "Atlas Vector Search 가속화 + AI RAG 워크로드 표준 vendor 포지션 확보",
+      "probability": 0.25
+    },
+    "base": {
+      "target_pct": 10,
+      "rationale": "Atlas +28-30% 유지, multiple 점진 compression",
+      "probability": 0.5
+    },
+    "bear": {
+      "target_pct": -25,
+      "rationale": "Postgres + pgvector 무료 대체 가속 + Atlas 성장 둔화",
+      "probability": 0.25
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q2 earnings",
+      "event": "Atlas + Vector Search 매출 가속화",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI workload 매출 분리 공시 기대"
+    },
+    {
+      "date": "2026 H2",
+      "event": "MongoDB.local 컨퍼런스 + AI 로드맵",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "agent build platform 진입"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Postgres + pgvector 무료 대체",
+      "probability": "high",
+      "impact": "high",
+      "description": "AWS Aurora, RDS, Supabase 무료 대체로 신규 계약 lose 가속",
+      "mitigation": "developer experience + 통합 차별화"
+    },
+    {
+      "name": "Forward PE 130x 고평가",
+      "probability": "high",
+      "impact": "med",
+      "description": "Multiple compression 위험",
+      "mitigation": "분할매수"
+    },
+    {
+      "name": "Atlas 성장 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "분기별 +28% 이하로 둔화 시 multiple 압박",
+      "mitigation": "Vector Search ramp 추적"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "Atlas Vector Search는 AI RAG 표준 인프라 — thesis 정렬 medium"
+    },
+    {
+      "id": "TD2",
+      "claim": "Developer-first + multi-cloud neutrality 강점 + hyperscaler 의존도 낮음"
+    }
+  ],
+  "korean_disclosures": [],
+  "five_year_financials": {
+    "revenue_cagr": 30.0,
+    "opm_trajectory": "2022 -5% → 2025 10% → 2026E 14% (Non-GAAP)",
+    "roe_trajectory": "2022 -10% → 2025 6% → 2026E 12%",
+    "fcf_yield": 2.0,
+    "turnaround_signal": "Atlas Vector Search ramp + FCF positive 전환"
+  },
+  "reverse_dcf": {
+    "implied_growth_rate": 24.0,
+    "implied_terminal_margin": 25.0,
+    "judgement": "Forward PE 130x는 +24% 성장 + 25% margin 가정 — Atlas +30% 추세에 부합하나 둔화 시 hard compression 위험.",
+    "scenario_summary": "Bull (30%) + Base (24%) + Bear (18%) — 가중 24% 가정 시 IRR 5-7%"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2023,
+        "revenue": 1284.0,
+        "op_income": -347.0,
+        "op_margin": -27.0,
+        "net_income": -345.0,
+        "net_margin": -26.9
+      },
+      {
+        "year": 2024,
+        "revenue": 1683.0,
+        "op_income": -234.0,
+        "op_margin": -13.9,
+        "net_income": -177.0,
+        "net_margin": -10.5
+      },
+      {
+        "year": 2025,
+        "revenue": 2006.0,
+        "op_income": -216.0,
+        "op_margin": -10.8,
+        "net_income": -129.0,
+        "net_margin": -6.4
+      },
+      {
+        "year": 2026,
+        "revenue": 2464.0,
+        "op_income": -137.0,
+        "op_margin": -5.6,
+        "net_income": -71.0,
+        "net_margin": -2.9
+      }
+    ],
+    "snapshot": {
+      "cash": 2427.152896,
+      "debt": 58.635,
+      "equity": 36.458
+    }
+  },
+  "peer_compare": {}
+}

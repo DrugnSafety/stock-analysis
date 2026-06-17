@@ -1,0 +1,211 @@
+{
+  "industry": {
+    "name": "전력기기·배전·데이터센터 전력 솔루션",
+    "overview": "LS ELECTRIC은 변압기·배전기기 본업에 데이터센터 부스덕트·UL 배전반·DC 배전 라인업을 확장. AC→DC 전환 시 부스덕트·busway·DC distribution 중요성 증가(T06 수혜). 이번 정정공시의 수주표 당사자이나 본업 수주잔고는 훼손되지 않음.",
+    "competitors": [
+      {
+        "name": "Prysmian",
+        "ticker": "PRY.MI"
+      },
+      {
+        "name": "Nexans",
+        "ticker": "NEX.PA"
+      },
+      {
+        "name": "대한전선",
+        "ticker": "001440.KS"
+      },
+      {
+        "name": "LS전선",
+        "ticker": "(비상장·LS 자회사)"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2025",
+        "revenue": 4965798552980.0,
+        "op_income": 426522143410.0,
+        "net_income": 286623001980.0,
+        "op_margin": 8.59,
+        "op_margin_pct": 8.59,
+        "net_margin_pct": 5.77,
+        "year": "2025"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 4551837252460.0,
+        "op_income": 391125121910.0,
+        "net_income": 238715669200.0,
+        "op_margin": 8.59,
+        "op_margin_pct": 8.59,
+        "net_margin_pct": 5.24,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 4230482628440.0,
+        "op_income": 324935723060.0,
+        "net_income": 205961759130.0,
+        "op_margin": 7.68,
+        "op_margin_pct": 7.68,
+        "net_margin_pct": 4.87,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2022",
+        "revenue": 3377070215830.0,
+        "op_income": 189000017130.0,
+        "net_income": 90303429390.0,
+        "op_margin": 5.6,
+        "op_margin_pct": 5.6,
+        "net_margin_pct": 2.67,
+        "year": "2022"
+      },
+      {
+        "fiscal_year": "2021",
+        "revenue": null,
+        "op_income": null,
+        "net_income": null,
+        "op_margin": null,
+        "op_margin_pct": null,
+        "net_margin_pct": null,
+        "year": "2021"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2025",
+        "revenue": 4965798552980.0,
+        "operating_income": 426522143410.0,
+        "net_income": 286623001980.0,
+        "op_margin_pct": 8.59
+      },
+      {
+        "year": "2024",
+        "revenue": 4551837252460.0,
+        "operating_income": 391125121910.0,
+        "net_income": 238715669200.0,
+        "op_margin_pct": 8.59
+      },
+      {
+        "year": "2023",
+        "revenue": 4230482628440.0,
+        "operating_income": 324935723060.0,
+        "net_income": 205961759130.0,
+        "op_margin_pct": 7.68
+      },
+      {
+        "year": "2022",
+        "revenue": 3377070215830.0,
+        "operating_income": 189000017130.0,
+        "net_income": 90303429390.0,
+        "op_margin_pct": 5.6
+      },
+      {
+        "year": "2021",
+        "revenue": null,
+        "operating_income": null,
+        "net_income": null,
+        "op_margin_pct": null
+      }
+    ],
+    "five_quarter_pnl": [],
+    "balance_sheet_snapshot": {},
+    "material_variance_summary": "yfinance income_stmt 기반 5Y annual (live fetch 2026-05-29). 분기·BS 상세는 build 시 financial_fetcher가 보강."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "DC 배전·부스덕트 빅테크 공급망 진입 + 변압기 슈퍼사이클 지속.",
+      "key_assumptions": [],
+      "target_price": 338100
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "AI 데이터센터 capex tailwind 유지하나 고밸류 부담 박스권.",
+      "key_assumptions": [],
+      "target_price": 253575
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "데이터센터 부스덕트 단발 그침 + 변압기 사이클 둔화.",
+      "key_assumptions": [],
+      "target_price": 181125
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "2Q26 실적",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "부스덕트 수주 반복성"
+    },
+    {
+      "date": "2026-ongoing",
+      "event": "데이터센터 DC 배전 수주",
+      "type": "orders",
+      "expected_impact": "medium",
+      "description": "DC 전환 수혜 입증"
+    }
+  ],
+  "risks": [
+    {
+      "name": "부스덕트 글로벌 경쟁(Schneider·Eaton)",
+      "probability": "high",
+      "impact": "med",
+      "description": "점유율 제한·멀티벤더 가격압박",
+      "mitigation": "UL 인증·북미 진입"
+    },
+    {
+      "name": "고밸류",
+      "probability": "high",
+      "impact": "high",
+      "description": "전력기기 리레이팅 후 변동성",
+      "mitigation": "데이터센터 신규 수요"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T06",
+      "ticker_exposure": "++",
+      "claim": "DC 배전·부스덕트 중요성 증가 수혜",
+      "type": "predictive",
+      "evidence": "UL 배전반·DC 배전 라인업",
+      "testability": "medium",
+      "current_status": "developing"
+    },
+    {
+      "thesis_id": "T01",
+      "ticker_exposure": "+",
+      "claim": "정정공시 당사자이나 본업 무훼손",
+      "type": "factual",
+      "evidence": "단위 오기, 수주잔고 정상",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05",
+      "type": "정정공시",
+      "title": "수주표 단위 정정",
+      "summary": "티라유텍 합산 오기 정정",
+      "impact": "-"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 241500,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 OP 4,265억(OPM 8.59%) — 5종목 중 최고 마진. fwd 데이터센터 수요가 밸류 지지."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

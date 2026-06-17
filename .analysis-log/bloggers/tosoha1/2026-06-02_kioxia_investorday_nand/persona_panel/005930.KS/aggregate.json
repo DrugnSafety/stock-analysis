@@ -1,0 +1,900 @@
+{
+  "ticker": "005930.KS",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "neutral": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "lean_bearish": {
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "average_confidence": 0.641,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치!)"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral (3/4)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치!)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치!)"
+    },
+    "quant-tail": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치!)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치!)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "HBM 격차 확대 위험",
+      "frequency": 5,
+      "personas": [
+        "michael-burry",
+        "phil-fisher",
+        "charlie-munger",
+        "aswath-damodaran",
+        "warren-buffett"
+      ],
+      "examples": [
+        "SK Hynix 대비 HBM 점유 격차 1년+ — HBM4 race 결정적"
+      ]
+    },
+    {
+      "theme": "Foundry 손실 지속",
+      "frequency": 4,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "charlie-munger",
+        "bill-ackman"
+      ],
+      "examples": [
+        "Foundry 부문 적자 — 수주 회복 불확실"
+      ]
+    },
+    {
+      "theme": "governance / 상속세 이슈",
+      "frequency": 3,
+      "personas": [
+        "charlie-munger",
+        "warren-buffett",
+        "bill-ackman"
+      ],
+      "examples": [
+        "chaebol 상속세 + 이재용 risk"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "persona_id": "warren-buffett",
+      "verdict": "neutral",
+      "confidence": 0.68,
+      "rationale": "삼성전자는 diversified conglomerate (반도체+가전+모바일). P/E fwd 6.5x, P/B 999.0x 합리적. NAND/DRAM oligopoly 회원. 그러나 governance 문제 + 사이클 노출. Berkshire-style 'okay but not wonderful'.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Commodity cycle re-frame as 'new phase' is misleading",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "charlie-munger": {
+      "persona_id": "charlie-munger",
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "rationale": "Samsung은 too complex. 'simpler the better' Mungerian 철학에 위배. 보유 가능하지만 active bet 부적합.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Commodity cycle re-frame as 'new phase' is misleading",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "rebut",
+          "interpretation": "Capex peak signal — invert!",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "rebut",
+          "interpretation": "AI mania peak signal",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "peter-lynch": {
+      "persona_id": "peter-lynch",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "rationale": "Samsung diversified — '잘 모르겠다' 카테고리. 반도체 explicit pure-play 선호.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "cathie-wood": {
+      "persona_id": "cathie-wood",
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "rationale": "Samsung diversified — disruption 측면에서 dilution. Pure-play 선호.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "michael-burry": {
+      "persona_id": "michael-burry",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "rationale": "Samsung P/E 6.5x, P/B 999.0x — deep value. Korean chaebol discount + cycle trough 매력. 5년 hold 시 +100%+ 가능.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Cycle peak warning",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "stance": "rebut",
+          "interpretation": "Capex peak signal — invert!",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "interpretation": "Tight markets often invite over-build",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T5",
+          "stance": "rebut",
+          "interpretation": "LTAs historically broken in downturns",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "rebut",
+          "interpretation": "Soft commitment",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T7",
+          "stance": "rebut",
+          "interpretation": "AI mania peak signal",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "stance": "rebut",
+          "interpretation": "Demand forecast over-extrapolated",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "persona_id": "nassim-taleb",
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "rationale": "Samsung diversification = anti-fragility 일부 확보. 그러나 NAND/DRAM cycle exposure 여전. mediocre robustness.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Cycle peak warning",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "rebut",
+          "interpretation": "Soft commitment",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "rebut",
+          "interpretation": "Demand forecast over-extrapolated",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "ben-graham": {
+      "persona_id": "ben-graham",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "rationale": "Samsung P/E 6.5x, P/B 999.0x — defensive value. Graham 기준 충족.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "bill-ackman": {
+      "persona_id": "bill-ackman",
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "rationale": "Korean chaebol structure — activist 어려움. focused bet 부적합.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "persona_id": "mohnish-pabrai",
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "rationale": "Samsung Korean deep value classic. P/E 6.5x + P/B 999.0x.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "phil-fisher": {
+      "persona_id": "phil-fisher",
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "rationale": "Samsung scale은 인정. innovation specific 부족.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "persona_id": "rakesh-jhunjhunwala",
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "rationale": "Korean diversified — moderate position.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "persona_id": "stanley-druckenmiller",
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "rationale": "Samsung macro tailwind, valuation cheap P/E 6.5x. core long.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "persona_id": "aswath-damodaran",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "rationale": "Samsung Reverse DCF — P/E 6.5x deeply discounted to fundamentals. Korea discount + cycle. fair value 30%+ above current.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    }
+  },
+  "evaluated_at": "2026-06-02T15:47:08.457755"
+}

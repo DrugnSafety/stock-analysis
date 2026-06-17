@@ -1,0 +1,263 @@
+{
+  "industry": {
+    "name": "단백질 보충제 브랜드 (Active Nutrition)",
+    "overview": "Premier Protein·Dymatize 보유 미국 단백질 RTD/파우더 브랜드. GLP-1 근손실 단백질 트렌드의 '가장 순수한 수혜주'로 주목받았으나, 경쟁 심화로 레드오션화. 2026.5.5 Q2 실적(매출 $598.7M, +2% YoY)에서 마진 압박·운임/원가 인플레·$11.3M 재고충당으로 급락, 주가 1Y -86%·6M -72%. 애널 TP $23.73로 현 $8.7 대비 괴리 — 과매도/구조훼손 논쟁 구간.",
+    "competitors": [
+      {
+        "name": "Glanbia(ON·원료)",
+        "ticker": "GL9.IR"
+      },
+      {
+        "name": "Simply Good Foods",
+        "ticker": "SMPL"
+      },
+      {
+        "name": "Nestlé Health Science",
+        "ticker": "NESN.SW"
+      },
+      {
+        "name": "Abbott(Ensure)",
+        "ticker": "ABT"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2022",
+        "revenue": 1371500000.0,
+        "op_income": 212400000.0,
+        "net_income": 82300000.0,
+        "op_margin": 15.49,
+        "op_margin_pct": 15.49,
+        "net_margin_pct": 6.0,
+        "year": "2022"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 1666800000.0,
+        "op_income": 287300000.0,
+        "net_income": 165500000.0,
+        "op_margin": 17.24,
+        "op_margin_pct": 17.24,
+        "net_margin_pct": 9.93,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 1996200000.0,
+        "op_income": 387700000.0,
+        "net_income": 246500000.0,
+        "op_margin": 19.42,
+        "op_margin_pct": 19.42,
+        "net_margin_pct": 12.35,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2025",
+        "revenue": 2316600000.0,
+        "op_income": 357400000.0,
+        "net_income": 216200000.0,
+        "op_margin": 15.43,
+        "op_margin_pct": 15.43,
+        "net_margin_pct": 9.33,
+        "year": "2025"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "USD",
+    "five_year_pnl": [
+      {
+        "year": "2022",
+        "revenue": 1371500000.0,
+        "operating_income": 212400000.0,
+        "net_income": 82300000.0,
+        "op_margin_pct": 15.49
+      },
+      {
+        "year": "2023",
+        "revenue": 1666800000.0,
+        "operating_income": 287300000.0,
+        "net_income": 165500000.0,
+        "op_margin_pct": 17.24
+      },
+      {
+        "year": "2024",
+        "revenue": 1996200000.0,
+        "operating_income": 387700000.0,
+        "net_income": 246500000.0,
+        "op_margin_pct": 19.42
+      },
+      {
+        "year": "2025",
+        "revenue": 2316600000.0,
+        "operating_income": 357400000.0,
+        "net_income": 216200000.0,
+        "op_margin_pct": 15.43
+      }
+    ],
+    "five_quarter_pnl": [
+      {
+        "quarter": "2026-03-31",
+        "revenue": 598700000.0,
+        "operating_income": 66000000.0,
+        "net_income": 33900000.0,
+        "op_margin_pct": 11.02
+      },
+      {
+        "quarter": "2025-12-31",
+        "revenue": 537300000.0,
+        "operating_income": 78500000.0,
+        "net_income": 43700000.0,
+        "op_margin_pct": 14.61
+      },
+      {
+        "quarter": "2025-09-30",
+        "revenue": 648200000.0,
+        "operating_income": 102200000.0,
+        "net_income": 59600000.0,
+        "op_margin_pct": 15.77
+      },
+      {
+        "quarter": "2025-06-30",
+        "revenue": 547500000.0,
+        "operating_income": 44800000.0,
+        "net_income": 21000000.0,
+        "op_margin_pct": 8.18
+      },
+      {
+        "quarter": "2025-03-31",
+        "revenue": 588000000.0,
+        "operating_income": 95100000.0,
+        "net_income": 58700000.0,
+        "op_margin_pct": 16.17
+      }
+    ],
+    "balance_sheet_snapshot": {},
+    "material_variance_summary": "yfinance income_stmt 기준 USD 실데이터. 상세 변동요인은 News Timeline·Deep Research 본문 참조."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "경쟁 안정화 + GLP-1 단백질 수요로 매출 성장 회복, 마진 정상화, 과매도 반등(PT $23 권)",
+      "key_assumptions": [
+        "프로모션 정상화·마진 회복",
+        "GLP-1 단백질 수요 가속",
+        "점유율 방어"
+      ],
+      "target_price": 20
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "매출 저성장·마진 압박 지속, 밸류 회복 제한(fPE 6~8x)",
+      "key_assumptions": [
+        "경쟁 지속",
+        "완만한 매출 +2~5%"
+      ],
+      "target_price": 11
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "브랜드 경쟁 격화·PB 침투로 점유율·마진 추가 훼손",
+      "key_assumptions": [
+        "가격 경쟁 심화",
+        "대형 유통 PB 확대"
+      ],
+      "target_price": 6
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "Q3 2026 실적",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "마진·매출 안정화 여부"
+    },
+    {
+      "date": "2026-2H",
+      "event": "프로모션/원가 정상화",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "마진 회복 신호"
+    },
+    {
+      "date": "2026-2H",
+      "event": "GLP-1 단백질 카테고리 데이터",
+      "type": "industry",
+      "expected_impact": "med",
+      "description": "수요 검증"
+    }
+  ],
+  "risks": [
+    {
+      "name": "브랜드 경쟁 레드오션화",
+      "probability": "high",
+      "impact": "high",
+      "description": "점유율·마진 동시 압박",
+      "mitigation": "제품 차별화·신채널"
+    },
+    {
+      "name": "마진 압박(운임·원가·재고충당)",
+      "probability": "high",
+      "impact": "high",
+      "description": "Q2 $11.3M 충당",
+      "mitigation": "원가 정상화·가격 인상"
+    },
+    {
+      "name": "GLP-1 양면성(총섭취 감소)",
+      "probability": "med",
+      "impact": "med",
+      "description": "식이 감소가 수요 잠식 가능",
+      "mitigation": "근손실 단백 포지셔닝"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T08",
+      "ticker_exposure": "++",
+      "claim": "GLP-1(비만치료제) 복용 확대로 근손실 방지용 단백질·근육보존 제품 수요가 급증한다. 단백질 제품군(43%)·분말 제형(38%)이 핵심이며, 관련 시장은 2025년 $4.1B에서 2035년 $13B로 CAGR 12.2% 성장이 전망된다.",
+      "type": "predictive",
+      "evidence": "블로그 4: 'GLP-1 복용 이후 근손실에 따른 단백질/근육 보존 제품이 중요한 트렌드(제품군 43%, 분말제형 38%) … $4.1B(2025)→$13B(2035), CAGR 12.2%'.",
+      "testability": "med",
+      "current_status": "likely"
+    },
+    {
+      "thesis_id": "T09",
+      "ticker_exposure": "++",
+      "claim": "GLP-1 근손실 단백질 분야에서 국내 ODM은 실질적 비교 우위가 없고, 가장 선명한 수혜는 해외 기업이다 — BellRing Brands는 순수 수혜주였으나 경쟁 심화로 레드오션화됐고, 유청단백 원료를 공급하는 Glanbia가 매력적이다.",
+      "type": "normative",
+      "evidence": "블로그 4: '근손실 분야엔 국내 기업 중 어떤 기업도 실질적 비교 우위가 없어보임 … 벨링브랜즈가 가장 순수한 수혜주였지만 어느새 레드오션 … Glanbia 등 유청단백 원료 공급사가 확실히 좋아보임'. BRBR 2026.5.5 Q2 실적 쇼크(마진 압박)로 1년 -86% 확인.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T05",
+      "ticker_exposure": "+",
+      "claim": "건기식 ODM은 발주가 늘어 매출이 증가하면 고정비를 넘어선 증분 매출이 대부분 이익으로 떨어지는 영업 레버리지 산업이다. 따라서 글로벌·내수 수요 확대 국면에서 가동률 상승은 이익률 급등으로 직결된다.",
+      "type": "factual",
+      "evidence": "블로그 2: 'ODM 산업 특성상 발주가 늘어나 매출이 늘어나면 고정비 이상 버는 돈이 모두 이익이 되는 레버러지 산업'. 1Q26 코스맥스엔비티 OPM +1080% 턴어라운드가 레버리지 방증.",
+      "testability": "high",
+      "current_status": "likely"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "실적",
+      "title": "벨링브랜즈 1Q26 실적",
+      "summary": "건기식 ODM 섹터 1Q26 — 역성장군 턴어라운드/성장군 견조(블로그 5장)",
+      "impact": "+"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 8.7,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "현 주가 $8.7(1Y -86%), fPE 6.4x. Q2'26 마진 쇼크로 급락했으나 매출은 +2% 성장 지속. 애널 PT $23.73과 큰 괴리 — '구조적 레드오션'이냐 '과매도 반등'이냐가 핵심. 블로그 시각은 레드오션(원료단 Glanbia 선호)."
+  },
+  "analysis_mode": "blog",
+  "thesis_count": 3
+}

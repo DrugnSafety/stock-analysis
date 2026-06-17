@@ -1,0 +1,108 @@
+{
+  "decided_at": "2026-05-25",
+  "portfolio_value_usd": 1000000,
+  "methodology": "Verdict (13-persona aggregate) × sizing_pct × confidence → position $; cap at risk_manager limit",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "010060.KS",
+      "name": "OCI홀딩스",
+      "name_en": "OCI Holdings",
+      "action": "BUY",
+      "verdict_from_panel": "lean_bullish",
+      "panel_score": 0.69,
+      "panel_confidence": 0.61,
+      "sizing_factor": 0.6,
+      "position_limit_usd": 110000.0,
+      "decided_position_usd": 40260.0,
+      "decided_quantity_shares": 163,
+      "current_price_local": 339500.0,
+      "current_price_currency": "KRW",
+      "current_price_usd": 246.14,
+      "rationale": "13명 panel verdict=lean_bullish (score=0.69, conf=0.61) → action=BUY × sizing 60% × conf 61% = position $40,260 / risk limit $110,000"
+    },
+    {
+      "ticker": "009830.KS",
+      "name": "한화솔루션",
+      "name_en": "Hanwha Solutions",
+      "action": "BUY",
+      "verdict_from_panel": "lean_bullish",
+      "panel_score": 0.46,
+      "panel_confidence": 0.6,
+      "sizing_factor": 0.6,
+      "position_limit_usd": 110000.0,
+      "decided_position_usd": 39600.0,
+      "decided_quantity_shares": 1262,
+      "current_price_local": 43250.0,
+      "current_price_currency": "KRW",
+      "current_price_usd": 31.36,
+      "rationale": "13명 panel verdict=lean_bullish (score=0.46, conf=0.6) → action=BUY × sizing 60% × conf 60% = position $39,600 / risk limit $110,000"
+    },
+    {
+      "ticker": "DQ",
+      "name": "Daqo New Energy",
+      "name_en": "Daqo New Energy Corp.",
+      "action": "HOLD",
+      "verdict_from_panel": "neutral",
+      "panel_score": -0.15,
+      "panel_confidence": 0.61,
+      "sizing_factor": 0.0,
+      "position_limit_usd": 110000.0,
+      "decided_position_usd": 0.0,
+      "decided_quantity_shares": 0,
+      "current_price_local": 17.78,
+      "current_price_currency": "USD",
+      "current_price_usd": 17.78,
+      "rationale": "13명 panel verdict=neutral (score=-0.15, conf=0.61) → action=HOLD × sizing 0% × conf 61% = position $0 / risk limit $110,000"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "퍼스트솔라",
+      "name_en": "First Solar, Inc.",
+      "action": "BUY",
+      "verdict_from_panel": "bullish",
+      "panel_score": 1.23,
+      "panel_confidence": 0.68,
+      "sizing_factor": 1.0,
+      "position_limit_usd": 149292.0,
+      "decided_position_usd": 101519.0,
+      "decided_quantity_shares": 393,
+      "current_price_local": 257.85,
+      "current_price_currency": "USD",
+      "current_price_usd": 257.85,
+      "rationale": "13명 panel verdict=bullish (score=1.23, conf=0.68) → action=BUY × sizing 100% × conf 68% = position $101,519 / risk limit $149,292"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "name_en": "GE Vernova Inc.",
+      "action": "HOLD",
+      "verdict_from_panel": "neutral",
+      "panel_score": 0.15,
+      "panel_confidence": 0.66,
+      "sizing_factor": 0.0,
+      "position_limit_usd": 110000.0,
+      "decided_position_usd": 0.0,
+      "decided_quantity_shares": 0,
+      "current_price_local": 1038.74,
+      "current_price_currency": "USD",
+      "current_price_usd": 1038.74,
+      "rationale": "13명 panel verdict=neutral (score=0.15, conf=0.66) → action=HOLD × sizing 0% × conf 66% = position $0 / risk limit $110,000"
+    }
+  ],
+  "summary": {
+    "buys": [
+      "010060.KS",
+      "009830.KS",
+      "FSLR"
+    ],
+    "holds": [
+      "DQ",
+      "GEV"
+    ],
+    "shorts": [],
+    "avoids": [],
+    "total_committed_usd": 181379.0,
+    "cash_remaining_usd": 818621.0
+  }
+}

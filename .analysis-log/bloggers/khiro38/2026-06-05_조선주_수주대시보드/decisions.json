@@ -1,0 +1,106 @@
+{
+  "computed_at": "2026-06-05T15:00:00+09:00",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "329180.KS",
+      "name": "HD현대중공업",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.707,
+      "components": {
+        "persona_confidence": 0.61,
+        "verdict_bias": 0.662,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.65
+      },
+      "current_price": 664000.0,
+      "target_quantity": 45,
+      "target_value": 30360000.0,
+      "position_limit_value": 30360000.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 45,
+      "rationale": "329180.KS score=0.707 (BUY) — 확신 0.61 + bias 0.66 + 정렬 1.0 + 밸류 0.65"
+    },
+    {
+      "ticker": "042660.KS",
+      "name": "한화오션",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.704,
+      "components": {
+        "persona_confidence": 0.602,
+        "verdict_bias": 0.662,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.65
+      },
+      "current_price": 112200.0,
+      "target_quantity": 270,
+      "target_value": 30360000.0,
+      "position_limit_value": 30360000.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 270,
+      "rationale": "042660.KS score=0.704 (BUY) — 확신 0.60 + bias 0.66 + 정렬 1.0 + 밸류 0.65"
+    },
+    {
+      "ticker": "010140.KS",
+      "name": "삼성중공업",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.721,
+      "components": {
+        "persona_confidence": 0.618,
+        "verdict_bias": 0.796,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.65
+      },
+      "current_price": 27750.0,
+      "target_quantity": 1094,
+      "target_value": 30360000.0,
+      "position_limit_value": 30360000.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 1094,
+      "rationale": "010140.KS score=0.721 (BUY) — 확신 0.62 + bias 0.80 + 정렬 0.85 + 밸류 0.65"
+    },
+    {
+      "ticker": "439260.KS",
+      "name": "대한조선",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.766,
+      "components": {
+        "persona_confidence": 0.661,
+        "verdict_bias": 0.823,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.85
+      },
+      "current_price": 60000.0,
+      "target_quantity": 506,
+      "target_value": 30360000.0,
+      "position_limit_value": 30360000.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 506,
+      "rationale": "439260.KS score=0.766 (BUY) — 확신 0.66 + bias 0.82 + 정렬 0.85 + 밸류 0.85"
+    },
+    {
+      "ticker": "009540.KS",
+      "name": "HD한국조선해양",
+      "action": "buy",
+      "decision": "BUY",
+      "signal_score": 0.824,
+      "components": {
+        "persona_confidence": 0.711,
+        "verdict_bias": 0.85,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.85
+      },
+      "current_price": 379000.0,
+      "target_quantity": 80,
+      "target_value": 30360000.0,
+      "position_limit_value": 30360000.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 80,
+      "rationale": "009540.KS score=0.824 (BUY) — 확신 0.71 + bias 0.85 + 정렬 1.0 + 밸류 0.85"
+    }
+  ]
+}

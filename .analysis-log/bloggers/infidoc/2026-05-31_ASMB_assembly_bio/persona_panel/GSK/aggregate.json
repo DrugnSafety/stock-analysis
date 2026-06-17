@@ -1,0 +1,342 @@
+{
+  "ticker": "GSK",
+  "aggregated_at": "2026-06-01T11:39:24.888353+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "lean_bearish": {
+      "count": 5,
+      "pct": 38.5
+    }
+  },
+  "average_confidence": 0.662,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "부채/자본비율 높음",
+        "성장 속도 둔화"
+      ],
+      "key_opportunities_top3": [
+        "안정된 배당 수익",
+        "견고한 브랜드 이미지"
+      ],
+      "uncertainty": "GSK의 예상 EPS 성장이 같거나 줄어들면 초기 투자 논리는 뒤집힐 수 있음",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "GSK의 매크로 성장 동력 부재",
+        "높은 P/B 비율을 통한 프리미엄 가치 평가"
+      ],
+      "key_opportunities_top3": [
+        "건강 및 의료 분야의 장기적 성장 가능성",
+        "안정적인 배당 수익률 제공"
+      ],
+      "uncertainty": "GSK가 신흥 시장의 주요 건강 트렌드와 더 강력히 연결되면 verdict가 재평가될 수 있다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현재 주식 가격이 이미 시장 기대치를 반영하고 있을 가능성",
+        "제약 업계 내 환경 및 규제 변화"
+      ],
+      "key_opportunities_top3": [
+        "다양한 R&D 파이프라인을 통한 성장 가능성",
+        "강력한 시장 점유율로 인한 안정적 매출"
+      ],
+      "uncertainty": "만약 R&D 성과가 예상을 밑돌거나 규제 리스크가 발생할 경우, 판단을 재고해야 함",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "명확한 50% 이상의 안전마진 부재",
+        "비대칭적 수익구조의 부족"
+      ],
+      "key_opportunities_top3": [
+        "낮은 베타로 인한 시장 변동성에 대한 방어적 성격",
+        "높은 배당 수익률 3.57%[actual] 제공"
+      ],
+      "uncertainty": "시장 변동성이 급격히 증가하거나, 기업의 재정적 건전성이 악화될 경우",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "비용우위 해자가 얼마나 지속 가능한지",
+        "경쟁이 심화되면 장기적인 수익성이 유지될지"
+      ],
+      "key_opportunities_top3": [
+        "해자 강화 가능성 있는 신약 개발",
+        "강력한 현금 창출과 재무건전성"
+      ],
+      "uncertainty": "시장 변화나 FDA 규제 등의 변수로 생기는 리스크",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "글로벌 금리 상승 지속",
+        "시장 심리 전환 미흡"
+      ],
+      "key_opportunities_top3": [
+        "만약 거시적 환경이 개선된다면",
+        "백신 및 신약 개발의 성공 가능성"
+      ],
+      "uncertainty": "거시적 환경이 호전되거나, 인플레이션 압박이 완화되면",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "자본배분의 효율성 결여",
+        "강력한 촉매의 부재"
+      ],
+      "key_opportunities_top3": [
+        "제약 산업의 안전성",
+        "매력적인 배당 수익률"
+      ],
+      "uncertainty": "자본배분 전략이 급격히 개선되거나 비즈니스 모델이 asset-light 방식으로 전환되면 verdict가 바뀔 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진 품질에 대한 정보 부족",
+        "R&D 효율성 미흡"
+      ],
+      "key_opportunities_top3": [
+        "강력한 시장 포지션",
+        "안정적인 배당 수익"
+      ],
+      "uncertainty": "경영진의 장기적 비전과 시장 확장 능력이 확실해지면 평가는 긍정적으로 변할 수 있다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 비율",
+        "명확한 촉매 부족"
+      ],
+      "key_opportunities_top3": [
+        "높은 배당률 유지",
+        "안정적인 시장 내 위치"
+      ],
+      "uncertainty": "기업의 재무 구조나 시장 dynamics가 변하여 EV/EBITDA가 크게 감소할 경우, 평가가 변경될 가능성이 있음.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부채 비율",
+        "고평가 PBR"
+      ],
+      "key_opportunities_top3": [
+        "지속적 배당",
+        "상대적으로 저렴한 PER"
+      ],
+      "uncertainty": "주가 변동성 및 외부 경제 요인 변화시 평가 수정 가능",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "혁신의 부족",
+        "큰 TAM 확장의 미비"
+      ],
+      "key_opportunities_top3": [
+        "R&D 강화 통한 성장 가능성",
+        "신제품 라인에 대한 투자"
+      ],
+      "uncertainty": "회사가 새로운 혁신 플랫폼을 적극적으로 추구하지 않고 있음을 기반으로 함. GSK가 혁신적 발전을 이룬다면 verdict는 뒤집힐 수 있음.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 P/B 비율이 실제 가치 대비 고평가일 가능성",
+        "EV/EBITDA 비율이 시장 평균 대비 높음"
+      ],
+      "key_opportunities_top3": [
+        "장기적인 백신 및 고부가가치 약품 개발",
+        "저변확대와 신흥시장 성장 가능성"
+      ],
+      "uncertainty": "전략적 인수합병이나 혁신적 신제품 출시가 실패할 경우",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "규제 변화에 민감",
+        "약가 정책 변화에 따른 위험"
+      ],
+      "key_opportunities_top3": [
+        "우수한 배당수익율",
+        "기존 약품의 시장 안정성"
+      ],
+      "uncertainty": "규제 구조의 변화나 새로운 대체 약품의 시장 진입 시, 현재 판단이 크게 흔들릴 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "ticker": "005930.KS",
+  "name_kr": "삼성전자",
+  "name_en": "Samsung Electronics Co., Ltd.",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bearish": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "lean_bearish": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bullish": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "bullish": {
+      "count": 6,
+      "pct": 46.2
+    }
+  },
+  "consensus_summary": {
+    "bullish_pct": 76.9,
+    "bearish_pct": 0.0,
+    "neutral_pct": 23.1,
+    "average_confidence": 0.71
+  },
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bullish",
+          "confidence": 0.88
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "bullish",
+          "confidence": 0.82
+        }
+      ]
+    },
+    "growth": {
+      "n_members": 3,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "bullish",
+          "confidence": 0.8
+        }
+      ]
+    },
+    "risk": {
+      "n_members": 1,
+      "dominant": "lean_bullish",
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "activist": {
+      "n_members": 1,
+      "dominant": "neutral",
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "growth-em": {
+      "n_members": 1,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.88
+        }
+      ]
+    },
+    "macro": {
+      "n_members": 1,
+      "dominant": "lean_bullish",
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "valuation": {
+      "n_members": 1,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "bullish",
+          "confidence": 0.8
+        }
+      ]
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "ticker": "005930.KS",
+      "persona_id": "warren-buffett",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "style": "value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "워런 버핏 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Quality + fwd PE 6배 = Margin of safety 강력. 단 governance discount + 메모리 사이클 risk로 conviction 제한. Position 가능한 사이즈."
+    },
+    "charlie-munger": {
+      "ticker": "005930.KS",
+      "persona_id": "charlie-munger",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "style": "value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "찰리 멍거 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Korea discount의 일부는 정당화 가능 (governance·geo). 일부는 시장 oversold. Cigar butt vs Quality 경계."
+    },
+    "peter-lynch": {
+      "ticker": "005930.KS",
+      "persona_id": "peter-lynch",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "style": "growth_at_reasonable_price",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "피터 린치 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "PEG 0.2 미만 (성장 30%+ × PE 6배) — textbook one-bagger. HBM4 catch-up 시 multiple expansion + earnings growth dual. 2-bagger candidate."
+    },
+    "cathie-wood": {
+      "ticker": "005930.KS",
+      "persona_id": "cathie-wood",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "style": "disruption_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "캐시 우드 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Memory는 commodity-like, disruption thesis 부합 안 함. AI exposure는 indirect. Watch but no allocation."
+    },
+    "michael-burry": {
+      "ticker": "005930.KS",
+      "persona_id": "michael-burry",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "style": "contrarian_deep_value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "마이클 버리 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Deep value contrarian의 textbook — fwd PE 6, P/B 1.3, FCF yield 12%+. Korea discount mean reversion play. 30%+ position 가능."
+    },
+    "nassim-taleb": {
+      "ticker": "005930.KS",
+      "persona_id": "nassim-taleb",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "style": "anti_fragile",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "나심 탈레브 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Cyclical risk 존재하나 cash $80B+, P/B 1.3은 downside cushion. Anti-fragile via balance sheet."
+    },
+    "ben-graham": {
+      "ticker": "005930.KS",
+      "persona_id": "ben-graham",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "style": "deep_value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.88,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "벤저민 그레이엄 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Defensive investor criteria 모두 통과: P/E < 15, P/B < 1.5, dividend, current ratio > 2, stable earnings 10년. Graham number 1.5배 — buy."
+    },
+    "bill-ackman": {
+      "ticker": "005930.KS",
+      "persona_id": "bill-ackman",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "style": "concentrated_quality",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "빌 애크먼 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Korea governance discount는 영구 risk. Activist intervention 한계 (재벌 지배구조). Pass on framework grounds."
+    },
+    "mohnish-pabrai": {
+      "ticker": "005930.KS",
+      "persona_id": "mohnish-pabrai",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "style": "low_risk_high_reward",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.82,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "모니쉬 파브라이 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Few-bets-big-bets-rare-bets framework: low downside × high upside × high probability. Dhandho ideal."
+    },
+    "phil-fisher": {
+      "ticker": "005930.KS",
+      "persona_id": "phil-fisher",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "style": "scuttlebutt_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "필립 피셔 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Memory leader + foundry capacity expansion + Galaxy AI. Management quality acceptable. Long-term hold."
+    },
+    "rakesh-jhunjhunwala": {
+      "ticker": "005930.KS",
+      "persona_id": "rakesh-jhunjhunwala",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "style": "emerging_market_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.88,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "라케시 준준왈라 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "EM mega-cap discount의 textbook. Indian Reliance와 analog. Multi-year compounder. Concentrated bet."
+    },
+    "stanley-druckenmiller": {
+      "ticker": "005930.KS",
+      "persona_id": "stanley-druckenmiller",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "style": "macro_tactical",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "스탠리 드러켄밀러 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "AI capex 수혜 indirect 하나 cyclical memory recovery + governance reform tailwind. Tactical long 가능."
+    },
+    "aswath-damodaran": {
+      "ticker": "005930.KS",
+      "persona_id": "aswath-damodaran",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "style": "valuation_academic",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Korea governance discount 영구",
+        "메모리 사이클 risk 2027-2028",
+        "HBM 시장에서 SK Hynix에 뒤처짐"
+      ],
+      "key_opportunities_top3": [
+        "fwd PE 6배 deep value",
+        "HBM4 catch-up 시 multiple rerating",
+        "Foundry 2nm 진전 + 정부 Value-Up"
+      ],
+      "uncertainty": "애스워스 다모다란 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Cross-sectional valuation framework: implied growth 0%에 fwd PE 6배 = market은 perpetual stagnation 가정. 실제 5-7% growth 시 +50-80% rerating 정당."
+    }
+  },
+  "market_data_snapshot": {
+    "as_of_date": "2026-05-11",
+    "currency": "KRW",
+    "current_price": 286250.0,
+    "fwd_pe": 5.65,
+    "market_cap_usd_bn": 1444.64,
+    "return_1y_pct": 431.57
+  }
+}

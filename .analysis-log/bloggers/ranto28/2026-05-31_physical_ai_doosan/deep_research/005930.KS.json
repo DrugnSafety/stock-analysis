@@ -1,0 +1,225 @@
+{
+  "industry": {
+    "name": "메모리·시스템반도체·세트",
+    "overview": "삼성전자는 메모리·파운드리·세트(스마트폰·가전)를 아우르는 종합 반도체·전자 기업이다. 메르 글에서 베라 루빈용 HBM4 '샘플 제공' 단계로 지목됐는데, 이는 SK하이닉스의 '직접 탑재 검증'보다 한 발 뒤다. HBM 추격·파운드리 회복이 재평가 동력이나, 거대한 세트·파운드리 사업이 순수 HBM 베타를 희석한다. FY25 OPM 약 13%.",
+    "competitors": [
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU"
+      },
+      {
+        "name": "Intel",
+        "ticker": "INTC"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2025",
+        "fiscal_year": "2025",
+        "revenue": 333605938000000.0,
+        "op_income": 43601051000000.0,
+        "net_income": 44260956000000.0,
+        "op_margin": 13.07,
+        "op_margin_pct": 13.07,
+        "net_margin_pct": 13.27
+      },
+      {
+        "year": "2024",
+        "fiscal_year": "2024",
+        "revenue": 300870903000000.0,
+        "op_income": 32725961000000.0,
+        "net_income": 33621363000000.0,
+        "op_margin": 10.88,
+        "op_margin_pct": 10.88,
+        "net_margin_pct": 11.17
+      },
+      {
+        "year": "2023",
+        "fiscal_year": "2023",
+        "revenue": 258935494000000.0,
+        "op_income": 6566976000000.0,
+        "net_income": 14473401000000.0,
+        "op_margin": 2.54,
+        "op_margin_pct": 2.54,
+        "net_margin_pct": 5.59
+      },
+      {
+        "year": "2022",
+        "fiscal_year": "2022",
+        "revenue": 302231360000000.0,
+        "op_income": 43376630000000.0,
+        "net_income": 54730018000000.0,
+        "op_margin": 14.35,
+        "op_margin_pct": 14.35,
+        "net_margin_pct": 18.11
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2025",
+        "revenue": 333605938000000.0,
+        "operating_income": 43601051000000.0,
+        "net_income": 44260956000000.0,
+        "op_margin_pct": 13.07
+      },
+      {
+        "year": "2024",
+        "revenue": 300870903000000.0,
+        "operating_income": 32725961000000.0,
+        "net_income": 33621363000000.0,
+        "op_margin_pct": 10.88
+      },
+      {
+        "year": "2023",
+        "revenue": 258935494000000.0,
+        "operating_income": 6566976000000.0,
+        "net_income": 14473401000000.0,
+        "op_margin_pct": 2.54
+      },
+      {
+        "year": "2022",
+        "revenue": 302231360000000.0,
+        "operating_income": 43376630000000.0,
+        "net_income": 54730018000000.0,
+        "op_margin_pct": 14.35
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "HBM4 검증 통과로 NVIDIA 공급 진입 + 파운드리 가동률 회복. SK하이닉스 대비 밸류 갭 축소.",
+      "key_assumptions": [
+        "HBM4 양산 진입",
+        "파운드리 회복",
+        "메모리 ASP 강세"
+      ],
+      "target_price": 420000
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "메모리 호황 수혜는 받으나 HBM 후발·세트/파운드리 희석으로 SK하이닉스 대비 베타 낮음. 점진 재평가.",
+      "key_assumptions": [
+        "HBM 점유 점진 확대",
+        "파운드리 완만 회복",
+        "세트 안정"
+      ],
+      "target_price": 350000
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "HBM4 검증 지연 + 파운드리 적자 지속 + 메모리 둔화 시 멀티플 정체.",
+      "key_assumptions": [
+        "HBM 추격 지연",
+        "파운드리 부진",
+        "ASP 둔화"
+      ],
+      "target_price": 290000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "event": "HBM4 검증 통과·NVIDIA 공급 진입",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "샘플 제공 → 양산 전환 여부가 재평가 핵심"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적·HBM/파운드리 가이던스",
+      "type": "earnings",
+      "expected_impact": "med",
+      "description": "HBM 매출·파운드리 가동률 추세"
+    },
+    {
+      "date": "2027",
+      "event": "HBM4E·차세대 노드 진척",
+      "type": "product",
+      "expected_impact": "med",
+      "description": "세대 전환 경쟁력 가늠"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM 후발",
+      "probability": "med",
+      "impact": "high",
+      "description": "NVIDIA向 HBM에서 SK하이닉스 대비 한 발 뒤 — 점유·마진 격차",
+      "mitigation": "HBM4 검증 가속·수율 개선"
+    },
+    {
+      "name": "사업 희석",
+      "probability": "high",
+      "impact": "med",
+      "description": "세트·파운드리 비중으로 순수 HBM 베타 낮음",
+      "mitigation": "메모리 비중 확대·파운드리 흑자 전환"
+    },
+    {
+      "name": "파운드리 부진",
+      "probability": "med",
+      "impact": "med",
+      "description": "파운드리 가동률·수율 회복 지연",
+      "mitigation": "대형 고객 확보·노드 경쟁력"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T02",
+      "ticker_exposure": "+",
+      "claim": "2026년 시장의 화두는 'AI'에서 '피지컬 AI'(AI와 로봇의 결합)로 구체화되며, 젠슨 황이 CES에서 제시한 베라 루빈(Vera Rubin) 플랫폼이 피지컬 AI 시대를 여는 핵심 컴퓨팅 인프라가 된다.",
+      "type": "predictive",
+      "evidence": "CES 젠슨 황 발언 'AI의 다음 단계는 로봇공학', 베라 루빈을 피지컬 AI 핵심 인프라로 규정. 메르 연초 '2026년의 화두는?' 글의 피지컬AI·로봇 주목과 일관.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T03",
+      "ticker_exposure": "+",
+      "claim": "2026년 하반기 출시될 베라 루빈 초기 모델은 1세트당 HBM4 8개가 탑재되며, 삼성전자는 베라 루빈용 샘플을 엔비디아에 제공했고 SK하이닉스는 베라 루빈에 직접 탑재해 검증을 진행 중이다 — HBM4 사이클의 ",
+      "type": "factual",
+      "evidence": "메르 인용 34~35번 항목: 베라 루빈 HBM4 8개/세트, 삼성 샘플 제공, SK하이닉스 직접 탑재 검증.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T04",
+      "ticker_exposure": "+",
+      "claim": "2027년 예정된 후속 모델 베라 루빈 울트라는 HBM4E 16개가 탑재되어, HBM 콘텐츠(세트당 탑재량)가 8→16개로 배가되며 메모리 수혜 강도가 세대 전환마다 확대된다.",
+      "type": "predictive",
+      "evidence": "메르 인용 36번: 베라 루빈 울트라 HBM4E 16개. HBM 세대 전환마다 GPU당 메모리 탑재량 증가 추세와 부합.",
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026",
+      "type": "산업",
+      "title": "베라 루빈 HBM4 샘플 제공",
+      "summary": "메르 인용 — 삼성전자가 엔비디아 베라 루빈용 HBM4 샘플을 제공(SK하이닉스는 직접 탑재 검증 단계)"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 347750,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 OPM 약 13%로 SK하이닉스(약 49%) 대비 HBM 레버리지가 약하다. 현 주가는 메모리 회복 + HBM4 추격 + 파운드리 정상화 기대를 혼합 반영. HBM4 양산 진입과 파운드리 흑자 전환이 SK하이닉스와의 밸류 갭 축소의 핵심 조건."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

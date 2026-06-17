@@ -1,0 +1,232 @@
+{
+  "computed_at": "2026-06-12T03:36:46.754737+09:00",
+  "ledger_path": "/var/tmp/w1136/pipeline/ledger.jsonl",
+  "risk_limits_path": "/var/tmp/w1136/pipeline/risk_limits.json",
+  "n_decisions": 8,
+  "decisions": [
+    {
+      "ticker": "AIXA.DE",
+      "date": "2026-06-11",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 10,
+        "neutral": 3,
+        "lean_bearish": 4
+      },
+      "signal_score": 0.3875,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bearish",
+          "confidence": -0.6,
+          "weight": 1.0,
+          "score_contribution": 0.42
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 999,
+      "current_price": 55.02,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.7904,
+      "reasoning": "중간 매수 신호 (+0.39), 한도의 50% 진입"
+    },
+    {
+      "ticker": "IFX.DE",
+      "date": "2026-06-11",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 11,
+        "neutral": 3,
+        "lean_bearish": 3
+      },
+      "signal_score": 0.3329,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.4,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 713,
+      "current_price": 77.06,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.6486,
+      "reasoning": "중간 매수 신호 (+0.33), 한도의 50% 진입"
+    },
+    {
+      "ticker": "NVTS",
+      "date": "2026-06-11",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "neutral": 4,
+        "lean_bearish": 9,
+        "lean_bullish": 4
+      },
+      "signal_score": -0.1979,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bearish",
+          "confidence": 0.75,
+          "weight": 1.0,
+          "score_contribution": -0.525
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 21.44,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.5205,
+      "reasoning": "중립 신호 (-0.20), 변경 없음"
+    },
+    {
+      "ticker": "ON",
+      "date": "2026-06-11",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 9,
+        "lean_bearish": 5,
+        "neutral": 3
+      },
+      "signal_score": 0.1743,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bullish",
+          "confidence": 0.75,
+          "weight": 1.0,
+          "score_contribution": 0.525
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 113.91,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.6948,
+      "reasoning": "중립 신호 (+0.17), 변경 없음"
+    },
+    {
+      "ticker": "STM",
+      "date": "2026-06-11",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "neutral": 6,
+        "lean_bullish": 7,
+        "lean_bearish": 4
+      },
+      "signal_score": 0.1436,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bullish",
+          "confidence": 0.75,
+          "weight": 1.0,
+          "score_contribution": 0.525
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 76.4226,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.6824,
+      "reasoning": "중립 신호 (+0.14), 변경 없음"
+    },
+    {
+      "ticker": "TXN",
+      "date": "2026-06-11",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 6,
+        "neutral": 7,
+        "lean_bearish": 4
+      },
+      "signal_score": 0.1077,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 294.92,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.5506,
+      "reasoning": "중립 신호 (+0.11), 변경 없음"
+    },
+    {
+      "ticker": "VICR",
+      "date": "2026-06-11",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 5,
+        "lean_bearish": 8,
+        "neutral": 4
+      },
+      "signal_score": 0.1816,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.3,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 292.1,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.1323,
+      "reasoning": "중립 신호 (+0.18), 변경 없음"
+    },
+    {
+      "ticker": "WOLF",
+      "date": "2026-06-11",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "neutral": 2,
+        "lean_bearish": 12,
+        "lean_bullish": 3
+      },
+      "signal_score": -0.3664,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        }
+      },
+      "action": "sell_partial",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 1230,
+      "current_price": 44.71,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.4668,
+      "reasoning": "중간 매도 신호 (-0.37), 보유분 50% 청산"
+    }
+  ]
+}

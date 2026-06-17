@@ -1,0 +1,193 @@
+{
+  "industry": {
+    "name": "AI 데이터센터 전력 인프라",
+    "overview": "AI 데이터센터 전력 인프라는 데이터센터 내 전력 분배 및 냉각 시스템을 포함하여 효율적인 전력 사용을 가능케 하는 핵심 인프라임. 특히 800V DC 시스템은 전력 손실을 줄이고 구리 사용량을 최소화하여 공간 효율성을 높이는 데 중점을 둠. NVIDIA와 같은 주요 기술 기업들이 800V DC를 채택하면서 이 분야의 중요성이 더욱 부각되고 있음.",
+    "competitors": [
+      {
+        "name": "Schneider Electric",
+        "ticker": "SU",
+        "share_pct": null,
+        "moat": "포괄적 에너지 관리 솔루션"
+      },
+      {
+        "name": "Eaton Corporation",
+        "ticker": "ETN",
+        "share_pct": null,
+        "moat": "전력 관리 및 효율성 개선 기술"
+      },
+      {
+        "name": "ABB Ltd",
+        "ticker": "ABB",
+        "share_pct": null,
+        "moat": "자동화 및 전력 기술의 글로벌 리더"
+      }
+    ],
+    "demand_drivers": [
+      "AI 데이터센터의 급속한 확장",
+      "전력 효율성 향상 요구 증가",
+      "구리 사용량 절감 및 공간 효율성 필요",
+      "고밀도 랙 및 액체 냉각 기술의 도입"
+    ],
+    "supply_dynamics": "800V DC 시스템의 도입은 기존 전력 인프라를 대체하여 수요가 급증할 전망임. 이에 따라 전력 장비 제조사들은 생산 능력 확장 및 기술 개발에 집중하고 있음."
+  },
+  "financials": {
+    "currency": "USD (millions)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 5691.5,
+        "op_income": 227.8,
+        "op_margin": 4.0,
+        "net_income": 76.6,
+        "net_margin": 1.3
+      },
+      {
+        "year": 2023,
+        "revenue": 6863.2,
+        "op_income": 916.8,
+        "op_margin": 13.4,
+        "net_income": 460.2,
+        "net_margin": 6.7
+      },
+      {
+        "year": 2024,
+        "revenue": 8011.8,
+        "op_income": 1382.0,
+        "op_margin": 17.2,
+        "net_income": 495.8,
+        "net_margin": 6.2
+      },
+      {
+        "year": 2025,
+        "revenue": 10229.9,
+        "op_income": 1896.2,
+        "op_margin": 18.5,
+        "net_income": 1332.8,
+        "net_margin": 13.0
+      }
+    ],
+    "pl_note": "데이터센터 capex 직결 — 수주잔고(backlog)·book-to-bill·organic 성장률이 핵심. 800VDC·액체냉각 신제품 믹스가 마진 동인.",
+    "bs_snapshot": {
+      "total_assets": 12212.4,
+      "total_liab": 8271.1,
+      "equity": 3941.3,
+      "cash": 1728.4,
+      "debt": 3227.9,
+      "market_cap": 120133.9,
+      "_note": "yfinance balance_sheet 최신 회계연도 기준 (USD (millions))."
+    },
+    "cf_summary": {
+      "note": "yfinance 기준 — 상세 CF는 재무제표 섹션 참조"
+    },
+    "peer_compare": [
+      {
+        "ticker": "VRT",
+        "fwd_pe": 35.4,
+        "pb": 30.4,
+        "note": "current_price=312.76"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 400.0,
+      "thesis": "800V DC 시스템의 빠른 도입과 AI 데이터센터 확장으로 인해 Vertiv의 매출 및 이익이 급증할 전망.",
+      "key_assumptions": [
+        "NVIDIA와의 파트너십 강화",
+        "800V DC 전환 가속화",
+        "데이터센터 투자 증가"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 350.0,
+      "thesis": "800V DC 전환은 점진적으로 진행되며, Vertiv는 안정적인 성장세를 유지할 것으로 예상됨.",
+      "key_assumptions": [
+        "시장 평균 성장률 유지",
+        "800V DC 기술의 안정적 도입",
+        "데이터센터 수요 지속"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 280.0,
+      "thesis": "800V DC 기술 도입 지연 및 경쟁 심화로 인해 Vertiv의 성장이 제한될 수 있음.",
+      "key_assumptions": [
+        "기술 도입 지연",
+        "경쟁 심화",
+        "데이터센터 투자 감소"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2024-06-15",
+      "event": "800V DC 제품군 출시",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Vertiv의 800V DC 제품군 출시로 시장 점유율 확대 기대."
+    },
+    {
+      "date": "2025-03-10",
+      "event": "NVIDIA와의 파트너십 강화 발표",
+      "type": "business",
+      "expected_impact": "+",
+      "description": "NVIDIA와의 협력 강화로 Vertiv의 시장 경쟁력 증대."
+    },
+    {
+      "date": "2025-11-20",
+      "event": "데이터센터 투자 확대 정책 발표",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "정부의 데이터센터 투자 확대 정책으로 Vertiv의 수요 증가 예상."
+    }
+  ],
+  "risks": [
+    {
+      "name": "기술 도입 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "800V DC 기술 도입이 지연되면 시장 점유율 상실 위험이 있음.",
+      "mitigation": "기술 개발 및 도입 가속화를 위한 R&D 투자 확대."
+    },
+    {
+      "name": "경쟁 심화",
+      "probability": "high",
+      "impact": "med",
+      "description": "다른 기업들의 800V DC 시장 진입으로 경쟁이 심화될 수 있음.",
+      "mitigation": "차별화된 기술 및 서비스 제공으로 경쟁 우위 확보."
+    },
+    {
+      "name": "데이터센터 투자 감소",
+      "probability": "low",
+      "impact": "med",
+      "description": "경제 불확실성으로 인해 데이터센터 투자가 감소할 위험이 있음.",
+      "mitigation": "다양한 시장으로의 진출 및 고객 다변화."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "800V DC 전환이 전력 효율성을 크게 개선함.",
+      "type": "industry",
+      "evidence": "800V DC로 전환 시 전력 손실이 5% 개선됨.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "NVIDIA와의 파트너십이 Vertiv의 경쟁력을 강화함.",
+      "type": "empirical",
+      "evidence": "NVIDIA가 Vertiv를 800V DC 생태계 핵심 파트너로 지목.",
+      "testability": "med",
+      "current_status": "in-progress"
+    },
+    {
+      "claim": "데이터센터의 전력 수요 증가가 Vertiv의 성장에 기여함.",
+      "type": "macro",
+      "evidence": "미국 PJM 전력도매시장에서 데이터센터로 인한 전력 부족 발생.",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": []
+}

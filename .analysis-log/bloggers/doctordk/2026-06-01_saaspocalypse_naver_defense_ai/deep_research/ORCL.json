@@ -1,0 +1,258 @@
+{
+  "industry": {
+    "name": "엔터프라이즈 소프트웨어 + AI 클라우드 인프라(OCI)",
+    "overview": "Oracle은 DB·ERP(Fusion·NetSuite)와 OCI(Oracle Cloud Infrastructure)를 보유. SaaSpocalypse 반등의 핵심 주역으로, $553B RPO(+325% YoY backlog) 공개 후 +13% 급등 — OCI가 AI 학습/추론 워크로드의 선호처로 부상했음을 입증. AI capex 사이클의 인프라 수혜주. 단위: $M.",
+    "competitors": [
+      {
+        "name": "Oracle",
+        "ticker": "ORCL",
+        "share_pct": null,
+        "moat": "엔터프라이즈 DB 해자 + OCI 가성비 GPU 클러스터 + $553B RPO"
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "share_pct": null,
+        "moat": "Azure 1위급 + OpenAI 제휴"
+      },
+      {
+        "name": "Amazon",
+        "ticker": "AMZN",
+        "share_pct": null,
+        "moat": "AWS 클라우드 1위"
+      },
+      {
+        "name": "Google",
+        "ticker": "GOOGL",
+        "share_pct": null,
+        "moat": "GCP+TPU 자체 가속기"
+      },
+      {
+        "name": "ServiceNow",
+        "ticker": "NOW",
+        "share_pct": null,
+        "moat": "워크플로 SaaS — 인접"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "Oracle, SaaSpocalypse 반등 주도 — RPO $553B",
+        "source": "FinancialContent",
+        "summary": "+325% YoY backlog, OCI가 AI 워크로드 선호처 입증, +13% 급등"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "OCI 대형 AI 학습 계약 확대",
+        "source": "실적",
+        "summary": "OpenAI 등 대형 AI 워크로드 수주 — RPO 급증 견인"
+      },
+      {
+        "date": "2026-05-28",
+        "title": "소프트웨어 랠리 재점화",
+        "source": "CNBC",
+        "summary": "섹터 매수세 회귀 — ORCL 강세 지속"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "2025 매출 $57.4B·영업익 $18.1B(OPM 31%)",
+        "source": "실적",
+        "summary": "클라우드 전환 가속 + 마진 견조"
+      },
+      {
+        "date": "2026-06-01",
+        "title": "의교창: 오라클 추세 전환",
+        "source": "blog.naver.com/doctordk",
+        "summary": "SaaS 회복 리더 3인방으로 거명"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 600.0,
+      "cagr_pct": 20.0,
+      "horizon": "클라우드 인프라+AI 워크로드 2026→2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 42440,
+        "op_income": 15830,
+        "net_income": 6717,
+        "op_margin": 37.3,
+        "net_margin": 15.8
+      },
+      {
+        "year": 2023,
+        "revenue": 49954,
+        "op_income": 13773,
+        "net_income": 8503,
+        "op_margin": 27.6,
+        "net_margin": 17.0
+      },
+      {
+        "year": 2024,
+        "revenue": 52961,
+        "op_income": 16071,
+        "net_income": 10467,
+        "op_margin": 30.3,
+        "net_margin": 19.8
+      },
+      {
+        "year": 2025,
+        "revenue": 57399,
+        "op_income": 18052,
+        "net_income": 12443,
+        "op_margin": 31.5,
+        "net_margin": 21.7
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 168000,
+      "total_liab": 156000,
+      "equity": 12000,
+      "cash": 11000,
+      "debt": 88000
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 15000,
+      "fcf_5y_avg": 8000,
+      "capex_intensity": 0.18
+    },
+    "peer_compare": [
+      {
+        "ticker": "ORCL",
+        "name": "Oracle",
+        "pe": 43.6,
+        "pb": 20.8,
+        "roe": 40.0,
+        "div_yield": 0.9
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "pe": 35.0,
+        "pb": 11.0,
+        "roe": 35.0,
+        "div_yield": 0.7
+      },
+      {
+        "ticker": "NOW",
+        "name": "ServiceNow",
+        "pe": 75.4,
+        "pb": 11.1,
+        "roe": 15.0,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 320.0,
+      "thesis": "OCI가 AI 인프라 3대 클라우드급으로 부상, $553B RPO가 매출로 전환되며 클라우드 매출 +50% 가속.",
+      "key_assumptions": [
+        "OCI capex→매출 전환 순항",
+        "대형 AI 계약 추가",
+        "멀티플 확장"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 245.0,
+      "thesis": "RPO의 견조한 매출 전환 + 클라우드 믹스 개선으로 매출 +12~15% 성장. fwd PE 30 합리적 유지.",
+      "key_assumptions": [
+        "OCI 매출 +30%대",
+        "마진 견조",
+        "capex 부담 관리"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 180.0,
+      "thesis": "OCI capex 급증이 FCF·부채 부담 가중, 대형 계약 집중 리스크 현실화.",
+      "key_assumptions": [
+        "capex 과잉",
+        "고객 집중 리스크",
+        "부채 부담"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "분기 실적 — OCI 매출·RPO 추이",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "$553B 백로그의 매출 전환 속도 확인"
+    },
+    {
+      "date": "2026-H2",
+      "event": "신규 대형 AI 인프라 계약",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "RPO 추가 확대 — 인프라 리더십"
+    },
+    {
+      "date": "2026-H2",
+      "event": "capex 가이던스·데이터센터 증설",
+      "type": "capex",
+      "expected_impact": "med",
+      "description": "FCF·부채 부담 대비 성장 균형"
+    }
+  ],
+  "risks": [
+    {
+      "name": "capex 집약도 급증",
+      "probability": "high",
+      "impact": "med",
+      "description": "OCI 데이터센터 투자가 FCF·부채(총차입 ~$88B) 부담",
+      "mitigation": "RPO 기반 매출 가시성이 투자 회수 뒷받침"
+    },
+    {
+      "name": "대형 AI 고객 집중",
+      "probability": "med",
+      "impact": "med",
+      "description": "RPO 급증이 소수 계약(OpenAI 등)에 의존",
+      "mitigation": "엔터프라이즈 DB·ERP 베이스 매출 안정"
+    },
+    {
+      "name": "클라우드 경쟁(AWS·Azure·GCP)",
+      "probability": "med",
+      "impact": "med",
+      "description": "하이퍼스케일러 가격·역량 경쟁",
+      "mitigation": "OCI 가성비·DB 락인"
+    },
+    {
+      "name": "높은 재무 레버리지",
+      "probability": "med",
+      "impact": "med",
+      "description": "자본 대비 부채 큼(equity thin)",
+      "mitigation": "강한 영업현금흐름·고ROE"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Oracle은 SaaSpocalypse 반등 주역이다",
+      "type": "factual",
+      "evidence": "RPO $553B·+325%, +13% 급등",
+      "testability": "high",
+      "current_status": "지지(확인)"
+    },
+    {
+      "claim": "OCI가 AI 워크로드 선호처로 부상했다",
+      "type": "factual",
+      "evidence": "FinancialContent + 대형 AI 계약",
+      "testability": "high",
+      "current_status": "지지"
+    },
+    {
+      "claim": "capex가 FCF를 압박할 수 있다",
+      "type": "predictive",
+      "evidence": "capex intensity 상승·부채",
+      "testability": "high",
+      "current_status": "부분 지지 — 리스크"
+    }
+  ],
+  "korean_disclosures": []
+}

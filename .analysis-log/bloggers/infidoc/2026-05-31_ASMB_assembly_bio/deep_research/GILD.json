@@ -1,0 +1,188 @@
+{
+  "industry": {
+    "name": "글로벌 항바이러스·간질환·종양 빅파마 (HIV·HCV·HBV·간질환·oncology)",
+    "overview": "Gilead은 HIV(Biktarvy)·HCV 정복 유산 위에 간질환·종양으로 포트폴리오를 확장 중인 대형 제약사다. 2024년 CymaBay를 약 $4.3B에 인수해 PBC 치료제 seladelpar(Livdelzi)를 확보했고, ASMB 지분 25.1%·HSV opt-in 옵션·warrant를 통해 차세대 항바이러스 파이프라인을 외부에서 조달한다. ASMB thesis 관점에서 GILD는 'validation 주체'이자 잠재적 인수자다.",
+    "competitors": [
+      {
+        "name": "GSK (HBV·항바이러스·간질환)",
+        "ticker": "GSK"
+      },
+      {
+        "name": "Mirum (담즙정체 간질환)",
+        "ticker": "MIRM"
+      },
+      {
+        "name": "Assembly Bio (피투자·opt-in 대상)",
+        "ticker": "ASMB"
+      },
+      {
+        "name": "Vir Bio (HDV)",
+        "ticker": "VIR"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-26",
+        "title": "ASMB 공모 추가 참여, 지분 25.1%로 확대 (자기자본 투입)",
+        "summary": "영향: 긍정적",
+        "source": "SEC/IR/뉴스"
+      },
+      {
+        "date": "2024",
+        "title": "CymaBay $4.3B 인수 — PBC seladelpar(Livdelzi) 확보",
+        "summary": "영향: 긍정적",
+        "source": "SEC/IR/뉴스"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 29.4,
+      "cagr_pct": 3.0,
+      "horizon": "2025 매출 기준, HIV 안정+간질환/종양 성장"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2022",
+        "revenue": 27.281,
+        "op_income": 10.974,
+        "op_margin": 40.2,
+        "net_income": 4.592,
+        "net_margin": 16.8
+      },
+      {
+        "year": "2023",
+        "revenue": 27.116,
+        "op_income": 8.838,
+        "op_margin": 32.6,
+        "net_income": 5.665,
+        "net_margin": 20.9
+      },
+      {
+        "year": "2024",
+        "revenue": 28.754,
+        "op_income": 10.596,
+        "op_margin": 36.9,
+        "net_income": 0.48,
+        "net_margin": 1.7
+      },
+      {
+        "year": "2025",
+        "revenue": 29.442,
+        "op_income": 11.701,
+        "op_margin": 39.7,
+        "net_income": 8.51,
+        "net_margin": 28.9
+      }
+    ],
+    "peer_compare": [
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "pe": 18.289795,
+        "pb": 7.1003003,
+        "roe": 43.36,
+        "div_yield": 2.44
+      },
+      {
+        "ticker": "GSK",
+        "name": "GSK plc",
+        "pe": 13.265092,
+        "pb": 4.2292185,
+        "roe": 40.905997,
+        "div_yield": 3.57
+      },
+      {
+        "ticker": "MIRM",
+        "name": "Mirum Pharmaceuticals",
+        "pe": -181.89963,
+        "pb": 25.502512,
+        "roe": -335.82401000000004,
+        "div_yield": null
+      },
+      {
+        "ticker": "ASMB",
+        "name": "Assembly Biosciences",
+        "pe": 345.75,
+        "pb": 2.2133312,
+        "roe": -5.6550004000000005,
+        "div_yield": null
+      }
+    ],
+    "financial_unit": {
+      "currency": "USD",
+      "scale": "B"
+    },
+    "bs_snapshot": {
+      "cash": 9.817,
+      "debt": 22.174,
+      "total_assets": 60.0,
+      "total_liab": 40.0,
+      "equity": 20.0
+    },
+    "cf_summary": {
+      "note": "강한 영업현금흐름·배당(yield ~2.4%) — bolt-on M&A로 파이프라인 보충 여력 충분"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "HIV 프랜차이즈 방어 + 간질환(Livdelzi)·종양(Trodelvy) 성장, ASMB 등 외부 자산 opt-in 성공",
+      "key_assumptions": [
+        "HIV 특허 절벽 방어",
+        "간질환 프랜차이즈 확장",
+        "M&A 가치창출"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "안정적 캐시카우 + 점진 성장, 배당·자사주로 총주주수익률 견조",
+      "key_assumptions": [
+        "매출 저성장(3% 내외)",
+        "파이프라인 균형"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "HIV 특허 절벽·약가 압박·M&A 가치파괴 리스크",
+      "key_assumptions": [
+        "lenacapavir 경쟁",
+        "IRA 약가 협상 영향"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 중반",
+      "event": "ASMB HSV opt-in 결정(파이프라인 추가)",
+      "expected_impact": "med"
+    },
+    {
+      "date": "2026~27",
+      "event": "Livdelzi(PBC) 매출 램프",
+      "expected_impact": "med"
+    },
+    {
+      "date": "지속",
+      "event": "분기 실적·배당",
+      "expected_impact": "low"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HIV 특허 절벽 및 lenacapavir 경쟁 동학",
+      "probability": "med",
+      "impact": "high"
+    },
+    {
+      "name": "IRA 약가 협상·정책 압박",
+      "probability": "high",
+      "impact": "med"
+    },
+    {
+      "name": "M&A 가치파괴(과거 사례)",
+      "probability": "med",
+      "impact": "med"
+    }
+  ]
+}

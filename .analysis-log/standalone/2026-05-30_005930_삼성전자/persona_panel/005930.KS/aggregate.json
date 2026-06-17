@@ -1,0 +1,467 @@
+{
+  "ticker": "005930.KS",
+  "aggregated_at": "2026-06-03T00:44:12.247948+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 2,
+      "pct": 11.8
+    },
+    "lean_bullish": {
+      "count": 10,
+      "pct": 58.8
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 29.4
+    }
+  },
+  "average_confidence": 0.771,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 11,
+      "personas": [
+        "george-soros",
+        "aswath-damodaran",
+        "stanley-druckenmiller",
+        "nassim-taleb",
+        "jim-simons",
+        "warren-buffett",
+        "mohnish-pabrai",
+        "rakesh-jhunjhunwala",
+        "peter-lynch",
+        "bill-ackman",
+        "charlie-munger"
+      ],
+      "examples": [
+        "높은 연간 변동성",
+        "반도체 시장 변동성",
+        "시장 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 연간 변동성",
+        "과도한 모멘텀 수익률"
+      ],
+      "key_opportunities_top3": [],
+      "uncertainty": "모멘텀이 지속되면 평가가 달라질 수 있다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "반도체 시장 변동성",
+        "높은 경쟁 압력"
+      ],
+      "key_opportunities_top3": [
+        "글로벌 반도체 수요 증가",
+        "차세대 기술 혁신"
+      ],
+      "uncertainty": "전 세계 경제가 급격히 악화되거나 반도체 수요가 급감하면 평가 변경 가능",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "불확실성 있는 수익성 지표"
+      ],
+      "key_opportunities_top3": [
+        "강력한 모멘텀 유지",
+        "시장 저평가 상태"
+      ],
+      "uncertainty": "수익성 데이터가 향후 부정적으로 드러날 경우 가치 평가가 흔들릴 수 있음",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "갑작스러운 경기 침체",
+        "통화정책 변화로 인한 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "글로벌 경제 성장 지속",
+        "반도체 수요 급증"
+      ],
+      "uncertainty": "글로벌 경기침체 신호가 본격화된다면 현재의 lean_bullish 판단이 바뀔 수 있습니다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 변동성",
+        "지속 가능한 ROE 수준 유지 여부"
+      ],
+      "key_opportunities_top3": [
+        "반도체 시장 확대",
+        "AI 기술 발전"
+      ],
+      "uncertainty": "반도체 시장이나 AI 기술의 성장 둔화가 발생하면, 성장성을 재평가해야 할 수 있습니다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 변동성",
+        "기술적 경쟁 압력"
+      ],
+      "key_opportunities_top3": [
+        "글로벌 시장 리더십",
+        "지속적인 기술 혁신"
+      ],
+      "uncertainty": "글로벌 경제 불확실성이 강화되거나 기술 혁신이 더디게 될 경우",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "낮은 배당 수익률"
+      ],
+      "key_opportunities_top3": [
+        "반도체 시장 지배력",
+        "지속적 기술 혁신"
+      ],
+      "uncertainty": "글로벌 반도체 수요 변동",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "이익률의 지속 가능성",
+        "반도체 시장의 경기 변동성"
+      ],
+      "key_opportunities_top3": [
+        "글로벌 시장 지배력의 확장",
+        "혁신적 제품 개발을 통한 신규 시장 개척"
+      ],
+      "uncertainty": "반도체 시장의 전반적인 침체가 발생하면 내재 가치를 방어하기 어려울 수 있습니다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "낮은 배당수익률"
+      ],
+      "key_opportunities_top3": [
+        "반도체 수요 회복",
+        "글로벌 기술주 투자 확대"
+      ],
+      "uncertainty": "반도체 수요 부진이 지속되면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "배당 수익률 낮음"
+      ],
+      "key_opportunities_top3": [
+        "기술 혁신 강화",
+        "글로벌 시장 확장"
+      ],
+      "uncertainty": "기술 변혁의 가속도가 둔화되거나 경쟁 격화로 시장 점유율이 하락할 경우 verdict가 변화할 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 정직성 문제",
+        "[inference] 경쟁 심화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "미래 제품 개발",
+        "강력한 글로벌 시장 위치"
+      ],
+      "uncertainty": "만약 삼성전자가 R&D 효율성을 잃거나 시장에서의 경쟁력이 크게 악화되면 verdict가 바뀔 수 있다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 비율",
+        "명확한 catalyst 부재"
+      ],
+      "key_opportunities_top3": [
+        "낮은 forward PE",
+        "시장의 대규모 리더십"
+      ],
+      "uncertainty": "반도체 부문에서 예상하지 못한 호조리거나, EV/EBITDA의 고점을 더 정당화시킬 수 있는 사업 실적 개선이 있다면 의견이 뒤집힐 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "가격이 great fundamentals보다 앞서 있음",
+        "높은 변동성과 서사적 강도"
+      ],
+      "key_opportunities_top3": [
+        "AI 기술 발전에 따른 장기 성장성",
+        "글로벌 시장 점유율 확대 가능성"
+      ],
+      "uncertainty": "AI 관련 기대치가 크게 높지 않을 경우, verdict가 뒤집힐 수 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부채 비율 및 유동비율 관련 정보 부족",
+        "정량 기준의 정족수 미달"
+      ],
+      "key_opportunities_top3": [
+        "저렴한 P/E 비율",
+        "높은 시가총액으로 시장에서의 강력한 위치"
+      ],
+      "uncertainty": "부채 수준과 10년 EPS 성장이 명확해지지 않으면, 현 평가가 변동할 수 있습니다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "ARK의 5대 플랫폼에 직접 연관성 미흡",
+        "perceived TAM 확장 제한"
+      ],
+      "key_opportunities_top3": [
+        "변동성 대응을 위한 기술적 리더십",
+        "견고한 시장 지위로부터의 계속적 수익"
+      ],
+      "uncertainty": "삼성전자가 AI, autonomous vehicles 등 ARK 선정 disruptive sectors에 대한 확장 투자 강화 시 verdict가 급격히 변화될 수 있음.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 시장 변동성",
+        "자재 원가 상승 가능성"
+      ],
+      "key_opportunities_top3": [
+        "인공지능 및 IoT 기술에서의 확장",
+        "반도체 시장의 지속적인 수요 증가"
+      ],
+      "uncertainty": "세계 경제의 경기 침체 또는 반도체 시장의 급격한 변화가 예상 외로 발생할 경우 verdict가 달라질 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "규제 변화 리스크",
+        "높은 변동성으로 인한 tail risk"
+      ],
+      "key_opportunities_top3": [
+        "다양한 사업 포트폴리오",
+        "세계적인 기술 리더십"
+      ],
+      "uncertainty": "변동성이 안정되고 외부 환경 변화가 제한된다면 verdict가 강화될 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

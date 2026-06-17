@@ -1,0 +1,1307 @@
+{
+  "ticker": "AEM",
+  "ticker_kr": "Agnico Eagle Mines",
+  "ticker_type": "gold_quality",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 10,
+      "members": [
+        "warren-buffett",
+        "charlie-munger",
+        "mohnish-pabrai",
+        "michael-burry",
+        "peter-lynch",
+        "phil-fisher",
+        "bill-ackman",
+        "nassim-taleb",
+        "rakesh-jhunjhunwala",
+        "aswath-damodaran"
+      ],
+      "pct": 76.9
+    },
+    "neutral": {
+      "count": 2,
+      "members": [
+        "ben-graham",
+        "cathie-wood"
+      ],
+      "pct": 15.4
+    },
+    "bullish": {
+      "count": 1,
+      "members": [
+        "stanley-druckenmiller"
+      ],
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.672,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.74
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "lean_bullish (2/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "tail-hedge": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "emerging-growth": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Commodity price -20% sensitivity (31% 마진 → 18-22% 압축)",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "nassim-taleb"
+      ],
+      "description": "Commodity price -20% sensitivity (31% 마진 → 18-22% 압축)"
+    },
+    {
+      "theme": "Shiller CAPE 42 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "nassim-taleb"
+      ],
+      "description": "Shiller CAPE 42 광범위 지수 mean reversion 시 sector 동반 derate 위험"
+    },
+    {
+      "theme": "Geopolitical mining jurisdiction risk (Indonesia·DRC·Chile p",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "nassim-taleb"
+      ],
+      "description": "Geopolitical mining jurisdiction risk (Indonesia·DRC·Chile permit·environmental)"
+    }
+  ],
+  "unique_alpha_insights": [
+    {
+      "theme": "Druckenmiller Teva 패턴 — perception lag alpha 광산 sector 적용 (T",
+      "personas": [
+        "stanley-druckenmiller",
+        "michael-burry"
+      ],
+      "description": "Druckenmiller Teva 패턴 — perception lag alpha 광산 sector 적용 (T9)"
+    },
+    {
+      "theme": "신규 광산 10년+ supply lag — capital discipline 동반 강화 (T8)",
+      "personas": [
+        "stanley-druckenmiller",
+        "michael-burry"
+      ],
+      "description": "신규 광산 10년+ supply lag — capital discipline 동반 강화 (T8)"
+    },
+    {
+      "theme": "13F 7개 펀드 동시 매수 — '꿀통' contrarian-to-contrarian 시그널 (T7)",
+      "personas": [
+        "stanley-druckenmiller",
+        "michael-burry"
+      ],
+      "description": "13F 7개 펀드 동시 매수 — '꿀통' contrarian-to-contrarian 시그널 (T7)"
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.74,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "philosophy": "moat·owner earnings·margin of safety",
+      "style": "value",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 광업 마진 31% vs 기술 17% — AEM Agnico Eagle Mines도 워런 버핏 'cheap on margin' 기준 충족",
+        "[actual] 실물자산·ZIRP 종결 paradigm — 워런 버핏의 'moat·owner earnings·margin of safety' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "워런 버핏: 'moat·owner earnings·margin of safety' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "CAPE 42.05는 검증 가능한 사실. Buffett은 historical anchor 신뢰. '미래 10년 광범위 지수는 비싸다' 동의. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "ETF flow 자기강화는 narrative. Real earnings 사실이나 multiple 정당화는 별개. Buffett은 paid for earnings — multiple compression 위험 인식. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "challenge",
+          "rationale": "PTJ chart overlay는 timing narrative. Buffett은 timing 거부, 'price you pay' 중심. 1-2년 강세 prediction은 무시. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "Inflation·금리 환경 차이는 검증 가능. Buffett 1970s 경험 (BRK SEE'S Candies 가격 인상력) — 인플레 견디는 quality preferred. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Yield 20년 최고는 객관 사실. Buffett T-bill 4-5% 보유 — 'no urgency to swing' 정확히 본인 행동. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "패러다임 전환 — 실물자산·고금리 견디는 기업은 Buffett 평생 framework. T-bill·OXY·Apple cash 동시 보유로 본인이 이미 실행. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "마진 31% 사실. PE 6-15x 검증. 'great business at fair price'에 가까움. Buffett은 mining 직접 진출 (Newmont 일부, 과거 silver). — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "구조적 수요 4대 메가트렌드 동의. 다만 10-year forecast는 conservative — Buffett은 narrative보다 current cashflow 우선. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "neutral",
+          "rationale": "Perception lag alpha는 Druckenmiller framework. Buffett은 'pay for what you see today' 원칙으로 다소 차이. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.58
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "philosophy": "quality at fair price·multi-disciplinary",
+      "style": "value",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 4대 메가트렌드 구조적 수요·신규광산 10년+ supply lag — gold_quality 노출 정합",
+        "[actual] 실물자산·ZIRP 종결 paradigm — 찰리 멍거의 'quality at fair price·multi-disciplinary' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "찰리 멍거: 'quality at fair price·multi-disciplinary' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "Munger: 'know your circle of competence, valuation matters'. CAPE 42 baseline은 unfavorable. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "Multi-disciplinary lens — ETF flow는 industry structure 변화로 인정하나, 'this time different' 경계. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "challenge",
+          "rationale": "Timing call 거부. 'How not to be stupid' framework — 1-2년 추가 강세는 추측, 행동 가이드 아님. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "Munger 1970s 통화·경제사 학습. 인플레 정착 시 quality compounder + real asset 양면 분산. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "재정적자·QT·de-dollarization는 multi-factor reality. Munger 강조 '시스템 사고'와 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "ZIRP 종결은 paradigm change. Munger 평생 '제로금리 일시적' 입장 — 본 thesis와 깊은 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "광업 마진 31% 사실. 다만 Munger '사업 자체보다 사람·문화' — 광산 CEO의 capital discipline 검증 필요. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "10년 신규광산 timeline은 'inversion' framework과 일치 — supply 부족이 가격 결정. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "neutral",
+          "rationale": "Perception lag은 Druckenmiller 트레이딩 framework. Munger는 'pay rational price for great business' — alpha 추구보다 mistake 회피. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "philosophy": "GARP·PEG·local knowledge·multi-bagger",
+      "style": "growth",
+      "key_concerns_top3": [
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 광업 마진 31% vs 기술 17% — AEM Agnico Eagle Mines도 피터 린치 'cheap on margin' 기준 충족",
+        "[inference] 4대 메가트렌드 구조적 수요·신규광산 10년+ supply lag — gold_quality 노출 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "피터 린치: 'GARP·PEG·local knowledge·multi-bagger' framework — narrative (T6)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "neutral",
+          "rationale": "Lynch: 'broad market doesn't matter — pick stocks'. CAPE는 macro signal이나 stock-level alpha는 별개. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "Lynch는 ETF·passive trend 부정적 — 'know what you own'. T2의 self-reinforcing은 risk로 인식. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "neutral",
+          "rationale": "Lynch는 timing 거부. 'If you spend 13 minutes on market timing, you waste 10 minutes'. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "Inflation hedge가 PEG framework에서 정량적으로 검증. Lynch 1970-80s era 경험. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Bond yield 환경에서 dividend stock·real asset이 PEG 우위. Lynch industry growth metric과 일치. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "Capital discipline 광산은 Lynch 'great company' criteria — 'simple, boring, hated by Wall Street'. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "PE 6-15x with 31% margin — Lynch 'cheap stock' framework. PEG <1 (광산 EPS growth 15-25% 기준). — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "메가트렌드 4종 — Lynch '5-year growth story'. Copper-EV story는 Lynch가 좋아하는 'tangible consumer-tied' growth. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "lean_support",
+          "rationale": "Lynch는 'local knowledge·early information'으로 perception lag 활용. Druckenmiller framework과 부분 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.68
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "philosophy": "disruptive innovation·5-year exponential",
+      "style": "growth",
+      "key_concerns_top3": [
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 캐시 우드의 'disruptive innovation·5-year exponential' framework 부분 적용 — selective merit"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "캐시 우드: 'disruptive innovation·5-year exponential' framework — narrative (T1)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 neutral 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "challenge",
+          "rationale": "Wood: 'innovation deflation' framework — 광범위 CAPE는 measure 자체가 outdated. AI productivity가 mean reversion anchor를 위로 끌어올림. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "support",
+          "rationale": "ARK는 빅테크·AI 강조 — T2의 'real earnings + ETF flow' framework과 정합. 'disruptive innovation' 지속 명제. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "support",
+          "rationale": "Wood는 5-year exponential 모델 — PTJ 1-2년 추가 강세 화이트 swan과 일부 정합 (AI·EV·robotics 가속). — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "challenge",
+          "rationale": "Wood는 deflation 시나리오 우선 — 인플레 sustainability에 부정적. Fed pivot 카드 봉쇄 thesis에 회의적. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "neutral",
+          "rationale": "Bond yield 환경은 long-duration growth stock에 부정적이나 Wood는 'innovation overpowers'로 회피. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "challenge",
+          "rationale": "실물자산 paradigm shift는 Wood framework과 상충 — innovation·software·AI가 미래. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "neutral",
+          "rationale": "광산 PE discount는 'cyclical risk pricing'으로 정당화. Wood framework에서 mining은 'non-innovative' 분류. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.42
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "lean_support",
+          "rationale": "Copper for EV·data center는 Wood 메가트렌드 인정. 다만 gold·precious metal은 less aligned. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "neutral",
+          "rationale": "Perception lag은 Wood가 활용하지만 광산보다 AI·biotech sector에서. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "philosophy": "deep contrarian·numbers over narrative·short bubbles",
+      "style": "value-contrarian",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 광업 마진 31% vs 기술 17% — AEM Agnico Eagle Mines도 마이클 버리 'cheap on margin' 기준 충족",
+        "[inference] 4대 메가트렌드 구조적 수요·신규광산 10년+ supply lag — gold_quality 노출 정합",
+        "[actual] 실물자산·ZIRP 종결 paradigm — 마이클 버리의 'deep contrarian·numbers over narrative·short bubbles' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "마이클 버리: 'deep contrarian·numbers over narrative·short bubbles' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "Burry는 historical valuation extreme에 가장 sensitive. CAPE 42는 1929·2000년·일본 1989년 수준. 본 thesis는 Burry 핵심 framework. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.88
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "challenge",
+          "rationale": "Burry는 'ETF flow self-reinforcing'를 본인 X(twitter) 글에서 다수 비판 — passive bubble framework. T2의 'this time different' narrative에 강력 반박. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "challenge",
+          "rationale": "PTJ 1-2년 melt-up은 Burry의 'sell the bubble' 입장과 정반대. Burry는 timing보다 conviction short. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "1970s vs 닷컴 갈림길에서 Burry는 1970s 시나리오 base case. 본 thesis와 깊은 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "G7 yield 구조적 상승은 Burry의 'sovereign debt crisis' 시각의 핵심. 채권 발행량·QT·de-dollarization 모두 Burry 강조 점. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.9
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "실물자산 우선 — Burry 2024 13F: gold·water 노출 증가. 본 thesis 100% 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "Burry는 2024-2025 13F에서 광산주 large position. NEM·SQM·소형 gold miner 모두 보유. 본 thesis는 Burry 본인 행동 영역. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.92
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "구조적 supply 부족은 Burry의 'numbers vs narrative' — actual production data가 narrative 능가. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "support",
+          "rationale": "Perception lag = Burry의 본질적 alpha source. 'big short' 자체가 perception lag arbitrage. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "philosophy": "antifragile·convex·black swan hedge",
+      "style": "tail-hedge",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 광업 마진 31% vs 기술 17% — AEM Agnico Eagle Mines도 나심 탈레브 'cheap on margin' 기준 충족",
+        "[inference] 4대 메가트렌드 구조적 수요·신규광산 10년+ supply lag — gold_quality 노출 정합",
+        "[actual] 실물자산·ZIRP 종결 paradigm — 나심 탈레브의 'antifragile·convex·black swan hedge' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "나심 탈레브: 'antifragile·convex·black swan hedge' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "Taleb의 'fat-tail' framework — CAPE 42는 fragile system signal. '광범위 인덱스 long'은 anti-antifragile. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "challenge",
+          "rationale": "ETF self-reinforcing은 Taleb의 'turkey problem' — long calm period 후 sudden crash. T2 'this time different'는 fragility 증거. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "neutral",
+          "rationale": "Timing은 Taleb framework 외부 — 'probability·payoff' 결정 중요. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "양극단(1970s vs 닷컴) 시나리오는 Taleb의 'bimodal payoff' — convex position이 정답. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Yield·재정 risk는 Taleb의 'too-big-to-fail' fragility — sovereign default risk premium 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "실물자산은 'antifragile to inflation' — Taleb 2020 'bitcoin·gold·hard asset' 포지션. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.88
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "광산 = convex exposure to inflation·crisis. PE 6-15x는 'low cost optionality'. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "Megatrend·supply lag = Taleb의 'long convex positions on inelastic supply' framework. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "support",
+          "rationale": "Perception lag은 Taleb의 'asymmetric information' — alpha source. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "philosophy": "intrinsic value·NCAV·margin of safety",
+      "style": "value",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 광업 마진 31% vs 기술 17% — AEM Agnico Eagle Mines도 벤저민 그레이엄 'cheap on margin' 기준 충족",
+        "[actual] 실물자산·ZIRP 종결 paradigm — 벤저민 그레이엄의 'intrinsic value·NCAV·margin of safety' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄: 'intrinsic value·NCAV·margin of safety' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 neutral 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "Graham PE·dividend yield·book value 모두 광범위 지수에서 적정선 이하. CAPE 42는 1929·2000년과 동일 위험 시그널 — speculative. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "Graham은 'Mr. Market' framework에서 ETF passive flow를 '비합리적 enthusiasm' 일종으로 분류. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.45
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "challenge",
+          "rationale": "Graham 격언: 'Forecasting market timing is profit-seeker game, not investor'. PTJ chart는 speculation. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "Graham 1934 'Security Analysis'에서 인플레·금리 regime 변화에 따른 valuation framework 달라야 함 명시. 본 thesis와 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Bond yield 5% 환경은 stock vs bond comparison으로 valuation 재정의. Graham AAA corporate yield 2x rule에서 stock earnings yield 10%+ 필요. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "실물자산 우선·고금리 견디는 기업 = Graham 'defensive investor' 원칙. Asset-backed·dividend-paying·debt-low 모두 본 thesis와 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "PE 6-15x·dividend 2-4%·book value 거래 — Graham defensive criteria 만족. 마진 31%는 'earnings power' 입증. 'Margin of safety' 충분. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.88
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "구조적 수요는 long-term thesis로 Graham 'reasonable expectation' 범위. 다만 10년 forecast는 conservative discount. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "neutral",
+          "rationale": "Graham은 'market timing' 또는 'perception lag'에 의존하지 않음. Cheap valuation이 alpha 원천이지 timing이 아님. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "philosophy": "concentrated quality·activist catalyst·downside-first",
+      "style": "activist",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 실물자산·ZIRP 종결 paradigm — 빌 애크먼의 'concentrated quality·activist catalyst·downside-first' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "빌 애크먼: 'concentrated quality·activist catalyst·downside-first' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "Ackman quality-first framework — broad CAPE high는 'be choosy'. 본인 PSH 포지션 concentrated 7-10 종목. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "ETF flow는 사실이나 Ackman은 active stock picking — flow narrative는 부수적. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "neutral",
+          "rationale": "Ackman은 timing call 거부 — fundamental catalyst 중심. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "Ackman 2022 'short bond' famous trade — Fed pivot 봉쇄 시각과 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Bond yield 구조적 상승은 Ackman 본인 thesis. 'Higher for longer' 명시. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "Ackman의 quality compounder framework — Hilton·Restaurant Brands·Chipotle 모두 'pricing power' 우선. 실물자산은 부분 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "lean_support",
+          "rationale": "광산 PE discount는 인정하나 Ackman은 simple business 우선 — 광산 operational complexity는 약간 부담. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "메가트렌드 4종 — Ackman의 'long-term durable trend' framework 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "neutral",
+          "rationale": "Perception lag보다 'fundamental catalyst·activist driver' 우선. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "philosophy": "Dhandho·tails I win heads I don't lose much",
+      "style": "value",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 광업 마진 31% vs 기술 17% — AEM Agnico Eagle Mines도 모니쉬 파브라이 'cheap on margin' 기준 충족",
+        "[inference] 4대 메가트렌드 구조적 수요·신규광산 10년+ supply lag — gold_quality 노출 정합",
+        "[actual] 실물자산·ZIRP 종결 paradigm — 모니쉬 파브라이의 'Dhandho·tails I win heads I don't lose much' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "모니쉬 파브라이: 'Dhandho·tails I win heads I don't lose much' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "Pabrai: 'when in doubt, do nothing'. CAPE 42 환경에서 broad index는 unfavorable, sector pick 우선. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "Dhandho framework: 'heads I win big, tails I don't lose much'. ETF flow narrative는 quality of business 변화시키지 않음. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "challenge",
+          "rationale": "Timing prediction은 Pabrai framework 외부. 1-2년 강세 시그널은 speculation. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "'Asymmetric upside'를 인플레 환경에서 추구 — gold·copper·oil 모두 본 thesis 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Bond yield 환경 변화는 valuation discount rate change — Pabrai checklist '8 of 9 criteria'에 영향. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "실물자산은 Pabrai의 'Dhandho moat' — capital discipline + commodity uplift = asymmetric. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "PE 6-15x with 31% margin = Pabrai's classic 'few cents on dollar'. 13F clustering은 confirming signal. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "Mega-trend 4종 — Pabrai의 'few bets, big bets, infrequent'에서 광산 sector는 conviction trade. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "support",
+          "rationale": "Perception lag alpha — Pabrai의 'cloning' framework과 부분 정합 (Druckenmiller 13F filing 추종). — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.68
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "philosophy": "scuttlebutt·15 points·long-term compounders",
+      "style": "growth",
+      "key_concerns_top3": [
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 필립 피셔의 'scuttlebutt·15 points·long-term compounders' framework 부분 적용 — selective merit"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "필립 피셔: 'scuttlebutt·15 points·long-term compounders' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "neutral",
+          "rationale": "Fisher는 long-term compounder에 집중 — broad index CAPE는 직접 영향 없음. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "ETF flow는 Fisher의 15-points framework 외부 — 본질적으로 기업 quality 무관. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "challenge",
+          "rationale": "Timing call은 Fisher 거부. 'Best holding period is forever'. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "Fisher의 'common stocks and uncommon profits'에서 macro regime 영향은 산업·기업 selection에 영향. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "neutral",
+          "rationale": "Yield 환경 — capital allocation discipline 검증 강화 필요. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "실물자산·고금리 견디는 기업 = Fisher의 'enduring competitive advantage' framework. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "마진 31%·PE 6-15x — Fisher의 'reasonable price for excellent business' 일부 정합. 다만 광산은 commodity-sensitive로 Fisher 'reliable margin' framework에 약점. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "10-year supply gap = Fisher 'long-term growth' story. 메가트렌드 4종 검증. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "neutral",
+          "rationale": "Perception lag보다 'scuttlebutt'에 의존. Fisher는 management quality·R&D·customer relations 검증으로 alpha. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "philosophy": "EM compounder·conviction·patience",
+      "style": "emerging-growth",
+      "key_concerns_top3": [
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 광업 마진 31% vs 기술 17% — AEM Agnico Eagle Mines도 라케시 준준왈라 'cheap on margin' 기준 충족",
+        "[inference] 4대 메가트렌드 구조적 수요·신규광산 10년+ supply lag — gold_quality 노출 정합",
+        "[actual] 실물자산·ZIRP 종결 paradigm — 라케시 준준왈라의 'EM compounder·conviction·patience' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "라케시 준준왈라: 'EM compounder·conviction·patience' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "neutral",
+          "rationale": "Jhunjhunwala India 시장 중심 — US CAPE 직접 영향 적음. EM stock의 relative attractiveness 강조. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "ETF flow narrative는 EM market에 부수적 — local fundamentals 우선. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "neutral",
+          "rationale": "Timing 거부 — 'patience is rare commodity'. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "1970s 시나리오는 EM commodity exporter (India·Brazil·South Africa 등)에 긍정. 본 thesis와 부분 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Bond yield 구조적 상승은 EM에 부담이나 commodity exporter에는 boost. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "EM 광산·resource company는 본 thesis 핵심 수혜. India의 Hindustan Zinc 등. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "Jhunjhunwala India PSU·commodity stock 보유 — 광산 PE discount thesis와 정합. Vedanta·Hindustan Zinc 등 동일 framework. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "메가트렌드 4종 — EM이 commodity demand의 핵심 driver. 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "neutral",
+          "rationale": "Perception lag보다 'compounding patience' — 10년 시각의 차이. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.82,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "philosophy": "macro tailwind·concentration·top-down·position sizing",
+      "style": "macro",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 광업 마진 31% vs 기술 17% — AEM Agnico Eagle Mines도 스탠리 드러켄밀러 'cheap on margin' 기준 충족",
+        "[inference] 4대 메가트렌드 구조적 수요·신규광산 10년+ supply lag — gold_quality 노출 정합",
+        "[actual] 실물자산·ZIRP 종결 paradigm — 스탠리 드러켄밀러의 'macro tailwind·concentration·top-down·position sizing' framework과 정합"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러: 'macro tailwind·concentration·top-down·position sizing' framework — narrative (T7)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "Druckenmiller는 valuation을 macro와 함께 본다. CAPE 42는 macro tightening 시 vulnerable — 'long real assets, short long-duration' framework. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "neutral",
+          "rationale": "ETF flow는 인정하나 'flow can reverse'. Druckenmiller는 narrative보다 positioning data. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "lean_support",
+          "rationale": "PTJ 시각 일부 동의 — Druckenmiller도 'AI infra capex' bull case 유지. 다만 본인 sentiment는 더 cautious. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "Druckenmiller는 1970s framework 강조 — 'Fed loses inflation war' 시나리오 base case. 본 thesis와 깊은 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Druckenmiller는 'bond market vigilante' 부활 강조 — G7 yield 20년 최고는 본인 thesis의 핵심. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.92
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "Druckenmiller 2024-2026 포지션: gold·oil·copper·NVDA 동시. 본 thesis는 본인 framework 그대로. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.88
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "support",
+          "rationale": "Druckenmiller는 광산 sector underweight history → 2025 turn으로 NEM·gold 늘림. 본 thesis는 본인 행동. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "4대 메가트렌드는 Druckenmiller의 'big trend identification' framework의 textbook case. 'identify it early, ride it big'. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.9
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "support",
+          "rationale": "Druckenmiller본인의 Teva 시각 인용 — 본 thesis는 100% 본인 framework. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "philosophy": "DCF·narrative+numbers·story discipline",
+      "style": "valuation",
+      "key_concerns_top3": [
+        "[macro] Shiller CAPE 42 — 광범위 지수 mean reversion 시 sector 동반 derate 위험",
+        "[cyclical] gold_quality commodity price -20% 시 마진 31%→18-22% 압축"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 애스워스 다모다란의 'DCF·narrative+numbers·story discipline' framework 부분 적용 — selective merit"
+      ],
+      "uncertainty": "gold_quality 분류에서 commodity price·capital discipline·megatrend 지속성의 세 변수 sensitivity",
+      "narrative_vs_quant_resolution": "애스워스 다모다란: 'DCF·narrative+numbers·story discipline' framework — narrative (T6)와 quant (PE 6-15x · margin 31% · dividend 2-4%) 양면에서 lean bullish 결론",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "thesis_id": "T1",
+          "stance": "support",
+          "rationale": "Damodaran의 ERP·growth·discount rate framework에서 CAPE 42는 expected return 시나리오 narrow. 본 thesis 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T2",
+          "thesis_id": "T2",
+          "stance": "support",
+          "rationale": "ETF flow는 Damodaran의 'story·numbers' 양면 — narrative reinforced by flow는 valuation에 영향. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "thesis_id": "T3",
+          "stance": "neutral",
+          "rationale": "Timing call은 valuation framework 외부. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "thesis_id": "T4",
+          "stance": "support",
+          "rationale": "Inflation·금리는 discount rate input — 본 thesis는 valuation framework 정합. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T5",
+          "thesis_id": "T5",
+          "stance": "support",
+          "rationale": "Damodaran는 risk-free rate framework 핵심 — yield 5%는 모든 valuation의 discount rate 재조정. ERP narrow. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T6",
+          "thesis_id": "T6",
+          "stance": "support",
+          "rationale": "패러다임 변화는 sector rotation — story 변화 인정. 'narrative discipline' framework. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T7",
+          "thesis_id": "T7",
+          "stance": "lean_support",
+          "rationale": "광산 PE discount는 'cyclical risk premium'으로 부분 정당화. Damodaran은 'sustainability of margin' 검증 필요. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T8",
+          "thesis_id": "T8",
+          "stance": "support",
+          "rationale": "메가트렌드 4종 — Damodaran 'big story → big numbers' framework에서 narrative quality 높음. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T9",
+          "thesis_id": "T9",
+          "stance": "neutral",
+          "rationale": "Perception lag — Damodaran은 'story-numbers feedback' 우선. Active alpha framework 아님. — AEM(Agnico Eagle Mines) 적용 시 gold_quality 특성 고려.",
+          "confidence": 0.5
+        }
+      ]
+    }
+  }
+}

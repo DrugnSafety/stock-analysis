@@ -1,0 +1,127 @@
+{
+  "extracted_at": "2026-05-25",
+  "source_blog": "https://blog.naver.com/ranto28/224295928880",
+  "method": "thesis-extractor v2 (Claude direct)",
+  "thesis_count": 9,
+  "theses": [
+    {
+      "thesis_id": "T1",
+      "claim_id": "T1",
+      "statement": "호르무즈해협 봉쇄 이후 한국의 미국산 원유 수입이 전년 동월 대비 75.8% 급증하면서, 미국이 사우디와 함께 한국 원유 공급의 투톱 (각 214.5~214.6만톤) 으로 부상한다.",
+      "type": "factual",
+      "timeframe": "현재 진행형 (2026-Q2)",
+      "supporting_evidence": [
+        "한국무역협회 K-stat 2026-04 통계",
+        "사우디 214.6만톤, 미국 214.5만톤 (4월 수입)",
+        "한국 4월 원유수입량 846만톤 (전년比 -23%)",
+        "미국 4월 원유수출 520만bbl/일 (호르무즈 봉쇄 전 2월 390만bbl 대비 +30%)"
+      ],
+      "importance": "core"
+    },
+    {
+      "thesis_id": "T2",
+      "claim_id": "T2",
+      "statement": "한국 정유사 설비는 중동 중질유 처리에 최적화 (RHDS 탈황·RFCC 분해)되어 있어, 미국산 경질유 비중 확대 시 고부가 제품 yield가 70%→40%로 떨어져 10만 배럴당 $50만 마진 손실이 발생한다.",
+      "type": "factual",
+      "timeframe": "현재 ~ 2~3년 (설비 전환 기간)",
+      "supporting_evidence": [
+        "중질유 고부가 제품 yield 70% vs 경질유 40%",
+        "수조원 투자된 RHDS·RFCC 고도화 설비",
+        "10만 배럴당 $50만 마진 격차 (업계 추정)",
+        "정유업계 \"중질유가 기본적으로 필요\" 발언"
+      ],
+      "importance": "core"
+    },
+    {
+      "thesis_id": "T3",
+      "claim_id": "T3",
+      "statement": "한국 정부의 비축유 스와프 제도 (해외 확보 → 비축유 내주기 → 신규 채움)가 중질유→경질유 전환의 충격을 일시적으로 흡수하고 있으며, 비축유 구성이 점진적으로 경질유로 전환될 가능성이 높다.",
+      "type": "predictive",
+      "timeframe": "1~3년",
+      "supporting_evidence": [
+        "정유사 \"소음이 크게 나오지 않는 것\" 관찰",
+        "산업통상부 장관 \"경질유 처리 설비 전환 지원 방안 모색\" 답변",
+        "스와프 제도의 운영 특성 (저장고 종류 통일)"
+      ],
+      "importance": "supporting"
+    },
+    {
+      "thesis_id": "T4",
+      "claim_id": "T4",
+      "statement": "사우디→부산 11,000km 대비 미국 걸프만→부산 25,000km (희망봉 우회) — 톤마일이 2.3배 증가하면서 동일 물량 운송에 VLCC 유조선이 2배 이상 필요해진다.",
+      "type": "factual",
+      "timeframe": "현재 진행형",
+      "supporting_evidence": [
+        "사우디 11,000km, 미국 19,000km (파나마) / 25,000km (희망봉)",
+        "VLCC 60~68m 폭 vs 파나마운하 49m 제약 → 희망봉 강제",
+        "한국 원유 수입 대부분 VLCC (200만bbl/척)"
+      ],
+      "importance": "core"
+    },
+    {
+      "thesis_id": "T5",
+      "claim_id": "T5",
+      "statement": "VLCC 신조 선박은 조선소 캐파 포화로 2~3년 인도 대기인 반면, 5년 중고 VLCC 가격이 신조 가격을 추월한 inversion 현상이 발생 — 유조선 시장이 구조적 공급부족 상태에 진입했다.",
+      "type": "factual",
+      "timeframe": "현재 진행형",
+      "supporting_evidence": [
+        "2018~2026년 VLCC 가격 차트",
+        "5년 중고 VLCC > 신조 VLCC (가격 역전)",
+        "조선소 캐파 포화 — 신조 발주 후 2-3년 대기"
+      ],
+      "importance": "core"
+    },
+    {
+      "thesis_id": "T6",
+      "claim_id": "T6",
+      "statement": "리세일 선박 (조선소 인도 전 전매되는 신상 선박)이 즉시 인도 가능 + 신조 사양 조합으로 모든 카테고리 중 최고가를 형성 — 운임 시장의 즉시 수익 가치가 향후 1~2년간 지속될 것으로 시장이 가격 발견 중이다.",
+      "type": "predictive",
+      "timeframe": "1~2년",
+      "supporting_evidence": [
+        "Resale 선박 가격이 차트 최상단",
+        "즉시 인도 가능 (조선소 발주분 전매)",
+        "아파트 분양권 전매 메커니즘과 유사"
+      ],
+      "importance": "supporting"
+    },
+    {
+      "thesis_id": "T7",
+      "claim_id": "T7",
+      "statement": "중동 중질유 → 미국 경질유 전환 시 한국 정유사 황 생산이 일일 1,800톤 → 100톤으로 1,700톤 감소하며, 중국의 황산 수출 금지와 결합하면 한국 화학 산업의 황·황산 부족이 심화된다.",
+      "type": "predictive",
+      "timeframe": "6개월~2년",
+      "supporting_evidence": [
+        "중질유 일일 황 생산 1,800톤 vs 경질유 100톤",
+        "중국 황산 수출 금지 (기존 보고)",
+        "화학·비료·전지 산업의 황산 의존도"
+      ],
+      "importance": "supporting"
+    },
+    {
+      "thesis_id": "T8",
+      "claim_id": "T8",
+      "statement": "호르무즈해협이 정상화되어도 언제든 재봉쇄 우려가 남아, 한국은 중동 의존도를 영구히 낮추고 미국·아프리카·중남미 등 비중동 비중을 구조적으로 확대할 것이다.",
+      "type": "predictive",
+      "timeframe": "3~10년 (구조적)",
+      "supporting_evidence": [
+        "메르 결론 \"중동산 비중을 줄이고, 여타지역 비중을 늘리게 될 것\"",
+        "지정학적 리스크 영속성",
+        "에너지 안보 다변화 글로벌 트렌드"
+      ],
+      "importance": "supporting"
+    },
+    {
+      "thesis_id": "T9",
+      "claim_id": "T9",
+      "statement": "정부가 \"경질유 처리 설비 전환 지원\" 정책을 추진하면, 향후 5~10년에 걸쳐 정유사 (SK이노베이션·S-Oil·HD현대오일뱅크·GS칼텍스) 의 대규모 자본 투자가 발생하며 EPC·설비 공급사가 수혜를 받는다.",
+      "type": "conditional",
+      "timeframe": "5~10년",
+      "supporting_evidence": [
+        "산업통상부 장관 국회 발언",
+        "기존 RHDS·RFCC 투자 규모 (수조원 단위)",
+        "정유 설비 전환의 자본집약적 특성"
+      ],
+      "importance": "supporting"
+    }
+  ]
+}

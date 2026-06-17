@@ -1,0 +1,1067 @@
+{
+  "ticker": "005930.KS",
+  "ticker_name": "삼성전자",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 7,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "mohnish-pabrai",
+        "peter-lynch",
+        "bill-ackman",
+        "rakesh-jhunjhunwala",
+        "aswath-damodaran"
+      ],
+      "pct": 53.8
+    },
+    "neutral": {
+      "count": 4,
+      "personas": [
+        "ben-graham",
+        "cathie-wood",
+        "phil-fisher",
+        "stanley-druckenmiller"
+      ],
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 2,
+      "personas": [
+        "michael-burry",
+        "nassim-taleb"
+      ],
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.653,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (2/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "key_themes": {
+    "universal_concern": "HBM catch-up 지연 + Foundry 적자 + Mobile 둔화",
+    "universal_opportunity": "HBM3E qualification 통과 + value-cycle late mover"
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] HBM catch-up 진척 느림 (SK 대비 -2 generation)",
+        "[inference] Foundry 사업 지속 적자 가능",
+        "[actual] Mobile 시장 둔화 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Net cash ₩71조 — 매우 보수적 자본구조",
+        "[actual] Forward PE 6.5× + PB 1.5× — deep value 수준",
+        "[inference] Conglomerate discount unlock 가능 (분할 시)"
+      ],
+      "uncertainty": "HBM catch-up 성공 여부 + Foundry 분할 가능성",
+      "narrative_vs_quant_resolution": "Buffett은 net cash + low PE conglomerate를 좋아함. Coca-Cola와 비슷한 cash cow 성격 — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "버핏: AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다... — 미래 예측 / paradigm shift narrative — Buffett은 보수적",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "버핏: AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다... — 검증 가능한 factual claim, 정량 데이터로 confirm 가능 → support",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "버핏: AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다... — 검증 가능한 factual claim, 정량 데이터로 confirm 가능 → support",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "버핏: SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응... — 검증 가능한 factual claim, 정량 데이터로 confirm 가능 → support",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "버핏: HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준의 대규모 투자가 ... — 검증 가능한 factual claim, 정량 데이터로 confirm 가능 → support",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "버핏: AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호... — 검증 가능한 factual claim, 정량 데이터로 confirm 가능 → support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "버핏: 모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가... — 미래 예측 / paradigm shift narrative — Buffett은 보수적",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "버핏: 시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속... — 미래 예측 / paradigm shift narrative — Buffett은 보수적",
+          "confidence": 0.55
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "style": "value",
+      "key_concerns_top3": [
+        "[inference] Conglomerate discount + Foundry 적자",
+        "[actual] HBM catch-up 늦음"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Net cash + Low PE — Munger의 'good business at fair price'",
+        "[inference] Inversion: 삼성을 죽일 위험이 거의 없음 (diversified)"
+      ],
+      "uncertainty": "HBM catch-up + Foundry turnaround",
+      "narrative_vs_quant_resolution": "Munger는 Berkshire Hathaway-style conglomerate 좋아함. 'Sit on it' 가능 — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "멍거: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — inversion test 적용 시 thesis가 strong (반증 어려움)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "멍거: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — inversion test 적용 시 thesis가 strong (반증 어려움)",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "멍거: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — inversion test 적용 시 thesis가 strong (반증 어려움)",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "멍거: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — inversion test 적용 시 thesis가 strong (반증 어려움)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "멍거: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — inversion test 적용 시 thesis가 strong (반증 어려움)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "멍거: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — inversion test 적용 시 thesis가 strong (반증 어려움)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "멍거: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — inversion test 적용 시 thesis가 strong (반증 어려움)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "멍거: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — inversion test 적용 시 thesis가 strong (반증 어려움)",
+          "confidence": 0.72
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] 삼성전자 Forward PE 6.5× — Graham margin of safety 기준 충분",
+        "[inference] 1Y return 553% — speculation의 영역",
+        "[actual] Cyclical business — normalized EPS 추정 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Forward PE 6.5× × current EPS = intrinsic value floor",
+        "[inference] Cyclical low time series 평균 가능"
+      ],
+      "uncertainty": "Normalized EPS 정확한 추정",
+      "narrative_vs_quant_resolution": "Graham은 PE 6.5×에 대해 margin of safety 충분로 판단 — neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "그레이엄: AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다... — 'narrative-heavy, margin of safety 적용 안 됨'",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "그레이엄: AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다... — '정량 검증 가능'",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "그레이엄: AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다... — 'narrative-heavy, margin of safety 적용 안 됨'",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "그레이엄: SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응... — '정량 검증 가능'",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "그레이엄: HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준... — '정량 검증 가능'",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "그레이엄: AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호... — 'narrative-heavy, margin of safety 적용 안 됨'",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "그레이엄: 모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가... — 'narrative-heavy, margin of safety 적용 안 됨'",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "그레이엄: 시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속... — 'narrative-heavy, margin of safety 적용 안 됨'",
+          "confidence": 0.5
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] PE 6.5× — downside 제한",
+        "[inference] Cyclical recovery upside +40%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Forward PE 6.5× = strong margin of safety",
+        "[inference] 5Y normalized EPS × 10× PE → +50% upside"
+      ],
+      "uncertainty": "Normalized EPS",
+      "narrative_vs_quant_resolution": "Pabrai의 비대칭 베팅 — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "파브라이: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — heads I win 비대칭 적용 시 thesis가 upside skew",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "파브라이: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — heads I win 비대칭 적용 시 thesis가 upside skew",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "파브라이: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — heads I win 비대칭 적용 시 thesis가 upside skew",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "파브라이: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — heads I win 비대칭 적용 시 thesis가 upside skew",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "파브라이: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — heads I win 비대칭 적용 시 thesis가 upside skew",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "파브라이: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — heads I win 비대칭 적용 시 thesis가 upside skew",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "파브라이: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — heads I win 비대칭 적용 시 thesis가 upside skew",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "파브라이: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — heads I win 비대칭 적용 시 thesis가 upside skew",
+          "confidence": 0.7
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.68,
+      "horizon": "short_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "style": "value-contrarian",
+      "key_concerns_top3": [
+        "[actual] 1Y +553% — historical cycle peak 패턴",
+        "[inference] AI capex 'this time is different' narrative 위험",
+        "[actual] DeepSeek-type 효율화 2nd wave 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Long-term thesis는 valid하나 단기 mean reversion 위험"
+      ],
+      "uncertainty": "Cycle 정점 timing",
+      "narrative_vs_quant_resolution": "Burry는 1Y +553%를 명확한 cycle peak 신호로 봄 — short-term lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "버리: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — contrarian view: 검증 가능",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "버리: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — contrarian view: 검증 가능",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "버리: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — contrarian view: 검증 가능",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "버리: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — contrarian view: consensus thesis — 위험 신호",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "버리: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — contrarian view: 검증 가능",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "버리: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — contrarian view: consensus thesis — 위험 신호",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "버리: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — contrarian view: 검증 가능",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "버리: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — contrarian view: consensus thesis — 위험 신호",
+          "confidence": 0.68
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "style": "growth",
+      "key_concerns_top3": [
+        "[inference] Late mover discount",
+        "[actual] PEG 0.33 — attractive but slower"
+      ],
+      "key_opportunities_top3": [
+        "[actual] PEG 0.33 attractive",
+        "[inference] Brand recognition + 다각화 = stable compounder"
+      ],
+      "uncertainty": "HBM catch-up 속도",
+      "narrative_vs_quant_resolution": "Lynch는 'Buy what you know' — 삼성은 한국인이라면 know — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "린치: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — 'simple story, growth visible' → support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "린치: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — 'simple story, growth visible' → support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "린치: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — 'simple story, growth visible' → support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "린치: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — 'simple story, growth visible' → support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "린치: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — 'simple story, growth visible' → support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "린치: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — 'simple story, growth visible' → support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "린치: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — 'simple story, growth visible' → support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "린치: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — 'simple story, growth visible' → support",
+          "confidence": 0.78
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "style": "growth",
+      "key_concerns_top3": [
+        "[inference] 'Old economy' conglomerate — pure-play 아님",
+        "[actual] HBM 비중 9%로 disruption play 약함"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM3E 12-Hi qualification 시 catch-up potential"
+      ],
+      "uncertainty": "HBM 비중 확대 속도",
+      "narrative_vs_quant_resolution": "Wood는 conglomerate를 좋아하지 않음 — neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "우드: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — exponential AI disruption thesis 핵심 — strong support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "우드: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — exponential AI disruption thesis 핵심 — strong support",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "우드: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — exponential AI disruption thesis 핵심 — strong support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "우드: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — exponential AI disruption thesis 핵심 — strong support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "우드: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — exponential AI disruption thesis 핵심 — strong support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "우드: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — exponential AI disruption thesis 핵심 — strong support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "우드: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — exponential AI disruption thesis 핵심 — strong support",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "우드: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — exponential AI disruption thesis 핵심 — strong support",
+          "confidence": 0.85
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "style": "growth",
+      "key_concerns_top3": [
+        "[inference] Conglomerate dilution — Fisher #4 'sales organization' 좋으나 분산도 위험"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Diversification + 자금력"
+      ],
+      "uncertainty": "Focus 부족",
+      "narrative_vs_quant_resolution": "Fisher는 focus를 좋아함 — Samsung conglomerate는 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피셔: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — 15 questions framework — R&D · sales · leadership 측면에서 fully aligned",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피셔: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — 15 questions framework — R&D · sales · leadership 측면에서 fully aligned",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피셔: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — 15 questions framework — R&D · sales · leadership 측면에서 fully aligned",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피셔: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — 15 questions framework — R&D · sales · leadership 측면에서 fully aligned",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "피셔: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — 15 questions framework — R&D · sales · leadership 측면에서 fully aligned",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "피셔: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — 15 questions framework — R&D · sales · leadership 측면에서 fully aligned",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "피셔: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — 15 questions framework — R&D · sales · leadership 측면에서 fully aligned",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "피셔: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — 15 questions framework — R&D · sales · leadership 측면에서 fully aligned",
+          "confidence": 0.7
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "style": "macro",
+      "key_concerns_top3": [
+        "[inference] Conglomerate — pure-play 아님"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM3E catch-up"
+      ],
+      "uncertainty": "HBM catch-up 속도",
+      "narrative_vs_quant_resolution": "Druck은 pure-play 선호 — 삼성 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "드러켄밀러: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — macro tailwind thesis 핵심 — strong support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "드러켄밀러: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — macro tailwind thesis 핵심 — strong support",
+          "confidence": 0.88
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "드러켄밀러: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — macro tailwind thesis 핵심 — strong support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "드러켄밀러: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — macro tailwind thesis 핵심 — strong support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "드러켄밀러: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — macro tailwind thesis 핵심 — strong support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "드러켄밀러: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — macro tailwind thesis 핵심 — strong support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "드러켄밀러: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — macro tailwind thesis 핵심 — strong support",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "드러켄밀러: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — macro tailwind thesis 핵심 — strong support",
+          "confidence": 0.88
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "style": "activist",
+      "key_concerns_top3": [
+        "[actual] Conglomerate governance 변수"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Net cash + low PE = activism target potential",
+        "[inference] Foundry 분할 시 가치 unlock"
+      ],
+      "uncertainty": "Governance reform",
+      "narrative_vs_quant_resolution": "Ackman은 Samsung-style 분할 활동가 기회 봄 — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "애크먼: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — concentrated megacap quality lens — support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "애크먼: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — concentrated megacap quality lens — support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "애크먼: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — concentrated megacap quality lens — support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "애크먼: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — concentrated megacap quality lens — support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "애크먼: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — concentrated megacap quality lens — support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "애크먼: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — concentrated megacap quality lens — support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "애크먼: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — concentrated megacap quality lens — support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "애크먼: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — concentrated megacap quality lens — support",
+          "confidence": 0.7
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "style": "risk",
+      "key_concerns_top3": [
+        "[actual] 1Y +553% — fragility 정점",
+        "[inference] Capex cycle peak + sentiment euphoria = max fragility",
+        "[actual] DeepSeek-type black swan 위험"
+      ],
+      "key_opportunities_top3": [
+        "[inference] Long-term은 antifragile 가능"
+      ],
+      "uncertainty": "Tail risk",
+      "narrative_vs_quant_resolution": "Taleb은 cycle peak를 'maximum fragility'로 정의 — short-term lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "탈레브: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — fragility lens: factual은 일부 valid",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "탈레브: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — fragility lens: factual은 일부 valid",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "탈레브: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — fragility lens: factual은 일부 valid",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "탈레브: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — fragility lens: factual은 일부 valid",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "탈레브: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — fragility lens: factual은 일부 valid",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "탈레브: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — fragility lens: supercycle continuation은 fragile narrative",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "탈레브: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — fragility lens: factual은 일부 valid",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "탈레브: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — fragility lens: supercycle continuation은 fragile narrative",
+          "confidence": 0.65
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "style": "growth-em",
+      "key_concerns_top3": [
+        "[actual] Korea geo-political risk",
+        "[inference] 단기 cycle 변동성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EM tech leader — 'India's TCS' 같은 long-term hold candidate",
+        "[inference] 5-10년 hold thesis",
+        "[actual] Forward PE 6× attractive entry"
+      ],
+      "uncertainty": "Long-term hold conviction",
+      "narrative_vs_quant_resolution": "Jhunjhunwala는 EM tech leader long-term hold 선호 — 삼성전자 lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "준준왈라: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — EM tech 장기 hold thesis와 정렬 — support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "준준왈라: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — EM tech 장기 hold thesis와 정렬 — support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "준준왈라: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — EM tech 장기 hold thesis와 정렬 — support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "준준왈라: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — EM tech 장기 hold thesis와 정렬 — support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "준준왈라: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — EM tech 장기 hold thesis와 정렬 — support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "준준왈라: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — EM tech 장기 hold thesis와 정렬 — support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "준준왈라: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — EM tech 장기 hold thesis와 정렬 — support",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "준준왈라: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — EM tech 장기 hold thesis와 정렬 — support",
+          "confidence": 0.75
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "style": "valuation",
+      "key_concerns_top3": [
+        "[inference] Conglomerate discount 조정 필요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Sum-of-parts 합산 시 시가총액 +20-30% potential",
+        "[inference] Foundry 분할 시 가치 unlock"
+      ],
+      "uncertainty": "Conglomerate discount",
+      "narrative_vs_quant_resolution": "Damodaran의 sum-of-parts valuation 강조 — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "다모다란: 'AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다...' — story → numbers: narrative 영역",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "다모다란: 'AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다...' — story → numbers: data로 검증 가능",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "다모다란: 'AI 공급망 3대 병목은 CoWoS · HBM · 전력 인프라이다...' — story → numbers: data로 검증 가능",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "다모다란: 'SK하이닉스 5년 캐파 2배 확대는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응...' — story → numbers: data로 검증 가능",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "다모다란: 'HBM 캐파 +15%/yr는 wafer·yield·공정 난이도로 인해 1.5-2년마다 신규 fab 추가 수준...' — story → numbers: data로 검증 가능",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "다모다란: 'AI 시대에는 공급 증가 자체가 수요 증가의 증거 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호...' — story → numbers: data로 검증 가능",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "다모다란: '모델 경량화·추론 효율화는 수요 둔화가 아닌 공급 부족 대응 — Jevons paradox로 수요 증가...' — story → numbers: data로 검증 가능",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "다모다란: '시장이 봐야 할 것은 공급 증가율(15%)이 아닌 수요 증가율(20-30%) — supercycle 지속...' — story → numbers: narrative 영역",
+          "confidence": 0.55
+        }
+      ],
+      "ticker": "005930.KS",
+      "ticker_name": "삼성전자"
+    }
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "ticker": "010120.KS",
+  "aggregated_at": "2026-06-17T11:59:32.670023+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "lean_bullish": {
+      "count": 12,
+      "pct": 70.6
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.762,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 5,
+      "personas": [
+        "jim-simons",
+        "charlie-munger",
+        "ray-dalio",
+        "rakesh-jhunjhunwala",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "높은 변동성",
+        "유가 변동성에 따른 근원 CPI 증가 가능성",
+        "높은 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "Beta 1.67로 시장보다 높은 체계적 리스크"
+      ],
+      "key_opportunities_top3": [
+        "전력화 수혜 기대",
+        "미국 시장 진출"
+      ],
+      "uncertainty": "변동성 감소 혹은 beta 감소 시 판단이 달라질 수 있음",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "PEG > 1.0 가능성",
+        "경제 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "전력화 수요 증가",
+        "미국 시장 진출"
+      ],
+      "uncertainty": "글로벌 경제 또는 전력 시장 변화 시 verdict가 뒤집힐 수 있음",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "인플레이션 및 금리 인상으로 인한 리스크",
+        "높은 valuation으로 인한 조정 가능성"
+      ],
+      "key_opportunities_top3": [
+        "강한 모멘텀 지속",
+        "미국 시장 진출"
+      ],
+      "uncertainty": "에너지 가격 상승 및 금리인상 지속시 주가는 조정 받을 가능성이 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "유가 변동성에 따른 근원 CPI 증가 가능성",
+        "장기적 인플레이션 압박 지속 여부"
+      ],
+      "key_opportunities_top3": [
+        "글로벌 전력화와 전환 에너지 투자 증가",
+        "미국 시장 및 해외 진출 확대"
+      ],
+      "uncertainty": "에너지 가격 안정화가 실패하면 인플레이션이 예상보다 급등하여 금리 인상이 시장에 부정적 영향을 미칠 수 있음",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "미국 시장 경쟁 강화"
+      ],
+      "key_opportunities_top3": [
+        "신재생 에너지 비중 확대",
+        "미국 시장 내 전력 인프라 확장"
+      ],
+      "uncertainty": "세계 경제의 불확실성과 에너지 가격의 급등이 지속적인 성장을 방해할 수 있음.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PE와 EV/EBITDA 비율",
+        "급격한 시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장 진출로 인한 확장",
+        "신재생에너지 전환 수혜"
+      ],
+      "uncertainty": "기술 격차 상실 또는 예상치 못한 규제 변화가 발생하면 verdict 변경 가능",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 P/E 비율",
+        "미국 시장 확장 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "전력화 트렌드 수혜",
+        "미국 HVDC 공장 완공"
+      ],
+      "uncertainty": "미국 시장에서 기대대로 성장을 못 할 경우, 본 판정이 뒤집힐 수 있다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 밸류에이션",
+        "글로벌 경제 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장 진출",
+        "신재생 에너지 수혜"
+      ],
+      "uncertainty": "전력 기기 및 신재생 에너지 분야의 급속한 기술 변화 또는 시장 확대가 없어지면, 장기적 성장이 어려워져 verdict가 변할 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 forward PE 대비 과열 우려",
+        "인플레이션 상승 여파"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 전력화 수요 증가",
+        "미국 진출로 인한 성과 확대 기대"
+      ],
+      "uncertainty": "에너지 가격 급등으로 인한 경기 침체 시나리오가 발생하면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현재 높은 forward PE",
+        "자본 배분 효율성"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장 진출",
+        "신재생 에너지 관련 사업 확장"
+      ],
+      "uncertainty": "시장이 미국 진출과 같은 catalyst에 반응하지 않으면 투자 논리가 약화될 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "R&D 효율성 개선 여부",
+        "경영진의 장기적인 전략"
+      ],
+      "key_opportunities_top3": [
+        "미국 에너지 인프라 확장",
+        "재생 에너지 시장의 증가"
+      ],
+      "uncertainty": "R&D 투자 효율성이 기대에 못 미치거나, 경영진의 전략적 방향성이 변질될 경우 판도가 달라질 수 있음.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "과대평가된 EV/EBITDA 비율",
+        "불확실한 macroeconomic environment 영향"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장 진출에 따른 성장 가능성",
+        "에너지 전환 관련 산업적 성장"
+      ],
+      "uncertainty": "미국 진출의 성공 여부가 본 verdict를 바꿀 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "인플레이션 상승",
+        "미국 에너지 정책 변동"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 인프라 확장 지속",
+        "미국 내 사업 확장 성공"
+      ],
+      "uncertainty": "인플레이션이 예상보다 낮거나 AI 수혜가 확실한 경우, bear 관점이 틀릴 수 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE",
+        "부채비율 및 유동비율 정보 부족"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장 진출 가능성",
+        "태양광 및 ESS 사업의 성장 잠재력"
+      ],
+      "uncertainty": "만약 forward PE가 그레이엄의 기준인 15 이하로 하락하면, 리더십을 기반으로 하는 가치는 더 긍정적으로 평가될 수 있음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE 비율",
+        "높은 annualized volatility"
+      ],
+      "key_opportunities_top3": [
+        "태양광과 ESS 관련 신재생 에너지 혁신",
+        "미국 시장 진출로 인한 글로벌 확장"
+      ],
+      "uncertainty": "미국 시장에서의 성과가 기대에 미치지 못하거나, 신재생 에너지 확장 일정이 연기되면",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PE는 일부 거품이 포함된 것일 수 있음.",
+        "에너지 가격과 매출 변동성이 기업 실적에 부정적 영향을 미칠 가능성."
+      ],
+      "key_opportunities_top3": [
+        "미국 시장 진출과 HVDC 사업 확장을 통한 직접적인 글로벌 매출 증가.",
+        "친환경 에너지 수요 증가에 따라 솔루션 제공 범위의 확장."
+      ],
+      "uncertainty": "에너지 시장의 가격 변동성이 기업 매출 성장에 부정적 영향을 미친다면 verdict가 뒤집힐 수 있음.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 valuation 대비 미래 성장 불확실성",
+        "에너지 시장 변화에 따른 급격한 환경 변화"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장 진출 가속에 따른 성장 기회",
+        "차세대 에너지 및 전력화 수혜"
+      ],
+      "uncertainty": "전력화 혜택이 예상치 못한 규제와 정치적 리스크에 의해 방해될 경우",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

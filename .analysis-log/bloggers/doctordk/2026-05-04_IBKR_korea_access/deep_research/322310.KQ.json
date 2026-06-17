@@ -1,0 +1,296 @@
+{
+  "industry": {
+    "name": "반도체 계측 장비 — HBM TSV inspection",
+    "overview": "반도체 계측 장비 (Metrology) 산업은 KLA(미국)·Onto Innovation(미국)·Hitachi(일본) 3대 글로벌 leader 점유 ~70%. 한국 native player 는 작은 시장 점유 — 그러나 SK하이닉스 HBM TSV (Through-Silicon Via) 공정에서 dedicated supplier 포지션 가능. 오로스테크놀로지는 HBM TSV inspection 장비 SK하이닉스 R&D 라인 검증 통과 — 양산 ramp 2026 H2 예상. HBM3E → HBM4 전환에서 stack 8 → 12 로 증가하며 계측 정밀도 요구 +50% — small-cap 이지만 niche dominance.",
+    "competitors": [
+      {
+        "name": "오로스테크놀로지",
+        "ticker": "322310.KQ",
+        "share_pct": 0.0,
+        "moat": "SK하이닉스 dedicated supplier — switching cost 높음"
+      },
+      {
+        "name": "KLA Corporation",
+        "ticker": "KLAC",
+        "share_pct": 53.0,
+        "moat": "글로벌 metrology #1 — full lineup"
+      },
+      {
+        "name": "Onto Innovation",
+        "ticker": "ONTO",
+        "share_pct": 12.0,
+        "moat": "advanced packaging metrology specialist"
+      },
+      {
+        "name": "Hitachi High-Tech",
+        "ticker": "8036.T",
+        "share_pct": 8.0,
+        "moat": "Japan/Korea customer base"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-20",
+        "title": "오로스 SK하이닉스 양산 라인 검증 통과",
+        "source": "회사 공시",
+        "summary": "HBM3E 12-stack TSV 계측 — 2026 Q3 ramp"
+      },
+      {
+        "date": "2026-03-28",
+        "title": "1Q26 매출 +64% YoY (HBM segment +112%)",
+        "source": "회사 공시",
+        "summary": "단일 customer (SK하이닉스) ~80%"
+      },
+      {
+        "date": "2026-02-10",
+        "title": "해외 SNS 멘션 1건 → 단일 세션 +29.8% 상한가",
+        "source": "본문 인용",
+        "summary": "글로벌 retail flow direct 영향 사례"
+      },
+      {
+        "date": "2026-01-15",
+        "title": "신규 R&D 센터 개소 — HBM4 준비",
+        "source": "회사 발표",
+        "summary": "stack 12-layer 계측 정밀도 차세대 개발"
+      },
+      {
+        "date": "2025-12-08",
+        "title": "외국인 보유 비중 12% → 18%",
+        "source": "KRX",
+        "summary": "small-cap 외국인 inflow 가속"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.5,
+      "cagr_pct": 12,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 95,
+        "op_income": 18,
+        "op_margin": 18.9,
+        "net_income": 14,
+        "net_margin": 14.7
+      },
+      {
+        "year": 2022,
+        "revenue": 120,
+        "op_income": 25,
+        "op_margin": 20.8,
+        "net_income": 19,
+        "net_margin": 15.8
+      },
+      {
+        "year": 2023,
+        "revenue": 105,
+        "op_income": 16,
+        "op_margin": 15.2,
+        "net_income": 11,
+        "net_margin": 10.5
+      },
+      {
+        "year": 2024,
+        "revenue": 165,
+        "op_income": 38,
+        "op_margin": 23.0,
+        "net_income": 28,
+        "net_margin": 17.0
+      },
+      {
+        "year": 2025,
+        "revenue": 240,
+        "op_income": 62,
+        "op_margin": 25.8,
+        "net_income": 48,
+        "net_margin": 20.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 380,
+      "total_liab": 95,
+      "equity": 285,
+      "cash": 65,
+      "debt": 35
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 42,
+      "fcf_5y_avg": 22,
+      "capex_intensity": 0.12
+    },
+    "peer_compare": [
+      {
+        "ticker": "322310.KQ",
+        "name": "오로스테크놀로지",
+        "pe": 25.0,
+        "pb": 4.2,
+        "roe": 16.8,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "KLAC",
+        "name": "KLA Corporation",
+        "pe": 32.5,
+        "pb": 18.5,
+        "roe": 60.5,
+        "div_yield": 0.85
+      },
+      {
+        "ticker": "ONTO",
+        "name": "Onto Innovation",
+        "pe": 28.5,
+        "pb": 5.8,
+        "roe": 18.2,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 75000,
+      "thesis": "HBM4 양산 ramp + SK하이닉스 dedicated 90% 점유 — 2026-2027 매출 +120%"
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 55000,
+      "thesis": "HBM3E 안정 + HBM4 부분 진입 — +50% YoY"
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 28000,
+      "thesis": "HBM4 KLA 진입 시 점유 -50% + AI capex 둔화"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM4 양산 시작 + 계측 장비 본격 발주",
+      "type": "product",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q4",
+      "event": "추가 외국인 SNS 확산 narrative",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "SK하이닉스 dedicated supplier 지위 cement",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q2",
+      "event": "신규 R&D 센터 가동",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026 H2",
+      "event": "Samsung HBM4 진입 시 고객 다변화 가능",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "Customer concentration ~80% SK하이닉스",
+      "probability": "high",
+      "impact": "high",
+      "description": "확률 50% / 심각도 very_high",
+      "mitigation": "Samsung HBM4 진입 시 고객 다변화"
+    },
+    {
+      "name": "KLA HBM TSV 진입",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 35% / 심각도 high",
+      "mitigation": "switching cost + 한국 dedicated 강점"
+    },
+    {
+      "name": "small-cap pump-and-dump risk",
+      "probability": "high",
+      "impact": "high",
+      "description": "확률 60% / 심각도 high",
+      "mitigation": "fundamentals 동반 — 단순 SNS 가격 아님"
+    },
+    {
+      "name": "1Y +180% mean reversion",
+      "probability": "high",
+      "impact": "high",
+      "description": "확률 50% / 심각도 medium-high",
+      "mitigation": "HBM ramp catalyst 진행 중"
+    },
+    {
+      "name": "AI capex 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 25% / 심각도 high",
+      "mitigation": "ESS·data center 추가 demand"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "HBM TSV niche dominance — SK하이닉스 dedicated",
+      "type": "company",
+      "evidence": "지속 기간: 12-24개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD2",
+      "claim": "small-cap SNS 확산 입증 사례",
+      "type": "company",
+      "evidence": "지속 기간: 3-12개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD3",
+      "claim": "HBM4 정밀도 +50% 요구 → 장비 단가 상승",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD4",
+      "claim": "정보 비대칭 (한국어/영어 gap) → translation alpha",
+      "type": "company",
+      "evidence": "지속 기간: 6-12개월",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-20",
+      "type": "주요사항보고",
+      "title": "SK하이닉스 양산 라인 검증 통과 + 발주 가시화",
+      "impact": "-"
+    },
+    {
+      "date": "2026-03-28",
+      "type": "1Q26 분기보고서",
+      "title": "매출 +64% YoY, HBM segment +112%",
+      "impact": "-"
+    },
+    {
+      "date": "2026-01-15",
+      "type": "회사 발표",
+      "title": "신규 R&D 센터 개소 — HBM4 준비",
+      "impact": "-"
+    }
+  ]
+}

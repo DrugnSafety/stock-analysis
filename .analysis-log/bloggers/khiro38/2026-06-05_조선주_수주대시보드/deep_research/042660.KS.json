@@ -1,0 +1,211 @@
+{
+  "industry": {
+    "name": "조선·해양 + 방산(잠수함·함정) + 한·미 조선협력(MASGA)",
+    "overview": "한화오션(옛 대우조선해양)은 한화그룹 편입 후 방산·LNG·해양을 핵심으로 재편됐다. 한·미 조선협력(MASGA)의 '첨병'으로, 미 해군 차세대 군수지원함(NGLS) 개념설계(삼성중공업 공동)·MRO 3건(부산·진해)을 수주하고 필라델피아 필리조선소(한화시스템 60%/한화오션 40%)에 $50억(7조) 추가투자를 발표했다. 2025 수주 14조 돌파, 영업이익률은 2022 -32.9% 깊은 적자에서 2025 +9.2%로 흑자 전환. 대규모 capex·부채 부담과 미국 사업 수익화 시점이 변수.",
+    "competitors": [
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": null,
+        "moat": "그룹 캐파·엔진 내재화·LNG"
+      },
+      {
+        "name": "삼성중공업",
+        "ticker": "010140.KS",
+        "share_pct": null,
+        "moat": "FLNG·해양플랜트"
+      },
+      {
+        "name": "미국 Huntington Ingalls",
+        "ticker": "HII",
+        "share_pct": null,
+        "moat": "미 해군 함정 1차 — MASGA 협력/경쟁 상대"
+      },
+      {
+        "name": "중국 CSSC(중국선박)",
+        "ticker": "601989.SS",
+        "share_pct": null,
+        "moat": "물량·가격(상선)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-28",
+        "title": "美 해군 차세대 군수지원함(NGLS) 설계 한국에 — MRO 넘어 군함 건조로",
+        "source": "g-enews.com (글로벌이코노믹)",
+        "summary": "한화·삼성중공업 공동 개념설계, 한국 첫 미 군함 신조설계 참여",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05-29",
+        "title": "마스가 첨병 한화오션, 美 국방부와 밀착",
+        "source": "fnnews.com (파이낸셜뉴스)",
+        "summary": "MASGA 핵심 — 방산 파이프라인 확대",
+        "impact": "+"
+      },
+      {
+        "date": "2025-12-22",
+        "title": "한화오션 수주 14조 돌파 — '글로벌 해양 솔루션 프로바이더'",
+        "source": "asiatime.co.kr",
+        "summary": "LNG·방산·해양 다변화 수주",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-06",
+        "title": "美해군 99조 함정 발주 예고 — K조선 수혜 기대",
+        "source": "asiatoday.co.kr (아시아투데이)",
+        "summary": "필리조선소·MRO 한화오션 직접 수혜권",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-05) — 연결 K-IFRS",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 4.86,
+        "op_income": -1.6,
+        "net_income": -1.74,
+        "op_margin": -32.9,
+        "net_margin": -35.9
+      },
+      {
+        "year": 2023,
+        "revenue": 7.41,
+        "op_income": -0.04,
+        "net_income": 0.16,
+        "op_margin": -0.5,
+        "net_margin": 2.2
+      },
+      {
+        "year": 2024,
+        "revenue": 10.78,
+        "op_income": 0.24,
+        "net_income": 0.53,
+        "op_margin": 2.2,
+        "net_margin": 4.9
+      },
+      {
+        "year": 2025,
+        "revenue": 12.78,
+        "op_income": 1.18,
+        "net_income": 1.25,
+        "op_margin": 9.2,
+        "net_margin": 9.7
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩4.86조 → 2025 ₩12.78조로 +163% 급증, 영업이익률은 2022 -32.9%(대규모 적자) → 2023 -0.5% → 2024 +2.2% → 2025 +9.2%로 극적 턴어라운드했다. 대우조선 시절 적자 늪에서 한화 편입·방산 믹스·고선가 잔고로 정상화. 다만 흑자 전환 초기라 마진 레벨의 지속성과 미국 capex 부담이 핵심 변수.",
+    "valuation_summary": "Forward PE 18.68× (yfinance live) — 방산 프리미엄을 반영한 빅3 중 최상단. 현재가 ₩112,200 / 1Y +44% / 연변동성 60%(높음). MASGA·미해군 내러티브가 멀티플을 떠받침."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.38,
+      "description": "미 해군 함정 신조·MRO 본격화 + 필리조선소 수익화 + LNG선 수주로 방산 고마진 믹스 정착. MASGA 내러티브로 멀티플 확장.",
+      "key_drivers": [
+        "미해군 함정 신조",
+        "필리조선소 수익화",
+        "LNG·방산 믹스"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "LNG·상선 사이클로 OPM 한 자릿수 후반 유지, 미국 사업은 점진 ramp. 방산 기대가 주가를 떠받치나 실적 기여는 후행.",
+      "key_drivers": [
+        "LNG·상선 사이클",
+        "미국 사업 점진 ramp",
+        "방산 기대 선반영"
+      ]
+    },
+    "bear": {
+      "probability": 0.22,
+      "description": "필리조선소 수익화 지연·capex/부채 부담 + 미국 정책 변동으로 방산 모멘텀 약화. fwd PE 18.7× 멀티플 압축.",
+      "key_drivers": [
+        "미국 수익화 지연",
+        "capex·부채 부담",
+        "정책 리스크"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "name": "미 해군 함정 신조/MRO 추가 수주",
+      "impact": "high",
+      "description": "MASGA 파이프라인 실적 전환"
+    },
+    {
+      "date": "2026-2H",
+      "name": "필리조선소 ramp·$50억 투자 진행",
+      "impact": "high",
+      "description": "미국 내 건조 수익화 가시성"
+    },
+    {
+      "date": "2026-분기",
+      "name": "LNG선·잠수함 수주",
+      "impact": "medium",
+      "description": "상선·방산 믹스 강화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "미국 사업 수익화 지연",
+      "probability": "medium",
+      "impact": "high",
+      "description": "필리조선소 인건비·생산성·노조 이슈로 ramp 더딤"
+    },
+    {
+      "name": "대규모 capex·부채 부담",
+      "probability": "high",
+      "impact": "high",
+      "description": "투자 확대가 현금흐름·재무구조 압박"
+    },
+    {
+      "name": "밸류 프리미엄(fwd PE 18.7×)",
+      "probability": "medium",
+      "impact": "high",
+      "description": "방산 기대 선반영 — 실망 시 변동성"
+    },
+    {
+      "name": "미국 정책·예산 변동",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "MASGA 정치·예산·관세 리스크"
+    },
+    {
+      "name": "초고변동성 (vol 60%)",
+      "probability": "high",
+      "impact": "medium",
+      "description": "방산 테마 변동에 급등락"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T05",
+      "claim": "MASGA 미해군 협력",
+      "current_status": "confirmed",
+      "evidence": "NGLS 설계·MRO 3건·필리조선소 $50억"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "적자→흑자 전환",
+      "current_status": "confirmed",
+      "evidence": "2025 OPM +9.2%(2022 -32.9%서 전환)"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "슈퍼사이클 2막",
+      "current_status": "confirmed",
+      "evidence": "수주 14조·LNG·방산 다변화"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04",
+      "type": "수주/계약",
+      "summary": "미 해군 NGLS 개념설계(삼성중공업 공동)·MRO 3건 — 한국 첫 미 군함 신조설계 참여",
+      "title": "미 해군 NGLS 설계·MRO 수주 (MASGA)"
+    }
+  ]
+}

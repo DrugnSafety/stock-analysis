@@ -1,0 +1,217 @@
+{
+  "industry": {
+    "name": "AI 인프라 + 메모리 반도체 + 조선업 (의교창 cross-sector thesis)",
+    "overview": "의교창의 4월 시장 복기에서 도출된 AI 인프라 가치사슬 6단계 (인프라 투자 → 반도체 → 데이터센터 → 전력 → 장비 → 소프트웨어). 한국 시장의 직접 노출 — (1) 반도체 메모리 [SK하이닉스·삼성전자 — DDR5/HBM dominant], (2) 조선업 [한화오션·HD현대중공업·삼성중공업 — LNG선 + AI 인프라용 가능성]. 글로벌 anchor는 NVDA (GPU 90% share + Blackwell ramp). 사이클 단계: 의교창 진단 '중기 후반·후기 초입' — 펀더멘털 서프라이즈 둔화 + 자금 쏠림 심화.",
+    "competitors": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "share_pct": 30.0,
+        "moat": "GPU 글로벌 90% share + CUDA + Blackwell"
+      },
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS",
+        "share_pct": 18.0,
+        "moat": "HBM3E NVDA 단독 공급 + DDR5"
+      },
+      {
+        "name": "삼성전자",
+        "ticker": "005930.KS",
+        "share_pct": 15.0,
+        "moat": "DDR5 dominant + 종합 반도체 + 파운드리"
+      },
+      {
+        "name": "한화오션",
+        "ticker": "042660.KS",
+        "share_pct": 8.0,
+        "moat": "LNG선 + Philly Shipyard + 방산"
+      },
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 10.0,
+        "moat": "조선 빅3 leader + 단가 사상 최고"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 12.0,
+        "moat": "글로벌 파운드리 dominant"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-02",
+        "title": "의교창 '4월 시장 복기 — 펀더멘털이 매크로를 이긴 시장' 발행",
+        "source": "의교창 블로그 (doctordk)",
+        "summary": "AI 인프라 가치사슬 + 사이클 후기 진단"
+      },
+      {
+        "date": "2026-04-25",
+        "title": "SK하이닉스 1Q26 영업이익 +180% YoY, HBM3E NVDA 단독 공급 확정",
+        "source": "SK하이닉스 IR",
+        "summary": "HBM 비중 25% → 40% — OPM +5pp 가능"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "NVDA 1Q26 매출 +25% beat, 2026 가이던스 $200B raise",
+        "source": "NVIDIA IR",
+        "summary": "Blackwell GB200 ramp 본격화"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "한화오션 Philly Shipyard 인수 완료 — 미국 LNG선 발주 직접 진입",
+        "source": "한화오션 IR",
+        "summary": "Jones Act 수혜 + 방산 확대"
+      },
+      {
+        "date": "2026-04-10",
+        "title": "Microsoft Ocean Datacenter 검토 발표 — 수냉 + 무한 전력",
+        "source": "Microsoft Build 2026",
+        "summary": "조선업 새로운 demand 가능성"
+      },
+      {
+        "date": "2026-03-28",
+        "title": "Hyperscaler 4사 2026 capex 가이던스 합계 $300B 확정",
+        "source": "각사 1Q26 earnings",
+        "summary": "MSFT 95B + GOOG 75B + META 65B + AMZN 65B"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 850,
+      "cagr_pct": 22.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 680000,
+      "thesis": "LNG선 단가 $300M+ + 데이터센터선 옵션 + 조선 cycle 가속.",
+      "key_assumptions": [
+        "LNG선 +35%",
+        "단가 sustained",
+        "PE 25x"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 540000,
+      "thesis": "안정 성장 — 1M +15.5% 후 추가 momentum 일부.",
+      "key_assumptions": [
+        "LNG선 +20%",
+        "OPM 10%",
+        "PE 22x"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 360000,
+      "thesis": "1Y +105% momentum reversal + cycle 정점.",
+      "key_assumptions": [
+        "수주 둔화",
+        "PER 18x derate",
+        "PB 3.5x"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "NVDA·SK하이닉스 1Q26 어닝 발표 후속",
+      "type": "earnings",
+      "expected_impact": "?",
+      "description": "AI capex sustainability 확인"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "삼성전자 HBM3E NVDA qualification 결과",
+      "type": "product",
+      "expected_impact": "?",
+      "description": "share gain 시 SK하이닉스 위협"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Hyperscaler 2027 capex 가이던스 발표",
+      "type": "macro",
+      "expected_impact": "?",
+      "description": "AI 인프라 cycle 지속 여부 결정적"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "한국 조선 빅3 4Q26 수주잔고 update",
+      "type": "industry",
+      "expected_impact": "?",
+      "description": "데이터센터선 주문 등장 여부"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI 인프라 cycle 후기 — 의교창 thesis 직접 노출",
+      "probability": "med",
+      "impact": "high",
+      "description": "사이클 정점 시 valuation premium 함정. 모든 thesis 종목 동시 -25-40% 가능",
+      "mitigation": "분할 매수 + 한도 strict + 분기 catalyst 점검"
+    },
+    {
+      "name": "Hyperscaler capex sustainability",
+      "probability": "low",
+      "impact": "high",
+      "description": "MSFT·GOOG·META·AMZN 중 하나라도 capex cut 발표 시 sector 일시 -15%",
+      "mitigation": "분기 hyperscaler capex guidance monitor"
+    },
+    {
+      "name": "메모리 cycle 정점 진입",
+      "probability": "med",
+      "impact": "med",
+      "description": "DDR5 가격 +85% 후 mean reversion. SK하이닉스·삼성전자 OPM 압박",
+      "mitigation": "재고 turnover + spot 가격 추적"
+    },
+    {
+      "name": "1Y +105% 폭등 — RSI overbought. PE 22.5x, PB 4.25x cycle peak 우려",
+      "probability": "med",
+      "impact": "med",
+      "description": "HD현대중공업 thesis alignment: high (조선 빅3 leader)",
+      "mitigation": "Risk Manager 한도 strict + 분기 점검"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "펀더멘털이 매크로를 이긴 시장 (의교창 thesis)",
+      "type": "macro",
+      "evidence": "1Q26 EPS surprise +50% beat 대비 컨센",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI 인프라 가치사슬 6단계 — 단순 테마 아닌 산업 생태계",
+      "type": "industry",
+      "evidence": "Hyperscaler capex $300B 가이던스",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "사이클 중기 후반·후기 초입 진입",
+      "type": "macro",
+      "evidence": "PE 22x premium + AI 종목 stock 반응 둔화",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "조선 + AI 인프라 결합 (referenced post)",
+      "type": "industry",
+      "evidence": "Microsoft ocean datacenter 검토",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "CPU/DDR5 새로운 병목 (referenced post)",
+      "type": "industry",
+      "evidence": "DDR5 +85% YoY + HBM3E 공급 부족",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": []
+}

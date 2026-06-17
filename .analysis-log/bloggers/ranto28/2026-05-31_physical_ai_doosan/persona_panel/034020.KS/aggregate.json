@@ -1,0 +1,363 @@
+{
+  "ticker": "034020.KS",
+  "aggregated_at": "2026-06-01T11:41:11.624518+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "lean_bearish": {
+      "count": 4,
+      "pct": 30.8
+    }
+  },
+  "average_confidence": 0.704,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 7,
+      "personas": [
+        "charlie-munger",
+        "phil-fisher",
+        "bill-ackman",
+        "aswath-damodaran",
+        "mohnish-pabrai",
+        "rakesh-jhunjhunwala"
+      ],
+      "examples": [
+        "시장 변동성",
+        "높은 변동성",
+        "매출 및 수익성 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 forward PE",
+        "부채 비율 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "두산의 피지컬 AI 협력 기회",
+        "급격한 주가 상승으로 인한 시장 주목"
+      ],
+      "uncertainty": "EPS 성장률이 실제로 낮고, 부채 수준이 심각하면 부정적으로 변할 수 있음",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 평가 배수",
+        "시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "NVIDIA와의 협업",
+        "AI 데이터센터 전력 수요 증가"
+      ],
+      "uncertainty": "만약 AI 시장 성장세가 예상보다 빠르게 둔화된다면, verdict가 뒤집힐 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "매출 및 수익성 변동성"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 지속적 파트너십",
+        "로봇 및 AI 확장 가능성"
+      ],
+      "uncertainty": "엔비디아와의 협력 강화나 신사업 성장이 실패할 경우, 현재의 고평가가 위험할 수 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward_pe로 인해 저평가 근거 부족",
+        "높은 변동성과 EV/EBITDA로 인해 위험성 존재"
+      ],
+      "key_opportunities_top3": [
+        "NVIDIA 협력을 통한 잠재적 시장 확대",
+        "데이터센터 전력 수요 증가"
+      ],
+      "uncertainty": "NVIDIA와의 협력 효과가 기대와 달리 지속되지 않을 경우 리스크가 증가할 수 있음.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 주가 평가",
+        "명확한 해자 부재"
+      ],
+      "key_opportunities_top3": [
+        "NVidia와의 협력은 전략적 시너지를 가질 수 있다.",
+        "AI 데이터센터 시장의 성장 가능성"
+      ],
+      "uncertainty": "AI 및 데이터센터 전략이 실패하거나 시장 환경이 급변하면 장기적 투자 매력이 사라질 수 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "forward_PE의 높은 수준",
+        "유동성 제한성"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 전력 수요 증가",
+        "엔비디아와 전략적 파트너십"
+      ],
+      "uncertainty": "글로벌 금리 환경이 급격히 악화되거나 AI 관련 프로젝트에서 후퇴 시 이익이 제한될 수 있음.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "높은 EV/EBITDA 비율이 단기 성과에 영향을 미칠 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 수요 증가",
+        "엔비디아와의 협력 강화"
+      ],
+      "uncertainty": "AI 분야의 경쟁 강화나 기술 협력 실패 시 성장 잠재력 감소 가능성",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE",
+        "단기 실적 변동성"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협업",
+        "피지컬 AI 및 데이터센터 전력 수요"
+      ],
+      "uncertainty": "글로벌 AI 시장 수요가 감소하거나 엔비디아와의 협력이 약해지면 예상된 성장 경로가 변할 수 있다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 및 PE",
+        "명확한 Catalyst 부재"
+      ],
+      "key_opportunities_top3": [
+        "두산과 엔비디아 협력이 가능성으로 제기됨"
+      ],
+      "uncertainty": "피지컬 AI 채택과 같은 내부적인 발전이 실현되지 않을 경우, 이러한 패스는 헛된 기대가 될 수 있음.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE",
+        "유동비율 < 2.0"
+      ],
+      "key_opportunities_top3": [
+        "AI 관련 협력으로 장기적 성장 가능성",
+        "엔비디아와 밀착된 협력"
+      ],
+      "uncertainty": "엔비디아와의 협력으로 인해 시장 지위가 매우 강화되는 경우, 재무적 체질 개선 가능성 존재",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE",
+        "단기 수익성 우려"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 데이터센터 수요 증가",
+        "엔비디아와의 협력 강화로 인한 기술 혁신"
+      ],
+      "uncertainty": "AI 및 데이터센터 수요의 지속적인 확장이 없으면 성장 잠재력이 낮아질 수 있다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE로 인한 과대 평가 우려",
+        "시장의 변동성에 대한 높은 민감성"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협업을 통한 기술력 강화",
+        "피지컬 AI 시장의 성장 잠재력"
+      ],
+      "uncertainty": "엔비디아와의 협력이 중단되거나 피지컬 AI 시장이 예상만큼 성장하지 않을 경우, 스토리 기반의 성장이 약화될 수 있음.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE",
+        "부채 만기 집중"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협력",
+        "AI 데이터센터 수요 증가"
+      ],
+      "uncertainty": "엔비디아와의 협력 결과물이 시장에서 실현되지 않으면 전망이 악화될 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

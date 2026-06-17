@@ -1,0 +1,276 @@
+{
+  "industry": {
+    "name": "발전·원전·데이터센터 전력 인프라",
+    "overview": "두산에너빌리티는 발전설비·원전·가스터빈을 핵심으로 하며, AI 데이터센터 전력 수요 급증과 SMR(소형모듈원전) 기대가 재평가 동력이다. 메르 글에서 두산 피지컬AI 풀세트의 '전력' 축으로 지목됐다. 매출은 ₩17조 규모로 안정적이나 영업이익률(약 4.5%)·순이익률(0.5%)이 얇아, 전력 인프라 슈퍼사이클 기대가 밸류에이션을 견인한다.",
+    "competitors": [
+      {
+        "name": "GE Vernova",
+        "ticker": "GEV"
+      },
+      {
+        "name": "Siemens Energy",
+        "ticker": "ENR.DE"
+      },
+      {
+        "name": "Mitsubishi Heavy",
+        "ticker": "7011.T"
+      },
+      {
+        "name": "두산밥캣",
+        "ticker": "241560.KS"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2025",
+        "fiscal_year": "2025",
+        "revenue": 17057876000000.0,
+        "op_income": 762712000000.0,
+        "net_income": 84762000000.0,
+        "op_margin": 4.47,
+        "op_margin_pct": 4.47,
+        "net_margin_pct": 0.5
+      },
+      {
+        "year": "2024",
+        "fiscal_year": "2024",
+        "revenue": 16233055000000.0,
+        "op_income": 1017600000000.0,
+        "net_income": 111365000000.0,
+        "op_margin": 6.27,
+        "op_margin_pct": 6.27,
+        "net_margin_pct": 0.69
+      },
+      {
+        "year": "2023",
+        "fiscal_year": "2023",
+        "revenue": 17589888000000.0,
+        "op_income": 1467318000000.0,
+        "net_income": 55598000000.0,
+        "op_margin": 8.34,
+        "op_margin_pct": 8.34,
+        "net_margin_pct": 0.32
+      },
+      {
+        "year": "2022",
+        "fiscal_year": "2022",
+        "revenue": 15421058082380.0,
+        "op_income": 1106120867900.0,
+        "net_income": -772492598020.0,
+        "op_margin": 7.17,
+        "op_margin_pct": 7.17,
+        "net_margin_pct": -5.01
+      },
+      {
+        "year": "2021",
+        "fiscal_year": "2021",
+        "revenue": null,
+        "op_income": null,
+        "net_income": null,
+        "op_margin": null,
+        "op_margin_pct": null,
+        "net_margin_pct": null
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2025",
+        "revenue": 17057876000000.0,
+        "operating_income": 762712000000.0,
+        "net_income": 84762000000.0,
+        "op_margin_pct": 4.47
+      },
+      {
+        "year": "2024",
+        "revenue": 16233055000000.0,
+        "operating_income": 1017600000000.0,
+        "net_income": 111365000000.0,
+        "op_margin_pct": 6.27
+      },
+      {
+        "year": "2023",
+        "revenue": 17589888000000.0,
+        "operating_income": 1467318000000.0,
+        "net_income": 55598000000.0,
+        "op_margin_pct": 8.34
+      },
+      {
+        "year": "2022",
+        "revenue": 15421058082380.0,
+        "operating_income": 1106120867900.0,
+        "net_income": -772492598020.0,
+        "op_margin_pct": 7.17
+      },
+      {
+        "year": "2021",
+        "revenue": null,
+        "operating_income": null,
+        "net_income": null,
+        "op_margin_pct": null
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "AI 데이터센터 전력 수요 + SMR 상용화 + 그룹 NVIDIA 밀착 후광이 결합해 수주·실적 동반 개선.",
+      "key_assumptions": [
+        "데이터센터 전력 capex 급증",
+        "SMR 수주 가시화",
+        "마진 개선"
+      ],
+      "target_price": 140000
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "전력 인프라 구조적 수요는 견조하나 얇은 마진·프로젝트 lumpy 매출로 변동성 횡보.",
+      "key_assumptions": [
+        "발전 수주 점진 증가",
+        "SMR은 중장기",
+        "OPM 4~5% 유지"
+      ],
+      "target_price": 110000
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "AI capex 둔화 + SMR 지연 + 그룹 자본배분 경합 시 재평가 되돌림.",
+      "key_assumptions": [
+        "전력 수요 기대 후퇴",
+        "원전 정책 변수",
+        "마진 압박"
+      ],
+      "target_price": 80000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "event": "데이터센터·SMR 수주 뉴스",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "AI 전력 수요의 실질 수주 전환 여부"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적",
+      "type": "earnings",
+      "expected_impact": "med",
+      "description": "발전 부문 수주잔고·마진 추세 확인"
+    },
+    {
+      "date": "2026~2027",
+      "event": "SMR 상용 프로젝트 진척",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "차세대 원전 기대의 실현 가늠자"
+    }
+  ],
+  "risks": [
+    {
+      "name": "얇은 순이익률",
+      "probability": "high",
+      "impact": "med",
+      "description": "FY25 순이익률 약 0.5% — 작은 비용 변동에도 이익 민감",
+      "mitigation": "고마진 SMR·서비스 매출 비중 확대"
+    },
+    {
+      "name": "프로젝트 lumpy 매출",
+      "probability": "med",
+      "impact": "med",
+      "description": "대형 발전 프로젝트 인식 시점 변동성",
+      "mitigation": "수주잔고 다변화"
+    },
+    {
+      "name": "그룹 자본배분 경합",
+      "probability": "med",
+      "impact": "med",
+      "description": "로보틱스·밥캣 등 계열 투자와 자원 경합",
+      "mitigation": "지주 차원 우선순위 조정"
+    },
+    {
+      "name": "AI capex 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "데이터센터 전력 수요 기대 후퇴 시 재평가",
+      "mitigation": "전통 발전·해외 수주 기반"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T02",
+      "ticker_exposure": "+",
+      "claim": "2026년 시장의 화두는 'AI'에서 '피지컬 AI'(AI와 로봇의 결합)로 구체화되며, 젠슨 황이 CES에서 제시한 베라 루빈(Vera Rubin) 플랫폼이 피지컬 AI 시대를 여는 핵심 컴퓨팅 인프라가 된다.",
+      "type": "predictive",
+      "evidence": "CES 젠슨 황 발언 'AI의 다음 단계는 로봇공학', 베라 루빈을 피지컬 AI 핵심 인프라로 규정. 메르 연초 '2026년의 화두는?' 글의 피지컬AI·로봇 주목과 일관.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T08",
+      "ticker_exposure": "+",
+      "claim": "최근 1년 NVIDIA와 밀착도가 가장 극적으로 상승한 한국 그룹은 두산이다 — 2025년 9월 두산 부회장단(에너빌리티·로보틱스 포함)의 엔비디아 방문, 2026년 4월 매디슨 황(젠슨 황의 딸)의 두산로보틱스 방",
+      "type": "factual",
+      "evidence": "메르 본문: 2025.9.22~25 두산 부회장단 엔비디아 방문, 2026.4.29 엔비디아 옴니버스·로보틱스 마케팅 수석이사 매디슨 황 두산로보틱스 방문·기술협력 논의.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T09",
+      "ticker_exposure": "+",
+      "claim": "두산로보틱스 엔지니어 4인의 Team Zenith가 엔비디아 주최 첫 피지컬AI 챌린저(글로벌 1,600개 팀 참가)에서 1위를 차지했고, Cosmos Reason2·Isaac Sim·cuRobo·vLLM 등 NVI",
+      "type": "factual",
+      "evidence": "메르 본문: 2026.1.29~2.26 피지컬AI 챌린저, Team Zenith 1위, 창고 팔레트 적재 로봇의 추론·그립 강도·설명가능성 문제 해결, NVIDIA 생태계 풀스택 활용.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T10",
+      "ticker_exposure": "+",
+      "claim": "두산로보틱스는 2027년 지능형 로봇 솔루션, 2028년 산업용 휴머노이드를 순차 출시하고 2027년 엔비디아와 글로벌 전시회 공동 발표를 추진하며, '두산 하드웨어 제조 + 엔비디아 소프트웨어 생태계' 결합으로 상",
+      "type": "predictive",
+      "evidence": "메르 본문: 두산로보틱스 2027 지능형 로봇·2028 산업용 휴머노이드 로드맵, 엔비디아 공동 전시 추진, 두산 대표 '하드웨어+소프트웨어 결합' 발언.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T11",
+      "ticker_exposure": "++",
+      "claim": "두산그룹은 'AI 반도체 테스트(두산테스나) → 데이터센터 전력(두산에너빌리티) → 현장 로봇(두산로보틱스)'으로 이어지는 피지컬 AI 풀세트를 보유한 사실상 유일한 한국 그룹으로, 이 수직 통합이 NVIDIA가 두",
+      "type": "normative",
+      "evidence": "메르 본문: 두산 = 'AI 반도체→테스트→데이터센터 전력→현장 로봇' 풀세트. 로봇=두산로보틱스, 전력=두산에너빌리티, AI반도체 테스트=두산테스나.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T12",
+      "ticker_exposure": "-",
+      "claim": "(반론) 시구 구단 선택은 정교한 전략이 아니라, 젠슨 황 방한 기간 삼성은 광주(기아)·LG는 창원(NC) 원정인 반면 두산만 서울 잠실 홈 3연전을 치르는 단순한 일정·지리적 편의로 결정됐을 가능성도 충분하다.",
+      "type": "conditional",
+      "evidence": "메르 본문 말미: 방한 기간 삼성-기아 광주 원정, LG-NC 창원 원정, 두산만 잠실 홈 → 단순 선택 가능성 자인('아주 간단한 이유로 결정되기도').",
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025-09",
+      "type": "기업활동",
+      "title": "두산 부회장단 엔비디아 방문",
+      "summary": "두산에너빌리티 부회장 포함 계열사 CEO단이 엔비디아 방문, 피지컬AI 사업협업 논의"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 109700,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 매출 ₩17조·OPM 약 4.5%·순이익률 0.5%. 현 시총은 전력 인프라 슈퍼사이클(데이터센터+SMR)을 상당 부분 선반영. AI 전력 수요가 실제 수주·마진 개선으로 이어져야 밸류에이션 정당화 가능."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

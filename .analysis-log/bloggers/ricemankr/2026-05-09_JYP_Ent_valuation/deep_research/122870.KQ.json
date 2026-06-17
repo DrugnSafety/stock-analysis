@@ -1,0 +1,208 @@
+{
+  "industry": {
+    "name": "K-POP Entertainment",
+    "overview": "YG는 BLACKPINK 글로벌 IP + BABYMONSTER·TREASURE 신인. 4대사 중 IP 다각화 가장 부족하나 BLACKPINK 단독 가치 매우 높음. 6M -30%·1Y -26%로 4사 중 최악 성과.",
+    "competitors": [
+      {
+        "name": "HYBE",
+        "market_share_pct": 35,
+        "strength": "BTS·1위",
+        "weakness": "BTS 의존"
+      },
+      {
+        "name": "JYP",
+        "market_share_pct": 20,
+        "strength": "라인업 다양성",
+        "weakness": "스트레이키즈 의존"
+      },
+      {
+        "name": "SM",
+        "market_share_pct": 22,
+        "strength": "멀티 레이블",
+        "weakness": "NCT 분산"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-10",
+        "title": "BLACKPINK 단독 콘서트 50개 도시 sold-out — 누적 관객 200만+",
+        "source": "Touring Data"
+      },
+      {
+        "date": "2026-03-25",
+        "title": "BABYMONSTER 일본 데뷔 — 오리콘 3위",
+        "source": "YG IR"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "TREASURE 아시아 투어 12개 도시",
+        "source": "YG IR"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 12.8,
+      "cagr_pct": 14.4,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2020,
+        "revenue": 2552,
+        "op_income": 116,
+        "op_margin": 4.5,
+        "net_income": 92,
+        "net_margin": 3.6
+      },
+      {
+        "year": 2021,
+        "revenue": 3556,
+        "op_income": 506,
+        "op_margin": 14.2,
+        "net_income": 397,
+        "net_margin": 11.2
+      },
+      {
+        "year": 2022,
+        "revenue": 4125,
+        "op_income": 716,
+        "op_margin": 17.4,
+        "net_income": 553,
+        "net_margin": 13.4
+      },
+      {
+        "year": 2023,
+        "revenue": 5572,
+        "op_income": 906,
+        "op_margin": 16.3,
+        "net_income": 686,
+        "net_margin": 12.3
+      },
+      {
+        "year": 2024,
+        "revenue": 4500,
+        "op_income": 480,
+        "op_margin": 10.7,
+        "net_income": 350,
+        "net_margin": 7.8
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2024-12-31",
+      "total_assets_bn_krw": 7800,
+      "total_liabilities_bn_krw": 1800,
+      "total_equity_bn_krw": 6000,
+      "cash_bn_krw": 1900,
+      "debt_bn_krw": 1600,
+      "net_debt_pct_of_equity": -5.0
+    },
+    "cf_summary": {
+      "ocf_2024_bn_krw": 600,
+      "fcf_2024_bn_krw": 440,
+      "capex_2024_bn_krw": 160,
+      "fcf_margin_pct": 9.8
+    },
+    "peer_compare": [
+      {
+        "ticker": "122870.KQ",
+        "name": "YG",
+        "fwd_pe": 14.34,
+        "roe_pct": 8,
+        "debt_to_equity_pct": -5,
+        "fcf_margin_pct": 9.8
+      },
+      {
+        "ticker": "035900.KQ",
+        "name": "JYP",
+        "fwd_pe": 14.06,
+        "roe_pct": 19,
+        "debt_to_equity_pct": -58,
+        "fcf_margin_pct": 22.6
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 20,
+      "target_price": 70000,
+      "thesis": "BLACKPINK 새 그룹 컴백 + BABYMONSTER 메이저 hit",
+      "horizon": "12-18M"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 55000,
+      "thesis": "BLACKPINK 안정 + 신인 ramp-up 정상",
+      "horizon": "12-18M"
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 40000,
+      "thesis": "BLACKPINK 솔로 매출 분산 + 신인 흥행 미흡",
+      "horizon": "12-18M"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "BLACKPINK 새 음반·투어 발표",
+      "type": "blockbuster",
+      "expected_impact": "++",
+      "description": "분기 매출 +50% 가능"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "BABYMONSTER 글로벌 투어 확장",
+      "type": "growth",
+      "expected_impact": "+",
+      "description": "신인 매출 본격화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "BLACKPINK 단일 의존도 50%+",
+      "probability": "high",
+      "impact": "high",
+      "description": "솔로 활동 분산 시 그룹 매출 약화",
+      "mitigation": "BABYMONSTER·TREASURE ramp-up"
+    },
+    {
+      "name": "거버넌스 issue 잔존",
+      "probability": "low",
+      "impact": "med",
+      "description": "양현석·승리 사건 reputation impact",
+      "mitigation": "2020년 이후 점진적 정상화"
+    },
+    {
+      "name": "변동성 49% 가장 높음",
+      "probability": "high",
+      "impact": "med",
+      "description": "단기 -25% drawdown 가능",
+      "mitigation": "보수적 position size"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "BLACKPINK 단일 의존도 50%+",
+      "type": "factual",
+      "evidence": "YG IR 매출 분해",
+      "testability": "high",
+      "current_status": "verified"
+    },
+    {
+      "claim": "1Y -26%·6M -30% — 4사 중 최악",
+      "type": "factual",
+      "evidence": "yfinance live data",
+      "testability": "high",
+      "current_status": "verified"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-25",
+      "type": "분기보고서",
+      "title": "1Q26 매출 1,100억 (yoy -5%)",
+      "url": "DART"
+    }
+  ]
+}

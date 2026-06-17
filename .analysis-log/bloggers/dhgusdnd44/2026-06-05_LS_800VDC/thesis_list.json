@@ -1,0 +1,119 @@
+{
+  "post_meta": {
+    "blogger": "dhgusdnd44",
+    "nickname": "산업분석러",
+    "title": "[LS] 800V DC 알아보기 - 1편",
+    "url": "https://blog.naver.com/dhgusdnd44/224307091207",
+    "log_no": "224307091207",
+    "analysis_date": "2026-06-05",
+    "series": "1편/2편 (2편 미공개)"
+  },
+  "summary_one_liner": "AI 데이터센터 전력 배전이 800V DC로 전환되는 진짜 동인은 전기료 절감이 아니라 '1MW 랙에 물리적으로 전력을 욱여넣기'(전류² 열손실·구리 부스바 공간·액체냉각 선결과제)이며, NVIDIA 로드맵(2026 파워셸프→2027 전력용 랙→2028 SST로 그레이스페이스 소멸)은 LS ELECTRIC의 초고압 변압기·배전반·SST 영역과 글로벌 800VDC 생태계(Vertiv·Navitas·Infineon) 수혜로 연결된다.",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "2025년 12월 미국 최대 전력도매시장 PJM의 2027/2028 용량경매에서 사상 처음으로 예비 용량을 채우지 못했다(20% 목표 대비 14.8%, 6,623MW 미달). 미달분 5,250MW 중 5,100MW가 데이터센터 수요였다.",
+      "importance": "core",
+      "supporting_evidence": "본문 — PJM 용량경매 사상 첫 예비용량 미달, 원인이 데이터센터로 규명. 향후 10년 50~60GW 잠재 부족 전망.",
+      "tags": ["PJM", "용량경매", "전력부족", "데이터센터"],
+      "timeframe": "present",
+      "type": "factual"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "향후 10년 안에 미국에서 50~60GW의 전력 용량이 잠재적으로 부족할 전망이며, 전력 자체뿐 아니라 그것을 실어나를 전력망(송배전)도 부족하다.",
+      "importance": "core",
+      "supporting_evidence": "본문 — 전력 부족 + 전력망 부족의 이중 병목. '전력이 GPU까지 흘러오는 길'을 새로 설계(800VDC)하는 배경.",
+      "tags": ["전력망", "송배전", "구조적부족"],
+      "timeframe": "long_term",
+      "type": "predictive"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "800V DC 전환의 표면적 이점은 전력 효율 5% 개선(1GW당 50MW 절감)이지만, 글쓴이는 전환의 '진짜 목적'은 전기료 절감이 아니라 물리적으로 1MW 랙에 전력을 구겨넣기 위함이며 효율은 부산물이라고 본다.",
+      "importance": "core",
+      "supporting_evidence": "본문 — '전기를 아껴쓰려는 것보다 루빈 울트라를 팔기 위해 미리 빌드업'. 효율은 따라오는 부산물.",
+      "tags": ["800VDC", "효율", "동인분석", "Rubin Ultra"],
+      "timeframe": "medium_term",
+      "type": "normative"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "열손실은 전류의 제곱에 비례하고 전압·전류는 반비례하므로, 600kW 랙에 54V 대신 800V로 송전하면 전류가 12,500A→750A로 떨어지고 같은 도체의 발열은 약 220배 감소한다. 이 물리 법칙이 800VDC 전환의 1차 동인이다.",
+      "importance": "core",
+      "supporting_evidence": "본문 — 전력=전압×전류, 손실∝전류². 54V vs 800V 전류·발열 비교 수치.",
+      "tags": ["물리법칙", "전류제곱손실", "고전압"],
+      "timeframe": "present",
+      "type": "factual"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "엔비디아 랙당 전력은 Hopper 40kW → Blackwell 120kW → Rubin 200kW를 거쳐 2028년 Rubin Ultra에서 1MW에 도달할 전망이며, 1MW 랙에 현행 54V로 전기를 보내면 구리 부스바만 200kg가 필요해 GPU를 넣을 공간이 부족해진다.",
+      "importance": "core",
+      "supporting_evidence": "본문 — 랙당 전력 로드맵 + MS 기준 1MW 랙 구리 부스바 200kg. '구리가 비싸서가 아니라 같은 공간에 GPU를 더 못 넣는 게 문제'.",
+      "tags": ["랙밀도", "구리부스바", "Rubin Ultra", "1MW"],
+      "timeframe": "long_term",
+      "type": "predictive"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "800V 전환은 필요한 구리량을 약 80% 줄여 확보된 공간에 액체냉각 파이프라인을 깔 수 있게 하므로, 800VDC는 1MW급 랙 액체냉각 도입의 선결 과제다.",
+      "importance": "high",
+      "supporting_evidence": "본문 — 1MW 랙은 무조건 액체냉각 필요, 구리 200kg와 파이프 공간 양립 불가 → 800V로 구리 80% 절감.",
+      "tags": ["액체냉각", "구리절감", "선결과제"],
+      "timeframe": "medium_term",
+      "type": "causal"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "현재 발전소→GPU 경로에서 AC-DC-AC 변환이 7단계 가까이 반복되며 각 단계 5~15% 손실이 발생해, GPU가 실제 먹는 전력은 발전소가 보낸 전력의 절반 수준에 불과하다. 이 비효율의 근원은 전력망이 교류(AC)로 설계됐기 때문이다.",
+      "importance": "high",
+      "supporting_evidence": "본문 — 블랙/그레이/화이트 스페이스 구분 + UPS의 AC-DC-AC, PDU/PSU/VRM 단계별 손실 누적.",
+      "tags": ["AC-DC변환", "7단계손실", "UPS", "전력손실"],
+      "timeframe": "present",
+      "type": "factual"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "NVIDIA의 800VDC 로드맵은 2026년(서버 랙 PSU를 '파워 셀프'로 집약) → 2027년(연산 랙 옆 '전력용 랙' 병치, 과도기) → 2028년 이후(SST로 입구에서 800V DC 생성·살포, 그레이 스페이스 소멸)의 3단계로 전개된다.",
+      "importance": "core",
+      "supporting_evidence": "본문 — 단계별 로드맵 상세. 2028 단계에서 UPS 소멸, BESS가 800V DC 버스바 직결, 슈퍼커패시터가 순간 공백 보완.",
+      "tags": ["로드맵", "파워셸프", "전력용랙", "SST", "BESS"],
+      "timeframe": "long_term",
+      "type": "predictive"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "2028년 게임체인저는 SST(고체 전력 변압기)로, 블랙 스페이스의 초고압 변압기를 전력 반도체가 내장된 초소형·고효율 SST가 대체하고 수만 볼트 초고압 교류를 단번에 800V 직류로 변환한다. 이는 변압기·배전·전력반도체 기업의 핵심 수혜 영역이다.",
+      "importance": "core",
+      "supporting_evidence": "본문 — SST 등장으로 초고압 변압기 소멸·SST 대체. 'LS일렉트릭의 영역 — 초고압 변압기와 배전반은 블랙 스페이스에 위치'.",
+      "tags": ["SST", "고체변압기", "전력반도체", "LS ELECTRIC"],
+      "timeframe": "long_term",
+      "type": "predictive"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "800V DC 전환은 전력기기 전반에 사업을 전개하는 LS그룹(특히 LS ELECTRIC의 초고압 변압기·배전반·SST 영역, LS전선의 구리·케이블)에 중대한 사업 기회이며, 글쓴이는 주주 관점에서 핵심 모니터링 이슈로 본다.",
+      "importance": "core",
+      "supporting_evidence": "본문 — 'LS에게 있어 매우 중요한 문제. 주주로써 꼭 짚고 넘어가는 게 좋을 것'. 블랙 스페이스 초고압 변압기·배전반 = LS일렉트릭 영역.",
+      "tags": ["LS", "LS ELECTRIC", "수혜주", "투자논거"],
+      "timeframe": "long_term",
+      "type": "normative"
+    },
+    {
+      "claim_id": "T11",
+      "claim": "직류(DC)는 반도체·배터리처럼 안정적 전력이 필요한 부하에 적합하지만 19세기에는 전압 변환 기술이 없어 송전에 유리한 교류(AC)가 세상을 지배했고, 이제 AC-DC 변환 손실과 데이터센터 밀도 문제로 직류의 시대가 다시 오고 있다.",
+      "importance": "medium",
+      "supporting_evidence": "본문 — '직류는 강물, 교류는 바닷물' 비유. AC 승리의 역사적 원인(변압기)과 DC 재부상의 현대적 동인(변환손실·밀도).",
+      "tags": ["AC-DC", "역사", "직류시대", "패러다임"],
+      "timeframe": "long_term",
+      "type": "factual"
+    }
+  ],
+  "extraction_meta": {
+    "extracted_by": "claude (산업분석러 800VDC 1편 — fresh context, 이전 thesis/persona 미참조)",
+    "n_theses": 11,
+    "note": "1편(2편 미공개) 기준. 1편은 '왜 800VDC인가' 기술·구조 배경 중심이라 투자 종목이 명시 나열되지 않음 → 본문 LS 연결 + NVIDIA 800VDC 생태계(GTC/Computex 파트너) 추론으로 종목 매핑.",
+    "tickers_mapped": ["010120.KS", "VRT", "NVTS", "006260.KS", "267260.KS", "IFX.DE", "060370.KQ"]
+  }
+}

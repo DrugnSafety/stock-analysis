@@ -1,0 +1,120 @@
+{
+  "ticker": "000660.KS",
+  "name_kr": "SK하이닉스",
+  "name_en": "SK Hynix Inc.",
+  "sector": "Memory Semiconductor (HBM·DRAM·NAND)",
+  "industry": {
+    "name": "Memory Semiconductor (HBM-prime · DRAM · NAND)",
+    "overview": "SK하이닉스는 HBM 글로벌 1위 (NVIDIA HBM3E 60%+ 점유). 본 KIOXIA IR Day 분석에서 'NAND 신규 capex 부족' 시나리오의 수혜자로 분류된다. DRAM/HBM에 capex 70%+ 집중하면서 NAND는 안정적 캐시카우 역할. 1Y 주가 +1,059%는 HBM supercycle 반영. P/E fwd 6.17x는 cycle-adjusted로 cheap.",
+    "competitors": [
+      {
+        "name": "삼성전자",
+        "ticker": "005930.KS"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU"
+      },
+      {
+        "name": "Nanya",
+        "ticker": "2408.TW"
+      }
+    ],
+    "news": []
+  },
+  "five_year_pnl_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "notes": "FY23 영업적자 (DRAM 불황) → FY24 흑자전환 → FY25 영업이익률 49% (HBM premium). NAND segment 30~35% 매출 비중"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "thesis": "HBM4 베라 루빈 채택 + NAND tightness 회복. 2027년 EPS +30% 추가.",
+      "key_assumptions": [
+        "HBM4 선점",
+        "NAND ASP 회복",
+        "capex discipline"
+      ],
+      "target_price_krw": 3200000
+    },
+    "base": {
+      "prob_pct": 40,
+      "thesis": "HBM 호황 지속 + NAND 안정. P/E 6x → 8x 정상화 시 +35% upside.",
+      "key_assumptions": [
+        "HBM 점유 60%+ 유지",
+        "NAND margin 안정",
+        "FX 안정"
+      ],
+      "target_price_krw": 2800000
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "HBM 경쟁 심화 (삼성 추격) + NAND cycle bust + 한국 governance discount.",
+      "key_assumptions": [
+        "HBM 점유 잠식",
+        "NAND 가격 하락",
+        "원화 강세"
+      ],
+      "target_price_krw": 1500000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM4 양산 시작 + NVIDIA 베라 루빈 launch",
+      "type": "product",
+      "expected_impact": "very_high",
+      "description": "HBM4 선행 검증 통과 시 ASP +30% 가능"
+    },
+    {
+      "date": "2026-2H",
+      "event": "NAND 신규 capex 발표",
+      "type": "capex",
+      "expected_impact": "med",
+      "description": "KIOXIA discipline에 대응한 SK의 capex 결정"
+    },
+    {
+      "date": "2027",
+      "event": "HBM4E 16-stack 베라 루빈 울트라 채택",
+      "type": "product",
+      "expected_impact": "very_high",
+      "description": "HBM 콘텐츠 배가 — 매출 폭증"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM 경쟁 심화",
+      "probability": "med",
+      "impact": "high",
+      "description": "삼성 HBM3E 12-Hi 본격 양산 + Micron HBM3E 점유 확대",
+      "mitigation": "HBM4 timing advantage"
+    },
+    {
+      "name": "NAND 사이클 노출",
+      "probability": "high",
+      "impact": "med",
+      "description": "NAND segment 30%+ 매출 — cycle bust 시 마진 압박",
+      "mitigation": "HBM 마진으로 cushion"
+    },
+    {
+      "name": "한국 governance discount",
+      "probability": "high",
+      "impact": "low",
+      "description": "chaebol 지배구조 + 한국 system risk",
+      "mitigation": "PBR 1.3x 안정 BV 회복"
+    },
+    {
+      "name": "원화 강세 리스크",
+      "probability": "med",
+      "impact": "med",
+      "description": "수출주 — 원화 강세 시 마진 영향",
+      "mitigation": "natural hedge (수입 원재료)"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 2360000,
+    "implied_growth_pct": "P/E fwd 6.17x → 향후 5년 EPS CAGR 5~7%. 실제 expected 12~15% (HBM 우위).",
+    "narrative": "명확 undervalued. P/E 10x 정상화 시 fair value 3,820,000원 (+62%). margin of safety 30% 적용 시 entry 2,400,000원 권장."
+  }
+}

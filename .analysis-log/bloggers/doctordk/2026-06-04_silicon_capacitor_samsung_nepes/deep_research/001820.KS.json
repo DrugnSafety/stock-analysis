@@ -1,0 +1,179 @@
+{
+  "industry": {
+    "name": "MLCC / 콘덴서 (전장·산업·AI)",
+    "overview": "삼화콘덴서는 국내 MLCC·DC-link 콘덴서 전문 중소형사다. 본 분석에서 '인큐번트 피어(incumbent peer)'로, 실리콘 커패시터가 최상위 AI 칩 영역에서 MLCC를 일부 대체·보완하는 흐름의 양면(위협이자 콘덴서 업황 수혜)을 대표한다. 전장(xEV)·AI 서버 전원부 콘덴서 수요는 우호적이나, 고성능 디커플링 최상단은 Si-cap에 잠식될 수 있는 구조적 변수가 존재. 초소형 고변동주(vol 88%)로 리스크 관리가 핵심.",
+    "competitors": [
+      {
+        "name": "Murata(무라타)",
+        "ticker": "6981.T",
+        "share_pct": 40.0,
+        "moat": "MLCC 글로벌 1위"
+      },
+      {
+        "name": "삼성전기",
+        "ticker": "009150.KS",
+        "share_pct": 22.0,
+        "moat": "MLCC #2 + Si-cap"
+      },
+      {
+        "name": "TDK",
+        "ticker": "6762.T",
+        "share_pct": 12.0,
+        "moat": "수동부품 종합"
+      },
+      {
+        "name": "삼화콘덴서",
+        "ticker": "001820.KS",
+        "share_pct": 2.0,
+        "moat": "국내 MLCC·DC-link 콘덴서 niche"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-06-04",
+        "title": "1Y 주가 +347% — 콘덴서 업황·AI 테마 동반",
+        "source": "yfinance live",
+        "summary": "전장·AI 전원부 수요 기대",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05",
+        "title": "실리콘 커패시터 부각 — MLCC 대체/보완 논쟁",
+        "source": "업계(한경·뉴스1)",
+        "summary": "고성능 영역 Si-cap 전환은 MLCC 피어에 양날",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-04)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.26,
+        "op_income": 0.03,
+        "net_income": 0.03,
+        "op_margin": 11.5,
+        "net_margin": 11.5
+      },
+      {
+        "year": 2023,
+        "revenue": 0.28,
+        "op_income": 0.02,
+        "net_income": 0.02,
+        "op_margin": 7.1,
+        "net_margin": 7.1
+      },
+      {
+        "year": 2024,
+        "revenue": 0.3,
+        "op_income": 0.02,
+        "net_income": 0.02,
+        "op_margin": 6.7,
+        "net_margin": 6.7
+      },
+      {
+        "year": 2025,
+        "revenue": 0.29,
+        "op_income": 0.01,
+        "net_income": 0.01,
+        "op_margin": 3.4,
+        "net_margin": 3.4
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.26조 → 2025 ₩0.29조로 소폭 성장, 영업이익률은 2022 11.5% → 2025 3.4%로 하락 — 전방 수요·믹스 변화를 반영. 전장·산업용 콘덴서가 중기 성장축이나, 규모가 작고 마진 변동이 커 업황 민감도가 높다. AI 테마 수혜와 Si-cap 대체 위협이 공존.",
+    "valuation_summary": "Forward PE 41.08× (yfinance live). 현재가 ₩110,400 / 1Y +347% / 연변동성 89%(극단적). 소형주 특성상 테마 변동성이 큼."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.34,
+      "description": "전장(xEV)·AI 서버 전원부 MLCC/콘덴서 수요 강세 + 콘덴서 업황 회복으로 마진 반등. AI 테마 프리미엄 유지.",
+      "key_drivers": [
+        "전장 콘덴서 수요",
+        "AI 전원부 수요",
+        "콘덴서 업황 회복"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "콘덴서 수요 완만 성장, 마진은 한 자릿수 유지. AI 테마와 별개로 본업 cycle에 좌우.",
+      "key_drivers": [
+        "본업 수요",
+        "원가·믹스",
+        "콘덴서 cycle"
+      ]
+    },
+    "bear": {
+      "probability": 0.26,
+      "description": "고성능 영역 Si-cap 대체 가속 + 단가 경쟁 + 소형주 변동성으로 큰 폭 조정. AI 테마 차익실현.",
+      "key_drivers": [
+        "Si-cap 대체 위협",
+        "단가 경쟁",
+        "테마 차익실현"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-분기",
+      "name": "분기 실적(콘덴서 마진)",
+      "impact": "medium",
+      "description": "전장·AI 수요 반영 여부"
+    },
+    {
+      "date": "2026-2H",
+      "name": "전장 콘덴서 수주",
+      "impact": "medium",
+      "description": "xEV 전원부 채택 확대"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Si-cap 대체 위협(최상위 영역)",
+      "probability": "medium",
+      "impact": "high",
+      "description": "고성능 디커플링 최상단을 Si-cap에 잠식 가능"
+    },
+    {
+      "name": "초고변동성 (vol 88%)",
+      "probability": "high",
+      "impact": "high",
+      "description": "소형주 — 포지션 한도 대폭 축소 필요"
+    },
+    {
+      "name": "단가 경쟁·마진 하락",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "OPM 11.5%→3.4% 하락 추세"
+    },
+    {
+      "name": "유동성·소형주 리스크",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "테마 변동에 급등락"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "Si-cap vs MLCC 대체/보완",
+      "current_status": "contested",
+      "evidence": "고성능 영역 Si-cap 전환은 MLCC 피어에 위협이자 업황 수혜의 양면"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "AI 전원부 수동부품 수요",
+      "current_status": "pending",
+      "evidence": "전장·AI 콘덴서 수요는 견조하나 Si-cap 경쟁 변수"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-04",
+      "type": "참고",
+      "summary": "정식 공시 아님 — 시세·업황은 yfinance/언론 기반",
+      "title": "콘덴서 업황·AI 테마 (참고)"
+    }
+  ]
+}

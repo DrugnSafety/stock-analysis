@@ -1,0 +1,410 @@
+{
+  "ticker": "AEM",
+  "name_en": "Agnico Eagle Mines Limited",
+  "name_kr": "애그니코 이글 마인즈",
+  "sector": "금광 / Gold Mining (Tier-1 quality)",
+  "industry_overview": "캐나다 본사 금광 quality leader. 2026 기준 연 3.5Moz 금 생산. Kirkland Lake 합병 후 안정적 portfolio — 캐나다(Detour·LaRonde·Canadian Malartic)·핀란드(Kittilä)·멕시코(Pinos Altos)·호주(Fosterville) 등 안전한 jurisdiction 다수. AISC $1,300/oz로 NEM·BTG 대비 우위. 'tier-1 ounces only' 전략으로 자산 quality 최상.",
+  "5y_financials": {
+    "revenue_b": [
+      3.8,
+      5.7,
+      6.5,
+      8.2,
+      9.8
+    ],
+    "operating_income_b": [
+      1.1,
+      1.8,
+      2.0,
+      2.6,
+      3.5
+    ],
+    "net_income_b": [
+      0.7,
+      1.1,
+      1.4,
+      1.8,
+      2.5
+    ],
+    "opm_pct": [
+      28.9,
+      31.6,
+      30.8,
+      31.7,
+      35.7
+    ],
+    "npm_pct": [
+      18.4,
+      19.3,
+      21.5,
+      22.0,
+      25.5
+    ],
+    "fcf_b": [
+      0.9,
+      1.2,
+      1.4,
+      1.9,
+      2.6
+    ],
+    "narrative_5y": "Kirkland Lake 합병 (2022) 후 매출 2.6x 증가. OPM 안정적 30%+ 유지. FCF $2.6B(2025) 신기록. Net debt/EBITDA 0.3x — 광산 sector 최우량."
+  },
+  "scenarios": {
+    "bull": {
+      "prob": 0.5,
+      "target_price": 230,
+      "drivers": "Gold $5,000+, AISC stable, premium 유지 (quality)",
+      "prob_pct": 50,
+      "thesis": "Gold $5,000+, AISC stable, premium 유지 (quality)"
+    },
+    "base": {
+      "prob": 0.4,
+      "target_price": 200,
+      "drivers": "Gold $4,200-4,600 sustained, OPM 35%+ stable",
+      "prob_pct": 40,
+      "thesis": "Gold $4,200-4,600 sustained, OPM 35%+ stable"
+    },
+    "bear": {
+      "prob": 0.1,
+      "target_price": 130,
+      "drivers": "Gold -25%, capex inflation, Canadian regulatory tightening",
+      "prob_pct": 10,
+      "thesis": "Gold -25%, capex inflation, Canadian regulatory tightening"
+    }
+  },
+  "catalysts": [
+    {
+      "name": "2026 Q2 EPS — AISC $1,300 환경에서 quality premium 확인",
+      "date": "2026-05-20",
+      "impact": "high",
+      "event": "2026 Q2 EPS — AISC $1,300 환경에서 quality premium 확인",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Detour Lake 확장 — 연 800koz → 1Moz target",
+      "date": "2026-05-20",
+      "impact": "high",
+      "event": "Detour Lake 확장 — 연 800koz → 1Moz target",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Hope Bay (Nunavut) 재가동 검토 결정",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "Hope Bay (Nunavut) 재가동 검토 결정",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "캐나다 quebec mining royalty 정책 안정화",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "캐나다 quebec mining royalty 정책 안정화",
+      "category": "operational",
+      "probability": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "name": "PE 18x — peer 12-14x 대비 premium, derate 위험",
+      "impact": "high",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "PE 18x — peer 12-14x 대비 premium, derate 위험",
+      "likelihood": "medium",
+      "severity": "high",
+      "probability": "med",
+      "description": "PE 18x — peer 12-14x 대비 premium, derate 위험"
+    },
+    {
+      "name": "Detour Lake 노조 협상 (2026 만료)",
+      "impact": "high",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Detour Lake 노조 협상 (2026 만료)",
+      "likelihood": "medium",
+      "severity": "high",
+      "probability": "med",
+      "description": "Detour Lake 노조 협상 (2026 만료)"
+    },
+    {
+      "name": "Canadian tax (Quebec·Ontario) 환경 변화",
+      "impact": "med",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Canadian tax (Quebec·Ontario) 환경 변화",
+      "likelihood": "medium",
+      "severity": "medium",
+      "probability": "med",
+      "description": "Canadian tax (Quebec·Ontario) 환경 변화"
+    },
+    {
+      "name": "Currency CAD/USD swing — natural hedge but margin sensitivity",
+      "impact": "med",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Currency CAD/USD swing — natural hedge but margin sensitivity",
+      "likelihood": "medium",
+      "severity": "medium",
+      "probability": "med",
+      "description": "Currency CAD/USD swing — natural hedge but margin sensitivity"
+    }
+  ],
+  "news_timeline_recent": [
+    {
+      "date": "2026-04-30",
+      "impact": "+",
+      "headline": "Q1 2026 — Free cash flow $720M, AISC $1,290/oz (guidance hit)"
+    },
+    {
+      "date": "2026-03-20",
+      "impact": "+",
+      "headline": "Detour Lake reserves +18% to 21Moz — 18-year mine life"
+    },
+    {
+      "date": "2026-02-14",
+      "impact": "+",
+      "headline": "Dividend +25% to $0.50/q, special dividend $1.00 announced"
+    },
+    {
+      "date": "2026-01-25",
+      "impact": "○",
+      "headline": "Hope Bay Nunavut restart — 2027 production target reaffirmed"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price": 177.68,
+    "implied_5y_revenue_cagr": 7.5,
+    "implied_5y_eps_cagr": 10.0,
+    "implied_terminal_pe": 18.0,
+    "verdict": "Quality premium 정당화. Bull case fair value $215-230.",
+    "historical_5y_revenue_cagr_pct": 7.5,
+    "embedded_in_current_price": "Quality premium 정당화. Bull case fair value $215-230."
+  },
+  "etf_holdings": {
+    "GDX_weight_pct": 10.8,
+    "RING_weight_pct": 9.5
+  },
+  "industry": {
+    "name": "금광 / Gold Mining (Tier-1 quality)",
+    "overview": "캐나다 본사 금광 quality leader. 2026 기준 연 3.5Moz 금 생산. Kirkland Lake 합병 후 안정적 portfolio — 캐나다(Detour·LaRonde·Canadian Malartic)·핀란드(Kittilä)·멕시코(Pinos Altos)·호주(Fosterville) 등 안전한 jurisdiction 다수. AISC $1,300/oz로 NEM·BTG 대비 우위. 'tier-1 ounces only' 전략으로 자산 quality 최상.",
+    "news": [
+      {
+        "date": "2026-04-30",
+        "impact": "+",
+        "headline": "Q1 2026 — Free cash flow $720M, AISC $1,290/oz (guidance hit)",
+        "title": "Q1 2026 — Free cash flow $720M, AISC $1,290/oz (guidance hit)",
+        "summary": "Q1 2026 — Free cash flow $720M, AISC $1,290/oz (guidance hit)",
+        "source": "curated"
+      },
+      {
+        "date": "2026-03-20",
+        "impact": "+",
+        "headline": "Detour Lake reserves +18% to 21Moz — 18-year mine life",
+        "title": "Detour Lake reserves +18% to 21Moz — 18-year mine life",
+        "summary": "Detour Lake reserves +18% to 21Moz — 18-year mine life",
+        "source": "curated"
+      },
+      {
+        "date": "2026-02-14",
+        "impact": "+",
+        "headline": "Dividend +25% to $0.50/q, special dividend $1.00 announced",
+        "title": "Dividend +25% to $0.50/q, special dividend $1.00 announced",
+        "summary": "Dividend +25% to $0.50/q, special dividend $1.00 announced",
+        "source": "curated"
+      },
+      {
+        "date": "2026-01-25",
+        "impact": "○",
+        "headline": "Hope Bay Nunavut restart — 2027 production target reaffirmed",
+        "title": "Hope Bay Nunavut restart — 2027 production target reaffirmed",
+        "summary": "Hope Bay Nunavut restart — 2027 production target reaffirmed",
+        "source": "curated"
+      }
+    ],
+    "competitors": [],
+    "competitive_landscape": []
+  },
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T7",
+      "claim_id": "T7",
+      "claim": "광업의 시대 도래 — 글로벌 상위 20개 귀금속·비철금속 광업 기업의 마진율 중간값 31%로 S&P500 모든 섹터 1위. 기술 섹터(17%)의 거의 2배. PER 6-15배에 거래 중 — 시장은 금속 가격 하락 가정한 디스카운트 유지",
+      "type": "industry",
+      "evidence": "AISC $1,290/oz · industry 최저 · 2025 OPM 35.7% (peer 28-32%) · PE 18x (quality premium)",
+      "testability": "high",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T8",
+      "claim_id": "T8",
+      "claim": "광물 수요는 일회성 사이클이 아닌 구조적 — 탈달러·인플레 헷지(금), 신재생 에너지(구리·리튬·니켈), 데이터센터·전력망(구리·은) 메가트렌드. 신규 광산 개발에 10년 이상 소요 → 공급 부족 (shortage) 장기화. 광물 가격이 단기 조정 받아도 이전 가격대로 복귀 불가",
+      "type": "industry",
+      "evidence": "Detour Lake reserves +18% to 21Moz, 18-year mine life · Canada/Finland/Mexico Tier-1 jurisdiction",
+      "testability": "med",
+      "current_status": "confirmed",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T9",
+      "claim_id": "T9",
+      "claim": "Druckenmiller 'Teva 패턴' = 광산주에 적용 가능 — 시장이 여전히 '경기 변동·금속가격 종속' 프레임으로 광산주를 평가하지만, 실제로는 '구조적 수요 + 자본 절제'로 펀더멘털 체질이 변화. 시장 인식 시차가 알파의 원천",
+      "type": "company",
+      "evidence": "Net debt/EBITDA 0.3x — sector 최우량 · 'tier-1 ounces only' 전략, capital discipline 입증",
+      "testability": "med",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    },
+    {
+      "thesis_id": "T6",
+      "claim_id": "T6",
+      "claim": "투자 전략 전환 필요 — '유동성 기반 PER 리레이팅' 패러다임 종료. 실물자산 보유 기업, 또는 고금리 환경에서도 성장 가능한 비싼 PER 정당화 가능 기업 선별 중요. 채권 발행에 의존하는 빅테크조차 가려야 함",
+      "type": "policy",
+      "evidence": "Dividend +25% to $0.50/q + special dividend $1.00 · FCF $2.6B (2025) shareholder return 80%",
+      "testability": "low",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T5",
+      "claim_id": "T5",
+      "claim": "G7 국채 수익률 20년 만에 최고치. 4가지 구조적 요인: (1) 이란 전쟁발 에너지 인플레, (2) 재정적자 증가로 채권 발행량 폭증, (3) 중앙은행 QT 가속, (4) 탈세계화 따른 기간 프리미엄 상승 — 어느 하나도 단기 해결 불가",
+      "type": "macro",
+      "evidence": "Quality premium 정당화 — Tier-1 jurisdiction은 sovereign risk premium 회피로 yield 환경 면역도 ↑",
+      "testability": "high",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    },
+    {
+      "thesis_id": "T1",
+      "claim_id": "T1",
+      "claim": "Shiller CAPE 42.05로 역사적 고점 근접 (2000년 닷컴버블·1929년 대공황 직전 수준) — 미국 광범위 지수에서 장기 기대수익률은 역사적으로 매우 낮은 출발점",
+      "type": "macro",
+      "evidence": "Quality miner는 broad index와 correlation 0.3 — 분산 효과 큼",
+      "testability": "high",
+      "current_status": "pending",
+      "ticker_exposure": "-",
+      "confidence_delta": "+0.05"
+    }
+  ],
+  "pl_5y": {
+    "revenue": [
+      3.8,
+      5.7,
+      6.5,
+      8.2,
+      9.8
+    ],
+    "operating_income": [
+      1.1,
+      1.8,
+      2.0,
+      2.6,
+      3.5
+    ],
+    "net_income": [
+      0.7,
+      1.1,
+      1.4,
+      1.8,
+      2.5
+    ],
+    "opm": [
+      28.9,
+      31.6,
+      30.8,
+      31.7,
+      35.7
+    ],
+    "npm": [
+      18.4,
+      19.3,
+      21.5,
+      22.0,
+      25.5
+    ],
+    "fcf": [
+      0.9,
+      1.2,
+      1.4,
+      1.9,
+      2.6
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 3.8,
+        "op_income": 1.1,
+        "net_income": 0.7,
+        "op_margin_pct": 28.9,
+        "npm_pct": 18.4,
+        "fcf": 0.9
+      },
+      {
+        "year": 2022,
+        "revenue": 5.7,
+        "op_income": 1.8,
+        "net_income": 1.1,
+        "op_margin_pct": 31.6,
+        "npm_pct": 19.3,
+        "fcf": 1.2
+      },
+      {
+        "year": 2023,
+        "revenue": 6.5,
+        "op_income": 2.0,
+        "net_income": 1.4,
+        "op_margin_pct": 30.8,
+        "npm_pct": 21.5,
+        "fcf": 1.4
+      },
+      {
+        "year": 2024,
+        "revenue": 8.2,
+        "op_income": 2.6,
+        "net_income": 1.8,
+        "op_margin_pct": 31.7,
+        "npm_pct": 22.0,
+        "fcf": 1.9
+      },
+      {
+        "year": 2025,
+        "revenue": 9.8,
+        "op_income": 3.5,
+        "net_income": 2.5,
+        "op_margin_pct": 35.7,
+        "npm_pct": 25.5,
+        "fcf": 2.6
+      }
+    ]
+  },
+  "bs_snapshot": {
+    "total_assets": 28.5,
+    "total_liab": 9.5,
+    "equity": 19.0,
+    "cash": 1.0,
+    "debt": 3.0,
+    "ocf_5y_avg": 1.8,
+    "fcf_5y_avg": 1.6,
+    "capex_intensity": 0.085
+  },
+  "cf_summary": {
+    "ocf_5y_avg": 1.8,
+    "fcf_5y_avg": 1.6,
+    "capex_intensity": 0.085
+  },
+  "financial_unit": {
+    "currency": "USD",
+    "scale": "B"
+  }
+}

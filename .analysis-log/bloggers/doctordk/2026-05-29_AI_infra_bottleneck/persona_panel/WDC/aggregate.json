@@ -1,0 +1,403 @@
+{
+  "ticker": "WDC",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "lean_bearish": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bullish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.552,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.56
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.56
+        }
+      ],
+      "dominant": "neutral (3/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.66
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.54
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "단기과열·밸류",
+      "frequency": 12,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "ben-graham",
+        "mohnish-pabrai",
+        "michael-burry",
+        "peter-lynch",
+        "cathie-wood",
+        "phil-fisher",
+        "bill-ackman",
+        "nassim-taleb",
+        "rakesh-jhunjhunwala",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인"
+      ]
+    },
+    {
+      "theme": "AI병목수혜",
+      "frequency": 1,
+      "personas": [
+        "stanley-druckenmiller"
+      ],
+      "examples": [
+        "[inference] AI 데이터센터 스토리지 수요"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "검증 가능한 owner-earnings와 wide moat를 우선하며 현재 안전마진을 중시 프레임에서 Western Digital는 성장 스토리와 밸류 부담이 상충해 neutral."
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "단순하고 이해 가능한 비즈니스의 질적 우위와 합리적 가격을 결합 프레임에서 Western Digital는 성장 스토리와 밸류 부담이 상충해 neutral."
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.56,
+      "horizon": "medium_to_long",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "안전마진과 정량적 저평가가 충족될 때만 매수 프레임에서 Western Digital는 밸류·과열 우려가 성장 스토리를 상회해 lean_bearish."
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "비대칭 베팅과 낮은 다운사이드를 추구 프레임에서 Western Digital는 성장 스토리와 밸류 부담이 상충해 neutral."
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "컨트래리언 시각에서 과열·버블·사이클 정점을 경계 프레임에서 Western Digital는 밸류·과열 우려가 성장 스토리를 상회해 lean_bearish."
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.54,
+      "horizon": "medium_to_long",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "PEG와 이해 가능한 성장 스토리를 결합 프레임에서 Western Digital는 성장 스토리와 밸류 부담이 상충해 neutral."
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "파괴적 혁신의 장기 지수 성장과 TAM 확장을 중시 프레임에서 Western Digital는 성장 스토리와 밸류 부담이 상충해 neutral."
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.56,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "장기 성장 활주로와 R&D·경영진 질을 보는 성장 투자 프레임에서 Western Digital는 성장 스토리와 밸류 부담이 상충해 neutral."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.66,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "거시 추세와 유동성·내러티브 모멘텀에 집중 프레임에서 Western Digital는 질적 우위가 단기 과열·밸류 우려를 상회해 lean_bullish."
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_to_long",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "고품질·예측가능 현금흐름의 구조적 가치와 촉매를 본다 프레임에서 Western Digital는 성장 스토리와 밸류 부담이 상충해 neutral."
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "꼬리위험·취약성과 비대칭 옵션성(convexity)을 핵심 렌즈로 본다 프레임에서 Western Digital는 밸류·과열 우려가 성장 스토리를 상회해 lean_bearish."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.54,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "구조적 장기 성장 스토리에 대담하게 베팅하는 EM 성장 투자 프레임에서 Western Digital는 성장 스토리와 밸류 부담이 상충해 neutral."
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "medium_to_long",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] 스토리지 역사적 cyclicality",
+        "[inference] 10배 상승 후 사상 최고가 과열"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 데이터센터 스토리지 수요",
+        "[actual] Forward PE 30배·PB 25배 — $531 사상 최고가, 1Y +919%(10배), SanDisk 분사 후 잔존 법인",
+        "엔터프라이즈 SSD·니어라인 HDD 타이트"
+      ],
+      "uncertainty": "Western Digital — 스토리지 역사적 cyclicality 해소 여부가 핵심 변수",
+      "narrative_vs_quant_resolution": "스토리를 숫자로 환산해 내재가치 대비 가격을 평가 프레임에서 Western Digital는 밸류·과열 우려가 성장 스토리를 상회해 lean_bearish."
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "industry": {
+    "name": "유청단백 원료·뉴트리션 (Optimum Nutrition)",
+    "overview": "유청단백 원료 공급 + Optimum Nutrition(ON) 브랜드를 보유한 아일랜드 글로벌 뉴트리션 기업. GLP-1 근손실 단백질 붐의 'upstream(원료)' 수혜 — 브랜드 경쟁(레드오션)보다 가치사슬 상단의 과점적 지위가 방어적. 주가 1Y +77%로 강세, fPER 15.9x. 블로그가 'BellRing 레드오션 vs Glanbia 원료 매력'으로 대비한 핵심 종목. 단 유청 가격·ON 브랜드 경쟁 노출은 상존.",
+    "competitors": [
+      {
+        "name": "BellRing Brands",
+        "ticker": "BRBR"
+      },
+      {
+        "name": "dsm-firmenich",
+        "ticker": "DSFIR.AS"
+      },
+      {
+        "name": "Kerry Group",
+        "ticker": "KYGA.IR"
+      },
+      {
+        "name": "Arla/낙농 원료",
+        "ticker": ""
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2022",
+        "revenue": 5943700000.0,
+        "op_income": 236600000.0,
+        "net_income": 271400000.0,
+        "op_margin": 3.98,
+        "op_margin_pct": 3.98,
+        "net_margin_pct": 4.57,
+        "year": "2022"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 5425400000.0,
+        "op_income": 389600000.0,
+        "net_income": 344400000.0,
+        "op_margin": 7.18,
+        "op_margin_pct": 7.18,
+        "net_margin_pct": 6.35,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 3839700000.0,
+        "op_income": 233700000.0,
+        "net_income": 164700000.0,
+        "op_margin": 6.09,
+        "op_margin_pct": 6.09,
+        "net_margin_pct": 4.29,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2025",
+        "revenue": 3946400000.0,
+        "op_income": 274100000.0,
+        "net_income": 183300000.0,
+        "op_margin": 6.95,
+        "op_margin_pct": 6.95,
+        "net_margin_pct": 4.64,
+        "year": "2025"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "USD",
+    "five_year_pnl": [
+      {
+        "year": "2022",
+        "revenue": 5943700000.0,
+        "operating_income": 236600000.0,
+        "net_income": 271400000.0,
+        "op_margin_pct": 3.98
+      },
+      {
+        "year": "2023",
+        "revenue": 5425400000.0,
+        "operating_income": 389600000.0,
+        "net_income": 344400000.0,
+        "op_margin_pct": 7.18
+      },
+      {
+        "year": "2024",
+        "revenue": 3839700000.0,
+        "operating_income": 233700000.0,
+        "net_income": 164700000.0,
+        "op_margin_pct": 6.09
+      },
+      {
+        "year": "2025",
+        "revenue": 3946400000.0,
+        "operating_income": 274100000.0,
+        "net_income": 183300000.0,
+        "op_margin_pct": 6.95
+      }
+    ],
+    "five_quarter_pnl": [],
+    "balance_sheet_snapshot": {},
+    "material_variance_summary": "yfinance income_stmt 기준 USD 실데이터. 상세 변동요인은 News Timeline·Deep Research 본문 참조."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "GLP-1 단백질 원료 수요 급증 + ON 브랜드 성장으로 두 자릿수 EPS 성장, 멀티플 유지",
+      "key_assumptions": [
+        "유청 원료 수요 가속",
+        "ON 점유율 확대",
+        "유청가 안정"
+      ],
+      "target_price": 28
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "원료·ON 견조한 한 자릿수 성장, fPER 15x 유지",
+      "key_assumptions": [
+        "수요 견조",
+        "마진 안정"
+      ],
+      "target_price": 24
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "유청가 급등·ON 경쟁 심화로 마진 압박, 멀티플 디레이팅",
+      "key_assumptions": [
+        "원료가 변동",
+        "브랜드 경쟁"
+      ],
+      "target_price": 17
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "event": "반기/연간 실적",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "원료·ON 성장 지속"
+    },
+    {
+      "date": "2026-2H",
+      "event": "GLP-1 단백질 수요 데이터",
+      "type": "industry",
+      "expected_impact": "high",
+      "description": "upstream 수혜 검증"
+    },
+    {
+      "date": "2026-2H",
+      "event": "유청 원료가 추이",
+      "type": "commodity",
+      "expected_impact": "med",
+      "description": "마진 방향"
+    }
+  ],
+  "risks": [
+    {
+      "name": "유청 원료가 변동",
+      "probability": "med",
+      "impact": "med",
+      "description": "낙농 사이클 의존",
+      "mitigation": "장기계약·가격 전가"
+    },
+    {
+      "name": "ON 브랜드 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "단백질 브랜드 레드오션",
+      "mitigation": "원료+브랜드 수직통합 방어"
+    },
+    {
+      "name": "환율(EUR/USD)·상장지 괴리",
+      "probability": "low",
+      "impact": "low",
+      "description": "USD 실적·EUR 상장",
+      "mitigation": "—"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T08",
+      "ticker_exposure": "++",
+      "claim": "GLP-1(비만치료제) 복용 확대로 근손실 방지용 단백질·근육보존 제품 수요가 급증한다. 단백질 제품군(43%)·분말 제형(38%)이 핵심이며, 관련 시장은 2025년 $4.1B에서 2035년 $13B로 CAGR 12.2% 성장이 전망된다.",
+      "type": "predictive",
+      "evidence": "블로그 4: 'GLP-1 복용 이후 근손실에 따른 단백질/근육 보존 제품이 중요한 트렌드(제품군 43%, 분말제형 38%) … $4.1B(2025)→$13B(2035), CAGR 12.2%'.",
+      "testability": "med",
+      "current_status": "likely"
+    },
+    {
+      "thesis_id": "T09",
+      "ticker_exposure": "++",
+      "claim": "GLP-1 근손실 단백질 분야에서 국내 ODM은 실질적 비교 우위가 없고, 가장 선명한 수혜는 해외 기업이다 — BellRing Brands는 순수 수혜주였으나 경쟁 심화로 레드오션화됐고, 유청단백 원료를 공급하는 Glanbia가 매력적이다.",
+      "type": "normative",
+      "evidence": "블로그 4: '근손실 분야엔 국내 기업 중 어떤 기업도 실질적 비교 우위가 없어보임 … 벨링브랜즈가 가장 순수한 수혜주였지만 어느새 레드오션 … Glanbia 등 유청단백 원료 공급사가 확실히 좋아보임'. BRBR 2026.5.5 Q2 실적 쇼크(마진 압박)로 1년 -86% 확인.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T01",
+      "ticker_exposure": "0",
+      "claim": "K-건기식 ODM 산업이 K-뷰티의 성공 경로를 따라 글로벌 수출 산업으로 전환되고 있다. 국내에서 치열하게 경쟁하던 ODM들이 글로벌 최고 제조 경쟁력을 보유한 것으로 재평가되며, ① 방한 외국인의 대형약국·올리브영 건기식 대량 구매, ② K-건기식 직접 수출 증가, ③ 해외 브랜드의",
+      "type": "factual",
+      "evidence": "블로그: '대한민국은 제조 공화국 … ODM 제조는 역시 대한민국', 'K-뷰티 성공 스토리 … K-건기식도 비슷'. K-뷰티(화장품 ODM) 글로벌화 선례. 수출 데이터·외국인 인바운드 소비 추세.",
+      "testability": "high",
+      "current_status": "likely"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "실적",
+      "title": "글랜비아 1Q26 실적",
+      "summary": "건기식 ODM 섹터 1Q26 — 역성장군 턴어라운드/성장군 견조(블로그 5장)",
+      "impact": "+"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 22,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "현 주가 €22(1Y +77%), fPER 15.9x. GLP-1 단백질 원료 수요의 upstream 과점 수혜로 BellRing(레드오션) 대비 방어적. 유청가·ON 경쟁이 변수이나 가치사슬 상단 지위가 강점."
+  },
+  "analysis_mode": "blog",
+  "thesis_count": 3
+}

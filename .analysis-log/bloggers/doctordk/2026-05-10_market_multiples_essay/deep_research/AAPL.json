@@ -1,0 +1,314 @@
+{
+  "ticker": "AAPL",
+  "name_kr": "애플",
+  "name_en": "Apple Inc.",
+  "industry": {
+    "name": "Consumer Electronics + Services Platform",
+    "overview": "1976년 설립. iPhone(51% 매출), Services(24%), Wearables(9%), Mac(8%), iPad(7%) 5개 segment. Services Gross margin 73%로 영구 marginal cost 0 비즈니스. Active device base 2B+로 services moat의 발전.",
+    "competitors": [
+      {
+        "name": "Apple",
+        "ticker": "AAPL",
+        "share_pct": 19.0,
+        "moat": "Brand + iOS lock-in + Services 73% GM"
+      },
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 18.0,
+        "moat": "Galaxy AI + vertical integration (Foundry·Display)"
+      },
+      {
+        "name": "Xiaomi",
+        "ticker": "1810.HK",
+        "share_pct": 13.0,
+        "moat": "Cost leadership + IoT ecosystem (Mi·POCO)"
+      },
+      {
+        "name": "Google Pixel",
+        "ticker": "GOOG",
+        "share_pct": 2.0,
+        "moat": "AI-native + Gemini Nano"
+      },
+      {
+        "name": "Huawei",
+        "ticker": "HUAWEI",
+        "share_pct": 4.0,
+        "moat": "China 회복 + HarmonyOS"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 530.0,
+      "cagr_pct": 4.0,
+      "horizon": "Global smartphone+services 2024-2028"
+    },
+    "news": [
+      {
+        "date": "2026-04-30",
+        "source": "Apple Q2 Earnings",
+        "title": "Q2 매출 $98B (+5% YoY), Services $25B (+12%)",
+        "summary": "China 매출 회복 +3%, iPhone cycle 안정. Capital return 분기 $30B."
+      },
+      {
+        "date": "2026-06-09",
+        "source": "WWDC 2026 (예정)",
+        "title": "Apple Intelligence Phase 2 발표 예정",
+        "summary": "Foundation model 자체화 + cross-device AI 통합."
+      },
+      {
+        "date": "2026-02-15",
+        "source": "Bloomberg",
+        "title": "EU DMA App Store 30% commission 단계적 축소 결정",
+        "summary": "Apple Services 매출 영향 -3% 추정. 보완 수익원 검토."
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 365817,
+        "op_income": 108949,
+        "op_margin": 29.8,
+        "net_income": 94680,
+        "net_margin": 25.9
+      },
+      {
+        "year": 2022,
+        "revenue": 394328,
+        "op_income": 119437,
+        "op_margin": 30.3,
+        "net_income": 99803,
+        "net_margin": 25.3
+      },
+      {
+        "year": 2023,
+        "revenue": 383285,
+        "op_income": 114301,
+        "op_margin": 29.8,
+        "net_income": 96995,
+        "net_margin": 25.3
+      },
+      {
+        "year": 2024,
+        "revenue": 391035,
+        "op_income": 123216,
+        "op_margin": 31.5,
+        "net_income": 93736,
+        "net_margin": 24.0
+      },
+      {
+        "year": 2025,
+        "revenue": 403000,
+        "op_income": 129000,
+        "op_margin": 32.0,
+        "net_income": 98000,
+        "net_margin": 24.3
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2026-03-30",
+      "cash_usdmn": 156000,
+      "total_debt_usdmn": 100000,
+      "net_debt_usdmn": -56000,
+      "total_assets_usdmn": 360000,
+      "total_equity_usdmn": 75000,
+      "current_ratio": 1.0,
+      "debt_to_equity": 1.33
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 120000,
+      "capex_2025_usdmn": 12000,
+      "fcf_2025_usdmn": 108000,
+      "dividend_paid_2025_usdmn": 15000,
+      "buyback_2025_usdmn": 95000
+    },
+    "peer_compare": [
+      {
+        "ticker": "AAPL",
+        "fwd_pe": 30.68,
+        "ev_ebitda": 22.5,
+        "fcf_yield_pct": 2.6,
+        "roe_pct": 165.0,
+        "debt_to_equity": 1.33
+      },
+      {
+        "ticker": "MSFT",
+        "fwd_pe": 28.5,
+        "ev_ebitda": 19.2,
+        "fcf_yield_pct": 2.8,
+        "roe_pct": 38.0,
+        "debt_to_equity": 0.3
+      },
+      {
+        "ticker": "GOOGL",
+        "fwd_pe": 21.0,
+        "ev_ebitda": 15.5,
+        "fcf_yield_pct": 3.5,
+        "roe_pct": 30.0,
+        "debt_to_equity": 0.07
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "Apple Intelligence success + Vision Pro mass",
+      "thesis": "Apple Intelligence iPhone upgrade cycle + Services +12%",
+      "prob_pct": 25,
+      "target_price": 395,
+      "assumption": "Apple Intelligence iPhone upgrade cycle + Services +12%",
+      "key_assumptions": [
+        "Apple Intelligence iPhone upgrade cycle + Services +12%"
+      ],
+      "upside_pct": 35
+    },
+    "base": {
+      "label": "Services +8%/년 + China 부분 회복",
+      "thesis": "Base — normal cycle",
+      "prob_pct": 55,
+      "target_price": 335,
+      "assumption": "Base — normal cycle",
+      "key_assumptions": [
+        "Base — normal cycle"
+      ],
+      "upside_pct": 14
+    },
+    "bear": {
+      "label": "China -25% + Apple Intelligence 실패",
+      "thesis": "Bear — services growth 5%",
+      "prob_pct": 20,
+      "target_price": 215,
+      "assumption": "Bear — services growth 5%",
+      "key_assumptions": [
+        "Bear — services growth 5%"
+      ],
+      "downside_pct": -27
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06",
+      "event": "WWDC 2026 — Apple Intelligence Phase 2",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Cross-device AI + foundation model 자체화 시 +8%"
+    },
+    {
+      "date": "2026-09",
+      "event": "iPhone 17 launch",
+      "type": "product",
+      "expected_impact": "+/-",
+      "description": "AI-centric features 차별화 성공 시 +10%"
+    },
+    {
+      "date": "2026 quarterly",
+      "event": "Services 분기 매출 $30B 돌파",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Services growth +12% 회복 신호 시 +6%"
+    },
+    {
+      "date": "2026 ongoing",
+      "event": "China 매출 YoY 회복 추적",
+      "type": "industry",
+      "expected_impact": "+/-",
+      "description": "China +5% 회복 신호 시 +5%"
+    },
+    {
+      "date": "2026 H2",
+      "event": "Vision Pro 가격 인하 ($1,999 mass-market)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Mass adoption 가속 시 +4%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "China 매출 영구 침체 (geopolitical)",
+      "description": "China 매출 영구 침체 (geopolitical)",
+      "probability": "med",
+      "impact": "high",
+      "mitigation": "India·SEA 다각화 + 본토 retail 확장"
+    },
+    {
+      "name": "iPhone replacement cycle 4-5년 연장",
+      "description": "iPhone replacement cycle 4-5년 연장",
+      "probability": "high",
+      "impact": "med",
+      "mitigation": "Trade-in program + financing"
+    },
+    {
+      "name": "EU DMA App Store 30% commission 침식",
+      "description": "EU DMA App Store 30% commission 침식",
+      "probability": "high",
+      "impact": "med",
+      "mitigation": "보완 수익원 (광고·B2B)"
+    },
+    {
+      "name": "Apple Intelligence ARPU lift 미흡",
+      "description": "Apple Intelligence ARPU lift 미흡",
+      "probability": "med",
+      "impact": "med",
+      "mitigation": "Foundation model 자체화 진행"
+    },
+    {
+      "name": "Google search payment $20B/년 cut",
+      "description": "Google search payment $20B/년 cut",
+      "probability": "low",
+      "impact": "med",
+      "mitigation": "Services 다각화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T3",
+      "claim": "AAPL은 안정성 프리미엄 era archetype",
+      "type": "industry",
+      "support_for_ticker": "STRONG",
+      "testability": "high",
+      "current_status": "confirmed",
+      "evidence": "FCF $108B, services moat, shareholder yield 12%, brand moat",
+      "ticker_specific_note": "fwd PE 30배는 quality premium 정당화 가능 — services growth 8%+ 지속 시"
+    },
+    {
+      "thesis_id": "T1",
+      "claim": "Multiple은 시대 합의 — AAPL은 historic 평균의 1.67배",
+      "type": "macro",
+      "support_for_ticker": "MIXED",
+      "testability": "high",
+      "current_status": "ongoing",
+      "evidence": "AAPL fwd PE 30 vs 10Y avg 18, quality compression on era ends",
+      "ticker_specific_note": "Multiple expansion이 era 합의로 정착되었으나 contraction risk 존재"
+    },
+    {
+      "thesis_id": "T8",
+      "claim": "Services growth durability 가정의 humility 필요",
+      "type": "industry",
+      "support_for_ticker": "MIXED",
+      "testability": "medium",
+      "current_status": "speculative",
+      "evidence": "Services growth 2023 +9% → 2025 +8% 감속 추세",
+      "ticker_specific_note": "Apple Intelligence ARPU lift 미확인, services moat 영원하지 않을 가능성"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "global_filing",
+      "date": "2025-11-01",
+      "title": "Form 10-K 2024",
+      "summary": "iPhone $201B (51%), Services $96B (24%), Wearables $37B, Mac $30B, iPad $26B. China risk 명시."
+    },
+    {
+      "type": "global_filing",
+      "date": "2026-05-01",
+      "title": "Form 10-Q Q2 2026",
+      "summary": "Q2 매출 $98B, Services $25B, China $19B (+3% YoY 회복)."
+    },
+    {
+      "type": "press_release",
+      "date": "2026-04-30",
+      "title": "분기 capital return $30B 발표",
+      "summary": "배당 +5% 인상 + buyback $25B 추가 승인."
+    }
+  ]
+}

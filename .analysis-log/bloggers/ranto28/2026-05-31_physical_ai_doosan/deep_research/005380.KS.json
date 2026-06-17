@@ -1,0 +1,260 @@
+{
+  "industry": {
+    "name": "완성차·휴머노이드 로봇(보스턴다이내믹스)",
+    "overview": "현대차는 글로벌 완성차 톱티어이자 보스턴다이내믹스(아틀라스)를 통한 피지컬 AI 플레이어다. 아틀라스+구글 제미나이 로보틱스 결합, 2028년 연 3만 대 생산·조지아 공장 투입 계획이 옵션 가치다. 본업(자동차)은 OPM 약 6%로 안정적 현금흐름을 창출하며, 휴머노이드는 그 위에 얹힌 장기 옵션이다. 정의선 회장은 '피지컬은 빅테크가 모방 못한다'며 제조 해자를 강조한다.",
+    "competitors": [
+      {
+        "name": "Toyota",
+        "ticker": "7203.T"
+      },
+      {
+        "name": "Tesla",
+        "ticker": "TSLA"
+      },
+      {
+        "name": "기아",
+        "ticker": "000270.KS"
+      },
+      {
+        "name": "현대모비스",
+        "ticker": "012330.KS"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2025",
+        "fiscal_year": "2025",
+        "revenue": 186254472000000.0,
+        "op_income": 11467851000000.0,
+        "net_income": 9445987000000.0,
+        "op_margin": 6.16,
+        "op_margin_pct": 6.16,
+        "net_margin_pct": 5.07
+      },
+      {
+        "year": "2024",
+        "fiscal_year": "2024",
+        "revenue": 175231153000000.0,
+        "op_income": 14239592000000.0,
+        "net_income": 12526691000000.0,
+        "op_margin": 8.13,
+        "op_margin_pct": 8.13,
+        "net_margin_pct": 7.15
+      },
+      {
+        "year": "2023",
+        "fiscal_year": "2023",
+        "revenue": 162663579000000.0,
+        "op_income": 15126901000000.0,
+        "net_income": 11961717000000.0,
+        "op_margin": 9.3,
+        "op_margin_pct": 9.3,
+        "net_margin_pct": 7.35
+      },
+      {
+        "year": "2022",
+        "fiscal_year": "2022",
+        "revenue": 142151469000000.0,
+        "op_income": 9824928000000.0,
+        "net_income": 7364364000000.0,
+        "op_margin": 6.91,
+        "op_margin_pct": 6.91,
+        "net_margin_pct": 5.18
+      },
+      {
+        "year": "2021",
+        "fiscal_year": "2021",
+        "revenue": null,
+        "op_income": null,
+        "net_income": null,
+        "op_margin": null,
+        "op_margin_pct": null,
+        "net_margin_pct": null
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2025",
+        "revenue": 186254472000000.0,
+        "operating_income": 11467851000000.0,
+        "net_income": 9445987000000.0,
+        "op_margin_pct": 6.16
+      },
+      {
+        "year": "2024",
+        "revenue": 175231153000000.0,
+        "operating_income": 14239592000000.0,
+        "net_income": 12526691000000.0,
+        "op_margin_pct": 8.13
+      },
+      {
+        "year": "2023",
+        "revenue": 162663579000000.0,
+        "operating_income": 15126901000000.0,
+        "net_income": 11961717000000.0,
+        "op_margin_pct": 9.3
+      },
+      {
+        "year": "2022",
+        "revenue": 142151469000000.0,
+        "operating_income": 9824928000000.0,
+        "net_income": 7364364000000.0,
+        "op_margin_pct": 6.91
+      },
+      {
+        "year": "2021",
+        "revenue": null,
+        "operating_income": null,
+        "net_income": null,
+        "op_margin_pct": null
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "본업 견조 + 아틀라스 양산·제미나이 결합 성공으로 휴머노이드 옵션 가치 재평가. 저평가 완성차 멀티플 + 로봇 프리미엄 동시 확보.",
+      "key_assumptions": [
+        "자동차 마진 유지",
+        "아틀라스 상용화 온트랙",
+        "제미나이 시너지"
+      ],
+      "target_price": 900000
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "본업 안정적 현금흐름 + 저평가 멀티플. 휴머노이드는 장기 옵션으로 점진 반영, 큰 폭 재평가는 상용화 진척 필요.",
+      "key_assumptions": [
+        "자동차 판매 견조",
+        "로봇은 R&D 단계",
+        "주주환원 지속"
+      ],
+      "target_price": 760000
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "글로벌 수요 둔화·관세 + 휴머노이드 지연 시 본업·옵션 동시 약화.",
+      "key_assumptions": [
+        "완성차 수요 둔화",
+        "관세 부담",
+        "로봇 ROI 지연"
+      ],
+      "target_price": 620000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026~2027",
+      "event": "아틀라스+제미나이 진척·시연",
+      "type": "product",
+      "expected_impact": "med",
+      "description": "휴머노이드 옵션 가치 재평가 트리거"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적·주주환원",
+      "type": "earnings",
+      "expected_impact": "med",
+      "description": "본업 마진·배당/자사주 정책 확인"
+    },
+    {
+      "date": "2028",
+      "event": "조지아 공장 아틀라스 투입·연 3만대",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "휴머노이드 양산 진입 — 장기 밸류 핵심"
+    }
+  ],
+  "risks": [
+    {
+      "name": "휴머노이드 기여 제한",
+      "probability": "high",
+      "impact": "med",
+      "description": "보스턴다이내믹스는 연결 매출 비중 미미 — 단기 실적 영향 작음",
+      "mitigation": "본업 현금흐름이 옵션 비용 흡수"
+    },
+    {
+      "name": "완성차 수요·관세",
+      "probability": "med",
+      "impact": "high",
+      "description": "글로벌 수요 둔화·미국 관세 환경",
+      "mitigation": "미국 현지 생산(조지아)·전동화 라인업"
+    },
+    {
+      "name": "로봇 ROI 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "양산 단가·안전 규제로 2028 목표 지연 가능",
+      "mitigation": "단계적 도입·그룹 수직 분업"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T02",
+      "ticker_exposure": "+",
+      "claim": "2026년 시장의 화두는 'AI'에서 '피지컬 AI'(AI와 로봇의 결합)로 구체화되며, 젠슨 황이 CES에서 제시한 베라 루빈(Vera Rubin) 플랫폼이 피지컬 AI 시대를 여는 핵심 컴퓨팅 인프라가 된다.",
+      "type": "predictive",
+      "evidence": "CES 젠슨 황 발언 'AI의 다음 단계는 로봇공학', 베라 루빈을 피지컬 AI 핵심 인프라로 규정. 메르 연초 '2026년의 화두는?' 글의 피지컬AI·로봇 주목과 일관.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T05",
+      "ticker_exposure": "++",
+      "claim": "현대차그룹 보스턴다이내믹스의 휴머노이드 아틀라스가 구글 제미나이 로보틱스와 결합되고, 2028년부터 연 3만 대 생산 계획을 밝히며 피지컬 AI의 또 다른 한 축으로 부상한다.",
+      "type": "factual",
+      "evidence": "메르 인용 38~40번: CES 2026 현대차그룹 'AI 로보틱스' 미디어데이, 아틀라스+제미나이 파트너십, 2028년 연 3만 대 생산 계획.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T06",
+      "ticker_exposure": "++",
+      "claim": "현대차는 2028년부터 조지아주 공장에 아틀라스를 투입해 부품 분류·조립 등 단순 반복·고중량·고위험 작업을 로봇이 맡는 '로봇이 돌리는 공장'을 지향하며, 현대모비스가 정밀 액추에이터를 담당해 그룹 내 수직 분업이",
+      "type": "predictive",
+      "evidence": "메르 인용 41~47번: 현기차 제조인프라·공정제어, 현대모비스 액추에이터, 아틀라스 50kg·2.3m·-20~40도 작업, 자율 배터리 교체.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T07",
+      "ticker_exposure": "++",
+      "claim": "정의선 회장의 '피지컬 AI의 피지컬 부분은 빅테크가 쉽게 모방할 수 없다'는 인식대로, AI·빅테크는 두뇌(소프트웨어)를, 현대차그룹은 피지컬(하드웨어·제조)을 맡는 분업 구도가 현대차의 구조적 해자가 될 수 있다",
+      "type": "normative",
+      "evidence": "메르 인용 48~49번: 정의선 신년사 발언, 'AI는 머리·피지컬은 현대차그룹' 전략 해석.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T12",
+      "ticker_exposure": "-",
+      "claim": "(반론) 시구 구단 선택은 정교한 전략이 아니라, 젠슨 황 방한 기간 삼성은 광주(기아)·LG는 창원(NC) 원정인 반면 두산만 서울 잠실 홈 3연전을 치르는 단순한 일정·지리적 편의로 결정됐을 가능성도 충분하다.",
+      "type": "conditional",
+      "evidence": "메르 본문 말미: 방한 기간 삼성-기아 광주 원정, LG-NC 창원 원정, 두산만 잠실 홈 → 단순 선택 가능성 자인('아주 간단한 이유로 결정되기도').",
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-01",
+      "type": "산업",
+      "title": "CES 2026 현대차그룹 AI 로보틱스 미디어데이",
+      "summary": "아틀라스+구글 제미나이 로보틱스 파트너십, 2028년 연 3만대 생산, 조지아 공장 투입 계획 발표"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 747000,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 매출 ₩186조·OPM 약 6%. 현 주가는 완성차 본업 가치 위주로 형성돼 휴머노이드 옵션은 거의 미반영 상태로 추정 — 즉 아틀라스 상용화가 가시화되면 옵션 가치가 추가 업사이드로 작동할 여지. 다만 본업 수요·관세가 base 가치의 핵심."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

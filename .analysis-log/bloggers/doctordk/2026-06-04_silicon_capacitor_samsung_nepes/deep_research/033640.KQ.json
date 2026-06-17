@@ -1,0 +1,197 @@
+{
+  "industry": {
+    "name": "OSAT 후공정 / 첨단 패키징 (FO-PLP) + 실리콘 커패시터 후공정",
+    "overview": "네패스는 팬아웃 패널레벨패키징(FO-PLP) 등 첨단 패키징을 보유한 국내 OSAT다. 블로그의 '깐부' 구조에서 삼성전기가 설계·생산한 실리콘 커패시터의 후공정(後工程)을 담당한다(KIPOST 338632). Si-cap 물량이 본격화되면 후공정 매출이 연동 성장하는 구조 — 다만 과거 영업이익률이 -2~+4%대로 얇아 흑자 가시성·캐파 투자 부담이 변수. AI 패키징 수요가 첨단 OSAT의 구조적 성장 동력.",
+    "competitors": [
+      {
+        "name": "네패스",
+        "ticker": "033640.KQ",
+        "share_pct": null,
+        "moat": "FO-PLP + 삼성전기 Si-cap 후공정 파트너"
+      },
+      {
+        "name": "Amkor(앰코)",
+        "ticker": "AMKR",
+        "share_pct": null,
+        "moat": "글로벌 OSAT 2위 + 어드밴스드 패키징"
+      },
+      {
+        "name": "하나마이크론",
+        "ticker": "067310.KQ",
+        "share_pct": null,
+        "moat": "국내 후공정 + 메모리 패키징"
+      },
+      {
+        "name": "SFA반도체",
+        "ticker": "036540.KQ",
+        "share_pct": null,
+        "moat": "메모리 후공정·테스트"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-21",
+        "title": "네패스, 삼성전기 실리콘 커패시터 후공정 담당",
+        "source": "kipost.net/news/articleView.html?idxno=338632",
+        "summary": "삼성전기 Si-cap '깐부' — 후공정 물량 확보 기대",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06-04",
+        "title": "1Y 주가 +363% — Si-cap·첨단 패키징 모멘텀",
+        "source": "yfinance live",
+        "summary": "AI 패키징 수요 기대 선반영",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-04)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.59,
+        "op_income": -0.01,
+        "net_income": 0.08,
+        "op_margin": -1.7,
+        "net_margin": 13.6
+      },
+      {
+        "year": 2023,
+        "revenue": 0.47,
+        "op_income": 0.01,
+        "net_income": -0.1,
+        "op_margin": 2.1,
+        "net_margin": -21.3
+      },
+      {
+        "year": 2024,
+        "revenue": 0.46,
+        "op_income": null,
+        "net_income": -0.06,
+        "op_margin": null,
+        "net_margin": -13.0
+      },
+      {
+        "year": 2025,
+        "revenue": 0.52,
+        "op_income": 0.02,
+        "net_income": 0.02,
+        "op_margin": 3.8,
+        "net_margin": 3.8
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.59조 → 2025 ₩0.52조로 정체, 영업이익률은 2022 -1.7%에서 2025 +3.8%로 얇은 흑자 전환 중. 구조적으로 저마진·고정비 부담이 큰 후공정 사업이라, 실리콘 커패시터 후공정 물량이 더해질 때 가동률·마진 레버리지가 관건. 흑자 폭이 작아 물량 증가가 이익에 비선형으로 작용할 수 있는 고베타 구조.",
+    "valuation_summary": "Forward PE 163.7× (yfinance live) — 얇은 이익 기반에서 PE가 극단적으로 높게 잡히는 전형적 turnaround/고베타 패턴. 현재가 ₩37,650 / 1Y +363% / 연변동성 80%(매우 높음). 실적보다 'Si-cap 후공정 물량' 기대가 주가를 견인."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.38,
+      "description": "삼성전기 Si-cap 2027~2028 ramp에 후공정 물량 본격 연동 → 가동률 상승·마진 레버리지로 이익 급증. 첨단 패키징 추가 고객 확보 시 멀티플 정당화.",
+      "key_drivers": [
+        "Si-cap 후공정 물량 본격화",
+        "가동률·마진 레버리지",
+        "FO 패키징 신규 고객"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "Si-cap 후공정 물량이 2027부터 점진 인식, 얇은 흑자 유지. 첨단 패키징 수요는 견조하나 캐파 투자 부담이 이익 개선을 상쇄.",
+      "key_drivers": [
+        "점진 물량 인식",
+        "캐파 capex 부담",
+        "OSAT 업황"
+      ]
+    },
+    "bear": {
+      "probability": 0.22,
+      "description": "삼성전기 물량 지연/후공정 단가 압박 + 극단 valuation(PE 163×) 정상화로 주가 큰 폭 조정. 단일 고객 의존 리스크 현실화.",
+      "key_drivers": [
+        "물량 지연",
+        "고객 집중 리스크",
+        "멀티플 정상화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "name": "Si-cap 후공정 물량 인식",
+      "impact": "high",
+      "description": "삼성전기 ramp 연동 — 매출·가동률 확인"
+    },
+    {
+      "date": "2026-분기",
+      "name": "분기 실적 / 수주 공시",
+      "impact": "high",
+      "description": "흑자 폭·마진 레버리지 검증"
+    },
+    {
+      "date": "2026-2H",
+      "name": "첨단 패키징 신규 고객",
+      "impact": "medium",
+      "description": "고객 다변화 시 집중 리스크 완화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "극단 밸류에이션 (fwd PE 163×)",
+      "probability": "high",
+      "impact": "high",
+      "description": "얇은 이익 기반 — 기대 하회 시 급락 위험"
+    },
+    {
+      "name": "저마진·적자 이력",
+      "probability": "medium",
+      "impact": "high",
+      "description": "후공정 고정비 구조, 가동률 민감"
+    },
+    {
+      "name": "고객 집중 (삼성전기 단일)",
+      "probability": "medium",
+      "impact": "high",
+      "description": "물량/단가 협상력 약화·내재화 위험"
+    },
+    {
+      "name": "캐파 투자 부담",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "ramp 대응 capex가 현금흐름 압박"
+    },
+    {
+      "name": "초고변동성 (vol 80%)",
+      "probability": "high",
+      "impact": "medium",
+      "description": "소형 고베타 — 포지션 한도 축소 필요"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T02",
+      "claim": "삼성전기-네패스 깐부 분업",
+      "current_status": "confirmed",
+      "evidence": "KIPOST — 네패스가 Si-cap 후공정 담당"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "Si-cap 매출 급성장 연동",
+      "current_status": "pending",
+      "evidence": "후공정 물량은 삼성전기 ramp에 후행"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "AI 가속기 수요 연동",
+      "current_status": "pending",
+      "evidence": "최종 수요는 빅테크/마벨 칩 출하"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05-21",
+      "type": "보도/IR",
+      "summary": "삼성전기 실리콘 커패시터 후공정 담당(KIPOST) — 정식 수주공시는 향후 확인 필요",
+      "title": "삼성전기 Si-cap 후공정 파트너 (보도 기반)"
+    }
+  ]
+}

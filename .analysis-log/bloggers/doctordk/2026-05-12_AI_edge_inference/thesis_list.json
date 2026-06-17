@@ -1,0 +1,90 @@
+{
+  "post_meta": {
+    "url": "https://blog.naver.com/doctordk/224282538765",
+    "title": "도대체 왜 아카미였지?",
+    "author": "의교창 (doctordk)",
+    "published_at": "2026-05-12"
+  },
+  "summary_one_liner": "Anthropic–Akamai 18억 달러·7년 계약은 AI 인프라 패러다임이 '학습(Training) 중심·중앙집중'에서 '추론(Inference) 중심·분산/엣지'로 이동하는 신호. 진짜 수혜는 새 데이터센터를 짓는 기업이 아니라, 이미 전 세계에 물리적 거점(CDN 에지서버·통신 기지국·광케이블)을 깔아둔 인프라 보유 기업에게 돌아갈 가능성이 크다.",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "Anthropic이 Akamai와 약 18억 달러 규모·7년 장기 계약을 체결 (Akamai 사상 최대 계약)",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "최근 보도에 따르면 앤트로픽은 아카마이와 약 18억 달러 규모, 7년 장기 계약을 체결한 것으로 알려졌습니다. 'AI 기업이 왜 CDN 회사와 손을 잡지?'라는 의문이 들지만 구조를 보면 자연스러운 흐름입니다.",
+      "tags": ["Anthropic", "Akamai", "엣지계약", "18억달러"]
+    },
+    {
+      "claim_id": "T02",
+      "claim": "AI 시대에 진짜 폭발하는 수요는 학습(Training)이 아니라 추론(Inference)이다",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "특히 AI 시대에서 가장 중요한 것은 생각보다 학습이 아닙니다. 진짜 폭발하는 건 '추론'입니다. 사람들이 매일 클로드를 호출하고, 기업들이 AI 에이전트를 돌리고, 코드 생성·번역·검색·음성비서를 쓰는 모든 순간 AI는 실시간으로 답해야 합니다.",
+      "tags": ["추론", "Inference", "실시간", "수요폭발"]
+    },
+    {
+      "claim_id": "T03",
+      "claim": "산업이 '중앙집중형 AI'에서 '분산형/엣지 AI'로 이동 — 중앙 데이터센터 집중은 지연·네트워크비용·GPU 비효율을 초래",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "모든 요청을 미국 중앙 데이터센터까지 보내면 속도는 느려지고, 네트워크 비용은 증가하고, GPU 자원도 비효율적으로 사용됩니다. 그래서 지금 AI 업계는 '중앙 집중형 AI'에서 '분산형 AI'로, 사용자 가까운 곳에서 AI를 바로 실행시키는 '에지 AI' 구조로 이동하는 중입니다.",
+      "tags": ["엣지AI", "분산형", "지연단축", "네트워크비용"]
+    },
+    {
+      "claim_id": "T04",
+      "claim": "이미 글로벌 물리적 거점(에지서버·네트워크)을 보유한 기업이 최대 수혜 — Akamai는 영상 전송용으로 구축한 망을 AI 추론 인프라로 재활용",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "long_term",
+      "supporting_evidence": "원래 아카마이는 넷플릭스·유튜브 같은 대용량 영상을 전 세계 어디서든 빠르게 전달하기 위해 만들어진 회사로, 이미 수십만 개 수준의 에지 서버와 네트워크 거점을 깔아놓은 상태입니다. 과거에는 그 위로 '영상'이 지나갔다면 이제는 그 위로 'AI'가 지나가기 시작했습니다. AI 시대의 승자는 반드시 새로 인프라를 만드는 회사가 아닐 수 있습니다.",
+      "tags": ["CDN재활용", "에지서버", "물리적거점", "Akamai"]
+    },
+    {
+      "claim_id": "T05",
+      "claim": "젠슨 황(NVIDIA)도 '통신사 기지국을 AI 데이터센터처럼 쓰겠다' — 기존 통신망·기지국·광케이블·CDN망의 AI 추론 인프라 전환",
+      "type": "factual",
+      "importance": "supporting",
+      "timeframe": "present",
+      "supporting_evidence": "최근 젠슨 황이 말하는 방향도 비슷합니다. '통신사 기지국을 AI 데이터센터처럼 쓰겠다.' 이미 깔린 통신망·기지국·광케이블·CDN망을 AI 추론 인프라로 전환하겠다는 전략입니다.",
+      "tags": ["젠슨황", "NVIDIA", "기지국", "통신망전환"]
+    },
+    {
+      "claim_id": "T06",
+      "claim": "Anthropic은 컴퓨팅 자원을 다중화 — Google TPU·AWS·CoreWeave뿐 아니라 SpaceX 데이터센터 자원까지 확보",
+      "type": "factual",
+      "importance": "supporting",
+      "timeframe": "present",
+      "supporting_evidence": "흥미로운 건 앤트로픽이 최근 동시에 여러 방향으로 컴퓨팅 자원을 확장하고 있다는 점입니다. 구글 TPU, AWS, 코어위브뿐 아니라 최근에는 스페이스X 데이터센터 자원까지 확보하며 AI 인프라를 다중화하는 흐름이 나타나고 있습니다.",
+      "tags": ["컴퓨팅다중화", "TPU", "CoreWeave", "SpaceX"]
+    },
+    {
+      "claim_id": "T07",
+      "claim": "AI 패권 경쟁이 '단순 GPU 숫자'에서 '누가 더 가까운 곳에서 더 빠르게·더 싸게 AI를 실행하느냐'로 이동",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "long_term",
+      "supporting_evidence": "앞으로 AI 패권은 단순 'GPU 숫자'보다, 누가 더 가까운 곳에서 더 빠르게 더 싸게 AI를 실행시킬 수 있느냐의 경쟁으로 바뀔 가능성이 높습니다.",
+      "tags": ["AI패권", "비용효율", "지연", "경쟁축이동"]
+    },
+    {
+      "claim_id": "T08",
+      "claim": "인터넷 시대에는 '콘텐츠'가 이동했으나 AI 시대에는 '지능(intelligence)' 자체가 엣지로 이동 — 길목을 선점한 인프라 보유 기업이 구조적 수혜",
+      "type": "normative",
+      "importance": "supporting",
+      "timeframe": "long_term",
+      "supporting_evidence": "과거 인터넷 시대에는 콘텐츠가 이동했습니다. 하지만 AI 시대에는 '지능' 자체가 이동하기 시작했습니다. 그리고 그 길목에 아카마이가 이미 서 있었던 겁니다.",
+      "tags": ["지능이동", "엣지선점", "구조적수혜", "패러다임전환"]
+    }
+  ],
+  "extraction_meta": {
+    "n_theses": 8,
+    "core_count": 5,
+    "supporting_count": 3,
+    "extracted_at": "2026-06-02",
+    "method": "claude blog thesis decomposition (fresh context)"
+  }
+}

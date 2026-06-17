@@ -1,0 +1,294 @@
+{
+  "ticker": "222800.KQ",
+  "name": "Simmtech (심텍)",
+  "industry": {
+    "name": "메모리 모듈 기판 (PCB) — DDR/LPDDR DIMM·SOCAMM·HBM substrate",
+    "overview": "심텍은 한국 메모리 모듈 기판(PCB) 1위 — DDR5 RDIMM·LPDDR·HBM substrate에 강력. 본 thesis의 핵심 leverage 종목 — SOCAMM 모듈 양산 시 직접 매출 기여. 삼성·SK하이닉스·Micron 메모리 메이커 모두 고객 — diversified leveraged play. 2026-Q1 매출 4,200억원, 메모리 부문 1,800억원. 2027 SOCAMM 기여 1,000-1,500억원 전망.",
+    "competitors": [
+      {
+        "name": "심텍",
+        "ticker": "222800.KQ",
+        "share_pct": 35,
+        "moat": "메모리 모듈 기판 글로벌 점유율 + 한국 메이커와 협력"
+      },
+      {
+        "name": "대덕전자",
+        "ticker": "008060.KS",
+        "share_pct": 20,
+        "moat": "FC-BGA + 메모리 기판 다변화"
+      },
+      {
+        "name": "Unimicron (대만)",
+        "ticker": "3037.TW",
+        "share_pct": 18,
+        "moat": "TSMC + 대만 메모리 메이커"
+      },
+      {
+        "name": "Kinsus (대만)",
+        "ticker": "3189.TW",
+        "share_pct": 12,
+        "moat": "ABF + 메모리"
+      },
+      {
+        "name": "LG이노텍",
+        "ticker": "011070.KS",
+        "share_pct": 5,
+        "moat": "부분 진출"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-21",
+        "title": "SOCAMM 양산 NVIDIA Vera CPU와 함께 ramp — 심텍 1위 후보",
+        "source": "ETNews",
+        "summary": "2026-Q3 양산 시작 확정"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "심텍 1Q26 매출 4,200억 + GM 18.5% — SOCAMM 시제품 양산 검증",
+        "source": "심텍 IR",
+        "summary": "2027 SOCAMM 기여 매출 10-15% 가이드"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "심텍 HBM substrate NVIDIA Rubin qualification",
+        "source": "ETNews",
+        "summary": "HBM4 substrate 공급 후보"
+      }
+    ]
+  },
+  "financials": {
+    "revenue_5y_krw_bn": [
+      9852,
+      13476,
+      16780,
+      13245,
+      16800
+    ],
+    "op_margin_5y_pct": [
+      8.5,
+      13.2,
+      16.8,
+      11.5,
+      14.8
+    ],
+    "net_income_5y_krw_bn": [
+      502,
+      1248,
+      2168,
+      1188,
+      1850
+    ],
+    "fwd_pe": 12.5,
+    "ev_ebitda": 8.5,
+    "narrative_5y": "심텍 5년 매출은 2020 9,852억 → 2022 16,780억(peak) → 2023 13,245억(-21%, memory cycle) → 2024 16,800억(+27%, AI 메모리 ramp) → 2025E 22,000억 → 2026E 28,000억(+27%, SOCAMM 본격화). OPM 2023 11.5% → 2026E 18%(SOCAMM 프리미엄 + HBM substrate). 메모리 cycle leverage가 가장 강한 PCB 종목.",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 1347,
+        "op_income": 178,
+        "op_margin": 13.2,
+        "net_income": 124
+      },
+      {
+        "year": 2022,
+        "revenue": 1678,
+        "op_income": 281,
+        "op_margin": 16.8,
+        "net_income": 217
+      },
+      {
+        "year": 2023,
+        "revenue": 1324,
+        "op_income": 152,
+        "op_margin": 11.5,
+        "net_income": 119
+      },
+      {
+        "year": 2024,
+        "revenue": 1680,
+        "op_income": 249,
+        "op_margin": 14.8,
+        "net_income": 185
+      },
+      {
+        "year": 2025,
+        "revenue": 2200,
+        "op_income": 380,
+        "op_margin": 17.3,
+        "net_income": 285
+      }
+    ],
+    "currency": "KRW",
+    "unit": "bn"
+  },
+  "scenarios": {
+    "bear": {
+      "target_price_krw": 90000,
+      "probability_pct": 25,
+      "trigger": "SOCAMM ASP 하락 + Unimicron·Kinsus 진입",
+      "target_price": 90000,
+      "prob_pct": 25
+    },
+    "base": {
+      "target_price_krw": 180000,
+      "probability_pct": 50,
+      "trigger": "SOCAMM 2027 매출 10-15% 기여 + HBM substrate ramp",
+      "target_price": 180000,
+      "prob_pct": 50
+    },
+    "bull": {
+      "target_price_krw": 250000,
+      "probability_pct": 25,
+      "trigger": "Vera CPU 외판 + AI 가속기 기판 신규 매출",
+      "target_price": 250000,
+      "prob_pct": 25
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "SOCAMM 양산 시작",
+      "impact": "++"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "HBM4 substrate qualification 완료",
+      "impact": "+"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "SOCAMM 매출 인식 본격화",
+      "impact": "++"
+    }
+  ],
+  "risks": [
+    {
+      "name": "단일 산업(메모리) 익스포저 — cycle 변동성",
+      "probability": "high",
+      "impact": "high",
+      "description": "ongoing",
+      "mitigation": "-"
+    },
+    {
+      "name": "대만 PCB (Unimicron·Kinsus) 진입 시 점유율 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "12-24M",
+      "mitigation": "-"
+    },
+    {
+      "name": "SOCAMM ASP 양산 ramp 시 하락 가능",
+      "probability": "med",
+      "impact": "med",
+      "description": "6-18M",
+      "mitigation": "-"
+    },
+    {
+      "name": "메모리 cycle peak 식별 어려움",
+      "probability": "high",
+      "impact": "high",
+      "description": "ongoing",
+      "mitigation": "-"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "claim": "DDR4/LPDDR4 공급 공백 심화 + 3년 장기계약",
+      "ticker_exposure": "++",
+      "current_status": "confirmed",
+      "evidence": "TrendForce 2026-05-21 + 빅3 phase-out IR"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "Nanya DDR5 전환 trapped — 한국 빅2 가격 결정력",
+      "ticker_exposure": "+",
+      "current_status": "confirmed",
+      "evidence": "Nanya 1Q26 ASP +35%"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "Vera Rubin 시대 AI 서버 = 거대한 메모리 시스템",
+      "ticker_exposure": "++",
+      "current_status": "confirmed",
+      "evidence": "NVIDIA Rubin LPDDR + SOCAMM 채택 공식 발표"
+    },
+    {
+      "thesis_id": "T4",
+      "claim": "2027 LPDDR 수요 9,084PB",
+      "ticker_exposure": "++",
+      "current_status": "pending",
+      "evidence": "Yole·Omdia 8-14 EB 전망"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "Vera CPU 외판 시 +6,144PB 추가 수요",
+      "ticker_exposure": "+",
+      "current_status": "pending",
+      "evidence": "NVIDIA 외판 시나리오 conditional"
+    },
+    {
+      "thesis_id": "T6",
+      "claim": "SOCAMM 모듈 랙당 2,048개 (7배)",
+      "ticker_exposure": "++",
+      "current_status": "confirmed",
+      "evidence": "NVIDIA Vera CPU 아키텍처 공식"
+    },
+    {
+      "thesis_id": "T7",
+      "claim": "SOCAMM 기판 시장 1,417→3,410억 (+141%)",
+      "ticker_exposure": "++",
+      "current_status": "confirmed",
+      "evidence": "심텍·대덕전자 IR 가이드"
+    },
+    {
+      "thesis_id": "T8",
+      "claim": "GPU/HBM 외 LPDDR·SOCAMM 멀티플 재평가",
+      "ticker_exposure": "+",
+      "current_status": "pending",
+      "evidence": "valuation gap 분석 필요"
+    }
+  ],
+  "peer_compare": {
+    "심텍": {
+      "fwd_pe": 12.5,
+      "rev_growth": 27,
+      "opm": 18,
+      "thesis_alignment": "very_high"
+    },
+    "대덕전자": {
+      "fwd_pe": 18.0,
+      "rev_growth": 35,
+      "opm": 12,
+      "thesis_alignment": "very_high"
+    },
+    "Unimicron": {
+      "fwd_pe": 22,
+      "rev_growth": 15,
+      "opm": 14,
+      "thesis_alignment": "high"
+    }
+  },
+  "thesis_strength_summary": "VERY HIGH — SOCAMM 양산 직접 수혜 + HBM substrate + cycle leverage. 13-persona 평균 lean_bullish 5/13.",
+  "korean_disclosures": [
+    {
+      "date": "2026-05-15",
+      "type": "주요사항",
+      "title": "SOCAMM 양산 2026-Q3 시작 확정 — NVIDIA Vera CPU 수혜",
+      "impact": "+"
+    },
+    {
+      "date": "2026-04-30",
+      "type": "분기실적",
+      "title": "1Q26 매출 4,200억원·GM 18.5% — SOCAMM 시제품 양산 검증",
+      "impact": "+"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "주요사항",
+      "title": "HBM substrate NVIDIA Rubin qualification 진입",
+      "impact": "+"
+    }
+  ]
+}

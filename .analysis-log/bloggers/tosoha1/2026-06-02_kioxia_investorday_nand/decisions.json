@@ -1,0 +1,56 @@
+{
+  "portfolio_value_usd": 1000000,
+  "decisions": [
+    {
+      "ticker": "285A.T",
+      "name": "키옥시아",
+      "consensus_verdict": "underweight",
+      "signal_score": -0.269,
+      "action": "SELL/AVOID",
+      "recommended_size_pct": 0,
+      "recommended_size_usd": 0.0,
+      "rationale": "Persona panel 4OW/1H/8UW, signal=-0.269, size_constrained by vol_mult 0.5"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "샌디스크",
+      "consensus_verdict": "hold",
+      "signal_score": 0.385,
+      "action": "HOLD-BUY",
+      "recommended_size_pct": 1.27,
+      "recommended_size_usd": 12720.0,
+      "rationale": "Persona panel 6OW/4H/3UW, signal=0.385, size_constrained by vol_mult 0.5"
+    },
+    {
+      "ticker": "000660.KS",
+      "name": "SK하이닉스",
+      "consensus_verdict": "overweight",
+      "signal_score": 0.808,
+      "action": "BUY",
+      "recommended_size_pct": 3.19,
+      "recommended_size_usd": 31900.0,
+      "rationale": "Persona panel 8OW/5H/0UW, signal=0.808, size_constrained by vol_mult 0.75"
+    },
+    {
+      "ticker": "MU",
+      "name": "마이크론",
+      "consensus_verdict": "overweight",
+      "signal_score": 0.846,
+      "action": "BUY",
+      "recommended_size_pct": 3.19,
+      "recommended_size_usd": 31900.0,
+      "rationale": "Persona panel 9OW/4H/0UW, signal=0.846, size_constrained by vol_mult 0.75"
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "삼성전자",
+      "consensus_verdict": "hold",
+      "signal_score": 0.731,
+      "action": "BUY",
+      "recommended_size_pct": 3.19,
+      "recommended_size_usd": 31900.0,
+      "rationale": "Persona panel 6OW/7H/0UW, signal=0.731, size_constrained by vol_mult 0.75"
+    }
+  ],
+  "evaluated_at": "2026-06-02T15:41:51.841493"
+}

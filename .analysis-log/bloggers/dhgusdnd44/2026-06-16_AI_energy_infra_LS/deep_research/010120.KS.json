@@ -1,0 +1,171 @@
+{
+  "ticker": "010120.KS",
+  "company_kr": "LS ELECTRIC",
+  "company_en": "LS ELECTRIC",
+  "exchange": "KOSPI",
+  "as_of_date": "2026-06-16",
+  "industry": {
+    "name": "전력기기 (배전·자동화·인버터·ESS)",
+    "name_kr": "전력기기 / 전력화 (배전반·차단기·태양광 인버터·ESS PCS)",
+    "overview": "한국 전력기기 1위. 배전·자동화·태양광 인버터·ESS PCS. '태양광-전력화-LS' 사슬의 직접 수혜. 북미 데이터센터·전력망 투자로 전력기기 수요 급증, 미국 진출 가속.",
+    "competitors": [
+      {
+        "name": "슈나이더",
+        "ticker": "SU.PA",
+        "share_pct": null,
+        "moat": "글로벌 배전 1위"
+      },
+      {
+        "name": "ABB",
+        "ticker": "ABBN.SW",
+        "share_pct": null,
+        "moat": "전력·자동화"
+      },
+      {
+        "name": "현대일렉트릭",
+        "ticker": "267260.KS",
+        "share_pct": null,
+        "moat": "변압기 강세"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "데이터센터·재생에너지·전기화로 전력기기 TAM 구조적 확대. 북미 전력망 노후 교체 + AI 데이터센터 전력 인프라 동시 수요."
+    },
+    "ai_infrastructure_context": "데이터센터 배전·전력변환(인버터·PCS)·ESS는 전력화의 핵심 단. AI 전력밀도 폭증이 LS ELECTRIC 제품 수요로 직결.",
+    "news": []
+  },
+  "financials": {
+    "currency": "KRW",
+    "unit": "KRW 조",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, KRW 조)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": null,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": null,
+        "net_margin": null
+      },
+      {
+        "year": 2022,
+        "revenue": 3.377,
+        "op_income": 0.189,
+        "op_margin": 5.6,
+        "net_income": 0.09,
+        "net_margin": 2.7
+      },
+      {
+        "year": 2023,
+        "revenue": 4.23,
+        "op_income": 0.325,
+        "op_margin": 7.7,
+        "net_income": 0.206,
+        "net_margin": 4.9
+      },
+      {
+        "year": 2024,
+        "revenue": 4.552,
+        "op_income": 0.391,
+        "op_margin": 8.6,
+        "net_income": 0.239,
+        "net_margin": 5.2
+      },
+      {
+        "year": 2025,
+        "revenue": 4.966,
+        "op_income": 0.427,
+        "op_margin": 8.6,
+        "net_income": 0.287,
+        "net_margin": 5.8
+      }
+    ],
+    "trajectory_summary": "매출 3.4조→5.0조 (CAGR 13.7%). AI 전력·인프라 수요로 외형 성장 지속.",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 360000,
+      "thesis": "북미 전력기기 수주 본격화+ESS 성장+태양광 회복",
+      "key_assumptions": [
+        "북미 매출 비중 상승",
+        "ESS PCS 성장",
+        "수주잔고 확대"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 290000,
+      "thesis": "전력기기 성장 지속하나 고밸류 부담",
+      "key_assumptions": [
+        "국내외 수주 견조",
+        "마진 안정",
+        "밸류 부담"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 200000,
+      "thesis": "AI capex 둔화+전력기기 경쟁 심화",
+      "key_assumptions": [
+        "수주 둔화",
+        "경쟁 심화",
+        "고밸류 되돌림"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "북미 전력기기·데이터센터 수주",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "미국 진출 가속"
+    },
+    {
+      "date": "2026",
+      "event": "ESS·태양광 인버터 성장",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "전력화 수혜"
+    }
+  ],
+  "risks": [
+    {
+      "name": "높은 밸류에이션",
+      "probability": "high",
+      "impact": "high",
+      "description": "forward PE 58배·1y +364% 선반영",
+      "mitigation": "수주·실적 성장으로 정당화 필요"
+    },
+    {
+      "name": "AI capex 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "데이터센터 투자 둔화 시 수요 위축",
+      "mitigation": "전력망 교체 수요 기반"
+    },
+    {
+      "name": "고베타 변동성",
+      "probability": "high",
+      "impact": "med",
+      "description": "beta 1.67·vol 74%",
+      "mitigation": "분할 접근"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 '흥미로운 데이터 6-4'",
+      "yfinance income_stmt (live)"
+    ]
+  }
+}

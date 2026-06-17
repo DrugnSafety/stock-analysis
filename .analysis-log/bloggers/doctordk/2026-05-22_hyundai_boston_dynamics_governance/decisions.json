@@ -1,0 +1,74 @@
+{
+  "portfolio_value_krw": 1000000000,
+  "decisions": [
+    {
+      "ticker": "012330.KS",
+      "name": "현대모비스",
+      "consensus_verdict": "lean_bullish",
+      "avg_confidence": 0.704,
+      "thesis_alignment": "very_high",
+      "signal_score": 0.422,
+      "action": "BUY_PARTIAL",
+      "position_pct": 2.55,
+      "krw_amount": 25500000,
+      "limit_used_pct": 50.0,
+      "rationale": "consensus lean_bullish (conf 0.704) × alignment very_high → signal 0.42"
+    },
+    {
+      "ticker": "005380.KS",
+      "name": "현대차",
+      "consensus_verdict": "lean_bullish",
+      "avg_confidence": 0.631,
+      "thesis_alignment": "very_high",
+      "signal_score": 0.379,
+      "action": "BUY_PARTIAL",
+      "position_pct": 2.55,
+      "krw_amount": 25500000,
+      "limit_used_pct": 50.0,
+      "rationale": "consensus lean_bullish (conf 0.631) × alignment very_high → signal 0.38"
+    },
+    {
+      "ticker": "000270.KS",
+      "name": "기아",
+      "consensus_verdict": "lean_bullish",
+      "avg_confidence": 0.689,
+      "thesis_alignment": "high",
+      "signal_score": 0.331,
+      "action": "BUY_PARTIAL",
+      "position_pct": 3.37,
+      "krw_amount": 33700000,
+      "limit_used_pct": 50.0,
+      "rationale": "consensus lean_bullish (conf 0.689) × alignment high → signal 0.33"
+    },
+    {
+      "ticker": "086280.KS",
+      "name": "현대글로비스",
+      "consensus_verdict": "neutral",
+      "avg_confidence": 0.536,
+      "thesis_alignment": "medium",
+      "signal_score": 0.0,
+      "action": "HOLD",
+      "position_pct": 0,
+      "krw_amount": 0,
+      "limit_used_pct": 0.0,
+      "rationale": "consensus neutral (conf 0.536) × alignment medium → signal 0.00"
+    },
+    {
+      "ticker": "277810.KQ",
+      "name": "레인보우로보틱스",
+      "consensus_verdict": "bearish",
+      "avg_confidence": 0.536,
+      "thesis_alignment": "medium",
+      "signal_score": -0.268,
+      "action": "SELL_PARTIAL",
+      "position_pct": -3.15,
+      "krw_amount": -31500000,
+      "limit_used_pct": 50.0,
+      "rationale": "consensus bearish (conf 0.536) × alignment medium → signal -0.27"
+    }
+  ],
+  "total_position_krw": 116200000,
+  "cash_remaining_krw": 915300000,
+  "decision_at": "2026-05-22T17:50:00+09:00",
+  "methodology": "verdict_score × avg_confidence × thesis_alignment → action threshold"
+}

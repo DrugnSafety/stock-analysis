@@ -1,0 +1,193 @@
+{
+  "industry": {
+    "name": "해저케이블 포설 및 해상 시공",
+    "overview": "해저케이블 포설 및 해상 시공 산업은 해상풍력 발전과 전력망 확충을 위한 핵심 인프라를 제공하는 분야임. LS마린솔루션은 LS전선의 HVDC 해저케이블 패키지를 통해 전력망 구축 및 해상풍력 발전소와의 연결을 주도. 전력 수요 증가와 해상풍력의 확대로 인해 시장 성장 전망이 밝음. 그러나 800VDC와의 직접 연계는 제한적이며, 간접적 수혜가 예상됨.",
+    "competitors": [
+      {
+        "name": "한국전력공사",
+        "ticker": "015760.KS",
+        "share_pct": null,
+        "moat": "국내 전력망 운영 독점"
+      },
+      {
+        "name": "대한전선",
+        "ticker": "001440.KS",
+        "share_pct": null,
+        "moat": "국내외 해저케이블 제조 강점"
+      },
+      {
+        "name": "현대건설",
+        "ticker": "000720.KS",
+        "share_pct": null,
+        "moat": "대형 해상 프로젝트 시공 경험"
+      }
+    ],
+    "demand_drivers": [
+      "해상풍력 발전소 증가",
+      "전력망 확충 필요성 증가",
+      "HVDC 기술 발전",
+      "전력 효율화 요구 증가"
+    ],
+    "supply_dynamics": "해저케이블 포설 및 시공은 고도의 기술력과 경험이 필요하며, 주요 기업들이 제한된 인프라와 인력을 통해 공급을 조절함. 기술 발전과 함께 공급능력 확장이 예상되나, 초기 투자 비용이 높아 진입 장벽이 큼."
+  },
+  "financials": {
+    "currency": "KRW (billions, 십억원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 42.8,
+        "op_income": -6.6,
+        "op_margin": -15.4,
+        "net_income": -12.1,
+        "net_margin": -28.3
+      },
+      {
+        "year": 2023,
+        "revenue": 70.8,
+        "op_income": 13.1,
+        "op_margin": 18.5,
+        "net_income": 11.6,
+        "net_margin": 16.4
+      },
+      {
+        "year": 2024,
+        "revenue": 130.3,
+        "op_income": 12.4,
+        "op_margin": 9.5,
+        "net_income": 13.2,
+        "net_margin": 10.1
+      },
+      {
+        "year": 2025,
+        "revenue": 244.2,
+        "op_income": 7.0,
+        "op_margin": 2.9,
+        "net_income": 8.4,
+        "net_margin": 3.4
+      }
+    ],
+    "pl_note": "해저케이블 포설 수주·선박 가동률이 실적 동인. 소형주라 단일 프로젝트 수주에 실적 민감.",
+    "bs_snapshot": {
+      "total_assets": 739.0,
+      "total_liab": 111.0,
+      "equity": 628.1,
+      "cash": 73.6,
+      "debt": 36.7,
+      "market_cap": 1547.1,
+      "_note": "yfinance balance_sheet 최신 회계연도 기준 (KRW (billions, 십억원))."
+    },
+    "cf_summary": {
+      "note": "yfinance 기준 — 상세 CF는 재무제표 섹션 참조"
+    },
+    "peer_compare": [
+      {
+        "ticker": "060370.KQ",
+        "fwd_pe": null,
+        "pb": null,
+        "note": "current_price=30400.0"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 36000.0,
+      "thesis": "글로벌 해상풍력 시장의 급성장과 HVDC 기술의 채택이 가속화되며, LS마린솔루션의 수주가 대폭 증가할 것임.",
+      "key_assumptions": [
+        "해상풍력 발전 수요 급증",
+        "HVDC 기술 채택 가속화",
+        "글로벌 시장 진출 성공"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 32000.0,
+      "thesis": "해상풍력 발전소와 전력망 확충 수요가 꾸준히 증가하며, LS마린솔루션의 안정적인 성장이 기대됨.",
+      "key_assumptions": [
+        "해상풍력 수요 지속 증가",
+        "HVDC 프로젝트 안정적 수주",
+        "국내외 시장 점유율 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 28000.0,
+      "thesis": "해상풍력 프로젝트의 지연과 경쟁 심화로 인해 수익성이 악화될 가능성이 있음.",
+      "key_assumptions": [
+        "프로젝트 지연 발생",
+        "경쟁 심화로 수익성 저하",
+        "HVDC 기술 채택 속도 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2024-06-15",
+      "event": "대형 해상풍력 프로젝트 수주 발표",
+      "type": "business",
+      "expected_impact": "+",
+      "description": "신규 대형 해상풍력 프로젝트 수주로 인한 수익성 개선 기대."
+    },
+    {
+      "date": "2024-09-30",
+      "event": "HVDC 기술 업그레이드 발표",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "차세대 HVDC 기술 발표로 인한 기술적 경쟁력 강화."
+    },
+    {
+      "date": "2025-03-01",
+      "event": "연간 실적 발표",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "예상치에 부합하는 연간 실적 발표로 인한 시장 안정."
+    }
+  ],
+  "risks": [
+    {
+      "name": "프로젝트 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "해상풍력 프로젝트의 지연으로 인한 수익성 악화 위험.",
+      "mitigation": "프로젝트 관리 강화 및 고객사와의 긴밀한 협력."
+    },
+    {
+      "name": "기술적 경쟁 심화",
+      "probability": "high",
+      "impact": "med",
+      "description": "경쟁사의 기술 발전으로 인한 시장 점유율 감소 위험.",
+      "mitigation": "R&D 투자 강화 및 기술 혁신 지속."
+    },
+    {
+      "name": "규제 변화",
+      "probability": "low",
+      "impact": "med",
+      "description": "정부 규제 변화로 인한 사업 환경 변화 가능성.",
+      "mitigation": "정책 변화 모니터링 및 대응 전략 수립."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "해상풍력 발전소 증가로 인한 수요 증가",
+      "type": "industry",
+      "evidence": "글로벌 해상풍력 발전소 수 증가 추세 및 정부 지원 정책.",
+      "testability": "high",
+      "current_status": "in-progress"
+    },
+    {
+      "claim": "HVDC 기술의 채택이 가속화됨",
+      "type": "industry",
+      "evidence": "HVDC 기술의 효율성 및 안정성에 대한 연구 결과.",
+      "testability": "med",
+      "current_status": "in-progress"
+    },
+    {
+      "claim": "LS마린솔루션의 기술적 경쟁력 강화",
+      "type": "empirical",
+      "evidence": "최근 기술 업그레이드 및 수주 사례.",
+      "testability": "med",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": []
+}

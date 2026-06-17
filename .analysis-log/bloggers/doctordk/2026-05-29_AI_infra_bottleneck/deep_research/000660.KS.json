@@ -1,0 +1,57 @@
+{
+  "industry": {
+    "name": "메모리 반도체 (HBM·DRAM·NAND)",
+    "overview": "AI 데이터센터 capex 폭증으로 메모리가 '경기민감 부품'에서 'AI 추론 인프라 핵심 자산'으로 재평가되는 국면. HBM(고대역폭메모리)은 학습용 GPU의 필수 동반 부품으로 SK하이닉스·삼성전자·마이크론 3사 과점이며, SK하이닉스가 엔비디아향 HBM 점유율 1위. 2023년 메모리 다운사이클(적자)을 지나 2024~2026년 HBM ASP 급등으로 사상 최대 실적 사이클 진입. 의교창 글의 '추론용 메모리 전쟁(HBF)' 프레임의 직접 중심.",
+    "competitors": [
+      {"name": "SK하이닉스", "ticker": "000660.KS", "share_pct": 36.0, "moat": "엔비디아향 HBM 1위 점유, 솔리다임 NAND + 샌디스크 HBF 협력으로 추론 메모리 선점"},
+      {"name": "삼성전자", "ticker": "005930.KS", "share_pct": 40.0, "moat": "DRAM 1위·수직계열화, HBM 추격 + 파운드리·낸드 종합"},
+      {"name": "Micron", "ticker": "MU", "share_pct": 23.0, "moat": "미국 유일 메모리, HBM3E 공급, IRA 보조금"}
+    ],
+    "news": [
+      {"date": "2026-05", "title": "SK하이닉스·샌디스크 HBF 공동 표준 개발 착수", "source": "업계/언론", "summary": "NAND 기반 고대역폭 플래시(HBF) 표준화로 추론용 대용량 메모리 시장 선점 시도 — 'HBM=학습, HBF=추론' 분업 신호"},
+      {"date": "2026-05-14", "title": "SK하이닉스 ₩1,977,000 마감, 강한 매수 컨센서스 유지", "source": "investing.com/alphasquare", "summary": "12개월 목표주가 컨센서스 ₩1.79M, 애널리스트 36명 다수 매수 — AI 메모리 슈퍼사이클 반영"}
+    ],
+    "market_size": {"current_usd_bn": 200.0, "cagr_pct": 22.0, "horizon": "2024-2030 (HBM 부문 CAGR 40%+)"}
+  },
+  "financials": {
+    "pl_5y": [
+      {"year": 2021, "revenue": 42998, "op_income": 12410, "op_margin": 28.9, "net_income": 9616, "net_margin": 22.4},
+      {"year": 2022, "revenue": 44646, "op_income": 7066, "op_margin": 15.8, "net_income": 2439, "net_margin": 5.5},
+      {"year": 2023, "revenue": 32766, "op_income": -7730, "op_margin": -23.6, "net_income": -9138, "net_margin": -27.9},
+      {"year": 2024, "revenue": 66193, "op_income": 23467, "op_margin": 35.4, "net_income": 19797, "net_margin": 29.9},
+      {"year": "2025E", "revenue": 110000, "op_income": 50000, "op_margin": 45.5, "net_income": 40000, "net_margin": 36.4}
+    ],
+    "bs_snapshot": {"total_assets": 130000, "total_liab": 45000, "equity": 85000, "cash": 15000, "debt": 22000},
+    "cf_summary": {"ocf_5y_avg": 25000, "fcf_5y_avg": 8000, "capex_intensity": 0.25},
+    "peer_compare": [
+      {"ticker": "000660.KS", "name": "SK하이닉스", "pe": 6.1, "pb": 2.8, "roe": 35.0, "div_yield": 0.6},
+      {"ticker": "005930.KS", "name": "삼성전자", "pe": 5.9, "pb": 1.6, "roe": 12.0, "div_yield": 1.8},
+      {"ticker": "MU", "name": "Micron", "pe": 11.0, "pb": 3.0, "roe": 22.0, "div_yield": 0.4}
+    ],
+    "_note": "KRW 십억원 단위. 2021~2024는 보고 실적 근사치, 2025E는 AI 메모리 슈퍼사이클 가정 추정치(미확정)."
+  },
+  "scenarios": {
+    "bull": {"prob_pct": 40, "target_price": 3200000, "thesis": "HBM4 독점적 ASP 프리미엄 + HBF 추론메모리 선점, 2026~2027 OPM 45%+ 지속", "key_assumptions": ["HBM 점유율 1위 유지", "추론 수요로 사이클 진폭 축소", "HBF 상업화 성공"]},
+    "base": {"prob_pct": 40, "target_price": 2500000, "thesis": "AI 메모리 수요 견조하나 2027 HBM 캐파 확대로 ASP 일부 정상화", "key_assumptions": ["HBM 수요 지속", "경쟁사 캐파 점진 진입", "PER 7~9배 리레이팅"]},
+    "bear": {"prob_pct": 20, "target_price": 1400000, "thesis": "AI capex 둔화 + 메모리 사이클 정점 되돌림, 파라볼릭 상승 반납", "key_assumptions": ["하이퍼스케일러 capex 감속", "HBM 공급과잉", "PER 디레이팅"]}
+  },
+  "catalysts": [
+    {"date": "2026-2H", "event": "HBM4 양산·엔비디아 베라루빈 채택", "type": "product", "expected_impact": "+", "description": "차세대 HBM4 단가·물량 동반 상승"},
+    {"date": "2026-2027", "event": "HBF 공동표준 상업화 로드맵", "type": "product", "expected_impact": "+", "description": "추론용 메모리 신시장 선점 옵션가치"},
+    {"date": "분기 실적", "event": "HBM 매출 비중·OPM 추이", "type": "earnings", "expected_impact": "+", "description": "사상 최대 실적 지속 여부 확인"},
+    {"date": "2027", "event": "메모리 3사 캐파 증설 발표", "type": "supply", "expected_impact": "-", "description": "공급 확대 시 ASP 하락 압력"}
+  ],
+  "risks": [
+    {"name": "메모리 사이클 정점 되돌림", "probability": "med", "impact": "high", "description": "1Y +1005% 파라볼릭 후 AI capex 둔화 시 급락 위험", "mitigation": "HBM 장기공급계약(LTA)으로 가시성 확보"},
+    {"name": "HBM 공급과잉(2027~28)", "probability": "med", "impact": "high", "description": "삼성·마이크론 캐파 진입 시 ASP 하락", "mitigation": "기술 세대 선도(HBM4)로 프리미엄 방어"},
+    {"name": "대중국 수출규제·지정학", "probability": "med", "impact": "med", "description": "미·중 반도체 규제 변동성", "mitigation": "공급망 다변화"},
+    {"name": "밸류에이션 부담", "probability": "low", "impact": "med", "description": "fPE 6배는 낮으나 정상화 EPS 추정 어려움", "mitigation": "PER→구조적성장 리레이팅 논리"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "메모리가 '추론 비용'을 결정하는 핵심 자산으로 재평가 (T04)", "type": "predictive", "evidence": "HBM ASP 급등 + AI 서버 BOM 내 메모리 비중 상승", "testability": "high", "current_status": "in_progress"},
+    {"claim": "SK하이닉스·샌디스크 HBF 공동표준 = 추론 메모리 전쟁 선점 (T05)", "type": "factual", "evidence": "HBF 공동개발 발표", "testability": "high", "current_status": "early"},
+    {"claim": "데이터센터 폭증으로 메모리 구조적 수요 (T03)", "type": "predictive", "evidence": "하이퍼스케일러 capex 상향", "testability": "high", "current_status": "in_progress"},
+    {"claim": "메모리 PBR→PER 리레이팅 (T10)", "type": "predictive", "evidence": "fPE 6배에서 멀티플 상향 진행", "testability": "medium", "current_status": "pending"}
+  ],
+  "korean_disclosures": []
+}

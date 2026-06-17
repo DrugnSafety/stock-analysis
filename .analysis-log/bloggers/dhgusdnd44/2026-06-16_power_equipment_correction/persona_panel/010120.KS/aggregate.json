@@ -1,0 +1,464 @@
+{
+  "ticker": "010120.KS",
+  "aggregated_at": "2026-06-17T12:21:48.007080+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "neutral": {
+      "count": 10,
+      "pct": 58.8
+    },
+    "lean_bullish": {
+      "count": 2,
+      "pct": 11.8
+    }
+  },
+  "average_confidence": 0.641,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.4
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "고평가",
+      "frequency": 5,
+      "personas": [
+        "warren-buffett",
+        "bill-ackman",
+        "cliff-asness",
+        "michael-burry",
+        "peter-lynch"
+      ],
+      "examples": [
+        "주가 고평가",
+        "고평가된 forward P/E",
+        "고평가된 밸류에이션"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 시스템적 위험",
+        "거래량과 가격의 급격한 변동"
+      ],
+      "key_opportunities_top3": [
+        "강한 모멘텀, 단기 수익 기회"
+      ],
+      "uncertainty": "현재의 높은 변동성이 안정기로 전환되면, 구성이 달라질 수 있다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "주가 고평가",
+        "수주 채택 리스크"
+      ],
+      "key_opportunities_top3": [
+        "전력기기 수요 증가",
+        "이상적인 수주 성장률"
+      ],
+      "uncertainty": "수주전망이 실제로 실현되지 않거나, 주가가 더 조정될 경우, Verdict가 Lean Bearish로 변경될 수 있음.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가된 forward P/E",
+        "높은 시장 베타로 인한 리스크"
+      ],
+      "key_opportunities_top3": [
+        "강력한 신규 수주 증가",
+        "전력기기 섹터 내 모멘텀 지속 가능성"
+      ],
+      "uncertainty": "시장 모멘텀이 지속되지 않거나 밸류에이션 조정이 없는 경우, 균형 잡힌 이해가 필요함.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주잔고의 질적 구성 불확실",
+        "AI 사이클 의존성 높음"
+      ],
+      "key_opportunities_top3": [
+        "전력기기 수요 증가 지속",
+        "지정학적 이점으로 경쟁 우위"
+      ],
+      "uncertainty": "대기열 관련 수주가 실제 매출로 전환되지 못하면 신속히 접근을 재평가해야 함",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "과장된 수주 수요 위험",
+        "주가 변동성 우려"
+      ],
+      "key_opportunities_top3": [
+        "장기적인 인프라 투자 증가",
+        "전력 기기 수요 증가"
+      ],
+      "uncertainty": "과장된 수요 예측이 현실화되지 않을 경우, 수익성 유지가 어려워질 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수익성 지속 가능성에 대한 의문",
+        "수주 대기열의 부풀려진 가능성"
+      ],
+      "key_opportunities_top3": [
+        "높은 수익과 실질 수주 가능성",
+        "미국 시장에서의 성장"
+      ],
+      "uncertainty": "대기열의 확실성과 수익성 지속 가능성이 부정적이되면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "불확실한 전방 수요",
+        "높은 멀티플의 정당성 부족"
+      ],
+      "key_opportunities_top3": [
+        "사상 최고치 수주잔고",
+        "규제 및 지정학적 보호"
+      ],
+      "uncertainty": "전망 수주의 부풀림이 현실화되는 경우",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고평가된 밸류에이션",
+        "대기열로 인한 수익성의 일시적 강화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "기술적 및 지정학적 해자",
+        "미국 내 시장 지속 가능성"
+      ],
+      "uncertainty": "향후 글로벌 경제의 불확실성과 AI 수요 변화가 비즈니스 모델의 타당성을 크게 흔들 가능성이 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "글로벌 유동성 축소와 금리 인상",
+        "과도한 수주잔고 의존 및 AI 수요 붕괴 가능성"
+      ],
+      "key_opportunities_top3": [
+        "수주가 사상 최고치를 기록하는 중",
+        "지정학적 이점 및 기술적 경쟁력"
+      ],
+      "uncertainty": "AI 사이클이 붕괴되지 않고 지속된다면, 현 수준의 수익성을 유지 가능할 것",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주잔고의 실제 가치",
+        "높은 PE에 따른 고평가 가능성"
+      ],
+      "key_opportunities_top3": [
+        "북미 시장의 강력한 수요",
+        "AI 솔루션과 전력 기기 수요 증가"
+      ],
+      "uncertainty": "글로벌 경제 불황이나 AI 주기 변화가 수주 가치에 큰 영향을 미칠 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "수주잔고의 대기열 부풀림 가능성",
+        "AI 수요의 지속 가능성 문제"
+      ],
+      "key_opportunities_top3": [
+        "기술력에 기반한 글로벌 수주 확대",
+        "미국 시장 내 지정학적 이점으로 수익성 강화"
+      ],
+      "uncertainty": "AI 수요가 지속되거나 대기열 이슈가 해결되면 매력적인 반전 가능성.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "EV 평가에 따른 고평가",
+        "수요의 대기열 위험과 실제 수요의 차이"
+      ],
+      "key_opportunities_top3": [
+        "강력한 수주 성장",
+        "미래 AI 및 데이터센터 발전 잠재력"
+      ],
+      "uncertainty": "수주 강세가 실제 매출 증가로 이어지지 않는다면 판단이 변할 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주잔고 과대평가",
+        "미래 수요의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "전력설비 수주의 실제 증가",
+        "기술력 기반의 성과"
+      ],
+      "uncertainty": "만약 실제 수주잔고의 수익성 확인 시 verdict 조정 가능",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고forward_pe",
+        "불확실한 수주잔고 구성"
+      ],
+      "key_opportunities_top3": [
+        "수주 증가",
+        "유리한 지정학적 환경"
+      ],
+      "uncertainty": "미래 수주 추정치가 과장된 위기 속에서도 실제 수익성이 입증된다면 verdict가 변할 수 있다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "전방 수요의 정확성",
+        "수주잔고의 실제 매출 전환 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI와 데이터센터 수요 성장",
+        "기술 혁신에 따른 시장 리더십"
+      ],
+      "uncertainty": "AI와 데이터센터 수요가 예상보다 급증하지 않는다면 익스포저에 대한 매력 감소",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주잔고의 실제 경제적 가치",
+        "미래 추정치의 현실성"
+      ],
+      "key_opportunities_top3": [
+        "계속적인 북미 수주 증가",
+        "전력기기 수요의 지속"
+      ],
+      "uncertainty": "수주 잔고가 실제 매출로 전환되지 않거나 글로벌 경기 둔화로 수요가 급락하면 평가가 뒤집힐 수 있다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수주 잔고는 자산이 아니며, 최종 고객의 지불 능력과 의지에 따라 가치가 변동될 수 있다.",
+        "전력기기 산업의 단기 수주의 반복 가능성에 대한 불확실성."
+      ],
+      "key_opportunities_top3": [
+        "기존의 평균 이상의 수주로 인한 수익 창출 가능성.",
+        "미국 전력망의 대규모 투자로 인한 장기적 수요 증가 가능성."
+      ],
+      "uncertainty": "'대기열'이 실제 수요로 전환되고 추가로 수주가 꾸준히 유지된다는 점이 불확실하며, 이는 판단을 뒤집을 수 있음.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

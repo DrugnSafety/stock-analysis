@@ -1,0 +1,341 @@
+{
+  "ticker": "LITE",
+  "name_kr": "루멘텀",
+  "name_en": "Lumentum Holdings",
+  "industry": {
+    "name": "Optical Components / Lasers / AI Datacenter Photonics",
+    "overview": "Lumentum은 2015년 JDSU에서 분사되어 설립된 광 부품 전문 회사. 4개 segment 운영 — Cloud & Networking(800G·1.6T 트랜시버, EML laser, ROADM, line cards), Industrial & Consumer(VCSEL for 3D sensing, kW급 industrial lasers), 그리고 NeoPhotonics(2022 인수, 광 트랜시버 모듈 silicon photonics) 통합. AI 데이터센터의 1.6T 광 트랜시버 시장에서 Coherent·Innolight와 함께 글로벌 top-3. 2024-2025 NVIDIA 직접 투자 + 광스위치 디자인 윈 + AI capex 가속이 동시에 작용하며 1년간 +1366% rally를 기록 — 광 부품주 history에서 가장 극단의 single-stock 상승. FY26(Jul 2025-Jun 2026) Cloud & Networking 매출 +60%+ YoY 가이던스.",
+    "competitors": [
+      {
+        "name": "Coherent Corp.",
+        "ticker": "COHR",
+        "share_pct": 22.0,
+        "moat": "EML laser + 트랜시버 + II-VI 합병 시너지"
+      },
+      {
+        "name": "Innolight Technology",
+        "ticker": "300308.SZ",
+        "share_pct": 25.0,
+        "moat": "중국 트랜시버 #1, 가격 경쟁력"
+      },
+      {
+        "name": "Marvell Technology",
+        "ticker": "MRVL",
+        "share_pct": 10.0,
+        "moat": "Silicon photonics IP + DSP/SerDes"
+      },
+      {
+        "name": "Eoptolink",
+        "ticker": "300502.SZ",
+        "share_pct": 12.0,
+        "moat": "중국 차세대 트랜시버"
+      },
+      {
+        "name": "Lumentum",
+        "ticker": "LITE",
+        "share_pct": 18.0,
+        "moat": "VCSEL/EML laser 글로벌 #1, NeoPhotonics 통합 silicon photonics IP"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "LITE FY26 Q3 매출 $580M (+85% YoY), Cloud & Networking 매출 $400M (+95%)",
+        "source": "LITE Q3 FY26 Earnings",
+        "summary": "AI 데이터센터 비중 70% 도달, gross margin 38%로 +500bps 개선"
+      },
+      {
+        "date": "2025-12-10",
+        "title": "Lumentum, NVIDIA 광스위치용 800G/1.6T 트랜시버 다년 공급계약",
+        "source": "NVIDIA·LITE",
+        "summary": "Spectrum-X·Quantum-X 광스위치용 광 모듈 공급 — 다년 forecast 합의"
+      },
+      {
+        "date": "2025-08-22",
+        "title": "Lumentum, Apple iPhone 17 시리즈 VCSEL Time-of-Flight 신규 디자인 윈 확보",
+        "source": "Apple/LITE",
+        "summary": "FaceID + LiDAR 통합 모듈 단가 +30%"
+      },
+      {
+        "date": "2025-06-12",
+        "title": "NVIDIA, Lumentum에 전략 투자 (LOI)",
+        "source": "NVIDIA·LITE",
+        "summary": "광스위치·CPO 협업 + R&D 동맹"
+      },
+      {
+        "date": "2025-04-08",
+        "title": "Lumentum, NeoPhotonics 통합 완료 — Silicon Photonics IP 통합 공식화",
+        "source": "LITE",
+        "summary": "$918M 인수 후 3년만에 통합 완성 — CPO·CW laser IP 통합"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 28.0,
+      "horizon": "2024-2030 (광 트랜시버 + 컴포넌트 합산)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY2022",
+        "revenue": 1713,
+        "op_income": 232,
+        "op_margin": 13.5,
+        "net_income": 254,
+        "net_margin": 14.8
+      },
+      {
+        "year": "FY2023",
+        "revenue": 1772,
+        "op_income": 28,
+        "op_margin": 1.6,
+        "net_income": -88,
+        "net_margin": -5.0
+      },
+      {
+        "year": "FY2024",
+        "revenue": 1361,
+        "op_income": -125,
+        "op_margin": -9.2,
+        "net_income": -255,
+        "net_margin": -18.7
+      },
+      {
+        "year": "FY2025",
+        "revenue": 2050,
+        "op_income": 280,
+        "op_margin": 13.7,
+        "net_income": 180,
+        "net_margin": 8.8
+      },
+      {
+        "year": "FY2026E",
+        "revenue": 3200,
+        "op_income": 720,
+        "op_margin": 22.5,
+        "net_income": 530,
+        "net_margin": 16.6
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31",
+      "total_assets_usdmn": 4200,
+      "total_debt_usdmn": 2150,
+      "total_equity_usdmn": 1850,
+      "cash_usdmn": 480,
+      "net_debt_usdmn": 1670,
+      "debt_to_equity": 1.16,
+      "current_ratio": 2.4
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 380,
+      "capex_2025_usdmn": 150,
+      "fcf_2025_usdmn": 230,
+      "dividend_paid_2025_usdmn": 0,
+      "buyback_2025_usdmn": 50
+    },
+    "peer_compare": [
+      {
+        "ticker": "LITE",
+        "fwd_pe": 52.33,
+        "ev_ebitda": 28.5,
+        "fcf_yield_pct": 0.5,
+        "roe_pct": 12.0,
+        "debt_to_equity": 1.16
+      },
+      {
+        "ticker": "COHR",
+        "fwd_pe": 45.43,
+        "ev_ebitda": 22.0,
+        "fcf_yield_pct": 1.1,
+        "roe_pct": 8.5,
+        "debt_to_equity": 1.07
+      },
+      {
+        "ticker": "MRVL",
+        "fwd_pe": 28.0,
+        "ev_ebitda": 18.0,
+        "fcf_yield_pct": 2.5,
+        "roe_pct": 15.0,
+        "debt_to_equity": 0.45
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "1.6T 트랜시버 + CPO 가속 + NVIDIA 우선 공급권 확장 + Apple VCSEL 확장",
+      "assumption": "FY27 매출 $4.5B (+40% YoY), 영업이익률 25%, EPS +60% YoY",
+      "upside_pct": 35,
+      "prob_pct": 20,
+      "target_price": 1280,
+      "thesis": "1.6T 트랜시버 + CPO 가속 + NVIDIA 우선 공급권 확장 + Apple VCSEL 확장",
+      "key_assumptions": [
+        "FY27 매출 $4.5B (+40% YoY)",
+        "영업이익률 25%",
+        "EPS +60% YoY"
+      ]
+    },
+    "base": {
+      "label": "AI capex 정상 + 트랜시버 ASP 압박 시작",
+      "assumption": "FY27 매출 $3.8B (+18%), 영업이익률 22%, EPS +25% YoY",
+      "upside_pct": -24,
+      "prob_pct": 50,
+      "target_price": 720,
+      "thesis": "AI capex 정상 + 트랜시버 ASP 압박 시작",
+      "key_assumptions": [
+        "FY27 매출 $3.8B (+18%)",
+        "영업이익률 22%",
+        "EPS +25% YoY"
+      ]
+    },
+    "bear": {
+      "label": "AI capex 둔화 + Innolight 가격 경쟁 + +1366% rally mean-reversion",
+      "assumption": "FY27 매출 $2.5B (-22%), gross margin 30%로 하락",
+      "downside_pct": -63,
+      "prob_pct": 30,
+      "target_price": 350,
+      "thesis": "AI capex 둔화 + Innolight 가격 경쟁 + +1366% rally mean-reversion",
+      "key_assumptions": [
+        "FY27 매출 $2.5B (-22%)",
+        "gross margin 30%로 하락"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "1.6T 트랜시버 양산 가속",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+15-25%"
+    },
+    {
+      "date": "2026-2028",
+      "event": "NVIDIA 광스위치 다년 공급계약 매출 인식",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    },
+    {
+      "date": "2027-2029",
+      "event": "CPO 시대 silicon photonics partnership",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+15-25%"
+    },
+    {
+      "date": "2026-2027",
+      "event": "Apple VCSEL/LiDAR 신규 디자인 윈 (XR 디바이스 등)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-15%"
+    },
+    {
+      "date": "ongoing",
+      "event": "NeoPhotonics 통합 시너지 실현 (R&D efficiency)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "+1366% 1Y rally mean-reversion (가장 높은 우려)",
+      "probability": "high",
+      "impact": "high",
+      "description": "+1366% 1Y rally mean-reversion (가장 높은 우려)",
+      "mitigation": "Tight stop loss + small position sizing"
+    },
+    {
+      "name": "Innolight·Eoptolink 가격 경쟁 (중국 trade-down)",
+      "probability": "high",
+      "impact": "high",
+      "description": "Innolight·Eoptolink 가격 경쟁 (중국 trade-down)",
+      "mitigation": "VCSEL/EML 고부가 IP + NVIDIA 파트너십"
+    },
+    {
+      "name": "AI capex 둔화 → Datacenter 70% segment 직접 타격",
+      "probability": "med",
+      "impact": "high",
+      "description": "AI capex 둔화 → Datacenter 70% segment 직접 타격",
+      "mitigation": "Industrial·Consumer 다각화"
+    },
+    {
+      "name": "fwd_PE 52는 historic 평균 18의 3배 — implied growth mathematical impossibility",
+      "probability": "high",
+      "impact": "high",
+      "description": "fwd_PE 52는 historic 평균 18의 3배 — implied growth mathematical impossibility",
+      "mitigation": "FCF 성장으로 fwd_PE 자연 하락 가능"
+    },
+    {
+      "name": "부채비율 1.16 + NeoPhotonics 통합 후 FCF 변동성",
+      "probability": "med",
+      "impact": "med",
+      "description": "부채비율 1.16 + NeoPhotonics 통합 후 FCF 변동성",
+      "mitigation": "FY26E FCF $400M+ 추정으로 부채 상환"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T2",
+      "claim": "AI 데이터센터 병목은 GPU 연산 → HBM 메모리 → 인터커넥트 순으로 이동했다",
+      "type": "industry",
+      "evidence": "NVL72 fully-fabric scale-up rack ASP가 GPU-only HGX의 10배 — 인터커넥트 가치 동인",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "1.6T 트랜시버는 인터커넥트 병목 직접 솔루션"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "NVIDIA의 Coherent, Lumentum, Corning 동시 투자는 광통신 수직통합 전략",
+      "type": "industry",
+      "evidence": "NVIDIA 2024-25 동안 Coherent·Lumentum·Corning 3사에 동시 자본 투입 + 광스위치 직접 출시",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "NVIDIA의 광통신 수직통합 3사 중 한 곳"
+    },
+    {
+      "thesis_id": "T7",
+      "claim": "광통신 부품주(Coherent·Lumentum)는 NVIDIA 수요·CPO 채택의 직접 수혜",
+      "type": "industry",
+      "evidence": "COHR FY26 Q3 +38% YoY, LITE Q3 +85% YoY — datacenter optical 매출 가속",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "thesis와 가장 직접적 정합 — Cloud & Networking +95% YoY 성장 실증"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "CPO(Co-Packaged Optics)는 광-전 변환을 칩 옆으로 이동시켜 전력 효율 5-20배 개선",
+      "type": "industry",
+      "evidence": "TSMC COUPE 1.6Tbps/chiplet 시연: pluggable 18W → CPO 7W (~2.5배 개선, ML chiplet level은 5-20배)",
+      "testability": "med",
+      "current_status": "pending",
+      "support_for_ticker": "MEDIUM-STRONG",
+      "ticker_specific_note": "NeoPhotonics silicon photonics IP는 CPO 시대 partner candidate"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "global_filing",
+      "date": "2026-04-15",
+      "title": "10-Q FY26 Q3",
+      "summary": "매출 $580M (+85% YoY), Cloud & Networking +95%"
+    },
+    {
+      "type": "global_filing",
+      "date": "2025-08-22",
+      "title": "10-K FY2025",
+      "summary": "FY25 매출 $2.05B (+50% YoY)"
+    },
+    {
+      "type": "press_release",
+      "date": "2025-12-10",
+      "title": "NVIDIA 광스위치 다년 공급계약",
+      "summary": "다년 forecast 합의"
+    }
+  ]
+}

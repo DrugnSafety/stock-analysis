@@ -1,0 +1,1088 @@
+{
+  "ticker": "229640.KS",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "neutral": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "lean_bearish": {
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "average_confidence": 0.62,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (4/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Sector valuation premium (PER 25-130배)",
+      "frequency": 8,
+      "persona_examples": [
+        "ben-graham",
+        "warren-buffett",
+        "michael-burry",
+        "charlie-munger"
+      ]
+    },
+    {
+      "theme": "AI CapEx cycle peak risk (2027-2028)",
+      "frequency": 6,
+      "persona_examples": [
+        "nassim-taleb",
+        "stanley-druckenmiller",
+        "michael-burry"
+      ]
+    },
+    {
+      "theme": "한국 정책 risk (정권 교체)",
+      "frequency": 4,
+      "persona_examples": [
+        "nassim-taleb",
+        "michael-burry",
+        "ben-graham"
+      ]
+    }
+  ],
+  "unique_alphas": [
+    {
+      "theme": "미국 hyperscaler 직접 deal — capacity 우위",
+      "personas": [
+        "peter-lynch",
+        "stanley-druckenmiller",
+        "phil-fisher"
+      ]
+    },
+    {
+      "theme": "두산에너빌리티 SMR — 'antifragile optionality'",
+      "personas": [
+        "nassim-taleb",
+        "cathie-wood"
+      ]
+    },
+    {
+      "theme": "수주잔고 5-7년치 — earnings visibility",
+      "personas": [
+        "aswath-damodaran",
+        "warren-buffett",
+        "charlie-munger"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 10년 후 변압기 산업 cycle 예측 어려움 — capital-intensive cyclical",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HD현대일렉트릭의 미국 capacity는 'durable competitive advantage' — Hitachi Energy 등 대비 cost 우위",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "워런 버핏는 predictability/moat 기준으로 본 종목 평가 — verdict는 'neutral'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "워런 버핏: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'neutral' 입장 — anchor: predictability/moat",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "워런 버핏: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: predictability/moat",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'neutral' 입장 — anchor: predictability/moat",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "워런 버핏: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: predictability/moat",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: predictability/moat",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "워런 버핏: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: predictability/moat",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'neutral' 입장 — anchor: predictability/moat",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "워런 버핏: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'challenge' 입장 — anchor: predictability/moat",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] PER 30-130배는 reasonable 한계 초과 — 'wonderful but expensive'",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 두산에너빌리티 SMR 사업은 long-term moat 가능성 (regulatory barrier + first-mover)",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "찰리 멍거는 quality + reasonable price 기준으로 본 종목 평가 — verdict는 'neutral'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "찰리 멍거: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: quality + reasonable price",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "찰리 멍거: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: quality + reasonable price",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'neutral' 입장 — anchor: quality + reasonable price",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "찰리 멍거: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: quality + reasonable price",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: quality + reasonable price",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "찰리 멍거: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: quality + reasonable price",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'neutral' 입장 — anchor: quality + reasonable price",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "찰리 멍거: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'challenge' 입장 — anchor: quality + reasonable price",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 변압기 sector PEG 0.7-1.5는 attractive — '6-bagger' candidate 아직 잔존",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 미국 데이터센터 polar moment — '집 근처에서 본 변화 = best investment idea'",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "피터 린치는 PEG ratio + 'invest in what you know' 기준으로 본 종목 평가 — verdict는 'lean_bullish'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 narrative 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: PEG ratio + 'invest in what you know'",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: PEG ratio + 'invest in what you know'",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'support' 입장 — anchor: PEG ratio + 'invest in what you know'",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피터 린치: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: PEG ratio + 'invest in what you know'",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "피터 린치: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: PEG ratio + 'invest in what you know'",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "피터 린치: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: PEG ratio + 'invest in what you know'",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "피터 린치: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: PEG ratio + 'invest in what you know'",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "피터 린치: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'neutral' 입장 — anchor: PEG ratio + 'invest in what you know'",
+          "confidence": 0.57
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] Power infrastructure는 disruption 적은 sector — ARK 스타일 fit 약함",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 두산에너빌리티 SMR — 'disruptive nuclear' new energy paradigm fit",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "캐시 우드는 TAM expansion + disruption 기준으로 본 종목 평가 — verdict는 'lean_bullish'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 narrative 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "캐시 우드: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: TAM expansion + disruption",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: TAM expansion + disruption",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "캐시 우드: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'support' 입장 — anchor: TAM expansion + disruption",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'neutral' 입장 — anchor: TAM expansion + disruption",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: TAM expansion + disruption",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'neutral' 입장 — anchor: TAM expansion + disruption",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "캐시 우드: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: TAM expansion + disruption",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'neutral' 입장 — anchor: TAM expansion + disruption",
+          "confidence": 0.57
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] Sector PER 30-130배 + 누적 수익률 +400-700% = 'late stage' 의심 — 단기 reversion risk",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 그러나 fundamentals (수주잔고 5-7년) 강력 — 'narrative-fundamental' 충돌 적음",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "마이클 버리는 deep value + contrarian 기준으로 본 종목 평가 — verdict는 'neutral'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "마이클 버리: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: deep value + contrarian",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'neutral' 입장 — anchor: deep value + contrarian",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "마이클 버리: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'support' 입장 — anchor: deep value + contrarian",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'neutral' 입장 — anchor: deep value + contrarian",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T05",
+          "stance": "challenge",
+          "rationale": "마이클 버리: 한국 정책 risk가 sector unlock factor 에 대해 'challenge' 입장 — anchor: deep value + contrarian",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "마이클 버리: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: deep value + contrarian",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "마이클 버리: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: deep value + contrarian",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "마이클 버리: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'challenge' 입장 — anchor: deep value + contrarian",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] 전력 인프라 sector는 macroeconomic + geopolitical fragility 큼 — Hormuz·중국 무역 마찰 시 충격",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 두산에너빌리티 SMR은 'antifragile' optionality — black swan (탈탄소·원전 컴백) 시 multi-bagger",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "나심 탈레브는 fragility + tail risk + antifragile 기준으로 본 종목 평가 — verdict는 'neutral'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "나심 탈레브: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: fragility + tail risk + antifragile",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'neutral' 입장 — anchor: fragility + tail risk + antifragile",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "나심 탈레브: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'support' 입장 — anchor: fragility + tail risk + antifragile",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'neutral' 입장 — anchor: fragility + tail risk + antifragile",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T05",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: 한국 정책 risk가 sector unlock factor 에 대해 'challenge' 입장 — anchor: fragility + tail risk + antifragile",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'neutral' 입장 — anchor: fragility + tail risk + antifragile",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "나심 탈레브: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: fragility + tail risk + antifragile",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'challenge' 입장 — anchor: fragility + tail risk + antifragile",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "key_concerns_top3": [
+        "[actual] 현재 가격은 conservative intrinsic value 대비 0% margin of safety — pass",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 단, 두산에너빌리티는 자산가치 대비 미미한 discount — 'cigar butt' 아닌 quality",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄는 margin of safety + 보수적 estimate 기준으로 본 종목 평가 — verdict는 'neutral'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'neutral' 입장 — anchor: margin of safety + 보수적 estimate",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: margin of safety + 보수적 estimate",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'neutral' 입장 — anchor: margin of safety + 보수적 estimate",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: margin of safety + 보수적 estimate",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: margin of safety + 보수적 estimate",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: margin of safety + 보수적 estimate",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'neutral' 입장 — anchor: margin of safety + 보수적 estimate",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "벤저민 그레이엄: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'challenge' 입장 — anchor: margin of safety + 보수적 estimate",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] Activism opportunity 없음 — corporate governance 양호, value unlock catalyst 약함",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HD현대일렉트릭·효성중공업: high-quality compounders + 미국 capacity 확장 catalyst 명확",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "빌 애크먼는 concentrated quality + catalyst 기준으로 본 종목 평가 — verdict는 'neutral'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "빌 애크먼: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: concentrated quality + catalyst",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "빌 애크먼: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: concentrated quality + catalyst",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'neutral' 입장 — anchor: concentrated quality + catalyst",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "빌 애크먼: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: concentrated quality + catalyst",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: concentrated quality + catalyst",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "빌 애크먼: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: concentrated quality + catalyst",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "빌 애크먼: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: concentrated quality + catalyst",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'neutral' 입장 — anchor: concentrated quality + catalyst",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] Sector low-risk 아님 — high-risk + high-uncertainty (변동성 35-45%)",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 효성중공업·HD현대일렉트릭은 'low-downside, high-upside' — 미국 데이터센터 secular trend",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "모니시 파브라이는 Dhandho + low-risk, high-uncertainty 기준으로 본 종목 평가 — verdict는 'neutral'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "모니시 파브라이: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: Dhandho + low-risk, high-uncertainty",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: Dhandho + low-risk, high-uncertainty",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'neutral' 입장 — anchor: Dhandho + low-risk, high-uncertainty",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: Dhandho + low-risk, high-uncertainty",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: Dhandho + low-risk, high-uncertainty",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: Dhandho + low-risk, high-uncertainty",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: Dhandho + low-risk, high-uncertainty",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "모니시 파브라이: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'support' 입장 — anchor: Dhandho + low-risk, high-uncertainty",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[actual] 효성중공업 경영진 (조현문 → 조현준) 분쟁 historical issue 잔존",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HD현대일렉트릭 (정기선 회장) management 강력 + R&D 투자 가속 — 'great growth company'",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "필립 피셔는 '15 points' + scuttlebutt + management quality 기준으로 본 종목 평가 — verdict는 'lean_bullish'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "필립 피셔: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: '15 points' + scuttlebutt + management quality",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "필립 피셔: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: '15 points' + scuttlebutt + management quality",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'neutral' 입장 — anchor: '15 points' + scuttlebutt + management quality",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "필립 피셔: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: '15 points' + scuttlebutt + management quality",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: '15 points' + scuttlebutt + management quality",
+          "confidence": 0.57
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "필립 피셔: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: '15 points' + scuttlebutt + management quality",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "필립 피셔: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: '15 points' + scuttlebutt + management quality",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "필립 피셔: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'neutral' 입장 — anchor: '15 points' + scuttlebutt + management quality",
+          "confidence": 0.57
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 한국은 EM이 아닌 DM — 본 페르소나 fit 약함",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 그러나 한국 → 미국·유럽 export sector는 'EM-style operating leverage'",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "라케시 준준왈라는 EM growth + structural tailwind 기준으로 본 종목 평가 — verdict는 'lean_bullish'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 narrative 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: EM growth + structural tailwind",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: EM growth + structural tailwind",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'support' 입장 — anchor: EM growth + structural tailwind",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: EM growth + structural tailwind",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 한국 정책 risk가 sector unlock factor 에 대해 'support' 입장 — anchor: EM growth + structural tailwind",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: EM growth + structural tailwind",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: EM growth + structural tailwind",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'neutral' 입장 — anchor: EM growth + structural tailwind",
+          "confidence": 0.57
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "short_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] AI CapEx cycle peak risk — 2027-2028 cycle reversal 시 -40%+ drawdown 가능",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 변압기·SMR sector는 macro tailwind (AI + 탈탄소 + 그리드 모더나이즈이션) 3-fold convergence — historic asymmetric setup",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러는 macro tailwind + concentrated bets + asymmetric 기준으로 본 종목 평가 — verdict는 'lean_bullish'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 narrative 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: macro tailwind + concentrated bets + asymmetric",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'support' 입장 — anchor: macro tailwind + concentrated bets + asymmetric",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'support' 입장 — anchor: macro tailwind + concentrated bets + asymmetric",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: macro tailwind + concentrated bets + asymmetric",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 한국 정책 risk가 sector unlock factor 에 대해 'support' 입장 — anchor: macro tailwind + concentrated bets + asymmetric",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: macro tailwind + concentrated bets + asymmetric",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: macro tailwind + concentrated bets + asymmetric",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'neutral' 입장 — anchor: macro tailwind + concentrated bets + asymmetric",
+          "confidence": 0.57
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "아스와스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] 효성중공업 forward PER 36배 / 두산에너빌리티 PER 129배 — implied growth 연 25-40% 5년 필요",
+        "[inference] 단기 변동성 35-45% — drawdown -25-40% 가능, 진입 분산 필요",
+        "[assumption] AI CapEx cycle 둔화 시 sector multiple compression -20-30%"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HD현대일렉트릭 DCF intrinsic value 약 1.5조원/주 (현재 1.4조원) — 'fairly priced compounder'",
+        "[inference] 미국 변압기 lead time 2-3년 — 한국 기업 가격 협상력 우위 지속",
+        "[assumption] 한국 정책 정상화 시 추가 unlock — 국가 전략 산업화 가능성"
+      ],
+      "uncertainty": "AI CapEx cycle timing + 한국 정책 방향 — 2027 대선 결과 핵심 변수",
+      "narrative_vs_quant_resolution": "아스와스 다모다란는 DCF + story-numbers consistency 기준으로 본 종목 평가 — verdict는 'neutral'. narrative (LS에코에너지의 secular tailwind) vs quant (PER premium) 충돌 시 본 페르소나는 quant 측을 더 무겁게 가중.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: AI 가치사슬 병목이 메모리에서 전력으로 이동 에 대해 'support' 입장 — anchor: DCF + story-numbers consistency",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "아스와스 다모다란: 변압기·송배전·SMR·가스터빈 sector 슈퍼사이클 에 대해 'neutral' 입장 — anchor: DCF + story-numbers consistency",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: 미국=화석연료 vs 중국=재생에너지+송전망 dominance 비대칭 에 대해 'support' 입장 — anchor: DCF + story-numbers consistency",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: 한국 녹색산업 전 분야 보유 unique advantage 에 대해 'support' 입장 — anchor: DCF + story-numbers consistency",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "아스와스 다모다란: 한국 정책 risk가 sector unlock factor 에 대해 'neutral' 입장 — anchor: DCF + story-numbers consistency",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: 변압기 1차 > SMR/가스터빈 2차 > 케이블 3차 우선순위 에 대해 'support' 입장 — anchor: DCF + story-numbers consistency",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "아스와스 다모다란: 메모리→데이터센터→전력→발전→에너지안보 자본배분 흐름 에 대해 'support' 입장 — anchor: DCF + story-numbers consistency",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "아스와스 다모다란: 변압기 sector PER 25-40배 — 단기 조정 활용 진입 에 대해 'challenge' 입장 — anchor: DCF + story-numbers consistency",
+          "confidence": 0.4
+        }
+      ]
+    }
+  }
+}

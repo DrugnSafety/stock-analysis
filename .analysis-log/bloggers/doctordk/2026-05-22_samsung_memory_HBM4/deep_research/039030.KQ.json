@@ -1,0 +1,231 @@
+{
+  "industry": {
+    "name": "HBM Laser/Test Equipment + EUV niche",
+    "overview": "HBM laser drilling·test 시스템 + EUV pellicle 보조 장비. Samsung·Hynix·Micron 모두 채택. 한미반도체 대비 niche position이나 다각화 (laser·test·EUV).",
+    "competitors": [
+      {
+        "ticker": "042700.KQ",
+        "name": "한미반도체",
+        "share_pct": 25.0,
+        "moat": "-"
+      },
+      {
+        "ticker": "ASML",
+        "name": "ASML",
+        "share_pct": 25.0,
+        "moat": "-"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-Q1",
+        "headline": "HBM4 laser 시스템 양산 가이드",
+        "impact": "o",
+        "impact_reason": "중립적 영향",
+        "source": "본 분석 종합",
+        "title": "HBM4 laser 시스템 양산 가이드",
+        "summary": "중립적 영향"
+      },
+      {
+        "date": "2025-Q4",
+        "headline": "매출 yoy +60%",
+        "impact": "o",
+        "impact_reason": "중립적 영향",
+        "source": "본 분석 종합",
+        "title": "매출 yoy +60%",
+        "summary": "중립적 영향"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 1.2,
+      "cagr_pct": 30.0,
+      "horizon": "2026-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 3800,
+        "op_income": 600,
+        "op_margin": 15.8,
+        "net_income": 450,
+        "net_margin": 11.8,
+        "unit": "억원"
+      },
+      {
+        "year": 2022,
+        "revenue": 3500,
+        "op_income": 250,
+        "op_margin": 7.1,
+        "net_income": 180,
+        "net_margin": 5.1
+      },
+      {
+        "year": 2023,
+        "revenue": 2800,
+        "op_income": -50,
+        "op_margin": -1.8,
+        "net_income": -100,
+        "net_margin": -3.6
+      },
+      {
+        "year": 2024,
+        "revenue": 4500,
+        "op_income": 600,
+        "op_margin": 13.3,
+        "net_income": 400,
+        "net_margin": 8.9
+      },
+      {
+        "year": 2025,
+        "revenue": 7000,
+        "op_income": 1400,
+        "op_margin": 20.0,
+        "net_income": 1000,
+        "net_margin": 14.3
+      },
+      {
+        "year": "2026E",
+        "revenue": 11000,
+        "op_income": 2500,
+        "op_margin": 22.7,
+        "net_income": 1800,
+        "net_margin": 16.4
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets_조원": 0.85,
+      "total_debt_조원": 0.04,
+      "cash_조원": 0.35,
+      "equity_조원": 0.7,
+      "debt_to_equity": 0.06
+    },
+    "cf_summary": {
+      "OCF_2025_조원": 0.12,
+      "FCF_2025_조원": 0.08,
+      "CapEx_2025_조원": 0.04
+    },
+    "peer_compare": [
+      {
+        "ticker": "039030.KQ",
+        "name": "이오테크닉스",
+        "pe": 46.0,
+        "pb": 8.5,
+        "roe": 22.0,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "042700.KQ",
+        "name": "한미반도체",
+        "pe": 35.2,
+        "pb": 12.5,
+        "roe": 45.0,
+        "div_yield": 1.2
+      }
+    ],
+    "trend_narrative_5y": "2023 cycle 침체 손실 → 2024~2026 HBM 회복으로 영업이익률 23%. ROE 22% 안정 진입."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "thesis": "HBM4 laser 독점 + EUV pellicle 확대 + 매출 15조원 + Fwd PE 40 정당화",
+      "key_assumptions": [
+        "HBM laser 점유율 45%",
+        "EUV pellicle 신규 수요"
+      ],
+      "target_price": 750000
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "HBM 후공정 수혜 + 매출 11조원 + Fwd PE 40",
+      "key_assumptions": [
+        "점유율 35%",
+        "HBM cycle 2027 정점"
+      ],
+      "target_price": 620000
+    },
+    "bear": {
+      "prob_pct": 30,
+      "thesis": "HBM cycle 정점 unwind + niche 부담 + Fwd PE 25 compression",
+      "key_assumptions": [
+        "cycle peak",
+        "한미 대비 niche 한계"
+      ],
+      "target_price": 380000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM4 laser 시스템 신규 발주",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "HBM4 laser 시스템 신규 발주"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "EUV pellicle 양산 시작",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "EUV pellicle 양산 시작"
+    }
+  ],
+  "risks": [
+    {
+      "name": "한미반도체 대비 niche position",
+      "probability": "high",
+      "impact": "high",
+      "description": "한미반도체 대비 niche position",
+      "mitigation": "-"
+    },
+    {
+      "name": "HBM cycle peak unwind",
+      "probability": "high",
+      "impact": "high",
+      "description": "HBM cycle peak unwind",
+      "mitigation": "-"
+    },
+    {
+      "name": "valuation 부담 (Fwd PE 46, 1Y +348%)",
+      "probability": "high",
+      "impact": "high",
+      "description": "valuation 부담 (Fwd PE 46, 1Y +348%)",
+      "mitigation": "-"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "HBM 후공정·테스터·본더·소부장 수혜 확대",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T7 HBM 후공정 수혜' alignment score=0.8; 본 종목 관련성 = 직접 — laser·test 장비",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.8
+    },
+    {
+      "claim": "리튬 가격은 2025년 저점 통과, 2026년 H2부터 회복",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T1 메모리 슈퍼사이클' alignment score=0.7; 본 종목 관련성 = 장비 capex 수혜",
+      "testability": "medium",
+      "current_status": "pending",
+      "alignment_score": 0.7
+    },
+    {
+      "claim": "P4 평택 라인 가동으로 범용 메모리 부족 가속",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T4 P4 가동' alignment score=0.65; 본 종목 관련성 = P4 장비 발주 일부",
+      "testability": "medium",
+      "current_status": "pending",
+      "alignment_score": 0.65
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "사업보고서",
+      "title": "매출 yoy +60% + EUV pellicle 신규 라인",
+      "impact": "+/긍정적"
+    }
+  ]
+}

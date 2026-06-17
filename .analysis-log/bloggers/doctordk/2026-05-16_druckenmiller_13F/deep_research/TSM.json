@@ -1,0 +1,296 @@
+{
+  "industry": {
+    "name": "첨단 공정 파운드리 (3nm 이하)",
+    "overview": "AI 칩의 압도적 대다수가 TSMC 3nm·5nm 공정으로 생산. 7nm 이하 파운드리 점유율 TSMC 90%+, Samsung 5%, Intel 3%. 3nm 이하는 사실상 TSMC 단독(Intel 18A는 2026 2H 양산, Samsung 2nm GAA는 yield 문제). 미국 CHIPS Act + Arizona Fab으로 geographic diversification 진행. AI 산업 전체의 'sole-source bottleneck' 역할.",
+    "competitors": [
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 67.0,
+        "moat": "3nm·2nm·A16 leading-edge sole producer + CoWoS advanced packaging 80%+"
+      },
+      {
+        "name": "Samsung Foundry",
+        "ticker": "005930.KS",
+        "share_pct": 11.0,
+        "moat": "K-CHIPS Act + 자체 메모리·로직 통합"
+      },
+      {
+        "name": "Intel Foundry",
+        "ticker": "INTC",
+        "share_pct": 8.0,
+        "moat": "18A 양산 시작(2026 2H) + 미국 인프라"
+      },
+      {
+        "name": "GlobalFoundries",
+        "ticker": "GFS",
+        "share_pct": 6.0,
+        "moat": "12nm 이상 mature node 특화"
+      },
+      {
+        "name": "SMIC",
+        "ticker": "0981.HK",
+        "share_pct": 5.0,
+        "moat": "중국 정부 backstop, 7nm DUV"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-09",
+        "title": "TSMC Q1 2026 매출 $25B (+30% YoY)",
+        "source": "TSMC IR",
+        "summary": "AI 매출 비중 43% — guidance 상향"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "TSMC 2nm Hsinchu Fab 24 양산 일정 확정 2025 H2",
+        "source": "DigiTimes",
+        "summary": "Apple A20·NVDA Rubin이 first customer"
+      },
+      {
+        "date": "2026-02-08",
+        "title": "Arizona Fab 21 1차 양산 시작 (4nm)",
+        "source": "TSMC press",
+        "summary": "CHIPS Act $6.6B funding 활용"
+      }
+    ],
+    "impact_tagging": "+ (strong tailwind)"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 56822,
+        "op_income": 23311,
+        "op_margin": 41.0,
+        "net_income": 21500,
+        "net_margin": 37.8
+      },
+      {
+        "year": 2022,
+        "revenue": 75880,
+        "op_income": 38260,
+        "op_margin": 50.4,
+        "net_income": 34000,
+        "net_margin": 44.8
+      },
+      {
+        "year": 2023,
+        "revenue": 69298,
+        "op_income": 28200,
+        "op_margin": 40.7,
+        "net_income": 26900,
+        "net_margin": 38.8
+      },
+      {
+        "year": 2024,
+        "revenue": 87800,
+        "op_income": 38500,
+        "op_margin": 43.8,
+        "net_income": 35200,
+        "net_margin": 40.1
+      },
+      {
+        "year": 2025,
+        "revenue": 90000,
+        "op_income": 38000,
+        "op_margin": 42.2,
+        "net_income": 35000,
+        "net_margin": 38.9
+      }
+    ],
+    "bs_snapshot": {
+      "year": 2025,
+      "total_assets": 200000,
+      "total_debt": 30000,
+      "cash": 65000,
+      "shareholders_equity": 130000,
+      "debt_to_equity": 0.23
+    },
+    "cf_summary": {
+      "year": 2025,
+      "ocf": 70000,
+      "fcf": 35000,
+      "capex": 40000,
+      "fcf_margin": 38.9,
+      "shareholder_returns": 18000
+    },
+    "peer_compare": [
+      {
+        "ticker": "TSM",
+        "fwd_pe": 21.0,
+        "pb": 5.0,
+        "ev_ebitda": 12,
+        "fcf_yield": 2.0,
+        "roe": 28
+      },
+      {
+        "ticker": "INTC",
+        "fwd_pe": 18,
+        "pb": 1.5,
+        "ev_ebitda": 9,
+        "fcf_yield": -2.0,
+        "roe": 5
+      },
+      {
+        "ticker": "005930.KS",
+        "fwd_pe": 10,
+        "pb": 1.3,
+        "ev_ebitda": 5,
+        "fcf_yield": 5.0,
+        "roe": 9
+      },
+      {
+        "ticker": "GFS",
+        "fwd_pe": 22,
+        "pb": 1.4,
+        "ev_ebitda": 7,
+        "fcf_yield": 4.0,
+        "roe": 5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 45,
+      "target_price": 500,
+      "thesis": "AI 매출 비중 50% 달성, 2nm 양산 성공, Apple silicon 갱신",
+      "key_assumptions": [
+        "Apple A20 2nm 양산",
+        "Intel 18A 양산 지연",
+        "2nm gross margin 50%+"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 430,
+      "thesis": "AI 매출 mix 확대, capex 부담 지속",
+      "key_assumptions": [
+        "AI 매출 비중 45%",
+        "capex/sales 40%+",
+        "geopolitical status quo"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 280,
+      "thesis": "Taiwan tail event(중국-대만), Samsung 2nm GAA 양산 성공, AI capex slowdown",
+      "key_assumptions": [
+        "geopolitical incident",
+        "Samsung 2nm yield 회복",
+        "TSMC 점유율 90%+ → 80%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07-15",
+      "event": "FY26 Q2 어닝 + 2nm 양산 일정 update",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "AI 매출 +30% 유지 시 +12%"
+    },
+    {
+      "date": "2026-09-XX",
+      "event": "Apple A20 (2nm) 발표 — TSMC 2nm 첫 customer",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "2nm 양산 신뢰성 확인 — 8-15% upside"
+    },
+    {
+      "date": "2026-10-XX",
+      "event": "Intel 18A 양산 시작",
+      "type": "industry",
+      "expected_impact": "-",
+      "description": "TSMC 첨단 공정 점유율 영향 가시화 — competitive risk"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "FY26 AI 매출 가이던스",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "AI 매출 비중 50%+ 도달 가능성"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Taiwan-China geopolitical conflict (tail risk)",
+      "probability": "low",
+      "impact": "high",
+      "description": "시총 -50%+ tail risk",
+      "mitigation": "Arizona Fab 확대, Japan/Germany Fab 진행 — geographic diversification"
+    },
+    {
+      "name": "Samsung 2nm GAA yield 회복",
+      "probability": "med",
+      "impact": "high",
+      "description": "TSMC 점유율 95% → 85%로 축소",
+      "mitigation": "CoWoS advanced packaging 통합 lead 유지"
+    },
+    {
+      "name": "Intel 18A 양산 성공",
+      "probability": "med",
+      "impact": "med",
+      "description": "미국 시장 점유율 잠식 위험",
+      "mitigation": "Arizona Fab + advanced packaging ecosystem"
+    },
+    {
+      "name": "capex 부담",
+      "probability": "high",
+      "impact": "low",
+      "description": "$40B/yr capex로 FCF 압박",
+      "mitigation": "AI 매출 ASP premium으로 마진 회복"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "3nm 이하 공정 사실상 TSMC 단독",
+      "type": "industry",
+      "evidence": "Intel 18A 2026 2H 양산 시작, Samsung 2nm yield 문제 — TrendForce 2025-11",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "CoWoS advanced packaging capa 30K → 75K WPM (2024-2026)",
+      "type": "company",
+      "evidence": "TSMC FY26 capex 가이던스 + CoWoS expansion plan",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "AI 칩 생산 모두 TSMC — NVDA, AMD, Google TPU, AWS Trainium, MSFT Maia",
+      "type": "industry",
+      "evidence": "각 hyperscaler/fabless 공시 + IR 발표",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI 산업 전체의 'sole-source bottleneck' — pricing power 확립",
+      "type": "macro",
+      "evidence": "Q1 2026 매출 +30% YoY (AI 비중 43%)",
+      "testability": "med",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [],
+  "etf_holdings": [
+    {
+      "etf": "SOXX",
+      "weight_pct": 10.5
+    },
+    {
+      "etf": "SMH",
+      "weight_pct": 12.8
+    },
+    {
+      "etf": "EEM (iShares MSCI EM)",
+      "weight_pct": 8.2
+    }
+  ],
+  "reverse_dcf": {
+    "current_price": 404.35,
+    "implied_growth_rate_yrs_10": 18,
+    "implied_terminal_margin_pct": 38,
+    "comment": "current price assumes 18%/yr revenue growth × 38% terminal margin over 10 years — 'priced for AI 매출 확대 + 첨단 공정 leadership 유지', geopolitical discount 약 15% 반영"
+  }
+}

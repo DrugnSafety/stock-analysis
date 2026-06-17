@@ -1,0 +1,274 @@
+{
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T04",
+      "claim": "SpaceX IPO 1조달러",
+      "ticker_exposure": "+",
+      "reasoning": "머스크 자금 spillover. SpaceX IPO 가시성 시 TSLA halo. 4-Analyst aggregate neutral (0.525)."
+    },
+    {
+      "thesis_id": "T06",
+      "claim": "머스크·젠슨황·알트먼 수렴",
+      "ticker_exposure": "+",
+      "reasoning": "머스크 인물 핵심 vehicle은 TSLA·SpaceX. 우주 데이터센터 narrative 시 TSLA also."
+    },
+    {
+      "thesis_id": "T01",
+      "claim": "우주 데이터센터 메가테마",
+      "ticker_exposure": "0",
+      "reasoning": "Dojo AI compute는 in-house, 우주와 무관."
+    }
+  ],
+  "industry": {
+    "name": "EV + Energy Storage + Robotaxi + AI Compute (Cortex/Dojo)",
+    "overview": "EV 글로벌 1위(점유율 12%), Energy Storage(Megapack) 매출 +50%/yr, Robotaxi(Cybercab) 2025-Q4 launch 시작. Dojo AI 슈퍼컴퓨터 (in-house custom silicon) — 메르 thesis 연결점. 머스크 정치/SpaceX/X 자금 흐름 spillover.",
+    "competitors": [
+      {
+        "name": "BYD",
+        "ticker": "BYDDY",
+        "share_pct": 20.0,
+        "moat": "글로벌 1위(EV+PHEV), 中国 가격경쟁력"
+      },
+      {
+        "name": "Volkswagen",
+        "ticker": "VWAGY",
+        "share_pct": 8.0,
+        "moat": "ID시리즈 + Audi/Porsche EV"
+      },
+      {
+        "name": "Ford",
+        "ticker": "F",
+        "share_pct": 3.0,
+        "moat": "F-150 Lightning, Mustang Mach-E"
+      },
+      {
+        "name": "General Motors",
+        "ticker": "GM",
+        "share_pct": 3.0,
+        "moat": "Ultium 플랫폼"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 700.0,
+      "cagr_pct": 14.0,
+      "horizon": "2024-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-13",
+        "title": "TSLA 제한주식 매도 통보",
+        "source": "SEC EDGAR",
+        "summary": "정기 임원 매도"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "Form 10-K/A 정정 보고",
+        "source": "SEC EDGAR",
+        "summary": "회계 정정 (minor)"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Cybercab 양산 ramp 시작",
+        "source": "TSLA Press",
+        "summary": "Q2 2026 1,000대 목표"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY22",
+        "revenue": 81500,
+        "op_income": 13700,
+        "op_margin": 16.8,
+        "net_income": 12600,
+        "net_margin": 15.5
+      },
+      {
+        "year": "FY23",
+        "revenue": 96800,
+        "op_income": 8910,
+        "op_margin": 9.2,
+        "net_income": 15000,
+        "net_margin": 15.5
+      },
+      {
+        "year": "FY24",
+        "revenue": 97700,
+        "op_income": 7035,
+        "op_margin": 7.2,
+        "net_income": 7100,
+        "net_margin": 7.3
+      },
+      {
+        "year": "FY25E",
+        "revenue": 105000,
+        "op_income": 9975,
+        "op_margin": 9.5,
+        "net_income": 10500,
+        "net_margin": 10.0
+      },
+      {
+        "year": "FY26E",
+        "revenue": 130000,
+        "op_income": 18200,
+        "op_margin": 14.0,
+        "net_income": 18000,
+        "net_margin": 13.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 145000,
+      "total_liab": 50000,
+      "equity": 95000,
+      "cash": 42000,
+      "debt": 7000
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 17780,
+      "fcf_5y_avg": 6100,
+      "capex_intensity": 0.11
+    },
+    "peer_compare": [
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pe": 250.0,
+        "pb": 16.0,
+        "roe": 13.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "BYDDY",
+        "name": "BYD",
+        "pe": 18.0,
+        "pb": 4.5,
+        "roe": 22.0,
+        "div_yield": 1.2
+      },
+      {
+        "ticker": "GM",
+        "name": "General Motors",
+        "pe": 6.5,
+        "pb": 0.85,
+        "roe": 12.0,
+        "div_yield": 1.0
+      },
+      {
+        "ticker": "F",
+        "name": "Ford",
+        "pe": 8.0,
+        "pb": 1.1,
+        "roe": 13.0,
+        "div_yield": 5.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 600,
+      "thesis": "Cybercab Robotaxi 2026 본격 launch + FSD revenue, Optimus 시연, SpaceX IPO halo, Energy 매출 폭발",
+      "key_assumptions": [
+        "Robotaxi launch",
+        "FSD adoption",
+        "Optimus",
+        "SpaceX halo"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 380,
+      "thesis": "EV 점유율 유지 + 가격 인상 회복, FY26 매출 +24%, Robotaxi 점진적 ramp, Forward PE 100-150 유지",
+      "key_assumptions": [
+        "EV margin recovery",
+        "Robotaxi gradual"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 230,
+      "thesis": "BYD/中 EV 가격경쟁 격화 글로벌 share loss, FSD 규제 지연, 머스크 정치 brand damage, valuation -50%",
+      "key_assumptions": [
+        "China EV competition",
+        "Musk political risk",
+        "Multiple compression"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Cybercab production ramp",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "2025-Q4 launch 후 본격 양산"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Optimus 첫 customer delivery",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "humanoid robot 시장 개시"
+    },
+    {
+      "date": "2026-H2",
+      "event": "SpaceX IPO 가시화 (T04)",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "TSLA로 자금 spillover/halo"
+    },
+    {
+      "date": "2026-2027",
+      "event": "FSD v14 + level 4 자율주행 인증",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "Robotaxi 본격 비즈니스 모델"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Energy Megapack 매출 $20B 돌파",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Energy 부문 EV 대체 성장 driver"
+    }
+  ],
+  "risks": [
+    {
+      "name": "BYD/中 EV 가격경쟁",
+      "probability": "high",
+      "impact": "high",
+      "description": "Tesla Model 3/Y vs BYD Han/Tang 가격 격차 확대 (BYD가 30%+ 저렴)",
+      "mitigation": "Robotaxi/Energy/Optimus 다변화"
+    },
+    {
+      "name": "머스크 정치 리스크",
+      "probability": "high",
+      "impact": "med",
+      "description": "Trump 행정부와 머스크 갈등 시 EV tax credit 영향, brand damage",
+      "mitigation": "Diversified shareholders"
+    },
+    {
+      "name": "Forward PE 177x — 극단 valuation",
+      "probability": "high",
+      "impact": "high",
+      "description": "성장 둔화 시 multiple compression -50%+",
+      "mitigation": "Robotaxi/Optimus narrative"
+    },
+    {
+      "name": "FSD/Robotaxi 규제 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "level 4 자율주행 미국 federal 규정 미정",
+      "mitigation": "주별 pilot 확대"
+    },
+    {
+      "name": "T04 thesis 약화 (SpaceX IPO 1T 미달성)",
+      "probability": "med",
+      "impact": "med",
+      "description": "SpaceX IPO valuation gap → TSLA halo 약화",
+      "mitigation": "TSLA standalone fundamentals"
+    }
+  ],
+  "korean_disclosures": []
+}

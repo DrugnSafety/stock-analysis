@@ -1,0 +1,212 @@
+{
+  "ticker": "FSLR",
+  "name": "First Solar",
+  "name_en": "First Solar, Inc.",
+  "as_of": "2026-05-25",
+  "thesis_role": "HIGH — Non-PFE 자격 자동 + IRA 45X 최대 수혜 + hyperscaler PPA",
+  "industry": {
+    "name": "Polysilicon / Solar PV Value Chain (Non-PFE focus)",
+    "overview": "전세계 polysilicon 생산능력 약 280만톤(2026), 수요 약 170만톤 — 명목 oversupply이나 미국 UFLPA(2022 발효) + Section 301(중국 25% 관세) + Section 232(2026 발표 임박)로 Non-PFE(Polysilicon From Entity List 제외) 공급망에 사실상 quota 보호. 주요 mega-trend: (1) 미국 IRA 45X tax credit ($3/kg polysilicon · $12/㎡ wafer), (2) AI/데이터센터 전력 수요 폭증 (EPRI 추정 2030년 660TWh), (3) hyperscaler 직접 PPA 확대 (Microsoft·Google·Meta 누적 40GW+), (4) 이란-이스라엘 긴장으로 중동 데이터센터의 미국 회귀, (5) SpaceX·Tesla·Anthropic 같은 빅테크의 자체 발전(behind-the-meter) 인프라 투자. Cycle: polysilicon spot $7~10/kg (2024~25 bottom) → 2026~28 회복 컨센서스 $15~20/kg.",
+    "competitors": [
+      {
+        "name": "Tongwei (China)",
+        "ticker": "600438.SS",
+        "share_pct": 22,
+        "moat": "중국 최대 polysilicon, vertically integrated cell + module"
+      },
+      {
+        "name": "GCL Technology (China)",
+        "ticker": "3800.HK",
+        "share_pct": 18,
+        "moat": "FBR(fluidized bed reactor) 저비용 기술 + 모듈 통합"
+      },
+      {
+        "name": "Daqo New Energy (China)",
+        "ticker": "DQ",
+        "share_pct": 14,
+        "moat": "신장·내몽골 base, 미국 ADR 상장 — UFLPA 직격탄"
+      },
+      {
+        "name": "Wacker Chemie (Germany)",
+        "ticker": "WCH.DE",
+        "share_pct": 8,
+        "moat": "독일·미국 Tennessee 생산, semiconductor grade specialty"
+      },
+      {
+        "name": "Hemlock Semiconductor (US JV)",
+        "ticker": "private (Corning + DOW JV)",
+        "share_pct": 5,
+        "moat": "미국 유일 dedicated polysilicon plant, semi-grade 강점"
+      },
+      {
+        "name": "OCI Holdings (Korea)",
+        "ticker": "010060.KS",
+        "share_pct": 6,
+        "moat": "Malaysia plant (Non-PFE 자격) + NeoSilicon wafer Texas + 한국 유일 글로벌 player"
+      },
+      {
+        "name": "Hanwha Solutions/Qcells",
+        "ticker": "009830.KS",
+        "share_pct": 4,
+        "moat": "Polysilicon (OCI 의존) + 셀·모듈 통합, US Qcells 모듈 1위"
+      },
+      {
+        "name": "First Solar (US)",
+        "ticker": "FSLR",
+        "share_pct": "N/A (CdTe non-silicon)",
+        "moat": "CdTe thin-film — polysilicon 우회, IRA 45X 직접 수혜 최대치"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 28.5,
+      "cagr_pct": 14.5,
+      "horizon": "2024-2030"
+    }
+  },
+  "news_disclosures": [
+    {
+      "date": "2026-03-05",
+      "title": "First Solar Microsoft 5GW 다년 PPA 체결",
+      "source": "FSLR/MSFT 공동발표",
+      "summary": "2026~2032 6년간 5GW CdTe 모듈 공급. IRA 45X 풀 수혜.",
+      "impact": "+",
+      "impact_reason": "Confirms hyperscaler PPA mega-trend"
+    },
+    {
+      "date": "2026-05-22",
+      "title": "하나/윤재성 OCI홀딩스 신규 커버리지 'BUY/TP 55만원' (+75% upside)",
+      "source": "하나증권",
+      "summary": "Daqo 10x · GE Vernova 28x 평균 19x EV/EBITDA 적용. 영업가치 10조원 타겟. SpaceX 다년계약과 NeoSilicon wafer Non-PFE 가치 강조.",
+      "impact": "+",
+      "impact_reason": "primary catalyst for blog thesis"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "트럼프 행정부 Section 232 조사 대상에 polysilicon·wafer 포함 결정",
+      "source": "USTR",
+      "summary": "60일 의견수렴 후 8~9월 발표 예정. 중국·동남아 우회 수출에 대한 추가 관세 가능성.",
+      "impact": "+",
+      "impact_reason": "Direct catalyst for Non-PFE supplier re-rating"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Microsoft Korea Seoul 데이터센터 50MW 추가 발주 — IRA 추가 verified",
+      "source": "Microsoft IR",
+      "summary": "한국 IDC 클러스터 4사이트 확장, 한국 polysilicon·wafer supplier에 우호적",
+      "impact": "+",
+      "impact_reason": "Korea solar supply chain demand"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "OCI Malaysia Plant 미국 향 수출 비중 65% → 78% 확대 (4월 잠정)",
+      "source": "OCI IR",
+      "summary": "Non-PFE 인증 polysilicon 프리미엄 평균 +28% 유지",
+      "impact": "+",
+      "impact_reason": "Direct evidence of frame shift thesis"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "SpaceX Bastrop County 태양광 EIS 추가 1.5GW 신청",
+      "source": "Texas PUC",
+      "summary": "기존 phase 1 (5,000에이커) + phase 2 (2,500에이커) 합산 7,500에이커, 최대 10GW 추정",
+      "impact": "+",
+      "impact_reason": "Confirms blog T02 (SpaceX 10GW)"
+    }
+  ],
+  "financials": {
+    "5y_pl": {
+      "2021": {
+        "revenue_usd_m": 2923,
+        "op_usd_m": 60,
+        "op_margin_pct": 2.1,
+        "net_usd_m": 469
+      },
+      "2022": {
+        "revenue_usd_m": 2619,
+        "op_usd_m": -34,
+        "op_margin_pct": -1.3,
+        "net_usd_m": -44
+      },
+      "2023": {
+        "revenue_usd_m": 3319,
+        "op_usd_m": 855,
+        "op_margin_pct": 25.8,
+        "net_usd_m": 831
+      },
+      "2024": {
+        "revenue_usd_m": 4214,
+        "op_usd_m": 1320,
+        "op_margin_pct": 31.3,
+        "net_usd_m": 1290
+      },
+      "2025E": {
+        "revenue_usd_m": 5400,
+        "op_usd_m": 1980,
+        "op_margin_pct": 36.7,
+        "net_usd_m": 1750
+      }
+    },
+    "5y_trend_narrative": "2021~22 transition trough 후 2023부터 IRA 45X full implementation으로 OPM 25% → 36% 지속 확대. 매출 5년 CAGR 16%, EPS 4년 누적 +200%. 미국 hyperscaler 5GW Microsoft·1.5GW Google 다년 PPA로 visibility 5년+ 확보.",
+    "current_metrics": {
+      "current_price": 257.85,
+      "currency": "USD",
+      "forward_pe": 10.99,
+      "beta": 1.56,
+      "return_1y_pct": 64.92,
+      "vol_annualized_pct": 44.3,
+      "market_cap_usd_bn": 27.71,
+      "tp_brokerage": "$300 (컨센서스 평균)",
+      "tp_upside_pct": 16
+    }
+  },
+  "scenario_analysis": {
+    "bull": "IRA 유지 + 추가 PPA + 35% OPM 지속 → TP $400 (+55%)",
+    "base": "IRA 유지 + 30% OPM → TP $300 (+16%)",
+    "bear": "IRA 일부 축소 + CdTe efficiency gap 확대 → TP $180 (-30%)"
+  },
+  "catalysts": [
+    "IRA 45X 분기별 $0.17/W tax credit",
+    "Alabama·Louisiana 신규 fab 가동",
+    "India Tamil Nadu fab ramp",
+    "추가 hyperscaler PPA (Amazon·Meta)"
+  ],
+  "risks": [
+    "IRA 트럼프 행정부 축소",
+    "CdTe efficiency c-Si 대비 경쟁 압박",
+    "India·Vietnam fab yield risk",
+    "tellurium 원료 공급 risk"
+  ],
+  "reverse_dcf": {
+    "assumption_for_current_price": "EBITDA growth 12%/yr (2026~30) + terminal EV/EBITDA 9x + WACC 8%",
+    "implied_market_view": "IRA 부분 reversal 가정 + steady-state 36% OPM 회의적"
+  },
+  "etf_holdings": [
+    {
+      "etf": "TAN (Invesco Solar)",
+      "weight_pct": 11.5,
+      "rank": 2
+    },
+    {
+      "etf": "ICLN (iShares Global Clean Energy)",
+      "weight_pct": 5.8,
+      "rank": 5
+    },
+    {
+      "etf": "QCLN (First Trust Clean Energy)",
+      "weight_pct": 8.2,
+      "rank": 3
+    },
+    {
+      "etf": "SPY (S&P 500)",
+      "weight_pct": 0.08,
+      "rank": 425
+    }
+  ],
+  "peer_compare": {
+    "vs_010060.KS": "FSLR은 downstream module, OCI는 upstream polysilicon — 동일 thesis 다른 layer",
+    "vs_009830.KS": "FSLR은 CdTe pure-play (Non-PFE 자동), 한화솔루션은 c-Si + 케미칼 cross-cycle",
+    "vs_DQ": "FSLR은 IRA 직접 수혜, DQ는 UFLPA 차단 — diametric opposites",
+    "vs_GEV": "FSLR은 솔라 모듈, GEV는 grid OEM — 같은 AI 전력 thesis의 다른 angle"
+  },
+  "decision_summary": "BUY (bullish · 1.23, highest conviction)"
+}

@@ -1,0 +1,181 @@
+{
+  "industry": {
+    "name": "Application Performance Monitoring (APM) + AI-native observability",
+    "overview": "Datadog과 같은 카테고리이나 'AI-native' Davis AI 차별화. Enterprise large-customer 비중 높음 (Fortune 100의 80%+).",
+    "competitors": [
+      {
+        "name": "Datadog",
+        "ticker": "DDOG",
+        "share_pct": 25.0,
+        "moat": "multi-product + 80% gross margin"
+      },
+      {
+        "name": "Splunk (Cisco)",
+        "ticker": "CSCO",
+        "share_pct": 22.0,
+        "moat": "SIEM + security"
+      },
+      {
+        "name": "New Relic (PE)",
+        "ticker": null,
+        "share_pct": 8.0,
+        "moat": "Developer-first"
+      },
+      {
+        "name": "AppDynamics (Cisco)",
+        "ticker": "CSCO",
+        "share_pct": 7.0,
+        "moat": "Enterprise APM"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 35,
+      "cagr_pct": 18,
+      "horizon": "2025-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-22",
+        "title": "Dynatrace Q4 FY26 매출 +18% YoY, 가이던스 상향",
+        "url": "https://ir.dynatrace.com/",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-10",
+        "title": "Davis AI Agent + LLM 통합 발표",
+        "url": "https://www.dynatrace.com/news/",
+        "impact": "+"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "target_pct": 40,
+      "rationale": "Davis AI 차별화 + AI workload visibility +120%E + valuation discount 해소로 multiple 30→40x",
+      "probability": 0.3
+    },
+    "base": {
+      "target_pct": 18,
+      "rationale": "ARR +18% 유지 + FCF margin 25%+, multiple steady",
+      "probability": 0.5
+    },
+    "bear": {
+      "target_pct": -15,
+      "rationale": "Datadog · Splunk 시장 점유 침식 + Thoma Bravo 지분 처분 압력",
+      "probability": 0.2
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q2 earnings",
+      "event": "Davis AI 매출 기여 첫 공식 공시",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI-native APM 신제품 매출 가시화"
+    },
+    {
+      "date": "2026 H2",
+      "event": "Perform 2026 컨퍼런스 + agentic observability 로드맵",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "agent debugging 신규 카테고리 진입"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Datadog 시장점유 침식",
+      "probability": "med",
+      "impact": "high",
+      "description": "신규 enterprise 계약 Datadog으로 lose 가속화",
+      "mitigation": "Davis AI 차별화 + 가격 경쟁력"
+    },
+    {
+      "name": "Thoma Bravo 지분 처분 압력",
+      "probability": "med",
+      "impact": "med",
+      "description": "Private equity sponsor의 secondary 매도 가능성",
+      "mitigation": "주가 견조성 모니터링"
+    },
+    {
+      "name": "성장률 둔화",
+      "probability": "low",
+      "impact": "med",
+      "description": "ARR +18% 정체 시 multiple 압박",
+      "mitigation": "신제품 ramp 추적"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "Davis AI explainable AI 차별화 — explainable trace는 enterprise CIO에게 강력"
+    },
+    {
+      "id": "TD2",
+      "claim": "Forward PE 30x로 Datadog 94x 대비 ⅓ 가격, 동일 thesis 정렬"
+    }
+  ],
+  "korean_disclosures": [],
+  "five_year_financials": {
+    "revenue_cagr": 22.0,
+    "opm_trajectory": "2021 10.0% → 2025 16.0% → 2026E 19.0%",
+    "roe_trajectory": "2021 5% → 2025 12% → 2026E 16%",
+    "fcf_yield": 3.5,
+    "turnaround_signal": "Davis AI ramp + AI workload monitoring +120% — 신규 layer 가속"
+  },
+  "reverse_dcf": {
+    "implied_growth_rate": 16.0,
+    "implied_terminal_margin": 28.0,
+    "judgement": "Forward PE 30x는 +16% 성장 + 28% margin terminal 가정 — 회사 가이던스 +18%와 부합, valuation arbitrage 매력.",
+    "scenario_summary": "Bull (25%) + Base (18%) + Bear (12%) — 가중 18% 성장 가정 시 IRR 12-15%"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": NaN,
+        "op_income": NaN,
+        "op_margin": NaN,
+        "net_income": NaN,
+        "net_margin": NaN
+      },
+      {
+        "year": 2023,
+        "revenue": 1159.0,
+        "op_income": 93.0,
+        "op_margin": 8.0,
+        "net_income": 108.0,
+        "net_margin": 9.3
+      },
+      {
+        "year": 2024,
+        "revenue": 1431.0,
+        "op_income": 128.0,
+        "op_margin": 9.0,
+        "net_income": 155.0,
+        "net_margin": 10.8
+      },
+      {
+        "year": 2025,
+        "revenue": 1699.0,
+        "op_income": 179.0,
+        "op_margin": 10.6,
+        "net_income": 484.0,
+        "net_margin": 28.5
+      },
+      {
+        "year": 2026,
+        "revenue": 2018.0,
+        "op_income": 264.0,
+        "op_margin": 13.1,
+        "net_income": 163.0,
+        "net_margin": 8.1
+      }
+    ],
+    "snapshot": {
+      "cash": 1172.100992,
+      "debt": 164.324,
+      "equity": 8.863
+    }
+  },
+  "peer_compare": {}
+}

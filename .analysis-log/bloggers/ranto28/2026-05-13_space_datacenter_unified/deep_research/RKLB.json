@@ -1,0 +1,272 @@
+{
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T01",
+      "claim": "우주 데이터센터 메가테마",
+      "ticker_exposure": "+",
+      "reasoning": "Launch demand 간접 수혜. SpaceX 1차, RKLB 2차."
+    },
+    {
+      "thesis_id": "T04",
+      "claim": "SpaceX IPO 1조달러",
+      "ticker_exposure": "++",
+      "reasoning": "SpaceX 비상장이라 RKLB가 가장 가까운 listed proxy. IPO halo."
+    },
+    {
+      "thesis_id": "T07",
+      "claim": "다보스 'Future Space Economy' 의제",
+      "ticker_exposure": "+",
+      "reasoning": "정상급 정책 격상으로 commercial space sentiment 개선."
+    }
+  ],
+  "industry": {
+    "name": "Space Launch + Satellite Bus + Spacecraft Integration",
+    "overview": "소형~중형 발사체(Electron) + 차세대 중대형 Neutron(2026 maiden flight 예정) + Photon 위성 bus + spacecraft components(MAX Defense, ASTRO 인수). SpaceX 다음 가는 美 commercial space player. 2025 Q3 매출 $130M (+40% YoY).",
+    "competitors": [
+      {
+        "name": "SpaceX (private, IPO 2026)",
+        "ticker": "—",
+        "share_pct": 70.0,
+        "moat": "Falcon 9 reusability + Starship, 압도적 1위"
+      },
+      {
+        "name": "ULA (Boeing/LM JV)",
+        "ticker": "BA",
+        "share_pct": 10.0,
+        "moat": "Vulcan rocket, DoD 전통 customer"
+      },
+      {
+        "name": "Blue Origin",
+        "ticker": "—",
+        "share_pct": 5.0,
+        "moat": "New Glenn 2024 first flight, Bezos backing"
+      },
+      {
+        "name": "AST SpaceMobile",
+        "ticker": "ASTS",
+        "share_pct": 0.0,
+        "moat": "위성 통신 인접 segment"
+      },
+      {
+        "name": "Planet Labs",
+        "ticker": "PL",
+        "share_pct": 0.0,
+        "moat": "EO 위성"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.0,
+      "cagr_pct": 22.0,
+      "horizon": "2024-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-12",
+        "title": "RKLB 제한주식 매도 통보",
+        "source": "SEC EDGAR",
+        "summary": "1Y +468% 후 차익실현 매물"
+      },
+      {
+        "date": "2026-05-07",
+        "title": "Q1 2026 분기보고서",
+        "source": "SEC 10-Q",
+        "summary": "매출 $135M (+44% YoY), Backlog $1.05B"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "Neutron 첫 발사 일정 2026-Q3 재확인",
+        "source": "RKLB Press",
+        "summary": "Stage 2 hot-fire test 성공"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY22",
+        "revenue": 211,
+        "op_income": -163,
+        "op_margin": -77.0,
+        "net_income": -136,
+        "net_margin": -64.5
+      },
+      {
+        "year": "FY23",
+        "revenue": 245,
+        "op_income": -145,
+        "op_margin": -59.0,
+        "net_income": -158,
+        "net_margin": -64.5
+      },
+      {
+        "year": "FY24",
+        "revenue": 436,
+        "op_income": -196,
+        "op_margin": -45.0,
+        "net_income": -190,
+        "net_margin": -43.6
+      },
+      {
+        "year": "FY25E",
+        "revenue": 580,
+        "op_income": -145,
+        "op_margin": -25.0,
+        "net_income": -150,
+        "net_margin": -25.9
+      },
+      {
+        "year": "FY26E",
+        "revenue": 1100,
+        "op_income": 55,
+        "op_margin": 5.0,
+        "net_income": 50,
+        "net_margin": 4.5
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 1850,
+      "total_liab": 1100,
+      "equity": 750,
+      "cash": 850,
+      "debt": 600
+    },
+    "cf_summary": {
+      "ocf_5y_avg": -85,
+      "fcf_5y_avg": -154,
+      "capex_intensity": 0.18
+    },
+    "peer_compare": [
+      {
+        "ticker": "RKLB",
+        "name": "Rocket Lab",
+        "pe": -150.0,
+        "pb": 8.5,
+        "roe": -25.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "BA",
+        "name": "Boeing",
+        "pe": -25.0,
+        "pb": -2.5,
+        "roe": -10.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "LMT",
+        "name": "Lockheed Martin",
+        "pe": 17.0,
+        "pb": 12.0,
+        "roe": 75.0,
+        "div_yield": 2.5
+      },
+      {
+        "ticker": "PL",
+        "name": "Planet Labs",
+        "pe": -22.0,
+        "pb": 2.5,
+        "roe": -15.0,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 195,
+      "thesis": "Neutron 2026 maiden flight 성공 + 첫 customer 확보, SpaceX IPO halo로 RKLB rerating, 2027 매출 $1.5B+",
+      "key_assumptions": [
+        "Neutron success",
+        "SpaceX IPO halo",
+        "DoD contracts win"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 130,
+      "thesis": "Neutron 2026 Q3 maiden + 1년 ramp, 매출 FY26 $1.1B (+90%), 2027 흑자전환, EV/Revenue 50배 유지",
+      "key_assumptions": [
+        "Neutron timeline 준수",
+        "DoD wins"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 65,
+      "thesis": "Neutron 첫 발사 실패 또는 6+개월 연기, FCF burn 지속 → 추가 dilution, 1Y +468% mean-reversion -50%",
+      "key_assumptions": [
+        "Neutron 실패",
+        "Cash burn",
+        "Dilution"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Neutron 첫 발사 (target)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "성공 시 valuation re-rating, 실패 시 -30%"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "FY26 Q2 earnings",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Backlog $1.5B 가능성"
+    },
+    {
+      "date": "2026-H2",
+      "event": "SpaceX IPO 가시화 (T04)",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Halo 효과로 commercial space rerating"
+    },
+    {
+      "date": "2027-H1",
+      "event": "DoD NSSL Phase 3",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "RKLB Neutron 자격 시 multi-billion 계약"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Neutron 발사 지연/실패",
+      "probability": "med",
+      "impact": "high",
+      "description": "first flight 실패 시 timeline 6-12개월 지연, valuation -30~50%",
+      "mitigation": "성공 사례 architecture 채택"
+    },
+    {
+      "name": "현금소진 + dilution",
+      "probability": "high",
+      "impact": "med",
+      "description": "FCF -$170M/yr → 1.5년 내 추가 자본조달 필요 가능성",
+      "mitigation": "Backlog 매출 인식 가속"
+    },
+    {
+      "name": "SpaceX 가격경쟁 심화",
+      "probability": "high",
+      "impact": "high",
+      "description": "Falcon 9 $/kg LEO $2,720, Neutron 목표가 unclear",
+      "mitigation": "DoD captive market, niche orbits"
+    },
+    {
+      "name": "1Y +468% 후 차익실현",
+      "probability": "high",
+      "impact": "high",
+      "description": "기술적 mean-reversion 위험 매우 큼",
+      "mitigation": "장기 thesis"
+    },
+    {
+      "name": "Beta 거의 3.0",
+      "probability": "med",
+      "impact": "high",
+      "description": "Risk-off 환경에서 -50%+ 가능",
+      "mitigation": "Position sizing 작게"
+    }
+  ],
+  "korean_disclosures": []
+}

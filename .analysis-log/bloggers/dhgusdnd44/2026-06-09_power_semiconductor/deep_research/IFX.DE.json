@@ -1,0 +1,171 @@
+{
+  "ticker": "IFX.DE",
+  "company_kr": "인피니언 테크놀로지스",
+  "company_en": "Infineon Technologies",
+  "exchange": "XETRA",
+  "as_of_date": "2026-06-11",
+  "industry": {
+    "name": "Power Semiconductor (전력 반도체)",
+    "name_kr": "전력 반도체 / 800V DC 데이터센터",
+    "overview": "세계 1위 전력 반도체. SiC 1위·GaN 자체생산 수직계열화(GaN Systems 인수). ITC 특허소송 승자(vs 이노사이언스). 서방 공급망 내재화로 지정학 방어력 최고. 자동차·산업·데이터센터 다각화.",
+    "competitors": [
+      {
+        "name": "STMicroelectronics",
+        "ticker": "STM",
+        "share_pct": null,
+        "moat": "SiC 2위·차량용"
+      },
+      {
+        "name": "onsemi",
+        "ticker": "ON",
+        "share_pct": null,
+        "moat": "SiC 3위·차량 통합"
+      },
+      {
+        "name": "Navitas",
+        "ticker": "NVTS",
+        "share_pct": null,
+        "moat": "GaN Safe 안전 통합"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "AI 데이터센터 800V DC 전환(2027H2 변곡점)으로 전력반도체 TAM 구조적 확대. 1층 고전압 SiC/2층 800V GaN·SiC/3~4층 대전류 PMIC 층별 분화."
+    },
+    "ai_infrastructure_context": "데이터센터 전력밀도 폭증·전력망 무효전력 문제·SST(고체변압기) 도입이 전력반도체 희소성을 견인.",
+    "news": []
+  },
+  "financials": {
+    "currency": "EUR",
+    "unit": "EUR M",
+    "fiscal_year_end": "09-30",
+    "data_source": "yfinance income_stmt (live, EUR M)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": null,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": null,
+        "net_margin": null
+      },
+      {
+        "year": 2022,
+        "revenue": 14218.0,
+        "op_income": 2845.0,
+        "op_margin": 20.0,
+        "net_income": 2179.0,
+        "net_margin": 15.3
+      },
+      {
+        "year": 2023,
+        "revenue": 16309.0,
+        "op_income": 3948.0,
+        "op_margin": 24.2,
+        "net_income": 3137.0,
+        "net_margin": 19.2
+      },
+      {
+        "year": 2024,
+        "revenue": 14955.0,
+        "op_income": 2566.0,
+        "op_margin": 17.2,
+        "net_income": 1301.0,
+        "net_margin": 8.7
+      },
+      {
+        "year": 2025,
+        "revenue": 14662.0,
+        "op_income": 1944.0,
+        "op_margin": 13.3,
+        "net_income": 1015.0,
+        "net_margin": 6.9
+      }
+    ],
+    "trajectory_summary": "",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 95,
+      "thesis": "데이터센터 SiC/GaN 수요+ITC 승소로 점유 확대+수직계열화 프리미엄",
+      "key_assumptions": [
+        "800V DC SiC 1위·GaN 자체생산 우위",
+        "ITC 제재로 중국 경쟁 약화",
+        "자동차 회복"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 77,
+      "thesis": "안정적 1위 유지·완만 성장",
+      "key_assumptions": [
+        "전력반도체 전 영역 균형 성장",
+        "마진 안정"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 60,
+      "thesis": "자동차 둔화+데이터센터 채택 지연+밸류 부담",
+      "key_assumptions": [
+        "전기차 수요 약세 지속",
+        "fwd PE 30 부담"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "ITC 60일 대통령 검토 결과·독일 뮌헨 추가 특허소송",
+      "type": "legal",
+      "expected_impact": "+",
+      "description": "이노사이언스 제재 확정·확대 여부"
+    },
+    {
+      "date": "2027-H2",
+      "event": "800V DC 전환",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "SiC 1위·GaN 자체생산 동시 수혜"
+    }
+  ],
+  "risks": [
+    {
+      "name": "자동차 사이클 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "매출 큰 비중 자동차 — 전기차 둔화 노출",
+      "mitigation": "데이터센터·산업 다각화"
+    },
+    {
+      "name": "ITC 제재 범위 제한",
+      "probability": "med",
+      "impact": "med",
+      "description": "이노사이언스 현행 주력제품은 비침해 판정 — 효과 제한적",
+      "mitigation": "독일 병행소송·추가 특허"
+    },
+    {
+      "name": "밸류 부담",
+      "probability": "low",
+      "impact": "med",
+      "description": "fwd PE ~30",
+      "mitigation": "실적 성장으로 정당화"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-11",
+    "sources": [
+      "dhgusdnd44 블로그 1~3편",
+      "yfinance",
+      "SEC EDGAR",
+      "ITC ruling 2026-05"
+    ]
+  }
+}

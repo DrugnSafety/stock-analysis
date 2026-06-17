@@ -1,0 +1,164 @@
+{
+  "ticker": "AIXA.DE",
+  "company_kr": "엑시트론",
+  "company_en": "AIXTRON",
+  "exchange": "XETRA",
+  "as_of_date": "2026-06-11",
+  "industry": {
+    "name": "Power Semiconductor (전력 반도체)",
+    "name_kr": "전력 반도체 / 800V DC 데이터센터",
+    "overview": "화합물 반도체 증착장비(MOCVD) 전문. GaN 에피택시 핵심장비 공급 — '전력반도체계 ASML'. 모든 GaN 증설의 상류 병목. 단 비코(Veeco) 등 경쟁 존재로 '독점'은 과장.",
+    "competitors": [
+      {
+        "name": "Veeco",
+        "ticker": "VECO",
+        "share_pct": null,
+        "moat": "MOCVD 경쟁자"
+      },
+      {
+        "name": "AMEC",
+        "ticker": "688012.SS",
+        "share_pct": null,
+        "moat": "중국 장비 추격"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "AI 데이터센터 800V DC 전환(2027H2 변곡점)으로 전력반도체 TAM 구조적 확대. 1층 고전압 SiC/2층 800V GaN·SiC/3~4층 대전류 PMIC 층별 분화."
+    },
+    "ai_infrastructure_context": "데이터센터 전력밀도 폭증·전력망 무효전력 문제·SST(고체변압기) 도입이 전력반도체 희소성을 견인.",
+    "news": []
+  },
+  "financials": {
+    "currency": "EUR",
+    "unit": "EUR M",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, EUR M)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": null,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": null,
+        "net_margin": null
+      },
+      {
+        "year": 2022,
+        "revenue": 463.17,
+        "op_income": 102.96,
+        "op_margin": 22.2,
+        "net_income": 100.44,
+        "net_margin": 21.7
+      },
+      {
+        "year": 2023,
+        "revenue": 629.88,
+        "op_income": 151.38,
+        "op_margin": 24.0,
+        "net_income": 145.19,
+        "net_margin": 23.0
+      },
+      {
+        "year": 2024,
+        "revenue": 633.16,
+        "op_income": 131.67,
+        "op_margin": 20.8,
+        "net_income": 106.28,
+        "net_margin": 16.8
+      },
+      {
+        "year": 2025,
+        "revenue": 556.55,
+        "op_income": 106.68,
+        "op_margin": 19.2,
+        "net_income": 85.23,
+        "net_margin": 15.3
+      }
+    ],
+    "trajectory_summary": "",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 75,
+      "thesis": "GaN/SiC capex 사이클+MOCVD 상류 독점적 지위+장비 선행수주",
+      "key_assumptions": [
+        "전력반도체 증설 가속",
+        "GaN 에피 병목 유지"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 55,
+      "thesis": "장비 사이클 따라 성장하나 변동성",
+      "key_assumptions": [
+        "capex 점진 확대",
+        "경쟁 제한적"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 38,
+      "thesis": "capex 둔화+비코·중국 경쟁+밸류 부담",
+      "key_assumptions": [
+        "장비 수요 사이클 하강",
+        "fwd PE 44 부담"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "GaN/SiC 장비 수주·book-to-bill",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "전력반도체 capex 선행지표"
+    },
+    {
+      "date": "2027-H2",
+      "event": "800V DC 증설 사이클",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "GaN 에피 장비 수요 선행"
+    }
+  ],
+  "risks": [
+    {
+      "name": "capex 사이클 변동성",
+      "probability": "high",
+      "impact": "high",
+      "description": "장비주 특성상 수주 변동성 큼",
+      "mitigation": "GaN/SiC/광전자 다변화"
+    },
+    {
+      "name": "경쟁(독점 과장)",
+      "probability": "med",
+      "impact": "med",
+      "description": "비코·중국 AMEC 경쟁",
+      "mitigation": "GaN 에피 기술우위"
+    },
+    {
+      "name": "밸류 부담",
+      "probability": "low",
+      "impact": "med",
+      "description": "fwd PE 44",
+      "mitigation": "수주 회복"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-11",
+    "sources": [
+      "dhgusdnd44 블로그 1~3편",
+      "yfinance",
+      "SEC EDGAR",
+      "ITC ruling 2026-05"
+    ]
+  }
+}

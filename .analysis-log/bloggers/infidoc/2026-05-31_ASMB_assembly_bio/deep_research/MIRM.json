@@ -1,0 +1,184 @@
+{
+  "industry": {
+    "name": "희귀 담즙정체성 간질환 (Alagille·PFIC·PBC·PSC)",
+    "overview": "Mirum Pharmaceuticals는 담즙정체성 간질환 전문 상업단계 바이오텍으로, maralixibat(Livmarli, IBAT 억제제)가 Alagille·PFIC에서 매출을 빠르게 램프(2022 $77M→2025 $521M)하고 있다. volixibat은 PBC/PSC 소양증 Phase 2b 진행 중으로, ASMB ABI-6250의 PBC/PSC 확장과 동일 적응증에서 경쟁/비교 대상이다. ASMB가 진입하려는 담즙정체 시장의 상업화 레퍼런스를 제공한다.",
+    "competitors": [
+      {
+        "name": "Assembly Bio (NTCP, PBC/PSC 확장)",
+        "ticker": "ASMB"
+      },
+      {
+        "name": "GSK (linerixibat PBC 소양증)",
+        "ticker": "GSK"
+      },
+      {
+        "name": "Gilead (seladelpar PBC)",
+        "ticker": "GILD"
+      },
+      {
+        "name": "Vir Bio (HDV)",
+        "ticker": "VIR"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025~26",
+        "title": "Livmarli 매출 램프 지속, 적응증 확대",
+        "summary": "영향: 긍정적",
+        "source": "SEC/IR/뉴스"
+      },
+      {
+        "date": "2026",
+        "title": "volixibat PBC/PSC 소양증 Phase 2b 진행",
+        "summary": "영향: 중립",
+        "source": "SEC/IR/뉴스"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 3.0,
+      "cagr_pct": 12.0,
+      "horizon": "담즙정체 간질환 (Alagille/PFIC/PBC/PSC) 합산"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2022",
+        "revenue": 0.077,
+        "op_income": -0.131,
+        "op_margin": -170.3,
+        "net_income": -0.136,
+        "net_margin": -176.0
+      },
+      {
+        "year": "2023",
+        "revenue": 0.186,
+        "op_income": -0.109,
+        "op_margin": -58.6,
+        "net_income": -0.163,
+        "net_margin": -87.7
+      },
+      {
+        "year": "2024",
+        "revenue": 0.337,
+        "op_income": -0.088,
+        "op_margin": -26.0,
+        "net_income": -0.088,
+        "net_margin": -26.1
+      },
+      {
+        "year": "2025",
+        "revenue": 0.521,
+        "op_income": -0.022,
+        "op_margin": -4.2,
+        "net_income": -0.023,
+        "net_margin": -4.5
+      }
+    ],
+    "peer_compare": [
+      {
+        "ticker": "MIRM",
+        "name": "Mirum Pharmaceuticals",
+        "pe": -181.89963,
+        "pb": 25.502512,
+        "roe": -335.82401000000004,
+        "div_yield": null
+      },
+      {
+        "ticker": "VIR",
+        "name": "Vir Biotechnology",
+        "pe": -4.146474,
+        "pb": 1.738655,
+        "roe": -47.692,
+        "div_yield": null
+      },
+      {
+        "ticker": "ASMB",
+        "name": "Assembly Biosciences",
+        "pe": 345.75,
+        "pb": 2.2133312,
+        "roe": -5.6550004000000005,
+        "div_yield": null
+      },
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "pe": 18.289795,
+        "pb": 7.1003003,
+        "roe": 43.36,
+        "div_yield": 2.44
+      }
+    ],
+    "financial_unit": {
+      "currency": "USD",
+      "scale": "B"
+    },
+    "bs_snapshot": {
+      "cash": 0.386,
+      "debt": 0.324,
+      "total_assets": 1.0,
+      "total_liab": 0.7,
+      "equity": 0.3
+    },
+    "cf_summary": {
+      "note": "매출 급성장($77M→$521M)·적자 축소 중 — 상업화 전환 진행, 흑자 전환 가시권"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "Livmarli 매출 확대 + volixibat PBC/PSC 성공으로 담즙정체 프랜차이즈 흑자전환·재평가",
+      "key_assumptions": [
+        "Livmarli 램프 지속",
+        "volixibat Phase2b 성공",
+        "흑자 전환"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "Livmarli 성장은 견조하나 volixibat 불확실성으로 밸류에이션 박스권",
+      "key_assumptions": [
+        "매출 성장 지속",
+        "파이프라인 혼조"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "volixibat 실패·경쟁 심화(ASMB·GSK)·흑자 전환 지연",
+      "key_assumptions": [
+        "임상 실패",
+        "경쟁 압박",
+        "마진 미개선"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026~27",
+      "event": "volixibat PBC/PSC Phase 2b 데이터",
+      "expected_impact": "high"
+    },
+    {
+      "date": "지속",
+      "event": "Livmarli 매출·흑자 전환",
+      "expected_impact": "med"
+    }
+  ],
+  "risks": [
+    {
+      "name": "volixibat PBC/PSC 임상 실패 위험",
+      "probability": "med",
+      "impact": "high"
+    },
+    {
+      "name": "높은 PB(25x)·미흑자 — 밸류에이션 부담",
+      "probability": "med",
+      "impact": "med"
+    },
+    {
+      "name": "담즙정체 경쟁 심화(ASMB·GSK·GILD)",
+      "probability": "med",
+      "impact": "med"
+    }
+  ]
+}

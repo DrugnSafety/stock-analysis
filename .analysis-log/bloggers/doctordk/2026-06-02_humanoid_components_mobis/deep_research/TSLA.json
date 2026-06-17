@@ -1,0 +1,356 @@
+{
+  "industry": {
+    "name": "전기차 (EV) + 휴머노이드 (Optimus) + 자율주행 (FSD/Robotaxi)",
+    "overview": "Tesla는 글로벌 EV 1위 (2024년 1.8M units), 휴머노이드 Optimus (2024 Gen 2 demo → 2025 Gen 3 pilot 5K units → 2026 Gen 4 50K target), 자율주행 FSD (Robotaxi 양산 계획) 3중 platform. Elon Musk는 Optimus를 'EV 외 두 번째 trillion-dollar opportunity'로 positioning. Texas Gigafactory + Berlin + Shanghai + 멕시코 (2026) 4개 글로벌 manufacturing cluster. P/E 168x forward — narrative-driven valuation, BD·Hyundai 휴머노이드 thesis의 가장 큰 counter-thesis.",
+    "competitors": [
+      {
+        "name": "Tesla",
+        "ticker": "TSLA",
+        "share_pct": 4.5,
+        "moat": "EV + Optimus + FSD/Robotaxi 통합 vertical integration"
+      },
+      {
+        "name": "BYD",
+        "ticker": "1211.HK",
+        "share_pct": 5.0,
+        "moat": "중국 EV 1위 + LFP battery 자체 + 가격 압도"
+      },
+      {
+        "name": "Boston Dynamics",
+        "ticker": "private (Hyundai)",
+        "share_pct": 8.0,
+        "moat": "Atlas/Spot 14년 R&D + 현대모비스 미국 양산"
+      },
+      {
+        "name": "Figure AI",
+        "ticker": "private",
+        "share_pct": 5.0,
+        "moat": "OpenAI 협력 + AI-first humanoid"
+      },
+      {
+        "name": "Volkswagen",
+        "ticker": "VOW3.DE",
+        "share_pct": 9.0,
+        "moat": "글로벌 OEM 2위, ID 라인업"
+      },
+      {
+        "name": "GM",
+        "ticker": "GM",
+        "share_pct": 4.0,
+        "moat": "미국 + Ultium battery + Cruise Robotaxi"
+      },
+      {
+        "name": "Hyundai-Kia",
+        "ticker": "005380.KS",
+        "share_pct": 6.5,
+        "moat": "EV + BD humanoid + Motional Robotaxi 통합"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-20",
+        "title": "Boston Dynamics 5세대 Atlas CES 2026 양산형 공개 예고",
+        "source": "BD 공식",
+        "summary": "Body Actuator 2종×31개, 미국 현지 양산 (현대모비스 supply)"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Tesla Optimus Gen 4 양산 ramp 50K units 목표 발표",
+        "source": "Tesla Q1 earnings",
+        "summary": "Texas Gigafactory humanoid line 가동, 2027 ramp to 250K"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Figure AI Series C $2B 조달, 발행가 $40B valuation",
+        "source": "TechCrunch",
+        "summary": "OpenAI·NVIDIA·Microsoft 투자 — humanoid AI race 격화"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "한국 정부 'K-Robot 2030' Roadmap 발표",
+        "source": "산업통상자원부",
+        "summary": "5년 누적 $35B 투자, humanoid·cobot·서비스 robot 통합 육성"
+      },
+      {
+        "date": "2026-02-14",
+        "title": "Google DeepMind Gemini Robotics LLM 발표",
+        "source": "Google DeepMind",
+        "summary": "embodied AI foundation model — Atlas reference platform 협의"
+      },
+      {
+        "date": "2026-02-01",
+        "title": "1X Technologies Series B $1.5B 조달",
+        "source": "WSJ",
+        "summary": "Tiger Global·SoftBank 투자, 가정용 humanoid 2027 ramp"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "2025-2035 (Goldman/McKinsey humanoid TAM)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 53823,
+        "op_income": 6523,
+        "op_margin": 12.1,
+        "net_income": 5519,
+        "net_margin": 10.3
+      },
+      {
+        "year": 2022,
+        "revenue": 81462,
+        "op_income": 13656,
+        "op_margin": 16.8,
+        "net_income": 12556,
+        "net_margin": 15.4
+      },
+      {
+        "year": 2023,
+        "revenue": 96773,
+        "op_income": 8891,
+        "op_margin": 9.2,
+        "net_income": 14997,
+        "net_margin": 15.5
+      },
+      {
+        "year": 2024,
+        "revenue": 97690,
+        "op_income": 7076,
+        "op_margin": 7.2,
+        "net_income": 7130,
+        "net_margin": 7.3
+      },
+      {
+        "year": 2025,
+        "revenue": 105000,
+        "op_income": 8500,
+        "op_margin": 8.1,
+        "net_income": 8200,
+        "net_margin": 7.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 122000,
+      "total_liab": 43500,
+      "equity": 78500,
+      "cash": 33800,
+      "debt": 7800
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 13500,
+      "fcf_5y_avg": 6800,
+      "capex_intensity": 0.1
+    },
+    "peer_compare": [
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pe": 168.0,
+        "pb": 18.5,
+        "roe": 11.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "BYD",
+        "name": "BYD",
+        "pe": 18.5,
+        "pb": 4.85,
+        "roe": 25.0,
+        "div_yield": 1.5
+      },
+      {
+        "ticker": "005380.KS",
+        "name": "현대차",
+        "pe": 14.7,
+        "pb": 0.85,
+        "roe": 12.5,
+        "div_yield": 2.5
+      },
+      {
+        "ticker": "7203.T",
+        "name": "Toyota",
+        "pe": 9.2,
+        "pb": 1.05,
+        "roe": 11.5,
+        "div_yield": 2.8
+      },
+      {
+        "ticker": "GM",
+        "name": "GM",
+        "pe": 6.2,
+        "pb": 0.85,
+        "roe": 14.0,
+        "div_yield": 1.2
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 800,
+      "thesis": "Optimus 2027 250K units 양산 + Robotaxi commercial + EV cycle 회복 3중 align. 2028 매출 $200B+ + EBITDA margin 25%.",
+      "key_assumptions": [
+        "Optimus 2027 250K (Elon target)",
+        "Robotaxi commercial 2026 launch",
+        "EV margin 회복 (Cybertruck·Model 2)"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 450,
+      "thesis": "Optimus 점진적 ramp + Robotaxi 지연 + EV margin 정체. P/E 100x normalize.",
+      "key_assumptions": [
+        "Optimus 2027 50K (target 미달)",
+        "Robotaxi 2027~2028 commercial",
+        "EV OPM 8% 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 250,
+      "thesis": "Optimus commercial 부진 + Robotaxi 안전 incident + EV cycle 약세. P/E 50x로 narrative 깨짐.",
+      "key_assumptions": [
+        "Optimus 2027 5K 이하 (Cybertruck 패턴)",
+        "Robotaxi 미국 NHTSA 규제 ban",
+        "BYD 글로벌 share +5%p"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "Tesla Q2 earnings — Optimus Gen 4 ramp 진행 보고",
+      "type": "earnings",
+      "expected_impact": "high (+10-20%)",
+      "description": "양산 ramp 첫 정량 데이터"
+    },
+    {
+      "date": "2026-08",
+      "event": "BD Atlas 5세대 vs Tesla Optimus Gen 4 비교 시연 (CES)",
+      "type": "product",
+      "expected_impact": "medium-high (+10-15%)",
+      "description": "글로벌 humanoid race 가시화"
+    },
+    {
+      "date": "2026-09",
+      "event": "Robotaxi pilot 확대 (Austin/SF)",
+      "type": "commercial",
+      "expected_impact": "medium-high (+10-15%)",
+      "description": "Waymo·Cruise 직접 경쟁"
+    },
+    {
+      "date": "2026-12",
+      "event": "Q4 earnings — Optimus 2027 guidance",
+      "type": "earnings",
+      "expected_impact": "high (+10-20%)",
+      "description": "250K target confirm 여부"
+    },
+    {
+      "date": "2027-03",
+      "event": "Optimus Gen 5 unveiling 가능성",
+      "type": "product",
+      "expected_impact": "high (+10-25%)",
+      "description": "차세대 humanoid platform"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Optimus 양산 ramp 부진",
+      "probability": "medium",
+      "impact": "high",
+      "description": "Elon Musk 가이던스 historical hit rate 0.3x (Cybertruck 4yr 지연, Robotaxi 5yr 지연). 250K 2027 target 실현 가능성 30~40%.",
+      "mitigation": "in-house manufacturing + Texas Gigafactory 확장 가속"
+    },
+    {
+      "name": "Robotaxi NHTSA 규제 risk",
+      "probability": "medium",
+      "impact": "high",
+      "description": "NHTSA가 Tesla FSD/Robotaxi에 추가 규제 적용 시 commercial launch 지연.",
+      "mitigation": "Waymo·Cruise 정밀 monitoring + Tesla 데이터 우위"
+    },
+    {
+      "name": "EV 가격 경쟁 (BYD)",
+      "probability": "high",
+      "impact": "medium-high",
+      "description": "BYD 가격 공세로 Tesla margin 압박 — Model 2 $25K 양산 지연 시 시장 점유율 침체.",
+      "mitigation": "Cybertruck premium mix + FSD subscription"
+    },
+    {
+      "name": "Elon Musk key person risk",
+      "probability": "low-medium",
+      "impact": "medium",
+      "description": "Musk의 X·SpaceX·xAI·Boring 등 분산 — Tesla 집중도 낮아질 risk.",
+      "mitigation": "이번 Tesla CEO compensation $50B 패키지로 commitment 유지"
+    },
+    {
+      "name": "Valuation 부담 (P/E 168x)",
+      "probability": "high",
+      "impact": "medium",
+      "description": "narrative-driven valuation — Optimus/Robotaxi miss 시 P/E 50x normalize 가능.",
+      "mitigation": "narrative inflection 유지 (Q earnings마다 update)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Optimus 양산 ramp (Gen 4 50K → Gen 5 250K)",
+      "type": "predictive",
+      "evidence": [
+        "Elon Q1 25 guidance"
+      ],
+      "testability": "high",
+      "current_status": "Gen 3 5K pilot 진행 중"
+    },
+    {
+      "claim": "Robotaxi 2026 commercial",
+      "type": "predictive",
+      "evidence": [
+        "Austin pilot 2025 진행"
+      ],
+      "testability": "high",
+      "current_status": "pilot — commercial 시점 불확실"
+    },
+    {
+      "claim": "EV margin 회복",
+      "type": "predictive",
+      "evidence": [
+        "Q1 2026 OPM 8.5%"
+      ],
+      "testability": "high",
+      "current_status": "회복 in progress"
+    },
+    {
+      "claim": "Robotics platform leader",
+      "type": "normative",
+      "evidence": [
+        "3중 vertical integration"
+      ],
+      "testability": "medium",
+      "current_status": "narrative-driven"
+    }
+  ],
+  "korean_disclosures": [],
+  "sec_disclosures": [
+    {
+      "date": "2026-04-23",
+      "type": "10-Q",
+      "title": "Q1 2026 — 매출 $25B, OPM 8.5%, Optimus Gen 3 5K pilot 시작",
+      "impact": "+"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "8-K",
+      "title": "CEO compensation package $50B (10-yr vest) 주주총회 승인",
+      "impact": "+"
+    },
+    {
+      "date": "2026-02-20",
+      "type": "8-K",
+      "title": "Mexico Gigafactory 가동 (annual 1M units capacity)",
+      "impact": "+"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "portfolio_value_krw": 100000000,
+    "base_limit_pct": 12.0,
+    "analysis_mode": "single",
+    "slug": "2026-05-26_physical_AI_robot_data",
+    "as_of": "2026-05-26"
+  },
+  "limits": [
+    {
+      "ticker": "357880.KQ",
+      "as_of_date": "2026-05-26",
+      "current_price": 5130.0,
+      "currency": "KRW",
+      "portfolio_value": 100000000,
+      "volatility_metrics": {
+        "annualized_volatility": 0.9599,
+        "volatility_percentile": 95,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "active_positions": [],
+        "per_ticker": {}
+      },
+      "corr_multiplier": 1.0,
+      "base_limit_pct": 12.0,
+      "adjusted_limit_pct": 6.0,
+      "limit_amount_krw": 6000000.0,
+      "max_shares": 1169,
+      "method": "vol_multiplier + base_limit",
+      "combined_limit_pct": 0.06,
+      "position_limit_value": 6000000.0,
+      "max_quantity": 1169
+    },
+    {
+      "ticker": "NVDA",
+      "as_of_date": "2026-05-26",
+      "current_price": 214.86,
+      "currency": "USD",
+      "portfolio_value": 100000000,
+      "volatility_metrics": {
+        "annualized_volatility": 0.3435,
+        "volatility_percentile": 34,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.0,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "active_positions": [],
+        "per_ticker": {}
+      },
+      "corr_multiplier": 1.0,
+      "base_limit_pct": 12.0,
+      "adjusted_limit_pct": 12.0,
+      "limit_amount_krw": 12000000.0,
+      "max_shares": 55850,
+      "method": "vol_multiplier + base_limit",
+      "combined_limit_pct": 0.12,
+      "position_limit_value": 12000000.0,
+      "max_quantity": 55850
+    },
+    {
+      "ticker": "000660.KS",
+      "as_of_date": "2026-05-26",
+      "current_price": 2288000.0,
+      "currency": "KRW",
+      "portfolio_value": 100000000,
+      "volatility_metrics": {
+        "annualized_volatility": 0.6733,
+        "volatility_percentile": 67,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.75,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "active_positions": [],
+        "per_ticker": {}
+      },
+      "corr_multiplier": 1.0,
+      "base_limit_pct": 12.0,
+      "adjusted_limit_pct": 9.0,
+      "limit_amount_krw": 9000000.0,
+      "max_shares": 3,
+      "method": "vol_multiplier + base_limit",
+      "combined_limit_pct": 0.09,
+      "position_limit_value": 9000000.0,
+      "max_quantity": 3
+    },
+    {
+      "ticker": "005930.KS",
+      "as_of_date": "2026-05-26",
+      "current_price": 318000.0,
+      "currency": "KRW",
+      "portfolio_value": 100000000,
+      "volatility_metrics": {
+        "annualized_volatility": 0.5238,
+        "volatility_percentile": 52,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.75,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "active_positions": [],
+        "per_ticker": {}
+      },
+      "corr_multiplier": 1.0,
+      "base_limit_pct": 12.0,
+      "adjusted_limit_pct": 9.0,
+      "limit_amount_krw": 9000000.0,
+      "max_shares": 28,
+      "method": "vol_multiplier + base_limit",
+      "combined_limit_pct": 0.09,
+      "position_limit_value": 9000000.0,
+      "max_quantity": 28
+    },
+    {
+      "ticker": "ABBNY",
+      "as_of_date": "2026-05-26",
+      "current_price": 108.41,
+      "currency": "USD",
+      "portfolio_value": 100000000,
+      "volatility_metrics": {
+        "annualized_volatility": 0.2853,
+        "volatility_percentile": 28,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.0,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "active_positions": [],
+        "per_ticker": {}
+      },
+      "corr_multiplier": 1.0,
+      "base_limit_pct": 12.0,
+      "adjusted_limit_pct": 12.0,
+      "limit_amount_krw": 12000000.0,
+      "max_shares": 110690,
+      "method": "vol_multiplier + base_limit",
+      "combined_limit_pct": 0.12,
+      "position_limit_value": 12000000.0,
+      "max_quantity": 110690
+    }
+  ]
+}

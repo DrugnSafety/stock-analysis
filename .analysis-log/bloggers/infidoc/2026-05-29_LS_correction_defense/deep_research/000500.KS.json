@@ -1,0 +1,202 @@
+{
+  "industry": {
+    "name": "권선·세각선 소재(EV/로봇 모터)",
+    "overview": "LS에코첨단소재(구 가온전선, LS전선 자회사)는 전선·EV용 세각선(rectangular wire)·hairpin 권선이 본업. 2026년 4월 글로벌 로봇 부품업체로부터 로봇용 권선 첫 수주 — 피지컬 AI·휴머노이드 모터 권선으로 확장 옵션(T07).",
+    "competitors": [
+      {
+        "name": "Prysmian",
+        "ticker": "PRY.MI"
+      },
+      {
+        "name": "Nexans",
+        "ticker": "NEX.PA"
+      },
+      {
+        "name": "대한전선",
+        "ticker": "001440.KS"
+      },
+      {
+        "name": "LS전선",
+        "ticker": "(비상장·LS 자회사)"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2025",
+        "revenue": 2545698074000.0,
+        "op_income": 79209392000.0,
+        "net_income": 51396625000.0,
+        "op_margin": 3.11,
+        "op_margin_pct": 3.11,
+        "net_margin_pct": 2.02,
+        "year": "2025"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 1727103680000.0,
+        "op_income": 45152393000.0,
+        "net_income": 25355195000.0,
+        "op_margin": 2.61,
+        "op_margin_pct": 2.61,
+        "net_margin_pct": 1.47,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 1498606544000.0,
+        "op_income": 43720039000.0,
+        "net_income": 17898342000.0,
+        "op_margin": 2.92,
+        "op_margin_pct": 2.92,
+        "net_margin_pct": 1.19,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2022",
+        "revenue": 1416454404330.0,
+        "op_income": 28462573860.0,
+        "net_income": 10463889330.0,
+        "op_margin": 2.01,
+        "op_margin_pct": 2.01,
+        "net_margin_pct": 0.74,
+        "year": "2022"
+      },
+      {
+        "fiscal_year": "2021",
+        "revenue": null,
+        "op_income": null,
+        "net_income": null,
+        "op_margin": null,
+        "op_margin_pct": null,
+        "net_margin_pct": null,
+        "year": "2021"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2025",
+        "revenue": 2545698074000.0,
+        "operating_income": 79209392000.0,
+        "net_income": 51396625000.0,
+        "op_margin_pct": 3.11
+      },
+      {
+        "year": "2024",
+        "revenue": 1727103680000.0,
+        "operating_income": 45152393000.0,
+        "net_income": 25355195000.0,
+        "op_margin_pct": 2.61
+      },
+      {
+        "year": "2023",
+        "revenue": 1498606544000.0,
+        "operating_income": 43720039000.0,
+        "net_income": 17898342000.0,
+        "op_margin_pct": 2.92
+      },
+      {
+        "year": "2022",
+        "revenue": 1416454404330.0,
+        "operating_income": 28462573860.0,
+        "net_income": 10463889330.0,
+        "op_margin_pct": 2.01
+      },
+      {
+        "year": "2021",
+        "revenue": null,
+        "operating_income": null,
+        "net_income": null,
+        "op_margin_pct": null
+      }
+    ],
+    "five_quarter_pnl": [],
+    "balance_sheet_snapshot": {},
+    "material_variance_summary": "yfinance income_stmt 기반 5Y annual (live fetch 2026-05-29). 분기·BS 상세는 build 시 financial_fetcher가 보강."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "로봇 권선 수주 반복 확대 + EV 세각선 회복 + 비중국 모터 공급망 수혜.",
+      "key_assumptions": [],
+      "target_price": 450800
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "로봇은 옵션 가치 유지, 본업 전선·EV 권선이 실적 주축.",
+      "key_assumptions": [],
+      "target_price": 338100
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "로봇 수주 단발 그침 + EV 둔화 + 권선 경쟁 심화.",
+      "key_assumptions": [],
+      "target_price": 241500
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "event": "로봇 권선 추가 수주",
+      "type": "orders",
+      "expected_impact": "medium",
+      "description": "첫 수주 반복성 확인"
+    },
+    {
+      "date": "2026-07",
+      "event": "2Q26 실적",
+      "type": "earnings",
+      "expected_impact": "medium",
+      "description": "구리가 매출·재고 효과"
+    }
+  ],
+  "risks": [
+    {
+      "name": "권선 진입장벽 낮음·중일 경쟁",
+      "probability": "high",
+      "impact": "med",
+      "description": "경쟁 심화",
+      "mitigation": "세각선 EV→로봇 기술 전이"
+    },
+    {
+      "name": "로봇 시장 초기",
+      "probability": "high",
+      "impact": "med",
+      "description": "수천~수만 대 — 매출 기여 미미",
+      "mitigation": "장기 100만 대 시나리오"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T07",
+      "ticker_exposure": "++",
+      "claim": "로봇 권선 첫 수주 — 피지컬 AI 옵션",
+      "type": "factual",
+      "evidence": "뉴스로드 2026-05-28 로봇 권선 첫 수주",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04",
+      "type": "수주",
+      "title": "로봇용 권선 첫 수주",
+      "summary": "글로벌 로봇 부품업체향, 비중국 모터 공급망",
+      "impact": "+"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 322000,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 OP 792억(OPM 3.11%). 로봇 권선은 옵션 가치 — 현 밸류 대부분 전선·EV 본업."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

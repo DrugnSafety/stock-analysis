@@ -1,0 +1,106 @@
+{
+  "computed_at": "2026-06-10T15:00:00+09:00",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "192820.KS",
+      "name": "코스맥스",
+      "action": "buy",
+      "decision": "buy",
+      "signal_score": 0.805,
+      "components": {
+        "persona_confidence": 0.701,
+        "verdict_bias": 0.85,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.7
+      },
+      "current_price": 164100.0,
+      "target_quantity": 173,
+      "target_value": 28462500.0,
+      "position_limit_value": 28462500.0,
+      "max_position_value_krw": 28462500.0,
+      "max_quantity": 173,
+      "rationale": "192820.KS score=0.805 (BUY) — 확신 0.70 + bias 0.85 + 정렬 1.0 + 밸류 0.7"
+    },
+    {
+      "ticker": "161890.KS",
+      "name": "한국콜마",
+      "action": "buy",
+      "decision": "buy",
+      "signal_score": 0.8,
+      "components": {
+        "persona_confidence": 0.687,
+        "verdict_bias": 0.85,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.7
+      },
+      "current_price": 83000.0,
+      "target_quantity": 623,
+      "target_value": 51750000.0,
+      "position_limit_value": 51750000.0,
+      "max_position_value_krw": 51750000.0,
+      "max_quantity": 623,
+      "rationale": "161890.KS score=0.8 (BUY) — 확신 0.69 + bias 0.85 + 정렬 1.0 + 밸류 0.7"
+    },
+    {
+      "ticker": "241710.KS",
+      "name": "코스메카코리아",
+      "action": "buy",
+      "decision": "buy",
+      "signal_score": 0.67,
+      "components": {
+        "persona_confidence": 0.598,
+        "verdict_bias": 0.635,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.7
+      },
+      "current_price": 69200.0,
+      "target_quantity": 411,
+      "target_value": 28462500.0,
+      "position_limit_value": 28462500.0,
+      "max_position_value_krw": 28462500.0,
+      "max_quantity": 411,
+      "rationale": "241710.KS score=0.67 (BUY) — 확신 0.60 + bias 0.63 + 정렬 0.85 + 밸류 0.7"
+    },
+    {
+      "ticker": "278470.KS",
+      "name": "에이피알",
+      "action": "hold",
+      "decision": "hold",
+      "signal_score": 0.625,
+      "components": {
+        "persona_confidence": 0.602,
+        "verdict_bias": 0.565,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.45
+      },
+      "current_price": 410500.0,
+      "target_quantity": 69,
+      "target_value": 28462500.0,
+      "position_limit_value": 28462500.0,
+      "max_position_value_krw": 28462500.0,
+      "max_quantity": 69,
+      "rationale": "278470.KS score=0.625 (HOLD) — 확신 0.60 + bias 0.57 + 정렬 0.85 + 밸류 0.45"
+    },
+    {
+      "ticker": "090430.KS",
+      "name": "아모레퍼시픽",
+      "action": "hold",
+      "decision": "hold",
+      "signal_score": 0.565,
+      "components": {
+        "persona_confidence": 0.579,
+        "verdict_bias": 0.527,
+        "thesis_alignment_score": 0.6,
+        "valuation_discount": 0.55
+      },
+      "current_price": 111800.0,
+      "target_quantity": 462,
+      "target_value": 51750000.0,
+      "position_limit_value": 51750000.0,
+      "max_position_value_krw": 51750000.0,
+      "max_quantity": 462,
+      "rationale": "090430.KS score=0.565 (HOLD) — 확신 0.58 + bias 0.53 + 정렬 0.6 + 밸류 0.55"
+    }
+  ]
+}

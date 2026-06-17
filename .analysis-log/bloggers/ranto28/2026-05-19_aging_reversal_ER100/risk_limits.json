@@ -1,0 +1,71 @@
+{
+  "limits": [
+    {
+      "ticker": "RXRX",
+      "as_of_date": "2026-05-19",
+      "volatility_metrics": {
+        "annualized_volatility": 0.746
+      },
+      "vol_multiplier": 0.65,
+      "correlation_multiplier": 1.0,
+      "combined_limit_pct": 0.052,
+      "position_limit_value": 52000,
+      "position_limit_currency": "USD",
+      "max_quantity": 18245
+    },
+    {
+      "ticker": "BIOA",
+      "as_of_date": "2026-05-19",
+      "volatility_metrics": {
+        "annualized_volatility": 0.793
+      },
+      "vol_multiplier": 0.65,
+      "correlation_multiplier": 1.0,
+      "combined_limit_pct": 0.052,
+      "position_limit_value": 52000,
+      "position_limit_currency": "USD",
+      "max_quantity": 3176
+    },
+    {
+      "ticker": "NTLA",
+      "as_of_date": "2026-05-19",
+      "volatility_metrics": {
+        "annualized_volatility": 0.987
+      },
+      "vol_multiplier": 0.4,
+      "correlation_multiplier": 1.0,
+      "combined_limit_pct": 0.02,
+      "position_limit_value": 20000,
+      "position_limit_currency": "USD",
+      "max_quantity": 1675
+    },
+    {
+      "ticker": "207940.KS",
+      "as_of_date": "2026-05-19",
+      "volatility_metrics": {
+        "annualized_volatility": 0.341
+      },
+      "vol_multiplier": 1.0,
+      "correlation_multiplier": 1.0,
+      "combined_limit_pct": 0.12,
+      "position_limit_value": 168000000,
+      "position_limit_currency": "KRW",
+      "max_quantity": 124
+    },
+    {
+      "ticker": "038290.KQ",
+      "as_of_date": "2026-05-19",
+      "volatility_metrics": {
+        "annualized_volatility": 0.34
+      },
+      "vol_multiplier": 1.0,
+      "correlation_multiplier": 1.0,
+      "combined_limit_pct": 0.12,
+      "position_limit_value": 168000000,
+      "position_limit_currency": "KRW",
+      "max_quantity": 12000
+    }
+  ],
+  "portfolio_base_usd": 1000000,
+  "portfolio_base_krw": 1400000000
+}

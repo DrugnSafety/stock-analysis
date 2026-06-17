@@ -1,0 +1,61 @@
+{
+  "computed_at": "2026-05-26T12:00:00+09:00",
+  "start_cash": 100000000.0,
+  "start_date": "2026-05-26",
+  "end_date": "2026-05-26",
+  "n_decisions": 5,
+  "total_trades": 4,
+  "total_buy_value": 22567005.0,
+  "total_sell_value": 0,
+  "final_cash": 77432995.0,
+  "end_positions_value": 22567005.0,
+  "final_nav": 100000000.0,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "NVDA": {
+      "qty": 13,
+      "avg_cost_local": 214.86,
+      "avg_cost_krw": 302953.0,
+      "currency": "USD",
+      "last_price_local": 214.86,
+      "last_price_krw": 302953.0,
+      "market_value_krw": 3938389.0,
+      "unrealized_pnl_krw": 0,
+      "unrealized_return_pct": 0
+    },
+    "000660.KS": {
+      "qty": 3,
+      "avg_cost_local": 2288000.0,
+      "avg_cost_krw": 2288000.0,
+      "currency": "KRW",
+      "last_price_local": 2288000.0,
+      "last_price_krw": 2288000.0,
+      "market_value_krw": 6864000.0,
+      "unrealized_pnl_krw": 0,
+      "unrealized_return_pct": 0
+    },
+    "005930.KS": {
+      "qty": 12,
+      "avg_cost_local": 318000.0,
+      "avg_cost_krw": 318000.0,
+      "currency": "KRW",
+      "last_price_local": 318000.0,
+      "last_price_krw": 318000.0,
+      "market_value_krw": 3816000.0,
+      "unrealized_pnl_krw": 0,
+      "unrealized_return_pct": 0
+    },
+    "ABBNY": {
+      "qty": 52,
+      "avg_cost_local": 108.41,
+      "avg_cost_krw": 152858.0,
+      "currency": "USD",
+      "last_price_local": 108.41,
+      "last_price_krw": 152858.0,
+      "market_value_krw": 7948616.0,
+      "unrealized_pnl_krw": 0,
+      "unrealized_return_pct": 0
+    }
+  },
+  "note": "USD priced stocks converted to KRW at 1410 for share calculation"
+}

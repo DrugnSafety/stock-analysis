@@ -1,0 +1,185 @@
+{
+  "ticker": "298040.KS",
+  "company_kr": "효성중공업",
+  "company_en": "Hyosung Heavy Industries",
+  "exchange": "KRX (KOSPI)",
+  "industry": {
+    "name": "전력기기·중공업 (변압기·STATCOM·건설)",
+    "name_kr": "초고압 변압기 / 미국 멤피스",
+    "overview": "북미 신규수주 비중 77%·765kV 단일 9,200억. 1분기에 연간 중공업 가이던스 8.39조의 49.8% 조기 달성. 미국 대형 유틸리티 7,871억(종료 31.1) 등 5년 규제수주 다수→비가역성 높음. 멤피스 공장 765kV 증설 허가 진행(단일 최대). 단 건설부문 혼재로 연결 OPM 12.1%(중전기 부문은 더 높음).",
+    "competitors": [
+      {
+        "name": "HD현대일렉트릭",
+        "ticker": "267260.KS",
+        "moat": "글로벌 Top3 변압기"
+      },
+      {
+        "name": "LS ELECTRIC",
+        "ticker": "010120.KS",
+        "moat": "전력·자동화"
+      },
+      {
+        "name": "Siemens Energy",
+        "ticker": "ENR.DE",
+        "moat": "글로벌 송전"
+      },
+      {
+        "name": "GE Vernova",
+        "ticker": "GEV",
+        "moat": "그리드 설비"
+      }
+    ],
+    "market_size": {
+      "horizon": "북미 전력기기 — 빅테크 4사 2026 capex 합산 $7,250억, AEP 5년 capex $720→780억(2030 +63GW). 변압기 5개사 수주잔고 34.5조(6개사 38.3조)"
+    },
+    "news": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 4800000,
+      "thesis": "멤피스 증설 + 765kV 1위 + 규제수주 비가역성으로 중전기 마진 레버리지",
+      "key_assumptions": [
+        "북미 765kV 점유 확대",
+        "건설부문 동반 회복",
+        "유틸리티 capex 견조"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 3900000,
+      "thesis": "중전기 수주·마진 견조하나 건설 변동성·멀티플 압축",
+      "key_assumptions": [
+        "중전기 마진 유지",
+        "증설 정상 가동"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 2600000,
+      "thesis": "capex 둔화 + 구리 역마진 + 건설 부진 동시",
+      "key_assumptions": [
+        "대기열 노출",
+        "증설 과잉"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "2분기 중공업 수주(가이던스 초과 속도)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "1Q 49.8% 조기달성 모멘텀 지속"
+    },
+    {
+      "date": "2026-2027",
+      "event": "멤피스 765kV 증설 허가·착공",
+      "type": "capacity",
+      "expected_impact": "+",
+      "description": "단일 최대 규모 북미 capa"
+    },
+    {
+      "date": "2026",
+      "event": "STATCOM·HVDC 수주",
+      "type": "order",
+      "expected_impact": "○",
+      "description": "전력망 안정화 설비 수요"
+    }
+  ],
+  "risks": [
+    {
+      "name": "건설부문 변동성",
+      "probability": "med",
+      "impact": "med",
+      "description": "연결 마진 희석",
+      "mitigation": "중전기 비중 확대"
+    },
+    {
+      "name": "구리 역마진",
+      "probability": "med",
+      "impact": "med",
+      "description": "고정가 장기수주 원재료 리스크",
+      "mitigation": "에스컬레이션"
+    },
+    {
+      "name": "멀티플 압축",
+      "probability": "med",
+      "impact": "med",
+      "description": "이익 정점 인식",
+      "mitigation": "규제수주 질"
+    }
+  ],
+  "as_of_date": "2026-06-16",
+  "financials": {
+    "currency": "KRW",
+    "unit": "억원",
+    "data_source": "yfinance 1.4.1 annual income statement (live) — 매출·영업이익·순이익. OPM/NPM 계산값. 연결 기준.",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 35101,
+        "op_income": 1457,
+        "net_income": 102,
+        "opm": 4.2,
+        "npm": 0.3
+      },
+      {
+        "year": 2023,
+        "revenue": 43006,
+        "op_income": 2616,
+        "net_income": 1160,
+        "opm": 6.1,
+        "npm": 2.7
+      },
+      {
+        "year": 2024,
+        "revenue": 48950,
+        "op_income": 3214,
+        "net_income": 2226,
+        "opm": 6.6,
+        "npm": 4.5
+      },
+      {
+        "year": 2025,
+        "revenue": 59685,
+        "op_income": 7222,
+        "net_income": 5199,
+        "opm": 12.1,
+        "npm": 8.7
+      }
+    ],
+    "market_snapshot": {
+      "ticker": "298040.KS",
+      "name": "Hyosung Heavy Industries Corporation",
+      "current_price": 3891000.0,
+      "currency": "KRW",
+      "forward_pe": 31.85,
+      "trailing_pe": null,
+      "beta": 2.0,
+      "return_1m_pct": 4.32,
+      "return_3m_pct": 42.48,
+      "return_6m_pct": 104.59,
+      "return_1y_pct": 410.14,
+      "volatility_annualized_pct": 64.32,
+      "market_cap_local_bn": 36231.98,
+      "market_cap_usd_bn": 27.87,
+      "ev_ebitda": 44.23,
+      "div_yield_pct": 0.19,
+      "pb": null,
+      "fetched_at": "2026-06-17T02:52:49",
+      "fetched_via": "yfinance 1.4.1 (live)",
+      "as_of_date": "2026-06-17"
+    }
+  },
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 블로그 '최근 전력기기 섹터 조정에 대해' (2026-06-16)",
+      "유안타증권 '전력기기, 조정은 끝이 아니라 기회'",
+      "yfinance (재무·시세 live)",
+      "theguru.co.kr 효성중공업 멤피스 증설 (2026)"
+    ]
+  }
+}

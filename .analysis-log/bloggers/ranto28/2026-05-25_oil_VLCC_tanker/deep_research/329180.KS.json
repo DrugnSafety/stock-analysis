@@ -1,0 +1,238 @@
+{
+  "ticker": "329180.KS",
+  "name": "HD현대중공업",
+  "current_price": 680000.0,
+  "currency": "KRW",
+  "industry": {
+    "name": "한국 조선업 (Shipbuilding) — Tanker·LNG Order Boom",
+    "overview": "한국 조선 4사 (HD현대중공업·삼성중공업·한화오션·HD현대미포) 합산 수주잔고 1,200억$ (사상 최고). VLCC + LNG선 + 친환경 선박 (메탄올·암모니아 dual-fuel) cascading 수주. 2028년까지 슬롯 매진 — 신조 발주 후 2.5-3년 대기. VLCC 1척 가격 $128M (newbuild) → 5Y secondhand $130M (inversion 발생). 한국 조선의 글로벌 점유율 35%+ (중국 45%, 일본 15%). 주요 player: HD현대중공업 (LNG선·VLCC·해양플랜트), 삼성중공업 (LNG·드릴십), 한화오션 (특수선·LNG·잠수함).",
+    "competitors": [
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 14,
+        "moat": "글로벌 LNG선 #1, VLCC·해양플랜트 통합"
+      },
+      {
+        "name": "삼성중공업",
+        "ticker": "010140.KS",
+        "share_pct": 11,
+        "moat": "LNG선 #2, FLNG 강점"
+      },
+      {
+        "name": "한화오션",
+        "ticker": "042660.KS",
+        "share_pct": 9,
+        "moat": "잠수함·특수선, 한화방산 통합"
+      },
+      {
+        "name": "Cosco Shipping Heavy",
+        "ticker": "1138.HK",
+        "share_pct": 13,
+        "moat": "중국 정부 backing"
+      },
+      {
+        "name": "Jiangsu New YZJ",
+        "ticker": "1992.HK",
+        "share_pct": 8,
+        "moat": "VLCC·container 가성비"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-20",
+        "title": "HD현대중공업 VLCC 4척 신규 수주 ($512M) — 그리스 선사 발주",
+        "source": "HHI IR",
+        "summary": "tanker 수주 cascading 지속"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "한국 조선 4사 1Q26 합산 수주잔고 1,200억$ 사상 최고",
+        "source": "한국조선해양플랜트협회",
+        "summary": "2028 슬롯 매진"
+      },
+      {
+        "date": "2026-04-25",
+        "title": "IMO EEDI Phase 3 시행 — 한국 조선 친환경선 capex 우위",
+        "source": "IMO",
+        "summary": "한국 조선 R&D 강점 활용"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 180,
+      "cagr_pct": 6.0,
+      "horizon": "2024-2030"
+    },
+    "tailwinds": [],
+    "headwinds": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 880000,
+      "thesis": "VLCC + LNG선 + 친환경 선박 cascading 수주 + 정부 EPC 정책 수혜",
+      "key_assumptions": [
+        "수주 +25%",
+        "OPM 8%+",
+        "친환경 premium 15%"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 720000,
+      "thesis": "수주잔고 visibility 유지, 마진 회복 단계",
+      "key_assumptions": [
+        "수주 안정",
+        "OPM 6%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 480000,
+      "thesis": "EV/EBITDA 29 valuation 정상화 + 2028 슬롯 소진 후 수주 둔화",
+      "key_assumptions": [
+        "EV/EBITDA 18",
+        "수주 -15%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "VLCC 추가 수주 발표",
+      "type": "order",
+      "expected_impact": "+",
+      "description": "그리스·미국 선사 대량 발주 가능성"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "LNG선 신규 수주 (Qatar Phase 3)",
+      "type": "order",
+      "expected_impact": "+",
+      "description": "한국 조선 점유율 강화"
+    },
+    {
+      "date": "2027",
+      "event": "친환경 선박 (메탄올·암모니아) 인도 본격",
+      "type": "delivery",
+      "expected_impact": "+",
+      "description": "premium 마진 인식"
+    }
+  ],
+  "risks": [
+    {
+      "risk": "EV/EBITDA 29 valuation 부담",
+      "severity": "high",
+      "probability": "med",
+      "mitigation": "수주잔고 visibility로 forward EBITDA 성장",
+      "impact": "high",
+      "name": "EV/EBITDA 29 valuation 부담",
+      "probability_label": "high",
+      "description": "EV/EBITDA 29 valuation 부담"
+    },
+    {
+      "risk": "2028 슬롯 소진 후 신규 수주 둔화",
+      "severity": "medium",
+      "probability": "med",
+      "mitigation": "친환경 선박·해양플랜트 새 수요원",
+      "name": "2028 슬롯 소진 후 신규 수주 둔화",
+      "impact": "med",
+      "description": "2028 슬롯 소진 후 신규 수주 둔화"
+    },
+    {
+      "risk": "한국 원화 강세 → 수주가격 압박",
+      "severity": "medium",
+      "probability": "med",
+      "mitigation": "헤지 운영",
+      "name": "한국 원화 강세 → 수주가격 압박",
+      "impact": "med",
+      "description": "한국 원화 강세 → 수주가격 압박"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T4",
+      "type": "factual",
+      "claim": "사우디→부산 11,000km 대비 미국 걸프만→부산 25,000km (희망봉 우회) — 톤마일이 2.3배 증가하면서 동일 물량 운송에 VLCC 유조선이 2배 이상 필요해진다.",
+      "evidence": "사우디 11,000km, 미국 19,000km (파나마) / 25,000km (희망봉) / VLCC 60~68m 폭 vs 파나마운하 49m 제약 → 희망봉 강제",
+      "testability": "high",
+      "ticker_exposure": "++ (tanker order)",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T5",
+      "type": "factual",
+      "claim": "VLCC 신조 선박은 조선소 캐파 포화로 2~3년 인도 대기인 반면, 5년 중고 VLCC 가격이 신조 가격을 추월한 inversion 현상이 발생 — 유조선 시장이 구조적 공급부족 상태에 진입했다.",
+      "evidence": "2018~2026년 VLCC 가격 차트 / 5년 중고 VLCC > 신조 VLCC (가격 역전)",
+      "testability": "high",
+      "ticker_exposure": "+++ (조선소 캐파 부족)",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T9",
+      "type": "conditional",
+      "claim": "정부가 \"경질유 처리 설비 전환 지원\" 정책을 추진하면, 향후 5~10년에 걸쳐 정유사 (SK이노베이션·S-Oil·HD현대오일뱅크·GS칼텍스) 의 대규모 자본 투자가 발생하며 EPC·설비 공급사가 수혜를 받는다.",
+      "evidence": "산업통상부 장관 국회 발언 / 기존 RHDS·RFCC 투자 규모 (수조원 단위)",
+      "testability": "high",
+      "ticker_exposure": "++ (정유설비 EPC)",
+      "current_status": "confirmed"
+    }
+  ],
+  "pl_5y_summary": {
+    "revenue_cagr_5y": 12.0,
+    "opm_2024": 3.2,
+    "opm_2025e": 5.5,
+    "opm_2026e": 7.0,
+    "net_income_cagr": 28
+  },
+  "korean_disclosures": [
+    {
+      "date": "2026-05-15",
+      "type": "사업보고서",
+      "summary": "HD현대중공업 2026 1분기 보고서 — 정유·tanker industry 추세 반영",
+      "title": "HD현대중공업 2026 1분기 보고서 — 정유·tanker industry 추세 반영",
+      "impact": "+"
+    }
+  ],
+  "us_filings": [],
+  "generated_at": "2026-05-25",
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 8350,
+        "op_income": -865,
+        "op_margin": -10.4,
+        "net_income": -1230
+      },
+      {
+        "year": 2022,
+        "revenue": 8770,
+        "op_income": -350,
+        "op_margin": -4.0,
+        "net_income": -1180
+      },
+      {
+        "year": 2023,
+        "revenue": 11320,
+        "op_income": 153,
+        "op_margin": 1.4,
+        "net_income": -97
+      },
+      {
+        "year": 2024,
+        "revenue": 14600,
+        "op_income": 460,
+        "op_margin": 3.2,
+        "net_income": 248
+      },
+      {
+        "year": 2025,
+        "revenue": 17850,
+        "op_income": 985,
+        "op_margin": 5.5,
+        "net_income": 760
+      }
+    ]
+  }
+}

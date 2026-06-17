@@ -1,0 +1,198 @@
+{
+  "industry": {
+    "name": "시스템반도체 테스트 OSAT — 차량용 SoC·Si Cap",
+    "overview": "네패스아크는 네패스 그룹 시스템반도체 테스트 전문 OSAT다. 블로그 '깐부' 프레임에서 삼성 파운드리 낙수효과 본격화 + 차량용 SoC·Si Cap 응용처 다변화의 수혜주. 메리츠 Fab tour 기준 2026-30 5년 매출 CAGR +39% 목표(6종목 중 최고). 모바일 중심 → AI·차량용 고부가로 mix 전환. 머니투데이(2026-05): '삼성전자 파운드리 낙수효과 본격화 핵심주'. 소형·고변동(vol 96%)으로 리스크 관리가 핵심.",
+    "competitors": [
+      {
+        "name": "네패스아크",
+        "ticker": "330860.KQ",
+        "share_pct": null,
+        "moat": "시스템반도체 테스트 + 삼성 파운드리 낙수 + 차량용 SoC"
+      },
+      {
+        "name": "두산테스나",
+        "ticker": "131970.KQ",
+        "share_pct": null,
+        "moat": "웨이퍼테스트 선두"
+      },
+      {
+        "name": "엘비세미콘",
+        "ticker": "061970.KQ",
+        "share_pct": null,
+        "moat": "범핑·테스트"
+      },
+      {
+        "name": "테스",
+        "ticker": "095610.KQ",
+        "share_pct": null,
+        "moat": "반도체 장비/공정"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-07",
+        "title": "삼성 파운드리 낙수효과 본격화 핵심주",
+        "source": "mt.co.kr 2026050711417015700",
+        "summary": "현대차·비나텍 등과 함께 주목",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06",
+        "title": "메리츠 Fab tour — 5년 CAGR +39% 목표(최고)",
+        "source": "블로그(doctordk) 인용 메리츠",
+        "summary": "차량용 SoC·Si Cap 다변화",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06-17",
+        "title": "1Y 주가 +335% — fwd PE 19.5×",
+        "source": "yfinance live",
+        "summary": "6종목 중 PE 가장 낮음·vol 최고",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-17)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.15,
+        "op_income": 0.02,
+        "net_income": 0.03,
+        "op_margin": 14.6,
+        "net_margin": 16.7
+      },
+      {
+        "year": 2023,
+        "revenue": 0.12,
+        "op_income": 0.0,
+        "net_income": -0.03,
+        "op_margin": 0.6,
+        "net_margin": -24.7
+      },
+      {
+        "year": 2024,
+        "revenue": 0.12,
+        "op_income": -0.0,
+        "net_income": -0.03,
+        "op_margin": -2.2,
+        "net_margin": -24.1
+      },
+      {
+        "year": 2025,
+        "revenue": 0.11,
+        "op_income": 0.01,
+        "net_income": 0.0,
+        "op_margin": 5.7,
+        "net_margin": 3.0
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.15조 → 2025 ₩0.11조로 축소, 영업이익률은 2022 14.6% → 2024 -2.2% 적자 → 2025 +5.7% 회복. 모바일 수요 둔화로 외형이 줄었으나 적자에서 흑자로 전환 중. 차량용 SoC·AI 테스트로 mix 전환과 삼성 파운드리 낙수가 본격화되면 메리츠 +39% CAGR 목표 궤도 진입 가능 — 소형사라 물량 증가의 이익 레버리지가 크지만 변동성도 극단적.",
+    "valuation_summary": "Forward PE 19.49× (yfinance live) — 6종목 중 가장 낮은 PE. 현재가 ₩50,000 / 1Y +335% / 연변동성 96%(최고). 흑자 전환 초기·소형주 특성."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.4,
+      "description": "삼성 파운드리 낙수 본격화 + 차량용 SoC·AI 테스트 mix 전환으로 가동률·마진 급반등. 메리츠 +39% CAGR 궤도.",
+      "key_drivers": [
+        "삼성 파운드리 낙수",
+        "차량용 SoC 확대",
+        "흑자 레버리지"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "흑자 전환 유지·점진 회복, AI/차량 테스트 비중 점증. 소형주 변동성 속 완만 성장.",
+      "key_drivers": [
+        "흑자 유지",
+        "mix 전환 점진",
+        "파운드리 회복"
+      ]
+    },
+    "bear": {
+      "probability": 0.2,
+      "description": "파운드리 낙수 지연 + 모바일 부진 지속 + vol 96% 극단 변동성으로 큰 폭 조정. 외형 축소 지속.",
+      "key_drivers": [
+        "낙수 지연",
+        "모바일 부진",
+        "극단 변동성"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "name": "삼성 파운드리 낙수 물량",
+      "impact": "high",
+      "description": "가동률 회복 — 외형 반등 확인"
+    },
+    {
+      "date": "2026-분기",
+      "name": "분기 실적(흑자 레버리지)",
+      "impact": "high",
+      "description": "마진 회복·CAGR 경로 검증"
+    },
+    {
+      "date": "2026-2H",
+      "name": "차량용 SoC 테스트 확대",
+      "impact": "medium",
+      "description": "고부가 mix 다변화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "극단 변동성(vol 96%)",
+      "probability": "high",
+      "impact": "high",
+      "description": "6종목 중 최고 변동성 — 포지션 대폭 축소"
+    },
+    {
+      "name": "외형 축소·소형주",
+      "probability": "high",
+      "impact": "high",
+      "description": "매출 ₩0.11조 소형·유동성 리스크"
+    },
+    {
+      "name": "삼성 파운드리 의존",
+      "probability": "medium",
+      "impact": "high",
+      "description": "낙수 본격화 시점 불확실"
+    },
+    {
+      "name": "CAGR +39% 실현",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "회사 목표치 — 수율·수주 의존"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T05",
+      "claim": "5년 CAGR +39% mix 고도화",
+      "current_status": "pending",
+      "evidence": "메리츠 목표치(최고)·차량용 SoC"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "삼성 파운드리 낙수 핵심주",
+      "current_status": "pending",
+      "evidence": "머니투데이 '낙수 본격화 핵심주'"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "테스트=후공정 부가가치",
+      "current_status": "confirmed",
+      "evidence": "시스템반도체 테스트 수요 증가"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06",
+      "type": "IR/Fab tour",
+      "summary": "메리츠 Fab tour: 5년 매출 CAGR +39% 목표·차량용 SoC/Si Cap 다변화(블로그 인용)",
+      "title": "메리츠 Fab tour — CAGR +39% (보도/IR 기반)"
+    }
+  ]
+}

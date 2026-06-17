@@ -1,0 +1,285 @@
+{
+  "company_kr": "Wärtsilä (ADR)",
+  "company_en": "Wärtsilä Corporation",
+  "industry": {
+    "name": "선박엔진 / 데이터센터 BTM 가스엔진 / AI 인프라 전력",
+    "overview": "AI 데이터센터 폭발적 전력 수요(2024 25 GW → 2030 80 GW, EPRI 2025-12)와 미국 송배전망 적체(grid interconnection queue 2,600 GW, LBNL 2025-04)가 결합되어, 데이터센터 자체 부지 발전(BTM, Behind-the-Meter)이 'optional'에서 'necessary'로 이동. 글로벌 BTM gas engine market $8B(2025) → $22B(2030) (Wood Mackenzie). 동시에 글로벌 신조선 발주 record + IMO GHG 규제로 LNG·메탄올 dual-fuel 엔진 수요 폭증. 한화엔진은 한화에너지(MS·Meta·Google PPA)와 그룹 시너지로 BTM 진입, 동시에 marine 엔진 슈퍼사이클의 직접 수혜자.",
+    "competitors": [
+      {
+        "name": "Wärtsilä",
+        "ticker": "WRTBY",
+        "share_pct": 28,
+        "moat": "BTM gas engine 글로벌 1위 + 미국 데이터센터 backlog $2.4B + 250+ countries service network"
+      },
+      {
+        "name": "MAN Energy Solutions",
+        "ticker": "Private (Volkswagen)",
+        "share_pct": 22,
+        "moat": "Marine 2-stroke 엔진 dominant + 라이선싱 네트워크"
+      },
+      {
+        "name": "Caterpillar (Energy Transition)",
+        "ticker": "CAT",
+        "share_pct": 18,
+        "moat": "Stationary gen + dealer network 200+ countries"
+      },
+      {
+        "name": "한화엔진",
+        "ticker": "082740.KS",
+        "share_pct": 8,
+        "moat": "MAN ES 라이선스 + 한화 그룹 captive (한화에너지 PPA) + 한국 yard cost"
+      },
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 7,
+        "moat": "글로벌 yard 1위 통합 + GE Vernova 가스터빈 partnership"
+      },
+      {
+        "name": "두산에너빌리티 (Doosan Enerbility)",
+        "ticker": "034020.KS",
+        "share_pct": 5,
+        "moat": "한국 SMR 1위 + 자체 H-class 270MW 가스터빈"
+      },
+      {
+        "name": "Cummins / Generac / Bloom Energy",
+        "ticker": "CMI/GNRC/BE",
+        "share_pct": 12,
+        "moat": "미국 BTM 시장 진입 가속"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "한화엔진 데이터센터 BTM 진출 — 매출 2027 2.8조 가이던스",
+        "source": "한국투자증권",
+        "summary": "한화에너지 PPA 확대 + 4행정 가스엔진 부활. 매출 1.6→2.8→3조원 trajectory."
+      },
+      {
+        "date": "2026-03",
+        "title": "Meta x Calpine 1.1 GW 가스 PPA 체결",
+        "source": "Bloomberg",
+        "summary": "데이터센터향 BTM gas 발전 확산 — Wärtsilä 등 vendor 수혜"
+      },
+      {
+        "date": "2025-12",
+        "title": "EPRI 2025 AI Power Demand Outlook",
+        "source": "EPRI",
+        "summary": "2030 미국 데이터센터 +55 GW 추가 전력 필요 — BTM 비중 60%+"
+      },
+      {
+        "date": "2025-07",
+        "title": "PJM Capacity Auction +800% clearing price",
+        "source": "PJM",
+        "summary": "$269/MW-day — grid scarcity가 BTM 가속 트리거"
+      },
+      {
+        "date": "2025-06",
+        "title": "HD현대중공업 GE Vernova 가스엔진 partnership",
+        "source": "한경",
+        "summary": "한국 BIG3 yard 가스엔진 시장 진입 가속"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.0,
+      "horizon": "2025-2030",
+      "cagr_pct": 22.5
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 5800,
+        "op_income": 350,
+        "op_margin": 6.0,
+        "net_income": 200,
+        "net_margin": 3.4
+      },
+      {
+        "year": 2023,
+        "revenue": 6300,
+        "op_income": 580,
+        "op_margin": 9.2,
+        "net_income": 380,
+        "net_margin": 6.0
+      },
+      {
+        "year": 2024,
+        "revenue": 6800,
+        "op_income": 782,
+        "op_margin": 11.5,
+        "net_income": 520,
+        "net_margin": 7.6
+      },
+      {
+        "year": 2025,
+        "revenue": 7800,
+        "op_income": 1053,
+        "op_margin": 13.5,
+        "net_income": 720,
+        "net_margin": 9.2
+      },
+      {
+        "year": 2026,
+        "revenue": 9000,
+        "op_income": 1305,
+        "op_margin": 14.5,
+        "net_income": 920,
+        "net_margin": 10.2
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets_EUR_mn": 9000,
+      "total_liabilities_EUR_mn": 5500,
+      "equity_EUR_mn": 3500,
+      "net_debt_EUR_mn": 800,
+      "current_ratio": 1.7,
+      "total_liab": 5500,
+      "equity": 3500,
+      "total_assets": 9000,
+      "cash": 900.0
+    },
+    "cf_summary": {
+      "operating_cf_EUR_mn": 1100,
+      "investing_cf_EUR_mn": -350,
+      "free_cash_flow_EUR_mn": 750,
+      "capex_intensity_pct": 3.8
+    },
+    "peer_compare": [
+      {
+        "ticker": "WRTBY",
+        "name": "Wärtsilä",
+        "pe": 26.5,
+        "pb": 4.2,
+        "roe": 16.5,
+        "div_yield": 1.2
+      },
+      {
+        "ticker": "CAT",
+        "name": "Caterpillar",
+        "pe": 18.0,
+        "pb": 7.5,
+        "roe": 42.0,
+        "div_yield": 1.5
+      },
+      {
+        "ticker": "GNRC",
+        "name": "Generac Holdings",
+        "pe": 22.0,
+        "pb": 4.0,
+        "roe": 15.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "BE",
+        "name": "Bloom Energy",
+        "pe": 0.0,
+        "pb": 12.0,
+        "roe": -8.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "082740.KS",
+        "name": "한화엔진",
+        "pe": 24.5,
+        "pb": 4.5,
+        "roe": 14.0,
+        "div_yield": 0.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 11.5,
+      "thesis": "AI 인프라 BTM dominant 지속 + 미국 backlog $5B+ 달성 + 서비스 매출 비중 +5pp",
+      "key_assumptions": [
+        "BTM 시장 점유율 30%+ 유지",
+        "EBITDA 마진 16%+",
+        "Rolls-Royce SMR 협력"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 9.5,
+      "thesis": "BTM 안정 leader + marine 슈퍼사이클 동반",
+      "key_assumptions": [
+        "BTM 매출 +30% CAGR",
+        "Marine power 안정"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 6.8,
+      "thesis": "AI capex cycle peak + 후발주자 추격 + ESG 압력 (가스 phase-out)",
+      "key_assumptions": [
+        "AI 인프라 capex -15%",
+        "한화엔진·HD현대 share 확대"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-H2",
+      "event": "미국 데이터센터 신규 메가 수주 ($1B+)",
+      "type": "industrial",
+      "expected_impact": "++",
+      "description": "MS·Meta·Google PPA 추가 — 동반 backlog 확대"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Rolls-Royce SMR 협력 발표 가능성",
+      "type": "partnership",
+      "expected_impact": "+",
+      "description": "SMR + gas hybrid 솔루션"
+    },
+    {
+      "date": "2027-H1",
+      "event": "서비스 매출 비중 20% 도달",
+      "type": "structural",
+      "expected_impact": "+",
+      "description": "high-margin recurring revenue"
+    }
+  ],
+  "risks": [
+    {
+      "name": "1Y +143% 부분 가격화",
+      "probability": "high",
+      "impact": "med",
+      "description": "이미 first mover premium 일부 가격화",
+      "mitigation": "분할 매수 + 종합 BTM 점유율 추적"
+    },
+    {
+      "name": "ESG 압력 (가스 phase-out)",
+      "probability": "med",
+      "impact": "high",
+      "description": "MS·Meta·Google 'all-renewable by 2030' 약속",
+      "mitigation": "SMR·hydrogen 협력 진행"
+    },
+    {
+      "name": "후발주자 추격",
+      "probability": "med",
+      "impact": "med",
+      "description": "한화엔진·HD현대·CAT 진입 가속",
+      "mitigation": "service network + reference 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "BTM gas engine 글로벌 first mover",
+      "type": "competitive",
+      "evidence": "미국 데이터센터 backlog $2.4B + 250+ countries service network",
+      "testability": "high",
+      "current_status": "확인됨"
+    },
+    {
+      "claim": "Marine + Energy dual growth",
+      "type": "industry",
+      "evidence": "Marine 50% + Energy 35% 매출 비중",
+      "testability": "high",
+      "current_status": "확인됨"
+    }
+  ],
+  "korean_disclosures": []
+}

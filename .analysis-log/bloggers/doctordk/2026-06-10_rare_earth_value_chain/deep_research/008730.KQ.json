@@ -1,0 +1,186 @@
+{
+  "industry": {
+    "name": "페라이트 마그넷/자성소재",
+    "overview": "유니온머티리얼은 페라이트 마그넷 및 자성소재 분야에서 활동하는 기업으로, 전기차 및 재생에너지 산업의 성장과 함께 수요가 증가하고 있다. 특히, 희토류 원자재의 수급 불안정성이 가격 상승을 유도하고 있으며, 이는 회사의 매출 증가로 이어질 것으로 예상된다. 유니온머티리얼은 기술력과 생산능력을 바탕으로 경쟁력을 유지하고 있으며, 지속적인 연구개발을 통해 시장에서의 입지를 강화하고 있다.",
+    "competitors": [
+      {
+        "name": "일진머티리얼즈",
+        "ticker": "100250.KS",
+        "share_pct": 25.0,
+        "moat": "기술력 및 브랜드 인지도"
+      },
+      {
+        "name": "삼성전기",
+        "ticker": "009150.KS",
+        "share_pct": 20.0,
+        "moat": "대규모 생산능력 및 글로벌 네트워크"
+      },
+      {
+        "name": "세방전지",
+        "ticker": "004100.KS",
+        "share_pct": 15.0,
+        "moat": "가격 경쟁력 및 품질"
+      },
+      {
+        "name": "코스모신소재",
+        "ticker": "005070.KS",
+        "share_pct": 10.0,
+        "moat": "특허 및 기술력"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 5.0,
+      "cagr_pct": 8.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 12000,
+      "thesis": "희토류 가격 상승과 전기차 수요 증가로 인해 매출이 크게 증가할 것으로 예상됨.",
+      "key_assumptions": [
+        "중국의 희토류 수출 통제 강화",
+        "전기차 및 재생에너지 시장의 빠른 성장",
+        "글로벌 공급망의 안정화"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 10000,
+      "thesis": "현재 시장 상황이 유지되며 점진적인 성장 가능성이 있음.",
+      "key_assumptions": [
+        "희토류 수급 상황 안정",
+        "기술력 유지 및 비용 효율성 개선",
+        "경쟁 심화로 인한 가격 압박"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 8000,
+      "thesis": "글로벌 경제 불황 및 원자재 가격 하락으로 인해 매출 감소 가능성.",
+      "key_assumptions": [
+        "중국의 수출 정책 변화",
+        "전기차 수요 둔화",
+        "글로벌 공급망의 혼란"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-03",
+      "event": "중국 대일 희토류 수출 통제 강화",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "중국의 희토류 수출 통제로 인해 원자재 가격 상승 예상."
+    },
+    {
+      "date": "2026-11",
+      "event": "미중 무역 유예 종료",
+      "type": "macro",
+      "expected_impact": "-",
+      "description": "무역 갈등 재발 가능성으로 인한 시장 불안."
+    },
+    {
+      "date": "2025-10",
+      "event": "12개 원소 수출 통제 시행",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "희토류의 가격 상승으로 매출 증가 예상."
+    },
+    {
+      "date": "2026-04",
+      "event": "NdPr 가격 상승",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "NdPr 가격 상승으로 인한 수익성 개선."
+    },
+    {
+      "date": "2025-12",
+      "event": "Lynas Mt Weld 매출 발표",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Lynas의 매출 증가가 시장 전반에 긍정적인 영향을 미칠 것으로 예상."
+    }
+  ],
+  "risks": [
+    {
+      "name": "중국의 수출 정책 변화",
+      "probability": "high",
+      "impact": "high",
+      "description": "중국의 정책 변화가 공급망에 큰 영향을 미칠 수 있음.",
+      "mitigation": "다양한 공급처 확보 및 리스크 관리 전략 수립."
+    },
+    {
+      "name": "전기차 수요 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "전기차 수요가 예상보다 둔화될 경우 매출 감소 가능성.",
+      "mitigation": "다양한 제품 라인업 확대 및 시장 다변화."
+    },
+    {
+      "name": "경쟁 심화",
+      "probability": "high",
+      "impact": "med",
+      "description": "경쟁사들이 시장에 진입하면서 가격 압박이 심화될 수 있음.",
+      "mitigation": "기술 혁신 및 품질 개선을 통한 경쟁력 유지."
+    },
+    {
+      "name": "글로벌 경제 불황",
+      "probability": "med",
+      "impact": "high",
+      "description": "글로벌 경제 불황으로 인한 소비 감소.",
+      "mitigation": "비용 절감 및 효율성 향상."
+    },
+    {
+      "name": "원자재 가격 변동",
+      "probability": "high",
+      "impact": "med",
+      "description": "원자재 가격 변동이 수익성에 영향을 미칠 수 있음.",
+      "mitigation": "장기 계약 체결 및 재고 관리."
+    }
+  ],
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.458,
+        "op_income": -0.006,
+        "op_margin": -1.3,
+        "net_income": -0.004,
+        "net_margin": -0.9
+      },
+      {
+        "year": 2023,
+        "revenue": 0.414,
+        "op_income": -0.016,
+        "op_margin": -3.9,
+        "net_income": -0.019,
+        "net_margin": -4.6
+      },
+      {
+        "year": 2024,
+        "revenue": 0.457,
+        "op_income": -0.018,
+        "op_margin": -4.0,
+        "net_income": -0.009,
+        "net_margin": -1.9
+      },
+      {
+        "year": 2025,
+        "revenue": 0.485,
+        "op_income": 0.009,
+        "op_margin": 1.8,
+        "net_income": 0.004,
+        "net_margin": 0.9
+      }
+    ],
+    "bs_snapshot": {
+      "note": "yfinance 기반 — 상세 BS는 DART/SEC 참조"
+    },
+    "cf_summary": {
+      "note": "FCF/OCF는 사업보고서 참조"
+    },
+    "peer_compare": []
+  }
+}

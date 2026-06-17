@@ -1,0 +1,211 @@
+{
+  "industry": {
+    "name": "HBM 후공정 장비 — TC본더(Thermo-Compression Bonder)",
+    "overview": "한미반도체는 HBM용 TC(열압착)본더 글로벌 71.2% 점유 압도적 1위 장비사다. 블로그 '깐부' 프레임에서 엔비디아 GPU·SK하이닉스 HBM에 올라타는 직접 수혜주. HBM은 다수 DRAM die를 적층(TSV)·본딩하는데, TC본더가 그 핵심 장비다. SK하이닉스 HBM4 본격 양산·해외 고객 HBM CAPA 증설·국내 후공정 라인 세팅으로 발주 확대가 전망된다. 2026E 매출 ₩1.08조·영업익 ₩5,645억(전년비 +64%/+52%) 추정, 시총 30조 돌파. HBM4 세대 하이브리드 본딩(HB) 전환이 중장기 기술 변수.",
+    "competitors": [
+      {
+        "name": "한미반도체",
+        "ticker": "042700.KS",
+        "share_pct": 71.0,
+        "moat": "HBM TC본더 71% 점유 + SK하이닉스 레퍼런스 + 듀얼 TC본더 라인업"
+      },
+      {
+        "name": "ASMPT",
+        "ticker": "0522.HK",
+        "share_pct": 15.0,
+        "moat": "글로벌 본딩·패키징 장비 + 하이브리드 본딩 선행"
+      },
+      {
+        "name": "Besi(BE Semiconductor)",
+        "ticker": "BESI.AS",
+        "share_pct": 8.0,
+        "moat": "하이브리드 본딩(HB) 장비 선두 — HBM4+ 전환 수혜 후보"
+      },
+      {
+        "name": "한화세미텍",
+        "ticker": null,
+        "share_pct": 4.0,
+        "moat": "국내 TC본더 신규 진입(삼성 향)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-01",
+        "title": "HBM TC본더 71.2% 점유 — 2026 '퀀텀 점프' 전망",
+        "source": "somsap.somsap.com",
+        "summary": "HBM4 양산·해외 캐파 증설로 발주 확대",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05",
+        "title": "시총 30조 돌파 — AI 수혜 후공정 대표주",
+        "source": "jabon.co.kr/3306",
+        "summary": "HBM 다음 광섬유까지 AI 후공정 부각",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05",
+        "title": "리딩투자 목표가 24만·유진 23만·메릴린치 42만",
+        "source": "증권사 리서치",
+        "summary": "2026E 매출 ₩1.08조·영업익 ₩5,645억(+64%/+52%)",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06-17",
+        "title": "1Y 주가 +268% — HBM4 모멘텀 선반영",
+        "source": "yfinance live",
+        "summary": "fwd PE 58×·고변동성",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-17)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.33,
+        "op_income": 0.11,
+        "net_income": 0.09,
+        "op_margin": 34.1,
+        "net_margin": 28.2
+      },
+      {
+        "year": 2023,
+        "revenue": 0.16,
+        "op_income": 0.03,
+        "net_income": 0.27,
+        "op_margin": 21.7,
+        "net_margin": 168.0
+      },
+      {
+        "year": 2024,
+        "revenue": 0.56,
+        "op_income": 0.26,
+        "net_income": 0.15,
+        "op_margin": 45.7,
+        "net_margin": 27.3
+      },
+      {
+        "year": 2025,
+        "revenue": 0.58,
+        "op_income": 0.25,
+        "net_income": 0.21,
+        "op_margin": 43.6,
+        "net_margin": 37.1
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.33조 → 2023 ₩0.16조(메모리 다운사이클 급락) → 2024 ₩0.56조 → 2025 ₩0.58조로 HBM 사이클 따라 급변. 영업이익률은 2023 21.7% 저점에서 2024~25 43~46%로 회복 — TC본더 독과점에 따른 고마진 구조. 2026E 매출 ₩1.08조·영업익 ₩5,645억(+64%/+52%) 추정으로 HBM4 ramp가 한 단계 도약을 견인. 실적 진폭이 HBM capex 사이클에 크게 연동되는 고베타 장비주.",
+    "valuation_summary": "Forward PE 58.25× (yfinance live) — 장비주로 높은 프리미엄, HBM4 성장 선반영. 현재가 ₩319,500 / 1Y +268% / 연변동성 88%. 목표가 컨센서스 23~24만(외국계 42만)."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.42,
+      "description": "HBM4 본격 양산 + SK하이닉스 해외 캐파 증설 + 삼성 신규 TC본더 채택으로 발주 폭증. 2026E 매출 ₩1.08조 상회·고마진 유지. 목표가 상단(외국계 42만) 지향.",
+      "key_drivers": [
+        "HBM4 양산 발주",
+        "SK하이닉스 캐파 증설",
+        "삼성 TC본더 신규 채택"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "HBM4 전환 정상 진행, 2026E 매출 ₩1.08조·영업익 ₩5,645억 달성. 71% 점유 유지하며 컨센 목표가 23~24만 수렴.",
+      "key_drivers": [
+        "HBM4 정상 ramp",
+        "점유율 유지",
+        "고마진 지속"
+      ]
+    },
+    "bear": {
+      "probability": 0.18,
+      "description": "HBM4에서 하이브리드 본딩(Besi) 전환 가속으로 TC본더 잠식 + HBM capex 둔화. fwd PE 58× 멀티플 압축으로 주가 -30%+.",
+      "key_drivers": [
+        "하이브리드 본딩 전환",
+        "HBM capex 둔화",
+        "멀티플 압축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "name": "HBM4 양산 본더 발주",
+      "impact": "high",
+      "description": "SK하이닉스 HBM4 ramp 연동 — 수주 확인"
+    },
+    {
+      "date": "2026-분기",
+      "name": "분기 실적(영업익 ₩5,645억 경로)",
+      "impact": "high",
+      "description": "2026E +52% 영업익 가시성"
+    },
+    {
+      "date": "2026-2H",
+      "name": "삼성 파운드리/후공정 TC본더 채택",
+      "impact": "medium",
+      "description": "고객 다변화 — 한화세미텍 경쟁 변수"
+    }
+  ],
+  "risks": [
+    {
+      "name": "하이브리드 본딩(HB) 전환",
+      "probability": "medium",
+      "impact": "high",
+      "description": "HBM4+ 세대 HB 전환 시 TC본더 수요 잠식(Besi 수혜)"
+    },
+    {
+      "name": "밸류에이션 (fwd PE 58×)",
+      "probability": "high",
+      "impact": "high",
+      "description": "1Y +268% 선반영 — HBM 둔화 시 급락"
+    },
+    {
+      "name": "고객 집중(SK하이닉스)",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "단일 대형고객 HBM 로드맵 의존"
+    },
+    {
+      "name": "HBM capex 사이클",
+      "probability": "medium",
+      "impact": "high",
+      "description": "AI 메모리 capex 둔화 시 발주 급변"
+    },
+    {
+      "name": "초고변동성(vol 88%)",
+      "probability": "high",
+      "impact": "medium",
+      "description": "장비주 고베타 — 포지션 한도 축소 필요"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T03",
+      "claim": "HBM TC본더 71% 1위 깐부",
+      "current_status": "confirmed",
+      "evidence": "71.2% 점유·2026E +64% 매출(somsap)"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "후공정 부가가치 이동",
+      "current_status": "confirmed",
+      "evidence": "HBM 본딩이 AI 메모리 캐파 병목"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "엔비디아/SK하이닉스 깐부",
+      "current_status": "confirmed",
+      "evidence": "SK하이닉스 HBM TC본더 직접 공급"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05",
+      "type": "IR/리서치",
+      "summary": "2026E 매출 ₩1.08조·영업익 ₩5,645억 가이던스·증권사 추정",
+      "title": "2026 HBM4 ramp 실적 전망 (리서치)"
+    }
+  ]
+}

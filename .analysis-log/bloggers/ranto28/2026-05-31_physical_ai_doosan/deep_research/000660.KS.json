@@ -1,0 +1,228 @@
+{
+  "industry": {
+    "name": "메모리 반도체(HBM·DRAM·NAND)",
+    "overview": "SK하이닉스는 HBM 시장 선도 공급사로 NVIDIA向 HBM 점유에서 우위를 점하고 있다. 메르 글에서 베라 루빈 HBM4 '직접 탑재 검증' 당사자로 지목됐으며, HBM4E 16개 탑재 베라 루빈 울트라(2027)로 콘텐츠 증가 수혜가 이어진다. FY25 영업이익률 약 49%로 HBM 슈퍼사이클의 막대한 마진을 누리고 있다. 주가는 1Y +1,000%대로 사이클을 강하게 반영 중이라 선반영·고점 논쟁이 핵심 변수다.",
+    "competitors": [
+      {
+        "name": "삼성전자",
+        "ticker": "005930.KS"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU"
+      },
+      {
+        "name": "Nanya",
+        "ticker": "2408.TW"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2025",
+        "fiscal_year": "2025",
+        "revenue": 97146675000000.0,
+        "op_income": 47206319000000.0,
+        "net_income": 42919287000000.0,
+        "op_margin": 48.59,
+        "op_margin_pct": 48.59,
+        "net_margin_pct": 44.18
+      },
+      {
+        "year": "2024",
+        "fiscal_year": "2024",
+        "revenue": 66192960000000.0,
+        "op_income": 23467319000000.0,
+        "net_income": 19788681000000.0,
+        "op_margin": 35.45,
+        "op_margin_pct": 35.45,
+        "net_margin_pct": 29.9
+      },
+      {
+        "year": "2023",
+        "fiscal_year": "2023",
+        "revenue": 32765719000000.0,
+        "op_income": -7730313000000.0,
+        "net_income": -9112428000000.0,
+        "op_margin": -23.59,
+        "op_margin_pct": -23.59,
+        "net_margin_pct": -27.81
+      },
+      {
+        "year": "2022",
+        "fiscal_year": "2022",
+        "revenue": 44621568000000.0,
+        "op_income": 6809417000000.0,
+        "net_income": 2229560000000.0,
+        "op_margin": 15.26,
+        "op_margin_pct": 15.26,
+        "net_margin_pct": 5.0
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2025",
+        "revenue": 97146675000000.0,
+        "operating_income": 47206319000000.0,
+        "net_income": 42919287000000.0,
+        "op_margin_pct": 48.59
+      },
+      {
+        "year": "2024",
+        "revenue": 66192960000000.0,
+        "operating_income": 23467319000000.0,
+        "net_income": 19788681000000.0,
+        "op_margin_pct": 35.45
+      },
+      {
+        "year": "2023",
+        "revenue": 32765719000000.0,
+        "operating_income": -7730313000000.0,
+        "net_income": -9112428000000.0,
+        "op_margin_pct": -23.59
+      },
+      {
+        "year": "2022",
+        "revenue": 44621568000000.0,
+        "operating_income": 6809417000000.0,
+        "net_income": 2229560000000.0,
+        "op_margin_pct": 15.26
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "thesis": "베라 루빈 HBM4 선행 검증 통과로 초기 물량 선점 + HBM4E 콘텐츠 배가. AI 추론·피지컬AI 확장으로 HBM 수요 곡선 우상향 지속.",
+      "key_assumptions": [
+        "HBM4 선행 공급 점유",
+        "ASP 강세",
+        "capex 사이클 지속"
+      ],
+      "target_price": 3000000
+    },
+    "base": {
+      "prob_pct": 40,
+      "thesis": "HBM 호황 지속되나 +1,000% 선반영으로 추가 상승은 실적 서프라이즈에 의존. 고변동성 박스권 가능.",
+      "key_assumptions": [
+        "HBM 점유 유지",
+        "삼성 추격 점진",
+        "마진 고점 유지"
+      ],
+      "target_price": 2400000
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "삼성 추격 양산 + capex 사이클 정점 논쟁 + ASP 하락 시 급격한 멀티플 되돌림. 고점 부담 현실화.",
+      "key_assumptions": [
+        "공급 경쟁 심화",
+        "capex 피크아웃",
+        "ASP 둔화"
+      ],
+      "target_price": 1700000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "event": "베라 루빈 HBM4 본격 양산·탑재",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "직접 탑재 검증의 매출 전환 — 초기 물량 선점 확인"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적·HBM 가이던스",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "HBM 매출 비중·ASP·마진 추세 확인"
+    },
+    {
+      "date": "2027",
+      "event": "베라 루빈 울트라 HBM4E 16개",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "콘텐츠 배가로 메모리 TAM 가속"
+    }
+  ],
+  "risks": [
+    {
+      "name": "주가 선반영",
+      "probability": "high",
+      "impact": "high",
+      "description": "1Y +1,000%대로 HBM 수혜 상당 부분 선반영 — 호재 추가 상승 담보 안 됨",
+      "mitigation": "콘텐츠 증가·신규 응용으로 EPS 추가 성장"
+    },
+    {
+      "name": "삼성 추격",
+      "probability": "med",
+      "impact": "high",
+      "description": "삼성 HBM4 양산·수율 개선 시 공급 경쟁·ASP 하락",
+      "mitigation": "기술 격차·선행 검증 유지"
+    },
+    {
+      "name": "capex 사이클 정점",
+      "probability": "med",
+      "impact": "high",
+      "description": "AI capex 둔화 시 메모리 수요 급랭 위험",
+      "mitigation": "추론·피지컬AI 등 수요 다변화"
+    },
+    {
+      "name": "고변동성",
+      "probability": "high",
+      "impact": "med",
+      "description": "연환산 변동성 높음 — 급등락 반복",
+      "mitigation": "분할 접근·포지션 관리"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T02",
+      "ticker_exposure": "+",
+      "claim": "2026년 시장의 화두는 'AI'에서 '피지컬 AI'(AI와 로봇의 결합)로 구체화되며, 젠슨 황이 CES에서 제시한 베라 루빈(Vera Rubin) 플랫폼이 피지컬 AI 시대를 여는 핵심 컴퓨팅 인프라가 된다.",
+      "type": "predictive",
+      "evidence": "CES 젠슨 황 발언 'AI의 다음 단계는 로봇공학', 베라 루빈을 피지컬 AI 핵심 인프라로 규정. 메르 연초 '2026년의 화두는?' 글의 피지컬AI·로봇 주목과 일관.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T03",
+      "ticker_exposure": "++",
+      "claim": "2026년 하반기 출시될 베라 루빈 초기 모델은 1세트당 HBM4 8개가 탑재되며, 삼성전자는 베라 루빈용 샘플을 엔비디아에 제공했고 SK하이닉스는 베라 루빈에 직접 탑재해 검증을 진행 중이다 — HBM4 사이클의 ",
+      "type": "factual",
+      "evidence": "메르 인용 34~35번 항목: 베라 루빈 HBM4 8개/세트, 삼성 샘플 제공, SK하이닉스 직접 탑재 검증.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T04",
+      "ticker_exposure": "++",
+      "claim": "2027년 예정된 후속 모델 베라 루빈 울트라는 HBM4E 16개가 탑재되어, HBM 콘텐츠(세트당 탑재량)가 8→16개로 배가되며 메모리 수혜 강도가 세대 전환마다 확대된다.",
+      "type": "predictive",
+      "evidence": "메르 인용 36번: 베라 루빈 울트라 HBM4E 16개. HBM 세대 전환마다 GPU당 메모리 탑재량 증가 추세와 부합.",
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026",
+      "type": "산업",
+      "title": "베라 루빈 HBM4 직접 탑재 검증",
+      "summary": "메르 인용 — SK하이닉스가 엔비디아 베라 루빈에 HBM4를 직접 탑재해 검증 진행 중(삼성은 샘플 제공 단계)"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 2391000,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 OPM 약 49%로 HBM 슈퍼사이클 정점 마진을 반영. 현 주가는 HBM4·HBM4E 콘텐츠 증가가 수년간 지속된다는 강한 성장 기대를 내재. 사이클 정점 마진의 지속 가능성과 삼성 추격 속도가 reverse DCF 핵심 변수 — 마진 정상화 가정 시 하방 여지."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

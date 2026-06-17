@@ -1,0 +1,447 @@
+{
+  "ticker": "MRVL",
+  "aggregated_at": "2026-06-05T06:25:35.421768+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "lean_bullish": {
+      "count": 13,
+      "pct": 76.5
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.762,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "높은 시스템적 리스크"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 전략적 파트너십"
+      ],
+      "uncertainty": "변동성이 대폭 낮아지거나 beta가 산업 평균치로 수렴하면 평가가 달라질 수 있음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 레버리지와 PER",
+        "엔비디아 의존성"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협업으로 시장 점유율 확대 가능성",
+        "TPU 시장 진입으로 브로드컴과의 경쟁 강화"
+      ],
+      "uncertainty": "엔비디아와의 협업이 실패로 돌아가거나 시장 점유율 확대에 실패할 경우",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고베타로 인한 시장 리스크",
+        "높은 forward P/E로 인한 Valuation 부담"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협업 확대",
+        "브로드컴에 대한 경쟁자 입지 강화를 통한 성장 가능성"
+      ],
+      "uncertainty": "만약 시장의 금리 환경이 완화되거나 Nvidia의 협업이 가속화된다면 'lean_bullish'로 조정 가능",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "TSMC 의존으로 인한 공급망 위험",
+        "고평가된 valuation 부담"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 데이터센터 수요 증가",
+        "엔비디아와의 협업으로 시장 확대"
+      ],
+      "uncertainty": "글로벌 경기 침체 시 수요 급락 가능성",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 valuation (forward PE 51.26)",
+        "NVLink Fusion 종속성"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협력 강화",
+        "데이터센터 AI칩 수요증가"
+      ],
+      "uncertainty": "엔비디아와의 파트너십에 문제가 생길 경우 성장 전망이 저하될 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "TSMC 의존도"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 전략적 파트너십",
+        "구글 TPU 진입"
+      ],
+      "uncertainty": "엔비디아와의 협력 관계가 악화되면 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE",
+        "EV/EBITDA의 높음"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협업 시너지",
+        "데이터센터 커스텀 칩 시장 확장"
+      ],
+      "uncertainty": "엔비디아와의 파트너십이 종료되거나 경쟁사의 기술 혁신이 마벨의 장점을 무효화할 경우",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 밸류에이션",
+        "엔비디아 의존도"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 전략적 파트너십",
+        "데이터센터 시장 확장"
+      ],
+      "uncertainty": "전체 시장의 성장률이 기대 이하로 떨어지면, 현재 밸류에이션이 정당화되지 않을 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 밸류에이션 부담",
+        "미국 금리 인상 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI 칩 수요 증가 연계",
+        "NVIDIA와의 전략적 파트너십 확대"
+      ],
+      "uncertainty": "NVIDIA와의 파트너십이 실패하거나 AI 수요가 크게 감소하면 이 전망은 뒤집힐 수 있다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "자본비용 대비 불충분한 ROIC 가능성"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 NVLink Fusion 협업",
+        "브로드컴 추격을 통한 시장 점유율 확대"
+      ],
+      "uncertainty": "엔비디아 및 브로드컴과의 경쟁 구도가 변할 경우 가정이 깨질 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 정직성과 의지",
+        "R&D 효율성 유지 여부"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 전략적 협력을 통한 성장",
+        "데이터센터 분야의 맞춤형 AI칩 시장에서의 확대"
+      ],
+      "uncertainty": "엔비디아와의 협력 관계가 악화되거나 주요 고객의 수요가 감소하면 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA",
+        "해당 기업의 재무제표 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "NVIDIA와의 전략적 파트너십",
+        "하이퍼스케일러와의 맞춤형 AI칩 설계"
+      ],
+      "uncertainty": "NVIDIA와의 파트너십이 깨질 경우, 명백한 catalyst 부재 시 가치 평가가 뒤집힐 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "forward PE로 비싸여 보이는 가치평가의 지속 가능성",
+        "변동성이 높은 시장에서의 지속 가능한 수익성"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협력 강화",
+        "하이퍼스케일러 커스텀 칩에 대한 성장 기회"
+      ],
+      "uncertainty": "엔비디아와의 파트너십 균열 시 마벨의 경쟁 우위가 훼손될 수 있습니다.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PER와 PBR",
+        "낮은 배당률 0.08%[actual]"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협업을 통한 기술적 성장 기회",
+        "데이터센터 분야의 지속적인 수요 증가"
+      ],
+      "uncertainty": "엔비디아와의 협업이 막대한 수익 성장으로 이어진다면, 도전적인 현재 평가를 극복할 수 있을 것.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "브로드컴의 높은 시장 점유율",
+        "엔비디아 의존도의 리스크"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 AI 칩 시장의 고성장",
+        "엔비디아와의 협력으로 시장 진입 강화"
+      ],
+      "uncertainty": "엔비디아와의 협력 관계가 중단된다면, 성장 전망이 크게 약화될 수 있다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 밸류에이션 지표는 투자자들에게 부담이 될 수 있음",
+        "TSMC 의존도가 공급망 리스크 요인"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아 NVLink Fusion 파트너십으로 시장 확장",
+        "구글 TPU 진입 및 브로드컴 경쟁력 강화"
+      ],
+      "uncertainty": "정부 규제나 시장 환경 변화로 파트너십이나 수요에 변동이 생기면 Verdict가 뒤집힐 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "TSMC 의존도",
+        "높은 trailing PE ratio"
+      ],
+      "key_opportunities_top3": [
+        "엔비디아와의 협업으로 인한 시장 점유율 증가",
+        "맞춤형 AI칩 수요 증가"
+      ],
+      "uncertainty": "엔비디아와의 협력이나 TSMC 내재적 리스크와 같은 파트너십이 잘못되거나 변화할 경우 마벨의 평가가 크게 뒤바뀔 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

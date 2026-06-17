@@ -1,0 +1,1277 @@
+{
+  "ticker": "090430.KS",
+  "ticker_name": "아모레퍼시픽",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 12,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "ben-graham",
+        "mohnish-pabrai",
+        "michael-burry",
+        "peter-lynch",
+        "cathie-wood",
+        "phil-fisher",
+        "stanley-druckenmiller",
+        "bill-ackman",
+        "nassim-taleb",
+        "aswath-damodaran"
+      ],
+      "pct": 92.3
+    },
+    "lean_bullish": {
+      "count": 1,
+      "personas": [
+        "rakesh-jhunjhunwala"
+      ],
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.579,
+  "style_split": {
+    "value": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.59
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.59
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.59
+        }
+      ],
+      "dominant": "neutral (3/3)"
+    },
+    "deep-value": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.57
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.56
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "disruption": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-quality": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.57
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.59
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.61
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.57
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "key_themes": {
+    "universal_concern": "중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+    "universal_opportunity": "1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱"
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.59,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "워런 버핏은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '가성비+고기능성 — 경기침체 방어적 성장업종' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "워런 버핏: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '폭발 성장 종료, ~20% 성장 정상화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "워런 버핏: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "워런 버핏: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "워런 버핏: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.74
+        }
+      ],
+      "signal_score": 0.622,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.59,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "찰리 멍거은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '가성비+고기능성 — 경기침체 방어적 성장업종' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '폭발 성장 종료, ~20% 성장 정상화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        }
+      ],
+      "signal_score": 0.622,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "style": "deep-value",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '가성비+고기능성 — 경기침체 방어적 성장업종' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "벤저민 그레이엄: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 반박/경계 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '폭발 성장 종료, ~20% 성장 정상화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.74
+        }
+      ],
+      "signal_score": 0.595,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.59,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "모니시 파브라이은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '가성비+고기능성 — 경기침체 방어적 성장업종' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '폭발 성장 종료, ~20% 성장 정상화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        }
+      ],
+      "signal_score": 0.622,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "short_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "style": "contrarian",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "마이클 버리은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '가성비+고기능성 — 경기침체 방어적 성장업종' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "마이클 버리: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 반박/경계 (아모레퍼시픽 관점)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T07",
+          "stance": "challenge",
+          "rationale": "마이클 버리: '폭발 성장 종료, ~20% 성장 정상화' — 반박/경계 (아모레퍼시픽 관점)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "마이클 버리: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "마이클 버리: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.62
+        }
+      ],
+      "signal_score": 0.612,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.56,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "style": "growth",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "피터 린치은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치: '가성비+고기능성 — 경기침체 방어적 성장업종' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피터 린치: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "피터 린치: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "피터 린치: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "피터 린치: '폭발 성장 종료, ~20% 성장 정상화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "피터 린치: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "피터 린치: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "피터 린치: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        }
+      ],
+      "signal_score": 0.593,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "style": "disruption",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "캐시 우드은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "캐시 우드: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "캐시 우드: '가성비+고기능성 — 경기침체 방어적 성장업종' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "캐시 우드: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "캐시 우드: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "캐시 우드: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "캐시 우드: '폭발 성장 종료, ~20% 성장 정상화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "캐시 우드: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "캐시 우드: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "캐시 우드: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        }
+      ],
+      "signal_score": 0.577,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "style": "growth-quality",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "필립 피셔은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "필립 피셔: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "필립 피셔: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "필립 피셔: '가성비+고기능성 — 경기침체 방어적 성장업종' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "필립 피셔: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "필립 피셔: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "필립 피셔: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "필립 피셔: '폭발 성장 종료, ~20% 성장 정상화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "필립 피셔: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "필립 피셔: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "필립 피셔: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        }
+      ],
+      "signal_score": 0.614,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "style": "macro",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '가성비+고기능성 — 경기침체 방어적 성장업종' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '폭발 성장 종료, ~20% 성장 정상화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        }
+      ],
+      "signal_score": 0.6,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.59,
+      "horizon": "long_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "style": "activist",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "빌 애크먼은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '가성비+고기능성 — 경기침체 방어적 성장업종' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '폭발 성장 종료, ~20% 성장 정상화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.66
+        }
+      ],
+      "signal_score": 0.622,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "style": "risk",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "나심 탈레브은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '가성비+고기능성 — 경기침체 방어적 성장업종' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 반박/경계 (아모레퍼시픽 관점)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T07",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: '폭발 성장 종료, ~20% 성장 정상화' — 반박/경계 (아모레퍼시픽 관점)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "나심 탈레브: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "나심 탈레브: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.62
+        }
+      ],
+      "signal_score": 0.618,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.61,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "style": "growth-em",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "라케시 준준왈라은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱을 핵심 동력으로 보고 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망 moat을 높게 평가 — lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '가성비+고기능성 — 경기침체 방어적 성장업종' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '폭발 성장 종료, ~20% 성장 정상화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.72
+        }
+      ],
+      "signal_score": 0.66,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "medium_term",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "style": "valuation",
+      "key_concerns_top3": [
+        "[actual] 중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함",
+        "[actual] Forward PE 16.92× — 밸류 부담",
+        "[actual] 1Y -19% / 변동성 43% — 주가 부진 — 역발상 구간"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱",
+        "[inference] 라네즈·설화수 메가브랜드 + 코스알엑스 인수(글로벌 더마) + 60년 R&D·브랜드 자산 + 글로벌 유통망",
+        "[inference] thesis 정렬도 medium — K-뷰티 구조적 수출 성장 수혜"
+      ],
+      "uncertainty": "아모레퍼시픽: K-뷰티 성장 지속 vs 관세·중국·바이럴 지속성",
+      "narrative_vs_quant_resolution": "애스워스 다모다란은(는) 1Q26 그룹 매출 1.22조·OP 1,378억(+7.6%) 회복 + 코스알엑스 OPM 24.5% 고수익 + 에스트라 北美 세자릿수 성장 + 西구권 리밸런싱의 성장 잠재력과 '중국 매출 -21% 역성장 지속·1Y -19% 주가 부진·fwd PE 16.9×로 ODM보다 비쌈·설화수 재건 더딤·대기업 둔중함'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: 'K-뷰티 수출 114억달러·세계 2위 — 구조적 위상 변화' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '대미 22억달러 첫 최대 수출국 — 中 의존 탈피' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "애스워스 다모다란: '가성비+고기능성 — 경기침체 방어적 성장업종' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '소셜커머스/UGC 성장 엔진 (메디큐브 AGE-R 입증)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '세계 최고 ODM 제조생태계 = 숨은 moat (빅4 6조)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '유럽(폴란드·독일·프랑스) 새 성장 전선' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "애스워스 다모다란: '폭발 성장 종료, ~20% 성장 정상화' — 중립·추가확인 (아모레퍼시픽 관점)",
+          "confidence": 0.58
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '성장에도 주가 부진 — PER 10 안팎 밸류 매력' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: 'ODM 안정·주주환원 > 브랜드 고베타 (전략 선호)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '5사 실적 동반 개선 — 펀더멘털·주가 괴리(실데이터)' — 검증 가능/지지 (아모레퍼시픽 관점)",
+          "confidence": 0.74
+        }
+      ],
+      "signal_score": 0.595,
+      "ticker": "090430.KS",
+      "ticker_name": "아모레퍼시픽"
+    }
+  }
+}

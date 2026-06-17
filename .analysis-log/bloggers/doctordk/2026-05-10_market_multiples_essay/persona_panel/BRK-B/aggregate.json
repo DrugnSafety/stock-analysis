@@ -1,0 +1,458 @@
+{
+  "ticker": "BRK-B",
+  "name_kr": "버크셔 해서웨이",
+  "name_en": "Berkshire Hathaway Inc.",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bearish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bullish": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "bullish": {
+      "count": 5,
+      "pct": 38.5
+    }
+  },
+  "consensus_summary": {
+    "bullish_pct": 53.8,
+    "bearish_pct": 15.4,
+    "neutral_pct": 30.8,
+    "average_confidence": 0.71
+  },
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "bullish",
+          "confidence": 0.95
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "bullish",
+          "confidence": 0.92
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "bullish",
+          "confidence": 0.88
+        }
+      ]
+    },
+    "growth": {
+      "n_members": 3,
+      "dominant": "neutral",
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bearish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "dominant": "neutral",
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "risk": {
+      "n_members": 1,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "bullish",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "activist": {
+      "n_members": 1,
+      "dominant": "lean_bullish",
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "growth-em": {
+      "n_members": 1,
+      "dominant": "neutral",
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "macro": {
+      "n_members": 1,
+      "dominant": "lean_bearish",
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "valuation": {
+      "n_members": 1,
+      "dominant": "neutral",
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ]
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "ticker": "BRK-B",
+      "persona_id": "warren-buffett",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "style": "value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.95,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "워런 버핏 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Self-evaluation은 conflict of interest이나 framework: P/B 1.5는 long-term mean. Cash $340B+ optionality. Forever hold."
+    },
+    "charlie-munger": {
+      "ticker": "BRK-B",
+      "persona_id": "charlie-munger",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "style": "value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.92,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "찰리 멍거 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Multi-decadal compounder. Apple position + Insurance float + Energy/Rail. 'Sit-on-your-ass investing'."
+    },
+    "peter-lynch": {
+      "ticker": "BRK-B",
+      "persona_id": "peter-lynch",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "style": "growth_at_reasonable_price",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "피터 린치 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Diversified conglomerate는 lynch framework 외부. PEG 측정 어렵고 'easy to explain' 비대상."
+    },
+    "cathie-wood": {
+      "ticker": "BRK-B",
+      "persona_id": "cathie-wood",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "style": "disruption_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bearish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "캐시 우드 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Disruption framework 정반대. Buffett model은 industrial-era framework. AI/digital adoption 부족."
+    },
+    "michael-burry": {
+      "ticker": "BRK-B",
+      "persona_id": "michael-burry",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "style": "contrarian_deep_value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "마이클 버리 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Defensive holding으로는 OK. Alpha generation framework은 아님. Hold but no edge."
+    },
+    "nassim-taleb": {
+      "ticker": "BRK-B",
+      "persona_id": "nassim-taleb",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "style": "anti_fragile",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "나심 탈레브 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Anti-fragile의 textbook: cash optionality + diversification + insurance float convexity. Tail-resilient."
+    },
+    "ben-graham": {
+      "ticker": "BRK-B",
+      "persona_id": "ben-graham",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "style": "deep_value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "벤저민 그레이엄 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Defensive investor framework의 후계자. P/B 1.5, diversification, stable earnings — Graham 적합."
+    },
+    "bill-ackman": {
+      "ticker": "BRK-B",
+      "persona_id": "bill-ackman",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "style": "concentrated_quality",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "빌 애크먼 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Quality high but concentration low (too diversified). Framework fit medium."
+    },
+    "mohnish-pabrai": {
+      "ticker": "BRK-B",
+      "persona_id": "mohnish-pabrai",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "style": "low_risk_high_reward",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.88,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "모니쉬 파브라이 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Buffett-inspired framework. Heads-I-win-much-tails-I-don't-lose framework의 perfect fit."
+    },
+    "phil-fisher": {
+      "ticker": "BRK-B",
+      "persona_id": "phil-fisher",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "style": "scuttlebutt_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "필립 피셔 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Management excellence 정점. 다만 succession risk(2024-2025) overhang."
+    },
+    "rakesh-jhunjhunwala": {
+      "ticker": "BRK-B",
+      "persona_id": "rakesh-jhunjhunwala",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "style": "emerging_market_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "라케시 준준왈라 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Mega-cap defensive는 EM perspective에서 anchor only. Alpha generation 약함."
+    },
+    "stanley-druckenmiller": {
+      "ticker": "BRK-B",
+      "persona_id": "stanley-druckenmiller",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "style": "macro_tactical",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "스탠리 드러켄밀러 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Macro tailwind 없음. Cash drag in bull market. Defensive bias 강함."
+    },
+    "aswath-damodaran": {
+      "ticker": "BRK-B",
+      "persona_id": "aswath-damodaran",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "style": "valuation_academic",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Buffett succession risk (2024-2025)",
+        "Cash drag in bull market",
+        "AI/digital adoption underperform"
+      ],
+      "key_opportunities_top3": [
+        "Cash $340B+ optionality (M&A·share buyback)",
+        "Insurance float $170B+ free leverage",
+        "Apple position 30% (mega-tech indirect)"
+      ],
+      "uncertainty": "애스워스 다모다란 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Conglomerate discount 적용 시 sum-of-parts에서 -5-10% 디스카운트. Fair value 영역."
+    }
+  },
+  "market_data_snapshot": {
+    "as_of_date": "2026-05-08",
+    "currency": "USD",
+    "current_price": 475.94,
+    "fwd_pe": 22.41,
+    "market_cap_usd_bn": 1026.53,
+    "return_1y_pct": -7.27
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "industry": {
+    "name": "AI 반도체 패키징·후공정·전력 인프라 산업",
+    "overview": "AI 반도체 산업의 가치 무게중심이 '더 빠른 칩 설계'에서 '패키지 시스템 통합'으로 이동 중. 글로벌 advanced packaging 시장 2024 $45B → 2030E $109B (CAGR 16%, Yole Group). HBM TAM 2024 $15B → 2027E $52B (TrendForce). 한국은 (1) 기판/MLCC [삼성전기·LG이노텍], (2) 후공정 검사 [리노공업·티에스이], (3) 데이터센터 전력 [LS ELECTRIC·HD현대일렉] 3개 layer 모두 글로벌 leadership 확보. TSMC CoWoS capex 2024-2026 누적 $30B+. 미국 grid 인프라 — Trump 2.0 IRA 유지 + fast-track 정책으로 Hyperscaler ($250B+ capex 2026E) → 전력·변압기·HVDC backlog 2027 H1까지 견고.",
+    "competitors": [
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS",
+        "share_pct": 45.0,
+        "moat": "HBM 글로벌 1위 — Nvidia 독점 공급 4년+"
+      },
+      {
+        "name": "삼성전자",
+        "ticker": "005930.KS",
+        "share_pct": 30.0,
+        "moat": "HBM3E quality 추격, 종합 메모리"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 22.0,
+        "moat": "미국 메모리 + HBM3E 진입"
+      },
+      {
+        "name": "Kioxia",
+        "ticker": "KIOX.T",
+        "share_pct": 3.0,
+        "moat": "NAND 중심, HBM 진입 미확정"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-30",
+        "title": "SK하이닉스 1Q26 OPM 35.8% 사상 최고",
+        "source": "company IR",
+        "summary": "HBM ASP 폭등 + DRAM 전반 가격 인상",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05-10",
+        "title": "Nvidia Blackwell HBM 공급 SK하이닉스 단독 (2027 H1까지)",
+        "source": "Reuters",
+        "summary": "HBM3E·HBM4 단독 supply 연장",
+        "impact": "+"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 3028050.0,
+      "thesis": "Hyperscaler capex 2026~2028 일관 성장 + AI 추론 시장 본격 개화 + 패키지 단가 상승 지속",
+      "key_assumptions": [
+        "GPT-5 모델 상용화 → 추론 demand polynomial 증가",
+        "Nvidia Blackwell 양산 가속",
+        "삼성전기 1.5조 실리콘 cap 계약 확대"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 2646740.0,
+      "thesis": "AI capex steady, 패키지 단가 인상 18M 지속 후 oversupply 진입 — re-rating 일부 mean revert",
+      "key_assumptions": [
+        "하이퍼스케일러 2026 capex 가이드 +20%",
+        "HBM4 mass production 2026 Q4",
+        "한국 패키지 PE re-rate continues"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 1682250.0,
+      "thesis": "AI 모델 ROI 의문 + Microsoft·Meta capex 가이드 둔화 + 중국 OSAT 양산 발표",
+      "key_assumptions": [
+        "AI 매출 Microsoft·Meta 가이드 -10%",
+        "JCET ABF 양산 발표",
+        "Forward PE >50x 종목 일제 sell-off"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q4",
+      "event": "HBM4 mass production 시작",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "HBM4 mass production 시작"
+    },
+    {
+      "date": "2027 H1",
+      "event": "Nvidia Blackwell 양산 가속 → HBM ASP 추가 인상",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Nvidia Blackwell 양산 가속 → HBM ASP 추가 인상"
+    },
+    {
+      "date": "2027 H2",
+      "event": "HBM-PIM 양산 (next gen Memory)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "HBM-PIM 양산 (next gen Memory)"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Samsung HBM3E quality 추격",
+      "probability": "med",
+      "impact": "high",
+      "description": "Samsung HBM3E quality 추격 — 2026 H2 자격 검증 가능성",
+      "mitigation": "모니터링 + 분할매수"
+    },
+    {
+      "name": "Memory cyclicality 잔존",
+      "probability": "med",
+      "impact": "high",
+      "description": "Memory cyclicality 잔존 — 2028 oversupply risk",
+      "mitigation": "모니터링 + 분할매수"
+    },
+    {
+      "name": "Micron HBM3E 진입",
+      "probability": "med",
+      "impact": "high",
+      "description": "Micron HBM3E 진입 — 3강 구도 형성",
+      "mitigation": "모니터링 + 분할매수"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "HBM 글로벌 1위 — Nvidia 단독 supply 2027 H1까지",
+      "type": "company",
+      "evidence": "Reuters 5/10 보도",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "OPM 35.8% 사상 최고 — pricing power 명확",
+      "type": "company",
+      "evidence": "1Q26 IR",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Samsung HBM3E 추격 — 2026 H2 자격 검증 가능성",
+      "type": "industry",
+      "evidence": "경쟁사 동향",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "1Q26 사업보고서",
+      "summary": "OPM 35.8% 사상 최고",
+      "impact": "+",
+      "title": "OPM 35.8% 사상 최고"
+    }
+  ],
+  "five_year_financials": {
+    "revenue_cagr": 35.0,
+    "opm_trajectory": "2021 28.5% → 2026E 35.0%",
+    "roe_trajectory": "2021 18.0% → 2026E 28.5%",
+    "fcf_yield": 6.5,
+    "turnaround_signal": "HBM 전환 완성 — 메모리 cycle 정점, 12M+ 견고"
+  },
+  "reverse_dcf": {
+    "current_price": 2243000,
+    "implied_growth_rate": 14.0,
+    "fair_value_dcf_low": 1700000,
+    "fair_value_dcf_base": 2400000,
+    "fair_value_dcf_high": 3200000,
+    "verdict": "현재가 2.24M은 base 2.4M 대비 7% discount — undervalued, bull case +43% upside"
+  }
+}

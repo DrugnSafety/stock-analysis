@@ -1,0 +1,253 @@
+{
+  "industry": {
+    "name": "Semiconductors · Consumer Electronics · Displays",
+    "overview": "삼성전자는 메모리 반도체(DRAM·NAND), 시스템 반도체(Foundry·LSI), 모바일(Galaxy·폴더블), TV·디스플레이(QD-OLED 포함), 가전, 전장(Harman 인수)을 영위하는 글로벌 메가캡. 메모리 부문(점유율 DRAM 1위·NAND 1위)이 영업이익의 60~70% 차지하는 cyclical 특성. HBM·AI 수요 증가로 메모리 supercycle 기대, Foundry 2nm GAA로 TSMC 추격, 지배구조(Samsung 그룹 지주사 전환) 카탈리스트 가능성 잠재.",
+    "competitors": [
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": null,
+        "moat": "Foundry 글로벌 1위 (3nm·2nm advanced node)"
+      },
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS",
+        "share_pct": null,
+        "moat": "HBM3e 선두 (NVIDIA H100 공급)"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": null,
+        "moat": "메모리 #3, 美 정부 보조금 수혜"
+      },
+      {
+        "name": "Apple",
+        "ticker": "AAPL",
+        "share_pct": null,
+        "moat": "Galaxy 경쟁사 + Foundry 고객"
+      },
+      {
+        "name": "LG디스플레이",
+        "ticker": "034220.KS",
+        "share_pct": null,
+        "moat": "OLED panel 경쟁"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 575,
+      "cagr_pct": 6.5,
+      "horizon": "2024-2030 (글로벌 반도체 시장 — WSTS)"
+    }
+  },
+  "financials": {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "income_statement": {
+      "revenue": {
+        "2020": 236806000,
+        "2021": 279604000,
+        "2022": 302231000,
+        "2023": 258935000,
+        "2024": 300871000
+      },
+      "op_income": {
+        "2020": 35994000,
+        "2021": 51634000,
+        "2022": 43377000,
+        "2023": 6566000,
+        "2024": 32726000
+      },
+      "net_income": {
+        "2020": 26408000,
+        "2021": 39907000,
+        "2022": 55654000,
+        "2023": 15487000,
+        "2024": 34495000
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "2024": 514531000
+      },
+      "total_liab": {
+        "2024": 105625000
+      },
+      "equity": {
+        "2024": 408906000
+      },
+      "cash": {
+        "2024": 73493000
+      },
+      "total_debt": {
+        "2024": 18567000
+      }
+    },
+    "cash_flow": {
+      "ocf": {
+        "2020": 65287000,
+        "2021": 65406000,
+        "2022": 62182000,
+        "2023": 44119000,
+        "2024": 65174000
+      },
+      "capex": {
+        "2020": -53782000,
+        "2021": -47122000,
+        "2022": -49430000,
+        "2023": -53112000,
+        "2024": -56624000
+      },
+      "fcf": {
+        "2020": 11505000,
+        "2021": 18284000,
+        "2022": 12752000,
+        "2023": -8993000,
+        "2024": 8550000
+      }
+    },
+    "data_source": "DART 사업보고서 (단위: 백만 KRW)",
+    "peer_compare": [
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 8.5,
+        "pb": 1.4,
+        "roe": 16.0,
+        "div_yield": 0.9
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "pe": 22.0,
+        "pb": 5.8,
+        "roe": 27.0,
+        "div_yield": 1.5
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "pe": 12.0,
+        "pb": 2.1,
+        "roe": 13.5,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "pe": 36.0,
+        "pb": 35.0,
+        "roe": 92.0,
+        "div_yield": 0.03
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "target_price": 450000,
+      "narrative": "메모리 supercycle 진입 + HBM3e 점유율 확대 + Foundry 2nm 양산 성공 + 자사주 매입 → ROE 15%+ 회복, PE 12배",
+      "probability": 0.3
+    },
+    "base": {
+      "target_price": 380000,
+      "narrative": "메모리 회복 + Foundry 점진 개선 + 환율 수혜 → ROE 10~12%, PE 9배",
+      "probability": 0.5
+    },
+    "bear": {
+      "target_price": 250000,
+      "narrative": "AI bubble 우려로 HBM 단가 하락 + Foundry 경쟁 격화 + 환율 강세 전환 → ROE 6~8%, PE 7배",
+      "probability": 0.2
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM3e 12-stack NVIDIA 수주 확정 가능성",
+      "impact": "+"
+    },
+    {
+      "date": "2026-H2",
+      "event": "Foundry 2nm GAA 양산 시작 (TSMC 추격)",
+      "impact": "+"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "자사주 매입 10조원 완료 예정",
+      "impact": "+"
+    },
+    {
+      "date": "2027",
+      "event": "Galaxy Z Fold 7 + Galaxy AI 2.0",
+      "impact": "+"
+    },
+    {
+      "date": "2026-2027",
+      "event": "Samsung 지주사 전환 논의 (governance discount 해소)",
+      "impact": "+"
+    }
+  ],
+  "risks": [
+    {
+      "risk": "메모리 cyclic peak 도달 후 단가 하락",
+      "p": "中",
+      "i": "高",
+      "mitigation": "HBM 비중 확대로 일반 DDR과 차별화"
+    },
+    {
+      "risk": "Foundry 2nm 양산 지연 (수율 문제)",
+      "p": "中",
+      "i": "中",
+      "mitigation": "TSMC와 cost·delivery 차별화 전략"
+    },
+    {
+      "risk": "美 中 반도체 제재 강화 (中국 fab 영향)",
+      "p": "高",
+      "i": "中",
+      "mitigation": "US/인도 capacity 다변화 진행 중"
+    },
+    {
+      "risk": "환율 강세 전환 (USD/KRW < 1200)",
+      "p": "低",
+      "i": "中",
+      "mitigation": "현지화 + 통화 헤지"
+    },
+    {
+      "risk": "지배구조 개편 정치 risk (이재용 회장 사법 risk)",
+      "p": "中",
+      "i": "中",
+      "mitigation": "전문 경영진 강화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "weight": 0.3,
+      "claim": "메모리 supercycle"
+    },
+    {
+      "weight": 0.15,
+      "claim": "Foundry 2nm"
+    },
+    {
+      "weight": 0.2,
+      "claim": "Forward PE 5.94 (deep value)"
+    },
+    {
+      "weight": 0.15,
+      "claim": "자사주 매입 + 주주환원"
+    },
+    {
+      "weight": 0.1,
+      "claim": "환율 수혜 + 지정학 분산"
+    },
+    {
+      "weight": 0.1,
+      "claim": "지배구조 카탈리스트"
+    }
+  ],
+  "korean_disclosures": []
+}

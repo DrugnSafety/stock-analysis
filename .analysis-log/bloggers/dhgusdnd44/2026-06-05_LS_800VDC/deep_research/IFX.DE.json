@@ -1,0 +1,199 @@
+{
+  "industry": {
+    "name": "전력반도체",
+    "overview": "전력반도체 산업은 전력 변환 및 관리에 필수적인 반도체를 생산하는 분야로, 실리콘 카바이드(SiC)와 질화 갈륨(GaN) 같은 첨단 소재의 사용이 증가하고 있음. 전기차, 재생에너지, 데이터센터 등 다양한 분야에서 수요가 급증하고 있으며, 특히 800VDC 생태계의 발전은 이 산업에 큰 기회를 제공함. 인피니언은 이 분야에서 주요한 위치를 차지하고 있음.",
+    "competitors": [
+      {
+        "name": "온세미컨덕터",
+        "ticker": "ON",
+        "share_pct": null,
+        "moat": "다양한 전력반도체 포트폴리오"
+      },
+      {
+        "name": "ST마이크로일렉트로닉스",
+        "ticker": "STM",
+        "share_pct": null,
+        "moat": "유럽 시장 강세 및 SiC 기술력"
+      },
+      {
+        "name": "로옴",
+        "ticker": "6963.T",
+        "share_pct": null,
+        "moat": "자동차용 SiC 제품 강세"
+      },
+      {
+        "name": "텍사스 인스트루먼트",
+        "ticker": "TXN",
+        "share_pct": null,
+        "moat": "광범위한 고객 기반과 안정적 공급망"
+      }
+    ],
+    "demand_drivers": [
+      "전기차 시장의 성장",
+      "데이터센터 전력 효율성 요구 증가",
+      "재생에너지 발전 확대",
+      "산업 자동화 및 IoT 기기 증가"
+    ],
+    "supply_dynamics": "전력반도체 공급망은 소재의 복잡성과 제조 공정의 고도화로 인해 진입 장벽이 높음. SiC 및 GaN 소재의 생산 비용이 감소하면서 공급이 증가하고 있으나, 여전히 수요를 완전히 충족시키기에는 부족한 상황임."
+  },
+  "financials": {
+    "currency": "EUR (millions)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 14218.0,
+        "op_income": 2845.0,
+        "op_margin": 20.0,
+        "net_income": 2179.0,
+        "net_margin": 15.3
+      },
+      {
+        "year": 2023,
+        "revenue": 16309.0,
+        "op_income": 3948.0,
+        "op_margin": 24.2,
+        "net_income": 3137.0,
+        "net_margin": 19.2
+      },
+      {
+        "year": 2024,
+        "revenue": 14955.0,
+        "op_income": 2566.0,
+        "op_margin": 17.2,
+        "net_income": 1301.0,
+        "net_margin": 8.7
+      },
+      {
+        "year": 2025,
+        "revenue": 14662.0,
+        "op_income": 1944.0,
+        "op_margin": 13.3,
+        "net_income": 1015.0,
+        "net_margin": 6.9
+      }
+    ],
+    "pl_note": "자동차·산업 비중 큰 IDM — AI 데이터센터 전력반도체는 성장 신규축. SiC 매출·데이터센터 전력 부문 가이던스가 thesis 검증축.",
+    "bs_snapshot": {
+      "total_assets": 30470.0,
+      "total_liab": 13419.0,
+      "equity": 17051.0,
+      "cash": 1356.0,
+      "debt": 7216.0,
+      "market_cap": 101867.8,
+      "_note": "yfinance balance_sheet 최신 회계연도 기준 (EUR (millions))."
+    },
+    "cf_summary": {
+      "note": "yfinance 기준 — 상세 CF는 재무제표 섹션 참조"
+    },
+    "peer_compare": [
+      {
+        "ticker": "IFX.DE",
+        "fwd_pe": 30.3,
+        "pb": 6.1,
+        "note": "current_price=78.39"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 95.0,
+      "thesis": "800VDC 생태계의 확산과 AI 데이터센터의 전력 수요 급증으로 인피니언의 SiC 제품 수요가 급증할 것임.",
+      "key_assumptions": [
+        "800VDC 전환이 빠르게 진행됨",
+        "데이터센터 전력 수요가 예상보다 빠르게 증가",
+        "SiC 생산 능력이 원활히 확대됨"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 85.0,
+      "thesis": "전력반도체 수요가 지속적으로 증가하는 가운데, 인피니언은 안정적인 시장 점유율을 유지할 것임.",
+      "key_assumptions": [
+        "전기차 및 데이터센터 시장의 안정적 성장",
+        "SiC 및 GaN 기술의 꾸준한 발전",
+        "경쟁사 대비 기술적 우위 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 70.0,
+      "thesis": "자동차 및 산업 사이클 둔화로 인해 전반적인 수요가 감소하여 인피니언의 매출 성장이 둔화될 수 있음.",
+      "key_assumptions": [
+        "글로벌 경제 둔화로 인한 전력반도체 수요 감소",
+        "SiC 생산 비용 절감 실패",
+        "800VDC 채택이 예상보다 느림"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2024-06-30",
+      "event": "800VDC 관련 신제품 출시",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "인피니언이 800VDC 생태계에 최적화된 새로운 SiC 전력반도체 제품을 출시할 예정임."
+    },
+    {
+      "date": "2024-09-15",
+      "event": "데이터센터 고객사와의 대규모 장기 공급 계약 체결",
+      "type": "business",
+      "expected_impact": "+",
+      "description": "주요 데이터센터 고객사와의 장기 공급 계약 체결로 안정적인 매출 확보가 기대됨."
+    },
+    {
+      "date": "2025-01-20",
+      "event": "연간 실적 발표",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "800VDC 관련 매출 증가가 반영된 연간 실적 발표가 예정되어 있음."
+    }
+  ],
+  "risks": [
+    {
+      "name": "글로벌 경기 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "글로벌 경제가 둔화되면 전력반도체 수요가 감소할 수 있음.",
+      "mitigation": "다양한 산업 및 지역으로의 매출 다변화 추진"
+    },
+    {
+      "name": "기술 개발 지연",
+      "probability": "low",
+      "impact": "med",
+      "description": "SiC 및 GaN 기술 개발이 지연될 경우 경쟁력 약화 우려가 있음.",
+      "mitigation": "R&D 투자 확대 및 기술 협력 강화"
+    },
+    {
+      "name": "공급망 문제",
+      "probability": "med",
+      "impact": "med",
+      "description": "원자재 공급 부족이나 물류 문제로 인한 생산 차질 가능성 있음.",
+      "mitigation": "공급망 다변화 및 재고 관리 강화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "800VDC 전환이 전력반도체 수요를 증가시킬 것임.",
+      "type": "macro",
+      "evidence": "800VDC 전환 시 전력 효율성이 5% 개선되어 데이터센터 전력 절감 가능.",
+      "testability": "high",
+      "current_status": "in-progress"
+    },
+    {
+      "claim": "인피니언은 800VDC 생태계의 핵심 공급자로 자리잡을 것임.",
+      "type": "industry",
+      "evidence": "NVIDIA와의 파트너십 및 SiC 기술력 보유.",
+      "testability": "med",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "데이터센터 전력 수요가 급증할 것임.",
+      "type": "empirical",
+      "evidence": "PJM 전력 경매에서 데이터센터로 인한 전력 부족 사례 발생.",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": []
+}

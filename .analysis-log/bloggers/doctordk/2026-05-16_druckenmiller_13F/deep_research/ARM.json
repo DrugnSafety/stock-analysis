@@ -1,0 +1,272 @@
+{
+  "industry": {
+    "name": "Semiconductor IP (CPU 아키텍처)",
+    "overview": "ARM은 CPU 아키텍처 IP licensing 사업 — 모바일 시장 95%+ 점유 (Apple·Samsung·Qualcomm 모두 ARM 기반). 데이터센터 시장에서 AWS Graviton·Azure Cobalt·Google Axion 모두 ARM 기반 채택 — 점유율 2022 5% → 2024 11% → 2026 컨센서스 18%. AI 추론 시대의 '저전력 효율' thesis 직접 수혜. ARM Cortex-X·Neoverse 시리즈는 x86 대비 power efficiency 30-50% 우수.",
+    "competitors": [
+      {
+        "name": "ARM Holdings",
+        "ticker": "ARM",
+        "share_pct": 99.0,
+        "moat": "CPU IP licensing 사실상 단독, ecosystem lock-in"
+      },
+      {
+        "name": "Intel (x86)",
+        "ticker": "INTC",
+        "share_pct": 1.0,
+        "moat": "데이터센터 x86 IP — 자체 chip 제조 통합 모델"
+      },
+      {
+        "name": "RISC-V (open source)",
+        "ticker": "N/A",
+        "share_pct": 0.0,
+        "moat": "오픈소스 ISA — Tenstorrent·SiFive 등 신흥, 점유율 미미"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "AWS Graviton 4 instance 50% adoption",
+        "source": "AWS re:Invent followup",
+        "summary": "EC2 워크로드의 50%+가 ARM 기반"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "Azure Cobalt 100 GA launch",
+        "source": "Microsoft Build 2026",
+        "summary": "MS 자체 ARM 칩 본격 출시"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "Druckenmiller 13F: ARM 신규 편입",
+        "source": "SEC 13F",
+        "summary": "Duquesne 약 $100M 추정"
+      }
+    ],
+    "impact_tagging": "+ (data center share expansion)"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 2703,
+        "op_income": 633,
+        "op_margin": 23.4,
+        "net_income": 549,
+        "net_margin": 20.3
+      },
+      {
+        "year": 2023,
+        "revenue": 2680,
+        "op_income": 671,
+        "op_margin": 25.0,
+        "net_income": 524,
+        "net_margin": 19.6
+      },
+      {
+        "year": 2024,
+        "revenue": 3233,
+        "op_income": 1010,
+        "op_margin": 31.2,
+        "net_income": 893,
+        "net_margin": 27.6
+      },
+      {
+        "year": 2025,
+        "revenue": 4006,
+        "op_income": 1400,
+        "op_margin": 35.0,
+        "net_income": 1200,
+        "net_margin": 30.0
+      }
+    ],
+    "bs_snapshot": {
+      "year": 2025,
+      "total_assets": 12000,
+      "total_debt": 0,
+      "cash": 3500,
+      "shareholders_equity": 9500,
+      "debt_to_equity": 0.0
+    },
+    "cf_summary": {
+      "year": 2025,
+      "ocf": 1500,
+      "fcf": 1200,
+      "capex": 300,
+      "fcf_margin": 30.0,
+      "shareholder_returns": 0
+    },
+    "peer_compare": [
+      {
+        "ticker": "ARM",
+        "fwd_pe": 68.5,
+        "pb": 23,
+        "ev_ebitda": 55,
+        "fcf_yield": 0.5,
+        "roe": 13
+      },
+      {
+        "ticker": "INTC",
+        "fwd_pe": 18,
+        "pb": 1.5,
+        "ev_ebitda": 9,
+        "fcf_yield": -2.0,
+        "roe": 5
+      },
+      {
+        "ticker": "AMD",
+        "fwd_pe": 28,
+        "pb": 4,
+        "ev_ebitda": 22,
+        "fcf_yield": 1.5,
+        "roe": 7
+      },
+      {
+        "ticker": "QCOM",
+        "fwd_pe": 16,
+        "pb": 8,
+        "ev_ebitda": 14,
+        "fcf_yield": 2.0,
+        "roe": 38
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 280,
+      "thesis": "data center 점유율 25%+ 도달, ARMv9 채택 가속화, AI inference royalty",
+      "key_assumptions": [
+        "data center ARM 점유율 25%+",
+        "ARMv9 royalty rate 2x",
+        "AI inference TAM $200B+"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 220,
+      "thesis": "data center 점유율 확대 지속, valuation 부담 잔존",
+      "key_assumptions": [
+        "data center ARM 점유율 20%",
+        "royalty 매출 비중 50%",
+        "P/E 60x 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 130,
+      "thesis": "RISC-V disruption, SoftBank 매도, AMD EPYC Bergamo 점유율 잠식",
+      "key_assumptions": [
+        "RISC-V 점유율 10%+",
+        "SoftBank 지분 -20%",
+        "P/E 35x compression"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-XX",
+      "event": "FY26 가이던스 + ARMv9 royalty 인상 일정",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "royalty 매출 비중 50%+ 시 +15%"
+    },
+    {
+      "date": "2026-09-XX",
+      "event": "SoftBank lock-up 해제 (일부)",
+      "type": "company",
+      "expected_impact": "-",
+      "description": "supply overhang risk — -5~10%"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "AI inference 칩 wave — ARM 기반 비중",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "AWS Graviton·Azure Cobalt 매출 확대"
+    },
+    {
+      "date": "2026-07-XX",
+      "event": "Apple A19 (3nm ARMv9)",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "iPhone 17 launch — royalty 인상 확인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "P/E 68x 부담",
+      "probability": "high",
+      "impact": "high",
+      "description": "growth deceleration 시 멀티플 compression -30%+",
+      "mitigation": "data center share growth + ARMv9 rate 인상 모멘텀"
+    },
+    {
+      "name": "RISC-V open source 확대",
+      "probability": "med",
+      "impact": "high",
+      "description": "Tenstorrent·SiFive·SoftBank Granado 등 진입",
+      "mitigation": "ecosystem lock-in + ARM compatible 라이브러리"
+    },
+    {
+      "name": "SoftBank 90% 지분 supply overhang",
+      "probability": "high",
+      "impact": "med",
+      "description": "lock-up 단계적 해제 시 supply pressure",
+      "mitigation": "secondary offering 분산 + SoftBank의 ARM 핵심자산 평가"
+    },
+    {
+      "name": "AMD EPYC Bergamo (Zen 5C) 격차 축소",
+      "probability": "med",
+      "impact": "med",
+      "description": "power efficiency -30% → -15% 축소",
+      "mitigation": "ARMv9 + Neoverse 차세대 IP 출시"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "data center ARM 점유율 5% → 18%+ (2022-2026) — exponential adoption",
+      "type": "industry",
+      "evidence": "IDC 2025-11 보고서",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "AWS Graviton, Azure Cobalt, Google Axion 모두 ARM 기반",
+      "type": "company",
+      "evidence": "각 hyperscaler 공식 발표",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "ARMv9 채택 시 royalty rate per chip ~2x — pricing power 확대",
+      "type": "company",
+      "evidence": "ARM IR FY24 royalty rate 가이던스",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "AI inference 시대 = power-efficient compute 가치 재평가",
+      "type": "macro",
+      "evidence": "데이터센터 전력 부족 — EPRI 2025-09",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [],
+  "etf_holdings": [
+    {
+      "etf": "SOXX",
+      "weight_pct": 1.5
+    },
+    {
+      "etf": "SMH",
+      "weight_pct": 2.2
+    }
+  ],
+  "reverse_dcf": {
+    "current_price": 209.16,
+    "implied_growth_rate_yrs_10": 30,
+    "implied_terminal_margin_pct": 45,
+    "comment": "current price assumes 30%/yr revenue growth × 45% terminal margin over 10 years — extremely demanding. DCF로 50%+ 프리미엄 — 'narrative-dependent valuation'"
+  }
+}

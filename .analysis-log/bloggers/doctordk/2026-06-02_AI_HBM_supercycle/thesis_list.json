@@ -1,0 +1,84 @@
+{
+  "post_meta": {
+    "url": "https://blog.naver.com/doctordk/224304127138",
+    "title": "30% 수요 증가 15% 공급 증가 무슨 의미일까?",
+    "author": "의교창 (doctordk)",
+    "published_at": "2026-06-02"
+  },
+  "summary_one_liner": "AI 인프라 시대는 PC·스마트폰 메모리 cycle 패러다임과 본질적으로 다르다. SK하이닉스의 5년 캐파 2배 확대 발표는 공급과잉 신호가 아니라 CoWoS·HBM·전력 3대 병목을 풀기 위한 최소 대응. 진짜 봐야 할 지표는 공급 증가율 15%가 아니라 수요 증가율 20-30%다.",
+  "n_theses": 8,
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "AI 인프라 사이클은 PC·스마트폰 메모리 사이클의 패러다임을 그대로 적용할 수 없다 — 수요·공급 함수가 구조적으로 다름",
+      "type": "normative",
+      "importance": "core",
+      "timeframe": "structural",
+      "supporting_evidence": "주식시장에서 가장 위험한 판단 중 하나는 과거의 경험을 현재의 패러다임에 그대로 적용하는 것이다. 과거 PC와 스마트폰 시대의 메모리 산업이었다면 충분히 가능한 해석이다. 그러나 지금은 AI 인프라 시대다.",
+      "tags": ["paradigm-shift", "AI-infra", "memory-cycle"]
+    },
+    {
+      "claim_id": "T02",
+      "claim": "AI 산업의 본질적 문제는 수요 부족이 아니라 공급 부족이다",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "현재 AI 산업의 가장 큰 문제는 수요 부족이 아니다. 오히려 공급 부족이다. 문제는 돈이 없어서 투자를 못 하는 것이 아니라 필요한 부품과 인프라가 부족해서 투자가 지연되는 경우가 더 많다는 점이다.",
+      "tags": ["supply-shortage", "AI-capex", "bottleneck"]
+    },
+    {
+      "claim_id": "T03",
+      "claim": "AI 공급망 3대 병목은 CoWoS 패키징 · HBM 메모리 · 전력 인프라이다",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "첫째는 CoWoS 패키징이다. 아무리 GPU를 생산해도 패키징이 따라오지 못하면 출하가 불가능하다. 둘째는 HBM 메모리다. AI 서버 성능을 결정하는 핵심 부품이며 현재 가장 부족한 영역 중 하나다. 셋째는 전력 인프라다. 데이터센터를 짓고 싶어도 전력이 부족해 가동이 늦어지는 사례가 세계 곳곳에서 나타나고 있다.",
+      "tags": ["CoWoS", "HBM", "power-infra", "TSMC", "SK-hynix"]
+    },
+    {
+      "claim_id": "T04",
+      "claim": "SK하이닉스 5년 캐파 2배 확대(연평균 15%) 발표는 공급과잉 신호가 아닌 공급 부족 해소를 위한 최소 대응이다",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "최태원 회장이 향후 5년간 연평균 15% 수준의 생산능력 확대 계획을 발표한 것은 공급과잉의 신호라기보다 공급 부족을 해소하기 위한 최소한의 대응으로 보는 것이 더 합리적이다.",
+      "tags": ["SK-hynix", "capacity-expansion", "최태원", "Computex"]
+    },
+    {
+      "claim_id": "T05",
+      "claim": "HBM은 DRAM 대비 wafer 소비·공정 난이도·수율 확보가 모두 어려워, 15% 캐파 확대조차 1.5-2년마다 신규 fab 추가 수준의 대규모 투자가 필요하다",
+      "type": "factual",
+      "importance": "high",
+      "timeframe": "medium_term",
+      "supporting_evidence": "HBM은 기존 DRAM보다 훨씬 많은 웨이퍼를 필요로 하고 공정 난이도 또한 높다. 선단 공정으로 갈수록 수율 확보도 어려워진다. 단순 계산만 해도 향후 5년 동안 연평균 15% 성장을 유지하려면 1.5~2년에 한 번씩 새로운 생산시설이 추가되는 수준의 투자가 필요하다.",
+      "tags": ["HBM", "wafer-intensity", "yield", "capex"]
+    },
+    {
+      "claim_id": "T06",
+      "claim": "AI 시대에는 공급 증가 자체가 수요 증가의 증거다 — 컴퓨텍스 공개 발표는 고객사 수요 확신의 신호이다",
+      "type": "normative",
+      "importance": "high",
+      "timeframe": "present",
+      "supporting_evidence": "AI 시대에는 공급 증가 자체가 수요 증가의 증거가 되는 경우가 많다. 누군가 수천억 달러 규모의 투자를 집행하려면 그만한 수요 확신이 있어야 한다. 특히 컴퓨텍스 한가운데에서 최태원 회장이 공개적으로 장기 증설 계획을 발표했다는 것은 현재 고객사들이 요구하는 물량이 그만큼 강력하다는 의미로 해석할 수 있다.",
+      "tags": ["signal-theory", "capex-as-demand", "hyperscaler"]
+    },
+    {
+      "claim_id": "T07",
+      "claim": "모델 경량화·추론 효율화 기술은 수요 둔화가 아닌 공급 부족 대응 — 같은 자원으로 더 많은 연산 = 수요 견인",
+      "type": "normative",
+      "importance": "medium",
+      "timeframe": "present",
+      "supporting_evidence": "최근 등장하는 모델 경량화 기술이나 추론 효율화 기술들이 악재가 아닌 이유도 여기에 있다. 수요가 줄어서 효율화를 하는 것이 아니라 공급 부족이 심하기 때문에 같은 자원으로 더 많은 연산을 하기 위한 노력인 것이다.",
+      "tags": ["model-efficiency", "DeepSeek", "Jevons-paradox"]
+    },
+    {
+      "claim_id": "T08",
+      "claim": "AI 수요가 연 20-30%+ 성장 구조라면 연 15% 공급 확대는 여전히 부족 — 시장이 봐야 할 것은 공급 증가율이 아닌 수요 증가율이다",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "결국 지금 시장이 봐야 할 것은 생산능력 증가율이 아니라 수요 증가율이다. 만약 AI 수요가 연평균 20~30% 이상 성장하는 구조라면 연평균 15%의 공급 확대는 공급과잉의 신호가 아니라 여전히 부족한 공급을 따라가기 위한 필사적인 증설에 가깝다. 지금까지 나타나는 데이터들은 아직 수요 둔화보다 공급 부족을 훨씬 강하게 가리키고 있다.",
+      "tags": ["demand-growth", "20-30pct", "supercycle-continuation"]
+    }
+  ]
+}

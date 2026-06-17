@@ -1,0 +1,356 @@
+{
+  "ticker": "005180.KS",
+  "aggregated_at": "2026-06-17T12:02:52.300987+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 11,
+      "pct": 84.6
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.738,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 4,
+      "personas": [
+        "cathie-wood",
+        "mohnish-pabrai",
+        "peter-lynch",
+        "warren-buffett"
+      ],
+      "examples": [
+        "경쟁 심화",
+        "해외 경쟁사의 가격 경쟁",
+        "경쟁 심화 가능성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "장기적으로 엘니뇨의 효과가 지속될 수 있는가",
+        "경영진이 지속적으로 혁신할 의지가 있는가"
+      ],
+      "key_opportunities_top3": [
+        "기후 변화로 인한 수요 증가",
+        "한국 내 입지 확대"
+      ],
+      "uncertainty": "엘니뇨의 영향이 예상보다 약하거나 시장의 빠른 변화가 일어나면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "엘니뇨 이후 기후 패턴의 불확실성",
+        "경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "폭염으로 인한 계절적 수요 증가",
+        "합리적인 밸류에이션"
+      ],
+      "uncertainty": "엘니뇨가 예상보다 약하거나 산발적이면, 수요 증가가 미미할 수 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "장기 엘니뇨 효과 소진",
+        "해외 경쟁사의 가격 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "클라이밋 트렌드 지속",
+        "신제품 출시로 시장 점유율 상승"
+      ],
+      "uncertainty": "엘니뇨 예측이 틀려 기상변화가 없을 경우, 매출 예측이 빗나갈 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "공급망 문제",
+        "가격 결정력 부족"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 판매 상승",
+        "시장 점유율 증가"
+      ],
+      "uncertainty": "엘니뇨의 강도가 예상보다 약하거나 소비자의 선호가 급변하면 결론이 뒤집힐 수 있음",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁 심화 가능성",
+        "소비 트렌드 변화"
+      ],
+      "key_opportunities_top3": [
+        "기후 변화로 인한 아이스크림 수요 증가",
+        "견고한 브랜드 파워"
+      ],
+      "uncertainty": "엘니뇨가 예상대로 발생하지 않을 경우, 수요 증가 예상이 변경될 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "기후 변화 예측 정확도의 불확실성",
+        "지역적 생산 제약"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨에 따른 소비재 수요 급증",
+        "K-콘텐츠의 글로벌 확장"
+      ],
+      "uncertainty": "엘니뇨 강도가 예상보다 약하거나 지역 시장 경쟁이 매우 심화되면 verdict는 변할 수 있다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "장기적인 거시 흐름 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "단기적인 빙과류 수요 증가",
+        "엘니뇨로 인한 기후 변화"
+      ],
+      "uncertainty": "수퍼 엘니뇨가 예상보다 약하게 발생하거나, 매출 증가로 이어지지 않을 경우에 결정이 뒤집힐 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "기후 변화의 예측 오류",
+        "El Niño 강도가 예상보다 약할 경우의 가능성"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 빙과류 수요 증가",
+        "저평가된 EV/EBITDA에 따른 가치 상승 잠재력"
+      ],
+      "uncertainty": "엘니뇨의 강도가 예상보다 약하거나, 기후 변화가 실제 판매에 미치는 영향이 특정되지 않을 경우, 저평가 메리트가 줄어들 수 있습니다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "엘니뇨의 지속 기간 및 강도의 변동성",
+        "한국 시장에서의 activist intervention의 제한"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 빙과류 및 음료 수요 증가",
+        "비용 대비 효율적인 마켓 포지션 강화"
+      ],
+      "uncertainty": "엘니뇨의 기후 변화가 예측보다 약할 경우, 예측된 매출 성장은 이루어지지 않을 수 있습니다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Tail risk로 인한 공급망 변동성",
+        "기후 변화를 과도하게 반영한 매출 상승 기대"
+      ],
+      "key_opportunities_top3": [
+        "기후변화로 인한 빙과 수요 증가",
+        "식품 산업 내 다양한 제품 포트폴리오"
+      ],
+      "uncertainty": "엘니뇨가 예상에 크게 못 미치거나 영향이 적다면, 기대된 수요 상승이 뒤집힐 수 있음.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "주요 재무 비율과 이익 성장 데이터의 부족성",
+        "기후 이벤트가 지속적인 수익성에 미치는 영향의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 빙과류 수요 증가 가능성"
+      ],
+      "uncertainty": "클라이미틱 변화와 그에 따른 매출 증감이 기대에 부합하지 않을 경우, 주가에 긍정적 영향 미미할 수 있음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "기후 변화 영향이 예상보다 미비할 가능성",
+        "상품 원가 상승으로 인해 마진 감소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "기온 상승으로 인한 아이스크림 수요 증가",
+        "기후 변화에 따른 새로운 시장 기회"
+      ],
+      "uncertainty": "엘니뇨의 기후 영향이 예상 수준을 크게 벗어나지 않을 경우 내러티브에 변화가 발생할 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "기후 변화가 수익에 미치는 일시적 영향",
+        "시장에서의 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "기후 변화에 따른 계절성 수요 증가",
+        "높은 배당 수익률"
+      ],
+      "uncertainty": "기후 변화가 장기적인 시장 변화를 촉진시키지 않는 경우, 전망이 변할 수 있습니다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    }
+  }
+}

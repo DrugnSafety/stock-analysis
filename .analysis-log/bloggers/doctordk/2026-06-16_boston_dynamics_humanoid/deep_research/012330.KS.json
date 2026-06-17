@@ -1,0 +1,270 @@
+{
+  "industry": {
+    "name": "자동차 부품 + 휴머노이드 액추에이터 양산 노드",
+    "overview": "현대모비스는 현대차그룹 captive 부품사이자 BD 5세대 아틀라스 액추에이터의 미국 현지 양산 노드로 지목돼 왔다. 본 글에서 한국투자증권은 현대모비스 목표주가를 95만원으로 상향(현재가 64만원 대비 +48%)했는데, BD 비영업가치 긍정 전환 + 양산 노드 프리미엄의 결합이다. '기술 보유'와 '양산 능력'을 구분하는 산업 논리에서 자동차 부품 대량생산 노하우의 로봇 전이 가치가 핵심.",
+    "competitors": [
+      {
+        "name": "Bosch",
+        "ticker": "private",
+        "share_pct": 15.0,
+        "moat": "글로벌 1위 부품사·ADAS"
+      },
+      {
+        "name": "현대차",
+        "ticker": "005380.KS",
+        "share_pct": null,
+        "moat": "그룹 모회사·BD 지배"
+      },
+      {
+        "name": "한국피아이엠",
+        "ticker": "448900.KQ",
+        "share_pct": null,
+        "moat": "PIM 정밀부품"
+      },
+      {
+        "name": "Tesla",
+        "ticker": "TSLA",
+        "share_pct": null,
+        "moat": "in-house 액추에이터"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "2025-2035 휴머노이드 TAM (Goldman Sachs $38B@2035 / McKinsey)"
+    },
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 51906.3,
+        "op_income": 2027.8,
+        "op_margin": 3.9,
+        "net_income": 2485.3,
+        "net_margin": 4.8
+      },
+      {
+        "year": 2023,
+        "revenue": 59254.4,
+        "op_income": 2296.0,
+        "op_margin": 3.9,
+        "net_income": 3422.6,
+        "net_margin": 5.8
+      },
+      {
+        "year": 2024,
+        "revenue": 57237.0,
+        "op_income": 3073.7,
+        "op_margin": 5.4,
+        "net_income": 4055.6,
+        "net_margin": 7.1
+      },
+      {
+        "year": 2025,
+        "revenue": 61118.1,
+        "op_income": 3357.6,
+        "op_margin": 5.5,
+        "net_income": 3655.8,
+        "net_margin": 6.0
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": 2022,
+        "revenue": 51906.3,
+        "operating_income": 2027.8,
+        "net_income": 2485.3,
+        "op_margin_pct": 3.9
+      },
+      {
+        "year": 2023,
+        "revenue": 59254.4,
+        "operating_income": 2296.0,
+        "net_income": 3422.6,
+        "op_margin_pct": 3.9
+      },
+      {
+        "year": 2024,
+        "revenue": 57237.0,
+        "operating_income": 3073.7,
+        "net_income": 4055.6,
+        "op_margin_pct": 5.4
+      },
+      {
+        "year": 2025,
+        "revenue": 61118.1,
+        "operating_income": 3357.6,
+        "net_income": 3655.8,
+        "op_margin_pct": 5.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "BD 아틀라스 액추에이터 양산 본격화 + 그룹 BD 리레이팅. 부품 base + 휴머노이드 양산 프리미엄 동시 확보. 한투 TP 95만원 수렴.",
+      "key_assumptions": [
+        "BD 액추에이터 양산 온트랙",
+        "자동차 부품 견조",
+        "BD 밸류 가시화"
+      ],
+      "target_price": 950000
+    },
+    "base": {
+      "prob_pct": 48,
+      "thesis": "자동차 부품 base value + 휴머노이드 양산 옵션. 점진 재평가, 큰 폭 상향은 양산 가시화 필요.",
+      "key_assumptions": [
+        "부품 매출 견조",
+        "액추에이터는 초기",
+        "그룹 모멘텀"
+      ],
+      "target_price": 760000
+    },
+    "bear": {
+      "prob_pct": 17,
+      "thesis": "자동차 수요 둔화 + Tesla 수직계열 단가 우위로 양산 노드 프리미엄 약화.",
+      "key_assumptions": [
+        "부품 수요 둔화",
+        "Tesla 단가 압박",
+        "양산 지연"
+      ],
+      "target_price": 560000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "그룹 BD 풋옵션·양산 노드 가치 재평가",
+      "type": "event",
+      "expected_impact": "high",
+      "description": "BD 밸류 가시화 + 액추에이터 양산 노드 프리미엄"
+    },
+    {
+      "date": "2026-2H",
+      "event": "BD 아틀라스 양산·공급 진척",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "양산 능력 입증 — TP 95만원 핵심 검증"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적",
+      "type": "earnings",
+      "expected_impact": "med",
+      "description": "부품 마진·R&D 추세"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Tesla 수직계열 단가 우위",
+      "probability": "med",
+      "impact": "high",
+      "description": "Tesla in-house 액추에이터 양산·단가 하락 시 가격 경쟁 압박",
+      "mitigation": "BD 동역학 정교함 + 자동차 부품 ramp cushion"
+    },
+    {
+      "name": "양산 가시성 부족",
+      "probability": "med",
+      "impact": "med",
+      "description": "BD 액추에이터 실제 수주·물량 미확정",
+      "mitigation": "그룹 captive·미국 HMGMA cluster 활용"
+    },
+    {
+      "name": "자동차 부품 수요 둔화",
+      "probability": "med",
+      "impact": "med",
+      "description": "완성차 사이클 약세 시 base value 압박",
+      "mitigation": "전동화·로봇 다변화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "ticker_exposure": "+",
+      "claim": "채널체크에 따르면 구글은 2025년 말 현대차에 Boston Dynamics(BD) 지분 투자 가능성을 타진했고 현대차는 일단 거절했다. 거절 사유는 현대차그룹 보유 BD 지분율 희석 우려와 BD의 모호한 시장가치다",
+      "type": "factual",
+      "evidence": [
+        "구글 2025년 말 현대차에 BD 지분 투자 타진 (채널체크)",
+        "현대차 거절: 지분 희석 + 모호한 BD 밸류",
+        "빅테크 관심 = 자산 검증 시그널"
+      ],
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T2",
+      "ticker_exposure": "++",
+      "claim": "한국투자증권은 BD 비영업가치를 긍정적 시나리오로 변경하고, 이를 반영해 목표주가를 현대차 77만원, 기아 26만원, 현대모비스 95만원으로 상향했다. 이는 BD의 SOTP(비영업가치) 기여를 시장이 본격 반영하기 ",
+      "type": "factual",
+      "evidence": [
+        "현대차 TP 77만원",
+        "기아 TP 26만원",
+        "현대모비스 TP 95만원",
+        "BD 비영업가치 긍정 시나리오 전환"
+      ],
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T3",
+      "ticker_exposure": "+",
+      "claim": "소프트뱅크는 보유한 9.9% BD 지분에 대한 풋옵션 행사 여부를 2026년 7월말까지 결정해야 한다. 현대차그룹 대상 풋옵션을 행사하지 않고 빅테크에 매각하는 방안도 가능성 중 하나다(2025-08-06 주주간 약",
+      "type": "conditional",
+      "evidence": [
+        "소프트뱅크 9.9% BD 지분 풋옵션",
+        "행사 시한 2026-07말",
+        "빅테크 매각 시나리오 가능",
+        "2025-08-06 주주간 약정"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T6",
+      "ticker_exposure": "++",
+      "claim": "피지컬 AI는 LLM 다음 패권 전장이며 승자독식 성격이 짙다. 파운데이션 AI 모델을 검증할 최고급 신체(=아틀라스)를 보유해야 경쟁에서 유리하므로, BD는 IPO 이전까지 꾸준히 빅테크의 관심을 받을 것으로 예상",
+      "type": "normative",
+      "evidence": [
+        "피지컬 AI 승자독식 구조",
+        "아틀라스 = 최고급 검증 신체",
+        "IPO 전까지 빅테크 관심 지속 전망"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T7",
+      "ticker_exposure": "+",
+      "claim": "BD의 대중 시연('월드컵 쇼') 시점과 형태가 휴머노이드 밸류체인 전반의 재평가 트리거가 될 수 있다. 시계열(timeline)이 다가오고 있다는 것이 글의 핵심 관전 포인트다.",
+      "type": "predictive",
+      "evidence": [
+        "BD 월드컵 쇼 시점 미정",
+        "밸류체인 시계열 임박",
+        "대중 시연 = 재평가 촉매"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06",
+      "type": "산업",
+      "title": "한투, 현대모비스 목표주가 95만원 상향",
+      "summary": "BD 비영업가치 긍정 + 액추에이터 양산 노드 프리미엄 반영"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 640000,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 매출 ₩61조·OPM 5.5%. 현 주가는 자동차 부품 base 위주이며 휴머노이드 양산 옵션은 일부만 반영. 한투 TP 95만원(+48%)은 BD 액추에이터 양산 노드 가치를 본격 반영한 수치 — 양산 가시화가 핵심 검증."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 7
+}

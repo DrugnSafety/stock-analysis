@@ -1,0 +1,205 @@
+{
+  "industry": {
+    "name": "조선·해양 — FLNG/LNG운반선 + 해양플랜트",
+    "overview": "삼성중공업은 부유식 LNG 생산설비(FLNG) 세계 최강자로, 신조 FLNG 11척 중 7척을 수주해 글로벌 점유율 64%를 장악한다. LNG운반선·해양플랜트가 핵심이며, 2026-06-02 북미 발주처로부터 FLNG 1기를 4조3,301억원에 수주(2030 인도)했다. 2026 연간 수주목표는 $139억(작년 $98억 대비 +41.8%, 상선 $57억+해양 $82억)으로, 6/2 기준 누적 $83억(60%) — 상선 88%·해양 40% 달성. 영업이익률은 2022 -14.4% 적자에서 2025 +8.1%로 회복. 해양 부문 lumpy 계약이 변수.",
+    "competitors": [
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": null,
+        "moat": "그룹 캐파·LNG·엔진"
+      },
+      {
+        "name": "한화오션",
+        "ticker": "042660.KS",
+        "share_pct": null,
+        "moat": "방산·LNG·MASGA"
+      },
+      {
+        "name": "중국 CSSC(중국선박)",
+        "ticker": "601989.SS",
+        "share_pct": null,
+        "moat": "물량·가격(상선)"
+      },
+      {
+        "name": "이탈리아 Saipem(해양)",
+        "ticker": "SPM.MI",
+        "share_pct": null,
+        "moat": "해양 EPC — FLNG 경쟁/협력"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-06-02",
+        "title": "삼성중공업, 4조3,301억 FLNG 수주 — 2030 인도",
+        "source": "mt.co.kr (머니투데이)",
+        "summary": "북미 발주처, 연간 수주목표 60% 달성",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06-02",
+        "title": "'FLNG 최강자' 4조 잭팟…최대 13조 수주 기대",
+        "source": "mt.co.kr (머니투데이)",
+        "summary": "올해 FLNG 4기 목표, 美 델핀 프로젝트 본궤도",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06",
+        "title": "FLNG 세계 신조 11척 중 7척 — 점유율 64%",
+        "source": "betanews.net",
+        "summary": "FLNG 독보적 1위 지위",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06-05",
+        "title": "라이브 ₩27,750 / 1Y +66%",
+        "source": "yfinance live",
+        "summary": "FLNG 잭팟·사이클 반영",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-05) — 연결 K-IFRS",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 5.94,
+        "op_income": -0.85,
+        "net_income": -0.62,
+        "op_margin": -14.4,
+        "net_margin": -10.4
+      },
+      {
+        "year": 2023,
+        "revenue": 8.01,
+        "op_income": 0.23,
+        "net_income": -0.15,
+        "op_margin": 2.9,
+        "net_margin": -1.9
+      },
+      {
+        "year": 2024,
+        "revenue": 9.9,
+        "op_income": 0.5,
+        "net_income": 0.06,
+        "op_margin": 5.1,
+        "net_margin": 0.6
+      },
+      {
+        "year": 2025,
+        "revenue": 10.65,
+        "op_income": 0.86,
+        "net_income": 0.55,
+        "op_margin": 8.1,
+        "net_margin": 5.1
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩5.94조 → 2025 ₩10.65조로 +79% 성장, 영업이익률은 2022 -14.4%(적자) → 2023 +2.9% → 2024 +5.1% → 2025 +8.1%로 흑자 정착. 해양 다운사이클·저가 잔고를 소진하며 정상화. FLNG·LNG 고부가 믹스가 마진을 끌어올리나, 해양 대형계약의 lumpy 특성이 분기 변동성을 키운다.",
+    "valuation_summary": "Forward PE 15.88× (yfinance live) — 빅3 중 중위. 현재가 ₩27,750 / 1Y +66% / 연변동성 54%. FLNG 점유 64%·수주목표 +41.8% 상향이 멀티플을 지지."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.4,
+      "description": "FLNG 4기 목표 달성(최대 13조)·美 델핀 본계약 + LNG선 수주로 해양·상선 동반 강세. 고마진 해양 믹스로 OPM 두 자릿수 진입.",
+      "key_drivers": [
+        "FLNG 4기·델핀",
+        "LNG선 수주",
+        "해양 고마진 믹스"
+      ]
+    },
+    "base": {
+      "probability": 0.38,
+      "description": "FLNG 2~3기·LNG선 견조 수주로 OPM 8~10% 유지. 해양 목표(40% 달성)는 하반기 대형계약에 의존.",
+      "key_drivers": [
+        "FLNG 2~3기",
+        "상선 목표 88%",
+        "해양 하반기 의존"
+      ]
+    },
+    "bear": {
+      "probability": 0.22,
+      "description": "FLNG 최종계약 이월·지연 + 해양 수주 부진으로 목표 미달. 사이클 우려로 멀티플 압축.",
+      "key_drivers": [
+        "FLNG 계약 지연",
+        "해양 수주 부진",
+        "멀티플 압축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "name": "FLNG 추가 수주(델핀 등)",
+      "impact": "high",
+      "description": "올해 4기 목표·최대 13조 기대"
+    },
+    {
+      "date": "2026-2H",
+      "name": "LNG운반선 발주 수혜",
+      "impact": "high",
+      "description": "상선 목표 초과·고선가 믹스"
+    },
+    {
+      "date": "2026-분기",
+      "name": "해양 수주목표 달성률",
+      "impact": "medium",
+      "description": "해양 40%→연간 목표 회복 여부"
+    }
+  ],
+  "risks": [
+    {
+      "name": "해양 계약 lumpy·이월",
+      "probability": "high",
+      "impact": "high",
+      "description": "FLNG 대형계약 지연이 분기 실적·목표 달성 흔듦"
+    },
+    {
+      "name": "해양 부문 목표 부진",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "6/2 기준 해양 40% — 상선 88% 대비 낮음"
+    },
+    {
+      "name": "사이클·발주 둔화",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "LNG·해양 발주 둔화 시 마진 둔화"
+    },
+    {
+      "name": "원가·환율 역풍",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "후판·인건비·환율 변동"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T04",
+      "claim": "LNG 발주 사이클 재개",
+      "current_status": "confirmed",
+      "evidence": "FLNG 4.3조·LNG선 수주 모멘텀"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "적자→흑자 전환",
+      "current_status": "confirmed",
+      "evidence": "2025 OPM +8.1%(2022 -14.4%서 전환)"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "수주목표 +41.8% 상향·60% 달성",
+      "current_status": "confirmed",
+      "evidence": "$139억 목표, 6/2 누적 $83억"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-02",
+      "type": "단일판매·공급계약체결",
+      "summary": "FLNG 1기 4조3,301억원 (북미 발주처, 2030-07 인도)",
+      "title": "FLNG 1기 4조3,301억원 수주"
+    }
+  ]
+}

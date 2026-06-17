@@ -1,0 +1,239 @@
+{
+  "ticker": "AOSL",
+  "name_kr": "Alpha and Omega Semiconductor (알파앤오메가 세미)",
+  "name_en": "Alpha and Omega Semiconductor",
+  "ipo_year": 2010,
+  "market_data_snapshot": {
+    "ticker": "AOSL",
+    "name": "Alpha and Omega Semiconductor Limited",
+    "current_price": 41.72,
+    "currency": "USD",
+    "forward_pe": -103.01,
+    "trailing_pe": null,
+    "beta": 2.58,
+    "return_1m_pct": 2.56,
+    "return_3m_pct": 87.34,
+    "return_6m_pct": 129.61,
+    "return_1y_pct": 97.63,
+    "volatility_annualized_pct": 71.0,
+    "market_cap_local_bn": 1.25,
+    "market_cap_usd_bn": 1.25,
+    "ev_ebitda": 78.27,
+    "div_yield_pct": 0,
+    "pb": 1.56,
+    "fetched_at": "2026-05-26T00:49:47",
+    "fetched_via": "yfinance 1.4.0 (live)",
+    "as_of_date": "2026-05-22"
+  },
+  "industry": {
+    "name": "Power Semiconductors (MOSFET·GaN·SiC·Power IC) — Consumer + Industrial + AI",
+    "overview": "AOSL은 IDM(in-house fab)+fabless hybrid 모델로 MOSFET·GaN·SiC·Power IC 종합 portfolio 보유. 매출 mix는 Computing 30%, Communication 25%, Consumer 20%, Industrial 15%, EV/Auto 10%로 분산. FY25 매출 약 $710M (FY24 대비 +25%), GM 28% 개선 trend. AI 데이터센터 800V DC 전환에서 mid-voltage Power IC 공급, EV용 SiC/GaN module의 AI 서버 cross-sell이 핵심 thesis. China revenue 60%+로 geopolitical risk 큰 점은 양면검.",
+    "competitors": [
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": 18.0,
+        "moat": "MOSFET·power 글로벌 #1"
+      },
+      {
+        "name": "Texas Instruments",
+        "ticker": "TXN",
+        "share_pct": 15.0,
+        "moat": "Analog power IC leader"
+      },
+      {
+        "name": "onsemi",
+        "ticker": "ON",
+        "share_pct": 12.0,
+        "moat": "SiC IDM, Tesla 공급"
+      },
+      {
+        "name": "Vishay",
+        "ticker": "VSH",
+        "share_pct": 8.0,
+        "moat": "MOSFET discrete 전문"
+      },
+      {
+        "name": "Alpha and Omega",
+        "ticker": "AOSL",
+        "share_pct": 4.0,
+        "moat": "IDM-fabless hybrid, broad portfolio"
+      },
+      {
+        "name": "기타",
+        "ticker": "—",
+        "share_pct": 43.0,
+        "moat": "Rohm, Diodes, Silan, fragmented"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 30.0,
+      "cagr_pct": 8.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "약 $565M (FY24 ending Jun, YoY -10%, cyclical bottom)",
+    "revenue_2025_est": "약 $710M (FY25E, +25% YoY recovery)",
+    "gross_margin": "약 24-28% (mix 개선 trend)",
+    "operating_margin": "약 -2% ~ +5% (cycle dependent)",
+    "net_margin": "약 -3% ~ +3%",
+    "fcf_2024": "Marginal positive, CapEx 합리적 통제",
+    "balance_sheet": "Cash $150M+, 적은 debt — financial flexibility OK",
+    "ai_revenue_share_evolution": "2024 ~5% → 2025 ~10% → 2026E ~15-20% (AI server power 진입 가속)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 75.0,
+      "thesis": "AI server power IC 진입 + EV recovery dual → 2027 매출 $900M+, OPM 8-10%, multiple +50% expansion. Stock +80%.",
+      "key_assumptions": [
+        "AI server design wins 본격화",
+        "EV 2026 2H 회복",
+        "China geopolitical 안정"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 50.0,
+      "thesis": "Steady cyclical recovery + 점진 AI mix shift — 2027 매출 $800M, OPM 5%, P/E 18x.",
+      "key_assumptions": [
+        "EV cycle moderate recovery",
+        "AI mix 15% 안정 진입",
+        "China 매출 안정"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 25.0,
+      "thesis": "Trump China tariff 가속 + EV cycle stagnation → 매출 trough 지속, stock -40%.",
+      "key_assumptions": [
+        "Trump 60%+ tariff",
+        "China 매출 ban",
+        "EV recovery 지연"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "FY26 Q4 earnings (8월)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI server power IC contribution 수치 명시"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "OCP Global Summit",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "AOSL의 800V DC reference design 공개 가능성"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Trump tariff 정책 명확화",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "China-targeted tariff 시 AOSL 매출 60%+ 노출 리스크"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "EV cycle bottom 통과 신호",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Auto EV 매출 회복 → dual cycle thesis 검증"
+    }
+  ],
+  "risks": [
+    {
+      "name": "China Revenue Exposure (60%+)",
+      "probability": "high",
+      "impact": "high",
+      "description": "Trump tariff·tech 통제 시 AOSL 매출 직격탄 — geopolitical risk 최상위",
+      "mitigation": "Singapore HQ 활용, 베트남·말레이시아 distribution 확대"
+    },
+    {
+      "name": "EV Cycle Stagnation Extended",
+      "probability": "med",
+      "impact": "med",
+      "description": "2026 2H EV 회복 지연 시 매출 25% 비중 cyclical drag",
+      "mitigation": "AI mix shift 가속, consumer base 매출 안정"
+    },
+    {
+      "name": "AI Mix Conversion Speed",
+      "probability": "med",
+      "impact": "med",
+      "description": "AOSL의 AI 매출 비중이 single-digit %에 머무를 risk — competitor (Infineon·TXN·ON) win 잠식",
+      "mitigation": "broad portfolio leverage, mid-voltage niche 유지"
+    },
+    {
+      "name": "Margin Pressure (commoditized MOSFET)",
+      "probability": "med",
+      "impact": "low",
+      "description": "MOSFET commodity 부문 ASP 압박 — GM scale 한계",
+      "mitigation": "high-margin SiC/GaN/Power IC 비중 확대"
+    },
+    {
+      "name": "Small-cap Liquidity / Volatility",
+      "probability": "high",
+      "impact": "low",
+      "description": "mcap $1.2B — small cap volatility 75%+",
+      "mitigation": "position sizing 신중, partial entry"
+    }
+  ],
+  "valuation_context": {
+    "current_pe": -103.01,
+    "industry_avg_pe": 20.0,
+    "5y_avg_pe": 18.0,
+    "ev_ebitda": 78.27,
+    "dividend_yield_pct": 0.0,
+    "fair_value_dcf_usd": 52.0,
+    "current_price_usd": 41.72,
+    "implied_upside_pct": 24.6
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue_mn_usd": 610,
+        "operating_income_mn_usd": 45,
+        "net_income_mn_usd": 36,
+        "opm_pct": 7.4,
+        "npm_pct": 5.9
+      },
+      {
+        "year": "FY22",
+        "revenue_mn_usd": 793,
+        "operating_income_mn_usd": 130,
+        "net_income_mn_usd": 130,
+        "opm_pct": 16.4,
+        "npm_pct": 16.4
+      },
+      {
+        "year": "FY23",
+        "revenue_mn_usd": 691,
+        "operating_income_mn_usd": -15,
+        "net_income_mn_usd": -23,
+        "opm_pct": -2.2,
+        "npm_pct": -3.3
+      },
+      {
+        "year": "FY24",
+        "revenue_mn_usd": 565,
+        "operating_income_mn_usd": -30,
+        "net_income_mn_usd": -29,
+        "opm_pct": -5.3,
+        "npm_pct": -5.1
+      },
+      {
+        "year": "FY25E",
+        "revenue_mn_usd": 710,
+        "operating_income_mn_usd": 15,
+        "net_income_mn_usd": 8,
+        "opm_pct": 2.1,
+        "npm_pct": 1.1
+      }
+    ]
+  }
+}

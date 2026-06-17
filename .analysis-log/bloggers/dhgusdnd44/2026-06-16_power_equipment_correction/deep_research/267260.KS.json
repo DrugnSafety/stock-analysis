@@ -1,0 +1,190 @@
+{
+  "ticker": "267260.KS",
+  "company_kr": "HD현대일렉트릭",
+  "company_en": "HD Hyundai Electric",
+  "exchange": "KRX (KOSPI)",
+  "industry": {
+    "name": "전력기기 (변압기·차단기·배전반·HVDC)",
+    "name_kr": "초고압 변압기 / 북미 송전망",
+    "overview": "글로벌 Top3 변압기. 북미 신규수주 비중 73%·765kV 초고압 중심으로 '미국 요금납부자(규제·5년·고신용)' 수주 비중이 높아 글의 프레임에서 '질' 우위. 26.1 미국 최대 765kV 운영사 983억(종료 28.11), 26.5 MISO/SPP 765kV 1,730억(종료 29.8). 2025 OPM 24.4%로 구조적 마진 레벨업. 28E OPM 31.9% 추정.",
+    "competitors": [
+      {
+        "name": "효성중공업",
+        "ticker": "298040.KS",
+        "moat": "765kV 단일 9,200억"
+      },
+      {
+        "name": "LS ELECTRIC",
+        "ticker": "010120.KS",
+        "moat": "배전·자동화·ESS"
+      },
+      {
+        "name": "Siemens Energy",
+        "ticker": "ENR.DE",
+        "moat": "글로벌 송전"
+      },
+      {
+        "name": "GE Vernova",
+        "ticker": "GEV",
+        "moat": "가스터빈·그리드"
+      },
+      {
+        "name": "Hitachi Energy",
+        "ticker": "-",
+        "moat": "HVDC·변압기"
+      }
+    ],
+    "market_size": {
+      "horizon": "북미 전력기기 — 빅테크 4사 2026 capex 합산 $7,250억, AEP 5년 capex $720→780억(2030 +63GW). 변압기 5개사 수주잔고 34.5조(6개사 38.3조)"
+    },
+    "news": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 1500000,
+      "thesis": "북미 765kV 규제수주(비가역) 잔고가 멀티플 정당화, 유틸리티 capex 추가 상향",
+      "key_assumptions": [
+        "유틸리티 송전투자 60년 감가·보장수익률 견조",
+        "증설 후 마진 방어",
+        "지정학 프리미엄 유지"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 1180000,
+      "thesis": "고질 수주 기반 EPS 성장 지속, 멀티플은 소폭 압축",
+      "key_assumptions": [
+        "대기열 부풀림에도 규제수주는 견조",
+        "구리 헤지 관리"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 820000,
+      "thesis": "유틸리티 capex 가이던스 둔화 + 구리 역마진 + 사이클 정점 인식",
+      "key_assumptions": [
+        "대기열 노출로 송전투자 둔화",
+        "증설 과잉공급"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "북미 765kV 신규 수주",
+      "type": "order",
+      "expected_impact": "+",
+      "description": "규제수주(고질) 잔고 확대 여부"
+    },
+    {
+      "date": "2026",
+      "event": "미국 2,000억+국내 2,000억 증설",
+      "type": "capacity",
+      "expected_impact": "○",
+      "description": "공급능력 확대·희소성 이익 양면"
+    },
+    {
+      "date": "2026-2027",
+      "event": "유틸리티 capex 가이던스",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "AEP·도미니언·듀크 상향 지속 여부"
+    }
+  ],
+  "risks": [
+    {
+      "name": "대기열 부풀림 노출",
+      "probability": "med",
+      "impact": "med",
+      "description": "1GW 3중카운트가 드러나면 2028 추정 하향",
+      "mitigation": "규제 승인 수주 중심"
+    },
+    {
+      "name": "구리 역마진",
+      "probability": "med",
+      "impact": "med",
+      "description": "고정가 장기수주의 원재료 리스크",
+      "mitigation": "에스컬레이션 조항"
+    },
+    {
+      "name": "멀티플 압축",
+      "probability": "med",
+      "impact": "med",
+      "description": "이익 정점 인식시 PER 압축",
+      "mitigation": "구조적 성장 서사"
+    }
+  ],
+  "as_of_date": "2026-06-16",
+  "financials": {
+    "currency": "KRW",
+    "unit": "억원",
+    "data_source": "yfinance 1.4.1 annual income statement (live) — 매출·영업이익·순이익. OPM/NPM 계산값. 연결 기준.",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 21045,
+        "op_income": 1345,
+        "net_income": 1625,
+        "opm": 6.4,
+        "npm": 7.7
+      },
+      {
+        "year": 2023,
+        "revenue": 27028,
+        "op_income": 3152,
+        "net_income": 2592,
+        "opm": 11.7,
+        "npm": 9.6
+      },
+      {
+        "year": 2024,
+        "revenue": 33223,
+        "op_income": 6690,
+        "net_income": 5016,
+        "opm": 20.1,
+        "npm": 15.1
+      },
+      {
+        "year": 2025,
+        "revenue": 40795,
+        "op_income": 9953,
+        "net_income": 7326,
+        "opm": 24.4,
+        "npm": 18.0
+      }
+    ],
+    "market_snapshot": {
+      "ticker": "267260.KS",
+      "name": "HD Hyundai Electric Co., Ltd.",
+      "current_price": 1147000.0,
+      "currency": "KRW",
+      "forward_pe": 33.37,
+      "trailing_pe": null,
+      "beta": 1.01,
+      "return_1m_pct": 0.0,
+      "return_3m_pct": 17.87,
+      "return_6m_pct": 40.36,
+      "return_1y_pct": 146.18,
+      "volatility_annualized_pct": 59.58,
+      "market_cap_local_bn": 41283.63,
+      "market_cap_usd_bn": 31.76,
+      "ev_ebitda": 35.19,
+      "div_yield_pct": 0.75,
+      "pb": null,
+      "fetched_at": "2026-06-17T02:52:48",
+      "fetched_via": "yfinance 1.4.1 (live)",
+      "as_of_date": "2026-06-17"
+    }
+  },
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 블로그 '최근 전력기기 섹터 조정에 대해' (2026-06-16)",
+      "유안타증권 '전력기기, 조정은 끝이 아니라 기회'",
+      "yfinance (재무·시세 live)",
+      "theguru.co.kr 효성중공업 멤피스 증설 (2026)"
+    ]
+  }
+}

@@ -42,7 +42,7 @@
         {
           "verdict": "lean_bearish",
           "confidence": 0.58,
-          "persona_id": "benjamin-graham"
+          "persona_id": "ben-graham"
         },
         {
           "verdict": "neutral",
@@ -72,7 +72,7 @@
         {
           "verdict": "bullish",
           "confidence": 0.78,
-          "persona_id": "philip-fisher"
+          "persona_id": "phil-fisher"
         },
         {
           "verdict": "bullish",
@@ -154,11 +154,6 @@
       "confidence": 0.75,
       "horizon": "long_term"
     },
-    "philip-fisher": {
-      "verdict": "bullish",
-      "confidence": 0.78,
-      "horizon": "long_term"
-    },
     "cathie-wood": {
       "verdict": "bullish",
       "confidence": 0.82,
@@ -172,11 +167,6 @@
     "nassim-taleb": {
       "verdict": "lean_bullish",
       "confidence": 0.62,
-      "horizon": "long_term"
-    },
-    "benjamin-graham": {
-      "verdict": "lean_bearish",
-      "confidence": 0.58,
       "horizon": "long_term"
     },
     "bill-ackman": {
@@ -202,6 +192,16 @@
     "aswath-damodaran": {
       "verdict": "lean_bullish",
       "confidence": 0.65,
+      "horizon": "long_term"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "long_term"
+    },
+    "phil-fisher": {
+      "verdict": "bullish",
+      "confidence": 0.78,
       "horizon": "long_term"
     }
   }

@@ -1,0 +1,436 @@
+{
+  "ticker": "NDA.DE",
+  "aggregated_at": "2026-06-09T16:12:13.834334",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 13,
+      "pct": 76.5
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 23.5
+    }
+  },
+  "average_confidence": 0.64,
+  "style_split": {
+    "value": {
+      "count": 5,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "growth": {
+      "count": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "macro": {
+      "count": 3,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "quant": {
+      "count": 3,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "contrarian": {
+      "count": 2,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ]
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "valuation_fair",
+      "frequency": 4,
+      "personas": [
+        "cathie-wood",
+        "ben-graham",
+        "nassim-taleb",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "forward PE 정당화 needed",
+        "성장 visibility 필요"
+      ]
+    },
+    {
+      "theme": "thesis_lag_risk",
+      "frequency": 5,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "michael-burry"
+      ],
+      "examples": [
+        "H2SO4 LTA reset lag 1~2 분기",
+        "PSA disclosure 부족"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "정보 비대칭 — MnM segment disclosure 부족, SOTP 재산정 어려움",
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "정보 비대칭 — MnM segment disclosure 부족, SOTP 재산정 어려움",
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "정보 비대칭 — MnM segment disclosure 부족, SOTP 재산정 어려움",
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "아스워스 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "jim-simons": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Thesis 의존도: medium — H2SO4 가격 lag risk 잔존"
+      ],
+      "key_opportunities_top3": [
+        "H2SO4 supply shock — LS MnM segment 재평가 catalyst",
+        "데이터센터·HVDC capex secular tailwind",
+        "1Q26 OP 1,896억 base + 2~4Q H2SO4 ASP ramp leverage"
+      ],
+      "uncertainty_acknowledged": "MnM H2SO4·PSA segment disclosure 부족 + LTA/spot mix 불확실성 (Aurubis 85% 단순 차용 risk)",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    }
+  }
+}

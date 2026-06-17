@@ -1,0 +1,258 @@
+{
+  "industry": {
+    "name": "엣지 클라우드 / CDN / AI 추론 인프라",
+    "overview": "아카마이는 넷플릭스·유튜브 대용량 영상 전송용으로 구축한 글로벌 CDN(약 4,200개 거점·130개국)을 AI 추론 인프라로 재활용하는 전환의 정중앙에 있다. 2026년 Anthropic과 약 18억 달러·7년 계약(아카마이 사상 최대 수주)을 체결, 'Gecko(Generalized Edge Compute)' 플랫폼에서 클로드 추론을 사용자 인접 거점에서 실행한다. 회사는 이 단일 고객 지원에만 향후 12개월 7~8억 달러 capex를 집행하며, 클라우드 부문 run-rate(약 4억 달러)를 두 배 이상으로 끌어올리는 촉매다. 본업(보안·딜리버리)은 저성장이나 현금창출력이 견조해 AI 전환 capex를 자체 조달 가능한 점이 차별점.",
+    "competitors": [
+      {
+        "name": "Cloudflare",
+        "ticker": "NET"
+      },
+      {
+        "name": "Fastly",
+        "ticker": "FSLY"
+      },
+      {
+        "name": "Amazon CloudFront(AWS)",
+        "ticker": "AMZN"
+      },
+      {
+        "name": "Equinix",
+        "ticker": "EQIX"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 60.0,
+      "cagr_pct": 16.0,
+      "horizon": "2024-2030 (글로벌 엣지 컴퓨팅)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "Anthropic 계약이 레퍼런스가 되어 추가 AI 고객(추론) 수주 → Inference Cloud가 본업 저성장을 상쇄하고 클라우드 부문이 회사 성장 엔진으로 재평가. CDN→추론 멀티플 리레이팅.",
+      "key_assumptions": [
+        "Anthropic 외 2~3개 대형 추론 고객 추가",
+        "클라우드 부문 30%+ 성장 정착",
+        "capex 회수율 양호"
+      ],
+      "target_price": 210
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "Anthropic 단일 대형 계약으로 클라우드 부문은 두 배 성장하나 본업 둔화·capex 부담으로 EPS 개선은 점진적. 가치는 'AI 옵션 + 안정 현금흐름' 혼합.",
+      "key_assumptions": [
+        "보안·딜리버리 저성장 지속",
+        "클라우드 부문 두 배 run-rate",
+        "OPM 14~16% 유지"
+      ],
+      "target_price": 175
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "7~8억 달러 capex가 단일 고객 집중 리스크로 작동 + 추론 마진이 기대 이하 + 하이퍼스케일러 가격 경쟁 심화 시 ROIC 훼손. 본업 둔화가 부각되며 디레이팅.",
+      "key_assumptions": [
+        "고객 집중 리스크 현실화",
+        "추론 마진 압박",
+        "하이퍼스케일러 가격 경쟁"
+      ],
+      "target_price": 120
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "event": "Anthropic Gecko 추론 트래픽 ramp 개시",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "계약 실매출 전환 시점 — 클라우드 run-rate 가속 가늠자"
+    },
+    {
+      "date": "2026-Q3/Q4",
+      "event": "분기 실적 — 클라우드 부문 성장률·capex 가이던스",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "AI 전환 진척과 마진 영향 검증"
+    },
+    {
+      "date": "2026~2027",
+      "event": "Anthropic 외 추가 추론 고객 발표 여부",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "레퍼런스 효과 확산 = thesis 핵심 검증"
+    }
+  ],
+  "risks": [
+    {
+      "name": "단일 고객 집중",
+      "probability": "med",
+      "impact": "high",
+      "description": "7~8억 달러 capex가 Anthropic 단일 계약에 집중 — 고객 이탈·물량 미달 시 회수 리스크",
+      "mitigation": "추가 추론 고객 다변화 + 멀티테넌트 활용"
+    },
+    {
+      "name": "본업 저성장",
+      "probability": "high",
+      "impact": "med",
+      "description": "보안·딜리버리 매출 성장률 한 자리수 — AI가 상쇄하기 전 디레이팅 위험",
+      "mitigation": "클라우드·추론 부문 비중 확대"
+    },
+    {
+      "name": "하이퍼스케일러 경쟁",
+      "probability": "high",
+      "impact": "high",
+      "description": "AWS·Azure·GCP의 엣지 추론 진입 시 가격·물량 경쟁",
+      "mitigation": "4,200거점 분산 우위 + 저지연 SLA"
+    },
+    {
+      "name": "capex 마진 희석",
+      "probability": "med",
+      "impact": "med",
+      "description": "AI 인프라 투자로 단기 OPM·FCF 압박",
+      "mitigation": "자체 현금흐름으로 조달, 단계적 집행"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Anthropic-Akamai 18억 달러·7년 계약 체결",
+      "type": "factual",
+      "evidence": "Bloomberg/DCD 2026-05-08 보도, 아카마이 사상 최대 수주, Gecko 엣지 추론 활용",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI 가치 축이 학습→추론으로 이동",
+      "type": "structural",
+      "evidence": "실시간 클로드 호출·에이전트·코드생성 폭증 — 추론이 지속 비용/매출의 핵심",
+      "testability": "medium",
+      "current_status": "in_progress"
+    },
+    {
+      "claim": "기존 물리 거점 보유 기업이 엣지 추론 최대 수혜",
+      "type": "thesis",
+      "evidence": "아카마이 4,200거점/130개국 망을 추론 인프라로 재활용, Inference Cloud run-rate 확대",
+      "testability": "high",
+      "current_status": "in_progress"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05-08",
+      "type": "계약",
+      "title": "Anthropic과 약 18억 달러·7년 클라우드(엣지 추론) 계약",
+      "summary": "아카마이 사상 최대 계약 — Gecko 엣지 컴퓨트로 클로드 추론 실행. 발표 당일 주가 +27% 급등.",
+      "impact": "클라우드 부문 run-rate 두 배 촉매"
+    },
+    {
+      "date": "2026-03",
+      "type": "IR",
+      "title": "Morgan Stanley TMT — 클라우드 4억 달러 run-rate·엣지 추론 강조",
+      "summary": "Akamai Inference Cloud(LKE+GPU+분산 엣지 통합) 2026 핵심 우선순위로 제시",
+      "impact": "AI 추론 피벗 본격화"
+    }
+  ],
+  "financials": {
+    "currency": "USD",
+    "unit": "USD millions",
+    "pl_5y": [
+      {
+        "year": "2022",
+        "revenue": 3617,
+        "operating_income": 711,
+        "op_income": 711,
+        "net_income": 524,
+        "op_margin_pct": 19.7,
+        "op_margin": 19.7,
+        "net_margin_pct": 14.5,
+        "net_margin": 14.5
+      },
+      {
+        "year": "2023",
+        "revenue": 3812,
+        "operating_income": 703,
+        "op_income": 703,
+        "net_income": 548,
+        "op_margin_pct": 18.5,
+        "op_margin": 18.5,
+        "net_margin_pct": 14.4,
+        "net_margin": 14.4
+      },
+      {
+        "year": "2024",
+        "revenue": 3991,
+        "operating_income": 636,
+        "op_income": 636,
+        "net_income": 505,
+        "op_margin_pct": 15.9,
+        "op_margin": 15.9,
+        "net_margin_pct": 12.7,
+        "net_margin": 12.7
+      },
+      {
+        "year": "2025",
+        "revenue": 4208,
+        "operating_income": 628,
+        "op_income": 628,
+        "net_income": 452,
+        "op_margin_pct": 14.9,
+        "op_margin": 14.9,
+        "net_margin_pct": 10.7,
+        "net_margin": 10.7
+      }
+    ],
+    "bs_snapshot": {
+      "total_cash": 930,
+      "total_debt": 5868,
+      "currency": "USD",
+      "unit": "USD millions"
+    },
+    "cf_summary": {
+      "operating_cf": 1580,
+      "free_cf": 701,
+      "currency": "USD",
+      "unit": "USD millions"
+    },
+    "peer_compare": [
+      {
+        "ticker": "AKAM",
+        "name": "아카마이",
+        "pe": 22.49,
+        "pb": 4.79,
+        "roe": 10.2,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NET",
+        "name": "클라우드플레어",
+        "pe": 179.46,
+        "pb": 63.36,
+        "roe": -3.7,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NVDA",
+        "name": "엔비디아",
+        "pe": 17.6,
+        "pb": 34.42,
+        "roe": 63.0,
+        "div_yield": 0.45
+      },
+      {
+        "ticker": "CRWV",
+        "name": "코어위브",
+        "pe": -189.91,
+        "pb": 13.31,
+        "roe": -25.6,
+        "div_yield": 0
+      },
+      {
+        "ticker": "EQIX",
+        "name": "에퀴닉스",
+        "pe": 55.72,
+        "pb": 7.39,
+        "roe": 14.9,
+        "div_yield": 1.87
+      }
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "ticker": "POWI",
+  "name_kr": "Power Integrations (파워 인테그레이션즈)",
+  "name_en": "Power Integrations",
+  "ipo_year": 1997,
+  "market_data_snapshot": {
+    "ticker": "POWI",
+    "name": "Power Integrations, Inc.",
+    "current_price": 70.85,
+    "currency": "USD",
+    "forward_pe": 38.68,
+    "trailing_pe": 236.17,
+    "beta": 1.54,
+    "return_1m_pct": -1.23,
+    "return_3m_pct": 55.83,
+    "return_6m_pct": 131.6,
+    "return_1y_pct": 43.02,
+    "volatility_annualized_pct": 53.19,
+    "market_cap_local_bn": 3.95,
+    "market_cap_usd_bn": 3.95,
+    "ev_ebitda": 73.9,
+    "div_yield_pct": 1.21,
+    "pb": 5.83,
+    "fetched_at": "2026-05-26T00:49:48",
+    "fetched_via": "yfinance 1.4.0 (live)",
+    "as_of_date": "2026-05-22"
+  },
+  "industry": {
+    "name": "Power Conversion IC — High-Voltage AC-DC Solutions, AI Server + Industrial",
+    "overview": "POWI는 30년 이상 power conversion IC 전문 기업으로 InnoSwitch·HiperLCS·LinkSwitch·SCALE-iDriver 등 unique IP 보유. 매출 mix: Consumer 35% (가전), Industrial 30% (산업·factory automation), Communication 25% (스마트폰·인프라), Computer 10% (AI 포함). FY24 매출 $419M (FY23 대비 -3%, cyclical trough), FY25 가이던스 $480-520M (+15-25%). GM 53-55% (industry-leading), ROIC 15%+, zero debt, $300M cash — financial fortress + quality compounder. AI 데이터센터 power supply 시장에서 차별화된 high-voltage GaN IC 통합 product line이 long-cycle growth driver.",
+    "competitors": [
+      {
+        "name": "Texas Instruments",
+        "ticker": "TXN",
+        "share_pct": 25.0,
+        "moat": "Analog power IC 글로벌 #1, scale moat"
+      },
+      {
+        "name": "Monolithic Power Systems",
+        "ticker": "MPWR",
+        "share_pct": 18.0,
+        "moat": "AI server PMIC 1위, NVIDIA 직접 공급"
+      },
+      {
+        "name": "Analog Devices",
+        "ticker": "ADI",
+        "share_pct": 15.0,
+        "moat": "Industrial·comm power IC strong"
+      },
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": 12.0,
+        "moat": "MOSFET integration + power IC"
+      },
+      {
+        "name": "Power Integrations",
+        "ticker": "POWI",
+        "share_pct": 5.0,
+        "moat": "AC-DC conversion 전문, 30y IP"
+      },
+      {
+        "name": "기타",
+        "ticker": "—",
+        "share_pct": 25.0,
+        "moat": "MaxLinear, Renesas, ROHM, fragmented"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 18.0,
+      "cagr_pct": 7.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "$419M (FY24, YoY -3%)",
+    "revenue_2025_est": "$480-520M (FY25E, +15-25% guidance)",
+    "gross_margin": "53-55% (industry leading)",
+    "operating_margin": "18-22%",
+    "net_margin": "15-18%",
+    "fcf_2024": "Positive ~$100M (FCF/revenue 25%+)",
+    "balance_sheet": "Cash $300M+, zero debt, dividend payer (~1% yield)",
+    "ai_revenue_share_evolution": "2024 ~8% → 2025 ~12% → 2026E ~18-22% (AI server power 단계적 확장)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 95.0,
+      "thesis": "AI server power IC 가속 + cyclical recovery dual → 2027 매출 $650M+, GM 56%, multiple 40x. Stock +35%.",
+      "key_assumptions": [
+        "AI mix 25%+ 진입",
+        "GaN IC 신제품 hit",
+        "consumer 회복"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 80.0,
+      "thesis": "Steady quality compounder — 2027 매출 $580M, GM 54%, P/E 35x 유지. +12%.",
+      "key_assumptions": [
+        "secular tailwind 지속",
+        "GM stability",
+        "cash return policy"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 55.0,
+      "thesis": "Consumer cyclical 지속 + AI conversion 둔화 → 매출 stagnation, multiple compression. -22%.",
+      "key_assumptions": [
+        "consumer 지속 부진",
+        "AI conversion lag",
+        "PE 25x re-rating"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "FY2Q26 earnings (7월 말)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI server revenue mix update — 가이던스 상향 가능성"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "OCP Summit",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "POWI의 GaN-integrated power IC reference design 공개"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "FY3Q26 earnings",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "consumer 사이클 inflection 확인 시 multiple re-rating"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "FY2026 full-year results",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI mix 두 자리 % 진입 시 quality re-rating 본격"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Consumer Cyclical Lag",
+      "probability": "med",
+      "impact": "med",
+      "description": "매출 35%가 consumer 가전 — 글로벌 가전 cycle 둔화 시 매출 drag",
+      "mitigation": "industrial·AI mix 확장으로 다각화"
+    },
+    {
+      "name": "AI Server Power IC Competition Intensifies",
+      "probability": "high",
+      "impact": "med",
+      "description": "MPWR·TXN·ADI와의 AI server 시장 ASP 압박",
+      "mitigation": "proprietary IP 차별화, niche high-voltage segment 집중"
+    },
+    {
+      "name": "Valuation Premium Compression",
+      "probability": "med",
+      "impact": "med",
+      "description": "PE 35-40x quality premium이 cyclical bottom 통과 시 compression risk",
+      "mitigation": "FCF strength + dividend support"
+    },
+    {
+      "name": "AI Conversion Speed Below Expectations",
+      "probability": "low",
+      "impact": "med",
+      "description": "AI mix 두 자리 % 진입이 2028 이후로 지연 시 narrative 약화",
+      "mitigation": "consumer recovery는 base case 지지"
+    },
+    {
+      "name": "Currency Headwind (Asia exposure 50%+)",
+      "probability": "med",
+      "impact": "low",
+      "description": "달러 강세 시 매출 환산 압박",
+      "mitigation": "hedging policy + 가격 pass-through"
+    }
+  ],
+  "valuation_context": {
+    "current_pe": 38.68,
+    "industry_avg_pe": 28.0,
+    "5y_avg_pe": 32.0,
+    "ev_ebitda": 73.9,
+    "dividend_yield_pct": 1.21,
+    "fair_value_dcf_usd": 82.0,
+    "current_price_usd": 70.85,
+    "implied_upside_pct": 15.7
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020",
+        "revenue_mn_usd": 449,
+        "operating_income_mn_usd": 90,
+        "net_income_mn_usd": 90,
+        "opm_pct": 20.0,
+        "npm_pct": 20.0
+      },
+      {
+        "year": "2021",
+        "revenue_mn_usd": 703,
+        "operating_income_mn_usd": 195,
+        "net_income_mn_usd": 175,
+        "opm_pct": 27.7,
+        "npm_pct": 24.9
+      },
+      {
+        "year": "2022",
+        "revenue_mn_usd": 651,
+        "operating_income_mn_usd": 154,
+        "net_income_mn_usd": 152,
+        "opm_pct": 23.7,
+        "npm_pct": 23.3
+      },
+      {
+        "year": "2023",
+        "revenue_mn_usd": 432,
+        "operating_income_mn_usd": 60,
+        "net_income_mn_usd": 73,
+        "opm_pct": 13.9,
+        "npm_pct": 16.9
+      },
+      {
+        "year": "2024",
+        "revenue_mn_usd": 419,
+        "operating_income_mn_usd": 67,
+        "net_income_mn_usd": 75,
+        "opm_pct": 16.0,
+        "npm_pct": 17.9
+      }
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "industry": {
+    "name": "Memory Semiconductor (US IDM)",
+    "overview": "글로벌 메모리 3위 IDM. 미국 유일 메모리 제조사로 CHIPS Act $6.1B 보조금 수혜. HBM3E NVIDIA 3rd supplier (점유율 ~15%). 인디애나 신규 fab 2027년 가동 예정. DRAM + NAND 다각화.",
+    "competitors": [
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "share_pct": 25.0,
+        "moat": "-"
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "share_pct": 25.0,
+        "moat": "-"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-Q1",
+        "headline": "HBM3E NVIDIA H200 인증 통과 + 매출 yoy +250%",
+        "impact": "+",
+        "impact_reason": "긍정적 영향: HBM·메모리 슈퍼사이클 + 정책 지원 동반",
+        "source": "본 분석 종합",
+        "title": "HBM3E NVIDIA H200 인증 통과 + 매출 yoy +250%",
+        "summary": "긍정적 영향: HBM·메모리 슈퍼사이클 + 정책 지원 동반"
+      },
+      {
+        "date": "2025-12",
+        "headline": "CHIPS Act 추가 $6.1B 인디애나 fab 보조금",
+        "impact": "o",
+        "impact_reason": "중립적 영향",
+        "source": "본 분석 종합",
+        "title": "CHIPS Act 추가 $6.1B 인디애나 fab 보조금",
+        "summary": "중립적 영향"
+      },
+      {
+        "date": "2025-Q4",
+        "headline": "영업이익률 35% 돌파",
+        "impact": "+",
+        "impact_reason": "긍정적 영향: HBM·메모리 슈퍼사이클 + 정책 지원 동반",
+        "source": "본 분석 종합",
+        "title": "영업이익률 35% 돌파",
+        "summary": "긍정적 영향: HBM·메모리 슈퍼사이클 + 정책 지원 동반"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 145.0,
+      "cagr_pct": 18.0,
+      "horizon": "2026-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 27705,
+        "op_income": 6920,
+        "op_margin": 25.0,
+        "net_income": 5862,
+        "net_margin": 21.2,
+        "unit": "USD M"
+      },
+      {
+        "year": 2022,
+        "revenue": 30758,
+        "op_income": 9698,
+        "op_margin": 31.5,
+        "net_income": 8687,
+        "net_margin": 28.2
+      },
+      {
+        "year": 2023,
+        "revenue": 15540,
+        "op_income": -5746,
+        "op_margin": -37.0,
+        "net_income": -5833,
+        "net_margin": -37.5
+      },
+      {
+        "year": 2024,
+        "revenue": 25110,
+        "op_income": 1300,
+        "op_margin": 5.2,
+        "net_income": 778,
+        "net_margin": 3.1
+      },
+      {
+        "year": 2025,
+        "revenue": 41200,
+        "op_income": 14500,
+        "op_margin": 35.2,
+        "net_income": 11000,
+        "net_margin": 26.7
+      },
+      {
+        "year": "2026E",
+        "revenue": 58000,
+        "op_income": 22000,
+        "op_margin": 37.9,
+        "net_income": 17500,
+        "net_margin": 30.2
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets_USDB": 78,
+      "total_debt_USDB": 14,
+      "cash_USDB": 8.5,
+      "equity_USDB": 50,
+      "debt_to_equity": 0.28
+    },
+    "cf_summary": {
+      "OCF_2025_USDB": 17.5,
+      "FCF_2025_USDB": 5.5,
+      "CapEx_2025_USDB": 12.0,
+      "CapEx_2026E_USDB": 15.0
+    },
+    "peer_compare": [
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "pe": 7.5,
+        "pb": 4.5,
+        "roe": 35.0,
+        "div_yield": 0.4
+      },
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 5.1,
+        "pb": 3.8,
+        "roe": 65.2,
+        "div_yield": 0.3
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "pe": 11.9,
+        "pb": 1.2,
+        "roe": 9.5,
+        "div_yield": 2.1
+      }
+    ],
+    "trend_narrative_5y": "2021 호황 → 2023 deep cycle 추락 (-37% 영업이익률) → 2024~2026 회복. HBM 비중 0% (2023) → 18% (2026E)."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "HBM3E 점유율 20% + 인디애나 fab early ramp + EPS $25",
+      "key_assumptions": [
+        "HBM 점유율 20%",
+        "CHIPS Act 추가 보조금",
+        "메모리 cycle 2028"
+      ],
+      "target_price": 950
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "HBM 점유율 15% 유지 + EPS $20",
+      "key_assumptions": [
+        "HBM 점유율 15%",
+        "메모리 cycle 2027 정점",
+        "인디애나 fab 2027 ramp"
+      ],
+      "target_price": 800
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "Hynix·Samsung 격차 확대 + 인디애나 fab 지연. EPS $12",
+      "key_assumptions": [
+        "HBM 점유율 10%",
+        "fab ramp 1년 지연",
+        "AI capex 둔화"
+      ],
+      "target_price": 500
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM3E 12-Hi NVIDIA H300 인증",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "HBM3E 12-Hi NVIDIA H300 인증"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "HBM4 양산 시작 (Hynix·Samsung 대비 1년 지연)",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "HBM4 양산 시작 (Hynix·Samsung 대비 1년 지연)"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "인디애나 fab phase 1 가동",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "인디애나 fab phase 1 가동"
+    },
+    {
+      "date": "2026-12",
+      "event": "CHIPS Act 추가 보조금 ($3B 가능)",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "CHIPS Act 추가 보조금 ($3B 가능)"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "DRAM cycle 정점 확인",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "DRAM cycle 정점 확인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM 점유율 격차 확대 (3rd entrant 한계)",
+      "probability": "high",
+      "impact": "high",
+      "description": "HBM 점유율 격차 확대 (3rd entrant 한계)",
+      "mitigation": "-"
+    },
+    {
+      "name": "인디애나 fab ramp 지연",
+      "probability": "high",
+      "impact": "high",
+      "description": "인디애나 fab ramp 지연",
+      "mitigation": "-"
+    },
+    {
+      "name": "AI capex 사이클 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "AI capex 사이클 둔화",
+      "mitigation": "-"
+    },
+    {
+      "name": "valuation 부담 (1Y +712%)",
+      "probability": "high",
+      "impact": "high",
+      "description": "valuation 부담 (1Y +712%)",
+      "mitigation": "-"
+    },
+    {
+      "name": "중국 수출 제재 강화",
+      "probability": "med",
+      "impact": "med",
+      "description": "중국 수출 제재 강화",
+      "mitigation": "-"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "리튬 가격은 2025년 저점 통과, 2026년 H2부터 회복",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T1 메모리 슈퍼사이클' alignment score=0.88; 본 종목 관련성 = 직접 — DRAM·NAND 100%",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.88
+    },
+    {
+      "claim": "삼성전자 HBM4 메인 supplier + 가격 프리미엄 (회사 발언)",
+      "type": "company",
+      "evidence": "본 분석 thesis 'T2 HBM4' alignment score=0.55; 본 종목 관련성 = 3rd entrant — 추격 단계",
+      "testability": "medium",
+      "current_status": "pending",
+      "alignment_score": 0.55
+    },
+    {
+      "claim": "메모리+파운드리 동시 capex 증액",
+      "type": "company",
+      "evidence": "본 분석 thesis 'T5 Capex 증액' alignment score=0.78; 본 종목 관련성 = 인디애나 fab",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.78
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "10-Q",
+      "title": "영업이익 yoy +200% + HBM 매출 비중 18%",
+      "impact": "+/긍정적"
+    }
+  ]
+}

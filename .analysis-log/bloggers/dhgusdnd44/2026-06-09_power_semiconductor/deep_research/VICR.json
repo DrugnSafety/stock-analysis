@@ -1,0 +1,170 @@
+{
+  "ticker": "VICR",
+  "company_kr": "바이코",
+  "company_en": "Vicor",
+  "exchange": "NASDAQ",
+  "as_of_date": "2026-06-11",
+  "industry": {
+    "name": "Power Semiconductor (전력 반도체)",
+    "name_kr": "전력 반도체 / 800V DC 데이터센터",
+    "overview": "고밀도 전력모듈·VRM/PMIC 설계 전문. 800V DC 3~4층(48V→1V 대전류) 영역의 핵심 — 전력반도체가 아닌 전력전달망(PDN) 설계로 고마진. AI GPU 전류밀도 폭증 수혜.",
+    "competitors": [
+      {
+        "name": "Monolithic Power",
+        "ticker": "MPWR",
+        "share_pct": null,
+        "moat": "VRM·PMIC 강자"
+      },
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": null,
+        "moat": "전력관리 IC"
+      },
+      {
+        "name": "onsemi",
+        "ticker": "ON",
+        "share_pct": null,
+        "moat": "전력관리"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "AI 데이터센터 800V DC 전환(2027H2 변곡점)으로 전력반도체 TAM 구조적 확대. 1층 고전압 SiC/2층 800V GaN·SiC/3~4층 대전류 PMIC 층별 분화."
+    },
+    "ai_infrastructure_context": "데이터센터 전력밀도 폭증·전력망 무효전력 문제·SST(고체변압기) 도입이 전력반도체 희소성을 견인.",
+    "news": []
+  },
+  "financials": {
+    "currency": "USD",
+    "unit": "USD M",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, USD M)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": null,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": null,
+        "net_margin": null
+      },
+      {
+        "year": 2022,
+        "revenue": 399.08,
+        "op_income": 33.7,
+        "op_margin": 8.4,
+        "net_income": 25.45,
+        "net_margin": 6.4
+      },
+      {
+        "year": 2023,
+        "revenue": 405.06,
+        "op_income": 51.36,
+        "op_margin": 12.7,
+        "net_income": 53.59,
+        "net_margin": 13.2
+      },
+      {
+        "year": 2024,
+        "revenue": 359.06,
+        "op_income": 18.19,
+        "op_margin": 5.1,
+        "net_income": 6.13,
+        "net_margin": 1.7
+      },
+      {
+        "year": 2025,
+        "revenue": 452.7,
+        "op_income": 81.83,
+        "op_margin": 18.1,
+        "net_income": 118.56,
+        "net_margin": 26.2
+      }
+    ],
+    "trajectory_summary": "",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 360,
+      "thesis": "AI GPU 대전류 PDN 수요 폭증+고밀도 모듈 채택+로열티",
+      "key_assumptions": [
+        "1000A급 PDN 설계 우위 인정",
+        "대형 GPU 채택"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 292,
+      "thesis": "성장하나 경쟁·실적 변동성",
+      "key_assumptions": [
+        "AI 전력모듈 점진 채택",
+        "마진 회복"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 200,
+      "thesis": "MPS·인피니언 경쟁+고객집중+실적 변동",
+      "key_assumptions": [
+        "점유 정체",
+        "마진 압박"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "AI 전력모듈 design-win·로열티",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "GPU 대전류 PDN 채택"
+    },
+    {
+      "date": "2026",
+      "event": "분기 실적",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "매출·마진 변동성 추이"
+    }
+  ],
+  "risks": [
+    {
+      "name": "경쟁 격화",
+      "probability": "med",
+      "impact": "med",
+      "description": "MPS·인피니언·온세미 경쟁, 바이코 독점 아님",
+      "mitigation": "특허·고밀도 IP"
+    },
+    {
+      "name": "실적 변동성·고객집중",
+      "probability": "med",
+      "impact": "high",
+      "description": "매출 변동성 큼",
+      "mitigation": "고객 다변화"
+    },
+    {
+      "name": "밸류 부담",
+      "probability": "med",
+      "impact": "med",
+      "description": "fwd PE ~53",
+      "mitigation": "AI 성장으로 정당화"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-11",
+    "sources": [
+      "dhgusdnd44 블로그 1~3편",
+      "yfinance",
+      "SEC EDGAR",
+      "ITC ruling 2026-05"
+    ]
+  }
+}

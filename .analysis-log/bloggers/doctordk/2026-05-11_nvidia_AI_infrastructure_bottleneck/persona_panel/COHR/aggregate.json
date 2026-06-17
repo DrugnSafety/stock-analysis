@@ -1,0 +1,435 @@
+{
+  "ticker": "COHR",
+  "ticker_name": "코히런트",
+  "aggregated_at": "2026-05-11T21:44:16.474342+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.664,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (3/4)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "valuation",
+      "frequency": 13,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "michael-burry",
+        "nassim-taleb",
+        "ben-graham",
+        "bill-ackman",
+        "mohnish-pabrai",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "stanley-druckenmiller",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화"
+      ]
+    },
+    {
+      "theme": "AI capex 사이클 지속성",
+      "frequency": 13,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "michael-burry",
+        "nassim-taleb",
+        "ben-graham",
+        "bill-ackman",
+        "mohnish-pabrai",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "stanley-druckenmiller",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "워런 버핏의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "narrative_vs_quant_resolution": "워런 버핏는 Quality + moat + margin of safety, long-term hold 기준으로 본 종목 평가 — verdict는 'neutral'. 광통신 transceiver business는 cyclic semi 카테고리 — outside circle of competence 경계. NVIDIA equity stake가 partial moat이나 customer concentration risk."
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "찰리 멍거의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "narrative_vs_quant_resolution": "찰리 멍거는 Mental models + quality businesses + concentrated long-term 기준으로 본 종목 평가 — verdict는 'neutral'. Mental model: 'AI bottleneck'은 합리적 thesis이나 transceiver supplier의 long-term economics는 cyclical commodity 측면 — wonderful company 아님."
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "피터 린치의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "narrative_vs_quant_resolution": "피터 린치는 PEG ratio + 6-bucket classification + scuttlebutt 기준으로 본 종목 평가 — verdict는 'lean_bullish'. AI optics 매출 35→55%, EPS growth 60%+, Forward PE 42x → PEG 0.7 = fast grower 영역. 추가 multi-bagger potential."
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "캐시 우드의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "narrative_vs_quant_resolution": "캐시 우드는 Disruptive innovation + 5-year price target + S-curve adoption 기준으로 본 종목 평가 — verdict는 'lean_bullish'. AI disruption의 핵심 supplier — 800G→1.6T→CPO 전환 베타. Innovation cycle 5년 동안 +5-10x potential."
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "마이클 버리의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "narrative_vs_quant_resolution": "마이클 버리는 Deep value contrarian + tail risk + asymmetric short positioning 기준으로 본 종목 평가 — verdict는 'lean_bearish'. Forward PE 42x, EV/Sales 7x = historical 2x premium. 단일 고객 NVIDIA·MS 의존도 60%+. Drawdown -40-50% risk."
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "나심 탈레브의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "narrative_vs_quant_resolution": "나심 탈레브는 Anti-fragility + barbell + tail risk avoidance + optionality 기준으로 본 종목 평가 — verdict는 'neutral'. Convex upside는 valid하나 fragility 신호 (PE 42x + concentrated customer + cyclical industry). Barbell 적용 어려움."
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "벤저민 그레이엄의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄는 Defensive investor + margin of safety + net-net + Mr. Market 기준으로 본 종목 평가 — verdict는 'lean_bearish'. PE 42x·EV/Sales 7x는 defensive investor에게 명백 overvalued. 광통신 cyclic 특성 + 1Y +375% spike = Mr. Market 과열 영역."
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "빌 애크먼의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "narrative_vs_quant_resolution": "빌 애크먼는 Concentrated quality + activist catalyst + 8-10 names 기준으로 본 종목 평가 — verdict는 'neutral'. Quality + catalyst는 있으나 valuation 부담. Activist position 어려움 (제품 cycle 중심 회사)."
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "모니시 파브라이의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "narrative_vs_quant_resolution": "모니시 파브라이는 Cloning + spawner businesses + few-bets + cigar-butts 기준으로 본 종목 평가 — verdict는 'neutral'. Spawner aspect (NVIDIA stake → AI optics platform 확대) attractive이나 valuation discipline 위배. 'Few bets' 기준 다른 대안 존재."
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.82,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "필 피셔의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher",
+      "narrative_vs_quant_resolution": "필 피셔는 15-point scuttlebutt + R&D culture + 10x growth multi-decade 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Scuttlebutt: 800G/1.6T design-win 1위, R&D culture 강함, management (Vince Roche pre-Coherent merger) capable. Long-term 10x potential."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "라케시 준준왈라의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "narrative_vs_quant_resolution": "라케시 준준왈라는 EM growth megatrends + concentrated bull positions 기준으로 본 종목 평가 — verdict는 'lean_bullish'. AI mega-trend 직접 수혜. EM 시장에 직접 비교 가능 종목 없음 — 글로벌 baseline. Concentrated bull stance."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "스탠리 드러켄밀러의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러는 Macro tailwind + concentrated + flexible directional 기준으로 본 종목 평가 — verdict는 'lean_bullish'. AI capex 2026 $400B 중 networking $90B → 광통신 직접 수혜. NVIDIA equity stake = explicit endorsement."
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Top customer concentration: NVIDIA + Microsoft 합계 매출 60%+ — order pace 변경 시 직접 충격",
+        "[inference] CPO(co-packaged optics) 전환 시 pluggable transceiver share loss — 2027-2028 본격화",
+        "[assumption] Forward PE 42x·EV/Sales 7x는 historical 2x premium — AI 성장률 둔화 시 multiple compression 30-50% 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 800G transceiver 시장점유율 25% 1위, AI optics backlog $5.2B (book-to-bill 1.6x)",
+        "[inference] NVIDIA equity stake 발표 후 supply chain criticality 인정 → re-rating 지속",
+        "[assumption] 1.6T 전환 사이클 (2026 H2~2028)에서 design-win leadership 유지 가능"
+      ],
+      "uncertainty": "애스워드 다모다란의 핵심 불확실성: AI capex cycle 지속성 + COHR 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "narrative_vs_quant_resolution": "애스워드 다모다란는 Story + numbers DCF + narrative discipline 기준으로 본 종목 평가 — verdict는 'neutral'. Story (AI optics king) 강력하나 numbers — revenue $7B → $15B by 2028, OPM 22%, terminal growth 5% → fair value $310, 현재 $335 → 8% overvalued."
+    }
+  }
+}

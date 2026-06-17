@@ -1,0 +1,150 @@
+{
+  "computed_at": "2026-05-25",
+  "portfolio_value": 1000000,
+  "base_limit_pct": 0.2,
+  "n_pairs": 5,
+  "limits": [
+    {
+      "ticker": "FRO",
+      "as_of_date": "2026-05-25",
+      "current_price": 37.12,
+      "portfolio_value": 1000000,
+      "volatility_metrics": {
+        "daily_volatility": 0.03107,
+        "annualized_volatility": 0.4932,
+        "volatility_percentile": 74.1,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.653,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.1437,
+      "position_limit_value": 143748.0,
+      "remaining_position_limit_value": 143748.0,
+      "max_quantity": 3872
+    },
+    {
+      "ticker": "DHT",
+      "as_of_date": "2026-05-25",
+      "current_price": 17.38,
+      "portfolio_value": 1000000,
+      "volatility_metrics": {
+        "daily_volatility": 0.02602,
+        "annualized_volatility": 0.413,
+        "volatility_percentile": 80.6,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.694,
+      "correlation_metrics": {
+        "avg_correlation_with_active": 0.843,
+        "max_correlation_with_active": 0.843,
+        "active_positions": [
+          "FRO"
+        ],
+        "per_ticker": {
+          "FRO": 0.843
+        }
+      },
+      "corr_multiplier": 0.7,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.0971,
+      "position_limit_value": 97090.0,
+      "remaining_position_limit_value": 97090.0,
+      "max_quantity": 5586
+    },
+    {
+      "ticker": "STNG",
+      "as_of_date": "2026-05-25",
+      "current_price": 80.21,
+      "portfolio_value": 1000000,
+      "volatility_metrics": {
+        "daily_volatility": 0.02499,
+        "annualized_volatility": 0.3967,
+        "volatility_percentile": 21.6,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.702,
+      "correlation_metrics": {
+        "avg_correlation_with_active": 0.695,
+        "max_correlation_with_active": 0.697,
+        "active_positions": [
+          "FRO",
+          "DHT"
+        ],
+        "per_ticker": {
+          "FRO": 0.693,
+          "DHT": 0.697
+        }
+      },
+      "corr_multiplier": 0.85,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.1193,
+      "position_limit_value": 119280.5,
+      "remaining_position_limit_value": 119280.5,
+      "max_quantity": 1487
+    },
+    {
+      "ticker": "010950.KS",
+      "as_of_date": "2026-05-25",
+      "current_price": 109000.0,
+      "portfolio_value": 1000000,
+      "volatility_metrics": {
+        "daily_volatility": 0.05527,
+        "annualized_volatility": 0.8774,
+        "volatility_percentile": 15.4,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": [
+          "FRO",
+          "DHT",
+          "STNG"
+        ],
+        "per_ticker": {}
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 1
+    },
+    {
+      "ticker": "329180.KS",
+      "as_of_date": "2026-05-25",
+      "current_price": 680000.0,
+      "portfolio_value": 1000000,
+      "volatility_metrics": {
+        "daily_volatility": 0.04575,
+        "annualized_volatility": 0.7262,
+        "volatility_percentile": 79.4,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": 0.134,
+        "max_correlation_with_active": 0.134,
+        "active_positions": [
+          "010950.KS"
+        ],
+        "per_ticker": {
+          "010950.KS": 0.134
+        }
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 0
+    }
+  ]
+}

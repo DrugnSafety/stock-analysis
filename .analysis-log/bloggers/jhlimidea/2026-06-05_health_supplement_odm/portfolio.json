@@ -1,0 +1,117 @@
+{
+  "computed_at": "2026-06-06T00:07:39.547319+09:00",
+  "start_cash": 100000000.0,
+  "start_date": "2026-06-05",
+  "end_date": "2026-06-04",
+  "n_decisions": 7,
+  "total_trades": 5,
+  "total_buy_value": 44613238.44,
+  "total_sell_value": 0.0,
+  "final_cash": 55386761.56,
+  "end_positions_value": 44628323.28,
+  "final_nav": 100015084.84,
+  "total_return_pct": 0.0151,
+  "final_positions": {
+    "008490.KS": {
+      "qty": 791,
+      "avg_cost": 18300.0,
+      "last_price": 18300.0,
+      "market_value": 14475300.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "044820.KQ": {
+      "qty": 303,
+      "avg_cost": 18130.0,
+      "last_price": 18130.0,
+      "market_value": 5493390.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "194700.KQ": {
+      "qty": 734,
+      "avg_cost": 14970.0,
+      "last_price": 14970.0,
+      "market_value": 10987980.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "222040.KQ": {
+      "qty": 807,
+      "avg_cost": 6810.0,
+      "last_price": 6810.0,
+      "market_value": 5495670.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "GL9.IR": {
+      "qty": 377121,
+      "avg_cost": 21.64,
+      "last_price": 21.68,
+      "market_value": 8175983.28,
+      "unrealized_pnl": 15084.84,
+      "unrealized_return_pct": 0.1848
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-06-05",
+      "ticker": "008490.KS",
+      "action": "buy",
+      "qty": 791,
+      "price": 18300.0,
+      "cost": 14475300.0,
+      "cash_after": 85524700.0
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "044820.KQ",
+      "action": "buy",
+      "qty": 303,
+      "price": 18130.0,
+      "cost": 5493390.0,
+      "cash_after": 80031310.0
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "194700.KQ",
+      "action": "buy",
+      "qty": 734,
+      "price": 14970.0,
+      "cost": 10987980.0,
+      "cash_after": 69043330.0
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "222040.KQ",
+      "action": "buy",
+      "qty": 807,
+      "price": 6810.0,
+      "cost": 5495670.0,
+      "cash_after": 63547660.0
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "GL9.IR",
+      "action": "buy",
+      "qty": 377121,
+      "price": 21.64,
+      "cost": 8160898.44,
+      "cash_after": 55386761.56
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 0.0,
+      "end_price": 0.0,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0151
+    },
+    "SPY": {
+      "start_price": 748.85,
+      "end_price": 748.85,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0151
+    }
+  }
+}

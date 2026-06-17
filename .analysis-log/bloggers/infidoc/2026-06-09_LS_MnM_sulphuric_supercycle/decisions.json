@@ -1,0 +1,116 @@
+{
+  "computed_at": "2026-06-09T16:13:24.016693",
+  "ledger_path": ".analysis-log/bloggers/infidoc/2026-06-09_LS_MnM_sulphuric_supercycle/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/infidoc/2026-06-09_LS_MnM_sulphuric_supercycle/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "006260.KS",
+      "date": "2026-06-09",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 10,
+        "neutral": 7
+      },
+      "signal_score": 0.5882,
+      "weighted_confidence": 0.376,
+      "action": "buy",
+      "size_factor": 0.75,
+      "target_value": 11250000.0,
+      "target_quantity": 29,
+      "current_price": 387500.0,
+      "position_limit_value": 15000000.0,
+      "annualized_volatility": 0.6,
+      "reasoning": "강한 매수 신호 (+0.59), 한도의 75% 진입",
+      "price_krw_equivalent": 387500.0,
+      "fx_rate": 1.0
+    },
+    {
+      "ticker": "010120.KS",
+      "date": "2026-06-09",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 9,
+        "neutral": 5,
+        "lean_bearish": 3
+      },
+      "signal_score": 0.3529,
+      "weighted_confidence": 0.229,
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 7500000.0,
+      "target_quantity": 34,
+      "current_price": 219500.0,
+      "position_limit_value": 15000000.0,
+      "annualized_volatility": 0.6,
+      "reasoning": "중간 매수 신호 (+0.35), 한도의 50% 진입",
+      "price_krw_equivalent": 219500.0,
+      "fx_rate": 1.0
+    },
+    {
+      "ticker": "000500.KS",
+      "date": "2026-06-09",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 11,
+        "neutral": 4,
+        "lean_bearish": 2
+      },
+      "signal_score": 0.5294,
+      "weighted_confidence": 0.334,
+      "action": "buy",
+      "size_factor": 0.75,
+      "target_value": 11250000.0,
+      "target_quantity": 34,
+      "current_price": 322000.0,
+      "position_limit_value": 15000000.0,
+      "annualized_volatility": 0.6,
+      "reasoning": "강한 매수 신호 (+0.53), 한도의 75% 진입",
+      "price_krw_equivalent": 322000.0,
+      "fx_rate": 1.0
+    },
+    {
+      "ticker": "NDA.DE",
+      "date": "2026-06-09",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 13,
+        "neutral": 4
+      },
+      "signal_score": 0.7647,
+      "weighted_confidence": 0.489,
+      "action": "buy",
+      "size_factor": 0.75,
+      "target_value": 11250000.0,
+      "target_quantity": 37,
+      "current_price": 197.7,
+      "position_limit_value": 15000000.0,
+      "annualized_volatility": 0.6,
+      "reasoning": "강한 매수 신호 (+0.76), 한도의 75% 진입",
+      "price_krw_equivalent": 296550.0,
+      "fx_rate": 1500.0
+    },
+    {
+      "ticker": "MOS",
+      "date": "2026-06-09",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 1,
+        "neutral": 6,
+        "lean_bearish": 10
+      },
+      "signal_score": -0.5294,
+      "weighted_confidence": 0.307,
+      "action": "avoid",
+      "size_factor": 0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 21.24,
+      "position_limit_value": 15000000.0,
+      "annualized_volatility": 0.6,
+      "reasoning": "강한 회피 신호 (-0.53) — short candidate",
+      "price_krw_equivalent": 29311.0,
+      "fx_rate": 1380.0
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "ticker": "285490.KS",
+  "aggregated_at": "2026-06-11T03:11:08.307099+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 14,
+      "pct": 82.4
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 5.9
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 11.8
+    }
+  },
+  "average_confidence": 0.753,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 정직성 문제",
+        "R&D 효율성 약화"
+      ],
+      "key_opportunities_top3": [
+        "영구자석 수직계열화",
+        "비중국 공급망 재평가"
+      ],
+      "uncertainty": "글로벌 희토류 시장의 정책 변화가 비즈니스 모델에 미치는 영향을 정확히 예측하기 어려움",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현재 주가 하락 추세 지속",
+        "중국의 추가적인 희토류 규제 완화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "글로벌 희토류 공급망 다변화 필요성",
+        "정부의 관련 정책 지원 강화"
+      ],
+      "uncertainty": "중국이 희토류 수출 제한을 느슨하게 할 경우, 노바텍의 전략적 가치가 감소할 수 있습니다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고변동성으로 인한 단기적 변동",
+        "금속 가격 변동성"
+      ],
+      "key_opportunities_top3": [
+        "비중국 수직계열화의 강화",
+        "정부 정책 지원과 자금 투입"
+      ],
+      "uncertainty": "중국의 규제가 완화되거나 철회될 경우, 비중국 밸류체인의 필요성이 감소할 가능성",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국의 수출 통제로 인한 시장 불확실성",
+        "글로벌 수요 변화에 대한 민감도"
+      ],
+      "key_opportunities_top3": [
+        "비중국 희토류 공급망 재정비",
+        "네오디뮴 자석의 전략적 가치 상승"
+      ],
+      "uncertainty": "중국의 정책 변화로 희토류 시장의 예측이 틀릴 경우 버디트가 뒤집힐 가능성",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "재무 데이터의 부족",
+        "고변동성"
+      ],
+      "key_opportunities_top3": [
+        "비중국 희소자산의 가치 상승",
+        "수직계열화로 인한 원자재 확보"
+      ],
+      "uncertainty": "글로벌 정치적 변화로 인해 시장 변동성이 확대되면, 장기 전략이 영향을 받을 가능성",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "글로벌 경기 침체",
+        "중국의 정책 변화"
+      ],
+      "key_opportunities_top3": [
+        "비중국 희토류 채굴 확대",
+        "노바텍의 수직 계열화 성공"
+      ],
+      "uncertainty": "중국이 희토류 수출을 다시 원활히 진행한다면 현재의 기회가 감소할 수 있다",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국의 정책 변경 가능성",
+        "글로벌 경기 둔화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "비중국 생산자의 지원 확대",
+        "가격 상승에 따른 수익 레버리지"
+      ],
+      "uncertainty": "중국의 정책이 다시 풀릴 경우, 시장의 관심이 식을 가능성이 있으며, 이는 verdict를 뒤집을 수 있음.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국의 정책 변화 가능성",
+        "핵심 생산자들의 기술적 이슈"
+      ],
+      "key_opportunities_top3": [
+        "비중국 희토류 체인의 가격 경쟁력 강화",
+        "정부 정책 지원에 따른 시장 추진력"
+      ],
+      "uncertainty": "중국 수출 정책의 예상 외 완화가 이루어질 경우, 비중국 체인의 경쟁력이 큰 타격을 받을 수 있습니다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "낮은 리스크-보상 비율"
+      ],
+      "key_opportunities_top3": [
+        "장기적으로 희토류 공급망 안정성 확보"
+      ],
+      "uncertainty": "정량 신호가 개선되면 유리한 포지션 조정 가능성",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국의 정책 변화 가능성",
+        "수직계열화 추진에 따른 실행 리스크"
+      ],
+      "key_opportunities_top3": [
+        "비중국 희토류 수급 확대",
+        "정부 정책의 지원"
+      ],
+      "uncertainty": "중국의 희토류 통제 완화로 인한 수입 다변화 실패 시 verdict가 뒤집힐 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "글로벌 수요 변화",
+        "통화정책 변화"
+      ],
+      "key_opportunities_top3": [
+        "중국 희토류 수출 제한으로 인한 비중국 밸류체인의 수혜",
+        "EV 및 신재생 에너지 분야의 성장"
+      ],
+      "uncertainty": "글로벌 통화정책 변화나 중국의 정책 변화가 예상과 다르게 되면 본 분석 결론이 달라질 수 있다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 내 Chinese dominance의 잠재적 복귀",
+        "정부 정책 변동에 따른 위험"
+      ],
+      "key_opportunities_top3": [
+        "중국의 희토류 수출 규제 강화",
+        "수직 계열화에 따른 원가 절감 및 안정성 증가"
+      ],
+      "uncertainty": "중국의 정책 변화로 비중국 공급망의 전략적 가치가 감소하면 verdict가 바뀔 수 있다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국 수출 제한 지속 여부",
+        "정책적 지원의 실효성"
+      ],
+      "key_opportunities_top3": [
+        "비중국 밸류체인 강화",
+        "정책적 지원에 따른 수익 개선 가능성"
+      ],
+      "uncertainty": "정책적 모멘텀의 약화나 중국의 수출 완화가 발생하면, 지원 기반이 약해질 수 있다.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "재무 데이터 부재",
+        "탐색적 성장 추정치 검증 부족"
+      ],
+      "key_opportunities_top3": [
+        "희토류 시장 내 전략적 입지",
+        "정부의 공급망 지원"
+      ],
+      "uncertainty": "명확한 재무 데이터를 확보하게 되면 평가가 달라질 수 있습니다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국의 수출 통제 완화 가능성",
+        "비용 예측 불허"
+      ],
+      "key_opportunities_top3": [
+        "희토류 가격 안정 보장",
+        "자석 수직 계열화 성과"
+      ],
+      "uncertainty": "중국의 수출 정책이 급변한다면 노바텍의 수직 계열화 가치가 감소할 수 있다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "정량적 안전마진의 부족",
+        "희토류 시장의 정책 리스크"
+      ],
+      "key_opportunities_top3": [
+        "희소가치 증가로 인한 멀티플 확대",
+        "비중국 공급망 확보 및 정부 지원"
+      ],
+      "uncertainty": "글로벌 정책 변화와 비중국 공급망 확장이 지연되면 결과가 뒤집힐 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "데이터 부족으로 인한 명확한 평가 어려움",
+        "부정적 모멘텀이 지속될 가능성"
+      ],
+      "key_opportunities_top3": [
+        "희토류 밸류체인의 구조적 재평가 가능성",
+        "중국 공급 제한 속 비중국 기업의 기회"
+      ],
+      "uncertainty": "기초 데이터가 충분하지 않은 점에서 공시 및 시장 신뢰성 문제 발생 시 판단 바뀔 수 있음.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    }
+  }
+}

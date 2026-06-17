@@ -1,0 +1,358 @@
+{
+  "ticker": "ASMB",
+  "aggregated_at": "2026-06-01T11:38:31.082885+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 12,
+      "pct": 92.3
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.738,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 4,
+      "personas": [
+        "warren-buffett",
+        "cathie-wood",
+        "michael-burry",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "높은 변동성",
+        "높은 시장 변동성",
+        "바이오텍의 일반적인 높은 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부채/자기자본 비율",
+        "임상 데이터의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "길리어드 주요 파트너로의 자리매김",
+        "다수의 임상 적응증 확장 가능"
+      ],
+      "uncertainty": "임상 시험 실패나 주요 파트너의 이탈은 verdict를 뒤집을 수 있습니다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "희석으로 인한 주가 하락",
+        "단기적으로 데이터 보강 필요"
+      ],
+      "key_opportunities_top3": [
+        "길리어드의 추가 투자와 파트너십",
+        "경구용 NTCP 억제 플랫폼의 다양성"
+      ],
+      "uncertainty": "플랫폼 확장이 HDV와 PBC/PSC 시장에서 성공하지 못한다면 verdict는 부정적으로 변할 수 있음.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "추가 자본조달의 희석화",
+        "임상 실패 리스크"
+      ],
+      "key_opportunities_top3": [
+        "새로운 적응증 추가로 인한 시장 확장",
+        "길리어드의 지속적 지원"
+      ],
+      "uncertainty": "임상 결과가 예상보다 저조하면, 합당한 가격 기준을 충족하지 못할 가능성이 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "길리어드와의 파트너쉽 이상 유지는 중요한 리스크",
+        "장기 파이프라인 성공 여부 불확실"
+      ],
+      "key_opportunities_top3": [
+        "길리어드의 추가 투자 및 지원",
+        "플랫폼 확장을 통한 시장 잠재력 증가"
+      ],
+      "uncertainty": "플랫폼 확장이 실패하고 길리어드가 지분을 축소하면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고수익성 제품 출시에 실패할 위험",
+        "높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "길리어드와의 깊은 파트너십",
+        "PBC/PSC 시장 진입 기회 확대"
+      ],
+      "uncertainty": "효능 데이터 미발표로 연구 결과가 기대에 못 미치면, 길리어드와의 협력이 미미해질 수 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "신규 임상 실패 시 하방 리스크 확대",
+        "임상 시험 연기 가능성"
+      ],
+      "key_opportunities_top3": [
+        "길리어드의 추가 자본 투자로 인한 신뢰성 강화",
+        "임상 적응증 확장을 통한 잠재적 시장 확대"
+      ],
+      "uncertainty": "ABI-6250의 임상 실패 혹은 예상보다 심각한 부작용 발생 시 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "ROIC 데이터 부재",
+        "현재 Valuation metrics의 부정적 해석"
+      ],
+      "key_opportunities_top3": [
+        "Gilead의 전략적 투자 및 지분 확대",
+        "해결되지 않은 시장의 파이프라인 잠재력 확대"
+      ],
+      "uncertainty": "FDA 승인 실패시 또는 Gilead의 전략적 방향 변화 시 verdict 변동 가능성.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "임상 시험 성공 여부",
+        "장기 자금 조달 이슈"
+      ],
+      "key_opportunities_top3": [
+        "R&D 파이프라인 확장",
+        "길리어드의 지속적 지원"
+      ],
+      "uncertainty": "임상 실패나 파트너십의 붕괴가 발생할 경우 verdict가 변동될 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 시장 변동성",
+        "임상 실험의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "길리어드의 지속적 지원",
+        "자산 확장 통한 기업 가치 제고"
+      ],
+      "uncertainty": "ABI-6250가 PBC/PSC 적응증 효과를 입증하지 못하면 결국 가치 평가가 재검토될 수 있다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가된 주가",
+        "지속적인 적자"
+      ],
+      "key_opportunities_top3": [
+        "길리어드의 영향력",
+        "잠재적 임상 성과"
+      ],
+      "uncertainty": "경영성과가 개선되고, 긍정적인 임상 시험 결과가 명확해질 경우 분석이 반전될 수 있다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "바이오텍의 일반적인 높은 변동성",
+        "임상 데이터의 최종 결과 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "NTCP 억제 플랫폼의 다중 적응증 가능성",
+        "길리어드와 함께 하는 전략적 파트너십"
+      ],
+      "uncertainty": "임상 시험 실패 또는 예상보다 낮은 시장 수요",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "적은 임상 데이터에 대한 의존"
+      ],
+      "key_opportunities_top3": [
+        "길리어드의 지속적 지원",
+        "ABI-6250의 적응증 확장"
+      ],
+      "uncertainty": "ABI-6250의 성공적인 임상 완료 실패 시 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부정적 수익성 지표",
+        "임상시험 데이터 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "길리어드의 추가 투자와 파트너십",
+        "파이프라인의 적응증 고도화"
+      ],
+      "uncertainty": "임상 실험 실패, 관계 악화 시 회사의 평가가 급락할 수 있음.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

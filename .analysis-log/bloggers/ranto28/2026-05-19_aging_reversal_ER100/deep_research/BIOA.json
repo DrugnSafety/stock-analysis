@@ -1,0 +1,182 @@
+{
+  "industry": {
+    "name": "Longevity / Anti-aging Biotech",
+    "overview": "글로벌 longevity biotech 산업은 2024년 $25B → 2030년 $80B+ (CAGR ~21%). Altos Labs(베이조스·밀너 30억달러)와 Life Biosciences(Sinclair팀)이 양강 unicorn. 2026년 1월 Life Biosciences ER-100 FDA IND 승인 = 인류 최초 'age-reversal' 인체 임상. OSK 3-factor + doxycycline-inducible 표준화 진행 중. 동반 산업: AI×Bio 신약개발(RXRX·Insilico), CRISPR 인-vivo gene editing(NTLA·CRSP·BEAM), 메틸화 NGS(ILMN·Macrogen), CDMO(Lonza·Catalent·삼성바이오로직스). 단기 catalyst: 2026Q4 ER-100 1상 1차 데이터 발표.",
+    "competitors": [
+      {
+        "name": "Life Biosciences (비상장)",
+        "ticker": "n/a",
+        "share_pct": 0,
+        "moat": "Sinclair 학계 1위 + ER-100 first-in-human IND"
+      },
+      {
+        "name": "Altos Labs (비상장)",
+        "ticker": "n/a",
+        "share_pct": 0,
+        "moat": "$3B 자금 + 세계 최고급 인력 (야마나카·벨몬테·호바스 등)"
+      },
+      {
+        "name": "Recursion Pharmaceuticals",
+        "ticker": "RXRX",
+        "share_pct": 8,
+        "moat": "AI×Bio 플랫폼 + longevity 파이프라인"
+      },
+      {
+        "name": "BioAge Labs",
+        "ticker": "BIOA",
+        "share_pct": 4,
+        "moat": "Pure-play longevity biotech"
+      },
+      {
+        "name": "Intellia Therapeutics",
+        "ticker": "NTLA",
+        "share_pct": 6,
+        "moat": "CRISPR in-vivo gene editing (OSK enabler)"
+      },
+      {
+        "name": "Calico (Alphabet)",
+        "ticker": "GOOGL (간접)",
+        "share_pct": 5,
+        "moat": "AI-driven longevity (Google scale)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-19",
+        "title": "메르 — '80세가 4주만에 20세가 된다는 역노화 실험은 어디까지 왔나' 분석",
+        "source": "메르 블로그",
+        "summary": "Altos Labs vs Life Biosciences 양강 구도 + ER-100 FDA IND 승인 + 임상 진입 상세"
+      },
+      {
+        "date": "2026-03-28",
+        "title": "Life Biosciences ER-100 first dose to first NAION patient",
+        "source": "Life Biosciences PR",
+        "summary": "1상 첫 환자 주사 — 28일 모니터링 시작"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "Sinclair 교수 'first-in-human age reversal' 공식 발표",
+        "source": "Harvard Medical School",
+        "summary": "FDA IND 승인 후 첫 공식 발표"
+      },
+      {
+        "date": "2026-01-28",
+        "title": "Life Biosciences ER-100 FDA IND 승인",
+        "source": "FDA",
+        "summary": "OSK 3-factor + doxycycline-inducible 안전장치 설계"
+      },
+      {
+        "date": "2025-11-10",
+        "title": "Altos Labs Series A extension $1B 추가 펀딩",
+        "source": "TechCrunch",
+        "summary": "총 누적 $3B+ 자금 — 산업 dominant unicorn"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 21.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 44.2,
+      "thesis": "BIOA 새 파이프라인 promising + ER-100 1상 success sector re-rate",
+      "key_assumptions": [
+        "새 파이프라인 IND 진입",
+        "ER-100 1상 성공",
+        "sector beta upside"
+      ],
+      "description": "BIOA 새 파이프라인 promising + ER-100 1상 success sector re-rate"
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 16.37,
+      "thesis": "+315% 후 narrative 유지, catalyst 부재 sideways",
+      "key_assumptions": [
+        "catalyst 부재",
+        "narrative 유지",
+        "현금 안정"
+      ],
+      "description": "+315% 후 narrative 유지, catalyst 부재 sideways"
+    },
+    "bear": {
+      "prob_pct": 35,
+      "target_price": 4.91,
+      "thesis": "재차 임상 실패 또는 ER-100 sector failure cascade",
+      "key_assumptions": [
+        "임상 실패",
+        "sector contagion",
+        "equity dilution"
+      ],
+      "description": "재차 임상 실패 또는 ER-100 sector failure cascade"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q4",
+      "event": "ER-100 1상 1차 데이터 (sector beta)",
+      "expected_impact": "±50% 변동성"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "BIOA 새 파이프라인 update",
+      "expected_impact": "±20%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Clinical Binary",
+      "probability": "high",
+      "impact": "high",
+      "description": "직전 BGE-105 실패 후 회복 — 재차 실패 시 fatal blow",
+      "mitigation": "포지션 한도 5% 이하 + put hedge"
+    },
+    {
+      "name": "Cash Runway",
+      "probability": "med",
+      "impact": "high",
+      "description": "annual burn $150M, runway 2년",
+      "mitigation": "분기 cash burn rate 모니터링"
+    },
+    {
+      "name": "Sector Contagion",
+      "probability": "high",
+      "impact": "high",
+      "description": "ER-100 실패 시 -50% 동반 폭락",
+      "mitigation": "sector ETF (LONG) 베타 헷지"
+    },
+    {
+      "name": "Liquidity",
+      "probability": "med",
+      "impact": "med",
+      "description": "market cap $0.73B small-mid cap — 변동성 ↑",
+      "mitigation": "low-volume 시 매매 자제"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "type": "company",
+      "claim": "BIOA는 pure-play longevity — 모든 핵심 thesis(T1·T3·T4·T7·T8) 직접 노출",
+      "evidence": "유일한 pure-play longevity 상장사, 매출 미미 = 100% pipeline thesis",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "type": "industry",
+      "claim": "직전 -85% 후 회복 narrative — high asymmetric upside/downside",
+      "evidence": "BGE-105 Ph2 실패(2025), 1년 +315% 회복, market cap $0.73B",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "type": "industry",
+      "claim": "ER-100 sector beta exposure 가장 강한 종목 중 하나",
+      "evidence": "longevity sector ETF (LONG) 구성종목 상위, ARKG holdings",
+      "testability": "high",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": []
+}

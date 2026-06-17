@@ -1,0 +1,194 @@
+{
+  "ticker": "010120.KS",
+  "company_kr": "LS ELECTRIC",
+  "company_en": "LS ELECTRIC",
+  "exchange": "KRX (KOSPI)",
+  "industry": {
+    "name": "전력기기 (변압기·배전·자동화·ESS PCS)",
+    "name_kr": "전력기기 / 북미 데이터센터 전력설비",
+    "overview": "한국 1위 전력·자동화 업체. 리포트 탑픽이자 블로거 보유주. 4월 이후 확인 수주 8천억(345kV 1,066억·북미 DC 1,700억·블룸에너지 3,190억·VCB 1,050억·35kV 마이크로그리드 960억). 글의 핵심 경계 대상 — '가장 빨리 확인되는=정의상 가장 짧은' AI 반복수주 비중이 높아 코어위브 할인율 적용이 필요. 블로거 결론은 LS일렉 단독 리레이팅보다 LS전선·LS MnM(구리) 리레이팅 중심 밸류에이션.",
+    "competitors": [
+      {
+        "name": "HD현대일렉트릭",
+        "ticker": "267260.KS",
+        "moat": "북미 765kV·규제수주 비중 우위"
+      },
+      {
+        "name": "효성중공업",
+        "ticker": "298040.KS",
+        "moat": "765kV 1위·멤피스 증설"
+      },
+      {
+        "name": "Eaton",
+        "ticker": "ETN",
+        "moat": "북미 배전·데이터센터 전력"
+      },
+      {
+        "name": "Schneider Electric",
+        "ticker": "SU.PA",
+        "moat": "글로벌 전력관리"
+      }
+    ],
+    "market_size": {
+      "horizon": "북미 전력기기 — 빅테크 4사 2026 capex 합산 $7,250억, AEP 5년 capex $720→780억(2030 +63GW). 변압기 5개사 수주잔고 34.5조(6개사 38.3조)"
+    },
+    "news": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 300000,
+      "thesis": "전기화 구조적 성장 전환 + 유타 공장 가동으로 북미 규제수주(고질) 비중 확대, 2분기 수주 1.5~2조로 가이던스 조기 달성",
+      "key_assumptions": [
+        "전력기기=사이클→구조적 성장 산업 전환",
+        "AI 반복수주의 '반복'이 실제 지속",
+        "유틸리티 capex 가이던스 추가 상향"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 230000,
+      "thesis": "수주 모멘텀 지속하나 멀티플은 사이클 정점 인식으로 압축, EPS 성장이 주가 견인",
+      "key_assumptions": [
+        "2027~28 증설 후에도 마진 방어",
+        "구리-판가 스프레드 관리",
+        "AI·유틸리티 수주 믹스 균형"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 160000,
+      "thesis": "AI 수주 일정 조정(인도 연기·후속 보류) + 구리 쇼티지 역마진 + 멀티플 압축 동시 발생",
+      "key_assumptions": [
+        "코어위브 CDS 상승=AI 약한 고리 균열",
+        "대기열 부풀림 노출로 2028 추정치 하향",
+        "구리 가격 급등 vs 고정가 잔고"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "2분기 신규수주 공시 (1.5~2.0조 기대)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "상반기 가이던스 61~73% 달성 여부 확인"
+    },
+    {
+      "date": "2026-2027",
+      "event": "미국 유타 공장 초기 4,000억 증설",
+      "type": "capacity",
+      "expected_impact": "○",
+      "description": "공급능력↑이나 대기열 희소성 이익 둔화 양면"
+    },
+    {
+      "date": "2026-2027",
+      "event": "블룸에너지향 후속 단계 발주",
+      "type": "order",
+      "expected_impact": "+",
+      "description": "AI 수주 반복성의 실제 검증 지점"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI 수주 점진 부패(일정 조정)",
+      "probability": "med",
+      "impact": "high",
+      "description": "인도 연기·후속 보류로 잔고 총액 유지·전환속도 둔화. 공시의무 없어 조용히 진행",
+      "mitigation": "유틸리티 규제수주 비중 확대"
+    },
+    {
+      "name": "구리 쇼티지 역마진",
+      "probability": "med",
+      "impact": "high",
+      "description": "고정가 선도계약 잔고가 구리 상승시 역마진(2007 조선 후판). 헤지비율 미공시",
+      "mitigation": "에스컬레이션 조항·구매헤지"
+    },
+    {
+      "name": "멀티플 압축",
+      "probability": "med",
+      "impact": "med",
+      "description": "목표가 38배는 현 멀티플 영속 가정. 사이클 정점→멀티플 압축 패턴 미반영",
+      "mitigation": "구조적 성장 입증(전기화)"
+    },
+    {
+      "name": "패시브 환매 변동성",
+      "probability": "high",
+      "impact": "med",
+      "description": "ETF 바스켓 매도가 수급 변동성 증폭",
+      "mitigation": "펀더멘털 기반 장기보유"
+    }
+  ],
+  "as_of_date": "2026-06-16",
+  "financials": {
+    "currency": "KRW",
+    "unit": "억원",
+    "data_source": "yfinance 1.4.1 annual income statement (live) — 매출·영업이익·순이익. OPM/NPM 계산값. 연결 기준.",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 33771,
+        "op_income": 1890,
+        "net_income": 903,
+        "opm": 5.6,
+        "npm": 2.7
+      },
+      {
+        "year": 2023,
+        "revenue": 42305,
+        "op_income": 3249,
+        "net_income": 2060,
+        "opm": 7.7,
+        "npm": 4.9
+      },
+      {
+        "year": 2024,
+        "revenue": 45518,
+        "op_income": 3911,
+        "net_income": 2387,
+        "opm": 8.6,
+        "npm": 5.2
+      },
+      {
+        "year": 2025,
+        "revenue": 49658,
+        "op_income": 4265,
+        "net_income": 2866,
+        "opm": 8.6,
+        "npm": 5.8
+      }
+    ],
+    "market_snapshot": {
+      "ticker": "010120.KS",
+      "name": "LS ELECTRIC Co., Ltd.",
+      "current_price": 260000.0,
+      "currency": "KRW",
+      "forward_pe": 58.32,
+      "trailing_pe": null,
+      "beta": 1.67,
+      "return_1m_pct": 2.56,
+      "return_3m_pct": 56.06,
+      "return_6m_pct": 175.36,
+      "return_1y_pct": 364.48,
+      "volatility_annualized_pct": 74.33,
+      "market_cap_local_bn": 38684.19,
+      "market_cap_usd_bn": 29.76,
+      "ev_ebitda": 65.28,
+      "div_yield_pct": 0.23,
+      "pb": null,
+      "fetched_at": "2026-06-17T02:52:48",
+      "fetched_via": "yfinance 1.4.1 (live)",
+      "as_of_date": "2026-06-17"
+    }
+  },
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 블로그 '최근 전력기기 섹터 조정에 대해' (2026-06-16)",
+      "유안타증권 '전력기기, 조정은 끝이 아니라 기회'",
+      "yfinance (재무·시세 live)",
+      "theguru.co.kr 효성중공업 멤피스 증설 (2026)"
+    ]
+  }
+}

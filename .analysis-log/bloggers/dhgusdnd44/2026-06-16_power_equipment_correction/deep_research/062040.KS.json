@@ -1,0 +1,181 @@
+{
+  "ticker": "062040.KS",
+  "company_kr": "산일전기",
+  "company_en": "Sanil Electric",
+  "exchange": "KRX (KOSPI)",
+  "industry": {
+    "name": "변압기 (북미 데이터센터·블룸에너지향)",
+    "name_kr": "중소형 변압기 / AI 온사이트 발전",
+    "overview": "2025 OPM 35.6%로 섹터 최고 수익성. 단 글이 가장 경계한 '속도 프리미엄' 표본 — 블룸에너지향 누적수주 750억 중 3단계 중 1단계만 반영(2~3단계는 업황 반전시 뒤집힐 수 있음), 블룸 프로젝트A 503억은 계약기간 11개월. AI(코어위브 할인율) 의존도·해지 리스크가 섹터 내 최대. 매출은 2022 1,077억→2025 5,019억 폭증.",
+    "competitors": [
+      {
+        "name": "LS ELECTRIC",
+        "ticker": "010120.KS",
+        "moat": "전력·자동화 종합"
+      },
+      {
+        "name": "HD현대일렉트릭",
+        "ticker": "267260.KS",
+        "moat": "초고압 변압기"
+      },
+      {
+        "name": "제룡전기",
+        "ticker": "033100.KQ",
+        "moat": "중소형 변압기 북미 수출"
+      }
+    ],
+    "market_size": {
+      "horizon": "북미 전력기기 — 빅테크 4사 2026 capex 합산 $7,250억, AEP 5년 capex $720→780억(2030 +63GW). 변압기 5개사 수주잔고 34.5조(6개사 38.3조)"
+    },
+    "news": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 340000,
+      "thesis": "블룸 2~3단계 발주 실행 + AI 온사이트 발전 폭증 지속, 고마진 유지",
+      "key_assumptions": [
+        "블룸에너지 파격행보 지속",
+        "AI capex 견조",
+        "반복발주의 반복 실현"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 250000,
+      "thesis": "고성장하나 AI 의존·단기계약 리스크로 멀티플 디스카운트",
+      "key_assumptions": [
+        "블룸 단계적 발주",
+        "마진 점진 정상화"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 150000,
+      "thesis": "코어위브 CDS 상승·블룸 후속단계 보류로 잔고 점진 부패",
+      "key_assumptions": [
+        "AI 약한 고리 균열",
+        "11개월 단기계약 미갱신",
+        "OPM 정상화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "블룸에너지향 2~3단계 발주",
+      "type": "order",
+      "expected_impact": "+",
+      "description": "AI 반복수주 실행력 핵심 검증"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적·OPM 추이",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "39% 고마진 지속 여부"
+    },
+    {
+      "date": "2026",
+      "event": "북미 데이터센터 신규 수주",
+      "type": "order",
+      "expected_impact": "+",
+      "description": "고객 다변화 여부"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI 의존·해지 리스크",
+      "probability": "high",
+      "impact": "high",
+      "description": "블룸·DC 단기계약(11개월) 비중 최고. 코어위브 할인율 적용 대상",
+      "mitigation": "유틸리티향 다변화"
+    },
+    {
+      "name": "마진 정상화",
+      "probability": "med",
+      "impact": "high",
+      "description": "OPM 39%는 희소성 피크. 증설·경쟁시 압박",
+      "mitigation": "고부가 제품 믹스"
+    },
+    {
+      "name": "증설 과잉공급",
+      "probability": "med",
+      "impact": "med",
+      "description": "1,500~2,000억 증설 후 대기열 둔화",
+      "mitigation": "수주 가시성 확보"
+    }
+  ],
+  "as_of_date": "2026-06-16",
+  "financials": {
+    "currency": "KRW",
+    "unit": "억원",
+    "data_source": "yfinance 1.4.1 annual income statement (live) — 매출·영업이익·순이익. OPM/NPM 계산값. 연결 기준.",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 1077,
+        "op_income": 122,
+        "net_income": 41,
+        "opm": 11.3,
+        "npm": 3.8
+      },
+      {
+        "year": 2023,
+        "revenue": 2145,
+        "op_income": 466,
+        "net_income": 390,
+        "opm": 21.7,
+        "npm": 18.2
+      },
+      {
+        "year": 2024,
+        "revenue": 3340,
+        "op_income": 1092,
+        "net_income": 837,
+        "opm": 32.7,
+        "npm": 25.1
+      },
+      {
+        "year": 2025,
+        "revenue": 5019,
+        "op_income": 1786,
+        "net_income": 1489,
+        "opm": 35.6,
+        "npm": 29.7
+      }
+    ],
+    "market_snapshot": {
+      "ticker": "062040.KS",
+      "name": "SANIL ELECTRIC",
+      "current_price": 256500.0,
+      "currency": "KRW",
+      "forward_pe": 26.47,
+      "trailing_pe": null,
+      "beta": null,
+      "return_1m_pct": -0.77,
+      "return_3m_pct": 65.59,
+      "return_6m_pct": 84.86,
+      "return_1y_pct": 253.81,
+      "volatility_annualized_pct": 76.75,
+      "market_cap_local_bn": 7837.38,
+      "market_cap_usd_bn": 6.03,
+      "ev_ebitda": 37.4,
+      "div_yield_pct": 0.49,
+      "pb": null,
+      "fetched_at": "2026-06-17T03:02:15",
+      "fetched_via": "yfinance 1.4.1 (live)",
+      "as_of_date": "2026-06-17"
+    }
+  },
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 블로그 '최근 전력기기 섹터 조정에 대해' (2026-06-16)",
+      "유안타증권 '전력기기, 조정은 끝이 아니라 기회'",
+      "yfinance (재무·시세 live)",
+      "theguru.co.kr 효성중공업 멤피스 증설 (2026)"
+    ]
+  }
+}

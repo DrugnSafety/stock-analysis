@@ -1,0 +1,382 @@
+{
+  "ticker": "NVDA",
+  "aggregated_at": "2026-06-03T04:21:56.736608+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 10,
+      "pct": 76.9
+    },
+    "lean_neutral": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.754,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 8,
+      "personas": [
+        "rakesh-jhunjhunwala",
+        "bill-ackman",
+        "warren-buffett",
+        "charlie-munger",
+        "phil-fisher",
+        "nassim-taleb",
+        "cathie-wood",
+        "michael-burry"
+      ],
+      "examples": [
+        "AI 산업의 경쟁 심화",
+        "경쟁 격화 가능성",
+        "향후 AI 시장의 경쟁 심화"
+      ]
+    },
+    {
+      "theme": "변동성",
+      "frequency": 6,
+      "personas": [
+        "rakesh-jhunjhunwala",
+        "bill-ackman",
+        "charlie-munger",
+        "stanley-druckenmiller",
+        "nassim-taleb",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "높은 변동성",
+        "높은 변동성",
+        "높은 시장 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진 비전이 이루어지지 않을 경우",
+        "AI 산업의 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "에지 AI 인프라로의 전환에서 선두",
+        "차세대 AI 추론 기술을 위한 GPU 수요 증가"
+      ],
+      "uncertainty": "AI 산업의 예상치 못한 기술적 추세 변화나 경쟁 심화가 발생하면 verdict가 뒤집힐 수 있습니다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PER로 인한 밸류에이션 부담"
+      ],
+      "key_opportunities_top3": [
+        "기존 인프라 활용한 성장이 가능",
+        "AI 추론 수요 증가"
+      ],
+      "uncertainty": "AI 활용성에 대한 급격한 변화가 없을 경우",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁 격화 가능성",
+        "기술 발전에 따른 급속한 변화 적응 필요"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론 수요 증가",
+        "기술 리더십 유지로 인한 시장 점유율 확대"
+      ],
+      "uncertainty": "AI 중심의 분산형 인프라 시장에서 NVIDIA의 실행력이 부족하면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "향후 AI 시장의 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "인프라 전환을 통한 비용 절감",
+        "AI 패권 경쟁에서의 주요 위치 확보"
+      ],
+      "uncertainty": "엔비디아의 인프라 확장이 성공하지 못하고 경쟁에 밀리면 평가가 바뀔 수 있음",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 trailing PE에 따른 고평가 리스크",
+        "AI 및 GPU 시장의 경쟁 심화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론 및 분산형 AI의 성장과 NVIDIA의 선도적 위치",
+        "기존 인프라 활용을 통한 자본 효율성 향상"
+      ],
+      "uncertainty": "AI 및 GPU 시장의 경쟁 환경이 급격히 변화하거나, 현재의 고평가가 장기적으로 유지되지 않으면 판단이 달라질 수 있습니다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "시장 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "분산형 AI로 전환",
+        "기존 인프라의 AI 활용 증대"
+      ],
+      "uncertainty": "글로벌 경기 둔화나 AI 기술의 급속한 변화로 인해 전략 수정이 필요할 수 있다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 시장 변동성",
+        "글로벌 경제 둔화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI 엣지 컴퓨팅 수요 급증",
+        "기존 인프라 활용의 비용 효율성"
+      ],
+      "uncertainty": "글로벌 경제 급변 및 AI 패권 경쟁에서 신규 경쟁자 대두",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "lean_neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA로 인한 재무적 과대평가",
+        "AI 시장의 경쟁 격화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "에지 AI 시대 진입에 따른 새로운 수익 채널",
+        "기존 통신 인프라 활용 가능성"
+      ],
+      "uncertainty": "온전히 에지 AI로의 이동이 실현되지 않거나, 다른 강력한 경쟁자가 시장을 선점할 경우",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "경쟁사의 기술 개발"
+      ],
+      "key_opportunities_top3": [
+        "AI 엣지 컴퓨팅 증가",
+        "기존 인프라 활용 전략"
+      ],
+      "uncertainty": "AI 인프라 전환이 지연되거나, 경쟁에서 뒤처진다면 verdict가 변할 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "변동성 위험",
+        "경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "AI 에지 컴퓨팅 시장 성장",
+        "통신망 인프라 활용"
+      ],
+      "uncertainty": "AI 시장의 급격한 변화 및 기술 발전이 NVIDIA의 사업에 어떻게 영향을 미칠지에 따라 결론이 바뀔 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 PER 및 PBR",
+        "강력한 성장 서사에도 불구, 정량적 기준 미충족"
+      ],
+      "key_opportunities_top3": [
+        "엣지 컴퓨팅 전환에서의 선도적 위치",
+        "AI 추론 수요의 성장"
+      ],
+      "uncertainty": "AI 산업의 급격한 변화와 연구개발 성과가 예상보다 뛰어난 경우, 기존의 정량적 기준을 벗어나 수익성이 강화될 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "GPU 판매 증가에 따른 마진 압박",
+        "엣지 AI 채택이 예상보다 느릴 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "엣지 컴퓨팅을 통한 AI 추론 효율성 증가",
+        "기존 인프라를 활용한 비용 절감"
+      ],
+      "uncertainty": "AI 추론이 엣지로 이동하리라는 가정이 깨질 경우",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현재 가격 수준에서 충분한 디스카운트 부족",
+        "시장 변동성으로 인한 불확실성 존재"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 엣지 컴퓨팅 시장의 강력한 성장 잠재력",
+        "기존 데이터센터 및 통신 인프라의 AI 최적화"
+      ],
+      "uncertainty": "AI 및 엣지 컴퓨팅의 성장이 실패하거나, NVDA가 시장 지위를 잃을 경우 verdict가 뒤집힐 가능성 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    }
+  }
+}

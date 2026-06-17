@@ -1,0 +1,219 @@
+{
+  "industry": {
+    "name": "자동차 부품 / 휴머노이드·전장",
+    "overview": "현대모비스는 현대차그룹 핵심 부품사로 전장·모듈·A/S에 더해 휴머노이드 액추에이터·로보틱스 신성장 내러티브를 보유. 1년 +205%로 대장주 중 메모리 비의존 리더. fwdPE 14로 메모리주보다 밸류에이션 부담이 적고 이익 안정성이 높음.",
+    "competitors": [
+      {
+        "name": "현대모비스",
+        "ticker": "012330.KS",
+        "share_pct": 0.0,
+        "moat": "현대차그룹 캡티브 + 전장·액추에이터 내재화"
+      },
+      {
+        "name": "현대차",
+        "ticker": "005380.KS",
+        "share_pct": 0.0,
+        "moat": "완성차 OEM, 로보틱스(보스턴다이내믹스) 시너지"
+      },
+      {
+        "name": "LG전자",
+        "ticker": "066570.KS",
+        "share_pct": 0.0,
+        "moat": "전장(VS) 사업 성장"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "휴머노이드 액추에이터·로보틱스 모멘텀 부각",
+        "source": "업계/언론",
+        "summary": "그룹 로보틱스 밸류체인 내 부품 공급 기대"
+      },
+      {
+        "date": "2026-05",
+        "title": "전장 매출 비중 확대·주주환원 강화 기대",
+        "source": "업계/언론",
+        "summary": "Value-up 정책 수혜 대형주"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 60.0,
+      "cagr_pct": 10.0,
+      "horizon": "2026-2030 (전장+로보틱스)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 519063,
+        "op_income": 20278,
+        "op_margin": 3.9,
+        "net_income": 24853,
+        "net_margin": 4.8
+      },
+      {
+        "year": 2023,
+        "revenue": 592544,
+        "op_income": 22960,
+        "op_margin": 3.9,
+        "net_income": 34226,
+        "net_margin": 5.8
+      },
+      {
+        "year": 2024,
+        "revenue": 572370,
+        "op_income": 30737,
+        "op_margin": 5.4,
+        "net_income": 40556,
+        "net_margin": 7.1
+      },
+      {
+        "year": 2025,
+        "revenue": 611181,
+        "op_income": 33576,
+        "op_margin": 5.5,
+        "net_income": 36558,
+        "net_margin": 6.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 704005,
+      "total_liab": 211877,
+      "equity": 491676,
+      "cash": 49224,
+      "debt": 36681
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 40000,
+      "fcf_5y_avg": 15000,
+      "capex_intensity": 5.0
+    },
+    "peer_compare": [
+      {
+        "ticker": "012330.KS",
+        "name": "현대모비스",
+        "pe": 14.3,
+        "pb": 0.8,
+        "roe": 7.0,
+        "div_yield": 1.6
+      },
+      {
+        "ticker": "005380.KS",
+        "name": "현대차",
+        "pe": 6.0,
+        "pb": 0.6,
+        "roe": 11.0,
+        "div_yield": 4.5
+      },
+      {
+        "ticker": "066570.KS",
+        "name": "LG전자",
+        "pe": 9.0,
+        "pb": 0.9,
+        "roe": 8.0,
+        "div_yield": 1.8
+      }
+    ],
+    "_note": "pl_5y·bs_snapshot: yfinance live (억원 단위, FY2022-2025). cf_summary는 추정. peer_compare는 fwdPE 등 시장 데이터 기반 근사."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 1000000,
+      "thesis": "휴머노이드 액추에이터 양산·전장 고성장으로 성장주 재평가, PBR 1배 회복",
+      "key_assumptions": [
+        "AI 수요 지속",
+        "강세장 연장"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 800000,
+      "thesis": "전장 성장 + 안정적 캡티브 이익, 점진적 주주환원 확대",
+      "key_assumptions": [
+        "점진적 이익 성장",
+        "밸류 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 580000,
+      "thesis": "로보틱스 내러티브 지연·완성차 수요 둔화로 모멘텀 소멸",
+      "key_assumptions": [
+        "AI capex 둔화",
+        "강세장 종료·multiple 압축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "event": "휴머노이드 액추에이터 공급 진전",
+      "type": "catalyst",
+      "expected_impact": "+",
+      "description": "그룹 로보틱스 밸류체인 수주"
+    },
+    {
+      "date": "2026-07",
+      "event": "2Q26 실적",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "전장 매출 비중·마진"
+    }
+  ],
+  "risks": [
+    {
+      "name": "로보틱스 내러티브 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "휴머노이드 상용화 지연 시 성장 프리미엄 소멸",
+      "mitigation": "안정적 전장·A/S 캐시카우"
+    },
+    {
+      "name": "강세장 종료 동반 조정",
+      "probability": "med",
+      "impact": "med",
+      "description": "대장주 바스켓 동반 하락 위험",
+      "mitigation": "fwdPE 14·PBR 0.8의 밸류 완충"
+    },
+    {
+      "name": "완성차 전방 수요 둔화",
+      "probability": "low",
+      "impact": "med",
+      "description": "글로벌 자동차 판매 둔화 시 부품 물량 감소",
+      "mitigation": "전장·전동화 믹스 개선"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "현 코스피 강세장은 소수 대장주로 리더십이 압축되고 있다",
+      "type": "normative",
+      "evidence": "KOSPI +88% YTD vs KOSDAQ -11.9%, 10종목 중 9종목 하락",
+      "testability": "breadth 지표·종목별 기여도로 검증 가능",
+      "current_status": "지지 (4-Analyst 3/4 support)"
+    },
+    {
+      "claim": "이 종목이 꺾이면 코스피 강세장 시즌 종료 신호다",
+      "type": "conditional",
+      "evidence": "지수가 소수 대장주에 전적 의존하는 구조",
+      "testability": "대장주 고점 대비 추세 이탈 시 지수 동행 여부",
+      "current_status": "지지하나 거짓신호 위험 (counter neutral)"
+    },
+    {
+      "claim": "추세를 타되 정점 신호 시 이탈하는 규율이 최적",
+      "type": "normative",
+      "evidence": "고밸류·레버리지 국면의 비대칭 하방",
+      "testability": "이탈 규칙의 사후 수익률",
+      "current_status": "split (2/4) — 실행력이 관건"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "안내",
+      "title": "DART 전자공시 — 자동 fetch 미적용(매크로 타이밍 분석)",
+      "date": "2026-06-02",
+      "summary": "본 분석은 개별 기업 이벤트가 아닌 대장주 바스켓 타이밍 관점 — 분기보고서·HBM 공급계약 등은 build 시 DART 캐시 참조"
+    }
+  ]
+}

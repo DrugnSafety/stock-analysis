@@ -1,0 +1,107 @@
+{
+  "blogger": "dhgusdnd44",
+  "topic": "AI 에너지·인프라 비대칭 — 지능은 저렴해지고 전력·인프라는 비싸진다 (LS·전력망·구리)",
+  "extraction_date": "2026-06-16",
+  "thesis_count": 9,
+  "theses": [
+    {
+      "id": "T1",
+      "claim_id": "T1",
+      "claim": "제본스의 역설로 AI 토큰 가격은 디플레이션 경로에 들어섰지만(2023년 대비 90%+ 하락), 그 무한한 토큰을 뒷받침하는 데이터센터 부지·변압기·전력망·구리·에너지원은 물리적 공급제약으로 급증할 수 없어 '지능은 저렴해지고 인프라 가치는 상승하는 비대칭'이 구조적으로 심화된다.",
+      "type": "causal",
+      "timeframe": "2026-2030",
+      "verifiable": true,
+      "supporting_data": "실리콘데이터 LLM 토큰 지출 지수가 2025년 말 1.0 → 수개월 만에 2.0 돌파. 토큰 단가 90%+ 하락에도 총지출 2배 = 사용량 산술적 최소 20배 증가. H100 임대지수 꾸준히 상승. 변압기·전력망·구리는 증설 리드타임이 길어 단기 공급 비탄력.",
+      "key_assumption": "AI 컴퓨팅 수요 흡수력이 인프라 증설 속도를 계속 앞지른다",
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "claim_id": "T2",
+      "claim": "시장의 시선이 '모델을 개발하는 기업'에서 '에너지와 인프라를 보유한 기업'으로 이동하며, 전력기기·전선·HVDC·비철금속 보유 기업이 AI 사이클의 차순위 수혜 축으로 재평가된다.",
+      "type": "predictive",
+      "timeframe": "2026-2029",
+      "verifiable": true,
+      "supporting_data": "2026년 들어 AI·사이버보안 섹터가 시장평균 아웃퍼폼, 클라우드·소프트웨어는 언더퍼폼. 자금이 '확실한 성장성'으로 압축. 전력 병목이 데이터센터 증설의 실질 제약으로 부상.",
+      "key_assumption": "AI capex 사이클이 전력·인프라 병목 단계까지 이어진다",
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "claim_id": "T3",
+      "claim": "미국 태양광 발전 비중이 2026년 5월 사상 처음 석탄(12.8% vs 석탄)을 추월했고, 신재생 확대는 해상풍력-HVDC·태양광-전력화라는 인프라 수요를 구조적으로 견인해 LS그룹(LS·LS ELECTRIC)이 직접 수혜한다. 미국 내 HVDC 공장 건설이 타이밍상 정합한다.",
+      "type": "causal",
+      "timeframe": "2026-2030",
+      "verifiable": true,
+      "supporting_data": "2026년 5월 태양광 비중 12.8%로 석탄 첫 추월(2010년대 초 0%→10년 만). 블로거 직접 매핑: 해상풍력→HVDC→LS, 태양광→전력화→LS. LS 미국 HVDC 공장 건설 중. 단 5월 데이터는 계절성 반영분.",
+      "key_assumption": "연간 기준으로도 신재생 추세가 이어지고 미국 전력망 투자가 지속된다",
+      "importance": "core"
+    },
+    {
+      "id": "T4",
+      "claim_id": "T4",
+      "claim": "트럼프 행정부가 미국 내 풍력발전 프로젝트 개발 전면 금지 관련 항소를 자진 취하한 것은, 정책 리스크에도 불구하고 미국 신재생·전력망 투자가 재개·지속된다는 신호다.",
+      "type": "factual",
+      "timeframe": "2026-2027",
+      "verifiable": true,
+      "supporting_data": "트럼프 행정부 풍력 프로젝트 금지 항소 자진 취하 보도. 해상풍력-HVDC 수요 회복은 LS 미국 HVDC 공장 가동률에 직결.",
+      "key_assumption": "정책 변동성이 신재생 프로젝트를 완전 좌초시키지 않는다",
+      "importance": "supporting"
+    },
+    {
+      "id": "T5",
+      "claim_id": "T5",
+      "claim": "AI 컴퓨팅 흡수 속도가 데이터센터 증설 속도를 앞질러, 시장이 예상하는 인프라 포화 시점보다 빠르게 컴퓨팅이 소모되며 전력 인프라 병목이 심화된다.",
+      "type": "causal",
+      "timeframe": "2026-2028",
+      "verifiable": true,
+      "supporting_data": "비용 90% 하락 + 지출 2배 = 총 토큰 사용량 최소 20배. '데이터센터를 지어 비용을 낮춘 속도보다 AI 사용 속도가 훨씬 빨랐음'. H100 지수 상승 추세.",
+      "key_assumption": "토큰 수요의 가격탄력성이 1을 크게 초과하는 상태가 지속된다",
+      "importance": "supporting"
+    },
+    {
+      "id": "T6",
+      "claim_id": "T6",
+      "claim": "유가 상승이 물류비·화학·금속 가격을 통해 PPI에 먼저 반영되고 3~6개월(길게는 1년) 시차로 근원 CPI에 전가되어 인플레이션 2차 파동 위험이 있으며, 이는 성장주 멀티플 압축과 하드애셋(구리·비철·실물 인프라) 선호로 연결된다.",
+      "type": "predictive",
+      "timeframe": "2026-H2~2027",
+      "verifiable": true,
+      "supporting_data": "헤드라인 CPI 2025년 말 2% 근접 후 2026년 급반등, 근원 CPI 2% 중반 잔류. 에너지 충격의 근원물가 도달 시차 평균 3~6개월. 1970년대 인플레이션 2차 파동 유사 패턴 경계.",
+      "key_assumption": "유가 상방이 유지되고 기업의 가격 전가가 현실화된다",
+      "importance": "supporting"
+    },
+    {
+      "id": "T7",
+      "claim_id": "T7",
+      "claim": "전략비축유 포함 미국 총 액체에너지 재고가 5년 평균·역대 최저치를 깨고 선형 감소 중이어서, 드라이빙 시즌과 맞물려 늦여름 공급 쇼티지·에너지 가격 상방 위험이 있다.",
+      "type": "predictive",
+      "timeframe": "2026-H2",
+      "verifiable": true,
+      "supporting_data": "SPR 포함 총 재고 역대 최저 붕괴·수직 낙하. 민간 상업재고 2022년 수준 근접. 점선 추세 선형 감소. SPR 버퍼 위험 수준까지 소진 → 정부 대책은 수출 제한 정도.",
+      "key_assumption": "이란·중동 공급 차질이 단기에 완전 해소되지 않는다",
+      "importance": "supporting"
+    },
+    {
+      "id": "T8",
+      "claim_id": "T8",
+      "claim": "지난 20여 년 자사주 매입 대중화와 상장사 수 수천 개 감소로 누적된 미국 주식 쇼티지가 깊어, 스페이스X·OpenAI·앤트로픽 같은 초대형 IPO 물량도 시장이 흡수 가능해 약세 촉발 요인이 되지 못한다.",
+      "type": "factual",
+      "timeframe": "2026-2027",
+      "verifiable": true,
+      "supporting_data": "배런스: 자사주 매입+비상장 선호로 23년간 유통 주식 수 구조적 감소. 대형 IPO가 통상 상승장 후반·약세 신호이나 이번엔 누적 주식 쇼티지가 흡수.",
+      "key_assumption": "유동성 환경이 급격히 위축되지 않는다",
+      "importance": "supporting"
+    },
+    {
+      "id": "T9",
+      "claim_id": "T9",
+      "claim": "이란 전쟁 이후 자금이 'AI·사이버보안'으로 철저히 압축되며 섹터 양극화가 발생했고, VIX 하향 안정과 함께 AI 인프라 테마로의 자금 집중이 지속된다.",
+      "type": "factual",
+      "timeframe": "2026",
+      "verifiable": true,
+      "supporting_data": "2025-12-31=100 리셋 기준 2026년 AI·사이버보안 아웃퍼폼, 클라우드·소프트웨어 언더퍼폼. 전쟁 직후 급등한 VIX 지속 하향 안정.",
+      "key_assumption": "지정학 충격이 AI 테마 자금 흐름을 역전시키지 않는다",
+      "importance": "supporting"
+    }
+  ]
+}

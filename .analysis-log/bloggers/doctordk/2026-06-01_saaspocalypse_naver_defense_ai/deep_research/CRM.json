@@ -1,0 +1,258 @@
+{
+  "industry": {
+    "name": "CRM SaaS (per-seat archetype, AI 에이전트 전환)",
+    "overview": "Salesforce는 글로벌 CRM 1위·per-seat 라이선스 모델의 archetype으로 SaaSpocalypse의 핵심 우려 대상. Agentforce(자체 AI 에이전트)로 좌석 잠식 위협을 결과·소비 기반 매출로 전환 시도. 본문 미언급 thematic 5번째 종목 — 섹터 심리 반전 시 베타 노출·밸류 회복 후보지만 자기잠식 리스크 양면성. fwd PE 12.7로 역사적 하단. 단위: $M.",
+    "competitors": [
+      {
+        "name": "Salesforce",
+        "ticker": "CRM",
+        "share_pct": null,
+        "moat": "CRM 1위 데이터·생태계(AppExchange) + Agentforce 전환"
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "share_pct": null,
+        "moat": "Dynamics+Copilot 번들"
+      },
+      {
+        "name": "ServiceNow",
+        "ticker": "NOW",
+        "share_pct": null,
+        "moat": "워크플로 + outcome pricing 선행"
+      },
+      {
+        "name": "HubSpot",
+        "ticker": "HUBS",
+        "share_pct": null,
+        "moat": "중소·중견 CRM, AI 전환 중"
+      },
+      {
+        "name": "Oracle",
+        "ticker": "ORCL",
+        "share_pct": null,
+        "moat": "ERP/CX 번들 + OCI"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-03-24",
+        "title": "SaaSpocalypse: B2B 소프트웨어 -20%",
+        "source": "FinancialContent",
+        "summary": "per-seat 모델 우려의 진앙 — CRM 대표 노출주"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "Agentforce ARR 초기 성과",
+        "source": "실적",
+        "summary": "AI 에이전트 소비 기반 과금 — 좌석 위협 대응"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "소프트웨어 V자 반등",
+        "source": "FinancialContent",
+        "summary": "섹터 회복 시 저PER 대장주 밸류 회복 베타"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "FY26 매출 $41.5B·영업익 $8.9B(OPM 21%)",
+        "source": "실적",
+        "summary": "마진 개선 지속, fwd PE 12.7로 저평가"
+      },
+      {
+        "date": "2026-06-01",
+        "title": "의교창 thesis: SaaS 대장주 테마 반전",
+        "source": "blog.naver.com/doctordk",
+        "summary": "본문 미언급 — 섹터 반전 시 동반 회복 후보로 추가"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 100.0,
+      "cagr_pct": 12.0,
+      "horizon": "CRM+AI 에이전트 2026→2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2023,
+        "revenue": 31352,
+        "op_income": 1858,
+        "net_income": 208,
+        "op_margin": 5.9,
+        "net_margin": 0.7
+      },
+      {
+        "year": 2024,
+        "revenue": 34857,
+        "op_income": 5999,
+        "net_income": 4136,
+        "op_margin": 17.2,
+        "net_margin": 11.9
+      },
+      {
+        "year": 2025,
+        "revenue": 37895,
+        "op_income": 7666,
+        "net_income": 6197,
+        "op_margin": 20.2,
+        "net_margin": 16.4
+      },
+      {
+        "year": 2026,
+        "revenue": 41525,
+        "op_income": 8917,
+        "net_income": 7457,
+        "op_margin": 21.5,
+        "net_margin": 18.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 100000,
+      "total_liab": 42000,
+      "equity": 58000,
+      "cash": 14000,
+      "debt": 9500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 10000,
+      "fcf_5y_avg": 9000,
+      "capex_intensity": 0.02
+    },
+    "peer_compare": [
+      {
+        "ticker": "CRM",
+        "name": "Salesforce",
+        "pe": 23.0,
+        "pb": 4.7,
+        "roe": 12.0,
+        "div_yield": 0.6
+      },
+      {
+        "ticker": "NOW",
+        "name": "ServiceNow",
+        "pe": 75.4,
+        "pb": 11.1,
+        "roe": 15.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "pe": 35.0,
+        "pb": 11.0,
+        "roe": 35.0,
+        "div_yield": 0.7
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 280.0,
+      "thesis": "Agentforce가 좌석 잠식을 소비 기반 매출로 역전, 섹터 심리 반전과 함께 fwd PE 12.7→18 멀티플 재평가.",
+      "key_assumptions": [
+        "Agentforce ARR 가속",
+        "NRR 안정",
+        "멀티플 회복"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 200.0,
+      "thesis": "매출 +9~10% 완만 성장·마진 개선 지속, 저PER 유지하며 섹터 베타로 점진 회복.",
+      "key_assumptions": [
+        "매출 한 자릿수 후반",
+        "FCF 마진 견조",
+        "멀티플 12~14배"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 150.0,
+      "thesis": "per-seat 잠식이 구조적으로 현실화, Agentforce 자기잠식으로 성장 둔화 — 저PER이 value trap.",
+      "key_assumptions": [
+        "seat 감소",
+        "Agentforce cannibalization",
+        "구조적 디레이팅"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "분기 실적 — Agentforce ARR·NRR·seat 추이",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "per-seat 위협 vs AI 전환 성패의 핵심 지표"
+    },
+    {
+      "date": "2026-H2",
+      "event": "Agentforce 가격모델·채택 확대",
+      "type": "product",
+      "expected_impact": "med",
+      "description": "소비 기반 전환 검증"
+    },
+    {
+      "date": "2026-H2",
+      "event": "자사주 매입·자본 환원",
+      "type": "capital",
+      "expected_impact": "med",
+      "description": "저PER+강한 FCF — 환원 여력"
+    }
+  ],
+  "risks": [
+    {
+      "name": "per-seat 모델 구조적 잠식",
+      "probability": "high",
+      "impact": "high",
+      "description": "AI 에이전트가 좌석 수요 대체 — CRM이 가장 직접 노출",
+      "mitigation": "Agentforce 소비 과금 전환"
+    },
+    {
+      "name": "Agentforce 자기잠식",
+      "probability": "med",
+      "impact": "med",
+      "description": "AI 에이전트가 기존 좌석 매출 cannibalize",
+      "mitigation": "신규 소비 매출이 상쇄 시 순증"
+    },
+    {
+      "name": "저PER value trap",
+      "probability": "med",
+      "impact": "med",
+      "description": "성장 둔화로 저PER이 정당한 디레이팅일 수 있음",
+      "mitigation": "FCF·환원·마진 개선 확인"
+    },
+    {
+      "name": "본문 미언급(thesis 직접 근거 약함)",
+      "probability": "med",
+      "impact": "low",
+      "description": "의교창 thesis에 직접 포함 안 됨 — thematic 추가",
+      "mitigation": "섹터 반전 베타로만 해석"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "섹터 반전 시 CRM 밸류 회복 여지가 있다",
+      "type": "predictive",
+      "evidence": "fwd PE 12.7 역사적 하단",
+      "testability": "med",
+      "current_status": "중립 — value vs trap 미정"
+    },
+    {
+      "claim": "CRM은 per-seat 잠식 최대 피해주다",
+      "type": "factual",
+      "evidence": "per-seat archetype",
+      "testability": "med",
+      "current_status": "부분 지지"
+    },
+    {
+      "claim": "Agentforce가 위협을 기회로 전환한다",
+      "type": "predictive",
+      "evidence": "ARR 초기 성과",
+      "testability": "high",
+      "current_status": "미검증"
+    }
+  ],
+  "korean_disclosures": []
+}

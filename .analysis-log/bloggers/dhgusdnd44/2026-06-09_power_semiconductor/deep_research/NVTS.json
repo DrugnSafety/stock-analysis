@@ -1,0 +1,172 @@
+{
+  "ticker": "NVTS",
+  "company_kr": "나비타스 세미컨덕터",
+  "company_en": "Navitas Semiconductor",
+  "exchange": "NASDAQ",
+  "as_of_date": "2026-06-11",
+  "industry": {
+    "name": "Power Semiconductor (전력 반도체)",
+    "name_kr": "전력 반도체 / 800V DC 데이터센터",
+    "overview": "GaN(질화갈륨)·SiC 전력 반도체 순수 팹리스. 데이터센터 800V DC 2층(800V) GaN 채택 경쟁의 핵심 플레이어. 'GaN Safe'(밀러클램프·단락보호 칩내부 통합)로 안전·통합 차별화.",
+    "competitors": [
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": null,
+        "moat": "GaN 자체생산 수직계열화·SiC 1위·자본력"
+      },
+      {
+        "name": "Texas Instruments",
+        "ticker": "TXN",
+        "share_pct": null,
+        "moat": "650V GaN 공동1위·아날로그 거인·자체 fab"
+      },
+      {
+        "name": "Innoscience",
+        "ticker": "2577.HK",
+        "share_pct": null,
+        "moat": "중국 GaN 웨이퍼 최대·저가 — 단 ITC 수입금지 리스크"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "AI 데이터센터 800V DC 전환(2027H2 변곡점)으로 전력반도체 TAM 구조적 확대. 1층 고전압 SiC/2층 800V GaN·SiC/3~4층 대전류 PMIC 층별 분화."
+    },
+    "ai_infrastructure_context": "데이터센터 전력밀도 폭증·전력망 무효전력 문제·SST(고체변압기) 도입이 전력반도체 희소성을 견인.",
+    "news": []
+  },
+  "financials": {
+    "currency": "USD",
+    "unit": "USD M",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, USD M)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": null,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": null,
+        "net_margin": null
+      },
+      {
+        "year": 2022,
+        "revenue": 37.94,
+        "op_income": -123.64,
+        "op_margin": -325.8,
+        "net_income": 73.91,
+        "net_margin": 194.8
+      },
+      {
+        "year": 2023,
+        "revenue": 79.46,
+        "op_income": -118.13,
+        "op_margin": -148.7,
+        "net_income": -145.43,
+        "net_margin": -183.0
+      },
+      {
+        "year": 2024,
+        "revenue": 83.3,
+        "op_income": -129.45,
+        "op_margin": -155.4,
+        "net_income": -84.6,
+        "net_margin": -101.6
+      },
+      {
+        "year": 2025,
+        "revenue": 45.92,
+        "op_income": -89.72,
+        "op_margin": -195.4,
+        "net_income": -116.95,
+        "net_margin": -254.7
+      }
+    ],
+    "trajectory_summary": "",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 40,
+      "thesis": "800V DC GaN 채택 본격화+대형 하이퍼스케일러 수주+흑자 전환",
+      "key_assumptions": [
+        "2027H2 800V DC 전환으로 2층 GaN 매출 급증",
+        "GaN Safe 통합 우위가 design-in으로 전환",
+        "현금소진 멈추고 BEP 도달"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 22,
+      "thesis": "GaN 기술우위 유지하나 매출 확대·흑자전환은 점진적",
+      "key_assumptions": [
+        "전기차+데이터센터 혼합 수요로 완만 성장",
+        "적자 축소되나 흑자전환 지연"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 10,
+      "thesis": "적자지속·현금소진+대형 수주 부재+경쟁 격화",
+      "key_assumptions": [
+        "800V DC 전환 지연(본문도 인정)",
+        "인피니언·TI 통합솔루션 추격으로 차별화 약화",
+        "증자 희석"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "분기 실적·GaN Safe design-win 업데이트",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "적자축소·하이퍼스케일러 수주 진척이 핵심"
+    },
+    {
+      "date": "2027-H2",
+      "event": "800V DC 데이터센터 전환 변곡점",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "2층 GaN 채택 본격화 시 최대 수혜"
+    }
+  ],
+  "risks": [
+    {
+      "name": "적자지속·현금소진",
+      "probability": "high",
+      "impact": "high",
+      "description": "fwd PE 음수(적자). 흑자전환 미확정, 증자 희석 리스크",
+      "mitigation": "GaN Safe design-win 확대·비용통제"
+    },
+    {
+      "name": "800V DC 전환 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "변곡점(2027H2)이 밀리면 매출 모멘텀 지연",
+      "mitigation": "전기차·소비자 충전 매출로 버퍼"
+    },
+    {
+      "name": "기술 1위≠투자 1위",
+      "probability": "med",
+      "impact": "med",
+      "description": "소형주·대형 레퍼런스 부족, 밸류 프리미엄 정당화 필요",
+      "mitigation": "대형 고객 확보"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-11",
+    "sources": [
+      "dhgusdnd44 블로그 1~3편",
+      "yfinance",
+      "SEC EDGAR",
+      "ITC ruling 2026-05"
+    ]
+  }
+}

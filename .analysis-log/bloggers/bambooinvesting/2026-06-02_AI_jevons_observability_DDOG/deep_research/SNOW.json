@@ -1,0 +1,173 @@
+{
+  "industry": {
+    "name": "Data Cloud + AI Data Platform",
+    "overview": "Data warehouse + lake + AI 통합 platform. 기업 데이터를 한 곳에 모아 ML/AI 워크로드를 돌리는 카테고리. AI attribution의 무대.",
+    "competitors": [
+      {
+        "name": "Databricks (private)",
+        "ticker": null,
+        "share_pct": 28.0,
+        "moat": "Open Iceberg + ML-first + Mosaic AI"
+      },
+      {
+        "name": "Google BigQuery",
+        "ticker": "GOOGL",
+        "share_pct": 18.0,
+        "moat": "Hyperscaler integration"
+      },
+      {
+        "name": "Microsoft Fabric",
+        "ticker": "MSFT",
+        "share_pct": 12.0,
+        "moat": "Azure + OneLake + Power BI"
+      },
+      {
+        "name": "Amazon Redshift",
+        "ticker": "AMZN",
+        "share_pct": 10.0,
+        "moat": "AWS integration"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 100,
+      "cagr_pct": 17,
+      "horizon": "2025-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-21",
+        "title": "Snowflake Q1 FY27 product 매출 +24% YoY, Cortex AI +180%",
+        "url": "https://investors.snowflake.com/",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "Iceberg open table format 채택 확대 + Cortex agent 발표",
+        "url": "https://www.snowflake.com/news/",
+        "impact": "+"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "target_pct": 30,
+      "rationale": "Cortex AI 매출 가속화 + agent platform 성공 + open table 채택",
+      "probability": 0.3
+    },
+    "base": {
+      "target_pct": 8,
+      "rationale": "Product revenue +24% 유지, multiple 점진 compression이지만 FCF margin 35% 안정",
+      "probability": 0.5
+    },
+    "bear": {
+      "target_pct": -30,
+      "rationale": "Databricks 시장 점유 침식 + consumption 매출 변동성",
+      "probability": 0.2
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q2 earnings",
+      "event": "Cortex AI 매출 비중 첫 단독 공시",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "AI 매출 가시화"
+    },
+    {
+      "date": "2026 H2",
+      "event": "Snowflake Summit + Cortex Agent platform GA",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "agent build 자체 platform 진입"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 220x 극단 고평가",
+      "probability": "high",
+      "impact": "high",
+      "description": "Perfection priced in — multiple compression 시 -50%",
+      "mitigation": "분할매수 + valuation guardrail"
+    },
+    {
+      "name": "Databricks displacement",
+      "probability": "med",
+      "impact": "high",
+      "description": "Open Iceberg + Mosaic AI로 신규 계약 lose",
+      "mitigation": "open table 채택 + neutrality 전략"
+    },
+    {
+      "name": "Consumption 변동성",
+      "probability": "med",
+      "impact": "med",
+      "description": "기업 AI 사용량 변동 시 매출 즉각 영향",
+      "mitigation": "고객 사용량 추적"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "Snowflake은 데이터 attribution platform — AI 사용량 측정의 무대"
+    },
+    {
+      "id": "TD2",
+      "claim": "Cortex AI는 hyperscaler 중립 platform — multi-cloud lock-in 회피 강점"
+    }
+  ],
+  "korean_disclosures": [],
+  "five_year_financials": {
+    "revenue_cagr": 35.0,
+    "opm_trajectory": "2022 -2% → 2025 8% → 2026E 14% (Non-GAAP)",
+    "roe_trajectory": "2022 -8% → 2025 5% → 2026E 11%",
+    "fcf_yield": 1.8,
+    "turnaround_signal": "Cortex AI +180% — 신규 product 가속화"
+  },
+  "reverse_dcf": {
+    "implied_growth_rate": 30.0,
+    "implied_terminal_margin": 25.0,
+    "judgement": "Forward PE 220x는 +30% 성장 + 25% margin 가정 — 회사 product revenue +24% 가이던스 대비 미달 시 multiple compression 위험.",
+    "scenario_summary": "Bull (35%) + Base (24%) + Bear (15%) — 가중 24% 가정 시 IRR 6-8%"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2023,
+        "revenue": 2066.0,
+        "op_income": -842.0,
+        "op_margin": -40.8,
+        "net_income": -797.0,
+        "net_margin": -38.6
+      },
+      {
+        "year": 2024,
+        "revenue": 2806.0,
+        "op_income": -1095.0,
+        "op_margin": -39.0,
+        "net_income": -836.0,
+        "net_margin": -29.8
+      },
+      {
+        "year": 2025,
+        "revenue": 3626.0,
+        "op_income": -1456.0,
+        "op_margin": -40.2,
+        "net_income": -1286.0,
+        "net_margin": -35.5
+      },
+      {
+        "year": 2026,
+        "revenue": 4684.0,
+        "op_income": -1435.0,
+        "op_margin": -30.6,
+        "net_income": -1332.0,
+        "net_margin": -28.4
+      }
+    ],
+    "snapshot": {
+      "cash": 2954.998016,
+      "debt": 2772.094976,
+      "equity": 5.595
+    }
+  },
+  "peer_compare": {}
+}

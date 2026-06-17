@@ -1,0 +1,465 @@
+{
+  "ticker": "267260.KS",
+  "aggregated_at": "2026-06-06T00:04:05.377139+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "lean_bullish": {
+      "count": 10,
+      "pct": 58.8
+    }
+  },
+  "average_confidence": 0.747,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 5,
+      "personas": [
+        "cathie-wood",
+        "stanley-druckenmiller",
+        "jim-simons",
+        "rakesh-jhunjhunwala",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "높은 변동성",
+        "시장 변동성",
+        "높은 시장 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "거시경제 긴축 가능성"
+      ],
+      "key_opportunities_top3": [
+        "없음"
+      ],
+      "uncertainty": "변동성이 개선되지 않으면 부정적 상태 지속",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "위험성이 높은 기술적 전환",
+        "불확실한 재무 자료"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 수요 증가",
+        "800V DC 관련 시장 선도 가능성"
+      ],
+      "uncertainty": "EPS 성장률이 예상보다 낮거나 기술적 전환 실패 시 verdict 변경 가능",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고 forward P/E로 인한 저평가 어려움",
+        "강한 부정적 모멘텀 신호"
+      ],
+      "key_opportunities_top3": [
+        "장기적으로 전력 솔루션에 대한 수요 잠재성",
+        "데이터센터 인프라 변화로 인한 기회"
+      ],
+      "uncertainty": "800V DC 전환이 빠르게 산업에 채택되면 현재 베어리시한 견해가 뒤집힐 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고평가 우려",
+        "매크로 환경 변화 시 전력 인프라 투자 지연"
+      ],
+      "key_opportunities_top3": [
+        "800VDC 도입으로 인한 효율 극대화",
+        "데이터센터 및 전력 인프라 수요 증가"
+      ],
+      "uncertainty": "글로벌 채권 시장과 금리 정책 변화가 빠르게 이루어지면 불확실성에 직면할 수 있다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "ROE 지속성 확인 필요",
+        "시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 데이터센터 전력 수요 증가",
+        "800VDC 전력 시스템 기술력"
+      ],
+      "uncertainty": "800VDC 시스템의 도입 속도가 예상보다 느릴 경우 투자 논리가 무너질 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "전력망의 DC 전환에서의 기술적 실패",
+        "경영진과 주주 간의 이해관계 불일치"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 밀도의 증가에 따른 수익성 증대",
+        "800V DC 전환으로 인한 시장 선도 기회"
+      ],
+      "uncertainty": "직류 전환의 기술적 도전과 시장 내 경쟁자들의 신속한 기술 채택 여부가 결정적인 변수입니다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고평가된 forward PE 비율",
+        "높은 시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "전력 인프라 혁신의 선도주자",
+        "데이터센터 수요 증가에 따른 성장 기회"
+      ],
+      "uncertainty": "800VDC 전환이 실질적인 수익성 개선으로 이어지지 않는다면 판세가 뒤집힐 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward P/E 평가",
+        "데이터센터 전력변환 기술에서도의 경쟁력 부족 가능성"
+      ],
+      "key_opportunities_top3": [
+        "전력기기 수요 증가",
+        "800VDC 관련 미래 혁신"
+      ],
+      "uncertainty": "만약 데이터센터 전력 시장에서 해자가 확고해진다면 획기적인 성장 기회가 될 수 있음.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "기술적 구현의 리스크"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 전력 수요 증가",
+        "800VDC 전환의 선두주자"
+      ],
+      "uncertainty": "전력망 기술 전환 속도가 늦춰지면, 시장 수혜 기대가 감소 가능",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가된 PER",
+        "시장 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "800VDC 인프라 전환",
+        "고체 전력 변압기(SST) 시장 확대"
+      ],
+      "uncertainty": "800VDC 전환 기술적 문제 해결 실패 시",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "R&D의 투자 효율성이 불확실",
+        "기술적 전환이 기대에 부응하지 않을 위험"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 전력 구조 혁신 참여",
+        "장기적인 성장시장에서 이익 극대화 가능성"
+      ],
+      "uncertainty": "데이터센터 내 800V DC 전환이 예상보다 지연되거나 확정되지 않으면, 시장 잠재력에 대한 전망이 약화될 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가된 EV/EBITDA",
+        "향후 새로운 기술이 직접적인 경제적 가치를 얼마나 창출할지 불확실"
+      ],
+      "key_opportunities_top3": [
+        "전력 효율성 향상에 따른 장기적 비용 절감 가능성",
+        "데이터센터 전력 패러다임 변화에 따른 선도적 위치 확보"
+      ],
+      "uncertainty": "800V DC 기술이 시장에서 경제적 가치를 얼마나 빨리 구현할 수 있는지가 관건",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Valuation concerns with high forward P/E",
+        "Potential execution risks in technology transition"
+      ],
+      "key_opportunities_top3": [
+        "Strong narrative in AI and data center infrastructure",
+        "Advanced product placement in potential high-growth market"
+      ],
+      "uncertainty": "If technology transition fails or AI demand slows down, the narrative weakening could hurt the premise.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 forward_pe",
+        "부채 관련 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 전력 효율성 개선",
+        "차세대 전력 인프라 수요 증가"
+      ],
+      "uncertainty": "전력 인프라 혁신이 성공적으로 이루어지면 긍정적 변화를 기대할 수 있음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "전력 전환 기술의 상용화 지연",
+        "높은 시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "전력 인프라의 효율적 개선",
+        "데이터센터의 수요 증가에 따른 성장"
+      ],
+      "uncertainty": "정부 규제가 강화되거나 전력 전환 기술의 상용화가 예상보다 늦어질 경우",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "전력기기의 기술적 채택이 기대에 못 미칠 수 있음",
+        "기술 전환 실패 가능성"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 수요 증가",
+        "800V DC 표준 채택"
+      ],
+      "uncertainty": "전력 효율성 개선에 대한 기술적 채택과 시장의 반응이 둔화되면 verdict가 뒤집힐 가능성",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부채 의존",
+        "단일 산업 의존성",
+        "기술 발전 속도"
+      ],
+      "key_opportunities_top3": [
+        "800VDC 기술 리더십",
+        "데이터센터 수요 증가"
+      ],
+      "uncertainty": "800VDC 전환이 실패하거나 대체 기술이 미 이행될 경우 리스크가 커짐",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

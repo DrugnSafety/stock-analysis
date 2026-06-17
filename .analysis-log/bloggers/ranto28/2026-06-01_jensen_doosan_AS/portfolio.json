@@ -1,0 +1,67 @@
+{
+  "computed_at": "2026-06-03T00:57:44.275924+09:00",
+  "start_cash": 100000000.0,
+  "start_date": "2026-06-02",
+  "end_date": "2026-06-02",
+  "n_decisions": 5,
+  "total_trades": 2,
+  "total_buy_value": 9214400.0,
+  "total_sell_value": 0.0,
+  "final_cash": 90785600.0,
+  "end_positions_value": 9214400.0,
+  "final_nav": 100000000.0,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "000150.KS": {
+      "qty": 2,
+      "avg_cost": 1918000.0,
+      "last_price": 1918000.0,
+      "market_value": 3836000.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "131970.KQ": {
+      "qty": 36,
+      "avg_cost": 149400.0,
+      "last_price": 149400.0,
+      "market_value": 5378400.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-06-02",
+      "ticker": "000150.KS",
+      "action": "buy",
+      "qty": 2,
+      "price": 1918000.0,
+      "cost": 3836000.0,
+      "cash_after": 96164000.0
+    },
+    {
+      "date": "2026-06-02",
+      "ticker": "131970.KQ",
+      "action": "buy",
+      "qty": 36,
+      "price": 149400.0,
+      "cost": 5378400.0,
+      "cash_after": 90785600.0
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 0.0,
+      "end_price": 0.0,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    },
+    "SPY": {
+      "start_price": 759.64,
+      "end_price": 759.64,
+      "return_pct": 0.0,
+      "alpha_pct": 0.0
+    }
+  },
+  "note": "진입 당일(2026-06-02) 스냅샷 — 사후 수익률 0%, 향후 backtester로 horizon별 추적 가능."
+}

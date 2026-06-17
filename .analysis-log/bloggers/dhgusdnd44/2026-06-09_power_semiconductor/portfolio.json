@@ -1,0 +1,60 @@
+{
+  "computed_at": "2026-06-12T03:37:06.232205+09:00",
+  "start_cash": 1000000.0,
+  "start_date": "2026-06-11",
+  "end_date": "2026-06-11",
+  "n_decisions": 8,
+  "total_trades": 2,
+  "total_buy_value": 109908.76,
+  "total_sell_value": 0.0,
+  "final_cash": 890091.24,
+  "end_positions_value": 109908.76,
+  "final_nav": 1000000.0,
+  "total_return_pct": -0.0,
+  "final_positions": {
+    "AIXA.DE": {
+      "qty": 999,
+      "avg_cost": 55.02,
+      "last_price": 55.02,
+      "market_value": 54964.98,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "IFX.DE": {
+      "qty": 713,
+      "avg_cost": 77.06,
+      "last_price": 77.06,
+      "market_value": 54943.78,
+      "unrealized_pnl": -0.0,
+      "unrealized_return_pct": -0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-06-11",
+      "ticker": "AIXA.DE",
+      "action": "buy",
+      "qty": 999,
+      "price": 55.02,
+      "cost": 54964.98,
+      "cash_after": 945035.02
+    },
+    {
+      "date": "2026-06-11",
+      "ticker": "IFX.DE",
+      "action": "buy",
+      "qty": 713,
+      "price": 77.06,
+      "cost": 54943.78,
+      "cash_after": 890091.24
+    }
+  ],
+  "benchmark_comparison": {
+    "SPY": {
+      "start_price": 734.83,
+      "end_price": 734.83,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    }
+  }
+}

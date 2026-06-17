@@ -1,0 +1,244 @@
+{
+  "industry": {
+    "name": "Foundry / Advanced Packaging (CoWoS, SoIC)",
+    "overview": "TSMC는 글로벌 Foundry 시장 점유율 60%+ 압도적 1위, advanced node(7nm 이하) 점유율 90%+. 의교창 thesis에서 가장 직접적 수혜자: CoWoS 패키징은 TSMC가 사실상 75% 이상 공급 — AI GPU(NVIDIA·AMD·Broadcom·Marvell)의 모든 advanced AI chip이 CoWoS를 거침. CoWoS 캐파 부족이 AI 공급망 1순위 병목이며, TSMC는 2026 35K wpm → 75K wpm 확대 발표. 2026 capex $42-44B의 35-40%가 advanced packaging 배정.",
+    "competitors": [
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 62.0,
+        "moat": "advanced node 90%+ 점유율 + CoWoS 75%+ + ASML EUV 우선 공급권 + global client base"
+      },
+      {
+        "name": "Samsung Foundry",
+        "ticker": "005930.KS",
+        "share_pct": 13.0,
+        "moat": "한국 본토 + Memory와 협업 — 그러나 advanced node yield 이슈"
+      },
+      {
+        "name": "Intel Foundry Services",
+        "ticker": "INTC",
+        "share_pct": 5.0,
+        "moat": "미국 본토 + CHIPS Act $8B 보조금 — 18A node 검증 단계"
+      },
+      {
+        "name": "GlobalFoundries",
+        "ticker": "GFS",
+        "share_pct": 6.0,
+        "moat": "특수공정 + RF/aerospace — advanced node 없음"
+      },
+      {
+        "name": "SMIC (중국)",
+        "ticker": "0981.HK",
+        "share_pct": 6.0,
+        "moat": "중국 내수 + 정부 지원 — 미국 제재로 advanced node 제한"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-22",
+        "title": "CoWoS 캐파 2026 75K wpm 확대 발표 (vs 2025 35K)",
+        "source": "TSMC Computex 발표",
+        "summary": "AI demand 'still capacity-constrained' 명시 (Wei CEO)",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-25",
+        "title": "1Q26 매출 $25.7B (+47% yoy), gross margin 58%",
+        "source": "TSMC Q1 earnings",
+        "summary": "HPC segment 매출 비중 51%로 첫 50% 돌파",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-10",
+        "title": "Arizona Fab 1 가동 (4nm)",
+        "source": "press release",
+        "summary": "AAPL·NVDA 일부 물량 미국 본토 생산 시작",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "2nm (N2) 양산 일정 2026 H2 (Apple·NVIDIA 우선)",
+        "source": "Bloomberg",
+        "summary": "advanced node leadership 유지",
+        "impact": "+"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "Trump 행정부 50% 가격 인상 검토 보도",
+        "source": "Reuters",
+        "summary": "관세 가능성 — 그러나 TSMC pricing power로 흡수 가능",
+        "impact": "-"
+      }
+    ]
+  },
+  "financials": {
+    "source": "SEC 20-F + Q1 26 earnings (US GAAP)",
+    "currency": "TWD (USD equivalent)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 56.8,
+        "op_income": 23.3,
+        "net_income": 21.4,
+        "op_margin": 41.0,
+        "net_margin": 37.7
+      },
+      {
+        "year": 2022,
+        "revenue": 75.9,
+        "op_income": 37.2,
+        "net_income": 34.2,
+        "op_margin": 49.0,
+        "net_margin": 45.1
+      },
+      {
+        "year": 2023,
+        "revenue": 69.3,
+        "op_income": 29.7,
+        "net_income": 26.7,
+        "op_margin": 42.9,
+        "net_margin": 38.6
+      },
+      {
+        "year": 2024,
+        "revenue": 90.0,
+        "op_income": 40.5,
+        "net_income": 36.1,
+        "op_margin": 45.0,
+        "net_margin": 40.1
+      },
+      {
+        "year": 2025,
+        "revenue": 117.0,
+        "op_income": 56.5,
+        "net_income": 49.8,
+        "op_margin": 48.3,
+        "net_margin": 42.6
+      }
+    ],
+    "bs_snapshot_2025e": {
+      "total_assets_usd_bn": 200.5,
+      "total_liab_usd_bn": 70.2,
+      "total_equity_usd_bn": 130.3,
+      "cash_usd_bn": 78.5,
+      "debt_usd_bn": 30.2,
+      "net_cash_usd_bn": 48.3
+    },
+    "trend_narrative": "5Y 매출 CAGR +16%, 영업이익 CAGR +19%. 영업이익률 41% → 48%로 향상 — capex acceleration에도 마진 확대는 advanced node pricing power + scale economy 입증. Net cash $48B로 capex 자금 cushion 매우 큰 편. ROE 28% / FCF margin 35% — 글로벌 메가캡 중 최고 수준 cash generation.",
+    "valuation_summary": "Forward PE 22.8× (yfinance live, 2026-06-02) — 역사 multiple 16-25× 대비 상단. PB 7.2× / EV/EBITDA 14× / Div yield 1.4%. 프리미엄 인정되나 cycle 의존성 risk premium 일부 반영."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.45,
+      "description": "CoWoS 75K wpm 캐파 ramp 성공 + 2nm node 우선 수혜 + AI HPC 매출 비중 60% 돌파. FY26 매출 $130B+ / EPS $13. Forward PE 25× → 시가총액 $3T (+30%)",
+      "key_drivers": [
+        "CoWoS 75K wpm 도달 2026 H2",
+        "Apple·NVIDIA 2nm 우선 발주",
+        "AI capex 지속"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "FY26 매출 $120B (컨센서스 hit). HPC 매출 비중 55%. CoWoS 캐파 65K wpm 도달. Forward PE 22× → +10-15%",
+      "key_drivers": [
+        "정상 ramp",
+        "Geo-political risk 흡수"
+      ]
+    },
+    "bear": {
+      "probability": 0.15,
+      "description": "Trump 50% 관세 + China invasion 우려 + AI capex digestion. FY26 매출 $105B, 시가총액 -20%",
+      "key_drivers": [
+        "관세 부과",
+        "Taiwan strait 긴장",
+        "AI 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07-18",
+      "name": "2Q26 실적",
+      "impact": "high",
+      "description": "HPC 매출 비중 + CoWoS 캐파 update"
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Apple iPhone 17 출시 + N2 양산 발표",
+      "impact": "high",
+      "description": "2nm node 첫 양산 신호"
+    },
+    {
+      "date": "2026-12-15",
+      "name": "Trump 관세 의사결정 (deadline)",
+      "impact": "high",
+      "description": "50% 관세 시 단기 -10%, 회피 시 +5%"
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Arizona Fab 2 (3nm) ramp",
+      "impact": "medium",
+      "description": "미국 본토 생산 다각화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Trump 관세·정책 변수",
+      "probability": "medium",
+      "impact": "high",
+      "description": "50% 관세 시 short-term volatility, long-term은 TSMC pricing power로 흡수"
+    },
+    {
+      "name": "Taiwan Strait geopolitical",
+      "probability": "low-medium",
+      "impact": "very high",
+      "description": "China invasion 시 fab 손실 — long-tail 위험"
+    },
+    {
+      "name": "CoWoS yield 이슈",
+      "probability": "low",
+      "impact": "high",
+      "description": "캐파 ramp 중 양산 yield 미달 시 가격 상승"
+    },
+    {
+      "name": "AI capex 둔화 (2027)",
+      "probability": "medium",
+      "impact": "high",
+      "description": "hyperscaler 둔화 시 HPC 매출 비중 -5-10pp 하락"
+    },
+    {
+      "name": "Samsung·Intel catch-up",
+      "probability": "low",
+      "impact": "medium",
+      "description": "Foundry 점유율 분산 가능성 — long-term"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T02",
+      "claim": "AI 공급 부족이 본질",
+      "current_status": "confirmed",
+      "evidence": "TSMC CEO 'still capacity-constrained' 공식 발언"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "CoWoS·HBM·전력 3대 병목",
+      "current_status": "confirmed_self",
+      "evidence": "TSMC 자체가 CoWoS 병목의 핵심 — 캐파 +114% 확대 발표"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "공급 발표 = 수요 신호",
+      "current_status": "confirmed",
+      "evidence": "TSMC capex $44B 발표 후 NVIDIA·AMD 매출 가이던스 상향"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "수요 20-30% vs 공급 15%",
+      "current_status": "confirmed",
+      "evidence": "HPC 매출 yoy +60%, capex +15-20%/yr — gap 존재"
+    }
+  ],
+  "korean_disclosures": []
+}

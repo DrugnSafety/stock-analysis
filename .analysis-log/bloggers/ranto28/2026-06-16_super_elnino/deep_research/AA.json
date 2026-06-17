@@ -1,0 +1,220 @@
+{
+  "industry": {
+    "name": "알루미늄 1차 제련 (전력집약 산업금속 — 수퍼 엘니뇨 폭염→냉방 전력수요 핵심 수혜축)",
+    "overview": "알코아(Alcoa)는 보크사이트–알루미나–1차 알루미늄으로 이어지는 글로벌 통합 순수 제련사다. 알루미늄은 '고체 전기(solidified electricity)'로 불릴 만큼 생산원가에서 전력 비중이 30~50%(메르 본문은 37% 인용)로 산업금속 중 전력 민감도가 가장 높다. 2026년 LME 알루미늄은 3월 $3,000/t을 돌파해 H1 평균 $3,150~3,400/t으로 전망되며, 수급은 구조적 deficit. 수퍼 엘니뇨발 폭염은 냉방 전력수요를 키워 전력가격을 끌어올리고(제련 한계비용↑) 동시에 일부 지역 제련 감산(공급↓)을 유발해 가격에 상방으로 작동한다. 여기에 AI 데이터센터가 $115/MWh까지 전력을 선점하면서 제련용 저가 장기전력 확보 경쟁이 심화되는 구조적 테마가 겹친다. 현재가 $62.87 / 1Y +119% / 연변동성 53%.",
+    "competitors": [
+      {
+        "name": "Rio Tinto",
+        "ticker": "RIO",
+        "share_pct": null,
+        "moat": "수력 기반 저탄소 알루미늄·통합 광산"
+      },
+      {
+        "name": "Norsk Hydro",
+        "ticker": "NHYDY",
+        "share_pct": null,
+        "moat": "유럽 수력 제련·리사이클·하방 압출"
+      },
+      {
+        "name": "중국 Hongqiao/Chalco",
+        "ticker": null,
+        "share_pct": null,
+        "moat": "세계 생산 절반 — 석탄전력·capacity ceiling"
+      },
+      {
+        "name": "Century Aluminum",
+        "ticker": "CENX",
+        "share_pct": null,
+        "moat": "미국 제련 순수 플레이·전력가격 고민감"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-06-11",
+        "title": "NOAA, 엘니뇨 주의보 공식 발령 — 겨울 'very strong' 확률 63%",
+        "source": "NOAA NWS / Climate Prediction Center",
+        "summary": "적도 태평양 엘니뇨 발달, 가을 강화 전망 — 폭염·냉방 전력수요 확대 시나리오",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-23",
+        "title": "LME 알루미늄 $3,000/t 돌파 — 2026 공급 deficit 부각",
+        "source": "FinancialContent / 시장 보도",
+        "summary": "전력 제약·중국 capacity ceiling으로 H1 $3,150~3,400 전망",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05-15",
+        "title": "AI 데이터센터 전력 선점($115/MWh)에 제련용 저가전력 확보 경쟁 심화",
+        "source": "Discovery Alert / 산업 분석",
+        "summary": "제련 경쟁력은 $40/MWh 장기계약이 관건 — 전력가격 상승은 한계 제련소 감산 유발",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "인도·파키스탄 전력수요 사상 최대 — 폭염 냉방수요 급증",
+        "source": "메르 블로그 §22 / 현지 보도",
+        "summary": "엘니뇨 폭염이 신흥국 전력 피크를 끌어올림",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-16)",
+    "currency": "USD(십억달러)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 12.451,
+        "op_income": 1.331,
+        "net_income": -0.123,
+        "op_margin": 10.7,
+        "net_margin": -1.0
+      },
+      {
+        "year": 2023,
+        "revenue": 10.551,
+        "op_income": -0.227,
+        "net_income": -0.651,
+        "op_margin": -2.2,
+        "net_margin": -6.2
+      },
+      {
+        "year": 2024,
+        "revenue": 11.895,
+        "op_income": 0.828,
+        "net_income": 0.06,
+        "op_margin": 7.0,
+        "net_margin": 0.5
+      },
+      {
+        "year": 2025,
+        "revenue": 12.831,
+        "op_income": 0.758,
+        "net_income": 1.157,
+        "op_margin": 5.9,
+        "net_margin": 9.0
+      }
+    ],
+    "trend_narrative": "매출은 2022 $12.5bn → 2023 $10.6bn(알루미늄 가격 급락·제련 적자 OPM -2.2%)으로 시클리컬 저점을 찍은 뒤 2024 $11.9bn(OPM 7.0%)·2025 $12.8bn으로 회복. 2025 순이익률 9.0%는 가격 회복·구조조정 효과. 알코아 실적은 LME 가격·전력비·환율의 함수로 변동성이 크며, 2026 알루미늄 deficit·고가격 국면은 마진 레버리지에 우호적.",
+    "valuation_summary": "Forward PE 8.61× (yfinance live). 시클리컬 제련주로 PER보다 LME 가격·EV/EBITDA·전력계약 구조가 핵심. 현재가 $62.87 / 1Y +119% / vol 53%. 알루미늄 $3,000+ 구간 지속 시 이익·주가 레버리지 큼, 단 가격 하락 시 적자 전환 리스크."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.35,
+      "description": "수퍼 엘니뇨 폭염+AI 전력수요로 전력가격·알루미늄 동반 강세, LME $3,500+ 지속 → 제련 마진 급확대",
+      "key_drivers": [
+        "LME 알루미늄 $3,500+",
+        "구조적 공급 deficit",
+        "미국 관세·리쇼어링 프리미엄"
+      ]
+    },
+    "base": {
+      "probability": 0.45,
+      "description": "알루미늄 $3,000~3,300 박스, 폭염은 단기 전력 spike — 마진 개선 점진",
+      "key_drivers": [
+        "LME $3,000~3,300",
+        "deficit 완만 지속",
+        "전력계약 일부 갱신"
+      ]
+    },
+    "bear": {
+      "probability": 0.2,
+      "description": "엘니뇨 약화+중국 공급 확대+경기둔화로 알루미늄 $2,600 하회 → 마진 압축",
+      "key_drivers": [
+        "중국 capacity 재가동",
+        "글로벌 수요 둔화",
+        "전력가격 급등이 수요산업 위축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "title": "2Q26 실적 + LME 가격 추이",
+      "name": "2Q26 earnings",
+      "impact": "+",
+      "description": "알루미늄 고가격 구간 마진 반영 확인"
+    },
+    {
+      "date": "2026-여름",
+      "title": "북반구 폭염 피크·전력가격",
+      "name": "Summer power peak",
+      "impact": "+",
+      "description": "냉방 전력수요·제련 감산 뉴스 흐름"
+    },
+    {
+      "date": "2026-겨울",
+      "title": "수퍼 엘니뇨 본격화",
+      "name": "Winter El Nino",
+      "impact": "○",
+      "description": "따뜻한 겨울은 난방 약세 — 알루미늄엔 중립~소폭"
+    }
+  ],
+  "risks": [
+    {
+      "name": "LME 가격 급락",
+      "probability": "med",
+      "impact": "high",
+      "description": "알루미늄 가격 하락 시 시클리컬 적자 전환 — 2023 OPM -2.2% 전례"
+    },
+    {
+      "name": "중국 공급 확대",
+      "probability": "med",
+      "impact": "high",
+      "description": "중국 capacity ceiling 완화·재가동 시 가격 상단 제약"
+    },
+    {
+      "name": "전력가격 양면성",
+      "probability": "high",
+      "impact": "med",
+      "description": "전력가격 상승은 제련원가도 올려 net 효과 모호 — 자가발전/PPA 비중 의존"
+    },
+    {
+      "name": "엘니뇨 강도 미달",
+      "probability": "med",
+      "impact": "med",
+      "description": "폭염 thesis 자체가 확률적 — 전력수요 증가 미실현 가능"
+    },
+    {
+      "name": "글로벌 경기 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "건설·운송 등 알루미늄 전방 수요 위축"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T02",
+      "claim": "폭염→냉방 전력수요→알루미늄(원가 37% 전기)",
+      "current_status": "진행/우호",
+      "evidence": "전력 30~50% 원가, LME $3,000 돌파, AI 전력경쟁 — 메르 §64-66 + 외부 검증"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "수퍼 엘니뇨 전환",
+      "current_status": "확인",
+      "evidence": "NOAA 주의보·63% very strong"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "따뜻한 겨울",
+      "current_status": "중립",
+      "evidence": "난방수요엔 하방 — 알루미늄 영향 제한적"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "옥수수 풍작→유가 하방",
+      "current_status": "간접",
+      "evidence": "저유가는 제련 에너지비에 소폭 우호"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-16",
+      "type": "해외종목",
+      "summary": "미국 NYSE 상장 — DART 공시 비대상(SEC EDGAR 10-K/10-Q 참조)",
+      "title": "Alcoa Corporation (NYSE:AA)"
+    }
+  ]
+}

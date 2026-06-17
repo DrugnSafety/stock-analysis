@@ -1,0 +1,192 @@
+{
+  "ticker": "DQ",
+  "name": "Daqo New Energy",
+  "name_en": "Daqo New Energy Corp.",
+  "as_of": "2026-05-25",
+  "thesis_role": "MEDIUM — TP framework의 10x reference + Non-PFE inverse trade",
+  "industry": {
+    "name": "Polysilicon / Solar PV Value Chain (Non-PFE focus)",
+    "overview": "전세계 polysilicon 생산능력 약 280만톤(2026), 수요 약 170만톤 — 명목 oversupply이나 미국 UFLPA(2022 발효) + Section 301(중국 25% 관세) + Section 232(2026 발표 임박)로 Non-PFE(Polysilicon From Entity List 제외) 공급망에 사실상 quota 보호. 주요 mega-trend: (1) 미국 IRA 45X tax credit ($3/kg polysilicon · $12/㎡ wafer), (2) AI/데이터센터 전력 수요 폭증 (EPRI 추정 2030년 660TWh), (3) hyperscaler 직접 PPA 확대 (Microsoft·Google·Meta 누적 40GW+), (4) 이란-이스라엘 긴장으로 중동 데이터센터의 미국 회귀, (5) SpaceX·Tesla·Anthropic 같은 빅테크의 자체 발전(behind-the-meter) 인프라 투자. Cycle: polysilicon spot $7~10/kg (2024~25 bottom) → 2026~28 회복 컨센서스 $15~20/kg.",
+    "competitors": [
+      {
+        "name": "Tongwei (China)",
+        "ticker": "600438.SS",
+        "share_pct": 22,
+        "moat": "중국 최대 polysilicon, vertically integrated cell + module"
+      },
+      {
+        "name": "GCL Technology (China)",
+        "ticker": "3800.HK",
+        "share_pct": 18,
+        "moat": "FBR(fluidized bed reactor) 저비용 기술 + 모듈 통합"
+      },
+      {
+        "name": "Daqo New Energy (China)",
+        "ticker": "DQ",
+        "share_pct": 14,
+        "moat": "신장·내몽골 base, 미국 ADR 상장 — UFLPA 직격탄"
+      },
+      {
+        "name": "Wacker Chemie (Germany)",
+        "ticker": "WCH.DE",
+        "share_pct": 8,
+        "moat": "독일·미국 Tennessee 생산, semiconductor grade specialty"
+      },
+      {
+        "name": "Hemlock Semiconductor (US JV)",
+        "ticker": "private (Corning + DOW JV)",
+        "share_pct": 5,
+        "moat": "미국 유일 dedicated polysilicon plant, semi-grade 강점"
+      },
+      {
+        "name": "OCI Holdings (Korea)",
+        "ticker": "010060.KS",
+        "share_pct": 6,
+        "moat": "Malaysia plant (Non-PFE 자격) + NeoSilicon wafer Texas + 한국 유일 글로벌 player"
+      },
+      {
+        "name": "Hanwha Solutions/Qcells",
+        "ticker": "009830.KS",
+        "share_pct": 4,
+        "moat": "Polysilicon (OCI 의존) + 셀·모듈 통합, US Qcells 모듈 1위"
+      },
+      {
+        "name": "First Solar (US)",
+        "ticker": "FSLR",
+        "share_pct": "N/A (CdTe non-silicon)",
+        "moat": "CdTe thin-film — polysilicon 우회, IRA 45X 직접 수혜 최대치"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 28.5,
+      "cagr_pct": 14.5,
+      "horizon": "2024-2030"
+    }
+  },
+  "news_disclosures": [
+    {
+      "date": "2026-05-22",
+      "title": "하나/윤재성 OCI홀딩스 신규 커버리지 'BUY/TP 55만원' (+75% upside)",
+      "source": "하나증권",
+      "summary": "Daqo 10x · GE Vernova 28x 평균 19x EV/EBITDA 적용. 영업가치 10조원 타겟. SpaceX 다년계약과 NeoSilicon wafer Non-PFE 가치 강조.",
+      "impact": "+",
+      "impact_reason": "primary catalyst for blog thesis"
+    },
+    {
+      "date": "2026-05-15",
+      "title": "트럼프 행정부 Section 232 조사 대상에 polysilicon·wafer 포함 결정",
+      "source": "USTR",
+      "summary": "60일 의견수렴 후 8~9월 발표 예정. 중국·동남아 우회 수출에 대한 추가 관세 가능성.",
+      "impact": "+",
+      "impact_reason": "Direct catalyst for Non-PFE supplier re-rating"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Microsoft Korea Seoul 데이터센터 50MW 추가 발주 — IRA 추가 verified",
+      "source": "Microsoft IR",
+      "summary": "한국 IDC 클러스터 4사이트 확장, 한국 polysilicon·wafer supplier에 우호적",
+      "impact": "+",
+      "impact_reason": "Korea solar supply chain demand"
+    },
+    {
+      "date": "2026-05-01",
+      "title": "OCI Malaysia Plant 미국 향 수출 비중 65% → 78% 확대 (4월 잠정)",
+      "source": "OCI IR",
+      "summary": "Non-PFE 인증 polysilicon 프리미엄 평균 +28% 유지",
+      "impact": "+",
+      "impact_reason": "Direct evidence of frame shift thesis"
+    },
+    {
+      "date": "2026-04-18",
+      "title": "SpaceX Bastrop County 태양광 EIS 추가 1.5GW 신청",
+      "source": "Texas PUC",
+      "summary": "기존 phase 1 (5,000에이커) + phase 2 (2,500에이커) 합산 7,500에이커, 최대 10GW 추정",
+      "impact": "+",
+      "impact_reason": "Confirms blog T02 (SpaceX 10GW)"
+    }
+  ],
+  "financials": {
+    "5y_pl": {
+      "2021": {
+        "revenue_usd_m": 1683,
+        "op_usd_m": 1149,
+        "op_margin_pct": 68.3,
+        "net_usd_m": 821
+      },
+      "2022": {
+        "revenue_usd_m": 4615,
+        "op_usd_m": 3279,
+        "op_margin_pct": 71.1,
+        "net_usd_m": 2418
+      },
+      "2023": {
+        "revenue_usd_m": 2308,
+        "op_usd_m": 525,
+        "op_margin_pct": 22.7,
+        "net_usd_m": 425
+      },
+      "2024": {
+        "revenue_usd_m": 1015,
+        "op_usd_m": -385,
+        "op_margin_pct": -38.0,
+        "net_usd_m": -345
+      },
+      "2025E": {
+        "revenue_usd_m": 1280,
+        "op_usd_m": -180,
+        "op_margin_pct": -14.1,
+        "net_usd_m": -150
+      }
+    },
+    "5y_trend_narrative": "2022 polysilicon 슈퍼사이클 정점($1.8B 영업이익) 후 2024 cycle bottom (-$385M loss). 신장 UFLPA 차단으로 미국 수출 사실상 zero. cash burn 지속. polysilicon $15+ 회복 시 turnaround leverage 큼.",
+    "current_metrics": {
+      "current_price": 17.78,
+      "currency": "USD",
+      "forward_pe": -16.25,
+      "beta": 0.66,
+      "return_1y_pct": 31.12,
+      "vol_annualized_pct": 58.0,
+      "market_cap_usd_bn": 1.2,
+      "tp_brokerage": "$22 (컨센서스 모듈 평균)",
+      "tp_upside_pct": 24
+    }
+  },
+  "scenario_analysis": {
+    "bull": "polysilicon $25+ + 미·중 합의 → TP $35 (+97%)",
+    "base": "polysilicon $15 + 신장 risk 유지 → TP $20 (+12%)",
+    "bear": "polysilicon $8 정체 + UFLPA 강화 → TP $10 (-44%)"
+  },
+  "catalysts": [
+    "polysilicon ASP $15+ 회복",
+    "미·중 무역 합의 시나리오",
+    "중국 내수 + 동남아 수출 회복",
+    "내몽골 plant cost 추가 절감"
+  ],
+  "risks": [
+    "UFLPA enforcement 강화",
+    "Section 232 동남아 우회 차단",
+    "Chinese ADR delisting risk",
+    "cash burn 지속"
+  ],
+  "reverse_dcf": {
+    "assumption_for_current_price": "polysilicon $12/kg 정상화 + 5년 cycle 회복 + ADR discount 60%",
+    "implied_market_view": "Cycle bottom + going-concern risk 일부 반영"
+  },
+  "etf_holdings": [
+    {
+      "etf": "TAN (Invesco Solar)",
+      "weight_pct": 1.1,
+      "rank": 22
+    },
+    {
+      "etf": "Chinese ADR ETFs (KWEB·MCHI)",
+      "weight_pct": "< 0.5",
+      "rank": "N/A"
+    }
+  ],
+  "peer_compare": {
+    "vs_010060.KS": "OCI는 Non-PFE 자격 + 미국 시장 직접 접근, DQ는 신장 차단",
+    "vs_TONGWEI": "DQ는 polysilicon pure-play, Tongwei는 module 통합"
+  },
+  "decision_summary": "HOLD (neutral · -0.15, UFLPA risk)"
+}

@@ -1,0 +1,263 @@
+{
+  "industry": {
+    "name": "화장품·건기식 ODM 지주 (코스맥스 그룹)",
+    "overview": "코스맥스엔비티의 모회사(지주). 건기식 ODM(코스맥스엔비티) 실적에 연동되며, 2025년 +8% 성장군에 포함. 지주 특성상 자회사 턴어라운드의 간접 수혜 + 지주 디스카운트가 공존. 글로벌 노출(코스맥스엔비티 실질 해외 65%)을 가장 저렴하게 담는 우회 경로일 수 있으나, 사업 직접성은 낮음.",
+    "competitors": [
+      {
+        "name": "코스맥스엔비티",
+        "ticker": "222040.KQ"
+      },
+      {
+        "name": "노바렉스",
+        "ticker": "194700.KQ"
+      },
+      {
+        "name": "서흥",
+        "ticker": "008490.KS"
+      },
+      {
+        "name": "콜마비앤에이치",
+        "ticker": "200130.KQ"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2022",
+        "revenue": 617403775020.0,
+        "op_income": 3400294320.0,
+        "net_income": -6527925920.0,
+        "op_margin": 0.55,
+        "op_margin_pct": 0.55,
+        "net_margin_pct": -1.06,
+        "year": "2022"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 628597019220.0,
+        "op_income": 20249350620.0,
+        "net_income": 9061400050.0,
+        "op_margin": 3.22,
+        "op_margin_pct": 3.22,
+        "net_margin_pct": 1.44,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 597630263410.0,
+        "op_income": 16794453950.0,
+        "net_income": 16455097270.0,
+        "op_margin": 2.81,
+        "op_margin_pct": 2.81,
+        "net_margin_pct": 2.75,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2025",
+        "revenue": 645205591730.0,
+        "op_income": 26984473820.0,
+        "net_income": 29208372630.0,
+        "op_margin": 4.18,
+        "op_margin_pct": 4.18,
+        "net_margin_pct": 4.53,
+        "year": "2025"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2022",
+        "revenue": 617403775020.0,
+        "operating_income": 3400294320.0,
+        "net_income": -6527925920.0,
+        "op_margin_pct": 0.55
+      },
+      {
+        "year": "2023",
+        "revenue": 628597019220.0,
+        "operating_income": 20249350620.0,
+        "net_income": 9061400050.0,
+        "op_margin_pct": 3.22
+      },
+      {
+        "year": "2024",
+        "revenue": 597630263410.0,
+        "operating_income": 16794453950.0,
+        "net_income": 16455097270.0,
+        "op_margin_pct": 2.81
+      },
+      {
+        "year": "2025",
+        "revenue": 645205591730.0,
+        "operating_income": 26984473820.0,
+        "net_income": 29208372630.0,
+        "op_margin_pct": 4.18
+      }
+    ],
+    "five_quarter_pnl": [
+      {
+        "quarter": "2026-03-31",
+        "revenue": 205190786520.0,
+        "operating_income": 16419364320.0,
+        "net_income": 14117723810.0,
+        "op_margin_pct": 8.0
+      },
+      {
+        "quarter": "2025-12-31",
+        "revenue": 173697101190.0,
+        "operating_income": 7360675450.0,
+        "net_income": 22308457900.0,
+        "op_margin_pct": 4.24
+      },
+      {
+        "quarter": "2025-09-30",
+        "revenue": 153466659980.0,
+        "operating_income": 3180674520.0,
+        "net_income": -1922153330.0,
+        "op_margin_pct": 2.07
+      },
+      {
+        "quarter": "2025-06-30",
+        "revenue": 163725947930.0,
+        "operating_income": 9904626420.0,
+        "net_income": 8169300780.0,
+        "op_margin_pct": 6.05
+      },
+      {
+        "quarter": "2025-03-31",
+        "revenue": 154315882630.0,
+        "operating_income": 6538497650.0,
+        "net_income": 652767280.0,
+        "op_margin_pct": 4.24
+      }
+    ],
+    "balance_sheet_snapshot": {},
+    "material_variance_summary": "yfinance income_stmt 기준 KRW 실데이터. 상세 변동요인은 News Timeline·Deep Research 본문 참조."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "코스맥스엔비티 턴어라운드 본격화 + 지주 디스카운트 축소",
+      "key_assumptions": [
+        "자회사 이익 급증",
+        "지주 할인 해소"
+      ],
+      "target_price": 26000
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "자회사 회복 연동 완만한 상승, 지주 할인 지속",
+      "key_assumptions": [
+        "엔비티 턴 연장"
+      ],
+      "target_price": 19500
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "자회사 부진·지주 할인 확대",
+      "key_assumptions": [
+        "엔비티 재둔화",
+        "지주 디스카운트"
+      ],
+      "target_price": 13000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "2Q26 연결 실적",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "코스맥스엔비티 턴 연동"
+    },
+    {
+      "date": "2026-2H",
+      "event": "지주 주주환원/구조 개편",
+      "type": "financial",
+      "expected_impact": "med",
+      "description": "지주 할인 해소"
+    }
+  ],
+  "risks": [
+    {
+      "name": "지주 디스카운트",
+      "probability": "high",
+      "impact": "med",
+      "description": "사업 직접성 낮음",
+      "mitigation": "주주환원·구조 단순화"
+    },
+    {
+      "name": "자회사 실적 변동",
+      "probability": "med",
+      "impact": "high",
+      "description": "엔비티 부채·턴 의존",
+      "mitigation": "자회사 구조조정"
+    },
+    {
+      "name": "거래량·정보 제한",
+      "probability": "med",
+      "impact": "low",
+      "description": "소형 지주",
+      "mitigation": "—"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T04",
+      "ticker_exposure": "++",
+      "claim": "코스맥스엔비티는 미국 댈러스·호주 멜버른 현지 생산 공장을 보유해 해외 매출이 '수출' 통계로 잡히지 않는 한계가 있으며, 공시상 실질 해외 매출 비중은 약 65%로 글로벌 노출이 비교 기업 중 가장 크다.",
+      "type": "factual",
+      "evidence": "블로그 3-1: '코스맥스엔비티는 미국 달라스, 호주 멜버른에 생산 공장이 있어 수출로 잡히지 않는 한계 … 실질적인 해외 매출 비중은 65% … 글로벌 노출은 코스맥스엔비티가 가장 큼'.",
+      "testability": "high",
+      "current_status": "likely"
+    },
+    {
+      "thesis_id": "T10",
+      "ticker_exposure": "+",
+      "claim": "2025년 실적은 성장군(노바렉스 +36%, 서흥 +11%, 코스맥스비티아이 +8%)과 역성장군(코스맥스엔비티 -9.6%, 콜마비앤에이치 -6.6%)으로 갈렸으나, 역성장하던 기업들이 2026년 1분기 강한 턴어라운드를 보였다.",
+      "type": "factual",
+      "evidence": "블로그 5: '성장군: 노바렉스(+36%), 서흥(+11%), 코스맥스비티아이(+8%) / 역성장군: 코스맥스엔비티(−9.6%), 콜마(−6.6%) … 2026 1분기 강한 턴어라운드'.",
+      "testability": "high",
+      "current_status": "likely"
+    },
+    {
+      "thesis_id": "T01",
+      "ticker_exposure": "+",
+      "claim": "K-건기식 ODM 산업이 K-뷰티의 성공 경로를 따라 글로벌 수출 산업으로 전환되고 있다. 국내에서 치열하게 경쟁하던 ODM들이 글로벌 최고 제조 경쟁력을 보유한 것으로 재평가되며, ① 방한 외국인의 대형약국·올리브영 건기식 대량 구매, ② K-건기식 직접 수출 증가, ③ 해외 브랜드의",
+      "type": "factual",
+      "evidence": "블로그: '대한민국은 제조 공화국 … ODM 제조는 역시 대한민국', 'K-뷰티 성공 스토리 … K-건기식도 비슷'. K-뷰티(화장품 ODM) 글로벌화 선례. 수출 데이터·외국인 인바운드 소비 추세.",
+      "testability": "high",
+      "current_status": "likely"
+    },
+    {
+      "thesis_id": "T05",
+      "ticker_exposure": "+",
+      "claim": "건기식 ODM은 발주가 늘어 매출이 증가하면 고정비를 넘어선 증분 매출이 대부분 이익으로 떨어지는 영업 레버리지 산업이다. 따라서 글로벌·내수 수요 확대 국면에서 가동률 상승은 이익률 급등으로 직결된다.",
+      "type": "factual",
+      "evidence": "블로그 2: 'ODM 산업 특성상 발주가 늘어나 매출이 늘어나면 고정비 이상 버는 돈이 모두 이익이 되는 레버러지 산업'. 1Q26 코스맥스엔비티 OPM +1080% 턴어라운드가 레버리지 방증.",
+      "testability": "high",
+      "current_status": "likely"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "실적",
+      "title": "코스맥스비티아이 1Q26 실적",
+      "summary": "건기식 ODM 섹터 1Q26 — 역성장군 턴어라운드/성장군 견조(블로그 5장)",
+      "impact": "+"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 18130,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "현 주가 18,130원(1Y +25%). 코스맥스엔비티 글로벌 노출을 저렴하게 담는 우회 경로이나 지주 할인·사업 간접성 유의. 자회사 턴어라운드 본격화가 핵심 동인."
+  },
+  "analysis_mode": "blog",
+  "thesis_count": 4
+}

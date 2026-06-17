@@ -1,0 +1,82 @@
+{
+  "summary_one_liner": "인피의 피지컬 AI Data Factory 분석 — NVIDIA가 GTC 2026에서 공개한 Physical AI Data Factory Blueprint(5-레이어 밸류체인)에서 한국 시장이 집중하는 감속기·모터 하단 레이어가 아니라 시뮬레이션·데이터 가운데 두 레이어가 진짜 병목. ABB RobotStudio HyperReality의 99% Sim-to-Real 정확도 사례로 Data Factory 실체 입증. SKAI(스카이월드와이드 KOSDAQ 357880)의 자회사 스카이인텔리전스가 Omniverse 네이티브 + Isaac Sim 검증 파이프라인을 가진 한국 유일 플레이어로 부상 — 6월 1일 GTC Taipei at Computex가 1차 검증 트리거.",
+  "blog_meta": {
+    "blogger": "infidoc",
+    "blogger_kr": "인피의",
+    "posts": [
+      {
+        "title": "피지컬 AI 시대, 로봇의 팔보다 중요한 것",
+        "url": "https://blog.naver.com/infidoc/224296704033",
+        "published_at": "2026-05-26",
+        "theme": "Physical AI Data Factory 5-레이어 밸류체인 + SKAI Intelligence 한국 유일 Omniverse-Isaac Sim 통합 파이프라인 thesis"
+      }
+    ],
+    "analysis_mode": "single"
+  },
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "엔비디아의 Physical AI 밸류체인은 5-레이어(AI Factory → Simulation Factory → Data Factory → Edge AI → Robotics Application)이며, 한국 시장이 집중하는 감속기·모터·하드웨어는 하단 두 레이어다. 시장이 충분히 보지 못한 가운데 두 레이어(Simulation Factory + Data Factory)가 진짜 병목이며, NVIDIA Omniverse VP Rev Lebaredian의 'In this new era, compute is data' 발언이 패러다임 전환의 명시적 선언이다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "GTC 2026 (2026.03) NVIDIA Physical AI Data Factory Blueprint 공식 발표 — 로보틱스·비전 AI 에이전트·자율주행 학습 데이터 생성·증강·평가를 단일 레퍼런스 아키텍처로 통합. Microsoft Azure와 Nebius가 블루프린트 직접 통합. FieldAI·Teradyne Robotics·Hexagon Robotics가 첫 합성데이터 환경 고객. 함께 발표된 글로벌 로보틱스 파트너 — ABB·FANUC·KUKA·Agility·Figure·YASKAWA."
+    },
+    {
+      "claim_id": "T02",
+      "claim": "ABB RobotStudio HyperReality 사례는 Data Factory 레이어의 실체를 가장 명확히 증명한다. ABB가 수십 년 산업용 로봇 노하우를 가졌음에도 소프트웨어만으로는 해결 못 한 Sim-to-Real Gap을 Omniverse가 채웠으며, 최대 99% 시뮬레이션 정확도와 Foxconn 파일럿이 그 증거다. 이는 'Data Factory가 곧 산업 자동화의 새로운 진입 장벽'임을 시사한다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "ABB-NVIDIA 공식 파트너십 (2026.05 ABB Robotics Press Release). RobotStudio HyperReality 구조 — 로봇·센서·조명·부품·운동학 정보를 USD 파일로 Omniverse에 내보내고 가상 컨트롤러가 실제 로봇과 동일한 펌웨어 실행. 합성 이미지가 AI 학습 파이프라인으로 직접 투입. 2026 하반기 출시 예정. Foxconn 파일럿 진행 중. 최대 99% 시뮬레이션 정확도 주장."
+    },
+    {
+      "claim_id": "T03",
+      "claim": "SKAI Intelligence(스카이월드와이드 KOSDAQ 357880의 자회사)는 한국 유일 Omniverse 네이티브 + Isaac Sim 검증 통합 파이프라인을 보유한 기업으로, 단순 '엔비디아 테마주'가 아니라 Data Factory 레이어의 구조적 포지션을 갖고 있다. 2025년 6월 VivaTech(NVIDIA CEO 키노트 행사), 2026년 2월 엔비디아 공식 블로그 피처링, GTC 2026 한국 유일 리테일 세션이 그 증거다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "2025.06 VivaTech 세계 최초 Omniverse 기반 리테일 AIGC 파이프라인 공개. 2025.10 B.THREE 플랫폼 기술 공개 — 디지털 트윈 자산이 Isaac Sim으로 검증되는 구조. 2026.02 NVIDIA 공식 블로그 피처링 — Coca-Cola·Moët Hennessy·Nestlé·Unilever와 동급 케이스 스터디. 2025.12 SKAI(상장사) → 스카이인텔리전스 지분 33.57%로 확대(2,356억원). NVIDIA Inception 프로그램 멤버."
+    },
+    {
+      "claim_id": "T04",
+      "claim": "Data Factory 경쟁 구도에서 SKAI의 차별점은 '특화 깊이 + 한국 제조업 도메인'이다. Accenture·Siemens·Ansys·SAP·Schneider Electric은 Omniverse 생태계에 들어와 있지만 한국 반도체·배터리·전자 제조 현장의 도메인 깊이로는 진입하지 못했으며, Microsoft Azure는 인프라 제공자 포지션이다. SKAI는 Omniverse 단일 스택 + Isaac Sim 검증 + 한국 도메인 3중 결합이 진입 장벽이다.",
+      "type": "predictive",
+      "importance": "high",
+      "timeframe": "medium_term",
+      "supporting_evidence": "GTC 2026 Omniverse Physical AI OS 확장 발표 — Ansys·Databricks·Dematic·Omron·SAP·Schneider Electric·Siemens 통합. Microsoft Azure가 Physical AI Data Factory Blueprint 호스팅. 반대로 한국 제조 도메인 — 삼성·SK하이닉스·LG 등 반도체 팹, K-배터리 — 는 글로벌 SI들이 아직 도메인 깊이 부족. NVIDIA-SK 그룹 2025 AI Factory 파트너십 (50,000+ GPU)에 Omniverse·로보틱스 명시."
+    },
+    {
+      "claim_id": "T05",
+      "claim": "NVIDIA-SK 그룹 AI Factory 파트너십(2025.10, 50,000+ GPU) + APEC 2025.12 한국 Inception 스타트업 얼라이언스 + 피지컬 AI 전담 CoE 설립은 한국 제조업이 Omniverse 기반 디지털 트윈 표준으로 이동한다는 명시적 정책 신호다. 이는 한국 GPU 인프라·반도체 제조 자동화·로보틱스 도메인의 다년간 성장 동력으로 작용한다.",
+      "type": "predictive",
+      "importance": "high",
+      "timeframe": "long_term",
+      "supporting_evidence": "NVIDIA Investor Press Release (2025.10) — SK그룹과 50,000+ GPU AI Factory 파트너십. SK hynix HBM·미래 메모리 솔루션 deepening 명시. 칩 설계·디지털 트윈·로보틱스·AI 에이전트 명시. 2025.12 APEC 정상회의 한국 Inception 스타트업 얼라이언스 + 피지컬 AI CoE 설립. NVIDIA 한국 정부+산업 거인 ($1B+ AI 인프라 투자)."
+    },
+    {
+      "claim_id": "T06",
+      "claim": "Simulation-Ready Data는 자율주행·휴머노이드·산업 자동화에서 공통적으로 필요한 '학습 자원'이다. 단순 영상 데이터가 아니라 물리 엔진 검증된 디지털 트윈이어야 학습 효율이 보장된다. Isaac Sim 같은 시뮬레이션 프레임워크에 직접 연결된 데이터 생성 파이프라인을 가진 회사는 휴머노이드 시대 학습 데이터 공급망의 'TSMC 역할'을 할 수 있다.",
+      "type": "predictive",
+      "importance": "high",
+      "timeframe": "long_term",
+      "supporting_evidence": "NVIDIA Cosmos + Isaac GR00T 오픈 모델 발표. Physical AI는 실제 데이터 수집 비용 > 100x 합성데이터 — Tesla FSD와 Waymo가 입증. NVIDIA Omniverse는 USD 표준 + 물리 검증 기반. 휴머노이드 로봇 글로벌 시장 2030 $40B+ (Goldman Sachs). Data Factory 인프라 capex 2026~ 본격화. Sim-to-Real Gap이 산업용 로봇 채택의 1차 병목으로 학계·산업계 공통 인식."
+    },
+    {
+      "claim_id": "T07",
+      "claim": "6월 1일 NVIDIA GTC Taipei at Computex의 젠슨 황 키노트가 SKAI Intelligence thesis의 1차 검증 트리거다. 단순 참가가 아니라 (a) 글로벌 파트너와 공동 발표, (b) 산업용 합성데이터 PoC 구체화, (c) Isaac·Omniverse 파이프라인 내 공식 포지셔닝 — 셋 중 하나라도 가시화되면 시장 reframing 가능. 부재 시 thesis 유보.",
+      "type": "conditional",
+      "importance": "high",
+      "timeframe": "short_term",
+      "supporting_evidence": "NVIDIA GTC Taipei at Computex 2026 (6.1) 젠슨 황 키노트 공식 일정. 주제 — AI Factory·스케일링 인프라·agentic AI·physical AI. 5월말 미디어 사전 brief에서 아시아 제조업 파트너십 강조 예고. 메르·국내 언론도 6월 첫째 주를 한국 피지컬 AI 종목 단기 분수령으로 지목."
+    },
+    {
+      "claim_id": "T08",
+      "claim": "투자 논리는 '가설 단계'이며 5가지 결정 변수가 남아 있다 — (i) 산업용 합성데이터 고객 정체성, (ii) PoC→반복 매출 전환 비율, (iii) Isaac·Omniverse 파이프라인 내 공식 인증 포지션, (iv) 스카이인텔리전스 가치가 상장사 SKAI에 귀속되는 비중, (v) CB·추가 자금조달의 희석 변수. 4개 이상이 우호적으로 풀려야 thesis가 '실현된 가치'로 전환된다.",
+      "type": "conditional",
+      "importance": "high",
+      "timeframe": "medium_term",
+      "supporting_evidence": "필자 본인의 명시적 caveat — '투자 논리는 아직 가설이다'. 인포스탁데일리(2025) — SKAI(상장사)의 적자·자본잠식 + 스카이인텔리전스 1,000억 밸류 평가 근거 논란. 뉴스톱 — SKAI CB 주식 전환 러시로 유통주식 증가. 33.57% 지분 = 67% 가치 외부 귀속. 산업용 합성데이터 PoC는 통상 6~18개월 검증 필요."
+    }
+  ]
+}

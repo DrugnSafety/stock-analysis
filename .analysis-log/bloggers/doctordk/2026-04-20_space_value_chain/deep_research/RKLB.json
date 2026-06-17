@@ -1,0 +1,313 @@
+{
+  "ticker": "RKLB",
+  "name_kr": "로켓랩",
+  "name_en": "Rocket Lab USA Inc.",
+  "industry": {
+    "name": "Space Launch + Satellite Manufacturing",
+    "overview": "Rocket Lab은 SpaceX에 이은 글로벌 #2 commercial small launch provider. Electron rocket(225kg LEO)으로 100+ launch track record + 95% mission success. Photon satellite bus + Space Systems(소형 위성 자체 제조 + 솔라셀)로 vertical integration 진행. 2026 H2 Neutron rocket(8톤 LEO, partial reusability) maiden flight 예정 — 이는 Falcon 9 sub-segment 대체 가능. 정부·국방 contract 비중 60%+(NASA·DoD·SDA). 2024 매출 $436M → 2025E $620M+ → 2027E $1.5B+ projected. 단점은 negative FCF + 2026-27 Neutron capex $500M+ 필요.",
+    "competitors": [
+      {
+        "name": "SpaceX (Falcon 9·Starship)",
+        "ticker": "private",
+        "share_pct": 80,
+        "moat": "Reusable Falcon 9 + Starship 양산 + Starlink 자체 demand"
+      },
+      {
+        "name": "Rocket Lab",
+        "ticker": "RKLB",
+        "share_pct": 8,
+        "moat": "Electron 100+ launch + Photon bus + Neutron 진입"
+      },
+      {
+        "name": "ULA Vulcan",
+        "ticker": "BA·LMT JV",
+        "share_pct": 5,
+        "moat": "Government NSSL contract"
+      },
+      {
+        "name": "Blue Origin (New Glenn)",
+        "ticker": "private",
+        "share_pct": 2,
+        "moat": "Bezos 자본 + reusable booster"
+      },
+      {
+        "name": "Firefly Aerospace",
+        "ticker": "FLY",
+        "share_pct": 3,
+        "moat": "Alpha rocket + Blue Ghost lunar"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-04-22",
+        "title": "Rocket Lab Q1'25 매출 $144M (+78% YoY) — Photon backlog 확대",
+        "source": "RKLB earnings",
+        "summary": "Photon satellite bus backlog $1.3B. Neutron 일정 2026 Q4로 confirmation."
+      },
+      {
+        "date": "2025-03-15",
+        "title": "RKLB, NASA Mars Sample Return 위성 contract 수주",
+        "source": "NASA",
+        "summary": "Photon bus 기반 small Mars orbiter — $50M deal."
+      },
+      {
+        "date": "2025-02-08",
+        "title": "Rocket Lab Neutron 첫 발사 일정 2026 H2로 확정",
+        "source": "Rocket Lab IR",
+        "summary": "Stennis Space Center 부지 선정. 첫 발사 NASA mission 가능성 검토."
+      },
+      {
+        "date": "2024-12-12",
+        "title": "RKLB SDA contract 추가 — Tranche 2 위성 18기 제조·발사",
+        "source": "DoD/SDA",
+        "summary": "$515M contract — 2026-2027 deploy. Photon + Electron 결합."
+      },
+      {
+        "date": "2024-09-30",
+        "title": "Electron 100번째 launch 성공",
+        "source": "Rocket Lab",
+        "summary": "100/106 success rate. 글로벌 small-launch 시장 1위 확인."
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 14,
+      "horizon": "2024-2030 글로벌 launch + small satellite manufacturing"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 62,
+        "op_income": -85,
+        "op_margin": -137,
+        "net_income": -117,
+        "net_margin": -188
+      },
+      {
+        "year": 2022,
+        "revenue": 211,
+        "op_income": -120,
+        "op_margin": -57,
+        "net_income": -135,
+        "net_margin": -64
+      },
+      {
+        "year": 2023,
+        "revenue": 245,
+        "op_income": -150,
+        "op_margin": -61,
+        "net_income": -180,
+        "net_margin": -73
+      },
+      {
+        "year": 2024,
+        "revenue": 436,
+        "op_income": -150,
+        "op_margin": -34,
+        "net_income": -160,
+        "net_margin": -37
+      },
+      {
+        "year": 2025,
+        "revenue": 620,
+        "op_income": -100,
+        "op_margin": -16,
+        "net_income": -110,
+        "net_margin": -18
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31",
+      "total_assets_usdmn": 2200,
+      "total_debt_usdmn": 410,
+      "total_equity_usdmn": 1380,
+      "cash_usdmn": 520,
+      "net_debt_usdmn": -110,
+      "debt_to_equity": 0.3,
+      "current_ratio": 2.8
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": -50,
+      "capex_2025_usdmn": -250,
+      "fcf_2025_usdmn": -300,
+      "dividend_paid_2025_usdmn": 0,
+      "buyback_2025_usdmn": 0
+    },
+    "peer_compare": [
+      {
+        "ticker": "RKLB",
+        "fwd_pe": 18247,
+        "ev_ebitda": "n/m",
+        "fcf_yield_pct": -2.5,
+        "roe_pct": -8,
+        "debt_to_equity": 0.3
+      },
+      {
+        "ticker": "BA",
+        "fwd_pe": "n/m",
+        "ev_ebitda": 35,
+        "fcf_yield_pct": -1.0,
+        "roe_pct": -100,
+        "debt_to_equity": "n/m"
+      },
+      {
+        "ticker": "LMT",
+        "fwd_pe": 19,
+        "ev_ebitda": 13,
+        "fcf_yield_pct": 5.5,
+        "roe_pct": 60,
+        "debt_to_equity": 1.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "Neutron 첫 발사 성공 + SpaceX IPO catalyst + DoD contract 가속",
+      "assumption": "2027E 매출 $1.8B, 영업이익률 -5% (breakeven 임박), Neutron 가격 $10M/launch",
+      "upside_pct": 60,
+      "prob_pct": 30,
+      "target_price": 168,
+      "thesis": "Neutron success + SpaceX IPO halo + government acceleration",
+      "key_assumptions": [
+        "Neutron maiden 2026 H2 성공",
+        "DoD·NASA 다년 contract 확장",
+        "Photon backlog $2B+"
+      ]
+    },
+    "base": {
+      "label": "Neutron 1년 지연 + 정상 ramp",
+      "assumption": "2027E 매출 $1.2B, 영업이익률 -10%, Neutron 2027 H2 first flight",
+      "upside_pct": 25,
+      "prob_pct": 50,
+      "target_price": 132,
+      "thesis": "Neutron delayed but launch market growing",
+      "key_assumptions": [
+        "Neutron 6-12 month delay",
+        "Electron 안정적 30+ launch/year",
+        "정부 contract 60% 비중 유지"
+      ]
+    },
+    "bear": {
+      "label": "Neutron 2년+ 지연 + Starship 양산 + 경쟁 압박",
+      "assumption": "Capital raise dilution 30%+, Neutron 2028+",
+      "downside_pct": -45,
+      "prob_pct": 20,
+      "target_price": 58,
+      "thesis": "Execution miss + competition",
+      "key_assumptions": [
+        "Neutron major delay",
+        "Starship commercial 가격 압박",
+        "추가 capital raise"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2025-2026",
+      "event": "SpaceX IPO 발표 — Rocket Lab proxy demand",
+      "type": "product",
+      "expected_impact": "++",
+      "description": "+15-30%"
+    },
+    {
+      "date": "2026 Q3-Q4",
+      "event": "Neutron rocket maiden flight",
+      "type": "product",
+      "expected_impact": "+++",
+      "description": "+30-60% (성공 시)"
+    },
+    {
+      "date": "2025-2026",
+      "event": "DoD SDA Tranche 3 contract 발주",
+      "type": "partnership",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    },
+    {
+      "date": "ongoing",
+      "event": "Photon bus backlog $2B+ 진입",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-15%"
+    },
+    {
+      "date": "2025-2027",
+      "event": "NASA Mars / Lunar mission 추가 수주",
+      "type": "partnership",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Neutron 1-2년 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "Neutron이 RKLB의 ROIC trajectory 핵심 변수. 지연 시 capital raise + 경쟁 위협 가속",
+      "mitigation": "Photon bus + Electron으로 매출 buffer"
+    },
+    {
+      "name": "SpaceX Starship 양산 후 가격 압박",
+      "probability": "med",
+      "impact": "high",
+      "description": "Starship $200/kg 가능 시 Neutron $5-10M 가격 압박",
+      "mitigation": "Reusability + 정부 contract premium"
+    },
+    {
+      "name": "Capital raise dilution 20-30%",
+      "probability": "high",
+      "impact": "med",
+      "description": "Neutron capex $500M+ + Photon expansion 비용",
+      "mitigation": "Photon backlog 수익화로 cash burn 완화"
+    },
+    {
+      "name": "+357% 1Y rally 후 mean-reversion",
+      "probability": "med",
+      "impact": "med",
+      "description": "Profit-taking + valuation overshoot",
+      "mitigation": "Pullback 시 분할 매수"
+    },
+    {
+      "name": "Electron mission failure recurrence",
+      "probability": "low",
+      "impact": "high",
+      "description": "95% success rate이지만 단일 사건 시 평판 타격",
+      "mitigation": "100+ launch insurance + pipeline 다양화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "claim": "SpaceX IPO 우주 밸류체인 catalyst",
+      "type": "industry",
+      "evidence": "RKLB는 SpaceX 가장 직접적 alternative",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "RKLB는 SpaceX IPO catalyst의 가장 큰 spillover 종목 — 'second-tier alternative' positioning"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "5계층 framework Layer 1 infrastructure",
+      "type": "framework",
+      "evidence": "Electron + Photon + Neutron vertical integration",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "RKLB는 Layer 1 infrastructure pure-play. Photon으로 Layer 2 확장 진행"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "발사 비용 하락 cost curve",
+      "type": "industry",
+      "evidence": "Electron $7M, Neutron $10M 가격 가이던스",
+      "testability": "high",
+      "current_status": "in_progress",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "Neutron reusability success 시 cost curve 효과 직접 enabler"
+    }
+  ],
+  "korean_disclosures": []
+}

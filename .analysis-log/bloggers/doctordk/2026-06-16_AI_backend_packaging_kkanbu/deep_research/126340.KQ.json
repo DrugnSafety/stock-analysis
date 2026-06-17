@@ -1,0 +1,210 @@
+{
+  "industry": {
+    "name": "슈퍼커패시터 + SOFC(고체산화물 연료전지) 부품",
+    "overview": "비나텍은 슈퍼커패시터(전기이중층 커패시터) 국내 대표사로, 블로그 '깐부' 프레임에서 블룸에너지 SOFC에 올라타는 AI 전력 인프라 수혜주다. 2025-05-21 블룸에너지와 AI데이터센터용 슈퍼커패시터 180억원 장기공급(~2027) 체결 — 차세대 SOFC 시스템에 고성능 슈퍼커패시터 독점 공급. AI 데이터센터의 급격한 전력 변동(순간 부하) 대응이 핵심 가치. 2026-03 CB 410억(시설 350억)으로 고출력 슈퍼커패시터 라인 증설. 소형·극고변동(vol 96%)으로 테마 변동성이 큼.",
+    "competitors": [
+      {
+        "name": "비나텍",
+        "ticker": "126340.KQ",
+        "share_pct": null,
+        "moat": "슈퍼커패시터 + 블룸에너지 SOFC 독점공급 + SOFC 셀 자체개발"
+      },
+      {
+        "name": "삼화콘덴서",
+        "ticker": "001820.KS",
+        "share_pct": null,
+        "moat": "MLCC·DC-link·슈퍼커패시터"
+      },
+      {
+        "name": "Eaton/Maxwell",
+        "ticker": "ETN",
+        "share_pct": null,
+        "moat": "글로벌 울트라커패시터"
+      },
+      {
+        "name": "두산퓨얼셀",
+        "ticker": "336260.KS",
+        "share_pct": null,
+        "moat": "연료전지 시스템(국내)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-05-22",
+        "title": "블룸에너지에 AI데이터센터용 슈퍼커패시터 180억 장기공급",
+        "source": "asiae.co.kr 2025052209224826343",
+        "summary": "차세대 SOFC에 독점 공급(~2027)",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03",
+        "title": "CB 410억 발행 — 슈퍼커패시터 라인 증설(시설 350억)",
+        "source": "공시(2026-03-12)",
+        "summary": "고출력 라인 2026-27 증설",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06-17",
+        "title": "1Y 주가 +304% — SOFC·AI전력 테마",
+        "source": "yfinance live",
+        "summary": "vol 96%·저이익 PE 산정 제한",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-17)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.07,
+        "op_income": 0.01,
+        "net_income": 0.01,
+        "op_margin": 13.2,
+        "net_margin": 16.5
+      },
+      {
+        "year": 2023,
+        "revenue": 0.05,
+        "op_income": 0.0,
+        "net_income": 0.0,
+        "op_margin": 5.5,
+        "net_margin": 3.6
+      },
+      {
+        "year": 2024,
+        "revenue": 0.06,
+        "op_income": -0.01,
+        "net_income": -0.01,
+        "op_margin": -13.5,
+        "net_margin": -15.3
+      },
+      {
+        "year": 2025,
+        "revenue": 0.08,
+        "op_income": 0.0,
+        "net_income": -0.01,
+        "op_margin": 2.2,
+        "net_margin": -7.1
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.07조 → 2024 ₩0.06조 → 2025 ₩0.08조로 소폭 회복, 영업이익률은 2022 13.2% → 2024 -13.5% 적자 → 2025 +2.2% 흑자 전환 초기. SOFC 신사업 투자·전방 부진으로 2024 적자였으나 회복 중. 블룸 슈퍼커패시터(180억, 다년 분할)와 라인 증설이 2026~27 매출 동력 — 소형사라 물량 ramp가 이익에 비선형. SOFC 셀 자체 사업화가 중장기 옵션이나 자본 부담·변동성 큼.",
+    "valuation_summary": "Forward PE None (yfinance live — 저이익으로 PE 산정 제한). 현재가 ₩124,700 / 1Y +304% / 연변동성 96%(극단). 실적보다 SOFC·AI전력 테마가 주가 견인."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.38,
+      "description": "블룸 SOFC 채택 확산 + 슈퍼커패시터 추가 수주 + 라인 증설 효과로 매출·마진 도약. SOFC 셀 자체 사업화 가시화.",
+      "key_drivers": [
+        "블룸 SOFC 확산",
+        "슈퍼커패시터 추가 수주",
+        "라인 증설 효과"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "블룸 계약(180억) 정상 인식·흑자 유지, 라인 증설로 캐파 확보. 신사업 점진 성장.",
+      "key_drivers": [
+        "블룸 계약 인식",
+        "흑자 유지",
+        "캐파 증설"
+      ]
+    },
+    "bear": {
+      "probability": 0.22,
+      "description": "SOFC 채택 지연 + CB 희석 + vol 96% 극단 변동성으로 큰 폭 조정. 신사업 적자 재발.",
+      "key_drivers": [
+        "SOFC 채택 지연",
+        "CB 희석",
+        "극단 변동성"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "name": "블룸 슈퍼커패시터 물량 인식",
+      "impact": "high",
+      "description": "180억 계약 ramp 확인"
+    },
+    {
+      "date": "2026-27",
+      "name": "고출력 라인 증설 가동",
+      "impact": "medium",
+      "description": "캐파 확대 — 추가 수주 대응"
+    },
+    {
+      "date": "2026-분기",
+      "name": "SOFC 셀 사업화 진척",
+      "impact": "medium",
+      "description": "중장기 신사업 옵션"
+    }
+  ],
+  "risks": [
+    {
+      "name": "극단 변동성(vol 96%)",
+      "probability": "high",
+      "impact": "high",
+      "description": "소형주 테마 변동 — 포지션 대폭 축소"
+    },
+    {
+      "name": "저이익·소형주",
+      "probability": "high",
+      "impact": "high",
+      "description": "매출 ₩0.08조·thin 마진"
+    },
+    {
+      "name": "블룸 단일 고객 의존",
+      "probability": "medium",
+      "impact": "high",
+      "description": "SOFC 채택 속도에 종속"
+    },
+    {
+      "name": "CB 희석·자본부담",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "410억 CB·증설 capex"
+    },
+    {
+      "name": "thesis 정렬 medium",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "반도체 후공정과 결이 다른 전력 인프라 — 간접 연관"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T07",
+      "claim": "블룸 SOFC 슈퍼커패시터 깐부",
+      "current_status": "confirmed",
+      "evidence": "180억 장기 독점공급(아시아경제)"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "블룸에너지 깐부 페어링",
+      "current_status": "confirmed",
+      "evidence": "SOFC 시스템 슈퍼커패시터 독점"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "AI 전력 인프라 부가가치",
+      "current_status": "pending",
+      "evidence": "SOFC 채택 확산에 종속"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025-05-21",
+      "type": "단일판매·공급계약",
+      "summary": "블룸에너지 AI데이터센터용 슈퍼커패시터 180억원 장기공급(~2027)",
+      "title": "블룸에너지 슈퍼커패시터 180억 공급계약"
+    },
+    {
+      "date": "2026-03-12",
+      "type": "전환사채발행",
+      "summary": "CB 410억(시설 350억) — 고출력 슈퍼커패시터 라인 증설",
+      "title": "CB 410억 발행 (라인 증설)"
+    }
+  ]
+}

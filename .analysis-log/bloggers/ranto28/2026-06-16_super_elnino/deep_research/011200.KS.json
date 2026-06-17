@@ -1,0 +1,220 @@
+{
+  "industry": {
+    "name": "컨테이너 해운 (파나마운하 가뭄→통항 제한→운임 급등 핵심 수혜축)",
+    "overview": "HMM은 한국 최대·세계 8위권 컨테이너 선사로 spot 운임에 직접 노출된 고탄력 시클리컬이다. 수퍼 엘니뇨발 중남미 가뭄은 파나마운하 Gatun호 수위를 낮춰 통항 슬롯을 제한한다 — 2023-24 가뭄 때 일일 통항이 36→22척으로 -29%, 대기 17일, 컨테이너 운임 상승이 실측됐다. 2026 초는 이례적 우기로 수위가 회복됐으나 NOAA는 연중 엘니뇨 가뭄 피크를 경고하며, 6월 Gatun 갑문 정비로 슬롯이 16척까지 축소된 상태. 운임은 선복 수% 제약에도 spot가 비선형 급등하는 구조라 HMM 실적·주가 레버리지가 크다. 다만 2024-25 대규모 신조선 인도로 구조적 공급과잉이 충격을 흡수하는 양면성. 현재가 ₩22,550 / 1Y +1% / vol 39%.",
+    "competitors": [
+      {
+        "name": "Maersk",
+        "ticker": "AMKBY",
+        "share_pct": null,
+        "moat": "세계 2위·통합 물류"
+      },
+      {
+        "name": "ZIM",
+        "ticker": "ZIM",
+        "share_pct": null,
+        "moat": "미주 노선 고탄력·고배당"
+      },
+      {
+        "name": "Hapag-Lloyd",
+        "ticker": "HLAG.DE",
+        "share_pct": null,
+        "moat": "Gemini 얼라이언스"
+      },
+      {
+        "name": "팬오션",
+        "ticker": "028670.KS",
+        "share_pct": null,
+        "moat": "벌크 중심 — 엘니뇨 곡물 물동량 노출"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-06-11",
+        "title": "NOAA 엘니뇨 주의보 — 파나마운하 가뭄 리스크 재부각",
+        "source": "NOAA / Newsroom Panama",
+        "summary": "연중 엘니뇨 가뭄 피크 경고 — 통항 제한·운임 변동성 우려",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06",
+        "title": "파나마운하 Gatun 갑문 정비로 일일 슬롯 16척 축소",
+        "source": "FAIDAA / 해운 보도",
+        "summary": "대기시간 47.9시간(+60%) — 슬롯 축소가 운임에 상방",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05",
+        "title": "2024 파나마 통항 -29%·대기 17일 — 가뭄 운임충격 전례",
+        "source": "GEP / FreightAmigo",
+        "summary": "엘니뇨 가뭄 재현 시 Asia-USEC FEU 수백 달러 surcharge",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04",
+        "title": "2024-25 대규모 신조선 인도로 컨테이너 구조적 공급과잉",
+        "source": "Alphaliner",
+        "summary": "운임 spike를 과잉선복이 흡수 — 지속성 제약",
+        "impact": "-"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-16)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 18.583,
+        "op_income": 9.949,
+        "net_income": 10.117,
+        "op_margin": 53.5,
+        "net_margin": 54.4
+      },
+      {
+        "year": 2023,
+        "revenue": 8.401,
+        "op_income": 0.585,
+        "net_income": 0.969,
+        "op_margin": 7.0,
+        "net_margin": 11.5
+      },
+      {
+        "year": 2024,
+        "revenue": 11.7,
+        "op_income": 3.513,
+        "net_income": 3.782,
+        "op_margin": 30.0,
+        "net_margin": 32.3
+      },
+      {
+        "year": 2025,
+        "revenue": 10.891,
+        "op_income": 1.464,
+        "net_income": 1.878,
+        "op_margin": 13.4,
+        "net_margin": 17.2
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩18.6조·OPM 53.5%의 코로나 운임 super-boom에서 2023 ₩8.4조·OPM 7.0%로 급랭, 2024 ₩11.7조·OPM 30.0%(홍해 우회 운임 반등)로 재상승했다가 2025 ₩10.9조·OPM 13.4%로 정상화. 극단적 OPM 변동(7~53%)은 컨테이너 운임 탄력성의 직접 반영 — HMM은 운임 이벤트에 실적이 가장 민감한 종목 중 하나. 막대한 순현금(운임 호황기 축적)이 다운사이클 방어력.",
+    "valuation_summary": "Forward PE 19.77×. 해운 시클리컬은 PER 함정(이익 피크에 저PER)이 큰 업종 — PBR·순현금·운임 사이클 위치가 핵심. 현재가 ₩22,550 / 1Y +1% / vol 39%. 파나마 운임 spike는 단기 실적 업사이드, 단 신조선 과잉이 추세적 운임을 누름."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.3,
+      "description": "엘니뇨 가뭄으로 파나마 통항 강제 제한+홍해 리스크 지속 → spot 운임 급등, 분기 어닝 서프라이즈",
+      "key_drivers": [
+        "파나마 슬롯 대폭 축소",
+        "운임 spike 분기 지속",
+        "순현금 기반 주주환원"
+      ]
+    },
+    "base": {
+      "probability": 0.45,
+      "description": "운임 변동성 확대되나 신조선 과잉으로 추세 상승은 제한 — 이벤트성 등락",
+      "key_drivers": [
+        "간헐적 운임 spike",
+        "공급과잉 상쇄",
+        "박스권 실적"
+      ]
+    },
+    "bear": {
+      "probability": 0.25,
+      "description": "파나마 강우 정상화+신조선 인도 가속+교역 둔화로 운임 약세 → 이익 급감",
+      "key_drivers": [
+        "통항 정상화",
+        "선복 과잉 심화",
+        "글로벌 교역 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-여름",
+      "title": "파나마 수위·통항 슬롯",
+      "name": "Panama transit",
+      "impact": "+",
+      "description": "엘니뇨 가뭄 진행 시 운임 spike 트리거"
+    },
+    {
+      "date": "2026-07",
+      "title": "2Q26 실적·SCFI 추이",
+      "name": "2Q26 earnings",
+      "impact": "○",
+      "description": "운임 사이클 위치 확인"
+    },
+    {
+      "date": "2026-하반기",
+      "title": "신조선 인도 스케줄",
+      "name": "Newbuild delivery",
+      "impact": "-",
+      "description": "공급과잉 압력 — 운임 상단 제약"
+    }
+  ],
+  "risks": [
+    {
+      "name": "운임 추세 하락",
+      "probability": "high",
+      "impact": "high",
+      "description": "신조선 과잉으로 spike 후 빠른 되돌림 — 이익 변동성 극단"
+    },
+    {
+      "name": "파나마 정상화",
+      "probability": "med",
+      "impact": "high",
+      "description": "강우 회복 시 통항 제한 해소 — thesis 무력화"
+    },
+    {
+      "name": "글로벌 교역 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "물동량 약세가 운임 상방 상쇄"
+    },
+    {
+      "name": "유가·연료비",
+      "probability": "med",
+      "impact": "med",
+      "description": "벙커유 가격 상승 시 마진 압박"
+    },
+    {
+      "name": "엘니뇨 강도 미달",
+      "probability": "med",
+      "impact": "med",
+      "description": "가뭄 미발생 시 운임 촉매 소멸"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T03",
+      "claim": "중남미 가뭄→파나마운하→컨테이너 운임 급등",
+      "current_status": "진행/우호",
+      "evidence": "2023-24 -29%·17일 대기 전례, 6월 슬롯 16척 — 메르 §24-25,71 + 외부 검증"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "수퍼 엘니뇨 전환",
+      "current_status": "확인",
+      "evidence": "NOAA 주의보·가뭄 피크 경고"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "곡물 물동량(2026 후반)",
+      "current_status": "간접",
+      "evidence": "벌크/곡물 물동량 변화는 팬오션 등에 더 직접"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "연성원자재 공급교란",
+      "current_status": "간접",
+      "evidence": "원자재 물동량 변화가 해운 수요에 부분 반영"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-17",
+      "type": "시세",
+      "summary": "KOSPI 상장 — DART 정기공시 대상(사업보고서·분기보고서)",
+      "title": "HMM (011200.KS)"
+    }
+  ]
+}

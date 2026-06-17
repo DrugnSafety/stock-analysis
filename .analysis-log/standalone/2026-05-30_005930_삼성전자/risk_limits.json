@@ -1,0 +1,12 @@
+{
+  "ticker": "005930.KS",
+  "company_kr": "삼성전자",
+  "currency": "KRW",
+  "base_position_size_pct": 5.0,
+  "volatility_adjusted_pct": 4.5,
+  "max_position_pct": 7.5,
+  "stop_loss_pct": -15.0,
+  "based_on": "quant_anchor.risk_metrics (Sharpe 3.57, MaxDD -23.14%, Beta 1.28)",
+  "rationale": "Strong Sharpe (3.57) supports above-default sizing, but cyclic peak risk + DCF -58% downside warrant cautious sizing. base 5% × beta adjustment 0.90 = 4.5%",
+  "generated_at": "2026-05-31T01:17:23.852037Z"
+}

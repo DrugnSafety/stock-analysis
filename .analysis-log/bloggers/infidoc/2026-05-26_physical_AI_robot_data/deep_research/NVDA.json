@@ -1,0 +1,260 @@
+{
+  "ticker": "NVDA",
+  "name_kr": "엔비디아 (NVIDIA Corporation)",
+  "name_en": "NVIDIA Corporation",
+  "industry": {
+    "name": "글로벌 AI 컴퓨팅 인프라 + 디지털 트윈·Physical AI 플랫폼",
+    "overview": "NVIDIA는 글로벌 GPU·AI 컴퓨팅 인프라 절대 leader (시총 $5.2T, 2026.05 기준). 2026.03 GTC 2026에서 Physical AI Data Factory Blueprint 공개 — 로보틱스·비전 AI·자율주행 학습 데이터 생성·증강·평가를 단일 레퍼런스 아키텍처로 통합. 5-레이어 밸류체인(AI Factory→Simulation Factory→Data Factory→Edge AI→Robotics Application) 모두 자체 제품(DGX·HGX·Omniverse·Isaac Sim·Cosmos·Isaac GR00T·Jetson Thor·DRIVE)으로 cover. 한국 SK 그룹(50K GPU AI Factory, 2025.10), Samsung·SK hynix HBM(시장 점유율 50%+), Hyundai·Naver 등 multi-front 파트너십. 2026 EPS growth +40%+ 추정, 매출 $200B+ 추정. 인피의 thesis의 underlying enabler.",
+    "competitors": [
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "share_pct": 12,
+        "moat": "GPU 2위 — MI300 시리즈로 NVIDIA 추격, CUDA lock-in 약점"
+      },
+      {
+        "name": "Intel",
+        "ticker": "INTC",
+        "share_pct": 3,
+        "moat": "Gaudi·Foundry 진입 — 시장 점유 낮음"
+      },
+      {
+        "name": "Google TPU",
+        "ticker": "GOOGL",
+        "share_pct": 8,
+        "moat": "내부 사용 + Cloud 외판 — vertical integration"
+      },
+      {
+        "name": "AWS Trainium·Inferentia",
+        "ticker": "AMZN",
+        "share_pct": 5,
+        "moat": "AWS 클라우드 내부 — 자체 silicon 전략"
+      },
+      {
+        "name": "Cerebras",
+        "ticker": "CBRS",
+        "share_pct": 1,
+        "moat": "Wafer-scale chip — niche, IPO 2024"
+      },
+      {
+        "name": "Groq",
+        "ticker": "GROQ",
+        "share_pct": 1,
+        "moat": "LPU inference 특화 — IPO 준비"
+      },
+      {
+        "name": "Tenstorrent",
+        "ticker": "-",
+        "share_pct": 1,
+        "moat": "Jim Keller가 이끄는 RISC-V 기반 AI chip 스타트업"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "GTC Taipei at Computex 6.1 키노트 일정 공개",
+        "impact": "+",
+        "reason": "아시아 제조업 파트너십·Physical AI 강조 예고"
+      },
+      {
+        "date": "2026-04",
+        "title": "NVIDIA 임원 삼성·SK hynix 임원과 Physical AI 파트너십 회동",
+        "impact": "+",
+        "reason": "Korea Times 보도 — 한국 메이저 제조업 협력 강화"
+      },
+      {
+        "date": "2026-03",
+        "title": "Physical AI Data Factory Blueprint 공개 + ABB·FANUC·KUKA·Agility·Figure·YASKAWA 로보틱스 파트너십",
+        "impact": "+",
+        "reason": "5-레이어 밸류체인 공식화"
+      },
+      {
+        "date": "2026-03",
+        "title": "Microsoft Azure·Nebius 블루프린트 직접 통합 + FieldAI·Teradyne·Hexagon 첫 고객",
+        "impact": "+",
+        "reason": "Data Factory 레이어 enterprise 채택 확산"
+      },
+      {
+        "date": "2025-12",
+        "title": "APEC 한국 Inception 얼라이언스 + Physical AI CoE",
+        "impact": "+",
+        "reason": "한국 정책 backing 강화"
+      },
+      {
+        "date": "2025-10",
+        "title": "SK 그룹과 50,000+ GPU AI Factory 파트너십",
+        "impact": "+",
+        "reason": "$2~3B capex 한국 디지털 트윈·로보틱스 인프라"
+      },
+      {
+        "date": "2025-10",
+        "title": "Hyundai·Samsung·SK·Naver 한국 AI 다축 파트너십 (TechCrunch)",
+        "impact": "+",
+        "reason": "NVIDIA 한국 시장 multi-front 진입"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "1월 (회계연도)",
+    "currency": "USD",
+    "five_year_pnl": {
+      "headers": [
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025",
+        "FY2026E"
+      ],
+      "revenue_bn": [
+        26.9,
+        26.97,
+        60.92,
+        130.5,
+        205.0
+      ],
+      "op_income_bn": [
+        10.0,
+        4.2,
+        32.97,
+        81.45,
+        135.0
+      ],
+      "net_income_bn": [
+        9.75,
+        4.37,
+        29.76,
+        72.9,
+        122.0
+      ],
+      "op_margin_pct": [
+        37.2,
+        15.7,
+        54.1,
+        62.4,
+        65.9
+      ],
+      "net_margin_pct": [
+        36.2,
+        16.2,
+        48.9,
+        55.9,
+        59.5
+      ],
+      "source": "NVIDIA 10-K + 컨센서스 2026E"
+    },
+    "five_quarter_pnl": {
+      "headers": [
+        "1Q25",
+        "2Q25",
+        "3Q25",
+        "4Q25",
+        "1Q26E"
+      ],
+      "revenue_bn": [
+        26.0,
+        30.0,
+        35.1,
+        39.3,
+        43.5
+      ],
+      "op_income_bn": [
+        16.9,
+        19.4,
+        22.9,
+        24.0,
+        28.0
+      ],
+      "op_margin_pct": [
+        65.0,
+        64.7,
+        65.2,
+        61.1,
+        64.4
+      ]
+    },
+    "balance_sheet_snapshot": {
+      "as_of": "4Q25 (2026.01)",
+      "total_assets_bn": 111.6,
+      "total_liab_bn": 32.8,
+      "total_equity_bn": 78.8,
+      "cash_bn": 43.2,
+      "debt_bn": 10.3,
+      "net_debt_bn": -32.9
+    },
+    "material_variance_summary": [
+      {
+        "item": "매출",
+        "yoy": "+58% (FY25→FY26E)",
+        "driver": "AI Capex Supercycle + HBM 공급 정상화"
+      },
+      {
+        "item": "영업이익률",
+        "yoy": "+3.5%p",
+        "driver": "Data Center 매출 mix 85%+ → 마진 견인"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "thesis": "Physical AI Data Factory + 휴머노이드 + 자율주행 secular tailwind. FY27E 매출 $280B+, EPS $7.5+. 시총 $7T+ 가능.",
+      "target_price": 290
+    },
+    "base": {
+      "prob_pct": 40,
+      "thesis": "AI Capex Supercycle 유지 + Physical AI Layer 추가. FY27E 매출 $250B, EPS $6.5. 시총 유지 ~$5.5T.",
+      "target_price": 230
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "AI Capex 감속 + 경쟁사 점유율 잠식. FY27E 매출 $180B 정체. 시총 $3.5T 후퇴.",
+      "target_price": 150
+    }
+  },
+  "catalysts_risks": {
+    "near_term_catalysts": [
+      {
+        "date": "2026-06-01",
+        "event": "GTC Taipei at Computex 키노트 — Physical AI·아시아 제조업 발표",
+        "impact": "high"
+      },
+      {
+        "date": "2026-05-28",
+        "event": "1Q26 어닝 발표 예정",
+        "impact": "high"
+      },
+      {
+        "date": "2026-09",
+        "event": "Rubin 차세대 GPU 정식 announce",
+        "impact": "medium"
+      }
+    ],
+    "key_risks": [
+      {
+        "risk": "AI Capex bubble burst (시스코 2000 패턴)",
+        "prob": "25%",
+        "impact": "-40~60%"
+      },
+      {
+        "risk": "중국 수출 통제 확대",
+        "prob": "30%",
+        "impact": "-15~25%"
+      },
+      {
+        "risk": "AMD·Custom Silicon 점유율 잠식",
+        "prob": "40%",
+        "impact": "-10~20%"
+      },
+      {
+        "risk": "HBM 공급 부족 지속",
+        "prob": "25%",
+        "impact": "매출 -10%"
+      },
+      {
+        "risk": "미국 antitrust 강화",
+        "prob": "20%",
+        "impact": "-15~25%"
+      }
+    ]
+  }
+}

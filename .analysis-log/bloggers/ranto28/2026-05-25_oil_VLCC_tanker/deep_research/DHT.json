@@ -1,0 +1,249 @@
+{
+  "ticker": "DHT",
+  "name": "DHT 홀딩스",
+  "current_price": 17.38,
+  "currency": "USD",
+  "industry": {
+    "name": "글로벌 VLCC·Crude Tanker Shipping Industry",
+    "overview": "글로벌 crude tanker 시장은 2024년 $90B → 2030년 $140B (CAGR 7-9%) 추정. VLCC (Very Large Crude Carrier, 32만톤급)이 글로벌 원유 해상수송의 70%+ 차지 — 약 880척 (2026 estimate)이 글로벌 함대를 구성. 2026년 호르무즈해협 봉쇄 + 미국 원유 수출 사상 최고 + 톤마일 확장이 결합되면서 VLCC TCE (Time Charter Equivalent) 평균이 2024 $50K/day → 2026 Q1 $90K/day → 4월 $110K/day로 급등. 신조 인도는 2028년까지 예약 (조선소 캐파 포화), 5년 중고 선박이 신조 가격을 추월 (inversion). 주요 player: Frontline (FRO, 62척, #1 pure-play), DHT Holdings (DHT, 24척, 100% spot 노출), International Seaways (INSW, 75척 mixed fleet), Teekay Tankers (TNK, suezmax 중심), Euronav (CMB.A, 70척+), Cosco Shipping Energy (1138.HK, 56척, 중국 캐피티브).",
+    "competitors": [
+      {
+        "name": "Frontline",
+        "ticker": "FRO",
+        "share_pct": 7.5,
+        "moat": "VLCC pure-play #1, John Fredriksen group capital expertise"
+      },
+      {
+        "name": "DHT Holdings",
+        "ticker": "DHT",
+        "share_pct": 3.0,
+        "moat": "100% VLCC spot 노출, variable dividend payer"
+      },
+      {
+        "name": "Scorpio Tankers",
+        "ticker": "STNG",
+        "share_pct": 6.0,
+        "moat": "Product tanker #1 (LR2·MR fleet), youngest fleet"
+      },
+      {
+        "name": "International Seaways",
+        "ticker": "INSW",
+        "share_pct": 5.5,
+        "moat": "Crude+product diversified"
+      },
+      {
+        "name": "Cosco Shipping Energy",
+        "ticker": "1138.HK",
+        "share_pct": 8.0,
+        "moat": "China captive demand"
+      },
+      {
+        "name": "Euronav",
+        "ticker": "CMB.A",
+        "share_pct": 7.0,
+        "moat": "VLCC+Suezmax 통합 운영"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-24",
+        "title": "한국 4월 미국산 원유 수입 +75.8% YoY — 사우디·미국 투톱 (메르 본문)",
+        "source": "KITA K-stat",
+        "summary": "한국 원유 수입 mix 사상 첫 미국 = 사우디 동률"
+      },
+      {
+        "date": "2026-05-15",
+        "title": "Clarkson VLCC TCE 110,000 USD/day 돌파 — 2008년 이래 최고",
+        "source": "Clarkson Research",
+        "summary": "톤마일 확장 + 신조 캐파 부족 결합"
+      },
+      {
+        "date": "2026-05-10",
+        "title": "FRO 1Q26 EPS $1.20 vs 컨센서스 $0.95 — beat 26%",
+        "source": "Frontline IR",
+        "summary": "spot rate 효과 직접 반영"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "5Y 중고 VLCC 가격이 신조 추월 — 25년 만 inversion",
+        "source": "VesselsValue",
+        "summary": "조선소 캐파 포화로 즉시 인도 가능 선박이 premium"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "IMO EEDI Phase 3 2030 시행 — 기존 함대 30%+ 운영 제약",
+        "source": "IMO",
+        "summary": "secondhand value 추가 상승 가능"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 95,
+      "cagr_pct": 8.0,
+      "horizon": "2024-2030"
+    },
+    "tailwinds": [],
+    "headwinds": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 25.0,
+      "thesis": "VLCC spot 강세 지속 + variable div 강화 (15%→20%)",
+      "key_assumptions": [
+        "TCE 110K+",
+        "div 20%",
+        "spot 100%"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 19.0,
+      "thesis": "TCE softening 시작, div 12-14% 유지",
+      "key_assumptions": [
+        "TCE 80K",
+        "div 12%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 11.0,
+      "thesis": "TCE 50K 회귀 → div 5% 수준 cut, valuation -30%",
+      "key_assumptions": [
+        "TCE 50K",
+        "div 5%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Variable dividend 인상 발표 가능성",
+      "type": "capital_return",
+      "expected_impact": "+",
+      "description": "TCE 강세 → div yield 18%+ 가능"
+    },
+    {
+      "date": "2027",
+      "event": "Fleet 확장 calendar",
+      "type": "capex",
+      "expected_impact": "?",
+      "description": "신조·secondhand acquisition 결정"
+    }
+  ],
+  "risks": [
+    {
+      "risk": "variable div cut 위험",
+      "severity": "high",
+      "probability": "med",
+      "mitigation": "div 수준이 cycle bottom signal 가능",
+      "impact": "high",
+      "name": "variable div cut 위험",
+      "description": "variable div cut 위험"
+    },
+    {
+      "risk": "100% spot 노출의 양면성 — 하락 시 직격탄",
+      "severity": "high",
+      "probability": "med",
+      "mitigation": "fleet 안정성, low leverage",
+      "impact": "high",
+      "name": "100% spot 노출의 양면성 — 하락 시 직격탄",
+      "probability_label": "high",
+      "description": "100% spot 노출의 양면성 — 하락 시 직격탄"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "type": "factual",
+      "claim": "호르무즈해협 봉쇄 이후 한국의 미국산 원유 수입이 전년 동월 대비 75.8% 급증하면서, 미국이 사우디와 함께 한국 원유 공급의 투톱 (각 214.5~214.6만톤) 으로 부상한다.",
+      "evidence": "한국무역협회 K-stat 2026-04 통계 / 사우디 214.6만톤, 미국 214.5만톤 (4월 수입)",
+      "testability": "high",
+      "ticker_exposure": "+++",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T4",
+      "type": "factual",
+      "claim": "사우디→부산 11,000km 대비 미국 걸프만→부산 25,000km (희망봉 우회) — 톤마일이 2.3배 증가하면서 동일 물량 운송에 VLCC 유조선이 2배 이상 필요해진다.",
+      "evidence": "사우디 11,000km, 미국 19,000km (파나마) / 25,000km (희망봉) / VLCC 60~68m 폭 vs 파나마운하 49m 제약 → 희망봉 강제",
+      "testability": "high",
+      "ticker_exposure": "+++",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T5",
+      "type": "factual",
+      "claim": "VLCC 신조 선박은 조선소 캐파 포화로 2~3년 인도 대기인 반면, 5년 중고 VLCC 가격이 신조 가격을 추월한 inversion 현상이 발생 — 유조선 시장이 구조적 공급부족 상태에 진입했다.",
+      "evidence": "2018~2026년 VLCC 가격 차트 / 5년 중고 VLCC > 신조 VLCC (가격 역전)",
+      "testability": "high",
+      "ticker_exposure": "++",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T6",
+      "type": "predictive",
+      "claim": "리세일 선박 (조선소 인도 전 전매되는 신상 선박)이 즉시 인도 가능 + 신조 사양 조합으로 모든 카테고리 중 최고가를 형성 — 운임 시장의 즉시 수익 가치가 향후 1~2년간 지속될 것으로 시장이 가격 발견 중이다.",
+      "evidence": "Resale 선박 가격이 차트 최상단 / 즉시 인도 가능 (조선소 발주분 전매)",
+      "testability": "high",
+      "ticker_exposure": "+",
+      "current_status": "pending"
+    }
+  ],
+  "pl_5y_summary": {
+    "revenue_cagr_5y": 16.0,
+    "opm_2024": 35,
+    "opm_2025e": 40,
+    "opm_2026e": 43,
+    "net_income_cagr": 18
+  },
+  "korean_disclosures": [],
+  "us_filings": [
+    {
+      "date": "2026-05-08",
+      "type": "10-Q",
+      "summary": "DHT 홀딩스 1Q26 — TCE/margin 강세 반영",
+      "title": "DHT 홀딩스 1Q26 — TCE/margin 강세 반영",
+      "impact": "+"
+    }
+  ],
+  "generated_at": "2026-05-25",
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 245,
+        "op_income": 35,
+        "op_margin": 14.3,
+        "net_income": 12
+      },
+      {
+        "year": 2022,
+        "revenue": 540,
+        "op_income": 195,
+        "op_margin": 36.1,
+        "net_income": 170
+      },
+      {
+        "year": 2023,
+        "revenue": 615,
+        "op_income": 220,
+        "op_margin": 35.8,
+        "net_income": 215
+      },
+      {
+        "year": 2024,
+        "revenue": 560,
+        "op_income": 195,
+        "op_margin": 34.8,
+        "net_income": 182
+      },
+      {
+        "year": 2025,
+        "revenue": 650,
+        "op_income": 263,
+        "op_margin": 40.5,
+        "net_income": 245
+      }
+    ]
+  }
+}

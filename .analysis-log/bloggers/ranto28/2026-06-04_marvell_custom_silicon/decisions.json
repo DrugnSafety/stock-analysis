@@ -1,0 +1,380 @@
+{
+  "computed_at": "2026-06-05T06:26:39.083393+09:00",
+  "ledger_path": ".analysis-log/bloggers/ranto28/2026-06-04_marvell_custom_silicon/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/ranto28/2026-06-04_marvell_custom_silicon/risk_limits.json",
+  "n_decisions": 3,
+  "decisions": [
+    {
+      "ticker": "440110.KQ",
+      "date": "2026-06-04",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 7,
+        "lean_bearish": 8,
+        "neutral": 2
+      },
+      "signal_score": -0.0153,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "Aswath Damodaran": {
+          "verdict": "lean_bullish",
+          "confidence": 0.75,
+          "weight": 1.0,
+          "score_contribution": 0.525
+        },
+        "Ben Graham": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "Bill Ackman": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Cathie Wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Charlie Munger": {
+          "verdict": "lean_bearish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": -0.42
+        },
+        "Cliff Asness": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "George Soros": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "Jim Simons": {
+          "verdict": "lean_bearish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": -0.56
+        },
+        "Michael Burry": {
+          "verdict": "neutral",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "Mohnish Pabrai": {
+          "verdict": "lean_bearish",
+          "confidence": 0.4,
+          "weight": 1.0,
+          "score_contribution": -0.28
+        },
+        "Nassim Taleb": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "Peter Lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Phil Fisher": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Rakesh Jhunjhunwala": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Ray Dalio": {
+          "verdict": "lean_bearish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": -0.42
+        },
+        "Stanley Druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Warren Buffett": {
+          "verdict": "neutral",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 116000.0,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.0407,
+      "reasoning": "중립 신호 (-0.02), 변경 없음"
+    },
+    {
+      "ticker": "AVGO",
+      "date": "2026-06-04",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "neutral": 3,
+        "lean_bearish": 4,
+        "lean_bullish": 10
+      },
+      "signal_score": 0.2862,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "Aswath Damodaran": {
+          "verdict": "neutral",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "Ben Graham": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "Bill Ackman": {
+          "verdict": "lean_bearish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": -0.42
+        },
+        "Cathie Wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.85,
+          "weight": 1.0,
+          "score_contribution": 0.595
+        },
+        "Charlie Munger": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Cliff Asness": {
+          "verdict": "neutral",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "George Soros": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Jim Simons": {
+          "verdict": "lean_bearish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": -0.56
+        },
+        "Michael Burry": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "Mohnish Pabrai": {
+          "verdict": "neutral",
+          "confidence": 0.5,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        },
+        "Nassim Taleb": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Peter Lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Phil Fisher": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Rakesh Jhunjhunwala": {
+          "verdict": "lean_bullish",
+          "confidence": 0.85,
+          "weight": 1.0,
+          "score_contribution": 0.595
+        },
+        "Ray Dalio": {
+          "verdict": "lean_bullish",
+          "confidence": 0.75,
+          "weight": 1.0,
+          "score_contribution": 0.525
+        },
+        "Stanley Druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Warren Buffett": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 418.91,
+      "position_limit_value": 143220.0,
+      "annualized_volatility": 0.498,
+      "reasoning": "중립 신호 (+0.29), 변경 없음"
+    },
+    {
+      "ticker": "MRVL",
+      "date": "2026-06-04",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bullish": 13,
+        "lean_bearish": 3,
+        "neutral": 1
+      },
+      "signal_score": 0.4405,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "Aswath Damodaran": {
+          "verdict": "lean_bullish",
+          "confidence": 0.85,
+          "weight": 1.0,
+          "score_contribution": 0.595
+        },
+        "Ben Graham": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "Bill Ackman": {
+          "verdict": "lean_bullish",
+          "confidence": 0.75,
+          "weight": 1.0,
+          "score_contribution": 0.525
+        },
+        "Cathie Wood": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Charlie Munger": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Cliff Asness": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "George Soros": {
+          "verdict": "lean_bullish",
+          "confidence": 0.75,
+          "weight": 1.0,
+          "score_contribution": 0.525
+        },
+        "Jim Simons": {
+          "verdict": "lean_bearish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": -0.49
+        },
+        "Michael Burry": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Mohnish Pabrai": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Nassim Taleb": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Peter Lynch": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        },
+        "Phil Fisher": {
+          "verdict": "lean_bullish",
+          "confidence": 0.85,
+          "weight": 1.0,
+          "score_contribution": 0.595
+        },
+        "Rakesh Jhunjhunwala": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Ray Dalio": {
+          "verdict": "lean_bullish",
+          "confidence": 0.85,
+          "weight": 1.0,
+          "score_contribution": 0.595
+        },
+        "Stanley Druckenmiller": {
+          "verdict": "lean_bullish",
+          "confidence": 0.8,
+          "weight": 1.0,
+          "score_contribution": 0.56
+        },
+        "Warren Buffett": {
+          "verdict": "neutral",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 173,
+      "current_price": 316.43,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.898,
+      "reasoning": "중간 매수 신호 (+0.44), 한도의 50% 진입"
+    }
+  ]
+}

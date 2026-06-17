@@ -1,0 +1,235 @@
+{
+  "ticker": "267260.KS",
+  "name": "HD Hyundai Electric",
+  "name_kr": "HD현대일렉트릭",
+  "research_date": "2026-05-10",
+  "industry": {
+    "name": "전력기기 (변압기·차단기·HVDC·배전반)",
+    "overview": "HD현대그룹 전력기기 사업회사. 초고압 변압기·GIS(Gas Insulated Switchgear)·배전반·차단기 제조. 미국 텍사스 변압기 공장 + 한국 울산 본사. 2024 변압기 글로벌 수출 시장에서 한국 점유율 14% 달성.",
+    "competitors": [
+      {
+        "name": "효성중공업",
+        "ticker": "298040.KS",
+        "strength": "변압기 한국 1위, HVDC 강점"
+      },
+      {
+        "name": "LS ELECTRIC",
+        "ticker": "010120.KS",
+        "strength": "배전·자동화·태양광 인버터"
+      },
+      {
+        "name": "GE Vernova",
+        "ticker": "GEV",
+        "strength": "글로벌 grid oligopoly"
+      },
+      {
+        "name": "Hitachi Energy",
+        "ticker": "via 6501.T",
+        "strength": "변압기 글로벌 1위"
+      },
+      {
+        "name": "Siemens Energy",
+        "ticker": "ENR.DE",
+        "strength": "유럽 grid 강세"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 95,
+      "horizon": "2024-2030",
+      "cagr_pct": 11.0,
+      "future_usd_bn": 175
+    },
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "HDE 미국 텍사스 변압기 신공장 가동",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-03",
+        "title": "HDE 사우디·UAE 변압기 $800M 수주",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-02",
+        "title": "한국 변압기 수출 2025 $5.2B 사상최대",
+        "impact": "+",
+        "url": ""
+      }
+    ]
+  },
+  "financials": {
+    "currency": "KRW (억원)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 17800,
+        "op_income": 540,
+        "op_margin": 3.0,
+        "net_income": 290,
+        "net_margin": 1.6
+      },
+      {
+        "year": 2022,
+        "revenue": 21100,
+        "op_income": 880,
+        "op_margin": 4.2,
+        "net_income": 600,
+        "net_margin": 2.8
+      },
+      {
+        "year": 2023,
+        "revenue": 26460,
+        "op_income": 1980,
+        "op_margin": 7.5,
+        "net_income": 1340,
+        "net_margin": 5.1
+      },
+      {
+        "year": 2024,
+        "revenue": 35640,
+        "op_income": 4120,
+        "op_margin": 11.6,
+        "net_income": 3050,
+        "net_margin": 8.6
+      },
+      {
+        "year": 2025,
+        "revenue": 44800,
+        "op_income": 5980,
+        "op_margin": 13.3,
+        "net_income": 4480,
+        "net_margin": 10.0
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-Q4",
+      "total_assets": 38500,
+      "total_liabilities": 22500,
+      "equity": 16000,
+      "cash": 4800,
+      "total_debt": 1900
+    },
+    "cf_summary": {
+      "ocf_2025": 6800,
+      "fcf_2025": 4200,
+      "capex_2025": 2600
+    },
+    "fetched_via": "DART 사업보고서 (estimates)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30.0,
+      "target_price": 1900000,
+      "thesis": "미국 변압기 lead time 36개월 지속 + 사우디·UAE 수주 가속. 영업이익률 15%+ 진입. Backlog 4년치+. 한국 제조업 reshoring 수혜.",
+      "key_assumptions": [
+        "미국 변압기 lead time 36개월 지속 + 사우디·UAE 수주 가속. 영업이익률 15%+ 진입. Backlog 4년치+. 한국 제조업 re..."
+      ],
+      "upside_pct": 35.4
+    },
+    "base": {
+      "prob_pct": 40.0,
+      "target_price": 1500000,
+      "thesis": "Backlog 3년치 지속, 매출 CAGR 18%. 영업이익률 12~13% 유지. 미국·중동 수출 견조.",
+      "key_assumptions": [
+        "Backlog 3년치 지속, 매출 CAGR 18%. 영업이익률 12~13% 유지. 미국·중동 수출 견조...."
+      ],
+      "upside_pct": 6.9
+    },
+    "bear": {
+      "prob_pct": 30.0,
+      "target_price": 850000,
+      "thesis": "2027~2028 미국 변압기 capacity 확대로 가격 정상화. 영업이익률 8~10%로 회귀. Forward PE 25 수준 multiple compression.",
+      "key_assumptions": [
+        "2027~2028 미국 변압기 capacity 확대로 가격 정상화. 영업이익률 8~10%로 회귀. Forward PE 25 수준 multiple..."
+      ],
+      "upside_pct": -39.4
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "Q2 실적 + 수주 backlog 공시",
+      "impact": "+/-"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "미국 텍사스 신공장 양산 가동률 발표",
+      "impact": "+/-"
+    },
+    {
+      "date": "2027",
+      "event": "미국·EU 변압기 capacity expansion 본격화",
+      "impact": "-"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 40.92 — 한국 historical 수준의 2배 premium",
+      "probability": "high",
+      "impact": "high",
+      "description": "Forward PE 40.92 — 한국 historical 수준의 2배 premium",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "+312% 1Y momentum — 단기 조정 risk",
+      "probability": "med",
+      "impact": "med",
+      "description": "+312% 1Y momentum — 단기 조정 risk",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "미국 변압기 capacity 확대 (Hitachi $5B Capex) — 2027 가격 정",
+      "probability": "med",
+      "impact": "med",
+      "description": "미국 변압기 capacity 확대 (Hitachi $5B Capex) — 2027 가격 정상화",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "원자재 (전기강판·구리) 가격 변동 — 마진 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "원자재 (전기강판·구리) 가격 변동 — 마진 압박",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "환율 — KRW 강세 시 USD 매출 환산 손실",
+      "probability": "med",
+      "impact": "med",
+      "description": "환율 — KRW 강세 시 USD 매출 환산 손실",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-15",
+      "type": "사업보고서",
+      "summary": "FY2025 매출 4.48조원, 영업이익률 13.3%",
+      "title": "FY2025 매출 4.48조원, 영업이익률 13.3%",
+      "impact": "○"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "정정공시",
+      "summary": "사우디 변압기 $800M 수주 신고",
+      "title": "사우디 변압기 $800M 수주 신고",
+      "impact": "○"
+    },
+    {
+      "date": "2026-02-10",
+      "type": "분기보고서",
+      "summary": "Q4 2025 backlog 12.5조원",
+      "title": "Q4 2025 backlog 12.5조원",
+      "impact": "○"
+    }
+  ],
+  "us_disclosures": [],
+  "subagent_debate": {
+    "bull_druckenmiller": "한국 변압기 글로벌 점유율 8→14% 성장 trajectory + 미국 reshoring 수혜. 18개월 forward earnings power +60% 가능. Forward PE 40도 historical 한국 성장주에서 흔한 수준.",
+    "bear_buffett": "+312% 1Y는 한국 historical 평균의 8배. Forward PE 40은 한국 시장에서 매우 높음. 변압기는 commodity-like 산업 — 영구 oligopoly premium은 비현실적.",
+    "skeptic": "Backlog quality 검증 — fixed price vs variable price 비중? 환율 hedge ratio? 미국 신공장 가동률 신뢰성?",
+    "convergence": "Thesis 자체는 강력. 단 valuation premium이 이미 반영됐고 2027 capacity expansion이 핵심 risk."
+  }
+}

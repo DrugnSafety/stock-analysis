@@ -1,0 +1,339 @@
+{
+  "industry": {
+    "name": "Memory Semiconductor (DRAM + HBM + LPDDR + NAND)",
+    "overview": "메모리 반도체는 Samsung·SK Hynix·Micron 3사 합산 점유 95%+의 strict oligopoly. 2024-2026 HBM cycle 본격화로 HBM TAM 2024 $12bn → 2027E $48bn. HBM 우선순위로 conventional DRAM/LPDDR capacity allocation 감소 → AI PC/스마트폰 inflection 시 supply gap 가시화. 글로벌 메모리 시장 2025E $188.5bn → 2030E $385bn (CAGR +15.4%). HBM crowd-out 효과로 LPDDR available capacity 2026 H2 -12% 감소 (Mizuho 추정).",
+    "competitors": [
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 42.0,
+        "moat": "DRAM #1, LPDDR #1 (45% 점유), Galaxy captive demand"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 33.0,
+        "moat": "HBM #1 (52% 점유), NVDA exclusive, M16 fab"
+      },
+      {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "share_pct": 25.0,
+        "moat": "US 정부 strategic asset, CHIPS Act, HBM late-entry catch-up"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-22",
+        "title": "Mizuho: LPDDR available capacity 2026 H2 -12% (HBM crowd-out)",
+        "source": "Mizuho Securities",
+        "summary": "HBM이 wafer pool zero-sum으로 LPDDR/DDR5 capacity 압박 — 가격 +35-50% 잠재"
+      },
+      {
+        "date": "2026-05-15",
+        "title": "Microsoft Copilot+ PC 인증 16GB RAM minimum — AI PC 출하 hardware floor",
+        "source": "Microsoft Build 2026",
+        "summary": "AI PC adoption inflection — LPDDR 16-32GB 대량 수요"
+      },
+      {
+        "date": "2026-05-12",
+        "title": "SK Hynix-NVDA HBM4 LOI 체결",
+        "source": "DART 공시",
+        "summary": "2026-2027 exclusive HBM4 공급 — SK Hynix 점유 50%+ 유지"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "Samsung: 평택 P5 LPDDR line 2026 H2 가동",
+        "source": "Samsung Q1 결산",
+        "summary": "신규 LPDDR capacity 10K WPM — supply 응답"
+      },
+      {
+        "date": "2026-05-20",
+        "title": "Mizuho LPDDR5X 2026 H2 spot $25/GB target (+78% from current)",
+        "source": "Mizuho Securities",
+        "summary": "AI 추론 + HBM crowd-out double tailwind"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 188.5,
+      "cagr_pct": 15.4,
+      "horizon": "2025-2030",
+      "note": "HBM CAGR +40%, LPDDR +25-30%, conventional DRAM/NAND +5-8%"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 27705,
+        "op_income": 6358,
+        "op_margin": 22.9,
+        "net_income": 5861,
+        "net_margin": 21.2
+      },
+      {
+        "year": 2022,
+        "revenue": 30758,
+        "op_income": 7711,
+        "op_margin": 25.1,
+        "net_income": 8687,
+        "net_margin": 28.2
+      },
+      {
+        "year": 2023,
+        "revenue": 15540,
+        "op_income": -5740,
+        "op_margin": -36.9,
+        "net_income": -5833,
+        "net_margin": -37.5
+      },
+      {
+        "year": 2024,
+        "revenue": 25110,
+        "op_income": 1418,
+        "op_margin": 5.6,
+        "net_income": 778,
+        "net_margin": 3.1
+      },
+      {
+        "year": 2025,
+        "revenue": 38500,
+        "op_income": 12500,
+        "op_margin": 32.5,
+        "net_income": 9800,
+        "net_margin": 25.5
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 70000,
+      "total_liab": 23000,
+      "equity": 47000,
+      "cash": 8500,
+      "debt": 14000
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 8500,
+      "fcf_5y_avg": 2500,
+      "capex_intensity": 0.27
+    },
+    "peer_compare": [
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "pe": 7.31,
+        "pb": 4.2,
+        "roe": 32.5,
+        "div_yield": 0.45
+      },
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "pe": 5.36,
+        "pb": 2.85,
+        "roe": 28.5,
+        "div_yield": 0.85
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "pe": 5.7,
+        "pb": 2.15,
+        "roe": 18.5,
+        "div_yield": 1.85
+      },
+      {
+        "ticker": "WDC",
+        "name": "Western Digital",
+        "pe": 9.5,
+        "pb": 2.8,
+        "roe": 22.0,
+        "div_yield": 0.85
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 950,
+      "thesis": "HBM4 점유 22%+ + LPDDR shortage premium",
+      "key_assumptions": [
+        "HBM4 NVDA qualification 통과",
+        "CHIPS Act $7bn 추가 보조금",
+        "2027E EPS $110 × PE 8.6"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 830,
+      "thesis": "HBM 점유 16% 유지 + LPDDR 가격 +15%",
+      "key_assumptions": [
+        "HBM 점유 14-18%",
+        "LPDDR ASP +15-20%",
+        "2026E EPS $105 × PE 8"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 550,
+      "thesis": "메모리 cycle peak hangover + HBM4 점유 부진",
+      "key_assumptions": [
+        "HBM 점유 10% 이하",
+        "PE 6 contraction",
+        "2027 cycle hangover"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06",
+      "event": "Q3 FY26 실적 (Fiscal June)",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "HBM3E 출하 ramp + LPDDR ASP guidance"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "HBM4 NVDA qualification 결과",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "qualification 통과 시 HBM 점유 18-22% 도달 가능"
+    },
+    {
+      "date": "2026-09",
+      "event": "CHIPS Act 2차 분배 - NY fab 자금",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "NY fab 가속화 자금 확보"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "LPDDR contract price 인상",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "+15-20% ASP"
+    },
+    {
+      "date": "2027-H1",
+      "event": "New York fab 가동",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "capacity +30% 추가 — 글로벌 점유 확대"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM4 NVDA qualification 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "3 qualification rounds 진행 중, late-entry 위험",
+      "mitigation": "HBM3E refresh로 buffer"
+    },
+    {
+      "name": "SK Hynix·Samsung dominant HBM 시장 lock-in",
+      "probability": "med",
+      "impact": "med",
+      "description": "점유 16% 정체 위험",
+      "mitigation": "특화 customer (Broadcom·AMD) 확보"
+    },
+    {
+      "name": "메모리 cycle 조기 정점 (2027 H1)",
+      "probability": "med",
+      "impact": "med",
+      "description": "spot price peak 진입",
+      "mitigation": "HBM premium mix로 cycle 평탄화"
+    },
+    {
+      "name": "CHIPS Act 정치 변동 (Trump 2기)",
+      "probability": "med",
+      "impact": "med",
+      "description": "보조금 retroactively 중단 가능",
+      "mitigation": "이미 받은 $7bn 확보"
+    },
+    {
+      "name": "환율 (USD strength)",
+      "probability": "high",
+      "impact": "low",
+      "description": "해외 매출 환산 영향",
+      "mitigation": "외환 hedge"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI가 데이터센터(B2B)에서 소비자 기기(B2C)로 확장 — Lenovo AI PC가 트리거",
+      "type": "macro",
+      "evidence": "Lenovo AI PC 2.0 Roadshow + Microsoft Copilot+ 16GB 인증 + Apple M5 32GB unified memory",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "MLCC 글로벌 4사 (Murata·Samsung·Taiyo·TDK) 합산 점유 82%로 명백한 oligopoly",
+      "type": "industry",
+      "evidence": "시장 점유율 데이터 + Yole 2025 + Citi 2026-05 보고서",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "HBM 생산 집중 → 동일 wafer capacity 안에서 LPDDR 생산 여력 감소",
+      "type": "industry",
+      "evidence": "Mizuho 2026-05: LPDDR available capacity 2026 H2 -12%",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI PC/스마트폰 LPDDR 탑재량 8GB → 16/32GB로 2배+ 증가",
+      "type": "industry",
+      "evidence": "Microsoft 인증, Apple unified memory, Galaxy S26 spec",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Citi Research: 서버용 MLCC 시장 CAGR ~40% — 단순 성장 아닌 구조 변화",
+      "type": "company",
+      "evidence": "Citi 2026-05-22 보고서 + Goldman/Mizuho 컨센서스 +30-35%",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "시장은 GPU·HBM 다음 hidden bottleneck — MLCC·LPDDR이 phase 3",
+      "type": "macro",
+      "evidence": "Goldman AI Infrastructure 2.0 보고서 + 일본 MLCC 동반 급등 signal",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "단일 일 일본 3사 +16-17% 급등은 over-reaction 가능 — 단기 조정 위험",
+      "type": "macro",
+      "evidence": "2018 IoT MLCC rally 시 첫 2주 +25% 후 -15% 조정",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "중국 자립 정책 (MIIT 2027 50% 자립 목표)으로 long-term oligopoly 변화 가능",
+      "type": "policy",
+      "evidence": "MIIT 2026-Q1 발표 + Fenghua Advanced 매출 +85% YoY",
+      "testability": "low",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [],
+  "us_disclosures": [
+    {
+      "date": "2026-03-25",
+      "type": "10-Q",
+      "title": "Q2 FY26 10-Q (Quarterly Report)",
+      "impact": "Revenue $9.8bn (+88% YoY), GP margin 38.5%, NVDA HBM3E 출하 가이던스 $5bn FY26"
+    },
+    {
+      "date": "2026-02-12",
+      "type": "8-K",
+      "title": "CHIPS Act $7bn 보조금 정식 수령",
+      "impact": "NY fab 가속화 — 2027 H1 양산"
+    },
+    {
+      "date": "2026-01-15",
+      "type": "8-K",
+      "title": "HBM3E NVDA 진입 announcement",
+      "impact": "HBM4 qualification 진입 시 점유 18-22% 가능"
+    }
+  ]
+}

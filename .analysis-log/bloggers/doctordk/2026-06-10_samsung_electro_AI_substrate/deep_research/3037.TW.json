@@ -1,0 +1,180 @@
+{
+ "financial_unit": {
+  "currency": "TWD",
+  "scale": "십억"
+ },
+ "industry": {
+  "name": "IC 기판/PCB — FC-BGA(AI GPU) · ABF",
+  "overview": "유니마이크론은 대만 FC-BGA·PCB 대표 기업으로 광푸(Guangfu) 공장 고급 AI GPU용 양산을 가속. 본문 FC-BGA 과점 3사 중 하나. 2022 OPM 27% 고점 후 2024~2025 4~5%로 마진 압박 — 사이클 저점에서 AI 기판 회복 기대.",
+  "competitors": [
+   {
+    "name": "이비덴",
+    "ticker": "4062.T",
+    "share_pct": 35,
+    "moat": "FC-BGA 선두"
+   },
+   {
+    "name": "삼성전기",
+    "ticker": "009150.KS",
+    "share_pct": 15,
+    "moat": "후발 추격"
+   },
+   {
+    "name": "유니마이크론",
+    "ticker": "3037.TW",
+    "share_pct": 25,
+    "moat": "고급 AI GPU용 양산 가속 · CoWoS 전환"
+   }
+  ],
+  "news": [
+   {
+    "date": "2026",
+    "title": "광푸 공장 고급 AI GPU용 양산 조기 가동",
+    "source": "Digitimes",
+    "summary": "양메이 EMIB→CoWoS 전환으로 가동률 극대화"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 15.0,
+   "cagr_pct": 20.0,
+   "horizon": "2026-2030 AI GPU 기판"
+  }
+ },
+ "financials": {
+  "pl_5y": [
+   {
+    "year": 2022,
+    "revenue": 140.49,
+    "op_income": 38.17,
+    "op_margin": 27.2,
+    "net_income": 29.62,
+    "net_margin": 21.1
+   },
+   {
+    "year": 2023,
+    "revenue": 104.04,
+    "op_income": 8.92,
+    "op_margin": 8.6,
+    "net_income": 11.98,
+    "net_margin": 11.5
+   },
+   {
+    "year": 2024,
+    "revenue": 115.37,
+    "op_income": 5.12,
+    "op_margin": 4.4,
+    "net_income": 5.08,
+    "net_margin": 4.4
+   },
+   {
+    "year": 2025,
+    "revenue": 131.24,
+    "op_income": 6.67,
+    "op_margin": 5.1,
+    "net_income": 6.67,
+    "net_margin": 5.1
+   }
+  ],
+  "peer_compare": [
+   {
+    "ticker": "3037.TW",
+    "name": "유니마이크론",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "4062.T",
+    "name": "이비덴",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "009150.KS",
+    "name": "삼성전기",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   }
+  ]
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 35,
+   "target_price": 1100,
+   "thesis": "AI GPU 기판 수요 회복 → 마진 정상화(저점 탈출)",
+   "key_assumptions": [
+    "AI GPU 물량 확대",
+    "가동률 회복",
+    "OPM 두자릿수 복귀"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 880,
+   "thesis": "AI 수요 회복하나 범용 PCB 약세 혼재",
+   "key_assumptions": [
+    "AI 매출 증가",
+    "마진 점진 회복"
+   ]
+  },
+  "bear": {
+   "prob_pct": 20,
+   "target_price": 600,
+   "thesis": "마진 압박 고착+범용 PCB 부진",
+   "key_assumptions": [
+    "OPM 5% 하회 지속",
+    "수요 둔화"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026",
+   "event": "광푸 AI GPU 기판 양산 ramp",
+   "type": "company",
+   "expected_impact": "+",
+   "description": "고급 AI 비중 확대"
+  },
+  {
+   "date": "2026-분기",
+   "event": "분기 실적·마진 회복",
+   "type": "earnings",
+   "expected_impact": "○",
+   "description": "OPM 저점 탈출 여부"
+  }
+ ],
+ "risks": [
+  {
+   "name": "마진 압박 지속",
+   "probability": "high",
+   "impact": "high",
+   "description": "2024~2025 OPM 4~5%로 급락 — 회복 미검증"
+  },
+  {
+   "name": "범용 PCB 약세",
+   "probability": "med",
+   "impact": "med",
+   "description": "AI 외 사업 부진"
+  },
+  {
+   "name": "AI capex 둔화",
+   "probability": "med",
+   "impact": "high",
+   "description": "GPU 물량 축소"
+  }
+ ],
+ "thesis_decomposition": [
+  {
+   "claim": "FC-BGA 과점 — 고급 AI GPU용 양산",
+   "type": "predictive",
+   "evidence": "[actual] 광푸 양산 가속·CoWoS 전환",
+   "testability": "AI 기판 매출비중·OPM 회복"
+  }
+ ],
+ "korean_disclosures": []
+}

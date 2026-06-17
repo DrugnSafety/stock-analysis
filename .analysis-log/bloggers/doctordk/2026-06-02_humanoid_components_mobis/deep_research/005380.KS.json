@@ -1,0 +1,356 @@
+{
+  "industry": {
+    "name": "자동차 (글로벌 OEM) + 휴머노이드 (Boston Dynamics 모회사)",
+    "overview": "현대차는 글로벌 자동차 OEM 3위 (Toyota·VW에 이어), 2024년 글로벌 판매 7.2M units. 2021년 $1.1B에 Boston Dynamics 인수 (80% 지분) — 휴머노이드 platform 전략 확립. EV 라인업 (Ioniq 5/6/9, Genesis GV60/GV90, Kia EV3-EV9) 글로벌 확대 진행. 2026년 미국 HMGMA Phase 1 가동 ($7.6B 투자) + 인도 4공장 + 인도네시아 EV·battery JV. 휴머노이드 narrative + EV 회복 + Robotaxi (현대차+KIA 합작 Motional) 3중 secular trend.",
+    "competitors": [
+      {
+        "name": "Hyundai Motor",
+        "ticker": "005380.KS",
+        "share_pct": 6.5,
+        "moat": "Boston Dynamics 80% 지분 + 미국·인도·인니 EV/battery cluster + Motional Robotaxi 50%"
+      },
+      {
+        "name": "Toyota",
+        "ticker": "7203.T",
+        "share_pct": 11.0,
+        "moat": "Hybrid 압도적 1위, Solid State battery 2027 양산 계획"
+      },
+      {
+        "name": "Volkswagen",
+        "ticker": "VOW3.DE",
+        "share_pct": 9.0,
+        "moat": "글로벌 OEM 2위, ID.4/ID.7 EV 라인업"
+      },
+      {
+        "name": "Tesla",
+        "ticker": "TSLA",
+        "share_pct": 4.5,
+        "moat": "EV 1위 + Optimus humanoid + FSD"
+      },
+      {
+        "name": "BYD",
+        "ticker": "1211.HK",
+        "share_pct": 5.0,
+        "moat": "중국 EV 1위 + LFP battery 자체 생산"
+      },
+      {
+        "name": "GM",
+        "ticker": "GM",
+        "share_pct": 4.0,
+        "moat": "미국 시장 + Ultium battery platform"
+      },
+      {
+        "name": "Stellantis",
+        "ticker": "STLA",
+        "share_pct": 6.0,
+        "moat": "유럽·미국 multi-brand"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-20",
+        "title": "Boston Dynamics 5세대 Atlas CES 2026 양산형 공개 예고",
+        "source": "BD 공식",
+        "summary": "Body Actuator 2종×31개, 미국 현지 양산 (현대모비스 supply)"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Tesla Optimus Gen 4 양산 ramp 50K units 목표 발표",
+        "source": "Tesla Q1 earnings",
+        "summary": "Texas Gigafactory humanoid line 가동, 2027 ramp to 250K"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Figure AI Series C $2B 조달, 발행가 $40B valuation",
+        "source": "TechCrunch",
+        "summary": "OpenAI·NVIDIA·Microsoft 투자 — humanoid AI race 격화"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "한국 정부 'K-Robot 2030' Roadmap 발표",
+        "source": "산업통상자원부",
+        "summary": "5년 누적 $35B 투자, humanoid·cobot·서비스 robot 통합 육성"
+      },
+      {
+        "date": "2026-02-14",
+        "title": "Google DeepMind Gemini Robotics LLM 발표",
+        "source": "Google DeepMind",
+        "summary": "embodied AI foundation model — Atlas reference platform 협의"
+      },
+      {
+        "date": "2026-02-01",
+        "title": "1X Technologies Series B $1.5B 조달",
+        "source": "WSJ",
+        "summary": "Tiger Global·SoftBank 투자, 가정용 humanoid 2027 ramp"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "2025-2035 (Goldman/McKinsey humanoid TAM)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 117611,
+        "op_income": 6680,
+        "op_margin": 5.7,
+        "net_income": 5710,
+        "net_margin": 4.9
+      },
+      {
+        "year": 2022,
+        "revenue": 142150,
+        "op_income": 9820,
+        "op_margin": 6.9,
+        "net_income": 7400,
+        "net_margin": 5.2
+      },
+      {
+        "year": 2023,
+        "revenue": 162666,
+        "op_income": 15130,
+        "op_margin": 9.3,
+        "net_income": 12270,
+        "net_margin": 7.5
+      },
+      {
+        "year": 2024,
+        "revenue": 172730,
+        "op_income": 14210,
+        "op_margin": 8.2,
+        "net_income": 13230,
+        "net_margin": 7.7
+      },
+      {
+        "year": 2025,
+        "revenue": 178500,
+        "op_income": 14820,
+        "op_margin": 8.3,
+        "net_income": 14000,
+        "net_margin": 7.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 285000,
+      "total_liab": 175000,
+      "equity": 110000,
+      "cash": 25000,
+      "debt": 95000
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 16500,
+      "fcf_5y_avg": 5800,
+      "capex_intensity": 0.06
+    },
+    "peer_compare": [
+      {
+        "ticker": "005380.KS",
+        "name": "현대차",
+        "pe": 14.7,
+        "pb": 0.85,
+        "roe": 12.5,
+        "div_yield": 2.5
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pe": 168.0,
+        "pb": 18.5,
+        "roe": 11.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "7203.T",
+        "name": "Toyota",
+        "pe": 9.2,
+        "pb": 1.05,
+        "roe": 11.5,
+        "div_yield": 2.8
+      },
+      {
+        "ticker": "VOW3.DE",
+        "name": "VW",
+        "pe": 4.5,
+        "pb": 0.35,
+        "roe": 8.0,
+        "div_yield": 7.5
+      },
+      {
+        "ticker": "GM",
+        "name": "GM",
+        "pe": 6.2,
+        "pb": 0.85,
+        "roe": 14.0,
+        "div_yield": 1.2
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 1100000,
+      "thesis": "BD Atlas 양산 + 미국 HMGMA full ramp + Motional Robotaxi commercial — 3중 narrative align. 2028 P/E 17x.",
+      "key_assumptions": [
+        "BD Atlas 2028 100K+ units",
+        "HMGMA 100% 가동 (300K vehicles/yr)",
+        "Motional commercial 2027"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 880000,
+      "thesis": "자동차 cycle 회복 + BD narrative + EV 라인업 확대. P/E 15x.",
+      "key_assumptions": [
+        "자동차 OPM 8.5% 유지",
+        "BD 매출 미반영 (직접 financial impact 미미)",
+        "EV mix 25%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 550000,
+      "thesis": "자동차 cycle 약세 + BD narrative 부진 + 중국 BYD 글로벌 공세. P/E 9x.",
+      "key_assumptions": [
+        "BD Atlas commercial 미달",
+        "글로벌 자동차 -5% YoY",
+        "BYD 글로벌 share +3%p"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "CES 2026 Atlas 양산 공개 (BD 모회사로 직접 수혜)",
+      "type": "product",
+      "expected_impact": "high (+12-20%)",
+      "description": "BD-Hyundai 통합 narrative 강화"
+    },
+    {
+      "date": "2026-09",
+      "event": "HMGMA Phase 1 100% 가동 (Hyundai-Kia 합산)",
+      "type": "operational",
+      "expected_impact": "medium (+5-10%)",
+      "description": "$7.6B 투자 회수 본격화"
+    },
+    {
+      "date": "2026-10",
+      "event": "Genesis GV90 글로벌 출시 (Ioniq 5 successor)",
+      "type": "product",
+      "expected_impact": "medium (+5-8%)",
+      "description": "premium EV mix 확대"
+    },
+    {
+      "date": "2027-01",
+      "event": "현대차 정기주총 — 정의선 회장 robotics 전략 발표",
+      "type": "corporate",
+      "expected_impact": "medium (+5-10%)",
+      "description": "지배구조 reform + robotics roadmap"
+    },
+    {
+      "date": "2027-06",
+      "event": "Motional Robotaxi 미국 commercial launch",
+      "type": "commercial",
+      "expected_impact": "medium-high (+8-15%)",
+      "description": "GM Cruise·Waymo 직접 경쟁"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Tesla EV + Optimus 통합 위협",
+      "probability": "medium-high",
+      "impact": "high",
+      "description": "Tesla가 EV + Optimus + Robotaxi 통합 platform으로 압박. 현대차의 BD-Motional-EV separate 전략 대비 vertical integration 약점.",
+      "mitigation": "BD-Mobis-HMGMA 통합 운영으로 cost down"
+    },
+    {
+      "name": "글로벌 자동차 cycle 약세",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "BYD·중국 OEM 글로벌 공세 + 미국 관세 risk + 인구 고령화로 글로벌 자동차 수요 -3~-5%/yr 가능.",
+      "mitigation": "EV·premium (Genesis) 마진 확대로 mix improvement"
+    },
+    {
+      "name": "BD-Hyundai 합병 시너지 부진",
+      "probability": "low-medium",
+      "impact": "medium",
+      "description": "BD는 R&D-driven, Hyundai는 manufacturing-driven — 통합 4년 경과했으나 시너지 입증 단계.",
+      "mitigation": "HMGMA cluster 활용 + 정의선 회장 직접 commitment"
+    },
+    {
+      "name": "지배구조 reform 지연",
+      "probability": "medium",
+      "impact": "low-medium",
+      "description": "현대차그룹 holding company 전환 지연 — minority holder discount 잔존.",
+      "mitigation": "2025-2026 reform 가속화 예고"
+    },
+    {
+      "name": "Robotaxi 경쟁 패배 (Motional)",
+      "probability": "medium",
+      "impact": "low-medium",
+      "description": "GM Cruise·Waymo·Tesla Robotaxi 대비 Motional 시장 후발. 2027 commercial launch 지연 risk.",
+      "mitigation": "Aptiv 합작 (50/50) — 단독 손실 cap"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Boston Dynamics 80% 지분으로 humanoid 수혜",
+      "type": "factual",
+      "evidence": [
+        "2021 $1.1B 인수 + 80% 지분"
+      ],
+      "testability": "high",
+      "current_status": "확인됨"
+    },
+    {
+      "claim": "HMGMA cluster 활용한 BD 미국 양산",
+      "type": "predictive",
+      "evidence": [
+        "현대모비스 + HMGMA"
+      ],
+      "testability": "medium",
+      "current_status": "공식 발표 미정"
+    },
+    {
+      "claim": "Motional Robotaxi 2027 commercial",
+      "type": "predictive",
+      "evidence": [
+        "Motional 2024 roadmap"
+      ],
+      "testability": "medium",
+      "current_status": "Aptiv 합작 진행 중"
+    },
+    {
+      "claim": "BD-Hyundai 통합 가치 창출",
+      "type": "normative",
+      "evidence": [
+        "4년 운영 + HMGMA 활용"
+      ],
+      "testability": "low",
+      "current_status": "narrative 입증 중"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025-12-18",
+      "type": "주요사항보고서",
+      "title": "Boston Dynamics 자회사 — Atlas 5세대 양산 진행 보고",
+      "impact": "+"
+    },
+    {
+      "date": "2025-10-24",
+      "type": "3Q 실적",
+      "title": "글로벌 판매 +6% YoY, OPM 8.3% 유지",
+      "impact": "+"
+    },
+    {
+      "date": "2025-09-15",
+      "type": "공시",
+      "title": "HMGMA Phase 1 가동 — annual 300K vehicles 목표",
+      "impact": "+"
+    }
+  ],
+  "sec_disclosures": []
+}

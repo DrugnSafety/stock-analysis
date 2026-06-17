@@ -1,0 +1,900 @@
+{
+  "ticker": "000660.KS",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "average_confidence": 0.716,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치!)"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.88
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치!)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치!)"
+    },
+    "quant-tail": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치!)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치!)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "HBM 경쟁 심화 (삼성 추격)",
+      "frequency": 5,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "charlie-munger",
+        "phil-fisher",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "삼성 HBM3E 12-Hi + Micron HBM3E 점유 확대로 1위 점유 위협"
+      ]
+    },
+    {
+      "theme": "한국 governance discount",
+      "frequency": 4,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "bill-ackman",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "chaebol 지배구조 + activist 어려움 — Korea discount"
+      ]
+    },
+    {
+      "theme": "NAND segment cycle 노출",
+      "frequency": 3,
+      "personas": [
+        "michael-burry",
+        "warren-buffett",
+        "ben-graham"
+      ],
+      "examples": [
+        "NAND segment 30%+ 매출 — KIOXIA discipline 깨질 시 마진 압박"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "persona_id": "warren-buffett",
+      "verdict": "neutral",
+      "confidence": 0.62,
+      "rationale": "SK Hynix HBM 점유율 60%+ → DRAM 경쟁우위 입증. 단 NAND 부문은 commodity. P/E fwd 6.2x는 저평가 valuation이나 1Y +1059% 변동성 부담. 부분 매수 후 long hold 가능.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Commodity cycle re-frame as 'new phase' is misleading",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "charlie-munger": {
+      "persona_id": "charlie-munger",
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "rationale": "HBM 우위는 인정. 한국 governance discount 존재. P/E fwd 6.2x는 cheap이지만 'cheap for a reason' 가능성. Mungerian neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Commodity cycle re-frame as 'new phase' is misleading",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "rebut",
+          "interpretation": "Capex peak signal — invert!",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "rebut",
+          "interpretation": "AI mania peak signal",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "peter-lynch": {
+      "persona_id": "peter-lynch",
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "rationale": "HBM dominance + DRAM/NAND cycle. P/E fwd 6.2x cheap. 한국 export 회사 'buy what you know'에 부합. PEG <0.4.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "cathie-wood": {
+      "persona_id": "cathie-wood",
+      "verdict": "neutral",
+      "confidence": 0.62,
+      "rationale": "SK Hynix는 HBM(disruption tier)와 NAND(commodity)의 혼합. HBM exposure 좋으나 한국 governance + chaebol 구조가 disruption thesis 약화.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "michael-burry": {
+      "persona_id": "michael-burry",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "rationale": "P/E fwd 6.2x + HBM oligopoly. Burry-style asymmetric — downside 30%, upside 100%+. Korean 'cheap and hated' 시장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Cycle peak warning",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "stance": "rebut",
+          "interpretation": "Capex peak signal — invert!",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "interpretation": "Tight markets often invite over-build",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T5",
+          "stance": "rebut",
+          "interpretation": "LTAs historically broken in downturns",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "rebut",
+          "interpretation": "Soft commitment",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T7",
+          "stance": "rebut",
+          "interpretation": "AI mania peak signal",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "stance": "rebut",
+          "interpretation": "Demand forecast over-extrapolated",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "persona_id": "nassim-taleb",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "rationale": "HBM near-monopoly는 anti-fragile element. 한국 system risk가 fragility 추가. barbell strategy 일부 OK.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Cycle peak warning",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "rebut",
+          "interpretation": "Soft commitment",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "rebut",
+          "interpretation": "Demand forecast over-extrapolated",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "ben-graham": {
+      "persona_id": "ben-graham",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "rationale": "P/E fwd 6.2x + P/B 1.5x 이내 시 Graham 기준 충족. margin of safety 확보.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "bill-ackman": {
+      "persona_id": "bill-ackman",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "rationale": "Korean listed governance 부담. activist 어려움. 그러나 underlying business 강력.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "persona_id": "mohnish-pabrai",
+      "verdict": "lean_bullish",
+      "confidence": 0.82,
+      "rationale": "한국 deep value + HBM oligopoly. Pabrai의 typical bet — P/E 6.2x, asymmetric reward.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "phil-fisher": {
+      "persona_id": "phil-fisher",
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "rationale": "SK Hynix R&D + HBM 1위 — Fisher의 'best in industry' 기준 충족.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "persona_id": "rakesh-jhunjhunwala",
+      "verdict": "lean_bullish",
+      "confidence": 0.82,
+      "rationale": "HBM cycle + P/E 6.2x. high conviction.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "persona_id": "stanley-druckenmiller",
+      "verdict": "lean_bullish",
+      "confidence": 0.88,
+      "rationale": "HBM dominance + macro tailwind + cheap P/E 6.2x. 5% portfolio level.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "persona_id": "aswath-damodaran",
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "rationale": "Reverse DCF — P/E fwd 6.2x 시 implied growth 5~7%. 실제 expected 10~15%. 명확 undervalued.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    }
+  },
+  "evaluated_at": "2026-06-02T15:47:08.441999"
+}

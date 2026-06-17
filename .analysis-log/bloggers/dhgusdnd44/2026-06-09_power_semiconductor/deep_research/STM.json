@@ -1,0 +1,170 @@
+{
+  "ticker": "STM",
+  "company_kr": "ST마이크로일렉트로닉스",
+  "company_en": "STMicroelectronics",
+  "exchange": "NYSE",
+  "as_of_date": "2026-06-11",
+  "industry": {
+    "name": "Power Semiconductor (전력 반도체)",
+    "name_kr": "전력 반도체 / 800V DC 데이터센터",
+    "overview": "유럽 종합 반도체. 650V SiC 2위(인피니언 근소차)·차량용 SiC 강세. 단 GaN 웨이퍼를 중국 이노사이언스 의존 → ITC 특허소송 공급망 리스크 노출.",
+    "competitors": [
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": null,
+        "moat": "SiC 1위·자체 GaN"
+      },
+      {
+        "name": "onsemi",
+        "ticker": "ON",
+        "share_pct": null,
+        "moat": "차량 SiC"
+      },
+      {
+        "name": "Wolfspeed",
+        "ticker": "WOLF",
+        "share_pct": null,
+        "moat": "SiC 기판·10kV"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "AI 데이터센터 800V DC 전환(2027H2 변곡점)으로 전력반도체 TAM 구조적 확대. 1층 고전압 SiC/2층 800V GaN·SiC/3~4층 대전류 PMIC 층별 분화."
+    },
+    "ai_infrastructure_context": "데이터센터 전력밀도 폭증·전력망 무효전력 문제·SST(고체변압기) 도입이 전력반도체 희소성을 견인.",
+    "news": []
+  },
+  "financials": {
+    "currency": "USD",
+    "unit": "USD M",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, USD M)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": null,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": null,
+        "net_margin": null
+      },
+      {
+        "year": 2022,
+        "revenue": 16128.0,
+        "op_income": 4280.0,
+        "op_margin": 26.5,
+        "net_income": 3960.0,
+        "net_margin": 24.6
+      },
+      {
+        "year": 2023,
+        "revenue": 17286.0,
+        "op_income": 4556.0,
+        "op_margin": 26.4,
+        "net_income": 4211.0,
+        "net_margin": 24.4
+      },
+      {
+        "year": 2024,
+        "revenue": 13269.0,
+        "op_income": 1494.0,
+        "op_margin": 11.3,
+        "net_income": 1557.0,
+        "net_margin": 11.7
+      },
+      {
+        "year": 2025,
+        "revenue": 11800.0,
+        "op_income": 323.0,
+        "op_margin": 2.7,
+        "net_income": 166.0,
+        "net_margin": 1.4
+      }
+    ],
+    "trajectory_summary": "",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 92,
+      "thesis": "SiC 차량 회복+데이터센터 채택+웨이퍼 다변화 성공",
+      "key_assumptions": [
+        "전기차 SiC 수요 회복",
+        "이노사이언스 의존 탈피"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 76,
+      "thesis": "완만 회복하나 공급망 리스크 잔존",
+      "key_assumptions": [
+        "SiC 점진 성장",
+        "GaN 웨이퍼 전환 진행"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 58,
+      "thesis": "ITC 제재로 GaN 공급 차질+차량 둔화",
+      "key_assumptions": [
+        "이노사이언스 웨이퍼 차단 시 GaN 1~1.5년 공백",
+        "전기차 약세"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "ITC 제재 영향·웨이퍼 다변화 진척",
+      "type": "legal",
+      "expected_impact": "-",
+      "description": "이노사이언스 의존도 해소 여부"
+    },
+    {
+      "date": "2026",
+      "event": "차량 SiC 수주",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "전기차 SiC design-win"
+    }
+  ],
+  "risks": [
+    {
+      "name": "GaN 웨이퍼 중국 의존",
+      "probability": "high",
+      "impact": "med",
+      "description": "이노사이언스 의존 — ITC 제재 시 GaN 라인 차질",
+      "mitigation": "서방 웨이퍼 전환(1~1.5년 소요)"
+    },
+    {
+      "name": "자동차 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "차량 SiC 비중 큼",
+      "mitigation": "산업·데이터센터 확대"
+    },
+    {
+      "name": "마진 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "가동률·믹스 변동",
+      "mitigation": "고부가 SiC 전환"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-11",
+    "sources": [
+      "dhgusdnd44 블로그 1~3편",
+      "yfinance",
+      "SEC EDGAR",
+      "ITC ruling 2026-05"
+    ]
+  }
+}

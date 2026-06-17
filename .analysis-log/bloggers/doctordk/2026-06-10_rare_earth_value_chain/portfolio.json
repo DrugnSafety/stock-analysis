@@ -1,0 +1,100 @@
+{
+  "computed_at": "2026-06-11T03:11:52.880557+09:00",
+  "start_cash": 1000000000.0,
+  "start_date": "2026-06-10",
+  "end_date": "2026-06-10",
+  "n_decisions": 5,
+  "total_trades": 4,
+  "total_buy_value": 219977349.42,
+  "total_sell_value": 0.0,
+  "final_cash": 780022650.58,
+  "end_positions_value": 218707824.54,
+  "final_nav": 998730475.12,
+  "total_return_pct": -0.127,
+  "final_positions": {
+    "008730.KQ": {
+      "qty": 3195,
+      "avg_cost": 17210.0,
+      "last_price": 17210.0,
+      "market_value": 54985950.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "285490.KS": {
+      "qty": 3982,
+      "avg_cost": 13810.0,
+      "last_price": 13810.0,
+      "market_value": 54991420.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "LYC.AX": {
+      "qty": 3182870,
+      "avg_cost": 17.28,
+      "last_price": 16.87,
+      "market_value": 53695019.57,
+      "unrealized_pnl": -1304974.03,
+      "unrealized_return_pct": -2.37
+    },
+    "MP": {
+      "qty": 1015695,
+      "avg_cost": 54.15,
+      "last_price": 54.19,
+      "market_value": 55035434.97,
+      "unrealized_pnl": 35449.15,
+      "unrealized_return_pct": 0.06
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-06-10",
+      "ticker": "008730.KQ",
+      "action": "buy",
+      "qty": 3195,
+      "price": 17210.0,
+      "cost": 54985950.0,
+      "cash_after": 945014050.0
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "285490.KS",
+      "action": "buy",
+      "qty": 3982,
+      "price": 13810.0,
+      "cost": 54991420.0,
+      "cash_after": 890022630.0
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "LYC.AX",
+      "action": "buy",
+      "qty": 3182870,
+      "price": 17.28,
+      "cost": 54999993.6,
+      "cash_after": 835022636.4
+    },
+    {
+      "date": "2026-06-10",
+      "ticker": "MP",
+      "action": "buy",
+      "qty": 1015695,
+      "price": 54.1501,
+      "cost": 54999985.82,
+      "cash_after": 780022650.58
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 8096.93,
+      "end_price": 8096.93,
+      "return_pct": 0.0,
+      "alpha_pct": -0.127
+    },
+    "SPY": {
+      "start_price": 730.77,
+      "end_price": 730.77,
+      "return_pct": 0.0,
+      "alpha_pct": -0.127
+    }
+  }
+}

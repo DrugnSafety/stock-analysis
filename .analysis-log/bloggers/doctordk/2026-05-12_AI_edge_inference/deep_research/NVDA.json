@@ -1,0 +1,262 @@
+{
+  "industry": {
+    "name": "AI 가속 반도체 / 엣지·데이터센터 컴퓨트",
+    "overview": "엔비디아는 AI 학습·추론 가속의 사실상 표준(점유율·CUDA 생태계)으로, 블로그가 인용한 젠슨 황의 '통신사 기지국을 AI 데이터센터처럼 쓰겠다'는 비전(엣지/분산 추론)의 핵심 공급자다. FY2026 매출 약 2,160억 달러·영업이익률 60%대의 압도적 수익성. 추론 수요 확대는 GPU 물량의 구조적 증가로 이어지나, 밸류·집중도(시총 약 5.4조 달러)와 경쟁(맞춤형 ASIC·TPU)·지정학 리스크가 변수.",
+    "competitors": [
+      {
+        "name": "AMD",
+        "ticker": "AMD"
+      },
+      {
+        "name": "Broadcom",
+        "ticker": "AVGO"
+      },
+      {
+        "name": "Alphabet(TPU)",
+        "ticker": "GOOGL"
+      },
+      {
+        "name": "Intel",
+        "ticker": "INTC"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 200.0,
+      "cagr_pct": 28.0,
+      "horizon": "2024-2030 (AI 가속기)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "thesis": "추론 수요(엣지 포함) 확대로 GPU 물량 구조적 증가 + 차세대 아키텍처 ASP 상승. 60%대 OPM 유지 시 EPS 지속 성장.",
+      "key_assumptions": [
+        "추론 capex 사이클 지속",
+        "차세대 GPU ramp",
+        "마진 방어"
+      ],
+      "target_price": 280
+    },
+    "base": {
+      "prob_pct": 42,
+      "thesis": "성장은 견조하나 기저 부담·경쟁(ASIC/TPU)·고객 capex 정상화로 성장률 둔화. 고수익성 유지하되 멀티플은 보수화.",
+      "key_assumptions": [
+        "성장률 둔화(여전히 높음)",
+        "ASIC 경쟁 점증",
+        "고객 집중"
+      ],
+      "target_price": 230
+    },
+    "bear": {
+      "prob_pct": 18,
+      "thesis": "AI capex 사이클 둔화 + 맞춤형 칩 전환 가속 + 지정학(수출규제)으로 성장 급감 시 고멀티플 디레이팅.",
+      "key_assumptions": [
+        "capex 둔화",
+        "ASIC 점유 확대",
+        "수출규제 악화"
+      ],
+      "target_price": 150
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-분기",
+      "event": "데이터센터·추론 매출 믹스 공개",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "추론 수요 가속 검증"
+    },
+    {
+      "date": "2026~2027",
+      "event": "차세대 아키텍처 ramp·엣지/통신 파트너십",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "젠슨 엣지 비전 실현 가늠자"
+    },
+    {
+      "date": "상시",
+      "event": "대중국 수출규제·지정학 뉴스",
+      "type": "event",
+      "expected_impact": "med",
+      "description": "단기 변동성 요인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "밸류·기대 과열",
+      "probability": "med",
+      "impact": "high",
+      "description": "시총 약 5.4조 달러 — 기대치 미달 시 큰 조정",
+      "mitigation": "실적 성장으로 정당화"
+    },
+    {
+      "name": "맞춤형 칩 경쟁",
+      "probability": "high",
+      "impact": "high",
+      "description": "하이퍼스케일러 ASIC·구글 TPU 자체 칩 전환",
+      "mitigation": "CUDA 생태계·풀스택 락인"
+    },
+    {
+      "name": "고객·수요 집중",
+      "probability": "med",
+      "impact": "high",
+      "description": "하이퍼스케일러 capex 의존 — 사이클 둔화 민감",
+      "mitigation": "엣지·기업·소버린 AI 수요 다변화"
+    },
+    {
+      "name": "지정학·수출규제",
+      "probability": "med",
+      "impact": "med",
+      "description": "대중 규제로 매출 일부 제약",
+      "mitigation": "지역 다변화·규제 대응 제품"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "젠슨 황: 통신 기지국을 AI 데이터센터로 활용",
+      "type": "factual",
+      "evidence": "블로그 인용 — 기존 통신망/기지국/광케이블의 추론 인프라 전환 전략",
+      "testability": "medium",
+      "current_status": "in_progress"
+    },
+    {
+      "claim": "추론 수요 확대 = GPU 물량 구조적 증가",
+      "type": "structural",
+      "evidence": "실시간 AI 호출 폭증, 추론이 학습 대비 반복 비용",
+      "testability": "high",
+      "current_status": "in_progress"
+    },
+    {
+      "claim": "AI 패권이 GPU 숫자→가까운 곳에서 싸게 실행으로 이동",
+      "type": "predictive",
+      "evidence": "엣지 추론·비용효율 경쟁 부상",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026",
+      "type": "전략",
+      "title": "젠슨 황 — 통신 인프라의 AI 추론 전환 비전",
+      "summary": "기지국·광케이블·CDN을 AI 추론 거점으로 재활용하는 분산 컴퓨트 전략 제시",
+      "impact": "엣지 추론 수요 내러티브 강화"
+    }
+  ],
+  "financials": {
+    "currency": "USD",
+    "unit": "USD millions",
+    "pl_5y": [
+      {
+        "year": "2022",
+        "revenue": null,
+        "operating_income": null,
+        "op_income": null,
+        "net_income": null,
+        "op_margin_pct": null,
+        "op_margin": null,
+        "net_margin_pct": null,
+        "net_margin": null
+      },
+      {
+        "year": "2023",
+        "revenue": 26974,
+        "operating_income": 5577,
+        "op_income": 5577,
+        "net_income": 4368,
+        "op_margin_pct": 20.7,
+        "op_margin": 20.7,
+        "net_margin_pct": 16.2,
+        "net_margin": 16.2
+      },
+      {
+        "year": "2024",
+        "revenue": 60922,
+        "operating_income": 32972,
+        "op_income": 32972,
+        "net_income": 29760,
+        "op_margin_pct": 54.1,
+        "op_margin": 54.1,
+        "net_margin_pct": 48.8,
+        "net_margin": 48.8
+      },
+      {
+        "year": "2025",
+        "revenue": 130497,
+        "operating_income": 81453,
+        "op_income": 81453,
+        "net_income": 72880,
+        "op_margin_pct": 62.4,
+        "op_margin": 62.4,
+        "net_margin_pct": 55.8,
+        "net_margin": 55.8
+      },
+      {
+        "year": "2026",
+        "revenue": 215938,
+        "operating_income": 130387,
+        "op_income": 130387,
+        "net_income": 120067,
+        "op_margin_pct": 60.4,
+        "op_margin": 60.4,
+        "net_margin_pct": 55.6,
+        "net_margin": 55.6
+      }
+    ],
+    "bs_snapshot": {
+      "total_cash": 53172,
+      "total_debt": 12814,
+      "currency": "USD",
+      "unit": "USD millions"
+    },
+    "cf_summary": {
+      "operating_cf": 125648,
+      "free_cf": 46336,
+      "currency": "USD",
+      "unit": "USD millions"
+    },
+    "peer_compare": [
+      {
+        "ticker": "AKAM",
+        "name": "아카마이",
+        "pe": 22.49,
+        "pb": 4.79,
+        "roe": 10.2,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NET",
+        "name": "클라우드플레어",
+        "pe": 179.46,
+        "pb": 63.36,
+        "roe": -3.7,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NVDA",
+        "name": "엔비디아",
+        "pe": 17.6,
+        "pb": 34.42,
+        "roe": 63.0,
+        "div_yield": 0.45
+      },
+      {
+        "ticker": "CRWV",
+        "name": "코어위브",
+        "pe": -189.91,
+        "pb": 13.31,
+        "roe": -25.6,
+        "div_yield": 0
+      },
+      {
+        "ticker": "EQIX",
+        "name": "에퀴닉스",
+        "pe": 55.72,
+        "pb": 7.39,
+        "roe": 14.9,
+        "div_yield": 1.87
+      }
+    ]
+  }
+}

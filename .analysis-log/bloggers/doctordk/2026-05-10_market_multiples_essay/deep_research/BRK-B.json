@@ -1,0 +1,314 @@
+{
+  "ticker": "BRK-B",
+  "name_kr": "버크셔 해서웨이",
+  "name_en": "Berkshire Hathaway Inc. Class B",
+  "industry": {
+    "name": "Diversified Holdings (Insurance·Energy·Rail·Manufacturing·Equity)",
+    "overview": "1839년 설립(원래 섬유), 1965년 Buffett 인수 후 holding 재편. Insurance (GEICO·Gen Re·Berkshire Hathaway Reinsurance) — float $170B+. Other operating: BNSF Railway, BHE(Energy), Manufacturing. Equity portfolio $300B+ — Apple, AmEx, Coca-Cola, BofA.",
+    "competitors": [
+      {
+        "name": "Berkshire Hathaway",
+        "ticker": "BRK-B",
+        "share_pct": 100.0,
+        "moat": "Insurance float + cash $340B + Buffett alpha"
+      },
+      {
+        "name": "Markel Corp",
+        "ticker": "MKL",
+        "share_pct": 0.5,
+        "moat": "Mini-Berkshire — specialty insurance"
+      },
+      {
+        "name": "Fairfax Financial",
+        "ticker": "FFH.TO",
+        "share_pct": 0.3,
+        "moat": "Canadian Buffett — value investing"
+      },
+      {
+        "name": "Loews Corp",
+        "ticker": "L",
+        "share_pct": 0.2,
+        "moat": "Tisch family holding"
+      },
+      {
+        "name": "Brookfield Asset Mgmt",
+        "ticker": "BAM",
+        "share_pct": 1.0,
+        "moat": "Alternative asset compounder"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 1100.0,
+      "cagr_pct": 8.0,
+      "horizon": "BRK 자체 시가총액 + comparable holding companies"
+    },
+    "news": [
+      {
+        "date": "2026-05-03",
+        "source": "BRK Annual Meeting",
+        "title": "2026 Annual Meeting — Buffett(93) succession update",
+        "summary": "Greg Abel CEO 후계자 confirm + Ajit Jain Insurance 후계자. Buffett은 Chairman 유지."
+      },
+      {
+        "date": "2026-04-30",
+        "source": "BRK Q1 Earnings",
+        "title": "Q1 operating earnings $11B (+15% YoY)",
+        "summary": "Insurance underwriting $4.5B + Investment income $3B + BNSF $1.5B + BHE $1B."
+      },
+      {
+        "date": "2026-02-15",
+        "source": "13F filing",
+        "title": "Apple position 약 850M shares 유지, BAC 추가 trim",
+        "summary": "Cash position $340B+ 사상 최대. Major position 변동 없음."
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 276094,
+        "op_income": 27455,
+        "op_margin": 9.9,
+        "net_income": 89795,
+        "net_margin": 32.5
+      },
+      {
+        "year": 2022,
+        "revenue": 302020,
+        "op_income": 30853,
+        "op_margin": 10.2,
+        "net_income": -22759,
+        "net_margin": -7.5
+      },
+      {
+        "year": 2023,
+        "revenue": 364482,
+        "op_income": 39418,
+        "op_margin": 10.8,
+        "net_income": 96223,
+        "net_margin": 26.4
+      },
+      {
+        "year": 2024,
+        "revenue": 371000,
+        "op_income": 47000,
+        "op_margin": 12.7,
+        "net_income": 90000,
+        "net_margin": 24.3
+      },
+      {
+        "year": 2025,
+        "revenue": 385000,
+        "op_income": 50000,
+        "op_margin": 13.0,
+        "net_income": 70000,
+        "net_margin": 18.2
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2026-03-31",
+      "cash_usdmn": 340000,
+      "total_debt_usdmn": 130000,
+      "net_debt_usdmn": -210000,
+      "total_assets_usdmn": 1140000,
+      "total_equity_usdmn": 620000,
+      "current_ratio": 3.5,
+      "debt_to_equity": 0.21
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 47000,
+      "capex_2025_usdmn": 19000,
+      "fcf_2025_usdmn": 28000,
+      "dividend_paid_2025_usdmn": 0,
+      "buyback_2025_usdmn": 9000
+    },
+    "peer_compare": [
+      {
+        "ticker": "BRK-B",
+        "fwd_pe": 22.41,
+        "ev_ebitda": 14.5,
+        "fcf_yield_pct": 2.6,
+        "roe_pct": 11.5,
+        "debt_to_equity": 0.21
+      },
+      {
+        "ticker": "MKL",
+        "fwd_pe": 19.5,
+        "ev_ebitda": 12.0,
+        "fcf_yield_pct": 4.0,
+        "roe_pct": 12.5,
+        "debt_to_equity": 0.25
+      },
+      {
+        "ticker": "BAM",
+        "fwd_pe": 28.0,
+        "ev_ebitda": 18.0,
+        "fcf_yield_pct": 5.5,
+        "roe_pct": 10.0,
+        "debt_to_equity": 0.85
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "Cash deployment + Apple re-rate + 시장 correction 매수",
+      "thesis": "Cash $340B mega-deal 또는 market correction 매수",
+      "prob_pct": 25,
+      "target_price": 580,
+      "assumption": "Cash $340B mega-deal 또는 market correction 매수",
+      "key_assumptions": [
+        "Cash $340B mega-deal 또는 market correction 매수"
+      ],
+      "upside_pct": 22
+    },
+    "base": {
+      "label": "Operating earnings +5%/년 + buyback 2%",
+      "thesis": "Base — market 평균 동조",
+      "prob_pct": 55,
+      "target_price": 510,
+      "assumption": "Base — market 평균 동조",
+      "key_assumptions": [
+        "Base — market 평균 동조"
+      ],
+      "upside_pct": 7
+    },
+    "bear": {
+      "label": "Succession 충격 + Apple 하락 + 시장 underperform",
+      "thesis": "Bear — alpha 제로화",
+      "prob_pct": 20,
+      "target_price": 400,
+      "assumption": "Bear — alpha 제로화",
+      "key_assumptions": [
+        "Bear — alpha 제로화"
+      ],
+      "downside_pct": -16
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-05",
+      "event": "Annual Meeting Q&A",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Cash deployment 의도 시 +5%"
+    },
+    {
+      "date": "2026 H2",
+      "event": "Mega-acquisition 발표 ($50B+)",
+      "type": "deal",
+      "expected_impact": "+",
+      "description": "$50B+ deal 발표 시 +12%"
+    },
+    {
+      "date": "2026 quarterly",
+      "event": "Apple position 변경 (13F)",
+      "type": "earnings",
+      "expected_impact": "+/-",
+      "description": "Trim 발표 시 -5%, 유지 시 +3%"
+    },
+    {
+      "date": "2026 quarterly",
+      "event": "Insurance underwriting profit",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "$5B+ 분기 profit 시 +4%"
+    },
+    {
+      "date": "2026 ongoing",
+      "event": "BNSF operating efficiency",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Rail 매출 +5% 신호 시 +3%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Buffett succession event (93세)",
+      "description": "Buffett succession event (93세)",
+      "probability": "med",
+      "impact": "high",
+      "mitigation": "Greg Abel·Ajit Jain transition 명확"
+    },
+    {
+      "name": "Cash drag in bull market",
+      "description": "Cash drag in bull market",
+      "probability": "high",
+      "impact": "med",
+      "mitigation": "Optionality value — correction 시 활용"
+    },
+    {
+      "name": "Apple position 30% 집중",
+      "description": "Apple position 30% 집중",
+      "probability": "med",
+      "impact": "high",
+      "mitigation": "Trim 진행 중 (Q1 -10% 추가)"
+    },
+    {
+      "name": "Insurance underwriting cycle peak",
+      "description": "Insurance underwriting cycle peak",
+      "probability": "med",
+      "impact": "med",
+      "mitigation": "Reinsurance 다각화 + cat bond"
+    },
+    {
+      "name": "Conglomerate discount 영구 적용",
+      "description": "Conglomerate discount 영구 적용",
+      "probability": "high",
+      "impact": "low",
+      "mitigation": "Spin-off 검토 가능성"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T6",
+      "claim": "Multiple-skeptic framework paradox의 archetype",
+      "type": "philosophical",
+      "support_for_ticker": "STRONG",
+      "testability": "low",
+      "current_status": "ongoing",
+      "evidence": "P/B 1.5 60년간 안정, era-agnostic 합의",
+      "ticker_specific_note": "Buffett framework 자체가 era 안에 위치 — meta-paradox"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "안정성 프리미엄의 archetypical supplier",
+      "type": "industry",
+      "support_for_ticker": "SUPPORT",
+      "testability": "high",
+      "current_status": "stable",
+      "evidence": "Vol 16%, beta 0.62, cash $340B+",
+      "ticker_specific_note": "Portfolio anchor 역할 — drawdown buffer"
+    },
+    {
+      "thesis_id": "T8",
+      "claim": "Epistemological humility의 framework supplier",
+      "type": "macro",
+      "support_for_ticker": "STRONG",
+      "testability": "low",
+      "current_status": "ongoing",
+      "evidence": "Buffett 60년 framework evolution: cigar butt → quality → tech-friendly",
+      "ticker_specific_note": "Humility로 long-term survival — alpha source"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "global_filing",
+      "date": "2026-02-22",
+      "title": "Form 10-K 2025",
+      "summary": "Insurance $89B, BNSF $24B, BHE $26B, Manufacturing $75B. Cash $340B 사상 최대."
+    },
+    {
+      "type": "global_filing",
+      "date": "2026-05-02",
+      "title": "Form 10-Q Q1 2026",
+      "summary": "Operating earnings $11B (+15% YoY). Cash position $340B+ 유지."
+    },
+    {
+      "type": "annual_letter",
+      "date": "2026-02-22",
+      "title": "Buffett 2025 Shareholder Letter",
+      "summary": "Succession update + capital allocation philosophy 재확인."
+    }
+  ]
+}

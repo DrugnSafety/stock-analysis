@@ -1,0 +1,375 @@
+{
+  "ticker": "114090.KS",
+  "aggregated_at": "2026-06-06T00:04:32.807398+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 12,
+      "pct": 92.3
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.75,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "환율",
+      "frequency": 5,
+      "personas": [
+        "aswath-damodaran",
+        "michael-burry",
+        "mohnish-pabrai",
+        "charlie-munger",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "환율 변동",
+        "환율 변동",
+        "환율 변동성으로 인한 실적 변화"
+      ]
+    },
+    {
+      "theme": "변동성",
+      "frequency": 5,
+      "personas": [
+        "aswath-damodaran",
+        "michael-burry",
+        "ben-graham",
+        "cathie-wood",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "환율 변동성으로 인한 실적 변화",
+        "카지노 업종의 변동성",
+        "현재 주가가 바닥인 이유가 혁신적 내부 요인보다 외부 경기변동성에 의한 것일 가능성."
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "외국인 방문객의 수 감소 위험",
+        "마카오 등 경쟁 시장의 회복"
+      ],
+      "key_opportunities_top3": [
+        "국내 관광 산업 회복",
+        "카지노 이용 증가 추세"
+      ],
+      "uncertainty": "만약 코로나 변종 등으로 관광업이 다시 침체하면, 주가와 실적이 부진해진다면 verdict가 변할 수 있습니다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "매출의 향후 성장률 둔화 가능성",
+        "외국인 관광 산업 규제 변경"
+      ],
+      "key_opportunities_top3": [
+        "외국인 관광객 증가",
+        "카지노 산업의 장기적 성장"
+      ],
+      "uncertainty": "외국인 관광객 증가가 멈추거나 환율이 불리해지면 verdict가 뒤집힐 수 있음.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "환율 변동",
+        "마카오 시장과의 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "호텔 및 카지노 확장",
+        "외국인 관광객 증가"
+      ],
+      "uncertainty": "환율 변동이 심각해지거나, 경쟁 심화로 인한 마진 압박이 가입되면 현 verdict는 수정되어야.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁 카지노 회복",
+        "환율 변동"
+      ],
+      "key_opportunities_top3": [
+        "관광객 증가",
+        "실적 호조 지속"
+      ],
+      "uncertainty": "환율 안정성과 경쟁사의 회복이 현 조건을 뒤집을 수 있습니다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "외국인 관광객 의존도",
+        "한국 정부의 규제 변화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "카지노 비즈니스 내구성과 시장 리바운드",
+        "외국인 관광객 증가와 환율 영향"
+      ],
+      "uncertainty": "외국인 관광객 유입 증가가 예상보다 낮거나 규제 변화가 생길 경우",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "매출 의존도가 높은 마카오 시장의 부진 지속 가능성",
+        "글로벌 경제 침체가 장기화될 가능성"
+      ],
+      "key_opportunities_top3": [
+        "국내외 경제 회복에 따른 외국인 관광객 증가",
+        "블로거가 언급한 하얏트 인수 및 신규 복합리조트 추진"
+      ],
+      "uncertainty": "만약 마카오 시장이 급복되지 않거나, 국내 카지노 업계의 경쟁 상황이 악화된다면 verdict가 바뀔 수 있음.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "마카오 카지노 부진 지속",
+        "신규 투자 리스크"
+      ],
+      "key_opportunities_top3": [
+        "하얏트 인수 효과",
+        "외국인 관광객 증가"
+      ],
+      "uncertainty": "외국인 관광객의 흐름 변화가 발생하면 예상 성장세가 달라질 수 있습니다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "R&D 투자 부족",
+        "경영진의 정직성"
+      ],
+      "key_opportunities_top3": [
+        "관광객 증가",
+        "시장 회복"
+      ],
+      "uncertainty": "국내외 관광산업 악화, 경영진의 전략 미흡 시",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "카지노산업의 전반적인 불확실성",
+        "환율 변동성으로 인한 실적 변화"
+      ],
+      "key_opportunities_top3": [
+        "지속되는 외국인 관광객 증가",
+        "환율 문제로 인한 잠재적 실적 상승"
+      ],
+      "uncertainty": "카지노 산업의 외부 환경이 악화될 경우 이는 verdict를 뒤바꿀 가능성이 있습니다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "추가 부채 가능성",
+        "카지노 업종의 변동성"
+      ],
+      "key_opportunities_top3": [
+        "안전마진 존재",
+        "외국인 관광객 증가로 인한 수요 증가"
+      ],
+      "uncertainty": "카지노 시장의 변동성이나 예상된 외국인 관광객 증가가 이루어지지 않을 경우.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "혁신 기술 기반의 성장 모멘텀이 부족함.",
+        "현재 주가가 바닥인 이유가 혁신적 내부 요인보다 외부 경기변동성에 의한 것일 가능성."
+      ],
+      "key_opportunities_top3": [
+        "외국인 관광객 수 증가로 인한 잠재적 수익 증가.",
+        "호텔 인수의 레버리지 효과."
+      ],
+      "uncertainty": "외부 경기 요인이 변하면 주가 회복 타이밍이 지연될 수 있음.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "마카오 카지노 관련 시장 불확실성",
+        "환율 변동성"
+      ],
+      "key_opportunities_top3": [
+        "관광객 증가 추세",
+        "복합리조트 사업 확장"
+      ],
+      "uncertainty": "관광객 수 급감 또는 마카오 카지노 개선시 verdict가 뒤집힐 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "피어 그룹의 부진",
+        "환율 변동성"
+      ],
+      "key_opportunities_top3": [
+        "국내 시장 회복세",
+        "부동산 레버리지 잠재적 효과"
+      ],
+      "uncertainty": "마카오 카지노 시장 부진이 심화되면 국내 시장 회복세가 전망을 뒤집을 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

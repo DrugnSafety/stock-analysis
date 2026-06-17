@@ -1,0 +1,367 @@
+{
+  "ticker": "BRBR",
+  "aggregated_at": "2026-06-06T00:04:40.031559+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 11,
+      "pct": 84.6
+    },
+    "lean_bullish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.685,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 12,
+      "personas": [
+        "cathie-wood",
+        "charlie-munger",
+        "michael-burry",
+        "rakesh-jhunjhunwala",
+        "warren-buffett",
+        "nassim-taleb",
+        "ben-graham",
+        "mohnish-pabrai",
+        "peter-lynch",
+        "aswath-damodaran",
+        "phil-fisher"
+      ],
+      "examples": [
+        "경쟁 심화로 인한 시장 내 경쟁력 저하",
+        "마켓 경쟁 심화로 인한 레드오션 문제",
+        "경쟁 강도 증가"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "경쟁 심화로 인한 시장 내 경쟁력 저하",
+        "글로벌 브랜드 지위 약화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 수혜로 인한 건기식 수요 증가",
+        "단백질 보충제 시장의 지속적 성장 가능성"
+      ],
+      "uncertainty": "단백질 보충제 수요 증가가 경쟁 압박을 상쇄하지 못할 경우",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "마켓 경쟁 심화로 인한 레드오션 문제",
+        "emerging market 성장 요소와의 정렬 부족"
+      ],
+      "key_opportunities_top3": [
+        "미국 내 건기식 시장 성장 가능성",
+        "GLP-1 관련 제품 성장 잠재력"
+      ],
+      "uncertainty": "미국내의 특정 성장 요인이 아닌 글로벌 차원에서 명확한 성장 동력이 없다면 verdict가 강화될 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "경쟁 강도 증가",
+        "가격 결정력 약화"
+      ],
+      "key_opportunities_top3": [
+        "건기식 트렌드 수혜",
+        "Expanding GLP-1 시장"
+      ],
+      "uncertainty": "경쟁에서의 시장 우위가 분명해지고 지속 가능한 경우, verdict가 긍정적으로 변경될 수 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "영구 자본 손실 위험 존재",
+        "높은 시장 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 관리에 대한 잠재적 수혜"
+      ],
+      "uncertainty": "GLP-1 시장에서의 변화가 반영되지 않으면 수익이 제한",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁 심화로 인한 해자 소멸",
+        "장기적 수익성 유지의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 트렌드에 따른 단기적 시장 기회",
+        "건기식 글로벌 트렌드 수혜 가능성"
+      ],
+      "uncertainty": "경쟁에서의 명확한 해자 구축이 확인되지 않으면, 장기적 투자 가치는 제한적일 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "글로벌 긴축 유동성",
+        "높은 주식 변동성"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 시장 성장",
+        "단백질 보충제 수요 증대"
+      ],
+      "uncertainty": "미국 금리 인하 및 유동성 반등 시 긍정 전환 가능",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "매출 및 이익 감소",
+        "명확한 catalyst 부재"
+      ],
+      "key_opportunities_top3": [
+        "비건 트렌드 수혜 가능성",
+        "새로운 제품 군 출시"
+      ],
+      "uncertainty": "시장이 예상보다 빨리 회복되거나, 새로운 주요 계약 체결 시 전망이 반전될 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진 정직성 부족",
+        "시장 경쟁 과다"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 연계 수혜 가능성"
+      ],
+      "uncertainty": "경영진의 전략 변화나 시장에서의 독점 가능성이 입증되면 평가는 바뀔 수 있음.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 내 경쟁 심화로 인한 경쟁력 약화 가능성",
+        "자본 구조의 불균형"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 확대에 따른 단백질 제품 수요 증가",
+        "기업의 저평가된 가치 실현"
+      ],
+      "uncertainty": "GLP-1 수요 증가가 예상보다 낮거나 시장 경쟁 심화시, 저평가 요인이 힘을 잃을 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁 심화",
+        "부채의 높음"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 수혜",
+        "단백질 보충제 시장 성장"
+      ],
+      "uncertainty": "시장의 경쟁 강도가 낮아질 경우, 또는 부채비율이 크게 개선될 경우 verdict가 변동될 수 있음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "기술곡선 초기 혁신 부족",
+        "경쟁 심화로 인한 레드오션화"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 관련 수요 증가",
+        "건강기능식품 글로벌 성장"
+      ],
+      "uncertainty": "GLP-1 확대가 기대만큼 시장 기회를 제공하지 않거나 경쟁에서 약화될 경우 verdict가 lean_bearish로 바뀔 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "경쟁 심화로 인한 가격 경쟁력 감소",
+        "GLP-1 트렌드에서 경쟁사 대비 차별성 부족"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1으로 근손실 시장 성장의 기회",
+        "건강기능식품 소비 증가"
+      ],
+      "uncertainty": "BellRing Brands가 경쟁 우위를 강화하는 데 실패하면 verdict가 뒤집힐 것이다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 시장 변동성",
+        "경쟁 증가로 인한 수익성 저하 우려"
+      ],
+      "key_opportunities_top3": [
+        "GLP-1 시장 성장",
+        "단백질 보충제 시장의 확대"
+      ],
+      "uncertainty": "GLP-1 시장 성장이 예상만큼 이루어지지 않을 경우, 또는 경쟁사의 성공적인 진입이 예상보다 더 발생할 경우, verdict가 뒤집힐 수 있음.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

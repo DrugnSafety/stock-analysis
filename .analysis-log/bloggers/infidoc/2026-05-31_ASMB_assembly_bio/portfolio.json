@@ -1,0 +1,60 @@
+{
+  "computed_at": "2026-06-01T11:40:10.889537+09:00",
+  "start_cash": 1000000.0,
+  "start_date": "2026-05-31",
+  "end_date": "2026-05-31",
+  "n_decisions": 5,
+  "total_trades": 2,
+  "total_buy_value": 161456.64,
+  "total_sell_value": 0.0,
+  "final_cash": 838543.36,
+  "end_positions_value": 161456.63,
+  "final_nav": 999999.99,
+  "total_return_pct": -0.0,
+  "final_positions": {
+    "ASMB": {
+      "qty": 1988,
+      "avg_cost": 27.66,
+      "last_price": 27.66,
+      "market_value": 54988.08,
+      "unrealized_pnl": -0.0,
+      "unrealized_return_pct": -0.0
+    },
+    "GILD": {
+      "qty": 792,
+      "avg_cost": 134.43,
+      "last_price": 134.43,
+      "market_value": 106468.55,
+      "unrealized_pnl": -0.01,
+      "unrealized_return_pct": -0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-31",
+      "ticker": "ASMB",
+      "action": "buy",
+      "qty": 1988,
+      "price": 27.66,
+      "cost": 54988.08,
+      "cash_after": 945011.92
+    },
+    {
+      "date": "2026-05-31",
+      "ticker": "GILD",
+      "action": "buy",
+      "qty": 792,
+      "price": 134.43,
+      "cost": 106468.56,
+      "cash_after": 838543.36
+    }
+  ],
+  "benchmark_comparison": {
+    "SPY": {
+      "start_price": 756.48,
+      "end_price": 756.48,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    }
+  }
+}

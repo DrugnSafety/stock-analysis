@@ -1,0 +1,181 @@
+{
+  "industry": {
+    "name": "Enterprise SaaS + Agentic AI Platform",
+    "overview": "CRM·Marketing·Service·Commerce + Data Cloud + Agentforce. Enterprise AI agent의 entry point.",
+    "competitors": [
+      {
+        "name": "Microsoft Dynamics + Copilot",
+        "ticker": "MSFT",
+        "share_pct": 22.0,
+        "moat": "Office 365 + Azure integration"
+      },
+      {
+        "name": "Oracle CRM (Fusion)",
+        "ticker": "ORCL",
+        "share_pct": 8.0,
+        "moat": "ERP + cloud infra"
+      },
+      {
+        "name": "HubSpot",
+        "ticker": "HUBS",
+        "share_pct": 6.0,
+        "moat": "SMB-focused + product-led"
+      },
+      {
+        "name": "ServiceNow",
+        "ticker": "NOW",
+        "share_pct": 12.0,
+        "moat": "Workflow + Now Assist AI"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 120,
+      "cagr_pct": 13,
+      "horizon": "2025-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-28",
+        "title": "Salesforce Q1 FY27 매출 +10% YoY, Agentforce ARR $50M+ run-rate",
+        "url": "https://investor.salesforce.com/",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Data Cloud + Agentforce 통합 attribution 시스템 공개",
+        "url": "https://www.salesforce.com/news/",
+        "impact": "+"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "target_pct": 25,
+      "rationale": "Agentforce 매출 가속화 + Data Cloud 시너지 + FCF margin 35%+ 유지로 multiple 재평가",
+      "probability": 0.3
+    },
+    "base": {
+      "target_pct": 12,
+      "rationale": "Core CRM +10% + Agentforce 점진 ramp + 자사주 매입 + EPS +14%",
+      "probability": 0.5
+    },
+    "bear": {
+      "target_pct": -15,
+      "rationale": "Microsoft Copilot displacement 가속 + Core CRM 성장 둔화",
+      "probability": 0.2
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q2 earnings",
+      "event": "Agentforce ARR 가속화 공시",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Metered AI 매출 가시화"
+    },
+    {
+      "date": "2026 Sept",
+      "event": "Dreamforce 2026 + Agentforce 2.0 발표",
+      "type": "marketing",
+      "expected_impact": "+",
+      "description": "Enterprise agent platform 표준 vendor 포지션"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Microsoft Copilot displacement",
+      "probability": "med",
+      "impact": "high",
+      "description": "Dynamics + Copilot bundle로 Fortune 500 신규 계약 lose 가속",
+      "mitigation": "Data Cloud + Agentforce 차별화"
+    },
+    {
+      "name": "Core CRM 성장 둔화",
+      "probability": "high",
+      "impact": "med",
+      "description": "+10% YoY로 mature, multiple cap",
+      "mitigation": "Agentforce ramp 추적"
+    },
+    {
+      "name": "Agentforce 매출 ramp 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "Enterprise 채택 사이클 길어 매출 인식 늦음",
+      "mitigation": "ARR 분기별 추적"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "Salesforce는 본문에 attribution 시스템 자체 구축으로 명시 — thesis 일치도 medium-high"
+    },
+    {
+      "id": "TD2",
+      "claim": "Forward PE 22x로 mature SaaS 대비 매력적, FCF margin 35%+ 자본 환원 story"
+    }
+  ],
+  "korean_disclosures": [],
+  "five_year_financials": {
+    "revenue_cagr": 13.0,
+    "opm_trajectory": "2021 18.0% → 2025 32.0% → 2026E 33.0% (Non-GAAP)",
+    "roe_trajectory": "2021 7% → 2025 18% → 2026E 22%",
+    "fcf_yield": 6.0,
+    "turnaround_signal": "Margin expansion + Agentforce ARR ramp + 자사주 매입 — 'mature 그러나 capital-return 가속'"
+  },
+  "reverse_dcf": {
+    "implied_growth_rate": 10.0,
+    "implied_terminal_margin": 35.0,
+    "judgement": "Forward PE 22x는 +10% 성장 + 35% margin terminal 가정 — 현실적, 보수적 valuation에 Agentforce 옵션 attached.",
+    "scenario_summary": "Bull (15%) + Base (10%) + Bear (5%) — 가중 10% + 자본 환원 7%로 IRR 13-15%"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": NaN,
+        "op_income": NaN,
+        "op_margin": NaN,
+        "net_income": NaN,
+        "net_margin": NaN
+      },
+      {
+        "year": 2023,
+        "revenue": 31352.0,
+        "op_income": 1858.0,
+        "op_margin": 5.9,
+        "net_income": 208.0,
+        "net_margin": 0.7
+      },
+      {
+        "year": 2024,
+        "revenue": 34857.0,
+        "op_income": 5999.0,
+        "op_margin": 17.2,
+        "net_income": 4136.0,
+        "net_margin": 11.9
+      },
+      {
+        "year": 2025,
+        "revenue": 37895.0,
+        "op_income": 7666.0,
+        "op_margin": 20.2,
+        "net_income": 6197.0,
+        "net_margin": 16.4
+      },
+      {
+        "year": 2026,
+        "revenue": 41525.0,
+        "op_income": 8917.0,
+        "op_margin": 21.5,
+        "net_income": 7457.0,
+        "net_margin": 18.0
+      }
+    ],
+    "snapshot": {
+      "cash": 11836.99968,
+      "debt": 42547.99872,
+      "equity": 41.801
+    }
+  },
+  "peer_compare": {}
+}

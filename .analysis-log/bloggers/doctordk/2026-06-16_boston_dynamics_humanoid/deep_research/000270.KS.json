@@ -1,0 +1,263 @@
+{
+  "industry": {
+    "name": "완성차 + 휴머노이드 간접 노출(현대차그룹)",
+    "overview": "기아는 현대차그룹 일원으로 BD 지분가치에 간접 노출된다. 본 글에서 한국투자증권은 기아 목표주가를 26만원으로 상향했는데, 이는 그룹 BD 비영업가치 긍정 전환의 낙수효과다. fwd PER 7.1x로 5종목 중 가장 저평가이며 OPM 8.0%로 본업 수익성이 가장 견조하다. BD 노출은 직접적이지 않으나 그룹 리레이팅의 동반 수혜주 성격.",
+    "competitors": [
+      {
+        "name": "현대차",
+        "ticker": "005380.KS",
+        "share_pct": null,
+        "moat": "BD 직접 모회사·그룹 지배"
+      },
+      {
+        "name": "Tesla",
+        "ticker": "TSLA",
+        "share_pct": null,
+        "moat": "Optimus"
+      },
+      {
+        "name": "Toyota",
+        "ticker": "7203.T",
+        "share_pct": null,
+        "moat": "규모"
+      },
+      {
+        "name": "현대모비스",
+        "ticker": "012330.KS",
+        "share_pct": null,
+        "moat": "부품 양산"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "2025-2035 휴머노이드 TAM (Goldman Sachs $38B@2035 / McKinsey)"
+    },
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 86559.0,
+        "op_income": 7233.5,
+        "op_margin": 8.4,
+        "net_income": 5409.4,
+        "net_margin": 6.2
+      },
+      {
+        "year": 2023,
+        "revenue": 99808.4,
+        "op_income": 11610.6,
+        "op_margin": 11.6,
+        "net_income": 8777.0,
+        "net_margin": 8.8
+      },
+      {
+        "year": 2024,
+        "revenue": 107448.8,
+        "op_income": 12667.1,
+        "op_margin": 11.8,
+        "net_income": 9773.0,
+        "net_margin": 9.1
+      },
+      {
+        "year": 2025,
+        "revenue": 114140.9,
+        "op_income": 9078.1,
+        "op_margin": 8.0,
+        "net_income": 7561.0,
+        "net_margin": 6.6
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": 2022,
+        "revenue": 86559.0,
+        "operating_income": 7233.5,
+        "net_income": 5409.4,
+        "op_margin_pct": 8.4
+      },
+      {
+        "year": 2023,
+        "revenue": 99808.4,
+        "operating_income": 11610.6,
+        "net_income": 8777.0,
+        "op_margin_pct": 11.6
+      },
+      {
+        "year": 2024,
+        "revenue": 107448.8,
+        "operating_income": 12667.1,
+        "net_income": 9773.0,
+        "op_margin_pct": 11.8
+      },
+      {
+        "year": 2025,
+        "revenue": 114140.9,
+        "operating_income": 9078.1,
+        "net_income": 7561.0,
+        "op_margin_pct": 8.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "그룹 BD 리레이팅 동반 + 본업 고마진(OPM 8%) 지속. 저PER 7x 정상화로 멀티플 재평가.",
+      "key_assumptions": [
+        "그룹 BD 밸류 가시화",
+        "북미 판매 견조",
+        "주주환원 확대"
+      ],
+      "target_price": 260000
+    },
+    "base": {
+      "prob_pct": 52,
+      "thesis": "본업 저평가 매력 + BD는 간접 옵션. 한투 TP 26만원은 본업 실적·그룹 모멘텀에 연동.",
+      "key_assumptions": [
+        "자동차 판매 견조",
+        "BD 간접 노출",
+        "배당 유지"
+      ],
+      "target_price": 210000
+    },
+    "bear": {
+      "prob_pct": 18,
+      "thesis": "수요 둔화·관세 + BD 모멘텀 약화 시 저PER 함정 지속.",
+      "key_assumptions": [
+        "수요 둔화",
+        "관세",
+        "그룹 디스카운트"
+      ],
+      "target_price": 160000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "그룹 BD 풋옵션 이벤트 낙수효과",
+      "type": "event",
+      "expected_impact": "med",
+      "description": "현대차그룹 BD 밸류 가시화 시 동반 리레이팅"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적·주주환원",
+      "type": "earnings",
+      "expected_impact": "med",
+      "description": "OPM 8% 유지·배당 정책 확인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "BD 간접 노출 한계",
+      "probability": "high",
+      "impact": "low",
+      "description": "기아는 BD 지분이 간접적 — 리레이팅 강도 약할 수 있음",
+      "mitigation": "본업 저평가·고마진이 안전판"
+    },
+    {
+      "name": "완성차 수요·관세",
+      "probability": "med",
+      "impact": "high",
+      "description": "글로벌 수요 둔화·미국 관세",
+      "mitigation": "미국 현지화·전동화"
+    },
+    {
+      "name": "저PER 함정",
+      "probability": "med",
+      "impact": "med",
+      "description": "그룹 지배구조 디스카운트로 멀티플 정체 가능",
+      "mitigation": "주주환원 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "ticker_exposure": "+",
+      "claim": "채널체크에 따르면 구글은 2025년 말 현대차에 Boston Dynamics(BD) 지분 투자 가능성을 타진했고 현대차는 일단 거절했다. 거절 사유는 현대차그룹 보유 BD 지분율 희석 우려와 BD의 모호한 시장가치다",
+      "type": "factual",
+      "evidence": [
+        "구글 2025년 말 현대차에 BD 지분 투자 타진 (채널체크)",
+        "현대차 거절: 지분 희석 + 모호한 BD 밸류",
+        "빅테크 관심 = 자산 검증 시그널"
+      ],
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T2",
+      "ticker_exposure": "++",
+      "claim": "한국투자증권은 BD 비영업가치를 긍정적 시나리오로 변경하고, 이를 반영해 목표주가를 현대차 77만원, 기아 26만원, 현대모비스 95만원으로 상향했다. 이는 BD의 SOTP(비영업가치) 기여를 시장이 본격 반영하기 ",
+      "type": "factual",
+      "evidence": [
+        "현대차 TP 77만원",
+        "기아 TP 26만원",
+        "현대모비스 TP 95만원",
+        "BD 비영업가치 긍정 시나리오 전환"
+      ],
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T3",
+      "ticker_exposure": "+",
+      "claim": "소프트뱅크는 보유한 9.9% BD 지분에 대한 풋옵션 행사 여부를 2026년 7월말까지 결정해야 한다. 현대차그룹 대상 풋옵션을 행사하지 않고 빅테크에 매각하는 방안도 가능성 중 하나다(2025-08-06 주주간 약",
+      "type": "conditional",
+      "evidence": [
+        "소프트뱅크 9.9% BD 지분 풋옵션",
+        "행사 시한 2026-07말",
+        "빅테크 매각 시나리오 가능",
+        "2025-08-06 주주간 약정"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T6",
+      "ticker_exposure": "+",
+      "claim": "피지컬 AI는 LLM 다음 패권 전장이며 승자독식 성격이 짙다. 파운데이션 AI 모델을 검증할 최고급 신체(=아틀라스)를 보유해야 경쟁에서 유리하므로, BD는 IPO 이전까지 꾸준히 빅테크의 관심을 받을 것으로 예상",
+      "type": "normative",
+      "evidence": [
+        "피지컬 AI 승자독식 구조",
+        "아틀라스 = 최고급 검증 신체",
+        "IPO 전까지 빅테크 관심 지속 전망"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T7",
+      "ticker_exposure": "+",
+      "claim": "BD의 대중 시연('월드컵 쇼') 시점과 형태가 휴머노이드 밸류체인 전반의 재평가 트리거가 될 수 있다. 시계열(timeline)이 다가오고 있다는 것이 글의 핵심 관전 포인트다.",
+      "type": "predictive",
+      "evidence": [
+        "BD 월드컵 쇼 시점 미정",
+        "밸류체인 시계열 임박",
+        "대중 시연 = 재평가 촉매"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06",
+      "type": "산업",
+      "title": "한투, 기아 목표주가 26만원 상향",
+      "summary": "BD 비영업가치 긍정 시나리오 반영한 그룹 동반 TP 상향"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 168300,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 매출 ₩114조·OPM 8.0%·fwd PER 7.1x. 5종목 중 가장 저평가이며 BD 노출은 간접적. 한투 TP 26만원(+54%)은 본업 정상화 + 그룹 BD 리레이팅 동반을 가정. 본업만으로도 저PER 정상화 여지."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 7
+}

@@ -1,0 +1,353 @@
+{
+  "ticker": "LITE",
+  "name_kr": "루멘텀",
+  "name_en": "Lumentum Holdings",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bullish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "lean_bullish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "consensus_summary": {
+    "bullish_pct": 30.8,
+    "bearish_pct": 30.8,
+    "neutral_pct": 38.5,
+    "average_confidence": 0.59
+  },
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.42
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.4
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bearish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.42,
+      "horizon": "medium_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "+1276% 1Y — extreme price action",
+        "Beta 1.53 + vol 82% — owner mindset 어려움",
+        "우주 매출 비중 < 3%"
+      ],
+      "key_opportunities_top3": [
+        "Photonics + AI + datacenter trifecta"
+      ],
+      "uncertainty": "Buffett은 +1276% rally 후 'too expensive'",
+      "narrative_vs_quant_resolution": "Buffett은 reasonable price 기준 미달. neutral."
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "medium_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "+1276% rally → IRR -5%pt 압박",
+        "Cyclical photonics"
+      ],
+      "key_opportunities_top3": [
+        "Wide moat photonic chip IP"
+      ],
+      "uncertainty": "Munger 'too hard' 적용",
+      "narrative_vs_quant_resolution": "Munger는 valuation 우려로 neutral."
+    },
+    "ben-graham": {
+      "verdict": "bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "P/E 50 + +1276% rally — Graham 기준 모두 미달",
+        "Margin of safety 실종"
+      ],
+      "key_opportunities_top3": [],
+      "uncertainty": "Defensive·Enterprising 모두 불가",
+      "narrative_vs_quant_resolution": "Graham 정량 기준 미달. bearish."
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "FCF yield 1% 미만 — Pabrai 기준 미달",
+        "6-8x EBITDA 훨씬 초과"
+      ],
+      "key_opportunities_top3": [],
+      "uncertainty": "Pabrai 매수 후보 미달",
+      "narrative_vs_quant_resolution": "Pabrai 매수 기준 미달. lean_bearish."
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "+1276% rally — extreme bubble territory",
+        "AI capex peak 우려"
+      ],
+      "key_opportunities_top3": [
+        "Short candidate"
+      ],
+      "uncertainty": "Burry contrarian: extreme rally + cycle peak",
+      "narrative_vs_quant_resolution": "Burry contrarian: short setup 강력. lean_bearish."
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "PEG 적용 어려움",
+        "+1276% rally 후 'eight-fold rule'"
+      ],
+      "key_opportunities_top3": [
+        "AI photonics secular"
+      ],
+      "uncertainty": "Lynch는 +1276% 후 cooling 권장",
+      "narrative_vs_quant_resolution": "Lynch는 가격 cooling 후 재평가. neutral."
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "key_concerns_top3": [
+        "+1276% 후 entry timing 부담"
+      ],
+      "key_opportunities_top3": [
+        "Scuttlebutt: NVIDIA·Cisco·hyperscaler customers",
+        "R&D depth: optical + RF + photonic chips",
+        "Long runway: AI + 5G + 우주 다중"
+      ],
+      "uncertainty": "Management quality 강함",
+      "narrative_vs_quant_resolution": "Fisher는 quality > price — lean_bullish but cautious."
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "+1276% rally — short-term volatility"
+      ],
+      "key_opportunities_top3": [
+        "ARK 5대 platform 중 'AI' + 'Space' 양쪽 중복",
+        "Photonic chip = AI infra Wright's Law"
+      ],
+      "uncertainty": "ARK 상위 weighting",
+      "narrative_vs_quant_resolution": "Wood thesis 정확히 일치. bullish."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "AI capex peak 가까움 — high-beta first to fall"
+      ],
+      "key_opportunities_top3": [
+        "Macro: AI capex + 우주 + 5G 동시",
+        "NVIDIA $1B 투자 catalyst"
+      ],
+      "uncertainty": "Druckenmiller는 high-conviction concentrated",
+      "narrative_vs_quant_resolution": "Druckenmiller macro tailwind. lean_bullish."
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "High volatility — activist 불가"
+      ],
+      "key_opportunities_top3": [],
+      "uncertainty": "Ackman style 미스매치",
+      "narrative_vs_quant_resolution": "Ackman은 mature compounder 선호. neutral."
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "Extreme rally → fragile downside"
+      ],
+      "key_opportunities_top3": [
+        "Optionality value still"
+      ],
+      "uncertainty": "Position size 작게 통제",
+      "narrative_vs_quant_resolution": "Taleb는 extreme rally 후 작은 position. neutral."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "EM photonics 적용 limited"
+      ],
+      "key_opportunities_top3": [
+        "India 5G·6G capex"
+      ],
+      "uncertainty": "EM expansion",
+      "narrative_vs_quant_resolution": "Jhunjhunwala lean_bullish."
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "아스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "DCF fair value $250-400 — 현재 $904는 -125% upside / +130% downside",
+        "Story stock valuation"
+      ],
+      "key_opportunities_top3": [
+        "Optionality value 인정"
+      ],
+      "uncertainty": "DCF 신뢰도 매우 낮음 — extreme rally",
+      "narrative_vs_quant_resolution": "Damodaran story → numbers: extreme overvaluation. lean_bearish."
+    }
+  },
+  "evaluation_date": "2026-05-10"
+}

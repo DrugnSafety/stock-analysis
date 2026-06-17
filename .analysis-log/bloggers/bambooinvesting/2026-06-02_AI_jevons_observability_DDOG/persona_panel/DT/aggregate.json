@@ -1,0 +1,341 @@
+{
+  "ticker": "DT",
+  "ticker_name": "Dynatrace, Inc.",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 4,
+      "members": [
+        "warren-buffett",
+        "charlie-munger",
+        "cathie-wood",
+        "michael-burry"
+      ],
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 1,
+      "members": [
+        "ben-graham"
+      ],
+      "pct": 7.7
+    },
+    "lean_bullish": {
+      "count": 8,
+      "members": [
+        "mohnish-pabrai",
+        "peter-lynch",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "nassim-taleb",
+        "bill-ackman",
+        "stanley-druckenmiller",
+        "aswath-damodaran"
+      ],
+      "pct": 61.5
+    }
+  },
+  "average_confidence": 0.83,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.9
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "contrarian": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral (1/2)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "analytical": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "thesis_alignment": "high",
+  "narrative_vs_quant": "Datadog 대비 valuation discount + AI workload visibility 매출 +120%E",
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.9,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Datadog 대비 시장 점유율 열세",
+        "[inference] Pure-play vs Datadog multi-product 전략 한계",
+        "[inference] PE 매수자 압력 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Davis AI 차별화 — explainable AI for ops",
+        "[inference] Forward PE 30x — Datadog 대비 ⅓ 가격, valuation arbitrage",
+        "[inference] ARR +18% + FCF margin 25%+"
+      ]
+    }
+  }
+}

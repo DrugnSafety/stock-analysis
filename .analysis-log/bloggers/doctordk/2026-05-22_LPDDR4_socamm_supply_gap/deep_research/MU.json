@@ -1,0 +1,283 @@
+{
+  "ticker": "MU",
+  "name": "Micron Technology",
+  "industry": {
+    "name": "미국 메모리 IDM — DRAM·NAND·HBM·LPDDR",
+    "overview": "Micron은 미국 유일의 메모리 IDM으로 DRAM 3위, NAND 4위. HBM3E NVIDIA qualified 진입 + LPDDR 본토 capa 확대 중. 본 thesis 관점 — DDR4 phase-out 동조 + AI 메모리 cycle 미국 proxy. CHIPS Act $6.1B 보조금 + Idaho/NY 신규 fab 확보 — 정책적 우위. 한국 빅2 대비 HBM 점유율 낮으나 다변화 수요 + 본토 capa 안정성으로 차별화.",
+    "competitors": [
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 15,
+        "moat": "본토 IDM + CHIPS Act + 다변화 hyperscaler 고객"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 50,
+        "moat": "HBM single-source + 양산 우위"
+      },
+      {
+        "name": "Samsung",
+        "ticker": "005930.KS",
+        "share_pct": 35,
+        "moat": "diversified IDM + 글로벌 capa"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-21",
+        "title": "TrendForce — DDR4 phase-out 글로벌 가격 폭등",
+        "source": "TrendForce",
+        "summary": "Micron 가격 우호 환경"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "Micron HBM3E 12-stack NVIDIA qualified — 2027 매출 비중 20% 목표",
+        "source": "Micron IR",
+        "summary": "한국 빅2 추격 가속"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "Micron Idaho fab 2027 가동 — CHIPS Act $6.1B 받음",
+        "source": "WSJ",
+        "summary": "본토 capa 확보"
+      }
+    ]
+  },
+  "financials": {
+    "revenue_5y_usd_mn": [
+      21435,
+      27705,
+      30758,
+      15540,
+      25111
+    ],
+    "op_margin_5y_pct": [
+      11.8,
+      25.4,
+      23.0,
+      -39.0,
+      19.0
+    ],
+    "net_income_5y_usd_mn": [
+      2687,
+      5861,
+      8687,
+      -5833,
+      778
+    ],
+    "fwd_pe": 7.48,
+    "trailing_pe": 36.27,
+    "ev_ebitda": 23.25,
+    "narrative_5y": "Micron 5년 매출은 2020 $21.4B → 2022 $30.8B(peak) → 2023 $15.5B(-50%, 최악 cycle) → 2024 $25.1B → 2025E $34B → 2026E $42B. OPM 2023 -39%(record loss) → 2026E 28%. 한국 빅2 대비 OPM 차이는 HBM 점유율 격차 — Micron 15% vs SK 50%. 본토 capa 우위는 enterprise·정부 고객 winning에 강점.",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 27705,
+        "op_income": 7038,
+        "op_margin": 25.4,
+        "net_income": 5861
+      },
+      {
+        "year": 2022,
+        "revenue": 30758,
+        "op_income": 7074,
+        "op_margin": 23.0,
+        "net_income": 8687
+      },
+      {
+        "year": 2023,
+        "revenue": 15540,
+        "op_income": -6064,
+        "op_margin": -39.0,
+        "net_income": -5833
+      },
+      {
+        "year": 2024,
+        "revenue": 25111,
+        "op_income": 4770,
+        "op_margin": 19.0,
+        "net_income": 778
+      },
+      {
+        "year": 2025,
+        "revenue": 34000,
+        "op_income": 8500,
+        "op_margin": 25.0,
+        "net_income": 6500
+      }
+    ],
+    "currency": "USD",
+    "unit": "mn"
+  },
+  "scenarios": {
+    "bear": {
+      "target_price_usd": 600,
+      "probability_pct": 25,
+      "trigger": "HBM 점유율 정체 + 메모리 cycle peak",
+      "target_price": 600,
+      "prob_pct": 25
+    },
+    "base": {
+      "target_price_usd": 950,
+      "probability_pct": 50,
+      "trigger": "HBM3E ramp + LPDDR 다변화 + CHIPS Act tailwind",
+      "target_price": 950,
+      "prob_pct": 50
+    },
+    "bull": {
+      "target_price_usd": 1300,
+      "probability_pct": 25,
+      "trigger": "HBM4 진입 + LPDDR 데이터센터 점유율 확대",
+      "target_price": 1300,
+      "prob_pct": 25
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM3E 매출 본격화",
+      "impact": "+"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Idaho fab 가동",
+      "impact": "+"
+    },
+    {
+      "date": "2027-H2",
+      "event": "HBM4 sampling",
+      "impact": "++"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Trailing PE 36 — peak earnings prices in",
+      "probability": "high",
+      "impact": "high",
+      "description": "3-12M",
+      "mitigation": "-"
+    },
+    {
+      "name": "Beta 1.92 + Vol 62% — high risk",
+      "probability": "high",
+      "impact": "high",
+      "description": "ongoing",
+      "mitigation": "-"
+    },
+    {
+      "name": "HBM 점유율 한국 빅2 대비 낮음 (15% vs 50%)",
+      "probability": "med",
+      "impact": "med",
+      "description": "12-24M",
+      "mitigation": "-"
+    },
+    {
+      "name": "CXMT + 한국 빅2 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "12-24M",
+      "mitigation": "-"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "claim": "DDR4/LPDDR4 공급 공백 심화 + 3년 장기계약",
+      "ticker_exposure": "++",
+      "current_status": "confirmed",
+      "evidence": "TrendForce 2026-05-21 + 빅3 phase-out IR"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "Nanya DDR5 전환 trapped — 한국 빅2 가격 결정력",
+      "ticker_exposure": "+",
+      "current_status": "confirmed",
+      "evidence": "Nanya 1Q26 ASP +35%"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "Vera Rubin 시대 AI 서버 = 거대한 메모리 시스템",
+      "ticker_exposure": "++",
+      "current_status": "confirmed",
+      "evidence": "NVIDIA Rubin LPDDR + SOCAMM 채택 공식 발표"
+    },
+    {
+      "thesis_id": "T4",
+      "claim": "2027 LPDDR 수요 9,084PB",
+      "ticker_exposure": "++",
+      "current_status": "pending",
+      "evidence": "Yole·Omdia 8-14 EB 전망"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "Vera CPU 외판 시 +6,144PB 추가 수요",
+      "ticker_exposure": "+",
+      "current_status": "pending",
+      "evidence": "NVIDIA 외판 시나리오 conditional"
+    },
+    {
+      "thesis_id": "T6",
+      "claim": "SOCAMM 모듈 랙당 2,048개 (7배)",
+      "ticker_exposure": "++",
+      "current_status": "confirmed",
+      "evidence": "NVIDIA Vera CPU 아키텍처 공식"
+    },
+    {
+      "thesis_id": "T7",
+      "claim": "SOCAMM 기판 시장 1,417→3,410억 (+141%)",
+      "ticker_exposure": "++",
+      "current_status": "confirmed",
+      "evidence": "심텍·대덕전자 IR 가이드"
+    },
+    {
+      "thesis_id": "T8",
+      "claim": "GPU/HBM 외 LPDDR·SOCAMM 멀티플 재평가",
+      "ticker_exposure": "+",
+      "current_status": "pending",
+      "evidence": "valuation gap 분석 필요"
+    }
+  ],
+  "peer_compare": {
+    "Micron": {
+      "fwd_pe": 7.5,
+      "rev_growth": 22,
+      "opm": 24,
+      "thesis_alignment": "high"
+    },
+    "SK_Hynix": {
+      "fwd_pe": 5.08,
+      "rev_growth": 30,
+      "opm": 38,
+      "thesis_alignment": "very_high"
+    },
+    "Samsung": {
+      "fwd_pe": 5.6,
+      "rev_growth": 16,
+      "opm": 19,
+      "thesis_alignment": "very_high"
+    }
+  },
+  "thesis_strength_summary": "HIGH — 미국 본토 IDM + AI 메모리 cycle 채택. 한국 빅2 대비 valuation 부담.",
+  "korean_disclosures": [
+    {
+      "date": "2026-05-10",
+      "type": "SEC 10-Q",
+      "title": "3Q FY26 매출 +35% YoY, HBM3E NVIDIA qualified",
+      "impact": "+"
+    },
+    {
+      "date": "2026-03-20",
+      "type": "SEC 8-K",
+      "title": "CHIPS Act 보조금 .1B 최종 확정 — Idaho fab 2027 가동",
+      "impact": "+"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "주요사항",
+      "title": "NY 신규 fab 공사 진행률 35% 도달",
+      "impact": "+"
+    }
+  ]
+}

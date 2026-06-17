@@ -1,0 +1,100 @@
+{
+  "computed_at": "2026-06-09T16:13:24.016693",
+  "start_cash": 100000000.0,
+  "start_date": "2026-06-09",
+  "end_date": "2026-06-09",
+  "n_decisions": 5,
+  "total_trades": 4,
+  "total_buy_value": 40620850.0,
+  "total_sell_value": 0.0,
+  "final_cash": 59379150.0,
+  "end_positions_value": 40620850.0,
+  "final_nav": 100000000.0,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "006260.KS": {
+      "qty": 29,
+      "avg_cost": 387500.0,
+      "last_price": 387500.0,
+      "fx_rate": 1.0,
+      "market_value_krw": 11237500.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "010120.KS": {
+      "qty": 34,
+      "avg_cost": 219500.0,
+      "last_price": 219500.0,
+      "fx_rate": 1.0,
+      "market_value_krw": 7463000.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "000500.KS": {
+      "qty": 34,
+      "avg_cost": 322000.0,
+      "last_price": 322000.0,
+      "fx_rate": 1.0,
+      "market_value_krw": 10948000.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "NDA.DE": {
+      "qty": 37,
+      "avg_cost": 197.7,
+      "last_price": 197.7,
+      "fx_rate": 1500.0,
+      "market_value_krw": 10972350.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "ticker": "006260.KS",
+      "date": "2026-06-09",
+      "action": "BUY",
+      "qty": 29,
+      "price": 387500.0,
+      "price_krw": 387500.0,
+      "value": 11237500.0
+    },
+    {
+      "ticker": "010120.KS",
+      "date": "2026-06-09",
+      "action": "BUY",
+      "qty": 34,
+      "price": 219500.0,
+      "price_krw": 219500.0,
+      "value": 7463000.0
+    },
+    {
+      "ticker": "000500.KS",
+      "date": "2026-06-09",
+      "action": "BUY",
+      "qty": 34,
+      "price": 322000.0,
+      "price_krw": 322000.0,
+      "value": 10948000.0
+    },
+    {
+      "ticker": "NDA.DE",
+      "date": "2026-06-09",
+      "action": "BUY",
+      "qty": 37,
+      "price": 197.7,
+      "price_krw": 296550.0,
+      "value": 10972350.0
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI_^KS11": {
+      "period_return_pct": 0.0,
+      "alpha_pct": 0.0
+    },
+    "SPY": {
+      "period_return_pct": 0.0,
+      "alpha_pct": 0.0
+    }
+  }
+}

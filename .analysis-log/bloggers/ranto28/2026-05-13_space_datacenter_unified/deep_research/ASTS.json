@@ -1,0 +1,266 @@
+{
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T01",
+      "claim": "우주 데이터센터 메가테마",
+      "ticker_exposure": "+",
+      "reasoning": "위성 자체 compute payload 옵션. 통신이 main."
+    },
+    {
+      "thesis_id": "T05",
+      "claim": "중국 삼체 컴퓨팅 별자리",
+      "ticker_exposure": "+",
+      "reasoning": "Architecture analog — ASTS도 향후 AI inference payload 가능."
+    },
+    {
+      "thesis_id": "T07",
+      "claim": "다보스 우주경제 의제",
+      "ticker_exposure": "+",
+      "reasoning": "Sentiment tailwind."
+    }
+  ],
+  "industry": {
+    "name": "Direct-to-Cell Satellite Communications + Future Space Compute",
+    "overview": "휴대전화 unmodified handset과 직접 통신 가능한 LEO 위성 통신. BlueBird 1-5 (2024) + 2026-2027 추가 95기 발사로 글로벌 5G coverage 목표. Verizon, AT&T, Vodafone, Rakuten 등 통신사 파트너십. 우주 데이터센터 인접 (위성 자체에 compute 탑재 가능).",
+    "competitors": [
+      {
+        "name": "SpaceX Starlink Direct-to-Cell",
+        "ticker": "—",
+        "share_pct": 50.0,
+        "moat": "T-Mobile 파트너, scale advantage 압도적"
+      },
+      {
+        "name": "Iridium Communications",
+        "ticker": "IRDM",
+        "share_pct": 15.0,
+        "moat": "기존 위성 phone, IoT 강점"
+      },
+      {
+        "name": "Vodafone (partner)",
+        "ticker": "VOD",
+        "share_pct": 0.0,
+        "moat": "ASTS 주요 고객/파트너"
+      },
+      {
+        "name": "Globalstar (Apple)",
+        "ticker": "GSAT",
+        "share_pct": 8.0,
+        "moat": "iPhone 위성 SOS"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 5.0,
+      "cagr_pct": 28.0,
+      "horizon": "2024-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-13",
+        "title": "ASTS 제한주식 매도 통보",
+        "source": "SEC EDGAR",
+        "summary": "1Y +182% 후 매물"
+      },
+      {
+        "date": "2026-05-11",
+        "title": "Q1 2026 분기보고서",
+        "source": "SEC 10-Q",
+        "summary": "매출 $9M, BlueBird Block 2 발사 일정 재확인"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "AT&T strategic 투자 추가 $250M",
+        "source": "AT&T Press",
+        "summary": "ASTS 단말 보조 + 라이센스 협상"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY22",
+        "revenue": 13.7,
+        "op_income": -959,
+        "op_margin": -7000.0,
+        "net_income": -92,
+        "net_margin": -671.5
+      },
+      {
+        "year": "FY23",
+        "revenue": 14.5,
+        "op_income": -507,
+        "op_margin": -3500.0,
+        "net_income": -89,
+        "net_margin": -613.8
+      },
+      {
+        "year": "FY24",
+        "revenue": 4.4,
+        "op_income": -440,
+        "op_margin": -10000.0,
+        "net_income": -200,
+        "net_margin": -4545.0
+      },
+      {
+        "year": "FY25E",
+        "revenue": 35,
+        "op_income": -280,
+        "op_margin": -800.0,
+        "net_income": -350,
+        "net_margin": -1000.0
+      },
+      {
+        "year": "FY26E",
+        "revenue": 350,
+        "op_income": -175,
+        "op_margin": -50.0,
+        "net_income": -300,
+        "net_margin": -85.7
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 1850,
+      "total_liab": 900,
+      "equity": 950,
+      "cash": 950,
+      "debt": 550
+    },
+    "cf_summary": {
+      "ocf_5y_avg": -117,
+      "fcf_5y_avg": -445,
+      "capex_intensity": 8.0
+    },
+    "peer_compare": [
+      {
+        "ticker": "ASTS",
+        "name": "AST SpaceMobile",
+        "pe": -276.6,
+        "pb": 30.0,
+        "roe": -35.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "IRDM",
+        "name": "Iridium",
+        "pe": 32.0,
+        "pb": 4.5,
+        "roe": 14.0,
+        "div_yield": 1.5
+      },
+      {
+        "ticker": "GSAT",
+        "name": "Globalstar",
+        "pe": -45.0,
+        "pb": 2.5,
+        "roe": -12.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "T",
+        "name": "AT&T (partner)",
+        "pe": 9.5,
+        "pb": 1.4,
+        "roe": 13.0,
+        "div_yield": 5.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 130,
+      "thesis": "BlueBird 95기 추가 발사 성공 (2026-2027), Verizon·AT&T·Vodafone 상용 launch, FY27 매출 $1.0B+, 우주 compute 옵션 가시화",
+      "key_assumptions": [
+        "95기 발사 성공",
+        "통신사 contract 확정",
+        "우주 DC payload"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 80,
+      "thesis": "발사 일정 6-12개월 지연, 통신사 ramp 점진적, 매출 FY26 $350M, FY27 흑자전환 미달성",
+      "key_assumptions": [
+        "Launch timeline 부분 준수",
+        "ARPU growth 점진"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 30,
+      "thesis": "Starlink Direct-to-Cell 시장 잠식, 발사 실패 / 위성 dropout, 추가 dilution -25%",
+      "key_assumptions": [
+        "Starlink 압도",
+        "Launch failure",
+        "Dilution"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "BlueBird Block 2 첫 발사 (40기 중 첫 batch)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "성공 시 commercial service 가능"
+    },
+    {
+      "date": "2026-H2",
+      "event": "Verizon 전국 베타 서비스",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "美 시장 entry, ARPU $5-10/month"
+    },
+    {
+      "date": "2027-H1",
+      "event": "BlueBird 100기 constellation 완성",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Global continuous coverage"
+    },
+    {
+      "date": "2026-2027",
+      "event": "우주 data compute payload integration",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "China Three-Body Constellation 처럼 위성 AI compute 탑재"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Starlink Direct-to-Cell 가격 경쟁",
+      "probability": "high",
+      "impact": "high",
+      "description": "SpaceX scale advantage로 무료~$10/month 가능. ASTS 경쟁력 위협",
+      "mitigation": "기존 통신사 파트너십 lock-in"
+    },
+    {
+      "name": "발사 지연/실패",
+      "probability": "high",
+      "impact": "high",
+      "description": "95기 추가 발사 SpaceX Falcon 9 의존",
+      "mitigation": "다중 발사 계약 (RKLB Neutron 옵션)"
+    },
+    {
+      "name": "현금소진 + dilution",
+      "probability": "high",
+      "impact": "med",
+      "description": "FCF -$650M/yr → 1년 내 추가 capital raise 필수",
+      "mitigation": "AT&T·Verizon strategic 투자"
+    },
+    {
+      "name": "위성 lifespan / 신뢰성",
+      "probability": "med",
+      "impact": "med",
+      "description": "BlueBird 위성 lifespan 7년, 일부 dropout 가능",
+      "mitigation": "Redundancy"
+    },
+    {
+      "name": "Vol 104%, Beta 4.0",
+      "probability": "high",
+      "impact": "high",
+      "description": "Risk-off 환경에서 -60% 가능",
+      "mitigation": "Small position size"
+    }
+  ],
+  "korean_disclosures": []
+}

@@ -1,0 +1,487 @@
+{
+  "ticker": "3037.TW",
+  "aggregated_at": "2026-06-11T03:06:50.035587+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 11,
+      "pct": 64.7
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 11.8
+    },
+    "lean_bearish": {
+      "count": 4,
+      "pct": 23.5
+    }
+  },
+  "average_confidence": 0.744,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.4
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 12,
+      "personas": [
+        "cathie-wood",
+        "ray-dalio",
+        "stanley-druckenmiller",
+        "michael-burry",
+        "warren-buffett",
+        "jim-simons",
+        "charlie-munger",
+        "aswath-damodaran",
+        "mohnish-pabrai",
+        "rakesh-jhunjhunwala",
+        "nassim-taleb",
+        "cliff-asness"
+      ],
+      "examples": [
+        "높은 변동성",
+        "높은 변동성",
+        "높은 주가 변동성"
+      ]
+    },
+    {
+      "theme": "고평가",
+      "frequency": 5,
+      "personas": [
+        "ray-dalio",
+        "stanley-druckenmiller",
+        "warren-buffett",
+        "peter-lynch",
+        "cliff-asness"
+      ],
+      "examples": [
+        "고평가된 trailing P/E",
+        "고평가된 밸류에이션 지표 (e.g., 높은 EV/EBITDA)",
+        "고평가된 multiple로 인한 가격 변동성 위험"
+      ]
+    }
+  ],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 정직성과 추가적인 R&D 투자 여부",
+        "FC-BGA와 실리콘 커패시터의 시장 확대 속도"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 공급망으로 재평가될 가능성",
+        "장기적 성장과 높은 재투자 수익성"
+      ],
+      "uncertainty": "AI 시장의 변화가 예상보다 느리다면 회사의 성장 속도는 둔화될 수 있습니다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가된 trailing P/E",
+        "사업의 이해 난이도"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 시장의 성장",
+        "FC-BGA 수요 증가"
+      ],
+      "uncertainty": "AI 인프라 관련 기업으로 시장 인식 변화가 없으면 전망이 크게 달라질 수 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "미래 수요 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 고성능 컴퓨팅 수요 증가",
+        "장기 계약 기반 증설"
+      ],
+      "uncertainty": "AI 시장의 성장세가 예상보다 둔화되거나, Unimicron의 경쟁력이 약화될 경우.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "기술변화의 가능성",
+        "높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 내 포지셔닝",
+        "구매자 선호 계약"
+      ],
+      "uncertainty": "AI 인프라 수요가 급격히 감소하거나 기술 대체로 인한 영향 나타날 시",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고평가된 밸류에이션 지표 (e.g., 높은 EV/EBITDA)",
+        "높은 주가 변동성"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 시장에의 진입 및 확장",
+        "장기적인 수익 창출 가능성 증가"
+      ],
+      "uncertainty": "AI 인프라 시장에서의 경쟁 격화 또는 기술적 장애물이 나타나면 투자 논지가 뒤집힐 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "높은 P/E 비율"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 성장",
+        "글로벌 수요 증가"
+      ],
+      "uncertainty": "AI 인프라 수요가 감소하거나 정치적 리스크가 커질 경우 가정이 깨질 수 있다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가된 multiple로 인한 가격 변동성 위험",
+        "AI 성장 반영 실패 시 downside risk"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 확장과 관련된 장기 수익성 증가",
+        "기업 프레임 변화에 따른 밸류에이션 재조정"
+      ],
+      "uncertainty": "AI 인프라에 대한 수요가 예상보다 부진하면 주가 압박 가능성 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 및 P/B 배수",
+        "변동성이 높은 시장 환경"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 수요 증가",
+        "글로벌 소수 기업만 진입 가능한 FC-BGA 시장"
+      ],
+      "uncertainty": "시장 인식이 변하지 않거나, AI 관련 수요가 급격히 감소하면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "시장 변동에 높은 베타"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 수요 증가",
+        "장기적인 시장 재평가 가능성"
+      ],
+      "uncertainty": "인식의 변화가 지속되지 않으면 변동성과 베타로 인한 리스크가 커질 수 있음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 PE가 정당화될 수 있는 사업 실적이 뒤따르지 않는 경우",
+        "고객사 수요 감소 시 리스크"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 시장에서 핵심적인 위치 확립",
+        "FC-BGA 및 실리콘 커패시터 수요 증가"
+      ],
+      "uncertainty": "AI 시장 성장 둔화 시, 주가 재평가 리스크",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "고평가 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI 기술 수요 증가",
+        "FC-BGA 및 실리콘 커패시터의 성장"
+      ],
+      "uncertainty": "글로벌 경제 여건이 예상보다 빨리 악화되면 macro cycle 평가가 변동할 수 있다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 trailing PE가 현재 평가 대비 미래 실현 가능성",
+        "고변동성으로 인한 hidden risk 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 확장으로 고객 기반의 다변화 및 안정성 증가",
+        "시장의 인식 변화에 따른 밸류에이션 상승 가능성"
+      ],
+      "uncertainty": "AI 인프라 성장 동력이 사라지거나 시장의 기대가 과대평가된 경우",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "AI 열풍으로 인한 과대평가 위험",
+        "시장의 과열과 전반적 조정 가능성"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터와 AI 수요 증가는 장기적으로 수익 개선 가능성"
+      ],
+      "uncertainty": "AI 인프라 수요가 생각보다 낮아지는 경우",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "PER와 PBR이 매우 높음",
+        "기업의 가치 대비 시장 평가가 지나치게 높을 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 확장의 전략적 포지셔닝",
+        "FC-BGA와 실리콘 커패시터 사업의 잠재적 성장"
+      ],
+      "uncertainty": "기업의 실제 실적이 현 수준의 평가를 뒷받침하지 못한다면 평가가 변동될 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 trailing PE에 따른 현재 밸류에이션 부담",
+        "높은 주가 변동성"
+      ],
+      "key_opportunities_top3": [
+        "FC-BGA 시장에서의 리더쉽 확장",
+        "실리콘 커패시터 사업의 성장 가능성"
+      ],
+      "uncertainty": "AI 인프라 공급자로의 정의 변경이 이루어지지 않을 경우.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 trailing PE",
+        "높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 시장의 확장",
+        "새로운 장기 공급 계약"
+      ],
+      "uncertainty": "AI 수요가 예측보다 낮아지거나 기존 계약의 안정성이 흔들리면 부정적 영향을 받을 수 있음.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가된 밸류에이션",
+        "고변동성"
+      ],
+      "key_opportunities_top3": [
+        "강력한 모멘텀",
+        "시장 인식 변화 가능성"
+      ],
+      "uncertainty": "Momentum이 꺾이거나 평가가 낮아지면 판정이 달라질 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    }
+  }
+}

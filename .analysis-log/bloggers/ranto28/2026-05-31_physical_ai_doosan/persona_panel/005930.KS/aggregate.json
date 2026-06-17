@@ -1,0 +1,365 @@
+{
+  "ticker": "005930.KS",
+  "aggregated_at": "2026-06-01T11:41:11.717977+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.719,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 8,
+      "personas": [
+        "bill-ackman",
+        "cathie-wood",
+        "mohnish-pabrai",
+        "aswath-damodaran",
+        "rakesh-jhunjhunwala",
+        "charlie-munger",
+        "warren-buffett"
+      ],
+      "examples": [
+        "글로벌 반도체 시장 경쟁 심화",
+        "글로벌 시장의 과열 경쟁",
+        "반도체 시장의 경쟁 심화로 수익 감소 가능성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "글로벌 공급망 문제",
+        "기술 변화"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI와의 협력",
+        "탄탄한 시장 리더십"
+      ],
+      "uncertainty": "글로벌 반도체 수요 감소나 기술 패러다임 변화가 발생하면 판단이 변경될 수 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "정치적 불안정성",
+        "글로벌 반도체 시장 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 피지컬 AI 시장 성장",
+        "5G 및 IoT 시장 확대"
+      ],
+      "uncertainty": "거시 경제적 불확실성이나 기술적 혁신 속도가 기대에 미치지 못할 경우",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "글로벌 시장의 과열 경쟁",
+        "기술 혁신 실패 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI와 피지컬 AI 기술에서의 리더십 확대",
+        "견고한 반도체 수익 창출"
+      ],
+      "uncertainty": "AI 기술 발전보다 대응이 늦어질 경우, 삼성전자 경쟁력 약화 가능",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "전반적인 경기 불확실성",
+        "반도체 시장의 경쟁 심화로 수익 감소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI 협력 가능성",
+        "글로벌 시장 확대"
+      ],
+      "uncertainty": "반도체 시장에서의 경쟁 심화가 예상보다 낮아지면",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁사의 기술 혁신",
+        "글로벌 시장의 불안정성"
+      ],
+      "key_opportunities_top3": [
+        "AI와 반도체 산업의 발전",
+        "브랜드 파워 확장"
+      ],
+      "uncertainty": "글로벌 경제 상황이 급격히 악화되어 기술 투자 비용이 증가하거나 수익성이 저하되면 결론이 반전될 수 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국 PMI와 관련한 불확실성",
+        "FED의 금리 정책 변화"
+      ],
+      "key_opportunities_top3": [
+        "글로벌 AI·피지컬 AI 트렌드",
+        "HBM4 및 반도체 기술 발전"
+      ],
+      "uncertainty": "글로벌 AI 성장과 피지컬 AI 수요가 급격히 감소할 경우",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "HBM4 개발의 경쟁자 대비 기술검증 지연",
+        "피지컬 AI 시장 내 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "자본 효율성과 제조 역량을 통한 시장 점유율 확대",
+        "베라 루빈 플랫폼과의 협업 가능성"
+      ],
+      "uncertainty": "베라 루빈 플랫폼에서의 삼성과 SK하이닉스 간 기술적 우위 변화 시, 현재의 긍정적 전망이 뒤집힐 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "피지컬AI 프로젝트 성공 여부",
+        "글로벌 경제 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "AI와 로봇 기술의 결합으로 인한 새로운 성장",
+        "베라 루빈 프로젝트를 통한 기술적 입지 강화"
+      ],
+      "uncertainty": "AI 기술 발전이 예상보다 느리거나 경쟁사에 밀릴 경우",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "부채 스트레스 테스트 필요성",
+        "시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "AI 및 HBM4 개발로 인한 성장 잠재력",
+        "새로운 기술 플랫폼 참여 가능성"
+      ],
+      "uncertainty": "만약 AI 및 HBM4 기술 개발이 예상보다 더디거나 시장 반응이 부정적이라면, 현재의 bullish 판단이 뒤집힐 수 있다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 변동성",
+        "부족한 정량적 정보"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI 관련 성장 가능성",
+        "삼성전자의 글로벌 기술 역량"
+      ],
+      "uncertainty": "현재 가격이 장기적인 성장성을 반영하지 않는다고 판단될 경우, 시장 평가가 변경될 수 있습니다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "피지컬 AI 중심에서 밀려날 가능성",
+        "HBM4에서의 경쟁 열위"
+      ],
+      "key_opportunities_top3": [
+        "장기적 반도체 시장 수요 증가",
+        "HBM4 시장에 향후 기여 가능성"
+      ],
+      "uncertainty": "AI 및 피지컬 AI 기술에서의 지배적 위치 탈환 여부에 따라 평가가 뒤집힐 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "HBM4 기술 개발에서 SK하이닉스와의 경쟁",
+        "피지컬 AI 이니셔티브의 실질적 성과 부족"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI 분야의 성장 기회",
+        "AI 메모리 시장에서의 존재감 강화"
+      ],
+      "uncertainty": "피지컬 AI와 관련된 기술 성공 여부에 따라 시장 평가가 크게 변동될 가능성 존재.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "공급망 및 기술 혁신 취약성",
+        "글로벌 경제 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "AI와 피지컬 AI 통합 기회",
+        "기술적 파이터십 강화"
+      ],
+      "uncertainty": "글로벌 경제 충격이 적거나 기술 혁신의 주도권을 확고히 한다면, verdict가 긍정적으로 변할 수 있음.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

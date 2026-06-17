@@ -1,0 +1,242 @@
+{
+  "ticker": "ABBNY",
+  "name_kr": "ABB (Asea Brown Boveri)",
+  "name_en": "ABB Ltd",
+  "industry": {
+    "name": "글로벌 산업 자동화·로보틱스·전력 인프라",
+    "overview": "ABB는 글로벌 산업 자동화·로보틱스·전력 인프라 multi-divisional leader. 본사 스위스, 시총 $197B (ADR ABBNY 기준). 주요 사업부 — Robotics (FANUC·KUKA·Yaskawa와 oligopoly), Process Automation, Motion (모터·드라이브), Electrification. 2026.05 NVIDIA 파트너십 RobotStudio HyperReality로 Sim-to-Real Gap 해결, 최대 99% 시뮬레이션 정확도, Foxconn 파일럿. 인피의 thesis '가장 구체적인 Data Factory 입증 사례' 핵심 reference.",
+    "competitors": [
+      {
+        "name": "FANUC",
+        "ticker": "6954.T",
+        "share_pct": 15,
+        "moat": "일본 산업 로봇 leader — CNC + Robot"
+      },
+      {
+        "name": "Siemens",
+        "ticker": "SIE.DE",
+        "share_pct": 18,
+        "moat": "Process Automation·Digital Twin — ABB 직접 경쟁"
+      },
+      {
+        "name": "Schneider Electric",
+        "ticker": "SU.PA",
+        "share_pct": 12,
+        "moat": "Electrification + IoT — ABB 부분 경쟁"
+      },
+      {
+        "name": "KUKA",
+        "ticker": "KU2.DE",
+        "share_pct": 8,
+        "moat": "독일 산업 로봇 — Midea 인수 후"
+      },
+      {
+        "name": "Yaskawa",
+        "ticker": "6506.T",
+        "share_pct": 10,
+        "moat": "일본 모터·드라이브 + Robot"
+      },
+      {
+        "name": "Rockwell Automation",
+        "ticker": "ROK",
+        "share_pct": 7,
+        "moat": "미국 Process Automation"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "RobotStudio HyperReality 정식 announce + NVIDIA 파트너십",
+        "impact": "+",
+        "reason": "99% Sim-to-Real 정확도 + Foxconn 파일럿"
+      },
+      {
+        "date": "2026-03",
+        "title": "GTC 2026 NVIDIA Physical AI Data Factory Blueprint 글로벌 파트너 ABB 포함",
+        "impact": "+",
+        "reason": "FANUC·KUKA·Agility·Figure·YASKAWA와 함께"
+      },
+      {
+        "date": "2026-04",
+        "title": "ABB Robotics 1Q26 매출 +12% YoY",
+        "impact": "+",
+        "reason": "산업 자동화 capex 회복 신호"
+      },
+      {
+        "date": "2026-02",
+        "title": "ABB Electrification 사업부 분사 검토",
+        "impact": "○",
+        "reason": "가치 unlock 가능성"
+      },
+      {
+        "date": "2025-10",
+        "title": "미국 노스캐롤라이나 신공장 가동",
+        "impact": "+",
+        "reason": "리쇼어링 수요 대응"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12월",
+    "currency": "USD",
+    "five_year_pnl": {
+      "headers": [
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025",
+        "FY2026E"
+      ],
+      "revenue_bn": [
+        29.4,
+        32.2,
+        32.8,
+        33.9,
+        36.5
+      ],
+      "op_income_bn": [
+        3.85,
+        4.87,
+        5.6,
+        6.1,
+        7.2
+      ],
+      "net_income_bn": [
+        2.49,
+        3.74,
+        4.0,
+        4.5,
+        5.4
+      ],
+      "op_margin_pct": [
+        13.1,
+        15.1,
+        17.1,
+        18.0,
+        19.7
+      ],
+      "net_margin_pct": [
+        8.5,
+        11.6,
+        12.2,
+        13.3,
+        14.8
+      ],
+      "source": "ABB Annual Report + 컨센서스 2026E"
+    },
+    "five_quarter_pnl": {
+      "headers": [
+        "1Q25",
+        "2Q25",
+        "3Q25",
+        "4Q25",
+        "1Q26"
+      ],
+      "revenue_bn": [
+        8.0,
+        8.5,
+        8.7,
+        8.7,
+        9.1
+      ],
+      "op_income_bn": [
+        1.4,
+        1.55,
+        1.6,
+        1.55,
+        1.75
+      ],
+      "op_margin_pct": [
+        17.5,
+        18.2,
+        18.4,
+        17.8,
+        19.2
+      ]
+    },
+    "balance_sheet_snapshot": {
+      "as_of": "1Q26",
+      "total_assets_bn": 35.5,
+      "total_liab_bn": 20.8,
+      "total_equity_bn": 14.7,
+      "cash_bn": 4.5,
+      "debt_bn": 7.2,
+      "net_debt_bn": 2.7
+    },
+    "material_variance_summary": [
+      {
+        "item": "OPM",
+        "yoy": "+1.7%p",
+        "driver": "가격 인상 + mix shift"
+      },
+      {
+        "item": "매출",
+        "yoy": "+7.7%",
+        "driver": "산업 자동화 capex 회복"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "RobotStudio HyperReality 글로벌 EMS 표준화 + Physical AI 채택. 2027E OP $9B+.",
+      "target_price": 140
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "산업 자동화 5년 supercycle + 점진적 Physical AI 채택. 2027E OP $8B.",
+      "target_price": 120
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "산업 자동화 capex 감속 + 경쟁사 점유율 잠식. 2027E OP $6.5B.",
+      "target_price": 85
+    }
+  },
+  "catalysts_risks": {
+    "near_term_catalysts": [
+      {
+        "date": "2026-Q3",
+        "event": "RobotStudio HyperReality 정식 출시",
+        "impact": "high"
+      },
+      {
+        "date": "2026-07",
+        "event": "2Q26 어닝",
+        "impact": "medium"
+      },
+      {
+        "date": "2026-Q4",
+        "event": "Electrification 사업부 분사 결정",
+        "impact": "high"
+      }
+    ],
+    "key_risks": [
+      {
+        "risk": "99% 정확도 long-tail 미달",
+        "prob": "30%",
+        "impact": "-10~15%"
+      },
+      {
+        "risk": "산업 자동화 capex 감속",
+        "prob": "25%",
+        "impact": "-15~20%"
+      },
+      {
+        "risk": "FANUC·KUKA 점유율 잠식",
+        "prob": "30%",
+        "impact": "-10%"
+      },
+      {
+        "risk": "중국 수요 약세",
+        "prob": "35%",
+        "impact": "-8%"
+      },
+      {
+        "risk": "환율 CHF·EUR 강세",
+        "prob": "30%",
+        "impact": "-5%"
+      }
+    ]
+  }
+}

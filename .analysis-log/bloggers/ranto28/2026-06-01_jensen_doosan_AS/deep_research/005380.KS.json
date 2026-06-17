@@ -1,0 +1,265 @@
+{
+  "industry": {
+    "name": "완성차·휴머노이드 로봇 (보스턴다이내믹스)",
+    "overview": "현대차는 글로벌 완성차 톱티어이자 보스턴다이내믹스(아틀라스)를 통한 피지컬 AI 플레이어다. 정의선 회장은 6/5 성수동 회동(최태원·구광모·이해진 등) 참석자로 거론된다. 아틀라스+구글 제미나이 로보틱스 결합, 2028년 연 3만 대 생산 계획이 옵션 가치다. 본업(자동차) OPM 약 6%로 안정적 현금흐름을 창출하며 휴머노이드는 그 위에 얹힌 장기 옵션이다.",
+    "competitors": [
+      {
+        "name": "Toyota",
+        "ticker": "7203.T"
+      },
+      {
+        "name": "Tesla",
+        "ticker": "TSLA"
+      },
+      {
+        "name": "기아",
+        "ticker": "000270.KS"
+      },
+      {
+        "name": "현대모비스",
+        "ticker": "012330.KS"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2022",
+        "fiscal_year": "2022",
+        "revenue": 142151469000000.0,
+        "op_income": 9824928000000.0,
+        "net_income": 7364364000000.0,
+        "op_margin": 6.91,
+        "op_margin_pct": 6.91,
+        "net_margin_pct": 5.18
+      },
+      {
+        "year": "2023",
+        "fiscal_year": "2023",
+        "revenue": 162663579000000.0,
+        "op_income": 15126901000000.0,
+        "net_income": 11961717000000.0,
+        "op_margin": 9.3,
+        "op_margin_pct": 9.3,
+        "net_margin_pct": 7.35
+      },
+      {
+        "year": "2024",
+        "fiscal_year": "2024",
+        "revenue": 175231153000000.0,
+        "op_income": 14239592000000.0,
+        "net_income": 12526691000000.0,
+        "op_margin": 8.13,
+        "op_margin_pct": 8.13,
+        "net_margin_pct": 7.15
+      },
+      {
+        "year": "2025",
+        "fiscal_year": "2025",
+        "revenue": 186254472000000.0,
+        "op_income": 11467851000000.0,
+        "net_income": 9445987000000.0,
+        "op_margin": 6.16,
+        "op_margin_pct": 6.16,
+        "net_margin_pct": 5.07
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2022",
+        "revenue": 142151469000000.0,
+        "operating_income": 9824928000000.0,
+        "net_income": 7364364000000.0,
+        "op_margin_pct": 6.91
+      },
+      {
+        "year": "2023",
+        "revenue": 162663579000000.0,
+        "operating_income": 15126901000000.0,
+        "net_income": 11961717000000.0,
+        "op_margin_pct": 9.3
+      },
+      {
+        "year": "2024",
+        "revenue": 175231153000000.0,
+        "operating_income": 14239592000000.0,
+        "net_income": 12526691000000.0,
+        "op_margin_pct": 8.13
+      },
+      {
+        "year": "2025",
+        "revenue": 186254472000000.0,
+        "operating_income": 11467851000000.0,
+        "net_income": 9445987000000.0,
+        "op_margin_pct": 6.16
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "본업 견조 + 아틀라스 양산·제미나이 결합 성공으로 휴머노이드 옵션 재평가. 저평가 완성차 멀티플 + 로봇 프리미엄 동시 확보.",
+      "key_assumptions": [
+        "자동차 마진 유지",
+        "아틀라스 상용화 온트랙",
+        "제미나이 시너지"
+      ],
+      "target_price": 870000
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "본업 안정 현금흐름 + 저평가 멀티플. 휴머노이드는 장기 옵션으로 점진 반영.",
+      "key_assumptions": [
+        "자동차 판매 견조",
+        "로봇 R&D 단계",
+        "주주환원 지속"
+      ],
+      "target_price": 730000
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "글로벌 수요 둔화·관세 + 휴머노이드 지연 시 본업·옵션 동시 약화.",
+      "key_assumptions": [
+        "완성차 수요 둔화",
+        "관세 부담",
+        "로봇 ROI 지연"
+      ],
+      "target_price": 610000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-05",
+      "event": "젠슨 황·정의선 성수동 회동",
+      "type": "event",
+      "expected_impact": "med",
+      "description": "NVIDIA-현대차 로보틱스 협력 가능성 신호"
+    },
+    {
+      "date": "2026~2027",
+      "event": "아틀라스+제미나이 진척·시연",
+      "type": "product",
+      "expected_impact": "med",
+      "description": "휴머노이드 옵션 재평가 트리거"
+    },
+    {
+      "date": "2028",
+      "event": "조지아 공장 아틀라스 투입·연 3만대",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "양산 진입 — 장기 밸류 핵심"
+    }
+  ],
+  "risks": [
+    {
+      "name": "휴머노이드 기여 제한",
+      "probability": "high",
+      "impact": "med",
+      "description": "보스턴다이내믹스 연결 매출 비중 미미 — 단기 실적 영향 작음",
+      "mitigation": "본업 현금흐름이 옵션 비용 흡수"
+    },
+    {
+      "name": "완성차 수요·관세",
+      "probability": "med",
+      "impact": "high",
+      "description": "글로벌 수요 둔화·미국 관세",
+      "mitigation": "미국 현지 생산(조지아)·전동화"
+    },
+    {
+      "name": "로봇 ROI 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "양산 단가·안전 규제로 2028 목표 지연 가능",
+      "mitigation": "단계적 도입·그룹 수직 분업"
+    },
+    {
+      "name": "내러티브 주변부",
+      "probability": "med",
+      "impact": "low",
+      "description": "두산 풀세트 내러티브에서 현대차는 주변부 — 직접 수혜 제한",
+      "mitigation": "독자 휴머노이드 로드맵"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T01",
+      "ticker_exposure": "+",
+      "claim": "젠슨 황(엔비디아 CEO)이 GTC 타이베이 2026(6/1~4) 참석 직후 6월 4일 저녁 방한하는 일정이 확정되었으며, 방한의 핵심 의제는 'AI+로봇'의 피지컬 AI다.",
+      "type": "factual",
+      "evidence": "메르 본문 + 연합뉴스 6/1 타이베이 만찬 보도. GTC 타이베이 직후 방한 일정.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T06",
+      "ticker_exposure": "+",
+      "claim": "젠슨 황이 6/1 타이베이 '코리아 파트너 나이트' 만찬에서 '한국 로보틱스가 매우 중요하다, 한국 투자를 검토하겠다, 엔비디아가 한국 로보틱스 발전에 기여하길 바란다'고 공식 발언해, 한국 로봇 산업에 대한 NVI",
+      "type": "factual",
+      "evidence": "메르 인용 + 연합뉴스 만찬 인터뷰. 다만 '검토'는 구속력 없는 의사 표명.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T07",
+      "ticker_exposure": "+",
+      "claim": "젠슨 황은 한국이 '상상력·창의력·야망은 크지만 노동 인구(손발)가 부족'하다고 진단하며, AI와 로봇이 한국의 잠재력을 극대화할 것이라고 봤다 — 한국의 구조적 로봇 수요를 시사한다.",
+      "type": "normative",
+      "evidence": "메르 인용. 한국 인구구조(고령화·생산가능인구 감소)와 정합.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T08",
+      "ticker_exposure": "++",
+      "claim": "6월 5일 성수동에서 젠슨 황과 최태원(SK)·정의선(현대차)·구광모(LG)·이해진(네이버)의 삼겹살 회동이 예정되어, 글로벌 빅테크와 한국 재벌 간 AI·로봇 협력이 가시화되고 있다.",
+      "type": "predictive",
+      "evidence": "메르 인용 기사. 만찬 초대 기업과 회동 참석자 중복.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T09",
+      "ticker_exposure": "+",
+      "claim": "두산로보틱스는 NVIDIA 피지컬 AI 밀착의 직접 당사자로서, 협동로봇·산업용 휴머노이드 수요 확대의 1차 수혜주다.",
+      "type": "predictive",
+      "evidence": "Team Zenith 1위·매디슨 황 방문·김민표 대표 만찬 참석.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T12",
+      "ticker_exposure": "-",
+      "claim": "(반대 명제) 만찬 초대·시구·삼겹살 회동·'투자 검토' 발언은 의례적 외교·홍보 이벤트일 뿐, 실질 계약·합작·투자로 직결된다는 보장이 없어 주가에 선반영된 기대가 되돌려질 위험이 있다.",
+      "type": "conditional",
+      "evidence": "메르 본문 스스로 '뇌피셜(추정)'임을 반복 명시. '검토'는 구속력 없음. 두산로보틱스 6/1→6/2 급등으로 기대 선반영.",
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-05",
+      "type": "산업",
+      "title": "성수동 삼겹살 회동(보도)",
+      "summary": "젠슨 황과 최태원·정의선·구광모·이해진 회동 보도 — 빅테크-재벌 AI·로봇 협력 가시화"
+    },
+    {
+      "date": "2026-01",
+      "type": "산업",
+      "title": "CES 2026 AI 로보틱스 미디어데이",
+      "summary": "아틀라스+구글 제미나이 파트너십, 2028년 연 3만대·조지아 공장 투입 계획"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 729000,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 매출 약 ₩186조·OPM 6%. 현 주가는 완성차 본업 가치 위주로 형성돼 휴머노이드 옵션은 거의 미반영 추정 — 아틀라스 상용화 가시화 시 옵션 가치가 추가 업사이드로 작동. 본업 수요·관세가 base 가치 핵심."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

@@ -1,0 +1,435 @@
+{
+  "ticker": "LITE",
+  "ticker_name": "루멘텀",
+  "aggregated_at": "2026-05-11T21:44:16.488377+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 3,
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.644,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "neutral (3/4)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "valuation",
+      "frequency": 13,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "michael-burry",
+        "nassim-taleb",
+        "ben-graham",
+        "bill-ackman",
+        "mohnish-pabrai",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "stanley-druckenmiller",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능"
+      ]
+    },
+    {
+      "theme": "AI capex 사이클 지속성",
+      "frequency": 13,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "cathie-wood",
+        "michael-burry",
+        "nassim-taleb",
+        "ben-graham",
+        "bill-ackman",
+        "mohnish-pabrai",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "stanley-druckenmiller",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "워런 버핏의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "narrative_vs_quant_resolution": "워런 버핏는 Quality + moat + margin of safety, long-term hold 기준으로 본 종목 평가 — verdict는 'neutral'. Transceiver business는 cyclic semi — outside circle of competence. NVIDIA equity stake $100M은 partial endorsement이나 historic margin 변동성 큼."
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "찰리 멍거의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "narrative_vs_quant_resolution": "찰리 멍거는 Mental models + quality businesses + concentrated long-term 기준으로 본 종목 평가 — verdict는 'neutral'. Cisco-era 2000s telecom equipment 종목과 mental model 비교 — bubble pattern 위험. 단 AI cycle은 telecom과 다를 수 있음."
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "피터 린치의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "narrative_vs_quant_resolution": "피터 린치는 PEG ratio + 6-bucket classification + scuttlebutt 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Cloud & DC segment 매출 +65% YoY, Forward PE 50x이나 EPS growth 100%+ → PEG 0.5 = fast grower. 단 1Y +1276% spike 후 진입 discipline 필요."
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "캐시 우드의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "narrative_vs_quant_resolution": "캐시 우드는 Disruptive innovation + 5-year price target + S-curve adoption 기준으로 본 종목 평가 — verdict는 'lean_bullish'. AI infra의 핵심 pure-play. Cloud datacenter optics 매출 비중 45%+. Disruption thesis 강력."
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "마이클 버리의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "narrative_vs_quant_resolution": "마이클 버리는 Deep value contrarian + tail risk + asymmetric short positioning 기준으로 본 종목 평가 — verdict는 'lean_bearish'. 1Y +1276% spike, Forward PE 50x, EV/Sales 10x = full bubble territory. 2026-Q2~Q3 mean reversion 가능, drawdown -50-60%."
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "나심 탈레브의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "narrative_vs_quant_resolution": "나심 탈레브는 Anti-fragility + barbell + tail risk avoidance + optionality 기준으로 본 종목 평가 — verdict는 'neutral'. Tail risk + fragility 명백 (PE 50x + concentrated NVIDIA dependence). 짧은 시간 1276% return은 'fooled by randomness' 영역. Avoidance 권고."
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "벤저민 그레이엄의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄는 Defensive investor + margin of safety + net-net + Mr. Market 기준으로 본 종목 평가 — verdict는 'lean_bearish'. PE 50x·EV/Sales 10x는 deep speculation 영역. 1Y +1276%는 historic Mr. Market over-extension 사례. Defensive investor 절대 회피."
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "빌 애크먼의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "narrative_vs_quant_resolution": "빌 애크먼는 Concentrated quality + activist catalyst + 8-10 names 기준으로 본 종목 평가 — verdict는 'neutral'. Quality는 있으나 valuation extreme. Activist position 어려움 + concentrated customer risk."
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "모니시 파브라이의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "narrative_vs_quant_resolution": "모니시 파브라이는 Cloning + spawner businesses + few-bets + cigar-butts 기준으로 본 종목 평가 — verdict는 'neutral'. Pabrai cloning: top investors 대부분 LITE 관망. Asymmetric upside가 보였던 2024년 진입점 (당시 PE 18x) 통과 — 현재 진입 어색."
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "필 피셔의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher",
+      "narrative_vs_quant_resolution": "필 피셔는 15-point scuttlebutt + R&D culture + 10x growth multi-decade 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Scuttlebutt: NeoPhotonics 인수 후 800G 시장 leadership 강화, management quality 양호. 10년 holding 관점에서 still bullish이나 entry 분산 필요."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "라케시 준준왈라의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "narrative_vs_quant_resolution": "라케시 준준왈라는 EM growth megatrends + concentrated bull positions 기준으로 본 종목 평가 — verdict는 'lean_bullish'. AI structural trend 직접 수혜. 단 EM growth 관점에서 다른 종목 대비 less differentiated."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "스탠리 드러켄밀러의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러는 Macro tailwind + concentrated + flexible directional 기준으로 본 종목 평가 — verdict는 'lean_bullish'. Macro tailwind 단기 강력 (1.6T transceiver ramp 2026 본격화). 단 단기 momentum trade 성격 — entry discipline 필수."
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] 1Y +1276% spike는 historical extreme — data anomaly 가능성 포함하여 진입 timing risk 최고",
+        "[inference] Forward PE 50x·EV/Sales 10x는 full bubble territory — 2026-Q2~Q3 mean reversion 가능",
+        "[assumption] NVIDIA equity stake 의존도 high — strategic 관계 변경 시 -40-50% drawdown 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Cloud & datacenter optics 매출 비중 25→45% 1년만에 jump",
+        "[inference] AI optics 매출의 NVIDIA Spectrum-X·Mellanox 의존도 = explicit endorsement",
+        "[assumption] 1.6T transceiver 양산 ramp (2025 H2)에서 share gain 가능"
+      ],
+      "uncertainty": "애스워드 다모다란의 핵심 불확실성: AI capex cycle 지속성 + LITE 특이 catalysts (NVIDIA stake·CPO 전환·valuation reset)",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "narrative_vs_quant_resolution": "애스워드 다모다란는 Story + numbers DCF + narrative discipline 기준으로 본 종목 평가 — verdict는 'lean_bearish'. DCF: revenue $4.5B → $8B by 2028, OPM 25%, terminal growth 4% → fair value $620, 현재 $904 → 31% overvalued. Story-narrative 충돌."
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "industry": {
+    "name": "메모리 반도체 / HBM (High-Bandwidth Memory)",
+    "overview": "HBM은 GPU와 직접 3D 적층되어 AI 추론·학습의 메모리 대역폭 병목을 해소하는 핵심 부품. 2024년 시장 규모 $14B → 2026E $35B → 2030E $100B+ (TrendForce, Gartner 컨센서스). 일반 DRAM이 commodity 다운사이클을 겪는 와중에도 HBM은 multi-year long-term contract 기반으로 가격 +30-50% 동행 상승. AI capex 사이클의 가장 직접적 leveraged play이며, 한국·대만·미국 3개국 4개 vendor(SK하이닉스·삼성·마이크론·CXMT) 과점 구조. 의교창의 핵심 thesis와 정렬: '수요가 공급을 끌어내는 시장'.",
+    "competitors": [
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS",
+        "share_pct": 53.0,
+        "moat": "HBM3E 12-Hi 단독 양산 + NVIDIA·AMD 공급 우위 + TSV·hybrid bonding know-how"
+      },
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 32.0,
+        "moat": "한국 메모리 #2 + foundry 시너지 + capex 자금력. HBM3E qualification 진행 중"
+      },
+      {
+        "name": "Micron Technology",
+        "ticker": "MU",
+        "share_pct": 12.0,
+        "moat": "미국 본토 + CHIPS Act 직접 수혜 + custom HBM3E ramp"
+      },
+      {
+        "name": "CXMT (창신반도체)",
+        "ticker": "private (CN)",
+        "share_pct": 3.0,
+        "moat": "중국 정부 보조금 + 중국 내수 시장 — 글로벌 시장 진입은 yield/IP 이슈로 제한"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-06-02",
+        "title": "최태원 회장 컴퓨텍스 발표: 5년 내 wafer 캐파 2배 확대",
+        "source": "n.news.naver.com/214/0001502847",
+        "summary": "연평균 15% capex 확대. 의교창은 '공급과잉 신호 아닌 공급 부족 대응'으로 해석",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05-15",
+        "title": "SK하이닉스 HBM3E 12-Hi NVIDIA Rubin 공급 확정",
+        "source": "Trendforce",
+        "summary": "Rubin 출시 시점인 2026 Q4-2027 Q1 수요 lock-in",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "1Q26 영업이익 ₩12.3조 (yoy +98%) — 컨센서스 +5%",
+        "source": "DART 분기보고서",
+        "summary": "HBM 매출 비중 65%, gross margin 55%대 유지",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-12",
+        "title": "용인 클러스터 1단계(M16W) 가동 — 추가 300K wpm 캐파",
+        "source": "press release",
+        "summary": "$15B 투자, 2027년까지 HBM4 양산 라인 추가",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "삼성과 HBM 표준 합의 결렬 — 독자 spec 유지",
+        "source": "Reuters",
+        "summary": "당분간 시장 점유율 방어에 유리",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "DART 사업보고서 + 분기보고서 (한국 K-IFRS, US GAAP equivalent mapping)",
+    "currency": "KRW",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 42.99,
+        "op_income": 12.41,
+        "net_income": 9.62,
+        "op_margin": 28.9,
+        "net_margin": 22.4
+      },
+      {
+        "year": 2022,
+        "revenue": 44.62,
+        "op_income": 6.81,
+        "net_income": 2.4,
+        "op_margin": 15.3,
+        "net_margin": 5.4
+      },
+      {
+        "year": 2023,
+        "revenue": 32.77,
+        "op_income": -7.73,
+        "net_income": -9.14,
+        "op_margin": -23.6,
+        "net_margin": -27.9
+      },
+      {
+        "year": 2024,
+        "revenue": 66.19,
+        "op_income": 23.47,
+        "net_income": 19.8,
+        "op_margin": 35.5,
+        "net_margin": 29.9
+      },
+      {
+        "year": 2025,
+        "revenue": 88.5,
+        "op_income": 38.2,
+        "net_income": 30.1,
+        "op_margin": 43.2,
+        "net_margin": 34.0
+      }
+    ],
+    "bs_snapshot_2025e": {
+      "total_assets_tn": 121.8,
+      "total_liab_tn": 38.2,
+      "total_equity_tn": 83.6,
+      "cash_tn": 18.5,
+      "debt_tn": 22.4,
+      "net_debt_tn": 3.9
+    },
+    "trend_narrative": "5Y 매출 CAGR +20%, 영업이익 CAGR +33%. 2023년 메모리 cycle 저점(-23.6% OPM) → 2024년 +35.5% OPM으로 dramatic turnaround. 2025E OPM 43.2%는 메모리 역사상 최고 수준 — HBM mix 상승이 cycle volatility 흡수. 자본 구조: net debt/equity 4.7% (매우 보수적), 향후 5년 capex acceleration에도 financial cushion 충분.",
+    "valuation_summary": "Forward PE 6.2× (yfinance live, 2026-06-02) — 역사적 multiple 8-12× 대비 큰 discount. 이는 HBM cycle peak 우려를 시장이 priced-in한 결과. PB 4.2× / EV/EBITDA 4.8× / Div yield 0.6%."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.4,
+      "description": "HBM4 (2026 H2 ramp) + Rubin·Blackwell Ultra 수요 lock-in + 의교창 thesis 적중 (수요 30% 성장 vs 공급 15%). FY26 영업이익 ₩50조+, FY27 ₩65조. Forward PE 7-9× 적용 시 시가총액 ₩2,500조 (현재 +35%)",
+      "key_drivers": [
+        "HBM4 양산 2026 H2 시작",
+        "Rubin GPU 출하 본격화 2026 Q4",
+        "마이크론·삼성 catch-up 지연"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "FY26 영업이익 ₩42-45조 컨센서스 hit. HBM 마진 50%대 유지. 마이크론 catch-up으로 점유율 53% → 48% 일부 약화하나 절대 매출 +25%. Forward PE 7× → 시가총액 +15-20%",
+      "key_drivers": [
+        "HBM3E 점유율 유지",
+        "삼성 HBM3E qualification 2026 Q3 통과",
+        "정상 cycle 회복"
+      ]
+    },
+    "bear": {
+      "probability": 0.2,
+      "description": "DeepSeek-type efficiency shock 2nd wave + 2027 hyperscaler capex air pocket. HBM ASP -25% / 점유율 -10%pt 동시 충격. FY27 영업이익 ₩25조로 -45% 하락. PE 12-15× 적용 (de-rate stop), 시가총액 -30-40%",
+      "key_drivers": [
+        "AI capex digestion 2027",
+        "마이크론 HBM4 빠른 ramp",
+        "중국 CXMT 12-Hi 양산 진입"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-02",
+      "name": "최태원 5년 캐파 2배 발표 (today)",
+      "impact": "high",
+      "description": "Computex 발표 — capex commitment 신호"
+    },
+    {
+      "date": "2026-07-25",
+      "name": "2Q26 실적 발표",
+      "impact": "high",
+      "description": "HBM3E 12-Hi 매출 비중 확인 + FY26 가이던스 갱신"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "HBM4 sample shipment 시작",
+      "impact": "high",
+      "description": "NVIDIA Rubin 공급 확정 — 2027 매출 visibility"
+    },
+    {
+      "date": "2026-10-25",
+      "name": "3Q26 실적 + 용인 1단계 가동 update",
+      "impact": "medium",
+      "description": "신규 fab ramp 진행 상황"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex air pocket (2027)",
+      "probability": "medium",
+      "impact": "high",
+      "description": "Hyperscaler 합산 capex가 2027년 -10-20% 감소 시 HBM 수요 동반 둔화"
+    },
+    {
+      "name": "삼성·마이크론 HBM4 catch-up 가속화",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "2026 H2-2027 H1 점유율 53% → 45%로 약화 가능"
+    },
+    {
+      "name": "DeepSeek-type 효율화 2nd wave",
+      "probability": "low-medium",
+      "impact": "high",
+      "description": "Inference compute -30-50% 효율화 시 demand growth 둔화"
+    },
+    {
+      "name": "중국 CXMT 단가 dumping 진입",
+      "probability": "low",
+      "impact": "medium",
+      "description": "2027 이후 commodity HBM 진입 시 가격 압박"
+    },
+    {
+      "name": "한국 K-반도체 정책 변경 (정권교체)",
+      "probability": "low",
+      "impact": "medium",
+      "description": "K-Chips Act 축소 시 capex 회수 기간 연장"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T02",
+      "claim": "AI 공급 부족이 본질",
+      "current_status": "confirmed",
+      "evidence": "HBM lead time 18M / NVIDIA backlog $50B+"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "CoWoS·HBM·전력 3대 병목",
+      "current_status": "confirmed",
+      "evidence": "TSMC + SK하이닉스 + Vistra 모두 'still capacity-constrained' 공식 발표"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "SK하이닉스 5년 2배 = 부족 대응",
+      "current_status": "confirmed",
+      "evidence": "2026-06-02 발표 직후 주가 +5% — 시장 동의"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "HBM 캐파 1.5-2년마다 신규 fab 필요",
+      "current_status": "confirmed",
+      "evidence": "M15X·M16·Yongin P1·P2 — 14-16M cadence 입증"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "수요 20-30% vs 공급 15% — supercycle 지속",
+      "current_status": "pending",
+      "evidence": "2026 H2-2027 H1 hyperscaler capex 가이던스 확인 필요"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-28",
+      "type": "분기보고서",
+      "summary": "1Q26 영업이익 ₩12.3조 — HBM 매출 비중 65%, 마진 55%",
+      "title": "1Q26 영업이익 ₩12.3조 — HBM 매출 비중 65%, 마진 55%"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "사업보고서 (FY25)",
+      "summary": "FY25 매출 ₩88.5조, 영업이익 ₩38.2조 — 사상 최대 실적",
+      "title": "FY25 매출 ₩88.5조, 영업이익 ₩38.2조 — 사상 최대 실적"
+    },
+    {
+      "date": "2026-02-20",
+      "type": "주요사항보고서",
+      "summary": "용인 반도체 클러스터 $15B 투자 결의",
+      "title": "용인 반도체 클러스터 $15B 투자 결의"
+    }
+  ]
+}

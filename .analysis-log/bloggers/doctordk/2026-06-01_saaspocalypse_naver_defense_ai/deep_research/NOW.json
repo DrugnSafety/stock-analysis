@@ -1,0 +1,258 @@
+{
+  "industry": {
+    "name": "엔터프라이즈 워크플로 SaaS (AI 재플랫폼화)",
+    "overview": "ServiceNow는 ITSM·HR·CX 등 엔터프라이즈 워크플로 자동화 1위 플랫폼. SaaSpocalypse(per-seat 잠식) 국면에서 'outcome-based pricing'(작업 성공 단위 과금)으로 신속 전환해 폭풍을 가장 잘 견딘 회복 리더로 지목됨. Now Assist(생성형 AI)로 좌석당 매출 위협을 결과당 매출 기회로 전환 시도. 단위: $M.",
+    "competitors": [
+      {
+        "name": "ServiceNow",
+        "ticker": "NOW",
+        "share_pct": null,
+        "moat": "엔터프라이즈 워크플로 single-platform 해자 + outcome pricing 선제 전환"
+      },
+      {
+        "name": "Salesforce",
+        "ticker": "CRM",
+        "share_pct": null,
+        "moat": "CRM 1위 + Agentforce, 단 per-seat 노출 큼"
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "share_pct": null,
+        "moat": "Power Platform+Copilot 워크플로 자동화 경쟁"
+      },
+      {
+        "name": "Atlassian",
+        "ticker": "TEAM",
+        "share_pct": null,
+        "moat": "개발자 협업 — SaaSpocalypse 패자(seat 첫 감소 -35%)"
+      },
+      {
+        "name": "Palantir",
+        "ticker": "PLTR",
+        "share_pct": null,
+        "moat": "데이터 OS — 인접 AI 통합 경쟁"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "ServiceNow·Oracle, SaaSpocalypse 반등 주도",
+        "source": "FinancialContent",
+        "summary": "NOW는 outcome-based pricing으로 per-seat 위협 우회 — 회복 리더"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "Now Assist(생성형 AI) ARR 가속",
+        "source": "실적",
+        "summary": "AI 부가 모듈 채택으로 결과당 과금 모델 검증"
+      },
+      {
+        "date": "2026-05-28",
+        "title": "소프트웨어 랠리 재점화",
+        "source": "CNBC",
+        "summary": "섹터 매수세 회귀에 NOW 동반 강세"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "2025 매출 $13.28B(+21% YoY), 영업익 $1.82B",
+        "source": "실적",
+        "summary": "고성장+마진 개선 동반"
+      },
+      {
+        "date": "2026-06-01",
+        "title": "의교창: 서비스나우 추세 전환",
+        "source": "blog.naver.com/doctordk",
+        "summary": "SaaS 회복 리더 3인방으로 거명"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 120.0,
+      "cagr_pct": 17.0,
+      "horizon": "엔터프라이즈 워크플로+AI 자동화 2026→2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 7245,
+        "op_income": 355,
+        "net_income": 325,
+        "op_margin": 4.9,
+        "net_margin": 4.5
+      },
+      {
+        "year": 2023,
+        "revenue": 8971,
+        "op_income": 762,
+        "net_income": 1731,
+        "op_margin": 8.5,
+        "net_margin": 19.3
+      },
+      {
+        "year": 2024,
+        "revenue": 10984,
+        "op_income": 1364,
+        "net_income": 1425,
+        "op_margin": 12.4,
+        "net_margin": 13.0
+      },
+      {
+        "year": 2025,
+        "revenue": 13278,
+        "op_income": 1824,
+        "net_income": 1748,
+        "op_margin": 13.7,
+        "net_margin": 13.2
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 21000,
+      "total_liab": 11000,
+      "equity": 10000,
+      "cash": 9000,
+      "debt": 1500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 3200,
+      "fcf_5y_avg": 2800,
+      "capex_intensity": 0.03
+    },
+    "peer_compare": [
+      {
+        "ticker": "NOW",
+        "name": "ServiceNow",
+        "pe": 75.4,
+        "pb": 11.1,
+        "roe": 15.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "CRM",
+        "name": "Salesforce",
+        "pe": 23.0,
+        "pb": 4.7,
+        "roe": 12.0,
+        "div_yield": 0.6
+      },
+      {
+        "ticker": "ORCL",
+        "name": "Oracle",
+        "pe": 43.6,
+        "pb": 20.8,
+        "roe": 40.0,
+        "div_yield": 0.9
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 200.0,
+      "thesis": "Now Assist outcome pricing이 좌석 잠식을 매출 상향으로 역전, NRR 130%+ 유지하며 SaaS 회복 대장으로 재평가.",
+      "key_assumptions": [
+        "AI 모듈 부착률 고공",
+        "outcome pricing 매출 확장",
+        "멀티플 회복"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 150.0,
+      "thesis": "매출 +20% 고성장·마진 개선 지속, AI 전환 순항하나 멀티플은 점진 정상화.",
+      "key_assumptions": [
+        "매출 +18~20%",
+        "FCF 마진 개선",
+        "fwd PE 25 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 95.0,
+      "thesis": "outcome pricing 전환 매출 인식 노이즈 + AI 에이전트 좌석 잠식이 워크플로 SaaS에도 확산.",
+      "key_assumptions": [
+        "seat 성장 둔화",
+        "전환 마찰",
+        "멀티플 압축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "분기 실적 — Now Assist ARR·NRR·cRPO",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "AI 재플랫폼화 성공의 정량 확인"
+    },
+    {
+      "date": "2026-H2",
+      "event": "outcome-based pricing 전사 확대",
+      "type": "product",
+      "expected_impact": "med",
+      "description": "per-seat 위협 우회 모델 검증"
+    },
+    {
+      "date": "2026-H2",
+      "event": "엔터프라이즈 IT 예산 회복",
+      "type": "macro",
+      "expected_impact": "med",
+      "description": "수요 환경 — 신규 모듈 채택"
+    }
+  ],
+  "risks": [
+    {
+      "name": "높은 밸류에이션(fwd PE 25, PB 11)",
+      "probability": "med",
+      "impact": "med",
+      "description": "고성장 프리미엄 — 성장 둔화 시 디레이팅",
+      "mitigation": "매출+마진 동반 개선이 방어"
+    },
+    {
+      "name": "outcome pricing 전환 매출 노이즈",
+      "probability": "med",
+      "impact": "med",
+      "description": "가격모델 전환 초기 인식·예측가능성 변동",
+      "mitigation": "단계적 전환·기존 계약 백로그"
+    },
+    {
+      "name": "AI 에이전트의 워크플로 잠식",
+      "probability": "med",
+      "impact": "high",
+      "description": "좌석 기반 매출 일부 잠식 가능",
+      "mitigation": "Now Assist 자체 에이전트화로 흡수"
+    },
+    {
+      "name": "매크로 IT 예산 둔화",
+      "probability": "low",
+      "impact": "med",
+      "description": "경기 둔화 시 신규 모듈 지연",
+      "mitigation": "미션크리티컬 ITSM 점착성"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "ServiceNow는 SaaSpocalypse 회복 리더다",
+      "type": "factual",
+      "evidence": "FinancialContent: outcome pricing 전환으로 폭풍 견딤",
+      "testability": "med",
+      "current_status": "지지"
+    },
+    {
+      "claim": "AI 재플랫폼화(Now Assist)가 좌석 잠식을 상쇄한다",
+      "type": "predictive",
+      "evidence": "ARR 가속 보도",
+      "testability": "high",
+      "current_status": "부분 지지 — NRR 확인 필요"
+    },
+    {
+      "claim": "고성장이 fwd PE 25를 정당화한다",
+      "type": "predictive",
+      "evidence": "매출 +21%·영업익 급증",
+      "testability": "high",
+      "current_status": "지지"
+    }
+  ],
+  "korean_disclosures": []
+}

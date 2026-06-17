@@ -1,0 +1,170 @@
+{
+  "ticker": "TXN",
+  "company_kr": "텍사스 인스트루먼츠",
+  "company_en": "Texas Instruments",
+  "exchange": "NASDAQ",
+  "as_of_date": "2026-06-11",
+  "industry": {
+    "name": "Power Semiconductor (전력 반도체)",
+    "name_kr": "전력 반도체 / 800V DC 데이터센터",
+    "overview": "세계 최대 아날로그·임베디드 반도체. 650V GaN 공동 1위(나비타스와)로 안전 통합 보유. 자체 300mm fab 대규모 투자. 전력반도체는 거대 포트폴리오의 일부.",
+    "competitors": [
+      {
+        "name": "Navitas",
+        "ticker": "NVTS",
+        "share_pct": null,
+        "moat": "GaN 순수·GaN Safe"
+      },
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": null,
+        "moat": "전력 1위"
+      },
+      {
+        "name": "Analog Devices",
+        "ticker": "ADI",
+        "share_pct": null,
+        "moat": "아날로그 경쟁"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "AI 데이터센터 800V DC 전환(2027H2 변곡점)으로 전력반도체 TAM 구조적 확대. 1층 고전압 SiC/2층 800V GaN·SiC/3~4층 대전류 PMIC 층별 분화."
+    },
+    "ai_infrastructure_context": "데이터센터 전력밀도 폭증·전력망 무효전력 문제·SST(고체변압기) 도입이 전력반도체 희소성을 견인.",
+    "news": []
+  },
+  "financials": {
+    "currency": "USD",
+    "unit": "USD M",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, USD M)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": null,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": null,
+        "net_margin": null
+      },
+      {
+        "year": 2022,
+        "revenue": 20028.0,
+        "op_income": 10397.0,
+        "op_margin": 51.9,
+        "net_income": 8749.0,
+        "net_margin": 43.7
+      },
+      {
+        "year": 2023,
+        "revenue": 17519.0,
+        "op_income": 7331.0,
+        "op_margin": 41.8,
+        "net_income": 6510.0,
+        "net_margin": 37.2
+      },
+      {
+        "year": 2024,
+        "revenue": 15641.0,
+        "op_income": 5341.0,
+        "op_margin": 34.1,
+        "net_income": 4799.0,
+        "net_margin": 30.7
+      },
+      {
+        "year": 2025,
+        "revenue": 17682.0,
+        "op_income": 6140.0,
+        "op_margin": 34.7,
+        "net_income": 5001.0,
+        "net_margin": 28.3
+      }
+    ],
+    "trajectory_summary": "",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 340,
+      "thesis": "아날로그 사이클 회복+GaN 데이터센터 채택+300mm 원가우위",
+      "key_assumptions": [
+        "산업·자동차 회복",
+        "GaN 매출 기여 확대"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 294,
+      "thesis": "안정 캐시카우·완만 회복",
+      "key_assumptions": [
+        "배당·자사주 지속",
+        "capex 부담 점진 완화"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 240,
+      "thesis": "capex 과중+사이클 약세+밸류 부담",
+      "key_assumptions": [
+        "fwd PE 31 부담",
+        "FCF 압박"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "분기 실적·capex 가이던스",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "아날로그 사이클 바닥·FCF 회복"
+    },
+    {
+      "date": "2027-H2",
+      "event": "800V DC GaN 채택",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "650V GaN 공동1위 수혜(비핵심이라 기여 제한)"
+    }
+  ],
+  "risks": [
+    {
+      "name": "capex 과중·FCF 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "대규모 300mm fab 투자로 FCF 둔화",
+      "mitigation": "원가우위·칩스법 보조금"
+    },
+    {
+      "name": "GaN 비핵심",
+      "probability": "med",
+      "impact": "low",
+      "description": "전력반도체 thesis 레버리지 제한적",
+      "mitigation": "다각화가 방어"
+    },
+    {
+      "name": "밸류 부담",
+      "probability": "low",
+      "impact": "med",
+      "description": "fwd PE 31",
+      "mitigation": "배당·바이백"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-11",
+    "sources": [
+      "dhgusdnd44 블로그 1~3편",
+      "yfinance",
+      "SEC EDGAR",
+      "ITC ruling 2026-05"
+    ]
+  }
+}

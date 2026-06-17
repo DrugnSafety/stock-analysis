@@ -1,0 +1,186 @@
+{
+  "industry": {
+    "name": "희토류 자석 제조 (Round Top + Stillwater)",
+    "overview": "USA Rare Earth는 미국 내에서 희토류 자석을 제조하는 기업으로, Round Top과 Stillwater 프로젝트를 통해 희토류 원소를 추출 및 가공하고 있음. 중국의 희토류 수출 통제와 글로벌 공급망의 불확실성 속에서 미국 내 자급자족을 목표로 하며, 특히 NdPr(네오디뮴-프라세오디뮴) 자석의 수요 증가에 맞춰 사업을 확장하고 있음. 이 회사는 환경 친화적인 방식으로 희토류를 생산하여 지속 가능한 발전을 추구하고 있음.",
+    "competitors": [
+      {
+        "name": "Lynas Rare Earths",
+        "ticker": "LYC.AX",
+        "share_pct": 25.0,
+        "moat": "강력한 자원 보유 및 정제 시설"
+      },
+      {
+        "name": "MP Materials",
+        "ticker": "MP",
+        "share_pct": 20.0,
+        "moat": "미국 내 최대 희토류 생산업체"
+      },
+      {
+        "name": "Neo Performance Materials",
+        "ticker": "NEO",
+        "share_pct": 15.0,
+        "moat": "고급 정제 기술 보유"
+      },
+      {
+        "name": "Rare Element Resources",
+        "ticker": "REEMF",
+        "share_pct": 10.0,
+        "moat": "특화된 희토류 자원 개발"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 5.0,
+      "cagr_pct": 12.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 15.0,
+      "thesis": "중국의 희토류 수출 통제로 인해 미국 내 희토류 자원의 수요가 급증하며 가격 상승.",
+      "key_assumptions": [
+        "중국의 수출 통제가 지속됨",
+        "미국 정부의 지원 강화",
+        "글로벌 전기차 수요 증가"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 10.0,
+      "thesis": "현재 시장 상황 유지, 미국 내 수요 증가에 따른 안정적인 성장.",
+      "key_assumptions": [
+        "희토류 가격 안정",
+        "경쟁업체와의 시장 점유율 경쟁",
+        "정책적 지원 지속"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 5.0,
+      "thesis": "희토류 가격 하락 및 경쟁 심화로 인한 수익성 감소.",
+      "key_assumptions": [
+        "중국의 수출 제한 해제",
+        "신규 경쟁업체의 진입",
+        "소비자 수요 감소"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-04",
+      "event": "중국 대일 희토류 수출 통제 강화",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "중국의 수출 통제로 인해 미국 내 희토류 자원의 수요가 증가할 것으로 예상."
+    },
+    {
+      "date": "2026-11-10",
+      "event": "미중 유예 종료",
+      "type": "policy",
+      "expected_impact": "-",
+      "description": "미중 무역 긴장이 완화될 경우 희토류 가격이 하락할 가능성."
+    },
+    {
+      "date": "2025-10",
+      "event": "12개 원소 수출 통제 발표",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "희토류 자원의 공급망에 큰 영향을 미칠 것으로 예상."
+    },
+    {
+      "date": "2026-01",
+      "event": "MP DoD 가격 기준 설정",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "가격 기준 설정으로 인해 가격 안정성이 높아질 가능성."
+    },
+    {
+      "date": "2025-12",
+      "event": "Lynas Mt Weld 매출 발표",
+      "type": "company",
+      "expected_impact": "0",
+      "description": "경쟁사의 매출 발표가 시장에 미치는 영향."
+    }
+  ],
+  "risks": [
+    {
+      "name": "중국의 희토류 정책 변화",
+      "probability": "high",
+      "impact": "high",
+      "description": "중국의 수출 정책 변화가 시장에 미치는 영향.",
+      "mitigation": "다양한 공급망 구축 및 대체 자원 개발."
+    },
+    {
+      "name": "경쟁 심화",
+      "probability": "med",
+      "impact": "med",
+      "description": "신규 경쟁업체의 진입으로 인한 시장 점유율 감소.",
+      "mitigation": "기술 혁신 및 고객 관계 강화."
+    },
+    {
+      "name": "소비자 수요 감소",
+      "probability": "low",
+      "impact": "high",
+      "description": "전 세계 경제 둔화로 인한 소비자 수요 감소.",
+      "mitigation": "다양한 시장으로의 진출."
+    },
+    {
+      "name": "환경 규제 강화",
+      "probability": "med",
+      "impact": "med",
+      "description": "환경 규제가 강화될 경우 생산 비용 증가.",
+      "mitigation": "친환경 기술 개발 투자."
+    },
+    {
+      "name": "환율 변동",
+      "probability": "med",
+      "impact": "med",
+      "description": "환율 변동으로 인한 수익성 변화.",
+      "mitigation": "환 헤지 전략 수립."
+    }
+  ],
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.0,
+        "op_income": -0.024,
+        "op_margin": null,
+        "net_income": -0.024,
+        "net_margin": null
+      },
+      {
+        "year": 2023,
+        "revenue": 0.0,
+        "op_income": -0.025,
+        "op_margin": null,
+        "net_income": -0.007,
+        "net_margin": null
+      },
+      {
+        "year": 2024,
+        "revenue": 0.0,
+        "op_income": -0.016,
+        "op_margin": null,
+        "net_income": -0.016,
+        "net_margin": null
+      },
+      {
+        "year": 2025,
+        "revenue": 0.002,
+        "op_income": -0.06,
+        "op_margin": -3621.6,
+        "net_income": -0.298,
+        "net_margin": -18110.7
+      }
+    ],
+    "bs_snapshot": {
+      "note": "yfinance 기반 — 상세 BS는 DART/SEC 참조"
+    },
+    "cf_summary": {
+      "note": "FCF/OCF는 사업보고서 참조"
+    },
+    "peer_compare": []
+  }
+}

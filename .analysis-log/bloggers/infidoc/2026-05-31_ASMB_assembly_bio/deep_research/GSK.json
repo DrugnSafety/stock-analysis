@@ -1,0 +1,182 @@
+{
+  "industry": {
+    "name": "글로벌 제약 (백신·HIV/HBV 항바이러스·간질환·호흡기)",
+    "overview": "GSK plc는 백신·HIV(ViiV)·호흡기 중심 대형 제약사로, HBV·간질환 파이프라인을 보유한다. linerixibat(IBAT 억제제)은 PBC 소양증 Phase 3(GLISTEN)에서 ASMB ABI-6250의 PBC 적응증과 경쟁한다. 메가캡 안정성(배당 yield ~3.6%, PE ~13x) 위에 간질환 옵션을 더한 프로파일로, ASMB thesis 대비 저변동·저성장 비교군이다.",
+    "competitors": [
+      {
+        "name": "Gilead (간질환·항바이러스 빅파마)",
+        "ticker": "GILD"
+      },
+      {
+        "name": "Mirum (담즙정체)",
+        "ticker": "MIRM"
+      },
+      {
+        "name": "Assembly Bio (HBV·간질환)",
+        "ticker": "ASMB"
+      },
+      {
+        "name": "Vir Bio (HDV)",
+        "ticker": "VIR"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026",
+        "title": "linerixibat PBC 소양증 Phase 3(GLISTEN) 진행",
+        "summary": "영향: 중립",
+        "source": "SEC/IR/뉴스"
+      },
+      {
+        "date": "2026",
+        "title": "백신·HIV 매출 견조, 배당 유지",
+        "summary": "영향: 긍정적",
+        "source": "SEC/IR/뉴스"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 32.7,
+      "cagr_pct": 4.0,
+      "horizon": "2025 매출 기준 (£→$ 환산 근사)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2022",
+        "revenue": 29.324,
+        "op_income": 6.729,
+        "op_margin": 22.9,
+        "net_income": 14.956,
+        "net_margin": 51.0
+      },
+      {
+        "year": "2023",
+        "revenue": 30.328,
+        "op_income": 7.345,
+        "op_margin": 24.2,
+        "net_income": 4.928,
+        "net_margin": 16.2
+      },
+      {
+        "year": "2024",
+        "revenue": 31.376,
+        "op_income": 5.542,
+        "op_margin": 17.7,
+        "net_income": 2.575,
+        "net_margin": 8.2
+      },
+      {
+        "year": "2025",
+        "revenue": 32.667,
+        "op_income": 8.338,
+        "op_margin": 25.5,
+        "net_income": 5.716,
+        "net_margin": 17.5
+      }
+    ],
+    "peer_compare": [
+      {
+        "ticker": "GSK",
+        "name": "GSK plc",
+        "pe": 13.265092,
+        "pb": 4.2292185,
+        "roe": 40.905997,
+        "div_yield": 3.57
+      },
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "pe": 18.289795,
+        "pb": 7.1003003,
+        "roe": 43.36,
+        "div_yield": 2.44
+      },
+      {
+        "ticker": "MIRM",
+        "name": "Mirum Pharmaceuticals",
+        "pe": -181.89963,
+        "pb": 25.502512,
+        "roe": -335.82401000000004,
+        "div_yield": null
+      },
+      {
+        "ticker": "VIR",
+        "name": "Vir Biotechnology",
+        "pe": -4.146474,
+        "pb": 1.738655,
+        "roe": -47.692,
+        "div_yield": null
+      }
+    ],
+    "financial_unit": {
+      "currency": "USD",
+      "scale": "B"
+    },
+    "bs_snapshot": {
+      "cash": 3.443,
+      "debt": 19.112,
+      "total_assets": 80.0,
+      "total_liab": 55.0,
+      "equity": 25.0
+    },
+    "cf_summary": {
+      "note": "안정적 현금흐름·배당(yield ~3.6%) — 저변동 대형주, 간질환은 옵션적 upside"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "thesis": "백신·HIV 견조 + linerixibat PBC 승인·신약 모멘텀",
+      "key_assumptions": [
+        "파이프라인 승인",
+        "소송 리스크 해소"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "thesis": "안정 배당·저성장 — 방어적 보유 성격",
+      "key_assumptions": [
+        "매출 4% 내외",
+        "배당 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "Zantac 등 소송·약가 압박·파이프라인 실망",
+      "key_assumptions": [
+        "소송 비용",
+        "정책 압박"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026~27",
+      "event": "linerixibat PBC Phase 3 결과",
+      "expected_impact": "med"
+    },
+    {
+      "date": "지속",
+      "event": "분기 실적·배당",
+      "expected_impact": "low"
+    }
+  ],
+  "risks": [
+    {
+      "name": "약가·정책·소송(Zantac 등) 압박",
+      "probability": "med",
+      "impact": "med"
+    },
+    {
+      "name": "저성장 — ASMB thesis와 무관한 비교군 성격",
+      "probability": "high",
+      "impact": "low"
+    },
+    {
+      "name": "파이프라인 실망 가능성",
+      "probability": "med",
+      "impact": "med"
+    }
+  ]
+}

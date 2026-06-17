@@ -1,0 +1,257 @@
+{
+  "ticker": "8766.T",
+  "name_kr": "도쿄 마린 홀딩스",
+  "name_en": "Tokio Marine Holdings",
+  "industry": {
+    "name": "일본 금융 산업 (메가뱅크 + 보험 + 다각화 금융)",
+    "overview": "일본 금융 산업은 2024-2025년 BOJ 정상화 사이클의 직접 수혜자. 8년간의 마이너스 금리 환경에서 평균 ROE 5-7%로 압박받았으나, 2024년 3월 +7월 BOJ 인상 후 NIM 회복 시작. 산업 규모: 메가뱅크 3사 총자산 ¥1,000조+ (일본 GDP 대비 180%), 보험 시장 ¥45조 (P&C ¥10조 + 생보 ¥35조), 다각화 금융 ¥30조. 메르의 글은 BOJ 6월 16일 인상 가능성을 강조 — 일본 금융 정상화 cycle의 2nd-half catalyst.",
+    "market_size": {
+      "current_usd_bn": 850.0,
+      "cagr_pct": 6.5,
+      "horizon": "2024-2030"
+    },
+    "competitors": [
+      {
+        "name": "MUFG",
+        "ticker": "8306.T",
+        "share_pct": 25.0,
+        "moat": "일본 #1 메가뱅크, Morgan Stanley 21% 지분, 글로벌 wholesale lending"
+      },
+      {
+        "name": "SMFG",
+        "ticker": "8316.T",
+        "share_pct": 22.0,
+        "moat": "효율 NIM 1.21% (3사 최고), 아세안 사업 집중"
+      },
+      {
+        "name": "Mizuho",
+        "ticker": "8411.T",
+        "share_pct": 18.0,
+        "moat": "디지털 전환 가속, 회복 잠재력 큼"
+      },
+      {
+        "name": "Tokio Marine",
+        "ticker": "8766.T",
+        "share_pct": 28.0,
+        "moat": "P&C 글로벌 다각화 (북미 60%), Berkshire-style float"
+      },
+      {
+        "name": "ORIX",
+        "ticker": "8591.T",
+        "share_pct": 10.0,
+        "moat": "9개 segment 다각화, 항공·리스·생보·자산운용"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-13",
+        "title": "메르 — '일본은행 6월 16일 금리 인상 가능성 매우 높음'",
+        "source": "메르 블로그 (ranto28)",
+        "summary": "베센트 방일 + FX 개입 + 4월 dissent로 일본 금융 정상화 thesis."
+      },
+      {
+        "date": "2026-05-12",
+        "title": "BOJ 4월 의사록 — '다음 회의부터 인상 충분히 가능' 발언",
+        "source": "BOJ 의사록",
+        "summary": "9명 중 3명 인상 표결, hawkish shift 명확"
+      },
+      {
+        "date": "2026-05-11",
+        "title": "베센트 미 재무장관 도쿄 방문 (5/11-13)",
+        "source": "Reuters",
+        "summary": "카타야마 재무상 면담 + 외환 정책 협의"
+      },
+      {
+        "date": "2026-05-06",
+        "title": "일본 재무성 2차 외환 개입 ¥4.68조",
+        "source": "재무성",
+        "summary": "4월 30일 ¥5.48조 이어서 추가 개입"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "일본 재무성 1차 외환 개입 ¥5.48조 — 2024년 7월 이후 최대",
+        "source": "재무성",
+        "summary": "엔 매수·달러 매도로 USD/JPY 3% 상승"
+      }
+    ]
+  },
+  "specific_thesis": "일본 P&C #1 + 글로벌 다각화 (북미 60% 매출). 보유 자산 ¥30조 중 JGB ¥12조 — 정상화 시 재투자 수익률 상승. Berkshire-style float economics. 글로벌 M&A active (HCC·Pure Inc).",
+  "valuation": {
+    "forward_pe": 13.2,
+    "pb": 1.65,
+    "div_yield_pct": 3.0,
+    "roe_pct": 11.5
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 9200,
+      "thesis": "JGB 재투자 +80bp, 북미 사업 +18%. 글로벌 P&C 사이클 hard 지속. EPS +18%.",
+      "key_assumptions": [
+        "JGB +80bp",
+        "북미 +18%",
+        "P&C 사이클 hard"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 8500,
+      "thesis": "JGB 재투자 +50bp, 북미 +12%. EPS +10%.",
+      "key_assumptions": [
+        "JGB +50bp",
+        "북미 +12%",
+        "EPS +10%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 6300,
+      "thesis": "엔 강세 환산 부담 -¥3000억 + 자연재해 발생. EPS +3%.",
+      "key_assumptions": [
+        "엔 강세 환산 -¥3000억",
+        "재해 발생",
+        "EPS +3%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-16",
+      "event": "BOJ 통화정책회의 — JGB 수익률 영향",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "JGB 재투자 +50-80bp 즉시 영향"
+    },
+    {
+      "date": "2026-05-22",
+      "event": "Tokio Marine 2026 1Q 결산",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "북미·아시아 사업 +12%"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "글로벌 재보험 가격 사이클 update",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "Hard cycle 지속 시 P&C 마진 확대"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "북미 M&A 추가 검토 (Pure Inc 이후)",
+      "type": "M&A",
+      "expected_impact": "+",
+      "description": "글로벌 다각화 가속"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "JGB 보유 ¥12조 재투자 완료",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "운용 수익 +¥2000억 1년차"
+    }
+  ],
+  "risks": [
+    {
+      "name": "엔 강세 환산 부담 (북미 60% 매출)",
+      "probability": "high",
+      "impact": "med",
+      "description": "USD/JPY -6엔 시 -¥2000-3000억",
+      "mitigation": "글로벌 다각화 + 일부 헤지"
+    },
+    {
+      "name": "일본 자연재해 (지진·태풍)",
+      "probability": "med",
+      "impact": "high",
+      "description": "손해율 70%+ 시 EPS 압박",
+      "mitigation": "재보험 + 충당금"
+    },
+    {
+      "name": "글로벌 재보험 가격 정점",
+      "probability": "med",
+      "impact": "med",
+      "description": "Hard cycle 후 soft turn",
+      "mitigation": "Cycle 단계 모니터링"
+    },
+    {
+      "name": "M&A integration risk",
+      "probability": "low",
+      "impact": "med",
+      "description": "Pure Inc·HCC 통합 risk",
+      "mitigation": "실적 추적"
+    },
+    {
+      "name": "PB 1.65x premium",
+      "probability": "med",
+      "impact": "low",
+      "description": "메가뱅크 대비 비싸",
+      "mitigation": "ROE 11.5% 정당화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "BOJ 6월 인상 가능성 매우 높음 (메르 핵심 thesis)",
+      "type": "policy",
+      "evidence": "4월 의사록 3/9 dissent + 5/12 발언",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "FX 개입 지속불가능 + 미국 반발",
+      "type": "macro",
+      "evidence": "FEFSA $1.0T 한계 + 베센트 방일",
+      "testability": "medium",
+      "current_status": "developing"
+    },
+    {
+      "claim": "H2 엔 강세 (USD/JPY 145-150)",
+      "type": "macro",
+      "evidence": "미일 금리차 축소 + 캐리 unwind",
+      "testability": "medium",
+      "current_status": "developing"
+    },
+    {
+      "claim": "BOJ 인상 → 메가뱅크 NIM 직접 수혜",
+      "type": "fundamental",
+      "evidence": "Q1 NIM +6-8bp, 25bp 인상 시 NII +¥800-1000억",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "엔 강세 → 일본 수출주 부담 (자동차·반도체장비)",
+      "type": "industry",
+      "evidence": "Toyota FX sensitivity ¥450억/1엔",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "엔 강세 → 한국 수출 경합주 수혜 (간접)",
+      "type": "industry",
+      "evidence": "원/엔 환율 + 시장점유율 변화",
+      "testability": "medium",
+      "current_status": "speculative"
+    },
+    {
+      "claim": "일본 UST 매각 → 10Y 금리 상승",
+      "type": "macro",
+      "evidence": "TIC -$130B + 10Y +10bp",
+      "testability": "low",
+      "current_status": "developing"
+    },
+    {
+      "claim": "캐리 unwind / risk-off",
+      "type": "risk",
+      "evidence": "2024-08-05 패닉 사례 + CFTC -¥120K",
+      "testability": "low",
+      "current_status": "tail_risk"
+    },
+    {
+      "claim": "베센트-카타야마 implicit deal",
+      "type": "diplomatic",
+      "evidence": "베센트 방일 + 카타야마 발언",
+      "testability": "low",
+      "current_status": "speculative"
+    }
+  ],
+  "korean_disclosures": []
+}

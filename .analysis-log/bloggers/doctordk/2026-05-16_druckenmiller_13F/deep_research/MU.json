@@ -1,0 +1,286 @@
+{
+  "industry": {
+    "name": "메모리 반도체 (DRAM·NAND·HBM)",
+    "overview": "AI 추론 시장 본격화로 HBM(High Bandwidth Memory) 수요가 폭발 — 시장 규모 2024 $14B → 2026 컨센서스 $70B+. SK하이닉스(50%+) + 삼성전자(30%) + 마이크론(20%) 3개 IDM이 글로벌 HBM 시장 분점. 마이크론은 HBM3E 12-layer 양산(2025 4Q) + HBM4 sampling(2026 1Q 시작)으로 NVDA Blackwell·Rubin qualification 통과. DRAM·NAND 사이클도 2024 저점 → 2026 회복 진행.",
+    "competitors": [
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 35.0,
+        "moat": "HBM3E 50%+ 점유 + 첨단 패키징"
+      },
+      {
+        "name": "Samsung",
+        "ticker": "005930.KS",
+        "share_pct": 40.0,
+        "moat": "DRAM·NAND·HBM 통합 + capacity 1위"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 22.0,
+        "moat": "HBM3E 12-layer 양산 + HBM4 sampling + 미국 본사 정책 친화"
+      },
+      {
+        "name": "Kioxia",
+        "ticker": "285A.T",
+        "share_pct": 3.0,
+        "moat": "NAND 전문"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-30",
+        "title": "Micron HBM4 1st sample shipment to NVDA",
+        "source": "Micron IR",
+        "summary": "NVDA Rubin qualification 진행 중"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Micron Q3 FY25 매출 $14B (+95% YoY)",
+        "source": "Micron 어닝",
+        "summary": "HBM 매출 비중 18%, gross margin 38%"
+      },
+      {
+        "date": "2026-03-10",
+        "title": "Druckenmiller 13F: MU 추가 매수",
+        "source": "SEC 13F",
+        "summary": "Duquesne 추정 +$150M"
+      }
+    ],
+    "impact_tagging": "+ (strong tailwind, cyclical upside)"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 27705,
+        "op_income": 6927,
+        "op_margin": 25.0,
+        "net_income": 5861,
+        "net_margin": 21.2
+      },
+      {
+        "year": 2022,
+        "revenue": 30758,
+        "op_income": 9700,
+        "op_margin": 31.5,
+        "net_income": 8687,
+        "net_margin": 28.2
+      },
+      {
+        "year": 2023,
+        "revenue": 15540,
+        "op_income": -5630,
+        "op_margin": -36.2,
+        "net_income": -5833,
+        "net_margin": -37.5
+      },
+      {
+        "year": 2024,
+        "revenue": 27000,
+        "op_income": 1700,
+        "op_margin": 6.3,
+        "net_income": 850,
+        "net_margin": 3.1
+      },
+      {
+        "year": 2025,
+        "revenue": 50000,
+        "op_income": 14000,
+        "op_margin": 28.0,
+        "net_income": 10500,
+        "net_margin": 21.0
+      }
+    ],
+    "bs_snapshot": {
+      "year": 2025,
+      "total_assets": 75000,
+      "total_debt": 14000,
+      "cash": 9000,
+      "shareholders_equity": 50000,
+      "debt_to_equity": 0.28
+    },
+    "cf_summary": {
+      "year": 2025,
+      "ocf": 22000,
+      "fcf": 15000,
+      "capex": 7000,
+      "fcf_margin": 30.0,
+      "shareholder_returns": 800
+    },
+    "peer_compare": [
+      {
+        "ticker": "MU",
+        "fwd_pe": 7.1,
+        "pb": 4.0,
+        "ev_ebitda": 5,
+        "fcf_yield": 1.8,
+        "roe": 21
+      },
+      {
+        "ticker": "000660.KS",
+        "fwd_pe": 8.5,
+        "pb": 2.8,
+        "ev_ebitda": 4,
+        "fcf_yield": 3.0,
+        "roe": 33
+      },
+      {
+        "ticker": "005930.KS",
+        "fwd_pe": 10,
+        "pb": 1.3,
+        "ev_ebitda": 5,
+        "fcf_yield": 5.0,
+        "roe": 9
+      },
+      {
+        "ticker": "SNDK",
+        "fwd_pe": 8.2,
+        "pb": 5,
+        "ev_ebitda": 6,
+        "fcf_yield": 1.5,
+        "roe": 12
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "target_price": 950,
+      "thesis": "HBM4 양산 가속, NVDA Rubin qualification 통과, cycle peak earnings",
+      "key_assumptions": [
+        "HBM4 NVDA design win",
+        "HBM 매출 비중 30%+",
+        "cycle peak EPS $12+"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 800,
+      "thesis": "HBM 매출 확대 지속, conventional DRAM/NAND 회복",
+      "key_assumptions": [
+        "HBM 매출 비중 22%",
+        "DRAM ASP +20%/yr",
+        "FCF margin 28%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 450,
+      "thesis": "memory cycle 정점 → 2027 supply glut 재발",
+      "key_assumptions": [
+        "메모리 capex 2026 $130B (over-build)",
+        "ASP -30% YoY 2027",
+        "FCF -40%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-25",
+      "event": "Q3 FY25 어닝 + HBM4 양산 update",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "HBM 매출 비중 25%+ 시 +15%"
+    },
+    {
+      "date": "2026-09-XX",
+      "event": "NVDA Rubin launch — HBM4 qualification 결과",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "Rubin design win 시 +10-20%"
+    },
+    {
+      "date": "2026-12-XX",
+      "event": "FY26 가이던스",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "cycle peak 평가 — peak earnings 가이드 시 -20%"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Idaho Fab 양산 시작",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "CHIPS Act 지원 + 미국 HBM 캐파 확대"
+    }
+  ],
+  "risks": [
+    {
+      "name": "memory cycle peak 진입",
+      "probability": "med",
+      "impact": "high",
+      "description": "2027 supply glut → 매출 -40% scenario",
+      "mitigation": "HBM 매출 비중 확대로 commodity sensitivity 분산"
+    },
+    {
+      "name": "HBM 경쟁 격화",
+      "probability": "high",
+      "impact": "high",
+      "description": "SK하이닉스·삼성 HBM3E/HBM4 양산 가속",
+      "mitigation": "HBM4 12-layer first-mover advantage, NVDA Rubin design win 추진"
+    },
+    {
+      "name": "capex 부담",
+      "probability": "high",
+      "impact": "med",
+      "description": "$14B/yr capex — FCF 변동성",
+      "mitigation": "CHIPS Act $6.4B grant 활용, Idaho/NY Fab 정부 지원"
+    },
+    {
+      "name": "중국 메모리 자급 (CXMT)",
+      "probability": "med",
+      "impact": "low",
+      "description": "중국 DRAM 점유율 확대 가능성",
+      "mitigation": "수출 통제 미국 정책으로 보호"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "HBM 시장 $14B → $70B (2024-2026) — 5x growth",
+      "type": "industry",
+      "evidence": "TrendForce HBM 시장 추정 + 3 IDM 합산 capacity",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "HBM ASP가 conventional DRAM 대비 5-7x 프리미엄",
+      "type": "industry",
+      "evidence": "공시 자료 + 3 IDM IR 데이터",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "AI inference workload는 memory-bandwidth-bound — HBM4·HBM5 수요 가속",
+      "type": "macro",
+      "evidence": "NVDA Blackwell B200 메모리 spec + Rubin roadmap",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim": "cycle 회복 + AI secular dual driver — FY25 매출 +85% YoY",
+      "type": "company",
+      "evidence": "Micron Q1-Q3 FY25 어닝",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [],
+  "etf_holdings": [
+    {
+      "etf": "SOXX",
+      "weight_pct": 4.2
+    },
+    {
+      "etf": "SMH",
+      "weight_pct": 5.5
+    }
+  ],
+  "reverse_dcf": {
+    "current_price": 724.66,
+    "implied_growth_rate_yrs_10": 12,
+    "implied_terminal_margin_pct": 25,
+    "comment": "forward P/E 7x는 'cycle peak earnings'에 P/E 7x 적용 — normalized EPS basis로는 fair value $700-900 range. HBM secular 가정 시 추가 upside"
+  }
+}

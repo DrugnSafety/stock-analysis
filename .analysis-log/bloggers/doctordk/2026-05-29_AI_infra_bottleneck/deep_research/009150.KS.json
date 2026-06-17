@@ -1,0 +1,56 @@
+{
+  "industry": {
+    "name": "MLCC·FC-BGA 기판·수동부품",
+    "overview": "AI 서버·가속기는 일반 서버 대비 고용량 MLCC(적층세라믹콘덴서)와 고다층 FC-BGA(반도체 패키지기판) 함량이 수 배. '베라루빈 이후 GPU가 데이터를 굶지 않게 하는 모든 부품'이 중요해진다는 의교창의 병목 확산 논리의 직접 수혜주. 삼성전기는 MLCC(무라타·TDK와 글로벌 경쟁) + 패키지기판 + 카메라모듈을 보유. 다만 1Y +1631% 파라볼릭으로 fPE 77배 모멘텀 프리미엄이 만개한 상태.",
+    "competitors": [
+      {"name": "삼성전기", "ticker": "009150.KS", "share_pct": 13.0, "moat": "MLCC 글로벌 2~3위 + FC-BGA 패키지기판, 삼성 캡티브 + 서버 고부가 믹스"},
+      {"name": "Murata", "ticker": "6981.T", "share_pct": 30.0, "moat": "MLCC 글로벌 1위"},
+      {"name": "이비덴/신코", "ticker": "4062.T", "share_pct": 0.0, "moat": "고다층 패키지기판 선도"}
+    ],
+    "news": [
+      {"date": "2026-05-29", "title": "삼성전기 ₩2,140,000, 시총 ₩136조 — 52주 저점 대비 +1438%", "source": "다음금융/한경", "summary": "AI 서버 MLCC·기판 수요 기대가 주가에 강하게 선반영"},
+      {"date": "2026-05-28", "title": "삼성전기 +13.44% 급등 ₩1,849,000", "source": "다음금융", "summary": "AI 부품 모멘텀 — 단기 변동성 확대"}
+    ],
+    "market_size": {"current_usd_bn": 40.0, "cagr_pct": 12.0, "horizon": "2024-2030 (서버용 MLCC·기판 고성장)"}
+  },
+  "financials": {
+    "pl_5y": [
+      {"year": 2021, "revenue": 9675, "op_income": 1486, "op_margin": 15.4, "net_income": 1115, "net_margin": 11.5},
+      {"year": 2022, "revenue": 9442, "op_income": 1167, "op_margin": 12.4, "net_income": 851, "net_margin": 9.0},
+      {"year": 2023, "revenue": 8825, "op_income": 632, "op_margin": 7.2, "net_income": 487, "net_margin": 5.5},
+      {"year": 2024, "revenue": 9800, "op_income": 760, "op_margin": 7.8, "net_income": 560, "net_margin": 5.7},
+      {"year": "2025E", "revenue": 11500, "op_income": 1250, "op_margin": 10.9, "net_income": 950, "net_margin": 8.3}
+    ],
+    "bs_snapshot": {"total_assets": 12500, "total_liab": 4500, "equity": 8000, "cash": 1500, "debt": 2200},
+    "cf_summary": {"ocf_5y_avg": 1700, "fcf_5y_avg": 400, "capex_intensity": 0.14},
+    "peer_compare": [
+      {"ticker": "009150.KS", "name": "삼성전기", "pe": 76.9, "pb": 2.0, "roe": 7.0, "div_yield": 0.4},
+      {"ticker": "6981.T", "name": "Murata", "pe": 22.0, "pb": 1.8, "roe": 8.5, "div_yield": 1.8}
+    ],
+    "_note": "KRW 십억원. 2021~2024 보고 실적 근사치, 2025E 추정치. fPE 77배는 미래 서버 믹스 급증을 강하게 선반영 — 핵심 리스크."
+  },
+  "scenarios": {
+    "bull": {"prob_pct": 30, "target_price": 2700000, "thesis": "AI 서버 MLCC·FC-BGA 함량 폭증 + ASP 믹스 개선, OPM 두 자릿수 회복", "key_assumptions": ["서버 고부가 MLCC 비중 급증", "FC-BGA 캐파 풀가동", "베라루빈 본격 출하"]},
+    "base": {"prob_pct": 40, "target_price": 1900000, "thesis": "AI 부품 수요 견조하나 fPE 77배 부담으로 횡보·소폭 조정", "key_assumptions": ["서버 믹스 점진 개선", "스마트폰 MLCC 안정", "멀티플 일부 정상화"]},
+    "bear": {"prob_pct": 30, "target_price": 1100000, "thesis": "17배 파라볼릭 후 되돌림 + 베라루빈 지연·세트 수요 둔화", "key_assumptions": ["모멘텀 소진", "fPE 디레이팅", "서버 빌드 지연"]}
+  },
+  "catalysts": [
+    {"date": "2026-2H", "event": "베라루빈 서버 본격 출하", "type": "product", "expected_impact": "+", "description": "고용량 MLCC·고다층 기판 수요 점프"},
+    {"date": "분기 실적", "event": "서버용 고부가 매출 비중·OPM", "type": "earnings", "expected_impact": "+", "description": "믹스 개선 가시화 여부"},
+    {"date": "2026-2027", "event": "FC-BGA 증설·고객 다변화", "type": "capacity", "expected_impact": "+", "description": "패키지기판 캐파 확장"},
+    {"date": "상시", "event": "밸류에이션 재평가/되돌림", "type": "valuation", "expected_impact": "-", "description": "fPE 77배 부담 현실화 시 변동성"}
+  ],
+  "risks": [
+    {"name": "극단적 밸류에이션", "probability": "high", "impact": "high", "description": "fPE 77배·17배 파라볼릭 후 되돌림 위험 큼", "mitigation": "실적 가속으로 멀티플 정당화 필요"},
+    {"name": "베라루빈 출시 지연", "probability": "med", "impact": "high", "description": "서버 빌드 지연 시 부품 수요 이연", "mitigation": "고객 다변화"},
+    {"name": "MLCC 경쟁·ASP 변동", "probability": "med", "impact": "med", "description": "무라타·TDK 경쟁, 범용 MLCC 가격 변동", "mitigation": "서버·전장 고부가 전환"},
+    {"name": "스마트폰·세트 수요 둔화", "probability": "med", "impact": "med", "description": "캡티브(삼성) 세트 의존", "mitigation": "서버·전장 비중 확대"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "베라루빈 이후 기판·수동부품 부각 (T06)", "type": "predictive", "evidence": "AI 서버 MLCC·FC-BGA 함량 증가", "testability": "high", "current_status": "in_progress"},
+    {"claim": "데이터센터 폭증의 부품 낙수 (T03)", "type": "predictive", "evidence": "AI 서버 capex 상향", "testability": "medium", "current_status": "in_progress"},
+    {"claim": "병목 보유 기업 초과수익 (T09)", "type": "normative", "evidence": "고다층 기판 공급 타이트", "testability": "medium", "current_status": "in_progress"},
+    {"claim": "밸류에이션 재평가가 거품 아님 (T10)", "type": "predictive", "evidence": "fPE 77배는 이미 성장주 멀티플 — 검증 부담", "testability": "medium", "current_status": "contested"}
+  ],
+  "korean_disclosures": []
+}

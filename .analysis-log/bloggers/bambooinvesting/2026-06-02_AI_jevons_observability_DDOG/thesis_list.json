@@ -1,0 +1,96 @@
+{
+  "source_url": "https://blog.naver.com/bambooinvesting/224303419719",
+  "blog_title": "AI 값은 떨어지는데, 왜 회사들은 AI를 아끼기 시작했을까?",
+  "blogger": "모소밤부",
+  "extraction_date": "2026-06-02",
+  "theses": [
+    {
+      "id": "T1",
+      "claim_id": "T1",
+      "claim": "AI 토큰 단가는 1년 새 약 1/3 수준으로 하락했고, 그럼에도 기업의 총 토큰 청구서는 폭증 중이다 — 가격이 떨어진 만큼 수요가 더 폭발적으로 증가하는 제번스 역설(Jevons paradox)이 AI 인프라 시장에 정면으로 작동하고 있다",
+      "type": "factual",
+      "timeframe": "현재 진행형 (2025-2026)",
+      "supporting_evidence": "WSJ 인용 — 모델 평균 단가 1년 새 1/3; 구글 월간 토큰 처리량 3.2 quadrillion (전년 대비 7배); Uber 3월에 연간 AI 예산 소진",
+      "verifiability": "high",
+      "horizon": "medium_term",
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "claim_id": "T2",
+      "claim": "AI 인프라 가치 사슬의 가치는 모델·토큰을 싸게 만드는 쪽이 아니라, 사용량을 계량(metering)하고 비용을 귀속(attribution)시키는 쪽으로 이동한다 — 100년 전 전기 산업에서 가치가 전구 제조사가 아닌 미터기·전력망 운영자에게 흘러간 것과 동형(同型) 구조",
+      "type": "predictive",
+      "timeframe": "medium_term (2026-2030)",
+      "supporting_evidence": "역사적 유틸리티 산업 진화 패턴 (정액 → 종량); 데이터독 1Q 매출 $1B+ 32% YoY 성장과 80% gross margin 동시 유지",
+      "verifiability": "medium",
+      "horizon": "long_term",
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "claim_id": "T3",
+      "claim": "기업이 토큰 지출을 줄이려는 진짜 동인은 '비싸서'가 아니라 '귀속 불능' — 어느 지출이 실제 비즈니스 성과에 기여했는지 분간할 수 없다는 측정 공백이 진짜 병목이다 — 메타 사내 데이터: AI 코딩 토큰 중 18%만 실제 출하 제품에 도달, 나머지 82%는 디버깅·재작성·실험으로 증발",
+      "type": "factual",
+      "timeframe": "현재 (2026 1H)",
+      "supporting_evidence": "Meta CTO 사내 메모; Salesforce가 토큰→비즈니스 성과 추적 시스템 자체 구축; WSJ 보도",
+      "verifiability": "high",
+      "horizon": "near_term",
+      "importance": "core"
+    },
+    {
+      "id": "T4",
+      "claim_id": "T4",
+      "claim": "AI 인프라 병목이 그동안의 공급 측(HBM·전력·GPU) 중심에서, 처음으로 수요 측(CFO 장부 위의 청구서·attribution) 신호로 확장됐다 — 새 계층(metering/attribution/observability)이 1년 전엔 비어있던 시장에서 생성 중이다",
+      "type": "predictive",
+      "timeframe": "medium_term (2026-2028)",
+      "supporting_evidence": "Datadog GPU 모니터링 제품 출시; Salesforce attribution 시스템 신설; CFO 계량 압력의 산업 공통화",
+      "verifiability": "medium",
+      "horizon": "medium_term",
+      "importance": "core"
+    },
+    {
+      "id": "T5",
+      "claim_id": "T5",
+      "claim": "AI 옵저버빌리티/FinOps 플레이어는 '지출 절감 도구'가 아니라 '통제의 외양(dashboard)을 파는 정렬 구조'다 — 사용량이 많아질수록 감시할 거리가 함께 불어나는 양(陽)의 피드백 루프에 올라타 있어, 본질적으로 소비 폭증과 같은 방향에 정렬된다",
+      "type": "normative",
+      "timeframe": "ongoing",
+      "supporting_evidence": "Datadog 32% YoY 성장 + 80% gross margin 동시 유지; 'AI 감시 기능 자체가 추가 청구로 이어진다'는 구조적 회로",
+      "verifiability": "medium",
+      "horizon": "long_term",
+      "importance": "supporting"
+    },
+    {
+      "id": "T6",
+      "claim_id": "T6",
+      "claim": "데이터독은 자기 자신이 추론을 수행하지 않으므로 살벌한 GPU/inference 비용을 떠안지 않는 무위험 노출 구조다 — 그 결과 매출 증가율(+32%)이 곧 마진 압박 없이 영업 레버리지로 직결되며, 80% gross margin이 유지된다",
+      "type": "factual",
+      "timeframe": "2026 1Q",
+      "supporting_evidence": "Datadog 1Q26 매출 $1B+ (사상 첫 10억 달러 분기), +32% YoY, 총마진 80% 유지, GPU 모니터링 정식 출시",
+      "verifiability": "high",
+      "horizon": "near_term",
+      "importance": "supporting"
+    },
+    {
+      "id": "T7",
+      "claim_id": "T7",
+      "claim": "딥시크(DeepSeek) 발(發) 모델 단가 하락은 엔비디아 시총 -$600B(하루)의 패닉을 일으켰지만, 1년 후 결과는 정반대 — 마이크로소프트 나델라가 인용한 제번스 역설대로 수요가 7배 폭증하며 가격 하락 = 시장 축소가 아니라 시장 확장 신호임이 입증됐다",
+      "type": "factual",
+      "timeframe": "2025-2026 회고",
+      "supporting_evidence": "엔비디아 2025년 초 단일일 시총 손실 약 $600B (미국 증시 사상 최대 단일일 손실); 구글 토큰 처리량 7배 증가",
+      "verifiability": "high",
+      "horizon": "near_term",
+      "importance": "supporting"
+    },
+    {
+      "id": "T8",
+      "claim_id": "T8",
+      "claim": "종목 선정의 새 기준 — '비용을 줄여주는 회사'는 자기가 촉발한 소비 폭증과 끝없이 싸우는 러닝머신 함정이고, 반대로 '통제의 외양을 팔지만 구조적으로는 폭증과 같은 방향에 정렬된 회사'가 진정한 베팅 포지션이다",
+      "type": "normative",
+      "timeframe": "ongoing",
+      "supporting_evidence": "Datadog 케이스 (AI 감시→감시 청구서 자체가 폭증); 100년 전 전기 산업 미터기 운영자의 가치 수취 역사",
+      "verifiability": "low",
+      "horizon": "long_term",
+      "importance": "supporting"
+    }
+  ]
+}

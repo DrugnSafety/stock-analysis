@@ -1,0 +1,124 @@
+{
+  "ticker": "SNDK",
+  "name_kr": "샌디스크",
+  "name_en": "Sandisk Corporation",
+  "sector": "NAND Flash Storage",
+  "industry": {
+    "name": "NAND Flash · Consumer/Enterprise SSD",
+    "overview": "SanDisk는 Western Digital에서 2025년 2월 분리 상장된 NAND 플래시 pure-play. KIOXIA와는 NAND JV 파트너 관계로 BiCS FLASH 공동개발. Q1 2026 컨콜에서 LTA 80% Q1 매출 coverage 발표 — KIOXIA보다 LTA discipline에서 앞서 있다. 1Y 주가 +4,561%는 spinoff 이후 가격 재발견 + AI SSD 모멘텀 결합.",
+    "competitors": [
+      {
+        "name": "KIOXIA",
+        "ticker": "285A.T"
+      },
+      {
+        "name": "Samsung",
+        "ticker": "005930.KS"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS"
+      }
+    ],
+    "news": []
+  },
+  "five_year_pnl_summary": {
+    "fiscal_year_end": "06-30",
+    "currency": "USD",
+    "notes": "Spinoff from WDC Feb 2025 — full standalone FY 데이터 부족. P/E fwd 9.91x 합리적"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "thesis": "LTA 80% coverage + enterprise QLC NAND 대용량 채택 + AI SSD 시장 확대. 5년 매출 CAGR +20%.",
+      "key_assumptions": [
+        "LTA 추가 80%+ coverage",
+        "enterprise SSD share 확보",
+        "QLC 비중 60%+"
+      ],
+      "target_price_usd": 2400
+    },
+    "base": {
+      "prob_pct": 40,
+      "thesis": "NAND 호황 + spinoff 안정화 진행. P/E fwd 10x reasonable, +20% 추가 상승 여력.",
+      "key_assumptions": [
+        "NAND ASP 안정",
+        "margin 회복",
+        "LTA discipline"
+      ],
+      "target_price_usd": 2000
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "NAND 사이클 bust + 중국 점유 잠식 + WDC 잔여 부채 부담.",
+      "key_assumptions": [
+        "사이클 bust",
+        "LTA renegotiation",
+        "spinoff 통합 비용"
+      ],
+      "target_price_usd": 1100
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Q2 FY26 컨콜 — LTA 100% coverage 달성 여부",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "LTA discipline의 결정적 검증"
+    },
+    {
+      "date": "2026-2H",
+      "event": "enterprise SSD 신모델 출시",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "BiCS FLASH 218L QLC 본격 ramp"
+    },
+    {
+      "date": "2027",
+      "event": "KIOXIA JV 재협상",
+      "type": "business",
+      "expected_impact": "med",
+      "description": "BiCS 공동개발 JV 계약 갱신"
+    }
+  ],
+  "risks": [
+    {
+      "name": "NAND 사이클 노출",
+      "probability": "high",
+      "impact": "high",
+      "description": "NAND pure-play로 사이클 변동 100% 노출",
+      "mitigation": "LTA로 가격 visibility 확보"
+    },
+    {
+      "name": "KIOXIA JV 의존도",
+      "probability": "med",
+      "impact": "high",
+      "description": "BiCS NAND IP는 JV 공동소유 — KIOXIA 협상력 의존",
+      "mitigation": "독립 R&D 강화"
+    },
+    {
+      "name": "Spinoff 이후 부채",
+      "probability": "med",
+      "impact": "med",
+      "description": "WDC 분리 시 잔여 부채 약 $20억",
+      "mitigation": "FCF로 deleveraging"
+    },
+    {
+      "name": "중국 점유 잠식",
+      "probability": "med",
+      "impact": "med",
+      "description": "YMTC 저가 공세",
+      "mitigation": "premium enterprise SSD 차별화"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_usd": 1740,
+    "implied_growth_pct": "P/E fwd 9.91x → 향후 5년 EPS +10~12% CAGR. 시장 평균 사이클 가정.",
+    "narrative": "P/E fwd 10x는 fair valuation 영역. base case +15~20% EPS growth 시 12개월 fair value $2,000~2,200. margin of safety 30% 적용 시 entry $1,400 권장."
+  }
+}

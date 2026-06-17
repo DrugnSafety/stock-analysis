@@ -1,0 +1,204 @@
+{
+  "industry": {
+    "name": "스마트팩토리·로봇 자동화 SI (LS THiRA-UTECH)",
+    "overview": "티라유텍은 LS ELECTRIC 자회사로 신규 연결 편입. 백만원 단위 제출이 LS 지주사 억원 합산표에 그대로 들어가 이번 정정공시 100배 오기의 원천(T01·T02). 스마트팩토리·로봇 자동화 SI 사업으로 LS ELECTRIC 데이터센터·로봇 자동화 축과 연결.",
+    "competitors": [
+      {
+        "name": "Prysmian",
+        "ticker": "PRY.MI"
+      },
+      {
+        "name": "Nexans",
+        "ticker": "NEX.PA"
+      },
+      {
+        "name": "대한전선",
+        "ticker": "001440.KS"
+      },
+      {
+        "name": "LS전선",
+        "ticker": "(비상장·LS 자회사)"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2025",
+        "revenue": 58940727170.0,
+        "op_income": -4293305160.0,
+        "net_income": -8319006510.0,
+        "op_margin": -7.28,
+        "op_margin_pct": -7.28,
+        "net_margin_pct": -14.11,
+        "year": "2025"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 57466908660.0,
+        "op_income": -7912029510.0,
+        "net_income": -2169236200.0,
+        "op_margin": -13.77,
+        "op_margin_pct": -13.77,
+        "net_margin_pct": -3.77,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 54359306570.0,
+        "op_income": -3849047020.0,
+        "net_income": -6213976450.0,
+        "op_margin": -7.08,
+        "op_margin_pct": -7.08,
+        "net_margin_pct": -11.43,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2022",
+        "revenue": 35942703340.0,
+        "op_income": -4267875580.0,
+        "net_income": -4488181720.0,
+        "op_margin": -11.87,
+        "op_margin_pct": -11.87,
+        "net_margin_pct": -12.49,
+        "year": "2022"
+      },
+      {
+        "fiscal_year": "2021",
+        "revenue": null,
+        "op_income": null,
+        "net_income": null,
+        "op_margin": null,
+        "op_margin_pct": null,
+        "net_margin_pct": null,
+        "year": "2021"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2025",
+        "revenue": 58940727170.0,
+        "operating_income": -4293305160.0,
+        "net_income": -8319006510.0,
+        "op_margin_pct": -7.28
+      },
+      {
+        "year": "2024",
+        "revenue": 57466908660.0,
+        "operating_income": -7912029510.0,
+        "net_income": -2169236200.0,
+        "op_margin_pct": -13.77
+      },
+      {
+        "year": "2023",
+        "revenue": 54359306570.0,
+        "operating_income": -3849047020.0,
+        "net_income": -6213976450.0,
+        "op_margin_pct": -7.08
+      },
+      {
+        "year": "2022",
+        "revenue": 35942703340.0,
+        "operating_income": -4267875580.0,
+        "net_income": -4488181720.0,
+        "op_margin_pct": -11.87
+      },
+      {
+        "year": "2021",
+        "revenue": null,
+        "operating_income": null,
+        "net_income": null,
+        "op_margin_pct": null
+      }
+    ],
+    "five_quarter_pnl": [],
+    "balance_sheet_snapshot": {},
+    "material_variance_summary": "yfinance income_stmt 기반 5Y annual (live fetch 2026-05-29). 분기·BS 상세는 build 시 financial_fetcher가 보강."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "LS ELECTRIC 시너지 + 스마트팩토리·로봇 자동화 수요 확대로 흑자 전환.",
+      "key_assumptions": [],
+      "target_price": 9170
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "LS 편입 시너지 기대되나 적자(FY25 OP -43억) 지속 — 턴어라운드 대기.",
+      "key_assumptions": [],
+      "target_price": 6878
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "적자 지속 + 단위 오기 거버넌스 부담.",
+      "key_assumptions": [],
+      "target_price": 4912
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "2Q26 실적",
+      "type": "earnings",
+      "expected_impact": "medium",
+      "description": "LS 편입 후 흑자전환 여부"
+    }
+  ],
+  "risks": [
+    {
+      "name": "영업적자 지속",
+      "probability": "high",
+      "impact": "high",
+      "description": "FY25 OP -43억·NI -83억",
+      "mitigation": "LS ELECTRIC 시너지"
+    },
+    {
+      "name": "거버넌스 노이즈",
+      "probability": "med",
+      "impact": "low",
+      "description": "단위 오기 원천",
+      "mitigation": "연결 통합 프로세스 정비"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T01",
+      "ticker_exposure": "++",
+      "claim": "정정공시 단위 오기의 원천",
+      "type": "factual",
+      "evidence": "백만원 단위 제출, 15,445 일치",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T07",
+      "ticker_exposure": "+",
+      "claim": "스마트팩토리·로봇 자동화 축",
+      "type": "predictive",
+      "evidence": "LS ELECTRIC 자회사 시너지",
+      "testability": "low",
+      "current_status": "developing"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05",
+      "type": "정정공시",
+      "title": "단위 표기 오류 원천",
+      "summary": "백만원 단위 제출이 100배 오기 유발",
+      "impact": "-"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 6550,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 OP -43억(적자, OPM -7.28%)·시총 약 3,435억. 투자 종목이라기보다 공시 오기의 구조적 원천 — 소형 적자 SI."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

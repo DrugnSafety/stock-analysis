@@ -1,0 +1,362 @@
+{
+  "ticker": "HXL",
+  "name_kr": "헥셀",
+  "name_en": "Hexcel Corporation",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bullish": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "lean_bullish": {
+      "count": 9,
+      "pct": 69.2
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "bearish": {
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "consensus_summary": {
+    "bullish_pct": 69.2,
+    "bearish_pct": 0.0,
+    "neutral_pct": 30.8,
+    "average_confidence": 0.62
+  },
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "Boeing 737 MAX cycle dependence",
+        "우주 매출 비중 < 10%"
+      ],
+      "key_opportunities_top3": [
+        "Aerospace composites oligopoly (HXL·Toray·Solvay·Mitsubishi)",
+        "Decade-long Boeing·Airbus qualification = moat",
+        "Quality business + dividend 안정성"
+      ],
+      "uncertainty": "Buffett은 항공 cycle 변동성 인지",
+      "narrative_vs_quant_resolution": "Buffett은 'aerospace duopoly supplier' 좋아함 — Hexcel은 carbon fiber composites Boeing·Airbus + space + 방산 cross-sell. lean_bullish."
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "Boeing 신뢰도 회복 timing",
+        "Cyclical capex"
+      ],
+      "key_opportunities_top3": [
+        "Quality business: aerospace composites는 'invertible' wide moat",
+        "Lollapalooza: 항공 recovery + 우주 + UAM eVTOL"
+      ],
+      "uncertainty": "Munger 'quality + reasonable price'",
+      "narrative_vs_quant_resolution": "Munger lens: aerospace composites는 wide moat quality business. lean_bullish."
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "P/E 30 + cycle peak 가까움"
+      ],
+      "key_opportunities_top3": [
+        "P/B 3.5 + dividend yield 0.5%",
+        "Tangible book value strong",
+        "Defensive 후보"
+      ],
+      "uncertainty": "Defensive·Enterprising 모두 후보",
+      "narrative_vs_quant_resolution": "Graham는 mature aerospace supplier 선호. lean_bullish."
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "FCF yield 3-4% — Pabrai 10%+ 기준 미달"
+      ],
+      "key_opportunities_top3": [
+        "Cloning: Berkshire는 Precision Castparts(non-Hexcel) 매수 — aerospace supplier 패턴",
+        "6-8x EBITDA 인근"
+      ],
+      "uncertainty": "Pabrai borderline",
+      "narrative_vs_quant_resolution": "Pabrai borderline — aerospace supplier 패턴 정합. lean_bullish."
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "Boeing 737 MAX risk continued",
+        "Cyclical aerospace peak"
+      ],
+      "key_opportunities_top3": [
+        "만약 Boeing 회복 시 multi-year tailwind",
+        "Hexcel 가격 정합"
+      ],
+      "uncertainty": "Burry contrarian: 항공 cycle peak 우려",
+      "narrative_vs_quant_resolution": "Burry는 'aerospace cycle late' 우려. neutral."
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "PEG 1.5+ — Lynch 1.0 기준 약간 초과"
+      ],
+      "key_opportunities_top3": [
+        "'Cyclical recovery + secular growth' Six categories category",
+        "Visible product (787 Dreamliner·F-35 carbon)",
+        "Boeing·Airbus + space + UAM 다중 catalyst"
+      ],
+      "uncertainty": "Lynch 'visible' criteria 충족",
+      "narrative_vs_quant_resolution": "Lynch 'cyclical → stalwart' transition. lean_bullish."
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "key_concerns_top3": [
+        "Boeing R&D culture 약화 우려"
+      ],
+      "key_opportunities_top3": [
+        "Scuttlebutt: Boeing·Airbus·Lockheed·SpaceX customers",
+        "R&D depth: 60+ years carbon fiber",
+        "Long runway: 항공 + 우주 + UAM eVTOL"
+      ],
+      "uncertainty": "Management quality 강함",
+      "narrative_vs_quant_resolution": "Fisher 15-point 통과. lean_bullish."
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "Wood ARK는 'platform tech' 선호 — composites는 mature"
+      ],
+      "key_opportunities_top3": [
+        "UAM eVTOL platform 수혜"
+      ],
+      "uncertainty": "ARK는 cyclical materials 보수적",
+      "narrative_vs_quant_resolution": "Wood mainstream materials는 secondary. neutral."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "Aerospace cycle late stage"
+      ],
+      "key_opportunities_top3": [
+        "Macro: defense + space + 항공 동시 capex",
+        "DoD F-35·F-22 carbon fiber demand"
+      ],
+      "uncertainty": "Druckenmiller catalyst",
+      "narrative_vs_quant_resolution": "Druckenmiller macro defense + space + air recovery. lean_bullish."
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "Activist intervention 어려움"
+      ],
+      "key_opportunities_top3": [
+        "Quality compounder business model"
+      ],
+      "uncertainty": "Ackman은 quality compounder 선호",
+      "narrative_vs_quant_resolution": "Ackman quality compounder lens. lean_bullish."
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "Cyclical aerospace fragile timeline"
+      ],
+      "key_opportunities_top3": [
+        "Antifragile: defense capex backstop"
+      ],
+      "uncertainty": "Position size 통제",
+      "narrative_vs_quant_resolution": "Taleb는 cyclical은 작은 position. neutral."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "EM aerospace는 mature 단계"
+      ],
+      "key_opportunities_top3": [
+        "India·중국 자국 항공 시장 확대"
+      ],
+      "uncertainty": "EM expansion",
+      "narrative_vs_quant_resolution": "Jhunjhunwala lean_bullish."
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "아스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "DCF fair value $85-95 — 현재 $95는 upper end"
+      ],
+      "key_opportunities_top3": [
+        "Optionality: 항공 cycle peak EBITDA $500M 시 fair value $115"
+      ],
+      "uncertainty": "DCF 신뢰도 양호",
+      "narrative_vs_quant_resolution": "Damodaran fair value 인근 — neutral."
+    }
+  },
+  "evaluation_date": "2026-05-10"
+}

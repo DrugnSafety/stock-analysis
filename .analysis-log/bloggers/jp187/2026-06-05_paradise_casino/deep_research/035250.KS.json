@@ -1,0 +1,267 @@
+{
+  "industry": {
+    "name": "내국인 카지노(독점) · 리조트",
+    "overview": "강원랜드는 국내 유일 내국인 출입 가능 카지노(폐광지역개발 특별법 기반 독점) 운영사로, 외국인 카지노 3사와 시장이 분리됨. 따라서 jp187 글의 '환율·인바운드 tailwind'는 강원랜드에 직접 적용되지 않음 — 내국인 수요·정부 규제(영업시간·테이블 수·매출총량제)에 종속. 다만 저변동(beta 낮음)·순현금·고배당 성격으로 방어주적 특성. 카지노 섹터 순환매 시 동반 거론되나 thesis 정합도는 낮음.",
+    "competitors": [
+      {
+        "name": "파라다이스",
+        "ticker": "034230.KS",
+        "share_pct": 0,
+        "moat": "외국인 시장(비경쟁)"
+      },
+      {
+        "name": "GKL(그랜드코리아레저)",
+        "ticker": "114090.KS",
+        "share_pct": 0,
+        "moat": "외국인 시장(비경쟁)"
+      },
+      {
+        "name": "내국인 카지노",
+        "ticker": "035250.KS",
+        "share_pct": 100,
+        "moat": "법적 독점(유일 내국인 카지노)"
+      },
+      {
+        "name": "온라인 불법 도박(대체재)",
+        "ticker": "N/A",
+        "share_pct": 0,
+        "moat": "규제 외 — 잠재 수요 잠식 위협"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026",
+        "title": "강원랜드 매출총량제·영업 규제 환경",
+        "source": "업계",
+        "summary": "정부 규제(매출총량·영업시간)가 성장 상한 — 안정적이나 성장성 제한"
+      },
+      {
+        "date": "2026",
+        "title": "내국인 수요 기반 — 인바운드·환율 비연동",
+        "source": "분석",
+        "summary": "외인 카지노 thesis와 driver 상이 — 순환매 동반 거론되나 펀더멘털 정합 낮음"
+      },
+      {
+        "date": "2026",
+        "title": "순현금·고배당 방어주 성격",
+        "source": "분석",
+        "summary": "저변동(annualized vol ~23%)·배당으로 valuation 하방 지지"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 1.2,
+      "cagr_pct": 3.0,
+      "horizon": "2026-2030 내국인 카지노(규제 상한)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 1270.7,
+        "op_income": 217.6,
+        "op_margin": 17.1,
+        "net_income": 115.6,
+        "net_margin": 9.1
+      },
+      {
+        "year": 2023,
+        "revenue": 1388.6,
+        "op_income": 282.3,
+        "op_margin": 20.3,
+        "net_income": 340.9,
+        "net_margin": 24.6
+      },
+      {
+        "year": 2024,
+        "revenue": 1426.9,
+        "op_income": 285.8,
+        "op_margin": 20.0,
+        "net_income": 456.9,
+        "net_margin": 32.0
+      },
+      {
+        "year": 2025,
+        "revenue": 1476.7,
+        "op_income": 235.3,
+        "op_margin": 15.9,
+        "net_income": 318.2,
+        "net_margin": 21.5
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 4845.2,
+      "total_liab": 880.7,
+      "equity": 3964.5,
+      "cash": 200.4,
+      "debt": 53.7
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 384.9,
+      "fcf_5y_avg": 299.5,
+      "capex_intensity": 0.06
+    },
+    "peer_compare": [
+      {
+        "ticker": "035250.KS",
+        "name": "강원랜드",
+        "pe": 9.43,
+        "pb": null,
+        "roe": 8.0,
+        "div_yield": 6.35
+      },
+      {
+        "ticker": "034230.KS",
+        "name": "파라다이스",
+        "pe": 11.92,
+        "pb": null,
+        "roe": null,
+        "div_yield": 1.02
+      },
+      {
+        "ticker": "114090.KS",
+        "name": "GKL(그랜드코리아레저)",
+        "pe": 11.36,
+        "pb": null,
+        "roe": null,
+        "div_yield": 5.54
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 19000,
+      "thesis": "규제 완화(영업시간·매출총량) + 내국인 수요 회복 + 고배당 매력 부각 → 방어주 재평가",
+      "key_assumptions": [
+        "매출총량제 완화",
+        "내국인 방문 회복",
+        "배당 상향"
+      ]
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 16000,
+      "thesis": "규제 상한 내 안정 실적·고배당 유지 — 저성장·저변동 박스권",
+      "key_assumptions": [
+        "규제 현행 유지",
+        "내국인 수요 횡보",
+        "배당 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 12500,
+      "thesis": "규제 강화 + 온라인 불법도박 잠식 + 내국인 소비 위축 → 매출 둔화",
+      "key_assumptions": [
+        "규제 강화",
+        "대체재 잠식",
+        "내수 부진"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "정부 규제(매출총량제·영업시간) 변화",
+      "type": "regulatory",
+      "expected_impact": "○",
+      "description": "강원랜드 성장의 최대 스윙 변수 — 완화 시 상방"
+    },
+    {
+      "date": "2026",
+      "event": "배당 정책",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "고배당이 하방 지지·방어주 매력"
+    },
+    {
+      "date": "2026",
+      "event": "내국인 방문객·드롭 추세",
+      "type": "company",
+      "expected_impact": "○",
+      "description": "내수 경기 연동"
+    },
+    {
+      "date": "2026",
+      "event": "리조트·비카지노 사업 확장",
+      "type": "company",
+      "expected_impact": "○",
+      "description": "사업 다각화 진척"
+    }
+  ],
+  "risks": [
+    {
+      "name": "정부 규제(매출총량·영업시간)",
+      "probability": "high",
+      "impact": "high",
+      "description": "성장 상한을 규제가 결정 — 강화 리스크 상존",
+      "mitigation": "독점 지위·정책 협의"
+    },
+    {
+      "name": "jp187 thesis 비정합(환율·인바운드 비수혜)",
+      "probability": "high",
+      "impact": "med",
+      "description": "내국인 카지노라 환율·외국인 관광 tailwind 직접 수혜 아님",
+      "mitigation": "내수·배당 방어 성격으로 별도 평가 필요"
+    },
+    {
+      "name": "온라인 불법도박 대체재",
+      "probability": "med",
+      "impact": "med",
+      "description": "잠재 수요 잠식",
+      "mitigation": "규제·접근성 우위"
+    },
+    {
+      "name": "내수 경기 둔화",
+      "probability": "med",
+      "impact": "med",
+      "description": "내국인 소비 위축 시 방문·드롭 감소",
+      "mitigation": "고정 수요·관광 연계"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "카지노 섹터 순환매 동반 수혜",
+      "type": "predictive",
+      "evidence": "[inference] 섹터 묶음 거래",
+      "testability": "med",
+      "current_status": "약함 — driver(내국인) 상이"
+    },
+    {
+      "claim": "환율·인바운드 tailwind",
+      "type": "factual",
+      "evidence": "[actual] 내국인 카지노 — 외국인 비연동",
+      "testability": "high",
+      "current_status": "반증 — 직접 수혜 아님"
+    },
+    {
+      "claim": "방어주(저변동·고배당)",
+      "type": "factual",
+      "evidence": "[actual] annualized vol ~23%(최저)·배당",
+      "testability": "high",
+      "current_status": "지지 — rotation 대피처 성격은 오히려 강함"
+    },
+    {
+      "claim": "규제가 성장 상한",
+      "type": "factual",
+      "evidence": "[actual] 매출총량제·영업규제",
+      "testability": "high",
+      "current_status": "지지 — 성장성 제한"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026",
+      "type": "규제",
+      "title": "매출총량제·영업시간 규제 환경 지속",
+      "impact": "○"
+    },
+    {
+      "date": "2026",
+      "type": "배당",
+      "title": "고배당 정책 유지(방어주 성격)",
+      "impact": "+"
+    }
+  ]
+}

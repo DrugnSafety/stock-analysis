@@ -1,0 +1,314 @@
+{
+  "ticker": "000660.KS",
+  "name_kr": "SK하이닉스",
+  "name_en": "SK Hynix Inc.",
+  "industry": {
+    "name": "Memory Semiconductor (DRAM·NAND·HBM)",
+    "overview": "1983년 설립 (현대전자 → SK 인수 2012). DRAM 31% #2, HBM 50%+ #1, NAND 17% #4. HBM3E·HBM4가 매출의 30%+ 차지, AI accelerator 핵심 공급자.",
+    "competitors": [
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 31.0,
+        "moat": "HBM 50%+ first-mover + NVDA strategic partner"
+      },
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 41.0,
+        "moat": "Memory leader + vertical integration"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 22.0,
+        "moat": "US-domiciled + DDR5 advantage"
+      },
+      {
+        "name": "Kioxia",
+        "ticker": "Kioxia",
+        "share_pct": 4.0,
+        "moat": "NAND specialist + Toshiba heritage"
+      },
+      {
+        "name": "CXMT (China)",
+        "ticker": "Private",
+        "share_pct": 2.0,
+        "moat": "Government-backed + low-end 침투"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 195.0,
+      "cagr_pct": 25.0,
+      "horizon": "HBM + DRAM + NAND 2024-2028"
+    },
+    "news": [
+      {
+        "date": "2026-04-28",
+        "source": "SK Hynix Q1 Earnings",
+        "title": "Q1 매출 20.6조 (+114% YoY), 영업이익 8.3조 (영업이익률 40%)",
+        "summary": "HBM3E 매출 12조+ (전체 60%), 영업레버리지 극대화."
+      },
+      {
+        "date": "2026-03-20",
+        "source": "Bloomberg",
+        "title": "HBM4 12-Hi 첫 양산 + customer qualification",
+        "summary": "NVDA Rubin platform 첫 customer 확보. Samsung 대비 6-12개월 lead."
+      },
+      {
+        "date": "2026-02-05",
+        "source": "DART 공시",
+        "title": "2026 capex 가이던스 30조원 (+50% YoY)",
+        "summary": "HBM 전용 capex 18조원 — 시장 우려 (over-investment)."
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 42990,
+        "op_income": 12410,
+        "op_margin": 28.9,
+        "net_income": 9620,
+        "net_margin": 22.4
+      },
+      {
+        "year": 2022,
+        "revenue": 44620,
+        "op_income": 7170,
+        "op_margin": 16.1,
+        "net_income": 2440,
+        "net_margin": 5.5
+      },
+      {
+        "year": 2023,
+        "revenue": 32770,
+        "op_income": -7730,
+        "op_margin": -23.6,
+        "net_income": -9140,
+        "net_margin": -27.9
+      },
+      {
+        "year": 2024,
+        "revenue": 67000,
+        "op_income": 17000,
+        "op_margin": 25.4,
+        "net_income": 14600,
+        "net_margin": 21.8
+      },
+      {
+        "year": 2025,
+        "revenue": 95000,
+        "op_income": 30400,
+        "op_margin": 32.0,
+        "net_income": 25100,
+        "net_margin": 26.4
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2026-03-31",
+      "cash_usdmn": 8500,
+      "total_debt_usdmn": 25000,
+      "net_debt_usdmn": 16500,
+      "total_assets_usdmn": 88000,
+      "total_equity_usdmn": 50000,
+      "current_ratio": 1.4,
+      "debt_to_equity": 0.5
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 24000,
+      "capex_2025_usdmn": 18000,
+      "fcf_2025_usdmn": 6000,
+      "dividend_paid_2025_usdmn": 1200,
+      "buyback_2025_usdmn": 0
+    },
+    "peer_compare": [
+      {
+        "ticker": "000660.KS",
+        "fwd_pe": 5.11,
+        "ev_ebitda": 4.2,
+        "fcf_yield_pct": 3.5,
+        "roe_pct": 45.0,
+        "debt_to_equity": 0.5
+      },
+      {
+        "ticker": "005930.KS",
+        "fwd_pe": 5.65,
+        "ev_ebitda": 4.5,
+        "fcf_yield_pct": 5.5,
+        "roe_pct": 11.5,
+        "debt_to_equity": 0.06
+      },
+      {
+        "ticker": "MU",
+        "fwd_pe": 11.5,
+        "ev_ebitda": 7.5,
+        "fcf_yield_pct": 1.5,
+        "roe_pct": 18.0,
+        "debt_to_equity": 0.32
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "HBM4 lead time 유지 + HBM5 first-mover + AI capex 2027 super-cycle",
+      "thesis": "HBM4 lead time 유지 + HBM5 first-mover + AI capex 2027 super-cycle",
+      "prob_pct": 25,
+      "target_price": 2400000,
+      "assumption": "HBM4 lead time 유지 + HBM5 first-mover + AI capex 2027 super-cycle",
+      "key_assumptions": [
+        "HBM4 lead time 유지 + HBM5 first-mover + AI capex 2027 super-cycle"
+      ],
+      "upside_pct": 27
+    },
+    "base": {
+      "label": "HBM cycle peak 2026 + Samsung catch-up 부분",
+      "thesis": "Base — cycle 정상화",
+      "prob_pct": 50,
+      "target_price": 1750000,
+      "assumption": "Base — cycle 정상화",
+      "key_assumptions": [
+        "Base — cycle 정상화"
+      ],
+      "downside_pct": -7
+    },
+    "bear": {
+      "label": "AI capex 2027 둔화 + Samsung HBM4 동등 진입",
+      "thesis": "Bear — cycle peak 후 correction",
+      "prob_pct": 25,
+      "target_price": 950000,
+      "assumption": "Bear — cycle peak 후 correction",
+      "key_assumptions": [
+        "Bear — cycle peak 후 correction"
+      ],
+      "downside_pct": -50
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q2-Q3",
+      "event": "HBM4 12-Hi 양산 + customer qualification",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "NVDA·AMD 동시 통과 시 +15%"
+    },
+    {
+      "date": "2026 H2",
+      "event": "NVDA Rubin platform HBM 공급 share 발표",
+      "type": "deal",
+      "expected_impact": "+",
+      "description": "Lead 유지 시 +20%"
+    },
+    {
+      "date": "2026 ongoing",
+      "event": "Samsung HBM4 qualification 시기",
+      "type": "industry",
+      "expected_impact": "-",
+      "description": "Samsung 동등 진입 시 -15%"
+    },
+    {
+      "date": "2026 quarterly",
+      "event": "분기 매출 사상 최대 갱신 또는 가이던스 하향",
+      "type": "earnings",
+      "expected_impact": "+/-",
+      "description": "가이던스 미스 시 -10%"
+    },
+    {
+      "date": "2026 H2",
+      "event": "2027 capex 가이던스",
+      "type": "earnings",
+      "expected_impact": "-",
+      "description": "Over-investment 우려 시 -8%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Cyclical peak 2026-2027 correction",
+      "description": "Cyclical peak 2026-2027 correction",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "HBM 비중 확대 + capex discipline"
+    },
+    {
+      "name": "Samsung HBM4 catch-up 성공",
+      "description": "Samsung HBM4 catch-up 성공",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "HBM5 lead time + 기술 격차"
+    },
+    {
+      "name": "AI capex 둔화 시 HBM 가격 -40%",
+      "description": "AI capex 둔화 시 HBM 가격 -40%",
+      "probability": "med",
+      "impact": "high",
+      "mitigation": "DDR5·LPDDR 다각화"
+    },
+    {
+      "name": "China memory 저가 침투 (CXMT)",
+      "description": "China memory 저가 침투 (CXMT)",
+      "probability": "med",
+      "impact": "med",
+      "mitigation": "고부가 HBM·고용량 NAND 집중"
+    },
+    {
+      "name": "High vol 65% + beta 2.03 — broad correction 시 1.5x amplified",
+      "description": "High vol 65% + beta 2.03 — broad correction 시 1.5x amplified",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "Tactical position sizing"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T5",
+      "claim": "Cyclical regime change archetype — HBM 50%+ share",
+      "type": "industry",
+      "support_for_ticker": "STRONG",
+      "testability": "high",
+      "current_status": "confirmed",
+      "evidence": "주가 +27배 rerating (2023 trough → 2026 peak), HBM 시장 1위",
+      "ticker_specific_note": "Cyclical → structural 전환의 textbook 사례. 다음 cycle에서 premium 유지 여부 핵심"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "AI 성장 프리미엄 era의 second-derivative 수혜",
+      "type": "industry",
+      "support_for_ticker": "STRONG",
+      "testability": "high",
+      "current_status": "confirmed",
+      "evidence": "HBM 매출 비중 5% → 30%+, ASP 일반 DRAM 5-7배",
+      "ticker_specific_note": "AI capex 둔화 시 가장 levered — first to drop"
+    },
+    {
+      "thesis_id": "T7",
+      "claim": "Current beauty contest winner — next rotation vulnerable",
+      "type": "macro",
+      "support_for_ticker": "MIXED",
+      "testability": "low",
+      "current_status": "speculative",
+      "evidence": "+899% 1Y는 historic peak signal",
+      "ticker_specific_note": "Cyclical peak 진입 후 mean reversion -40% 가능"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "annual_report",
+      "date": "2025-03-15",
+      "title": "2024년 사업보고서",
+      "summary": "매출 67조원, 영업이익 17조원 (HBM 기여 60%+). 사상 최대 실적."
+    },
+    {
+      "type": "quarterly_report",
+      "date": "2026-04-28",
+      "title": "2026 Q1 분기보고서",
+      "summary": "매출 20.6조 (+114% YoY), 영업이익 8.3조 (영업이익률 40%). HBM3E 매출 12조+."
+    },
+    {
+      "type": "press_release",
+      "date": "2026-02-05",
+      "title": "2026 capex 가이던스 30조원",
+      "summary": "HBM 전용 18조원 — 시장 우려 over-investment, 회사 측은 lead time 유지 위한 필수 투자라 입장."
+    }
+  ]
+}

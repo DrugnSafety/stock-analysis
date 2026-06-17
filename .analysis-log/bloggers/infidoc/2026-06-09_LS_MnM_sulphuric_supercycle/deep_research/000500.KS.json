@@ -1,0 +1,256 @@
+{
+  "industry": {
+    "name": "한국 산업용 전선·재도체화 가공선 (Industrial Cables)",
+    "overview": "가온전선 = LS 그룹 일원, 산업용 전선·재도체화 가공선. 미국 SPARK(미국 노후 전력망 교체) + 북미 빅테크 부스덕트 직접 수주 — LS 그룹 내 'small-mid cap' 위치. Cu raw material을 LS MnM에서 확보 가능한 vertical advantage. 본 분석 thesis 기준 LS 풀스택의 'low-mid tier' 수혜자. small cap이라 수주 lumpiness + 변동성 큼. forward PE 11.5로 valuation 매력적, 단 성장 visibility는 LS Corp/LS Electric 대비 약함.",
+    "competitors": [
+      {
+        "name": "Encore Wire(US)",
+        "ticker": "-"
+      },
+      {
+        "name": "Southwire(US, 비상장)",
+        "ticker": "-"
+      },
+      {
+        "name": "대한전선",
+        "ticker": "001440.KS"
+      },
+      {
+        "name": "Nexans",
+        "ticker": "-"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2025",
+        "revenue": 1280000000000,
+        "op_income": 91000000000,
+        "net_income": 65000000000,
+        "op_margin_pct": 7.11,
+        "net_margin_pct": 5.08,
+        "year": "2025"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 1180000000000,
+        "op_income": 70000000000,
+        "net_income": 49000000000,
+        "op_margin_pct": 5.93,
+        "net_margin_pct": 4.15,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 1020000000000,
+        "op_income": 52000000000,
+        "net_income": 36000000000,
+        "op_margin_pct": 5.1,
+        "net_margin_pct": 3.53,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2022",
+        "revenue": 940000000000,
+        "op_income": 42000000000,
+        "net_income": 29000000000,
+        "op_margin_pct": 4.47,
+        "net_margin_pct": 3.09,
+        "year": "2022"
+      },
+      {
+        "fiscal_year": "2021",
+        "revenue": 850000000000,
+        "op_income": 34000000000,
+        "net_income": 23000000000,
+        "op_margin_pct": 4.0,
+        "net_margin_pct": 2.71,
+        "year": "2021"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "data_source": "yfinance + IR 추정 (LS MnM segment estimated)",
+    "frequency": "5Y annual",
+    "notes": "Segment-level H2SO4·PSA estimates are inference — LS IR does not disclose H2SO4 segment ASP."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "thesis": "북미 빅테크 부스덕트 반복 수주 + SPARK 인프라 수주 확대 + Cu 가격 안정. 2Q+ OP margin 8%+.",
+      "key_assumptions": [
+        "북미 부스덕트 +50% YoY",
+        "SPARK 수주 신규",
+        "Cu raw material 안정"
+      ],
+      "target_price": 480000
+    },
+    "base": {
+      "prob_pct": 40,
+      "thesis": "수주잔고 유지 + OP margin 7%대. forward PE 11.5 매력적이나 small cap 변동성.",
+      "key_assumptions": [
+        "수주잔고 유지",
+        "OP margin 6~7%"
+      ],
+      "target_price": 360000
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "수주 lumpiness 노출 + Cu 가격 변동성. small cap discount 적용.",
+      "key_assumptions": [
+        "수주 분기 -30%",
+        "Cu 변동성"
+      ],
+      "target_price": 240000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "2Q26 실적",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "북미 부스덕트 매출 인식 확인"
+    },
+    {
+      "date": "2026-08",
+      "event": "북미 신규 수주 가능성",
+      "type": "orders",
+      "expected_impact": "medium",
+      "description": "빅테크 부스덕트 반복 수주 검증"
+    },
+    {
+      "date": "2026-10",
+      "event": "SPARK 인프라 신규 수주",
+      "type": "orders",
+      "expected_impact": "medium",
+      "description": "미국 노후 전력망 교체 사업"
+    },
+    {
+      "date": "2026-11",
+      "event": "3Q26 실적",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "분기별 수주 모멘텀"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "FY27 가이던스",
+      "type": "guidance",
+      "expected_impact": "medium",
+      "description": "성장 가이던스 확인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Small cap 수주 lumpiness",
+      "probability": "high",
+      "impact": "med",
+      "description": "분기 변동성 큼"
+    },
+    {
+      "name": "Cu 가격 변동성",
+      "probability": "med",
+      "impact": "med",
+      "description": "Cu 급변 시 마진 압박"
+    },
+    {
+      "name": "LS 그룹 transfer pricing risk",
+      "probability": "low",
+      "impact": "low",
+      "description": "내부 거래 비중 증가 시 외부 매출 의존도 약화"
+    },
+    {
+      "name": "북미 데이터센터 capex peak",
+      "probability": "low",
+      "impact": "high",
+      "description": "빅테크 capex deceleration"
+    },
+    {
+      "name": "FX 변동성",
+      "probability": "med",
+      "impact": "low",
+      "description": "미국 수출 비중 ↑"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim_text": "Kpler는 2026년 글로벌 황·황산 시장을 '한 세대 만의 가장 심각한 공급 차질'로 평가했다. 호르무즈 봉쇄(2026-02-28 이후) + 중국 황산 수출 전면 중단(2026-04-10) + 러시아·터키 수출 제한 + 황의 부산물 특성(공급곡선 가격 비탄력) 4방향 동시 충격이다. Gulf 지역에 60만 톤+ 황 stranded, 글로벌 황 수출 2월 말 대비 45% 감소.",
+      "supporting_evidence": "Kpler 'Sulphur Crisis 2026: Supply Shock & New Trade Routes' (2026-04~05). 중국 2025년 약 460만 톤 황산 수출 = 세계 최대 공급자. 4월 첫 피크 60만 톤 stranded · 글로벌 황 수출 45% 감소.",
+      "key_assumption": "호르무즈 봉쇄가 단기 해소되지 않고 중국 수출 ban이 8월까지 complete cessation으로 유지됨.",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T02",
+      "claim_text": "황산 가격 결정권자는 비료(Mosaic 등)나 HPAL 니켈(Huayou 등)이 아닌 구리 SX-EW 생산자다. 비료는 마진이 얇아 임계점에서 감산(Mosaic 미국 phosphate 200만 톤 감산). HPAL은 산 cost share가 35~50%(노출 큰 설비는 70% 근접)로 부분 가동 불가(Huayou 인도네시아 HPAL 50% 감산). 반대로 구리 SX-EW는 산 cost share 12~18%로 높은 가격 흡수 가능 → 칠레 leaching refined Cu 110만 톤이 산 공급 리스크 노출.",
+      "supporting_evidence": "Kpler 'Metals vs Fertilizers: Who Pays More for Sulphur?' 중국 칠레향 황산 수출 2026-03 = 0톤. 중국산 황산은 칠레 구리 leaching 산 공급의 20% / 전체 황산 수입의 37% 차지.",
+      "key_assumption": "구리 가격이 현재 수준(LME ~$10,000/t) 유지 시 SX-EW가 산 spot 가격 흡수 가능.",
+      "applies_to_ticker": true
+    },
+    {
+      "claim_id": "T03",
+      "claim_text": "LS MnM은 동제련 부산물 기반 integrated smelter로 황산 buyer가 아닌 seller다. 외부 조달 SX-EW Cu 업체는 원가 압박을 받지만, LS MnM은 연 192.5만 톤 일반 황산 생산능력으로 가격 상승의 100% 수혜 측이다. LS는 구리·황산·PSA·전선·권선·전력기기로 이어지는 수직계열화 구조다.",
+      "supporting_evidence": "LS MnM 일반 황산 capacity 192.5만 톤/yr, PSA 18만 톤/yr. 동제련 과정 SO₂ 회수 → 황산 자체 생산. Aurubis 동제련도 동일 모델 (H2SO4 분기 reset 가격 적용).",
+      "key_assumption": "동제련 가동률 80%+ 유지 시 황산 본격 생산 (Cu 제련 가동률이 H2SO4 공급 능력 결정).",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T04",
+      "claim_text": "LS MnM 일반 황산 ASP가 톤당 $100 상승 시 분기 매출 약 700억 원, 연환산 2,800억 원 증분 발생. $150/t 상승 시 연 4,160억 원, $250/t 상승 시 연 6,920억 원. 분기 45만 톤 × 환율 1,500원 적용. 미국 Gulf CFR 황산 가격은 2026-02-28 $155 → 2026-05-06 $400으로 158% 상승, 동북아 가격도 $260대까지 도달.",
+      "supporting_evidence": "S&P Global Platts 2026-05-06: 미 Gulf CFR $400/t. 한국 HS 2807 황산 4월 수출단가 $117/t (실현가는 spot 후행). LS MnM 연 capa 192.5만 톤 - PSA 18만 톤 = 일반 황산 170~180만 톤.",
+      "key_assumption": "Aurubis 모델 차용 — LS MnM 황산 판매 ~85%가 연간계약·분기·반기 reset, 2Q부터 가격 순차 반영, 3Q+ 계약 재조정 효과 본격화.",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T05",
+      "claim_text": "LS MnM PSA(반도체 wet cleaning용 electronic-grade 고순도 황산) 18만 톤/yr는 단순 부산물이 아니라 별도 반도체 소재 사업이다. 일반 황산 대비 G5급 프리미엄을 2024년 10.5배(중국 데이터)를 2026 base에 적용 시 약 $2,700/t. 선단급 marginal contract는 $4,000/t+. ASP $2,500/t으로만 잡아도 연매출 6,930억 원, $3,000/t이면 8,320억 원, $4,000/t이면 1.11조 원.",
+      "supporting_evidence": "고객: 삼성전자·SK하이닉스·TSMC 장기계약. 2024-05 중국 G2 1,000위안/t · G5 3,500위안/t. 2026-05 중국 98% H2SO4 1,835위안/t. ppt급 금속 불순물 관리·전용 탱크/배관 프리미엄.",
+      "key_assumption": "블렌디드 ASP 가정(LTA 70% $1,800/t + 선단 30% $4,000/t = $2,460/t) — 평균 ASP가 $1,500/t 이상이면 'PSA = 반도체 소재 사업' thesis 성립.",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T06",
+      "claim_text": "LS MnM 1분기 영업이익 1,896억 원은 일회성 peak가 아니라 2026 연간 base다. 금·은 귀금속 가격이 일부 조정되더라도 황산 ASP 상승이 2Q부터 반영되면 2~4Q 합산이 1Q+α가 될 가능성이 높다. 시장은 아직 LS를 전선 중심으로 보지만, 황산·PSA SOTP 재산정이 catalyst가 될 수 있다.",
+      "supporting_evidence": "LS MnM 1Q26 OP = 1,896억 원. 2Q부터 황산 가격 반영 + PSA 단가 확인이 catalyst. LS IR은 전선·전력기기 중심으로 MnM 황산·PSA는 underexplained.",
+      "key_assumption": "1Q에 반영된 H2SO4 ASP는 spot $400/t보다 한참 낮은 LTA 가격 — upside 여지가 남아 있음.",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T07",
+      "claim_text": "황산 supply shock는 공급망 흔들리는 구간에서 수직계열화된 업체의 납기 프리미엄을 키운다. 데이터센터 부스덕트·HVDC·권선·전선 모두 동일. 최근 LS전선·가온전선의 북미 빅테크 부스덕트 수주는 이 관점에서 해석 가능. LS 그룹은 구리(MnM) → 황산/PSA(MnM) → 전선(LS전선·가온전선) → 권선(LS에코첨단소재) → 전력기기(LS Electric) 풀스택 구조.",
+      "supporting_evidence": "LS전선·가온전선 북미 빅테크향 부스덕트 수주 (2026-Q1~Q2). HVDC·해저케이블 backlog 증가. 데이터센터 power infra 글로벌 capex 30~50% YoY 증가 추세.",
+      "key_assumption": "AI 데이터센터·전력 인프라 capex 사이클이 2027+까지 지속 — 단가뿐 아니라 납기·공급안정성이 수주 결정요인.",
+      "applies_to_ticker": true
+    },
+    {
+      "claim_id": "T08",
+      "claim_text": "호르무즈가 열리더라도 황산 가격이 단기 정상화되기 어렵다. cargo가 풀리는 것과 계약 가격이 정상화되는 것은 별개. 중국 수출 제한·러시아·터키 제한·재고 재축적 수요가 남는다. spot 가격은 먼저 오르고 계약 가격은 뒤따른다 — 정상화 시에도 같은 lag. 이미 높은 가격으로 체결된 LTA·분기 reset은 2H26 실적에 시차 반영 가능성 높다.",
+      "supporting_evidence": "Aurubis 사례: 황산 판매 ~85%가 연간계약, 분기·반기 단위 재조정. 한국 4월 H2SO4 수출단가 $117/t (Gulf spot $400/t 대비 한참 후행).",
+      "key_assumption": "공급 정상화 lag: spot 하락 후 LTA 재조정까지 1~2 분기 — LS MnM은 정상화 국면에서도 2~3 분기 가격 모멘텀 보존.",
+      "applies_to_ticker": false
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "분기보고서",
+      "title": "가온전선 1Q26 분기보고서",
+      "url": "https://dart.fss.or.kr"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "수시공시",
+      "title": "가온전선 북미 빅테크 부스덕트 수주 발표",
+      "url": "https://dart.fss.or.kr"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": 6.5,
+    "implied_op_margin_5y_pct": 7.0,
+    "notes": "Reverse DCF — 현 forward PE를 정당화하는 5Y CAGR·OP margin reverse-engineered."
+  },
+  "analysis_mode": "thesis_first",
+  "thesis_count": 8
+}

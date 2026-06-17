@@ -1,0 +1,169 @@
+{
+  "extraction_metadata": {
+    "extracted_at": "2026-05-22T15:05:00+09:00",
+    "source": "https://blog.naver.com/doctordk/224293301362",
+    "extractor": "thesis-extractor (manual structured extraction per CLAUDE.md guidance)",
+    "total_theses": 8
+  },
+  "theses": [
+    {
+      "id": "T1",
+      "claim_id": "T1",
+      "title": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+      "claim": "삼성 등 글로벌 메모리 빅3가 DDR4 생산을 축소하면서 발생한 공급 공백이 심각해, 다수 고객사들이 안정적 공급 확보를 위해 최대 3년 장기계약을 모색하고 있다.",
+      "type": "factual",
+      "timeframe": "2025-2026 (단기 — 현재 진행 중)",
+      "verifiability": "high",
+      "supporting_evidence": [
+        "TrendForce 2026-05-21 보도 (Nanya Tech 인용)",
+        "Nanya GM 코멘트: 'DRAM Margins Across Segments Top HBM' — 즉 DDR4/LPDDR4 마진이 HBM보다 높다는 의미"
+      ],
+      "implied_directionality": "+",
+      "affected_areas": [
+        "legacy DRAM 가격",
+        "DRAM 메이커 마진",
+        "고객사 BOM 부담"
+      ],
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "claim_id": "T2",
+      "title": "Nanya Tech가 DDR5 전환을 못해 DDR4 비중 유지 → 한국 메이커 phase-out의 수혜를 차단당함",
+      "claim": "Nanya Tech는 DDR4 부족으로 DDR5 전환이 제한되어 있어, 삼성·SK하이닉스의 DDR4 phase-out 공백을 즉시 채우기 어렵다. 이는 한국 빅2의 DDR4 가격 결정력을 강화시킨다.",
+      "type": "conditional",
+      "timeframe": "2026-2027 (중기)",
+      "verifiability": "medium",
+      "supporting_evidence": [
+        "TrendForce 기사 헤드라인 'DDR4 Shortage Reportedly Limits Nanya Tech's DDR5 Shift'"
+      ],
+      "implied_directionality": "+",
+      "affected_areas": [
+        "삼성/SK하이닉스 DRAM ASP",
+        "Nanya 경쟁력",
+        "DDR4 spot price"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "T3",
+      "claim_id": "T3",
+      "title": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템'으로 패러다임 전환",
+      "claim": "Vera Rubin 시대부터 AI 서버의 본질이 GPU 중심에서 메모리 중심으로 바뀐다. LPDDR이 AI 추론의 저전력·고대역폭 요구를 충족하는 핵심 요소가 된다.",
+      "type": "predictive",
+      "timeframe": "2027-2030 (중장기)",
+      "verifiability": "medium",
+      "supporting_evidence": [
+        "NVIDIA Rubin 로드맵 (2026-2027 ramp)",
+        "NVIDIA 자체 LPDDR/소캠 채택 발표",
+        "Vera CPU + Rubin GPU 통합 랙 구조 공개"
+      ],
+      "implied_directionality": "+",
+      "affected_areas": [
+        "LPDDR 수요 구조",
+        "AI 서버 BOM",
+        "메모리 메이커 mix"
+      ],
+      "importance": "core"
+    },
+    {
+      "id": "T4",
+      "claim_id": "T4",
+      "title": "2027년 Vera Rubin LPDDR 수요만 9,084PB — 전 세계 스마트폰 연간 LPDDR과 동급",
+      "claim": "2027년 NVIDIA Vera Rubin 출하량 기준 LPDDR 총수요는 약 9,084PB로, 연간 스마트폰 11.9억대에 들어가는 LPDDR 총량과 유사. AI 데이터센터가 스마트폰 산업과 메모리 수요를 경쟁하는 구조로 변화.",
+      "type": "predictive",
+      "timeframe": "2027 (구체 연도)",
+      "verifiability": "medium",
+      "supporting_evidence": [
+        "Vera Rubin 출하 추정 (HBM 동반 LPDDR)",
+        "Counterpoint 스마트폰 출하 11.9억대 (2024 base)"
+      ],
+      "implied_directionality": "+",
+      "affected_areas": [
+        "LPDDR ASP",
+        "메모리 capex 사이클",
+        "스마트폰 OEM BOM 압박"
+      ],
+      "importance": "core"
+    },
+    {
+      "id": "T5",
+      "claim_id": "T5",
+      "title": "Vera CPU 독립 랙 외판 시 LPDDR 추가 수요 6,144PB — 공급망 재편 수준",
+      "claim": "NVIDIA가 Vera CPU 기반 독립 랙을 외부 고객사(엔터프라이즈·하이퍼스케일러 비-NVL72 채택군)에 판매 시작하면, 기본 수요 외에 약 6,144PB의 LPDDR 신규 수요가 추가 발생. 이는 메모리 공급망을 다시 써야 하는 수준의 변화.",
+      "type": "conditional",
+      "timeframe": "2027-2028 (조건부)",
+      "verifiability": "low",
+      "supporting_evidence": [
+        "NVIDIA Vera CPU 외판 로드맵 (미발표·추측)",
+        "LPDDR 신규 capex 시간 (12-18개월)"
+      ],
+      "implied_directionality": "+",
+      "affected_areas": [
+        "LPDDR capex",
+        "삼성·SK하이닉스 capex 결정",
+        "메모리 cycle 연장 가능성"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "T6",
+      "claim_id": "T6",
+      "title": "SOCAMM 모듈 수 Vera CPU 랙 1개당 2,048개 — 기존 서버랙 288개 대비 7배 증가",
+      "claim": "Vera CPU 기반 랙에는 SOCAMM 모듈이 약 2,048개 필요하며, 이는 기존 서버랙 평균(288개) 대비 7배 이상 증가. AI 서버 진화에 따라 메모리 연결 구조 자체가 폭증.",
+      "type": "factual",
+      "timeframe": "2026-2027",
+      "verifiability": "medium",
+      "supporting_evidence": [
+        "NVIDIA Vera CPU 랙 아키텍처 (LPDDR DIMM-style 모듈 배치)",
+        "AI 서버 BOM 분해 (시스템 통합 사업자 자료)"
+      ],
+      "implied_directionality": "++",
+      "affected_areas": [
+        "SOCAMM 기판 업체",
+        "PCB 후공정",
+        "메모리 모듈 조립"
+      ],
+      "importance": "core"
+    },
+    {
+      "id": "T7",
+      "claim_id": "T7",
+      "title": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억원 (+141% YoY) — 본 게임 시작 전 단계",
+      "claim": "SOCAMM 기판 시장은 2026년 약 1,417억원에서 2027년 3,410억원 수준까지 성장 전망. 추가로 Vera CPU 외판 시 3,200만 개 (약 2,800억원) 신규 시장이 더 열림.",
+      "type": "predictive",
+      "timeframe": "2026-2027 (단기)",
+      "verifiability": "medium",
+      "supporting_evidence": [
+        "기판 단가 × 모듈 수 추정",
+        "Vera CPU 외판 시나리오 (Bull case)"
+      ],
+      "implied_directionality": "++",
+      "affected_areas": [
+        "국내 SOCAMM 기판 업체",
+        "PCB 매출 구조 변화"
+      ],
+      "importance": "core"
+    },
+    {
+      "id": "T8",
+      "claim_id": "T8",
+      "title": "시장 시선의 비대칭 — GPU·HBM에만 집중, LPDDR·SOCAMM 같은 병목 영역이 멀티플 재평가의 대상",
+      "claim": "시장은 늘 '눈에 보이는 것(GPU·HBM)'만 먼저 반영하며 LPDDR과 SOCAMM 같은 주변부는 인지가 늦다. 과거 스마트폰 시대 MLCC/카메라/RF/기판 업체가 거대 사이클의 수혜를 받은 것처럼, AI 시대에도 동일한 패턴이 재현될 가능성.",
+      "type": "normative",
+      "timeframe": "2026-2028 (점진적 인지)",
+      "verifiability": "medium",
+      "supporting_evidence": [
+        "역사적 패턴 (스마트폰 cycle MLCC/카메라/기판 outperform)",
+        "현재 LPDDR/SOCAMM 관련주 valuation premium 미반영 상태"
+      ],
+      "implied_directionality": "+",
+      "affected_areas": [
+        "멀티플 재평가 잠재 영역",
+        "테마 ETF 자금 흐름",
+        "Sell-side 커버리지 확대"
+      ],
+      "importance": "secondary"
+    }
+  ]
+}

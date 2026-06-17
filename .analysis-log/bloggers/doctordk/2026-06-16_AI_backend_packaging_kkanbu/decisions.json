@@ -1,0 +1,132 @@
+{
+  "computed_at": "2026-06-16T15:00:00+09:00",
+  "n_decisions": 6,
+  "decisions": [
+    {
+      "ticker": "042700.KS",
+      "name": "한미반도체",
+      "action": "BUY",
+      "decision": "BUY",
+      "signal_score": 0.688,
+      "components": {
+        "persona_confidence": 0.598,
+        "verdict_bias": 0.662,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.5
+      },
+      "current_price": 319500.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 95,
+      "target_quantity": 95,
+      "target_value": 22000,
+      "position_limit_value": 22000,
+      "primary_risks": "042700.KS score=0.688 (BUY) — 확신 0.60 + bias 0.66 + 정렬 1.0 + 밸류 0.5",
+      "rationale": "042700.KS score=0.688 (BUY) — 확신 0.60 + bias 0.66 + 정렬 1.0 + 밸류 0.5"
+    },
+    {
+      "ticker": "007660.KS",
+      "name": "이수페타시스",
+      "action": "BUY",
+      "decision": "BUY",
+      "signal_score": 0.763,
+      "components": {
+        "persona_confidence": 0.645,
+        "verdict_bias": 0.85,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.5
+      },
+      "current_price": 125200.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 242,
+      "target_quantity": 242,
+      "target_value": 22000,
+      "position_limit_value": 22000,
+      "primary_risks": "007660.KS score=0.763 (BUY) — 확신 0.65 + bias 0.85 + 정렬 1.0 + 밸류 0.5",
+      "rationale": "007660.KS score=0.763 (BUY) — 확신 0.65 + bias 0.85 + 정렬 1.0 + 밸류 0.5"
+    },
+    {
+      "ticker": "033640.KQ",
+      "name": "네패스",
+      "action": "HOLD",
+      "decision": "HOLD",
+      "signal_score": 0.617,
+      "components": {
+        "persona_confidence": 0.553,
+        "verdict_bias": 0.585,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.5
+      },
+      "current_price": 38100.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 796,
+      "target_quantity": 796,
+      "target_value": 22000,
+      "position_limit_value": 22000,
+      "primary_risks": "033640.KQ score=0.617 (HOLD) — 확신 0.55 + bias 0.58 + 정렬 0.85 + 밸류 0.5",
+      "rationale": "033640.KQ score=0.617 (HOLD) — 확신 0.55 + bias 0.58 + 정렬 0.85 + 밸류 0.5"
+    },
+    {
+      "ticker": "131970.KQ",
+      "name": "두산테스나",
+      "action": "HOLD",
+      "decision": "HOLD",
+      "signal_score": 0.602,
+      "components": {
+        "persona_confidence": 0.551,
+        "verdict_bias": 0.538,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.5
+      },
+      "current_price": 148400.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 204,
+      "target_quantity": 204,
+      "target_value": 22000,
+      "position_limit_value": 22000,
+      "primary_risks": "131970.KQ score=0.602 (HOLD) — 확신 0.55 + bias 0.54 + 정렬 0.85 + 밸류 0.5",
+      "rationale": "131970.KQ score=0.602 (HOLD) — 확신 0.55 + bias 0.54 + 정렬 0.85 + 밸류 0.5"
+    },
+    {
+      "ticker": "330860.KQ",
+      "name": "네패스아크",
+      "action": "HOLD",
+      "decision": "HOLD",
+      "signal_score": 0.645,
+      "components": {
+        "persona_confidence": 0.568,
+        "verdict_bias": 0.608,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.65
+      },
+      "current_price": 50000.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 607,
+      "target_quantity": 607,
+      "target_value": 22000,
+      "position_limit_value": 22000,
+      "primary_risks": "330860.KQ score=0.645 (HOLD) — 확신 0.57 + bias 0.61 + 정렬 0.85 + 밸류 0.65",
+      "rationale": "330860.KQ score=0.645 (HOLD) — 확신 0.57 + bias 0.61 + 정렬 0.85 + 밸류 0.65"
+    },
+    {
+      "ticker": "126340.KQ",
+      "name": "비나텍",
+      "action": "AVOID",
+      "decision": "AVOID",
+      "signal_score": 0.489,
+      "components": {
+        "persona_confidence": 0.543,
+        "verdict_bias": 0.338,
+        "thesis_alignment_score": 0.6,
+        "valuation_discount": 0.5
+      },
+      "current_price": 124700.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 243,
+      "target_quantity": 0,
+      "target_value": 0,
+      "position_limit_value": 22000,
+      "primary_risks": "126340.KQ score=0.489 (AVOID) — 확신 0.54 + bias 0.34 + 정렬 0.6 + 밸류 0.5",
+      "rationale": "126340.KQ score=0.489 (AVOID) — 확신 0.54 + bias 0.34 + 정렬 0.6 + 밸류 0.5"
+    }
+  ]
+}

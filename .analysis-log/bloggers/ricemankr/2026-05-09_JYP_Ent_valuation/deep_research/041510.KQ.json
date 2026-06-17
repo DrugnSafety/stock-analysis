@@ -1,0 +1,215 @@
+{
+  "industry": {
+    "name": "K-POP Entertainment + Fan Platform (디어유)",
+    "overview": "SM은 SM 3.0 멀티 레이블 체제로 RIIZE·aespa·NCT·SHINee·EXO 등 멀티 IP 운영. 디어유(376300.KQ) 23.3% 보유로 Bubble 플랫폼 노출. 카카오와의 음원 협력 deepening.",
+    "competitors": [
+      {
+        "name": "HYBE",
+        "market_share_pct": 35,
+        "strength": "BTS·1위",
+        "weakness": "BTS 의존"
+      },
+      {
+        "name": "JYP",
+        "market_share_pct": 20,
+        "strength": "다국적 라인업·무차입",
+        "weakness": "스트레이키즈 의존"
+      },
+      {
+        "name": "YG",
+        "market_share_pct": 13,
+        "strength": "BLACKPINK",
+        "weakness": "단일 의존"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-30",
+        "title": "RIIZE 일본 데뷔 — 첫 미니앨범 오리콘 1위",
+        "source": "SM IR"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "aespa 글로벌 투어 25개 도시 발표",
+        "source": "SM IR"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "SM × 카카오 음원 통합 마케팅 deepening",
+        "source": "조선비즈"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 12.8,
+      "cagr_pct": 14.4,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2020,
+        "revenue": 7000,
+        "op_income": 656,
+        "op_margin": 9.4,
+        "net_income": 372,
+        "net_margin": 5.3
+      },
+      {
+        "year": 2021,
+        "revenue": 7053,
+        "op_income": 685,
+        "op_margin": 9.7,
+        "net_income": 399,
+        "net_margin": 5.7
+      },
+      {
+        "year": 2022,
+        "revenue": 8483,
+        "op_income": 919,
+        "op_margin": 10.8,
+        "net_income": 689,
+        "net_margin": 8.1
+      },
+      {
+        "year": 2023,
+        "revenue": 9558,
+        "op_income": 1135,
+        "op_margin": 11.9,
+        "net_income": 727,
+        "net_margin": 7.6
+      },
+      {
+        "year": 2024,
+        "revenue": 9300,
+        "op_income": 950,
+        "op_margin": 10.2,
+        "net_income": 700,
+        "net_margin": 7.5
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2024-12-31",
+      "total_assets_bn_krw": 12500,
+      "total_liabilities_bn_krw": 4500,
+      "total_equity_bn_krw": 8000,
+      "cash_bn_krw": 3200,
+      "debt_bn_krw": 2500,
+      "net_debt_pct_of_equity": -8.8
+    },
+    "cf_summary": {
+      "ocf_2024_bn_krw": 1450,
+      "fcf_2024_bn_krw": 1350,
+      "capex_2024_bn_krw": 100,
+      "fcf_margin_pct": 14.5
+    },
+    "peer_compare": [
+      {
+        "ticker": "041510.KQ",
+        "name": "SM",
+        "fwd_pe": 13.27,
+        "roe_pct": 12,
+        "debt_to_equity_pct": -10,
+        "fcf_margin_pct": 14.5
+      },
+      {
+        "ticker": "035900.KQ",
+        "name": "JYP",
+        "fwd_pe": 14.06,
+        "roe_pct": 19,
+        "debt_to_equity_pct": -58,
+        "fcf_margin_pct": 22.6
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 130000,
+      "thesis": "RIIZE·aespa hit + 디어유 retention 90%+ + 카카오 협력 매출 +20%",
+      "horizon": "12-18M"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 105000,
+      "thesis": "SM 3.0 안정화 + NCT 정상화 + 디어유 안정 성장",
+      "horizon": "12-18M"
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 75000,
+      "thesis": "SHINee/EXO 회복 미흡 + NCT 분산 지속 + 디어유 fatigue",
+      "horizon": "12-18M"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "RIIZE 일본 투어 hit",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "신인 그룹 본격 매출 contribution"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "aespa 25개 도시 글로벌 투어",
+      "type": "blockbuster",
+      "expected_impact": "++",
+      "description": "분기 매출 +25~35% 가능"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "카카오 협력 음원 통합 매출",
+      "type": "growth",
+      "expected_impact": "+",
+      "description": "음원 점유율 +5~8%pt"
+    }
+  ],
+  "risks": [
+    {
+      "name": "NCT 시스템 분산",
+      "probability": "high",
+      "impact": "med",
+      "description": "11팀 동시 운영으로 팬덤 분산 → 단일 그룹 매출 동력 약화",
+      "mitigation": "SM 3.0 멀티 레이블로 일부 hedge"
+    },
+    {
+      "name": "1Y -24% 모멘텀 약화",
+      "probability": "high",
+      "impact": "med",
+      "description": "4사 중 최악의 1년 성과",
+      "mitigation": "1M +6% 회복 시작"
+    },
+    {
+      "name": "이수만 vs 카카오 분쟁 잔존 noise",
+      "probability": "low",
+      "impact": "med",
+      "description": "거버넌스 변동 가능성",
+      "mitigation": "2024년 이후 정상화 진행"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "디어유 23.3% 보유로 Bubble 플랫폼 노출",
+      "type": "factual",
+      "evidence": "SM 사업보고서 + 디어유 지분 공시",
+      "testability": "high",
+      "current_status": "verified"
+    },
+    {
+      "claim": "1M +6% 회복 — 4사 중 가장 강한 단기 모멘텀",
+      "type": "factual",
+      "evidence": "yfinance live data 2026-05-08",
+      "testability": "high",
+      "current_status": "verified"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-28",
+      "type": "분기보고서",
+      "title": "1Q26 매출 2,300억 (yoy +5%)",
+      "url": "DART"
+    }
+  ]
+}

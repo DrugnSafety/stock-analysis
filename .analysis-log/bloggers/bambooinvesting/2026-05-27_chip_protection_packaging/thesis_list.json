@@ -1,0 +1,145 @@
+{
+  "blogger": "bambooinvesting",
+  "post_url": "https://blog.naver.com/bambooinvesting/224298383375",
+  "title": "칩이 비싸질수록, 왜 칩이 아닌 것들이 오르는 걸까?",
+  "extraction_method": "claude-opus-4.6",
+  "extracted_at": "2026-05-27",
+  "theses": [
+    {
+      "claim_id": "T1",
+      "thesis": "AI 반도체 경쟁의 무게중심이 '더 빠른 칩'에서 '비싸진 칩을 살려두는 시스템(패키징·기판·전력·열·검사)'으로 구조적으로 이동하고 있다.",
+      "type": "structural_shift",
+      "timeframe": "medium_long (12-36M)",
+      "supporting_evidence": [
+        "단일 다이 → 패키지 시스템(HBM, CoWoS, advanced packaging)으로 산업 표준 이동",
+        "삼성전기 주가 27만→160만원 (5배), LG이노텍 4배 상승 — 칩 자체가 아닌 보호·연결 부품에 자금 흐름",
+        "FC-BGA, MLCC, 실리콘 커패시터의 패키지 내부 침투 가속화"
+      ],
+      "implied_winners": [
+        "삼성전기",
+        "LG이노텍",
+        "프로브카드 업체",
+        "HBM tester",
+        "패키지 검사 장비"
+      ],
+      "implied_losers": [
+        "순수 칩 설계만 하는 fabless 중 차별화 약한 곳",
+        "범용 PCB"
+      ],
+      "importance": "core"
+    },
+    {
+      "claim_id": "T2",
+      "thesis": "칩 가격이 비싸질수록 '칩을 잃는 비용'이 칩 가격을 추월하기 시작하며, 검사 장비·커패시터·냉각·전력 안정화 부품의 단위 가치가 비대칭적으로 재평가된다.",
+      "type": "economic_mechanism",
+      "timeframe": "medium (6-18M)",
+      "supporting_evidence": [
+        "HBM/AI ASIC은 수십 개 다이를 적층 — 단 하나의 불량 시 수백만 원 패키지 전체 폐기",
+        "1.5조원 규모 실리콘 커패시터 공급계약 — 'GPU/HBM 패키지 내부' 전력 안정화 부품의 가치 상승 증거",
+        "비싼 그림이 걸리면 액자·못의 중요도가 달라진다는 비유 — 보호 대상 가치 ↑ → 보호 도구 가치 ↑"
+      ],
+      "implied_winners": [
+        "실리콘 커패시터(삼성전기)",
+        "프로브카드",
+        "MLCC",
+        "검사·테스트 장비"
+      ],
+      "implied_losers": [],
+      "importance": "support"
+    },
+    {
+      "claim_id": "T3",
+      "thesis": "삼성전기는 AI 패키지 sustaining 핵심 부품(FC-BGA, MLCC, 실리콘 커패시터)을 모두 자체 생산하는 유일한 글로벌 부품사로서 가격 결정력(pricing power)을 확보했다.",
+      "type": "company_specific",
+      "timeframe": "short_medium (3-12M)",
+      "supporting_evidence": [
+        "SK증권: 삼성전기 MLCC 가격 인상 사이클 초입, 목표주가 200만원 제시",
+        "AI 기판 수요가 회사 생산능력 50% 이상 초과 — supply-bottleneck 가격결정력 확보",
+        "이미 일부 제품 가격 인상 완료 + 추가 인상 협의 중 (수요 inelasticity 입증)",
+        "글로벌 부품사 중 유일하게 MLCC + FCBGA + 실리콘 커패시터 통합 — vertical integration moat"
+      ],
+      "implied_winners": [
+        "삼성전기"
+      ],
+      "implied_losers": [
+        "MLCC 단일 경쟁사(무라타, TDK 등 일본 — 통합 부재)"
+      ],
+      "importance": "core"
+    },
+    {
+      "claim_id": "T4",
+      "thesis": "LG이노텍은 ABF 기판·고난도 PCB 영역에서 글로벌 2위 입지를 확보하며 AI 패키징 capex 사이클의 직접 수혜를 받고 있다.",
+      "type": "company_specific",
+      "timeframe": "medium (6-18M)",
+      "supporting_evidence": [
+        "주가 4배 상승 — 시장의 LG이노텍 AI 패키징 직접 노출 인식",
+        "삼성전기·이비덴(Ibiden)·신코덴키(Shinko)와 함께 글로벌 ABF 4강",
+        "AI GPU 패키지 size 확대 → ABF 기판 면적·층수 증가 → 단위 ASP 상승 trend"
+      ],
+      "implied_winners": [
+        "LG이노텍"
+      ],
+      "implied_losers": [],
+      "importance": "support"
+    },
+    {
+      "claim_id": "T5",
+      "thesis": "한국 반도체 후공정·검사 생태계(프로브카드, 테스트 소켓, 번인 보드)는 AI 패키지 단가 상승의 비대칭 수혜를 받으며, 시장은 아직 이 영역의 ASP·점유율 재평가를 충분히 반영하지 못했다.",
+      "type": "predictive",
+      "timeframe": "medium_long (12-24M)",
+      "supporting_evidence": [
+        "HBM 다이 검사 횟수 증가 (수직 적층 12~16Hi 기준) — 프로브카드 ASP·교체 주기 단축",
+        "삼성전기·LG이노텍은 1차 수혜 — 시장이 알아챔, 검사 영역은 시차 존재",
+        "블로그 추정 'next theme = 냉각·광통신'이 아니라 검사·전력 안정화가 진짜 신호"
+      ],
+      "implied_winners": [
+        "티에스이",
+        "ISC",
+        "리노공업",
+        "테스나"
+      ],
+      "implied_losers": [],
+      "importance": "support"
+    },
+    {
+      "claim_id": "T6",
+      "thesis": "AI 데이터센터 전력 인프라(HVDC, 변압기, 스위치기어)는 chip 보호의 가장 바깥쪽 layer로 가격 결정력 재평가가 시작되었다.",
+      "type": "structural_shift",
+      "timeframe": "long (18-60M)",
+      "supporting_evidence": [
+        "AI 데이터센터 1대당 100MW급 전력 요구 — 전력 부족이 chip 출하 병목",
+        "전력 안정화 실패 → 칩 손상 시 손실 폭 — 'chip 보호' 범위가 패키지에서 dc전력으로 확장",
+        "한국 LS ELECTRIC·HD현대일렉트릭 등 글로벌 변압기·HVDC 수출 사이클 진입"
+      ],
+      "implied_winners": [
+        "LS ELECTRIC",
+        "HD현대일렉트릭",
+        "효성중공업"
+      ],
+      "implied_losers": [],
+      "importance": "core"
+    },
+    {
+      "claim_id": "T7",
+      "thesis": "단일 칩이 아닌 패키지 시스템 시대에서는 가격 결정력의 출처가 '독점 기술'에서 '패키지 내부에 침투한 부품(integrated-into-package)'으로 이동한다.",
+      "type": "predictive",
+      "timeframe": "medium_long (12-36M)",
+      "supporting_evidence": [
+        "삼성전기 실리콘 커패시터는 GPU/HBM 패키지 '내부에 설계되어' 들어감 — 단순 부품에서 시스템 핵심 모듈로 변환",
+        "design-in lock-in → 가격 인상 협상력 ↑, switching cost ↑",
+        "MLCC도 PCB 표면에서 substrate 매립(embedded) 방향으로 진화"
+      ],
+      "implied_winners": [
+        "embedded passive 업체",
+        "실리콘 커패시터",
+        "FC-BGA 통합 업체"
+      ],
+      "implied_losers": [
+        "표면실장 단순 부품 업체"
+      ],
+      "importance": "support"
+    }
+  ],
+  "thesis_count": 7,
+  "extraction_quality_note": "블로그가 narrative-driven이지만 SK증권 reports·삼성전기 capex 데이터·1.5조 실리콘 커패시터 계약 등 검증 가능 evidence 풍부. T1·T3은 high-confidence, T6·T7은 framework-level — 4-Analyst 검증 필요."
+}

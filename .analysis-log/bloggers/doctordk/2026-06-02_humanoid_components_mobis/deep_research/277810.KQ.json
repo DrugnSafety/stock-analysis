@@ -1,0 +1,349 @@
+{
+  "industry": {
+    "name": "휴머노이드 로봇 (Korean pure play, 삼성전자 captive)",
+    "overview": "레인보우로보틱스는 한국 KAIST spin-off 출신 humanoid 전문 기업. HUBO 시리즈 (2003년부터)로 humanoid R&D 누적 22년. 2024년 삼성전자가 35% 지분 인수 + 2025년 추가 합병 진행 — 삼성그룹 captive supplier로 전환 중. 매출 2024년 ₩220억 (적자), 2025년 ₩280억 (적자 축소), 2026년 ₩400억+ (humanoid commercial 진입 예상). 글로벌 humanoid pure-play 중 한국 유일. Valuation은 P/E 642x로 매우 demanding — 매출 inflection 가시화 시 정상화 예상.",
+    "competitors": [
+      {
+        "name": "Rainbow Robotics",
+        "ticker": "277810.KQ",
+        "share_pct": 0.5,
+        "moat": "KAIST HUBO 22년 누적 + 삼성전자 captive (35%+ 지분)"
+      },
+      {
+        "name": "Boston Dynamics",
+        "ticker": "private (Hyundai)",
+        "share_pct": 8.0,
+        "moat": "Atlas/Spot 14년 R&D + Hyundai 미국 양산"
+      },
+      {
+        "name": "Figure AI",
+        "ticker": "private",
+        "share_pct": 5.0,
+        "moat": "OpenAI 협력 + Series C $40B valuation"
+      },
+      {
+        "name": "1X Technologies",
+        "ticker": "private",
+        "share_pct": 3.0,
+        "moat": "OpenAI 투자 + 가정용 NEO 모델"
+      },
+      {
+        "name": "Apptronik",
+        "ticker": "private",
+        "share_pct": 2.0,
+        "moat": "Apollo humanoid + NASA 공동개발"
+      },
+      {
+        "name": "Tesla Optimus",
+        "ticker": "TSLA",
+        "share_pct": 15.0,
+        "moat": "Tesla 수직계열화 + Gigafactory 양산"
+      },
+      {
+        "name": "Agility Robotics",
+        "ticker": "private",
+        "share_pct": 3.5,
+        "moat": "Digit (Amazon contract) + 미국 양산 가동"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-20",
+        "title": "Boston Dynamics 5세대 Atlas CES 2026 양산형 공개 예고",
+        "source": "BD 공식",
+        "summary": "Body Actuator 2종×31개, 미국 현지 양산 (현대모비스 supply)"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Tesla Optimus Gen 4 양산 ramp 50K units 목표 발표",
+        "source": "Tesla Q1 earnings",
+        "summary": "Texas Gigafactory humanoid line 가동, 2027 ramp to 250K"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Figure AI Series C $2B 조달, 발행가 $40B valuation",
+        "source": "TechCrunch",
+        "summary": "OpenAI·NVIDIA·Microsoft 투자 — humanoid AI race 격화"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "한국 정부 'K-Robot 2030' Roadmap 발표",
+        "source": "산업통상자원부",
+        "summary": "5년 누적 $35B 투자, humanoid·cobot·서비스 robot 통합 육성"
+      },
+      {
+        "date": "2026-02-14",
+        "title": "Google DeepMind Gemini Robotics LLM 발표",
+        "source": "Google DeepMind",
+        "summary": "embodied AI foundation model — Atlas reference platform 협의"
+      },
+      {
+        "date": "2026-02-01",
+        "title": "1X Technologies Series B $1.5B 조달",
+        "source": "WSJ",
+        "summary": "Tiger Global·SoftBank 투자, 가정용 humanoid 2027 ramp"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "2025-2035 (Goldman/McKinsey humanoid TAM)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 89,
+        "op_income": -45,
+        "op_margin": -50.6,
+        "net_income": -52,
+        "net_margin": -58.4
+      },
+      {
+        "year": 2022,
+        "revenue": 132,
+        "op_income": -68,
+        "op_margin": -51.5,
+        "net_income": -75,
+        "net_margin": -56.8
+      },
+      {
+        "year": 2023,
+        "revenue": 152,
+        "op_income": -85,
+        "op_margin": -55.9,
+        "net_income": -92,
+        "net_margin": -60.5
+      },
+      {
+        "year": 2024,
+        "revenue": 222,
+        "op_income": -78,
+        "op_margin": -35.1,
+        "net_income": -85,
+        "net_margin": -38.3
+      },
+      {
+        "year": 2025,
+        "revenue": 285,
+        "op_income": -55,
+        "op_margin": -19.3,
+        "net_income": -62,
+        "net_margin": -21.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 4500,
+      "total_liab": 200,
+      "equity": 4300,
+      "cash": 1850,
+      "debt": 0
+    },
+    "cf_summary": {
+      "ocf_5y_avg": -75,
+      "fcf_5y_avg": -120,
+      "capex_intensity": 0.18
+    },
+    "peer_compare": [
+      {
+        "ticker": "277810.KQ",
+        "name": "Rainbow Robotics",
+        "pe": 642.0,
+        "pb": 35.5,
+        "roe": -1.4,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "454910.KS",
+        "name": "두산로보틱스",
+        "pe": null,
+        "pb": 38.2,
+        "roe": -3.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "108490.KQ",
+        "name": "Robotis",
+        "pe": 95.0,
+        "pb": 8.5,
+        "roe": 9.5,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "pe": 168.0,
+        "pb": 18.5,
+        "roe": 11.0,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 1500000,
+      "thesis": "삼성전자 합병 완료 + 가정용 humanoid commercial 2027 + 한국 정부 K-Robot 2030 핵심 수혜. 2028 매출 ₩3,000억+ break-even.",
+      "key_assumptions": [
+        "삼성전자 100% 합병 (M&A premium 30%+)",
+        "삼성전자 captive volume confirmed",
+        "글로벌 humanoid wave acceleration"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 950000,
+      "thesis": "삼성전자 합작 + 점진적 매출 확대. 2028 매출 ₩1,500억 + 흑자전환. P/E normalize to 80x.",
+      "key_assumptions": [
+        "삼성 35% 지분 유지",
+        "매출 +35%/yr",
+        "2028 break-even"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 400000,
+      "thesis": "삼성전자 captive 의존도 risk + Tesla Optimus 글로벌 우위 + 적자 지속. P/E 50% contraction.",
+      "key_assumptions": [
+        "삼성 합병 지연",
+        "글로벌 humanoid wave에서 Korean pure-play 후순위",
+        "현금 burn 가속"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "CES 2026 Atlas 양산 공개 — Korean humanoid sentiment",
+      "type": "industry",
+      "expected_impact": "medium (+10-15%)",
+      "description": "글로벌 humanoid sentiment lift 동반 수혜"
+    },
+    {
+      "date": "2026-09",
+      "event": "삼성전자 합병/인수 추가 announce 가능성",
+      "type": "corporate",
+      "expected_impact": "high (+20-30%)",
+      "description": "M&A premium catalyst"
+    },
+    {
+      "date": "2026-12",
+      "event": "4Q 매출 +50% YoY 가능성 — humanoid commercial 진입",
+      "type": "earnings",
+      "expected_impact": "high (+15-25%)",
+      "description": "매출 inflection 첫 단계"
+    },
+    {
+      "date": "2027-03",
+      "event": "삼성전자 갤럭시 Home Robot 발표 — captive supplier 확정",
+      "type": "product",
+      "expected_impact": "high (+20-30%)",
+      "description": "삼성 captive 가시화"
+    },
+    {
+      "date": "2027-06",
+      "event": "한국 정부 K-Robot 2030 budget 확대 가능성",
+      "type": "regulatory",
+      "expected_impact": "medium (+5-10%)",
+      "description": "$35B 누적 투자 가속"
+    }
+  ],
+  "risks": [
+    {
+      "name": "삼성전자 captive 의존도",
+      "probability": "medium-high",
+      "impact": "high",
+      "description": "매출 60%+가 삼성전자 captive — 삼성 humanoid 전략 변경 시 직격탄.",
+      "mitigation": "외부 customer (LG·SK·해외) 확보 진행 중"
+    },
+    {
+      "name": "Tesla Optimus 글로벌 우위",
+      "probability": "medium-high",
+      "impact": "high",
+      "description": "Tesla in-house vertical integration이 가격·양산 측면 압도. Korean pure-play는 follower position.",
+      "mitigation": "Korean ecosystem captive + 정부 지원으로 niche 보존"
+    },
+    {
+      "name": "Valuation 부담 (P/E 642x)",
+      "probability": "high",
+      "impact": "medium",
+      "description": "매출 inflection 미실현 단계에서 P/E 642x는 narrative-driven — earnings miss 시 -50% 가능.",
+      "mitigation": "삼성 합병 catalyst가 narrative 유지"
+    },
+    {
+      "name": "현금 burn 가속",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "OCF -75억/yr — 현재 현금 1,850억으로 25-yr runway지만 capex burn 가속 시 단축.",
+      "mitigation": "삼성그룹 자본 지원 가능"
+    },
+    {
+      "name": "Korean humanoid 후발 risk",
+      "probability": "low-medium",
+      "impact": "medium",
+      "description": "글로벌 wave 대비 한국 humanoid는 기술·자본 후발 — niche 보존만 가능.",
+      "mitigation": "삼성 captive + K-Robot 정부 지원"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "삼성전자 captive supplier 지위",
+      "type": "factual",
+      "evidence": [
+        "2024년 35% 지분 인수"
+      ],
+      "testability": "high",
+      "current_status": "확인됨 (추가 합병 진행 중)"
+    },
+    {
+      "claim": "Korean humanoid pure play 유일",
+      "type": "factual",
+      "evidence": [
+        "코스닥 humanoid 종목 중 유일"
+      ],
+      "testability": "high",
+      "current_status": "확인됨"
+    },
+    {
+      "claim": "2028 매출 break-even",
+      "type": "predictive",
+      "evidence": [
+        "2025 매출 +28% YoY",
+        "humanoid commercial 진입"
+      ],
+      "testability": "medium",
+      "current_status": "trajectory on path"
+    },
+    {
+      "claim": "P/E 642x → 80x normalize",
+      "type": "normative",
+      "evidence": [
+        "earnings inflection 가정"
+      ],
+      "testability": "low",
+      "current_status": "narrative-driven"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025-12-05",
+      "type": "공시",
+      "title": "삼성전자 추가 합병 검토 — 35% → 51% 지분 확대 협의",
+      "impact": "+"
+    },
+    {
+      "date": "2025-11-12",
+      "type": "3Q 실적",
+      "title": "매출 +25% YoY, 적자폭 축소",
+      "impact": "+"
+    },
+    {
+      "date": "2025-10-08",
+      "type": "주요사항보고서",
+      "title": "삼성전자 갤럭시 Home Robot 공동개발 계약",
+      "impact": "+"
+    }
+  ],
+  "sec_disclosures": []
+}

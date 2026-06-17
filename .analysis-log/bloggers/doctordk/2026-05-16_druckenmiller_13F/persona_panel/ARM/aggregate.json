@@ -1,0 +1,392 @@
+{
+  "ticker": "ARM",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    }
+  },
+  "average_confidence": 0.657,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "forward P/E 68x 부담",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "ben-graham",
+        "michael-burry",
+        "peter-lynch",
+        "mohnish-pabrai",
+        "nassim-taleb",
+        "aswath-damodaran"
+      ]
+    },
+    {
+      "theme": "SoftBank 90% 지분 supply overhang",
+      "frequency": 5,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "nassim-taleb",
+        "bill-ackman"
+      ]
+    }
+  ],
+  "unique_alpha": [
+    {
+      "persona_id": "cathie-wood",
+      "verdict": "lean_bullish",
+      "alpha": "compute architecture disruption + ARM 점유율 exponential"
+    }
+  ],
+  "aggregated_at": "2026-05-17T11:45:09.339646+09:00",
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] PEG 약 2.7 (P/E 68 / growth 25%) — 'too rich for growth'",
+        "[inference] 'fast grower' 카테고리이나 가격 prohibitive",
+        "[actual] 단, IP licensing 사업의 'scalability' 매력"
+      ],
+      "key_opportunities_top3": [
+        "[actual] fast grower 카테고리이나 P/E 부담",
+        "[inference] data center ARM 점유율 확대",
+        "[actual] R&D 22% innovation"
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] 'India AI ARM' 정책 친화",
+        "[inference] SoftBank Granado 인도 partnership 잠재",
+        "[actual] P/E 68x 부담"
+      ],
+      "key_opportunities_top3": [
+        "[actual] India AI 정책 친화",
+        "[inference] SoftBank Granado partnership",
+        "[actual] data center 확장"
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] P/E 68x — 'fishing in the same pond as everyone'",
+        "[inference] x86·RISC-V 경쟁 risk",
+        "[actual] SoftBank 지분 매도 압박"
+      ],
+      "key_opportunities_top3": [
+        "[inference] CPU IP licensing의 'compound' 특성",
+        "[actual] AI 효율 thesis 명확",
+        "[inference] long-term royalty stream"
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] P/E 68x = upside 제한 + downside 큼 — asymmetric 'losing tail'",
+        "[inference] 'in the too hard pile'",
+        "[actual] SoftBank supply overhang"
+      ],
+      "key_opportunities_top3": [
+        "[inference] high valuation despite quality — asymmetric 'losing'",
+        "[actual] IP licensing 안정",
+        "[inference] long-tail growth optionality"
+      ]
+    },
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] forward P/E 68x — Buffett 기준에서 'too rich, never look'",
+        "[inference] SoftBank 90% 지분 — supply overhang risk",
+        "[actual] royalty 모델은 견고하나 매출 규모 작음 ($4B)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] IP licensing 사업의 'asset-light' 특성은 Buffett 친화",
+        "[actual] R&D 22%로 long-term moat 구축",
+        "[inference] data center 확장은 long-term thesis"
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] 신규 편입 — '저전력 효율' macro thesis",
+        "[inference] P/E 68x는 비싸지만 'long-tail growth' 베팅",
+        "[actual] 작은 position size로 risk 관리"
+      ],
+      "key_opportunities_top3": [
+        "[actual] '신규 편입 conviction'",
+        "[inference] 효율 경쟁 macro thesis",
+        "[actual] small position macro bet"
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "빌 액크만",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] '낮은 capital intensity + high margin' — 매력적",
+        "[inference] 단 SoftBank dominance로 activist 개입 불가",
+        "[actual] P/E 68x 부담"
+      ],
+      "key_opportunities_top3": [
+        "[actual] high margin IP licensing model",
+        "[inference] capital-light compounder",
+        "[actual] valuation 부담"
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[actual] R&D 22% — Fisher 좋아하는 수준",
+        "[inference] IP licensing 사업은 'asset-light compounder'의 정수",
+        "[actual] 단 P/E 68x — entry timing 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[actual] R&D 22% — Fisher 좋아하는 수준",
+        "[inference] IP licensing의 long-term royalty 기반",
+        "[actual] data center 확장 모멘텀"
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] P/E 68x + SoftBank dominance = '거품 그 자체'",
+        "[inference] short opportunity 검토 대상",
+        "[actual] insider selling pattern monitoring 필요"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'short opportunity' 검토 대상",
+        "[actual] short SoftBank 패턴 활용 가능",
+        "[inference] RISC-V disruption tail"
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] P/E 68x — Graham 절대 회피 멀티플",
+        "[inference] 'growth at any price' 영역",
+        "[actual] dividend X, FCF 약함"
+      ],
+      "key_opportunities_top3": [
+        "[actual] high R&D + high margin 사업 특성",
+        "[inference] IP licensing 안정",
+        "[actual] 단 valuation 부담"
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] 'compute architecture disruption' — ARK 매우 친화",
+        "[actual] data center ARM 점유율 5% → 20%+ — exponential adoption",
+        "[inference] 5Y 3x potential"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'compute architecture disruption' 직접 수혜",
+        "[actual] data center ARM exponential adoption",
+        "[inference] 5Y 3x potential"
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "아스왓 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] DCF로 30%/yr growth 30년 가정해도 fair value $130 — 현재 $209 매우 고평가",
+        "[inference] 시장 가격이 'narrative premium' 50% 반영",
+        "[actual] '비싸도 좋은 기업' 가능하나 valuation 부담"
+      ],
+      "key_opportunities_top3": [
+        "[inference] DCF로 50%+ premium — 추가 upside 어려움",
+        "[actual] IP licensing 안정",
+        "[inference] narrative dependency 높음"
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] P/E 68x = 'tail risk concentration'",
+        "[inference] RISC-V 등장 시 ARM 점유율 disruption tail risk",
+        "[actual] 'don't follow the crowd into fragility'"
+      ],
+      "key_opportunities_top3": [
+        "[inference] high quality optionality는 인정 — 단 가격 부담",
+        "[actual] IP licensing의 stable royalty",
+        "[inference] long-term option value"
+      ]
+    }
+  }
+}

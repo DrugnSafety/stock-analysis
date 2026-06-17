@@ -1,0 +1,356 @@
+{
+  "industry": {
+    "name": "협동로봇 + 휴머노이드 (Doosan Group 산하 신규 IPO)",
+    "overview": "두산로보틱스는 2023-10 코스피 상장한 Korean cobot 1위 (글로벌 cobot 6위). 두산그룹 신규 성장 동력으로, 의료/F&B/제조 cobot 라인업 확대 중. 2024년 매출 ₩680억 (적자), 2025년 ₩820억 (적자 축소). 2026년부터 휴머노이드 분야 진출 예고 — humanoid arm/end-effector + cobot platform 합산 전략. ABB·KUKA·Universal Robots 등 글로벌 cobot 경쟁사 대비 한국 시장 점유 1위 + 글로벌 진출 단계.",
+    "competitors": [
+      {
+        "name": "두산로보틱스",
+        "ticker": "454910.KS",
+        "share_pct": 5.0,
+        "moat": "한국 cobot 1위 + 두산그룹 자본 + IPO 후 capex 가속"
+      },
+      {
+        "name": "Universal Robots",
+        "ticker": "private (Teradyne)",
+        "share_pct": 35.0,
+        "moat": "글로벌 cobot 1위, 5kg 이하 시장 압도"
+      },
+      {
+        "name": "FANUC",
+        "ticker": "6954.T",
+        "share_pct": 18.0,
+        "moat": "글로벌 산업로봇 1위, cobot/humanoid 확장"
+      },
+      {
+        "name": "ABB",
+        "ticker": "ABBN.SW",
+        "share_pct": 12.0,
+        "moat": "글로벌 산업로봇 + cobot 통합"
+      },
+      {
+        "name": "KUKA",
+        "ticker": "KU2.DE",
+        "share_pct": 8.0,
+        "moat": "독일 자동차 captive + Midea 인수"
+      },
+      {
+        "name": "Yaskawa Electric",
+        "ticker": "6506.T",
+        "share_pct": 10.0,
+        "moat": "Motoman 산업로봇 + servo motor 1위"
+      },
+      {
+        "name": "Rainbow Robotics",
+        "ticker": "277810.KQ",
+        "share_pct": 0.5,
+        "moat": "Korean humanoid pure play (KAIST HUBO)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-20",
+        "title": "Boston Dynamics 5세대 Atlas CES 2026 양산형 공개 예고",
+        "source": "BD 공식",
+        "summary": "Body Actuator 2종×31개, 미국 현지 양산 (현대모비스 supply)"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Tesla Optimus Gen 4 양산 ramp 50K units 목표 발표",
+        "source": "Tesla Q1 earnings",
+        "summary": "Texas Gigafactory humanoid line 가동, 2027 ramp to 250K"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Figure AI Series C $2B 조달, 발행가 $40B valuation",
+        "source": "TechCrunch",
+        "summary": "OpenAI·NVIDIA·Microsoft 투자 — humanoid AI race 격화"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "한국 정부 'K-Robot 2030' Roadmap 발표",
+        "source": "산업통상자원부",
+        "summary": "5년 누적 $35B 투자, humanoid·cobot·서비스 robot 통합 육성"
+      },
+      {
+        "date": "2026-02-14",
+        "title": "Google DeepMind Gemini Robotics LLM 발표",
+        "source": "Google DeepMind",
+        "summary": "embodied AI foundation model — Atlas reference platform 협의"
+      },
+      {
+        "date": "2026-02-01",
+        "title": "1X Technologies Series B $1.5B 조달",
+        "source": "WSJ",
+        "summary": "Tiger Global·SoftBank 투자, 가정용 humanoid 2027 ramp"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "2025-2035 (Goldman/McKinsey humanoid TAM)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 380,
+        "op_income": -120,
+        "op_margin": -31.6,
+        "net_income": -135,
+        "net_margin": -35.5
+      },
+      {
+        "year": 2022,
+        "revenue": 450,
+        "op_income": -110,
+        "op_margin": -24.4,
+        "net_income": -125,
+        "net_margin": -27.8
+      },
+      {
+        "year": 2023,
+        "revenue": 530,
+        "op_income": -185,
+        "op_margin": -34.9,
+        "net_income": -205,
+        "net_margin": -38.7
+      },
+      {
+        "year": 2024,
+        "revenue": 680,
+        "op_income": -150,
+        "op_margin": -22.1,
+        "net_income": -165,
+        "net_margin": -24.3
+      },
+      {
+        "year": 2025,
+        "revenue": 820,
+        "op_income": -95,
+        "op_margin": -11.6,
+        "net_income": -110,
+        "net_margin": -13.4
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 3200,
+      "total_liab": 350,
+      "equity": 2850,
+      "cash": 1450,
+      "debt": 50
+    },
+    "cf_summary": {
+      "ocf_5y_avg": -120,
+      "fcf_5y_avg": -180,
+      "capex_intensity": 0.15
+    },
+    "peer_compare": [
+      {
+        "ticker": "454910.KS",
+        "name": "두산로보틱스",
+        "pe": null,
+        "pb": 38.2,
+        "roe": -3.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "277810.KQ",
+        "name": "Rainbow Robotics",
+        "pe": 642.0,
+        "pb": 35.5,
+        "roe": -1.4,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "6954.T",
+        "name": "FANUC",
+        "pe": 30.5,
+        "pb": 3.45,
+        "roe": 9.2,
+        "div_yield": 2.1
+      },
+      {
+        "ticker": "ABBN.SW",
+        "name": "ABB",
+        "pe": 25.8,
+        "pb": 5.5,
+        "roe": 22.5,
+        "div_yield": 1.6
+      },
+      {
+        "ticker": "6506.T",
+        "name": "Yaskawa",
+        "pe": 22.5,
+        "pb": 2.55,
+        "roe": 12.0,
+        "div_yield": 2.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 250000,
+      "thesis": "Cobot 글로벌 점유율 5% → 8% + humanoid 진출 + 두산 그룹 자본 지원. 2028 매출 ₩3,500억 + 흑자전환.",
+      "key_assumptions": [
+        "글로벌 cobot wave Korean entrant 수혜",
+        "두산 humanoid arm 2027 commercial",
+        "글로벌 OEM 진출 (Toyota·Honda 등)"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 165000,
+      "thesis": "점진적 매출 +35%/yr + 흑자전환 2028. P/B 40x 유지.",
+      "key_assumptions": [
+        "한국·아시아 시장 위주 성장",
+        "humanoid는 cobot 보완",
+        "OPM -10% → 5% 회복"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 80000,
+      "thesis": "글로벌 cobot 경쟁 격화 (UR/FANUC) + 흑자전환 지연 + cash burn 가속. P/B 20x로 normalize.",
+      "key_assumptions": [
+        "UR·FANUC 가격 공세",
+        "humanoid 진출 늦음",
+        "현금 burn 가속"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "CES 2026 — Doosan humanoid arm prototype 공개 가능성",
+      "type": "product",
+      "expected_impact": "high (+15-25%)",
+      "description": "humanoid 영역 진출 announce"
+    },
+    {
+      "date": "2026-10",
+      "event": "3Q 실적 — 흑자전환 신호 가능성",
+      "type": "earnings",
+      "expected_impact": "high (+15-25%)",
+      "description": "OPM -10% → -5% 진입"
+    },
+    {
+      "date": "2027-01",
+      "event": "북미 진출 가속 (현지 법인 확장)",
+      "type": "operational",
+      "expected_impact": "medium (+8-12%)",
+      "description": "글로벌 시장 매출 증가"
+    },
+    {
+      "date": "2027-06",
+      "event": "두산그룹 robotics 합병 가능성 (Doosan Bobcat 인접)",
+      "type": "corporate",
+      "expected_impact": "medium (+5-10%)",
+      "description": "그룹 synergy"
+    },
+    {
+      "date": "2027-12",
+      "event": "2028 humanoid 진출 commercial timeline 확정",
+      "type": "product",
+      "expected_impact": "medium (+8-15%)",
+      "description": "humanoid 진출 가시화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Universal Robots 가격 공세",
+      "probability": "medium-high",
+      "impact": "high",
+      "description": "UR가 cobot 시장 35% 점유 + Teradyne 자본력 — 가격 공세 시 두산로보틱스 매출 압박.",
+      "mitigation": "한국 captive + 의료·F&B vertical specialization"
+    },
+    {
+      "name": "Humanoid 진출 지연",
+      "probability": "medium",
+      "impact": "medium-high",
+      "description": "humanoid 진출은 BD/Tesla 대비 후발 — 진입 시 niche position만 가능.",
+      "mitigation": "cobot 매출이 base — humanoid는 upside option"
+    },
+    {
+      "name": "현금 burn 가속",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "OCF -120억/yr — 현재 현금 1,450억으로 12-yr runway이나 humanoid 진출 시 capex 급증.",
+      "mitigation": "두산그룹 자본 지원"
+    },
+    {
+      "name": "한국 시장 의존도",
+      "probability": "low-medium",
+      "impact": "medium",
+      "description": "매출 70%+가 한국 — 글로벌 확장 부진 시 성장 둔화.",
+      "mitigation": "북미·EU 법인 확장 in progress"
+    },
+    {
+      "name": "두산그룹 governance risk",
+      "probability": "low",
+      "impact": "low-medium",
+      "description": "두산그룹 historical 부채 risk + 그룹 reform 진행 중 — minor risk.",
+      "mitigation": "Doosan Bobcat 등 cash cow 안정 보강"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "한국 cobot 1위",
+      "type": "factual",
+      "evidence": [
+        "2024년 한국 시장 점유 1위"
+      ],
+      "testability": "high",
+      "current_status": "확인됨"
+    },
+    {
+      "claim": "Humanoid 진출 예정",
+      "type": "predictive",
+      "evidence": [
+        "CES 2026 prototype 가능성"
+      ],
+      "testability": "medium",
+      "current_status": "공식 발표 미정"
+    },
+    {
+      "claim": "2028 흑자전환",
+      "type": "predictive",
+      "evidence": [
+        "매출 +35%/yr trajectory"
+      ],
+      "testability": "medium",
+      "current_status": "on path (적자 축소 in progress)"
+    },
+    {
+      "claim": "글로벌 cobot 진출",
+      "type": "predictive",
+      "evidence": [
+        "북미·EU 법인 확장"
+      ],
+      "testability": "medium",
+      "current_status": "in progress"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025-11-20",
+      "type": "3Q 실적",
+      "title": "매출 +21% YoY, 적자 축소",
+      "impact": "+"
+    },
+    {
+      "date": "2025-09-15",
+      "type": "공시",
+      "title": "북미 법인 설립 — 2026 영업 개시",
+      "impact": "+"
+    },
+    {
+      "date": "2025-07-30",
+      "type": "주요사항보고서",
+      "title": "Doosan 그룹 robotics 비전 발표 — humanoid 진출 예고",
+      "impact": "+"
+    }
+  ],
+  "sec_disclosures": []
+}

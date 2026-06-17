@@ -1,0 +1,235 @@
+{
+  "ticker": "NEE",
+  "name": "NextEra Energy",
+  "name_kr": "넥스트에라 에너지",
+  "research_date": "2026-05-10",
+  "industry": {
+    "name": "Utility/IPP (재생에너지 + ESS 운영)",
+    "overview": "미국 최대 재생에너지 IPP. 두 부문 — (1) Florida Power & Light (FP&L): regulated utility, 600만 가구. (2) NextEra Energy Resources (NEER): 재생에너지·ESS·송전 unregulated. NEER ESS portfolio 9.9GW (2024) → 18GW+ (2026E). 블로그가 명시한 ESS 운영사.",
+    "competitors": [
+      {
+        "name": "Constellation Energy",
+        "ticker": "CEG",
+        "strength": "원자력 + AI 데이터센터 PPA"
+      },
+      {
+        "name": "Vistra Corp.",
+        "ticker": "VST",
+        "strength": "Texas + 원자력 + ESS"
+      },
+      {
+        "name": "AES Corporation",
+        "ticker": "AES",
+        "strength": "글로벌 ESS 운영 14GW+"
+      },
+      {
+        "name": "Duke Energy",
+        "ticker": "DUK",
+        "strength": "Carolina/Indiana regulated"
+      },
+      {
+        "name": "Southern Company",
+        "ticker": "SO",
+        "strength": "Georgia/Alabama regulated"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 250,
+      "horizon": "2024-2030",
+      "cagr_pct": 11.0,
+      "future_usd_bn": 460
+    },
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "NEE 1Q 매출 +9% YoY, ESS pipeline 28GW",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-03",
+        "title": "NEER Texas 1.5GW ESS PPA 체결",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-02",
+        "title": "FP&L Smart Hurricane Hardening $2B 승인",
+        "impact": "+",
+        "url": ""
+      }
+    ]
+  },
+  "financials": {
+    "currency": "USD",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 17070,
+        "op_income": 4380,
+        "op_margin": 25.7,
+        "net_income": 3580,
+        "net_margin": 21.0
+      },
+      {
+        "year": 2022,
+        "revenue": 20956,
+        "op_income": 4750,
+        "op_margin": 22.7,
+        "net_income": 4150,
+        "net_margin": 19.8
+      },
+      {
+        "year": 2023,
+        "revenue": 28114,
+        "op_income": 8120,
+        "op_margin": 28.9,
+        "net_income": 7310,
+        "net_margin": 26.0
+      },
+      {
+        "year": 2024,
+        "revenue": 24753,
+        "op_income": 7680,
+        "op_margin": 31.0,
+        "net_income": 6950,
+        "net_margin": 28.1
+      },
+      {
+        "year": 2025,
+        "revenue": 28200,
+        "op_income": 9210,
+        "op_margin": 32.7,
+        "net_income": 8200,
+        "net_margin": 29.1
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-Q4",
+      "total_assets": 195000,
+      "total_liabilities": 142000,
+      "equity": 53000,
+      "cash": 1850,
+      "total_debt": 89500
+    },
+    "cf_summary": {
+      "ocf_2025": 13800,
+      "fcf_2025": -8500,
+      "capex_2025": 22300
+    },
+    "fetched_via": "NEE 10-K + Investor Day filings (estimates)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30.0,
+      "target_price": 125,
+      "thesis": "NEER ESS 18GW + AI 데이터센터 PPA 확정. FP&L rate case 승인. EPS CAGR 9%+ 7년 연속.",
+      "key_assumptions": [
+        "NEER ESS 18GW + AI 데이터센터 PPA 확정. FP&L rate case 승인. EPS CAGR 9%+ 7년 연속...."
+      ],
+      "upside_pct": 34.4
+    },
+    "base": {
+      "prob_pct": 45.0,
+      "target_price": 105,
+      "thesis": "Backlog 견조 + EPS CAGR 6~8%. 금리 cycle 안정화. NEER 자산 매각 일부.",
+      "key_assumptions": [
+        "Backlog 견조 + EPS CAGR 6~8%. 금리 cycle 안정화. NEER 자산 매각 일부...."
+      ],
+      "upside_pct": 12.9
+    },
+    "bear": {
+      "prob_pct": 25.0,
+      "target_price": 70,
+      "thesis": "10Y Treasury 5%+ 진입 + IRA Section 38E 축소. NEER 자산 대거 매각으로 EPS 둔화. P/E 18 → 15 multiple compression.",
+      "key_assumptions": [
+        "10Y Treasury 5%+ 진입 + IRA Section 38E 축소. NEER 자산 대거 매각으로 EPS 둔화. P/E 18 → 15 mu..."
+      ],
+      "upside_pct": -24.7
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Q1 실적 + 2026 EPS guidance",
+      "impact": "+/-"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "FP&L rate case ROE 결정",
+      "impact": "+/-"
+    },
+    {
+      "date": "2026-11",
+      "event": "미국 대선 IRA 정책 영향",
+      "impact": "-"
+    }
+  ],
+  "risks": [
+    {
+      "name": "10Y Treasury 5%+ 시 dividend yield 매력 감소",
+      "probability": "med",
+      "impact": "med",
+      "description": "10Y Treasury 5%+ 시 dividend yield 매력 감소",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "IRA Section 38E ITC 축소 시 -15~20% 영향",
+      "probability": "med",
+      "impact": "med",
+      "description": "IRA Section 38E ITC 축소 시 -15~20% 영향",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "FP&L rate case 결정 (ROE 하향 시 수익성 영향)",
+      "probability": "med",
+      "impact": "med",
+      "description": "FP&L rate case 결정 (ROE 하향 시 수익성 영향)",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "FCF 적자 지속 — 자본 조달 비용 상승",
+      "probability": "med",
+      "impact": "med",
+      "description": "FCF 적자 지속 — 자본 조달 비용 상승",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "ESS arbitrage spread saturation (영국 사례 참고)",
+      "probability": "med",
+      "impact": "med",
+      "description": "ESS arbitrage spread saturation (영국 사례 참고)",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    }
+  ],
+  "korean_disclosures": [],
+  "us_disclosures": [
+    {
+      "date": "2026-04-25",
+      "type": "10-Q",
+      "summary": "Q1 2026 EPS $1.05 +12% YoY",
+      "title": "Q1 2026 EPS $1.05 +12% YoY",
+      "impact": "○"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "10-K",
+      "summary": "FY2025 매출 $28.2B, ESS 9.9GW",
+      "title": "FY2025 매출 $28.2B, ESS 9.9GW",
+      "impact": "○"
+    },
+    {
+      "date": "2025-12-15",
+      "type": "8-K",
+      "summary": "Texas 1.5GW ESS PPA",
+      "title": "Texas 1.5GW ESS PPA",
+      "impact": "○"
+    }
+  ],
+  "subagent_debate": {
+    "bull_druckenmiller": "AI 데이터센터 PPA + ESS arbitrage + IRA 38E 3중 tailwind. EPS CAGR 9%+ 가시성 매우 높음. Utility 중에서 가장 growthy.",
+    "bear_buffett": "FCF 적자 지속(-$8.5B 2025). 부채 $89.5B + 금리 sensitivity. 단기 dividend yield는 매력적이나 capital allocation discipline 의문.",
+    "skeptic": "NEER 자산 매각 비중 증가? FP&L rate case ROE 하향 가능성? 2027 IRA Section 38E 축소 시나리오?",
+    "convergence": "Thesis 견고 + 패널 만장 동의 (8 lean_bullish). 금리 risk만 monitor. 가장 안정적 ESS 노출 vehicle."
+  }
+}

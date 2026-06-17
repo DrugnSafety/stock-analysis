@@ -1,0 +1,313 @@
+{
+  "ticker": "HXL",
+  "name_kr": "헥셀",
+  "name_en": "Hexcel Corporation",
+  "industry": {
+    "name": "Aerospace Composite Materials (Carbon Fiber + Resin)",
+    "overview": "Hexcel은 항공우주용 carbon fiber composite의 글로벌 oligopoly player. 60+ 년 carbon fiber + epoxy resin + honeycomb structures 기술 누적. 매출 구성: Boeing(737/787·F-35) 35%, Airbus(A320/A350·A330neo) 30%, Defense(F-35·F-22·CH-53K) 20%, Industrial/Wind 10%, Space 5%. Aerospace composite는 decade-long Boeing·Airbus qualification으로 entry barrier 매우 높음. 경쟁사 Toray Industries(일본), Solvay(벨기에), Mitsubishi Chemical Carbon Fiber(일본). 2024 매출 $1.95B → 2025E $2.1B → 2027E $2.5B+ projected. Boeing 737 MAX cycle peak + UAM eVTOL 신규 시장이 동시 catalyst.",
+    "competitors": [
+      {
+        "name": "Toray Industries",
+        "ticker": "3402.T",
+        "share_pct": 28,
+        "moat": "Carbon fiber 글로벌 #1 (Toray T1100 등) + Boeing 757/787 공급"
+      },
+      {
+        "name": "Solvay",
+        "ticker": "SOLB.BR",
+        "share_pct": 18,
+        "moat": "Aerospace composite + chemicals 통합"
+      },
+      {
+        "name": "Mitsubishi Chemical",
+        "ticker": "4188.T",
+        "share_pct": 12,
+        "moat": "DiaLead carbon fiber + Asian aerospace"
+      },
+      {
+        "name": "Hexcel",
+        "ticker": "HXL",
+        "share_pct": 22,
+        "moat": "Boeing·Airbus·Defense 60+ 년 qualification + space industry expansion"
+      },
+      {
+        "name": "Teijin",
+        "ticker": "3401.T",
+        "share_pct": 10,
+        "moat": "Aerospace + automotive carbon fiber"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-04-15",
+        "title": "Hexcel Q1'25 매출 $510M (+8% YoY), Aerospace 매출 +12% YoY",
+        "source": "HXL earnings",
+        "summary": "Boeing 737 ramp + Airbus A350 backlog 강력. Defense 매출 F-35 backlog로 +18% YoY."
+      },
+      {
+        "date": "2025-03-08",
+        "title": "Hexcel, SpaceX와 Falcon 9·Starship용 carbon composite 공급 다년 계약",
+        "source": "Hexcel/SpaceX",
+        "summary": "Starship payload fairing + landing legs용 carbon composite. 3년 supply agreement."
+      },
+      {
+        "date": "2025-02-12",
+        "title": "Boeing 737 MAX rate 38/month 회복 — Hexcel composite supply 가속",
+        "source": "Boeing/HXL",
+        "summary": "737 MAX rate normalization로 carbon composite demand 회복."
+      },
+      {
+        "date": "2024-11-15",
+        "title": "Hexcel, Joby Aviation eVTOL용 carbon composite 다년 계약",
+        "source": "Hexcel PR",
+        "summary": "Joby S4 eVTOL airframe carbon composite. UAM 시장 진입."
+      },
+      {
+        "date": "2024-08-22",
+        "title": "Hexcel, Airbus A350 freighter용 추가 capacity 발표",
+        "source": "Hexcel IR",
+        "summary": "Airbus A350F 2026 EIS — 추가 carbon composite demand $200M."
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 18.0,
+      "cagr_pct": 9,
+      "horizon": "2024-2030 글로벌 aerospace composite"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 1326,
+        "op_income": 75,
+        "op_margin": 5.7,
+        "net_income": 18,
+        "net_margin": 1.4
+      },
+      {
+        "year": 2022,
+        "revenue": 1577,
+        "op_income": 192,
+        "op_margin": 12.2,
+        "net_income": 132,
+        "net_margin": 8.4
+      },
+      {
+        "year": 2023,
+        "revenue": 1788,
+        "op_income": 245,
+        "op_margin": 13.7,
+        "net_income": 158,
+        "net_margin": 8.8
+      },
+      {
+        "year": 2024,
+        "revenue": 1950,
+        "op_income": 328,
+        "op_margin": 16.8,
+        "net_income": 222,
+        "net_margin": 11.4
+      },
+      {
+        "year": 2025,
+        "revenue": 2100,
+        "op_income": 392,
+        "op_margin": 18.7,
+        "net_income": 268,
+        "net_margin": 12.8
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31",
+      "total_assets_usdmn": 2480,
+      "total_debt_usdmn": 720,
+      "total_equity_usdmn": 1380,
+      "cash_usdmn": 220,
+      "net_debt_usdmn": 500,
+      "debt_to_equity": 0.52,
+      "current_ratio": 2.1
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 380,
+      "capex_2025_usdmn": -130,
+      "fcf_2025_usdmn": 250,
+      "dividend_paid_2025_usdmn": 50,
+      "buyback_2025_usdmn": 80
+    },
+    "peer_compare": [
+      {
+        "ticker": "HXL",
+        "fwd_pe": 30,
+        "ev_ebitda": 14,
+        "fcf_yield_pct": 3.0,
+        "roe_pct": 19,
+        "debt_to_equity": 0.52
+      },
+      {
+        "ticker": "3402.T",
+        "fwd_pe": 14,
+        "ev_ebitda": 8,
+        "fcf_yield_pct": 5.5,
+        "roe_pct": 8,
+        "debt_to_equity": 0.55
+      },
+      {
+        "ticker": "SOLB.BR",
+        "fwd_pe": 11,
+        "ev_ebitda": 6,
+        "fcf_yield_pct": 8.0,
+        "roe_pct": 14,
+        "debt_to_equity": 0.65
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "Boeing 737 rate 50/month 회복 + UAM eVTOL deploy + 우주 cross-sell 확대",
+      "assumption": "2027E 매출 $2.6B, 영업이익률 22%, EPS +25% CAGR",
+      "upside_pct": 25,
+      "prob_pct": 30,
+      "target_price": 119,
+      "thesis": "Aerospace cycle peak + UAM 시장 진입 + 우주 leverage",
+      "key_assumptions": [
+        "Boeing 737 rate 50+",
+        "UAM eVTOL commercial 2027",
+        "우주 매출 +30% CAGR"
+      ]
+    },
+    "base": {
+      "label": "정상 aerospace cycle + UAM 점진 ramp",
+      "assumption": "2027E 매출 $2.4B, 영업이익률 19%",
+      "upside_pct": 12,
+      "prob_pct": 50,
+      "target_price": 107,
+      "thesis": "Steady aerospace + UAM optionality",
+      "key_assumptions": [
+        "Boeing 737 rate 42-45",
+        "Airbus A350 backlog 안정",
+        "Defense F-35 안정"
+      ]
+    },
+    "bear": {
+      "label": "Boeing 737 위기 재발 + UAM 양산 지연",
+      "assumption": "2027E 매출 $2.0B, 영업이익률 14%",
+      "downside_pct": -20,
+      "prob_pct": 20,
+      "target_price": 76,
+      "thesis": "Aerospace cycle late + execution miss",
+      "key_assumptions": [
+        "Boeing 737 rate 30 미만",
+        "UAM commercial 2030+ 지연",
+        "Defense budget 축소"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2025-2026",
+      "event": "Boeing 737 rate 50/month 회복",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-15%"
+    },
+    {
+      "date": "2026-2027",
+      "event": "UAM eVTOL commercial 시작",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+8-15%"
+    },
+    {
+      "date": "ongoing",
+      "event": "F-35 production rate +15% YoY",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    },
+    {
+      "date": "2026-2027",
+      "event": "Airbus A350 freighter EIS",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    },
+    {
+      "date": "2025-2027",
+      "event": "SpaceX Starship + Blue Origin New Glenn carbon composite 공급",
+      "type": "partnership",
+      "expected_impact": "+",
+      "description": "+5-15%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Boeing 737 위기 재발",
+      "probability": "low",
+      "impact": "high",
+      "description": "737 MAX 대형 incident 시 production rate 또 하락",
+      "mitigation": "Airbus + Defense 다각화"
+    },
+    {
+      "name": "UAM eVTOL 양산 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "Joby·Archer 등 commercial 2027+ 지연 가능",
+      "mitigation": "Aerospace 본업 안정 매출"
+    },
+    {
+      "name": "Carbon fiber substitution (Toray 가격 압박)",
+      "probability": "med",
+      "impact": "med",
+      "description": "Toray T1100 가격 경쟁",
+      "mitigation": "Decade-long qualification + Boeing·Airbus exclusive 공급"
+    },
+    {
+      "name": "Aerospace cycle late stage 우려",
+      "probability": "med",
+      "impact": "med",
+      "description": "Boeing·Airbus delivery cycle peak 가까움",
+      "mitigation": "UAM + 우주 신규 시장"
+    },
+    {
+      "name": "Resin/원자재 가격 변동",
+      "probability": "high",
+      "impact": "low",
+      "description": "Epoxy resin 가격 변동성",
+      "mitigation": "Pass-through pricing + 헷지"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T6",
+      "claim": "특수 소재 대체 불가능성 = 가격 결정력",
+      "type": "framework",
+      "evidence": "Aerospace composite oligopoly + decade-long qualification",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "Hexcel은 의교창 Layer 4 specialty materials 직접 매칭. Boeing·Airbus·Defense + 우주 cross-sell"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "5계층 framework Layer 4 specialty materials",
+      "type": "framework",
+      "evidence": "Aerospace + 우주 + UAM cross-sell",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "Multi-end-market diversification이 cyclical buffer"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "supply chain leverage",
+      "type": "framework",
+      "evidence": "우주 매출 < 10%이지만 marginal demand가 가격 결정",
+      "testability": "med",
+      "current_status": "indirect",
+      "support_for_ticker": "MEDIUM",
+      "ticker_specific_note": "우주 비중 dilution이 thesis purity 약화"
+    }
+  ],
+  "korean_disclosures": []
+}

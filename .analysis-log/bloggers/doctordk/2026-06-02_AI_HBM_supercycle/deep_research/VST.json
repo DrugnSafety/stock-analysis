@@ -1,0 +1,238 @@
+{
+  "industry": {
+    "name": "Independent Power Producer (IPP) — AI Data Center 전력 인프라",
+    "overview": "Vistra는 미국 최대 경쟁시장 IPP 중 하나로, 가스·원자력·재생에너지 다각화 portfolio 보유. 의교창 thesis '3대 병목 중 전력 인프라'의 가장 직접적 수혜자. 2024년 Three Mile Island 인수(Microsoft 데이터센터 PPA 체결) 이후 AI 데이터센터 power supply 카테고리가 polverize 형성. 2024-2025 누적 +267% rally 후 2025-2026 단기 조정 중이나 long-term thesis는 unchanged.",
+    "competitors": [
+      {
+        "name": "Vistra Energy",
+        "ticker": "VST",
+        "share_pct": 6.0,
+        "moat": "Texas ERCOT 최대 가스 fleet + Comanche Peak 원전 2.4 GW + behind-the-meter PPA"
+      },
+      {
+        "name": "Constellation Energy",
+        "ticker": "CEG",
+        "share_pct": 8.0,
+        "moat": "미국 원전 최대 owner (33 GW) + Microsoft TMI PPA"
+      },
+      {
+        "name": "NRG Energy",
+        "ticker": "NRG",
+        "share_pct": 5.0,
+        "moat": "Texas + 동부 가스 발전"
+      },
+      {
+        "name": "Talen Energy",
+        "ticker": "TLN",
+        "share_pct": 3.0,
+        "moat": "Susquehanna 원전 + Amazon AWS PPA"
+      },
+      {
+        "name": "AES Corporation",
+        "ticker": "AES",
+        "share_pct": 4.0,
+        "moat": "재생에너지 + 글로벌 IPP — 일부 AI exposure"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-20",
+        "title": "1Q26 EPS $1.85 (vs $1.65 컨센서스)",
+        "source": "Vistra Q1 earnings",
+        "summary": "FY26 EBITDA guidance 상향 $5.8B → $6.2B",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "Texas 데이터센터 5GW PPA 협상 진행 (보도)",
+        "source": "Bloomberg",
+        "summary": "Microsoft·Amazon 추가 PPA 가능성",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-10",
+        "title": "Comanche Peak 원전 license 연장 (60→80년)",
+        "source": "NRC 발표",
+        "summary": "원자력 PPA 마진 long-term lock",
+        "impact": "+"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "재생에너지 자회사 IPO 검토 보도",
+        "source": "Reuters",
+        "summary": "가치 unlock 가능",
+        "impact": "○"
+      },
+      {
+        "date": "2026-01-25",
+        "title": "2025 종가 -8% 조정 (high beta IPP sector)",
+        "source": "press",
+        "summary": "AI rotation 일시 약화",
+        "impact": "-"
+      }
+    ]
+  },
+  "financials": {
+    "source": "SEC 10-K / 10-Q (US GAAP)",
+    "currency": "USD",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 12.07,
+        "op_income": 1.59,
+        "net_income": -1.27,
+        "op_margin": 13.2,
+        "net_margin": -10.5
+      },
+      {
+        "year": 2022,
+        "revenue": 13.73,
+        "op_income": 1.16,
+        "net_income": -1.21,
+        "op_margin": 8.4,
+        "net_margin": -8.8
+      },
+      {
+        "year": 2023,
+        "revenue": 14.78,
+        "op_income": 2.81,
+        "net_income": 1.49,
+        "op_margin": 19.0,
+        "net_margin": 10.1
+      },
+      {
+        "year": 2024,
+        "revenue": 17.2,
+        "op_income": 4.55,
+        "net_income": 2.81,
+        "op_margin": 26.5,
+        "net_margin": 16.3
+      },
+      {
+        "year": 2025,
+        "revenue": 19.5,
+        "op_income": 5.85,
+        "net_income": 3.65,
+        "op_margin": 30.0,
+        "net_margin": 18.7
+      }
+    ],
+    "bs_snapshot_2025e": {
+      "total_assets_usd_bn": 35.2,
+      "total_liab_usd_bn": 22.8,
+      "total_equity_usd_bn": 12.4,
+      "cash_usd_bn": 1.2,
+      "debt_usd_bn": 15.4,
+      "net_debt_usd_bn": 14.2
+    },
+    "trend_narrative": "5Y 매출 CAGR +13%, EBITDA CAGR +30% (IRA + AI PPA premium 효과). 2021-2022 cycle 손실 → 2023-2025 회복. 다만 net debt $14B / EBITDA 2.4× — 자본구조는 IPP industry 평균 수준이나 high beta. AI data center PPA premium이 향후 2-3년 ROE 가속.",
+    "valuation_summary": "Forward PE 14.5× (yfinance live, 2026-06-02) — 역사 multiple 12-18× 대비 mid range. PB 4.5× / EV/EBITDA 8.5× / Div yield 0.6%. 1Y 주가 -4.5%는 단기 조정 — long-term thesis intact."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.4,
+      "description": "AI 데이터센터 PPA 추가 5GW 체결 + 원전 license 연장으로 long-term cash flow visibility 확보. FY27 EBITDA $7.5B+. Forward PE 18× → 시가총액 $90B+ (+70%)",
+      "key_drivers": [
+        "Microsoft·Amazon·Meta 추가 PPA",
+        "Texas 전력 수요 +20%",
+        "원전 mid-cycle uplift"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "FY26 EBITDA $6.2B 컨센서스 hit. PPA 1-2건 추가. Forward PE 14-16× → +20%",
+      "key_drivers": [
+        "정상 ramp",
+        "Texas heat wave + power demand"
+      ]
+    },
+    "bear": {
+      "probability": 0.2,
+      "description": "AI capex 둔화 + 데이터센터 power demand 둔화 + interest rate 상승. FY27 EBITDA $5.5B로 -10%. Forward PE 10× → -30%",
+      "key_drivers": [
+        "AI 둔화",
+        "Gas price 하락으로 spark spread 감소",
+        "PPA 가격 협상력 약화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-07",
+      "name": "2Q26 실적 + FY27 가이던스 prelim",
+      "impact": "high",
+      "description": "PPA pipeline 확인"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Texas 여름 peak 전력 수요",
+      "impact": "medium",
+      "description": "Spark spread + 매출 trajectory"
+    },
+    {
+      "date": "2026-11-15",
+      "name": "3Q26 실적",
+      "impact": "high",
+      "description": "AI PPA 추가 발표 가능성"
+    },
+    {
+      "date": "2027-Q1",
+      "name": "원전 license 추가 연장 (다른 fleet)",
+      "impact": "medium",
+      "description": "Long-term cash flow lock"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex 둔화",
+      "probability": "medium",
+      "impact": "high",
+      "description": "데이터센터 power demand 둔화"
+    },
+    {
+      "name": "Gas price hedge 만기",
+      "probability": "low-medium",
+      "impact": "medium",
+      "description": "Spark spread 변동성"
+    },
+    {
+      "name": "Interest rate 상승",
+      "probability": "low",
+      "impact": "medium",
+      "description": "High leverage IPP에 부담"
+    },
+    {
+      "name": "원전 규제 변화",
+      "probability": "low",
+      "impact": "high",
+      "description": "License 연장 거부 시 critical asset 손실"
+    },
+    {
+      "name": "Texas 전력 시장 정책 변경",
+      "probability": "low",
+      "impact": "medium",
+      "description": "ERCOT 가격 캡 도입"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T03",
+      "claim": "CoWoS·HBM·전력 3대 병목",
+      "current_status": "confirmed",
+      "evidence": "데이터센터 power constraint 매우 명백 — CBRE 60% pipeline power-constrained"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "AI 공급 부족이 본질",
+      "current_status": "indirect_confirmed",
+      "evidence": "데이터센터 발주 → 가동 지연 사례 다수"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "수요 20-30% vs 공급 15%",
+      "current_status": "indirect",
+      "evidence": "데이터센터 power 수요 +25%/yr vs 발전 capacity +5%/yr — gap 더 큼"
+    }
+  ],
+  "korean_disclosures": []
+}

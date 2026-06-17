@@ -1,0 +1,199 @@
+{
+  "industry": {
+    "name": "전력반도체",
+    "overview": "전력반도체 산업은 전력 관리와 변환에 필수적인 부품을 제공하는 분야로, GaN 및 SiC 반도체가 주도하고 있음. 이러한 반도체는 높은 전력 효율성과 열 관리 능력으로 데이터센터 및 전기차 산업에서 수요가 급증하고 있음. 특히, 800V DC 시스템과 같은 고전압 애플리케이션에서의 사용이 증가하고 있음. 나비타스 세미컨덕터는 이 분야에서 혁신적인 기술을 제공하며, NVIDIA와의 파트너십을 통해 시장에서의 입지를 강화하고 있음.",
+    "competitors": [
+      {
+        "name": "인피니언 테크놀로지스",
+        "ticker": "IFX.DE",
+        "share_pct": null,
+        "moat": "확장된 제품 포트폴리오 및 글로벌 제조 역량"
+      },
+      {
+        "name": "온세미컨덕터",
+        "ticker": "ON",
+        "share_pct": null,
+        "moat": "자동차 및 산업용 시장에서의 강력한 입지"
+      },
+      {
+        "name": "로옴 반도체",
+        "ticker": "ROHCY",
+        "share_pct": null,
+        "moat": "고효율 전력반도체 기술 및 안정적인 고객 기반"
+      },
+      {
+        "name": "ST마이크로일렉트로닉스",
+        "ticker": "STM",
+        "share_pct": null,
+        "moat": "다양한 산업에서의 광범위한 응용 경험"
+      }
+    ],
+    "demand_drivers": [
+      "데이터센터 전력 효율성 개선 필요성",
+      "전기차 및 재생에너지 저장 시스템 확대",
+      "고전압 애플리케이션 수요 증가",
+      "AI 및 IoT 디바이스의 전력 관리 필요성"
+    ],
+    "supply_dynamics": "전력반도체의 생산은 복잡한 제조 공정과 높은 초기 투자 비용이 필요함. GaN 및 SiC 반도체는 기존 실리콘 기반 반도체에 비해 제조 공정이 더 복잡하고 비용이 높음. 그러나 이러한 기술의 수요 증가로 인해 주요 제조업체들이 생산 능력을 확대하고 있음."
+  },
+  "financials": {
+    "currency": "USD (millions)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 37.9,
+        "op_income": -123.6,
+        "op_margin": -325.8,
+        "net_income": 73.9,
+        "net_margin": 194.8
+      },
+      {
+        "year": 2023,
+        "revenue": 79.5,
+        "op_income": -118.1,
+        "op_margin": -148.7,
+        "net_income": -145.4,
+        "net_margin": -183.0
+      },
+      {
+        "year": 2024,
+        "revenue": 83.3,
+        "op_income": -129.5,
+        "op_margin": -155.4,
+        "net_income": -84.6,
+        "net_margin": -101.6
+      },
+      {
+        "year": 2025,
+        "revenue": 45.9,
+        "op_income": -89.7,
+        "op_margin": -195.4,
+        "net_income": -117.0,
+        "net_margin": -254.7
+      }
+    ],
+    "pl_note": "매출 규모 작고 적자 — 밸류는 실적이 아닌 NVIDIA 협업 매출화·800VDC 채택 속도의 옵션 가치에 의존. 디자인윈·가이던스가 핵심.",
+    "bs_snapshot": {
+      "total_assets": 500.5,
+      "total_liab": 56.8,
+      "equity": 443.7,
+      "cash": 236.9,
+      "debt": 6.5,
+      "market_cap": 6330.0,
+      "_note": "yfinance balance_sheet 최신 회계연도 기준 (USD (millions))."
+    },
+    "cf_summary": {
+      "note": "yfinance 기준 — 상세 CF는 재무제표 섹션 참조"
+    },
+    "peer_compare": [
+      {
+        "ticker": "NVTS",
+        "fwd_pe": -186.1,
+        "pb": 14.7,
+        "note": "current_price=26.71"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 20,
+      "target_price": 40.0,
+      "thesis": "800V DC 시스템의 채택이 가속화되면서 나비타스의 GaN 및 SiC 기술 수요가 급증할 것임.",
+      "key_assumptions": [
+        "NVIDIA와의 파트너십을 통한 시장 점유율 확대",
+        "데이터센터의 급속한 800V DC 전환",
+        "전력반도체 기술의 지속적인 혁신"
+      ]
+    },
+    "base": {
+      "prob_pct": 60,
+      "target_price": 30.0,
+      "thesis": "800V DC 전환이 점진적으로 이루어지며, 나비타스는 안정적인 매출 성장을 기록할 것임.",
+      "key_assumptions": [
+        "NVIDIA와의 협력이 지속되며 안정적인 수익 창출",
+        "데이터센터 전환 속도가 예측치에 부합",
+        "전력반도체 시장의 안정적 성장"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 20.0,
+      "thesis": "800V DC 전환 속도가 예상보다 느리거나 실패할 경우, 나비타스의 매출 성장이 제한될 것임.",
+      "key_assumptions": [
+        "NVIDIA와의 협력 부진",
+        "데이터센터 전환 지연",
+        "기술 혁신의 실패"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2024-03-15",
+      "event": "NVIDIA와의 새로운 기술 협력 발표",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "NVIDIA와의 협력 확대를 통해 새로운 800V DC 솔루션 발표"
+    },
+    {
+      "date": "2024-07-20",
+      "event": "데이터센터 주요 고객과의 대규모 계약 체결",
+      "type": "business",
+      "expected_impact": "+",
+      "description": "대형 데이터센터 운영사와의 장기 공급 계약 체결"
+    },
+    {
+      "date": "2024-11-10",
+      "event": "분기 실적 발표",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "예상 매출 및 수익성 개선 여부 발표"
+    }
+  ],
+  "risks": [
+    {
+      "name": "기술 혁신 실패",
+      "probability": "med",
+      "impact": "high",
+      "description": "GaN 및 SiC 기술의 개발 및 상용화 실패 가능성",
+      "mitigation": "R&D 투자 강화 및 기술 협력 확대"
+    },
+    {
+      "name": "시장 경쟁 심화",
+      "probability": "high",
+      "impact": "med",
+      "description": "경쟁사의 기술 개발 및 시장 확대로 인한 점유율 하락 위험",
+      "mitigation": "차별화된 기술 개발 및 고객 관계 강화"
+    },
+    {
+      "name": "매출 성장 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "800V DC 전환 속도가 느려져 매출 성장이 둔화될 위험",
+      "mitigation": "다양한 응용 시장으로의 진출 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "800V DC 전환은 데이터센터 효율성을 크게 개선할 것임",
+      "type": "macro",
+      "evidence": "800V DC 전환 시 전력 효율이 5% 개선되어 1GW당 50MW 절감 가능",
+      "testability": "high",
+      "current_status": "in-progress"
+    },
+    {
+      "claim": "나비타스의 GaN/SiC 기술은 800V DC 전환의 핵심 부품으로 자리잡을 것임",
+      "type": "industry",
+      "evidence": "NVIDIA와의 파트너십 및 기술 개발 협력 발표",
+      "testability": "med",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "800V DC 전환은 전력반도체 시장의 구조적 성장을 촉진할 것임",
+      "type": "empirical",
+      "evidence": "데이터센터 전력 부족 문제와 고전압 시스템 수요 증가",
+      "testability": "high",
+      "current_status": "in-progress"
+    }
+  ],
+  "korean_disclosures": []
+}

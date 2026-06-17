@@ -1,0 +1,181 @@
+{
+ "financial_unit": {
+  "currency": "JPY",
+  "scale": "십억"
+ },
+ "industry": {
+  "name": "IC 패키지기판 — FC-BGA(서버/AI) · 세라믹",
+  "overview": "이비덴은 FC-BGA(ABF 기판) 글로벌 선두로 엔비디아 등 GPU/AI 서버 OEM의 주력 공급사. FY2026부터 3년간 ¥500B($3.3B) IC 기판 증설 투자. 본문 FC-BGA 과점 3사(이비덴·유니마이크론·삼성전기) 중 선두 — 삼성전기 thesis의 직접 비교·경쟁사.",
+  "competitors": [
+   {
+    "name": "유니마이크론",
+    "ticker": "3037.TW",
+    "share_pct": 25,
+    "moat": "대만 FC-BGA"
+   },
+   {
+    "name": "삼성전기",
+    "ticker": "009150.KS",
+    "share_pct": 15,
+    "moat": "후발 추격 · 고부가 확대"
+   },
+   {
+    "name": "이비덴",
+    "ticker": "4062.T",
+    "share_pct": 35,
+    "moat": "FC-BGA 선두 · ¥500B 증설 · GPU OEM 주력"
+   }
+  ],
+  "news": [
+   {
+    "date": "2026-02",
+    "title": "이비덴 ¥500B($3.3B) IC 기판 3년 증설 (FY2026~)",
+    "source": "Digitimes",
+    "summary": "기후(Gifu) 공장 50% capa 확대 — AI 서버 수요 대응"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 15.0,
+   "cagr_pct": 20.0,
+   "horizon": "2026-2030 서버/HPC ABF 기판"
+  }
+ },
+ "financials": {
+  "pl_5y": [
+   {
+    "year": 2022,
+    "revenue": 401.14,
+    "op_income": 70.82,
+    "op_margin": 17.7,
+    "net_income": 41.23,
+    "net_margin": 10.3
+   },
+   {
+    "year": 2023,
+    "revenue": 417.55,
+    "op_income": 72.36,
+    "op_margin": 17.3,
+    "net_income": 52.19,
+    "net_margin": 12.5
+   },
+   {
+    "year": 2024,
+    "revenue": 370.51,
+    "op_income": 47.57,
+    "op_margin": 12.8,
+    "net_income": 31.49,
+    "net_margin": 8.5
+   },
+   {
+    "year": 2025,
+    "revenue": 369.44,
+    "op_income": 47.62,
+    "op_margin": 12.9,
+    "net_income": 33.7,
+    "net_margin": 9.1
+   }
+  ],
+  "peer_compare": [
+   {
+    "ticker": "4062.T",
+    "name": "이비덴",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "3037.TW",
+    "name": "유니마이크론",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "009150.KS",
+    "name": "삼성전기",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   }
+  ]
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 35,
+   "target_price": 22000,
+   "thesis": "AI 기판 수요 폭발+증설 가동 → 점유율·마진 동반",
+   "key_assumptions": [
+    "GPU OEM 물량 확대",
+    "증설 적기 가동",
+    "ABF 가격 견조"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 18000,
+   "thesis": "AI 수요는 견조하나 증설 감가·가동초기 마진 희석",
+   "key_assumptions": [
+    "점유율 유지",
+    "capex 부담",
+    "마진 12~14%"
+   ]
+  },
+  "bear": {
+   "prob_pct": 20,
+   "target_price": 13000,
+   "thesis": "증설 과열·AI capex 둔화 → 공급과잉",
+   "key_assumptions": [
+    "ABF 공급과잉",
+    "수요 둔화"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026",
+   "event": "기후 공장 증설 가동",
+   "type": "company",
+   "expected_impact": "+",
+   "description": "capa 50% 확대"
+  },
+  {
+   "date": "2026-분기",
+   "event": "분기 실적·기판 가동률",
+   "type": "earnings",
+   "expected_impact": "○",
+   "description": "OPM 12~13% 추세"
+  }
+ ],
+ "risks": [
+  {
+   "name": "증설 감가·가동초기 마진희석",
+   "probability": "high",
+   "impact": "med",
+   "description": "¥500B capex로 단기 감가 부담"
+  },
+  {
+   "name": "AI capex 둔화",
+   "probability": "med",
+   "impact": "high",
+   "description": "GPU OEM 물량 축소 위험"
+  },
+  {
+   "name": "엔고/환율",
+   "probability": "med",
+   "impact": "med",
+   "description": "수출 비중 높아 환율 민감"
+  }
+ ],
+ "thesis_decomposition": [
+  {
+   "claim": "FC-BGA 과점 선두 — AI 기판 수혜",
+   "type": "factual",
+   "evidence": "[actual] ¥500B 증설·GPU OEM 주력 공급",
+   "testability": "기판 매출·OPM 추세"
+  }
+ ],
+ "korean_disclosures": []
+}

@@ -1,0 +1,186 @@
+{
+  "industry": {
+    "name": "AI 반도체 패키징·후공정·전력 인프라 산업",
+    "overview": "AI 반도체 산업의 가치 무게중심이 '더 빠른 칩 설계'에서 '패키지 시스템 통합'으로 이동 중. 글로벌 advanced packaging 시장 2024 $45B → 2030E $109B (CAGR 16%, Yole Group). HBM TAM 2024 $15B → 2027E $52B (TrendForce). 한국은 (1) 기판/MLCC [삼성전기·LG이노텍], (2) 후공정 검사 [리노공업·티에스이], (3) 데이터센터 전력 [LS ELECTRIC·HD현대일렉] 3개 layer 모두 글로벌 leadership 확보. TSMC CoWoS capex 2024-2026 누적 $30B+. 미국 grid 인프라 — Trump 2.0 IRA 유지 + fast-track 정책으로 Hyperscaler ($250B+ capex 2026E) → 전력·변압기·HVDC backlog 2027 H1까지 견고.",
+    "competitors": [
+      {
+        "name": "FormFactor",
+        "ticker": "FORM",
+        "share_pct": 30.0,
+        "moat": "프로브카드 글로벌 1위 + DRAM/HBM 전문"
+      },
+      {
+        "name": "MPI (대만)",
+        "ticker": "6223.TWO",
+        "share_pct": 18.0,
+        "moat": "HBM probe card 대만 leader"
+      },
+      {
+        "name": "리노공업",
+        "ticker": "058470.KQ",
+        "share_pct": 25.0,
+        "moat": "HBM 테스트 소켓 글로벌 1위 — design-in"
+      },
+      {
+        "name": "ISC",
+        "ticker": "095340.KQ",
+        "share_pct": 6.0,
+        "moat": "한국 테스트 소켓 2위"
+      },
+      {
+        "name": "Yokowo",
+        "ticker": "6800.T",
+        "share_pct": 4.0,
+        "moat": "일본 소켓 mid-tier"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-10",
+        "title": "리노공업 HBM4 12-Hi 소켓 양산 시작",
+        "source": "company IR",
+        "summary": "HBM4 글로벌 first-mover, ASP +35% YoY 인상",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05-22",
+        "title": "FormFactor — HBM probe card 가격 +35% 인상",
+        "source": "FormFactor 10-Q",
+        "summary": "글로벌 검사 ASP 인상 사이클",
+        "impact": "+"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 138375.0,
+      "thesis": "Hyperscaler capex 2026~2028 일관 성장 + AI 추론 시장 본격 개화 + 패키지 단가 상승 지속",
+      "key_assumptions": [
+        "GPT-5 모델 상용화 → 추론 demand polynomial 증가",
+        "Nvidia Blackwell 양산 가속",
+        "삼성전기 1.5조 실리콘 cap 계약 확대"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 120950.0,
+      "thesis": "AI capex steady, 패키지 단가 인상 18M 지속 후 oversupply 진입 — re-rating 일부 mean revert",
+      "key_assumptions": [
+        "하이퍼스케일러 2026 capex 가이드 +20%",
+        "HBM4 mass production 2026 Q4",
+        "한국 패키지 PE re-rate continues"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 76875.0,
+      "thesis": "AI 모델 ROI 의문 + Microsoft·Meta capex 가이드 둔화 + 중국 OSAT 양산 발표",
+      "key_assumptions": [
+        "AI 매출 Microsoft·Meta 가이드 -10%",
+        "JCET ABF 양산 발표",
+        "Forward PE >50x 종목 일제 sell-off"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q3",
+      "event": "HBM4 mass production 가속 → 소켓 demand polynomial 증가",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "HBM4 mass production 가속 → 소켓 demand polynomial 증가"
+    },
+    {
+      "date": "2026 Q4",
+      "event": "Nvidia Blackwell 양산 → 검사 횟수 2배 증가",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Nvidia Blackwell 양산 → 검사 횟수 2배 증가"
+    },
+    {
+      "date": "2027",
+      "event": "HBM-PIM (Processing in Memory) 양산 시 검사 횟수 추가 증가",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "HBM-PIM (Processing in Memory) 양산 시 검사 횟수 추가 증가"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 38x",
+      "probability": "med",
+      "impact": "high",
+      "description": "Forward PE 38x — 이미 valuation premium 반영",
+      "mitigation": "모니터링 + 분할매수"
+    },
+    {
+      "name": "검사 주식의 cyclical 특성",
+      "probability": "med",
+      "impact": "high",
+      "description": "검사 주식의 cyclical 특성",
+      "mitigation": "모니터링 + 분할매수"
+    },
+    {
+      "name": "FormFactor 경쟁",
+      "probability": "med",
+      "impact": "high",
+      "description": "FormFactor 경쟁 — 글로벌 leader와의 share gain 어려움",
+      "mitigation": "모니터링 + 분할매수"
+    },
+    {
+      "name": "HBM4→HBM5 전환 시 검사 ASP volatility",
+      "probability": "med",
+      "impact": "high",
+      "description": "HBM4→HBM5 전환 시 검사 ASP volatility",
+      "mitigation": "모니터링 + 분할매수"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "HBM 테스트 소켓 글로벌 점유율 25% — design-in",
+      "type": "industry",
+      "evidence": "시장 점유율 자료",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "HBM4 12-Hi 검사 횟수 2배 증가 → ASP 상승",
+      "type": "industry",
+      "evidence": "VLSI Research + FormFactor 10-K",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "OPM 32.5% 유지 가능 — quality bar 최고 수준",
+      "type": "company",
+      "evidence": "회사 분기별 실적",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-10",
+      "type": "신제품 양산 시작",
+      "summary": "HBM4 12-Hi 소켓 양산",
+      "impact": "+",
+      "title": "HBM4 12-Hi 소켓 양산"
+    }
+  ],
+  "five_year_financials": {
+    "revenue_cagr": 22.0,
+    "opm_trajectory": "2021 30.5% → 2026E 33.5%",
+    "roe_trajectory": "2021 19.0% → 2026E 22.5%",
+    "fcf_yield": 3.5,
+    "turnaround_signal": "HBM 전환 가속 — 매출 CAGR 22% 유지 가능성 큼"
+  },
+  "reverse_dcf": {
+    "current_price": 102500,
+    "implied_growth_rate": 22.0,
+    "fair_value_dcf_low": 75000,
+    "fair_value_dcf_base": 105000,
+    "fair_value_dcf_high": 140000,
+    "verdict": "현재가 102K은 base 105K 대비 fair value — bull case 진입 시 +37% upside"
+  }
+}

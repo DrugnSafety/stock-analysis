@@ -1,0 +1,88 @@
+{
+  "computed_at": "2026-05-17T11:46:58.094447+09:00",
+  "portfolio_value": 1000000,
+  "persona_weights": {
+    "stanley-druckenmiller": 1.5,
+    "peter-lynch": 1.3,
+    "michael-burry": 1.2,
+    "warren-buffett": 0.7,
+    "cathie-wood": 0.9,
+    "charlie-munger": 0.8,
+    "ben-graham": 0.7,
+    "mohnish-pabrai": 1.0,
+    "phil-fisher": 1.0,
+    "rakesh-jhunjhunwala": 0.95,
+    "nassim-taleb": 1.0,
+    "bill-ackman": 0.9,
+    "aswath-damodaran": 1.0
+  },
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "AVGO",
+      "decision_date": "2026-05-16",
+      "action": "BUY",
+      "weighted_signal_score": 0.492,
+      "interpretation": "lean_bullish",
+      "target_quantity": 355,
+      "target_value_usd": 150942.45,
+      "target_pct_of_portfolio": 15.09,
+      "max_allowed_quantity": 355,
+      "max_allowed_pct": 15.11,
+      "rationale": "13명 페르소나 가중 signal 0.49 (3개 verdict 분포). Risk limit 15.1% 내에서 BUY 결정."
+    },
+    {
+      "ticker": "TSM",
+      "decision_date": "2026-05-16",
+      "action": "BUY",
+      "weighted_signal_score": 0.545,
+      "interpretation": "strong_bullish",
+      "target_quantity": 392,
+      "target_value_usd": 158505.2,
+      "target_pct_of_portfolio": 15.85,
+      "max_allowed_quantity": 392,
+      "max_allowed_pct": 15.87,
+      "rationale": "13명 페르소나 가중 signal 0.54 (3개 verdict 분포). Risk limit 15.9% 내에서 BUY 결정."
+    },
+    {
+      "ticker": "MU",
+      "decision_date": "2026-05-16",
+      "action": "BUY",
+      "weighted_signal_score": 0.355,
+      "interpretation": "lean_bullish",
+      "target_quantity": 151,
+      "target_value_usd": 109423.66,
+      "target_pct_of_portfolio": 10.94,
+      "max_allowed_quantity": 151,
+      "max_allowed_pct": 11.0,
+      "rationale": "13명 페르소나 가중 signal 0.35 (4개 verdict 분포). Risk limit 11.0% 내에서 BUY 결정."
+    },
+    {
+      "ticker": "ARM",
+      "decision_date": "2026-05-16",
+      "action": "HOLD",
+      "weighted_signal_score": 0.034,
+      "interpretation": "neutral",
+      "target_quantity": 210,
+      "target_value_usd": 43923.6,
+      "target_pct_of_portfolio": 4.39,
+      "max_allowed_quantity": 525,
+      "max_allowed_pct": 11.0,
+      "rationale": "13명 페르소나 가중 signal 0.03 (3개 verdict 분포). Risk limit 11.0% 내에서 HOLD 결정."
+    },
+    {
+      "ticker": "SNDK",
+      "decision_date": "2026-05-16",
+      "action": "HOLD",
+      "weighted_signal_score": 0.134,
+      "interpretation": "neutral",
+      "target_quantity": 31,
+      "target_value_usd": 43635.91,
+      "target_pct_of_portfolio": 4.36,
+      "max_allowed_quantity": 78,
+      "max_allowed_pct": 11.0,
+      "rationale": "13명 페르소나 가중 signal 0.13 (3개 verdict 분포). Risk limit 11.0% 내에서 HOLD 결정."
+    }
+  ],
+  "methodology_note": "각 ticker별 13개 persona verdict × confidence × persona_weight 가중 평균으로 signal score 산출. score ≥ 0.30 → BUY (full), 0.15-0.30 → BUY (partial 70%), -0.10-0.15 → HOLD (tracking 40%), <-0.10 → AVOID. Risk limit 내에서 position size 결정."
+}

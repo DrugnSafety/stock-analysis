@@ -1,0 +1,194 @@
+{
+ "financial_unit": {
+  "currency": "KRW",
+  "scale": "십억"
+ },
+ "industry": {
+  "name": "메모리 반도체 — HBM · DRAM · NAND",
+  "overview": "SK하이닉스는 HBM 글로벌 선두로 엔비디아 AI 가속기에 HBM3E를 핵심 공급. 본문에서 '메모리 사이클주 → AI 인프라 필수 공급망'으로 재평가받은 대표 선례로 인용. 직접 thesis 대상이라기보다 삼성전기 재평가 가설의 비교 준거.",
+  "competitors": [
+   {
+    "name": "삼성전자",
+    "ticker": "005930.KS",
+    "share_pct": 40,
+    "moat": "메모리 1위 · HBM 추격"
+   },
+   {
+    "name": "마이크론",
+    "ticker": "MU",
+    "share_pct": 20,
+    "moat": "HBM3E 진입 · 미국"
+   },
+   {
+    "name": "SK하이닉스",
+    "ticker": "000660.KS",
+    "share_pct": 35,
+    "moat": "HBM 선두 · NVDA 주력 공급"
+   }
+  ],
+  "news": [
+   {
+    "date": "2025-2026",
+    "title": "HBM 슈퍼사이클 — OPM 2023 -23.6% → 2025 +48.6%",
+    "source": "실적공시",
+    "summary": "AI capex로 메모리 사이클 디커플 — 재평가 사실"
+   },
+   {
+    "date": "2026",
+    "title": "시가총액 사상 최대권 · HBM LTA 비중 확대",
+    "source": "업계",
+    "summary": "커스텀·장기계약으로 ASP 차별화"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 40.0,
+   "cagr_pct": 35.0,
+   "horizon": "2026-2030 HBM TAM"
+  }
+ },
+ "financials": {
+  "pl_5y": [
+   {
+    "year": 2022,
+    "revenue": 44621.57,
+    "op_income": 6809.42,
+    "op_margin": 15.3,
+    "net_income": 2229.56,
+    "net_margin": 5.0
+   },
+   {
+    "year": 2023,
+    "revenue": 32765.72,
+    "op_income": -7730.31,
+    "op_margin": -23.6,
+    "net_income": -9112.43,
+    "net_margin": -27.8
+   },
+   {
+    "year": 2024,
+    "revenue": 66192.96,
+    "op_income": 23467.32,
+    "op_margin": 35.5,
+    "net_income": 19788.68,
+    "net_margin": 29.9
+   },
+   {
+    "year": 2025,
+    "revenue": 97146.68,
+    "op_income": 47206.32,
+    "op_margin": 48.6,
+    "net_income": 42919.29,
+    "net_margin": 44.2
+   }
+  ],
+  "peer_compare": [
+   {
+    "ticker": "000660.KS",
+    "name": "SK하이닉스",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "005930.KS",
+    "name": "삼성전자",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "MU",
+    "name": "마이크론",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   }
+  ]
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 35,
+   "target_price": 2800000,
+   "thesis": "HBM4 전환+AI capex 지속 → ASP·물량 동반 상승",
+   "key_assumptions": [
+    "HBM4 적기 양산",
+    "NVDA 비중 유지",
+    "DRAM 업황 강세"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 2200000,
+   "thesis": "HBM 호조 지속하나 범용 DRAM 사이클 변동성",
+   "key_assumptions": [
+    "HBM 점유율 선두 유지",
+    "capex 증가",
+    "현 가격대 등락"
+   ]
+  },
+  "bear": {
+   "prob_pct": 20,
+   "target_price": 1500000,
+   "thesis": "AI capex 둔화+메모리 다운사이클 재진입",
+   "key_assumptions": [
+    "HBM 경쟁심화",
+    "DRAM 가격 하락"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-분기",
+   "event": "HBM4 양산·고객 인증",
+   "type": "company",
+   "expected_impact": "+",
+   "description": "차세대 HBM 전환"
+  },
+  {
+   "date": "2026",
+   "event": "분기 실적·HBM 가이던스",
+   "type": "earnings",
+   "expected_impact": "○",
+   "description": "ASP·물량 추세"
+  }
+ ],
+ "risks": [
+  {
+   "name": "메모리 사이클 변동성",
+   "probability": "high",
+   "impact": "high",
+   "description": "범용 DRAM 다운사이클 재발 위험"
+  },
+  {
+   "name": "HBM 경쟁심화",
+   "probability": "med",
+   "impact": "med",
+   "description": "삼성·마이크론 HBM 추격"
+  },
+  {
+   "name": "AI capex 둔화",
+   "probability": "low",
+   "impact": "high",
+   "description": "하이퍼스케일러 투자 축소 시 HBM 수요 타격"
+  }
+ ],
+ "thesis_decomposition": [
+  {
+   "claim": "메모리 사이클주→AI 인프라 공급망 재평가 선례",
+   "type": "factual",
+   "evidence": "[actual] OPM -23.6%(2023)→+48.6%(2025), 시총 사상최대권",
+   "testability": "멀티플·HBM매출비중 시계열"
+  }
+ ],
+ "korean_disclosures": [
+  {
+   "date": "2025-2026",
+   "type": "실적",
+   "title": "HBM 호조로 사상 최대 영업이익권",
+   "impact": "+"
+  }
+ ]
+}

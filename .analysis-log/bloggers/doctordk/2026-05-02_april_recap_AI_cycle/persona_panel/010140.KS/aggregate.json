@@ -1,0 +1,1038 @@
+{
+  "ticker": "010140.KS",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.62,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (4/4 만장일치!)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.82
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (단기 +34% 과열 우려)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish (cycle peak fragility)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (Reverse DCF가 이미 high growth 가격화)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "AI 인프라 cycle 후기 진입",
+      "frequency": 7,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "charlie-munger",
+        "ben-graham",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "phil-fisher"
+      ],
+      "examples": [
+        "사이클 후기에서 valuation premium 함정 가능"
+      ]
+    },
+    {
+      "theme": "Single-cycle 의존도 (모두 hyperscaler capex)",
+      "frequency": 5,
+      "personas": [
+        "nassim-taleb",
+        "warren-buffett",
+        "ben-graham",
+        "charlie-munger",
+        "michael-burry"
+      ],
+      "examples": [
+        "진정한 분산 아닌 thesis-concentrated portfolio"
+      ]
+    }
+  ],
+  "persona_results": {
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] 1M +34% 단기 과열 — 신규 진입 reward/risk 약화",
+        "[inference] Sentiment overcrowded — 시장이 이미 thesis 인식",
+        "macro tailwind는 강하나 진입 timing 늦음"
+      ],
+      "key_opportunities_top3": [
+        "Macro 다중 정렬 (ESS+EV+트럭)"
+      ],
+      "uncertainty": "조정 후 재진입 시점 — 'no edge no bet' 적용 가능",
+      "narrative_vs_quant_resolution": "Druckenmiller는 macro+모멘텀+sentiment — 진입 늦은 timing이 단점",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'support' 입장",
+          "confidence": 0.72
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] 1M +34% 후 PEG 적용 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[derived] Cyclical turnaround 카테고리에서 가장 잘 이해되는 종목 (한국 거주자 plain language)",
+        "Ten-bagger 가능성 — 리튬 super-cycle + 한국 지수 편입",
+        "[actual] PE 16 / 추정 EPS 성장 30%+ → PEG 0.5"
+      ],
+      "uncertainty": "사이클 정점 timing",
+      "narrative_vs_quant_resolution": "Lynch는 narrative (이해 가능성 + 성장 스토리)와 정량(PEG) 둘 다 충족 — 강한 buy",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "피터 린치: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "피터 린치: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "피터 린치: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "피터 린치: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "피터 린치: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "피터 린치: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'support' 입장",
+          "confidence": 0.72
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[inference] 15-point 중 family succession 위험 (POSCO chaebol)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] R&D 매출비중 높음 — 리튬·소재 신기술 지속 투자",
+        "[actual] 글로벌 점유율 확대 (광산-소재-배터리 통합 전략)",
+        "Scuttlebutt 가능 — 한국 산업 정보 풍부"
+      ],
+      "uncertainty": "Long-duration compounding 가능 — 단 cyclical EPS 변동성",
+      "narrative_vs_quant_resolution": "Fisher는 R&D/scuttlebutt 정성 > 정량 — 수직계열화 R&D 강도가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "필 피셔: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "필 피셔: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "필 피셔: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "필 피셔: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "필 피셔: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "필 피셔: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "필 피셔: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "필 피셔: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'support' 입장",
+          "confidence": 0.72
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[inference] 한국 chaebol activist intervention 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[inference] FCF 강함 + 자본배분 옵션 다양 (배당·자사주·M&A)",
+        "Spin-off 가능성 (리튬 자회사 분할)",
+        "[actual] catalyst: 리튬 가격 추가 상승 + ESS 매출 본격화"
+      ],
+      "uncertainty": "Catalyst timing 명확하나 activist value-creation path 약함",
+      "narrative_vs_quant_resolution": "Ackman은 high-quality + clear catalyst — 삼성중공업 둘 다 부분 충족",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "빌 애크먼: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "빌 애크먼: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "빌 애크먼: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'support' 입장",
+          "confidence": 0.72
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[inference] 한국은 emerging→developed — emerging tailwind 약함"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 5년 ROE 평균 8-10%로 자본비용 상회",
+        "Long-term wealth: K-리튬 글로벌 점유 확대",
+        "거시 tailwind: 한국 정부 K-배터리 지원"
+      ],
+      "uncertainty": "ROE 일관성 — 철강 사이클로 변동성",
+      "narrative_vs_quant_resolution": "Jhunjhunwala는 ROE + macro tailwind 우선 — 수직계열화 ROE 잠재력 강조",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'support' 입장",
+          "confidence": 0.72
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] 철강 본업의 disruption 부재 — 다각화 가치 일부 희석"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 의교창 thesis와 정확히 정합 — ESS·EV·트럭 3축이 ARK 5대 platform과 정렬",
+        "[inference] Wright's law: 리튬 가격 → 배터리 비용 → EV 침투율 + ESS 보급의 cascading effect",
+        "TAM 확장: 리튬·소재·배터리·재활용 모두 보유"
+      ],
+      "uncertainty": "나트륨 배터리 disruption — but POSCO도 관련 기술 보유로 헤지",
+      "narrative_vs_quant_resolution": "Wood는 narrative > 정량 — disruption innovation thesis가 단기 valuation보다 우선",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "캐시 우드: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'support' 입장",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "캐시 우드: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "캐시 우드: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "캐시 우드: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'support' 입장",
+          "confidence": 0.72
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[inference] Cycle peak risk — 영구손실 가능성 작지 않음"
+      ],
+      "key_opportunities_top3": [
+        "[derived] Heads I win: 리튬 super-cycle 시 +200%, tails: 철강 floor + 배당으로 -30% 수준",
+        "[inference] 단순한 비즈니스 (한국 산업 대표) Pabrai 원칙 부합",
+        "Cloning: 한국 가치투자자 다수 보유"
+      ],
+      "uncertainty": "50% margin of safety — 1Y +84% 후 미충족이나 long-term 가치 우수",
+      "narrative_vs_quant_resolution": "Pabrai 비대칭 payoff 우선 — 'Heads I win'이 단기 가격보다 중요",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'neutral' 입장",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 1M +34% 단기 과열로 margin of safety 부족",
+        "[inference] 리튬 cyclical → 정상화 EPS 추정 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 리튬 광산-소재-배터리 수직계열화 = wide moat (Buffett 좋아하는 'undisruptable')",
+        "[actual] PE 16 합리적 수준 (peer 대비)",
+        "한국 철강+리튬+자회사 다각화 owner earnings 안정성"
+      ],
+      "uncertainty": "리튬 가격 정점 timing — 정점 시 EPS -50% 위험",
+      "narrative_vs_quant_resolution": "Buffett은 정량(margin of safety) 우선이나, 수직계열화 moat의 long-term value를 높게 평가하여 lean_bullish로 기우는 borderline",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "워런 버핏: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "워런 버핏: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "워런 버핏: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'neutral' 입장",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "long_term",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[derived] Reverse DCF: 시장가 ₩46.5만 함의 매출 성장 +12-15% — 이미 ambitious 가정"
+      ],
+      "key_opportunities_top3": [
+        "Story-numbers 일관성 양호 (수직계열화 narrative + 정량 PE 16 합리적)"
+      ],
+      "uncertainty": "리튬 가격 변동성 → terminal value 가정 fragility",
+      "narrative_vs_quant_resolution": "Damodaran은 story와 numbers의 strict 정합 — 현재가가 이미 최적 시나리오 가격화로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "애스워드 다모다란: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'neutral' 입장",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] Inversion: 나트륨 배터리 disruption 시 -50% 가능 (T06 Counter)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 수직계열화 quality 비즈니스 (Munger 선호 패턴)",
+        "[actual] ROIC 자본비용 상회 가능성 (철강+리튬 합산)",
+        "POSCO 가족 거버넌스 우려는 있으나 산업 leadership 명확"
+      ],
+      "uncertainty": "Lollapalooza factor — ESS+EV+트럭 3축 동시는 favorable cluster",
+      "narrative_vs_quant_resolution": "Munger는 quality > price — 수직계열화 quality가 가격 우려보다 우선",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'neutral' 입장",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] 1Y +125% 가장 큰 momentum risk + PE 25x cycle peak — Burry contrarian 신호",
+        "[derived] '의교창 사이클 후기 진입' framing이 contrarian setup 정합",
+        "[inference] cycle 정점 인지하며 small position만 권고"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 한국 리튬 종목 vs 글로벌 (ALB +231%) sensitivity gap — 추가 catch-up 가능"
+      ],
+      "uncertainty": "Contrarian timing은 cycle 정점 또는 하단에서 — 현재 중간",
+      "narrative_vs_quant_resolution": "Burry는 hard contrarian — narrative 이미 mainstream 시 진입 회피",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "마이클 버리: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "마이클 버리: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "마이클 버리: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.4
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "마이클 버리: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'neutral' 입장",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.67,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "key_concerns_top3": [
+        "[derived] PE 16 + PBR 추정 1.0-1.2 = Graham Number 검증 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 7년 흑자 + 배당 연속성 충족 (POSCO holdings)",
+        "[derived] Graham Number 추정 ₩50만+ vs 현재 ₩46.5만 — margin of safety 작지만 양수",
+        "정량 7-9개 기준 통과"
+      ],
+      "uncertainty": "EPS 변동성 큰 cyclical — Defensive vs Enterprising 카테고리 모호",
+      "narrative_vs_quant_resolution": "Graham 정량 기준으로 borderline pass — narrative보다 정량 우선이나 양수",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T03",
+          "stance": "challenge",
+          "rationale": "벤저민 그레이엄: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'challenge' 입장",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "벤저민 그레이엄: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'challenge' 입장",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'neutral' 입장",
+          "confidence": 0.47
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.67,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[inference] '구조적' framing 자체가 fragility 신호 — historically cycle 정점에서 자주 사용",
+        "[inference] Lithium spot 2024 -70% 폭락 history — fat-tail 손실 가능성",
+        "[actual] 1Y +84.5% peak 도달 후 -50% drawdown은 historical norm"
+      ],
+      "key_opportunities_top3": [
+        "수직계열화 일부 antifragile 특성"
+      ],
+      "uncertainty": "정점 timing — 정점일 가능성 높으나 timing 불명",
+      "narrative_vs_quant_resolution": "Taleb은 fragility > narrative — '구조적' 주장 자체를 의심",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 4월 시장은 펀더멘털 (실적 surge)이 매크로 (유가·종전 부재) headwind를 능에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: AI 인프라 가치사슬은 단순 테마가 아닌 '실제 돈이 순환하는 산업 생태계' — 6단계 (에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T03",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: 사이클 단계 진단: '중기 후반 ~ 후기 초입' — 펀더멘털 서프라이즈 강도 둔화 + 자금에 대해 'challenge' 입장",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 조선업 (한화오션·HD현대중공업·삼성중공업)은 'AI 인프라용 데이터센터선·LNG선' 수요에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: CPU + DDR5는 새로운 병목 — referenced post 2번. SK하이닉스·삼성에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: 투자 질문 변화: '좋은 산업?' → '이 기업의 이익이 매크로 환경에서도 계속 증가하는가에 대해 'challenge' 입장",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: 포지셔닝 철학: 'matrix vs fundamental 속도 차이'에서 움직이는 시장에서에 대해 'neutral' 입장",
+          "confidence": 0.47
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: Anchor 종목: SK하이닉스 + 삼성전자 (DDR5/HBM 글로벌 dominant), 에 대해 'neutral' 입장",
+          "confidence": 0.47
+        }
+      ]
+    }
+  }
+}

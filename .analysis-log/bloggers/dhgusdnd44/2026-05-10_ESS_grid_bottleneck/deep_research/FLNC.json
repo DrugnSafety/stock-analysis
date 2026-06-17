@@ -1,0 +1,235 @@
+{
+  "ticker": "FLNC",
+  "name": "Fluence Energy",
+  "name_kr": "플루언스 에너지",
+  "research_date": "2026-05-10",
+  "industry": {
+    "name": "ESS 시스템 통합 (BoS)",
+    "overview": "Siemens·AES JV 출신 ESS 시스템 통합 1위 (Tesla Megapack과 양강). Cubes·Edge·Grid 3개 라인업. backlog $5B+. 블로그 thesis의 'BoS = 진짜 병목' 직접 노출. Forward PE 203 + +401% 1Y momentum extreme.",
+    "competitors": [
+      {
+        "name": "Tesla Energy",
+        "ticker": "TSLA",
+        "strength": "Megapack vertically integrated, 점유율 1위"
+      },
+      {
+        "name": "Wartsila",
+        "ticker": "WRT1V.HE",
+        "strength": "GEMS 플랫폼, 통합 솔루션"
+      },
+      {
+        "name": "Sungrow Power",
+        "ticker": "300274.SZ",
+        "strength": "중국 시장 + 가격 경쟁력"
+      },
+      {
+        "name": "BYD",
+        "ticker": "1211.HK",
+        "strength": "vertically integrated 셀+시스템"
+      },
+      {
+        "name": "CATL EnerC+",
+        "ticker": "300750.SZ",
+        "strength": "셀 1위 + 시스템 진출"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 28,
+      "horizon": "2024-2030",
+      "cagr_pct": 18.0,
+      "future_usd_bn": 75
+    },
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "FLNC Q1 매출 +35% YoY, backlog $5.2B",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-03",
+        "title": "FLNC 호주 4GWh ESS 수주",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-02",
+        "title": "FLNC 영업이익 첫 흑자 전환 발표",
+        "impact": "+",
+        "url": ""
+      }
+    ]
+  },
+  "financials": {
+    "currency": "USD",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 681,
+        "op_income": -178,
+        "op_margin": -26.1,
+        "net_income": -161,
+        "net_margin": -23.6
+      },
+      {
+        "year": 2022,
+        "revenue": 1199,
+        "op_income": -207,
+        "op_margin": -17.3,
+        "net_income": -288,
+        "net_margin": -24.0
+      },
+      {
+        "year": 2023,
+        "revenue": 1860,
+        "op_income": -78,
+        "op_margin": -4.2,
+        "net_income": -103,
+        "net_margin": -5.5
+      },
+      {
+        "year": 2024,
+        "revenue": 2710,
+        "op_income": 35,
+        "op_margin": 1.3,
+        "net_income": 22,
+        "net_margin": 0.8
+      },
+      {
+        "year": 2025,
+        "revenue": 3650,
+        "op_income": 145,
+        "op_margin": 4.0,
+        "net_income": 88,
+        "net_margin": 2.4
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-Q4",
+      "total_assets": 2580,
+      "total_liabilities": 1620,
+      "equity": 960,
+      "cash": 580,
+      "total_debt": 75
+    },
+    "cf_summary": {
+      "ocf_2025": 220,
+      "fcf_2025": 180,
+      "capex_2025": 40
+    },
+    "fetched_via": "Fluence 10-K + Investor Day (estimates)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25.0,
+      "target_price": 38,
+      "thesis": "Backlog $7B+ 진입 + 영업이익률 8%+ 진입. 미국·EU·호주 동시 성장. Forward PE 203 → growth 정당화.",
+      "key_assumptions": [
+        "Backlog $7B+ 진입 + 영업이익률 8%+ 진입. 미국·EU·호주 동시 성장. Forward PE 203 → growth 정당화...."
+      ],
+      "upside_pct": 58.3
+    },
+    "base": {
+      "prob_pct": 40.0,
+      "target_price": 26,
+      "thesis": "매출 CAGR 25% 지속 + 영업이익률 5~6%. Tesla Megapack 경쟁 압력 일부.",
+      "key_assumptions": [
+        "매출 CAGR 25% 지속 + 영업이익률 5~6%. Tesla Megapack 경쟁 압력 일부...."
+      ],
+      "upside_pct": 8.3
+    },
+    "bear": {
+      "prob_pct": 35.0,
+      "target_price": 12,
+      "thesis": "Tesla Megapack vertical integration + Sungrow 미국 진출 + 가격 -20% 압력. 영업이익률 -2~+2% 회귀. Forward PE compression -50%.",
+      "key_assumptions": [
+        "Tesla Megapack vertical integration + Sungrow 미국 진출 + 가격 -20% 압력. 영업이익률 -2~+2% 회..."
+      ],
+      "upside_pct": -50.0
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Q1 실적 + 영업이익 sustainability",
+      "impact": "+/-"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Tesla Megapack 경쟁 동향",
+      "impact": "-"
+    },
+    {
+      "date": "2027",
+      "event": "EU CfD 2.0 본격화 시 backlog 확대",
+      "impact": "+"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 203 — earnings 가시성 매우 낮음, multiple comp",
+      "probability": "high",
+      "impact": "high",
+      "description": "Forward PE 203 — earnings 가시성 매우 낮음, multiple compression risk -50%",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "+401% 1Y momentum — 대규모 단기 조정 가능",
+      "probability": "high",
+      "impact": "high",
+      "description": "+401% 1Y momentum — 대규모 단기 조정 가능",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "Beta 2.62 — S&P 500 대비 변동성 2.6배",
+      "probability": "med",
+      "impact": "med",
+      "description": "Beta 2.62 — S&P 500 대비 변동성 2.6배",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "Tesla Megapack vertical integration 경쟁 압력 (margin ",
+      "probability": "med",
+      "impact": "med",
+      "description": "Tesla Megapack vertical integration 경쟁 압력 (margin -10~15%)",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "Sungrow·Huawei 미국 진출 시 가격 -20% 압력",
+      "probability": "med",
+      "impact": "med",
+      "description": "Sungrow·Huawei 미국 진출 시 가격 -20% 압력",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    }
+  ],
+  "korean_disclosures": [],
+  "us_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "10-Q",
+      "summary": "Q1 2026 매출 $850M +35% YoY",
+      "title": "Q1 2026 매출 $850M +35% YoY",
+      "impact": "○"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "10-K",
+      "summary": "FY2025 매출 $3.65B, 영업이익 $145M (첫 흑자)",
+      "title": "FY2025 매출 $3.65B, 영업이익 $145M (첫 흑자)",
+      "impact": "○"
+    },
+    {
+      "date": "2025-12-08",
+      "type": "8-K",
+      "summary": "호주 4GWh ESS 수주",
+      "title": "호주 4GWh ESS 수주",
+      "impact": "○"
+    }
+  ],
+  "subagent_debate": {
+    "bull_druckenmiller": "ESS 시스템 시장 25% CAGR + Fluence가 Tesla 외 유일 publicly traded 통합 시스템 player. 18개월 forward earnings 3배 가능. AI 데이터센터 ESS 동시 수혜.",
+    "bear_buffett": "Forward PE 203 + Beta 2.62 + +401% 1Y는 절대 매수 대상 아님. 영업이익률 4%로 sustainable moat 검증 미완. Tesla Megapack에 patent edge 부족.",
+    "skeptic": "Backlog quality — fixed price ratio? cancel rate? Tesla Megapack PPA 점유율 추세? 영업이익 흑자 sustainability 1년 더 필요.",
+    "convergence": "Thesis fit는 high이나 valuation overheating으로 SKIP. -40~-50% 조정 후 starter 진입 재검토."
+  }
+}

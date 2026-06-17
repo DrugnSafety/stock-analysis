@@ -1,0 +1,341 @@
+{
+  "ticker": "COHR",
+  "name_kr": "코히런트",
+  "name_en": "Coherent Corp.",
+  "industry": {
+    "name": "Optical Components / Photonics / AI Datacenter Transceivers",
+    "overview": "Coherent Corp.은 1971년 II-VI Incorporated로 설립, 2022년 Coherent Inc.(레이저)와의 $7B 합병 후 현재 사명 사용. 광 부품 (transceivers, EML lasers, EDFAs, ROADMs), 산업용 레이저, 반도체 capital equipment, displays(LiDAR·VCSEL)의 4개 segment 운영. AI 데이터센터의 800G·1.6T 광 트랜시버 시장에서 Innolight·Lumentum과 함께 글로벌 top-3. NVIDIA 직접 투자(2024년 발표)로 AI capex의 leveraged play로 부각. 매출 비중에서 Networking(광통신·트랜시버) 50%+, Materials 25%, Lasers 25%. FY26(Jun 2025-Jun 2026) 매출 가이던스 $7B+ (+30%+ YoY).",
+    "competitors": [
+      {
+        "name": "Lumentum Holdings",
+        "ticker": "LITE",
+        "share_pct": 18.0,
+        "moat": "VCSEL/EML laser + ROADM. NeoPhotonics 인수로 AI 트랜시버 강화"
+      },
+      {
+        "name": "Innolight Technology",
+        "ticker": "300308.SZ",
+        "share_pct": 25.0,
+        "moat": "중국 광 트랜시버 #1 (800G·1.6T 양산), Hyperscaler 직접 공급"
+      },
+      {
+        "name": "Eoptolink",
+        "ticker": "300502.SZ",
+        "share_pct": 12.0,
+        "moat": "중국 차세대 트랜시버, 가격 경쟁력"
+      },
+      {
+        "name": "Marvell Technology",
+        "ticker": "MRVL",
+        "share_pct": 10.0,
+        "moat": "DSP·SerDes + 광 모듈 silicon photonics IP"
+      },
+      {
+        "name": "Coherent Corp.",
+        "ticker": "COHR",
+        "share_pct": 22.0,
+        "moat": "EML laser source + 트랜시버 통합 + NVIDIA 전략 투자"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-10",
+        "title": "COHR FY26 Q3 매출 $1.9B (+38% YoY), Networking 비중 55%로 확대",
+        "source": "COHR Q3 FY26 Earnings",
+        "summary": "AI 데이터센터 트랜시버 매출 +60% YoY, gross margin 35.5%로 +200bps 개선"
+      },
+      {
+        "date": "2025-11-14",
+        "title": "Coherent, NVIDIA Spectrum-X 광 모듈 single-source 디자인 윈",
+        "source": "NVIDIA Press Release",
+        "summary": "차세대 1.6T 트랜시버 일부 모델에 single-source 공급권 확보"
+      },
+      {
+        "date": "2025-09-04",
+        "title": "Coherent, Datacenter Capacity 2-3배 확장 발표 — $1.2B 투자",
+        "source": "Coherent IR",
+        "summary": "Sherman·Texas 신규 fab + Pennsylvania 확장. 2026 H2 가동"
+      },
+      {
+        "date": "2025-06-22",
+        "title": "NVIDIA, Coherent에 전략 투자 (시리즈 unsecured + LOI)",
+        "source": "NVIDIA·COHR",
+        "summary": "정확한 amount 미공개. 광 트랜시버 공급 우선권 + R&D 협업"
+      },
+      {
+        "date": "2025-04-15",
+        "title": "Coherent CEO Jim Anderson 신임 — Vintage Capital 출신",
+        "source": "COHR",
+        "summary": "II-VI/Coherent 합병 통합 + 신성장 동력 추진"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 28.0,
+      "horizon": "2024-2030 (광 트랜시버 + 컴포넌트 합산)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY2022",
+        "revenue": 3316,
+        "op_income": 388,
+        "op_margin": 11.7,
+        "net_income": 261,
+        "net_margin": 7.9
+      },
+      {
+        "year": "FY2023",
+        "revenue": 4742,
+        "op_income": -54,
+        "op_margin": -1.1,
+        "net_income": -257,
+        "net_margin": -5.4
+      },
+      {
+        "year": "FY2024",
+        "revenue": 4708,
+        "op_income": 165,
+        "op_margin": 3.5,
+        "net_income": -157,
+        "net_margin": -3.3
+      },
+      {
+        "year": "FY2025",
+        "revenue": 5800,
+        "op_income": 750,
+        "op_margin": 12.9,
+        "net_income": 380,
+        "net_margin": 6.6
+      },
+      {
+        "year": "FY2026E",
+        "revenue": 7500,
+        "op_income": 1240,
+        "op_margin": 16.5,
+        "net_income": 850,
+        "net_margin": 11.3
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31",
+      "total_assets_usdmn": 11500,
+      "total_debt_usdmn": 4800,
+      "total_equity_usdmn": 4500,
+      "cash_usdmn": 850,
+      "net_debt_usdmn": 3950,
+      "debt_to_equity": 1.07,
+      "current_ratio": 2.1
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 1200,
+      "capex_2025_usdmn": 480,
+      "fcf_2025_usdmn": 720,
+      "dividend_paid_2025_usdmn": 0,
+      "buyback_2025_usdmn": 0
+    },
+    "peer_compare": [
+      {
+        "ticker": "COHR",
+        "fwd_pe": 45.43,
+        "ev_ebitda": 22.0,
+        "fcf_yield_pct": 1.1,
+        "roe_pct": 8.5,
+        "debt_to_equity": 1.07
+      },
+      {
+        "ticker": "LITE",
+        "fwd_pe": 52.33,
+        "ev_ebitda": 28.5,
+        "fcf_yield_pct": 0.5,
+        "roe_pct": 12.0,
+        "debt_to_equity": 0.85
+      },
+      {
+        "ticker": "MRVL",
+        "fwd_pe": 28.0,
+        "ev_ebitda": 18.0,
+        "fcf_yield_pct": 2.5,
+        "roe_pct": 15.0,
+        "debt_to_equity": 0.45
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "AI 트랜시버 1.6T 가속 + NVIDIA 우선 공급권 확장",
+      "assumption": "FY27 매출 $10B (+33% YoY), Networking 비중 60%+, 영업이익률 20%+",
+      "upside_pct": 33,
+      "prob_pct": 25,
+      "target_price": 460,
+      "thesis": "AI 트랜시버 1.6T 가속 + NVIDIA 우선 공급권 확장",
+      "key_assumptions": [
+        "FY27 매출 $10B (+33% YoY)",
+        "Networking 비중 60%+",
+        "영업이익률 20%+"
+      ]
+    },
+    "base": {
+      "label": "AI capex 정상 + 트랜시버 가격 압박 일부",
+      "assumption": "FY27 매출 $8.5B, 영업이익률 17%, EPS +20% YoY",
+      "upside_pct": -7,
+      "prob_pct": 50,
+      "target_price": 320,
+      "thesis": "AI capex 정상 + 트랜시버 가격 압박 일부",
+      "key_assumptions": [
+        "FY27 매출 $8.5B",
+        "영업이익률 17%",
+        "EPS +20% YoY"
+      ]
+    },
+    "bear": {
+      "label": "AI capex 둔화 + 트랜시버 commodity화 + Innolight 점유율 침투",
+      "assumption": "FY27 매출 $6.5B, gross margin 30%로 하락",
+      "downside_pct": -49,
+      "prob_pct": 25,
+      "target_price": 175,
+      "thesis": "AI capex 둔화 + 트랜시버 commodity화 + Innolight 점유율 침투",
+      "key_assumptions": [
+        "FY27 매출 $6.5B",
+        "gross margin 30%로 하락"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "1.6T 트랜시버 양산 가속",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+15-25%"
+    },
+    {
+      "date": "2026-2027",
+      "event": "NVIDIA single-source 디자인 윈 확장",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    },
+    {
+      "date": "2026 H2",
+      "event": "Sherman·Texas 신규 fab 가동",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-15% (capacity)"
+    },
+    {
+      "date": "2027-2028",
+      "event": "Silicon photonics IP 확장 (CPO partnership)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    },
+    {
+      "date": "ongoing",
+      "event": "II-VI/Coherent 합병 통합 시너지 실현 (cost reduction)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Innolight·Eoptolink 가격 경쟁 (중국 trades-down)",
+      "probability": "high",
+      "impact": "high",
+      "description": "Innolight·Eoptolink 가격 경쟁 (중국 trades-down)",
+      "mitigation": "EML laser source IP + NVIDIA 파트너십"
+    },
+    {
+      "name": "AI capex 둔화 → Datacenter 비중 50% segment 직접 타격",
+      "probability": "med",
+      "impact": "high",
+      "description": "AI capex 둔화 → Datacenter 비중 50% segment 직접 타격",
+      "mitigation": "Industrial laser·Materials 다각화"
+    },
+    {
+      "name": "트랜시버 ASP 압박 (commodity화)",
+      "probability": "high",
+      "impact": "high",
+      "description": "트랜시버 ASP 압박 (commodity화)",
+      "mitigation": "1.6T 신제품 우선 채택"
+    },
+    {
+      "name": "부채비율 1.07 + 합병 통합 미완료 risk",
+      "probability": "med",
+      "impact": "med",
+      "description": "부채비율 1.07 + 합병 통합 미완료 risk",
+      "mitigation": "FCF $720M로 부채 상환"
+    },
+    {
+      "name": "+394% 1Y rally 후 mean-reversion",
+      "probability": "med",
+      "impact": "high",
+      "description": "+394% 1Y rally 후 mean-reversion",
+      "mitigation": "Pullback 분할 매수"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T2",
+      "claim": "AI 데이터센터 병목은 GPU 연산 → HBM 메모리 → 인터커넥트 순으로 이동했다",
+      "type": "industry",
+      "evidence": "NVL72 fully-fabric scale-up rack ASP가 GPU-only HGX의 10배 — 인터커넥트 가치 동인",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "COHR의 800G·1.6T 트랜시버는 인터커넥트 병목 직접 솔루션"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "NVIDIA의 Coherent, Lumentum, Corning 동시 투자는 광통신 수직통합 전략",
+      "type": "industry",
+      "evidence": "NVIDIA 2024-25 동안 Coherent·Lumentum·Corning 3사에 동시 자본 투입 + 광스위치 직접 출시",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "NVIDIA의 광통신 수직통합 3사 중 한 곳"
+    },
+    {
+      "thesis_id": "T7",
+      "claim": "광통신 부품주(Coherent·Lumentum)는 NVIDIA 수요·CPO 채택의 직접 수혜",
+      "type": "industry",
+      "evidence": "COHR FY26 Q3 +38% YoY, LITE Q3 +85% YoY — datacenter optical 매출 가속",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "thesis와 가장 직접적 정합 — 트랜시버 leveraged play"
+    },
+    {
+      "thesis_id": "T3",
+      "claim": "CPO(Co-Packaged Optics)는 광-전 변환을 칩 옆으로 이동시켜 전력 효율 5-20배 개선",
+      "type": "industry",
+      "evidence": "TSMC COUPE 1.6Tbps/chiplet 시연: pluggable 18W → CPO 7W (~2.5배 개선, ML chiplet level은 5-20배)",
+      "testability": "med",
+      "current_status": "pending",
+      "support_for_ticker": "MEDIUM",
+      "ticker_specific_note": "CPO 시대에는 silicon photonics partnership으로 격상 가능하나 단기 P&L 영향 제한적"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "global_filing",
+      "date": "2026-04-10",
+      "title": "10-Q FY26 Q3",
+      "summary": "매출 $1.9B (+38% YoY), Networking +60%"
+    },
+    {
+      "type": "global_filing",
+      "date": "2025-08-15",
+      "title": "10-K FY2025",
+      "summary": "FY25 매출 $5.8B (+23% YoY)"
+    },
+    {
+      "type": "press_release",
+      "date": "2025-11-14",
+      "title": "NVIDIA Spectrum-X 디자인 윈",
+      "summary": "Single-source 1.6T 일부 모델"
+    }
+  ]
+}

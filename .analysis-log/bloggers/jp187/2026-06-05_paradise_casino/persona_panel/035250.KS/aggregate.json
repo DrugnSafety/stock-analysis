@@ -1,0 +1,363 @@
+{
+  "ticker": "035250.KS",
+  "aggregated_at": "2026-06-06T00:04:32.858389+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "neutral": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.658,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "규제",
+      "frequency": 5,
+      "personas": [
+        "aswath-damodaran",
+        "mohnish-pabrai",
+        "bill-ackman",
+        "charlie-munger",
+        "peter-lynch"
+      ],
+      "examples": [
+        "카지노 산업 규제",
+        "규제 강화 가능성",
+        "규제 환경의 변화"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "해외 시장에 대한 의존성",
+        "카지노 산업 규제"
+      ],
+      "key_opportunities_top3": [
+        "내국인 카지노 수요 지속 증가",
+        "관광 산업 회복"
+      ],
+      "uncertainty": "카지노 규제 강화 시 verdict가 영향을 받을 수 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "카지노 산업의 성장 촉매 부재",
+        "거시적 시장 환경과의 불일치"
+      ],
+      "key_opportunities_top3": [
+        "국내 관광객 증가",
+        "긍정적인 재무 성과 지표"
+      ],
+      "uncertainty": "거시적 성장 촉매 없이는 장기적 투자 가치가 불확실해질 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "규제 강화 가능성",
+        "외국인 관광객의 급격한 감소"
+      ],
+      "key_opportunities_top3": [
+        "현재 실적 향상",
+        "관광객 수 증가"
+      ],
+      "uncertainty": "관광객 유입 증가가 멈추면 verdict의 신뢰도가 떨어질 수 있다",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "외부 환경의 급격한 변화",
+        "규제 환경의 변화"
+      ],
+      "key_opportunities_top3": [
+        "외국인 관광객 증가",
+        "강력한 실적 성장세"
+      ],
+      "uncertainty": "카지노 섹터에 대한 시장의 관심 회복이 늦어진다면 verdict가 약화될 수 있다",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 자본배분 전략 불투명",
+        "이자보상배율 및 EV/EBITDA 등 재무 건전성 불충분"
+      ],
+      "key_opportunities_top3": [
+        "정부 허가에 의한 독점적 시장 지위",
+        "배당 수익률 매력적"
+      ],
+      "uncertainty": "경영진 변화나 자본 배분 전략 개선 시 판단 변경 가능",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "글로벌 경기 침체 시 카지노 방문객 감소 위험",
+        "중국 경기가 향후 악화될 경우 악영향"
+      ],
+      "key_opportunities_top3": [
+        "외국인 관광객의 지속적 증가",
+        "국내 환율이 카지노 기업에 유리하게 작용"
+      ],
+      "uncertainty": "환율 변동이 악화되거나 중국 경기 위축이 심해지면 verdict는 달라질 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "카지노 섹터의 규제 변화 가능성",
+        "경쟁사들의 시장 진입 및 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "해외 관광객의 유입 증가",
+        "국내외 카지노 산업 회복"
+      ],
+      "uncertainty": "관광객 증가가 예상보다 낮아질 경우, 실적 및 주가의 회복이 지연될 수 있다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "경영진 정직성에 대한 의문",
+        "R&D 투자 부족"
+      ],
+      "key_opportunities_top3": [
+        "낮은 변동성",
+        "높은 배당수익률"
+      ],
+      "uncertainty": "카지노 산업의 환경 변화 및 경영진의 장기 비전이 개선되면 평가가 달라질 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "부정적 EV/EBITDA가 재무 건전성을 의심하게 함",
+        "시장 상황 악화 시 타격 위험"
+      ],
+      "key_opportunities_top3": [
+        "카지노 산업 회복 가능성",
+        "중국 외 관광객 유입 증가"
+      ],
+      "uncertainty": "카지노 산업의 경기 회복이 지연되면 주식 가치는 더 떨어질 수 있습니다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "EPS와 BVPS 데이터 부족",
+        "부채 비율 확인 불가"
+      ],
+      "key_opportunities_top3": [
+        "낮은 forward PE",
+        "높은 배당 수익률"
+      ],
+      "uncertainty": "EPS, BVPS 구체적 수치가 제공되면 더 명확한 판단 가능",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "혁신적 기술 기반의 성장 부재",
+        "TAM 확장 가능성 부족"
+      ],
+      "key_opportunities_top3": [
+        "관광 수요 증가와 수익성 증대",
+        "환율 호조에 따른 유리한 환경"
+      ],
+      "uncertainty": "외국인 관광객 유입이 중단되거나 카지노 산업에 규제가 강화되면 전망이 바뀔 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "마카오 카지노의 회복 가능성",
+        "카지노 산업의 규제 변화"
+      ],
+      "key_opportunities_top3": [
+        "국내 관광객의 증가",
+        "우호적인 환율 환경"
+      ],
+      "uncertainty": "마카오의 카지노 시장이 회복될 경우 강원랜드의 성장이 둔화될 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "마카오 경쟁력 부재",
+        "높은 부채"
+      ],
+      "key_opportunities_top3": [
+        "외국인 관광객 증가",
+        "시장 재평가의 가능성"
+      ],
+      "uncertainty": "외부 변화나 마카오 시장 개선 시 예상이 뒤집힐 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "industry": {
+    "name": "농산물 가공·바이오연료 (곡물 origination+crush+에탄올 — 엘니뇨 작황 변동성 수혜축)",
+    "overview": "ADM(Archer-Daniels-Midland)은 글로벌 곡물 집하·가공·바이오연료 통합 기업으로, 옥수수·대두를 처리량(volume)과 가공마진(crush/에탄올 스프레드)으로 수익화한다. 미국은 전세계 옥수수 30%를 생산하고 옥수수의 약 1/3이 바이오연료(E-15)로 전환되는데, ADM은 그 핵심 가공사다. 엘니뇨는 미국 중부 습윤→옥수수 단수 호조 vs 호주·미 북부 가뭄→밀 감산의 비대칭을 만들며, 풍작 시 낮아진 옥수수가 대량 에탄올로 전환돼 유가 하방 요인이 될 수 있다. 단 2026은 호르무즈발 비료 급등으로 옥수수 경작 -3%·대두 +4%라 전통 패턴이 흔들린다. ADM은 곡물가격 방향과 무관하게 작황 변동성·처리량으로 수익을 내는 구조라 엘니뇨 자체가 기회. 현재가 $78.02 / 1Y +49% / vol 27%.",
+    "competitors": [
+      {
+        "name": "Bunge",
+        "ticker": "BG",
+        "share_pct": null,
+        "moat": "대두 crush 글로벌·Viterra 합병"
+      },
+      {
+        "name": "Cargill(비상장)",
+        "ticker": null,
+        "share_pct": null,
+        "moat": "세계 최대 곡물 트레이더"
+      },
+      {
+        "name": "Louis Dreyfus(비상장)",
+        "ticker": null,
+        "share_pct": null,
+        "moat": "글로벌 곡물 origination"
+      },
+      {
+        "name": "Corteva",
+        "ticker": "CTVA",
+        "share_pct": null,
+        "moat": "종자·작물보호 — 작황 업스트림"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-06-11",
+        "title": "NOAA 엘니뇨 주의보 — 미 중서부 작황·곡물 변동성 주목",
+        "source": "NOAA / 농업 보도",
+        "summary": "엘니뇨 강수 패턴이 옥수수·대두 단수에 영향",
+        "impact": "○"
+      },
+      {
+        "date": "2026-03-31",
+        "title": "USDA: 2026 옥수수 -3%·대두 +4% 경작 의향",
+        "source": "USDA Prospective Plantings",
+        "summary": "비료 급등에 대두 전환 — crush 물량 변화",
+        "impact": "○"
+      },
+      {
+        "date": "2026-04",
+        "title": "비료 급등發 곡물 비용 상승 — 농가 마진 압박",
+        "source": "World Bank / CNBC",
+        "summary": "투입비 상승이 작목 전환·가공마진에 영향",
+        "impact": "○"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "ADM 가공마진(crush) 약세 — 매출 5년 연속 둔화",
+        "source": "ADM 실적 / 시장",
+        "summary": "곡물가 하락·crush 스프레드 압축으로 이익 둔화",
+        "impact": "-"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-16)",
+    "currency": "USD(십억달러)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 101.556,
+        "op_income": 4.212,
+        "net_income": 4.34,
+        "op_margin": 4.1,
+        "net_margin": 4.3
+      },
+      {
+        "year": 2023,
+        "revenue": 93.935,
+        "op_income": 4.057,
+        "net_income": 3.483,
+        "op_margin": 4.3,
+        "net_margin": 3.7
+      },
+      {
+        "year": 2024,
+        "revenue": 85.53,
+        "op_income": 2.072,
+        "net_income": 1.8,
+        "op_margin": 2.4,
+        "net_margin": 2.1
+      },
+      {
+        "year": 2025,
+        "revenue": 80.269,
+        "op_income": 1.424,
+        "net_income": 1.078,
+        "op_margin": 1.8,
+        "net_margin": 1.3
+      }
+    ],
+    "trend_narrative": "매출은 2022 $101.6bn 정점에서 2023 $93.9bn → 2024 $85.5bn → 2025 $80.3bn으로 4년 연속 하락하고 OPM도 4.1%→1.8%로 압축됐다. 곡물가격 하락·crush 스프레드 정상화·회계 이슈가 겹친 다운사이클. 엘니뇨발 작황 변동성은 처리량·스프레드 회복의 촉매가 될 수 있으나, 현재 펀더멘털은 약세 사이클 바닥 구간.",
+    "valuation_summary": "Forward PE 14.73×. 농산물 가공 시클리컬 — crush 스프레드·처리량·배당이 핵심(배당귀족주). 현재가 $78.02 / 1Y +49% / vol 27%. 다운사이클 바닥에서 엘니뇨 작황 변동성이 턴어라운드 옵션."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.3,
+      "description": "엘니뇨 작황 변동성+밀 강세+에탄올 수요로 crush 스프레드·처리량 회복 → 이익 턴어라운드",
+      "key_drivers": [
+        "crush 스프레드 회복",
+        "작황 변동성 트레이딩 이익",
+        "에탄올 마진 개선"
+      ]
+    },
+    "base": {
+      "probability": 0.45,
+      "description": "곡물 다운사이클 바닥 다지기, 배당 방어 — 점진 회복",
+      "key_drivers": [
+        "스프레드 정상화",
+        "처리량 견조",
+        "배당귀족 방어력"
+      ]
+    },
+    "bear": {
+      "probability": 0.25,
+      "description": "옥수수 풍작·곡물가 추가 하락+에탄올 마진 압축으로 이익 추가 둔화",
+      "key_drivers": [
+        "곡물가 추가 하락",
+        "crush 약세 지속",
+        "회계·거버넌스 잡음"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "title": "2Q26 실적·crush 스프레드",
+      "name": "2Q26 earnings",
+      "impact": "○",
+      "description": "가공마진 바닥 통과 여부"
+    },
+    {
+      "date": "2026-여름",
+      "title": "미 중서부 작황·USDA Acreage",
+      "name": "US crop/USDA",
+      "impact": "○",
+      "description": "엘니뇨 강수·경작면적 확인"
+    },
+    {
+      "date": "2026-하반기",
+      "title": "에탄올·바이오연료 정책",
+      "name": "Biofuel policy",
+      "impact": "+",
+      "description": "E-15·RVO 물량이 옥수수 수요 견인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "crush 스프레드 약세",
+      "probability": "high",
+      "impact": "high",
+      "description": "가공마진 압축이 이익 추가 둔화 — 5년 매출 하락 추세"
+    },
+    {
+      "name": "곡물가 추가 하락",
+      "probability": "med",
+      "impact": "med",
+      "description": "옥수수 풍작 시 가격·처리마진 동반 약세"
+    },
+    {
+      "name": "거버넌스·회계",
+      "probability": "low",
+      "impact": "med",
+      "description": "과거 회계 조사 이력 — 신뢰 회복 진행 중"
+    },
+    {
+      "name": "엘니뇨 패턴 교란",
+      "probability": "med",
+      "impact": "med",
+      "description": "비료충격으로 전통 풍작 패턴 불확실"
+    },
+    {
+      "name": "바이오연료 정책",
+      "probability": "med",
+      "impact": "med",
+      "description": "RVO·E-15 정책 변동이 옥수수 수요 좌우"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T05",
+      "claim": "옥수수 풍작 vs 밀 가뭄, 옥수수→바이오연료→유가 하방",
+      "current_status": "진행/혼재",
+      "evidence": "미국 옥수수 30%·1/3 에탄올, 2026 경작 -3% — 메르 §26-49"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "비료 급등→경작 전환",
+      "current_status": "진행",
+      "evidence": "USDA 대두 +4% — crush 물량 변화"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "곡물 리스크 2026후반-2027",
+      "current_status": "전망",
+      "evidence": "재고-소비 시차 — 처리마진 회복 옵션"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "수퍼 엘니뇨",
+      "current_status": "확인",
+      "evidence": "NOAA 주의보"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-16",
+      "type": "해외종목",
+      "summary": "미국 NYSE 상장·배당귀족 — DART 비대상(SEC EDGAR 참조)",
+      "title": "Archer-Daniels-Midland (NYSE:ADM)"
+    }
+  ]
+}

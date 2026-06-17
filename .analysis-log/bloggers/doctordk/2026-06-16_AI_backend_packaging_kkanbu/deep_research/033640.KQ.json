@@ -1,0 +1,204 @@
+{
+  "industry": {
+    "name": "OSAT 후공정 — WLP/CPB(Cu Pillar Bumping) + Si Cap·PMIC 패키징",
+    "overview": "네패스는 WLP(웨이퍼레벨패키징)·CPB(구리 필러 범핑) 기반 국내 대표 OSAT다. 블로그 '깐부' 프레임에서 삼성전기 실리콘 커패시터 후공정 + M사(마벨) PMIC 패키징을 담당. 메리츠 Fab tour 기준 2026-30 5년 매출 CAGR +30% 목표, AI 인프라향(Si Cap·AI서버 PMIC) 비중 확대. 12\" CPB가 WLP 중 가장 가파른 성장세, 미국 중국규제 속 글로벌 팹리스 밸류체인 탈중국화로 M사향 확장. 저마진·고정비 후공정 구조라 물량 증가 시 마진 레버리지가 관건.",
+    "competitors": [
+      {
+        "name": "네패스",
+        "ticker": "033640.KQ",
+        "share_pct": null,
+        "moat": "WLP/CPB + 삼성전기 Si-cap 후공정 + 마벨 PMIC 패키징"
+      },
+      {
+        "name": "Amkor(앰코)",
+        "ticker": "AMKR",
+        "share_pct": null,
+        "moat": "글로벌 OSAT 2위·어드밴스드 패키징"
+      },
+      {
+        "name": "하나마이크론",
+        "ticker": "067310.KQ",
+        "share_pct": null,
+        "moat": "국내 후공정·메모리 패키징"
+      },
+      {
+        "name": "SFA반도체",
+        "ticker": "036540.KQ",
+        "share_pct": null,
+        "moat": "메모리 후공정·테스트"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "네패스 52주 신고가 — 밸류체인 탈중국 반사 수혜",
+        "source": "hankyung 202604136338L",
+        "summary": "M사 PMIC 패키징 확장·CPB 성장",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06",
+        "title": "메리츠 Fab tour — 5년 매출 CAGR +30% 목표",
+        "source": "블로그(doctordk) 인용 메리츠 김동관",
+        "summary": "AI 인프라(Si Cap·PMIC) 비중 확대",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06-17",
+        "title": "1Y 주가 +287% — AI 후공정 모멘텀",
+        "source": "yfinance live",
+        "summary": "fwd PE 35×·고변동성",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-17)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.59,
+        "op_income": -0.01,
+        "net_income": 0.08,
+        "op_margin": -1.1,
+        "net_margin": 13.2
+      },
+      {
+        "year": 2023,
+        "revenue": 0.47,
+        "op_income": 0.01,
+        "net_income": -0.1,
+        "op_margin": 2.1,
+        "net_margin": -21.0
+      },
+      {
+        "year": 2024,
+        "revenue": 0.46,
+        "op_income": 0.0,
+        "net_income": -0.06,
+        "op_margin": 0.7,
+        "net_margin": -13.4
+      },
+      {
+        "year": 2025,
+        "revenue": 0.52,
+        "op_income": 0.02,
+        "net_income": 0.02,
+        "op_margin": 4.6,
+        "net_margin": 3.2
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.59조 → 2025 ₩0.52조로 정체, 영업이익률은 2022 -1.1% 적자에서 2025 +4.6%로 얇은 흑자 전환. 저마진·고정비 후공정 구조라, Si Cap 후공정·마벨 PMIC·AI서버 물량이 더해질 때 가동률·마진 레버리지가 핵심. 흑자 폭이 작아 물량 증가가 이익에 비선형(고베타)으로 작용할 수 있는 구조 — 메리츠 +30% CAGR 목표의 실현이 관건.",
+    "valuation_summary": "Forward PE 35.05× (yfinance live) — 얇은 이익 기반의 turnaround/고베타 패턴. 현재가 ₩38,100 / 1Y +287% / 연변동성 82%. 실적보다 'AI 후공정 물량' 기대가 주가 견인."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.4,
+      "description": "삼성전기 Si Cap 후공정 + 마벨 PMIC + AI서버 물량 본격화 → 가동률·마진 레버리지로 이익 급증. 메리츠 +30% CAGR 궤도 진입.",
+      "key_drivers": [
+        "Si Cap 후공정 물량",
+        "마벨 PMIC 확장",
+        "AI서버 PMIC"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "AI 인프라 물량 점진 인식, 얇은 흑자 유지. 탈중국 수혜는 견조하나 capex 부담이 이익 개선 일부 상쇄.",
+      "key_drivers": [
+        "점진 물량 인식",
+        "탈중국 수혜",
+        "capex 부담"
+      ]
+    },
+    "bear": {
+      "probability": 0.2,
+      "description": "물량 지연/후공정 단가 압박 + fwd PE 35× 정상화로 조정. 단일 고객(삼성전기·마벨) 의존 리스크.",
+      "key_drivers": [
+        "물량 지연",
+        "고객 집중",
+        "멀티플 정상화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "name": "Si Cap·PMIC 물량 인식",
+      "impact": "high",
+      "description": "삼성전기·마벨 ramp 연동 — 가동률 확인"
+    },
+    {
+      "date": "2026-분기",
+      "name": "분기 실적/수주",
+      "impact": "high",
+      "description": "마진 레버리지·CAGR 경로 검증"
+    },
+    {
+      "date": "2026-2H",
+      "name": "AI서버 PMIC 신규 고객",
+      "impact": "medium",
+      "description": "고객 다변화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "밸류에이션 (fwd PE 35×)",
+      "probability": "medium",
+      "impact": "high",
+      "description": "얇은 이익 대비 부담 — 기대 하회 시 조정"
+    },
+    {
+      "name": "저마진·고정비",
+      "probability": "high",
+      "impact": "high",
+      "description": "가동률 민감 후공정 구조"
+    },
+    {
+      "name": "고객 집중(삼성전기·마벨)",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "물량/단가 협상력·내재화 위험"
+    },
+    {
+      "name": "capex 부담",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "ramp 대응 증설이 현금흐름 압박"
+    },
+    {
+      "name": "초고변동성(vol 82%)",
+      "probability": "high",
+      "impact": "medium",
+      "description": "소형 고베타 — 포지션 축소"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T05",
+      "claim": "5년 CAGR +30% mix 고도화",
+      "current_status": "pending",
+      "evidence": "메리츠 목표치 — 수율·물량 검증 필요"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "삼성전기 Si-cap·마벨 깐부",
+      "current_status": "confirmed",
+      "evidence": "Si-cap 후공정·M사 PMIC 패키징(한경)"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "탈중국·파운드리 낙수",
+      "current_status": "pending",
+      "evidence": "M사향 확장은 확인, 정량 기여 대기"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06",
+      "type": "IR/Fab tour",
+      "summary": "메리츠 Fab tour: 5년 매출 CAGR +30% 목표·AI 인프라 Si Cap/PMIC 비중 확대(블로그 인용)",
+      "title": "메리츠 Fab tour 후기 — CAGR +30% (보도/IR 기반)"
+    }
+  ]
+}

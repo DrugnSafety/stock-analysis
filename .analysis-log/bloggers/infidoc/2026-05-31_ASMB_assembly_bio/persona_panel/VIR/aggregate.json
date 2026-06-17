@@ -1,0 +1,367 @@
+{
+  "ticker": "VIR",
+  "aggregated_at": "2026-06-01T11:38:56.927289+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bullish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.638,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 9,
+      "personas": [
+        "rakesh-jhunjhunwala",
+        "ben-graham",
+        "charlie-munger",
+        "bill-ackman",
+        "aswath-damodaran",
+        "michael-burry",
+        "nassim-taleb",
+        "warren-buffett",
+        "peter-lynch"
+      ],
+      "examples": [
+        "높은 가격 변동성과 시장 위험",
+        "낮은 수익성으로 인한 ROE 변동성",
+        "높은 변동성과 시장 경쟁 격화"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "다양한 제품군의 부재",
+        "높은 가격 변동성과 시장 위험"
+      ],
+      "key_opportunities_top3": [
+        "이차원 성장 가능성",
+        "빅파마의 전략적 선택"
+      ],
+      "uncertainty": "상업화가 성공하면 early stage의 research story가 작동할 가능성",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "낮은 수익성으로 인한 ROE 변동성",
+        "바이오산업 특유의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "새로운 항바이러스제 개발을 통한 시장 확대",
+        "장기적으로 유망한 R&D 플랫폼"
+      ],
+      "uncertainty": "ROE의 일관성이 확보되지 않으면 장기적으로도 부정적 평가를 받을 위험",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부정적인 forward PE",
+        "높은 변동성과 시장 경쟁 격화"
+      ],
+      "key_opportunities_top3": [
+        "길리어드의 추가 자본 참여",
+        "NTCP 억제제의 적응증 확장 가능성"
+      ],
+      "uncertainty": "NTCP 억제제가 시장에서 성공적으로 자리 잡지 못하면, verdict가 뒤집힐 수 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "영구 손실의 위험성",
+        "혼란스러운 비즈니스 모델"
+      ],
+      "key_opportunities_top3": [
+        "선도적인 항바이러스 치료제 개발 가능성",
+        "기술 협력 확대 가능성"
+      ],
+      "uncertainty": "임상 시험의 성공이 입증되어 시장의 리스크 평가가 유리하게 바뀌면 전망이 달라질 수 있다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "임상 시험의 결과 불확실성",
+        "변동성이 높은 재무 지표"
+      ],
+      "key_opportunities_top3": [
+        "새로운 바이러스 치료제의 잠재적 상업화",
+        "고부가가치 시장의 개척 가능성"
+      ],
+      "uncertainty": "신약 개발 성공 여부나 규제 승인 실패로 인한 불확실성이 크면 verdict가 바뀔 수 있다",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "글로벌 거시적 환경의 불리함",
+        "단기적 주가 모멘텈 약화"
+      ],
+      "key_opportunities_top3": [
+        "장기적으로는 성공적인 임상 결과로 인한 리바운드 가능성",
+        "높은 미충족 의료 수요에 대한 잠재력"
+      ],
+      "uncertainty": "공모된 자금이 임상 성공으로 이어지지 않으면 부정적 전망 지속",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "지속적인 수익성에 대한 불확실성",
+        "높은 주가 변동성"
+      ],
+      "key_opportunities_top3": [
+        "만약 신뢰할 수 있는 파이프라인이 있다면 잠재적 주가 상승 가능성",
+        "회사의 특정 기술 또는 자산에 대한 잠재적 가치"
+      ],
+      "uncertainty": "향후 자본 배분을 강력하게 개선하면 밸류 프로포지션이 향상될 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 추가 성장 의지 불확실성",
+        "현재 이익률의 부정적 추세"
+      ],
+      "key_opportunities_top3": [
+        "R&D 투자의 잠재적 성공",
+        "확장 가능성 있는 제품 파이프라인"
+      ],
+      "uncertainty": "만약 ABI-6250과 같은 주요 R&D 프로젝트가 실패할 경우, 비즈니스의 장기적 성장과 가치는 심각하게 저하될 수 있다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고유한 수익 창출 미비",
+        "높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "잠재적 기업 인수",
+        "새로운 파이프라인 성공 가능성"
+      ],
+      "uncertainty": "회사가 흑자로 전환하거나 시장의 긍정적인 변화가 있으면 대비가 바뀔 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "부채 비율 높음",
+        "시장 변동성이 크고 정량적 지표 부진"
+      ],
+      "key_opportunities_top3": [
+        "미처 평가되지 않은 바이오 자산 잠재력",
+        "전략적 파트너십 강화 가능성"
+      ],
+      "uncertainty": "시장 상황이 개선되어 부채 비율 및 수익성 지표가 나아질 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현재 수익성 부재",
+        "플랫폼 확장 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "장기적인 플랫폼 개발 가능성",
+        "혁신적 치료제 파이프라인"
+      ],
+      "uncertainty": "시장 침투와 플랫폼 확장이 성공적으로 이루어지지 않으면 판결이 뒤집힐 가능성이 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "주가 변동성",
+        "음의 PER"
+      ],
+      "key_opportunities_top3": [
+        "기술 플랫폼 확장",
+        "전략적 제휴 및 파트너십"
+      ],
+      "uncertainty": "임상 실패나 기술 플랫폼의 미립증 확대 실패 시",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 위험과 변동성",
+        "단일 장애점으로 작용할 수 있는 규제 및 시장 변화"
+      ],
+      "key_opportunities_top3": [
+        "Convexity 에 따른 비대칭 수익구조",
+        "지속적인 R&D에 따른 혁신 가능성"
+      ],
+      "uncertainty": "성공적인 임상 시험 및 큰 시장 채택에 실패하면 adverse 결과가 나올 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "post_meta": {
+    "url": "https://blog.naver.com/doctordk/224317589889",
+    "title": "전닉기 시대에서 깐부를 찾아보자.",
+    "author": "의교창 (doctordk)",
+    "published_at": "2026-06-16"
+  },
+  "summary_one_liner": "AI 반도체 가치사슬에서 부가가치가 전공정→후공정(패키징·테스트·기판·수동부품)으로 이동하는 '전닉기' 구조 전환. 블로거는 '시대의 영웅호걸(엔비디아 GPU·SK하이닉스 HBM·구글 TPU·블룸에너지 SOFC)'에 올라타는 '깐부(동반 수혜 후공정주)'를 찾는다 — 한미반도체(HBM TC본더)·이수페타시스(TPU 대기판)·네패스/네패스아크(OSAT·테스트)·두산테스나(테스트)·비나텍(SOFC 슈퍼커패시터). NVIDIA VERA CPU 시대=‘대기판의 시대’ → 후공정에서 깐부 찾기, TSMC 선단공정 capa 부족 → 삼성·인텔 낙수효과.",
+  "n_theses": 8,
+  "theses": [
+    {
+      "claim_id": "T01",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "structural",
+      "claim": "AI 가속기 시대의 부가가치가 전공정→후공정(패키징·테스트·기판·수동부품)으로 이동하는 '전닉기' 구조 전환이 진행 중이다",
+      "supporting_evidence": "블로그: 'CAPA 증설을 위해선 전공정 장비만 필요한 게 아니다. 후공정도 매우 중요하다.' AI 칩 성능이 칩렛·2.5D/3D 패키징·대기판으로 결정되며 후공정이 캐파·성능의 핵심 병목으로 부상. 블로거는 '전닉두에서 전닉기 시대로 전환(feat. 후공정)'을 명시(doctordk/224316711445).",
+      "tags": [
+        "후공정",
+        "OSAT",
+        "패키징",
+        "전닉기",
+        "value-shift"
+      ]
+    },
+    {
+      "claim_id": "T02",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "claim": "'시대의 영웅호걸-깐부' 프레임 — 승자 칩(엔비디아·SK하이닉스 HBM·구글 TPU·블룸 SOFC)에 올라타는 후공정 동반 수혜주를 페어링한다",
+      "supporting_evidence": "블로그 핵심 도식: 엔비디아 GPU/SK하이닉스 HBM→한미반도체, 구글 TPU→이수페타시스, 블룸에너지 SOFC→비나텍, 삼성전기 실리콘 커패시터→네패스(OSAT). 'VERA CPU 시대는 결국 대기판의 시대 → 대기판의 깐부 찾기 → 어디서? 후공정에서?'",
+      "tags": [
+        "깐부",
+        "페어링",
+        "엔비디아",
+        "TPU",
+        "SOFC",
+        "value-chain"
+      ]
+    },
+    {
+      "claim_id": "T03",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "claim": "한미반도체는 HBM TC본더 글로벌 71% 점유 1위 — SK하이닉스 HBM4 양산·해외 캐파 증설의 직접 깐부다",
+      "supporting_evidence": "한미반도체는 글로벌 HBM용 TC(Thermo-Compression) 본더 시장 71.2% 점유 압도적 1위. 주요 고객 국내 후공정 라인 세팅·해외 고객 HBM CAPA 증설·HBM4 본격 양산으로 발주 확대 전망. 2026E 매출 ₩1.08조·영업익 ₩5,645억(+64%/+52%), 시총 30조 돌파(somsap·jabon, 2026-05).",
+      "tags": [
+        "한미반도체",
+        "TC본더",
+        "HBM4",
+        "SK하이닉스",
+        "71%"
+      ]
+    },
+    {
+      "claim_id": "T04",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "claim": "이수페타시스는 구글 TPU용 MLB 기판 40%+ 점유 — VERA CPU '대기판의 시대' 핵심 수혜로 2026 TPU 출하 2배+에 연동된다",
+      "supporting_evidence": "MLB(다층기판) 기준 이수페타시스의 구글(G사) 내 점유율 40%+, 2026 TPU 출하량 최소 2배 확대 전망. 북미 빅테크 ASIC 샘플 공급 지속, TPU 7세대·400G+ AI 스위치 수요로 가격·물량 동반 상승. 5공장 완공 2027 → 2026 공급은 타이트(한투·메리츠, 2025-11).",
+      "tags": [
+        "이수페타시스",
+        "MLB",
+        "대기판",
+        "구글TPU",
+        "ASIC"
+      ]
+    },
+    {
+      "claim_id": "T05",
+      "type": "predictive",
+      "importance": "high",
+      "timeframe": "medium_term",
+      "claim": "네패스·네패스아크는 메리츠 Fab tour 기준 5년 매출 CAGR +30%/+39% — AI 인프라(Si Cap·PMIC)·차량용 SoC로 mix를 고도화한다",
+      "supporting_evidence": "블로그 인용(메리츠 김동관): 네패스/네패스아크 Fab tour, 2026-30 5년 매출 CAGR 목표 네패스 +30%·네패스아크 +39%. 네패스는 CPB 기반 AI 인프라향(Si Cap·AI서버 PMIC), 네패스아크는 차량용 SoC·Si Cap 다변화. M사(마벨) PMIC 패키징 확대·밸류체인 탈중국 수혜(한경, 2026-04).",
+      "tags": [
+        "네패스",
+        "네패스아크",
+        "CAGR",
+        "CPB",
+        "PMIC",
+        "차량용SoC"
+      ]
+    },
+    {
+      "claim_id": "T06",
+      "type": "factual",
+      "importance": "high",
+      "timeframe": "medium_term",
+      "claim": "두산테스나는 파운드리 낙수효과 + AI(ADAS·LPU)·메모리컨트롤러 테스트 확대로 이익 체력이 급변한다 — 메리츠 매수",
+      "supporting_evidence": "블로그 인용(메리츠): 두산테스나 매수·목표주가 20만원 상향(작성일 주가 137,100원, +45.9%), 파운드리 낙수효과 반영. AI(ADAS·LPU)·메모리컨트롤러 수요로 중장기 성장. LPU 테스트 매출 4Q26부터, 북미 CIS 테스트 2Q27부터 본격 반영(네이트, 2026-05).",
+      "tags": [
+        "두산테스나",
+        "웨이퍼테스트",
+        "ADAS",
+        "LPU",
+        "파운드리낙수"
+      ]
+    },
+    {
+      "claim_id": "T07",
+      "type": "factual",
+      "importance": "high",
+      "timeframe": "present",
+      "claim": "비나텍은 블룸에너지 SOFC AI데이터센터용 슈퍼커패시터 장기 독점공급 — AI 전력 인프라 깐부다",
+      "supporting_evidence": "비나텍은 2025-05-21 블룸에너지와 180억원 규모 AI데이터센터용 슈퍼커패시터 장기공급(~2027) 체결, 차세대 SOFC 시스템에 고성능 슈퍼커패시터 독점 공급. AI 데이터센터 급격한 전력 변동 대응. 2026-03 CB 410억(시설 350억) — 고출력 슈퍼커패시터 라인 증설(아시아경제, 2025-05).",
+      "tags": [
+        "비나텍",
+        "슈퍼커패시터",
+        "블룸에너지",
+        "SOFC",
+        "AI전력"
+      ]
+    },
+    {
+      "claim_id": "T08",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "structural",
+      "claim": "TSMC 선단공정 capa 부족 → 삼성·인텔 낙수효과 → 국내 후공정 OSAT·테스트 밸류체인이 구조적으로 수혜한다",
+      "supporting_evidence": "블로그: 'TSMC의 선단공정 capa 공급 부족에 따라 삼성전자, 인텔 등으로의 낙수 효과 신호가 점차 감지.' 선단 파운드리 병목이 2nd source(삼성·인텔)와 그 후공정 협력사(네패스·두산테스나·네패스아크)로 물량을 분산시키는 구조적 흐름.",
+      "tags": [
+        "TSMC",
+        "낙수효과",
+        "삼성파운드리",
+        "인텔",
+        "OSAT"
+      ]
+    }
+  ]
+}

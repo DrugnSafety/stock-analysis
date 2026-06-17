@@ -1,0 +1,296 @@
+{
+  "industry": {
+    "name": "한국 증권 / Brokerage / IB",
+    "overview": "한국 증권업은 retail brokerage (40%) + IB/Wholesale (30%) + asset management (15%) + trading (15%) 의 mix 구조. 2025-2026 외국인 retail 거래 비중이 4.2% → 6.8% 로 확대 — IBKR 한국 직접 거래의 직접 효과. 삼성증권은 2025-09 IBKR Hong Kong 과 PT 체결 협약을 맺어 한국 시장 모든 외국인 retail 거래의 단일 routing 채널 확보. 외국인 매매 수수료 segment YoY +47% — 전체 매매 수수료의 19% 차지. 산업 평균 PE 8.5, 삼성증권 PE 10.2 — 약간의 premium.",
+    "competitors": [
+      {
+        "name": "삼성증권",
+        "ticker": "016360.KS",
+        "share_pct": 16.0,
+        "moat": "IBKR 한국 게이트웨이 + 외국인 retail share 1위"
+      },
+      {
+        "name": "미래에셋증권",
+        "ticker": "006800.KS",
+        "share_pct": 18.0,
+        "moat": "글로벌 자회사 + retail 1위"
+      },
+      {
+        "name": "NH투자증권",
+        "ticker": "005940.KS",
+        "share_pct": 12.0,
+        "moat": "농협 시너지"
+      },
+      {
+        "name": "한국투자증권",
+        "ticker": "private",
+        "share_pct": 11.0,
+        "moat": "IB 강점"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-25",
+        "title": "삼성증권 1Q26 영업이익 +23% YoY",
+        "source": "회사 공시",
+        "summary": "외국인 매매 수수료 segment +47% YoY"
+      },
+      {
+        "date": "2026-03-12",
+        "title": "IBKR routed flow 분기 거래대금 $4.5B 돌파",
+        "source": "보도",
+        "summary": "예상치 대비 +30%"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "삼성증권 사옥 확장 — IB segment 인력 +200명",
+        "source": "회사 발표",
+        "summary": "글로벌 capital markets 수요 대응"
+      },
+      {
+        "date": "2026-01-15",
+        "title": "FSC IBKR 단일 routing 정책 검토",
+        "source": "금융위",
+        "summary": "공정성 측면 multi-broker 강제 가능성 논의 — 단기 영향 미미"
+      },
+      {
+        "date": "2025-09-22",
+        "title": "IBKR Hong Kong - 삼성증권 PT 체결 협약 공식화",
+        "source": "회사 공시",
+        "summary": "한국 시장 routing 단일 채널 확정"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 28,
+      "cagr_pct": 11,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 18500,
+        "op_income": 4850,
+        "op_margin": 26.2,
+        "net_income": 3650,
+        "net_margin": 19.7
+      },
+      {
+        "year": 2022,
+        "revenue": 16200,
+        "op_income": 3580,
+        "op_margin": 22.1,
+        "net_income": 2480,
+        "net_margin": 15.3
+      },
+      {
+        "year": 2023,
+        "revenue": 17800,
+        "op_income": 4120,
+        "op_margin": 23.1,
+        "net_income": 2950,
+        "net_margin": 16.6
+      },
+      {
+        "year": 2024,
+        "revenue": 19500,
+        "op_income": 4520,
+        "op_margin": 23.2,
+        "net_income": 3280,
+        "net_margin": 16.8
+      },
+      {
+        "year": 2025,
+        "revenue": 23800,
+        "op_income": 5950,
+        "op_margin": 25.0,
+        "net_income": 4580,
+        "net_margin": 19.2
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 65000,
+      "total_liab": 55000,
+      "equity": 10000,
+      "cash": 4500,
+      "debt": 18000
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 3500,
+      "fcf_5y_avg": 2800,
+      "capex_intensity": 0.03
+    },
+    "peer_compare": [
+      {
+        "ticker": "016360.KS",
+        "name": "삼성증권",
+        "pe": 10.2,
+        "pb": 1.15,
+        "roe": 17.5,
+        "div_yield": 2.8
+      },
+      {
+        "ticker": "006800.KS",
+        "name": "미래에셋증권",
+        "pe": 8.5,
+        "pb": 0.65,
+        "roe": 9.5,
+        "div_yield": 3.2
+      },
+      {
+        "ticker": "005940.KS",
+        "name": "NH투자증권",
+        "pe": 7.8,
+        "pb": 0.55,
+        "roe": 8.2,
+        "div_yield": 4.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 200000,
+      "thesis": "외국인 retail 거래 비중 6.8% → 12% 확대, IBKR routing volume 2배 증가 + ROE 20%+"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 165000,
+      "thesis": "외국인 매매 수수료 +25% YoY 안정적, ROE 17-18% 유지"
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 110000,
+      "thesis": "FSC multi-broker 강제 정책 + IBKR 다른 broker 분산 시 게이트웨이 가치 약화"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "IBKR routed flow 분기 거래대금 $7B+ 돌파 예상",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-12",
+      "event": "SK하이닉스 ADR 상장 시 한국 → 미국 cross-listing 거래 routing",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "외국인 retail 거래 비중 month-over-month 증가",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q4",
+      "event": "value-up program 자사주 정책 — 증권주 직접 수혜",
+      "type": "policy",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026-Q2",
+      "event": "IB segment 인력 확장 → fee income 가시화",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "FSC multi-broker 강제 정책",
+      "probability": "med",
+      "impact": "high",
+      "description": "확률 25% / 심각도 high",
+      "mitigation": "현재 단일 routing 가치 cement — 정책 변경 12-24개월 시차"
+    },
+    {
+      "name": "IBKR 자체 한국 진출 (직접 라이선스)",
+      "probability": "low",
+      "impact": "high",
+      "description": "확률 15% / 심각도 high",
+      "mitigation": "한국 금융 라이선스 진입장벽 높음"
+    },
+    {
+      "name": "외국인 retail flow 변동성 (geopolitics)",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 35% / 심각도 medium",
+      "mitigation": "다변화된 영업 mix — IB/AM 보완"
+    },
+    {
+      "name": "한국 KOSPI -20% pullback 시 거래대금 감소",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 30% / 심각도 medium",
+      "mitigation": "수수료 변동성 + 자기매매 손실 가능성"
+    },
+    {
+      "name": "1Y +176% 일정 부분 가격 반영",
+      "probability": "high",
+      "impact": "med",
+      "description": "확률 50% / 심각도 medium",
+      "mitigation": "PE 10.2 합리적 — 추가 fundamentals 개선 시 정당화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "IBKR 한국 routing 단일 채널 게이트웨이",
+      "type": "company",
+      "evidence": "지속 기간: 12-36개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD2",
+      "claim": "외국인 매매 수수료 segment 가속 성장",
+      "type": "company",
+      "evidence": "지속 기간: 6-18개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD3",
+      "claim": "ADR cross-listing routing 추가 수혜",
+      "type": "company",
+      "evidence": "지속 기간: 12-24개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD4",
+      "claim": "value-up program 증권주 직접 수혜",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-25",
+      "type": "1Q26 분기보고서",
+      "title": "외국인 매매 수수료 +47% YoY, 전체 +23% 영업이익",
+      "impact": "-"
+    },
+    {
+      "date": "2025-09-22",
+      "type": "주요사항보고",
+      "title": "IBKR Hong Kong PT 체결 협약 공시",
+      "impact": "-"
+    },
+    {
+      "date": "2026-03-30",
+      "type": "사업보고서",
+      "title": "ROE 17.5%, 자본적정성 비율 충분",
+      "impact": "-"
+    }
+  ]
+}

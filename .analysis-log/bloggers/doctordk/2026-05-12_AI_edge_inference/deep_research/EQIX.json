@@ -1,0 +1,262 @@
+{
+  "industry": {
+    "name": "데이터센터 REIT / 글로벌 인터커넥션 / 엣지 코로케이션",
+    "overview": "에퀴닉스는 전 세계 260여 데이터센터·70여 메트로의 인터커넥션(상호접속) 허브를 보유한 데이터센터 REIT로, 블로그의 '이미 깔아둔 물리적 거점' 명제에 가장 정통으로 부합한다. 학습용 대형 캠퍼스보다 사용자·기업 인접 엣지 코로케이션과 저지연 상호접속이 강점으로, 추론·하이브리드 AI 트래픽의 길목을 점유한다. 매출 약 92억 달러·OPM 21%·배당 REIT로 현금흐름이 안정적이나, 자본집약(전력·부지)과 금리(REIT 밸류)·전력 확보가 변수.",
+    "competitors": [
+      {
+        "name": "Digital Realty",
+        "ticker": "DLR"
+      },
+      {
+        "name": "Akamai",
+        "ticker": "AKAM"
+      },
+      {
+        "name": "Amazon(AWS)",
+        "ticker": "AMZN"
+      },
+      {
+        "name": "American Tower",
+        "ticker": "AMT"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 80.0,
+      "cagr_pct": 12.0,
+      "horizon": "2024-2030 (데이터센터·인터커넥션)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 33,
+      "thesis": "AI 추론·하이브리드 트래픽이 인터커넥션 수요를 구조적으로 끌어올려 임대료·가동률 상승. 안정 현금흐름 + AI 성장 옵션 동시 확보.",
+      "key_assumptions": [
+        "인터커넥션 수요 가속",
+        "전력 확보 원활",
+        "금리 안정"
+      ],
+      "target_price": 1250
+    },
+    "base": {
+      "prob_pct": 47,
+      "thesis": "AI 수요로 견조 성장하나 자본집약·금리로 멀티플 제한. 배당+완만 성장의 안정형 AI 인프라 노출.",
+      "key_assumptions": [
+        "매출 한 자리수~10%대 성장",
+        "OPM 20%+ 유지",
+        "배당 지속"
+      ],
+      "target_price": 1100
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "금리 상승(REIT 압박) + 전력·부지 제약 + 하이퍼스케일러 자체 구축 확대 시 성장·멀티플 동반 둔화.",
+      "key_assumptions": [
+        "금리 상승",
+        "전력 병목",
+        "자체 구축 경쟁"
+      ],
+      "target_price": 850
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-분기",
+      "event": "인터커넥션·가동률·AI 관련 수요 공개",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "AI 트래픽 수혜 검증"
+    },
+    {
+      "date": "2026~2027",
+      "event": "엣지·AI 코로케이션 신규 캠퍼스·전력 확보",
+      "type": "business",
+      "expected_impact": "med",
+      "description": "capacity 확장 가늠자"
+    },
+    {
+      "date": "상시",
+      "event": "금리 방향",
+      "type": "event",
+      "expected_impact": "med",
+      "description": "REIT 밸류에이션 민감"
+    }
+  ],
+  "risks": [
+    {
+      "name": "금리 민감(REIT)",
+      "probability": "med",
+      "impact": "high",
+      "description": "금리 상승 시 REIT 밸류·조달비용 압박",
+      "mitigation": "장기 임대·인터커넥션 마진"
+    },
+    {
+      "name": "자본집약·전력",
+      "probability": "high",
+      "impact": "med",
+      "description": "부지·전력 확보 capex 부담",
+      "mitigation": "메트로 거점 선점·전력 PPA"
+    },
+    {
+      "name": "하이퍼스케일러 자체 구축",
+      "probability": "med",
+      "impact": "med",
+      "description": "대형 고객 자체 DC 확대 시 수요 잠식",
+      "mitigation": "중립적 인터커넥션 허브 가치"
+    },
+    {
+      "name": "성장 vs 안정 트레이드오프",
+      "probability": "med",
+      "impact": "low",
+      "description": "안정형이라 AI 고성장 노출은 제한적",
+      "mitigation": "엣지·AI 코로케이션 비중 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "이미 깔린 물리적 거점이 엣지 AI 수혜",
+      "type": "thesis",
+      "evidence": "260여 DC·70여 메트로 인터커넥션 허브 — 추론 트래픽 길목",
+      "testability": "high",
+      "current_status": "in_progress"
+    },
+    {
+      "claim": "인터커넥션이 분산 추론의 핵심 인프라",
+      "type": "structural",
+      "evidence": "저지연·하이브리드 연결 수요 증가",
+      "testability": "medium",
+      "current_status": "in_progress"
+    },
+    {
+      "claim": "안정 현금흐름 + AI 옵션의 혼합 가치",
+      "type": "predictive",
+      "evidence": "OPM 21%·배당 REIT + AI 수요 성장",
+      "testability": "high",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026",
+      "type": "수요",
+      "title": "AI 트래픽발 인터커넥션 수요 확대",
+      "summary": "추론·하이브리드 AI가 메트로 인접 코로케이션·상호접속 수요 견인",
+      "impact": "REIT 안정성 + AI 성장 옵션"
+    }
+  ],
+  "financials": {
+    "currency": "USD",
+    "unit": "USD millions",
+    "pl_5y": [
+      {
+        "year": "2021",
+        "revenue": null,
+        "operating_income": null,
+        "op_income": null,
+        "net_income": null,
+        "op_margin_pct": null,
+        "op_margin": null,
+        "net_margin_pct": null,
+        "net_margin": null
+      },
+      {
+        "year": "2022",
+        "revenue": 7263,
+        "operating_income": 1226,
+        "op_income": 1226,
+        "net_income": 705,
+        "op_margin_pct": 16.9,
+        "op_margin": 16.9,
+        "net_margin_pct": 9.7,
+        "net_margin": 9.7
+      },
+      {
+        "year": "2023",
+        "revenue": 8188,
+        "operating_income": 1451,
+        "op_income": 1451,
+        "net_income": 969,
+        "op_margin_pct": 17.7,
+        "op_margin": 17.7,
+        "net_margin_pct": 11.8,
+        "net_margin": 11.8
+      },
+      {
+        "year": "2024",
+        "revenue": 8748,
+        "operating_income": 1624,
+        "op_income": 1624,
+        "net_income": 815,
+        "op_margin_pct": 18.6,
+        "op_margin": 18.6,
+        "net_margin_pct": 9.3,
+        "net_margin": 9.3
+      },
+      {
+        "year": "2025",
+        "revenue": 9217,
+        "operating_income": 1966,
+        "op_income": 1966,
+        "net_income": 1350,
+        "op_margin_pct": 21.3,
+        "op_margin": 21.3,
+        "net_margin_pct": 14.6,
+        "net_margin": 14.6
+      }
+    ],
+    "bs_snapshot": {
+      "total_cash": 1362,
+      "total_debt": 23336,
+      "currency": "USD",
+      "unit": "USD millions"
+    },
+    "cf_summary": {
+      "operating_cf": 3819,
+      "free_cf": 2725,
+      "currency": "USD",
+      "unit": "USD millions"
+    },
+    "peer_compare": [
+      {
+        "ticker": "AKAM",
+        "name": "아카마이",
+        "pe": 22.49,
+        "pb": 4.79,
+        "roe": 10.2,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NET",
+        "name": "클라우드플레어",
+        "pe": 179.46,
+        "pb": 63.36,
+        "roe": -3.7,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NVDA",
+        "name": "엔비디아",
+        "pe": 17.6,
+        "pb": 34.42,
+        "roe": 63.0,
+        "div_yield": 0.45
+      },
+      {
+        "ticker": "CRWV",
+        "name": "코어위브",
+        "pe": -189.91,
+        "pb": 13.31,
+        "roe": -25.6,
+        "div_yield": 0
+      },
+      {
+        "ticker": "EQIX",
+        "name": "에퀴닉스",
+        "pe": 55.72,
+        "pb": 7.39,
+        "roe": 14.9,
+        "div_yield": 1.87
+      }
+    ]
+  }
+}

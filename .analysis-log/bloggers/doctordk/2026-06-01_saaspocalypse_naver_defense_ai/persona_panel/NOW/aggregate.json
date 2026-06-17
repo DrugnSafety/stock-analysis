@@ -1,0 +1,363 @@
+{
+  "ticker": "NOW",
+  "aggregated_at": "2026-06-03T00:47:25.149896+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 10,
+      "pct": 76.9
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.719,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 5,
+      "personas": [
+        "stanley-druckenmiller",
+        "rakesh-jhunjhunwala",
+        "peter-lynch",
+        "bill-ackman",
+        "cathie-wood"
+      ],
+      "examples": [
+        "높은 밸류에이션에서의 변동성",
+        "최근 1년 간 높은 변동성",
+        "주식의 높은 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 밸류에이션에서의 변동성",
+        "경기 둔화 시 수요 감소 위험"
+      ],
+      "key_opportunities_top3": [
+        "IT 서비스 관리 시장의 확장",
+        "업무 프로세스 자동화 증가"
+      ],
+      "uncertainty": "경제 전반의 수요 부족 또는 기술 혁신의 지연이 발생할 경우, 주가에 부정적 영향을 미칠 수 있음.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "trailing PE가 높은 수준 유지",
+        "최근 1년 간 높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "디지털 전환에서의 고성장 잠재력",
+        "글로벌 확장 가능성"
+      ],
+      "uncertainty": "거시적 SaaS 시장의 수요 둔화가 발생할 경우",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "기술 혁신 실패 위험",
+        "시장 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "SaaS 산업 회복",
+        "가격 결정력 유지"
+      ],
+      "uncertainty": "기술 혁신 실패나 시장 경쟁 심화가 실제로 발생하면 verdict가 뒤집힐 수 있음.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 평가 배수",
+        "산업의 빠른 기술 변화"
+      ],
+      "key_opportunities_top3": [
+        "SaaS 회복 단계",
+        "고정 수익의 안정"
+      ],
+      "uncertainty": "SaaS 시장의 회복이 지연될 경우",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 P/E 비율로 인한 밸류에이션 부담",
+        "재무 건전성 검증 필요"
+      ],
+      "key_opportunities_top3": [
+        "디지털 전환의 지속적인 추세",
+        "클라우드 기반 서비스의 확장"
+      ],
+      "uncertainty": "추가적인 경제 불확실성으로 SaaS 전망이 악화될 경우, verdict가 변경될 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "주식의 높은 변동성",
+        "거시 환경의 잠재적 변화"
+      ],
+      "key_opportunities_top3": [
+        "SaaS 모멘텀 강화",
+        "글로벌 유동성 환경"
+      ],
+      "uncertainty": "Fed의 급격한 정책 변화가 글로벌 유동성에 영향을 줄 경우 이제의 긍정적 판단이 뒤집힐 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "현재 시장 대비 높은 주가 평가"
+      ],
+      "key_opportunities_top3": [
+        "SaaS 업계 회복에 따른 성장 가능성",
+        "강한 구독 기반 및 가격 결정력"
+      ],
+      "uncertainty": "SaaS 업계의 전반적인 회복이 예상과 달리 지연될 경우, verdict가 약화될 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 정직성에 대한 구체적 자료 부족",
+        "현재 시장 환경 변화의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "클라우드 서비스 시장의 지속 성장",
+        "ServiceNow의 제품 혁신"
+      ],
+      "uncertainty": "만약 경영진의 전략이 실패하거나 클라우드 시장 성장이 둔화된다면 verdict가 부정적으로 바뀔 수 있습니다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 Valuation에 따른 과대평가 위험",
+        "명확한 catalyst 부재"
+      ],
+      "key_opportunities_top3": [
+        "SaaS 시장 회복 가능성",
+        "마켓 내 경쟁 우위"
+      ],
+      "uncertainty": "SaaS 시장 전반의 회복이 빠르게 진행되면 부정적 예측이 뒤집힐 가능성 있다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "PER가 매우 높음",
+        "유동비율과 부채 비율 데이터 불충분"
+      ],
+      "key_opportunities_top3": [
+        "SaaS 산업 전반 회복 가능성",
+        "플랫폼 기반 서비스 강화"
+      ],
+      "uncertainty": "SaaS 산업의 급격한 회복으로 인해 높은 매출 성장 지속 시, 평가가 뒤집힐 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고평가된 Valuation이 지속 가능한가",
+        "높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "클라우드 기반 혁신의 지속적 발전",
+        "AI와 자동화의 통합으로 인한 생산성 증대"
+      ],
+      "uncertainty": "SaaS 시장의 혁신 주기가 더 긴 정체기에 들어가면 베어리시 가능성이 커짐",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁 심화로 인한 마진 압박",
+        "경제 불황이 IT 지출 감소로 이어질 가능성"
+      ],
+      "key_opportunities_top3": [
+        "디지털 전환 수요 지속",
+        "클라우드 서비스 확장"
+      ],
+      "uncertainty": "경제 불확실성으로 인해 IT 투자 감소가 예상보다 클 경우 verdict가 변할 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경제 상황 악화 시 고객의 IT 지출 감소",
+        "높은 PE 비율에 의한 valuation 부담"
+      ],
+      "key_opportunities_top3": [
+        "SaaS 시장의 성장과 안정화",
+        "AI 기반 서비스 확장이 가져올 성장"
+      ],
+      "uncertainty": "글로벌 경제의 급격한 악화가 발생하면, 고객 지출 감소로 비즈니스 모델 취약성이 드러날 가능성 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

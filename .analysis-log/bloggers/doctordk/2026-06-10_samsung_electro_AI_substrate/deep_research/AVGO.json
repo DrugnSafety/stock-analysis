@@ -1,0 +1,180 @@
+{
+ "financial_unit": {
+  "currency": "USD",
+  "scale": "B"
+ },
+ "industry": {
+  "name": "AI 반도체 — 커스텀 ASIC · 네트워킹 · 인프라 SW",
+  "overview": "브로드컴은 하이퍼스케일러용 커스텀 AI ASIC(XPU)·AI 네트워킹 칩 선두. 본문에서 FC-BGA 수요를 견인하는 빅테크 고객(구글·아마존·브로드컴·퀄컴·테슬라) 중 하나로 언급 — 삼성전기·이비덴 기판 수요의 최종 수요처 대표.",
+  "competitors": [
+   {
+    "name": "엔비디아",
+    "ticker": "NVDA",
+    "share_pct": 0,
+    "moat": "AI GPU 표준"
+   },
+   {
+    "name": "마벨",
+    "ticker": "MRVL",
+    "share_pct": 0,
+    "moat": "커스텀 ASIC 경쟁"
+   },
+   {
+    "name": "브로드컴",
+    "ticker": "AVGO",
+    "share_pct": 0,
+    "moat": "커스텀 XPU·네트워킹 선두 · VMware"
+   }
+  ],
+  "news": [
+   {
+    "date": "2026",
+    "title": "커스텀 AI ASIC 수주 확대 — 하이퍼스케일러 자체칩",
+    "source": "SEC 10-Q FY2026",
+    "summary": "AI 매출 고성장 — FC-BGA 등 고급 패키지 수요 견인"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 50.0,
+   "cagr_pct": 30.0,
+   "horizon": "2026-2030 커스텀 AI ASIC TAM"
+  }
+ },
+ "financials": {
+  "pl_5y": [
+   {
+    "year": 2022,
+    "revenue": 33.2,
+    "op_income": 14.28,
+    "op_margin": 43.0,
+    "net_income": 11.49,
+    "net_margin": 34.6
+   },
+   {
+    "year": 2023,
+    "revenue": 35.82,
+    "op_income": 16.45,
+    "op_margin": 45.9,
+    "net_income": 14.08,
+    "net_margin": 39.3
+   },
+   {
+    "year": 2024,
+    "revenue": 51.57,
+    "op_income": 15.0,
+    "op_margin": 29.1,
+    "net_income": 5.89,
+    "net_margin": 11.4
+   },
+   {
+    "year": 2025,
+    "revenue": 63.89,
+    "op_income": 26.07,
+    "op_margin": 40.8,
+    "net_income": 23.13,
+    "net_margin": 36.2
+   }
+  ],
+  "peer_compare": [
+   {
+    "ticker": "AVGO",
+    "name": "브로드컴",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "NVDA",
+    "name": "엔비디아",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "MRVL",
+    "name": "마벨",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   }
+  ]
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 40,
+   "target_price": 480,
+   "thesis": "커스텀 ASIC 고객 확대+네트워킹 수요 → AI 매출 급증",
+   "key_assumptions": [
+    "신규 XPU 고객 추가",
+    "AI 매출 비중 상승",
+    "SW 마진 견조"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 390,
+   "thesis": "AI 고성장 지속하나 멀티플 부담",
+   "key_assumptions": [
+    "기존 고객 물량 확대",
+    "FCF 강세"
+   ]
+  },
+  "bear": {
+   "prob_pct": 15,
+   "target_price": 280,
+   "thesis": "AI capex 둔화·ASIC 경쟁 → 멀티플 디레이팅",
+   "key_assumptions": [
+    "고객 집중 리스크",
+    "경쟁 심화"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-분기",
+   "event": "분기 실적·AI 매출 가이던스",
+   "type": "earnings",
+   "expected_impact": "+",
+   "description": "커스텀 ASIC 수주 추세"
+  },
+  {
+   "date": "2026",
+   "event": "신규 XPU 고객 확보",
+   "type": "company",
+   "expected_impact": "+",
+   "description": "고객 다변화"
+  }
+ ],
+ "risks": [
+  {
+   "name": "고객 집중",
+   "probability": "med",
+   "impact": "high",
+   "description": "소수 하이퍼스케일러 의존"
+  },
+  {
+   "name": "AI capex 둔화",
+   "probability": "low",
+   "impact": "high",
+   "description": "투자 축소 시 ASIC 수요 타격"
+  },
+  {
+   "name": "밸류에이션 부담",
+   "probability": "med",
+   "impact": "med",
+   "description": "높은 멀티플"
+  }
+ ],
+ "thesis_decomposition": [
+  {
+   "claim": "FC-BGA 수요 견인하는 빅테크 수요처",
+   "type": "factual",
+   "evidence": "[actual] 커스텀 AI ASIC 고성장 — 고급 패키지 수요",
+   "testability": "AI 매출·ASIC 수주"
+  }
+ ],
+ "korean_disclosures": []
+}

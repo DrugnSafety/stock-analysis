@@ -1,0 +1,129 @@
+{
+  "limits": [
+    {
+      "ticker": "NVTS",
+      "as_of_date": "2026-05-26",
+      "current_price": 31.79,
+      "portfolio_value": 100000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.09275,
+        "annualized_volatility": 1.4724,
+        "volatility_percentile": 67.6,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 11000.0,
+      "remaining_position_limit_value": 11000.0,
+      "max_quantity": 346
+    },
+    {
+      "ticker": "VRT",
+      "as_of_date": "2026-05-26",
+      "current_price": 323.91,
+      "portfolio_value": 100000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03849,
+        "annualized_volatility": 0.6111,
+        "volatility_percentile": 28.8,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 11000.0,
+      "remaining_position_limit_value": 11000.0,
+      "max_quantity": 33
+    },
+    {
+      "ticker": "ETN",
+      "as_of_date": "2026-05-26",
+      "current_price": 403.13,
+      "portfolio_value": 100000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.02491,
+        "annualized_volatility": 0.3954,
+        "volatility_percentile": 57.6,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.702,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.1545,
+      "position_limit_value": 15450.6,
+      "remaining_position_limit_value": 15450.6,
+      "max_quantity": 38
+    },
+    {
+      "ticker": "WOLF",
+      "as_of_date": "2026-05-26",
+      "current_price": 73.5,
+      "portfolio_value": 100000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.08435,
+        "annualized_volatility": 1.339,
+        "volatility_percentile": 74.8,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 11000.0,
+      "remaining_position_limit_value": 11000.0,
+      "max_quantity": 149
+    },
+    {
+      "ticker": "ON",
+      "as_of_date": "2026-05-26",
+      "current_price": 127.0,
+      "portfolio_value": 100000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.04071,
+        "annualized_volatility": 0.6462,
+        "volatility_percentile": 88.5,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 11000.0,
+      "remaining_position_limit_value": 11000.0,
+      "max_quantity": 86
+    }
+  ],
+  "meta": {
+    "portfolio_value": 100000,
+    "as_of_date": "2026-05-26",
+    "base_limit_pct": 0.2
+  }
+}

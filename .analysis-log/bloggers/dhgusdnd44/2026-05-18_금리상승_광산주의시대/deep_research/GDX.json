@@ -1,0 +1,209 @@
+{
+  "industry": {
+    "name": "글로벌 금광주 산업 (Gold Mining)",
+    "overview": "2026 글로벌 금광 생산 3,400톤/년, 매출 $530B, EBITDA margin median 31% (Visual Capitalist 2024). 4 driver structural demand: ① 탈달러 (BRICS+ 중앙은행 2022-2025 4,800톤 매입 vs 직전 4년 2,100톤 +130%) ② 인플레 hedge (1973-1981 case 금 +730%) ③ 신재생 인프라 + 데이터센터 간접 수요 ④ 지정학 (이란·우크라이나·대만) safe haven. 신규 광산 평균 permitting 16년 + 건설 6년 = 22년 lead time (S&P Global 2024). 산업 capital discipline post-2014 supercycle bust 학습 — CapEx/sales 2014 18% → 2024 10%. 자사주매입 가속화 + 배당 hike 단계 진입. 산업분석러 thesis main embodiment.",
+    "competitors": [
+      {
+        "name": "Newmont",
+        "ticker": "NEM",
+        "share_pct": 7.5,
+        "moat": "글로벌 1위 producer, AISC $1,400-1,600/oz, 6개 대륙 mine portfolio"
+      },
+      {
+        "name": "Barrick Mining",
+        "ticker": "GOLD",
+        "share_pct": 5.8,
+        "moat": "Carlin Trend (Nevada Gold Mines) JV with NEM 핵심 자산"
+      },
+      {
+        "name": "Agnico Eagle",
+        "ticker": "AEM",
+        "share_pct": 5.0,
+        "moat": "Canada premium quality, FCF margin 28% sector 1위"
+      },
+      {
+        "name": "AngloGold Ashanti",
+        "ticker": "AU",
+        "share_pct": 3.5,
+        "moat": "South Africa + Australia + Americas 분산"
+      },
+      {
+        "name": "Kinross Gold",
+        "ticker": "KGC",
+        "share_pct": 2.5,
+        "moat": "Tasiast (Mauritania) + Round Mountain (Nevada) - 안정적 cash flow"
+      },
+      {
+        "name": "Franco-Nevada (Royalty)",
+        "ticker": "FNV",
+        "share_pct": 1.8,
+        "moat": "Royalty model — capex 무관 cashflow"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-15",
+        "title": "Druckenmiller Q1 13F: NEM $180M, GOLD $120M, AEM $90M 신규 매수",
+        "source": "SEC 13F filing",
+        "summary": "Duquesne Family Office가 광업주 cluster 신규 진입 — 'macro tailwind concentration' framework 적용"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Howard Marks (Oaktree) — GOLD $250M new position + BHP $180M",
+        "source": "13F",
+        "summary": "Distressed value 전문가 광업주 진입은 'deep value'+'structural' 결합 신호"
+      },
+      {
+        "date": "2026-05-02",
+        "title": "WSJ — 'Gold Miners Take Center Stage as Bullion Hits Records'",
+        "source": "WSJ",
+        "summary": "Mainstream media coverage 시작 — 'phase 0 narrative' → 'phase 1' 전환"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "GDX Q1 2026 net inflow $4.8B (역대 최고 quarterly)",
+        "source": "ETF Flow Tracker",
+        "summary": "ETF flow surge — retail+institutional 동조"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "산업분석러 — '광업의 시대가 오나' 분석 글",
+        "source": "Naver blog (dhgusdnd44)",
+        "summary": "이 분석의 직접 catalyst — 마진 31% + 13F gurus + 자본 규율 + 인식 시차 alpha 논리"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 530,
+      "cagr_pct": 8.2,
+      "horizon": "2024-2030 (글로벌 금광 매출)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 175,
+      "thesis": "Gold $5,500/oz 도달 (2027 EoY). 1973-1981 case 동급 cycle 진입. GDX multiple expansion 12x → 22x + EPS doubling = 주가 +200%",
+      "key_assumptions": [
+        "BRICS+ 추가 매입 가속화",
+        "Fed 2027 금리 인하 cycle 진입",
+        "지정학 escalation"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 130,
+      "thesis": "Gold $4,800 sustained, multiple 13x → 16x + EPS +25% = GDX +50% over 18 months",
+      "key_assumptions": [
+        "Capital return discipline 지속",
+        "Production cost 안정화",
+        "13F gurus 보유 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 60,
+      "thesis": "Gold $3,800 retrace (지정학 de-escalation + 인플레 2% 도달). GDX -30%",
+      "key_assumptions": [
+        "이란 ceasefire",
+        "Fed hawkish 지속",
+        "강달러 cycle 부활"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Jackson Hole — Fed 인하 cycle 신호 가능성",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Jackson Hole — Fed 인하 cycle 신호 가능성 (magnitude: high)"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "美 부채 ceiling 협상 시작 — fiscal dominance narrative 강화",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "美 부채 ceiling 협상 시작 — fiscal dominance narrative 강화 (magnitude: medium)"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "주요 광산주 Q4 2026 실적 — 자사주매입 가속화 발표 예상",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "주요 광산주 Q4 2026 실적 — 자사주매입 가속화 발표 예상 (magnitude: high)"
+    },
+    {
+      "date": "2027-H2",
+      "event": "BRICS+ 통화 협력 framework 발표 가능성",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "BRICS+ 통화 협력 framework 발표 가능성 (magnitude: very_high)"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Macro: 지정학 de-escalation 시 safe haven premium 압축",
+      "probability": "med",
+      "impact": "med",
+      "description": "지정학 de-escalation 시 safe haven premium 압축",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Commodity: Gold price -20% retrace 시 GDX -40% (operating leve",
+      "probability": "med",
+      "impact": "high",
+      "description": "Gold price -20% retrace 시 GDX -40% (operating leverage)",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Concentration: 13F gurus 동시 매수 = crowded trade unwind risk",
+      "probability": "med",
+      "impact": "med",
+      "description": "13F gurus 동시 매수 = crowded trade unwind risk",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "ESG: 신규 광산 permit 어려움 (water rights, indigenous land cl",
+      "probability": "high",
+      "impact": "med",
+      "description": "신규 광산 permit 어려움 (water rights, indigenous land claims)",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "광업 마진 31%는 cyclical 아닌 structural — 13F gurus 동시 매수가 신호",
+      "type": "industry",
+      "evidence": "13F Q1 2026 — Druckenmiller·Marks·Smith·RenTech·Bridgewater 7개 펀드 동시 매수. Visual Capitalist 2024 sector margin median data",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "PER 6-15x 광산주 = 시장 인식 시차 alpha source (드러켄밀러 테바 case)",
+      "type": "predictive",
+      "evidence": "GDX PER 12.6x vs S&P 22x. 드러켄밀러 테바 2024-Q1 +120% alpha 사례",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "신규 광산 22년 lead time = 다년간 supply-demand gap 지속",
+      "type": "macro",
+      "evidence": "S&P Global Market Intelligence 2024 permitting timeline 분석",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "us_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "13F filings",
+      "summary": "GDX top 10 holders 중 Donald Smith, Renaissance Technologies, Bridgewater 등 7개 펀드 보유"
+    },
+    {
+      "date": "2026-04-22",
+      "type": "ETF prospectus update",
+      "summary": "Expense ratio 0.51% 유지, top 5 holdings concentration 38%"
+    }
+  ],
+  "korean_disclosures": []
+}

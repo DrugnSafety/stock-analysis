@@ -1,0 +1,238 @@
+{
+ "financial_unit": {
+  "currency": "KRW",
+  "scale": "십억"
+ },
+ "industry": {
+  "name": "AI 인프라 부품 — FC-BGA 패키지기판 · 실리콘 커패시터 · MLCC",
+  "overview": "삼성전기는 MLCC·카메라모듈·패키지솔루션(FC-BGA) 3대 사업을 영위. AI 서버 cycle에서 (1) AI 가속기와 메인보드를 잇는 FC-BGA, (2) 서버 전력안정용 고용량 MLCC, (3) 2025년 신사업화한 실리콘 커패시터까지 3개 부품이 동시에 AI 서버 BOM에 직결. 의교창 thesis의 핵심은 '단순 전자부품 업체 → AI 인프라 핵심 공급망'으로의 시장 프레임 재정의.",
+  "competitors": [
+   {
+    "name": "이비덴",
+    "ticker": "4062.T",
+    "share_pct": 35,
+    "moat": "FC-BGA 글로벌 선두 · GPU/AI OEM 주력 공급 · ¥500B 증설"
+   },
+   {
+    "name": "유니마이크론",
+    "ticker": "3037.TW",
+    "share_pct": 25,
+    "moat": "대만 FC-BGA · 고급 AI GPU용 양산 가속"
+   },
+   {
+    "name": "삼성전기",
+    "ticker": "009150.KS",
+    "share_pct": 15,
+    "moat": "고부가 FC-BGA 50% 목표 · Grok 3 LPU first vendor · 실리콘 커패시터 진입"
+   },
+   {
+    "name": "무라타(실리콘 커패시터)",
+    "ticker": "MRAAY",
+    "share_pct": 0,
+    "moat": "실리콘 커패시터 기존 듀오폴리(무라타·TSMC) — 삼성전기 신규 도전"
+   }
+  ],
+  "news": [
+   {
+    "date": "2026-05-20",
+    "title": "삼성전기, 美 빅테크와 1.557조원 실리콘 커패시터 공급계약 (납기 2027~2028)",
+    "source": "Digitimes/Seoul Economic Daily",
+    "summary": "차세대 AI칩 기업과 약 $1B 규모 첫 대형 장기계약. 실리콘 커패시터 AI 신사업 본격화 — thesis T07 사실 확정."
+   },
+   {
+    "date": "2026-05",
+    "title": "Grok 3 LPU용 FC-BGA first vendor 지위 확보",
+    "source": "삼성전기 뉴스룸/업계",
+    "summary": "고부가 FC-BGA 비중 50% 목표 + 서버/AI/전장 확대."
+   },
+   {
+    "date": "2026-05-28",
+    "title": "삼성전기·LG이노텍, 한 달 새 2배 — AI 사이클 hidden winner",
+    "source": "Seoul Economic Daily",
+    "summary": "부품주 재평가 진행 — 멀티플 확장 진행 중."
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 15.0,
+   "cagr_pct": 20.0,
+   "horizon": "2026-2030 AI 서버용 FC-BGA+실리콘 커패시터 TAM"
+  }
+ },
+ "financials": {
+  "pl_5y": [
+   {
+    "year": 2022,
+    "revenue": 9424.55,
+    "op_income": 1183.1,
+    "op_margin": 12.6,
+    "net_income": 980.55,
+    "net_margin": 10.4
+   },
+   {
+    "year": 2023,
+    "revenue": 8892.41,
+    "op_income": 660.92,
+    "op_margin": 7.4,
+    "net_income": 422.96,
+    "net_margin": 4.8
+   },
+   {
+    "year": 2024,
+    "revenue": 10294.1,
+    "op_income": 735.14,
+    "op_margin": 7.1,
+    "net_income": 679.13,
+    "net_margin": 6.6
+   },
+   {
+    "year": 2025,
+    "revenue": 11314.46,
+    "op_income": 913.33,
+    "op_margin": 8.1,
+    "net_income": 706.11,
+    "net_margin": 6.2
+   }
+  ],
+  "peer_compare": [
+   {
+    "ticker": "009150.KS",
+    "name": "삼성전기",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "4062.T",
+    "name": "이비덴",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   },
+   {
+    "ticker": "3037.TW",
+    "name": "유니마이크론",
+    "pe": null,
+    "pb": null,
+    "roe": null,
+    "div_yield": null
+   }
+  ]
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 35,
+   "target_price": 3200000,
+   "thesis": "FC-BGA 7월 증설+빅테크 LTA 가시화 + 실리콘 커패시터 2027 매출 인식 + MLCC AI수요 → 'AI 인프라 공급망' 재평가 완성. CLSA TP 320만원 달성.",
+   "key_assumptions": [
+    "FC-BGA 고부가 비중 50% 조기 달성",
+    "실리콘 커패시터 추가 수주",
+    "멀티플 리레이팅 지속"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 2300000,
+   "thesis": "AI 부품 믹스 개선은 진행되나 소비자 IT(스마트폰 MLCC·카메라) 둔화가 전사 이익 상쇄. 점진적 재평가.",
+   "key_assumptions": [
+    "FC-BGA 매출 꾸준 성장",
+    "실리콘 커패시터 2027부터 기여",
+    "MLCC 가동률 회복"
+   ]
+  },
+  "bear": {
+   "prob_pct": 20,
+   "target_price": 1400000,
+   "thesis": "AI capex 둔화/증설 과열 + 소비자 IT 부진 + 실리콘 커패시터 수율 지연 → 급등분 되돌림.",
+   "key_assumptions": [
+    "FC-BGA 공급과잉",
+    "스마트폰 수요 약세",
+    "멀티플 디레이팅"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026-07",
+   "event": "추가 FC-BGA 투자 계획 발표(예상)",
+   "type": "company",
+   "expected_impact": "+",
+   "description": "규모·고객·가동시점 구체화 시 모멘텀 — thesis T06"
+  },
+  {
+   "date": "2027-01",
+   "event": "실리콘 커패시터 납품 개시($1B 계약)",
+   "type": "company",
+   "expected_impact": "+",
+   "description": "2027~2028 매출 인식 시작 — 영업레버리지 확인"
+  },
+  {
+   "date": "2026-분기",
+   "event": "패키지솔루션 부문 OPM 추이",
+   "type": "earnings",
+   "expected_impact": "○",
+   "description": "AI 믹스가 마진으로 증명되는지 핵심"
+  }
+ ],
+ "risks": [
+  {
+   "name": "소비자 IT 수요 둔화",
+   "probability": "med",
+   "impact": "high",
+   "description": "매출 큰 축이 여전히 MLCC·카메라모듈 — 스마트폰 부진 시 AI 비중만으론 전사 이익 견인 한계"
+  },
+  {
+   "name": "FC-BGA 증설 과열·공급과잉",
+   "probability": "med",
+   "impact": "med",
+   "description": "이비덴·유니마이크론 동시 대규모 증설 — 중기 ASP 하락 위험"
+  },
+  {
+   "name": "실리콘 커패시터 수율·단일고객 의존",
+   "probability": "med",
+   "impact": "med",
+   "description": "무라타·TSMC 대응 + 단일 대형계약 의존 — 양산 수율 미검증"
+  },
+  {
+   "name": "멀티플 리레이팅 되돌림",
+   "probability": "med",
+   "impact": "high",
+   "description": "프레임 변화로 형성된 멀티플은 첫 어닝 미스에 빠르게 디레이팅"
+  }
+ ],
+ "thesis_decomposition": [
+  {
+   "claim": "부품주→AI 인프라 공급망 재정의 초기 단계",
+   "type": "predictive",
+   "evidence": "[actual] 1.557조원 실리콘 커패시터 계약·FC-BGA first vendor·고부가 50% 목표",
+   "testability": "패키지솔루션 OPM·AI 매출비중 분기 추세로 검증"
+  },
+  {
+   "claim": "실리콘 커패시터가 매출=이익 직결 고수익 신사업",
+   "type": "predictive",
+   "evidence": "[actual] 저증설부담+박막공정 고부가, 2027 납기 $1B 계약",
+   "testability": "2027~2028 부문 OPM 공개 시 검증"
+  },
+  {
+   "claim": "CLSA TP 320만원 High Conviction Outperform",
+   "type": "factual",
+   "evidence": "[partial] Outperform·구조적 턴어라운드 복수 확인, 정확 TP 원문 일부 미확정",
+   "testability": "CLSA 공식 리포트"
+  }
+ ],
+ "korean_disclosures": [
+  {
+   "date": "2026-05-20",
+   "type": "공급계약",
+   "title": "실리콘 커패시터 1.557조원 장기공급계약(美 빅테크, 2027~2028)",
+   "impact": "+"
+  },
+  {
+   "date": "2026-분기",
+   "type": "실적",
+   "title": "패키지솔루션(FC-BGA) 매출 비중 확대 추세",
+   "impact": "○"
+  }
+ ]
+}

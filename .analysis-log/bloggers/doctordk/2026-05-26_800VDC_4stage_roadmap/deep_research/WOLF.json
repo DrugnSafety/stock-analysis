@@ -1,0 +1,229 @@
+{
+  "ticker": "WOLF",
+  "name_kr": "울프스피드",
+  "name_en": "Wolfspeed, Inc.",
+  "ipo_year": 1987,
+  "market_data_snapshot": {
+    "ticker": "WOLF",
+    "name": "Wolfspeed, Inc.",
+    "current_price": 73.5,
+    "currency": "USD",
+    "forward_pe": -14.69,
+    "trailing_pe": null,
+    "beta": 0,
+    "return_1m_pct": 135.35,
+    "return_3m_pct": 297.94,
+    "return_6m_pct": 306.98,
+    "return_1y_pct": 0,
+    "volatility_annualized_pct": 117.08,
+    "market_cap_local_bn": 3.55,
+    "market_cap_usd_bn": 3.55,
+    "ev_ebitda": -15.44,
+    "div_yield_pct": 0,
+    "pb": 3.21,
+    "fetched_at": "2026-05-27T01:34:29",
+    "fetched_via": "yfinance 1.4.0 (live)",
+    "as_of_date": "2026-05-26"
+  },
+  "industry": {
+    "name": "Silicon Carbide (SiC) Power Semiconductor — pure-play",
+    "overview": "글로벌 SiC 시장 2024 $3B → 2030 $12-15B (Yole). EV·산업·AI DC 3대 driver. AI DC segment는 2024 5% → 2030 25%로 가속. Wolfspeed는 SiC pure-play, 200mm wafer capa 가장 큼 (Mohawk Valley fab). 다만 STMicro·Infineon·Onsemi·ROHM의 catch-up 빠름. 자동차 segment 중심에서 AI DC로 전환 추진 중. 재무 곤란 + Chapter 11 restructuring 보도 (2025).",
+    "competitors": [
+      {
+        "name": "STMicro",
+        "ticker": "STM",
+        "share_pct": 30.0,
+        "moat": "Tesla 공급, EU 산업 강자"
+      },
+      {
+        "name": "Infineon",
+        "ticker": "IFNNY",
+        "share_pct": 23.0,
+        "moat": "EU 자동차·산업 leader"
+      },
+      {
+        "name": "Onsemi",
+        "ticker": "ON",
+        "share_pct": 20.0,
+        "moat": "200mm wafer 양산 leader, Tesla 공급"
+      },
+      {
+        "name": "Wolfspeed",
+        "ticker": "WOLF",
+        "share_pct": 14.0,
+        "moat": "SiC pure-play, 200mm scale, 다만 distressed"
+      },
+      {
+        "name": "ROHM",
+        "ticker": "ROHCY",
+        "share_pct": 8.0,
+        "moat": "일본 SiC, 자동차·산업"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 3.0,
+      "cagr_pct": 26.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "$0.8B (YoY -10%, 자동차 부진)",
+    "revenue_2025_est": "$1.0-1.2B (AI DC ramp 추정)",
+    "gross_margin": "약 0~5% (yield 미달)",
+    "operating_margin": "매우 큰 음수 (-50~-70%)",
+    "balance_sheet": "현금 $1B, 부채 $6.5B+ (heavy debt), Chapter 11 restructuring discussion 보도 (2025)",
+    "fcf": "큰 음수, capex $1B+ annual",
+    "comment": "Wolfspeed는 SiC pure-play로 800VDC thesis 직접 노출이나 재무 곤란으로 distressed equity 영역. 본문은 'SiC 콘텐츠 5배 비선형 증가' 명시 — Wolfspeed가 가장 직접 수혜할 수 있는 구조이나, execution risk가 매우 큼."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 20,
+      "target_price": 180.0,
+      "thesis": "Mohawk Valley yield ramp 성공 + AI DC SiC win → 2027 revenue $2.5B+, EBITDA positive. 다만 dilution을 통한 financing 후. 5-year upside 3.5x from current distressed levels.",
+      "key_assumptions": [
+        "Mohawk Valley yield 70%+ 도달",
+        "AI DC design-win 확보",
+        "Restructuring debt-equity swap 50% dilution"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 60.0,
+      "thesis": "Restructuring·debt-equity swap → equity holders 50% dilution. 2027 revenue $1.5-2B, EBITDA marginal positive. 5-year upside 1.2x.",
+      "key_assumptions": [
+        "50% dilution",
+        "Mohawk yield slow ramp",
+        "자동차 segment 부진 지속"
+      ]
+    },
+    "bear": {
+      "prob_pct": 35,
+      "target_price": 5.0,
+      "thesis": "Chapter 11 → equity holders 90%+ wiped out, 5-year downside -90%. Binary 결과 risk.",
+      "key_assumptions": [
+        "Chapter 11 시나리오",
+        "Equity holder 90% wipeout",
+        "Operations continuity는 유지"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q1",
+      "event": "Mohawk Valley fab yield disclosure",
+      "type": "product",
+      "expected_impact": "?",
+      "description": "yield 65%+이면 +, 미달 시 -"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "Capital raise 또는 restructuring 발표 가능",
+      "type": "earnings",
+      "expected_impact": "-",
+      "description": "50%+ dilution 또는 Chapter 11 위험"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "AI DC design-win 첫 disclosure",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "thesis 직접 검증 시작점"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "CHIPS Act 보조금 disbursement progress",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "cash 안정화"
+    },
+    {
+      "date": "2027-H1",
+      "event": "Management strategy clarity (CEO confirmation)",
+      "type": "earnings",
+      "expected_impact": "?",
+      "description": "execution credibility 핵심"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Chapter 11 또는 큰 dilution",
+      "probability": "high",
+      "impact": "high",
+      "description": "Debt $6.5B 부담 + cash burn 지속, equity holders 50-100% wipeout 위험",
+      "mitigation": "CHIPS Act 보조금·전략적 파트너 (Renesas 등)"
+    },
+    {
+      "name": "Mohawk Valley yield ramp 추가 지연",
+      "probability": "high",
+      "impact": "high",
+      "description": "Yield 50%대 정체 시 cash burn 가속·thesis 무효화",
+      "mitigation": "Operations 안정화·management turnover 종료"
+    },
+    {
+      "name": "AI DC design-win 실패",
+      "probability": "med",
+      "impact": "high",
+      "description": "자동차 segment에 다시 의존 시 EV 둔화 직격",
+      "mitigation": "AI DC marketing·NVIDIA·Vertiv partnership 추진"
+    },
+    {
+      "name": "STMicro·Infineon·Onsemi catch-up — SiC 가격 경쟁",
+      "probability": "high",
+      "impact": "med",
+      "description": "ASP 압박으로 gross margin 회복 지연",
+      "mitigation": "200mm wafer scale moat·R&D investment"
+    },
+    {
+      "name": "Management 안정성·strategy clarity 부족",
+      "probability": "med",
+      "impact": "med",
+      "description": "CEO turnover·strategy pivot 빈도가 execution credibility 저하",
+      "mitigation": "Board oversight·CEO 후임 결정·strategy 공시 강화"
+    }
+  ],
+  "valuation_context": "Forward PE n/a (음수), Trailing PE n/a, PB ~1x (낮은 multiple), EV/EBITDA n/a. Distressed equity로 option-value approach만 가능. Heads-I-win-big tails-I-lose-most 구도 — Pabrai·Burry 외 페르소나는 부담스러운 종목.",
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2020A",
+        "revenue": 525,
+        "op_margin": -20.0,
+        "net_margin": -120.0
+      },
+      {
+        "year": "2021A",
+        "revenue": 661,
+        "op_margin": -35.0,
+        "net_margin": -50.0
+      },
+      {
+        "year": "2022A",
+        "revenue": 922,
+        "op_margin": -50.0,
+        "net_margin": -45.0
+      },
+      {
+        "year": "2023A",
+        "revenue": 921,
+        "op_margin": -65.0,
+        "net_margin": -90.0
+      },
+      {
+        "year": "2024A",
+        "revenue": 807,
+        "op_margin": -70.0,
+        "net_margin": -110.0
+      }
+    ],
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": []
+  },
+  "as_of_date": "2026-05-26",
+  "data_refreshed_from": "2026-05-12 baseline + 2026-05-26 market data refresh",
+  "thesis_context": {
+    "source_blog": "doctordk 800VDC 데이터센터 전력 혁명의 주인공 (2026-05-26)",
+    "framing": "4-stage roadmap: White-Space Retrofit (2026-2027) → Native Compute (2027-2028) → Gray-Space DC (2028-2029) → SST Endgame (2029+)"
+  }
+}

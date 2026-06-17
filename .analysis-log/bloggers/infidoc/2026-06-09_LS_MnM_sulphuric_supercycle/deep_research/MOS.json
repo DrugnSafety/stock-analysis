@@ -1,0 +1,239 @@
+{
+  "industry": {
+    "name": "미국 비료 (Phosphate·Potash)",
+    "overview": "The Mosaic Company = 미국 phosphate·potash 비료 글로벌 top. 본 분석 thesis 기준 H2SO4 supply shock의 demand destruction side — Kpler가 명시: Mosaic 미국 phosphate 200만 t 감산은 H2SO4 cost 부담을 흡수 못해 marginal capa shutdown. Forward PE 12, dividend yield ~4%로 'cheap'으로 보이나 cyclical bottom 확인 어려움. 본 분석 thesis 'Cu가 H2SO4 가격 결정자' = Mosaic은 senders 측이 아닌 takers 측. negative thesis comp.",
+    "competitors": [
+      {
+        "name": "Nutrien",
+        "ticker": "NTR"
+      },
+      {
+        "name": "CF Industries",
+        "ticker": "CF"
+      },
+      {
+        "name": "ICL Group",
+        "ticker": "ICL"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2025",
+        "revenue": 11500000000,
+        "op_income": 650000000,
+        "net_income": 420000000,
+        "op_margin_pct": 5.65,
+        "net_margin_pct": 3.65,
+        "year": "2025"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 11400000000,
+        "op_income": 580000000,
+        "net_income": 350000000,
+        "op_margin_pct": 5.09,
+        "net_margin_pct": 3.07,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 13700000000,
+        "op_income": 1200000000,
+        "net_income": 1130000000,
+        "op_margin_pct": 8.76,
+        "net_margin_pct": 8.25,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2022",
+        "revenue": 19130000000,
+        "op_income": 4250000000,
+        "net_income": 3580000000,
+        "op_margin_pct": 22.22,
+        "net_margin_pct": 18.71,
+        "year": "2022"
+      },
+      {
+        "fiscal_year": "2021",
+        "revenue": 12360000000,
+        "op_income": 1810000000,
+        "net_income": 1630000000,
+        "op_margin_pct": 14.65,
+        "net_margin_pct": 13.19,
+        "year": "2021"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "data_source": "yfinance + IR 추정 (LS MnM segment estimated)",
+    "frequency": "5Y annual",
+    "notes": "Segment-level H2SO4·PSA estimates are inference — LS IR does not disclose H2SO4 segment ASP."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "thesis": "비료 가격 회복 + 글로벌 식량 안보 정책 + H2SO4 가격 정상화. forward PE 12 → 16 multiple expansion.",
+      "key_assumptions": [
+        "H2SO4 spot 정상화",
+        "비료 가격 +20% YoY",
+        "Phosphate capa 회복"
+      ],
+      "target_price": 30
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "H2SO4 cost 부담 지속 + 비료 가격 박스권. forward PE 12 그대로.",
+      "key_assumptions": [
+        "H2SO4 spot $400 지속",
+        "비료 cost passthrough lag"
+      ],
+      "target_price": 22
+    },
+    "bear": {
+      "prob_pct": 25,
+      "thesis": "H2SO4 cost 추가 spike + 비료 추가 감산. 마진 압축 + dividend cut risk.",
+      "key_assumptions": [
+        "H2SO4 spot $500+",
+        "phosphate 추가 감산"
+      ],
+      "target_price": 16
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "2Q26 실적",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "H2SO4 cost 부담 확인"
+    },
+    {
+      "date": "2026-08",
+      "event": "USDA 식량 가격 전망",
+      "type": "policy",
+      "expected_impact": "medium",
+      "description": "비료 demand 전망"
+    },
+    {
+      "date": "2026-09",
+      "event": "H2SO4 spot 정상화 여부",
+      "type": "market",
+      "expected_impact": "high",
+      "description": "spot 정상화 시 cost 부담 해소"
+    },
+    {
+      "date": "2026-10",
+      "event": "Phosphate capa 회복 가능성",
+      "type": "capex",
+      "expected_impact": "medium",
+      "description": "감산 capa 재가동 시점"
+    },
+    {
+      "date": "2026-11",
+      "event": "3Q26 실적",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "비료 가격·H2SO4 cost 균형"
+    }
+  ],
+  "risks": [
+    {
+      "name": "H2SO4 cost 부담 지속",
+      "probability": "high",
+      "impact": "high",
+      "description": "현재 spot $400/t 지속 시 OP margin 5~6% 박스권"
+    },
+    {
+      "name": "비료 가격 cyclical bottom",
+      "probability": "med",
+      "impact": "high",
+      "description": "비료 가격 회복 visibility 부족"
+    },
+    {
+      "name": "Phosphate 감산 추가 가능성",
+      "probability": "med",
+      "impact": "med",
+      "description": "H2SO4 spot 추가 spike 시 강제 감산"
+    },
+    {
+      "name": "Dividend cut risk",
+      "probability": "low",
+      "impact": "med",
+      "description": "OP cash flow 약화 시 배당 삭감 가능"
+    },
+    {
+      "name": "글로벌 식량 안보 정책 변동",
+      "probability": "med",
+      "impact": "med",
+      "description": "관세·보조금 정책 변동성"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim_text": "Kpler는 2026년 글로벌 황·황산 시장을 '한 세대 만의 가장 심각한 공급 차질'로 평가했다. 호르무즈 봉쇄(2026-02-28 이후) + 중국 황산 수출 전면 중단(2026-04-10) + 러시아·터키 수출 제한 + 황의 부산물 특성(공급곡선 가격 비탄력) 4방향 동시 충격이다. Gulf 지역에 60만 톤+ 황 stranded, 글로벌 황 수출 2월 말 대비 45% 감소.",
+      "supporting_evidence": "Kpler 'Sulphur Crisis 2026: Supply Shock & New Trade Routes' (2026-04~05). 중국 2025년 약 460만 톤 황산 수출 = 세계 최대 공급자. 4월 첫 피크 60만 톤 stranded · 글로벌 황 수출 45% 감소.",
+      "key_assumption": "호르무즈 봉쇄가 단기 해소되지 않고 중국 수출 ban이 8월까지 complete cessation으로 유지됨.",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T02",
+      "claim_text": "황산 가격 결정권자는 비료(Mosaic 등)나 HPAL 니켈(Huayou 등)이 아닌 구리 SX-EW 생산자다. 비료는 마진이 얇아 임계점에서 감산(Mosaic 미국 phosphate 200만 톤 감산). HPAL은 산 cost share가 35~50%(노출 큰 설비는 70% 근접)로 부분 가동 불가(Huayou 인도네시아 HPAL 50% 감산). 반대로 구리 SX-EW는 산 cost share 12~18%로 높은 가격 흡수 가능 → 칠레 leaching refined Cu 110만 톤이 산 공급 리스크 노출.",
+      "supporting_evidence": "Kpler 'Metals vs Fertilizers: Who Pays More for Sulphur?' 중국 칠레향 황산 수출 2026-03 = 0톤. 중국산 황산은 칠레 구리 leaching 산 공급의 20% / 전체 황산 수입의 37% 차지.",
+      "key_assumption": "구리 가격이 현재 수준(LME ~$10,000/t) 유지 시 SX-EW가 산 spot 가격 흡수 가능.",
+      "applies_to_ticker": true
+    },
+    {
+      "claim_id": "T03",
+      "claim_text": "LS MnM은 동제련 부산물 기반 integrated smelter로 황산 buyer가 아닌 seller다. 외부 조달 SX-EW Cu 업체는 원가 압박을 받지만, LS MnM은 연 192.5만 톤 일반 황산 생산능력으로 가격 상승의 100% 수혜 측이다. LS는 구리·황산·PSA·전선·권선·전력기기로 이어지는 수직계열화 구조다.",
+      "supporting_evidence": "LS MnM 일반 황산 capacity 192.5만 톤/yr, PSA 18만 톤/yr. 동제련 과정 SO₂ 회수 → 황산 자체 생산. Aurubis 동제련도 동일 모델 (H2SO4 분기 reset 가격 적용).",
+      "key_assumption": "동제련 가동률 80%+ 유지 시 황산 본격 생산 (Cu 제련 가동률이 H2SO4 공급 능력 결정).",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T04",
+      "claim_text": "LS MnM 일반 황산 ASP가 톤당 $100 상승 시 분기 매출 약 700억 원, 연환산 2,800억 원 증분 발생. $150/t 상승 시 연 4,160억 원, $250/t 상승 시 연 6,920억 원. 분기 45만 톤 × 환율 1,500원 적용. 미국 Gulf CFR 황산 가격은 2026-02-28 $155 → 2026-05-06 $400으로 158% 상승, 동북아 가격도 $260대까지 도달.",
+      "supporting_evidence": "S&P Global Platts 2026-05-06: 미 Gulf CFR $400/t. 한국 HS 2807 황산 4월 수출단가 $117/t (실현가는 spot 후행). LS MnM 연 capa 192.5만 톤 - PSA 18만 톤 = 일반 황산 170~180만 톤.",
+      "key_assumption": "Aurubis 모델 차용 — LS MnM 황산 판매 ~85%가 연간계약·분기·반기 reset, 2Q부터 가격 순차 반영, 3Q+ 계약 재조정 효과 본격화.",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T05",
+      "claim_text": "LS MnM PSA(반도체 wet cleaning용 electronic-grade 고순도 황산) 18만 톤/yr는 단순 부산물이 아니라 별도 반도체 소재 사업이다. 일반 황산 대비 G5급 프리미엄을 2024년 10.5배(중국 데이터)를 2026 base에 적용 시 약 $2,700/t. 선단급 marginal contract는 $4,000/t+. ASP $2,500/t으로만 잡아도 연매출 6,930억 원, $3,000/t이면 8,320억 원, $4,000/t이면 1.11조 원.",
+      "supporting_evidence": "고객: 삼성전자·SK하이닉스·TSMC 장기계약. 2024-05 중국 G2 1,000위안/t · G5 3,500위안/t. 2026-05 중국 98% H2SO4 1,835위안/t. ppt급 금속 불순물 관리·전용 탱크/배관 프리미엄.",
+      "key_assumption": "블렌디드 ASP 가정(LTA 70% $1,800/t + 선단 30% $4,000/t = $2,460/t) — 평균 ASP가 $1,500/t 이상이면 'PSA = 반도체 소재 사업' thesis 성립.",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T06",
+      "claim_text": "LS MnM 1분기 영업이익 1,896억 원은 일회성 peak가 아니라 2026 연간 base다. 금·은 귀금속 가격이 일부 조정되더라도 황산 ASP 상승이 2Q부터 반영되면 2~4Q 합산이 1Q+α가 될 가능성이 높다. 시장은 아직 LS를 전선 중심으로 보지만, 황산·PSA SOTP 재산정이 catalyst가 될 수 있다.",
+      "supporting_evidence": "LS MnM 1Q26 OP = 1,896억 원. 2Q부터 황산 가격 반영 + PSA 단가 확인이 catalyst. LS IR은 전선·전력기기 중심으로 MnM 황산·PSA는 underexplained.",
+      "key_assumption": "1Q에 반영된 H2SO4 ASP는 spot $400/t보다 한참 낮은 LTA 가격 — upside 여지가 남아 있음.",
+      "applies_to_ticker": false
+    },
+    {
+      "claim_id": "T07",
+      "claim_text": "황산 supply shock는 공급망 흔들리는 구간에서 수직계열화된 업체의 납기 프리미엄을 키운다. 데이터센터 부스덕트·HVDC·권선·전선 모두 동일. 최근 LS전선·가온전선의 북미 빅테크 부스덕트 수주는 이 관점에서 해석 가능. LS 그룹은 구리(MnM) → 황산/PSA(MnM) → 전선(LS전선·가온전선) → 권선(LS에코첨단소재) → 전력기기(LS Electric) 풀스택 구조.",
+      "supporting_evidence": "LS전선·가온전선 북미 빅테크향 부스덕트 수주 (2026-Q1~Q2). HVDC·해저케이블 backlog 증가. 데이터센터 power infra 글로벌 capex 30~50% YoY 증가 추세.",
+      "key_assumption": "AI 데이터센터·전력 인프라 capex 사이클이 2027+까지 지속 — 단가뿐 아니라 납기·공급안정성이 수주 결정요인.",
+      "applies_to_ticker": true
+    },
+    {
+      "claim_id": "T08",
+      "claim_text": "호르무즈가 열리더라도 황산 가격이 단기 정상화되기 어렵다. cargo가 풀리는 것과 계약 가격이 정상화되는 것은 별개. 중국 수출 제한·러시아·터키 제한·재고 재축적 수요가 남는다. spot 가격은 먼저 오르고 계약 가격은 뒤따른다 — 정상화 시에도 같은 lag. 이미 높은 가격으로 체결된 LTA·분기 reset은 2H26 실적에 시차 반영 가능성 높다.",
+      "supporting_evidence": "Aurubis 사례: 황산 판매 ~85%가 연간계약, 분기·반기 단위 재조정. 한국 4월 H2SO4 수출단가 $117/t (Gulf spot $400/t 대비 한참 후행).",
+      "key_assumption": "공급 정상화 lag: spot 하락 후 LTA 재조정까지 1~2 분기 — LS MnM은 정상화 국면에서도 2~3 분기 가격 모멘텀 보존.",
+      "applies_to_ticker": false
+    }
+  ],
+  "korean_disclosures": [],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": 6.5,
+    "implied_op_margin_5y_pct": 7.0,
+    "notes": "Reverse DCF — 현 forward PE를 정당화하는 5Y CAGR·OP margin reverse-engineered."
+  },
+  "analysis_mode": "thesis_first",
+  "thesis_count": 8
+}

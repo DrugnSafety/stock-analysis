@@ -1,0 +1,91 @@
+{
+  "computed_at": "2026-06-04T15:00:00+09:00",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "009150.KS",
+      "name": "삼성전기",
+      "action": "BUY",
+      "decision": "BUY",
+      "signal_score": 0.656,
+      "components": {
+        "persona_confidence": 0.592,
+        "verdict_bias": 0.565,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.5
+      },
+      "current_price": 1716000.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 17,
+      "rationale": "009150.KS score=0.656 (BUY) — 확신 0.59 + bias 0.57 + 정렬 1.0 + 밸류 0.5"
+    },
+    {
+      "ticker": "033640.KQ",
+      "name": "네패스",
+      "action": "HOLD",
+      "decision": "HOLD",
+      "signal_score": 0.619,
+      "components": {
+        "persona_confidence": 0.605,
+        "verdict_bias": 0.423,
+        "thesis_alignment_score": 1.0,
+        "valuation_discount": 0.5
+      },
+      "current_price": 37650.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 806,
+      "rationale": "033640.KQ score=0.619 (HOLD) — 확신 0.60 + bias 0.42 + 정렬 1.0 + 밸류 0.5"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "마벨",
+      "action": "HOLD",
+      "decision": "HOLD",
+      "signal_score": 0.632,
+      "components": {
+        "persona_confidence": 0.572,
+        "verdict_bias": 0.612,
+        "thesis_alignment_score": 0.85,
+        "valuation_discount": 0.5
+      },
+      "current_price": 316.43,
+      "max_position_value_krw": 22000.0,
+      "max_quantity": 69,
+      "rationale": "MRVL score=0.632 (HOLD) — 확신 0.57 + bias 0.61 + 정렬 0.85 + 밸류 0.5"
+    },
+    {
+      "ticker": "008060.KS",
+      "name": "대덕전자",
+      "action": "HOLD",
+      "decision": "HOLD",
+      "signal_score": 0.526,
+      "components": {
+        "persona_confidence": 0.516,
+        "verdict_bias": 0.5,
+        "thesis_alignment_score": 0.6,
+        "valuation_discount": 0.5
+      },
+      "current_price": 20350.0,
+      "max_position_value_krw": 55200000.0,
+      "max_quantity": 2712,
+      "rationale": "008060.KS score=0.526 (HOLD) — 확신 0.52 + bias 0.50 + 정렬 0.6 + 밸류 0.5"
+    },
+    {
+      "ticker": "001820.KS",
+      "name": "삼화콘덴서",
+      "action": "AVOID",
+      "decision": "AVOID",
+      "signal_score": 0.486,
+      "components": {
+        "persona_confidence": 0.553,
+        "verdict_bias": 0.315,
+        "thesis_alignment_score": 0.6,
+        "valuation_discount": 0.5
+      },
+      "current_price": 110400.0,
+      "max_position_value_krw": 30360000.0,
+      "max_quantity": 275,
+      "rationale": "001820.KS score=0.486 (AVOID) — 확신 0.55 + bias 0.32 + 정렬 0.6 + 밸류 0.5"
+    }
+  ]
+}

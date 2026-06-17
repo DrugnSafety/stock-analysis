@@ -1,0 +1,163 @@
+{
+  "ticker": "010130.KS",
+  "company_kr": "고려아연",
+  "company_en": "Korea Zinc",
+  "exchange": "KOSPI",
+  "as_of_date": "2026-06-16",
+  "industry": {
+    "name": "비철 제련 (아연·구리·연)",
+    "name_kr": "비철금속 제련 (구리·아연) + 인플레 헤지",
+    "overview": "세계적 비철 제련사(아연·연·구리·금·은). 블로거의 'AI 인프라 원자재(구리 등) 가치 상승' 논지의 간접 수혜. 구리 수요(전력망·데이터센터)+인플레 2차 파동 헤지(하드애셋) 이중 포지션. 경영권 분쟁 변수.",
+    "competitors": [
+      {
+        "name": "영풍",
+        "ticker": "000670.KS",
+        "share_pct": null,
+        "moat": "아연 제련 파트너/분쟁"
+      },
+      {
+        "name": "Glencore",
+        "ticker": "GLEN.L",
+        "share_pct": null,
+        "moat": "글로벌 비철"
+      },
+      {
+        "name": "Boliden",
+        "ticker": "BOL.ST",
+        "share_pct": null,
+        "moat": "유럽 제련"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "구리는 전력망·EV·데이터센터로 구조적 수요 우위(에너지 전환 금속). 제련 수수료(TC/RC)+신사업(이차전지 소재·니켈) 다변화."
+    },
+    "ai_infrastructure_context": "AI 데이터센터·전력망 확대→구리 수요 견인. 인플레 2차 파동 시 비철·실물 하드애셋 선호로 헤지 가치.",
+    "news": []
+  },
+  "financials": {
+    "currency": "KRW",
+    "unit": "KRW 조",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, KRW 조)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 11.219,
+        "op_income": 0.919,
+        "op_margin": 8.2,
+        "net_income": 0.781,
+        "net_margin": 7.0
+      },
+      {
+        "year": 2023,
+        "revenue": 9.705,
+        "op_income": 0.66,
+        "op_margin": 6.8,
+        "net_income": 0.527,
+        "net_margin": 5.4
+      },
+      {
+        "year": 2024,
+        "revenue": 12.053,
+        "op_income": 0.725,
+        "op_margin": 6.0,
+        "net_income": 0.191,
+        "net_margin": 1.6
+      },
+      {
+        "year": 2025,
+        "revenue": 16.588,
+        "op_income": 1.232,
+        "op_margin": 7.4,
+        "net_income": 0.775,
+        "net_margin": 4.7
+      }
+    ],
+    "trajectory_summary": "매출 11.2조→16.6조 (CAGR 13.9%). AI 전력·인프라 수요로 외형 성장 지속.",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 1550000,
+      "thesis": "구리 강세+신사업(전구체·니켈) 가시화+분쟁 해소",
+      "key_assumptions": [
+        "구리 가격 상방",
+        "신사업 매출 기여",
+        "경영권 안정"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 1290000,
+      "thesis": "비철 박스권+신사업 점진+분쟁 지속",
+      "key_assumptions": [
+        "구리 박스권",
+        "신사업 초기",
+        "분쟁 장기화"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 950000,
+      "thesis": "비철 약세+신사업 지연+분쟁 비용",
+      "key_assumptions": [
+        "구리 하락",
+        "신사업 지연",
+        "분쟁 비용·할인"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "구리 가격·TC/RC 변동",
+      "type": "market",
+      "expected_impact": "+",
+      "description": "비철 사이클"
+    },
+    {
+      "date": "2026",
+      "event": "경영권 분쟁 전개",
+      "type": "governance",
+      "expected_impact": "○",
+      "description": "영풍·MBK 분쟁"
+    }
+  ],
+  "risks": [
+    {
+      "name": "경영권 분쟁",
+      "probability": "high",
+      "impact": "high",
+      "description": "영풍·MBK 분쟁에 따른 불확실성·비용",
+      "mitigation": "분쟁 종결 시 할인 해소"
+    },
+    {
+      "name": "비철 가격 변동",
+      "probability": "high",
+      "impact": "med",
+      "description": "아연·구리 가격 사이클",
+      "mitigation": "제련 수수료·금속 다변화"
+    },
+    {
+      "name": "신사업 불확실성",
+      "probability": "med",
+      "impact": "med",
+      "description": "이차전지 소재 진척 지연",
+      "mitigation": "본업 현금흐름 견조"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 '흥미로운 데이터 6-4'",
+      "yfinance income_stmt (live)"
+    ]
+  }
+}

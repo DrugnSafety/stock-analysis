@@ -1,0 +1,281 @@
+{
+  "company_kr": "두산에너빌리티",
+  "company_en": "Doosan Enerbility",
+  "industry": {
+    "name": "선박엔진 / 데이터센터 BTM 가스엔진 / AI 인프라 전력",
+    "overview": "AI 데이터센터 폭발적 전력 수요(2024 25 GW → 2030 80 GW, EPRI 2025-12)와 미국 송배전망 적체(grid interconnection queue 2,600 GW, LBNL 2025-04)가 결합되어, 데이터센터 자체 부지 발전(BTM, Behind-the-Meter)이 'optional'에서 'necessary'로 이동. 글로벌 BTM gas engine market $8B(2025) → $22B(2030) (Wood Mackenzie). 동시에 글로벌 신조선 발주 record + IMO GHG 규제로 LNG·메탄올 dual-fuel 엔진 수요 폭증. 한화엔진은 한화에너지(MS·Meta·Google PPA)와 그룹 시너지로 BTM 진입, 동시에 marine 엔진 슈퍼사이클의 직접 수혜자.",
+    "competitors": [
+      {
+        "name": "Wärtsilä",
+        "ticker": "WRTBY",
+        "share_pct": 28,
+        "moat": "BTM gas engine 글로벌 1위 + 미국 데이터센터 backlog $2.4B + 250+ countries service network"
+      },
+      {
+        "name": "MAN Energy Solutions",
+        "ticker": "Private (Volkswagen)",
+        "share_pct": 22,
+        "moat": "Marine 2-stroke 엔진 dominant + 라이선싱 네트워크"
+      },
+      {
+        "name": "Caterpillar (Energy Transition)",
+        "ticker": "CAT",
+        "share_pct": 18,
+        "moat": "Stationary gen + dealer network 200+ countries"
+      },
+      {
+        "name": "한화엔진",
+        "ticker": "082740.KS",
+        "share_pct": 8,
+        "moat": "MAN ES 라이선스 + 한화 그룹 captive (한화에너지 PPA) + 한국 yard cost"
+      },
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 7,
+        "moat": "글로벌 yard 1위 통합 + GE Vernova 가스터빈 partnership"
+      },
+      {
+        "name": "두산에너빌리티 (Doosan Enerbility)",
+        "ticker": "034020.KS",
+        "share_pct": 5,
+        "moat": "한국 SMR 1위 + 자체 H-class 270MW 가스터빈"
+      },
+      {
+        "name": "Cummins / Generac / Bloom Energy",
+        "ticker": "CMI/GNRC/BE",
+        "share_pct": 12,
+        "moat": "미국 BTM 시장 진입 가속"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "한화엔진 데이터센터 BTM 진출 — 매출 2027 2.8조 가이던스",
+        "source": "한국투자증권",
+        "summary": "한화에너지 PPA 확대 + 4행정 가스엔진 부활. 매출 1.6→2.8→3조원 trajectory."
+      },
+      {
+        "date": "2026-03",
+        "title": "Meta x Calpine 1.1 GW 가스 PPA 체결",
+        "source": "Bloomberg",
+        "summary": "데이터센터향 BTM gas 발전 확산 — Wärtsilä 등 vendor 수혜"
+      },
+      {
+        "date": "2025-12",
+        "title": "EPRI 2025 AI Power Demand Outlook",
+        "source": "EPRI",
+        "summary": "2030 미국 데이터센터 +55 GW 추가 전력 필요 — BTM 비중 60%+"
+      },
+      {
+        "date": "2025-07",
+        "title": "PJM Capacity Auction +800% clearing price",
+        "source": "PJM",
+        "summary": "$269/MW-day — grid scarcity가 BTM 가속 트리거"
+      },
+      {
+        "date": "2025-06",
+        "title": "HD현대중공업 GE Vernova 가스엔진 partnership",
+        "source": "한경",
+        "summary": "한국 BIG3 yard 가스엔진 시장 진입 가속"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.0,
+      "horizon": "2025-2030",
+      "cagr_pct": 22.5
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 4500000,
+        "op_income": 150000,
+        "op_margin": 3.3,
+        "net_income": 80000,
+        "net_margin": 1.8
+      },
+      {
+        "year": 2023,
+        "revenue": 5500000,
+        "op_income": 220000,
+        "op_margin": 4.0,
+        "net_income": 130000,
+        "net_margin": 2.4
+      },
+      {
+        "year": 2024,
+        "revenue": 6200000,
+        "op_income": 322000,
+        "op_margin": 5.2,
+        "net_income": 200000,
+        "net_margin": 3.2
+      },
+      {
+        "year": 2025,
+        "revenue": 7500000,
+        "op_income": 585000,
+        "op_margin": 7.8,
+        "net_income": 420000,
+        "net_margin": 5.6
+      },
+      {
+        "year": 2026,
+        "revenue": 8800000,
+        "op_income": 836000,
+        "op_margin": 9.5,
+        "net_income": 600000,
+        "net_margin": 6.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets_KRW_bn": 28000,
+      "total_liabilities_KRW_bn": 19000,
+      "equity_KRW_bn": 9000,
+      "net_debt_KRW_bn": 3000,
+      "current_ratio": 1.4,
+      "total_liab": 19000000,
+      "equity": 9000000,
+      "total_assets": 28000000,
+      "cash": 2800000.0
+    },
+    "cf_summary": {
+      "operating_cf_KRW_bn": 800,
+      "investing_cf_KRW_bn": -550,
+      "free_cash_flow_KRW_bn": 250,
+      "capex_intensity_pct": 7.5
+    },
+    "peer_compare": [
+      {
+        "ticker": "034020.KS",
+        "name": "두산에너빌리티",
+        "pe": 38.5,
+        "pb": 6.2,
+        "roe": 9.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "GE",
+        "name": "GE Vernova",
+        "pe": 35.0,
+        "pb": 5.0,
+        "roe": 8.0,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "SMR",
+        "name": "NuScale Power",
+        "pe": 0.0,
+        "pb": 8.5,
+        "roe": -25.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "BWXT",
+        "name": "BWX Technologies",
+        "pe": 28.0,
+        "pb": 8.0,
+        "roe": 32.0,
+        "div_yield": 0.9
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 165000,
+      "thesis": "NuScale SMR 첫 commercial 발주 + 가스터빈 미국 데이터센터 수주",
+      "key_assumptions": [
+        "SMR 첫 수주 2027",
+        "가스터빈 BTM 시장 진입"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 130000,
+      "thesis": "K-AI Power 정책 backing 유지 + valuation 안정",
+      "key_assumptions": [
+        "원전·가스·풍력 균형 매출"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 90000,
+      "thesis": "1Y +364% 후 mean reversion + SMR 상용화 지연",
+      "key_assumptions": [
+        "mean reversion -30%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-H2",
+      "event": "NuScale SMR 첫 commercial 발주 가능성",
+      "type": "catalyst-major",
+      "expected_impact": "++",
+      "description": "Aalo Atomics·Oklo·Kairos 경쟁 — 첫 수주 시 +30%"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "한국 신규 원전 발주 (APR1400)",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "K-원전 수출 확대"
+    },
+    {
+      "date": "2027-H2",
+      "event": "가스터빈 H-class 첫 수출 commercial",
+      "type": "industrial",
+      "expected_impact": "+",
+      "description": "270 MW 자체 H-class 가스터빈"
+    }
+  ],
+  "risks": [
+    {
+      "name": "1Y +364% 후 mean reversion",
+      "probability": "high",
+      "impact": "high",
+      "description": "한국 large-cap 1Y +300%+ 평균 -35% 회귀",
+      "mitigation": "분할 매수 + -30% Stop Loss"
+    },
+    {
+      "name": "SMR 상용화 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "2027 first-of-kind 일정 미지",
+      "mitigation": "원전·가스 균형 portfolio"
+    },
+    {
+      "name": "원전 정책 변화",
+      "probability": "low",
+      "impact": "high",
+      "description": "정권 교체 시 원전 정책 reversal",
+      "mitigation": "글로벌 export 비중 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "한국 SMR 1위 + 가스터빈 H-class 자체 = 'K-GE' positioning",
+      "type": "industry",
+      "evidence": "NuScale 협력 + 270MW H-class 자체 capa",
+      "testability": "high",
+      "current_status": "확인됨"
+    },
+    {
+      "claim": "1Y +364% 후 mean reversion 위험",
+      "type": "valuation",
+      "evidence": "한국 large-cap +300%+ 평균 -35% 회귀 패턴",
+      "testability": "high",
+      "current_status": "검증 진행"
+    },
+    {
+      "claim": "K-AI Power 정책 backing 유지",
+      "type": "policy",
+      "evidence": "산업통상자원부 2025-11 'AI 인프라 글로벌 진출 전략'",
+      "testability": "medium",
+      "current_status": "확인됨"
+    }
+  ],
+  "korean_disclosures": []
+}

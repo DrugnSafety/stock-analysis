@@ -263,24 +263,69 @@
   "thesis_decomposition": [
     {
       "thesis_id": "T7",
+      "claim_id": "T7",
+      "claim": "광업의 시대 도래 — 글로벌 상위 20개 귀금속·비철금속 광업 기업의 마진율 중간값 31%로 S&P500 모든 섹터 1위. 기술 섹터(17%)의 거의 2배. PER 6-15배에 거래 중 — 시장은 금속 가격 하락 가정한 디스카운트 유지",
+      "type": "industry",
+      "evidence": "Newmont AISC $1,400-1,500/oz · gold $4,400+로 마진 30%+ · 2025 OPM 33.5% · PE 12.5x (peer 12-16x 이하)",
+      "testability": "high",
       "current_status": "confirmed",
       "ticker_exposure": "++",
-      "claim": "thesis T7",
-      "evidence": "curated rationale"
+      "confidence_delta": "+0.10"
     },
     {
       "thesis_id": "T8",
+      "claim_id": "T8",
+      "claim": "광물 수요는 일회성 사이클이 아닌 구조적 — 탈달러·인플레 헷지(금), 신재생 에너지(구리·리튬·니켈), 데이터센터·전력망(구리·은) 메가트렌드. 신규 광산 개발에 10년 이상 소요 → 공급 부족 (shortage) 장기화. 광물 가격이 단기 조정 받아도 이전 가격대로 복귀 불가",
+      "type": "industry",
+      "evidence": "Tier-1 자산 16개 광산 (7 jurisdictions) · 신규 광산 인허가 10-15년 · 2024 Newcrest 인수로 reserves +28%",
+      "testability": "med",
       "current_status": "confirmed",
       "ticker_exposure": "++",
-      "claim": "thesis T8",
-      "evidence": "curated rationale"
+      "confidence_delta": "+0.10"
     },
     {
       "thesis_id": "T9",
+      "claim_id": "T9",
+      "claim": "Druckenmiller 'Teva 패턴' = 광산주에 적용 가능 — 시장이 여전히 '경기 변동·금속가격 종속' 프레임으로 광산주를 평가하지만, 실제로는 '구조적 수요 + 자본 절제'로 펀더멘털 체질이 변화. 시장 인식 시차가 알파의 원천",
+      "type": "company",
+      "evidence": "Druckenmiller Duquesne 2026 Q1 13F — NEM 신규 $180M position · 7개 펀드 동시 매수 (cluster)",
+      "testability": "med",
       "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    },
+    {
+      "thesis_id": "T6",
+      "claim_id": "T6",
+      "claim": "투자 전략 전환 필요 — '유동성 기반 PER 리레이팅' 패러다임 종료. 실물자산 보유 기업, 또는 고금리 환경에서도 성장 가능한 비싼 PER 정당화 가능 기업 선별 중요. 채권 발행에 의존하는 빅테크조차 가려야 함",
+      "type": "policy",
+      "evidence": "Dividend $1.20/yr (yield 1.1%) + buyback $1B 2025 · net debt/EBITDA 0.5x · 자가자본 조달 가능",
+      "testability": "low",
+      "current_status": "confirmed",
       "ticker_exposure": "++",
-      "claim": "thesis T9",
-      "evidence": "curated rationale"
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T5",
+      "claim_id": "T5",
+      "claim": "G7 국채 수익률 20년 만에 최고치. 4가지 구조적 요인: (1) 이란 전쟁발 에너지 인플레, (2) 재정적자 증가로 채권 발행량 폭증, (3) 중앙은행 QT 가속, (4) 탈세계화 따른 기간 프리미엄 상승 — 어느 하나도 단기 해결 불가",
+      "type": "macro",
+      "evidence": "Gold price 5% real rate 상관관계 -0.65 — 금리 5%대 환경에서 디스인플레이션 hedge 수요 증가",
+      "testability": "high",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    },
+    {
+      "thesis_id": "T4",
+      "claim_id": "T4",
+      "claim": "1998년형 외부 시스템 충격(금리 급등)이 'IT 부진' 아닌 외생 변수로 단기 폭락 트리거. 단 1998년과 달리 지금은 인플레이션 때문에 연준의 공격적 금리 인하 카드가 봉쇄 — 1970년대형 시나리오 또는 닷컴버블 재현 사이의 갈림길",
+      "type": "macro",
+      "evidence": "1970s scenario에서 gold +2300% / Homestake +700% · 1998-2000 LTCM-like shock도 gold rally trigger",
+      "testability": "low",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
     }
   ],
   "pl_5y": {
@@ -375,5 +420,24 @@
         "fcf": 4.1
       }
     ]
+  },
+  "bs_snapshot": {
+    "total_assets": 65.0,
+    "total_liab": 28.5,
+    "equity": 36.5,
+    "cash": 3.0,
+    "debt": 9.5,
+    "ocf_5y_avg": 3.5,
+    "fcf_5y_avg": 2.3,
+    "capex_intensity": 0.085
+  },
+  "cf_summary": {
+    "ocf_5y_avg": 3.5,
+    "fcf_5y_avg": 2.3,
+    "capex_intensity": 0.085
+  },
+  "financial_unit": {
+    "currency": "USD",
+    "scale": "B"
   }
 }

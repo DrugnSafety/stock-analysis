@@ -1,0 +1,285 @@
+{
+  "industry": {
+    "name": "완성차 + 휴머노이드(보스턴다이내믹스 모회사)",
+    "overview": "현대차는 글로벌 완성차 톱티어이자 현대차그룹이 ~80% 지분을 보유한 보스턴다이내믹스(BD, 아틀라스)의 실질 모회사다. 이번 글의 핵심은 (1) 구글이 2025년 말 BD 지분 투자를 타진했다 거절당한 사실이 BD를 '빅테크가 검증한 자산'으로 만든 점, (2) 한국투자증권이 BD 비영업가치를 긍정 시나리오로 전환하며 목표주가를 77만원으로 상향한 점이다. 본업(자동차) OPM 약 6%의 안정적 현금흐름 위에 BD 옵션가치가 SOTP로 얹히는 구조다.",
+    "competitors": [
+      {
+        "name": "기아",
+        "ticker": "000270.KS",
+        "share_pct": null,
+        "moat": "동일 그룹·BD 간접 노출·고배당"
+      },
+      {
+        "name": "Tesla",
+        "ticker": "TSLA",
+        "share_pct": null,
+        "moat": "Optimus 수직계열 휴머노이드"
+      },
+      {
+        "name": "Toyota",
+        "ticker": "7203.T",
+        "share_pct": null,
+        "moat": "글로벌 1위 완성차 규모"
+      },
+      {
+        "name": "현대모비스",
+        "ticker": "012330.KS",
+        "share_pct": null,
+        "moat": "BD 액추에이터 양산 노드"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "2025-2035 휴머노이드 TAM (Goldman Sachs $38B@2035 / McKinsey)"
+    },
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": NaN,
+        "op_income": NaN,
+        "op_margin": NaN,
+        "net_income": NaN,
+        "net_margin": NaN
+      },
+      {
+        "year": 2022,
+        "revenue": 142151.5,
+        "op_income": 9824.9,
+        "op_margin": 6.9,
+        "net_income": 7364.4,
+        "net_margin": 5.2
+      },
+      {
+        "year": 2023,
+        "revenue": 162663.6,
+        "op_income": 15126.9,
+        "op_margin": 9.3,
+        "net_income": 11961.7,
+        "net_margin": 7.4
+      },
+      {
+        "year": 2024,
+        "revenue": 175231.2,
+        "op_income": 14239.6,
+        "op_margin": 8.1,
+        "net_income": 12526.7,
+        "net_margin": 7.1
+      },
+      {
+        "year": 2025,
+        "revenue": 186254.5,
+        "op_income": 11467.9,
+        "op_margin": 6.2,
+        "net_income": 9446.0,
+        "net_margin": 5.1
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": 2021,
+        "revenue": NaN,
+        "operating_income": NaN,
+        "net_income": NaN,
+        "op_margin_pct": NaN
+      },
+      {
+        "year": 2022,
+        "revenue": 142151.5,
+        "operating_income": 9824.9,
+        "net_income": 7364.4,
+        "op_margin_pct": 6.9
+      },
+      {
+        "year": 2023,
+        "revenue": 162663.6,
+        "operating_income": 15126.9,
+        "net_income": 11961.7,
+        "op_margin_pct": 9.3
+      },
+      {
+        "year": 2024,
+        "revenue": 175231.2,
+        "operating_income": 14239.6,
+        "net_income": 12526.7,
+        "op_margin_pct": 8.1
+      },
+      {
+        "year": 2025,
+        "revenue": 186254.5,
+        "operating_income": 11467.9,
+        "net_income": 9446.0,
+        "op_margin_pct": 6.2
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "소뱅 풋·삼성/구글 빅테크 딜로 BD 밸류가 가시화되고 SOTP 디스카운트 해소. 본업 저PER(12.6x) + BD 옵션 동시 재평가.",
+      "key_assumptions": [
+        "BD 외부 거래 가격 형성",
+        "자동차 마진 유지",
+        "주주환원 지속"
+      ],
+      "target_price": 770000
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "본업 견조 + BD 옵션은 점진 반영. 한투 TP 77만원은 카탈리스트(7월 풋옵션) 발생 시 수렴.",
+      "key_assumptions": [
+        "자동차 판매 견조",
+        "BD는 비상장 옵션",
+        "TP 상향 추세"
+      ],
+      "target_price": 700000
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "글로벌 수요 둔화·관세 + BD 거래 무산 시 옵션 프리미엄 소멸·본업 멀티플 압박.",
+      "key_assumptions": [
+        "완성차 수요 둔화",
+        "관세 부담",
+        "BD 딜 불발"
+      ],
+      "target_price": 600000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "소프트뱅크 9.9% BD 풋옵션 결정",
+      "type": "event",
+      "expected_impact": "high",
+      "description": "행사/빅테크 매각 여부가 BD 밸류 가시성 좌우 — 그룹주 SOTP 직접 영향"
+    },
+    {
+      "date": "2026-2H",
+      "event": "삼성·구글 BD 지분 거래 진전",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "빅테크 거래 성사 시 BD 외부 밸류 벤치마크 형성"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적·주주환원",
+      "type": "earnings",
+      "expected_impact": "med",
+      "description": "본업 마진·배당/자사주 확인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "BD 거래 불확실성",
+      "probability": "high",
+      "impact": "med",
+      "description": "구글 거절·풋옵션 결과 등 BD 관련 거래가 모두 미확정 — 옵션가치 변동성 큼",
+      "mitigation": "본업 현금흐름이 옵션 비용 흡수"
+    },
+    {
+      "name": "완성차 수요·관세",
+      "probability": "med",
+      "impact": "high",
+      "description": "글로벌 수요 둔화·미국 관세 환경",
+      "mitigation": "미국 현지 생산(조지아)·전동화 라인업"
+    },
+    {
+      "name": "SOTP 디스카운트 지속",
+      "probability": "med",
+      "impact": "med",
+      "description": "BD 비상장으로 비영업가치 인식 지연 가능",
+      "mitigation": "풋옵션·빅테크 딜이 가격발견 촉진"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "ticker_exposure": "++",
+      "claim": "채널체크에 따르면 구글은 2025년 말 현대차에 Boston Dynamics(BD) 지분 투자 가능성을 타진했고 현대차는 일단 거절했다. 거절 사유는 현대차그룹 보유 BD 지분율 희석 우려와 BD의 모호한 시장가치다",
+      "type": "factual",
+      "evidence": [
+        "구글 2025년 말 현대차에 BD 지분 투자 타진 (채널체크)",
+        "현대차 거절: 지분 희석 + 모호한 BD 밸류",
+        "빅테크 관심 = 자산 검증 시그널"
+      ],
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T2",
+      "ticker_exposure": "++",
+      "claim": "한국투자증권은 BD 비영업가치를 긍정적 시나리오로 변경하고, 이를 반영해 목표주가를 현대차 77만원, 기아 26만원, 현대모비스 95만원으로 상향했다. 이는 BD의 SOTP(비영업가치) 기여를 시장이 본격 반영하기 ",
+      "type": "factual",
+      "evidence": [
+        "현대차 TP 77만원",
+        "기아 TP 26만원",
+        "현대모비스 TP 95만원",
+        "BD 비영업가치 긍정 시나리오 전환"
+      ],
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T3",
+      "ticker_exposure": "++",
+      "claim": "소프트뱅크는 보유한 9.9% BD 지분에 대한 풋옵션 행사 여부를 2026년 7월말까지 결정해야 한다. 현대차그룹 대상 풋옵션을 행사하지 않고 빅테크에 매각하는 방안도 가능성 중 하나다(2025-08-06 주주간 약",
+      "type": "conditional",
+      "evidence": [
+        "소프트뱅크 9.9% BD 지분 풋옵션",
+        "행사 시한 2026-07말",
+        "빅테크 매각 시나리오 가능",
+        "2025-08-06 주주간 약정"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T6",
+      "ticker_exposure": "+",
+      "claim": "피지컬 AI는 LLM 다음 패권 전장이며 승자독식 성격이 짙다. 파운데이션 AI 모델을 검증할 최고급 신체(=아틀라스)를 보유해야 경쟁에서 유리하므로, BD는 IPO 이전까지 꾸준히 빅테크의 관심을 받을 것으로 예상",
+      "type": "normative",
+      "evidence": [
+        "피지컬 AI 승자독식 구조",
+        "아틀라스 = 최고급 검증 신체",
+        "IPO 전까지 빅테크 관심 지속 전망"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T7",
+      "ticker_exposure": "+",
+      "claim": "BD의 대중 시연('월드컵 쇼') 시점과 형태가 휴머노이드 밸류체인 전반의 재평가 트리거가 될 수 있다. 시계열(timeline)이 다가오고 있다는 것이 글의 핵심 관전 포인트다.",
+      "type": "predictive",
+      "evidence": [
+        "BD 월드컵 쇼 시점 미정",
+        "밸류체인 시계열 임박",
+        "대중 시연 = 재평가 촉매"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06",
+      "type": "산업",
+      "title": "구글, 현대차에 BD 지분 투자 타진(거절)",
+      "summary": "채널체크 — 구글이 2025년 말 현대차에 BD 지분 투자를 타진했으나 현대차가 지분 희석·밸류 모호성으로 거절. 한투 목표주가 77만원 상향"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 623000,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 매출 ₩186조·OPM 6.2%. 현 주가는 완성차 본업 위주로 형성돼 BD 옵션은 상당 부분 미반영. 한투 TP 77만원(+24%)은 BD 비영업가치 긍정 시나리오 반영분으로, 7월 풋옵션·빅테크 딜이 옵션가치 실현의 핵심 트리거."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 7
+}

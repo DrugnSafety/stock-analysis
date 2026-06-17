@@ -1,0 +1,1277 @@
+{
+  "ticker": "AEM",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 7,
+      "pct": 53.8
+    },
+    "bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.75,
+  "aggregate_stance_score": 17,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.74
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "growth-garp": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "growth": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "innovation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.88
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.74
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "antifragility": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "thesis_lens_aggregate": {
+    "T01": {
+      "avg_stance_score": 0.54,
+      "support_count": 8,
+      "neutral_count": 4,
+      "challenge_count": 1
+    },
+    "T02": {
+      "avg_stance_score": -0.23,
+      "support_count": 3,
+      "neutral_count": 4,
+      "challenge_count": 6
+    },
+    "T03": {
+      "avg_stance_score": 0.77,
+      "support_count": 11,
+      "neutral_count": 1,
+      "challenge_count": 1
+    },
+    "T04": {
+      "avg_stance_score": 0.85,
+      "support_count": 12,
+      "neutral_count": 0,
+      "challenge_count": 1
+    },
+    "T05": {
+      "avg_stance_score": 0.69,
+      "support_count": 10,
+      "neutral_count": 2,
+      "challenge_count": 1
+    },
+    "T06": {
+      "avg_stance_score": 0.62,
+      "support_count": 9,
+      "neutral_count": 3,
+      "challenge_count": 1
+    },
+    "T07": {
+      "avg_stance_score": 0.69,
+      "support_count": 9,
+      "neutral_count": 4,
+      "challenge_count": 0
+    },
+    "T08": {
+      "avg_stance_score": 0.69,
+      "support_count": 10,
+      "neutral_count": 2,
+      "challenge_count": 1
+    },
+    "T09": {
+      "avg_stance_score": 0.62,
+      "support_count": 9,
+      "neutral_count": 3,
+      "challenge_count": 1
+    },
+    "T10": {
+      "avg_stance_score": 0.62,
+      "support_count": 9,
+      "neutral_count": 3,
+      "challenge_count": 1
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "margin of safety 측면 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Wide moat: wide moat + 자본 규율 결합 시 lean_bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "워런 버핏: valuation discipline 핵심 — Berkshire 본인 행동이 thesis 직접 증거 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.612
+        },
+        {
+          "claim_id": "T02",
+          "stance": "challenge",
+          "rationale": "워런 버핏: narrative 추세 cycle 예측은 'too hard pile' — Buffett은 timing 예측 거부 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.468
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "워런 버핏: 고금리 환경에서 cash 가치 ↑ — Berkshire 단기국채 deployment 자체가 thesis 검증 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "워런 버핏: Berkshire 본인 capital return discipline — thesis가 Buffett 철학 직접 표현 — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.662
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "워런 버핏: wide moat 적용 — 신규 광산 10년+ 진입장벽 = undisruptable supply moat — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "워런 버핏: 'be greedy when others fearful' — 시장 mispricing 자체가 alpha source — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.518
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "워런 버핏: commodity cyclical 어려움 — copper 미래 가격 예측 불가, see 'too hard pile' — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.396
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "워런 버핏: Buffett의 'Bank business' love + insurance float + capital return = perfect fit — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.662
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "워런 버핏: valuation discipline — 고금리 시대 PER 재조정은 mathematically certain — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "워런 버핏: Buffett 본인 thesis — Berkshire 현금 보유가 valuation 신호 자체 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.684
+        }
+      ],
+      "philosophy_summary": "Wide moat + 정량(margin of safety) + owner earnings. 'Be greedy when others are fearful'"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.74,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "mental model 적용 시 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Lollapalooza effect: lollapalooza effect 발생 가능 lean_bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "찰리 멍거: mental model: 평균회귀는 강력한 mental force — invert 사고로 thesis 인정 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.607
+        },
+        {
+          "claim_id": "T02",
+          "stance": "challenge",
+          "rationale": "찰리 멍거: 'I don't know where the puck is going' — chart overlay 통한 timing call 거부 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.503
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "찰리 멍거: mental model: '잘 작동하지 않는 것은 결국 작동 안 함' — 재정적자 + QT 동시 발생은 mathematically unsustainable — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.592
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "찰리 멍거: great business + fair price + capital return = trinity. 메리츠 case 적합 — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.651
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "찰리 멍거: mental model — capital discipline post-2014 trauma = 'lessons learned' great management — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.577
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "찰리 멍거: lollapalooza — mental model + 자본 규율 + 구조적 수요 = sufficient conditions — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.555
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: wide moat 측면 약함 — copper miner는 fungible commodity — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.429
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "찰리 멍거: great business at fair price — 메리츠 ROE 25% + PER 6.2x = lollapalooza — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.666
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "찰리 멍거: invert mental model — 'low rate PER이 영속한다' 가정 무너짐 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.592
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "찰리 멍거: Munger 본인이 Buffett의 cash discipline 동행 — 동일 mental framework — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.681
+        }
+      ],
+      "philosophy_summary": "Lollapalooza effect + mental models + great business at fair price"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "벤 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "defensive framework 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Margin of safety: asset-based value + earnings power lean_bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "벤 그레이엄: margin of safety 부재 + 음의 ERP = defensive investor framework로는 'do not enter' phase — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.616
+        },
+        {
+          "claim_id": "T02",
+          "stance": "challenge",
+          "rationale": "벤 그레이엄: speculative behavior — '시기 예측은 투기, valuation 분석이 투자' — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.504
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "벤 그레이엄: defensive investor 측면 — 10년물 5% 환경에서 채권/equity allocation 재조정 필요 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.595
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "벤 그레이엄: defensive investor framework — 안정적 배당 + 자사주매입 = capital preservation — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.595
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "벤 그레이엄: asset-based valuation — 광산 PER 6-15x + asset backed by physical mineral reserve = margin of safety — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.574
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "벤 그레이엄: Mr. Market — 광기와 비관 cycle을 이용하는 framework = thesis 정렬 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "벤 그레이엄: asset value — copper miner는 reserve value backed = margin of safety — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.504
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "벤 그레이엄: asset-based + earnings power = margin of safety 풍부 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.595
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "벤 그레이엄: defensive investor framework — high PER 환경 reduction 필요 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.595
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "벤 그레이엄: defensive investor — Buffett의 cash 보유는 Graham framework 직접 표현 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.616
+        }
+      ],
+      "philosophy_summary": "Margin of safety + asset-based value + defensive investor framework"
+    },
+    "mohnish-pabrai": {
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "Few bets 적용 시 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Few bets · big bets · infrequent bets: high-conviction concentrated bet 가치 bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Few bets framework — 광기 phase에서는 대부분 cash hold = Buffett 자세 모방 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.663
+        },
+        {
+          "claim_id": "T02",
+          "stance": "challenge",
+          "rationale": "모니시 파브라이: Few bets 원칙 — 'AI 강세장 timing' bet은 high uncertainty/low conviction — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.552
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "모니시 파브라이: concentration framework — 고금리 환경 sector winners (commodity·financial) bias — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.663
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Few bets — 자사주매입 통한 EPS 성장은 mathematically certain compounding — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.748
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Few bets — 광업 31% 마진 + 13F gurus convergence = high-conviction bet — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.722
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "모니시 파브라이: high conviction bet — 시장 인식 lag = window of opportunity — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.697
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "모니시 파브라이: structural demand + supply gap = high conviction bet 자격 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.637
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Few bets — 메리츠 같은 한국 financial 압축 베팅이 Pabrai framework 적합 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.748
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Few bets — 광기 sector 회피 + value sector 집중 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.663
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "모니시 파브라이: Pabrai의 'cash is king in waiting' 철학 — Berkshire 동일 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.722
+        }
+      ],
+      "philosophy_summary": "Few bets · big bets · infrequent bets — Heads I win, tails I don't lose much"
+    },
+    "michael-burry": {
+      "verdict": "bullish",
+      "confidence": 0.82,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "numbers vs narrative 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Numbers vs narrative: deep value contrarian alpha source bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "마이클 버리: numbers vs narrative — CAPE 42 + 음의 ERP는 narrative-driven bubble의 수치적 증거 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.738
+        },
+        {
+          "claim_id": "T02",
+          "stance": "challenge",
+          "rationale": "마이클 버리: 차트 overlay는 narrative engineering — historical pattern matching은 cherry-picked — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "마이클 버리: fiscal dominance + 부채 wall은 numbers vs narrative의 numbers 측 — narrative 'low rates forever' 붕괴 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.722
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "마이클 버리: numbers — buyback/배당은 narrative 의존 없는 capital return = deep value alignment — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.672
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "마이클 버리: deep value contrarian core — 시장이 cyclical로 잘못 평가 + 실제는 structural = Burry-perfect setup — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.754
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "마이클 버리: Burry trademark — Big Short, GameStop, Teva 모두 'market 인식 시차' alpha — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.754
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "마이클 버리: deep value — COPX 12x PER + 5년 +310% momentum 이미 진행 but cycle 후반 50% 추가 upside — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.672
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "마이클 버리: deep value — Korean Discount + ROE 25% = number-driven undervaluation — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.672
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "마이클 버리: numbers vs narrative — 'AI 광기' narrative 붕괴는 numbers (금리·CAPEX) driven — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.722
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "마이클 버리: numbers vs narrative — Buffett 행동이 narrative 'forever growth' 부정 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.672
+        }
+      ],
+      "philosophy_summary": "Numbers vs narrative + contrarian deep value + asymmetric payoff"
+    },
+    "peter-lynch": {
+      "verdict": "bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "GARP framework 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Invest in what you know: 10-bagger candidate quality bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "피터 린치: individual stock selection 우선 — 지수 valuation 우려보다 stockpicking opportunity — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.44
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "피터 린치: individual stock 측면 — AI 강세장 timing보다 'do they make money?' 우선 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.44
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치: individual stock 측면 — 자금조달 의존 기업 vs FCF 기업 구분 명확 driver — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.576
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피터 린치: 10-bagger candidates 중 'capital return + growth' 결합 = 가장 powerful framework — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "피터 린치: 10-bagger candidates — 자본 규율 + 가격 상승 + multiple expansion 트리플 콤보 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "피터 린치: Magellan 시절 reflection — Wall Street이 모르는 sector에서 alpha capture — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.624
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "피터 린치: industrial growth — EV/data center/grid 4-engine driver = 10-bagger candidate — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "피터 린치: compounder 10-bagger — EPS CAGR 27% + 자사주매입 = 정확한 Lynch GARP pattern — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.68
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "피터 린치: individual stock 측면 — sector multiple은 individual GARP 분석에 부차 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.44
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "피터 린치: individual stock 측면 — Buffett cash signal은 generic, individual GARP 무관 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.44
+        }
+      ],
+      "philosophy_summary": "Invest in what you know + GARP + PEG ratio + 10-bagger framework"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "scuttlebutt 측면 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Scuttlebutt research: great management + long-term holding lean_bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "필립 피셔: long-term holding은 valuation cycle 무시 — great business at any valuation — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.354
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "필립 피셔: long-term 측면에서 1-2년 cycle 거부 — 15-year horizon은 cycle 무시 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.354
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "필립 피셔: great management 측면 — 고금리 시대 capital allocation discipline 가진 management 가치 ↑ — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.476
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "필립 피셔: great management = capital allocation discipline. 메리츠 조정호 회장 평가 ↑ — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "필립 피셔: great management 검증 어려움 (commodity company는 typically generic). long-term holding 적합도 ↓ — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.374
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "필립 피셔: scuttlebutt 측면에서 이미 mining sector coverage 증가 = phase 0 아님 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.374
+        },
+        {
+          "claim_id": "T07",
+          "stance": "lean_bullish",
+          "rationale": "필립 피셔: long-term thematic — clean energy transition은 multi-decade trend — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.422
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "필립 피셔: great management — 조정호 회장 한국 best capital allocator 평가 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "필립 피셔: long-term holding은 multiple cycle 무시 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.354
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "필립 피셔: long-term holding 측면 — cash position cycle 무시 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.354
+        }
+      ],
+      "philosophy_summary": "Scuttlebutt research + great management + long-term holding (15-stocks)"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "innovation framework 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Disruptive innovation: disruption gap or risk neutral 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "challenge",
+          "rationale": "캐시 우드: CAPE 자체가 historical noise — disruptive innovation era PE는 traditional metric 무효 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.396
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드: AI 강세장은 multi-year — 1-2년 더는 conservative, exponential phase 진입 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.44
+        },
+        {
+          "claim_id": "T03",
+          "stance": "challenge",
+          "rationale": "캐시 우드: 장기 disruption은 cycle 무시 — 단기 금리 swing이 secular trend 변경하지 못함 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.341
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "캐시 우드: capital return은 stagnant company 신호 — disruptive growth 부재 — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.374
+        },
+        {
+          "claim_id": "T05",
+          "stance": "challenge",
+          "rationale": "캐시 우드: innovation 부재 — old economy mining은 disruption framework 미적용 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.396
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "캐시 우드: ARK framework — disruption alpha vs cyclical mean reversion 구분 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.341
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "캐시 우드: clean energy transition + AI infrastructure = innovation-adjacent. Wood가 직접 BHP 매수 (2026Q1) — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.429
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "캐시 우드: innovation 부재 — 전통 financial은 ARK framework 미적용 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.341
+        },
+        {
+          "claim_id": "T09",
+          "stance": "challenge",
+          "rationale": "캐시 우드: innovation premium은 multi-decade — 단기 multiple compression이 framework reset 못함 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.413
+        },
+        {
+          "claim_id": "T10",
+          "stance": "challenge",
+          "rationale": "캐시 우드: Wood는 Buffett framework 비판 — innovation cycle을 cash hoarding이 모름 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.374
+        }
+      ],
+      "philosophy_summary": "Disruptive innovation + 5-year exponential growth + winner-take-most"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.88,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "거시 cycle 측면 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Macro tailwind concentration: macro tailwind concentration bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 cycle 측면 valuation top phase 정확 인지 — macro tailwind reversal 신호 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.686
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 cycle 측면 정확 — 1998 LTCM 유형 catalyst 명확 인지 + position sizing 활용 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.748
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 main thesis — 금리 cycle 변화는 macro investor의 핵심 alpha source — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.81
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 고금리 환경 적합 sector — financial/commodity bias 정확 — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 main thesis — Druckenmiller 2026Q1 NEM/GOLD/AEM 매수가 thesis 직접 증거 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.836
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 테바 case가 Druckenmiller 본인 framework — 동일 패턴 광업주 인지 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.774
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 thesis — 1970s 동급 commodity cycle 시나리오 base case — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.836
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러: 거시 측면 한국 financial cycle은 EM cycle 의존 — secondary thesis — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.528
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 thesis — multiple compression이 sector rotation main driver — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.722
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 거시 측면 동일 인식 — Druckenmiller도 cash 비중 ↑ (Duquesne Family Office) — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.686
+        }
+      ],
+      "philosophy_summary": "Macro tailwind concentration + 'Pigs get fed, hogs get slaughtered'"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.74,
+      "horizon": "medium_term",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "DCF discipline 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Story: story + numbers 결합 lean_bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: DCF discipline — 음의 ERP는 mathematically unsustainable → mean reversion 임박 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.629
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "애스워스 다모다란: narrative valuation은 'cycle middle' phase — fair value 산정 어려움 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.407
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: DCF discount rate 변화 = valuation framework reset — 모든 자산 re-pricing 필요 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.651
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: FCF yield 측면에서 capital return 기업 valuation 매력적 — 고금리 환경 적합 — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.577
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: DCF — 광산 5-10년 FCF projection + structural demand = NPV justified at current price — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.577
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "애스워스 다모다란: valuation gap 측면 — 일부 closed, 일부 open. averaged 모호 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.407
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: structural demand + 10년 supply gap = DCF 모델 매력적 economics — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.555
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: DCF — ROE 25% × payout 80% = explicit value compounding model — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.592
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: Damodaran 본인 framework — discount rate 변화 = 모든 자산 재평가 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.681
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: DCF 모델 — Berkshire의 cash deploy optionality는 NAV에 추가 가치 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.555
+        }
+      ],
+      "philosophy_summary": "Story + numbers + DCF discipline + corporate finance toolkit"
+    },
+    "nassim-taleb": {
+      "verdict": "bullish",
+      "confidence": 0.82,
+      "horizon": "long_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "antifragility 측면 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Antifragility: barbell strategy 적합도 bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "나심 탈레브: fat-tail risk — CAPE 42 phase는 좌측 tail probability 비대칭 ↑ — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.672
+        },
+        {
+          "claim_id": "T02",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: chart overlay는 fragile prediction — survivorship bias + cherry-picked starting points — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "나심 탈레브: tail risk — 5% 10Y 환경에서 leveraged entity (PE fund·CRE·SPAC) fragility 가시화 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.697
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "나심 탈레브: 안정적 cashflow = antifragile 속성 — 위기 환경에서 robust — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "나심 탈레브: antifragile property — 인플레/지정학 위기에서 광물 가격 ↑ = barbell strategy 적합 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.697
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "나심 탈레브: asymmetric payoff — downside limited (cyclical valuation 진입), upside large (structural realization) — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.615
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "나심 탈레브: antifragile — supply disruption (mine accidents, geopolitical) 시 copper price 급등 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T08",
+          "stance": "lean_bullish",
+          "rationale": "나심 탈레브: Korean banking은 한국 부동산 PF tail risk 노출 — 단 메리츠 직접 노출 limited — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.508
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "나심 탈레브: fat-tail — multiple compression 시 leveraged entity systemic risk 발현 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "나심 탈레브: antifragile — cash이 위기에 최강 antifragile 자산 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.697
+        }
+      ],
+      "philosophy_summary": "Antifragility + black swan hedging + barbell strategy (90% safe + 10% asymmetric)"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "EM 성장 측면 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Big Bull of India: global growth + concentrate lean_bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: EM 관점 — 미국 CAPE 우려가 인도/이머징 시장 valuation 직접 영향 X — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.413
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 신흥시장 성장 cycle 연속성 — AI 인프라 spending이 글로벌 GDP 견인 base case — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.488
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 인도 시장 영향 partial — 인도 채권 금리 6.8%로 separate dynamic — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.413
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 인도 capital return 기업 (TCS, Infosys) 동일 framework 검증 — 글로벌 적용 가능 — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.585
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 인도 광업 (Vedanta, Coal India)도 동일 trajectory — 글로벌 정렬 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.562
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 인도 PSU 광업 (Coal India, NMDC)도 동일 시차 alpha 가능 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: EM 측면 — 인도 copper 수입 의존 → 글로벌 copper bullish 직접 노출 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.615
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: EM financial growth — 메리츠는 인도 HDFC Bank 유사 trajectory — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.615
+        },
+        {
+          "claim_id": "T09",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: 인도 시장 separate cycle — US multiple compression 영향 partial — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.435
+        },
+        {
+          "claim_id": "T10",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라: EM 측면 — 미국 Buffett signal이 인도 시장 적용 부분적 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.45
+        }
+      ],
+      "philosophy_summary": "Big Bull of India — growth EM + long-term concentrate + 'be greedy when fearful'"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크만",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] Canada 집중 (탄소 규제 강화 위험)",
+        "[inference] 가격 premium 일부 이미 반영 (PER 14.5x)",
+        "[actual] FY25 production guidance lowered 2026-04 (Detour Lake issues)"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 28% (gold miner 1위)",
+        "[inference] Canada 정치 안정성 = supply security premium",
+        "[actual] Special dividend 가능성 (2026Q1 발표)"
+      ],
+      "uncertainty": "activist 측면 평가에서 Agnico Eagle Mines의 cyclical commodity exposure 자체가 inherent uncertainty",
+      "narrative_vs_quant_resolution": "Concentrated activist: quality compounder + catalyst lean_bullish 결론 — Agnico Eagle Mines의 mining cycle 현 phase 평가가 결정적",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "빌 애크만: concentrated portfolio — 지수 level 우려보다 individual mispricing 우선 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Berkshire-like quality + capital discipline = CAPE 평균회귀 시 robust",
+          "confidence": 0.422
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "빌 애크만: individual quality compounder 측면 — AI cycle timing 추적 부차 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 AI cycle 무관 sustained — barbell strategy 적합",
+          "confidence": 0.394
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "빌 애크만: 고금리 환경에서 quality compounder (FCF, low leverage) outperform — Ackman 포트폴리오 thesis 정렬 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner는 고금리 환경 outperform — FCF discipline",
+          "confidence": 0.51
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "빌 애크만: Ackman activist 본질 — capital return을 통한 EPS 가속 = 메리츠 자체 사례 — 본 종목(AEM Agnico Eagle Mines) 적용 시 FCF discipline + capital return = 메리츠 동급 quality",
+          "confidence": 0.578
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "빌 애크만: 광업은 commodity-driven, individual company quality compounder 어려움 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Premium gold miner = quality leverage to thesis",
+          "confidence": 0.374
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "빌 애크만: activist 측면 individual company quality 우선 — sector alpha 추구 weak — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality premium 이미 일부 반영 but additional re-rating 가능",
+          "confidence": 0.394
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "빌 애크만: individual company quality 어려움 — COPX는 ETF, individual miner 분석 부담 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Pure gold play — copper exposure 거의 없음",
+          "confidence": 0.374
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "빌 애크만: Ackman portfolio thesis — capital return + EPS acceleration 정렬 — 본 종목(AEM Agnico Eagle Mines) 적용 시 Korean financial 무관",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T09",
+          "stance": "support",
+          "rationale": "빌 애크만: quality compounder bias — multiple compression 시 quality vs growth gap 확대 = Ackman 포트폴리오 정렬 — 본 종목(AEM Agnico Eagle Mines) 적용 시 PER 14.5x = sector 평균보다 약간 높음 but 광산주 평균 내",
+          "confidence": 0.49
+        },
+        {
+          "claim_id": "T10",
+          "stance": "support",
+          "rationale": "빌 애크만: Ackman 본인도 cash hoarding 시기 적용 — 2023 Treasury 대규모 매수 (Bobtail 헷지) — 본 종목(AEM Agnico Eagle Mines) 적용 시 Quality miner + dividend = Buffett framework 적합도 ↑",
+          "confidence": 0.49
+        }
+      ],
+      "philosophy_summary": "Concentrated activist + quality compounders + intrinsic value + catalyst-driven"
+    }
+  }
+}

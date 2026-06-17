@@ -1,0 +1,100 @@
+{
+  "computed_at": "2026-06-17T12:00:37.633567+09:00",
+  "start_cash": 100000000.0,
+  "start_date": "2026-06-16",
+  "end_date": "2026-06-16",
+  "n_decisions": 5,
+  "total_trades": 4,
+  "total_buy_value": 26614400.0,
+  "total_sell_value": 0.0,
+  "final_cash": 73385600.0,
+  "end_positions_value": 25936000.0,
+  "final_nav": 99321600.0,
+  "total_return_pct": -0.678,
+  "final_positions": {
+    "000270.KS": {
+      "qty": 32,
+      "avg_cost": 170200.0,
+      "last_price": 168000.0,
+      "market_value": 5376000.0,
+      "unrealized_pnl": -70400.0,
+      "unrealized_return_pct": -1.29
+    },
+    "005380.KS": {
+      "qty": 8,
+      "avg_cost": 640000.0,
+      "last_price": 621000.0,
+      "market_value": 4968000.0,
+      "unrealized_pnl": -152000.0,
+      "unrealized_return_pct": -2.97
+    },
+    "005930.KS": {
+      "qty": 16,
+      "avg_cost": 343000.0,
+      "last_price": 336500.0,
+      "market_value": 5384000.0,
+      "unrealized_pnl": -104000.0,
+      "unrealized_return_pct": -1.9
+    },
+    "012330.KS": {
+      "qty": 16,
+      "avg_cost": 660000.0,
+      "last_price": 638000.0,
+      "market_value": 10208000.0,
+      "unrealized_pnl": -352000.0,
+      "unrealized_return_pct": -3.33
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-06-16",
+      "ticker": "000270.KS",
+      "action": "buy",
+      "qty": 32,
+      "price": 170200.0,
+      "cost": 5446400.0,
+      "cash_after": 94553600.0
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "005380.KS",
+      "action": "buy",
+      "qty": 8,
+      "price": 640000.0,
+      "cost": 5120000.0,
+      "cash_after": 89433600.0
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "005930.KS",
+      "action": "buy",
+      "qty": 16,
+      "price": 343000.0,
+      "cost": 5488000.0,
+      "cash_after": 83945600.0
+    },
+    {
+      "date": "2026-06-16",
+      "ticker": "012330.KS",
+      "action": "buy",
+      "qty": 16,
+      "price": 660000.0,
+      "cost": 10560000.0,
+      "cash_after": 73385600.0
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": 8735.83,
+      "end_price": 8735.83,
+      "return_pct": 0.0,
+      "alpha_pct": -0.678
+    },
+    "SPY": {
+      "start_price": 750.33,
+      "end_price": 750.33,
+      "return_pct": 0.0,
+      "alpha_pct": -0.678
+    }
+  }
+}

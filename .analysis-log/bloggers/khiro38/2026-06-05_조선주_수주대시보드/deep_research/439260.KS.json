@@ -1,0 +1,211 @@
+{
+  "industry": {
+    "name": "중형 조선 — 탱커(수에즈막스·아프라막스) 특화",
+    "overview": "대한조선은 2025-08-01 코스피 상장한 중형 조선사로, 수에즈막스·아프라막스 원유운반선에 특화해 세계 수에즈막스 시장 점유율 1위다. 탱커(아프라막스·수에즈막스 셔틀) 비중 87.69%·정유운반선 11.60%로 선종이 집중됐다. 2025 영업이익률 23.9%로 조선주 중 최고 수익성을 기록했고(2024 고선가 물량의 매출 인식 시작), 2026 누적 13척으로 연간 수주목표를 조기 초과 달성. fwd PE 8×로 '조선주 중 가장 저평가'(증권가)되나, 단일 선종 집중·소형주 변동성이 리스크.",
+    "competitors": [
+      {
+        "name": "현대삼호중공업(HD)",
+        "ticker": null,
+        "share_pct": null,
+        "moat": "중대형 탱커·LNG (HD현대 계열)"
+      },
+      {
+        "name": "삼성중공업",
+        "ticker": "010140.KS",
+        "share_pct": null,
+        "moat": "대형 탱커·LNG·해양"
+      },
+      {
+        "name": "K조선 중형사(케이조선 등)",
+        "ticker": null,
+        "share_pct": null,
+        "moat": "MR·중형 탱커 경쟁"
+      },
+      {
+        "name": "중국 중형 조선소",
+        "ticker": null,
+        "share_pct": null,
+        "moat": "가격 경쟁(탱커 진입장벽 상대적 낮음)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-01-14",
+        "title": "대한조선, 수에즈막스 원유운반선 2척 2,520억 수주",
+        "source": "asiae.co.kr (아시아경제)",
+        "summary": "수에즈막스 점유 1위 강화",
+        "impact": "+"
+      },
+      {
+        "date": "2026-Q2",
+        "title": "2분기 수에즈막스 탱커 추가 수주 — 누적 13척 조기 목표초과",
+        "source": "insightkorea.co.kr",
+        "summary": "선별 수주로 고선가 확보",
+        "impact": "+"
+      },
+      {
+        "date": "2026",
+        "title": "조선주 중 가장 저평가…고선가 수주 반영·목표가↑",
+        "source": "dailyinvest.kr / 다음",
+        "summary": "2024 고선가 물량 매출 인식, 수에즈막스 평균선가 $8,800만 전망",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "기취득 자기주식 437,582주 소각 결정",
+        "source": "news.nate.com",
+        "summary": "주주환원 — 발행주식수 감소",
+        "impact": "+"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-05) — 연결 K-IFRS",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.69,
+        "op_income": null,
+        "net_income": -0.01,
+        "op_margin": 0.5,
+        "net_margin": -1.5
+      },
+      {
+        "year": 2023,
+        "revenue": 0.82,
+        "op_income": 0.04,
+        "net_income": 0.04,
+        "op_margin": 4.5,
+        "net_margin": 4.7
+      },
+      {
+        "year": 2024,
+        "revenue": 1.08,
+        "op_income": 0.16,
+        "net_income": 0.17,
+        "op_margin": 14.7,
+        "net_margin": 16.1
+      },
+      {
+        "year": 2025,
+        "revenue": 1.23,
+        "op_income": 0.29,
+        "net_income": 0.25,
+        "op_margin": 23.9,
+        "net_margin": 20.3
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.69조 → 2025 ₩1.23조로 +78% 성장, 영업이익률은 2022 +0.5% → 2023 +4.5% → 2024 +14.7% → 2025 +23.9%로 가파르게 상승 — 2024 수주한 고선가 탱커 물량의 매출 인식이 마진을 끌어올렸다. 조선주 중 최고 OPM. 다만 상장 1년 미만으로 시계열이 짧고 단일 선종(탱커)에 집중돼 탱커 cycle 의존도가 높다.",
+    "valuation_summary": "Forward PE 8.03× (yfinance live) — 조선주 중 최저, 증권가 '가장 저평가'. 현재가 ₩60,000 / 1Y N/A(상장 1년 미만) / 연변동성 64%(높음). OPM 23.9%·점유 1위 대비 멀티플 디스카운트 — re-rating 여지이나 사이클 피크 우려도 공존."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.42,
+      "description": "탱커 강세 지속 + 2024 고선가 물량 매출 본격 인식 + 수에즈막스 평균선가 $8,800만 반영으로 OPM 고공행진. 저평가 해소 re-rating.",
+      "key_drivers": [
+        "탱커 강세",
+        "고선가 매출 인식",
+        "선가 $8,800만"
+      ]
+    },
+    "base": {
+      "probability": 0.38,
+      "description": "수에즈막스 선별 수주로 고마진 유지, 단일 선종 집중에 따른 변동성 내재. PE 8×에서 실적이 멀티플을 정당화.",
+      "key_drivers": [
+        "선별 수주",
+        "고마진 유지",
+        "탱커 cycle"
+      ]
+    },
+    "bear": {
+      "probability": 0.2,
+      "description": "탱커 운임·유가 약세로 발주 둔화 + 소형주 변동성 + 사이클 피크 우려로 조정. 단일 선종 리스크 현실화.",
+      "key_drivers": [
+        "탱커 발주 둔화",
+        "사이클 피크",
+        "소형주 변동성"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "name": "수에즈막스 추가 수주",
+      "impact": "high",
+      "description": "점유 1위·고선가 수주 지속 여부"
+    },
+    {
+      "date": "2026-분기",
+      "name": "고선가 물량 매출 인식·OPM",
+      "impact": "high",
+      "description": "2024 고선가 탱커 마진 반영"
+    },
+    {
+      "date": "2026-2H",
+      "name": "자사주 소각·주주환원",
+      "impact": "medium",
+      "description": "EPS 개선·주주환원 확대"
+    }
+  ],
+  "risks": [
+    {
+      "name": "단일 선종(탱커) 집중",
+      "probability": "high",
+      "impact": "high",
+      "description": "탱커 비중 87.69% — 탱커 cycle 의존도 과다"
+    },
+    {
+      "name": "사이클 피크·저PE value trap",
+      "probability": "medium",
+      "impact": "high",
+      "description": "PE 8×는 시장의 peak-earnings 우려 반영일 수 있음"
+    },
+    {
+      "name": "초고변동성·소형주",
+      "probability": "high",
+      "impact": "medium",
+      "description": "vol 64%·상장 1년 미만 — 포지션 한도 축소 필요"
+    },
+    {
+      "name": "데이터 시계열 짧음",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "상장<1년 — 1Y 수익률·장기 추세 미확보"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T07",
+      "claim": "탱커 강세 → 중형특화 수혜",
+      "current_status": "confirmed",
+      "evidence": "수에즈막스 점유 1위·OPM 23.9%"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "저평가(PE 8×)",
+      "current_status": "confirmed",
+      "evidence": "증권가 '조선주 중 가장 저평가'"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "고선가→마진 개선",
+      "current_status": "confirmed",
+      "evidence": "2024 고선가 물량 인식 OPM 23.9%"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-28",
+      "type": "자기주식소각결정",
+      "summary": "기취득 자기주식 보통주 437,582주 소각",
+      "title": "자기주식 437,582주 소각 결정"
+    },
+    {
+      "date": "2026-01-14",
+      "type": "단일판매·공급계약체결",
+      "summary": "수에즈막스 원유운반선 2척 2,520억원",
+      "title": "수에즈막스 2척 2,520억 수주"
+    }
+  ]
+}

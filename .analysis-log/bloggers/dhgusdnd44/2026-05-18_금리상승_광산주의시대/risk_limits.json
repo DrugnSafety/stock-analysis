@@ -1,0 +1,116 @@
+{
+  "as_of_date": "2026-05-18",
+  "portfolio_value_usd": 1000000,
+  "portfolio_value_krw": 1400000000,
+  "methodology": "ai-hedge-fund risk_manager pattern — 60-day rolling annualized volatility 기반 multiplier (저변동성 1.25× / 정상 1.0× / 고변동성 0.75× / 극고변동성 0.5×) × 활성 포지션과의 상관관계 multiplier (저상관 1.0× / 고상관 0.7×). Base portfolio limit 10% per position.",
+  "limits": [
+    {
+      "ticker": "GDX",
+      "name": "VanEck 금광주 ETF",
+      "as_of_date": "2026-05-18",
+      "volatility_metrics": {
+        "annualized_volatility": 0.355,
+        "category": "normal",
+        "source": "yfinance 60d rolling, 2026-05 fetch"
+      },
+      "vol_multiplier": 1.0,
+      "correlation_multiplier": 0.8,
+      "correlation_notes": "NEM·AEM과 0.75 correlation, COPX와 0.55, 138040.KS와 0.10 — gold miner sub-portfolio overlap",
+      "combined_limit_pct": 0.08,
+      "position_limit_value": 80000,
+      "max_quantity": 920,
+      "rationale": "ETF 분산 효과로 vol normal 분류. 단 NEM/AEM과 strong overlap으로 correlation discount 적용. 8% 한도 (vs base 10%)."
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont Corporation",
+      "as_of_date": "2026-05-18",
+      "volatility_metrics": {
+        "annualized_volatility": 0.42,
+        "category": "elevated",
+        "source": "yfinance 60d rolling"
+      },
+      "vol_multiplier": 0.85,
+      "correlation_multiplier": 0.75,
+      "correlation_notes": "GDX와 0.85 correlation (NEM은 GDX top holding 14%), AEM과 0.78 — gold miner sub-cluster",
+      "combined_limit_pct": 0.064,
+      "position_limit_value": 64000,
+      "max_quantity": 582,
+      "rationale": "Single name vol 42% + GDX와 강한 correlation. Cluster level position size 제한 필요. 6.4% 한도."
+    },
+    {
+      "ticker": "AEM",
+      "name": "Agnico Eagle Mines",
+      "as_of_date": "2026-05-18",
+      "volatility_metrics": {
+        "annualized_volatility": 0.395,
+        "category": "elevated",
+        "source": "yfinance 60d rolling"
+      },
+      "vol_multiplier": 0.85,
+      "correlation_multiplier": 0.75,
+      "correlation_notes": "NEM과 0.78, GDX와 0.82 — gold miner cluster 일원",
+      "combined_limit_pct": 0.064,
+      "position_limit_value": 64000,
+      "max_quantity": 358,
+      "rationale": "NEM과 동급 vol + cluster overlap. Premium quality miner (FCF margin 28%)로 sub-position 가치 — 6.4% 한도."
+    },
+    {
+      "ticker": "COPX",
+      "name": "Global X 구리광주 ETF",
+      "as_of_date": "2026-05-18",
+      "volatility_metrics": {
+        "annualized_volatility": 0.385,
+        "category": "elevated",
+        "source": "yfinance 60d rolling"
+      },
+      "vol_multiplier": 0.85,
+      "correlation_multiplier": 0.9,
+      "correlation_notes": "GDX와 0.55 (mining sector 일반 correlation), 138040.KS와 0.20 — diversification value 큼",
+      "combined_limit_pct": 0.077,
+      "position_limit_value": 77000,
+      "max_quantity": 940,
+      "rationale": "Mining cluster sub-diversifier (copper ≠ gold cycle). 7.7% 한도."
+    },
+    {
+      "ticker": "138040.KS",
+      "name": "메리츠금융지주",
+      "as_of_date": "2026-05-18",
+      "volatility_metrics": {
+        "annualized_volatility": 0.305,
+        "category": "low",
+        "source": "yfinance 60d rolling"
+      },
+      "vol_multiplier": 1.1,
+      "correlation_multiplier": 1.0,
+      "correlation_notes": "Mining sector와 0.10 미만 correlation — strong diversification value",
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000,
+      "max_quantity": 1450,
+      "rationale": "저변동성 + uncorrelated = volatility premium upgrade 1.1× + 분산 효과. 11% 한도 (vs base 10%)."
+    }
+  ],
+  "cluster_limits": {
+    "gold_mining_cluster": {
+      "members": ["GDX", "NEM", "AEM"],
+      "total_cluster_limit_pct": 0.15,
+      "rationale": "Gold miner sub-portfolio 전체로 15% 한도 — single commodity cycle 노출 제한"
+    },
+    "mining_sector_total": {
+      "members": ["GDX", "NEM", "AEM", "COPX"],
+      "total_cluster_limit_pct": 0.22,
+      "rationale": "광업 sector 전체 22% 한도 — 산업분석러 thesis main bet allocation"
+    },
+    "korean_financial": {
+      "members": ["138040.KS"],
+      "total_cluster_limit_pct": 0.11,
+      "rationale": "Korean financial single-name diversifier"
+    }
+  },
+  "portfolio_volatility_check": {
+    "weighted_avg_vol_target": 0.35,
+    "max_drawdown_p95_target": -0.18,
+    "stress_test_2020_covid": "광산주 -35% / 메리츠 -25% / 포트폴리오 NAV -22%",
+    "stress_test_2022_rate_shock": "광산주 -25% (initial) → +30% recovery / 메리츠 +20% / 포트폴리오 NAV +5%"
+  }
+}

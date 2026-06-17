@@ -1,0 +1,22 @@
+{
+  "decisions": [
+    {
+      "ticker": "005930.KS",
+      "company_kr": "삼성전자",
+      "verdict": "lean_bullish_with_caveats",
+      "signal_score": 0.62,
+      "action": "BUY (partial position)",
+      "quantity_recommend": "포트폴리오의 4~5% 신규 진입, 추가 매수는 PB < 1.3에서",
+      "horizon": "medium_term (6~12개월)",
+      "rationale": "메모리 supercycle 진입 + Foundry 회복 + 자사주 매입 + 환율 수혜 + Forward PE 5.94 (deep value)가 bullish driver. 다만 DCF -58% downside는 메모리 cyclic peak 우려 반영 — normalize EPS 기반 valuation 필요. Counter risk: HBM 단가 하락 / Foundry 양산 지연",
+      "based_on": "thesis_list (12개) + quant_anchor + market_data",
+      "generated_at": "2026-05-30T01:17:23Z"
+    }
+  ],
+  "summary": {
+    "n_decisions": 1,
+    "bullish_count": 1,
+    "bearish_count": 0,
+    "neutral_count": 0
+  }
+}

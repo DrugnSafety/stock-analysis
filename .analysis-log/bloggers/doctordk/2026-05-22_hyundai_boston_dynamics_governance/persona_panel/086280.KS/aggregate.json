@@ -1,0 +1,236 @@
+{
+  "ticker": "086280.KS",
+  "name": "현대글로비스",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    }
+  },
+  "average_confidence": 0.536,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (3/4)"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "antifragile": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro-growth": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation-academic": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "consensus_verdict": "neutral",
+  "consensus_strength": "8/13",
+  "universal_concerns": [
+    {
+      "theme": "BD IPO timing 불확실성 (2026.06 ± 6M)",
+      "frequency": 13,
+      "examples": [
+        "BD IPO timing 불확실성 (2026.06 ± 6M)"
+      ]
+    },
+    {
+      "theme": "HMGMA Atlas 실증 데이터 공개 timing",
+      "frequency": 12,
+      "examples": [
+        "HMGMA Atlas 실증 데이터 공개 timing"
+      ]
+    },
+    {
+      "theme": "Physical AI sector multiple sustainability",
+      "frequency": 11,
+      "examples": [
+        "Physical AI sector multiple sustainability"
+      ]
+    }
+  ],
+  "unique_alpha": [
+    {
+      "insight": "BD humanoid logistics long optionality (Lynch·Ackman 부분 동의)"
+    }
+  ],
+  "evaluated_at": "2026-05-22T17:30:00+09:00",
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "style": "value"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "style": "value"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "style": "growth"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "medium_term",
+      "style": "growth"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "style": "value-contrarian"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "style": "antifragile"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "style": "value"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "style": "activist"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "style": "value"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "style": "growth"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "style": "growth"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "style": "macro-growth"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "style": "valuation-academic"
+    }
+  }
+}

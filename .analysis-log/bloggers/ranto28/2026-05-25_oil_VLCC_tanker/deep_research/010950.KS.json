@@ -1,0 +1,234 @@
+{
+  "ticker": "010950.KS",
+  "name": "S-Oil",
+  "current_price": 109000.0,
+  "currency": "KRW",
+  "industry": {
+    "name": "한국 정유산업 — Mid-Cycle Margin Pressure",
+    "overview": "한국 정유산업은 SK이노베이션·S-Oil·HD현대오일뱅크·GS칼텍스 4사가 시장의 80%+ 점유. 1990-2010년대에 수조원 규모로 투자된 RHDS (잔사유 탈황) + RFCC (잔사유 분해) 고도화 설비가 사우디·이라크·UAE 중질유 (API 28-31) 처리에 최적화되어 있음. 2026년 호르무즈해협 봉쇄 + 미국산 경질유 수입 비중 확대로 mix shift 발생 — 10만 배럴당 $50만 마진 격차 (메르 추정) + 황 부산물 90% 감소 → 화학 공급망에 cascading impact. 산업통상부 장관이 국회에서 '경질유 처리 설비 전환 지원 방안 모색' 답변 — 정부 보조금 도입 가능성. 장기적으로 정유사 capex burden + 다운스트림 (석유화학·배터리) 다변화 압박.",
+    "competitors": [
+      {
+        "name": "S-Oil",
+        "ticker": "010950.KS",
+        "share_pct": 16,
+        "moat": "Aramco 63% backed, RHDS·RFCC 비중 한국 최고, RUC/ODC capex 진행"
+      },
+      {
+        "name": "SK이노베이션",
+        "ticker": "096770.KS",
+        "share_pct": 28,
+        "moat": "정유+배터리 (SK On) 수직계열, 다변화 우위"
+      },
+      {
+        "name": "HD현대오일뱅크 (non-listed)",
+        "ticker": "n/a",
+        "share_pct": 18,
+        "moat": "HD현대 group, 정유+윤활기유 통합"
+      },
+      {
+        "name": "GS칼텍스 (non-listed)",
+        "ticker": "n/a",
+        "share_pct": 20,
+        "moat": "GS Holdings + Chevron JV"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-24",
+        "title": "한국 4월 원유수입량 -23% YoY, 중동 비중 65%→55% (메르 인용)",
+        "source": "KITA K-stat",
+        "summary": "수입처 다변화 가속"
+      },
+      {
+        "date": "2026-05-12",
+        "title": "산업통상부 장관 \"경질유 처리 설비 전환 지원 검토\" 국회 답변",
+        "source": "산업통상부",
+        "summary": "정부 보조금 가능성"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "S-Oil 1Q26 영업이익 -22% YoY — 정제마진 약세 + crude mix shift",
+        "source": "S-Oil IR",
+        "summary": "수익성 압박 본격화"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 50,
+      "cagr_pct": 2.0,
+      "horizon": "2024-2030"
+    },
+    "tailwinds": [],
+    "headwinds": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 130000,
+      "thesis": "정부 설비 전환 보조금 + RUC/ODC 다운스트림 효과 + 경질유 mix 안정화",
+      "key_assumptions": [
+        "정부 보조금 $500M+",
+        "다운스트림 OPM 8%",
+        "정제마진 회복"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 105000,
+      "thesis": "현재 margin pressure 지속, 다운스트림 점진 기여",
+      "key_assumptions": [
+        "정제마진 $6/bbl",
+        "Aramco 통제 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 78000,
+      "thesis": "Mix shift + 설비전환 capex burden + Aramco 우선순위 변경",
+      "key_assumptions": [
+        "margin -30%",
+        "capex +50%",
+        "PE derate"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "정부 '경질유 처리 설비 전환 지원' 정책 발표",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "보조금 규모·timeline에 따라 sector multiple 변화"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "RUC/ODC 1차 가동 완료 → 다운스트림 매출 증가",
+      "type": "capex",
+      "expected_impact": "+",
+      "description": "PX·PE 매출 추가"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "S-Oil 2026 OPM 가이던스 발표",
+      "type": "earnings",
+      "expected_impact": "?",
+      "description": "정제마진 회복 시그널 여부"
+    }
+  ],
+  "risks": [
+    {
+      "risk": "정제마진 추가 압박",
+      "severity": "high",
+      "probability": "high",
+      "mitigation": "RUC/ODC 다운스트림 다변화",
+      "impact": "high",
+      "name": "정제마진 추가 압박",
+      "probability_label": "high",
+      "description": "정제마진 추가 압박"
+    },
+    {
+      "risk": "Aramco의 한국 시장 우선순위 변경 (e.g. 중국 선호)",
+      "severity": "high",
+      "probability": "low",
+      "mitigation": "전략적 지분 lock-up",
+      "impact": "high",
+      "name": "Aramco의 한국 시장 우선순위 변경 (e.g. 중국 선호)",
+      "description": "Aramco의 한국 시장 우선순위 변경 (e.g. 중국 선호)"
+    },
+    {
+      "risk": "설비 전환 capex burden ($2-3B 추정)",
+      "severity": "high",
+      "probability": "med",
+      "mitigation": "정부 보조금",
+      "impact": "high",
+      "name": "설비 전환 capex burden ($2-3B 추정)",
+      "probability_label": "high",
+      "description": "설비 전환 capex burden ($2-3B 추정)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T2",
+      "type": "factual",
+      "claim": "한국 정유사 설비는 중동 중질유 처리에 최적화 (RHDS 탈황·RFCC 분해)되어 있어, 미국산 경질유 비중 확대 시 고부가 제품 yield가 70%→40%로 떨어져 10만 배럴당 $50만 마진 손실이 발생한다.",
+      "evidence": "중질유 고부가 제품 yield 70% vs 경질유 40% / 수조원 투자된 RHDS·RFCC 고도화 설비",
+      "testability": "high",
+      "ticker_exposure": "--- (마진 압박 핵심)",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T3",
+      "type": "predictive",
+      "claim": "한국 정부의 비축유 스와프 제도 (해외 확보 → 비축유 내주기 → 신규 채움)가 중질유→경질유 전환의 충격을 일시적으로 흡수하고 있으며, 비축유 구성이 점진적으로 경질유로 전환될 가능성이 높다.",
+      "evidence": "정유사 \"소음이 크게 나오지 않는 것\" 관찰 / 산업통상부 장관 \"경질유 처리 설비 전환 지원 방안 모색\" 답변",
+      "testability": "high",
+      "ticker_exposure": "++ (스와프 buffer)",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T9",
+      "type": "conditional",
+      "claim": "정부가 \"경질유 처리 설비 전환 지원\" 정책을 추진하면, 향후 5~10년에 걸쳐 정유사 (SK이노베이션·S-Oil·HD현대오일뱅크·GS칼텍스) 의 대규모 자본 투자가 발생하며 EPC·설비 공급사가 수혜를 받는다.",
+      "evidence": "산업통상부 장관 국회 발언 / 기존 RHDS·RFCC 투자 규모 (수조원 단위)",
+      "testability": "high",
+      "ticker_exposure": "++ (정부 지원)",
+      "current_status": "confirmed"
+    }
+  ],
+  "pl_5y_summary": {
+    "revenue_cagr_5y": 5.0,
+    "opm_2024": 4.5,
+    "opm_2025e": 3.8,
+    "opm_2026e": 5.5,
+    "net_income_cagr": -2
+  },
+  "korean_disclosures": [
+    {
+      "date": "2026-05-15",
+      "type": "사업보고서",
+      "summary": "S-Oil 2026 1분기 보고서 — 정유·tanker industry 추세 반영",
+      "title": "S-Oil 2026 1분기 보고서 — 정유·tanker industry 추세 반영",
+      "impact": "+"
+    }
+  ],
+  "us_filings": [],
+  "generated_at": "2026-05-25",
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 27340,
+        "op_income": 1170,
+        "op_margin": 4.3,
+        "net_income": 880
+      },
+      {
+        "year": 2022,
+        "revenue": 42440,
+        "op_income": 3400,
+        "op_margin": 8.0,
+        "net_income": 2270
+      },
+      {
+        "year": 2023,
+        "revenue": 35730,
+        "op_income": 1080,
+        "op_margin": 3.0,
+        "net_income": 540
+      },
+      {
+        "year": 2024,
+        "revenue": 34530,
+        "op_income": 1550,
+        "op_margin": 4.5,
+        "net_income": 875
+      },
+      {
+        "year": 2025,
+        "revenue": 35420,
+        "op_income": 1320,
+        "op_margin": 3.7,
+        "net_income": 612
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "as_of_date": "2026-05-18",
+  "start_cash": 1000000,
+  "start_cash_currency": "USD",
+  "current_nav": 1000000,
+  "total_return_pct": 0.0,
+  "total_trades_planned": 5,
+  "current_holdings": {},
+  "planned_holdings": {
+    "GDX": {"quantity": 920, "entry_value": 80040, "entry_date": "2026-05-18"},
+    "NEM": {"quantity": 582, "entry_value": 64020, "entry_date": "2026-05-18"},
+    "AEM": {"quantity": 358, "entry_value": 64082, "entry_date": "2026-05-18"},
+    "COPX": {"quantity": 940, "entry_value": 77080, "entry_date": "2026-05-18"},
+    "138040.KS": {"quantity": 1450, "entry_value": 110000, "entry_date": "2026-05-18"}
+  },
+  "deployed_total": 395222,
+  "cash_remaining": 604778,
+  "paper_portfolio_note": "본 portfolio.json은 paper trading 시뮬레이션 — 실제 거래 X. yfinance live price 기반 sizing이며 DCA 5-tranches × 20% over 3 months 권장 진입 방식."
+}

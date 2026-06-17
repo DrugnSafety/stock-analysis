@@ -1,0 +1,56 @@
+{
+  "industry": {
+    "name": "엔터프라이즈 스토리지 (HDD·NAND/SSD)",
+    "overview": "AI 데이터센터의 폭증하는 데이터 저장 수요로 니어라인 HDD(대용량·콜드스토리지)와 엔터프라이즈 SSD가 동반 타이트. 2025년 2월 SanDisk(NAND) 분사 후 Western Digital은 HDD 중심 잔존 법인으로, 니어라인 HDD 과점(WDC·Seagate)에서 가격결정력 회복. 의교창의 'HBF 추론용 메모리' 논리에서 SK하이닉스의 공동표준 파트너(샌디스크 계열)로도 연결. $531 사상 최고가·1Y +919%로 스토리지 사이클 강세 만개.",
+    "competitors": [
+      {"name": "Western Digital", "ticker": "WDC", "share_pct": 37.0, "moat": "니어라인 HDD 과점, AI 콜드스토리지 수요 + HBF 표준 파트너"},
+      {"name": "Seagate", "ticker": "STX", "share_pct": 40.0, "moat": "HDD HAMR 기술 선도"},
+      {"name": "SanDisk", "ticker": "SNDK", "share_pct": 0.0, "moat": "WDC에서 분사한 NAND 전문(HBF 공동개발 주체)"}
+    ],
+    "news": [
+      {"date": "2026-05-29", "title": "WDC $531.18 사상 최고가, Evercore ISI 목표가 상향", "source": "stockanalysis.com/CNBC", "summary": "52주 범위 $51~$553, AI 스토리지 수요로 1Y +919%"},
+      {"date": "2026", "title": "이사회 Manuvir Das 선임 등 AI 거버넌스 강화", "source": "언론", "summary": "AI 데이터센터 스토리지 전략 강화 신호"}
+    ],
+    "market_size": {"current_usd_bn": 60.0, "cagr_pct": 10.0, "horizon": "2024-2030 (니어라인 HDD·엔터프라이즈 SSD)"}
+  },
+  "financials": {
+    "pl_5y": [
+      {"year": 2021, "revenue": 16922, "op_income": 1220, "op_margin": 7.2, "net_income": 821, "net_margin": 4.9},
+      {"year": 2022, "revenue": 18793, "op_income": 2391, "op_margin": 12.7, "net_income": 1500, "net_margin": 8.0},
+      {"year": 2023, "revenue": 12318, "op_income": -1700, "op_margin": -13.8, "net_income": -1700, "net_margin": -13.8},
+      {"year": 2024, "revenue": 13000, "op_income": 500, "op_margin": 3.8, "net_income": 300, "net_margin": 2.3},
+      {"year": "2025E", "revenue": 9500, "op_income": 1800, "op_margin": 18.9, "net_income": 1400, "net_margin": 14.7}
+    ],
+    "bs_snapshot": {"total_assets": 18000, "total_liab": 11000, "equity": 7000, "cash": 2000, "debt": 5500},
+    "cf_summary": {"ocf_5y_avg": 1500, "fcf_5y_avg": 700, "capex_intensity": 0.06},
+    "peer_compare": [
+      {"ticker": "WDC", "name": "Western Digital", "pe": 30.0, "pb": 25.4, "roe": 30.0, "div_yield": 0.4},
+      {"ticker": "STX", "name": "Seagate", "pe": 22.0, "pb": 18.0, "roe": 35.0, "div_yield": 1.5}
+    ],
+    "_note": "USD 백만달러, FY 6월 결산. 2021~2022 yfinance 실측, 2023~2024 다운/회복 근사치, 2025E는 SanDisk(NAND) 분사 후 HDD 중심 잔존 법인 추정 — 매출 규모 축소·마진 개선 반영(미확정). PB 25배는 분사 후 자본 구조 변화 영향."
+  },
+  "scenarios": {
+    "bull": {"prob_pct": 30, "target_price": 650.0, "thesis": "AI 콜드스토리지 수요로 니어라인 HDD ASP 급등 + HBF 표준 옵션, FCF 급증", "key_assumptions": ["니어라인 HDD 타이트 지속", "HAMR 양산 성공", "HBF 상업화 기여"]},
+    "base": {"prob_pct": 45, "target_price": 480.0, "thesis": "스토리지 강세 지속하나 사상 최고가·10배 상승 후 변동성 확대", "key_assumptions": ["HDD 수요 견조", "ASP 점진 상승", "사이클 정점 인접"]},
+    "bear": {"prob_pct": 25, "target_price": 300.0, "thesis": "스토리지 사이클 정점 되돌림 + NAND 가격 변동, 10배 상승 반납", "key_assumptions": ["니어라인 수요 둔화", "공급 확대", "AI capex 감속"]}
+  },
+  "catalysts": [
+    {"date": "분기 실적", "event": "니어라인 HDD ASP·출하·FCF", "type": "earnings", "expected_impact": "+", "description": "스토리지 강세 지속 확인"},
+    {"date": "2026-2027", "event": "HAMR 고용량 HDD 양산", "type": "product", "expected_impact": "+", "description": "용량당 원가 개선·점유율"},
+    {"date": "2026-2027", "event": "SK하이닉스·샌디스크 HBF 표준 진척", "type": "product", "expected_impact": "+", "description": "추론 메모리 생태계 옵션가치"},
+    {"date": "상시", "event": "사상 최고가 변동성", "type": "valuation", "expected_impact": "-", "description": "10배 상승·ATH 후 되돌림 위험"}
+  ],
+  "risks": [
+    {"name": "스토리지 사이클 정점", "probability": "med", "impact": "high", "description": "1Y +919%·ATH 후 수요 둔화 시 급락", "mitigation": "니어라인 장기계약 비중 확대"},
+    {"name": "NAND/HDD 가격 변동", "probability": "med", "impact": "med", "description": "공급 확대 시 ASP 하락", "mitigation": "기술 선도(HAMR)"},
+    {"name": "분사 후 사업 집중 리스크", "probability": "med", "impact": "med", "description": "HDD 단일 의존도 상승", "mitigation": "엔터프라이즈 SSD·HBF 파트너십"},
+    {"name": "밸류에이션 부담", "probability": "med", "impact": "med", "description": "PB 25배·ATH로 하방 민감", "mitigation": "FCF·환원으로 정당화"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "HBF 추론 메모리 생태계 파트너 (T05)", "type": "factual", "evidence": "SanDisk-SK하이닉스 HBF 공동개발(WDC 계열)", "testability": "high", "current_status": "early"},
+    {"claim": "데이터센터 폭증의 스토리지 수요 (T03)", "type": "predictive", "evidence": "AI 데이터 저장 수요 급증", "testability": "high", "current_status": "in_progress"},
+    {"claim": "메모리/스토리지 = 추론 인프라 자산 (T04)", "type": "predictive", "evidence": "니어라인 HDD·SSD 타이트", "testability": "medium", "current_status": "in_progress"},
+    {"claim": "병목 보유 기업 초과수익 (T09)", "type": "normative", "evidence": "니어라인 HDD 과점 가격결정력", "testability": "medium", "current_status": "in_progress"}
+  ],
+  "korean_disclosures": []
+}

@@ -1,0 +1,114 @@
+{
+  "summary_one_liner": "인피의 'LS 주가 조정의 이유' — 최근 LS 급락은 펀더멘털 훼손이 아니라 ① 티라유텍 단위 표기 오류(100배 오기)에서 비롯된 공시 노이즈, ② 후지쿠라발 광케이블 병목 오해, ③ AC→DC 전환 우려 + 전력 인프라 ETF 수급 이탈·메모리 자금 압축이 결합된 개별 변동성. HVDC·해저케이블·부스덕트·권선(로봇/EV) 축은 DC 전환·피지컬 AI의 수혜이며, 글로벌 피어(Prysmian·Nexans·Aurubis) ATH·30배+ PER가 섹터 피크아웃 아님을 방증. 2분기 실적이 1분기 연장선이면 조정은 과도한 흔들림으로 재해석될 가능성.",
+  "blog_meta": {
+    "blogger": "infidoc",
+    "blogger_kr": "인피의",
+    "posts": [
+      {
+        "title": "LS 주가 조정의 이유",
+        "url": "https://blog.naver.com/infidoc/224300049139",
+        "published_at": "2026-05-29",
+        "theme": "LS 급락 3대 빌미(공시 정정·광케이블 병목·DC 전환) 점검 및 펀더멘털 방어"
+      }
+    ],
+    "analysis_mode": "single"
+  },
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "이번 LS 조정의 직접 빌미였던 분기보고서 정정공시는 실제 수주 소멸이 아니라 단위 표기 오류다. 신규 편입 자회사 티라유텍이 백만원 단위로 제출한 숫자가 LS 지주사 억원 단위 합산 표에 그대로 들어가 일부 항목이 100배 크게 표기됐고, 정정으로 원상 복구됐다. LS ELECTRIC 1분기 수주총액이 2조3,782억→238억으로 정정된 것처럼 보였으나 펀더멘털 훼손은 아니다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "회사 해명: 티라유텍 신규 연결 편입, 타사는 억원·티라유텍만 백만원 단위 제출. 서울신문 보도(2026-05-29) — '238억을 2조3000억으로 잘못 적었다 정정, 이틀 연속 급락'. 정정 전후 '기타' 항목 수주총액·기납품액·수주잔고 급감처럼 표시."
+    },
+    {
+      "claim_id": "T02",
+      "claim": "회사 해명은 분기보고서 표 구조로 검증된다. LS ELECTRIC·LS메탈·LS이모빌리티솔루션·에너지솔루션·파워솔루션은 모두 억원 단위, 티라유텍만 백만원 단위로 별도 표기. 수정 전 '기타' 부문 수주잔고 15,445가 티라유텍 수주잔고(백만원)와 정확히 일치하며, 수정 후 억원 단위로 교정됐다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "분기보고서 세부 수주 상황 표 — 회사별 단위 표기 구조. 15,445백만원 = 154.45억원. 100배 오기 메커니즘이 표 구조와 정합. 회사 내부 검증 실패는 인정되나 사업 훼손 아님."
+    },
+    {
+      "claim_id": "T03",
+      "claim": "후지쿠라발 광케이블·광섬유·프리폼 병목은 통신 소재 병목으로, LS전선의 핵심 투자 포인트인 해저케이블·HVDC·초고압 지중선·AI 데이터센터 부스덕트와 생산설비·공급망 성격이 다르다. LS전선은 현재 원재료·생산 측면에서 특별한 문제 영역이 없다.",
+      "type": "factual",
+      "importance": "high",
+      "timeframe": "present",
+      "supporting_evidence": "AI 데이터센터용 광케이블 수요 급증·중국 광섬유 업체 2027년 초까지 주문 차 있음 보도. 그러나 후지쿠라 이슈를 LS전선 해저/HVDC/부스덕트 생산 리스크로 연결하는 것은 무리. 회사 측 원재료·생산 문제 부재 확인."
+    },
+    {
+      "claim_id": "T04",
+      "claim": "광케이블 병목은 LS thesis를 깨는 것이 아니라 '공급 가능한 업체의 가치가 올라가는 시장'을 재확인한다. AI 인프라 투자가 커질수록 전력망·광케이블·데이터센터 내부 전력분배가 동시 부족하며, 핵심은 실제 생산·납품 능력을 가진 기업인지다. LS전선은 해저케이블·HVDC·부스덕트 생산설비 투자를 선제 진행해온 회사다.",
+      "type": "normative",
+      "importance": "high",
+      "timeframe": "1-3y",
+      "supporting_evidence": "병목이 여러 곳에서 동시 발생 → 수요 노출보다 실제 capacity 보유가 가치. LS전선 동해 공장 해저케이블 capacity 선투자."
+    },
+    {
+      "claim_id": "T05",
+      "claim": "AI 데이터센터 전력의 AC→DC 전환은 LS 악재가 아니다. 전압 구조가 바뀌어도 대용량 전력 이동·분배·연결 인프라는 필요하며, 고압 직류 송전(HVDC)·해저케이블은 오히려 DC 전환의 직접 수혜 영역이다. LS전선은 500kV급 HVDC 케이블 적용 사업을 진행 중이고 HVDC·해저케이블을 핵심 성장축으로 둔다.",
+      "type": "predictive",
+      "importance": "high",
+      "timeframe": "1-5y",
+      "supporting_evidence": "NVIDIA 차세대 AI 랙 전력 밀도 급증·800V DC 아키텍처 논의, ABB-NVIDIA 800V DC 데이터센터 전력 구조 협력 발표. HVDC/해저케이블은 DC 송전 핵심."
+    },
+    {
+      "claim_id": "T06",
+      "claim": "DC 전환 시 데이터센터 내부 부스덕트·busway·busbar·DC distribution 제품 중요성이 커진다. LS ELECTRIC은 데이터센터 전력 솔루션 전시에서 UL 배전반·모듈형 전력 솔루션·직류 배전 시스템을 제시한 바 있어 DC 고도화의 수혜 위치에 있다. 단순 변압기·범용 배전기기만 하는 회사가 일부 value pool을 잃을 수 있는 것과 대비된다.",
+      "type": "predictive",
+      "importance": "medium",
+      "timeframe": "1-5y",
+      "supporting_evidence": "DC 전환은 전력 인프라 사이클 종료가 아니라 밸류체인 고도화. LS ELECTRIC 데이터센터 전력 솔루션 라인업(UL 배전반·DC 배전)."
+    },
+    {
+      "claim_id": "T07",
+      "claim": "로봇·피지컬 AI 시대에는 저속 고토크 모터의 권선 효율이 중요해지고, 원형선보다 세각선(rectangular wire)·hairpin winding 구조가 부각된다. LS에코첨단소재(LS전선 자회사)가 2026년 4월부터 글로벌 로봇 부품업체로부터 로봇용 권선을 첫 수주, EV에서 확산된 세각선·고효율 권선 기술이 로봇으로 확장된다.",
+      "type": "factual",
+      "importance": "high",
+      "timeframe": "1-5y",
+      "supporting_evidence": "뉴스로드(2026-05-28) — LS에코첨단소재 글로벌 로봇 부품업체 로봇용 권선 첫 수주, '비중국 모터 공급망' 시동. 휴머노이드 생산 100만 대+ 시나리오 시 모터·권선 수요 차원 변화."
+    },
+    {
+      "claim_id": "T08",
+      "claim": "글로벌 전선 피어는 '끝물'처럼 움직이지 않는다. Prysmian(유럽 대표)·Nexans 모두 30배 넘는 PER로 ATH 영역에서 거래되고, MnM의 글로벌 피어 Aurubis도 황산 이익 긍정 전망으로 주가 고가 갱신 중. LS의 조정은 섹터 피크아웃이 아니라 국내 수급·공시 노이즈가 결합된 개별 변동성으로 해석하는 것이 합리적이다.",
+      "type": "factual",
+      "importance": "high",
+      "timeframe": "present",
+      "supporting_evidence": "Prysmian·Nexans 30배+ PER·ATH, Aurubis 황산 이익 긍정 전망·고가 갱신. 전력망·해저케이블·HVDC·데이터센터 전력 인프라 사이클 반영."
+    },
+    {
+      "claim_id": "T09",
+      "claim": "LS전선 2분기 실적이 1분기 대비 급격히 감익할 논리는 약하다. 1분기 매출 2조원·영업이익 970억원(OPM 4.8%) 이후, 대한전선의 감익 논리(프로젝트 믹스·매출 인식 구조 차이)를 그대로 적용하기 어렵고, 연초부터 상저하고 흐름 + 독일 해상풍력 프로젝트가 동해 4·5공장에서 하반기 시작. 부스덕트 약 15% 마진 사업으로 고마진 믹스(해저·HVDC·부스덕트) 확대 시 전사 마진 상승.",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "0-6m",
+      "supporting_evidence": "1Q26 LS전선 매출 2조·OP 970억. 독일 해상풍력 동해 4·5공장 하반기 가동. 부스덕트 15% 마진 사업. 상저하고 가이던스."
+    },
+    {
+      "claim_id": "T10",
+      "claim": "LS MnM 2분기 황산·금속 가격 효과가 이어질 가능성이 높다. 1분기 서프라이즈를 단순 일회성 metal gain으로만 보는 것은 부족하며, 황산 가격은 연초부터 상승 흐름이고 구리·귀금속 가격과 환율(1Q·2Q 모두 높은 수준)이 우호적이다.",
+      "type": "predictive",
+      "importance": "high",
+      "timeframe": "0-6m",
+      "supporting_evidence": "MnM 1Q 시장 예상 크게 상회. 황산 가격 연초 이후 상승 지속. 구리·귀금속 우호, 고환율 유지."
+    },
+    {
+      "claim_id": "T11",
+      "claim": "LS아이앤디는 시장이 가장 덜 보는 부분으로 미국 권선 사업(Essex Solutions)·EV·산업용 모터·전력기기·로봇 권선 수요가 연결된다. 구리가 상승은 매출 증가·재고 효과를 만들고, 전동화·피지컬 AI 확산은 고효율 권선 수요를 중장기 확대. Essex Solutions 상장 시도는 단순 금융 이벤트가 아니라 별도 플랫폼 가치 평가 시도로 볼 수 있으며, 2분기가 1분기 대비 급격히 나빠질 논리는 크지 않다.",
+      "type": "predictive",
+      "importance": "high",
+      "timeframe": "0-2y",
+      "supporting_evidence": "Essex Solutions 미국 권선·EV·산업·로봇 수요 연결. 구리가 상승 매출·재고 효과. Essex 상장 시도 = 플랫폼 가치 평가."
+    },
+    {
+      "claim_id": "T12",
+      "claim": "이번 LS 조정의 본질은 세 가지 — ① 단기 급등 후 전력 인프라 ETF 수급 흔들림, ② AI 밸류체인 내 메모리(삼성전자·SK하이닉스)로의 자금 압축, ③ 공시 정정 신뢰도 훼손 빌미 — 가 결합된 것이며, 펀더멘털 훼손이나 전선 슈퍼사이클 종료가 아니다. 2분기 실적이 1분기 연장선임이 확인되면 조정은 공시 노이즈·수급 이탈이 만든 과도한 흔들림으로 재해석될 가능성이 높다.",
+      "type": "normative",
+      "importance": "core",
+      "timeframe": "0-6m",
+      "supporting_evidence": "ETF 환매·외국인 프로그램 매도 시 단기 변동성 확대 가능. 핵심 확인 질문: 1Q 이익 일회성 여부, MnM 황산 2Q 지속, 부스덕트 Meta 단발 vs 빅테크 공급망 진입, 권선 재평가, 자사주 소각·MSCI 편입 가능성."
+    }
+  ]
+}

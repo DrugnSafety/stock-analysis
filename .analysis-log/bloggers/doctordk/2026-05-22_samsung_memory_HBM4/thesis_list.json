@@ -1,0 +1,132 @@
+{
+  "extracted_at": "2026-05-22T01:00:00+09:00",
+  "extraction_method": "manual_structured_4-analyst",
+  "source_blog_post": {
+    "url": "https://blog.naver.com/doctordk/224293724822",
+    "title": "연휴기간 꼭 흡수해야할 주식 영양제",
+    "author": "의교창 (doctordk)",
+    "secondary_source": "엄브렐라리서치 — 삼성전자 골드만삭스 컨퍼런스 콜 메모 (2026-05-21)"
+  },
+  "theses": [
+    {
+      "thesis_id": "T1",
+      "claim_id": "T1",
+      "category": "industry_supply_demand",
+      "type": "predictive",
+      "timeframe": "12-18M",
+      "title": "메모리(DRAM) 공급 부족이 2026년 내내 지속되고 2027년 더 심화된다",
+      "claim": "올해 글로벌 DRAM 공급 성장률이 수요 성장률을 밑돌며 공급 부족이 지속되고, 2027년에는 그 현상이 더 심화될 것이다. 2026년 하반기부터 DRAM 가격이 본격적인 상승세를 탈 것이다.",
+      "supporting_evidence": [
+        "삼성전자 IR 직접 언급",
+        "P4 평택 클린룸의 HBM4/HBM4E 우선 배정으로 범용 메모리 capa 제약",
+        "AI 데이터센터 수요 + 스마트폰/PC 회복 이중 수요",
+        "Capex 증액에도 즉각적 capa 증설 어려움 (lead time 18~24개월)"
+      ],
+      "thesis_alignment": "very_high",
+      "key_metric_to_track": "DRAM contract price, DDR5 spot price, DRAMeXchange index",
+      "importance": "core"
+    },
+    {
+      "thesis_id": "T2",
+      "claim_id": "T2",
+      "category": "company_strategy",
+      "type": "factual_forward",
+      "timeframe": "24M",
+      "title": "삼성전자 HBM4 시장 메인 공급자 지위 + 가격 프리미엄",
+      "claim": "삼성전자가 2026년 3분기 HBM4 교체 및 HBM 매출 내 HBM4 비중 50% 달성 목표를 재확인했고, 가장 프리미엄 제품군인 HBM4 시장에서 메인 공급자 지위를 확보하며 타 HBM 대비 높은 가격 프리미엄을 누릴 것이다.",
+      "supporting_evidence": [
+        "삼성전자 공급 일정 가이드라인 유지 발표",
+        "엔비디아 H200/B200/GB200 차세대 GPU의 HBM3E/HBM4 채택 가속",
+        "내년 HBM 가격 yoy 10%대 중반 상승 전망"
+      ],
+      "thesis_alignment": "high",
+      "key_metric_to_track": "HBM4 qualification status (NVIDIA), HBM 매출 비중, 평균판매가격(ASP)",
+      "importance": "core"
+    },
+    {
+      "thesis_id": "T3",
+      "claim_id": "T3",
+      "category": "company_contract_structure",
+      "type": "factual",
+      "timeframe": "Multi-year",
+      "title": "LTA(장기공급계약)로 안정적이고 높은 마진 구조 확보",
+      "claim": "삼성전자는 고객사들과 유연한 LTA(Long-term Agreement) 가격 범위를 협의 중이며, 최저 가격이 과거 계약 대비 상당히 높아져 중장기적으로 지속 가능한 마진을 제공한다. 이미 다수 LTA 체결 완료, 추가 고객사가 장기 계약 선호.",
+      "supporting_evidence": [
+        "메모리 가격 사이클 변동성 완화 트렌드",
+        "AI 하이퍼스케일러(MS·Meta·Google·Amazon) LTA 선호",
+        "Hynix 대비 차별화 전략"
+      ],
+      "thesis_alignment": "high",
+      "key_metric_to_track": "LTA 비중 (DS사업부 매출 대비), 영업이익률 분기 추이",
+      "importance": "important"
+    },
+    {
+      "thesis_id": "T4",
+      "claim_id": "T4",
+      "category": "industry_capacity",
+      "type": "predictive",
+      "timeframe": "12-24M",
+      "title": "P4 라인 가동이 범용 메모리 부족을 가속화한다",
+      "claim": "P4 평택 4공장 클린룸의 상당 부분이 1c 공정 기반 HBM4 / HBM4E 생산에 할당되어, 삼성전자가 중단기적으로 wafer 증설할 수 있는 사실상 유일한 공간이 HBM에 점유된다. 그 결과 범용 메모리(DDR4/5, LPDDR) 공급 부족이 심화된다.",
+      "supporting_evidence": [
+        "P4 클린룸 capa 한정",
+        "HBM 우선 배정 정책",
+        "Micron/Hynix도 동일 패턴 추구로 산업 전체 capa shift"
+      ],
+      "thesis_alignment": "very_high",
+      "key_metric_to_track": "P4 가동률, HBM 대비 범용 capa 비율, DDR5 lead time",
+      "importance": "core"
+    },
+    {
+      "thesis_id": "T5",
+      "claim_id": "T5",
+      "category": "capital_allocation",
+      "type": "factual_forward",
+      "timeframe": "24-36M",
+      "title": "Capex 증액 — 메모리(P4/P5) + 파운드리(테일러) 동시 투자",
+      "claim": "삼성전자가 올해 메모리(DRAM·HBM) 설비투자를 유의미하게 늘리며, P4 클린룸 건설 + P5 착공에 대규모 자금 투입. 동시에 미국 테일러 2nm 파운드리 양산을 2027년 목표로 투자 확대.",
+      "supporting_evidence": [
+        "삼성전자 IR 직접 언급",
+        "테일러 팹 2027년 2나노 양산 가이던스",
+        "메모리 + 파운드리 동시 capex 사이클 (10년래 처음)"
+      ],
+      "thesis_alignment": "medium_high",
+      "key_metric_to_track": "Capex/매출 비율, FCF, 부채비율, 테일러 양산 일정",
+      "importance": "important"
+    },
+    {
+      "thesis_id": "T6",
+      "claim_id": "T6",
+      "category": "competitive_dynamics",
+      "type": "predictive",
+      "timeframe": "12M",
+      "title": "HBM 가격 yoy 10% 중반 상승 + HBM-범용 마진 격차 축소",
+      "claim": "2026년 HBM 가격은 작년에 책정되어 공급 부족이 온전히 반영되지 못했으나, 2027년에는 강력한 범용 DRAM 가격에 힘입어 HBM 가격도 yoy 10%대 중반 성장. HBM과 범용 DRAM 간 마진 격차가 줄어든다.",
+      "supporting_evidence": [
+        "삼성 IR 직접 가이던스",
+        "범용 DRAM 가격 강세 → HBM 가격 협상력 ↑",
+        "HBM3 → HBM3E → HBM4 세대전환 따른 ASP 단계적 상승"
+      ],
+      "thesis_alignment": "high",
+      "key_metric_to_track": "HBM ASP yoy, 범용 DRAM ASP yoy, 두 마진 spread",
+      "importance": "important"
+    },
+    {
+      "thesis_id": "T7",
+      "claim_id": "T7",
+      "category": "downstream_beneficiary",
+      "type": "conditional",
+      "timeframe": "12-18M",
+      "title": "HBM 후공정·테스터·본더·소부장 수혜 확대",
+      "claim": "삼성전자 + SK하이닉스 + Micron의 HBM4 capa 증설이 가속되면, TC 본더(한미반도체)·테스트(이오테크닉스)·EUV·웨이퍼 검사 장비·HBM 본딩 소재 공급사가 직접 수혜를 입는다.",
+      "supporting_evidence": [
+        "HBM4는 base die + 12-Hi/16-Hi 스택 → 본딩 장비 더 필요",
+        "한미반도체 TC 본더 점유율 90%+",
+        "HBM4E 양산 단계 진입 시 capex 추가 확대"
+      ],
+      "thesis_alignment": "medium_high",
+      "key_metric_to_track": "한미반도체 수주잔고, 이오테크닉스 매출, EUV 장비 발주",
+      "importance": "core"
+    }
+  ]
+}

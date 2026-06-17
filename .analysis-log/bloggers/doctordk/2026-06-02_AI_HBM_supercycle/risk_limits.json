@@ -1,0 +1,128 @@
+{
+  "computed_at": "2026-06-02T15:00:00+09:00",
+  "portfolio_value": 1000000.0,
+  "base_limit_pct": 0.05,
+  "n_pairs": 5,
+  "limits": [
+    {
+      "ticker": "000660.KS",
+      "as_of_date": "2026-06-02",
+      "current_price": 2360000.0,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.04214,
+        "annualized_volatility": 0.669,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.55,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.8,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.022,
+      "position_limit_value": 22000.0,
+      "remaining_position_limit_value": 22000.0,
+      "max_quantity": 12
+    },
+    {
+      "ticker": "005930.KS",
+      "as_of_date": "2026-06-02",
+      "current_price": 360500.0,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03354,
+        "annualized_volatility": 0.5324,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.55,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.8,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.022,
+      "position_limit_value": 22000.0,
+      "remaining_position_limit_value": 22000.0,
+      "max_quantity": 84
+    },
+    {
+      "ticker": "TSM",
+      "as_of_date": "2026-06-02",
+      "current_price": 445.16,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.02231,
+        "annualized_volatility": 0.3542,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.0,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.8,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.04,
+      "position_limit_value": 40000.0,
+      "remaining_position_limit_value": 40000.0,
+      "max_quantity": 89
+    },
+    {
+      "ticker": "NVDA",
+      "as_of_date": "2026-06-02",
+      "current_price": 226.45,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.02167,
+        "annualized_volatility": 0.344,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.0,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.8,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.04,
+      "position_limit_value": 40000.0,
+      "remaining_position_limit_value": 40000.0,
+      "max_quantity": 176
+    },
+    {
+      "ticker": "VST",
+      "as_of_date": "2026-06-02",
+      "current_price": 159.21,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.0307,
+        "annualized_volatility": 0.4874,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.0,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.8,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.04,
+      "position_limit_value": 40000.0,
+      "remaining_position_limit_value": 40000.0,
+      "max_quantity": 251
+    }
+  ]
+}

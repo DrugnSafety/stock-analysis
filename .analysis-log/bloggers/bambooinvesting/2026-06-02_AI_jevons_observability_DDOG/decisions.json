@@ -1,0 +1,147 @@
+{
+  "computed_at": "2026-06-03T00:50:40.251108+09:00",
+  "ledger_path": ".analysis-log/bloggers/bambooinvesting/2026-06-02_AI_jevons_observability_DDOG/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/bambooinvesting/2026-06-02_AI_jevons_observability_DDOG/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "CRM",
+      "date": "2026-06-02",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 10,
+        "neutral": 3
+      },
+      "signal_score": 0.5299,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 7164.3,
+      "target_quantity": 36,
+      "current_price": 198.43,
+      "position_limit_value": 14328.6,
+      "annualized_volatility": 0.4974,
+      "reasoning": "중간 매수 신호 (+0.53), 한도의 50% 진입"
+    },
+    {
+      "ticker": "DDOG",
+      "date": "2026-06-02",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 6,
+        "lean_bearish": 5,
+        "neutral": 2
+      },
+      "signal_score": 0.0425,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 267.66,
+      "position_limit_value": 11000.0,
+      "annualized_volatility": 0.841,
+      "reasoning": "중립 신호 (+0.04), 변경 없음"
+    },
+    {
+      "ticker": "DT",
+      "date": "2026-06-02",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 8,
+        "neutral": 4,
+        "lean_bearish": 1
+      },
+      "signal_score": 0.3598,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.49
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500.0,
+      "target_quantity": 124,
+      "current_price": 44.05,
+      "position_limit_value": 11000.0,
+      "annualized_volatility": 0.5345,
+      "reasoning": "중간 매수 신호 (+0.36), 한도의 50% 진입"
+    },
+    {
+      "ticker": "MDB",
+      "date": "2026-06-02",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 4,
+        "neutral": 5,
+        "lean_bearish": 4
+      },
+      "signal_score": -0.0065,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 397.61,
+      "position_limit_value": 11000.0,
+      "annualized_volatility": 0.7031,
+      "reasoning": "중립 신호 (-0.01), 변경 없음"
+    },
+    {
+      "ticker": "SNOW",
+      "date": "2026-06-02",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 5,
+        "lean_bearish": 6,
+        "neutral": 2
+      },
+      "signal_score": -0.0654,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.7,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 257.435,
+      "position_limit_value": 11000.0,
+      "annualized_volatility": 1.0011,
+      "reasoning": "중립 신호 (-0.07), 변경 없음"
+    }
+  ]
+}

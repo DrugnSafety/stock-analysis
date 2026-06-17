@@ -1,0 +1,242 @@
+{
+  "industry": {
+    "name": "종합 반도체·전자 + 로봇 전략투자",
+    "overview": "삼성전자는 메모리·파운드리·세트를 아우르는 종합 반도체 기업이자, 본 글에서 매일경제 단독 보도로 보스턴다이내믹스 지분 인수 가능성을 타진 중인 것으로 지목됐다(사업지원실 M&A 조직). 경영권이 아닌 전략적 지분 투자 성격으로, 레인보우로보틱스 최대주주 전환에 이은 피지컬 AI 행보다. 본업은 AI 메모리(HBM) 슈퍼사이클 수혜로 fwd PER 5.9x·1Y +491%. BD는 거대한 본업 위에 얹힌 로봇 옵션.",
+    "competitors": [
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS",
+        "share_pct": null,
+        "moat": "HBM 선도"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": null,
+        "moat": "파운드리 1위"
+      },
+      {
+        "name": "현대차",
+        "ticker": "005380.KS",
+        "share_pct": null,
+        "moat": "BD 모회사(경합)"
+      },
+      {
+        "name": "구글",
+        "ticker": "GOOGL",
+        "share_pct": null,
+        "moat": "BD 투자 경쟁자"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "휴머노이드 TAM(로봇 옵션) + AI 메모리 슈퍼사이클 본업"
+    },
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 302231.4,
+        "op_income": 43376.6,
+        "op_margin": 14.4,
+        "net_income": 54730.0,
+        "net_margin": 18.1
+      },
+      {
+        "year": 2023,
+        "revenue": 258935.5,
+        "op_income": 6567.0,
+        "op_margin": 2.5,
+        "net_income": 14473.4,
+        "net_margin": 5.6
+      },
+      {
+        "year": 2024,
+        "revenue": 300870.9,
+        "op_income": 32726.0,
+        "op_margin": 10.9,
+        "net_income": 33621.4,
+        "net_margin": 11.2
+      },
+      {
+        "year": 2025,
+        "revenue": 333605.9,
+        "op_income": 43601.1,
+        "op_margin": 13.1,
+        "net_income": 44261.0,
+        "net_margin": 13.3
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": 2022,
+        "revenue": 302231.4,
+        "operating_income": 43376.6,
+        "net_income": 54730.0,
+        "op_margin_pct": 14.4
+      },
+      {
+        "year": 2023,
+        "revenue": 258935.5,
+        "operating_income": 6567.0,
+        "net_income": 14473.4,
+        "op_margin_pct": 2.5
+      },
+      {
+        "year": 2024,
+        "revenue": 300870.9,
+        "operating_income": 32726.0,
+        "net_income": 33621.4,
+        "op_margin_pct": 10.9
+      },
+      {
+        "year": 2025,
+        "revenue": 333605.9,
+        "operating_income": 43601.1,
+        "net_income": 44261.0,
+        "op_margin_pct": 13.1
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 40,
+      "thesis": "HBM4 본격화로 본업 재평가 + BD 지분 확보로 피지컬 AI 내러티브 강화. 메모리+로봇 멀티엔진.",
+      "key_assumptions": [
+        "HBM4 양산 진입",
+        "BD 전략 지분 확보",
+        "파운드리 회복"
+      ],
+      "target_price": 420000
+    },
+    "base": {
+      "prob_pct": 48,
+      "thesis": "AI 메모리 슈퍼사이클 수혜 지속, BD는 검토 단계 옵션. 본업 중심 점진 재평가.",
+      "key_assumptions": [
+        "HBM 점유 확대",
+        "BD 검토 지속",
+        "세트 안정"
+      ],
+      "target_price": 360000
+    },
+    "bear": {
+      "prob_pct": 12,
+      "thesis": "메모리 사이클 둔화 + BD 딜 무산 시 본업·옵션 동시 약화.",
+      "key_assumptions": [
+        "메모리 둔화",
+        "BD 딜 불발",
+        "파운드리 부진"
+      ],
+      "target_price": 290000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2H",
+      "event": "삼성 BD 지분 투자 검토 진전",
+      "type": "business",
+      "expected_impact": "med",
+      "description": "검토→실제 딜 전환 여부가 로봇 내러티브 핵심"
+    },
+    {
+      "date": "2026-2H",
+      "event": "HBM4 양산·NVIDIA 공급",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "본업 재평가의 핵심 동력"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "분기 실적·HBM 가이던스",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "AI 메모리 매출·마진 추세"
+    }
+  ],
+  "risks": [
+    {
+      "name": "BD 딜 불확실성",
+      "probability": "high",
+      "impact": "low",
+      "description": "BD 투자는 '검토·스터디 단계'로 거래 확정과 거리. 본업 대비 영향 제한적",
+      "mitigation": "레인보우로보틱스 captive로 로봇 노출 이미 확보"
+    },
+    {
+      "name": "HBM 후발",
+      "probability": "med",
+      "impact": "high",
+      "description": "NVIDIA向 HBM에서 SK하이닉스 대비 한 발 뒤",
+      "mitigation": "HBM4 검증 가속·수율 개선"
+    },
+    {
+      "name": "파운드리 부진",
+      "probability": "med",
+      "impact": "med",
+      "description": "파운드리 가동률·수율 회복 지연",
+      "mitigation": "대형 고객 확보"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T4",
+      "ticker_exposure": "++",
+      "claim": "매일경제 단독(2026-06-16)에 따르면 삼성전자는 사업지원실 산하 M&A 조직을 중심으로 BD 지분 투자 타당성을 검토 중이다. 경영권 확보보다 일부 지분 투자·전략적 투자 성격이 강하다. 이는 피지컬 AI 체",
+      "type": "factual",
+      "evidence": [
+        "삼성전자 사업지원실 M&A 조직 BD 검토 (매경 2026-06-16)",
+        "전략적 투자 성격 (경영권 아님)",
+        "mk.co.kr/news/business/12075246"
+      ],
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T6",
+      "ticker_exposure": "++",
+      "claim": "피지컬 AI는 LLM 다음 패권 전장이며 승자독식 성격이 짙다. 파운데이션 AI 모델을 검증할 최고급 신체(=아틀라스)를 보유해야 경쟁에서 유리하므로, BD는 IPO 이전까지 꾸준히 빅테크의 관심을 받을 것으로 예상",
+      "type": "normative",
+      "evidence": [
+        "피지컬 AI 승자독식 구조",
+        "아틀라스 = 최고급 검증 신체",
+        "IPO 전까지 빅테크 관심 지속 전망"
+      ],
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T1",
+      "ticker_exposure": "+",
+      "claim": "채널체크에 따르면 구글은 2025년 말 현대차에 Boston Dynamics(BD) 지분 투자 가능성을 타진했고 현대차는 일단 거절했다. 거절 사유는 현대차그룹 보유 BD 지분율 희석 우려와 BD의 모호한 시장가치다",
+      "type": "factual",
+      "evidence": [
+        "구글 2025년 말 현대차에 BD 지분 투자 타진 (채널체크)",
+        "현대차 거절: 지분 희석 + 모호한 BD 밸류",
+        "빅테크 관심 = 자산 검증 시그널"
+      ],
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-16",
+      "type": "기업활동",
+      "title": "삼성전자, 보스턴다이내믹스 지분 인수 가능성 타진(매경 단독)",
+      "summary": "사업지원실 산하 M&A 조직 중심 BD 지분 투자 타당성 검토 — 전략적 투자 성격. mk.co.kr/news/business/12075246"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 337500,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "FY25 매출 ₩333조·OPM 13.1%·fwd PER 5.9x. 현 주가는 AI 메모리 슈퍼사이클 본업 재평가가 주도하며 BD 로봇 옵션은 거의 미반영. BD 지분 검토는 시그널 수준이나, 실제 딜 전환 시 피지컬 AI 멀티엔진 내러티브 강화 여지."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 7
+}

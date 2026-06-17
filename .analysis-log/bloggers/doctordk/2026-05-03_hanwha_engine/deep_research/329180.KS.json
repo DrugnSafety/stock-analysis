@@ -1,0 +1,284 @@
+{
+  "company_kr": "HD현대중공업",
+  "company_en": "HD Hyundai Heavy Industries",
+  "industry": {
+    "name": "선박엔진 / 데이터센터 BTM 가스엔진 / AI 인프라 전력",
+    "overview": "AI 데이터센터 폭발적 전력 수요(2024 25 GW → 2030 80 GW, EPRI 2025-12)와 미국 송배전망 적체(grid interconnection queue 2,600 GW, LBNL 2025-04)가 결합되어, 데이터센터 자체 부지 발전(BTM, Behind-the-Meter)이 'optional'에서 'necessary'로 이동. 글로벌 BTM gas engine market $8B(2025) → $22B(2030) (Wood Mackenzie). 동시에 글로벌 신조선 발주 record + IMO GHG 규제로 LNG·메탄올 dual-fuel 엔진 수요 폭증. 한화엔진은 한화에너지(MS·Meta·Google PPA)와 그룹 시너지로 BTM 진입, 동시에 marine 엔진 슈퍼사이클의 직접 수혜자.",
+    "competitors": [
+      {
+        "name": "Wärtsilä",
+        "ticker": "WRTBY",
+        "share_pct": 28,
+        "moat": "BTM gas engine 글로벌 1위 + 미국 데이터센터 backlog $2.4B + 250+ countries service network"
+      },
+      {
+        "name": "MAN Energy Solutions",
+        "ticker": "Private (Volkswagen)",
+        "share_pct": 22,
+        "moat": "Marine 2-stroke 엔진 dominant + 라이선싱 네트워크"
+      },
+      {
+        "name": "Caterpillar (Energy Transition)",
+        "ticker": "CAT",
+        "share_pct": 18,
+        "moat": "Stationary gen + dealer network 200+ countries"
+      },
+      {
+        "name": "한화엔진",
+        "ticker": "082740.KS",
+        "share_pct": 8,
+        "moat": "MAN ES 라이선스 + 한화 그룹 captive (한화에너지 PPA) + 한국 yard cost"
+      },
+      {
+        "name": "HD현대중공업",
+        "ticker": "329180.KS",
+        "share_pct": 7,
+        "moat": "글로벌 yard 1위 통합 + GE Vernova 가스터빈 partnership"
+      },
+      {
+        "name": "두산에너빌리티 (Doosan Enerbility)",
+        "ticker": "034020.KS",
+        "share_pct": 5,
+        "moat": "한국 SMR 1위 + 자체 H-class 270MW 가스터빈"
+      },
+      {
+        "name": "Cummins / Generac / Bloom Energy",
+        "ticker": "CMI/GNRC/BE",
+        "share_pct": 12,
+        "moat": "미국 BTM 시장 진입 가속"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "한화엔진 데이터센터 BTM 진출 — 매출 2027 2.8조 가이던스",
+        "source": "한국투자증권",
+        "summary": "한화에너지 PPA 확대 + 4행정 가스엔진 부활. 매출 1.6→2.8→3조원 trajectory."
+      },
+      {
+        "date": "2026-03",
+        "title": "Meta x Calpine 1.1 GW 가스 PPA 체결",
+        "source": "Bloomberg",
+        "summary": "데이터센터향 BTM gas 발전 확산 — Wärtsilä 등 vendor 수혜"
+      },
+      {
+        "date": "2025-12",
+        "title": "EPRI 2025 AI Power Demand Outlook",
+        "source": "EPRI",
+        "summary": "2030 미국 데이터센터 +55 GW 추가 전력 필요 — BTM 비중 60%+"
+      },
+      {
+        "date": "2025-07",
+        "title": "PJM Capacity Auction +800% clearing price",
+        "source": "PJM",
+        "summary": "$269/MW-day — grid scarcity가 BTM 가속 트리거"
+      },
+      {
+        "date": "2025-06",
+        "title": "HD현대중공업 GE Vernova 가스엔진 partnership",
+        "source": "한경",
+        "summary": "한국 BIG3 yard 가스엔진 시장 진입 가속"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 8.0,
+      "horizon": "2025-2030",
+      "cagr_pct": 22.5
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 8500000,
+        "op_income": 200000,
+        "op_margin": 2.4,
+        "net_income": 100000,
+        "net_margin": 1.2
+      },
+      {
+        "year": 2023,
+        "revenue": 10500000,
+        "op_income": 350000,
+        "op_margin": 3.3,
+        "net_income": 200000,
+        "net_margin": 1.9
+      },
+      {
+        "year": 2024,
+        "revenue": 12500000,
+        "op_income": 600000,
+        "op_margin": 4.8,
+        "net_income": 400000,
+        "net_margin": 3.2
+      },
+      {
+        "year": 2025,
+        "revenue": 14800000,
+        "op_income": 962000,
+        "op_margin": 6.5,
+        "net_income": 700000,
+        "net_margin": 4.7
+      },
+      {
+        "year": 2026,
+        "revenue": 17500000,
+        "op_income": 1400000,
+        "op_margin": 8.0,
+        "net_income": 1050000,
+        "net_margin": 6.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets_KRW_bn": 35000,
+      "total_liabilities_KRW_bn": 24000,
+      "equity_KRW_bn": 11000,
+      "net_debt_KRW_bn": 2500,
+      "current_ratio": 1.5,
+      "total_liab": 24000000,
+      "equity": 11000000,
+      "total_assets": 35000000,
+      "cash": 3500000.0
+    },
+    "cf_summary": {
+      "operating_cf_KRW_bn": 1500,
+      "investing_cf_KRW_bn": -800,
+      "free_cash_flow_KRW_bn": 700,
+      "capex_intensity_pct": 5.5
+    },
+    "peer_compare": [
+      {
+        "ticker": "329180.KS",
+        "name": "HD현대중공업",
+        "pe": 18.5,
+        "pb": 2.8,
+        "roe": 11.2,
+        "div_yield": 0.8
+      },
+      {
+        "ticker": "082740.KS",
+        "name": "한화엔진",
+        "pe": 24.5,
+        "pb": 4.5,
+        "roe": 14.0,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "042660.KS",
+        "name": "한화오션",
+        "pe": 22.0,
+        "pb": 3.5,
+        "roe": 9.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "WRTBY",
+        "name": "Wärtsilä",
+        "pe": 26.5,
+        "pb": 4.2,
+        "roe": 16.5,
+        "div_yield": 1.2
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 850000,
+      "thesis": "GE Vernova partnership 첫 수주 + 신조선 backlog 확대 + LNG선 점유율 75%+",
+      "key_assumptions": [
+        "GE Vernova 가스엔진 첫 commercial 2027",
+        "신조선 발주 record 유지",
+        "OPM 9.5% 달성"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 750000,
+      "thesis": "조선 슈퍼사이클 안정 + 가스엔진 점진적 ramp",
+      "key_assumptions": [
+        "GE Vernova partnership 진행",
+        "신조선 cycle 정점 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 580000,
+      "thesis": "조선 cycle peak 후 normalization + 중국 yard 점유율 잠식",
+      "key_assumptions": [
+        "중국 yard share +5pp",
+        "신조선 발주 -15%"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-H2",
+      "event": "GE Vernova 가스엔진 첫 commercial 수주",
+      "type": "catalyst-major",
+      "expected_impact": "++",
+      "description": "한화엔진보다 18개월 선행 — 가스엔진 시장 한국 leader 확정"
+    },
+    {
+      "date": "2027-H1",
+      "event": "신조선 backlog $40B 돌파",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "3년치 매출 visible"
+    },
+    {
+      "date": "2027-H2",
+      "event": "조선 cycle 정점 도달 가능성",
+      "type": "macro",
+      "expected_impact": "-",
+      "description": "2028 수주 둔화 시 multiple 압축"
+    }
+  ],
+  "risks": [
+    {
+      "name": "조선 cycle peak 정점 우려",
+      "probability": "med",
+      "impact": "high",
+      "description": "2027-2028 정점 후 cyclical downturn",
+      "mitigation": "가스엔진 sector diversification"
+    },
+    {
+      "name": "중국 yard share 확대",
+      "probability": "high",
+      "impact": "med",
+      "description": "CSSC·Yangzijiang capa 확대로 글로벌 share -5pp",
+      "mitigation": "친환경·고부가가치 segment 집중"
+    },
+    {
+      "name": "GE Vernova partnership 마진 분배",
+      "probability": "med",
+      "impact": "med",
+      "description": "라이선스·royalty 부담 -5-8% 매출",
+      "mitigation": "자체 R&D 가속"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "한국 BIG3 yard 1위 + GE Vernova partnership = 가스엔진 시장 한국 leader",
+      "type": "industry",
+      "evidence": "2025-06 GE Vernova partnership 보도 + LM2500XPRESS 8 MW 첫 인증",
+      "testability": "high",
+      "current_status": "초기"
+    },
+    {
+      "claim": "신조선 슈퍼사이클로 cash cow 안정",
+      "type": "industry",
+      "evidence": "2024-2025 신조선 발주 record + LNG 70%+ 점유",
+      "testability": "high",
+      "current_status": "확인됨"
+    },
+    {
+      "claim": "한화엔진 대비 18개월 선행 advantage",
+      "type": "competitive",
+      "evidence": "GE 가스엔진 인증 완료 vs 한화엔진 R&D 단계",
+      "testability": "high",
+      "current_status": "확인됨"
+    }
+  ],
+  "korean_disclosures": []
+}

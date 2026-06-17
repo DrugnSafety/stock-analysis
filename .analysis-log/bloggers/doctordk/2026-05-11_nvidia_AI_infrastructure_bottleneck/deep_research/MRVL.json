@@ -1,0 +1,283 @@
+{
+  "industry": {
+    "name": "AI Networking Semiconductor / DSP / CDR",
+    "overview": "Marvell은 Inphi 인수(2021) 후 PAM4 DSP·CDR·optical IC 시장 점유율 60% 차지. AI 데이터센터의 광통신 transceiver 내부 핵심 chip 공급 (Coherent·Lumentum·InnoLight·Eoptolink 등 transceiver maker 모두 MRVL DSP 사용). NVIDIA Spectrum-X·OCI·MSFT Azure AI fabric의 backbone chip. DC segment 매출 +75% YoY 성장.",
+    "competitors": [
+      {
+        "name": "Marvell",
+        "ticker": "MRVL",
+        "share_pct": 60.0,
+        "moat": "Inphi acquisition으로 PAM4 DSP 시장 dominance"
+      },
+      {
+        "name": "Broadcom",
+        "ticker": "AVGO",
+        "share_pct": 30.0,
+        "moat": "Tomahawk switch + Jericho router + custom ASIC"
+      },
+      {
+        "name": "MediaTek",
+        "ticker": "2454.TW",
+        "share_pct": 6.0,
+        "moat": "Marginal player in optical IC"
+      },
+      {
+        "name": "Macom",
+        "ticker": "MTSI",
+        "share_pct": 4.0,
+        "moat": "Compound semi specialty"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "Marvell FY26 Q1 — DC revenue +75% YoY, AI/ML 비중 70%",
+        "source": "Marvell earnings",
+        "summary": "1.6T PAM6 DSP 양산 ramp, custom AI ASIC 매출 +120%"
+      },
+      {
+        "date": "2026-03-08",
+        "title": "NVIDIA·Marvell 1.6T standard 공동 정의",
+        "source": "OFC 2026",
+        "summary": "Spectrum-X 4.0의 PAM6 표준 채택"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "Marvell custom AI ASIC — AWS Trainium 3 supply",
+        "source": "AWS re:Invent",
+        "summary": "$3B+ design-win, 2027-2028 양산"
+      }
+    ],
+    "market_size": {
+      "cagr_pct": 36.0,
+      "current_usd_bn": 25.0,
+      "forecast_usd_bn": 85.0,
+      "horizon": "2028"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 5921,
+        "op_income": 580,
+        "op_margin": 9.8,
+        "net_income": 280,
+        "net_margin": 4.7
+      },
+      {
+        "year": 2023,
+        "revenue": 5508,
+        "op_income": -150,
+        "op_margin": -2.7,
+        "net_income": -930,
+        "net_margin": -16.9
+      },
+      {
+        "year": 2024,
+        "revenue": 5760,
+        "op_income": 480,
+        "op_margin": 8.3,
+        "net_income": -930,
+        "net_margin": -16.1
+      },
+      {
+        "year": 2025,
+        "revenue": 8800,
+        "op_income": 2300,
+        "op_margin": 26.1,
+        "net_income": 1450,
+        "net_margin": 16.5
+      },
+      {
+        "year": 2026,
+        "revenue": 13500,
+        "op_income": 4500,
+        "op_margin": 33.3,
+        "net_income": 3200,
+        "net_margin": 23.7
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 21000,
+      "total_liab": 8200,
+      "equity": 12800,
+      "cash": 1100,
+      "debt": 4500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 1500,
+      "fcf_5y_avg": 1200,
+      "capex_intensity": 0.045
+    },
+    "peer_compare": [
+      {
+        "ticker": "MRVL",
+        "name": "Marvell",
+        "pe": 31.3,
+        "pb": 8.8,
+        "roe": 22.5,
+        "div_yield": 0.15
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "pe": 28.0,
+        "pb": 11.5,
+        "roe": 22.5,
+        "div_yield": 1.3
+      },
+      {
+        "ticker": "MTSI",
+        "name": "MACOM",
+        "pe": 38.0,
+        "pb": 5.2,
+        "roe": 13.5,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 240.0,
+      "thesis": "AI networking semi cycle 전면 가속 + custom ASIC 매출 본격화. 2028 EPS $9+",
+      "key_assumptions": [
+        "DC +60% YoY 3년 유지",
+        "Custom ASIC $3B+ design-win",
+        "OPM 35% 도달"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 195.0,
+      "thesis": "AI networking semi 안정 성장 + DSP 60% 점유 유지. 2028 EPS $7 수준",
+      "key_assumptions": [
+        "DC +45% YoY",
+        "DSP share 55-60% 유지",
+        "Custom ASIC 점진 ramp"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 110.0,
+      "thesis": "Broadcom 침투 + hyperscaler in-house design로 점유 하락. 2028 EPS $4.5 수준",
+      "key_assumptions": [
+        "AVGO market share +10% gain",
+        "Hyperscaler self-design 50%",
+        "AI networking 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "1.6T PAM6 DSP 양산 ramp",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "ASP +60%, DC revenue $3B → $5B 가능"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "Custom AI ASIC 매출 첫 인식",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "AWS Trainium 3 + Microsoft Maia design-win revenue 시작"
+    },
+    {
+      "date": "2027-H1",
+      "event": "3.2T 차세대 표준 공동 정의",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Marvell PAM8 DSP roadmap 공개"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Broadcom Tomahawk 6 출시",
+      "type": "competitive",
+      "expected_impact": "-",
+      "description": "AVGO 시장점유율 +5% gain 가능"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Broadcom 경쟁 강화",
+      "probability": "med",
+      "impact": "med",
+      "description": "AVGO Tomahawk·Jericho 6 + custom ASIC competing 강화",
+      "mitigation": "PAM6 leadership + custom ASIC 다변화"
+    },
+    {
+      "name": "Customer concentration",
+      "probability": "med",
+      "impact": "high",
+      "description": "Hyperscaler 4사 + NVIDIA 의존도 70%+",
+      "mitigation": "Auto·Network·Storage segment 유지"
+    },
+    {
+      "name": "AI networking standard 변화",
+      "probability": "low",
+      "impact": "high",
+      "description": "Ultra Ethernet·UALink consortium standard 채택 시 NVDA-친화 stack 우위 감소",
+      "mitigation": "Multi-protocol DSP·CDR 개발"
+    },
+    {
+      "name": "Valuation reset",
+      "probability": "med",
+      "impact": "med",
+      "description": "EV/Sales 12.5x는 historical 2x premium",
+      "mitigation": "EPS growth 70%+ 유지로 PE compression 흡수"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "MRVL은 광통신 transceiver 내부 DSP의 60% 점유 = de facto monopoly",
+      "type": "factual",
+      "evidence": "Cignal AI 2025-Q4 PAM4 market share",
+      "testability": "high",
+      "current_status": "supported"
+    },
+    {
+      "claim": "AI networking semi TAM $25B → $85B by 2028 (CAGR 36%)",
+      "type": "predictive",
+      "evidence": "Marvell investor day 2025-09",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Custom AI ASIC 매출 본격화 시 OPM 33% → 38% 가능",
+      "type": "predictive",
+      "evidence": "AWS Trainium 3 $3B+ design-win",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Forward PE 31x는 historically rich이나 EPS growth 70%+ 대비 PEG 0.45",
+      "type": "valuation",
+      "evidence": "Peer compare",
+      "testability": "high",
+      "current_status": "supported"
+    }
+  ],
+  "korean_disclosures": [],
+  "sec_disclosures": [
+    {
+      "date": "2026-04-15",
+      "form": "10-Q",
+      "title": "FY26 Q1 — DC +75% YoY, AI/ML mix 70%",
+      "impact": "+"
+    },
+    {
+      "date": "2026-03-08",
+      "form": "8-K",
+      "title": "NVIDIA 1.6T standard 공동 정의 disclosure",
+      "impact": "+"
+    },
+    {
+      "date": "2026-02-20",
+      "form": "8-K",
+      "title": "Custom AI ASIC AWS Trainium 3 design-win",
+      "impact": "+"
+    }
+  ]
+}

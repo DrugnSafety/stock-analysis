@@ -1,0 +1,150 @@
+{
+  "as_of_date": "2026-05-18",
+  "portfolio_value_usd": 1000000,
+  "methodology": "Portfolio Manager: 페르소나 aggregate stance score + thesis lens score 결합 signal × Risk Manager position limit = target value. Signal score range [-1.0, +1.0]. Action mapping: >+0.5 = buy_full, +0.2~0.5 = buy, -0.2~+0.2 = hold, -0.2~-0.5 = trim, <-0.5 = sell_all.",
+  "decisions": [
+    {
+      "ticker": "GDX",
+      "name": "VanEck 금광주 ETF",
+      "action": "buy_full",
+      "signal_score": 0.62,
+      "signal_breakdown": {
+        "persona_stance_avg": 0.92,
+        "thesis_lens_avg": 0.55,
+        "blogger_trust_weight": 1.0,
+        "macro_overlay": 0.05
+      },
+      "target_quantity": 920,
+      "target_value": 80040,
+      "position_limit_value": 80000,
+      "verdict_distribution": "bullish 3 / lean_bullish 7 / neutral 2 / lean_bearish 1 / bearish 0",
+      "primary_risks": [
+        "Gold price retracement -20% 시 GDX -40% drawdown (operating leverage)",
+        "13F gurus 동시 매수 = crowded trade unwind risk",
+        "ETF tracking error 0.51%/년 + small-cap miner liquidity risk"
+      ],
+      "primary_opportunities": [
+        "광업의 시대 thesis 직접 노출 (T05·T06 main bet vehicle)",
+        "Mining margin 31% + 자본 규율 + capital return의 결합 capture",
+        "13F gurus convergence — smart money signal 가장 강한 종목"
+      ]
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont Corporation",
+      "action": "buy_full",
+      "signal_score": 0.68,
+      "signal_breakdown": {
+        "persona_stance_avg": 0.95,
+        "thesis_lens_avg": 0.58,
+        "blogger_trust_weight": 1.0,
+        "macro_overlay": 0.05
+      },
+      "target_quantity": 582,
+      "target_value": 64020,
+      "position_limit_value": 64000,
+      "verdict_distribution": "bullish 4 / lean_bullish 6 / neutral 2 / lean_bearish 1 / bearish 0",
+      "primary_risks": [
+        "단일 commodity (gold) 70% revenue 의존",
+        "신규 광산 development cost 인플레 (+15% yoy)",
+        "AISC $1,400-1,600/oz — gold $3,000 미만 시 마진 압박 위험"
+      ],
+      "primary_opportunities": [
+        "글로벌 1위 producer + capital return $3B/년 = blue-chip leverage",
+        "신흥 central bank 금 매입 secular driver (BRICS+ 4,800톤/4년)",
+        "Druckenmiller·Howard Marks·Donald Smith 등 7개 펀드 동시 매수"
+      ]
+    },
+    {
+      "ticker": "AEM",
+      "name": "Agnico Eagle Mines",
+      "action": "buy_full",
+      "signal_score": 0.72,
+      "signal_breakdown": {
+        "persona_stance_avg": 0.98,
+        "thesis_lens_avg": 0.62,
+        "blogger_trust_weight": 1.0,
+        "macro_overlay": 0.05
+      },
+      "target_quantity": 358,
+      "target_value": 64082,
+      "position_limit_value": 64000,
+      "verdict_distribution": "bullish 4 / lean_bullish 7 / neutral 2 / lean_bearish 0 / bearish 0",
+      "primary_risks": [
+        "Canada 집중 (탄소 규제 강화 + 정치 위험)",
+        "FY25 production guidance lowered (Detour Lake operational issues)",
+        "Premium 일부 이미 반영 (PER 14.5x vs NEM 11.2x)"
+      ],
+      "primary_opportunities": [
+        "Gold miner FCF margin 1위 (28%) — capital return 최강",
+        "Special dividend 가능성 발표 (2026-03)",
+        "Quality premium + capital discipline = Buffett-style allocation 적합"
+      ]
+    },
+    {
+      "ticker": "COPX",
+      "name": "Global X 구리광주 ETF",
+      "action": "buy_full",
+      "signal_score": 0.65,
+      "signal_breakdown": {
+        "persona_stance_avg": 0.85,
+        "thesis_lens_avg": 0.55,
+        "blogger_trust_weight": 1.0,
+        "macro_overlay": 0.10
+      },
+      "target_quantity": 940,
+      "target_value": 77080,
+      "position_limit_value": 77000,
+      "verdict_distribution": "bullish 3 / lean_bullish 7 / neutral 3 / lean_bearish 0 / bearish 0",
+      "primary_risks": [
+        "5년 +310% 이미 large alpha capture — entry valuation 우려",
+        "China property cycle weakness 시 demand softness",
+        "Recycling supply 증가 (2030 +3Mt) — 신규 mining 일부 흡수"
+      ],
+      "primary_opportunities": [
+        "4-driver structural demand (EV·data·grid·renewable) 다층 노출",
+        "2030 supply-demand gap 6Mt = price upside +30-40% 가능 (Goldman/Citi)",
+        "산업분석러 본문 명시 종목 + 1970s 동급 cycle 베이스 시나리오"
+      ]
+    },
+    {
+      "ticker": "138040.KS",
+      "name": "메리츠금융지주",
+      "action": "buy_full",
+      "signal_score": 0.78,
+      "signal_breakdown": {
+        "persona_stance_avg": 1.02,
+        "thesis_lens_avg": 0.68,
+        "blogger_trust_weight": 1.0,
+        "macro_overlay": 0.05
+      },
+      "target_quantity": 1450,
+      "target_value": 110000,
+      "position_limit_value": 110000,
+      "verdict_distribution": "bullish 7 / lean_bullish 4 / neutral 1 / lean_bearish 1 / bearish 0",
+      "primary_risks": [
+        "자동차보험 경쟁 격화 (삼성·DB 가격 인하 2025-Q4)",
+        "캐피탈 PF 대출 KRW 1.5T 부동산 cycle 노출",
+        "자사주매입 의존 EPS 성장 30% — 정책 변화 시 위험"
+      ],
+      "primary_opportunities": [
+        "산업분석러 본문 직접 명시 종목 (T04·T08 thesis embodiment)",
+        "ROE 25%+ 한국 financial 1위 + Value-up 정책 1순위 수혜",
+        "5년 +750% track record + EPS CAGR 27% + 자사주매입 가속화"
+      ]
+    }
+  ],
+  "portfolio_allocation_summary": {
+    "total_deployed": 395222,
+    "deployed_pct_of_portfolio": 39.5,
+    "cash_remaining": 604778,
+    "cash_pct": 60.5,
+    "cash_rationale": "산업분석러 thesis T01 (CAPE 광기 phase) + T10 (Berkshire cash 보유) 반영 — defensive cash 비중 60%. Mining thesis는 22% deployment + Korean financial 11% = 33% 'risk-on' allocation. Single 5% cash equivalents (~$50K) on short-term Treasury 5% yield 유지."
+  },
+  "execution_notes": [
+    "단계적 진입 권장 — 5 tranches × 20% over 3 months (DCA averaging)",
+    "Gold cluster (GDX+NEM+AEM = 21% portfolio) 진입 시 gold spot 가격 < $4,500 trigger 시 가속화",
+    "138040.KS 진입은 KRW/USD 1,350 미만 환율 환경 우대",
+    "Stop-loss는 cluster 단위 적용 — gold cluster -25% 시 전체 매도 검토"
+  ]
+}

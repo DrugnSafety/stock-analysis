@@ -1,0 +1,265 @@
+{
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T02",
+      "claim": "AI 데이터센터 핵심 병목은 전력/냉각 (45%)",
+      "ticker_exposure": "++",
+      "reasoning": "VRT의 raison d'être. 4-Analyst weighted_stance support (0.85)."
+    },
+    {
+      "thesis_id": "T03",
+      "claim": "Blackwell 액체냉각 필수",
+      "ticker_exposure": "++",
+      "reasoning": "Direct beneficiary. NVDA가 GPU sell, VRT가 cooling sell."
+    },
+    {
+      "thesis_id": "T01",
+      "claim": "우주 데이터센터 메가테마",
+      "ticker_exposure": "0",
+      "reasoning": "Indirect — 우주 환경 cooling은 다른 솔루션."
+    }
+  ],
+  "industry": {
+    "name": "AI Data Center Critical Infrastructure (Power · Cooling · 800VDC)",
+    "overview": "AI 데이터센터의 전력·냉각·UPS·rack PDU 등 'critical infrastructure'. NVIDIA Blackwell의 mandatory liquid cooling 표준 + 800VDC power architecture 전환의 1차 수혜주. 2024 Geist 인수로 rack PDU 라인업 강화. Backlog $9.4B 가시성.",
+    "competitors": [
+      {
+        "name": "Eaton",
+        "ticker": "ETN",
+        "share_pct": 20.0,
+        "moat": "전력 distribution 강점, 미국 industrial 노출"
+      },
+      {
+        "name": "Schneider Electric",
+        "ticker": "SBGSY",
+        "share_pct": 25.0,
+        "moat": "글로벌 1위, EcoStruxure 통합 platform"
+      },
+      {
+        "name": "ABB",
+        "ticker": "ABB",
+        "share_pct": 10.0,
+        "moat": "유럽 강점, 자동화 통합"
+      },
+      {
+        "name": "Asetek/CoolIT/Stulz (private)",
+        "ticker": "—",
+        "share_pct": 8.0,
+        "moat": "전문 cooling vendor, niche specialist"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 35.0,
+      "cagr_pct": 18.0,
+      "horizon": "2024-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-06",
+        "title": "VRT 임원 거래신고 (Form 4) 다수",
+        "source": "SEC EDGAR",
+        "summary": "1Y +250% 후 임원 매도 movement"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Geist DLC 통합 라인업 출시",
+        "source": "VRT Press",
+        "summary": "Blackwell GB200 전용 cooling solution 발표"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "Backlog $9.4B (+38% YoY) Q4 2025 결과",
+        "source": "VRT 10-K",
+        "summary": "AI DC capex 가속 가시화"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue": 4980,
+        "op_income": 195,
+        "op_margin": 3.9,
+        "net_income": -250,
+        "net_margin": -5.0
+      },
+      {
+        "year": "FY22",
+        "revenue": 5690,
+        "op_income": 540,
+        "op_margin": 9.5,
+        "net_income": 70,
+        "net_margin": 1.2
+      },
+      {
+        "year": "FY23",
+        "revenue": 6860,
+        "op_income": 1015,
+        "op_margin": 14.8,
+        "net_income": 460,
+        "net_margin": 6.7
+      },
+      {
+        "year": "FY24",
+        "revenue": 8010,
+        "op_income": 1402,
+        "op_margin": 17.5,
+        "net_income": 780,
+        "net_margin": 9.7
+      },
+      {
+        "year": "FY25E",
+        "revenue": 10500,
+        "op_income": 2048,
+        "op_margin": 19.5,
+        "net_income": 1450,
+        "net_margin": 13.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 7850,
+      "total_liab": 5450,
+      "equity": 2400,
+      "cash": 1200,
+      "debt": 2300
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 988,
+      "fcf_5y_avg": 802,
+      "capex_intensity": 0.025
+    },
+    "peer_compare": [
+      {
+        "ticker": "VRT",
+        "name": "Vertiv Holdings",
+        "pe": 91.5,
+        "pb": 17.5,
+        "roe": 65.0,
+        "div_yield": 0.05
+      },
+      {
+        "ticker": "ETN",
+        "name": "Eaton",
+        "pe": 31.0,
+        "pb": 7.5,
+        "roe": 22.0,
+        "div_yield": 1.1
+      },
+      {
+        "ticker": "SBGSY",
+        "name": "Schneider Electric",
+        "pe": 25.0,
+        "pb": 4.8,
+        "roe": 16.0,
+        "div_yield": 1.8
+      },
+      {
+        "ticker": "ABB",
+        "name": "ABB",
+        "pe": 22.0,
+        "pb": 5.5,
+        "roe": 25.0,
+        "div_yield": 2.5
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 520,
+      "thesis": "Liquid cooling 12배+ 성장, Backlog $9.4B → $20B (2027), 800VDC 표준화로 ASP +30%",
+      "key_assumptions": [
+        "DLC 채택 가속",
+        "Backlog 2배+ 성장",
+        "GB200 ramp 가속"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 410,
+      "thesis": "AI capex 지속 + DLC 점진적 도입, Forward PE 35-40, FY26 매출 $13B (+24%)",
+      "key_assumptions": [
+        "AI DC capex sustain",
+        "Margin expansion 22%+"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 240,
+      "thesis": "Schneider/Eaton 경쟁 격화 share loss, AI capex digestion 시 backlog growth 둔화",
+      "key_assumptions": [
+        "경쟁 격화",
+        "AI capex pause"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "FY26 Q1 earnings",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Backlog $10B+ 도달 가능성"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "GB200 NVL72 본격 deployment",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "DLC 채택 강제 → VRT 매출 가속"
+    },
+    {
+      "date": "2026-H2",
+      "event": "800VDC architecture 표준화",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "OCP/Open19 표준 + NVDA 채택"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Stargate Phase 1 build-out 본격화",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "VRT가 OpenAI 인프라 핵심 supplier"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 42x — 고밸류에이션 부담",
+      "probability": "high",
+      "impact": "med",
+      "description": "역대 최고치 PE, 실적 둔화 시 -30% 가능",
+      "mitigation": "Backlog 가시성으로 리스크 일부 헤지"
+    },
+    {
+      "name": "Schneider/Eaton DLC 진입",
+      "probability": "high",
+      "impact": "med",
+      "description": "이미 진입 중, 점유율 분할 가능",
+      "mitigation": "Geist M&A로 rack PDU 강화"
+    },
+    {
+      "name": "AI capex digestion phase",
+      "probability": "med",
+      "impact": "high",
+      "description": "T02 thesis 일시 중단 시 backlog growth 둔화",
+      "mitigation": "non-AI DC + telecom 다변화"
+    },
+    {
+      "name": "공급망 (반도체·rare earth)",
+      "probability": "med",
+      "impact": "med",
+      "description": "rack PDU·UPS lead time 24주+",
+      "mitigation": "다변화"
+    },
+    {
+      "name": "1Y +250% 후 mean-reversion",
+      "probability": "med",
+      "impact": "high",
+      "description": "단기 차익실현 매물 가능성",
+      "mitigation": "장기 thesis 견고"
+    }
+  ],
+  "korean_disclosures": []
+}

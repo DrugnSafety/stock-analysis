@@ -1,0 +1,171 @@
+{
+  "ticker": "298040.KS",
+  "company_kr": "효성중공업",
+  "company_en": "Hyosung Heavy Industries",
+  "exchange": "KOSPI",
+  "as_of_date": "2026-06-16",
+  "industry": {
+    "name": "중전기·변압기·STATCOM",
+    "name_kr": "중전기 / 변압기·STATCOM·HVDC (미국 멤피스 공장)",
+    "overview": "변압기·STATCOM·중전기. 미국 멤피스 변압기 공장으로 현지 수요 직접 공략. STATCOM(무효전력 보상)은 신재생·데이터센터 전력 안정화 핵심. AI 전력 인프라·전력망 안정화 동시 수혜.",
+    "competitors": [
+      {
+        "name": "HD현대일렉트릭",
+        "ticker": "267260.KS",
+        "share_pct": null,
+        "moat": "변압기 Top3"
+      },
+      {
+        "name": "Siemens Energy",
+        "ticker": "ENR.DE",
+        "share_pct": null,
+        "moat": "전력장비·그리드"
+      },
+      {
+        "name": "GE Vernova",
+        "ticker": "GEV",
+        "share_pct": null,
+        "moat": "전력장비"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "미국 변압기 부족·전력망 안정화(STATCOM) 수요로 TAM 확대. 신재생 비중 증가가 무효전력 보상장비 수요 견인."
+    },
+    "ai_infrastructure_context": "신재생·데이터센터 증가→전력망 변동성↑→STATCOM 수요↑. 변압기 부족과 결합해 효성중공업 중전기 수혜 폭 확대.",
+    "news": []
+  },
+  "financials": {
+    "currency": "KRW",
+    "unit": "KRW 조",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, KRW 조)",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": null,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": null,
+        "net_margin": null
+      },
+      {
+        "year": 2022,
+        "revenue": 3.51,
+        "op_income": 0.146,
+        "op_margin": 4.2,
+        "net_income": 0.01,
+        "net_margin": 0.3
+      },
+      {
+        "year": 2023,
+        "revenue": 4.301,
+        "op_income": 0.262,
+        "op_margin": 6.1,
+        "net_income": 0.116,
+        "net_margin": 2.7
+      },
+      {
+        "year": 2024,
+        "revenue": 4.895,
+        "op_income": 0.321,
+        "op_margin": 6.6,
+        "net_income": 0.223,
+        "net_margin": 4.5
+      },
+      {
+        "year": 2025,
+        "revenue": 5.969,
+        "op_income": 0.722,
+        "op_margin": 12.1,
+        "net_income": 0.52,
+        "net_margin": 8.7
+      }
+    ],
+    "trajectory_summary": "매출 3.5조→6.0조 (CAGR 19.4%). AI 전력·인프라 수요로 외형 성장 지속.",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 4500000,
+      "thesis": "미국 멤피스 증설+STATCOM 수주+변압기 호황",
+      "key_assumptions": [
+        "멤피스 가동률 상승",
+        "STATCOM 수주 확대",
+        "변압기 ASP 상승"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 3700000,
+      "thesis": "중전기 호황 지속하나 고밸류·변동성",
+      "key_assumptions": [
+        "수주 견조",
+        "마진 개선",
+        "고밸류 부담"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 2600000,
+      "thesis": "변압기 사이클 둔화+고베타 되돌림",
+      "key_assumptions": [
+        "사이클 둔화",
+        "경쟁 심화",
+        "beta 2.0 변동성"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "미국 멤피스 변압기 증설·수주",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "현지 수요 공략"
+    },
+    {
+      "date": "2026",
+      "event": "STATCOM·HVDC 수주",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "전력망 안정화 수요"
+    }
+  ],
+  "risks": [
+    {
+      "name": "고베타 변동성",
+      "probability": "high",
+      "impact": "high",
+      "description": "beta 2.0·1y +410% 급등",
+      "mitigation": "분할 접근·실적 확인"
+    },
+    {
+      "name": "변압기 사이클",
+      "probability": "med",
+      "impact": "high",
+      "description": "호황 정점 리스크",
+      "mitigation": "미국 현지화·STATCOM 다변화"
+    },
+    {
+      "name": "건설부문 변동성",
+      "probability": "med",
+      "impact": "med",
+      "description": "중공업+건설 복합",
+      "mitigation": "중전기 비중 확대"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 '흥미로운 데이터 6-4'",
+      "yfinance income_stmt (live)"
+    ]
+  }
+}

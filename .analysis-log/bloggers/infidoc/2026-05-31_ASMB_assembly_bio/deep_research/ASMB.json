@@ -1,0 +1,217 @@
+{
+  "industry": {
+    "name": "항바이러스 + 담즙정체성 간질환 (HSV·HBV·HDV·PBC/PSC)",
+    "overview": "Assembly Biosciences는 길리어드(GILD)가 25.1% 지분을 보유한 임상단계 항바이러스 바이오텍이다. 핵심 자산은 ① long-acting 헤르페스(HSV) helicase-primase inhibitor ABI-5366/ABI-1179(길리어드 opt-in 대상), ② NTCP 억제제 ABI-6250(HDV entry inhibitor → PBC/PSC 담즙정체성 간질환으로 적응증 확장), ③ HBV 자산이다. 인피의 thesis의 핵심은 ABI-6250이 단일 HDV 후보에서 'NTCP 억제 플랫폼'으로 자산 분류 자체가 바뀌었다는 점이며, NTCP가 HDV 진입 수용체이자 담즙산 transporter를 겸하는 dual 기전이 근거다.",
+    "competitors": [
+      {
+        "name": "Vir Biotechnology (HDV 경쟁 — SOLSTICE Phase2 우위)",
+        "ticker": "VIR"
+      },
+      {
+        "name": "Gilead Sciences (25.1% 주주이자 HSV opt-in 파트너·PBC seladelpar 보유)",
+        "ticker": "GILD"
+      },
+      {
+        "name": "Mirum Pharma (담즙정체·volixibat PBC/PSC)",
+        "ticker": "MIRM"
+      },
+      {
+        "name": "GSK (linerixibat PBC 소양증 Phase3)",
+        "ticker": "GSK"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-22",
+        "title": "ABI-6250 적응증 HDV→PBC/PSC 확장 공식화, FDA pre-IND 'constructive'",
+        "summary": "영향: 긍정적",
+        "source": "SEC/IR/뉴스"
+      },
+      {
+        "date": "2026-05-26",
+        "title": "$26.50 등록 공모 마감 (net ~$107M), 길리어드 추가 참여",
+        "summary": "영향: 긍정적",
+        "source": "SEC/IR/뉴스"
+      },
+      {
+        "date": "2026-05-27",
+        "title": "EASL 2026 Phase 1a(WED-579): tBA 10.7~21.4배↑, pruritus 무신호; Gilead 지분 25.1% 13D/A",
+        "summary": "영향: 긍정적",
+        "source": "SEC/IR/뉴스"
+      },
+      {
+        "date": "2026-05-29",
+        "title": "Russell 3000 6월 reconstitution 예비 편입 리스트 등재",
+        "summary": "영향: 중립",
+        "source": "SEC/IR/뉴스"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 5.0,
+      "cagr_pct": 8.0,
+      "horizon": "PBC/PSC+HDV 합산 잠재 시장 (2030E, 추정)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2022",
+        "revenue": 0.0,
+        "op_income": -0.094,
+        "op_margin": 0,
+        "net_income": -0.093,
+        "net_margin": 0
+      },
+      {
+        "year": "2023",
+        "revenue": 0.007,
+        "op_income": -0.065,
+        "op_margin": -902.5,
+        "net_income": -0.061,
+        "net_margin": -854.8
+      },
+      {
+        "year": "2024",
+        "revenue": 0.029,
+        "op_income": -0.045,
+        "op_margin": -159.3,
+        "net_income": -0.04,
+        "net_margin": -140.9
+      },
+      {
+        "year": "2025",
+        "revenue": 0.072,
+        "op_income": -0.012,
+        "op_margin": -16.8,
+        "net_income": -0.006,
+        "net_margin": -8.5
+      }
+    ],
+    "peer_compare": [
+      {
+        "ticker": "ASMB",
+        "name": "Assembly Biosciences",
+        "pe": 345.75,
+        "pb": 2.2133312,
+        "roe": -5.6550004000000005,
+        "div_yield": null
+      },
+      {
+        "ticker": "VIR",
+        "name": "Vir Biotechnology",
+        "pe": -4.146474,
+        "pb": 1.738655,
+        "roe": -47.692,
+        "div_yield": null
+      },
+      {
+        "ticker": "MIRM",
+        "name": "Mirum Pharmaceuticals",
+        "pe": -181.89963,
+        "pb": 25.502512,
+        "roe": -335.82401000000004,
+        "div_yield": null
+      },
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "pe": 18.289795,
+        "pb": 7.1003003,
+        "roe": 43.36,
+        "div_yield": 2.44
+      }
+    ],
+    "financial_unit": {
+      "currency": "USD",
+      "scale": "B"
+    },
+    "bs_snapshot": {
+      "cash": 0.227,
+      "debt": 0.002,
+      "total_assets": 0.3,
+      "total_liab": 0.05,
+      "equity": 0.25
+    },
+    "cf_summary": {
+      "note": "임상단계 — 영업현금흐름 음(-), 1Q26 현금 $226.6M + 공모 net ~$107M으로 2개 Phase2 동시 진행 가능. 2028+ 런웨이."
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "길리어드 HSV opt-in 행사 + HDV/PBC-PSC Phase2 순항 → '항바이러스·간질환 플랫폼'으로 재평가, 빅파마 추가 자본·M&A 옵션 부각",
+      "key_assumptions": [
+        "길리어드 opt-in 긍정",
+        "ABI-6250 환자 효능 신호(2027~28)",
+        "PBC/PSC 경쟁 우위 유지"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "임상 진행은 순조롭지만 효능 데이터(2027~28) 전까지 NPV 할인 지속, 주가는 공모가($26.50)~$30대 박스권",
+      "key_assumptions": [
+        "Phase2 일정 준수",
+        "추가 희석 없음",
+        "길리어드 지분 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "길리어드 opt-in 거절 또는 HDV에서 VIR(SOLSTICE) 대비 열위·PBC/PSC 임상 실패 → 단일 HSV 회사로 재축소",
+      "key_assumptions": [
+        "opt-in 거절",
+        "경쟁 열위",
+        "추가 대규모 희석"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 중반",
+      "event": "길리어드 ABI-5366(HSV) opt-in 결정",
+      "expected_impact": "high"
+    },
+    {
+      "date": "2026 4Q",
+      "event": "ABI-6250 HDV Phase 2 개시",
+      "expected_impact": "high"
+    },
+    {
+      "date": "2026-06-26",
+      "event": "Russell 3000 reconstitution 종가 편입(패시브 매수)",
+      "expected_impact": "med"
+    },
+    {
+      "date": "2027 1Q",
+      "event": "PBC/PSC basket Phase 2 개시",
+      "expected_impact": "high"
+    }
+  ],
+  "risks": [
+    {
+      "name": "임상 실패 — Phase1a는 환자 효능 데이터 아님 (HDV RNA·PBC ALP/소양증 미입증)",
+      "probability": "med",
+      "impact": "high"
+    },
+    {
+      "name": "길리어드 opt-in 거절 시 핵심 HSV 검증 서사 훼손",
+      "probability": "med",
+      "impact": "high"
+    },
+    {
+      "name": "HDV에서 VIR(tobevibart+elebsiran, 96주 88% RNA 음전) 대비 열위",
+      "probability": "med",
+      "impact": "med"
+    },
+    {
+      "name": "추가 희석 — 2개 Phase2 동시 진행에 따른 cash burn",
+      "probability": "med",
+      "impact": "med"
+    },
+    {
+      "name": "Russell 수급 일회성 — 공모 참여자 exit·index-arb 선반영",
+      "probability": "high",
+      "impact": "low"
+    }
+  ]
+}

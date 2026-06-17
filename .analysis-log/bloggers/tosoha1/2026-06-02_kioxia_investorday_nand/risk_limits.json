@@ -1,0 +1,81 @@
+{
+  "portfolio_value_usd": 1000000,
+  "risk_limits": {
+    "285A.T": {
+      "ticker": "285A.T",
+      "name": "키옥시아",
+      "vol_annual_pct": 94.21,
+      "vol_category": "very_high",
+      "vol_multiplier": 0.5,
+      "base_position_pct": 5.0,
+      "max_position_pct": 2.5,
+      "max_position_usd": 25000.0,
+      "correlation_to_peers": 0.7,
+      "correlation_adjustment": 0.85,
+      "final_max_position_pct": 2.12,
+      "final_max_position_usd": 21250.0,
+      "rationale": "vol 94% (very_high) × peer correlation 0.7 penalty"
+    },
+    "SNDK": {
+      "ticker": "SNDK",
+      "name": "샌디스크",
+      "vol_annual_pct": 94.99,
+      "vol_category": "very_high",
+      "vol_multiplier": 0.5,
+      "base_position_pct": 5.0,
+      "max_position_pct": 2.5,
+      "max_position_usd": 25000.0,
+      "correlation_to_peers": 0.7,
+      "correlation_adjustment": 0.85,
+      "final_max_position_pct": 2.12,
+      "final_max_position_usd": 21250.0,
+      "rationale": "vol 95% (very_high) × peer correlation 0.7 penalty"
+    },
+    "000660.KS": {
+      "ticker": "000660.KS",
+      "name": "SK하이닉스",
+      "vol_annual_pct": 66.9,
+      "vol_category": "high",
+      "vol_multiplier": 0.75,
+      "base_position_pct": 5.0,
+      "max_position_pct": 3.75,
+      "max_position_usd": 37500.0,
+      "correlation_to_peers": 0.7,
+      "correlation_adjustment": 0.85,
+      "final_max_position_pct": 3.19,
+      "final_max_position_usd": 31875.0,
+      "rationale": "vol 67% (high) × peer correlation 0.7 penalty"
+    },
+    "MU": {
+      "ticker": "MU",
+      "name": "마이크론",
+      "vol_annual_pct": 64.26,
+      "vol_category": "high",
+      "vol_multiplier": 0.75,
+      "base_position_pct": 5.0,
+      "max_position_pct": 3.75,
+      "max_position_usd": 37500.0,
+      "correlation_to_peers": 0.7,
+      "correlation_adjustment": 0.85,
+      "final_max_position_pct": 3.19,
+      "final_max_position_usd": 31875.0,
+      "rationale": "vol 64% (high) × peer correlation 0.7 penalty"
+    },
+    "005930.KS": {
+      "ticker": "005930.KS",
+      "name": "삼성전자",
+      "vol_annual_pct": 53.24,
+      "vol_category": "high",
+      "vol_multiplier": 0.75,
+      "base_position_pct": 5.0,
+      "max_position_pct": 3.75,
+      "max_position_usd": 37500.0,
+      "correlation_to_peers": 0.7,
+      "correlation_adjustment": 0.85,
+      "final_max_position_pct": 3.19,
+      "final_max_position_usd": 31875.0,
+      "rationale": "vol 53% (high) × peer correlation 0.7 penalty"
+    }
+  },
+  "evaluated_at": "2026-06-02T15:41:51.840358"
+}

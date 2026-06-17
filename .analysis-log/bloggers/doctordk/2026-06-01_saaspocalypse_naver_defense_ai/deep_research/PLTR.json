@@ -1,0 +1,265 @@
+{
+  "industry": {
+    "name": "AI 통합 플랫폼 / 정부·국방 데이터 OS",
+    "overview": "Palantir은 정부(Gotham)·상업(Foundry)·AI(AIP) 플랫폼으로 '엔터프라이즈 AI 통합 OS' 지위를 구축. SaaSpocalypse 국면에서 per-seat 잠식 위협이 작은 '운영체제형' 포지셔닝 덕에 상대적 회복탄력성을 보임. 의교창이 SaaS 회복의 선행 바로미터로 지목. 단위: $M.",
+    "competitors": [
+      {
+        "name": "Palantir",
+        "ticker": "PLTR",
+        "share_pct": null,
+        "moat": "정부·국방 백로그 + FDE 모델 + AIP 부트캠프 전환 엔진"
+      },
+      {
+        "name": "Snowflake",
+        "ticker": "SNOW",
+        "share_pct": null,
+        "moat": "데이터 클라우드 — 5/28 +36% 급등, AI 데이터 레이어 경쟁"
+      },
+      {
+        "name": "Microsoft",
+        "ticker": "MSFT",
+        "share_pct": null,
+        "moat": "Azure+Fabric+Copilot 통합, 정부 클라우드(GCC High)"
+      },
+      {
+        "name": "ServiceNow",
+        "ticker": "NOW",
+        "share_pct": null,
+        "moat": "엔터프라이즈 워크플로 — 인접 경쟁"
+      },
+      {
+        "name": "네이버",
+        "ticker": "035420.KS",
+        "share_pct": null,
+        "moat": "한국형 팔란티어 — 소버린 시장 로컬 대항마"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "SaaSpocalypse 종료…Oracle·ServiceNow 섹터 반등 주도",
+        "source": "FinancialContent",
+        "summary": "Palantir은 'per-user 도구가 아닌 AI 통합 OS'로 회복탄력성 유지"
+      },
+      {
+        "date": "2026-06-01",
+        "title": "네이버 '한국형 팔란티어' 국방AX 진출",
+        "source": "서울경제",
+        "summary": "Palantir 모델이 글로벌 소버린 국방 AI 표준으로 확산되는 방증"
+      },
+      {
+        "date": "2026-05-28",
+        "title": "소프트웨어 랠리 재점화 (Snowflake +36%)",
+        "source": "CNBC",
+        "summary": "AI 데이터/플랫폼 레이어로 매수세 회귀 — PLTR 동반 강세"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "PLTR AIP 상업부문 가속·정부 백로그 확대",
+        "source": "실적",
+        "summary": "2025 매출 $4.47B(+56% YoY), 영업익 흑자 전환 가속"
+      },
+      {
+        "date": "2026-06-01",
+        "title": "의교창: 팔란티어 반등이 눈에 보임",
+        "source": "blog.naver.com/doctordk",
+        "summary": "SaaS 섹터 심리 전환의 선행 신호로 활용"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 50.0,
+      "cagr_pct": 25.0,
+      "horizon": "엔터프라이즈+정부 AI 플랫폼 2026→2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 1906,
+        "op_income": -161,
+        "net_income": -374,
+        "op_margin": -8.4,
+        "net_margin": -19.6
+      },
+      {
+        "year": 2023,
+        "revenue": 2225,
+        "op_income": 120,
+        "net_income": 210,
+        "op_margin": 5.4,
+        "net_margin": 9.4
+      },
+      {
+        "year": 2024,
+        "revenue": 2866,
+        "op_income": 310,
+        "net_income": 462,
+        "op_margin": 10.8,
+        "net_margin": 16.1
+      },
+      {
+        "year": 2025,
+        "revenue": 4475,
+        "op_income": 1414,
+        "net_income": 1625,
+        "op_margin": 31.6,
+        "net_margin": 36.3
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 8000,
+      "total_liab": 1500,
+      "equity": 6500,
+      "cash": 5200,
+      "debt": 0
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 900,
+      "fcf_5y_avg": 800,
+      "capex_intensity": 0.02
+    },
+    "peer_compare": [
+      {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "pe": 173.7,
+        "pb": 43.4,
+        "roe": 12.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "SNOW",
+        "name": "Snowflake",
+        "pe": null,
+        "pb": 15.0,
+        "roe": -5.0,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "NOW",
+        "name": "ServiceNow",
+        "pe": 75.4,
+        "pb": 11.1,
+        "roe": 15.0,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 210.0,
+      "thesis": "AIP 상업 확산 + 정부·국방 글로벌 백로그 + 소버린 AI 확산으로 매출 +40% 지속, Rule of 40 최상위 유지.",
+      "key_assumptions": [
+        "AIP 부트캠프 전환율 고공",
+        "미국+동맹국 국방 계약 확대",
+        "고성장 프리미엄 유지"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 150.0,
+      "thesis": "매출 고성장 지속하나 fwd PE 73의 높은 밸류가 멀티플 추가 확장을 제약. 실적이 밸류를 따라잡는 국면.",
+      "key_assumptions": [
+        "매출 +30%대 성장",
+        "마진 개선 지속",
+        "멀티플 정체"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 95.0,
+      "thesis": "고밸류 모멘텀주 특성상 성장 둔화·금리 충격 시 멀티플 디레이팅 폭이 가장 큼.",
+      "key_assumptions": [
+        "성장률 +20%대로 둔화",
+        "정부 예산 삭감",
+        "리스크오프 멀티플 압축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "분기 실적 — AIP 상업 매출·NRR",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "고밸류 정당화의 핵심: 성장률·마진 확인"
+    },
+    {
+      "date": "2026-H2",
+      "event": "미국·동맹국 신규 국방 계약",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "정부 백로그 확대 — 백본 매출 가시성"
+    },
+    {
+      "date": "2026-H2",
+      "event": "소버린 AI 글로벌 확산(네이버 등)",
+      "type": "theme",
+      "expected_impact": "med",
+      "description": "Palantir 모델 표준화 → TAM 확대 내러티브"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "S&P500 비중·패시브 자금 흐름",
+      "type": "flow",
+      "expected_impact": "med",
+      "description": "지수 편입 효과·수급"
+    }
+  ],
+  "risks": [
+    {
+      "name": "극단적 밸류에이션(fwd PE 73)",
+      "probability": "high",
+      "impact": "high",
+      "description": "성장 둔화·리스크오프 시 멀티플 압축 폭 최대",
+      "mitigation": "매출 고성장·흑자 가속이 밸류를 따라잡으면 완화"
+    },
+    {
+      "name": "정부 예산·계약 집중",
+      "probability": "med",
+      "impact": "med",
+      "description": "정부 매출 비중 높아 예산 사이클·정치 리스크 노출",
+      "mitigation": "상업(AIP) 부문 확대로 분산"
+    },
+    {
+      "name": "내러티브 의존(선행지표 과신)",
+      "probability": "med",
+      "impact": "low",
+      "description": "'반등이 보인다'는 주관적 관찰 — 후행/무관 가능",
+      "mitigation": "펀더멘털(RPO·NRR) 동반 확인"
+    },
+    {
+      "name": "빅테크 AI 플랫폼 경쟁",
+      "probability": "med",
+      "impact": "med",
+      "description": "MSFT/AWS 등 통합 플랫폼의 잠식",
+      "mitigation": "FDE·정부 신뢰·온톨로지 해자"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Palantir은 SaaSpocalypse 회복탄력성이 가장 강하다",
+      "type": "factual",
+      "evidence": "FinancialContent: 'AI 통합 OS' 인식, per-seat 잠식 영향 작음",
+      "testability": "med",
+      "current_status": "지지"
+    },
+    {
+      "claim": "Palantir 반등이 SaaS 회복의 선행 신호다",
+      "type": "predictive",
+      "evidence": "의교창 관찰 '눈에 보임'",
+      "testability": "low",
+      "current_status": "미검증 — 후행 가능성 도전"
+    },
+    {
+      "claim": "고밸류가 신규 진입의 안전마진을 제약한다",
+      "type": "predictive",
+      "evidence": "fwd PE 73.7, PB 43",
+      "testability": "high",
+      "current_status": "지지"
+    }
+  ],
+  "korean_disclosures": []
+}

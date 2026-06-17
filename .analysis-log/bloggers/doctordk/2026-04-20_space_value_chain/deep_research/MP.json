@@ -1,0 +1,313 @@
+{
+  "ticker": "MP",
+  "name_kr": "MP 머티리얼스",
+  "name_en": "MP Materials Corp.",
+  "industry": {
+    "name": "Rare Earth Mining + Refining + Magnet Manufacturing",
+    "overview": "MP Materials는 미국 Mountain Pass 광산을 운영하는 비중국 rare earth supplier #1. 1-6단계(채굴 → 분리 → 산화물 → 금속 → 합금 → magnet) vertical integration 진행 중. Stage I(채굴·농축)은 2020 가동, Stage II(분리·산화물)는 2024 일부 가동, Stage III(metalization·magnet)은 2025-26 ramp 예정. 미국 정부 Defense Production Act(DPA)을 통해 NdPr 가격 floor $110/kg + 다년 contract $1.1B+. 단일 위협은 중국 rare earth export 정책 변동성. 2024 매출 $200M → 2025E $400M → 2027E $700M+ projected. 우주·EV·풍력·방산 다중 demand 결합.",
+    "competitors": [
+      {
+        "name": "China Northern Rare Earth",
+        "ticker": "600111.SS",
+        "share_pct": 35,
+        "moat": "Bayan Obo 광산 + 중국 정부 export 통제"
+      },
+      {
+        "name": "Lynas Rare Earths",
+        "ticker": "LYC.AX",
+        "share_pct": 12,
+        "moat": "Mt Weld + Malaysia/Kalgoorlie 정제 — 비중국 분리/금속화 사실상 유일"
+      },
+      {
+        "name": "MP Materials",
+        "ticker": "MP",
+        "share_pct": 15,
+        "moat": "Mountain Pass + Stillwater + DoD floor + 100% US vertical"
+      },
+      {
+        "name": "Energy Fuels",
+        "ticker": "UUUU",
+        "share_pct": 4,
+        "moat": "White Mesa Mill — uranium + monazite 정제"
+      },
+      {
+        "name": "USA Rare Earth",
+        "ticker": "USAR",
+        "share_pct": 3,
+        "moat": "Round Top 광산 + Stillwater magnet"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-04-30",
+        "title": "MP, GM과 다년 NdFeB magnet 공급 계약 — 미국 EV motor 대상",
+        "source": "MP Press Release",
+        "summary": "GM EV motor 5억+ unit 20-year supply agreement. Stage III 가동 후 본격 deploy."
+      },
+      {
+        "date": "2025-03-22",
+        "title": "DOD, MP와 Mountain Pass capex $35M 지원 — 분리·정제 capacity 50% 확대",
+        "source": "DOD",
+        "summary": "Defense Production Act Title III. Stage II 양산화 가속."
+      },
+      {
+        "date": "2025-02-11",
+        "title": "MP Q4'24 매출 $50M (+25% YoY) — Stage II 분리 매출 첫 인식",
+        "source": "MP earnings",
+        "summary": "NdPr $90/kg 평균 판매. Stage III 2026 H1 가동 일정."
+      },
+      {
+        "date": "2024-12-15",
+        "title": "중국, NdPr·Dy·Tb export 통제 강화 — 미국 buyer 가격 급등",
+        "source": "Reuters",
+        "summary": "비중국 supplier 가격 spike — MP·LYC 직접 수혜."
+      },
+      {
+        "date": "2024-08-22",
+        "title": "MP, Stillwater magnet 시설 인수 — Apple·Tesla 직접 공급",
+        "source": "MP/Apple",
+        "summary": "Apple iPhone vibration motor + Tesla magnet 공급 contract."
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 6.0,
+      "cagr_pct": 11,
+      "horizon": "2024-2030 글로벌 rare earth + magnet"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 332,
+        "op_income": 180,
+        "op_margin": 54.2,
+        "net_income": 135,
+        "net_margin": 40.7
+      },
+      {
+        "year": 2022,
+        "revenue": 528,
+        "op_income": 320,
+        "op_margin": 60.6,
+        "net_income": 290,
+        "net_margin": 54.9
+      },
+      {
+        "year": 2023,
+        "revenue": 254,
+        "op_income": 30,
+        "op_margin": 11.8,
+        "net_income": 25,
+        "net_margin": 9.8
+      },
+      {
+        "year": 2024,
+        "revenue": 200,
+        "op_income": -25,
+        "op_margin": -12.5,
+        "net_income": -50,
+        "net_margin": -25.0
+      },
+      {
+        "year": 2025,
+        "revenue": 400,
+        "op_income": 60,
+        "op_margin": 15.0,
+        "net_income": 30,
+        "net_margin": 7.5
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31",
+      "total_assets_usdmn": 1850,
+      "total_debt_usdmn": 720,
+      "total_equity_usdmn": 980,
+      "cash_usdmn": 350,
+      "net_debt_usdmn": 370,
+      "debt_to_equity": 0.73,
+      "current_ratio": 3.5
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 80,
+      "capex_2025_usdmn": -200,
+      "fcf_2025_usdmn": -120,
+      "dividend_paid_2025_usdmn": 0,
+      "buyback_2025_usdmn": 0
+    },
+    "peer_compare": [
+      {
+        "ticker": "MP",
+        "fwd_pe": 51.5,
+        "ev_ebitda": 25,
+        "fcf_yield_pct": -1.0,
+        "roe_pct": 3.0,
+        "debt_to_equity": 0.73
+      },
+      {
+        "ticker": "LYC.AX",
+        "fwd_pe": 22,
+        "ev_ebitda": 12,
+        "fcf_yield_pct": 4.5,
+        "roe_pct": 8,
+        "debt_to_equity": 0.4
+      },
+      {
+        "ticker": "UUUU",
+        "fwd_pe": "n/m",
+        "ev_ebitda": 28,
+        "fcf_yield_pct": -2.5,
+        "roe_pct": -3,
+        "debt_to_equity": 0.05
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "Stage III 양산 + China export ban 강화 + EV/풍력 demand peak",
+      "assumption": "NdPr $150+/kg, 2027E 매출 $1B, 영업이익률 30%+",
+      "upside_pct": 50,
+      "prob_pct": 30,
+      "target_price": 101,
+      "thesis": "Vertical integration 완료 + geopolitical premium",
+      "key_assumptions": [
+        "Stage III 2026 H1 가동",
+        "NdPr $150+/kg 유지",
+        "GM·Apple·Tesla supply 시작"
+      ]
+    },
+    "base": {
+      "label": "Stage III 정상 ramp + NdPr $100-120/kg 유지",
+      "assumption": "2027E 매출 $700M, 영업이익률 22%",
+      "upside_pct": 18,
+      "prob_pct": 50,
+      "target_price": 80,
+      "thesis": "Steady vertical integration progress",
+      "key_assumptions": [
+        "Stage III 2026 H2 가동",
+        "NdPr $100-120/kg",
+        "DoD floor 유지"
+      ]
+    },
+    "bear": {
+      "label": "Stage III 1년 지연 + China export ban 해제 + NdPr $60/kg",
+      "assumption": "2027E 매출 $400M, 영업이익률 5%",
+      "downside_pct": -30,
+      "prob_pct": 20,
+      "target_price": 47,
+      "thesis": "Execution + commodity cycle bear",
+      "key_assumptions": [
+        "Stage III major delay",
+        "China policy 완화",
+        "NdPr $60/kg"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 H1",
+      "event": "Stage III metalization 가동",
+      "type": "product",
+      "expected_impact": "++",
+      "description": "+15-25%"
+    },
+    {
+      "date": "2025-2027",
+      "event": "GM·Apple·Tesla magnet supply 시작",
+      "type": "partnership",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    },
+    {
+      "date": "ongoing",
+      "event": "DoD NdPr floor price contract 갱신·확장",
+      "type": "partnership",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    },
+    {
+      "date": "ongoing",
+      "event": "NdPr 가격 $130+/kg 달성 시",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "+5-15%"
+    },
+    {
+      "date": "2026-2027",
+      "event": "Stillwater facility 양산 + magnet 매출 인식",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "China rare earth export 정책 완화",
+      "probability": "low",
+      "impact": "high",
+      "description": "China가 export ban 해제 시 NdPr 가격 -30-40% 가능",
+      "mitigation": "DoD floor + 다년 supply contract"
+    },
+    {
+      "name": "Stage III metalization 1년+ 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "Stage III 가동이 vertical integration 핵심",
+      "mitigation": "Stage II 매출 기반 + DoD 자금 지원"
+    },
+    {
+      "name": "Rare earth substitution (motor 설계 변경)",
+      "probability": "low",
+      "impact": "high",
+      "description": "Tesla 등 EV motor 설계 변경으로 NdFeB 회피 가능",
+      "mitigation": "다중 end-market diversification"
+    },
+    {
+      "name": "+183% 1Y rally 후 mean-reversion",
+      "probability": "med",
+      "impact": "med",
+      "description": "Commodity cycle peak 우려",
+      "mitigation": "DoD floor + multi-thesis demand"
+    },
+    {
+      "name": "환경 규제 (Mountain Pass radioactive waste)",
+      "probability": "low",
+      "impact": "med",
+      "description": "정제 과정의 thorium 방사능 처리",
+      "mitigation": "EPA·NRC 다년 라이선스 보유"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T5",
+      "claim": "Supply Chain Layer 원자재가 가장 먼저 가장 크게 수혜",
+      "type": "framework",
+      "evidence": "MP는 비중국 vertical integration 1-6단계 + DoD floor",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "MP는 의교창의 Layer 3 supply chain leverage thesis 정확히 매칭. DoD floor가 unique downside protection"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "5계층 framework Layer 3 supply chain",
+      "type": "framework",
+      "evidence": "MP는 Layer 3 pure-play",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "Multi-thesis convergence: 우주 + EV + 풍력 + 방산 동시"
+    },
+    {
+      "thesis_id": "T7",
+      "claim": "우주 = AI 산업 확장판",
+      "type": "secular",
+      "evidence": "AI robotics + 우주 motor 모두 NdFeB 활용",
+      "testability": "med",
+      "current_status": "indirect",
+      "support_for_ticker": "MEDIUM",
+      "ticker_specific_note": "AI robotics motor demand 추가 leverage"
+    }
+  ],
+  "korean_disclosures": []
+}

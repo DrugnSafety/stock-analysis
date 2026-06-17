@@ -1,0 +1,128 @@
+{
+  "computed_at": "2026-06-16T15:00:00+09:00",
+  "portfolio_value": 1000000.0,
+  "base_limit_pct": 0.05,
+  "n_pairs": 5,
+  "limits": [
+    {
+      "ticker": "AA",
+      "as_of_date": "2026-06-16",
+      "current_price": 62.87,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03361,
+        "annualized_volatility": 0.5336,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.55,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.65,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.0179,
+      "position_limit_value": 17875.0,
+      "remaining_position_limit_value": 17875.0,
+      "max_quantity": 284
+    },
+    {
+      "ticker": "011200.KS",
+      "as_of_date": "2026-06-16",
+      "current_price": 22550.0,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.0247,
+        "annualized_volatility": 0.3921,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.0,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.65,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.0325,
+      "position_limit_value": 32500.0,
+      "remaining_position_limit_value": 32500.0,
+      "max_quantity": 1988
+    },
+    {
+      "ticker": "025860.KS",
+      "as_of_date": "2026-06-16",
+      "current_price": 6610.0,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03117,
+        "annualized_volatility": 0.4948,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.0,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.65,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.0325,
+      "position_limit_value": 32500.0,
+      "remaining_position_limit_value": 32500.0,
+      "max_quantity": 6785
+    },
+    {
+      "ticker": "ADM",
+      "as_of_date": "2026-06-16",
+      "current_price": 78.02,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.01689,
+        "annualized_volatility": 0.2681,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.25,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.65,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.0406,
+      "position_limit_value": 40625.0,
+      "remaining_position_limit_value": 40625.0,
+      "max_quantity": 520
+    },
+    {
+      "ticker": "005180.KS",
+      "as_of_date": "2026-06-16",
+      "current_price": 68800.0,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.02008,
+        "annualized_volatility": 0.3187,
+        "volatility_percentile": 50.0,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.0,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 0.65,
+      "base_limit_pct": 0.05,
+      "combined_limit_pct": 0.0325,
+      "position_limit_value": 32500.0,
+      "remaining_position_limit_value": 32500.0,
+      "max_quantity": 651
+    }
+  ]
+}

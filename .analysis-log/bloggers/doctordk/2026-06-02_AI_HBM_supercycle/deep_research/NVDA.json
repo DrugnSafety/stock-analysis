@@ -1,0 +1,238 @@
+{
+  "industry": {
+    "name": "AI Accelerator / GPU / Data Center Compute",
+    "overview": "NVIDIA는 AI Accelerator 시장 점유율 80%+, 글로벌 Data Center GPU 사실상 독점. 의교창 thesis에서의 위치: GPU는 AI 인프라 수요의 직접 수혜이자 동시에 CoWoS·HBM 병목으로 인한 공급 제약을 받는 양면. 2024-2026 Data Center 매출 5배 성장 ($47B → $230B+) 후에도 'demand continues to significantly exceed supply'. Blackwell·Blackwell Ultra·Rubin 로드맵으로 향후 3년 visibility 확보.",
+    "competitors": [
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "share_pct": 83.0,
+        "moat": "CUDA 생태계 lock-in + Blackwell·Rubin 로드맵 + NVLink·InfiniBand networking stack + global hyperscaler 관계"
+      },
+      {
+        "name": "AMD (Instinct MI300/MI325/MI355)",
+        "ticker": "AMD",
+        "share_pct": 11.0,
+        "moat": "Open-source ROCm + MI300 매출 빠른 ramp + Meta·Microsoft 일부 발주"
+      },
+      {
+        "name": "Intel Gaudi",
+        "ticker": "INTC",
+        "share_pct": 1.0,
+        "moat": "AWS partnership — share 극히 제한적"
+      },
+      {
+        "name": "Google TPU·AWS Trainium·Anthropic Tranium",
+        "ticker": "internal",
+        "share_pct": 5.0,
+        "moat": "내부 use case 한정 — 외부 vendor 시장은 미약"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-28",
+        "title": "1Q26 (FY27 Q1) 매출 $44B (+69% yoy)",
+        "source": "NVIDIA earnings",
+        "summary": "Data Center $39B, demand still exceeds supply",
+        "impact": "+"
+      },
+      {
+        "date": "2026-05-19",
+        "title": "Computex 2026 — Rubin GPU 로드맵 공개",
+        "source": "Jensen Huang keynote",
+        "summary": "Rubin (2026 Q4-2027) + Rubin Ultra (2027 H2) + Feynman (2028)",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Saudi Arabia G42 $500M 발주",
+        "source": "Reuters",
+        "summary": "Sovereign AI 매출 다각화",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "H20 (China 전용) 수출 통제 완화",
+        "source": "U.S. Commerce",
+        "summary": "China 매출 -15%pp 영향 일부 회복",
+        "impact": "+"
+      },
+      {
+        "date": "2026-02-10",
+        "title": "DeepSeek R1 efficiency shock 충격 후 회복",
+        "source": "press",
+        "summary": "-17% 일중 → +35% 5개월 회복",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "SEC 10-K / 10-Q (US GAAP, FY ends Jan)",
+    "currency": "USD",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 26.9,
+        "op_income": 10.0,
+        "net_income": 9.8,
+        "op_margin": 37.3,
+        "net_margin": 36.2
+      },
+      {
+        "year": 2023,
+        "revenue": 27.0,
+        "op_income": 5.6,
+        "net_income": 4.4,
+        "op_margin": 20.6,
+        "net_margin": 16.2
+      },
+      {
+        "year": 2024,
+        "revenue": 60.9,
+        "op_income": 33.0,
+        "net_income": 29.8,
+        "op_margin": 54.1,
+        "net_margin": 48.9
+      },
+      {
+        "year": 2025,
+        "revenue": 130.5,
+        "op_income": 81.5,
+        "net_income": 72.9,
+        "op_margin": 62.4,
+        "net_margin": 55.8
+      },
+      {
+        "year": 2026,
+        "revenue": 215.0,
+        "op_income": 138.0,
+        "net_income": 119.0,
+        "op_margin": 64.2,
+        "net_margin": 55.3
+      }
+    ],
+    "bs_snapshot_fy25": {
+      "total_assets_usd_bn": 124.0,
+      "total_liab_usd_bn": 31.8,
+      "total_equity_usd_bn": 92.2,
+      "cash_usd_bn": 43.2,
+      "debt_usd_bn": 10.0,
+      "net_cash_usd_bn": 33.2
+    },
+    "trend_narrative": "5Y 매출 CAGR +52%, 영업이익 CAGR +94%. FY26E OPM 64% — 메가캡 중 역사적 최고 수준. ROE 95%+, FCF margin 50%. Buyback $50B+ 누적 + 분기당 $25B+ FCF generation. AI capex 슈퍼사이클의 가장 직접적 leveraged play.",
+    "valuation_summary": "Forward PE 17.9× (yfinance live, 2026-06-02) — 매출 성장률 +65%·EPS +50% 감안 시 PEG 0.3-0.4. 역사 multiple 35-50× 대비 큰 discount — 시장이 cycle peak 우려를 priced-in 한 결과. PB 12.5× / EV/EBITDA 13× / Div yield 0.04%."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.5,
+      "description": "Rubin GPU 2026 Q4-2027 H1 ramp 성공 + Sovereign AI 매출 $30B+ + CoWoS 캐파 해소로 backlog 출하 가속. FY27 매출 $300B / EPS $14. Forward PE 25× → 시가총액 $9T (+65%)",
+      "key_drivers": [
+        "Rubin 출하 시작",
+        "CoWoS 캐파 75K wpm",
+        "Sovereign AI 폭증"
+      ]
+    },
+    "base": {
+      "probability": 0.35,
+      "description": "FY26E $215B 컨센서스 hit. Rubin ramp normal. Forward PE 20× → +10-20%",
+      "key_drivers": [
+        "Blackwell 안정 출하",
+        "CoWoS 적시 ramp"
+      ]
+    },
+    "bear": {
+      "probability": 0.15,
+      "description": "AI capex air pocket 2027 + DeepSeek 2nd wave + Sovereign AI 둔화. FY27 매출 -10%로 cycle 정점. Forward PE 12× → 시가총액 -30-40%",
+      "key_drivers": [
+        "AI ROI 위기",
+        "Inference 효율화 가속",
+        "China 매출 영구 상실"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-26",
+      "name": "FY27 Q2 실적 발표",
+      "impact": "high",
+      "description": "Data Center 매출 trajectory + Rubin pre-orders 확인"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Rubin GPU 첫 sample shipment",
+      "impact": "high",
+      "description": "2027 H1 ramp signal"
+    },
+    {
+      "date": "2026-11-19",
+      "name": "FY27 Q3 실적",
+      "impact": "high",
+      "description": "Holiday quarter 매출"
+    },
+    {
+      "date": "2027-01-10",
+      "name": "CES 2027 + Feynman roadmap",
+      "impact": "medium",
+      "description": "FY28 visibility"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex air pocket (2027)",
+      "probability": "medium",
+      "impact": "very high",
+      "description": "Hyperscaler -20% 시 매출 -30%"
+    },
+    {
+      "name": "Custom silicon catch-up (TPU·Trainium·MI400)",
+      "probability": "medium",
+      "impact": "high",
+      "description": "Hyperscaler internal chip 비중 상승 시 NVDA 점유율 80% → 65%"
+    },
+    {
+      "name": "CoWoS·HBM 공급 미충족",
+      "probability": "medium",
+      "impact": "high",
+      "description": "Supply 부족으로 매출 인식 지연"
+    },
+    {
+      "name": "China 매출 영구 상실 (수출통제)",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "전체 매출의 12-15%"
+    },
+    {
+      "name": "Trump 관세·정책 변수",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "TSMC 관세 전가 시 GPU 가격 상승"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T02",
+      "claim": "AI 공급 부족이 본질",
+      "current_status": "confirmed",
+      "evidence": "'demand significantly exceeds supply' — 8개 분기 연속 명시"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "CoWoS·HBM·전력 3대 병목",
+      "current_status": "confirmed",
+      "evidence": "NVIDIA 자체가 모든 3가지 병목의 가장 큰 customer"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "효율화 → Jevons paradox",
+      "current_status": "confirmed",
+      "evidence": "DeepSeek 후 NVDA 매출 가이던스 상향 — 효율화가 demand 증가로 연결"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "수요 20-30% vs 공급 15%",
+      "current_status": "confirmed",
+      "evidence": "FY26E 매출 +65% — 수요 측 확인"
+    }
+  ],
+  "korean_disclosures": []
+}

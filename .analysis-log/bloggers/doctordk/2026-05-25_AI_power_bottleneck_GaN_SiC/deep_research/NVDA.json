@@ -1,0 +1,239 @@
+{
+  "ticker": "NVDA",
+  "name_kr": "NVIDIA (엔비디아)",
+  "name_en": "NVIDIA",
+  "ipo_year": 1999,
+  "market_data_snapshot": {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "current_price": 215.33,
+    "currency": "USD",
+    "forward_pe": 17.03,
+    "trailing_pe": 33.03,
+    "beta": 2.24,
+    "return_1m_pct": 6.34,
+    "return_3m_pct": 14.6,
+    "return_6m_pct": 19.22,
+    "return_1y_pct": 62.15,
+    "volatility_annualized_pct": 34.51,
+    "market_cap_local_bn": 5215.51,
+    "market_cap_usd_bn": 5215.51,
+    "ev_ebitda": 31.24,
+    "div_yield_pct": 0.02,
+    "pb": 33.27,
+    "fetched_at": "2026-05-26T00:49:48",
+    "fetched_via": "yfinance 1.4.0 (live)",
+    "as_of_date": "2026-05-22"
+  },
+  "industry": {
+    "name": "AI Compute / Data Center GPU — 800V DC Architecture Driver",
+    "overview": "NVIDIA는 AI 데이터센터 GPU 시장 점유율 90%+ (datacenter segment) 압도적 leader. FY25 매출 $130B+ (Datacenter $115B+, +30% YoY), GM 75%, operating margin 60%+. Hopper(H100) → Blackwell(B200/GB200) → Rubin(Vera Rubin 2027) → Rubin Ultra(2028) roadmap. 800V DC 아키텍처 전환의 driver — NVIDIA가 power supplier 생태계(NVTS·Infineon·Power Integrations 등)에 architecture 표준화 주도. 본 분석의 demand-side anchor이자 power semis upstream cycle의 trigger.",
+    "competitors": [
+      {
+        "name": "AMD",
+        "ticker": "AMD",
+        "share_pct": 5.0,
+        "moat": "MI300X SuperChip, hyperscaler diversification"
+      },
+      {
+        "name": "Intel",
+        "ticker": "INTC",
+        "share_pct": 1.0,
+        "moat": "Gaudi AI accelerator, struggling"
+      },
+      {
+        "name": "Google TPU",
+        "ticker": "GOOGL",
+        "share_pct": 2.0,
+        "moat": "captive internal use only"
+      },
+      {
+        "name": "Custom ASIC (Broadcom·Marvell)",
+        "ticker": "AVGO/MRVL",
+        "share_pct": 1.5,
+        "moat": "hyperscaler 맞춤 ASIC"
+      },
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "share_pct": 90.0,
+        "moat": "CUDA software ecosystem moat, network moat"
+      },
+      {
+        "name": "기타",
+        "ticker": "—",
+        "share_pct": 0.5,
+        "moat": "Cerebras, SambaNova, fragmented"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 200.0,
+      "cagr_pct": 40.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials_anchor": {
+    "revenue_2024": "$130B+ (FY25 ending Jan 2025)",
+    "revenue_2025_est": "$200B+ (FY26E, +50% YoY)",
+    "gross_margin": "75-78% (industry-leading)",
+    "operating_margin": "60%+ (massive operating leverage)",
+    "net_margin": "55%+",
+    "fcf_2024": "$70B+ (FCF/매출 50%+, 자체 stock buyback + 인수 가능)",
+    "balance_sheet": "Cash $50B+, net cash, dividend 시작",
+    "ai_revenue_share_evolution": "2024 ~88% datacenter → 2025 ~90% → 2026E ~92% (gaming·visualization 비중 축소)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 290.0,
+      "thesis": "Vera Rubin Ultra 가속 + 800V DC 표준화 + AI agent 채택 폭증 → 2027 매출 $300B, GM 78%, P/E 30x. Stock +35%.",
+      "key_assumptions": [
+        "AI agent 시대 도래",
+        "hyperscaler capex 가속",
+        "monopoly 유지"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 235.0,
+      "thesis": "Steady AI cycle continuation — 2027 매출 $250B, P/E 28x 유지. Stock +10%.",
+      "key_assumptions": [
+        "AI capex 안정 성장",
+        "AMD 경쟁 moderate",
+        "regulatory pass"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 145.0,
+      "thesis": "AI cycle peak + AMD/custom ASIC share gain + regulatory crackdown → 매출 둔화, multiple compression. -32%.",
+      "key_assumptions": [
+        "hyperscaler capex 둔화",
+        "AMD MI400 hit",
+        "antitrust action"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "GTC Tokyo (10월)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Vera Rubin spec 공식 발표 + 800V DC reference design 공유"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "FY3Q27 earnings",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Datacenter revenue guidance 상향 시"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Vera Rubin 양산 시작",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "800V DC architecture 시장 본격 도입"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "Rubin Ultra teaser",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "차세대 architecture 미리보기"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI Capex Saturation Risk",
+      "probability": "med",
+      "impact": "high",
+      "description": "Hyperscaler capex 2027 이후 saturation 우려 — 매출 trajectory 둔화",
+      "mitigation": "AI agent·enterprise 매출 확장으로 두 번째 leg"
+    },
+    {
+      "name": "AMD MI400 / Custom ASIC Share Gain",
+      "probability": "med",
+      "impact": "med",
+      "description": "AMD MI400 · 하이퍼스케일러 custom ASIC의 market share 잠식",
+      "mitigation": "CUDA moat + Rubin Ultra 차별화"
+    },
+    {
+      "name": "Regulatory / Antitrust Action",
+      "probability": "low",
+      "impact": "high",
+      "description": "AI chip 시장 dominance에 대한 antitrust 또는 export control",
+      "mitigation": "기존 commercial relationships, regulatory engagement"
+    },
+    {
+      "name": "Valuation Multiple Compression",
+      "probability": "med",
+      "impact": "med",
+      "description": "P/E 35-40x가 사이클 둔화 신호 시 compression",
+      "mitigation": "earnings absolute growth로 multiple 상쇄"
+    },
+    {
+      "name": "Geopolitical (China) Risk",
+      "probability": "med",
+      "impact": "med",
+      "description": "China AI chip 매출 limited, H20 등 lower-spec product 의존",
+      "mitigation": "US/EU/일본·한국 시장 가속 성장"
+    }
+  ],
+  "valuation_context": {
+    "current_pe": 17.03,
+    "industry_avg_pe": 28.0,
+    "5y_avg_pe": 45.0,
+    "ev_ebitda": 31.24,
+    "dividend_yield_pct": 0.05,
+    "fair_value_dcf_usd": 235.0,
+    "current_price_usd": 215.33,
+    "implied_upside_pct": 9.1
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY21",
+        "revenue_bn_usd": 16.7,
+        "operating_income_bn_usd": 4.5,
+        "net_income_bn_usd": 4.3,
+        "opm_pct": 27.0,
+        "npm_pct": 26.0
+      },
+      {
+        "year": "FY22",
+        "revenue_bn_usd": 26.9,
+        "operating_income_bn_usd": 10.0,
+        "net_income_bn_usd": 9.8,
+        "opm_pct": 37.0,
+        "npm_pct": 36.0
+      },
+      {
+        "year": "FY23",
+        "revenue_bn_usd": 27.0,
+        "operating_income_bn_usd": 5.6,
+        "net_income_bn_usd": 4.4,
+        "opm_pct": 21.0,
+        "npm_pct": 16.0
+      },
+      {
+        "year": "FY24",
+        "revenue_bn_usd": 60.9,
+        "operating_income_bn_usd": 33.0,
+        "net_income_bn_usd": 30.0,
+        "opm_pct": 54.1,
+        "npm_pct": 49.0
+      },
+      {
+        "year": "FY25",
+        "revenue_bn_usd": 130.5,
+        "operating_income_bn_usd": 81.5,
+        "net_income_bn_usd": 73.0,
+        "opm_pct": 62.4,
+        "npm_pct": 55.9
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "as_of_date": "2026-05-27",
+  "portfolio_value_krw": 100000000,
+  "positions": [
+    {"ticker": "000660.KS", "name": "SK하이닉스", "qty": 4, "entry_price": 2243000, "value_krw": 8972000, "pct": 8.97, "horizon": "12M"},
+    {"ticker": "058470.KQ", "name": "리노공업", "qty": 107, "entry_price": 102500, "value_krw": 10967500, "pct": 10.97, "horizon": "12-18M"},
+    {"ticker": "010120.KS", "name": "LS ELECTRIC", "qty": 34, "entry_price": 261500, "value_krw": 8891000, "pct": 8.89, "horizon": "18-24M"},
+    {"ticker": "009150.KS", "name": "삼성전기", "qty": 3, "entry_price": 1630000, "value_krw": 4890000, "pct": 4.89, "horizon": "12M (partial)"},
+    {"ticker": "011070.KS", "name": "LG이노텍", "qty": 3, "entry_price": 1044000, "value_krw": 3132000, "pct": 3.13, "horizon": "12M (partial)"}
+  ],
+  "total_invested_krw": 36852500,
+  "cash_reserve_krw": 63147500,
+  "total_invested_pct": 36.85,
+  "cash_reserve_pct": 63.15,
+  "sector_exposure": {
+    "AI_chip_protection": 36.85,
+    "diversification_note": "AI 반도체 sector 단일 베팅 — sector concentration. 분석 framework은 다양화 권고."
+  },
+  "expected_return_12m_low": 5,
+  "expected_return_12m_base": 18,
+  "expected_return_12m_high": 35,
+  "max_drawdown_estimate": -25,
+  "sharpe_ratio_estimate": 1.2,
+  "rebalance_frequency": "quarterly + event-driven (hyperscaler capex guidance)"
+}

@@ -1,0 +1,364 @@
+{
+  "industry": {
+    "name": "자동차 부품 + 휴머노이드 액추에이터",
+    "overview": "현대모비스는 글로벌 자동차 Tier 1 supplier (매출 글로벌 6위, 2024 기준)이자 현대차그룹 captive 부품사. 전동화 부품(BMS·인버터·모터) 매출 $4.2B (2024년 전체 매출 11%), 2025년 +28% YoY. 2026년부터는 Boston Dynamics Atlas 5세대용 actuator 미국 현지 양산을 시작하면서 휴머노이드 부품 supplier로 영역 확대. 자동차 부품 산업은 글로벌 EV 둔화·중국 BYD 가격공세로 2024-2025 cycle 약세였으나, 휴머노이드·자율주행 신규 영역에서 multiple expansion 가능성. 2030년까지 글로벌 humanoid TAM은 Goldman Sachs 추정 $38B, 메리츠 추정 한국 captive supplier 비중 15-20%.",
+    "competitors": [
+      {
+        "name": "현대모비스",
+        "ticker": "012330.KS",
+        "share_pct": 6.0,
+        "moat": "현대차그룹 captive + 50년 자동차 manufacturing 노하우 + 미국 HMGMA cluster (Boston Dynamics 미국 양산 base)"
+      },
+      {
+        "name": "Bosch",
+        "ticker": "private",
+        "share_pct": 15.0,
+        "moat": "글로벌 1위 부품사 + ADAS·MEMS sensor·전동화 통합"
+      },
+      {
+        "name": "Continental",
+        "ticker": "CON.DE",
+        "share_pct": 9.0,
+        "moat": "타이어·ADAS·brake/chassis"
+      },
+      {
+        "name": "Magna",
+        "ticker": "MGA",
+        "share_pct": 5.5,
+        "moat": "복합 모듈 + EV contract manufacturing"
+      },
+      {
+        "name": "Aptiv",
+        "ticker": "APTV",
+        "share_pct": 4.0,
+        "moat": "ADAS·전기시스템 wire harness"
+      },
+      {
+        "name": "Schaeffler",
+        "ticker": "SHA.DE",
+        "share_pct": 3.5,
+        "moat": "정밀 베어링·motor — humanoid actuator 잠재 경쟁자"
+      },
+      {
+        "name": "Nabtesco",
+        "ticker": "6268.T",
+        "share_pct": 2.5,
+        "moat": "감속기 (industrial robot) — 75% 점유"
+      },
+      {
+        "name": "Harmonic Drive",
+        "ticker": "6324.T",
+        "share_pct": 2.0,
+        "moat": "정밀 감속기 — humanoid 핵심 부품"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-20",
+        "title": "Boston Dynamics 5세대 Atlas CES 2026 양산형 공개 예고",
+        "source": "BD 공식",
+        "summary": "Body Actuator 2종×31개, 미국 현지 양산 (현대모비스 supply)"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Tesla Optimus Gen 4 양산 ramp 50K units 목표 발표",
+        "source": "Tesla Q1 earnings",
+        "summary": "Texas Gigafactory humanoid line 가동, 2027 ramp to 250K"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Figure AI Series C $2B 조달, 발행가 $40B valuation",
+        "source": "TechCrunch",
+        "summary": "OpenAI·NVIDIA·Microsoft 투자 — humanoid AI race 격화"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "한국 정부 'K-Robot 2030' Roadmap 발표",
+        "source": "산업통상자원부",
+        "summary": "5년 누적 $35B 투자, humanoid·cobot·서비스 robot 통합 육성"
+      },
+      {
+        "date": "2026-02-14",
+        "title": "Google DeepMind Gemini Robotics LLM 발표",
+        "source": "Google DeepMind",
+        "summary": "embodied AI foundation model — Atlas reference platform 협의"
+      },
+      {
+        "date": "2026-02-01",
+        "title": "1X Technologies Series B $1.5B 조달",
+        "source": "WSJ",
+        "summary": "Tiger Global·SoftBank 투자, 가정용 humanoid 2027 ramp"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 38.0,
+      "cagr_pct": 32.0,
+      "horizon": "2025-2035 (Goldman/McKinsey humanoid TAM)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 41700,
+        "op_income": 2050,
+        "op_margin": 4.9,
+        "net_income": 2520,
+        "net_margin": 6.0
+      },
+      {
+        "year": 2022,
+        "revenue": 51760,
+        "op_income": 2050,
+        "op_margin": 4.0,
+        "net_income": 2800,
+        "net_margin": 5.4
+      },
+      {
+        "year": 2023,
+        "revenue": 59250,
+        "op_income": 2750,
+        "op_margin": 4.6,
+        "net_income": 3450,
+        "net_margin": 5.8
+      },
+      {
+        "year": 2024,
+        "revenue": 58680,
+        "op_income": 3120,
+        "op_margin": 5.3,
+        "net_income": 4030,
+        "net_margin": 6.9
+      },
+      {
+        "year": 2025,
+        "revenue": 61000,
+        "op_income": 3500,
+        "op_margin": 5.7,
+        "net_income": 4350,
+        "net_margin": 7.1
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 65000,
+      "total_liab": 30000,
+      "equity": 35000,
+      "cash": 8500,
+      "debt": 5800
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 4200,
+      "fcf_5y_avg": 2100,
+      "capex_intensity": 0.05
+    },
+    "peer_compare": [
+      {
+        "ticker": "012330.KS",
+        "name": "현대모비스",
+        "pe": 14.3,
+        "pb": 0.65,
+        "roe": 11.0,
+        "div_yield": 2.4
+      },
+      {
+        "ticker": "005380.KS",
+        "name": "현대차",
+        "pe": 14.7,
+        "pb": 0.85,
+        "roe": 12.5,
+        "div_yield": 2.5
+      },
+      {
+        "ticker": "MGA",
+        "name": "Magna",
+        "pe": 11.5,
+        "pb": 1.15,
+        "roe": 8.5,
+        "div_yield": 3.0
+      },
+      {
+        "ticker": "APTV",
+        "name": "Aptiv",
+        "pe": 13.2,
+        "pb": 2.45,
+        "roe": 12.8,
+        "div_yield": 1.0
+      },
+      {
+        "ticker": "CON.DE",
+        "name": "Continental",
+        "pe": 12.0,
+        "pb": 0.95,
+        "roe": 6.5,
+        "div_yield": 3.2
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 1200000,
+      "thesis": "메리츠 350K target 가시화 + Hand Actuator/sensor 확장 + 자동차 부품 P/E 회복 trio. 2028 humanoid 매출 5,250억 + 자동차 부품 +12% 회복 시 P/E re-rate 18x.",
+      "key_assumptions": [
+        "CES 2026 Atlas 양산 demo 성공",
+        "2026 H2 1,000 unit ramp 실제 진행",
+        "Hand Actuator supply 2027 가시화"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 950000,
+      "thesis": "BD Atlas 양산 점진적 ramp + 자동차 부품 cycle 평균 회복. 2028 humanoid 매출 3,000억 + 자동차 cycle 회복 시 P/E 16x.",
+      "key_assumptions": [
+        "2028 actuator 200K units (350K target의 60%)",
+        "자동차 부품 매출 +5% YoY",
+        "Hand Actuator 2028 후 가시화"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 600000,
+      "thesis": "메리츠 target miss + 자동차 cycle 약세 + Tesla Optimus 우위로 BD captive 약화. 2028 humanoid 매출 1,000억 이하 + 자동차 cycle bottom 시 P/E 8x.",
+      "key_assumptions": [
+        "BD Atlas 5세대 commercial 부진 (Spot dog 패턴 재현)",
+        "Tesla Optimus 60%+ 점유 시 BD-Mobis 대체 가능",
+        "자동차 부품 매출 -10% YoY"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "CES 2026 Atlas 5세대 양산형 공개",
+      "type": "product",
+      "expected_impact": "high (+15-25%)",
+      "description": "2종 actuator × 31개 양산 demo — '기술'에서 'product'로 narrative 확정"
+    },
+    {
+      "date": "2026-09 ~ 12",
+      "event": "Boston Dynamics + 현대차그룹 미국 sales roadshow",
+      "type": "commercial",
+      "expected_impact": "medium-high (+10-20%)",
+      "description": "Google DeepMind first customer 확정 + 5 vertical 확장 announce"
+    },
+    {
+      "date": "2026-12",
+      "event": "현대모비스 4Q 실적 — 휴머노이드 부품 매출 첫 공시",
+      "type": "earnings",
+      "expected_impact": "high (+8-15%)",
+      "description": "전동화 부품 11% → 12% (humanoid 합산) 첫 break-out"
+    },
+    {
+      "date": "2027-03",
+      "event": "Hand Actuator supply contract announce 가능성",
+      "type": "product",
+      "expected_impact": "medium (+8-12%)",
+      "description": "Body 다음 supply 확장 — Mobis valuation re-rating trigger"
+    },
+    {
+      "date": "2027-06",
+      "event": "DART 사업보고서 — robotic 매출 segment 공시",
+      "type": "regulatory",
+      "expected_impact": "medium (+5-10%)",
+      "description": "segment 분리 시 valuation re-rate"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Tesla Optimus 수직계열화 우위",
+      "probability": "medium-high",
+      "impact": "high",
+      "description": "Tesla 가 in-house actuator 양산 + 단가 $200 도달 시 BD-Mobis는 가격 경쟁 압박. BD Atlas $1.5k/actuator는 학습곡선 적용으로 2028 $600 가능하나 Tesla 대비 disadvantage.",
+      "mitigation": "BD가 외부 customer 대상 specialty (motion sophistication) 경쟁력 유지 + 현대모비스 자동차 ramp 자동 cushion"
+    },
+    {
+      "name": "BD Atlas 5세대 commercial 부진",
+      "probability": "medium",
+      "impact": "high",
+      "description": "Spot dog 4년 cumulative 2,000 units 양산 record — Atlas 350K by 2028은 175x speed-up. Historical commercialization 패턴 적용 시 2028 50K 수준일 가능성 있음.",
+      "mitigation": "Hyundai 자동차 공장 captive use case ($7.6B HMGMA)로 base demand 확보"
+    },
+    {
+      "name": "자동차 cycle 약세",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "글로벌 자동차 판매 -3~-5% YoY 가능 (BYD 가격 공세·EV 침투율 둔화). 자동차 부품 매출 -10% 시 humanoid 매출 1% 미만으로 회복 어려움.",
+      "mitigation": "전동화·자율주행 부품 비중 11% → 18% 확대 in-progress"
+    },
+    {
+      "name": "한국 captive 의존도 risk",
+      "probability": "low-medium",
+      "impact": "medium",
+      "description": "현대모비스 매출의 70%가 현대차그룹 captive — 글로벌 자동차사 supply 다변화 미진. 시장이 'Hyundai-dependent'로 평가 시 multiple compression 가능.",
+      "mitigation": "BD는 글로벌 customer (DeepMind·NVIDIA 등) 확보 가능 → indirect 다변화"
+    },
+    {
+      "name": "메리츠 target miss",
+      "probability": "medium",
+      "impact": "medium-high",
+      "description": "350K 추정은 sell-side bull case일 가능성. miss 시 narrative 깨짐 + P/E 5x contraction 가능.",
+      "mitigation": "actual 합리적 base case (50-100K) 도달도 narrative 유지 가능"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "현대모비스가 BD Atlas의 미국 captive supplier",
+      "type": "factual",
+      "evidence": [
+        "2025-12 공시",
+        "HMGMA cluster 활용"
+      ],
+      "testability": "high",
+      "current_status": "확인됨 (계약 terms 미공개)"
+    },
+    {
+      "claim": "2028 350K actuator 양산",
+      "type": "predictive",
+      "evidence": [
+        "메리츠 2025-12 추정"
+      ],
+      "testability": "medium",
+      "current_status": "sell-side 단일 추정 — verification 어려움"
+    },
+    {
+      "claim": "Hand Actuator·sensor·controller 확장",
+      "type": "predictive",
+      "evidence": [
+        "자동차 부품 노하우 전이 가능"
+      ],
+      "testability": "low",
+      "current_status": "기술 가능성 충분, commercial timeline 불확실"
+    },
+    {
+      "claim": "자동차 부품 → robotics platform 재평가",
+      "type": "normative",
+      "evidence": [
+        "NVIDIA·Tesla 사례",
+        "현재 P/E 14x discount"
+      ],
+      "testability": "medium",
+      "current_status": "narrative inflection 진행 중 — 6-12개월 가시화"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025-12-18",
+      "type": "주요사항보고서",
+      "title": "Boston Dynamics Atlas 5세대 actuator supply 계약",
+      "impact": "+"
+    },
+    {
+      "date": "2025-11-25",
+      "type": "공시",
+      "title": "미국 Georgia HMGMA cluster 내 robotic actuator plant 검토",
+      "impact": "+"
+    },
+    {
+      "date": "2025-11-08",
+      "type": "사업보고서 (3Q)",
+      "title": "전동화 부품 매출 +28% YoY, 매출 기여 11.5%",
+      "impact": "+"
+    }
+  ],
+  "sec_disclosures": []
+}

@@ -1,0 +1,952 @@
+{
+  "ticker": "DQ",
+  "name": "Daqo New Energy",
+  "name_en": "Daqo New Energy Corp.",
+  "panel_size": 13,
+  "aggregated_verdict": "neutral",
+  "aggregated_score": -0.15,
+  "aggregated_confidence": 0.61,
+  "verdict_distribution": {
+    "bullish": 1,
+    "lean_bullish": 2,
+    "neutral": 7,
+    "lean_bearish": 0,
+    "bearish": 3
+  },
+  "style_split": {
+    "value_camp_avg_score": -0.29,
+    "growth_macro_camp_avg_score": 0.0,
+    "split_magnitude": 0.29
+  },
+  "bullish_personas": [
+    "michael-burry",
+    "ben-graham",
+    "mohnish-pabrai"
+  ],
+  "bearish_personas": [
+    "warren-buffett",
+    "charlie-munger",
+    "bill-ackman"
+  ],
+  "neutral_personas": [
+    "peter-lynch",
+    "cathie-wood",
+    "nassim-taleb",
+    "phil-fisher",
+    "rakesh-jhunjhunwala",
+    "stanley-druckenmiller",
+    "aswath-damodaran"
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "bearish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "philosophy_one_liner": "Quality moat · owner earnings · margin of safety · circle of competence · long-term holding · commodity 기피",
+      "key_concerns_top3": [
+        "[actual] 영업적자 + UFLPA exposure = circle of competence 밖",
+        "[actual] Chinese ADR delisting risk",
+        "[actual] 신장 risk = 회피"
+      ],
+      "key_opportunities_top3": [
+        "[actual] PBR 0.7x deep value (going-concern 가정 시)",
+        "[inference] polysilicon cycle 회복 시 EPS turnaround leverage 큼",
+        "[actual] 미·중 합의 시나리오 upside"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 워런 버핏 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "워런 버핏은 Quality moat · owner earnings · margin of safety · circle of을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 bearish 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Buffett: 정책 narrative보다 free cash flow 5년 추적 우선. 안보 자산 프레임은 매력적이나 '관세 변동'은 정책 risk라 owner earnings 변동성 증가. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Buffett: SpaceX 단일 anchor customer 의존은 concentration risk. 다년 계약 공시 전까지 추측. circle of competence 밖. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Buffett: '프레임 전환'은 narrative이지 economics가 아님. 실제 contract visibility 5년+ 입증돼야 신뢰. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Buffett: 규제 moat = wide moat candidate. Non-PFE 자격은 'undisruptable' 특성과 부합. T04는 가장 강력한 thesis. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "rebut",
+          "rationale": "Buffett: TP 55만원 = EV/EBITDA 19x은 historical max 13x 대비 +44% — margin of safety 부재. 회피. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Buffett: 'PBR 1.4 → 4'는 자산 재평가 narrative — Buffett은 자산보다 earning power를 봄. 정량 evidence 약함. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Buffett: 데이터센터 회귀는 '관찰 가능한 trend'로 인정. 그러나 polysilicon은 4단계 후행 수혜라 직접성 약함. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "rebut",
+          "rationale": "Buffett: 'GEV 28배 analog'은 comparison fallacy — 비즈니스 모델 본질이 다름(commodity vs services). [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "bearish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "philosophy_one_liner": "Mental models · lollapalooza effects · multi-discipline · 회피해야 할 것 list · margin of safety",
+      "key_concerns_top3": [
+        "[actual] 신장 = 'avoid at all costs' list",
+        "[actual] 정치 risk = systemic",
+        "[inference] commodity bottom일지라도 회피"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'avoid at all costs' 원칙 적용",
+        "[actual] cycle bottom upside는 인정",
+        "[inference] non-investable"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 찰리 멍거 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "찰리 멍거은 Mental models · lollapalooza effects · multi-discipline · 회피을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 bearish 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Munger: 'Tell me where I'll die, so I never go there' — narrative 격상이 cyclical commodity의 본질을 가리는 함정 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Munger: 머스크 ecosystem에 베팅하는 것은 lollapalooza effect로 가능하나, SpaceX 단일 발주 의존은 invert-and-avoid. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Munger: 'frame shift'은 marketing 용어. 실제 economics(margin·visibility)이 변하지 않으면 multiple 변화 일시적. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Munger: 규제 moat은 정직한 moat. Section 232·UFLPA는 명백한 진입 장벽. 인정. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "rebut",
+          "rationale": "Munger: '평균 19x'은 weighted nonsense — Daqo·GEV 두 동물 평균은 의미 없는 number. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "rebut",
+          "rationale": "Munger: '과거 정점 재도전' framing은 anchor heuristic 함정. 'price you pay'가 'value you get'을 정당화 못 함. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Munger: AI 데이터센터 수요는 fact. 단지 polysilicon이 그 수혜의 best path인지는 invert해서 봐야 함. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "rebut",
+          "rationale": "Munger: 비교 오류 — turbine OEM 과점과 polysilicon commodity 6~7社 경쟁은 본질 다름. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "philosophy_one_liner": "PEG ratio · 'Buy what you know' · category killer · cyclical stocks · ten-bagger search",
+      "key_concerns_top3": [
+        "[actual] cycle bottom turnaround 후보지만 UFLPA exit",
+        "[actual] Chinese ADR liquidity",
+        "[inference] 단기 trader trade는 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] cycle bottom + PBR 0.7x = turnaround 후보",
+        "[inference] polysilicon $15+ 회복 시 EPS turnaround",
+        "[actual] 1Y +31% 시작 신호"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 피터 린치 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "피터 린치은 PEG ratio · 'Buy what you know' · category killer · cyclical을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 neutral 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Lynch: '안보 자산' 프레임은 'category killer' 후보 발견 가능. 일반인이 이해할 수 있는 story — investable. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Lynch: SpaceX 텍사스 10GW = '관찰 가능한 사실'. EIS·인력 채용 같은 leading indicator 추적 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Lynch: 'commodity → specialty' 전환은 ten-bagger 시그널. 2026~28 수주 CAGR +36%은 강력한 growth driver. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Lynch: 규제 진입장벽 = moat = PEG ratio 적용 시 매우 매력. Non-PFE 인증 = barrier to entry. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Lynch: TP 55만원 = forward PE 16x·PEG 약 0.5 (growth 30%+ 가정) — bargain. 단 growth 가정 검증 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Lynch: '과거 정점 재도전'은 narrative trade — 그가 좋아하는 'simple story' 부합하지만 cycle peak risk 인정. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Lynch: 데이터센터 미국 회귀 + 송배전 부족 = 'simple, easy to explain' 수혜 thesis. 명백한 ten-bagger 후보. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Lynch: GEV 28x analog은 stretch — PEG 1.0 기준이면 19x도 growth 30%+ 시 정당화. 신중 동의. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        }
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "philosophy_one_liner": "Disruptive innovation · TAM expansion · Wright's Law cost curve · 5-year horizons · convex bets",
+      "key_concerns_top3": [
+        "[actual] disruption thesis 부합 안 함 (legacy China)",
+        "[actual] ESG risk 매우 큼",
+        "[inference] portfolio fit zero"
+      ],
+      "key_opportunities_top3": [
+        "[actual] solar disruption 일부 수혜",
+        "[inference] portfolio fit zero (ESG)",
+        "[actual] structural growth는 인정"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 캐시 우드 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "캐시 우드은 Disruptive innovation · TAM expansion · Wright's Law cost cu을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 neutral 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Wood: 에너지 전환 = 5-year 비전. AI 전력·우주산업·안보 융합은 disruption mega-trend. ARK ESS/Solar fund 주요 thesis. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Wood: SpaceX = ARK 최선호 unlisted. 텍사스 10GW + Starship + Starlink 결합은 Wright's Law cost curve의 polysilicon 수요 catalyst. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Wood: 'commodity → specialty' shift = innovation S-curve. 한국 supplier 글로벌화는 emerging convergence. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Wood: 규제 moat은 boring view지만 Non-PFE wafer 시장 자체가 새로운 category. 우호적. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Wood: TP 55만원은 보수적 — ARK 5-year price target framework상 +200~300% upside 시나리오 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T06",
+          "stance": "rebut",
+          "rationale": "Wood: 과거 PBR multiple analog은 backward-looking — disruption play는 forward TAM 기반으로만 정당화. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Wood: 데이터센터 회귀 + AI 전력 수요 = ARK 5대 mega-trend의 핵심. solar+ESS = $2T+ TAM. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "Wood: GEV multiple analog은 narrative tool — 더 강력한 비유는 'NVDA-like AI infra re-rating' 가능성. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "short_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "philosophy_one_liner": "Deep value · contrarian · short cycles · 'narrative reversal' bets · margin of safety extreme",
+      "key_concerns_top3": [
+        "[actual] deep value contrarian 후보 — polysilicon $15+ 회복 시 turnaround",
+        "[actual] Chinese ADR 60% discount",
+        "[inference] UFLPA risk vs 미·중 합의 시나리오"
+      ],
+      "key_opportunities_top3": [
+        "[actual] deep value contrarian — turnaround 후보",
+        "[actual] polysilicon $15+ 회복 시 +200% leverage",
+        "[inference] UFLPA exit 시 추가 upside"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 마이클 버리 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "마이클 버리은 Deep value · contrarian · short cycles · 'narrative reversal을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 lean_bullish 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Burry: 'energy security' narrative는 cycle peak에 등장하는 typical sell signal — 의심. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Burry: 10GW 수치는 공식 출처 부재 — 정확한 EIS·송전 queue 확인 필수. 추측 narrative 거부. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Burry: 'frame shift'은 brokerage 용어 — 실제 ASP·margin spread 확인 전까지 신뢰 않음. NeoSilicon 가동률·yield 직접 검증 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Burry: 규제 moat 인정. Section 232 발표 timing이 mispricing 기회. UFLPA enforcement gap 활용 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "rebut",
+          "rationale": "Burry: TP 55만원은 best-case scenario. 4가지 조건 동시 충족 확률 15~25% — risk/reward 비대칭. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Burry: 'historical peak retest'은 anchor bias — 12조 시총 = 정상화 EPS 5년+ 필요. 단기 narrative trade. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Burry: 데이터센터 회귀는 fact. 그러나 polysilicon은 4단계 후행 수혜 — primary play 아님. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "rebut",
+          "rationale": "Burry: GEV analog 거부. polysilicon supplier 5년 max EV/EBITDA = Daqo 2022년 13x. 19x도 unsustainable. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "short_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "philosophy_one_liner": "Antifragility · barbell · convex payoff · tail risk · 회피 narrative-driven valuations",
+      "key_concerns_top3": [
+        "[actual] tail risk 압도적 (delisting·UFLPA·전쟁)",
+        "[actual] non-investable 카테고리",
+        "[inference] short는 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] convex payoff (downside -30% · upside +200%)",
+        "[inference] 미·중 합의 black swan upside",
+        "[actual] tail이 양면"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 나심 탈레브 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "나심 탈레브은 Antifragility · barbell · convex payoff · tail risk · 회피 nar을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 neutral 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Taleb: 'narrative-driven' 격상은 IYI(Intellectual Yet Idiot) 시장의 전형. tail risk 측정 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Taleb: SpaceX single point of failure에 베팅하는 것은 fragile. barbell 구조 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Taleb: 'commodity → specialty'은 luck-driven? skill-driven? 5년+ track record로만 검증. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Taleb: 규제 = antifragile moat. UFLPA·Section 232는 systemic protection. 강력한 thesis. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "rebut",
+          "rationale": "Taleb: 19x multiple은 left-tail에 노출 — polysilicon 가격 $5 시 EPS -50%, multiple도 contraction. fragility. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "rebut",
+          "rationale": "Taleb: '재도전' narrative는 mean-reversion fallacy — polysilicon 가격은 stationary 가정 어려움. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Taleb: 데이터센터 회귀 + 송배전 부족 = barbell strategy 가능 (solar+ESS는 OPTION 같은 convexity). [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "rebut",
+          "rationale": "Taleb: 비교 ad absurdum — GEV는 oligopoly + long-cycle, OCI는 commodity + short-cycle. category 오류. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "philosophy_one_liner": "Net-net · margin of safety · 자산기반 가치투자 · earnings power · conservative balance sheet",
+      "key_concerns_top3": [
+        "[actual] PBR 0.7x net-net 후보지만 going-concern 의문",
+        "[actual] earnings power 5년 negative",
+        "[actual] balance sheet 보수성 부족"
+      ],
+      "key_opportunities_top3": [
+        "[actual] PBR 0.7x net-net 영역",
+        "[inference] balance sheet cushion",
+        "[actual] earning power 5년 회복 가능성"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 벤저민 그레이엄 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄은 Net-net · margin of safety · 자산기반 가치투자 · earnings power · co을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 lean_bullish 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Graham: speculation vs investment 구분 — 'narrative driven re-pricing'은 speculation. margin of safety 부재. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "stance": "rebut",
+          "rationale": "Graham: future predictions은 investment principles 위반. observable assets 평가 우선. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Graham: 'frame shift'은 marketing — 실제 earning power 5년 평균이 안정화돼야 신뢰. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Graham: 규제 moat = 'undisputed market position' — Graham이 인정하는 진입장벽. 평가 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "rebut",
+          "rationale": "Graham: '평균 19x' multiple은 speculative — Graham formula(7~14x earnings)와 fundamentally 부정합. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "rebut",
+          "rationale": "Graham: 'PBR 1.4 → 4'은 자산 재평가 narrative이나 underlying asset replacement cost·earning power 검증 부족. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Graham: observable demand shift은 valid. 그러나 polysilicon supplier에 정확히 어떻게 반영되는지 cause-effect 약함. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "rebut",
+          "rationale": "Graham: '비유에 의한 multiple expansion'은 speculation. Graham은 absolute valuation만 신뢰. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "bearish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "빌 아크먼",
+      "persona_en": "Bill Ackman",
+      "philosophy_one_liner": "Concentrated · activist · simple high-quality business · pricing power · long-term compounding",
+      "key_concerns_top3": [
+        "[actual] simple business 부합 안 함 (정치 risk)",
+        "[actual] China governance 우려",
+        "[inference] activist intervention 불가"
+      ],
+      "key_opportunities_top3": [
+        "[inference] activist intervention 불가 (China)",
+        "[actual] pricing power는 cycle 회복 시 회복",
+        "[inference] passing"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 빌 아크먼 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "빌 아크먼은 Concentrated · activist · simple high-quality business · pri을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 bearish 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Ackman: simple business · pricing power · narrative durability 관점에서 'energy security' 프레임은 ad-hoc. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Ackman: SpaceX 같은 single customer concentration risk 회피. portfolio company는 분산된 customer base 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Ackman: 'commodity → specialty' 전환은 활성주 후보. 단, 5년 EBITDA 안정성 확인 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Ackman: 규제 moat은 강력. 단, ESG 관점에서 polysilicon 환경 영향 평가 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Ackman: TP 55만원은 aggressive. activist 관점에서 spin-off로 가치 unlock 시나리오 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Ackman: 과거 정점 reference는 backward-looking. 분리·매각·spin-off 같은 corporate action이 더 효과적 catalyst. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Ackman: 데이터센터 회귀 = simple, durable, growing trend. invest grade narrative. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Ackman: GEV는 high-quality compounder, OCI는 commodity cyclical. 같은 multiple 적용은 framework error. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "philosophy_one_liner": "Heads-I-win-tails-I-don't-lose-much · low-risk-high-uncertainty · clone-and-improve · cyclical bottoms",
+      "key_concerns_top3": [
+        "[actual] cycle bottom + low PBR = heads-I-win 후보지만 tails-I-lose-big risk",
+        "[actual] UFLPA risk 양면",
+        "[inference] 5% small position만"
+      ],
+      "key_opportunities_top3": [
+        "[actual] cycle bottom + low PBR = heads-I-win-2x potential",
+        "[actual] '50센트 달러' setup",
+        "[inference] 5% small position만 가능"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 모니쉬 파브라이 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "모니쉬 파브라이은 Heads-I-win-tails-I-don't-lose-much · low-risk-high-uncertai을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 bullish 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Pabrai: 'heads-I-win' bet — narrative tailwind + low downside (PBR 1.4x). bargain. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Pabrai: clone-and-improve — Hanwha·OCI Korea 모델 clone? 단, SpaceX 의존은 single-point risk. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Pabrai: 'frame shift'는 narrative re-rating의 직접 driver — multi-bagger 후보. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Pabrai: 규제 moat은 'sticky' — 한 번 형성되면 5~10년 유지. low-risk-high-uncertainty 완벽 부합. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Pabrai: TP 55만원은 +62% upside, downside -30% — 2:1 risk/reward, Kelly criterion 50% position 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Pabrai: 'historical peak' = anchor, 그러나 'price below intrinsic value' 검증되면 bargain. 신중 동의. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Pabrai: 데이터센터 수요는 fact. polysilicon supplier가 후행이라도 'cheapest pick & shovel' 매력. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Pabrai: GEV 28x 적용은 stretch. 그러나 Daqo 10x 하한선 인정 시 OCI 12~15x 정도가 합리적 mid-case. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        }
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "philosophy_one_liner": "Scuttlebutt · superior management · long-term growth · 15-point checklist · 'fewer better' portfolio",
+      "key_concerns_top3": [
+        "[inference] management governance unverifiable (China)",
+        "[actual] R&D는 우수",
+        "[actual] long-term 부적합"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 기술력은 우수 (low-cost producer)",
+        "[inference] 정치 risk가 long-term holding 방해",
+        "[actual] non-Fisher candidate"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 필립 피셔 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "필립 피셔은 Scuttlebutt · superior management · long-term growth · 15-po을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 neutral 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Fisher: scuttlebutt — 폴리실리콘 buyer, 정책 lobbying, 경쟁사 미국 진출 계획 종합 추적 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Fisher: SpaceX customer relationship 5년+ 지속성·확장성 확인 필요. 단발 계약 vs anchor 관계 구분. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Fisher: 'commodity → specialty' 전환은 superior management의 산물. OCI 경영진 IR·전략 5년 추적 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Fisher: 규제 moat = competitive advantage. 15-point checklist에서 'industry leader' 항목 부합. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Fisher: TP는 1~3년 short-term metric — Fisher는 5~10년 view. 단, EPS growth 30%+ 5년 지속 가능성 확인 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Fisher: 과거 peak reference는 short-term thinking. long-term은 EPS growth + ROE 지속성이 valuation 결정. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Fisher: 데이터센터 mega-trend는 long-duration tailwind. supplier로서 OCI 포지셔닝은 strong. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Fisher: GEV multiple analog은 useful frame이지만 OCI 자체의 EPS growth + ROE 5년 demonstrate 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "philosophy_one_liner": "EM emerging story · structural growth · concentrated bets · policy tailwind · sector compounding",
+      "key_concerns_top3": [
+        "[actual] EM cycle bottom turnaround 후보",
+        "[inference] 정치 risk가 valuation discount의 주된 원인",
+        "[actual] structural growth 일부 인정"
+      ],
+      "key_opportunities_top3": [
+        "[actual] EM polysilicon leader (China)",
+        "[inference] cycle bottom turnaround structural",
+        "[actual] 정치 risk가 valuation discount 주요 원인"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 라케시 준준왈라 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "라케시 준준왈라은 EM emerging story · structural growth · concentrated bets · 을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 neutral 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Jhunjhunwala: EM structural growth thesis — Korea·India polysilicon supplier가 'global China+1' 수혜. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Jhunjhunwala: 우주산업·AI infra 3-5년 mega-cycle 인정. 단, EM-listed OCI는 second derivative. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Jhunjhunwala: 'commodity → specialty' = sector compounding 시그널. concentrated bet 후보. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Jhunjhunwala: 규제 moat = policy tailwind. India PLI · 한국 K-Solar 등 유사 사례 다수. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "Jhunjhunwala: TP 55만원은 보수적 — structural growth bet은 3-5 bagger 가능. Hold conviction. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Jhunjhunwala: 'historical peak retest'는 EM trader narrative — 자주 통하는 trade pattern. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Jhunjhunwala: 데이터센터 회귀 + AI 전력 = structural mega-trend. EM solar supplier 직접 수혜. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Jhunjhunwala: GEV analog은 conservative — EM re-rating은 더 큰 폭 가능 (예: India Tata Power 5x re-rating 사례). [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "short_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "philosophy_one_liner": "Macro · momentum · tape reading · top-down · 'right size when wrong sized big' · liquidity-driven",
+      "key_concerns_top3": [
+        "[actual] cycle turn play 후보 — polysilicon spot price 추적",
+        "[actual] 단기 momentum trade 가능",
+        "[inference] UFLPA news 따라 quick exit 필요"
+      ],
+      "key_opportunities_top3": [
+        "[actual] polysilicon spot price 회복 시 momentum trade",
+        "[inference] 미·중 합의 catalyst monitoring",
+        "[actual] short-term trade only"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 스탠리 드러켄밀러 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러은 Macro · momentum · tape reading · top-down · 'right size whe을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 neutral 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "Druckenmiller: macro narrative 강함 — AI 전력 + 정책 catalyst 동시 발생. liquidity-driven move 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "Druckenmiller: SpaceX 텍사스 10GW = leading indicator. tape이 따라오면 large position size 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "Druckenmiller: 'frame shift' + 모멘텀 + macro tailwind 3박자 — 'right size when wrong sized big' 상황. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Druckenmiller: 규제 = top-down macro catalyst. Section 232 발표가 시점 trigger. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "Druckenmiller: TP 55만원은 첫 단계 — momentum 강하면 +100~150% 가능. 단, stop-loss 명확히 설정. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "Druckenmiller: 'historical peak retest'은 momentum trader 좋아하는 setup. 단기 트레이드 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Druckenmiller: 데이터센터 회귀 = high-conviction macro thesis. 다양한 angle (utility·supply chain·solar) all-in. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "Druckenmiller: GEV 28x analog은 narrative anchor — 시장이 buy-in하면 multiple expansion 가속. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "medium_term",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "philosophy_one_liner": "Story-to-numbers · DCF · Reverse-DCF · narrative discipline · valuation triangulation",
+      "key_concerns_top3": [
+        "[actual] DCF상 country risk premium 8%+ 추가 적용",
+        "[actual] going-concern uncertainty 큼",
+        "[inference] valuation은 deep discount 정당화"
+      ],
+      "key_opportunities_top3": [
+        "[actual] DCF intrinsic value $25~30 (country risk 조정 전)",
+        "[inference] country risk premium 8% 적용 시 $15 fair",
+        "[actual] cycle 정상화 EBITDA 기준"
+      ],
+      "uncertainty": "Daqo New Energy에 대한 애스워스 다모다란 verdict의 핵심 불확실성: 신장 UFLPA 직격탄, 미국 수출 사실상 불가. Section 232 강화 시 추가 타격. Chinese ADR discount + delisting risk.",
+      "narrative_vs_quant_resolution": "애스워스 다모다란은 Story-to-numbers · DCF · Reverse-DCF · narrative discipline 을 우선. 정량 데이터(forward PE -16.25, 1Y 31.12%)와 narrative(블로그 thesis) 사이의 갭에서 neutral 입장.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "Damodaran: 'security asset' narrative를 DCF에 어떻게 반영? terminal growth · WACC discount 조정 가능하나 quantification 어려움. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "Damodaran: SpaceX 단일 계약을 future cash flow에 반영하려면 contract size·duration·probability 명확화 필요. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "Damodaran: 'frame shift'는 narrative — DCF story-to-numbers framework에서 EBIT margin 5%p 상향, terminal growth 1%p 상향 정도가 정량 반영. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.48
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "Damodaran: 규제 moat은 sustainable competitive advantage = excess return period 확장. DCF EVA 증가 정량화 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T05",
+          "stance": "rebut",
+          "rationale": "Damodaran: TP 55만원 = aggressive scenario. Reverse DCF에서 EBITDA growth 8%/yr + terminal multiple 12x 가정 정도가 정당화 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "rebut",
+          "rationale": "Damodaran: 'historical peak' = market-implied valuation, intrinsic value 아님. backward-looking 거부. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "Damodaran: 데이터센터 demand growth는 명확. polysilicon supplier 매출 5년 CAGR 15~25% 시나리오 가능. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T08",
+          "stance": "rebut",
+          "rationale": "Damodaran: GEV multiple analog 거부 — peer comparison은 비즈니스 모델·growth profile·risk profile 매칭 필수. OCI 직접 비교 fragility. [Applied to Daqo New Energy: high — TP valuation framework의 10x reference + Non-PFE inver]",
+          "confidence": 0.55
+        }
+      ]
+    }
+  }
+}

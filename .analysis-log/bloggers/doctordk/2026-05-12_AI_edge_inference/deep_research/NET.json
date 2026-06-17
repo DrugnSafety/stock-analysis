@@ -1,0 +1,262 @@
+{
+  "industry": {
+    "name": "엣지 네트워크 / CDN / Workers AI 추론",
+    "overview": "클라우드플레어는 전 세계 330여 도시에 직접 구축한 글로벌 엣지 네트워크 위에서 'Workers AI'로 서버리스 GPU 추론을 사용자 인접 지점에서 실행한다. 아카마이와 함께 'CDN→엣지 추론' 전환 테마의 가장 직접적 순수 플레이로, 개발자 친화 플랫폼과 제로트러스트 보안을 결합해 엣지 AI 진입점을 선점한다. 매출은 30%+ 고성장(2025 약 21.7억 달러)이나 GAAP 영업적자(주식보상·투자) 구간이며 밸류에이션(fwd P/E 약 179배)이 매우 높아 성장 지속이 정당화 조건.",
+    "competitors": [
+      {
+        "name": "Akamai",
+        "ticker": "AKAM"
+      },
+      {
+        "name": "Fastly",
+        "ticker": "FSLY"
+      },
+      {
+        "name": "Amazon(AWS)",
+        "ticker": "AMZN"
+      },
+      {
+        "name": "Microsoft(Azure)",
+        "ticker": "MSFT"
+      }
+    ],
+    "news": [],
+    "market_size": {
+      "current_usd_bn": 20.0,
+      "cagr_pct": 25.0,
+      "horizon": "2024-2030 (엣지 AI·서버리스 추론)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "Workers AI가 엣지 추론 표준 진입점으로 자리잡아 매출 30%+ 성장 장기화 + 영업레버리지로 흑자 전환 가시화. 엣지 AI 프리미엄 정당화.",
+      "key_assumptions": [
+        "Workers AI 채택 가속",
+        "30%+ 매출성장 지속",
+        "FCF·OPM 개선"
+      ],
+      "target_price": 340
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "고성장 지속하나 높은 밸류에이션에 변동성 큰 흐름. 엣지 AI 내러티브가 멀티플을 지지하되 흑자 전환은 점진적.",
+      "key_assumptions": [
+        "매출성장 25~35%",
+        "GAAP 적자 축소",
+        "SBC 부담 지속"
+      ],
+      "target_price": 270
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "성장 둔화 또는 금리·리스크오프로 고멀티플 디레이팅. fwd PE 179배가 하방 레버리지로 작동.",
+      "key_assumptions": [
+        "성장 둔화 신호",
+        "멀티플 압축",
+        "경쟁 심화"
+      ],
+      "target_price": 160
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-분기",
+      "event": "Workers AI 사용량·매출 기여 공개",
+      "type": "product",
+      "expected_impact": "high",
+      "description": "엣지 추론 채택 검증 — 내러티브 핵심"
+    },
+    {
+      "date": "2026-Q3/Q4",
+      "event": "실적 — 매출성장률·영업레버리지",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "고밸류 정당화 여부"
+    },
+    {
+      "date": "2026~2027",
+      "event": "대형 AI 추론 파트너십",
+      "type": "business",
+      "expected_impact": "med",
+      "description": "엣지 추론 레퍼런스 확보"
+    }
+  ],
+  "risks": [
+    {
+      "name": "고밸류에이션",
+      "probability": "high",
+      "impact": "high",
+      "description": "fwd P/E 약 179배 — 성장 둔화 시 큰 디레이팅",
+      "mitigation": "30%+ 성장·흑자 전환 입증"
+    },
+    {
+      "name": "GAAP 적자 지속",
+      "probability": "high",
+      "impact": "med",
+      "description": "주식보상·투자로 영업적자 — 흑자 전환 시점 불확실",
+      "mitigation": "영업레버리지 + SBC 통제"
+    },
+    {
+      "name": "하이퍼스케일러 경쟁",
+      "probability": "high",
+      "impact": "high",
+      "description": "AWS·Azure·GCP 엣지 추론 경쟁",
+      "mitigation": "개발자 생태계·네트워크 거점 우위"
+    },
+    {
+      "name": "고변동성",
+      "probability": "high",
+      "impact": "med",
+      "description": "연환산 변동성 약 58% — 리스크오프 민감",
+      "mitigation": "포지션 사이즈 축소(vol-mult 0.5)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "엣지 추론은 CDN 네트워크 보유 기업의 인접 사업",
+      "type": "structural",
+      "evidence": "Workers AI가 330여 도시 엣지에서 서버리스 추론 제공",
+      "testability": "high",
+      "current_status": "in_progress"
+    },
+    {
+      "claim": "중앙집중→분산 추론 전환의 직접 수혜",
+      "type": "thesis",
+      "evidence": "저지연 요구 증가 + 개발자 채택",
+      "testability": "medium",
+      "current_status": "in_progress"
+    },
+    {
+      "claim": "고성장이 고밸류를 정당화해야 함",
+      "type": "predictive",
+      "evidence": "매출 +33.5%(2025) vs fwd PE 179",
+      "testability": "high",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025~2026",
+      "type": "제품",
+      "title": "Workers AI 엣지 서버리스 추론 확대",
+      "summary": "GPU 기반 추론을 글로벌 엣지에서 제공 — 엣지 AI 진입점 선점",
+      "impact": "엣지 추론 내러티브 강화"
+    }
+  ],
+  "financials": {
+    "currency": "USD",
+    "unit": "USD millions",
+    "pl_5y": [
+      {
+        "year": "2021",
+        "revenue": null,
+        "operating_income": null,
+        "op_income": null,
+        "net_income": null,
+        "op_margin_pct": null,
+        "op_margin": null,
+        "net_margin_pct": null,
+        "net_margin": null
+      },
+      {
+        "year": "2022",
+        "revenue": 975,
+        "operating_income": -201,
+        "op_income": -201,
+        "net_income": -193,
+        "op_margin_pct": -20.6,
+        "op_margin": -20.6,
+        "net_margin_pct": -19.8,
+        "net_margin": -19.8
+      },
+      {
+        "year": "2023",
+        "revenue": 1297,
+        "operating_income": -185,
+        "op_income": -185,
+        "net_income": -184,
+        "op_margin_pct": -14.3,
+        "op_margin": -14.3,
+        "net_margin_pct": -14.2,
+        "net_margin": -14.2
+      },
+      {
+        "year": "2024",
+        "revenue": 1670,
+        "operating_income": -155,
+        "op_income": -155,
+        "net_income": -79,
+        "op_margin_pct": -9.3,
+        "op_margin": -9.3,
+        "net_margin_pct": -4.7,
+        "net_margin": -4.7
+      },
+      {
+        "year": "2025",
+        "revenue": 2168,
+        "operating_income": -207,
+        "op_income": -207,
+        "net_income": -102,
+        "op_margin_pct": -9.6,
+        "op_margin": -9.6,
+        "net_margin_pct": -4.7,
+        "net_margin": -4.7
+      }
+    ],
+    "bs_snapshot": {
+      "total_cash": 4164,
+      "total_debt": 3525,
+      "currency": "USD",
+      "unit": "USD millions"
+    },
+    "cf_summary": {
+      "operating_cf": 616,
+      "free_cf": 755,
+      "currency": "USD",
+      "unit": "USD millions"
+    },
+    "peer_compare": [
+      {
+        "ticker": "AKAM",
+        "name": "아카마이",
+        "pe": 22.49,
+        "pb": 4.79,
+        "roe": 10.2,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NET",
+        "name": "클라우드플레어",
+        "pe": 179.46,
+        "pb": 63.36,
+        "roe": -3.7,
+        "div_yield": 0
+      },
+      {
+        "ticker": "NVDA",
+        "name": "엔비디아",
+        "pe": 17.6,
+        "pb": 34.42,
+        "roe": 63.0,
+        "div_yield": 0.45
+      },
+      {
+        "ticker": "CRWV",
+        "name": "코어위브",
+        "pe": -189.91,
+        "pb": 13.31,
+        "roe": -25.6,
+        "div_yield": 0
+      },
+      {
+        "ticker": "EQIX",
+        "name": "에퀴닉스",
+        "pe": 55.72,
+        "pb": 7.39,
+        "roe": 14.9,
+        "div_yield": 1.87
+      }
+    ]
+  }
+}

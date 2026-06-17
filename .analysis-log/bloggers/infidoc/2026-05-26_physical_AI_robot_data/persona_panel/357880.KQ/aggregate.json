@@ -1,0 +1,1062 @@
+{
+  "ticker": "357880.KQ",
+  "name": "SKAI worldwide",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "avoid": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bullish": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "bullish": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.652,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "avoid",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "avoid",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "avoid",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "avoid (3/4)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish (2/3)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "avoid",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "avoid (1/1)"
+    },
+    "skeptic": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "concentrated": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "value-growth": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "bullish (1/1)"
+    },
+    "academic": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns_top3": [
+    "[actual] 자본잠식·thesis 단계·CB 희석 (SKAI) / Physical AI capex bubble (NVDA·SK) / Sim-to-Real Gap long tail (ABB)",
+    "[inference] 6월 1일 NVIDIA GTC Taipei 키노트 결과 binary risk — 단기 ±20~30% 변동성",
+    "[actual] PoC→매출 인식 시차 6~18개월 + 자회사 가치 33.57% 귀속 한계"
+  ],
+  "unique_alpha_top3": [
+    "[actual] NVIDIA Physical AI Data Factory Blueprint 공식 발표 → 가운데 두 레이어 가치 폭발 cycle (2026~2030)",
+    "[inference] 한국 도메인 (반도체·배터리·전자) Omniverse 채택 — 도메인 깊이 보유 한국 SI에 winner-takes-most 가능",
+    "[actual] NVIDIA-SK 50K GPU + APEC 한국 얼라이언스 + Inception 멤버십 = 한국 Physical AI 정책 우호적 macro"
+  ],
+  "thesis_alignment_summary": "Top 5 종목 평균 — T01·T02·T05·T06이 가장 강한 합의 (support), T03·T04·T07 종목 따라 분기 (SKAI·NVDA 강 support / 다른 종목 neutral), T08 가설 단계 caveat 합의.",
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "avoid",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 워런 버핏 quality moat·long-term compounding 관점에서의 stock-specific concern: 버핏의 워딩: '자본잠식 + 영업적자 + thesis 단계 = circle of competence 밖.' Predictable owner ea",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (워런 버핏 value style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "정량(P/E·P/B·EV/EBITDA·FCF) 우선 — 정성 inputs(moat·관리진)는 secondary weight",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "워런 버핏 (quality moat·long-term compounding): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: value).",
+          "confidence": 0.83
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "워런 버핏 (quality moat·long-term compounding): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: value).",
+          "confidence": 0.83
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "워런 버핏 (quality moat·long-term compounding): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "워런 버핏 (quality moat·long-term compounding): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "워런 버핏 (quality moat·long-term compounding): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: value).",
+          "confidence": 0.83
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "워런 버핏 (quality moat·long-term compounding): Simulation-Ready Data = TSMC of training data 포지션 → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "워런 버핏 (quality moat·long-term compounding): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "워런 버핏 (quality moat·long-term compounding): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'support' 입장 (style: value).",
+          "confidence": 0.83
+        }
+      ],
+      "persona_summary": "버핏의 워딩: '자본잠식 + 영업적자 + thesis 단계 = circle of competence 밖.' Predictable owner earnings·moat 부재. NVIDIA endorsement은 marketing asset이지 fundamental 가치 아님."
+    },
+    "charlie-munger": {
+      "verdict": "avoid",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 찰리 멍거 mental models·avoid stupidity 관점에서의 stock-specific concern: 멍거: 'KOSDAQ 적자 microcap의 thesis-only valuation = avoid stupidity 원칙 위반.' 도메인 검증 ",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (찰리 멍거 value style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "정량(P/E·P/B·EV/EBITDA·FCF) 우선 — 정성 inputs(moat·관리진)는 secondary weight",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "찰리 멍거 (mental models·avoid stupidity): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: value).",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "찰리 멍거 (mental models·avoid stupidity): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: value).",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 (mental models·avoid stupidity): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 (mental models·avoid stupidity): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "찰리 멍거 (mental models·avoid stupidity): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: value).",
+          "confidence": 0.8
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 (mental models·avoid stupidity): Simulation-Ready Data = TSMC of training data 포지션 → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 (mental models·avoid stupidity): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "찰리 멍거 (mental models·avoid stupidity): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'support' 입장 (style: value).",
+          "confidence": 0.8
+        }
+      ],
+      "persona_summary": "멍거: 'KOSDAQ 적자 microcap의 thesis-only valuation = avoid stupidity 원칙 위반.' 도메인 검증 없는 PR 의존 valuation."
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 피터 린치 PEG·invest in what you know 관점에서의 stock-specific concern:  Omniverse·Isaac Sim 통합 파이프라인은 6월 1일 GTC Taipei 키노트 검증 후 명확화. 한국 유일 포지션은 'tenbagger candidate'이나 분기 매출 입증 필요.",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (피터 린치 growth style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "정성(TAM·moat·incremental ROIC) 우선 — 정량은 trajectory 확인용",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치 (PEG·invest in what you know): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: growth).",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치 (PEG·invest in what you know): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: growth).",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치 (PEG·invest in what you know): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'support' 입장 (style: growth).",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피터 린치 (PEG·invest in what you know): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'support' 입장 (style: growth).",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "피터 린치 (PEG·invest in what you know): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: growth).",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "피터 린치 (PEG·invest in what you know): Simulation-Ready Data = TSMC of training data 포지션 → 'support' 입장 (style: growth).",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "피터 린치 (PEG·invest in what you know): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'support' 입장 (style: growth).",
+          "confidence": 0.67
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "피터 린치 (PEG·invest in what you know): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'neutral' 입장 (style: growth).",
+          "confidence": 0.55
+        }
+      ],
+      "persona_summary": "린치 'invest in what you know' — Omniverse·Isaac Sim 통합 파이프라인은 6월 1일 GTC Taipei 키노트 검증 후 명확화. 한국 유일 포지션은 'tenbagger candidate'이나 분기 매출 입증 필요."
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 캐시 우드 disruptive innovation 관점에서의 stock-specific concern: 우드: 'Sim-First 학습 패러다임 + Physical AI Data Factory = disruptive 인프라.' SKAI는 그 인프라",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (캐시 우드 growth style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "정성(TAM·moat·incremental ROIC) 우선 — 정량은 trajectory 확인용",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "캐시 우드 (disruptive innovation): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: growth).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드 (disruptive innovation): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: growth).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "캐시 우드 (disruptive innovation): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'support' 입장 (style: growth).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "캐시 우드 (disruptive innovation): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'support' 입장 (style: growth).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "캐시 우드 (disruptive innovation): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: growth).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "캐시 우드 (disruptive innovation): Simulation-Ready Data = TSMC of training data 포지션 → 'support' 입장 (style: growth).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "캐시 우드 (disruptive innovation): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'support' 입장 (style: growth).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "캐시 우드 (disruptive innovation): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'neutral' 입장 (style: growth).",
+          "confidence": 0.55
+        }
+      ],
+      "persona_summary": "우드: 'Sim-First 학습 패러다임 + Physical AI Data Factory = disruptive 인프라.' SKAI는 그 인프라의 한국 단일 플레이어. 5년 100x optionality 가능."
+    },
+    "michael-burry": {
+      "verdict": "avoid",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 마이클 버리 contrarian deep value·short bubbles 관점에서의 stock-specific concern: 버리: '자본잠식 + CB 희석 + thesis-only = bubble candidate.' 시장이 stake 33.57%인 자회사 가치를 1",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (마이클 버리 value-contrarian style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "정량 + counter-narrative 우선 — 시장 컨센서스의 반대로 sizing",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "마이클 버리 (contrarian deep value·short bubbles): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'neutral' 입장 (style: value-contrarian).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "마이클 버리 (contrarian deep value·short bubbles): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'neutral' 입장 (style: value-contrarian).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "challenge",
+          "rationale": "마이클 버리 (contrarian deep value·short bubbles): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'challenge' 입장 (style: value-contrarian).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "마이클 버리 (contrarian deep value·short bubbles): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'neutral' 입장 (style: value-contrarian).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "마이클 버리 (contrarian deep value·short bubbles): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'neutral' 입장 (style: value-contrarian).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "마이클 버리 (contrarian deep value·short bubbles): Simulation-Ready Data = TSMC of training data 포지션 → 'challenge' 입장 (style: value-contrarian).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "마이클 버리 (contrarian deep value·short bubbles): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'neutral' 입장 (style: value-contrarian).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "마이클 버리 (contrarian deep value·short bubbles): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'support' 입장 (style: value-contrarian).",
+          "confidence": 0.75
+        }
+      ],
+      "persona_summary": "버리: '자본잠식 + CB 희석 + thesis-only = bubble candidate.' 시장이 stake 33.57%인 자회사 가치를 100% 귀속으로 mispricing 가능."
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈렙",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 나심 탈렙 anti-fragility·convex bets 관점에서의 stock-specific concern:  downside -50% / upside +500%.' Optionality bet으로 small position acceptable. 단 max 0.5% portfolio.",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (나심 탈렙 skeptic style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "Survivor bias 배제 + tail risk 명시 — 정량보다 robust setup 선호",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "나심 탈렙 (anti-fragility·convex bets): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'neutral' 입장 (style: skeptic).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈렙 (anti-fragility·convex bets): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'neutral' 입장 (style: skeptic).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "나심 탈렙 (anti-fragility·convex bets): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'support' 입장 (style: skeptic).",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "나심 탈렙 (anti-fragility·convex bets): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'support' 입장 (style: skeptic).",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "나심 탈렙 (anti-fragility·convex bets): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'neutral' 입장 (style: skeptic).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T06",
+          "stance": "challenge",
+          "rationale": "나심 탈렙 (anti-fragility·convex bets): Simulation-Ready Data = TSMC of training data 포지션 → 'challenge' 입장 (style: skeptic).",
+          "confidence": 0.53
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "나심 탈렙 (anti-fragility·convex bets): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'support' 입장 (style: skeptic).",
+          "confidence": 0.63
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "나심 탈렙 (anti-fragility·convex bets): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'support' 입장 (style: skeptic).",
+          "confidence": 0.63
+        }
+      ],
+      "persona_summary": "탈렙: 'Asymmetric payoff — downside -50% / upside +500%.' Optionality bet으로 small position acceptable. 단 max 0.5% portfolio."
+    },
+    "ben-graham": {
+      "verdict": "avoid",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 벤저민 그레이엄 margin of safety·intrinsic value 관점에서의 stock-specific concern:  자본잠식 + 적자 + intangible 가치 의존 = speculative.' Graham defensive criteria fail across 모든 metric.",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (벤저민 그레이엄 value style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "정량(P/E·P/B·EV/EBITDA·FCF) 우선 — 정성 inputs(moat·관리진)는 secondary weight",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄 (margin of safety·intrinsic value): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: value).",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄 (margin of safety·intrinsic value): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: value).",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 (margin of safety·intrinsic value): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 (margin of safety·intrinsic value): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄 (margin of safety·intrinsic value): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: value).",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 (margin of safety·intrinsic value): Simulation-Ready Data = TSMC of training data 포지션 → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 (margin of safety·intrinsic value): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄 (margin of safety·intrinsic value): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'support' 입장 (style: value).",
+          "confidence": 0.85
+        }
+      ],
+      "persona_summary": "그레이엄: 'margin of safety 부재 — 자본잠식 + 적자 + intangible 가치 의존 = speculative.' Graham defensive criteria fail across 모든 metric."
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "persona_kr": "빌 아크먼",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 빌 아크먼 high-conviction·activist 관점에서의 stock-specific concern:  사이즈 작고 thesis 단일.' Pass.",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (빌 아크먼 concentrated style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "qualitative conviction × 정량 catalyst 결합",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "빌 아크먼 (high-conviction·activist): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: concentrated).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "빌 아크먼 (high-conviction·activist): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: concentrated).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "빌 아크먼 (high-conviction·activist): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'neutral' 입장 (style: concentrated).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "빌 아크먼 (high-conviction·activist): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'neutral' 입장 (style: concentrated).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "빌 아크먼 (high-conviction·activist): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: concentrated).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "빌 아크먼 (high-conviction·activist): Simulation-Ready Data = TSMC of training data 포지션 → 'support' 입장 (style: concentrated).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "빌 아크먼 (high-conviction·activist): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'support' 입장 (style: concentrated).",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "빌 아크먼 (high-conviction·activist): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'support' 입장 (style: concentrated).",
+          "confidence": 0.5
+        }
+      ],
+      "persona_summary": "아크먼: 'high-conviction 종목 아님 — 사이즈 작고 thesis 단일.' Pass."
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 모니쉬 파브라이 Dhandho·heads I win 관점에서의 stock-specific concern: 파브라이: 'Heads I win + tails not too bad?' Tails는 -50% 이상, 'too bad' 영역. Skip.",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (모니쉬 파브라이 value style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "정량(P/E·P/B·EV/EBITDA·FCF) 우선 — 정성 inputs(moat·관리진)는 secondary weight",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 (Dhandho·heads I win): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: value).",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 (Dhandho·heads I win): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: value).",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 (Dhandho·heads I win): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 (Dhandho·heads I win): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 (Dhandho·heads I win): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: value).",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 (Dhandho·heads I win): Simulation-Ready Data = TSMC of training data 포지션 → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 (Dhandho·heads I win): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'neutral' 입장 (style: value).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "모니쉬 파브라이 (Dhandho·heads I win): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'support' 입장 (style: value).",
+          "confidence": 0.6
+        }
+      ],
+      "persona_summary": "파브라이: 'Heads I win + tails not too bad?' Tails는 -50% 이상, 'too bad' 영역. Skip."
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 필 피셔 scuttlebutt·15 points 관점에서의 stock-specific concern:  SKAI Intelligence team 평가 어려움 (private). NVIDIA endorsement + Inception 멤버십이 partial signal.",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (필 피셔 growth style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "정성(TAM·moat·incremental ROIC) 우선 — 정량은 trajectory 확인용",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "필 피셔 (scuttlebutt·15 points): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: growth).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "필 피셔 (scuttlebutt·15 points): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: growth).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "필 피셔 (scuttlebutt·15 points): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'support' 입장 (style: growth).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "필 피셔 (scuttlebutt·15 points): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'support' 입장 (style: growth).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "필 피셔 (scuttlebutt·15 points): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: growth).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "필 피셔 (scuttlebutt·15 points): Simulation-Ready Data = TSMC of training data 포지션 → 'support' 입장 (style: growth).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "필 피셔 (scuttlebutt·15 points): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'support' 입장 (style: growth).",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "필 피셔 (scuttlebutt·15 points): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'neutral' 입장 (style: growth).",
+          "confidence": 0.55
+        }
+      ],
+      "persona_summary": "피셔 scuttlebutt — SKAI Intelligence team 평가 어려움 (private). NVIDIA endorsement + Inception 멤버십이 partial signal."
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 라케시 준준왈라 emerging market growth 관점에서의 stock-specific concern:  emerging market에서 NVIDIA partner 포지션 잡은 한국 single player에 small bet.",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (라케시 준준왈라 value-growth style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "PEG-style balance — value floor + growth ceiling",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 (emerging market growth): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: value-growth).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 (emerging market growth): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: value-growth).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 (emerging market growth): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'support' 입장 (style: value-growth).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 (emerging market growth): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'support' 입장 (style: value-growth).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 (emerging market growth): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: value-growth).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 (emerging market growth): Simulation-Ready Data = TSMC of training data 포지션 → 'support' 입장 (style: value-growth).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 (emerging market growth): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'support' 입장 (style: value-growth).",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라 (emerging market growth): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'neutral' 입장 (style: value-growth).",
+          "confidence": 0.55
+        }
+      ],
+      "persona_summary": "준준왈라 'India의 Infosys 모델' — emerging market에서 NVIDIA partner 포지션 잡은 한국 single player에 small bet."
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 스탠리 드러켄밀러 macro tailwinds·concentrated 관점에서의 stock-specific concern: 드러켄밀러: 'NVIDIA Physical AI policy + 한국 정부 K-디지털 전환 + APEC 얼라이언스 = macro tailwind",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (스탠리 드러켄밀러 macro style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "Top-down macro thesis × 정량 valuation gate",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 (macro tailwinds·concentrated): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: macro).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 (macro tailwinds·concentrated): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: macro).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 (macro tailwinds·concentrated): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'support' 입장 (style: macro).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 (macro tailwinds·concentrated): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'support' 입장 (style: macro).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 (macro tailwinds·concentrated): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: macro).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 (macro tailwinds·concentrated): Simulation-Ready Data = TSMC of training data 포지션 → 'support' 입장 (style: macro).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 (macro tailwinds·concentrated): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'support' 입장 (style: macro).",
+          "confidence": 0.77
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러 (macro tailwinds·concentrated): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'neutral' 입장 (style: macro).",
+          "confidence": 0.55
+        }
+      ],
+      "persona_summary": "드러켄밀러: 'NVIDIA Physical AI policy + 한국 정부 K-디지털 전환 + APEC 얼라이언스 = macro tailwind tripod.' 단기 catalyst 6.1 키노트."
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "아스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[actual] Omniverse 네이티브 + Isaac Sim 검증 한국 유일 Data Factory 플레이어. 시총 670억원 + 자본잠식 + CB 희석 risk + thesis 입증 시 15~45x optionality — thesis 단계 risk",
+        "[inference] 아스워스 다모다란 story-numbers integration 관점에서의 stock-specific concern:  story strong (Physical AI Data Factory), numbers weak (자본잠식, 매출 미공개). Probability-weighted value 추정 unreliable.",
+        "[actual] 6.1 GTC Taipei 키노트 결과 binary risk + CB 희석 + 자회사 지분 33.57% 제한"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 357880.KQ SKAI worldwide (스카이월드와이드): 스카이인텔리전스 100% 모회사 격(지분 33.57%)",
+        "[inference] Physical AI Data Factory cycle = 2026~2030 secular tailwind",
+        "[actual] Thesis 검증 시 1~5x upside (아스워스 다모다란 academic style fit 평가)"
+      ],
+      "uncertainty": "SKAI worldwide (스카이월드와이드) — 본 분석은 인피의 2026-05-26 글 (Physical AI Data Factory thesis) 기반. 6.1 GTC Taipei 키노트 + 분기 매출 인식 시점 confirm 또는 reset 가능.",
+      "narrative_vs_quant_resolution": "Story와 numbers integration — probability-weighted DCF",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "아스워스 다모다란 (story-numbers integration): NVIDIA Physical AI 5-레이어 (시뮬레이션·데이터 가운데 두 레이어가 진짜 병목) → 'support' 입장 (style: academic).",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "아스워스 다모다란 (story-numbers integration): ABB RobotStudio HyperReality 99% Sim-to-Real (Data Factory의 산업 자동화 입증) → 'support' 입장 (style: academic).",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "아스워스 다모다란 (story-numbers integration): SKAI Intelligence Omniverse + Isaac Sim 통합 (한국 유일 Data Factory 플레이어) → 'neutral' 입장 (style: academic).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "아스워스 다모다란 (story-numbers integration): 도메인 특화 깊이 + 한국 제조업 (글로벌 SI가 못 들어간 영역) → 'support' 입장 (style: academic).",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "아스워스 다모다란 (story-numbers integration): NVIDIA-SK AI Factory 50K GPU + APEC 한국 얼라이언스 (정책 backing) → 'support' 입장 (style: academic).",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "아스워스 다모다란 (story-numbers integration): Simulation-Ready Data = TSMC of training data 포지션 → 'neutral' 입장 (style: academic).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "아스워스 다모다란 (story-numbers integration): 6.1 GTC Taipei 키노트 = SKAI thesis 1차 검증 트리거 → 'neutral' 입장 (style: academic).",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "아스워스 다모다란 (story-numbers integration): 투자 논리 가설 단계 — 5가지 결정 변수 (4/5 우호 필요) → 'support' 입장 (style: academic).",
+          "confidence": 0.6
+        }
+      ],
+      "persona_summary": "다모다란 story-numbers — story strong (Physical AI Data Factory), numbers weak (자본잠식, 매출 미공개). Probability-weighted value 추정 unreliable."
+    }
+  }
+}

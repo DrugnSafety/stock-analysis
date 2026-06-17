@@ -1,0 +1,254 @@
+{
+  "industry": {
+    "name": "HBM TC Bonder + Semi Equipment (Korea)",
+    "overview": "HBM TC(Thermal Compression) 본더 글로벌 점유율 90%+. SK하이닉스·삼성·Micron 모두 채택하는 quasi-monopoly. HBM4 16-Hi 양산 시 본더 발주 추가 폭증. 2025년 매출 yoy +100%, 2026년 추가 +60%+ 가이드.",
+    "competitors": [
+      {
+        "ticker": "ASML",
+        "name": "ASML",
+        "role": "EUV 다른 영역",
+        "share_pct": 25.0,
+        "moat": "EUV 다른 영역"
+      },
+      {
+        "ticker": "AMAT",
+        "name": "Applied Materials",
+        "role": "Etch/CVD",
+        "share_pct": 25.0,
+        "moat": "Etch/CVD"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-Q1",
+        "headline": "수주잔고 1.5조원 돌파",
+        "impact": "+",
+        "impact_reason": "긍정적 영향: HBM·메모리 슈퍼사이클 + 정책 지원 동반",
+        "source": "본 분석 종합",
+        "title": "수주잔고 1.5조원 돌파",
+        "summary": "긍정적 영향: HBM·메모리 슈퍼사이클 + 정책 지원 동반"
+      },
+      {
+        "date": "2025-Q4",
+        "headline": "매출 yoy +120%",
+        "impact": "o",
+        "impact_reason": "중립적 영향",
+        "source": "본 분석 종합",
+        "title": "매출 yoy +120%",
+        "summary": "중립적 영향"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 2.5,
+      "cagr_pct": 35.0,
+      "horizon": "2026-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 3400,
+        "op_income": 1100,
+        "op_margin": 32.4,
+        "net_income": 850,
+        "net_margin": 25.0,
+        "unit": "억원"
+      },
+      {
+        "year": 2022,
+        "revenue": 2520,
+        "op_income": 540,
+        "op_margin": 21.4,
+        "net_income": 380,
+        "net_margin": 15.1
+      },
+      {
+        "year": 2023,
+        "revenue": 1600,
+        "op_income": 150,
+        "op_margin": 9.4,
+        "net_income": 60,
+        "net_margin": 3.8
+      },
+      {
+        "year": 2024,
+        "revenue": 5500,
+        "op_income": 1800,
+        "op_margin": 32.7,
+        "net_income": 1400,
+        "net_margin": 25.5
+      },
+      {
+        "year": 2025,
+        "revenue": 12000,
+        "op_income": 5000,
+        "op_margin": 41.7,
+        "net_income": 3900,
+        "net_margin": 32.5
+      },
+      {
+        "year": "2026E",
+        "revenue": 19000,
+        "op_income": 9000,
+        "op_margin": 47.4,
+        "net_income": 7000,
+        "net_margin": 36.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets_조원": 1.8,
+      "total_debt_조원": 0.05,
+      "cash_조원": 0.8,
+      "equity_조원": 1.5,
+      "debt_to_equity": 0.03
+    },
+    "cf_summary": {
+      "OCF_2025_조원": 0.45,
+      "FCF_2025_조원": 0.32,
+      "CapEx_2025_조원": 0.13
+    },
+    "peer_compare": [
+      {
+        "ticker": "042700.KQ",
+        "name": "한미반도체",
+        "pe": 35.2,
+        "pb": 12.5,
+        "roe": 45.0,
+        "div_yield": 1.2
+      },
+      {
+        "ticker": "039030.KQ",
+        "name": "이오테크닉스",
+        "pe": 46.0,
+        "pb": 8.5,
+        "roe": 22.0,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "ASML",
+        "name": "ASML",
+        "pe": 35.0,
+        "pb": 15.0,
+        "roe": 38.0,
+        "div_yield": 1.0
+      }
+    ],
+    "trend_narrative_5y": "2023 cycle 침체기 매출 절반 추락 → 2024~2026 HBM 슈퍼사이클로 매출 4배 + 영업이익률 47%. ROE 45% 진입."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "HBM4 16-Hi 본더 독점 + 매출 25조원 + Fwd PE 30 정당화",
+      "key_assumptions": [
+        "HBM4 본더 점유율 95%",
+        "HBM cycle 2028까지"
+      ],
+      "target_price": 450000
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "HBM4 본더 점유율 90% 유지 + 매출 19조원",
+      "key_assumptions": [
+        "점유율 90%",
+        "HBM cycle 2027 정점"
+      ],
+      "target_price": 380000
+    },
+    "bear": {
+      "prob_pct": 25,
+      "thesis": "Hynix·Samsung internal 본더 개발 + 점유율 50% 추락",
+      "key_assumptions": [
+        "internal 본더 성공",
+        "cycle 후반 multiple compression"
+      ],
+      "target_price": 220000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM4 본더 신규 발주",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "HBM4 본더 신규 발주"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "매출 가이드 상향",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "매출 가이드 상향"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "HBM4E 본더 양산 시작",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "HBM4E 본더 양산 시작"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Hynix·Samsung internal 본더 개발 성공",
+      "probability": "med",
+      "impact": "high",
+      "description": "Hynix·Samsung internal 본더 개발 성공",
+      "mitigation": "-"
+    },
+    {
+      "name": "HBM cycle peak unwind",
+      "probability": "high",
+      "impact": "high",
+      "description": "HBM cycle peak unwind",
+      "mitigation": "-"
+    },
+    {
+      "name": "valuation 부담 (1Y +296%) — multiple compression",
+      "probability": "high",
+      "impact": "high",
+      "description": "valuation 부담 (1Y +296%) — multiple compression",
+      "mitigation": "-"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "HBM 후공정·테스터·본더·소부장 수혜 확대",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T7 HBM 후공정 수혜' alignment score=0.95; 본 종목 관련성 = 가장 직접 — 본더 monopoly",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.95
+    },
+    {
+      "claim": "리튬 가격은 2025년 저점 통과, 2026년 H2부터 회복",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T1 메모리 슈퍼사이클' alignment score=0.8; 본 종목 관련성 = 장비 capex 발주 주체",
+      "testability": "high",
+      "current_status": "confirmed",
+      "alignment_score": 0.8
+    },
+    {
+      "claim": "P4 평택 라인 가동으로 범용 메모리 부족 가속",
+      "type": "industry",
+      "evidence": "본 분석 thesis 'T4 P4 가동' alignment score=0.75; 본 종목 관련성 = P4 HBM 본더 발주 동반",
+      "testability": "high",
+      "current_status": "pending",
+      "alignment_score": 0.75
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "사업보고서",
+      "title": "수주잔고 1.5조원 + 영업이익률 47% 도달",
+      "impact": "+/긍정적"
+    },
+    {
+      "date": "2026-04",
+      "type": "공시",
+      "title": "HBM4 본더 신규 spec 양산 가능",
+      "impact": "+/긍정적"
+    }
+  ]
+}

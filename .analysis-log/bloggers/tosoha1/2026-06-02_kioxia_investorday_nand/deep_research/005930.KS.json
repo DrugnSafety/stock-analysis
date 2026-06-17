@@ -1,0 +1,124 @@
+{
+  "ticker": "005930.KS",
+  "name_kr": "삼성전자",
+  "name_en": "Samsung Electronics",
+  "sector": "Semiconductor + Conglomerate",
+  "industry": {
+    "name": "DRAM·NAND·HBM + Foundry + Consumer",
+    "overview": "삼성전자는 메모리(DRAM/NAND) 1위 + Foundry + Consumer 전자. NAND 시장 글로벌 점유 30%대 — 본 KIOXIA 분석의 직접 경쟁자. HBM3E 12-Hi 본격 양산으로 SK Hynix 추격 중. P/E fwd 6.46x + P/B 1.5x로 다년 deep value. 한국 시총 1위.",
+    "competitors": [
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM"
+      },
+      {
+        "name": "KIOXIA",
+        "ticker": "285A.T"
+      }
+    ],
+    "news": []
+  },
+  "five_year_pnl_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "notes": "FY23 영업이익 -8조 (메모리 불황) → FY24 흑자 → FY25 영업이익 30조+ 회복. NAND 부문 매출 비중 25%"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "HBM 추격 + NAND tightness + Foundry 2nm. P/E 9x 정상화 시 +40%.",
+      "key_assumptions": [
+        "HBM3E 12-Hi 점유",
+        "NAND ASP 회복",
+        "2nm 수주"
+      ],
+      "target_price_krw": 520000
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "메모리 사이클 안정 + Foundry 점진 회복. P/E 7~8x.",
+      "key_assumptions": [
+        "DRAM 우위 유지",
+        "HBM 추격 점진",
+        "원/달러 1,400"
+      ],
+      "target_price_krw": 430000
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "HBM 격차 확대 + Foundry 실패 + governance 이슈.",
+      "key_assumptions": [
+        "HBM 추격 실패",
+        "Foundry 수주 부족",
+        "상속세 이슈"
+      ],
+      "target_price_krw": 280000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "HBM3E 12-Hi NVIDIA 인증",
+      "type": "product",
+      "expected_impact": "very_high",
+      "description": "HBM4 race 진입 여부"
+    },
+    {
+      "date": "2026-2H",
+      "event": "Foundry 2nm 수주",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "Apple/Qualcomm 수주 가능성"
+    },
+    {
+      "date": "2027",
+      "event": "평택 P4 fab 가동",
+      "type": "capex",
+      "expected_impact": "med",
+      "description": "DRAM/HBM 증설 본격화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM 격차 확대",
+      "probability": "med",
+      "impact": "high",
+      "description": "SK Hynix vs Samsung HBM 점유 격차 1년+",
+      "mitigation": "HBM4 race 가속"
+    },
+    {
+      "name": "Foundry 손실",
+      "probability": "high",
+      "impact": "med",
+      "description": "Foundry 부문 적자 지속",
+      "mitigation": "고객 확보 + 마진 개선"
+    },
+    {
+      "name": "governance 이슈",
+      "probability": "med",
+      "impact": "med",
+      "description": "상속세 + 이재용 risk",
+      "mitigation": "지배구조 안정화"
+    },
+    {
+      "name": "중국 매출 노출",
+      "probability": "med",
+      "impact": "med",
+      "description": "중국 매출 비중 30%",
+      "mitigation": "지역 다변화"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 360500,
+    "implied_growth_pct": "P/E fwd 6.46x → 향후 5년 EPS CAGR 6~8%. 실제 expected 10~12%.",
+    "narrative": "deep value. P/E 8x normalization 시 fair value 449,000원 (+25%). bull case HBM 추격 성공 시 520,000원+ (+44%)."
+  }
+}

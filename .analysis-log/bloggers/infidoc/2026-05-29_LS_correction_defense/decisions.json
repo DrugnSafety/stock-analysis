@@ -1,0 +1,146 @@
+{
+  "computed_at": "2026-05-29T23:33:42.084879+09:00",
+  "ledger_path": ".analysis-log/bloggers/infidoc/2026-05-29_LS_correction_defense/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/infidoc/2026-05-29_LS_correction_defense/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "000500.KS",
+      "date": "2026-05-29",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 7,
+        "neutral": 5,
+        "lean_bearish": 1
+      },
+      "signal_score": 0.3537,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "persona": {
+          "verdict": "neutral",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000.0,
+      "target_quantity": 17,
+      "current_price": 322000.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 1.5842,
+      "reasoning": "중간 매수 신호 (+0.35), 한도의 50% 진입"
+    },
+    {
+      "ticker": "001440.KS",
+      "date": "2026-05-29",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bearish": 5,
+        "neutral": 7,
+        "lean_bullish": 1
+      },
+      "signal_score": -0.1975,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "persona": {
+          "verdict": "lean_bearish",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": -0.42
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 45450.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 1.1338,
+      "reasoning": "중립 신호 (-0.20), 변경 없음"
+    },
+    {
+      "ticker": "006260.KS",
+      "date": "2026-05-29",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 12,
+        "neutral": 1
+      },
+      "signal_score": 0.6524,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "persona": {
+          "verdict": "lean_bullish",
+          "confidence": 0.85,
+          "weight": 1.0,
+          "score_contribution": 0.595
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000.0,
+      "target_quantity": 12,
+      "current_price": 446000.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 0.9028,
+      "reasoning": "중간 매수 신호 (+0.65), 한도의 50% 진입"
+    },
+    {
+      "ticker": "010120.KS",
+      "date": "2026-05-29",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 11,
+        "lean_bearish": 1,
+        "neutral": 1
+      },
+      "signal_score": 0.5571,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "persona": {
+          "verdict": "neutral",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000.0,
+      "target_quantity": 22,
+      "current_price": 241500.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 0.8816,
+      "reasoning": "중간 매수 신호 (+0.56), 한도의 50% 진입"
+    },
+    {
+      "ticker": "322180.KQ",
+      "date": "2026-05-29",
+      "n_verdicts": 13,
+      "verdict_breakdown": {
+        "lean_bullish": 8,
+        "neutral": 5
+      },
+      "signal_score": 0.4575,
+      "weighted_confidence": 0.077,
+      "persona_contributions": {
+        "persona": {
+          "verdict": "neutral",
+          "confidence": 0.6,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000.0,
+      "target_quantity": 839,
+      "current_price": 6550.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 0.8257,
+      "reasoning": "중간 매수 신호 (+0.46), 한도의 50% 진입"
+    }
+  ]
+}

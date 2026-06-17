@@ -1,0 +1,129 @@
+{
+  "computed_at": "2026-05-25",
+  "portfolio_value": 1000000,
+  "base_limit_pct": 0.2,
+  "n_tickers": 5,
+  "methodology": "ai-hedge-fund risk_manager.py — 60d rolling stdev → annualized vol → vol_multiplier × corr_multiplier × base_limit",
+  "limits": [
+    {
+      "ticker": "010060.KS",
+      "as_of_date": "2026-05-23",
+      "current_price": 314500.0,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.08673,
+        "annualized_volatility": 1.3768,
+        "volatility_percentile": 80.1,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 0
+    },
+    {
+      "ticker": "009830.KS",
+      "as_of_date": "2026-05-23",
+      "current_price": 42700.0,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.06456,
+        "annualized_volatility": 1.0248,
+        "volatility_percentile": 63.2,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 2
+    },
+    {
+      "ticker": "DQ",
+      "as_of_date": "2026-05-23",
+      "current_price": 17.78,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03651,
+        "annualized_volatility": 0.5795,
+        "volatility_percentile": 48.2,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 6186
+    },
+    {
+      "ticker": "FSLR",
+      "as_of_date": "2026-05-23",
+      "current_price": 257.85,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.0279,
+        "annualized_volatility": 0.4428,
+        "volatility_percentile": 87.8,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.679,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.1493,
+      "position_limit_value": 149292.0,
+      "remaining_position_limit_value": 149292.0,
+      "max_quantity": 578
+    },
+    {
+      "ticker": "GEV",
+      "as_of_date": "2026-05-23",
+      "current_price": 1038.74,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.03175,
+        "annualized_volatility": 0.504,
+        "volatility_percentile": 25.2,
+        "data_points": 60
+      },
+      "vol_multiplier": 0.5,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.11,
+      "position_limit_value": 110000.0,
+      "remaining_position_limit_value": 110000.0,
+      "max_quantity": 105
+    }
+  ]
+}

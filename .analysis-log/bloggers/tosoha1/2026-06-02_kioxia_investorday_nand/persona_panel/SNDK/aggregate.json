@@ -1,0 +1,900 @@
+{
+  "ticker": "SNDK",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bearish": {
+      "count": 3,
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.705,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish (2/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치!)"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.82
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (4/4 만장일치!)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.82
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치!)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (1/1 만장일치!)"
+    },
+    "quant-tail": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish (1/1 만장일치!)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral (1/1 만장일치!)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Spinoff 이후 통합 리스크",
+      "frequency": 5,
+      "personas": [
+        "warren-buffett",
+        "michael-burry",
+        "nassim-taleb",
+        "charlie-munger",
+        "ben-graham"
+      ],
+      "examples": [
+        "Standalone 1년 미만 — full FY 데이터 부족, governance 검증 부족"
+      ]
+    },
+    {
+      "theme": "1Y +4500% 후 momentum 부담",
+      "frequency": 4,
+      "personas": [
+        "michael-burry",
+        "nassim-taleb",
+        "warren-buffett",
+        "charlie-munger"
+      ],
+      "examples": [
+        "spinoff 가격 재발견 후 과열 가능성"
+      ]
+    },
+    {
+      "theme": "KIOXIA JV 의존도",
+      "frequency": 3,
+      "personas": [
+        "nassim-taleb",
+        "charlie-munger",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "BiCS NAND IP는 KIOXIA와 공동소유 — 협상력 leverage 위험"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "persona_id": "warren-buffett",
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "rationale": "WDC spinoff 1년 미만. enterprise SSD 마진 OK지만 NAND ASP 사이클 리스크. P/E fwd 9.9x는 합리적이나 economic moat 검증 안됨.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Commodity cycle re-frame as 'new phase' is misleading",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "charlie-munger": {
+      "persona_id": "charlie-munger",
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "rationale": "Spinoff 단기 안정성 검증 부족. invert—'이 회사가 망할 시나리오는?' — 중국 YMTC + 사이클 + leverage. 다중 risk factor.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Commodity cycle re-frame as 'new phase' is misleading",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "rebut",
+          "interpretation": "Capex peak signal — invert!",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "rebut",
+          "interpretation": "AI mania peak signal",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "peter-lynch": {
+      "persona_id": "peter-lynch",
+      "verdict": "lean_bullish",
+      "confidence": 0.82,
+      "rationale": "Spinoff 직후 'undiscovered' phase. enterprise SSD 시장 점유율 확보 + LTA 80% coverage. P/E fwd 9.9x는 fast grower 치고 cheap. PEG <0.5.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "cathie-wood": {
+      "persona_id": "cathie-wood",
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "rationale": "Standalone NAND pure-play로 disruption 노출도 100%. enterprise QLC SSD는 HDD 완전 대체 시나리오의 핵심. 5년 1000% upside.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "michael-burry": {
+      "persona_id": "michael-burry",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "rationale": "Spinoff value play는 매력 있으나 1Y +4500% 후 momentum 부담. wait for 30~40% pullback.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Cycle peak warning",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "stance": "rebut",
+          "interpretation": "Capex peak signal — invert!",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "interpretation": "Tight markets often invite over-build",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T5",
+          "stance": "rebut",
+          "interpretation": "LTAs historically broken in downturns",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "rebut",
+          "interpretation": "Soft commitment",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T7",
+          "stance": "rebut",
+          "interpretation": "AI mania peak signal",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "stance": "rebut",
+          "interpretation": "Demand forecast over-extrapolated",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "persona_id": "nassim-taleb",
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "rationale": "Spinoff 1년 미만 + concentrated NAND exposure. Anti-fragility 부족. binary risk profile.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "rebut",
+          "interpretation": "Cycle peak warning",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "rebut",
+          "interpretation": "'안정기' claim historically broken",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "rebut",
+          "interpretation": "Soft commitment",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "rebut",
+          "interpretation": "Demand forecast over-extrapolated",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "ben-graham": {
+      "persona_id": "ben-graham",
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "rationale": "Standalone NAND 자산은 reasonable. P/E fwd 10x 이내라 Graham 기준 통과.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "bill-ackman": {
+      "persona_id": "bill-ackman",
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "rationale": "Spinoff은 Ackman의 sweet spot. management focus + capital allocation 개선 catalyst. 25% concentrated bet 가능.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "persona_id": "mohnish-pabrai",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "rationale": "Spinoff but momentum already in price.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "phil-fisher": {
+      "persona_id": "phil-fisher",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "rationale": "Standalone CEO + 분명한 strategy. management quality + R&D pipeline. 4-5년 hold worth.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "persona_id": "rakesh-jhunjhunwala",
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "rationale": "Spinoff + cycle bull — high beta opportunity.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "interpretation": "wait for ROIC validation",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "interpretation": "watch capex execution",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "persona_id": "stanley-druckenmiller",
+      "verdict": "lean_bullish",
+      "confidence": 0.82,
+      "rationale": "NAND pure-play exposure + macro tailwind. Druck high-conviction.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "interpretation": "Cyclical inflection signal",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "interpretation": "evidence pending",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Supply-demand mismatch favorable",
+          "confidence": 0.78
+        },
+        {
+          "claim_id": "T5",
+          "stance": "support",
+          "interpretation": "Revenue visibility improvement",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "support",
+          "interpretation": "Sector rotation signal",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "stance": "support",
+          "interpretation": "Secular tailwind",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "persona_id": "aswath-damodaran",
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "rationale": "P/E fwd 9.9x은 reasonable. Reverse DCF — growth 10% + margin stability 가정 시 fair value.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "interpretation": "wait for execution evidence",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "interpretation": "Disciplined capital allocation",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "interpretation": "Valuation discipline implied",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "support",
+          "interpretation": "Industry tailwind",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "interpretation": "wait for contract specifics",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "support",
+          "interpretation": "ROIC stability",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "interpretation": "macro narrative",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "stance": "neutral",
+          "interpretation": "secondary AI exposure",
+          "confidence": 0.55
+        }
+      ]
+    }
+  },
+  "evaluated_at": "2026-06-02T15:47:08.434699"
+}

@@ -1,0 +1,210 @@
+{
+  "industry": {
+    "name": "K-POP Fan Platform (Bubble)",
+    "overview": "디어유는 SM 23.3% 자회사로 Bubble 팬 메시지 플랫폼 운영. 글로벌 MAU 200만+, 월 4,500원 SaaS 모델, retention 80%+. JYP·HYBE 일부 그룹과도 계약 — 4사 ecosystem hub. 1Y -40%로 5종목 중 최악 — fatigue + 경쟁 platform fragmentation 우려.",
+    "competitors": [
+      {
+        "name": "Weverse (HYBE)",
+        "market_share_pct": 50,
+        "strength": "BTS·SEVENTEEN 등 1위 IP 보유",
+        "weakness": "독립 unit 미상장"
+      },
+      {
+        "name": "UNIVERSE (NCSOFT)",
+        "market_share_pct": 15,
+        "strength": "게임 IP 결합",
+        "weakness": "K-POP 영역 제한"
+      },
+      {
+        "name": "Bubble (디어유)",
+        "market_share_pct": 20,
+        "strength": "SaaS retention 80%+ + 다 K-POP사 호환",
+        "weakness": "단일 비즈니스"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-20",
+        "title": "디어유 Bubble MAU 200만 돌파 (yoy +30%)",
+        "source": "디어유 IR"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "Bubble 일본·미국 결제 안정화 + 신규 그룹 추가",
+        "source": "디어유 IR"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 0.5,
+      "cagr_pct": 25,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2020,
+        "revenue": 130,
+        "op_income": 25,
+        "op_margin": 19.2,
+        "net_income": 22,
+        "net_margin": 16.9
+      },
+      {
+        "year": 2021,
+        "revenue": 400,
+        "op_income": 132,
+        "op_margin": 33.0,
+        "net_income": 110,
+        "net_margin": 27.5
+      },
+      {
+        "year": 2022,
+        "revenue": 500,
+        "op_income": 200,
+        "op_margin": 40.0,
+        "net_income": 165,
+        "net_margin": 33.0
+      },
+      {
+        "year": 2023,
+        "revenue": 750,
+        "op_income": 320,
+        "op_margin": 42.7,
+        "net_income": 270,
+        "net_margin": 36.0
+      },
+      {
+        "year": 2024,
+        "revenue": 730,
+        "op_income": 270,
+        "op_margin": 37.0,
+        "net_income": 230,
+        "net_margin": 31.5
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2024-12-31",
+      "total_assets_bn_krw": 1800,
+      "total_liabilities_bn_krw": 200,
+      "total_equity_bn_krw": 1600,
+      "cash_bn_krw": 1100,
+      "debt_bn_krw": 0,
+      "net_debt_pct_of_equity": -68.8
+    },
+    "cf_summary": {
+      "ocf_2024_bn_krw": 280,
+      "fcf_2024_bn_krw": 270,
+      "capex_2024_bn_krw": 10,
+      "fcf_margin_pct": 37.0
+    },
+    "peer_compare": [
+      {
+        "ticker": "376300.KQ",
+        "name": "디어유",
+        "fwd_pe": 13.64,
+        "roe_pct": 18,
+        "debt_to_equity_pct": -69,
+        "fcf_margin_pct": 37.0
+      },
+      {
+        "ticker": "035900.KQ",
+        "name": "JYP",
+        "fwd_pe": 14.06,
+        "roe_pct": 19,
+        "debt_to_equity_pct": -58,
+        "fcf_margin_pct": 22.6
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 45000,
+      "thesis": "MAU 300만 돌파 + 글로벌 결제 확대 + JYP·HYBE 그룹 추가",
+      "horizon": "12-18M"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 35000,
+      "thesis": "MAU 안정 성장 + retention 80% 유지",
+      "horizon": "12-18M"
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 22000,
+      "thesis": "fatigue + Weverse 경쟁 가속화 + 매출 다각화 미흡",
+      "horizon": "12-18M"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Bubble 미국·일본 신규 그룹 추가",
+      "type": "growth",
+      "expected_impact": "+",
+      "description": "MAU +20만 가능"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "신규 SaaS 기능 (영상통화·VR) 런칭",
+      "type": "innovation",
+      "expected_impact": "+",
+      "description": "ARPU 상향 가능"
+    }
+  ],
+  "risks": [
+    {
+      "name": "팬덤 fatigue",
+      "probability": "high",
+      "impact": "high",
+      "description": "신규 가입자 둔화 추세 — retention 80% 유지 어려울 수 있음",
+      "mitigation": "신규 그룹 추가 + 기능 확장"
+    },
+    {
+      "name": "Weverse 경쟁 가속화",
+      "probability": "med",
+      "impact": "high",
+      "description": "HYBE Weverse가 글로벌 1위 plat인 상태",
+      "mitigation": "non-HYBE 그룹 차별화 strategy"
+    },
+    {
+      "name": "단일 비즈니스 (메시지 SaaS)",
+      "probability": "high",
+      "impact": "med",
+      "description": "매출 다각화 미흡",
+      "mitigation": "VR·영상 등 신규 기능 도입"
+    },
+    {
+      "name": "변동성 59%",
+      "probability": "high",
+      "impact": "high",
+      "description": "단기 -25% drawdown 가능",
+      "mitigation": "보수적 position size"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Bubble MAU 200만+, retention 80% — SaaS 우수 수준",
+      "type": "factual",
+      "evidence": "디어유 IR 분기 disclosure",
+      "testability": "high",
+      "current_status": "verified"
+    },
+    {
+      "claim": "SM 23.3% 자회사 + JYP·HYBE 일부 그룹 계약",
+      "type": "factual",
+      "evidence": "디어유 IR + 그룹별 계약 announce",
+      "testability": "high",
+      "current_status": "verified"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-22",
+      "type": "분기보고서",
+      "title": "1Q26 매출 180억 (yoy +8%)",
+      "url": "DART"
+    }
+  ]
+}

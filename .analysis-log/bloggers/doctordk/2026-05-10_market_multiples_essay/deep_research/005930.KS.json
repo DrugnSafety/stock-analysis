@@ -1,0 +1,322 @@
+{
+  "ticker": "005930.KS",
+  "name_kr": "삼성전자",
+  "name_en": "Samsung Electronics",
+  "industry": {
+    "name": "Memory + Foundry + Mobile + Display",
+    "overview": "1969년 설립. 메모리 #1(DRAM 41%, NAND 33%), Foundry #2(TSMC 뒤), Smartphone #2(Apple 뒤). 5개 사업부: DS(Device Solutions, 메모리+파운드리), MX(모바일), VD(TV), HA(가전), Harman.",
+    "competitors": [
+      {
+        "name": "Samsung Electronics",
+        "ticker": "005930.KS",
+        "share_pct": 41.0,
+        "moat": "Memory leader + vertical integration + 정부 지원"
+      },
+      {
+        "name": "SK Hynix",
+        "ticker": "000660.KS",
+        "share_pct": 31.0,
+        "moat": "HBM 50%+ share + AI exposure"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 22.0,
+        "moat": "US-domiciled + DDR5 advantage"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 60.0,
+        "moat": "Foundry #1 — 2nm 우위 + customer base"
+      },
+      {
+        "name": "Intel Foundry",
+        "ticker": "INTC",
+        "share_pct": 1.0,
+        "moat": "정부 보조금 + 자체 design"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 580.0,
+      "cagr_pct": 8.5,
+      "horizon": "Global Memory + Foundry + Mobile 2024-2028"
+    },
+    "news": [
+      {
+        "date": "2026-04-25",
+        "source": "Samsung Q1 Earnings",
+        "title": "Q1 매출 79조 (+9.8% YoY), 영업이익 6.7조",
+        "summary": "메모리 23.4조 매출 (HBM3E 본격 매출 인식), 파운드리 적자 축소."
+      },
+      {
+        "date": "2026-03-15",
+        "source": "DART 공시",
+        "title": "Value-Up Program 참여 의향서 제출",
+        "summary": "주주환원 +30% 인상 계획 + 거버넌스 개혁 단계 가이던스."
+      },
+      {
+        "date": "2026-02-10",
+        "source": "Bloomberg",
+        "title": "HBM4 NVDA·AMD qualification 진행 (2026 Q3 예상)",
+        "summary": "SK Hynix 대비 6개월 후행 그러나 catch-up 진행."
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 279600,
+        "op_income": 51630,
+        "op_margin": 18.5,
+        "net_income": 39990,
+        "net_margin": 14.3
+      },
+      {
+        "year": 2022,
+        "revenue": 302230,
+        "op_income": 43380,
+        "op_margin": 14.3,
+        "net_income": 55650,
+        "net_margin": 18.4
+      },
+      {
+        "year": 2023,
+        "revenue": 258940,
+        "op_income": 6570,
+        "op_margin": 2.5,
+        "net_income": 15490,
+        "net_margin": 6.0
+      },
+      {
+        "year": 2024,
+        "revenue": 305000,
+        "op_income": 32700,
+        "op_margin": 10.7,
+        "net_income": 32800,
+        "net_margin": 10.8
+      },
+      {
+        "year": 2025,
+        "revenue": 320000,
+        "op_income": 41600,
+        "op_margin": 13.0,
+        "net_income": 38500,
+        "net_margin": 12.0
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2026-03-31",
+      "cash_usdmn": 70000,
+      "total_debt_usdmn": 17500,
+      "net_debt_usdmn": -52500,
+      "total_assets_usdmn": 350000,
+      "total_equity_usdmn": 280000,
+      "current_ratio": 2.6,
+      "debt_to_equity": 0.06
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 48000,
+      "capex_2025_usdmn": 36000,
+      "fcf_2025_usdmn": 12000,
+      "dividend_paid_2025_usdmn": 7000,
+      "buyback_2025_usdmn": 1500
+    },
+    "peer_compare": [
+      {
+        "ticker": "005930.KS",
+        "fwd_pe": 5.65,
+        "ev_ebitda": 4.5,
+        "fcf_yield_pct": 5.5,
+        "roe_pct": 11.5,
+        "debt_to_equity": 0.06
+      },
+      {
+        "ticker": "000660.KS",
+        "fwd_pe": 5.11,
+        "ev_ebitda": 4.2,
+        "fcf_yield_pct": 3.5,
+        "roe_pct": 45.0,
+        "debt_to_equity": 0.3
+      },
+      {
+        "ticker": "MU",
+        "fwd_pe": 11.5,
+        "ev_ebitda": 7.5,
+        "fcf_yield_pct": 1.5,
+        "roe_pct": 18.0,
+        "debt_to_equity": 0.32
+      },
+      {
+        "ticker": "TSM",
+        "fwd_pe": 24.5,
+        "ev_ebitda": 14.0,
+        "fcf_yield_pct": 2.5,
+        "roe_pct": 28.0,
+        "debt_to_equity": 0.25
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "HBM4 동등 진입 + 2nm Foundry + Value-Up 가속",
+      "thesis": "HBM4 SK Hynix 동등 진입 + 2nm Foundry 본격화",
+      "prob_pct": 30,
+      "target_price": 380000,
+      "assumption": "HBM4 SK Hynix 동등 진입 + 2nm Foundry 본격화",
+      "key_assumptions": [
+        "HBM4 SK Hynix 동등 진입 + 2nm Foundry 본격화"
+      ],
+      "upside_pct": 33
+    },
+    "base": {
+      "label": "HBM4 부분 catch-up + 메모리 cycle 정상화",
+      "thesis": "Base — governance 점진 개혁",
+      "prob_pct": 50,
+      "target_price": 350000,
+      "assumption": "Base — governance 점진 개혁",
+      "key_assumptions": [
+        "Base — governance 점진 개혁"
+      ],
+      "upside_pct": 22
+    },
+    "bear": {
+      "label": "HBM4 catch-up 실패 + 메모리 cycle 하락",
+      "thesis": "Bear — Korea discount 영구 + 메모리 cycle 하락",
+      "prob_pct": 20,
+      "target_price": 240000,
+      "assumption": "Bear — Korea discount 영구 + 메모리 cycle 하락",
+      "key_assumptions": [
+        "Bear — Korea discount 영구 + 메모리 cycle 하락"
+      ],
+      "downside_pct": -16
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q3",
+      "event": "HBM4 NVDA·AMD qualification",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Qualification 통과 시 +25%"
+    },
+    {
+      "date": "2026 H2",
+      "event": "Foundry 2nm 첫 양산 customer 확보",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Quallcomm/Tesla 등 확보 시 +10%"
+    },
+    {
+      "date": "2026-06",
+      "event": "Korea Value-Up Phase 2 가이던스",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "주주환원 +30% 인상 가시화 시 +15%"
+    },
+    {
+      "date": "2026 quarterly",
+      "event": "분기 dividend 인상 발표 예상",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "+20-30% dividend hike 시 +5%"
+    },
+    {
+      "date": "2026 H2",
+      "event": "삼성SDI·디스플레이 재편 가능성",
+      "type": "deal",
+      "expected_impact": "+/-",
+      "description": "분리/합병 시 sum-of-parts +15%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "HBM4 catch-up 실패",
+      "description": "HBM4 catch-up 실패",
+      "probability": "med",
+      "impact": "high",
+      "mitigation": "HBM5 first-mover 또는 GDDR7 대체"
+    },
+    {
+      "name": "Korea governance reform 후퇴 (정치 risk)",
+      "description": "Korea governance reform 후퇴 (정치 risk)",
+      "probability": "med",
+      "impact": "med",
+      "mitigation": "Value-Up Program 정착 + 외국인 지지"
+    },
+    {
+      "name": "메모리 cycle 2027-2028 하락기 진입",
+      "description": "메모리 cycle 2027-2028 하락기 진입",
+      "probability": "high",
+      "impact": "high",
+      "mitigation": "HBM 비중 확대 + Foundry growth"
+    },
+    {
+      "name": "China 외부 의존 (매출 + 공급망)",
+      "description": "China 외부 의존 (매출 + 공급망)",
+      "probability": "med",
+      "impact": "high",
+      "mitigation": "본토 외 매출 다각화 (US·EU·India)"
+    },
+    {
+      "name": "Mobile 사업 손익 break-even (Apple AI advantage)",
+      "description": "Mobile 사업 손익 break-even (Apple AI advantage)",
+      "probability": "high",
+      "impact": "med",
+      "mitigation": "Galaxy AI + Foundry 시너지"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T4",
+      "claim": "Korea fear-discount regime의 archetype",
+      "type": "macro",
+      "support_for_ticker": "STRONG",
+      "testability": "high",
+      "current_status": "confirmed",
+      "evidence": "fwd PE 6배 vs TSM 25, AAPL 30 — 동등 fundamental 대비 -60% discount",
+      "ticker_specific_note": "Korea Value-Up Phase 2 + governance reform 시 -30%까지 discount 좁힘 가능"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "Cyclical regime change 가능성 — HBM4 catch-up",
+      "type": "industry",
+      "support_for_ticker": "MIXED",
+      "testability": "high",
+      "current_status": "in_progress",
+      "evidence": "HBM4 qualification 2026 Q3-Q4 예상, SK Hynix 50%+ share 대비 catch-up",
+      "ticker_specific_note": "Samsung HBM4 NVDA·AMD qualification 성공 시 +30-50% rerating"
+    },
+    {
+      "thesis_id": "T1",
+      "claim": "Multiple은 era 합의 — Korea discount는 결국 시장 합의",
+      "type": "macro",
+      "support_for_ticker": "SUPPORT",
+      "testability": "high",
+      "current_status": "ongoing",
+      "evidence": "Korea discount 30년 통계 통해 영구 합의 검증",
+      "ticker_specific_note": "Mean reversion thesis — 합의 변화 시 valuation rerating"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "annual_report",
+      "date": "2025-03-15",
+      "title": "2024년 사업보고서",
+      "summary": "매출 305조원, 영업이익 32.7조원, R&D 32조원 (매출 대비 10.5%)."
+    },
+    {
+      "type": "quarterly_report",
+      "date": "2026-04-25",
+      "title": "2026 Q1 분기보고서",
+      "summary": "매출 79.1조 (+9.8% YoY), 영업이익 6.7조 (메모리 23.4조원 매출)."
+    },
+    {
+      "type": "press_release",
+      "date": "2026-03-15",
+      "title": "Value-Up Program 참여 의향서 제출",
+      "summary": "주주환원 +30% 인상 계획 + 거버넌스 개혁 단계 가이던스."
+    }
+  ]
+}

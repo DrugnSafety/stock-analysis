@@ -1,0 +1,185 @@
+{
+  "industry": {
+    "name": "Longevity / Anti-aging Biotech",
+    "overview": "글로벌 longevity biotech 산업은 2024년 $25B → 2030년 $80B+ (CAGR ~21%). Altos Labs(베이조스·밀너 30억달러)와 Life Biosciences(Sinclair팀)이 양강 unicorn. 2026년 1월 Life Biosciences ER-100 FDA IND 승인 = 인류 최초 'age-reversal' 인체 임상. OSK 3-factor + doxycycline-inducible 표준화 진행 중. 동반 산업: AI×Bio 신약개발(RXRX·Insilico), CRISPR 인-vivo gene editing(NTLA·CRSP·BEAM), 메틸화 NGS(ILMN·Macrogen), CDMO(Lonza·Catalent·삼성바이오로직스). 단기 catalyst: 2026Q4 ER-100 1상 1차 데이터 발표.",
+    "competitors": [
+      {
+        "name": "Life Biosciences (비상장)",
+        "ticker": "n/a",
+        "share_pct": 0,
+        "moat": "Sinclair 학계 1위 + ER-100 first-in-human IND"
+      },
+      {
+        "name": "Altos Labs (비상장)",
+        "ticker": "n/a",
+        "share_pct": 0,
+        "moat": "$3B 자금 + 세계 최고급 인력 (야마나카·벨몬테·호바스 등)"
+      },
+      {
+        "name": "Recursion Pharmaceuticals",
+        "ticker": "RXRX",
+        "share_pct": 8,
+        "moat": "AI×Bio 플랫폼 + longevity 파이프라인"
+      },
+      {
+        "name": "BioAge Labs",
+        "ticker": "BIOA",
+        "share_pct": 4,
+        "moat": "Pure-play longevity biotech"
+      },
+      {
+        "name": "Intellia Therapeutics",
+        "ticker": "NTLA",
+        "share_pct": 6,
+        "moat": "CRISPR in-vivo gene editing (OSK enabler)"
+      },
+      {
+        "name": "Calico (Alphabet)",
+        "ticker": "GOOGL (간접)",
+        "share_pct": 5,
+        "moat": "AI-driven longevity (Google scale)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-19",
+        "title": "메르 — '80세가 4주만에 20세가 된다는 역노화 실험은 어디까지 왔나' 분석",
+        "source": "메르 블로그",
+        "summary": "Altos Labs vs Life Biosciences 양강 구도 + ER-100 FDA IND 승인 + 임상 진입 상세"
+      },
+      {
+        "date": "2026-03-28",
+        "title": "Life Biosciences ER-100 first dose to first NAION patient",
+        "source": "Life Biosciences PR",
+        "summary": "1상 첫 환자 주사 — 28일 모니터링 시작"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "Sinclair 교수 'first-in-human age reversal' 공식 발표",
+        "source": "Harvard Medical School",
+        "summary": "FDA IND 승인 후 첫 공식 발표"
+      },
+      {
+        "date": "2026-01-28",
+        "title": "Life Biosciences ER-100 FDA IND 승인",
+        "source": "FDA",
+        "summary": "OSK 3-factor + doxycycline-inducible 안전장치 설계"
+      },
+      {
+        "date": "2025-11-10",
+        "title": "Altos Labs Series A extension $1B 추가 펀딩",
+        "source": "TechCrunch",
+        "summary": "총 누적 $3B+ 자금 — 산업 dominant unicorn"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 21.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 28.66,
+      "thesis": "NTLA-2001 ATTR Ph3 positive + ER-100 sector beta + CRISPR 표준화",
+      "key_assumptions": [
+        "NTLA-2001 Ph3 positive",
+        "CRISPR 시장 확대",
+        "Regeneron partnership 강화"
+      ],
+      "description": "NTLA-2001 ATTR Ph3 positive + ER-100 sector beta + CRISPR 표준화"
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 11.94,
+      "thesis": "NTLA-2001 데이터 견조 유지, 임상 진행 정상",
+      "key_assumptions": [
+        "임상 진행 정상",
+        "cash runway 안정"
+      ],
+      "description": "NTLA-2001 데이터 견조 유지, 임상 진행 정상"
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 5.97,
+      "thesis": "NTLA-2001 안전성 이슈 or ER-100 sector failure",
+      "key_assumptions": [
+        "임상 안전성 이슈",
+        "sector contagion"
+      ],
+      "description": "NTLA-2001 안전성 이슈 or ER-100 sector failure"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q4",
+      "event": "NTLA-2001 Ph3 interim data",
+      "expected_impact": "±40%"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "ER-100 1상 (sector beta)",
+      "expected_impact": "±25%"
+    },
+    {
+      "date": "2027",
+      "event": "NTLA-2002 HAE Ph2 readout",
+      "expected_impact": "±20%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Clinical Binary (NTLA-2001)",
+      "probability": "high",
+      "impact": "high",
+      "description": "NTLA-2001 안전성 이슈 시 -60% 폭락 가능",
+      "mitigation": "포지션 한도 2% 이하 (vol multiplier 0.4)"
+    },
+    {
+      "name": "Sector Concentration",
+      "probability": "high",
+      "impact": "med",
+      "description": "CRISPR sector beta + longevity sector beta 이중 노출",
+      "mitigation": "분산 — RXRX·BIOA와 동시 매수 자제"
+    },
+    {
+      "name": "Cash Burn",
+      "probability": "med",
+      "impact": "med",
+      "description": "annual burn $250M, runway 4년",
+      "mitigation": "분기 cash flow disclosure"
+    },
+    {
+      "name": "Volatility (98.7%)",
+      "probability": "high",
+      "impact": "high",
+      "description": "연간 변동성 98.7% — 단기 trade에 부적합",
+      "mitigation": "long-term holding only, vol-adjusted sizing"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "type": "company",
+      "claim": "NTLA는 in-vivo CRISPR platform = OSK reprogramming의 잠재 enabler",
+      "evidence": "NTLA-2001 ATTR Ph3 데이터, NTLA-2002 HAE Ph2, Regeneron partnership",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "type": "industry",
+      "claim": "ER-100 sector beta + 자체 임상 binary 이중 노출",
+      "evidence": "CRISPR sector ETF + longevity sector ETF 모두 구성",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "type": "macro",
+      "claim": "CRISPR cycle 2026-2028 capital flow tailwind",
+      "evidence": "CRISPR 시장 2024 $5B → 2030 $20B+ 추정 (CAGR 26%)",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": []
+}

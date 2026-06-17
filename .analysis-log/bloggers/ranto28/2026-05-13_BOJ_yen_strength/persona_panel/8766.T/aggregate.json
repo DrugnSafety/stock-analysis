@@ -1,0 +1,225 @@
+{
+  "ticker": "8766.T",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 11,
+      "pct": 84.6
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 15.4
+    }
+  },
+  "average_confidence": 0.62,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "macro_contrarian": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "emerging": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ]
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "엔 강세 환산 부담 (북미 60% 매출)",
+      "frequency": 7,
+      "personas": [
+        "warren-buffett",
+        "stanley-druckenmiller",
+        "charlie-munger",
+        "phil-fisher",
+        "michael-burry",
+        "aswath-damodaran",
+        "peter-lynch"
+      ],
+      "examples": [
+        "USD/JPY -6엔 시 -¥2000-3000억 환산 부담"
+      ]
+    },
+    {
+      "theme": "일본 자연재해 risk (지진·태풍)",
+      "frequency": 6,
+      "personas": [
+        "warren-buffett",
+        "nassim-taleb",
+        "michael-burry",
+        "stanley-druckenmiller",
+        "charlie-munger",
+        "ben-graham"
+      ],
+      "examples": [
+        "손해율 67-72% — 평균 + 극단치 risk"
+      ]
+    },
+    {
+      "theme": "글로벌 재보험 가격 cycle 정점",
+      "frequency": 4,
+      "personas": [
+        "stanley-druckenmiller",
+        "warren-buffett",
+        "michael-burry",
+        "phil-fisher"
+      ],
+      "examples": [
+        "Hard cycle 후 soft turn 가능성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "long_term"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "tail_risk"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term"
+    }
+  }
+}

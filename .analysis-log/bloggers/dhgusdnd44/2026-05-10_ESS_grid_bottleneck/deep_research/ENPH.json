@@ -1,0 +1,235 @@
+{
+  "ticker": "ENPH",
+  "name": "Enphase Energy",
+  "name_kr": "엔페이즈 에너지",
+  "research_date": "2026-05-10",
+  "industry": {
+    "name": "마이크로인버터·가정용 ESS",
+    "overview": "마이크로인버터(IQ8) + 가정용 ESS(IQ Battery) 글로벌 1위. 미국·유럽 가정용 PV+ESS 시장 50%+ 점유. 블로그 thesis의 '오프그리드' 직접 매핑. 2024년 cycle stress (매출 -20% YoY) 진행 중이나 Forward PE 14.93로 sector bottoming candidate.",
+    "competitors": [
+      {
+        "name": "SolarEdge",
+        "ticker": "SEDG",
+        "strength": "옵티마이저 + 인버터, 2024 stress 더 큼"
+      },
+      {
+        "name": "Tesla Energy",
+        "ticker": "TSLA",
+        "strength": "Powerwall, vertically integrated"
+      },
+      {
+        "name": "Sungrow Power",
+        "ticker": "300274.SZ",
+        "strength": "글로벌 인버터 1위, 가격 압력"
+      },
+      {
+        "name": "Huawei Digital Power",
+        "ticker": "non-listed",
+        "strength": "신흥국 dominant"
+      },
+      {
+        "name": "SMA Solar",
+        "ticker": "S92.DE",
+        "strength": "유럽 인버터"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 18,
+      "horizon": "2024-2030",
+      "cagr_pct": 15.0,
+      "future_usd_bn": 42
+    },
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "ENPH Q1 매출 +5% YoY (4분기 만에 회복)",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-03",
+        "title": "IQ Battery 5P 출시 (저가형)",
+        "impact": "+",
+        "url": ""
+      },
+      {
+        "date": "2026-02",
+        "title": "유럽 매출 +18% (네덜란드·이탈리아)",
+        "impact": "+",
+        "url": ""
+      }
+    ]
+  },
+  "financials": {
+    "currency": "USD",
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 1382,
+        "op_income": 165,
+        "op_margin": 11.9,
+        "net_income": 145,
+        "net_margin": 10.5
+      },
+      {
+        "year": 2022,
+        "revenue": 2331,
+        "op_income": 462,
+        "op_margin": 19.8,
+        "net_income": 397,
+        "net_margin": 17.0
+      },
+      {
+        "year": 2023,
+        "revenue": 2289,
+        "op_income": 525,
+        "op_margin": 22.9,
+        "net_income": 438,
+        "net_margin": 19.1
+      },
+      {
+        "year": 2024,
+        "revenue": 1330,
+        "op_income": 89,
+        "op_margin": 6.7,
+        "net_income": 102,
+        "net_margin": 7.7
+      },
+      {
+        "year": 2025,
+        "revenue": 1560,
+        "op_income": 195,
+        "op_margin": 12.5,
+        "net_income": 178,
+        "net_margin": 11.4
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-Q4",
+      "total_assets": 3850,
+      "total_liabilities": 2400,
+      "equity": 1450,
+      "cash": 1650,
+      "total_debt": 1200
+    },
+    "cf_summary": {
+      "ocf_2025": 280,
+      "fcf_2025": 220,
+      "capex_2025": 60
+    },
+    "fetched_via": "Enphase 10-K + Investor presentations (estimates)"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30.0,
+      "target_price": 75,
+      "thesis": "금리 cycle 반전 + EU 가정용 ESS 의무화 + 매출 +25% 회복. 영업이익률 18%+ 회귀. Forward PE 14.93 → 25 re-rating.",
+      "key_assumptions": [
+        "금리 cycle 반전 + EU 가정용 ESS 의무화 + 매출 +25% 회복. 영업이익률 18%+ 회귀. Forward PE 14.93 → 25 ..."
+      ],
+      "upside_pct": 108.3
+    },
+    "base": {
+      "prob_pct": 40.0,
+      "target_price": 50,
+      "thesis": "매출 +15% 회복 + 영업이익률 12~15%. EU 매출 견조. Forward PE 14.93 유지.",
+      "key_assumptions": [
+        "매출 +15% 회복 + 영업이익률 12~15%. EU 매출 견조. Forward PE 14.93 유지...."
+      ],
+      "upside_pct": 38.9
+    },
+    "bear": {
+      "prob_pct": 30.0,
+      "target_price": 22,
+      "thesis": "10Y Treasury 5%+ 지속 + 가정용 ESS 매출 둔화 연장. Sungrow·Huawei 가격 압력. EBITDA margin 8% 회귀.",
+      "key_assumptions": [
+        "10Y Treasury 5%+ 지속 + 가정용 ESS 매출 둔화 연장. Sungrow·Huawei 가격 압력. EBITDA margin 8% 회..."
+      ],
+      "upside_pct": -38.9
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Q1 실적 + 가이던스",
+      "impact": "+/-"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "EU 가정용 ESS 의무화 진행",
+      "impact": "+"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Fed 금리 인하 시 회복 catalyst",
+      "impact": "+"
+    }
+  ],
+  "risks": [
+    {
+      "name": "금리 cycle 지연 — 가정용 PV+ESS 수요 회복 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "금리 cycle 지연 — 가정용 PV+ESS 수요 회복 둔화",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "Sungrow·Huawei 미국 진출 시 가격 압력",
+      "probability": "med",
+      "impact": "med",
+      "description": "Sungrow·Huawei 미국 진출 시 가격 압력",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "IRA Section 25D 축소 시 가정용 PV credit 영향",
+      "probability": "med",
+      "impact": "med",
+      "description": "IRA Section 25D 축소 시 가정용 PV credit 영향",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "변동성 vol 55% — short-term 큰 swing",
+      "probability": "med",
+      "impact": "med",
+      "description": "변동성 vol 55% — short-term 큰 swing",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    },
+    {
+      "name": "Tesla Powerwall 4 출시 시 시장 점유율 압력",
+      "probability": "med",
+      "impact": "med",
+      "description": "Tesla Powerwall 4 출시 시 시장 점유율 압력",
+      "mitigation": "포지션 한도 준수 + 분기 backlog 모니터링"
+    }
+  ],
+  "korean_disclosures": [],
+  "us_disclosures": [
+    {
+      "date": "2026-04-22",
+      "type": "10-Q",
+      "summary": "Q1 2026 매출 $410M +5% YoY",
+      "title": "Q1 2026 매출 $410M +5% YoY",
+      "impact": "○"
+    },
+    {
+      "date": "2026-02-08",
+      "type": "10-K",
+      "summary": "FY2025 매출 $1.56B 회복",
+      "title": "FY2025 매출 $1.56B 회복",
+      "impact": "○"
+    },
+    {
+      "date": "2026-01-15",
+      "type": "8-K",
+      "summary": "IQ Battery 5P 양산 시작",
+      "title": "IQ Battery 5P 양산 시작",
+      "impact": "○"
+    }
+  ],
+  "subagent_debate": {
+    "bull_druckenmiller": "Sector bottoming + 금리 cycle 반전 setup. -25% 1Y에서 contrarian 진입. 18개월 forward earnings power +50% 가능.",
+    "bear_buffett": "2024 매출 -20% 둔화 + FCF $220M 수준으로 MoS 부족. 가격 압력 risk. 보수적 접근 권장.",
+    "skeptic": "EU 매출 견조성 검증 — 실제 install rate? 가정용 ESS 가격 -15% YoY 추세 지속 시 마진 압박?",
+    "convergence": "Thesis는 강하나 cycle timing risk. Small starter (2.0%) + 추세 반전 확인 후 add."
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "industry": {
+    "name": "희토류 채굴/정제/자석 (mine-to-magnet US)",
+    "overview": "MP Materials는 미국 내에서 희토류 자원을 채굴하고 정제하여 자석을 생산하는 기업이다. 희토류는 전자기기, 전기차, 재생에너지 등 다양한 산업에 필수적인 원자재로, 글로벌 수요가 증가하고 있다. 특히, 중국의 수출 통제가 강화됨에 따라 미국 내 희토류 자원의 중요성이 더욱 부각되고 있다. MP Materials는 자산으로 Mt. Weld 광산과 미국 내 정제 시설을 보유하고 있으며, 향후 수직 계열화 전략을 통해 경쟁력을 높일 계획이다.",
+    "competitors": [
+      {
+        "name": "Lynas Rare Earths",
+        "ticker": "LYC.AX",
+        "share_pct": 20.0,
+        "moat": "규모의 경제, 안정된 공급망"
+      },
+      {
+        "name": "China Northern Rare Earth Group",
+        "ticker": "600111.SS",
+        "share_pct": 25.0,
+        "moat": "정부 지원, 시장 지배력"
+      },
+      {
+        "name": "MP Materials Corp.",
+        "ticker": "MP",
+        "share_pct": 30.0,
+        "moat": "미국 내 자원, 규제 장벽"
+      },
+      {
+        "name": "Neo Performance Materials",
+        "ticker": "NEO.TO",
+        "share_pct": 15.0,
+        "moat": "고급 기술력, 다양한 제품 포트폴리오"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 10.0,
+      "cagr_pct": 12.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 40.0,
+      "thesis": "중국의 수출 통제가 심화되며 미국 내 희토류 자원의 가치가 급등할 것.",
+      "key_assumptions": [
+        "중국의 희토류 수출량 감소",
+        "미국 내 전기차 및 재생에너지 수요 증가",
+        "MP Materials의 생산능력 확대"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 25.0,
+      "thesis": "현재의 시장 상황이 유지되며 안정적인 성장세를 기록할 것.",
+      "key_assumptions": [
+        "중국의 수출 통제 완화",
+        "전 세계 희토류 수요 증가",
+        "MP Materials의 비용 관리 효율성 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 10.0,
+      "thesis": "경기 침체와 공급 과잉으로 인해 희토류 가격이 하락할 것.",
+      "key_assumptions": [
+        "경기 둔화로 인한 수요 감소",
+        "중국의 희토류 생산 재개",
+        "MP Materials의 생산 차질"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-10",
+      "event": "미중 유예 종료",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "미국의 희토류 자원 확보에 대한 정책 변화로 긍정적인 영향."
+    },
+    {
+      "date": "2025-10",
+      "event": "12개 원소 수출 통제",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "중국의 희토류 수출 통제로 인한 희토류 가격 상승."
+    },
+    {
+      "date": "2026-03",
+      "event": "중국 대일 희토류 수출 -80%",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "중국의 수출 감소가 글로벌 희토류 공급에 미치는 영향."
+    },
+    {
+      "date": "2025",
+      "event": "MP Materials 생산능력 확대",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "생산능력 확대가 매출 증가로 이어질 가능성."
+    },
+    {
+      "date": "2026",
+      "event": "NdPr 가격 상승",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "NdPr 가격 상승이 기업 수익성에 긍정적 영향을 미칠 것."
+    }
+  ],
+  "risks": [
+    {
+      "name": "중국의 희토류 생산 재개",
+      "probability": "high",
+      "impact": "high",
+      "description": "중국이 생산을 재개할 경우 공급 과잉 우려.",
+      "mitigation": "다양한 공급망 확보 및 생산 다각화."
+    },
+    {
+      "name": "경기 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "전세계 경제 둔화로 인한 수요 감소.",
+      "mitigation": "비용 절감 및 효율성 증대."
+    },
+    {
+      "name": "정책 변화",
+      "probability": "med",
+      "impact": "med",
+      "description": "정치적 불확실성으로 인한 규제 변화.",
+      "mitigation": "정책 동향에 대한 지속적인 모니터링."
+    },
+    {
+      "name": "기술적 문제",
+      "probability": "low",
+      "impact": "high",
+      "description": "생산 과정에서의 기술적 문제 발생 가능성.",
+      "mitigation": "기술 개발 및 인력 교육 강화."
+    },
+    {
+      "name": "경쟁 심화",
+      "probability": "med",
+      "impact": "med",
+      "description": "경쟁사의 시장 진입으로 인한 점유율 감소.",
+      "mitigation": "차별화된 기술력 확보 및 고객 관계 강화."
+    }
+  ],
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.528,
+        "op_income": 0.335,
+        "op_margin": 63.5,
+        "net_income": 0.289,
+        "net_margin": 54.8
+      },
+      {
+        "year": 2023,
+        "revenue": 0.253,
+        "op_income": 0.004,
+        "op_margin": 1.4,
+        "net_income": 0.024,
+        "net_margin": 9.6
+      },
+      {
+        "year": 2024,
+        "revenue": 0.204,
+        "op_income": -0.164,
+        "op_margin": -80.3,
+        "net_income": -0.065,
+        "net_margin": -32.1
+      },
+      {
+        "year": 2025,
+        "revenue": 0.224,
+        "op_income": -0.145,
+        "op_margin": -64.6,
+        "net_income": -0.086,
+        "net_margin": -38.3
+      }
+    ],
+    "bs_snapshot": {
+      "note": "yfinance 기반 — 상세 BS는 DART/SEC 참조"
+    },
+    "cf_summary": {
+      "note": "FCF/OCF는 사업보고서 참조"
+    },
+    "peer_compare": []
+  }
+}

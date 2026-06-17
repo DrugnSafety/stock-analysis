@@ -1,0 +1,136 @@
+{
+  "industry": {
+    "name": "강관 / 대구경 후육강관 / 해상풍력 모노파일 / 에너지 라인파이프",
+    "overview": "세아제강은 국내 최대 강관업체로 OCTG·라인파이프·대구경 후육강관·해상풍력 모노파일까지 가장 넓은 에너지 강관 포트폴리오를 보유한다. 미국·유럽 에너지 인프라 및 해상풍력 하부구조 수주에 직접 노출되며, 휴스틸과 함께 국내 대구경 후육강관 과점을 형성한다. 유가·E&P capex 사이클과 해상풍력 발주가 핵심 동인.",
+    "competitors": [
+      {
+        "name": "휴스틸",
+        "ticker": "005010.KS",
+        "share_pct": null,
+        "moat": "에너지강관 특화+군산/휴스턴 capa"
+      },
+      {
+        "name": "세아제강",
+        "ticker": "306200.KS",
+        "share_pct": null,
+        "moat": "국내 최대 강관·대구경·모노파일"
+      },
+      {
+        "name": "넥스틸",
+        "ticker": "092790.KS",
+        "share_pct": null,
+        "moat": "미국 OCTG 순수노출"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "고유가·에너지 인프라 capex 테마 부각",
+        "source": "블로그",
+        "sentiment": "+"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "전방 사이클 연동 — 정량 추정 범위 외"
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "bs_snapshot": {
+      "note": "DART live fetch 비활성(DISABLE_FIN_FETCH) — 5Y 수치 미수록(추측 금지)"
+    },
+    "cf_summary": {
+      "note": "미수록"
+    },
+    "peer_compare": [
+      {
+        "ticker": "306200.KS",
+        "name": "세아제강",
+        "pe": 7.87,
+        "pb": null,
+        "roe": null,
+        "div_yield": 3.79,
+        "note": "강관 3사 중 규모·포트폴리오 최대, 밸류에이션 프리미엄"
+      }
+    ],
+    "_source": "market_data는 yfinance live(stocks.json). 재무제표 5Y는 DART live fetch 비활성으로 미수록."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": null,
+      "thesis": "고유가 OCTG 호황 + 해상풍력 모노파일 수주 + 라인파이프 대형 프로젝트 동시 가동",
+      "key_assumptions": []
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": null,
+      "thesis": "에너지 강관 점진 회복 + 해상풍력 발주 변동성 동반",
+      "key_assumptions": []
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": null,
+      "thesis": "유가 되돌림 + 해상풍력 프로젝트 지연/취소 + 강관 capa 과잉",
+      "key_assumptions": []
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-H1",
+      "event": "미국·유럽 라인파이프 대형 프로젝트 수주",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "미국·유럽 라인파이프 대형 프로젝트 수주"
+    },
+    {
+      "date": "2026",
+      "event": "해상풍력 모노파일 수주 모멘텀",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "해상풍력 모노파일 수주 모멘텀"
+    }
+  ],
+  "risks": [
+    {
+      "name": "해상풍력 발주 지연·취소",
+      "probability": "med",
+      "impact": "high",
+      "description": "해상풍력 발주 지연·취소",
+      "mitigation": "분할 진입·확인 후 접근"
+    },
+    {
+      "name": "유가 되돌림",
+      "probability": "med",
+      "impact": "high",
+      "description": "유가 되돌림",
+      "mitigation": "분할 진입·확인 후 접근"
+    },
+    {
+      "name": "강관 글로벌 capa 과잉",
+      "probability": "med",
+      "impact": "med",
+      "description": "강관 글로벌 capa 과잉",
+      "mitigation": "분할 진입·확인 후 접근"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "고유가 OCTG 호황 + 해상풍력 모노파일 수주 + 라인파이프 대형 프로젝트 동시 가동",
+      "type": "industry",
+      "evidence": "블로그 전방산업 thesis(T09)",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025",
+      "type": "실적",
+      "title": "연간 실적(DART live fetch 비활성으로 수치 미수록)",
+      "impact": "유가·발주 사이클 연동"
+    }
+  ]
+}

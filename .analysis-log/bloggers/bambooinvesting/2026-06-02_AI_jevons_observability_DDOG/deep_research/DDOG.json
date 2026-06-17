@@ -1,0 +1,197 @@
+{
+  "industry": {
+    "name": "AI Observability / Application Performance Monitoring (APM)",
+    "overview": "AI 모델·인프라·애플리케이션의 가시성을 통합 monitoring하는 SaaS 카테고리. 전통 APM (Datadog·Dynatrace·New Relic·Splunk)에 LLM/GPU/agent 워크로드 모니터링이 신규 layer로 가세. IDC 추정 시장 규모 2025 $35B → 2030 $80B (CAGR 18%).",
+    "competitors": [
+      {
+        "name": "Dynatrace",
+        "ticker": "DT",
+        "share_pct": 12.0,
+        "moat": "AI-native Davis AI + enterprise lock-in"
+      },
+      {
+        "name": "Splunk (Cisco)",
+        "ticker": "CSCO",
+        "share_pct": 22.0,
+        "moat": "SIEM + security observability + Cisco backing"
+      },
+      {
+        "name": "New Relic (private)",
+        "ticker": null,
+        "share_pct": 8.0,
+        "moat": "Developer-first + open standards"
+      },
+      {
+        "name": "Grafana Labs (private)",
+        "ticker": null,
+        "share_pct": 6.0,
+        "moat": "Open source + 무료 distribution + LGTM stack"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 35,
+      "cagr_pct": 18,
+      "horizon": "2025-2030"
+    },
+    "news": [
+      {
+        "date": "2026-05-08",
+        "title": "Datadog Q1 2026 매출 $1.013B (vs cons $957M), 사상 첫 분기 10억 달러 돌파",
+        "url": "https://investors.datadoghq.com/",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "Datadog GPU Monitoring 정식 출시 + LLM Observability 신제품 라인업 확장",
+        "url": "https://www.datadoghq.com/blog/",
+        "impact": "+"
+      },
+      {
+        "date": "2026-03-20",
+        "title": "Microsoft Azure Monitor AI 카테고리 강화 — Datadog 경쟁 시그널",
+        "url": "https://learn.microsoft.com/azure/azure-monitor/",
+        "impact": "-"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "target_pct": 35,
+      "rationale": "LLM/GPU monitoring 매출 ramp + NDR 130%+ 유지 + multi-product 확장으로 매출 성장률 32%+ 가속 sustain",
+      "probability": 0.3
+    },
+    "base": {
+      "target_pct": 12,
+      "rationale": "성장률 28-30% 유지, multiple 점진 compression이지만 FCF margin 25% 안정, 12개월 후 Forward PE 75x 수준",
+      "probability": 0.5
+    },
+    "bear": {
+      "target_pct": -25,
+      "rationale": "Hyperscaler displacement 가속 + OSS 대체 + multiple compression. Forward PE 94x → 50x로 -47% multiple 압축",
+      "probability": 0.2
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 Q2 earnings",
+      "event": "LLM Observability ARR 가속화",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "신규 product line ARR이 $30M → $60M+ ramp"
+    },
+    {
+      "date": "2026 H2",
+      "event": "GPU monitoring 대형 enterprise 채택 확대",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "NVIDIA·hyperscaler 협업으로 multi-cloud GPU 가시성 확장"
+    },
+    {
+      "date": "2026 Q4",
+      "event": "Dash 2026 conference + product 로드맵 발표",
+      "type": "marketing",
+      "expected_impact": "+",
+      "description": "AI observability 표준 vendor 포지션 강화"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Forward PE 94x 고평가",
+      "probability": "high",
+      "impact": "high",
+      "description": "Perfection priced in — multiple compression 시 -30~-40%",
+      "mitigation": "분할매수 + valuation guardrail (Fwd PE 70x 이하에서만 추가매수)"
+    },
+    {
+      "name": "Hyperscaler displacement",
+      "probability": "med",
+      "impact": "high",
+      "description": "Azure Monitor + AWS CloudWatch + GCP Cloud Logging 무료/저가 tier 강화 시 ARR 압박",
+      "mitigation": "multi-product flywheel + 130%+ NDR 모니터링"
+    },
+    {
+      "name": "성장률 둔화",
+      "probability": "med",
+      "impact": "med",
+      "description": "FY26E +27% 가이던스 — 30% 가속화 sustain 어려움",
+      "mitigation": "LLM obsv 신제품 ramp 추적"
+    },
+    {
+      "name": "Open source displacement",
+      "probability": "low",
+      "impact": "med",
+      "description": "OpenTelemetry GenAI semantic conventions 표준화 → vendor lock-in 약화",
+      "mitigation": "신제품 차별화 추적"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "AI 워크로드 monitoring은 LLM obsv·GPU·agent debugging으로 신규 product line 폭발 중"
+    },
+    {
+      "id": "TD2",
+      "claim": "Datadog은 추론 미수행 = GPU 비용 비노출 = 80% gross margin 유지의 구조적 우위"
+    },
+    {
+      "id": "TD3",
+      "claim": "사용량 증가 → 관측 데이터 ingestion 증가 → ARR 증가의 positive feedback loop"
+    }
+  ],
+  "korean_disclosures": [],
+  "five_year_financials": {
+    "revenue_cagr": 35.0,
+    "opm_trajectory": "2021 -1.0% → 2025 17.0% → 2026E 25.0% (Non-GAAP)",
+    "roe_trajectory": "2021 -4% → 2025 14% → 2026E 22%",
+    "fcf_yield": 2.5,
+    "turnaround_signal": "1Q26 매출 $1B+ 사상 첫 분기 10억 달러 돌파 — 가속화 입증"
+  },
+  "reverse_dcf": {
+    "implied_growth_rate": 28.0,
+    "implied_terminal_margin": 32.0,
+    "judgement": "Forward PE 94x는 향후 5년 매출 CAGR 28%+ 가정 — Datadog 실제 가이던스 +27%와 유사하나, 28%+ sustainability에는 신제품 성공 필수.",
+    "scenario_summary": "Bull (35%) + Base (28%) + Bear (20%) — 가중 평균 28% 성장 가정 시 IRR 8-10%"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 1675.0,
+        "op_income": -59.0,
+        "op_margin": -3.5,
+        "net_income": -50.0,
+        "net_margin": -3.0
+      },
+      {
+        "year": 2023,
+        "revenue": 2128.0,
+        "op_income": -33.0,
+        "op_margin": -1.6,
+        "net_income": 49.0,
+        "net_margin": 2.3
+      },
+      {
+        "year": 2024,
+        "revenue": 2684.0,
+        "op_income": 54.0,
+        "op_margin": 2.0,
+        "net_income": 184.0,
+        "net_margin": 6.8
+      },
+      {
+        "year": 2025,
+        "revenue": 3427.0,
+        "op_income": -44.0,
+        "op_margin": -1.3,
+        "net_income": 108.0,
+        "net_margin": 3.1
+      }
+    ],
+    "snapshot": {
+      "cash": 4758.617088,
+      "debt": 1285.052032,
+      "equity": 11.208
+    }
+  },
+  "peer_compare": {}
+}

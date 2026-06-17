@@ -1,0 +1,359 @@
+{
+  "ticker": "EQT",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 13,
+      "pct": 100.0
+    },
+    "neutral": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "lean_bearish": {
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "average_confidence": 0.67,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (4/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (3/3)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "antifragile": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "academic": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "consensus_verdict": "lean_bullish",
+  "narrative": "미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화.",
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[inference] HH 가격 정체 시 EBITDA -30%",
+        "[actual] hedge ratio 변동 — earnings volatility",
+        "[inference] producer discipline 깨질 risk",
+        "[inference] 헨리허브 가격에 leverage 큼 — 가격 정체 시 EBITDA -30%. 단, 메르 thesis면 best-leveraged."
+      ],
+      "key_opportunities_top3": [
+        "[actual] Marcellus low-cost producer ($1.5/Mcf 평균)",
+        "[inference] HH $5+ 정상화 시 FCF +50-80%",
+        "[actual] ETRN 인수로 통합 모델 강화",
+        "[inference] 미국 최대 천연가스 E&P (Appalachian Marcellus/Utica). 헨리허브 가격 $5+ 정상화 시 free cash flow 폭발. ETRN(midstream) 인수로 통합 모델 강화."
+      ]
+    }
+  }
+}

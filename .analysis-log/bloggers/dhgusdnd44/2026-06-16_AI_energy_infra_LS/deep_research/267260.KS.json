@@ -1,0 +1,163 @@
+{
+  "ticker": "267260.KS",
+  "company_kr": "HD현대일렉트릭",
+  "company_en": "HD Hyundai Electric",
+  "exchange": "KOSPI",
+  "as_of_date": "2026-06-16",
+  "industry": {
+    "name": "변압기·전력기기",
+    "name_kr": "중전기 / 변압기 (글로벌 Top3·미국 데이터센터 수혜)",
+    "overview": "변압기 글로벌 Top3. 미국 전력망 노후 교체 + AI 데이터센터 전력 인입 수요로 초고압 변압기 납기·ASP 급등. AI 전력 병목의 직접 수혜주.",
+    "competitors": [
+      {
+        "name": "효성중공업",
+        "ticker": "298040.KS",
+        "share_pct": null,
+        "moat": "변압기·STATCOM"
+      },
+      {
+        "name": "GE Vernova",
+        "ticker": "GEV",
+        "share_pct": null,
+        "moat": "전력장비 글로벌"
+      },
+      {
+        "name": "Hitachi Energy",
+        "ticker": null,
+        "share_pct": null,
+        "moat": "HVDC·변압기"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "글로벌 변압기 시장 공급부족·리드타임 2년+. AI 데이터센터·전력망 교체로 2030년까지 구조적 수요 우위."
+    },
+    "ai_infrastructure_context": "데이터센터 전력 인입의 핵심 병목이 초고압 변압기. 공급부족이 ASP·수주잔고로 직접 반영, AI 전력 병목 최대 수혜.",
+    "news": []
+  },
+  "financials": {
+    "currency": "KRW",
+    "unit": "KRW 조",
+    "fiscal_year_end": "12-31",
+    "data_source": "yfinance income_stmt (live, KRW 조)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 2.104,
+        "op_income": 0.135,
+        "op_margin": 6.4,
+        "net_income": 0.162,
+        "net_margin": 7.7
+      },
+      {
+        "year": 2023,
+        "revenue": 2.703,
+        "op_income": 0.315,
+        "op_margin": 11.7,
+        "net_income": 0.259,
+        "net_margin": 9.6
+      },
+      {
+        "year": 2024,
+        "revenue": 3.322,
+        "op_income": 0.669,
+        "op_margin": 20.1,
+        "net_income": 0.502,
+        "net_margin": 15.1
+      },
+      {
+        "year": 2025,
+        "revenue": 4.079,
+        "op_income": 0.995,
+        "op_margin": 24.4,
+        "net_income": 0.733,
+        "net_margin": 18.0
+      }
+    ],
+    "trajectory_summary": "매출 2.1조→4.1조 (CAGR 24.7%). AI 전력·인프라 수요로 외형 성장 지속.",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 1400000,
+      "thesis": "미국 변압기 ASP 추가 상승+수주잔고 사상 최대",
+      "key_assumptions": [
+        "변압기 ASP 상승 지속",
+        "미국 수출 확대",
+        "수주잔고 신고가"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 1150000,
+      "thesis": "변압기 호황 지속하나 증설로 공급 일부 완화",
+      "key_assumptions": [
+        "수주 견조",
+        "마진 고점권",
+        "증설 진행"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 820000,
+      "thesis": "변압기 사이클 정점 통과+증설 공급과잉",
+      "key_assumptions": [
+        "공급과잉 우려",
+        "ASP 둔화",
+        "사이클 피크"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "미국 변압기 수주·증설 가동",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "데이터센터·전력망 수요"
+    },
+    {
+      "date": "분기",
+      "event": "분기 수주잔고·ASP 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "호황 지속 확인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "변압기 사이클 피크 리스크",
+      "probability": "med",
+      "impact": "high",
+      "description": "호황 정점 통과·증설 공급과잉 가능",
+      "mitigation": "장기 수주잔고·납기 2년+ 버퍼"
+    },
+    {
+      "name": "밸류 선반영",
+      "probability": "med",
+      "impact": "med",
+      "description": "1y +146% 상승",
+      "mitigation": "실적 성장 동반"
+    },
+    {
+      "name": "원자재(구리·전기강판) 가격",
+      "probability": "med",
+      "impact": "med",
+      "description": "원가 변동",
+      "mitigation": "가격 전가력"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 '흥미로운 데이터 6-4'",
+      "yfinance income_stmt (live)"
+    ]
+  }
+}

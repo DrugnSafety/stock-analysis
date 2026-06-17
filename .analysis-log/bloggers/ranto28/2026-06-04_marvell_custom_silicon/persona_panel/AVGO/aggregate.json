@@ -1,0 +1,475 @@
+{
+  "ticker": "AVGO",
+  "aggregated_at": "2026-06-05T06:25:35.455825+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "lean_bullish": {
+      "count": 10,
+      "pct": 58.8
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 17.6
+    }
+  },
+  "average_confidence": 0.726,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 16,
+      "personas": [
+        "warren-buffett",
+        "stanley-druckenmiller",
+        "phil-fisher",
+        "ben-graham",
+        "peter-lynch",
+        "charlie-munger",
+        "aswath-damodaran",
+        "bill-ackman",
+        "michael-burry",
+        "mohnish-pabrai",
+        "cathie-wood",
+        "george-soros",
+        "rakesh-jhunjhunwala",
+        "nassim-taleb",
+        "cliff-asness"
+      ],
+      "examples": [
+        "NVIDIA와의 경쟁 심화",
+        "경쟁사의 지속적 위협",
+        "경쟁사들과의 경쟁 심화"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "높은 시장 리스크 (beta)"
+      ],
+      "key_opportunities_top3": [
+        "강한 단기 수익률",
+        "기술 혁신 주도"
+      ],
+      "uncertainty": "엔비디아와 마벨의 파트너십 변화가 발생할 경우 본 판단이 변할 수 있음",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "NVIDIA와의 경쟁 심화",
+        "부채 관리의 중요성"
+      ],
+      "key_opportunities_top3": [
+        "AI 실리콘 시장에서의 강력한 리더십",
+        "커스텀 칩 솔루션의 확장"
+      ],
+      "uncertainty": "NVIDIA와의 시장 점유율 경쟁이 심화될 경우 성장세가 둔화될 수 있음",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가 유지",
+        "경쟁사의 지속적 위협"
+      ],
+      "key_opportunities_top3": [
+        "강력한 시장 지위 유지",
+        "강한 모멘텀 수익률"
+      ],
+      "uncertainty": "경쟁 강화로 인해 브로드컴의 지배적 위치가 흔들린다면, 그리고 모멘텀이 악화되면 verdict가 부정적으로 변경될 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 변동성 증대 가능성",
+        "기술 혁신 실패 가능성"
+      ],
+      "key_opportunities_top3": [
+        "시장 점유율 확대",
+        "기술주 우호적 macro 환경"
+      ],
+      "uncertainty": "글로벌 경기 침체가 가속화되거나 기술 혁신이 급격히 둔화된다면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁사들과의 경쟁 심화",
+        "NVLink와 관련된 기술적 종속"
+      ],
+      "key_opportunities_top3": [
+        "맞춤형 AI 솔루션의 선도적 위치",
+        "AI 및 반도체 시장의 지속적인 성장"
+      ],
+      "uncertainty": "경쟁사의 기술력이 급격히 향상될 경우 매출과 시장 점유율이 감소할 수 있습니다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁사들이 맞춤형 AI칩 설계를 강화",
+        "NVLink Fusion 등이 시장 변화에 끼치는 영향"
+      ],
+      "key_opportunities_top3": [
+        "커스텀 실리콘 분야에서의 강력한 지배력",
+        "엔비디아와의 협력 기회를 활용한 시장 확대"
+      ],
+      "uncertainty": "경쟁사들이 기술적 우위를 점하거나, 주요 고객을 상실하는 경우",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "마벨과의 경쟁 심화",
+        "전반적으로 높은 EV/EBITDA"
+      ],
+      "key_opportunities_top3": [
+        "커스텀 AI 시장 주도",
+        "성과 높은 비대칭적 투자 기회 가능성"
+      ],
+      "uncertainty": "신규 기술의 출현이 불리하게 작용할 경우",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 경쟁 압박",
+        "엔비디아와의 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "AI 시장 내 지속적 수요 증가",
+        "강력한 커스텀 실리콘 기술력"
+      ],
+      "uncertainty": "브로드컴의 해자가 약화되거나 기술진보에 뒤처지면 long-term outlook이 약화될 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "마벨의 경쟁 위협",
+        "고평가된 P/B 비율"
+      ],
+      "key_opportunities_top3": [
+        "커스텀 ASIC 시장에서의 선도적 위치",
+        "미국 금리 하락과 이에 따른 유동성 완화"
+      ],
+      "uncertainty": "거시적 유동성 환경의 악화나 경쟁업체의 급격한 기술 혁신을 통한 시장 지배력 잠식",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "마벨의 급속한 성장",
+        "엔비디아와의 협업으로 인한 경쟁력 하락"
+      ],
+      "key_opportunities_top3": [
+        "고객 기반 확장 가능성",
+        "자본 배분의 강화"
+      ],
+      "uncertainty": "만약 마벨과의 경쟁이 예상보다 덜 심각해지면 평가가 바뀔 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Marvell과의 경쟁 심화",
+        "시장 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "커스텀 실리콘 시장 선도",
+        "장기적 기술 투자"
+      ],
+      "uncertainty": "마벨의 기술 혁신이나 시장 진입이 급격히 이루어질 경우, 브로드컴의 시장 점유율에 부정적 영향을 미칠 수 있습니다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA와 P/B가 과도한 평가를 시사",
+        "마벨로부터의 경쟁 압박"
+      ],
+      "key_opportunities_top3": [
+        "브로드컴의 커스텀 AI 실리콘 60%의 시장 장악력",
+        "UA Link 워크스루 가능성"
+      ],
+      "uncertainty": "마벨이 경쟁에 실패할 경우 경쟁 압박이 줄고 시장 평가가 개선될 수 있음.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Marvell과의 경쟁 심화",
+        "엔비디아의 전략적 이동이 시장에 미치는 영향"
+      ],
+      "key_opportunities_top3": [
+        "커스텀 실리콘 시장에서의 견고한 지배력",
+        "높은 기술적 우위로 인한 long-term 경쟁력"
+      ],
+      "uncertainty": "만약 Marvell이 시장 점유율을 크게 증대시킨다면, 브로드컴의 현재 가치평가는 위험해질 수 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PBR과 PER로 인해 내재가치 대비 비싸게 평가됨",
+        "경쟁사들의 적극적 움직임으로 인한 시장 점유율 압박"
+      ],
+      "key_opportunities_top3": [
+        "광범위한 시장 내 기술적 강점",
+        "커스텀 AI 실리콘에서의 리더십"
+      ],
+      "uncertainty": "경쟁사들이 압박을 덜 가하거나, 재무 구조 개선 시 verdict가 달라질 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "마벨과의 경쟁 심화",
+        "엔비디아와의 협업 방향 변화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "맞춤형 AI 실리콘에서의 시장 지배력",
+        "장기적인 TAM 확장 가능성"
+      ],
+      "uncertainty": "엔비디아와의 협업이 끊기거나, 마벨이 더 빠르게 점유율을 빼앗아 간다면, 기존의 장기적 성장 논리가 뒤집힐 수 있음.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "경쟁사의 시장 점유율 증가",
+        "기술적 우위 유지를 위한 재투자 필요"
+      ],
+      "key_opportunities_top3": [
+        "커스텀 AI 실리콘의 우위 지속",
+        "데이터 센터 수요 증가"
+      ],
+      "uncertainty": "시장 경쟁이 급격히 악화되거나 신기술 혁신이 실패할 경우, 이번 평가의 내재 가치는 문제가 될 수 있습니다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "엔비디아와의 경쟁 압박",
+        "TPU 멀티소싱 진입에 따른 점유율 감소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "기술 혁신을 통한 시장 점유율 확대",
+        "커스텀 실리콘에서의 리더십 유지"
+      ],
+      "uncertainty": "엔비디아가 시장에서 퇴출되거나 규제 리스크가 급증하면 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "ticker": "NVDA",
+  "name_kr": "엔비디아",
+  "name_en": "NVIDIA Corporation",
+  "industry": {
+    "name": "GPU/AI Semiconductor + AI Infrastructure Platform",
+    "overview": "NVIDIA는 1993년 설립, GPU 컴퓨팅의 글로벌 표준을 구축한 회사. CUDA 소프트웨어 ecosystem(2007 출시) + Hopper·Blackwell·Rubin GPU + NVLink/InfiniBand 인터커넥트 + Spectrum-X·Quantum-X 네트워킹 + 광스위치까지 AI 인프라 풀스택을 통합. AI 데이터센터 capex의 60-70%가 NVIDIA로 직간접 흐르며, 2024-2026년 매출 $130B → $200B+ 추정. 광통신 부문 진출(Coherent·Lumentum·Corning 투자, optical switch 출시)은 traditional GPU 사업을 넘어 AI 인프라의 'OEM'으로 진화. 시총 $5T로 글로벌 최대 시가총액 종목.",
+    "competitors": [
+      {
+        "name": "AMD (Instinct MI series)",
+        "ticker": "AMD",
+        "share_pct": 8.0,
+        "moat": "ROCm software stack + 가격 경쟁력 + Hyperscaler MSFT 채택"
+      },
+      {
+        "name": "Intel (Gaudi)",
+        "ticker": "INTC",
+        "share_pct": 2.0,
+        "moat": "x86 ecosystem 통합, 다만 AI 점유율 미미"
+      },
+      {
+        "name": "Google TPU (자체 ASIC)",
+        "ticker": "GOOGL",
+        "share_pct": 6.0,
+        "moat": "Google 자체 학습 + 추론 인프라 → 외부 GPU 의존도 ↓"
+      },
+      {
+        "name": "AWS Trainium/Inferentia",
+        "ticker": "AMZN",
+        "share_pct": 4.0,
+        "moat": "AWS 자체 ASIC, 가격 30-40% 저렴"
+      },
+      {
+        "name": "Meta MTIA",
+        "ticker": "META",
+        "share_pct": 3.0,
+        "moat": "Meta 자체 추론 ASIC, 양산 가속"
+      },
+      {
+        "name": "Broadcom (HSC ASIC + 스위치)",
+        "ticker": "AVGO",
+        "share_pct": 12.0,
+        "moat": "Hyperscaler custom ASIC + Tomahawk 스위치 칩 (네트워킹 영역 직접 경쟁)"
+      },
+      {
+        "name": "NVIDIA",
+        "ticker": "NVDA",
+        "share_pct": 65.0,
+        "moat": "CUDA 소프트웨어 lock-in + 통합 시스템 (GPU+NVLink+SuperPOD) + 광통신 수직통합"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-22",
+        "title": "NVIDIA Rubin 아키텍처 발표 — NVLink 5.0, 1.6T 광 인터커넥트 통합",
+        "source": "GTC 2026 Keynote",
+        "summary": "Per-GPU 1.8 TB/s NVLink + 광 인터커넥트 통합 → CPO 채택 가속"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "MSFT, NVIDIA Blackwell B200 70만개 대형 발주",
+        "source": "Reuters",
+        "summary": "단일 deal 사상 최대 — sovereign AI demand 강화"
+      },
+      {
+        "date": "2025-09-15",
+        "title": "NVIDIA, Corning에 최대 $3.2B 전략 투자 — AI 인프라 광섬유 강화",
+        "source": "NVIDIA Press Release",
+        "summary": "Coherent·Lumentum 투자에 이어 광통신 수직통합 마무리"
+      },
+      {
+        "date": "2025-08-28",
+        "title": "NVIDIA FY26 Q2 매출 $50B 가이던스 초과 (+78% YoY)",
+        "source": "NVDA Q2 FY26 Earnings",
+        "summary": "Datacenter $44B, Gaming $4B, Auto $1.5B"
+      },
+      {
+        "date": "2025-06-12",
+        "title": "NVIDIA, Quantum-X 광스위치 출시 — InfiniBand 차세대",
+        "source": "NVIDIA",
+        "summary": "115Tbps 단일 칩, Coherent·Lumentum 광 부품 통합"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 200.0,
+      "cagr_pct": 35.0,
+      "horizon": "2024-2030 (AI accelerator + 광 인프라 통합)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY2022",
+        "revenue": 26974,
+        "op_income": 10041,
+        "op_margin": 37.2,
+        "net_income": 9752,
+        "net_margin": 36.2
+      },
+      {
+        "year": "FY2023",
+        "revenue": 26974,
+        "op_income": 4224,
+        "op_margin": 15.7,
+        "net_income": 4368,
+        "net_margin": 16.2
+      },
+      {
+        "year": "FY2024",
+        "revenue": 60922,
+        "op_income": 32972,
+        "op_margin": 54.1,
+        "net_income": 29760,
+        "net_margin": 48.9
+      },
+      {
+        "year": "FY2025",
+        "revenue": 130497,
+        "op_income": 81453,
+        "op_margin": 62.4,
+        "net_income": 72880,
+        "net_margin": 55.8
+      },
+      {
+        "year": "FY2026E",
+        "revenue": 200000,
+        "op_income": 124000,
+        "op_margin": 62.0,
+        "net_income": 110000,
+        "net_margin": 55.0
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-10-31 (FY26 Q3 추정)",
+      "total_assets_usdmn": 130000,
+      "total_debt_usdmn": 9700,
+      "total_equity_usdmn": 95000,
+      "cash_usdmn": 38000,
+      "net_debt_usdmn": -28300,
+      "debt_to_equity": 0.1,
+      "current_ratio": 4.5
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 79000,
+      "capex_2025_usdmn": 1100,
+      "fcf_2025_usdmn": 77900,
+      "dividend_paid_2025_usdmn": 800,
+      "buyback_2025_usdmn": 36000
+    },
+    "peer_compare": [
+      {
+        "ticker": "NVDA",
+        "fwd_pe": 18.49,
+        "ev_ebitda": 14.5,
+        "fcf_yield_pct": 1.5,
+        "roe_pct": 90.0,
+        "debt_to_equity": 0.1
+      },
+      {
+        "ticker": "AMD",
+        "fwd_pe": 28.5,
+        "ev_ebitda": 22.0,
+        "fcf_yield_pct": 1.8,
+        "roe_pct": 8.5,
+        "debt_to_equity": 0.05
+      },
+      {
+        "ticker": "AVGO",
+        "fwd_pe": 32.0,
+        "ev_ebitda": 25.0,
+        "fcf_yield_pct": 2.5,
+        "roe_pct": 35.0,
+        "debt_to_equity": 0.55
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "AI capex secular trend + sovereign AI + 광 인프라 수직통합 성공",
+      "assumption": "FY27 매출 $300B+, 영업이익률 60%+ 유지, 광 인프라 매출 $30B+ 신규 contributor",
+      "upside_pct": 37,
+      "prob_pct": 30,
+      "target_price": 285,
+      "thesis": "AI capex secular trend + sovereign AI + 광 인프라 수직통합 성공",
+      "key_assumptions": [
+        "FY27 매출 $300B+",
+        "영업이익률 60%+ 유지",
+        "광 인프라 매출 $30B+ 신규 contributor"
+      ]
+    },
+    "base": {
+      "label": "AI capex 정상 둔화 + 광 인프라 점진 확장",
+      "assumption": "FY27 매출 $230B (+15% YoY), 영업이익률 58%, mid-cycle 정상화",
+      "upside_pct": 6,
+      "prob_pct": 50,
+      "target_price": 220,
+      "thesis": "AI capex 정상 둔화 + 광 인프라 점진 확장",
+      "key_assumptions": [
+        "FY27 매출 $230B (+15% YoY)",
+        "영업이익률 58%",
+        "mid-cycle 정상화"
+      ]
+    },
+    "bear": {
+      "label": "AI capex 급랭 + Hyperscaler ASIC 침투",
+      "assumption": "FY27 매출 $180B (-10% YoY), Hyperscaler MSFT·GOOG·META의 ASIC 비중 25%+ 급증",
+      "downside_pct": -35,
+      "prob_pct": 20,
+      "target_price": 135,
+      "thesis": "AI capex 급랭 + Hyperscaler ASIC 침투",
+      "key_assumptions": [
+        "FY27 매출 $180B (-10% YoY)",
+        "Hyperscaler MSFT·GOOG·META의 ASIC 비중 25%+ 급증"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 H2",
+      "event": "Rubin GPU 양산 가속 (2026 H2)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    },
+    {
+      "date": "2026-2027",
+      "event": "Sovereign AI deal 추가 발표 (UAE·Saudi·Korea·Japan)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    },
+    {
+      "date": "2026-2028",
+      "event": "광스위치 + CPO 채택 가속",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-15%"
+    },
+    {
+      "date": "2027-2028",
+      "event": "Auto/Robotics segment 매출 $5B+ 도달",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-15%"
+    },
+    {
+      "date": "ongoing",
+      "event": "Inference 워크로드 확대 (consumer AI 침투)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Hyperscaler 자체 ASIC 침투 (TPU·MTIA·Trainium)",
+      "probability": "high",
+      "impact": "high",
+      "description": "Hyperscaler 자체 ASIC 침투 (TPU·MTIA·Trainium)",
+      "mitigation": "광 인프라 수직통합으로 lock-in 강화"
+    },
+    {
+      "name": "AI capex 사이클 둔화 (Hyperscaler ROIC 압박)",
+      "probability": "med",
+      "impact": "high",
+      "description": "AI capex 사이클 둔화 (Hyperscaler ROIC 압박)",
+      "mitigation": "Sovereign AI + Inference + Auto 다각화"
+    },
+    {
+      "name": "Geopolitical export 통제 강화 (중국 제재)",
+      "probability": "med",
+      "impact": "med",
+      "description": "Geopolitical export 통제 강화 (중국 제재)",
+      "mitigation": "China-specific H20·B20 제품 + Non-China 시장 확대"
+    },
+    {
+      "name": "TSMC capacity 의존 (2026-27 N2 production 부족 risk)",
+      "probability": "med",
+      "impact": "med",
+      "description": "TSMC capacity 의존 (2026-27 N2 production 부족 risk)",
+      "mitigation": "Samsung Foundry 백업 옵션"
+    },
+    {
+      "name": "$5T 시총 mean-reversion (역사적 precedent 부재)",
+      "probability": "med",
+      "impact": "med",
+      "description": "$5T 시총 mean-reversion (역사적 precedent 부재)",
+      "mitigation": "FCF·자사주 매입으로 EPS support"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T1",
+      "claim": "NVIDIA의 Corning 32억 달러 투자는 단순 자본 투입이 아닌 AI 인프라 구조 재설계",
+      "type": "industry",
+      "evidence": "NVIDIA 2025-09 공시: $3.2B equity + multi-year purchase commitment",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "NVIDIA의 Corning 투자는 단순 자본 투입이 아닌 AI 인프라 architectures의 핵심 부품 통제 의지"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "AI 데이터센터 병목은 GPU 연산 → HBM 메모리 → 인터커넥트 순으로 이동했다",
+      "type": "industry",
+      "evidence": "NVL72 fully-fabric scale-up rack ASP가 GPU-only HGX의 10배 — 인터커넥트 가치 동인",
+      "testability": "high",
+      "current_status": "pending",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "NVDA가 인터커넥트 병목을 직접 인정하고 NVLink·InfiniBand·optical switch로 솔루션 제공 — thesis의 가장 강력한 endorsement"
+    },
+    {
+      "thesis_id": "T5",
+      "claim": "NVIDIA의 Coherent, Lumentum, Corning 동시 투자는 광통신 수직통합 전략",
+      "type": "industry",
+      "evidence": "NVIDIA 2024-25 동안 Coherent·Lumentum·Corning 3사에 동시 자본 투입 + 광스위치 직접 출시",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "NVDA가 Coherent·Lumentum·Corning에 동시 투자한 것은 thesis의 수직통합 framework과 100% 정합"
+    },
+    {
+      "thesis_id": "T8",
+      "claim": "차세대 AI 데이터센터의 경쟁 기준은 'GPU 수'가 아니라 '인터커넥트 효율'",
+      "type": "macro",
+      "evidence": "META Llama 3.1 405B 학습 24일 → 16일 단축 (NCCL·NVLink optimization)",
+      "testability": "med",
+      "current_status": "pending",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "NVL72 fully-fabric scale-up rack의 ASP가 GPU-only HGX의 10배 이상 — '인터커넥트 효율'이 가치 동인"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "global_filing",
+      "date": "2025-08-28",
+      "title": "10-Q FY26 Q2",
+      "summary": "매출 $50B (+78% YoY), Datacenter $44B"
+    },
+    {
+      "type": "global_filing",
+      "date": "2025-02-26",
+      "title": "10-K FY2025",
+      "summary": "FY25 매출 $130.5B (+114% YoY)"
+    },
+    {
+      "type": "press_release",
+      "date": "2025-09-15",
+      "title": "Corning $3.2B 투자",
+      "summary": "광통신 수직통합 마무리"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "industry": {
+    "name": "글로벌 구리 광업 (Copper Mining)",
+    "overview": "글로벌 구리 시장 2024 26Mt/년, 매출 $310B, EBITDA margin 평균 35%. 4-driver structural demand: ① EV (ICE 22kg vs BEV 83kg = +61kg/대 × 2030 35M units = +1.3Mt/년) ② AI 데이터센터 (capex $400B/년 × Cu intensity 0.05% = 2Mt/년 누적) ③ 미국 grid 노후 교체 ($1.5T 2030년까지 × 15% Cu = $225B = 22Mt 누적) ④ 신재생 (풍력 4t/MW × 100GW + 태양광 2.5t/MW × 350GW = 1.3Mt/년). 2030 글로벌 수요 36Mt vs 공급 30Mt = 6Mt deficit (BHP 추정). 신규 광산 평균 16년 + 건설 6년 lead time. 산업분석러 본문 ECM 명시 — '구리를 산 이유 (LS, COPX, 1970s)' 이전 글 직접 reference.",
+    "competitors": [
+      {
+        "name": "Freeport-McMoRan",
+        "ticker": "FCX",
+        "share_pct": 12.0,
+        "moat": "Grasberg (Indonesia) 세계 최대 + Morenci (Arizona)"
+      },
+      {
+        "name": "Southern Copper",
+        "ticker": "SCCO",
+        "share_pct": 10.0,
+        "moat": "페루·멕시코 long-life 자산, 마진 54%"
+      },
+      {
+        "name": "Antofagasta",
+        "ticker": "ANTO.L",
+        "share_pct": 8.0,
+        "moat": "Los Pelambres + Centinela (칠레)"
+      },
+      {
+        "name": "BHP Group",
+        "ticker": "BHP",
+        "share_pct": 7.0,
+        "moat": "Escondida + Pampa Norte + 다각화"
+      },
+      {
+        "name": "Glencore",
+        "ticker": "GLEN.L",
+        "share_pct": 7.0,
+        "moat": "Trading + Mining 결합, Mt Isa (호주) + Mutanda (콩고)"
+      },
+      {
+        "name": "KGHM",
+        "ticker": "KGH.WA",
+        "share_pct": 5.0,
+        "moat": "폴란드 + Sierra Gorda (칠레) + 미국 KGHM International"
+      },
+      {
+        "name": "First Quantum",
+        "ticker": "FM.TO",
+        "share_pct": 5.0,
+        "moat": "Cobre Panama (resumed 2025) + Kansanshi"
+      },
+      {
+        "name": "Teck Resources",
+        "ticker": "TECK",
+        "share_pct": 5.0,
+        "moat": "Quebrada Blanca 2 ramp-up + Highland Valley"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-08",
+        "title": "BHP 2027 copper price target $14,000/t (vs spot $9,800)",
+        "source": "BHP Investor Day",
+        "summary": "Major miner 공식 outlook bullish"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "Goldman Sachs raises 2027 copper target to $13,500/t",
+        "source": "GS Commodity Research",
+        "summary": "Supply gap narrative 강화"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "COPX Q1 2026 net inflow $1.2B (역대 분기 최고)",
+        "source": "ETF Flow Tracker",
+        "summary": "Retail + institutional flow surge"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "First Quantum Cobre Panama operational resumption — 350Kt Cu/year 추가",
+        "source": "FM update",
+        "summary": "Supply 일부 회복하나 demand growth가 압도"
+      },
+      {
+        "date": "2026-02-08",
+        "title": "Antofagasta — Reko Diq (파키스탄) project FID 발표, 2030 production target 200Kt Cu",
+        "source": "ANTO release",
+        "summary": "Long-term capacity expansion"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 310,
+      "cagr_pct": 7.5,
+      "horizon": "2024-2030 (글로벌 구리 시장)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 130,
+      "thesis": "Cu $14,000/t (BHP 2027 target). COPX +60% to $130 + sector PE expansion. 1970s commodity supercycle 동급 진입",
+      "key_assumptions": [
+        "Supply gap 가시화",
+        "Inflation hedge",
+        "AI capex 가속화"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 103,
+      "thesis": "Cu $11,000 sustained, COPX +25% to $103. Multiple expansion 14x → 17x",
+      "key_assumptions": [
+        "Structural demand 견실",
+        "신규 광산 ramp-up lag"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 62,
+      "thesis": "Cu $8,500 retrace (China property cycle bottom), COPX -25% to $62",
+      "key_assumptions": [
+        "China property demand softness",
+        "Recycling supply 가속화",
+        "Recession demand 둔화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "BHP Olympic Dam expansion FID — additional Cu+Au+U exposure",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "BHP Olympic Dam expansion FID — additional Cu+Au+U exposure (magnitude: medium)"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "中 정부 EV subsidy 확대 발표 가능",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "中 정부 EV subsidy 확대 발표 가능 (magnitude: high)"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Reko Diq (Antofagasta) 건설 시작 — long-term capacity",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Reko Diq (Antofagasta) 건설 시작 — long-term capacity (magnitude: medium)"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "미국 IRA infrastructure spending — grid expansion peak",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "미국 IRA infrastructure spending — grid expansion peak (magnitude: high)"
+    }
+  ],
+  "risks": [
+    {
+      "name": "China Demand: 구리 수요 30%가 중국 — 부동산 cycle 의존",
+      "probability": "med",
+      "impact": "high",
+      "description": "구리 수요 30%가 중국 — 부동산 cycle 의존",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Entry Valuation: 5년 +310% 이미 large alpha capture — current entry 후 ",
+      "probability": "med",
+      "impact": "med",
+      "description": "5년 +310% 이미 large alpha capture — current entry 후 추가 alpha 제한적",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Recycling Supply: 2030 recycled Cu 9Mt → 12Mt = 신규 수요 일부 흡수",
+      "probability": "high",
+      "impact": "low",
+      "description": "2030 recycled Cu 9Mt → 12Mt = 신규 수요 일부 흡수",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Mine Permitting: 신규 광산 permit 어려움 = 공급 부족 지속 (양면 — 단기 가격 +, 장기 sust",
+      "probability": "high",
+      "impact": "low",
+      "description": "신규 광산 permit 어려움 = 공급 부족 지속 (양면 — 단기 가격 +, 장기 sustainability -)",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "2030 글로벌 구리 수요 36Mt vs 공급 30Mt = 6Mt deficit",
+      "type": "macro",
+      "evidence": "BHP 2024 추정 + IEA Critical Minerals Outlook 2024",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "EV·data center·grid·renewable 4-driver structural demand",
+      "type": "industry",
+      "evidence": "각 사 capex 발표 (NVDA hyperscaler $400B/년 등), IRA infrastructure $1.5T",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Cu $14,000/t (BHP 2027 target) 달성 시 COPX +60%",
+      "type": "predictive",
+      "evidence": "BHP Investor Day 2026-05, Goldman/Citi 상향 조정",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "us_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "ETF prospectus",
+      "summary": "COPX top 5 holdings: FCX 12%, SCCO 10%, ANTO 8%, BHP 7%, GLEN 7%"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "Quarterly review",
+      "summary": "AUM $5.5B, expense ratio 0.65%, 5Y +180% (vs SPY +110%)"
+    }
+  ],
+  "korean_disclosures": []
+}

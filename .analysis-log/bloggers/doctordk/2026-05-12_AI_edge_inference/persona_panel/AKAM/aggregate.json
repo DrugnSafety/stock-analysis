@@ -1,0 +1,375 @@
+{
+  "ticker": "AKAM",
+  "aggregated_at": "2026-06-03T04:21:56.689102+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 12,
+      "pct": 92.3
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 0.781,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 6,
+      "personas": [
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "cathie-wood",
+        "stanley-druckenmiller",
+        "nassim-taleb",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "경쟁사들의 기술적 혁신 속도",
+        "CDN 시장 내 경쟁 강화",
+        "기술 경쟁 심화"
+      ]
+    },
+    {
+      "theme": "변동성",
+      "frequency": 4,
+      "personas": [
+        "michael-burry",
+        "aswath-damodaran",
+        "bill-ackman",
+        "peter-lynch"
+      ],
+      "examples": [
+        "주식의 높은 변동성",
+        "높은 변동성",
+        "고변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁사들의 기술적 혁신 속도",
+        "데이터 프라이버시 및 보안 문제"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론 시장의 성장과 수익성",
+        "Akamai의 기존 인프라 활용 능력"
+      ],
+      "uncertainty": "AI 시장이 예상보다 성숙하지 않거나 Akamai의 기술적 차별화가 약화될 경우",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 trailing_pe로 인한 밸류에이션 부담",
+        "주식의 높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "AI 산업의 분산형/엣지 AI로의 이동",
+        "최대의 글로벌 물리적 거점 보유"
+      ],
+      "uncertainty": "Anthropic과의 계약이 이행되지 않거나 시장의 AI 수요 변화가 예상과 다르면 평가가 변동될 수 있습니다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CDN 시장 내 경쟁 강화",
+        "계약 조건 변동 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론의 에지 컴퓨팅 수요 증가",
+        "Akamai의 글로벌 에지 인프라 활용"
+      ],
+      "uncertainty": "AI 시장의 급변하는 기술 장애나 경쟁업체의 빠른 대응에 대한 가정 깨짐",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 잘못된 자본 배분",
+        "AI 수요 감소와 같은 기술적 변화"
+      ],
+      "key_opportunities_top3": [
+        "AI 수요 증가에 따른 매출 증대",
+        "글로벌 네트워크의 효율적 사용"
+      ],
+      "uncertainty": "AI 인프라 전환의 성공 여부가 미지수로 남으면, Akamai의 전략적 위치가 흔들릴 수 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 밸류에이션이 장기 성장을 가로막을 수 있음",
+        "AI 인프라 전환 성공의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론 인프라에서의 제1인자 위치 확보",
+        "긴 계약을 통한 안정적 수익 창출"
+      ],
+      "uncertainty": "AI 시장의 성장 둔화 및 기술적 전환 실패 시 verdict가 뒤집힐 수 있습니다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 평가 가치",
+        "기술 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "AI 엣지 컴퓨팅 성장",
+        "글로벌 인프라 활용 확대"
+      ],
+      "uncertainty": "AI 산업 내 경쟁 구도가 크게 변하거나, 기술 발전이 예상보다 더딘 경우 판결이 뒤바뀔 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Anthropic과의 계약 이외 추가 계약 여부",
+        "AI 경쟁 심화로 인한 가격 경쟁 가능성"
+      ],
+      "key_opportunities_top3": [
+        "엣지 AI 시장에서 파트너십 확대",
+        "기존 인프라의 재활용으로 비용 절감"
+      ],
+      "uncertainty": "글로벌 거시경제의 급격한 변동이나 AI 트렌드의 변동",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "EV/EBITDA의 상대적 고평가"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론 시장에서의 주요 수혜",
+        "Anthropic과의 전략적 제휴"
+      ],
+      "uncertainty": "Anthropic 계약이 취소되거나 AI 추론 수요가 기대만큼 성장하지 않을 경우, 긍정적 전망이 뒤집어질 수 있다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고변동성",
+        "높은 trailing PE"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 활용 가능성",
+        "장기 계약으로 안정적 수익"
+      ],
+      "uncertainty": "Anthropic과의 계약이 기대한 것만큼의 매출 성장을 가져오지 않으면 판결이 뒤집힐 수 있다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "AI 기술의 급격한 변화로 인한 시장 경쟁력 소실 위험",
+        "현재 계약이 실제 매출과 이익으로 충분히 전환되지 않을 위험"
+      ],
+      "key_opportunities_top3": [
+        "글로벌 에지 서버망을 통한 분산형 AI 인프라의 주도적 위치 확보",
+        "추가적인 AI 기업과의 전략적 제휴 가능성"
+      ],
+      "uncertainty": "AI 업계의 경쟁이 심화되거나 기술적 패러다임이 급변할 경우, Akamai의 현재 인프라 전략이 불리할 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PER과 PBR",
+        "향후 실질적인 수익 증대 가능성 불확실"
+      ],
+      "key_opportunities_top3": [
+        "AI 인프라 수요 증가",
+        "기존 인프라의 재활용 가능성"
+      ],
+      "uncertainty": "AI 수요의 구체적인 매출 확대가 이루어진다면 verdict가 변경될 수 있습니다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "AI 인프라 수요의 변동성",
+        "디지털 경쟁 증가"
+      ],
+      "key_opportunities_top3": [
+        "전 세계 에지 서버 활용",
+        "Anthropic와 같은 대형 파트너십"
+      ],
+      "uncertainty": "에지 AI 수요가 예상보다 낮거나 경쟁이 너무 치열할 경우 verdict가 불리하게 바뀔 수 있음.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "주가의 현재 밸류에이션이 높다",
+        "AI 산업의 빠른 변화속도"
+      ],
+      "key_opportunities_top3": [
+        "AI 추론 시장의 확장",
+        "기존 인프라의 크기와 범위"
+      ],
+      "uncertainty": "AI 기술 변화에 따른 시장 환경의 급변이 계획된 성장성을 저해할 경우",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    }
+  }
+}

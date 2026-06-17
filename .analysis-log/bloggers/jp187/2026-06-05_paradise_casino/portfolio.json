@@ -1,0 +1,69 @@
+{
+  "computed_at": "2026-06-05T23:40:00+09:00",
+  "start_cash": 1000000000,
+  "start_date": "2026-06-05",
+  "end_date": "2026-06-05",
+  "n_decisions": 5,
+  "total_trades": 3,
+  "final_cash": 812997160,
+  "end_positions_value": 187002840,
+  "final_nav": 1000000000,
+  "total_return_pct": 0.0,
+  "final_positions": {
+    "032350.KS": {
+      "name": "롯데관광개발",
+      "quantity": 3000,
+      "entry_price": 18330.0,
+      "cost": 54990000,
+      "current_value": 54990000
+    },
+    "034230.KS": {
+      "name": "파라다이스",
+      "quantity": 3548,
+      "entry_price": 15500.0,
+      "cost": 54994000,
+      "current_value": 54994000
+    },
+    "114090.KS": {
+      "name": "GKL(그랜드코리아레저)",
+      "quantity": 6494,
+      "entry_price": 11860.0,
+      "cost": 77018840,
+      "current_value": 77018840
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-06-05",
+      "ticker": "032350.KS",
+      "name": "롯데관광개발",
+      "side": "BUY",
+      "quantity": 3000,
+      "price": 18330.0,
+      "amount": 54990000
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "034230.KS",
+      "name": "파라다이스",
+      "side": "BUY",
+      "quantity": 3548,
+      "price": 15500.0,
+      "amount": 54994000
+    },
+    {
+      "date": "2026-06-05",
+      "ticker": "114090.KS",
+      "name": "GKL(그랜드코리아레저)",
+      "side": "BUY",
+      "quantity": 6494,
+      "price": 11860.0,
+      "amount": 77018840
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": "^KS11",
+    "note": "발행 당일이라 사후 측정 불가"
+  },
+  "_note": "jp187 글 발행 당일(2026-06-05) paper portfolio. BUY=파라다이스·GKL·롯데관광개발, HOLD=강원랜드·호텔신라. 사후 수익률은 ledger 누적 후 1m/3m/6m/12m horizon에서 backtester 자동 측정."
+}

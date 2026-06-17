@@ -1,0 +1,94 @@
+{
+  "computed_at": "2026-06-03T04:29:13.844530+09:00",
+  "start_cash": 1000000.0,
+  "start_date": "2026-05-12",
+  "end_date": "2026-06-02",
+  "n_decisions": 5,
+  "total_trades": 4,
+  "total_buy_value": 429903.71,
+  "total_sell_value": 0.0,
+  "final_cash": 570096.29,
+  "end_positions_value": 464199.05,
+  "final_nav": 1034295.34,
+  "total_return_pct": 3.43,
+  "final_positions": {
+    "AKAM": {
+      "qty": 735,
+      "avg_cost": 149.56,
+      "last_price": 161.0,
+      "market_value": 118335.0,
+      "unrealized_pnl": 8408.4,
+      "unrealized_return_pct": 7.65
+    },
+    "EQIX": {
+      "qty": 99,
+      "avg_cost": 1080.63,
+      "last_price": 1071.14,
+      "market_value": 106042.37,
+      "unrealized_pnl": -940.0,
+      "unrealized_return_pct": -0.88
+    },
+    "NET": {
+      "qty": 294,
+      "avg_cost": 186.79,
+      "last_price": 273.35,
+      "market_value": 80364.9,
+      "unrealized_pnl": 25448.64,
+      "unrealized_return_pct": 46.34
+    },
+    "NVDA": {
+      "qty": 716,
+      "avg_cost": 220.78,
+      "last_price": 222.71,
+      "market_value": 159456.78,
+      "unrealized_pnl": 1378.3,
+      "unrealized_return_pct": 0.87
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-05-12",
+      "ticker": "AKAM",
+      "action": "buy",
+      "qty": 735,
+      "price": 149.56,
+      "cost": 109926.6,
+      "cash_after": 890073.4
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "EQIX",
+      "action": "buy",
+      "qty": 99,
+      "price": 1080.63,
+      "cost": 106982.37,
+      "cash_after": 783091.03
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "NET",
+      "action": "buy",
+      "qty": 294,
+      "price": 186.79,
+      "cost": 54916.26,
+      "cash_after": 728174.77
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "NVDA",
+      "action": "buy",
+      "qty": 716,
+      "price": 220.78,
+      "cost": 158078.48,
+      "cash_after": 570096.29
+    }
+  ],
+  "benchmark_comparison": {
+    "SPY": {
+      "start_price": 742.31,
+      "end_price": 759.33,
+      "return_pct": 2.293,
+      "alpha_pct": 1.137
+    }
+  }
+}

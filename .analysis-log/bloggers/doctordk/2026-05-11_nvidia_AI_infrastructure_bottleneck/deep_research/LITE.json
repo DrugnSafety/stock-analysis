@@ -1,0 +1,289 @@
+{
+  "industry": {
+    "name": "광통신 / Optical Transceiver / Laser",
+    "overview": "Lumentum은 NeoPhotonics 인수(2022) 후 high-speed optical transceiver·photonic IC·industrial laser 분야 leader. AI optics 부문 매출 비중 25% → 45% 급성장 (FY25→FY26). Cloud & Datacenter segment가 +65% YoY 성장 (FY26 outlook). NVIDIA equity stake $100M (2024-12) 발표 후 supply chain criticality 인정.",
+    "competitors": [
+      {
+        "name": "Coherent",
+        "ticker": "COHR",
+        "share_pct": 25.0,
+        "moat": "전통적 fiber laser + transceiver 통합 leader"
+      },
+      {
+        "name": "Lumentum",
+        "ticker": "LITE",
+        "share_pct": 18.0,
+        "moat": "NeoPhotonics 인수 → high-speed optics expertise + NVIDIA stake"
+      },
+      {
+        "name": "InnoLight",
+        "ticker": "private",
+        "share_pct": 18.0,
+        "moat": "중국 최대 transceiver maker"
+      },
+      {
+        "name": "Eoptolink",
+        "ticker": "private",
+        "share_pct": 12.0,
+        "moat": "중국 2위, cost leadership"
+      },
+      {
+        "name": "Fabrinet",
+        "ticker": "FN",
+        "share_pct": 0.0,
+        "moat": "Contract manufacturer (LITE·COHR 외주 50%+)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-20",
+        "title": "Lumentum FY26 Q3 — Cloud & DC +120% YoY, AI optics 비중 55%",
+        "source": "Lumentum earnings",
+        "summary": "1.6T design-win 4건, ASP +20% YoY"
+      },
+      {
+        "date": "2026-02-10",
+        "title": "NVIDIA, Lumentum과 1.6T 표준 정의 공동 작업",
+        "source": "NVIDIA·Lumentum joint announcement",
+        "summary": "Spectrum-X 4.0 + 1.6T LR8/DR8 표준화"
+      },
+      {
+        "date": "2025-12-15",
+        "title": "NVIDIA $100M Lumentum equity stake 공시",
+        "source": "SEC filing",
+        "summary": "strategic supply chain partnership 명시"
+      }
+    ],
+    "market_size": {
+      "cagr_pct": 32.0,
+      "current_usd_bn": 18.0,
+      "forecast_usd_bn": 42.0,
+      "horizon": "2027"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 1714,
+        "op_income": 220,
+        "op_margin": 12.8,
+        "net_income": 138,
+        "net_margin": 8.0
+      },
+      {
+        "year": 2023,
+        "revenue": 1530,
+        "op_income": 65,
+        "op_margin": 4.2,
+        "net_income": -28,
+        "net_margin": -1.8
+      },
+      {
+        "year": 2024,
+        "revenue": 1360,
+        "op_income": -85,
+        "op_margin": -6.2,
+        "net_income": -180,
+        "net_margin": -13.2
+      },
+      {
+        "year": 2025,
+        "revenue": 2200,
+        "op_income": 250,
+        "op_margin": 11.4,
+        "net_income": 130,
+        "net_margin": 5.9
+      },
+      {
+        "year": 2026,
+        "revenue": 4500,
+        "op_income": 1080,
+        "op_margin": 24.0,
+        "net_income": 720,
+        "net_margin": 16.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 5800,
+      "total_liab": 3200,
+      "equity": 2600,
+      "cash": 580,
+      "debt": 2100
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 220,
+      "fcf_5y_avg": 50,
+      "capex_intensity": 0.085
+    },
+    "peer_compare": [
+      {
+        "ticker": "LITE",
+        "name": "Lumentum",
+        "pe": 50.0,
+        "pb": 8.2,
+        "roe": 16.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "COHR",
+        "name": "Coherent",
+        "pe": 42.0,
+        "pb": 5.5,
+        "roe": 13.5,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "FN",
+        "name": "Fabrinet",
+        "pe": 28.0,
+        "pb": 4.5,
+        "roe": 22.0,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 1400.0,
+      "thesis": "AI optics 폭발적 성장 + NVIDIA partnership 확대. 2027 EPS $25+",
+      "key_assumptions": [
+        "1.6T ramp 차질 없음",
+        "NVIDIA stake 추가",
+        "Cloud DC +100% YoY 유지"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 950.0,
+      "thesis": "AI optics 안정 성장 + 시장점유율 20% 도달. 2027 EPS $18 수준",
+      "key_assumptions": [
+        "1.6T 적정 ramp",
+        "OPM 24% 유지",
+        "NVIDIA + 다른 hyperscaler 비중 60%"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 450.0,
+      "thesis": "1Y +1276% 후 mean reversion, valuation reset. 2027 EPS $12 수준",
+      "key_assumptions": [
+        "AI optics 성장률 50% → 30% 둔화",
+        "CPO 조기 양산 위협",
+        "Multiple 50x → 25x compression"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "FY26 Q4 earnings — AI optics 비중 50% 돌파 가능",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Cloud DC segment +100% YoY 유지 시 momentum 강화"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "1.6T DR8/LR8 양산 ramp",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "ASP +80%, revenue $300M+ 추가"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "NVIDIA stake 추가 가능성",
+      "type": "strategic",
+      "expected_impact": "+",
+      "description": "Strategic partnership 확대 시 re-rating"
+    },
+    {
+      "date": "2027-H1",
+      "event": "CPO timeline 확정",
+      "type": "competitive",
+      "expected_impact": "○",
+      "description": "CPO 2027 H2 → 2028 지연 시 LITE 우위 지속"
+    }
+  ],
+  "risks": [
+    {
+      "name": "1Y +1276% spike의 mean reversion",
+      "probability": "med",
+      "impact": "high",
+      "description": "Historical extreme — 2026 H2~H3 -40-50% 가능",
+      "mitigation": "분산 진입, position sizing 보수적"
+    },
+    {
+      "name": "NVIDIA dependence",
+      "probability": "high",
+      "impact": "high",
+      "description": "Top customer 의존도 60%+ — strategic 관계 변화 시 직접 충격",
+      "mitigation": "다른 hyperscaler (MSFT·Meta·AMZN) 확대"
+    },
+    {
+      "name": "Valuation extreme",
+      "probability": "high",
+      "impact": "med",
+      "description": "Forward PE 50x·EV/Sales 10x는 bubble territory",
+      "mitigation": "EPS growth 100%+ 유지 시 PE compression 흡수"
+    },
+    {
+      "name": "CPO 조기 양산",
+      "probability": "med",
+      "impact": "high",
+      "description": "Pluggable transceiver 시장 잠식 위협",
+      "mitigation": "LITE 자체 CPO R&D"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI optics revenue 비중 25→45→55% 1년만에 jump",
+      "type": "factual",
+      "evidence": "Lumentum FY26 Q2/Q3 earnings",
+      "testability": "high",
+      "current_status": "supported"
+    },
+    {
+      "claim": "1Y +1276% return은 historical extreme — mean reversion risk",
+      "type": "valuation",
+      "evidence": "Yfinance 1Y return",
+      "testability": "high",
+      "current_status": "warning"
+    },
+    {
+      "claim": "NVIDIA equity stake가 supply chain criticality 인정 증거",
+      "type": "interpretive",
+      "evidence": "2024-12 SEC filing $100M stake",
+      "testability": "medium",
+      "current_status": "supported"
+    },
+    {
+      "claim": "Forward PE 50x는 full speculation territory — 진입 timing risk",
+      "type": "valuation",
+      "evidence": "5Y avg PE 18x",
+      "testability": "high",
+      "current_status": "warning"
+    }
+  ],
+  "korean_disclosures": [],
+  "sec_disclosures": [
+    {
+      "date": "2026-04-20",
+      "form": "10-Q",
+      "title": "FY26 Q3 — Cloud & DC +120%, AI optics 55% mix",
+      "impact": "+"
+    },
+    {
+      "date": "2025-12-15",
+      "form": "8-K",
+      "title": "NVIDIA $100M equity stake disclosure",
+      "impact": "+"
+    },
+    {
+      "date": "2025-09-30",
+      "form": "10-K",
+      "title": "FY25 annual — AI optics narrative 본격화",
+      "impact": "+"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "ticker": "CRM",
+  "ticker_name": "Salesforce, Inc.",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 10,
+      "members": [
+        "warren-buffett",
+        "charlie-munger",
+        "mohnish-pabrai",
+        "peter-lynch",
+        "phil-fisher",
+        "rakesh-jhunjhunwala",
+        "michael-burry",
+        "nassim-taleb",
+        "bill-ackman",
+        "aswath-damodaran"
+      ],
+      "pct": 76.9
+    },
+    "neutral": {
+      "count": 3,
+      "members": [
+        "ben-graham",
+        "cathie-wood",
+        "stanley-druckenmiller"
+      ],
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.83,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.9
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish (3/4)"
+    },
+    "contrarian": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (2/2)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "analytical": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    }
+  },
+  "thesis_alignment": "medium_high",
+  "narrative_vs_quant": "본문에 attribution system 자체 구축 명시, AgentForce metered AI 진입",
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.9,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] Core CRM 성장 둔화 — +10% YoY",
+        "[inference] Agentforce 매출 ramp 늦음",
+        "[inference] Microsoft Copilot + Dynamics 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "[actual] FCF margin 35%+ + 자사주 매입 적극",
+        "[inference] Forward PE 22x — 합리적",
+        "[inference] Data Cloud + Agentforce attribution platform 잠재력"
+      ]
+    }
+  }
+}

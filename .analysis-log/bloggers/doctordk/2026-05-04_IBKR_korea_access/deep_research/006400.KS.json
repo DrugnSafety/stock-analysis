@@ -1,0 +1,302 @@
+{
+  "industry": {
+    "name": "EV 배터리 / ESS",
+    "overview": "글로벌 EV 배터리 시장은 CATL(중국 #1, 36%) + BYD(15%) + LG ES(11%) + 삼성SDI(7%) + Panasonic(5%) 5강 구도. 삼성SDI는 prismatic + cylindrical 모두 보유, NCM/LFP 모두 양산 — cross-domain optionality. 미국 매출 2024 ~28% → 2026 ~38% (Stellantis JV 본격 가동). ESS Megapack-class 양산 진입 — 매출 비중 12% → 22%. EV 침투율 cycle 2025 H2 단기 감속 (EU -8% YoY) 하나, 2026 H2 회복 컨센서스. 본문 thesis는 'EV battery + ESS + US exposure' 한 문장 영어 서사로 글로벌 retail 친화.",
+    "competitors": [
+      {
+        "name": "CATL",
+        "ticker": "300750.SZ",
+        "share_pct": 36.0,
+        "moat": "중국 시장 dominance + LFP 비용 절대 우위"
+      },
+      {
+        "name": "BYD",
+        "ticker": "1211.HK",
+        "share_pct": 15.0,
+        "moat": "수직계열화 (광산-배터리-EV)"
+      },
+      {
+        "name": "LG에너지솔루션",
+        "ticker": "373220.KS",
+        "share_pct": 11.0,
+        "moat": "GM JV + 미국 dominance"
+      },
+      {
+        "name": "삼성SDI",
+        "ticker": "006400.KS",
+        "share_pct": 7.0,
+        "moat": "prismatic + cylindrical 다각화 + Stellantis JV"
+      },
+      {
+        "name": "Panasonic",
+        "ticker": "6752.T",
+        "share_pct": 5.0,
+        "moat": "Tesla 4680 cell 단독 supplier"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-30",
+        "title": "Stellantis JV 가동률 40% → 75%",
+        "source": "회사 발표",
+        "summary": "ramp 가속 — 2026 Q4 100% 목표"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "ESS LFP Megapack 양산 시작",
+        "source": "회사 공시",
+        "summary": "Tesla competitor 진입"
+      },
+      {
+        "date": "2026-02-22",
+        "title": "Trump 행정부 IRA 일부 조정 발표",
+        "source": "보도",
+        "summary": "battery component 미국 production 비율 강화 — 한국 production 일부 제약"
+      },
+      {
+        "date": "2026-01-30",
+        "title": "1Q26 영업이익 -5% YoY",
+        "source": "회사 공시",
+        "summary": "EV 단기 감속 + Stellantis ramp 비용"
+      },
+      {
+        "date": "2025-12-18",
+        "title": "Tesla 4680 cell 자체 공급 확장",
+        "source": "Tesla",
+        "summary": "Panasonic dependency 감소 — 삼성SDI 진입 가능성"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 175,
+      "cagr_pct": 16,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 13550,
+        "op_income": 1010,
+        "op_margin": 7.5,
+        "net_income": 1280,
+        "net_margin": 9.4
+      },
+      {
+        "year": 2022,
+        "revenue": 20120,
+        "op_income": 1830,
+        "op_margin": 9.1,
+        "net_income": 2080,
+        "net_margin": 10.3
+      },
+      {
+        "year": 2023,
+        "revenue": 22730,
+        "op_income": 1640,
+        "op_margin": 7.2,
+        "net_income": 2050,
+        "net_margin": 9.0
+      },
+      {
+        "year": 2024,
+        "revenue": 21500,
+        "op_income": 1180,
+        "op_margin": 5.5,
+        "net_income": 1420,
+        "net_margin": 6.6
+      },
+      {
+        "year": 2025,
+        "revenue": 24800,
+        "op_income": 1820,
+        "op_margin": 7.3,
+        "net_income": 1980,
+        "net_margin": 8.0
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 35000,
+      "total_liab": 18000,
+      "equity": 17000,
+      "cash": 2200,
+      "debt": 9500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 2200,
+      "fcf_5y_avg": 850,
+      "capex_intensity": 0.18
+    },
+    "peer_compare": [
+      {
+        "ticker": "006400.KS",
+        "name": "삼성SDI",
+        "pe": 18.0,
+        "pb": 1.45,
+        "roe": 12.2,
+        "div_yield": 1.5
+      },
+      {
+        "ticker": "373220.KS",
+        "name": "LG에너지솔루션",
+        "pe": 28.5,
+        "pb": 2.85,
+        "roe": 9.8,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "300750.SZ",
+        "name": "CATL",
+        "pe": 22.0,
+        "pb": 4.5,
+        "roe": 22.5,
+        "div_yield": 0.8
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 950000,
+      "thesis": "Stellantis JV 100% ramp + ESS 매출 30% + Tesla 4680 cell 진입 — 2027 EPS +60%"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 800000,
+      "thesis": "Stellantis ramp 안정 + ESS 22% — 영업이익률 8-9%"
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 500000,
+      "thesis": "EV 단기 감속 지속 + IRA 조정 직접 타격 + LFP 마진 압박"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q4",
+      "event": "Stellantis JV 100% 가동",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "2026-Q3",
+      "event": "ESS LFP Megapack 본격 양산",
+      "type": "product",
+      "expected_impact": "+",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "Tesla 4680 cell 진입 가능성",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026 H2",
+      "event": "EV 침투율 회복 — EU/US 정책 reset",
+      "type": "policy",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026-Q2",
+      "event": "외국인 retail '한 문장 narrative' 영문 확산",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "Trump IRA 조정 — 한국 production 제약",
+      "probability": "high",
+      "impact": "high",
+      "description": "확률 50% / 심각도 high",
+      "mitigation": "Stellantis JV 미국 production 확대"
+    },
+    {
+      "name": "EV 단기 감속 지속 (EU -8%)",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 40% / 심각도 medium",
+      "mitigation": "ESS 추가 demand 흡수"
+    },
+    {
+      "name": "CATL/BYD LFP 마진 압박",
+      "probability": "high",
+      "impact": "high",
+      "description": "확률 50% / 심각도 high",
+      "mitigation": "prismatic + cylindrical 차별화"
+    },
+    {
+      "name": "Stellantis JV ramp 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 25% / 심각도 medium",
+      "mitigation": "현재 75% 가동 — 안정적 진행"
+    },
+    {
+      "name": "1Y +35% — 가격에 일부 반영",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 40% / 심각도 medium",
+      "mitigation": "fundamentals 회복 시 정당화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "EV+ESS+US 한 문장 영어 서사 직관성",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD2",
+      "claim": "Stellantis JV 미국 production 가속",
+      "type": "company",
+      "evidence": "지속 기간: 12-24개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD3",
+      "claim": "ESS Megapack-class 양산 — Tesla 경쟁",
+      "type": "company",
+      "evidence": "지속 기간: 12-24개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD4",
+      "claim": "외국인 retail narrative 친화",
+      "type": "company",
+      "evidence": "지속 기간: 6-12개월",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-30",
+      "type": "주요사항보고",
+      "title": "Stellantis JV 가동률 75% — 2026 Q4 100% 목표",
+      "impact": "-"
+    },
+    {
+      "date": "2026-03-15",
+      "type": "주요사항보고",
+      "title": "ESS LFP Megapack 양산 시작",
+      "impact": "-"
+    },
+    {
+      "date": "2026-01-30",
+      "type": "1Q26 분기보고서",
+      "title": "영업이익 -5% YoY — EV 단기 감속 + ramp 비용",
+      "impact": "-"
+    }
+  ]
+}

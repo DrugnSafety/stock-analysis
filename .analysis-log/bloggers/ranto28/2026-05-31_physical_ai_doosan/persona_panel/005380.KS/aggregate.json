@@ -1,0 +1,362 @@
+{
+  "ticker": "005380.KS",
+  "aggregated_at": "2026-06-01T11:41:11.685673+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 9,
+      "pct": 69.2
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.738,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 6,
+      "personas": [
+        "nassim-taleb",
+        "peter-lynch",
+        "bill-ackman",
+        "stanley-druckenmiller",
+        "rakesh-jhunjhunwala",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "시장 변동성",
+        "고베타 칵테일로 인한 변동성 증가",
+        "높은 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 PE 비율",
+        "시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI와 로봇 시장 확장",
+        "자동차 산업 회복"
+      ],
+      "uncertainty": "피지컬 AI 시장 성장 둔화 시, 로봇 사업의 기대 효과가 감소할 수 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고베타 칵테일로 인한 변동성 증가",
+        "로봇 산업에서의 초기 비용 부담"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI 분야의 리더십 확보",
+        "고령화 산업 내 AI 로봇 적용 확대"
+      ],
+      "uncertainty": "로봇 시장의 예상치 못한 규제 또는 기술적 난관",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "글로벌 자동차 시장의 불확실성",
+        "기술적 경쟁에서의 도전"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI 및 로봇공학",
+        "미래 자동차 및 기술 혁신"
+      ],
+      "uncertainty": "글로벌 경제의 급격한 불황이 발생한다면, 로봇공학 투자도 영향을 받을 수 있음",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "과대 평가된 PE 비율"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI의 성장 가능성",
+        "로봇 산업에서의 선도적 위치"
+      ],
+      "uncertainty": "피지컬 AI 구현이 기대한 만큼 빠르지 않다면 불확실성으로 인해 손실 가능성이 큼",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 비율",
+        "로봇 공학 모델의 초기 성과 불확실"
+      ],
+      "key_opportunities_top3": [
+        "자동차 산업에서의 강력한 시장 입지",
+        "로봇 공학을 통한 사업 다각화"
+      ],
+      "uncertainty": "로봇 공학 및 피지컬AI 확장 시도의 성공과 경제성",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고변동성",
+        "글로벌 자동차 수요의 변동"
+      ],
+      "key_opportunities_top3": [
+        "피지컬AI와 로봇 기술 포함 범위 확대",
+        "산업 자동화 트렌드"
+      ],
+      "uncertainty": "글로벌 경제의 침체가 심화되거나 AI 및 로봇 분야에 대한 기대치가 급격히 변화할 경우, 이 판결은 뒤집힐 수 있다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성"
+      ],
+      "key_opportunities_top3": [
+        "피지컬AI에 대한 선점적 우위",
+        "자본배분 효율성"
+      ],
+      "uncertainty": "피지컬AI의 상용화 및 기대 수익률이 실현되지 않으면 verdict가 바뀔 수 있습니다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "R&D 효율성 평가의 모호성",
+        "로봇시장 경쟁 심화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "피지컬AI 시장 선도",
+        "구글 및 엔비디아와의 협력 가능성"
+      ],
+      "uncertainty": "피지컬AI의 시장 수요가 예상보다 낮거나, 기술 전환이 예상보다 오래 걸린다면 verdict가 뒤집힐 수 있음.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 비율은 위험 요소"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI 개발로 인한 장기적 성장 가능성",
+        "산업 내 기술 리더십 강화"
+      ],
+      "uncertainty": "로봇공학 및 AI 기술의 성공적 통합이 불가능할 경우, 시장에서의 기대감이 감소할 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "PER이 높은 편임",
+        "PBR 데이터 불확실"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI 분야에서 성장 잠재력",
+        "전통적 자동차 제조에서 로봇공학으로의 변신"
+      ],
+      "uncertainty": "피지컬 AI 전략이 실질 매출 증가로 입증되지 않으면, 현재 주가가 과대 평가될 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "피지컬AI 상용화의 불확실성",
+        "글로벌 경기 변동에 따른 수요 회복 여부"
+      ],
+      "key_opportunities_top3": [
+        "아틀라스 로봇의 대량 생산 가능성",
+        "조지아 공장에서의 효과적인 자동화 구현"
+      ],
+      "uncertainty": "피지컬AI의 상용화가 지연되거나 방해받는다면, 이론이 위태로울 가능성이 큼",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "피지컬 AI 시장의 불확실성",
+        "기술 개발의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI를 통한 시장 선점",
+        "차세대 로봇 기술 발전과 산업 적용"
+      ],
+      "uncertainty": "피지컬 AI 시장이 예상대로 성장하지 않으면 내재가치가 낮아질 수 있다",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "시장 변동성",
+        "피지컬 AI에 대한 과도한 기대"
+      ],
+      "key_opportunities_top3": [
+        "다각화로 인한 포트폴리오 리스크 분산",
+        "AI 및 로봇 분야에서의 리더십"
+      ],
+      "uncertainty": "글로벌 경제 위기나 기술적 실패가 발생하면 이 전략이 취약할 수 있습니다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

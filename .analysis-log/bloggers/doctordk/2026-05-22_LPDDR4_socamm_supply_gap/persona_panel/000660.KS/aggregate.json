@@ -1,0 +1,1212 @@
+{
+  "ticker": "000660.KS",
+  "ticker_name": "SK하이닉스",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 4,
+      "pct": 30.8
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 30.8
+    }
+  },
+  "average_confidence": 0.64,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.66
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (4/4)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "[actual] 1년 +873% rally — 추가 upside 제한, profit-tak...",
+      "frequency": 13,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험"
+      ]
+    },
+    {
+      "theme": "[actual] Beta 2.03 — extreme cyclicality",
+      "frequency": 11,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "[actual] Beta 2.03 — extreme cyclicality"
+      ]
+    },
+    {
+      "theme": "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협",
+      "frequency": 9,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "michael-burry",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "ticker": "000660.KS",
+      "persona_id": "warren-buffett",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "verdict": "lean_bearish",
+      "confidence": 0.66,
+      "horizon": "long_term",
+      "evaluated_at": "2026-05-22T15:48:56.830302",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "워런 버핏 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "HBM monopoly는 인상적이나 +873% rally 이후 we don't chase. Capex-intensive cycle business는 우리 회피 대상. Quality vs cyclicality 갈등에서 cyclicality가 이긴다.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "버핏: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — value 관점에서 검증 가능한 fact (T1·T2·T3·T6·T7) 또는 추정 (T4·T5·T8) 구분 필요.",
+          "stance": "support",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "버핏: Nanya가 DDR5 전환 못해 DDR4 trapped... — value 관점에서 검증 가능한 fact (T1·T2·T3·T6·T7) 또는 추정 (T4·T5·T8) 구분 필요.",
+          "stance": "support",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "버핏: NVIDIA Vera Rubin 시대 AI 서버는 '거... — value 관점에서 검증 가능한 fact (T1·T2·T3·T6·T7) 또는 추정 (T4·T5·T8) 구분 필요.",
+          "stance": "support",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "버핏: 2027 Vera Rubin LPDDR 수요 9,084... — value 관점에서 검증 가능한 fact (T1·T2·T3·T6·T7) 또는 추정 (T4·T5·T8) 구분 필요.",
+          "stance": "challenge",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "버핏: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — value 관점에서 검증 가능한 fact (T1·T2·T3·T6·T7) 또는 추정 (T4·T5·T8) 구분 필요.",
+          "stance": "challenge",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "버핏: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — value 관점에서 검증 가능한 fact (T1·T2·T3·T6·T7) 또는 추정 (T4·T5·T8) 구분 필요.",
+          "stance": "support",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "버핏: SOCAMM 기판 시장 2026 1,417억 → 202... — value 관점에서 검증 가능한 fact (T1·T2·T3·T6·T7) 또는 추정 (T4·T5·T8) 구분 필요.",
+          "stance": "support",
+          "confidence": 0.59
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "버핏: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — value 관점에서 검증 가능한 fact (T1·T2·T3·T6·T7) 또는 추정 (T4·T5·T8) 구분 필요.",
+          "stance": "challenge",
+          "confidence": 0.59
+        }
+      ]
+    },
+    "charlie-munger": {
+      "ticker": "000660.KS",
+      "persona_id": "charlie-munger",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "evaluated_at": "2026-05-22T15:48:56.830941",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "찰리 멍거 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "Pure-play memory — 너무 binary. HBM 우위는 일시적일 수 있고, 우리는 'cycle' 비즈니스를 좋아하지 않는다.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "찰리 멍거: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "찰리 멍거: Nanya가 DDR5 전환 못해 DDR4 trapped... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "찰리 멍거: NVIDIA Vera Rubin 시대 AI 서버는 '거... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "찰리 멍거: 2027 Vera Rubin LPDDR 수요 9,084... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "찰리 멍거: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "찰리 멍거: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "찰리 멍거: SOCAMM 기판 시장 2026 1,417억 → 202... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "찰리 멍거: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.56
+        }
+      ]
+    },
+    "peter-lynch": {
+      "ticker": "000660.KS",
+      "persona_id": "peter-lynch",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.831465",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "피터 린치 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "HBM stocks — 'AI 메모리'라는 명확한 story. +873% rally는 깜짝이지만 forward EPS growth가 prices in되지 않음. PEG 0.4 — still cheap.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "린치: DDR4/LPDDR4 공급 공백 심화로 고객사 — story stocks 패턴. PEG가 답이다.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "린치: Nanya가 DDR5 전환 못해 DDR4 tr — story stocks 패턴. PEG가 답이다.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "린치: NVIDIA Vera Rubin 시대 AI 서 — story stocks 패턴. PEG가 답이다.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "린치: 2027 Vera Rubin LPDDR 수요  — story stocks 패턴. PEG가 답이다.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "린치: Vera CPU 독립 랙 외판 시 LPDDR  — story stocks 패턴. PEG가 답이다.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "린치: SOCAMM 모듈 Vera CPU 랙 2,04 — story stocks 패턴. PEG가 답이다.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "린치: SOCAMM 기판 시장 2026 1,417억  — story stocks 패턴. PEG가 답이다.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "린치: GPU·HBM 외 LPDDR·SOCAMM 병목 — story stocks 패턴. PEG가 답이다.",
+          "stance": "support",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "cathie-wood": {
+      "ticker": "000660.KS",
+      "persona_id": "cathie-wood",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.831994",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "캐시 우드 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "SK Hynix HBM 우위 — exponential AI compute의 직접 수혜. Innovation S-curve 진행 중. Long-horizon hold.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "우드: DDR4/LPDDR4 공급 공백 심화로 고객사 — exponential disruption 맞물림. ARKK thesis와 일치.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "우드: Nanya가 DDR5 전환 못해 DDR4 tr — exponential disruption 맞물림. ARKK thesis와 일치.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "우드: NVIDIA Vera Rubin 시대 AI 서 — exponential disruption 맞물림. ARKK thesis와 일치.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "우드: 2027 Vera Rubin LPDDR 수요  — exponential disruption 맞물림. ARKK thesis와 일치.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "우드: Vera CPU 독립 랙 외판 시 LPDDR  — exponential disruption 맞물림. ARKK thesis와 일치.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "우드: SOCAMM 모듈 Vera CPU 랙 2,04 — exponential disruption 맞물림. ARKK thesis와 일치.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "우드: SOCAMM 기판 시장 2026 1,417억  — exponential disruption 맞물림. ARKK thesis와 일치.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "우드: GPU·HBM 외 LPDDR·SOCAMM 병목 — exponential disruption 맞물림. ARKK thesis와 일치.",
+          "stance": "support",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "michael-burry": {
+      "ticker": "000660.KS",
+      "persona_id": "michael-burry",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.832522",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "마이클 버리 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "873% rally는 'easy money'에 너무 가깝다. CXMT 진입 + HBM cycle peak 신호 모니터링. Lean_bearish for trim.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "버리: DDR4/LPDDR4 공급 공백 심화로 고객사 — 시장 over-extrapolation 위험. 추정치 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "버리: Nanya가 DDR5 전환 못해 DDR4 tr — 시장 over-extrapolation 위험. 추정치 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "버리: NVIDIA Vera Rubin 시대 AI 서 — 시장 over-extrapolation 위험. 추정치 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "버리: 2027 Vera Rubin LPDDR 수요  — 시장 over-extrapolation 위험. 추정치 검증 필요.",
+          "stance": "challenge",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "버리: Vera CPU 독립 랙 외판 시 LPDDR  — 시장 over-extrapolation 위험. 추정치 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "버리: SOCAMM 모듈 Vera CPU 랙 2,04 — 시장 over-extrapolation 위험. 추정치 검증 필요.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "버리: SOCAMM 기판 시장 2026 1,417억  — 시장 over-extrapolation 위험. 추정치 검증 필요.",
+          "stance": "challenge",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "버리: GPU·HBM 외 LPDDR·SOCAMM 병목 — 시장 over-extrapolation 위험. 추정치 검증 필요.",
+          "stance": "challenge",
+          "confidence": 0.54
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "ticker": "000660.KS",
+      "persona_id": "nassim-taleb",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.833032",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "나심 탈레브 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "+873% rally 이후 fat tail downside vs upside asymmetry는 negative. Tail risk: CXMT + China sanctions + Cyclical peak.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "나심 탈레브: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "나심 탈레브: Nanya가 DDR5 전환 못해 DDR4 trapped... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "나심 탈레브: NVIDIA Vera Rubin 시대 AI 서버는 '거... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "나심 탈레브: 2027 Vera Rubin LPDDR 수요 9,084... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "나심 탈레브: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "나심 탈레브: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "나심 탈레브: SOCAMM 기판 시장 2026 1,417억 → 202... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.54
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "나심 탈레브: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.54
+        }
+      ]
+    },
+    "ben-graham": {
+      "ticker": "000660.KS",
+      "persona_id": "ben-graham",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "evaluated_at": "2026-05-22T15:48:56.833548",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "벤저민 그레이엄 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "SK Hynix는 +873% rally로 margin of safety 소멸. Lock-in profit 권고 영역.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "벤저민 그레이엄: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "벤저민 그레이엄: Nanya가 DDR5 전환 못해 DDR4 trapped... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "벤저민 그레이엄: NVIDIA Vera Rubin 시대 AI 서버는 '거... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "벤저민 그레이엄: 2027 Vera Rubin LPDDR 수요 9,084... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "벤저민 그레이엄: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "벤저민 그레이엄: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "벤저민 그레이엄: SOCAMM 기판 시장 2026 1,417억 → 202... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "벤저민 그레이엄: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "bill-ackman": {
+      "ticker": "000660.KS",
+      "persona_id": "bill-ackman",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.834060",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "빌 애크먼 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "SK Hynix 단일 비즈니스 — activist intervention 여지 작음. Hold not buy.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "빌 애크먼: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "빌 애크먼: Nanya가 DDR5 전환 못해 DDR4 trapped... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "빌 애크먼: NVIDIA Vera Rubin 시대 AI 서버는 '거... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "빌 애크먼: 2027 Vera Rubin LPDDR 수요 9,084... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "빌 애크먼: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "빌 애크먼: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "빌 애크먼: SOCAMM 기판 시장 2026 1,417억 → 202... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "빌 애크먼: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "ticker": "000660.KS",
+      "persona_id": "mohnish-pabrai",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.834597",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "모니시 파브라이 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "SK Hynix는 매력적이나 +873% 이후 entry 어려움. Patience for pullback.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "모니시 파브라이: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "모니시 파브라이: Nanya가 DDR5 전환 못해 DDR4 trapped... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "모니시 파브라이: NVIDIA Vera Rubin 시대 AI 서버는 '거... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "모니시 파브라이: 2027 Vera Rubin LPDDR 수요 9,084... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "모니시 파브라이: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "모니시 파브라이: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "모니시 파브라이: SOCAMM 기판 시장 2026 1,417억 → 202... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "모니시 파브라이: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "phil-fisher": {
+      "ticker": "000660.KS",
+      "persona_id": "phil-fisher",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "evaluated_at": "2026-05-22T15:48:56.835114",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "필립 피셔 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "SK Hynix HBM 기술 lead + management quality + innovation focus. Scuttlebutt 결과 강력.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "필립 피셔: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "필립 피셔: Nanya가 DDR5 전환 못해 DDR4 trapped... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "필립 피셔: NVIDIA Vera Rubin 시대 AI 서버는 '거... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "필립 피셔: 2027 Vera Rubin LPDDR 수요 9,084... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "필립 피셔: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "필립 피셔: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "필립 피셔: SOCAMM 기판 시장 2026 1,417억 → 202... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "필립 피셔: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "ticker": "000660.KS",
+      "persona_id": "rakesh-jhunjhunwala",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.835631",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "라케시 준준왈라 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "SK Hynix — cyclical conviction + HBM monopoly + secular AI tailwind. Strong buy.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "라케시 준준왈라: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "라케시 준준왈라: Nanya가 DDR5 전환 못해 DDR4 trapped... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "라케시 준준왈라: NVIDIA Vera Rubin 시대 AI 서버는 '거... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "라케시 준준왈라: 2027 Vera Rubin LPDDR 수요 9,084... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "라케시 준준왈라: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "라케시 준준왈라: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "라케시 준준왈라: SOCAMM 기판 시장 2026 1,417억 → 202... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "라케시 준준왈라: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "ticker": "000660.KS",
+      "persona_id": "stanley-druckenmiller",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "verdict": "lean_bullish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.836127",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "스탠리 드러켄밀러 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "SK Hynix는 'best of breed' AI 메모리 — momentum + earnings revision. Top-3 sector pick.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "드러켄밀러: macro tailwind 강력. DDR4/LPDDR4 공급 공백 심화로 고객사가 최대  — sector rotation 자료.",
+          "stance": "support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "드러켄밀러: macro tailwind 강력. Nanya가 DDR5 전환 못해 DDR4 trapped — sector rotation 자료.",
+          "stance": "support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "드러켄밀러: macro tailwind 강력. NVIDIA Vera Rubin 시대 AI 서버는 '거 — sector rotation 자료.",
+          "stance": "support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "드러켄밀러: macro tailwind 강력. 2027 Vera Rubin LPDDR 수요 9,084 — sector rotation 자료.",
+          "stance": "support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "드러켄밀러: macro tailwind 강력. Vera CPU 독립 랙 외판 시 LPDDR 추가 6, — sector rotation 자료.",
+          "stance": "support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "드러켄밀러: macro tailwind 강력. SOCAMM 모듈 Vera CPU 랙 2,048개 —  — sector rotation 자료.",
+          "stance": "support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "드러켄밀러: macro tailwind 강력. SOCAMM 기판 시장 2026 1,417억 → 202 — sector rotation 자료.",
+          "stance": "support",
+          "confidence": 0.7
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "드러켄밀러: macro tailwind 강력. GPU·HBM 외 LPDDR·SOCAMM 병목 영역이  — sector rotation 자료.",
+          "stance": "support",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "ticker": "000660.KS",
+      "persona_id": "aswath-damodaran",
+      "persona_kr": "아스와스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "evaluated_at": "2026-05-22T15:48:56.836616",
+      "key_concerns_top3": [
+        "[actual] 1년 +873% rally — 추가 upside 제한, profit-taking 위험",
+        "[actual] Beta 2.03 — extreme cyclicality",
+        "[inference] CXMT (중국) DDR4 양산 2H26 ramp 시 가격 경쟁 위협"
+      ],
+      "key_opportunities_top3": [
+        "[actual] HBM4 single-source supplier (NVIDIA Rubin) — 2027까지 가시성 확보",
+        "[actual] LPDDR 데이터센터 매출 비중 빠르게 확대",
+        "[actual] Forward PE 5.08x — earning power 대비 lower bound"
+      ],
+      "uncertainty": "아스와스 다모다란 framework 적용 시 핵심 불확실성 — cycle timing + competitive moat",
+      "narrative_vs_quant_resolution": "SK Hynix DCF — peak earnings hypothesis prices in. 2028E EPS 600K 가정 × normalized PE 8x = 4.8M, 현재 1.94M는 +147% upside, but cycle risk high. Neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "claim_text": "DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 3년 장기계약을 적극 체결 중",
+          "persona_take": "아스와스 다모다란: DDR4/LPDDR4 공급 공백 심화로 고객사가 최대 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T2",
+          "claim_text": "Nanya가 DDR5 전환 못해 DDR4 trapped → 한국 빅2 가격 결정력 강화",
+          "persona_take": "아스와스 다모다란: Nanya가 DDR5 전환 못해 DDR4 trapped... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T3",
+          "claim_text": "NVIDIA Vera Rubin 시대 AI 서버는 '거대한 메모리 시스템' 패러다임 전환",
+          "persona_take": "아스와스 다모다란: NVIDIA Vera Rubin 시대 AI 서버는 '거... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T4",
+          "claim_text": "2027 Vera Rubin LPDDR 수요 9,084PB — 스마트폰 연간 LPDDR과 동급",
+          "persona_take": "아스와스 다모다란: 2027 Vera Rubin LPDDR 수요 9,084... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T5",
+          "claim_text": "Vera CPU 독립 랙 외판 시 LPDDR 추가 6,144PB — 공급망 재편",
+          "persona_take": "아스와스 다모다란: Vera CPU 독립 랙 외판 시 LPDDR 추가 6,... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T6",
+          "claim_text": "SOCAMM 모듈 Vera CPU 랙 2,048개 — 기존 288개 대비 7배",
+          "persona_take": "아스와스 다모다란: SOCAMM 모듈 Vera CPU 랙 2,048개 — ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "support",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T7",
+          "claim_text": "SOCAMM 기판 시장 2026 1,417억 → 2027 3,410억 (+141% YoY)",
+          "persona_take": "아스와스 다모다란: SOCAMM 기판 시장 2026 1,417억 → 202... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "claim_id": "T8",
+          "claim_text": "GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 멀티플 재평가 대상",
+          "persona_take": "아스와스 다모다란: GPU·HBM 외 LPDDR·SOCAMM 병목 영역이 ... — 본 thesis는 persona framework로 평가 가능.",
+          "stance": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    }
+  }
+}

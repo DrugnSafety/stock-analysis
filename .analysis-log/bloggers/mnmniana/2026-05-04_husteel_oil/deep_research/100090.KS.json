@@ -1,0 +1,136 @@
+{
+  "industry": {
+    "name": "해상풍력 하부구조물 / 대구경 강관 / 특수강",
+    "overview": "SK오션플랜트는 해상풍력 하부구조물(자켓·모노파일) 전문 업체로, 글의 '해상 하부구조물' 수요 테마에 직접 노출된다. 다만 OCTG·유가 사이클과의 연동은 강관 3사보다 약하고, 해상풍력 프로젝트의 금리·정책 민감도와 수주 lumpy 특성이 크다. 페르소나 패널에서도 가장 신중(8 neutral·5 bearish)했다.",
+    "competitors": [
+      {
+        "name": "휴스틸",
+        "ticker": "005010.KS",
+        "share_pct": null,
+        "moat": "에너지강관 특화+군산/휴스턴 capa"
+      },
+      {
+        "name": "세아제강",
+        "ticker": "306200.KS",
+        "share_pct": null,
+        "moat": "국내 최대 강관·대구경·모노파일"
+      },
+      {
+        "name": "넥스틸",
+        "ticker": "092790.KS",
+        "share_pct": null,
+        "moat": "미국 OCTG 순수노출"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "고유가·에너지 인프라 capex 테마 부각",
+        "source": "블로그",
+        "sentiment": "+"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "전방 사이클 연동 — 정량 추정 범위 외"
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "bs_snapshot": {
+      "note": "DART live fetch 비활성(DISABLE_FIN_FETCH) — 5Y 수치 미수록(추측 금지)"
+    },
+    "cf_summary": {
+      "note": "미수록"
+    },
+    "peer_compare": [
+      {
+        "ticker": "100090.KS",
+        "name": "SK오션플랜트",
+        "pe": 14.16,
+        "pb": null,
+        "roe": null,
+        "div_yield": 0,
+        "note": "해상풍력 테마주 — OCTG 직접 노출 약함, 밸류·변동성 부담"
+      }
+    ],
+    "_source": "market_data는 yfinance live(stocks.json). 재무제표 5Y는 DART live fetch 비활성으로 미수록."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": null,
+      "thesis": "글로벌 해상풍력 발주 본격화 + 대형 자켓·모노파일 수주 + 가동률 상승",
+      "key_assumptions": []
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": null,
+      "thesis": "해상풍력 발주 점진, 수주 변동성 동반",
+      "key_assumptions": []
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": null,
+      "thesis": "금리·정책 역풍으로 해상풍력 프로젝트 지연/취소 + 수주 공백",
+      "key_assumptions": []
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "국내외 해상풍력 단지 하부구조 수주",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "국내외 해상풍력 단지 하부구조 수주"
+    },
+    {
+      "date": "2026",
+      "event": "해상풍력 정책·금리 환경",
+      "type": "macro",
+      "expected_impact": "+/-",
+      "description": "해상풍력 정책·금리 환경"
+    }
+  ],
+  "risks": [
+    {
+      "name": "해상풍력 프로젝트 지연·취소",
+      "probability": "high",
+      "impact": "high",
+      "description": "해상풍력 프로젝트 지연·취소",
+      "mitigation": "분할 진입·확인 후 접근"
+    },
+    {
+      "name": "OCTG·유가 thesis와 연동 약함",
+      "probability": "high",
+      "impact": "med",
+      "description": "OCTG·유가 thesis와 연동 약함",
+      "mitigation": "분할 진입·확인 후 접근"
+    },
+    {
+      "name": "수주 lumpy·실적 변동성",
+      "probability": "high",
+      "impact": "med",
+      "description": "수주 lumpy·실적 변동성",
+      "mitigation": "분할 진입·확인 후 접근"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "글로벌 해상풍력 발주 본격화 + 대형 자켓·모노파일 수주 + 가동률 상승",
+      "type": "industry",
+      "evidence": "블로그 전방산업 thesis(T09)",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025",
+      "type": "실적",
+      "title": "연간 실적(DART live fetch 비활성으로 미수록)",
+      "impact": "해상풍력 수주 연동"
+    }
+  ]
+}

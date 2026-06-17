@@ -1,0 +1,376 @@
+{
+  "ticker": "035420.KS",
+  "aggregated_at": "2026-06-03T00:47:25.082713+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 11,
+      "pct": 84.6
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "average_confidence": 1.358,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 8.5
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 4,
+      "personas": [
+        "peter-lynch",
+        "bill-ackman",
+        "phil-fisher",
+        "michael-burry"
+      ],
+      "examples": [
+        "높은 변동성 [50.84%]",
+        "높은 주가 변동성",
+        "시장 변동성 증가"
+      ]
+    },
+    {
+      "theme": "경쟁",
+      "frequency": 4,
+      "personas": [
+        "aswath-damodaran",
+        "cathie-wood",
+        "warren-buffett",
+        "rakesh-jhunjhunwala"
+      ],
+      "examples": [
+        "경쟁 심화 가능성",
+        "산업 내 경쟁 심화",
+        "글로벌 경쟁 심화"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "국방 사업의 성공적 진입 여부",
+        "높은 변동성 [50.84%]"
+      ],
+      "key_opportunities_top3": [
+        "국방 AI 플랫폼으로의 확장",
+        "기존 서비스의 지속적 성장"
+      ],
+      "uncertainty": "국방 분야에서의 성과가 미흡할 경우, 평결이 부정적으로 뒤집힐 수 있습니다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "국방 AI 시장의 제도적 장벽",
+        "경쟁 심화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "국방 AI 플랫폼 통한 새로운 수익원 창출",
+        "인공지능 시장 내 입지 강화"
+      ],
+      "uncertainty": "AI 프로젝트의 성공적 구현에 실패하면 해당 기회는 제한될 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 회사 문화와 인센티브 구조",
+        "시장의 급변하는 기술 환경"
+      ],
+      "key_opportunities_top3": [
+        "AI 플랫폼 시장 확장",
+        "국방 분야 CVC 계약 수혜"
+      ],
+      "uncertainty": "국방 AI 프로젝트의 성공적인 상용화가 실패하면, 사업 확장에서 오는 강점이 약화될 수 있다",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현 시점에서의 높은 PE 비율",
+        "국방 AI 분야의 규제 리스크"
+      ],
+      "key_opportunities_top3": [
+        "국방 AI 사업의 초기 시장 선점",
+        "기술 리더십으로 인한 성장 잠재력"
+      ],
+      "uncertainty": "AI 기술의 상용화 지연 또는 국방 시장 적응 실패 시 verdict가 뒤집힐 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "산업 내 경쟁 심화",
+        "AI 및 국방 진출 실패 가능성"
+      ],
+      "key_opportunities_top3": [
+        "성공적인 AI 플랫폼 구축",
+        "국내외 시장 점유율 확대"
+      ],
+      "uncertainty": "AI 및 국방 분야의 예상치 못한 규제 변화는 기업의 성과를 저해할 수 있습니다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 8.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "AI 플랫폼 구축이 예상보다 지연될 경우"
+      ],
+      "key_opportunities_top3": [
+        "국방 부문의 AI 플랫폼 성공시 시장 점유율 확대",
+        "한국 통화 정책의 추가적 완화 가능성"
+      ],
+      "uncertainty": "AI 기술 통합의 성공 여부가 불확실성을 잠재적으로 뒤집을 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 주가 변동성",
+        "단기 내 외부 불확실성 (정치, 경제)"
+      ],
+      "key_opportunities_top3": [
+        "국방 AI 플랫폼 확장",
+        "신흥 기술 분야에서의 파트너십"
+      ],
+      "uncertainty": "국방 AI 사업이 예상치 못한 규제 또는 경쟁으로 인해 성과를 내지 못할 경우 verdict가 뒤집힐 가능성.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 변동성 증가",
+        "단기 실적 변동"
+      ],
+      "key_opportunities_top3": [
+        "한국 국방 시장 진입",
+        "AI 기술 선도"
+      ],
+      "uncertainty": "국방 AI 플랫폼이 예상보다 성공적이지 않다면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "국방 사업 실패 가능성"
+      ],
+      "key_opportunities_top3": [
+        "국방 AI 시장 진출",
+        "AI 플랫폼 확장"
+      ],
+      "uncertainty": "AI 플랫폼이 기대한 만큼 성장하지 않으면 투자 논리가 깨질 수 있으며, 극심한 경쟁 압박이 있을 경우 판단이 뒤집힐 수 있음.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "PER이 15 이상",
+        "배당이 연속적이지 않음"
+      ],
+      "key_opportunities_top3": [
+        "AI 시장 진출 전략적 가치",
+        "다각화된 서비스 포트폴리오"
+      ],
+      "uncertainty": "네이버의 EPS가 급격히 상승하면 정량적 안전마진이 제공되어, 그레이엄의 관점을 더 잘 지원할 수 있음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "글로벌 경쟁 심화",
+        "AI 기술 발전 속도가 예상보다 더딜 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "국방 산업 내 AI 적용 확대",
+        "한국 내 첫 사례로서의 시장 선점"
+      ],
+      "uncertainty": "AI 시장의 성장 속도가 둔화되면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 경쟁 심화로 인한 마진 압박",
+        "AI 기술 리스크"
+      ],
+      "key_opportunities_top3": [
+        "국방 AI 분야에서의 성장 잠재력",
+        "팔란티어와 유사한 데이터 분석 플랫폼 구축"
+      ],
+      "uncertainty": "권력 변화에 따른 국방 계약 취소 시 verdict가 바뀔 수 있다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "AI 기술 규제 리스크",
+        "국방 분야 규제 변화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "국방 AI 분야 확장",
+        "플랫폼 사업 다각화"
+      ],
+      "uncertainty": "AI 플랫폼의 규제 또는 기술적 실패는 결과를 부정적으로 뒤집을 수 있다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

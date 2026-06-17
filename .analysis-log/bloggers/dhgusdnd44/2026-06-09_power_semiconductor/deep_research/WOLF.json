@@ -1,0 +1,164 @@
+{
+  "ticker": "WOLF",
+  "company_kr": "울프스피드",
+  "company_en": "Wolfspeed",
+  "exchange": "NYSE",
+  "as_of_date": "2026-06-11",
+  "industry": {
+    "name": "Power Semiconductor (전력 반도체)",
+    "name_kr": "전력 반도체 / 800V DC 데이터센터",
+    "overview": "SiC(탄화규소) 수직계열화 전력 반도체·기판 선도. 1층 SST용 10kV SiC를 세계 최초 상용화 — 800V DC 게임체인저. 단 2025-09 Chapter11 탈출(부채 -70%, 현금 $1.3B), 온도민감·성능표 미공개 리스크.",
+    "competitors": [
+      {
+        "name": "Infineon",
+        "ticker": "IFX.DE",
+        "share_pct": null,
+        "moat": "SiC 1위·자본력·공급망"
+      },
+      {
+        "name": "STMicroelectronics",
+        "ticker": "STM",
+        "share_pct": null,
+        "moat": "650V SiC 2위·차량용 강세"
+      },
+      {
+        "name": "onsemi",
+        "ticker": "ON",
+        "share_pct": null,
+        "moat": "SiC 3위·차량 SiC 통합"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "AI 데이터센터 800V DC 전환(2027H2 변곡점)으로 전력반도체 TAM 구조적 확대. 1층 고전압 SiC/2층 800V GaN·SiC/3~4층 대전류 PMIC 층별 분화."
+    },
+    "ai_infrastructure_context": "데이터센터 전력밀도 폭증·전력망 무효전력 문제·SST(고체변압기) 도입이 전력반도체 희소성을 견인.",
+    "news": []
+  },
+  "financials": {
+    "currency": "USD",
+    "unit": "USD M",
+    "fiscal_year_end": "06-30",
+    "data_source": "Wolfspeed SEC 10-K/424B3 기반 공개 근사 (yfinance 미제공 — 2025-09-29 Chapter11 fresh-start). 회계연도 6월 말.",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 747,
+        "op_income": -138,
+        "op_margin": -18.5,
+        "net_income": -98,
+        "net_margin": -13.1
+      },
+      {
+        "year": 2023,
+        "revenue": 922,
+        "op_income": -262,
+        "op_margin": -28.4,
+        "net_income": -336,
+        "net_margin": -36.4
+      },
+      {
+        "year": 2024,
+        "revenue": 807,
+        "op_income": -558,
+        "op_margin": -69.1,
+        "net_income": -864,
+        "net_margin": -107.1
+      },
+      {
+        "year": 2025,
+        "revenue": 757,
+        "op_income": -520,
+        "op_margin": -68.7,
+        "net_income": -1130,
+        "net_margin": -149.3
+      }
+    ],
+    "trajectory_summary": "",
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [],
+    "key_metrics_current": {}
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 75,
+      "thesis": "10kV SiC 1층 독점이 SST 채택과 함께 실현+성능 검증 통과",
+      "key_assumptions": [
+        "SST 도입이 전력망 연결 입장권으로 가속",
+        "10kV SiC 독점지위 유지",
+        "fresh-start 후 재무 안정화"
+      ]
+    },
+    "base": {
+      "prob_pct": 40,
+      "target_price": 45,
+      "thesis": "회생 후 안정화하나 SiC 업황·검증에 시간 소요",
+      "key_assumptions": [
+        "적자 축소되나 흑자전환 지연",
+        "경쟁사 고전압 SiC 추격"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 22,
+      "thesis": "성능 미검증·재무 취약·경쟁 진입으로 독점 무력화",
+      "key_assumptions": [
+        "1000시간(41일) 검증 한계로 채택 지연",
+        "패키징·냉각 의존이 협상력 약화",
+        "재무 재악화"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-2027",
+      "event": "10kV SiC SST 실증·성능표 공개",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "독립 검증·장기신뢰성 데이터가 채택 결정"
+    },
+    {
+      "date": "2026",
+      "event": "fresh-start 후 분기 실적",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "현금소진·매출 안정화 추이"
+    }
+  ],
+  "risks": [
+    {
+      "name": "성능 미검증·온도민감",
+      "probability": "high",
+      "impact": "high",
+      "description": "100도서 저항 2배=손실 2배. 1000시간만 검증. 수냉설계 필수",
+      "mitigation": "패키징·냉각 파트너십, 성능표 공개"
+    },
+    {
+      "name": "재무 취약(파산 회생)",
+      "probability": "med",
+      "impact": "high",
+      "description": "최근 Chapter11 탈출. 공급 안정성 우려",
+      "mitigation": "부채 -70%·현금 $1.3B 확보"
+    },
+    {
+      "name": "경쟁 진입",
+      "probability": "med",
+      "impact": "med",
+      "description": "ST·온세미 고전압 SiC 로드맵",
+      "mitigation": "선행 양산·고객 lock-in"
+    }
+  ],
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-11",
+    "sources": [
+      "dhgusdnd44 블로그 1~3편",
+      "yfinance",
+      "SEC EDGAR",
+      "ITC ruling 2026-05"
+    ]
+  }
+}

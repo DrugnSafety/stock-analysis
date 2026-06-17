@@ -1,0 +1,228 @@
+{
+  "industry": {
+    "name": "한국 금융지주 — 메리츠금융지주 (Korean Financial Holding)",
+    "overview": "메리츠금융지주는 한국 financial holding 중 유일하게 ROE 25%+ 유지 (5년 평균 24.5%). 사업 구성: 손해보험 (메리츠화재) 50% / 증권 (메리츠증권) 30% / 캐피탈 15% / 자산운용 5%. 총자산 KRW 36T, 자기자본 KRW 9.2T. 매년 자사주매입 50%+ 약속 (조정호 회장 명시 가이드) + 배당성향 30% = 총주주환원율 80%+. EPS 5년 CAGR +27%, 자사주매입 통한 share count 감소 -8%, 주가 5년 +750% (vs KOSPI +5%). 한국 정부 'Value-up 프로그램' (2024-02) 1순위 수혜 종목. 산업분석러 본문 직접 명시 — '내부 현금흐름으로 배당/자사주매입 가능' 한국 financial 대표.",
+    "competitors": [
+      {
+        "name": "KB금융",
+        "ticker": "105560.KS",
+        "share_pct": 20.0,
+        "moat": "한국 1위 financial holding, 은행 중심"
+      },
+      {
+        "name": "신한금융",
+        "ticker": "055550.KS",
+        "share_pct": 18.0,
+        "moat": "디지털 financial + 글로벌 (베트남·캄보디아)"
+      },
+      {
+        "name": "하나금융",
+        "ticker": "086790.KS",
+        "share_pct": 13.0,
+        "moat": "은행 + 증권 + 카드 통합 financial"
+      },
+      {
+        "name": "우리금융",
+        "ticker": "316140.KS",
+        "share_pct": 12.0,
+        "moat": "은행 중심 + 우리은행 brand"
+      },
+      {
+        "name": "JB금융",
+        "ticker": "175330.KS",
+        "share_pct": 3.0,
+        "moat": "전북은행 + 광주은행 + 캐피탈"
+      },
+      {
+        "name": "삼성화재",
+        "ticker": "000810.KS",
+        "share_pct": 25.0,
+        "moat": "손해보험 1위 brand"
+      },
+      {
+        "name": "DB손해보험",
+        "ticker": "005830.KS",
+        "share_pct": 14.0,
+        "moat": "손해보험 2위"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-15",
+        "title": "메리츠금융지주 Q1 2026 — EPS KRW 5,250 (+12% YoY) beat",
+        "source": "메리츠 IR",
+        "summary": "손해보험 + 증권 부문 모두 두 자릿수 성장"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "산업분석러 — '메리츠?' 본문 명시 (광산주 분석 글)",
+        "source": "Naver blog (dhgusdnd44)",
+        "summary": "고금리 환경 capital return 기업 사례로 메리츠 직접 인용"
+      },
+      {
+        "date": "2026-04-25",
+        "title": "메리츠 2026 자사주매입 가이드 KRW 1.2T (시총 8% 환수)",
+        "source": "메리츠 공시",
+        "summary": "자사주매입 program 5년 연속 가속화"
+      },
+      {
+        "date": "2026-03-30",
+        "title": "한국 정부 Value-up 프로그램 — 메리츠 'best practice' 사례 선정",
+        "source": "금융위원회",
+        "summary": "정책적 endorsement"
+      },
+      {
+        "date": "2026-02-15",
+        "title": "메리츠화재 RBC ratio 245% — 한국 손해보험 1위",
+        "source": "메리츠화재 IR",
+        "summary": "자본 건전성 우수"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 10.8,
+      "cagr_pct": 15.0,
+      "horizon": "2024-2030 (메리츠 시총)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 200000,
+      "thesis": "한국 Value-up 정책 강화 + 메리츠 PER 6.2x → 10x re-rating + EPS 성장 +20% = 주가 +90% to KRW 200,000",
+      "key_assumptions": [
+        "Value-up 정책 incentive 확대",
+        "Korean Discount 해소",
+        "자사주매입 가속화"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 170000,
+      "thesis": "PER 6.2x → 8x re-rating + EPS CAGR +18% sustained = 5년 +60% to KRW 170,000",
+      "key_assumptions": [
+        "자사주매입 8%/년 유지",
+        "ROE 25% 유지",
+        "고금리 환경 NIM expand"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 80000,
+      "thesis": "부동산 PF + 자동차보험 경쟁 격화 + 정책 변화 시 multiple 압축 + EPS 정체 = 주가 -25% to KRW 80,000",
+      "key_assumptions": [
+        "부동산 PF 부실",
+        "자동차보험 가격 경쟁",
+        "Value-up 정책 변경"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Value-up 프로그램 incentive 추가 발표 가능",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Value-up 프로그램 incentive 추가 발표 가능 (magnitude: high)"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "한국 코리아 vlaue-up 지수 편입 가능",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "한국 코리아 vlaue-up 지수 편입 가능 (magnitude: medium)"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Q4 2026 실적 + 2027 자사주매입 가이드",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Q4 2026 실적 + 2027 자사주매입 가이드 (magnitude: high)"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "MSCI Korea 편입 가능성 (현 KOSPI200만)",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "MSCI Korea 편입 가능성 (현 KOSPI200만) (magnitude: medium)"
+    }
+  ],
+  "risks": [
+    {
+      "name": "자동차보험 경쟁: 삼성화재·DB손해 2025-Q4 가격 인하 — 손해율 +2-3pp 압박",
+      "probability": "high",
+      "impact": "med",
+      "description": "삼성화재·DB손해 2025-Q4 가격 인하 — 손해율 +2-3pp 압박",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "부동산 PF: 메리츠 캐피탈 PF 대출 KRW 1.5T 부동산 cycle 노출",
+      "probability": "med",
+      "impact": "med",
+      "description": "메리츠 캐피탈 PF 대출 KRW 1.5T 부동산 cycle 노출",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "자사주매입 의존: EPS 성장 30%가 buyback 효과 — 정책 변화 시 위험",
+      "probability": "med",
+      "impact": "low",
+      "description": "EPS 성장 30%가 buyback 효과 — 정책 변화 시 위험",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Korean Discount: Value-up 정책 효과 지연 시 multiple expansion lag",
+      "probability": "med",
+      "impact": "low",
+      "description": "Value-up 정책 효과 지연 시 multiple expansion lag",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "ROE 25%+ 한국 financial 1위 5년 sustainable",
+      "type": "factual",
+      "evidence": "메리츠 5년 ROE 평균 24.5% (FY20-24 annual reports)",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "Value-up 정책 + 자사주매입 50%+ = PER 6.2x → 8x re-rating",
+      "type": "predictive",
+      "evidence": "한국 금융위원회 2026-03 Value-up best practice 선정 + 조정호 회장 가이드",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim": "EPS CAGR 27% + 자사주매입 share reduction -8%/년 = 총주주환원율 80%+",
+      "type": "factual",
+      "evidence": "메리츠 5년 financials (2020-2024)",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05-15",
+      "type": "분기보고서",
+      "title": "1Q26 매출 KRW 5.9T (+8% YoY), 영업이익 KRW 720B (+15% YoY), EPS KRW 5,250",
+      "impact": "+"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "주요사항보고서",
+      "title": "2026 자사주매입 가이드 KRW 1.2T 발표 + 분기배당 KRW 1,500/주",
+      "impact": "+"
+    },
+    {
+      "date": "2026-03-30",
+      "type": "감사보고서",
+      "title": "FY25 매출 KRW 23T, 영업이익 KRW 2.8T (margin 12%), 자기자본 KRW 9.2T, ROE 25.4%",
+      "impact": "+"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "기업설명회",
+      "title": "조정호 회장 '향후 5년 자사주매입 + 배당 = 총주주환원율 80% 유지' 가이드",
+      "impact": "+"
+    }
+  ]
+}

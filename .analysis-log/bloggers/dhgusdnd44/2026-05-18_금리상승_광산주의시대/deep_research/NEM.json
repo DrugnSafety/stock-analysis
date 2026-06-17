@@ -1,0 +1,207 @@
+{
+  "industry": {
+    "name": "글로벌 금광 산업 — 1위 producer Newmont",
+    "overview": "Newmont는 2023 Newcrest 인수 ($17B) 완료 후 글로벌 1위 금광기업으로 자리매김. 2024 production 6.9Moz Au + 1,200Mlbs Cu (포트폴리오 다변화). 매출 $18.5B, EBITDA $7.4B (margin 40%), FCF $3.0B. AISC $1,400-1,600/oz — gold $4,600 환경에서 마진 $3,000+/oz. 6개 대륙 분산: 호주 (Boddington, Cadia), 캐나다 (Brucejack, Eleonore), 미국 (Carlin, Cripple Creek), 페루 (Yanacocha), 가나 (Ahafo), 아르헨티나 (Cerro Negro). 산업분석러 인용 — 'AISC $1,400-1,600 + gold $4,600 = 마진 $3,000/oz' = Newmont 직접 인용.",
+    "competitors": [
+      {
+        "name": "Agnico Eagle",
+        "ticker": "AEM",
+        "share_pct": 5.0,
+        "moat": "Quality premium + Canada 정치 안정"
+      },
+      {
+        "name": "Barrick Mining",
+        "ticker": "GOLD",
+        "share_pct": 5.8,
+        "moat": "Nevada Gold Mines JV with NEM = Carlin Trend 공동 운영"
+      },
+      {
+        "name": "AngloGold Ashanti",
+        "ticker": "AU",
+        "share_pct": 3.5,
+        "moat": "South Africa heritage + 글로벌 확장"
+      },
+      {
+        "name": "Gold Fields",
+        "ticker": "GFI",
+        "share_pct": 2.8,
+        "moat": "South Deep 매장량 50Moz+"
+      },
+      {
+        "name": "Northern Star",
+        "ticker": "NST.AX",
+        "share_pct": 2.0,
+        "moat": "호주 핵심 자산 cluster"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-12",
+        "title": "Newmont 2026 production guidance 6.7-7.1Moz (mid-point +2% YoY)",
+        "source": "NEM Q1 2026 release",
+        "summary": "Boddington expansion + Brucejack ramp-up 효과"
+      },
+      {
+        "date": "2026-05-05",
+        "title": "Druckenmiller (Duquesne) Q1 13F: NEM $180M 신규 매수",
+        "source": "SEC 13F",
+        "summary": "Druckenmiller의 '거시 cycle reversal trade' 일환"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "NEM 자사주매입 $1B 추가 발표 (2026 가이드)",
+        "source": "NEM IR",
+        "summary": "FCF discipline + capital return acceleration"
+      },
+      {
+        "date": "2026-04-20",
+        "title": "Newcrest synergies 2025 실적 $400M (vs 가이드 $500M, 80% 달성)",
+        "source": "NEM 4Q 2025",
+        "summary": "Newcrest 인수 ROI 점진적 회수"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "Cadia (호주) Cu 부산물 매출 +25% YoY — copper exposure 자연스럽게 확대",
+        "source": "Industry research",
+        "summary": "Gold + copper 결합 자산이 '광업의 시대' 다중 수요 capture"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 124,
+      "cagr_pct": 9.5,
+      "horizon": "2024-2030 (NEM 시총)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 200,
+      "thesis": "Gold $5,500 + Cu $11,000/t = Newmont EBITDA $11B, FCF $6B. Multiple expansion PE 11x → 18x = 주가 +85% to $200",
+      "key_assumptions": [
+        "13F gurus 추가 매수",
+        "Newcrest synergy 100% 달성",
+        "Cadia Cu expansion"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 135,
+      "thesis": "Gold $4,800 sustained, EBITDA $8.5B, 자사주매입 + dividend $4B/년. PE 12x → 14x = $135",
+      "key_assumptions": [
+        "Capital return $1B buyback + $1.5B dividend",
+        "Production stable 6.9Moz"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 75,
+      "thesis": "Gold $3,800, AISC 인플레로 margin 압박. EBITDA $5B, multiple compression PE 11x → 9x = $75",
+      "key_assumptions": [
+        "지정학 de-escalation",
+        "신규 광산 cost overrun",
+        "Newcrest synergy 실패"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Newcrest synergy 100% target 달성 발표",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Newcrest synergy 100% target 달성 발표 (magnitude: high)"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Brucejack expansion 완공 → production +5%",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Brucejack expansion 완공 → production +5% (magnitude: medium)"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Q4 2026 실적 — 자사주매입 $1.5B 추가 발표 가능",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Q4 2026 실적 — 자사주매입 $1.5B 추가 발표 가능 (magnitude: high)"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "Cadia Cu byproduct expansion 발표 (copper exposure 증대)",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Cadia Cu byproduct expansion 발표 (copper exposure 증대) (magnitude: medium)"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Single Commodity: 매출 70% gold 의존",
+      "probability": "med",
+      "impact": "high",
+      "description": "매출 70% gold 의존",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "AISC Inflation: 광산 인건비 + 디젤 + 화학약품 인플레 (+15% yoy)",
+      "probability": "high",
+      "impact": "med",
+      "description": "광산 인건비 + 디젤 + 화학약품 인플레 (+15% yoy)",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "Newcrest Integration: Cultural integration + operational synergy 실현 lag",
+      "probability": "med",
+      "impact": "low",
+      "description": "Cultural integration + operational synergy 실현 lag",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    },
+    {
+      "name": "ESG: Yanacocha (페루) 환경 관련 분쟁 잔재",
+      "probability": "med",
+      "impact": "low",
+      "description": "Yanacocha (페루) 환경 관련 분쟁 잔재",
+      "mitigation": "단계적 진입 + DCA + cluster-level stop-loss + 분산 (Risk Manager 가이드 참조)"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "Newcrest 합병 synergy $500M target 100% 달성 가능",
+      "type": "predictive",
+      "evidence": "NEM 4Q 2025 80% 달성 (CFO 가이드)",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "AISC $1,400-1,600 + gold $4,600 = 마진 $3,000/oz (산업분석러 본문 직접 인용)",
+      "type": "factual",
+      "evidence": "NEM Q1 2026 release + 산업분석러 2026-05-18 blog post",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "자사주매입 $1B + dividend $1.5B/년 = capital return story",
+      "type": "factual",
+      "evidence": "NEM 2026 가이드 발표 (2026-04)",
+      "testability": "high",
+      "current_status": "confirmed"
+    }
+  ],
+  "us_disclosures": [
+    {
+      "date": "2026-04-28",
+      "type": "10-Q",
+      "summary": "Q1 2026 매출 $4.7B (+18% YoY), EBITDA $1.9B (margin 41%)"
+    },
+    {
+      "date": "2026-04-28",
+      "type": "8-K",
+      "summary": "Q1 dividend $0.25/share 발표 + 자사주매입 $250M 진행 중"
+    },
+    {
+      "date": "2026-02-15",
+      "type": "10-K",
+      "summary": "FY2025 production 6.85Moz Au, AISC $1,540/oz, FCF $2.9B"
+    }
+  ],
+  "korean_disclosures": []
+}

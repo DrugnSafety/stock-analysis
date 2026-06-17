@@ -1,0 +1,250 @@
+{
+  "industry": {
+    "name": "글로벌 LNG carrier 조선",
+    "overview": "글로벌 LNG carrier 시장은 한국 빅3 (HD현대중공업·삼성중공업·한화오션) oligopoly + 중국 Hudong-Zhonghua가 follower. LNG 신조선가 사상 최고 $260M (174K m³). backlog 3-5년. QatarEnergy 100척 mega deal 진행 중. 미국 LNG 수출 +30% 시 추가 100척 신조 수요.",
+    "competitors": [
+      {
+        "name": "Cheniere Energy",
+        "ticker": "LNG",
+        "share_pct": 25.0,
+        "moat": "Sabine Pass + Corpus Christi 통합 + 장기 SPA"
+      },
+      {
+        "name": "Venture Global",
+        "ticker": "VG",
+        "share_pct": 18.0,
+        "moat": "Modular LNG + Plaquemines + Calcasieu"
+      },
+      {
+        "name": "Sempra/Cameron",
+        "ticker": "SRE",
+        "share_pct": 14.0,
+        "moat": "Cameron LNG + Port Arthur 신축"
+      },
+      {
+        "name": "ExxonMobil/Golden Pass",
+        "ticker": "XOM",
+        "share_pct": 8.0,
+        "moat": "QatarEnergy 합작 + Permian 통합"
+      }
+    ],
+    "tam_2030_usd_bn": 80,
+    "growth_cagr_pct": 9.5
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 407314,
+      "thesis": "QatarEnergy 100척 + 미국 LNG carrier wave 동반 — 한국 빅3 backlog 5+y. 신조선가 +20%.",
+      "key_assumptions": [
+        "LNG carrier 100척 신규 발주",
+        "신조선가 +20%",
+        "FLNG 신시장"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 305486,
+      "thesis": "Capacity expansion thesis 점진적 실현 — 신조 발주 안정. backlog 유지.",
+      "key_assumptions": [
+        "LNG capacity +30% as planned",
+        "한국 빅3 share 70% 유지",
+        "선가 stable"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 220627,
+      "thesis": "지정학 회복 + 중국 yard share gain → 한국 발주 감소. 선가 cycle peak.",
+      "key_assumptions": [
+        "중국 share 30%+ 도달",
+        "신조선가 -15%",
+        "환율 강세 negative"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "Plaquemines LNG Phase 1 full commercial start (VG)",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "VG 매출 +30% 분기"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Corpus Christi Stage 3 첫 cargo (LNG)",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "Cheniere 추가 capacity"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Golden Pass LNG Phase 1 commissioning (XOM)",
+      "type": "operational",
+      "expected_impact": "+",
+      "description": "XOM LNG 매출 인식 시작"
+    },
+    {
+      "date": "2027-Q1",
+      "event": "Henry Hub winter price 데이터",
+      "type": "macro",
+      "expected_impact": "?",
+      "description": "수출 + 한파 시 가격 정상화 confirm"
+    },
+    {
+      "date": "2027-Q2",
+      "event": "QatarEnergy 신규 LNG carrier 발주 100척 — 한국 빅3 share 결정",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "한국 야드 backlog 갱신"
+    }
+  ],
+  "risks": [
+    {
+      "name": "지정학 fast-track 회복 — 호르무즈 + 카타르 복구 가속",
+      "probability": "low",
+      "impact": "high",
+      "description": "spot LNG -30~50% drawdown — single-name 30%+ derate",
+      "mitigation": "long-term SPA 비중 + diversified portfolio"
+    },
+    {
+      "name": "Trump 행정부 LNG export 제한 정책 변화",
+      "probability": "low",
+      "impact": "high",
+      "description": "Biden 시절 1년 pause 사례 — 정치 리스크",
+      "mitigation": "midstream + integrated 비중 ↑"
+    },
+    {
+      "name": "Permian takeaway capacity 추가 지연",
+      "probability": "med",
+      "impact": "med",
+      "description": "stranded gas 지속 — upstream margin pressure",
+      "mitigation": "midstream 종목 (WMB·KMI) 헤지"
+    },
+    {
+      "name": "LNG carrier 신조선가 cycle peak (2027-2028)",
+      "probability": "med",
+      "impact": "med",
+      "description": "한국 빅3 backlog burn 후 새 발주 cycle 둔화",
+      "mitigation": "valuation 보수적 entry"
+    },
+    {
+      "name": "Henry Hub 가격 너무 빠른 정상화 — Producer over-supply",
+      "probability": "low",
+      "impact": "med",
+      "description": "EQT/AR 등 over-production → 가격 하락 재현",
+      "mitigation": "discipline 유지 모니터"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-04-15",
+      "type": "단일판매·공급계약체결",
+      "title": "QatarEnergy LNG 운반선 4척 신조 계약 — 1.6조원 규모. 인도 2028 H2.",
+      "impact": "매출 +5-8% 기여 (인도 시점)"
+    },
+    {
+      "date": "2026-03-22",
+      "type": "주요사항보고",
+      "title": "한화 그룹 자본 출자 결의 — 미국 Philly Shipyard JV 투자 확대 (방산+LNG).",
+      "impact": "전략적 capacity 확장 — 중장기 +"
+    },
+    {
+      "date": "2026-02-10",
+      "type": "분기보고서",
+      "title": "2025 4분기 실적 — LNG선 수주잔고 32척 (역대 최고). 영업이익 1,520억원.",
+      "impact": "earnings beat/miss 모니터"
+    },
+    {
+      "date": "2026-01-15",
+      "type": "기타경영사항",
+      "title": "ME-GA 추진 LNG carrier 174K m³ 신형 모델 첫 인도 (Mitsui OSK).",
+      "impact": "기술 리더십 강화 — 신모델 경쟁력 +"
+    },
+    {
+      "date": "2025-12-08",
+      "type": "단일판매·공급계약체결",
+      "title": "MOL 시장 LNG 운반선 2척 — 4,800억원.",
+      "impact": "매출 +5-8% 기여 (인도 시점)"
+    }
+  ],
+  "thesis_decomposition_meta": {
+    "primary": "글로벌 LNG선 빅3 (구 대우조선해양). 한화 그룹 인수 후 capital allocation 정상화. 미국 navy + LNG 양대 축.",
+    "moat": "한국 야드 빅3 + 한화 그룹 자본력 + 미국 Philly Shipyard JV (방산 + LNG).",
+    "key_metrics_assumed": {
+      "price_target_low": 119618,
+      "price_target_base": 165625,
+      "price_target_high": 220833,
+      "current_assumed": 132500.0,
+      "ev_ebitda": 9.0,
+      "div_yield": 0.0
+    }
+  },
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "글로벌 LNG 공급 충격 — 호르무즈 봉쇄(전세계 -20%), 카타르 LNG 시설 피격(-17%, 5년 복구), 호주 사이클론(-30% Australia, -8% global)으로 EU TTF·아시아 가격 폭등",
+      "type": "macro",
+      "evidence": "메르 본문 — 카타르 2026-03-18 공격, 호주 2026-03-26 사이클론. 평년 대비 60%+ 가격 유지.",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "헨리허브 가격은 LNG 수출 capacity 한계로 국제시세 디커플링 — TTF 대비 $21 spread. 미국 LNG 수출 풀가동(2026-3월 1,170만톤 역대최고)에도 spread 지속",
+      "type": "industry",
+      "evidence": "메르 — 헨리허브 가격 1월 한파 피크 후 안정. 수출 capacity bottleneck 확인.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "2026 H2 ~ 2027 LNG terminal 신증설 본격 시작 — Plaquemines LNG(VG) 4월 capacity 증액 승인, Golden Pass LNG(XOM+QatarEnergy) 단계적 가동, Corpus Christi Stage 3(LNG) 하반기 추가 생산. 미국 LNG 수출 capacity +30% 예상",
+      "type": "industry",
+      "evidence": "메르 본문 — 3개 신증설 프로젝트 명시. 2026~2027 capacity +30%.",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "퍼미안 분지 stranded gas — 파이프라인 capacity 부족으로 2026 1-4월 86% 기간 마이너스 가격. 신축 LNG 터미널이 이 가스를 수출 — upstream takeaway 정상화",
+      "type": "industry",
+      "evidence": "메르 — 퍼미안 마이너스 86%. 신축 LNG가 takeaway 흡수.",
+      "testability": "medium",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "LNG 운반선 수요 폭발 — 미국 capacity +30%에 더해 2028년 이후도 LNG 수출시설 확충 계획 지속. 한국 빅3 (HD현대중공업·삼성중공업·한화오션) LNG선 신조 수주 직접 수혜",
+      "type": "industry",
+      "evidence": "메르 본문 — '28년 이후에도 LNG 수출시설 확충 계획... LNG 운반선도 많이 필요'",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "헨리허브 가격 정상화 시 미국 천연가스 producer (EQT 중심) operating leverage 발생 — Marcellus·Utica·Haynesville unconventional E&P 수혜",
+      "type": "company",
+      "evidence": "TTF $13-15 vs HH $3-4 spread 좁혀지면 HH $5-7 정상화 시나리오. EQT realized price +30-50%.",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "LNG 수출 확대는 미국 internal natgas 가격 상승 → 소비자 부담 증가 risk. 정치적 backlash (export 제한 검토) 가능성 — BUT 현재 Trump 행정부는 LNG export 적극 추진",
+      "type": "policy",
+      "evidence": "메르 — '미국 소비자들이 지불하는 천연가스 가격은 올라갈 수 있다'",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "지정학 회복 risk — 호르무즈 재개·카타르 시설 조기 복구 시 LNG spot 가격 -30~50% drawdown 가능. 단, 호주 30% 복구는 6-12개월 + 카타르 5년 — 구조적 supply tight 유지",
+      "type": "macro",
+      "evidence": "메르 — 카타르 5년 복구 발표. 호주 일부 복구.",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ]
+}

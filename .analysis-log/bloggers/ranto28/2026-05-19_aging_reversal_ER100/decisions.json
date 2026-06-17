@@ -1,0 +1,95 @@
+{
+  "decisions": [
+    {
+      "ticker": "RXRX",
+      "name": "Recursion Pharmaceuticals",
+      "action": "hold",
+      "signal_score": 0.097,
+      "target_quantity": 0,
+      "target_value": 0,
+      "position_limit_value": 52000,
+      "currency": "USD",
+      "primary_risks": [
+        "ER-100 1상 binary catalyst risk — 2026Q4 데이터 발표 시 ±50% 변동성 가능",
+        "thesis_alignment=very_high — 노출도에 따른 베타 차이",
+        "연간 변동성 75% — 단기 -30% drawdown 가능"
+      ],
+      "thesis_alignment": "very_high",
+      "bull_pct": 38.5,
+      "bear_pct": 53.8
+    },
+    {
+      "ticker": "BIOA",
+      "name": "BioAge Labs",
+      "action": "buy_small",
+      "signal_score": 0.249,
+      "target_quantity": 1588,
+      "target_value": 26000,
+      "position_limit_value": 52000,
+      "currency": "USD",
+      "primary_risks": [
+        "ER-100 1상 binary catalyst risk — 2026Q4 데이터 발표 시 ±50% 변동성 가능",
+        "thesis_alignment=very_high — 노출도에 따른 베타 차이",
+        "연간 변동성 79% — 단기 -30% drawdown 가능"
+      ],
+      "thesis_alignment": "very_high",
+      "bull_pct": 38.5,
+      "bear_pct": 30.8
+    },
+    {
+      "ticker": "NTLA",
+      "name": "Intellia Therapeutics",
+      "action": "buy_small",
+      "signal_score": 0.259,
+      "target_quantity": 837,
+      "target_value": 10000,
+      "position_limit_value": 20000,
+      "currency": "USD",
+      "primary_risks": [
+        "ER-100 1상 binary catalyst risk — 2026Q4 데이터 발표 시 ±50% 변동성 가능",
+        "thesis_alignment=high — 노출도에 따른 베타 차이",
+        "연간 변동성 99% — 단기 -30% drawdown 가능"
+      ],
+      "thesis_alignment": "high",
+      "bull_pct": 38.5,
+      "bear_pct": 15.4
+    },
+    {
+      "ticker": "207940.KS",
+      "name": "삼성바이오로직스",
+      "action": "buy",
+      "signal_score": 0.431,
+      "target_quantity": 124,
+      "target_value": 168000000,
+      "position_limit_value": 168000000,
+      "currency": "KRW",
+      "primary_risks": [
+        "ER-100 1상 binary catalyst risk — 2026Q4 데이터 발표 시 ±50% 변동성 가능",
+        "thesis_alignment=medium — 노출도에 따른 베타 차이",
+        "글로벌 macro risk (Fed·매크로 sentiment)"
+      ],
+      "thesis_alignment": "medium",
+      "bull_pct": 61.5,
+      "bear_pct": 0.0
+    },
+    {
+      "ticker": "038290.KQ",
+      "name": "마크로젠",
+      "action": "buy_small",
+      "signal_score": 0.274,
+      "target_quantity": 6000,
+      "target_value": 84000000,
+      "position_limit_value": 168000000,
+      "currency": "KRW",
+      "primary_risks": [
+        "ER-100 1상 binary catalyst risk — 2026Q4 데이터 발표 시 ±50% 변동성 가능",
+        "thesis_alignment=high — 노출도에 따른 베타 차이",
+        "글로벌 macro risk (Fed·매크로 sentiment)"
+      ],
+      "thesis_alignment": "high",
+      "bull_pct": 30.8,
+      "bear_pct": 0.0
+    }
+  ],
+  "logic": "signal = (bull% - bear%) * avg_conf + thesis_alignment_bonus"
+}

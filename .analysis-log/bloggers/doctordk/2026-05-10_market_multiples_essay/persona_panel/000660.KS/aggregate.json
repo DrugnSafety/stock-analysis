@@ -1,0 +1,458 @@
+{
+  "ticker": "000660.KS",
+  "name_kr": "SK하이닉스",
+  "name_en": "SK hynix Inc.",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bearish": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 23.1
+    },
+    "lean_bullish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "bullish": {
+      "count": 4,
+      "pct": 30.8
+    }
+  },
+  "consensus_summary": {
+    "bullish_pct": 38.5,
+    "bearish_pct": 38.5,
+    "neutral_pct": 23.1,
+    "average_confidence": 0.69
+  },
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "dominant": "lean_bearish",
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bearish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "growth": {
+      "n_members": 3,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ]
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "dominant": "bearish",
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "bearish",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "risk": {
+      "n_members": 1,
+      "dominant": "bearish",
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "bearish",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "activist": {
+      "n_members": 1,
+      "dominant": "neutral",
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "growth-em": {
+      "n_members": 1,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "macro": {
+      "n_members": 1,
+      "dominant": "bullish",
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.88
+        }
+      ]
+    },
+    "valuation": {
+      "n_members": 1,
+      "dominant": "neutral",
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ]
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "ticker": "000660.KS",
+      "persona_id": "warren-buffett",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "style": "value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "워런 버핏 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "+899% 1Y는 cyclical peak signal. fwd PE 5는 cycle peak earnings 기준이라 misleading. Cycle 이해 부족 → sideline."
+    },
+    "charlie-munger": {
+      "ticker": "000660.KS",
+      "persona_id": "charlie-munger",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "style": "value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "찰리 멍거 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Cyclical commodity 사업 + +27배 rerating은 framework 외부. 'I have nothing to add' style pass."
+    },
+    "peter-lynch": {
+      "ticker": "000660.KS",
+      "persona_id": "peter-lynch",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "style": "growth_at_reasonable_price",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "피터 린치 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "PEG 0.1 — cycle peak earnings 기준이라도 textbook bullish. HBM oligopoly 50%+ share의 structural thesis 강력."
+    },
+    "cathie-wood": {
+      "ticker": "000660.KS",
+      "persona_id": "cathie-wood",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "style": "disruption_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "캐시 우드 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "AI infra의 second-derivative 수혜. HBM은 AI accelerator 핵심 부품. Disruption-enabling allocation."
+    },
+    "michael-burry": {
+      "ticker": "000660.KS",
+      "persona_id": "michael-burry",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "style": "contrarian_deep_value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bearish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "마이클 버리 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "+899% 1Y는 cycle peak의 textbook signature. Memory cycle은 영원히 cycle. Mean reversion -50%+ 가능."
+    },
+    "nassim-taleb": {
+      "ticker": "000660.KS",
+      "persona_id": "nassim-taleb",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "style": "anti_fragile",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "나심 탈레브 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Volatility 65% + +899% 1Y = fragility maximum. Tail risk asymmetric to downside. Short or stay away."
+    },
+    "ben-graham": {
+      "ticker": "000660.KS",
+      "persona_id": "ben-graham",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "style": "deep_value",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bearish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "벤저민 그레이엄 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Cycle peak에서 매수는 Graham framework의 정반대. Speculation 영역. Defensive criteria fail."
+    },
+    "bill-ackman": {
+      "ticker": "000660.KS",
+      "persona_id": "bill-ackman",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "style": "concentrated_quality",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "빌 애크먼 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Cyclical은 framework 적합 안 함. Pass."
+    },
+    "mohnish-pabrai": {
+      "ticker": "000660.KS",
+      "persona_id": "mohnish-pabrai",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "style": "low_risk_high_reward",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "모니쉬 파브라이 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Reward/risk가 +30% / -50%로 asymmetric to downside. Dhandho framework fail."
+    },
+    "phil-fisher": {
+      "ticker": "000660.KS",
+      "persona_id": "phil-fisher",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "style": "scuttlebutt_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "필립 피셔 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "R&D excellence (HBM 1위) + management evolution. 다만 cycle timing concern."
+    },
+    "rakesh-jhunjhunwala": {
+      "ticker": "000660.KS",
+      "persona_id": "rakesh-jhunjhunwala",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "style": "emerging_market_growth",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "라케시 준준왈라 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "EM cyclical structural transition의 textbook. Indian battery·EV cycle analog. Multi-year compounder."
+    },
+    "stanley-druckenmiller": {
+      "ticker": "000660.KS",
+      "persona_id": "stanley-druckenmiller",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "style": "macro_tactical",
+      "evaluation_date": "2026-05-10",
+      "verdict": "bullish",
+      "confidence": 0.88,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "스탠리 드러켄밀러 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "AI capex super-cycle의 most levered Korean name. Macro tailwind 압도적. 첫 trim signal until Fed shift."
+    },
+    "aswath-damodaran": {
+      "ticker": "000660.KS",
+      "persona_id": "aswath-damodaran",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "style": "valuation_academic",
+      "evaluation_date": "2026-05-10",
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "+899% 1Y cyclical peak signal",
+        "Samsung HBM4 catch-up risk",
+        "DDR5 demand cooling 가능성"
+      ],
+      "key_opportunities_top3": [
+        "HBM 시장 50%+ share oligopoly",
+        "AI capex 직접 수혜 가장 levered",
+        "ROIC 45%+ 영업 leverage"
+      ],
+      "uncertainty": "애스워스 다모다란 framework이 본 종목 era regime에 적용되는 정도",
+      "narrative_vs_quant_resolution": "Cyclical valuation: cycle peak earnings 기준 fwd PE 5는 misleading. Normalized earnings 기준 fwd PE 15-18. Fair value."
+    }
+  },
+  "market_data_snapshot": {
+    "as_of_date": "2026-05-11",
+    "currency": "KRW",
+    "current_price": 1888500.0,
+    "fwd_pe": 5.11,
+    "market_cap_usd_bn": 1030.93,
+    "return_1y_pct": 899.21
+  }
+}

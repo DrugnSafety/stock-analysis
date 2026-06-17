@@ -1,0 +1,118 @@
+{
+  "blogger": "dhgusdnd44",
+  "topic": "전력 반도체 (Power Semiconductor) — 800V DC 데이터센터 희소성 이동",
+  "extraction_date": "2026-06-11",
+  "thesis_count": 10,
+  "theses": [
+    {
+      "id": "T1",
+      "claim_id": "T1",
+      "claim": "전력 반도체의 해자는 칩 성능 개선이 아니라 '데이터센터'라는 신규 고객이 30년간의 범용화 메커니즘(공간제약 해소·중국 저가공세·성능 불투명)을 동시에 제거했기 때문에 생겼다.",
+      "type": "causal",
+      "timeframe": "2026-2030",
+      "verifiable": true,
+      "supporting_data": "전력 반도체 30년간 마진 1~3% 범용제품. 전기차 다운사이클+중국 저가공세로 울프스피드 파산위기·나비타스 적자지속. 데이터센터 등장으로 (1)공간제약→밀도경쟁 (2)국가안보→중국배제 (3)성능표 공개→품질경쟁 전환.",
+      "key_assumption": "데이터센터 전력 밀도 수요가 구조적으로 지속된다",
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "claim_id": "T2",
+      "claim": "800V DC 전환의 변곡점은 2027년 하반기이며, 그 시점의 전압층별 승자가 전력 반도체 시장을 장악한다.",
+      "type": "predictive",
+      "timeframe": "2027-H2",
+      "verifiable": true,
+      "supporting_data": "중압교류→800V DC→48V→1V 4단계 전압변환. 각 층마다 병목 물성과 채택 전력반도체가 다름.",
+      "key_assumption": "하이퍼스케일러의 800V DC 로드맵이 일정대로 진행된다",
+      "importance": "supporting"
+    },
+    {
+      "id": "T3",
+      "claim_id": "T3",
+      "claim": "SiC vs GaN 우열 논쟁은 무의미하며, '어느 전압층에서'가 핵심이다. 1층(SST)은 고전압 SiC 독점, 2층(800V)은 GaN·SiC 경쟁, 3~4층(대전류)은 VRM/PMIC 영역이다.",
+      "type": "structural",
+      "timeframe": "2026-2030",
+      "verifiable": true,
+      "supporting_data": "GaN 상용한계 650V/450W. SiC는 수천볼트 감당. 1층 10kV는 SiC만, 2층 800V는 GaN 2직렬로 진입가능. 3~4층은 1000A급 대전류라 전력반도체 영역 아님.",
+      "key_assumption": "전압층별 물리적 채택 기준이 단기에 바뀌지 않는다",
+      "importance": "core"
+    },
+    {
+      "id": "T4",
+      "claim_id": "T4",
+      "claim": "1층 SST(고체변압기)용 10kV SiC는 울프스피드만 상용화했고, 800V DC를 가능케 한 게임체인저로 사실상 독점 위치다.",
+      "type": "factual",
+      "timeframe": "2026-2028",
+      "verifiable": true,
+      "supporting_data": "울프스피드 10kV SiC 운용전압 3000~6000V, 1000시간(41일) 연속작동 테스트 발표. 1층 SST 전용. 경쟁 부재.",
+      "key_assumption": "울프스피드의 성능 주장이 사실이고 검증을 통과한다",
+      "importance": "supporting"
+    },
+    {
+      "id": "T5",
+      "claim_id": "T5",
+      "claim": "그러나 울프스피드 10kV SiC는 온도 민감(100도서 저항 2배)·성능표 미공개(41일만 검증)·최근 파산위기라는 3대 리스크를 안고 있어, 패키징·냉각 설계 역량을 가진 기업이 오히려 해자를 쥘 수 있다.",
+      "type": "conditional",
+      "timeframe": "2026-2028",
+      "verifiable": true,
+      "supporting_data": "100도 저항 2배=전력손실 2배. 수냉식 설계 필수. 1000시간만 검증. 울프스피드 Chapter 11 후 최근 회생.",
+      "key_assumption": "고객이 칩에 맞춰 냉각·패키징 설계 부담을 진다",
+      "importance": "supporting"
+    },
+    {
+      "id": "T6",
+      "claim_id": "T6",
+      "claim": "GaN의 진짜 해자는 '안전하게 켜고 끄기'(낮은 문턱전압 1~2V 제어)이며, 음의전압·밀러클램프·단락보호를 칩 내부에 통합한 나비타스와 TI가 유일한 승자다.",
+      "type": "factual",
+      "timeframe": "2026-2029",
+      "verifiable": true,
+      "supporting_data": "GaN 문턱전압 1~2V(SiC 3~4V). 나비타스 GaN Safe(밀러클램프·단락보호 칩내부 통합). 인피니언은 별도 드라이버칩 방식이라 기판상 오차 잔존.",
+      "key_assumption": "안전·통합이 데이터센터 채택의 결정 요인이다",
+      "importance": "core"
+    },
+    {
+      "id": "T7",
+      "claim_id": "T7",
+      "claim": "GaN 공급망 우위는 자체생산 인피니언과 서방 파운드리(TSMC·글로벌파운드리) 다변화한 나비타스에 있고, 중국 이노사이언스 웨이퍼에 의존하는 온세미·STM은 인피니언 ITC 특허소송으로 수입금지 구조 리스크를 안는다.",
+      "type": "causal",
+      "timeframe": "2026-2028",
+      "verifiable": true,
+      "supporting_data": "나비타스=팹리스(TSMC+미국 글로벌파운드리, 칩스법 보조금). 온세미·STM=중국 이노사이언스 웨이퍼. 인피니언 ITC 특허소송→수입가처분 시 웨이퍼 교체에 1~1.5년 소요(사실상 퇴출).",
+      "key_assumption": "미중 갈등·ITC 제재가 지속·강화된다",
+      "importance": "core"
+    },
+    {
+      "id": "T8",
+      "claim_id": "T8",
+      "claim": "GaN 종합 1위는 나비타스다(안전+공급망 양쪽 우위). 블로거가 '당장 하나 고르라면 나비타스' + '주가도 많이 내려옴'으로 명시.",
+      "type": "normative",
+      "timeframe": "2026-2028",
+      "verifiable": true,
+      "supporting_data": "안전(나비타스·TI)∩공급망(인피니언·나비타스)=나비타스. 다만 밸류에이션 검토 필요 명시. 매수매도 추천 아님 면책.",
+      "key_assumption": "나비타스 GaN 기술·공급망 우위가 매출로 전환된다",
+      "importance": "core"
+    },
+    {
+      "id": "T9",
+      "claim_id": "T9",
+      "claim": "가장 강력한 해자는 GaN 에피택시(MOCVD) 장비를 독점하는 엑시트론으로, 인피니언·나비타스도 증설하려면 엑시트론 장비가 필수인 '전력 반도체계의 ASML'이다.",
+      "type": "factual",
+      "timeframe": "2026-2030",
+      "verifiable": true,
+      "supporting_data": "GaN=실리콘 위 질화갈륨 원자단위 증착. 격자불일치 해소 위해 정밀 에피택시 필수→엑시트론 MOCVD 독점. 모든 GaN 증설의 상류 병목.",
+      "key_assumption": "엑시트론 MOCVD 독점이 경쟁장비 진입으로 깨지지 않는다",
+      "importance": "core"
+    },
+    {
+      "id": "T10",
+      "claim_id": "T10",
+      "claim": "3~4층(48V→1V 대전류)은 전력반도체가 아닌 VRM·PMIC 설계 기업의 영역이며, 바이코 같은 소수 설계기업이 막대한 마진을 챙긴다.",
+      "type": "structural",
+      "timeframe": "2026-2030",
+      "verifiable": true,
+      "supporting_data": "전압↓→전류↑(전력=전압×전류). 3~4층 1000A급 대전류. VRM/PMIC 설계 역량+특수 인덕터/커패시터가 핵심. 바이코가 대표 고마진 기업.",
+      "key_assumption": "AI GPU 전류 밀도 증가가 PMIC 설계 난도·마진을 유지시킨다",
+      "importance": "supporting"
+    }
+  ]
+}

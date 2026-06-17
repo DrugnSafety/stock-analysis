@@ -1,0 +1,195 @@
+{
+  "industry": {
+    "name": "메모리·스토리지 반도체 (DRAM/HBM/NAND/HDD)",
+    "overview": "1Q26 메모리·스토리지 5사 비교 분석 (농구천재 thesis). 펀더멘털 vs 시총 갭 명확 — (1) 하이닉스 영업이익 마이크론 +10bil but 시총 비슷 (코리아 디스카운트), (2) 샌디스크 GP Seagate 3배 but 시총 같이 상승 (HDD 과점 프리미엄), (3) 키옥시아 매출 샌디스크 +20-30% but 시총 절반 (베인 오버행 + 일본 디스카운트). 메모리 cycle 2024 trough → 2026 mid-cycle peak 진행. AI driven demand가 사이클 길이 연장 가능.",
+    "competitors": [
+      {
+        "name": "SK하이닉스",
+        "ticker": "000660.KS",
+        "share_pct": 32.0,
+        "moat": "HBM3E NVDA 단독 80%+ + DDR5"
+      },
+      {
+        "name": "삼성전자",
+        "ticker": "005930.KS",
+        "share_pct": 40.0,
+        "moat": "DRAM 글로벌 1위 + 종합"
+      },
+      {
+        "name": "Micron",
+        "ticker": "MU",
+        "share_pct": 22.0,
+        "moat": "미국 메모리 + HBM3E 진입"
+      },
+      {
+        "name": "키옥시아",
+        "ticker": "285A.T",
+        "share_pct": 22.0,
+        "moat": "NAND JV 일본 fab 6:4"
+      },
+      {
+        "name": "Sandisk",
+        "ticker": "SNDK",
+        "share_pct": 15.0,
+        "moat": "NAND JV 미국 access"
+      },
+      {
+        "name": "Seagate",
+        "ticker": "STX",
+        "share_pct": 45.0,
+        "moat": "HDD 과점 (Mozaic)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-02",
+        "title": "농구천재 — 1Q26 메모리·스토리지 5사 비교 분석 발행",
+        "source": "농구천재 블로그 (tosoha1)",
+        "summary": "펀더멘털 vs 시총 갭 + 디스카운트 분석"
+      },
+      {
+        "date": "2026-04-25",
+        "title": "SK하이닉스 1Q26 영업이익 +180% YoY",
+        "source": "SK하이닉스 IR",
+        "summary": "HBM3E NVDA 단독 공급 효과"
+      },
+      {
+        "date": "2026-04-22",
+        "title": "Micron 1Q26 매출 surprise +25%",
+        "source": "Micron IR",
+        "summary": "HBM3E qualification 진행"
+      },
+      {
+        "date": "2026-04-18",
+        "title": "Sandisk 1Q26 GP $580M (+135% YoY)",
+        "source": "Sandisk IR",
+        "summary": "NAND AI 수혜 강함"
+      },
+      {
+        "date": "2026-04-15",
+        "title": "정부 밸류업 프로그램 2단계 발표 — 코리아 디스카운트 normalization 가속",
+        "source": "금융위원회",
+        "summary": "외국인 매수 +25조 (2025)"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 180,
+      "cagr_pct": 18.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 180,
+      "thesis": "메모리 cycle 연장 + 디스카운트 normalization",
+      "key_assumptions": [
+        "AI demand sustained",
+        "PE +30%",
+        "시총 mispricing resolution"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 150,
+      "thesis": "안정 성장 — cycle mid-cycle 안정",
+      "key_assumptions": [
+        "AI demand 지속",
+        "PE 안정"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 100,
+      "thesis": "cycle peak 진입 + AI capex 둔화",
+      "key_assumptions": [
+        "DDR5/NAND -20%",
+        "PE -25% derate"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q3",
+      "event": "키옥시아 Bain Capital lockup 종료",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "추가 매도 압력 -10-15% 가능"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "삼성전자 HBM3E NVDA qualification 결과",
+      "type": "product",
+      "expected_impact": "?",
+      "description": "share gain 시 SK하이닉스 위협"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "Hyperscaler 2027 capex 가이던스",
+      "type": "macro",
+      "expected_impact": "?",
+      "description": "메모리 cycle 지속 여부 결정"
+    }
+  ],
+  "risks": [
+    {
+      "name": "메모리 cycle peak 진입",
+      "probability": "med",
+      "impact": "high",
+      "description": "DDR5 +85% 후 mean reversion 가능. PE 8-22x cycle peak EPS 함정",
+      "mitigation": "분할 매수 + 분기 spot 가격 추적"
+    },
+    {
+      "name": "코리아·일본 디스카운트 sustained",
+      "probability": "med",
+      "impact": "med",
+      "description": "거버넌스·지정학 issue로 normalization 지연",
+      "mitigation": "정부 정책 + 외국인 매수 모니터"
+    },
+    {
+      "name": "Bain Capital 키옥시아 매도 (overhang)",
+      "probability": "high",
+      "impact": "high",
+      "description": "lockup 종료 시 -15-25% 가능",
+      "mitigation": "키옥시아 position size 한도 strict"
+    },
+    {
+      "name": "HBM3E 진입 단계 — NVDA share 5-10% (vs SK하이닉스 80%+)",
+      "probability": "med",
+      "impact": "med",
+      "description": "Micron thesis alignment: high (HBM3E 진입 + 미국 메모리 anchor)",
+      "mitigation": "Risk Manager 한도 strict + 분기 점검"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "펀더멘털 vs 시총 갭 (코리아 디스카운트)",
+      "type": "company",
+      "evidence": "SK하이닉스 영업이익 +10bil but 시총 마이크론 비슷",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "NAND vs HDD 사이클 차이 (AI 수혜)",
+      "type": "industry",
+      "evidence": "Sandisk GP Seagate 3배",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "일본 디스카운트 + Bain 오버행 (키옥시아)",
+      "type": "company",
+      "evidence": "키옥시아 매출 +22% but 시총 절반",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "메모리 cycle mid-late 진입",
+      "type": "macro",
+      "evidence": "DDR5 +85% YoY",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": []
+}

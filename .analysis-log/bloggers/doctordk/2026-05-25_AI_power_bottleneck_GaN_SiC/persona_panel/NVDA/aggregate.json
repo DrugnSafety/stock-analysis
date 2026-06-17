@@ -1,0 +1,208 @@
+{
+  "ticker": "NVDA",
+  "ticker_name": "NVIDIA (엔비디아)",
+  "ticker_name_en": "NVIDIA",
+  "sector": "AI compute leader, 800V DC architecture driver",
+  "aggregated_at": "2026-05-26T09:59:36.282587+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 38.5
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 7.7
+    }
+  },
+  "dominant_verdict": "bullish",
+  "average_confidence": 0.678,
+  "style_split": {
+    "value": {
+      "n_members": 6,
+      "members": [
+        {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "persona_id": "warren-buffett"
+        },
+        {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "persona_id": "charlie-munger"
+        },
+        {
+          "verdict": "neutral",
+          "confidence": 0.5,
+          "persona_id": "ben-graham"
+        },
+        {
+          "verdict": "bullish",
+          "confidence": 0.78,
+          "persona_id": "bill-ackman"
+        },
+        {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "persona_id": "mohnish-pabrai"
+        },
+        {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "persona_id": "aswath-damodaran"
+        }
+      ]
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "verdict": "lean_bullish",
+          "confidence": 0.65,
+          "persona_id": "peter-lynch"
+        },
+        {
+          "verdict": "bullish",
+          "confidence": 0.8,
+          "persona_id": "phil-fisher"
+        },
+        {
+          "verdict": "bullish",
+          "confidence": 0.78,
+          "persona_id": "cathie-wood"
+        }
+      ]
+    },
+    "contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "verdict": "lean_bearish",
+          "confidence": 0.6,
+          "persona_id": "michael-burry"
+        }
+      ]
+    },
+    "macro": {
+      "n_members": 3,
+      "members": [
+        {
+          "verdict": "neutral",
+          "confidence": 0.5,
+          "persona_id": "nassim-taleb"
+        },
+        {
+          "verdict": "bullish",
+          "confidence": 0.78,
+          "persona_id": "rakesh-jhunjhunwala"
+        },
+        {
+          "verdict": "bullish",
+          "confidence": 0.85,
+          "persona_id": "stanley-druckenmiller"
+        }
+      ]
+    }
+  },
+  "thesis_lens_summary": {
+    "T01": {
+      "theme": "AI 진짜 병목은 연산이 아닌 전력 — 다음 멀티플은 전력 인프라"
+    },
+    "T02": {
+      "theme": "NVIDIA 800V DC 아키텍처 전환 → GaN·SiC 구조적 수요 급증"
+    },
+    "T03": {
+      "theme": "Navitas GaN+SiC pure-play + NVIDIA 공동개발 + 98% 효율 8.5kW"
+    },
+    "T04": {
+      "theme": "AOSL dual end-market (AI + EV) 매출 다각화·하방 방어 우위"
+    },
+    "T05": {
+      "theme": "POWI 전력 변환 IP — quality compounder, 멀티플 점진 재평가"
+    },
+    "T06": {
+      "theme": "데이터센터 OPEX 전기료 비중 → 효율 IP utility-grade enabler 재평가"
+    },
+    "T07": {
+      "theme": "EV → AI dual-cycle — 자동차 노하우의 AI 서버 second wind"
+    },
+    "T08": {
+      "theme": "1-step ahead — 메인스트림 진입 직전 information edge"
+    }
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term"
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term"
+    },
+    "bill-ackman": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.85,
+      "horizon": "long_term"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term"
+    },
+    "phil-fisher": {
+      "verdict": "bullish",
+      "confidence": 0.8,
+      "horizon": "long_term"
+    }
+  }
+}

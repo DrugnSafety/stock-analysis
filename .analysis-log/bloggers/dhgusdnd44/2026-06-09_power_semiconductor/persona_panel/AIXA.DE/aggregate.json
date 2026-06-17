@@ -1,0 +1,463 @@
+{
+  "ticker": "AIXA.DE",
+  "aggregated_at": "2026-06-12T03:33:07.600935+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 10,
+      "pct": 58.8
+    },
+    "neutral": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "lean_bearish": {
+      "count": 4,
+      "pct": 23.5
+    }
+  },
+  "average_confidence": 0.659,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bearish",
+          "confidence": -0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 5,
+      "personas": [
+        "phil-fisher",
+        "mohnish-pabrai",
+        "stanley-druckenmiller",
+        "jim-simons",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "높은 변동성",
+        "금리 인상에 따른 시장 변동성",
+        "높은 연간 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "시장의 단기적 과열 우려"
+      ],
+      "key_opportunities_top3": [
+        "GaN MOCVD 장비의 독점적 위치",
+        "데이터센터 및 전기차 산업의 성장"
+      ],
+      "uncertainty": "R&D 투자 대비 성과가 기대에 미치지 못할 경우, 또는 전력 반도체 시장의 경쟁 심화로 인해 시장 장악력이 약화될 경우 verdict가 뒤집힐 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 forward 및 trailing PE 비율",
+        "과거 실적에 비해 매우 높은 주가 상승률"
+      ],
+      "key_opportunities_top3": [
+        "전력 반도체 시장의 성장 가능성",
+        "GaN 및 SiC 재료의 기술적 우위"
+      ],
+      "uncertainty": "전력 반도체 산업의 성장세가 지속되지 않으면 판단이 바뀔 수 있음",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "장비 기술 채택 속도의 지연",
+        "경쟁사의 기술적 진보"
+      ],
+      "key_opportunities_top3": [
+        "전력 반도체 혁신 수요 증가",
+        "신소재 채택 확산"
+      ],
+      "uncertainty": "GaN 및 SiC 소자의 채택이 확산되지 않으면 회사의 성장이 제한될 수 있습니다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진 보상 구조에 대한 불확실성",
+        "신소재 도입 속도의 견고함"
+      ],
+      "key_opportunities_top3": [
+        "독점적 위치에 의한 경쟁 최소화",
+        "GaN 신소재의 병목 해소"
+      ],
+      "uncertainty": "경쟁사의 혁신적 진보가 AIXTRON의 독점적 지위를 위협할 경우",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "비즈니스의 기술적 복잡성",
+        "현재 주가의 높은 밸류에이션"
+      ],
+      "key_opportunities_top3": [
+        "차세대 전력 반도체 시장의 성장 가능성"
+      ],
+      "uncertainty": "향후 기술 발전과 시장 수요 변화에 대한 불확실성이 예정된 판결을 바꿀 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "PE ratio 높음",
+        "EV/EBITDA 비율 높음"
+      ],
+      "key_opportunities_top3": [
+        "독점적 기술 보유",
+        "전력 반도체 산업의 핵심 병목"
+      ],
+      "uncertainty": "전력 반도체 시장의 성장이 둔화되거나 새로운 경쟁자가 출현하면, verdict가 변할 수 있음.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "금리 인상에 따른 시장 변동성",
+        "중국 저가 부품 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 및 전력 반도체 수요 증가",
+        "GaN 및 SiC 기반 신소재 전력반도체의 시장 주도"
+      ],
+      "uncertainty": "전력 반도체의 기술적 혁신이 둔화되면 verdict가 부정적으로 변할 수 있음.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA와 forward PE multiple",
+        "단기적 Catalyst 부족"
+      ],
+      "key_opportunities_top3": [
+        "GaN 기술의 잠재적 독점적 위치"
+      ],
+      "uncertainty": "시장의 성장 전망이 상향 조정될 경우 높은 Valuation 정당화",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 연간 변동성",
+        "샤프 지수 부재 - 리스크 조정 계획이 불명확함"
+      ],
+      "key_opportunities_top3": [
+        "모멘텀 신호 유지",
+        "시장 유사 움직임으로 인한 안정화 가능성"
+      ],
+      "uncertainty": "샤프 지수와 현재 변동성 정황이 개선되면 긴을 리스크 장치 임팩트는 줄어들 수 있습니다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 밸류에이션이 향후 실적과 성장이 기대에 미치지 못할 경우 가격 조정 위험",
+        "시장의 경쟁 심화로 인한 기술 장벽 약화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "GaN 기술 분야의 성장과 데이터센터 및 전력 반도체 산업의 확대",
+        "독점적 지위로 인한 가격 결정력 강화"
+      ],
+      "uncertainty": "GaN의 시장 확대 속도가 기대에 미치지 못하거나, 경쟁사가 유사한 기술적 진전을 보일 경우 본 투자 논리가 위협받을 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "전세계 경제 둔화 가능성",
+        "전력 반도체 기술 고도화 경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 확장에 따른 전력 반도체 수요 증가",
+        "고효율 반도체로 인한 시장 점유 기회"
+      ],
+      "uncertainty": "전력 반도체 시장 경쟁 심화로 AIXTRON의 기술적 우위 상실 시",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "기술 변화 시 독점 위치 상실",
+        "규제 변경"
+      ],
+      "key_opportunities_top3": [
+        "전력 반도체 시장 성장",
+        "MOCVD 기술의 독점적 지위"
+      ],
+      "uncertainty": "MOCVD 기술에 대한 경쟁 강화 시 판도가 바뀔 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "high forward_pe",
+        "recent exponential stock price increase"
+      ],
+      "key_opportunities_top3": [
+        "growing demand for power semiconductors",
+        "unique market position of AIXTRON as a tech leader"
+      ],
+      "uncertainty": "narrative 붕괴가 시작되거나 경제 환경이 악화될 경우 해당 스톡의 평가가 하락할 가능성 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고PER와 PBR로 인해 밸류에이션 부담 우려",
+        "안정적 수익성 부족"
+      ],
+      "key_opportunities_top3": [
+        "상류 시장에서의 전략적 위치",
+        "미래 수요 증가에 따른 성장 잠재력"
+      ],
+      "uncertainty": "시장 주도적 위치가 실제 재무 안정성과 연결되지 않는다면, 현재의 비싼 밸류에이션은 지속될 수 없음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "미래 성장에 대한 정확성"
+      ],
+      "key_opportunities_top3": [
+        "전력 반도체 수요 증가",
+        "시장 내 독점적 지위"
+      ],
+      "uncertainty": "전력 반도체 시장의 성장이 멈추거나 경쟁이 심화되면 AIXTRON SE의 긍정적 평가가 바뀔 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "제품 집중으로 인한 단일 실패의 리스크"
+      ],
+      "key_opportunities_top3": [
+        "전력반도체 주요 병목을 해결할 수 있는 기술적 위치",
+        "GaN 및 SiC의 증가하는 수요와 시장 확장"
+      ],
+      "uncertainty": "반도체 시장의 기술적 발전이 예상과 다르게 진행된다면 투자 평가는 바뀔 수 있습니다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bearish",
+      "confidence": -0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고평가된 value metrics",
+        "낮은 수익성 단서"
+      ],
+      "key_opportunities_top3": [
+        "강력한 모멘텀",
+        "전력 반도체 산업의 장기적 성장 가능성"
+      ],
+      "uncertainty": "전력 반도체 수요 증가가 예상보다 빠르게 개선될 경우, 긍정적으로 전환 가능.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    }
+  }
+}

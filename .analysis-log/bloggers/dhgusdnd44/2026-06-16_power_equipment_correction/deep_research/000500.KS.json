@@ -1,0 +1,180 @@
+{
+  "ticker": "000500.KS",
+  "company_kr": "가온전선",
+  "company_en": "Gaon Cable",
+  "exchange": "KRX (KOSPI)",
+  "industry": {
+    "name": "전선 (산업용·가공선·재도체화)",
+    "name_kr": "전력 케이블 / 패시브 수급",
+    "overview": "6개사 수주잔고 집계에 포함되는 전선업체. 글에서 '수급 조정의 대표 증거'로 인용 — 유동비율 18.29%·주요 ETF 익스포저 4,751억(유동시총 9,743억의 48.8%). 패시브 자금이 유통주식 절반을 보유, 전력기기 ETF 환매가 펀더멘털 무관 급락·재환매 악순환 유발. 연결 OPM은 3.1%로 변압기 대비 본질적으로 낮은 전선업 마진 구조.",
+    "competitors": [
+      {
+        "name": "LS전선(비상장/LS)",
+        "ticker": "006260.KS",
+        "moat": "국내 1위 전선·해저케이블"
+      },
+      {
+        "name": "대한전선",
+        "ticker": "001440.KS",
+        "moat": "초고압 케이블"
+      },
+      {
+        "name": "일진전기",
+        "ticker": "103590.KS",
+        "moat": "전선·중전기"
+      }
+    ],
+    "market_size": {
+      "horizon": "북미 전력기기 — 빅테크 4사 2026 capex 합산 $7,250억, AEP 5년 capex $720→780억(2030 +63GW). 변압기 5개사 수주잔고 34.5조(6개사 38.3조)"
+    },
+    "news": []
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 420000,
+      "thesis": "전력망 capex·재도체화 수요로 케이블 물량 증가 + 패시브 환매 정상화",
+      "key_assumptions": [
+        "전선 수요 견조",
+        "ETF 자금 재유입",
+        "마진 소폭 개선"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 330000,
+      "thesis": "물량 성장하나 낮은 마진 구조·수급 변동성 지속",
+      "key_assumptions": [
+        "전선 마진 박스권",
+        "패시브 변동성 잔존"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 210000,
+      "thesis": "추가 ETF 환매·구리 원가 부담으로 변동성 확대",
+      "key_assumptions": [
+        "패시브 재환매 악순환",
+        "구리 원가 전가 실패"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "전력기기 ETF 자금 흐름 정상화",
+      "type": "flow",
+      "expected_impact": "○",
+      "description": "환매 악순환 진정 여부가 주가 핵심변수"
+    },
+    {
+      "date": "2026",
+      "event": "전력망 케이블 수주",
+      "type": "order",
+      "expected_impact": "+",
+      "description": "재도체화·송배전 물량"
+    },
+    {
+      "date": "2026",
+      "event": "구리 원가·판가 전가",
+      "type": "macro",
+      "expected_impact": "○",
+      "description": "전선업 마진 직결"
+    }
+  ],
+  "risks": [
+    {
+      "name": "패시브 환매 악순환",
+      "probability": "high",
+      "impact": "high",
+      "description": "유동시총 48.8% ETF 익스포저·유동비율 18.3%. 펀더멘털 무관 변동성",
+      "mitigation": "유동성 개선·IR"
+    },
+    {
+      "name": "낮은 마진 구조",
+      "probability": "high",
+      "impact": "med",
+      "description": "OPM 3% — 변압기 대비 질적 열위",
+      "mitigation": "고부가 제품"
+    },
+    {
+      "name": "구리 원가 부담",
+      "probability": "med",
+      "impact": "med",
+      "description": "전선=구리 직접 원가. 판가 전가 지연시 마진 압박",
+      "mitigation": "가격 연동 계약"
+    }
+  ],
+  "as_of_date": "2026-06-16",
+  "financials": {
+    "currency": "KRW",
+    "unit": "억원",
+    "data_source": "yfinance 1.4.1 annual income statement (live) — 매출·영업이익·순이익. OPM/NPM 계산값. 연결 기준.",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 14165,
+        "op_income": 285,
+        "net_income": 105,
+        "opm": 2.0,
+        "npm": 0.7
+      },
+      {
+        "year": 2023,
+        "revenue": 14986,
+        "op_income": 437,
+        "net_income": 179,
+        "opm": 2.9,
+        "npm": 1.2
+      },
+      {
+        "year": 2024,
+        "revenue": 17271,
+        "op_income": 452,
+        "net_income": 254,
+        "opm": 2.6,
+        "npm": 1.5
+      },
+      {
+        "year": 2025,
+        "revenue": 25457,
+        "op_income": 792,
+        "net_income": 514,
+        "opm": 3.1,
+        "npm": 2.0
+      }
+    ],
+    "market_snapshot": {
+      "ticker": "000500.KS",
+      "name": "GAON CABLE Co., Ltd.",
+      "current_price": 341000.0,
+      "currency": "KRW",
+      "forward_pe": null,
+      "trailing_pe": null,
+      "beta": 2.4,
+      "return_1m_pct": -10.26,
+      "return_3m_pct": 210.85,
+      "return_6m_pct": 316.19,
+      "return_1y_pct": 425.85,
+      "volatility_annualized_pct": 103.85,
+      "market_cap_local_bn": 5641.2,
+      "market_cap_usd_bn": 4.34,
+      "ev_ebitda": 44.06,
+      "div_yield_pct": 0.04,
+      "pb": null,
+      "fetched_at": "2026-06-17T03:02:21",
+      "fetched_via": "yfinance 1.4.1 (live)",
+      "as_of_date": "2026-06-17"
+    }
+  },
+  "korean_disclosures": [],
+  "research_meta": {
+    "generated": "2026-06-16",
+    "sources": [
+      "dhgusdnd44 블로그 '최근 전력기기 섹터 조정에 대해' (2026-06-16)",
+      "유안타증권 '전력기기, 조정은 끝이 아니라 기회'",
+      "yfinance (재무·시세 live)",
+      "theguru.co.kr 효성중공업 멤피스 증설 (2026)"
+    ]
+  }
+}

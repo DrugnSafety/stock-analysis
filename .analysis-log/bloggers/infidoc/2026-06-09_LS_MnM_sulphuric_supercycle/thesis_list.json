@@ -1,0 +1,84 @@
+{
+  "summary_one_liner": "황산 supply shock (호르무즈·중국·러시아·터키 4중 충격) — 구리 SX-EW가 가격 결정자, LS MnM(192.5만톤 일반 H2SO4 + 18만톤 반도체용 PSA) integrated smelter는 buyer 아닌 seller로 수혜. 1Q26 OP 1,896억 원이 2026 base 후보.",
+  "blog_meta": {
+    "title": "황산 공급 충격과 LS MnM",
+    "blogger": "infidoc",
+    "blogger_kr": "인피의",
+    "url": "https://blog.naver.com/infidoc/224310584409",
+    "published_date": "2026-06-09"
+  },
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "Kpler는 2026년 글로벌 황·황산 시장을 '한 세대 만의 가장 심각한 공급 차질'로 평가했다. 호르무즈 봉쇄(2026-02-28 이후) + 중국 황산 수출 전면 중단(2026-04-10) + 러시아·터키 수출 제한 + 황의 부산물 특성(공급곡선 가격 비탄력) 4방향 동시 충격이다. Gulf 지역에 60만 톤+ 황 stranded, 글로벌 황 수출 2월 말 대비 45% 감소.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "Kpler 'Sulphur Crisis 2026: Supply Shock & New Trade Routes' (2026-04~05). 중국 2025년 약 460만 톤 황산 수출 = 세계 최대 공급자. 4월 첫 피크 60만 톤 stranded · 글로벌 황 수출 45% 감소.",
+      "key_assumption": "호르무즈 봉쇄가 단기 해소되지 않고 중국 수출 ban이 8월까지 complete cessation으로 유지됨."
+    },
+    {
+      "claim_id": "T02",
+      "claim": "황산 가격 결정권자는 비료(Mosaic 등)나 HPAL 니켈(Huayou 등)이 아닌 구리 SX-EW 생산자다. 비료는 마진이 얇아 임계점에서 감산(Mosaic 미국 phosphate 200만 톤 감산). HPAL은 산 cost share가 35~50%(노출 큰 설비는 70% 근접)로 부분 가동 불가(Huayou 인도네시아 HPAL 50% 감산). 반대로 구리 SX-EW는 산 cost share 12~18%로 높은 가격 흡수 가능 → 칠레 leaching refined Cu 110만 톤이 산 공급 리스크 노출.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "Kpler 'Metals vs Fertilizers: Who Pays More for Sulphur?' 중국 칠레향 황산 수출 2026-03 = 0톤. 중국산 황산은 칠레 구리 leaching 산 공급의 20% / 전체 황산 수입의 37% 차지.",
+      "key_assumption": "구리 가격이 현재 수준(LME ~$10,000/t) 유지 시 SX-EW가 산 spot 가격 흡수 가능."
+    },
+    {
+      "claim_id": "T03",
+      "claim": "LS MnM은 동제련 부산물 기반 integrated smelter로 황산 buyer가 아닌 seller다. 외부 조달 SX-EW Cu 업체는 원가 압박을 받지만, LS MnM은 연 192.5만 톤 일반 황산 생산능력으로 가격 상승의 100% 수혜 측이다. LS는 구리·황산·PSA·전선·권선·전력기기로 이어지는 수직계열화 구조다.",
+      "type": "factual",
+      "importance": "core",
+      "timeframe": "present",
+      "supporting_evidence": "LS MnM 일반 황산 capacity 192.5만 톤/yr, PSA 18만 톤/yr. 동제련 과정 SO₂ 회수 → 황산 자체 생산. Aurubis 동제련도 동일 모델 (H2SO4 분기 reset 가격 적용).",
+      "key_assumption": "동제련 가동률 80%+ 유지 시 황산 본격 생산 (Cu 제련 가동률이 H2SO4 공급 능력 결정)."
+    },
+    {
+      "claim_id": "T04",
+      "claim": "LS MnM 일반 황산 ASP가 톤당 $100 상승 시 분기 매출 약 700억 원, 연환산 2,800억 원 증분 발생. $150/t 상승 시 연 4,160억 원, $250/t 상승 시 연 6,920억 원. 분기 45만 톤 × 환율 1,500원 적용. 미국 Gulf CFR 황산 가격은 2026-02-28 $155 → 2026-05-06 $400으로 158% 상승, 동북아 가격도 $260대까지 도달.",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "near_term",
+      "supporting_evidence": "S&P Global Platts 2026-05-06: 미 Gulf CFR $400/t. 한국 HS 2807 황산 4월 수출단가 $117/t (실현가는 spot 후행). LS MnM 연 capa 192.5만 톤 - PSA 18만 톤 = 일반 황산 170~180만 톤.",
+      "key_assumption": "Aurubis 모델 차용 — LS MnM 황산 판매 ~85%가 연간계약·분기·반기 reset, 2Q부터 가격 순차 반영, 3Q+ 계약 재조정 효과 본격화."
+    },
+    {
+      "claim_id": "T05",
+      "claim": "LS MnM PSA(반도체 wet cleaning용 electronic-grade 고순도 황산) 18만 톤/yr는 단순 부산물이 아니라 별도 반도체 소재 사업이다. 일반 황산 대비 G5급 프리미엄을 2024년 10.5배(중국 데이터)를 2026 base에 적용 시 약 $2,700/t. 선단급 marginal contract는 $4,000/t+. ASP $2,500/t으로만 잡아도 연매출 6,930억 원, $3,000/t이면 8,320억 원, $4,000/t이면 1.11조 원.",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "medium_term",
+      "supporting_evidence": "고객: 삼성전자·SK하이닉스·TSMC 장기계약. 2024-05 중국 G2 1,000위안/t · G5 3,500위안/t. 2026-05 중국 98% H2SO4 1,835위안/t. ppt급 금속 불순물 관리·전용 탱크/배관 프리미엄.",
+      "key_assumption": "블렌디드 ASP 가정(LTA 70% $1,800/t + 선단 30% $4,000/t = $2,460/t) — 평균 ASP가 $1,500/t 이상이면 'PSA = 반도체 소재 사업' thesis 성립."
+    },
+    {
+      "claim_id": "T06",
+      "claim": "LS MnM 1분기 영업이익 1,896억 원은 일회성 peak가 아니라 2026 연간 base다. 금·은 귀금속 가격이 일부 조정되더라도 황산 ASP 상승이 2Q부터 반영되면 2~4Q 합산이 1Q+α가 될 가능성이 높다. 시장은 아직 LS를 전선 중심으로 보지만, 황산·PSA SOTP 재산정이 catalyst가 될 수 있다.",
+      "type": "predictive",
+      "importance": "core",
+      "timeframe": "near_term",
+      "supporting_evidence": "LS MnM 1Q26 OP = 1,896억 원. 2Q부터 황산 가격 반영 + PSA 단가 확인이 catalyst. LS IR은 전선·전력기기 중심으로 MnM 황산·PSA는 underexplained.",
+      "key_assumption": "1Q에 반영된 H2SO4 ASP는 spot $400/t보다 한참 낮은 LTA 가격 — upside 여지가 남아 있음."
+    },
+    {
+      "claim_id": "T07",
+      "claim": "황산 supply shock는 공급망 흔들리는 구간에서 수직계열화된 업체의 납기 프리미엄을 키운다. 데이터센터 부스덕트·HVDC·권선·전선 모두 동일. 최근 LS전선·가온전선의 북미 빅테크 부스덕트 수주는 이 관점에서 해석 가능. LS 그룹은 구리(MnM) → 황산/PSA(MnM) → 전선(LS전선·가온전선) → 권선(LS에코첨단소재) → 전력기기(LS Electric) 풀스택 구조.",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "medium_term",
+      "supporting_evidence": "LS전선·가온전선 북미 빅테크향 부스덕트 수주 (2026-Q1~Q2). HVDC·해저케이블 backlog 증가. 데이터센터 power infra 글로벌 capex 30~50% YoY 증가 추세.",
+      "key_assumption": "AI 데이터센터·전력 인프라 capex 사이클이 2027+까지 지속 — 단가뿐 아니라 납기·공급안정성이 수주 결정요인."
+    },
+    {
+      "claim_id": "T08",
+      "claim": "호르무즈가 열리더라도 황산 가격이 단기 정상화되기 어렵다. cargo가 풀리는 것과 계약 가격이 정상화되는 것은 별개. 중국 수출 제한·러시아·터키 제한·재고 재축적 수요가 남는다. spot 가격은 먼저 오르고 계약 가격은 뒤따른다 — 정상화 시에도 같은 lag. 이미 높은 가격으로 체결된 LTA·분기 reset은 2H26 실적에 시차 반영 가능성 높다.",
+      "type": "predictive",
+      "importance": "supporting",
+      "timeframe": "medium_term",
+      "supporting_evidence": "Aurubis 사례: 황산 판매 ~85%가 연간계약, 분기·반기 단위 재조정. 한국 4월 H2SO4 수출단가 $117/t (Gulf spot $400/t 대비 한참 후행).",
+      "key_assumption": "공급 정상화 lag: spot 하락 후 LTA 재조정까지 1~2 분기 — LS MnM은 정상화 국면에서도 2~3 분기 가격 모멘텀 보존."
+    }
+  ]
+}

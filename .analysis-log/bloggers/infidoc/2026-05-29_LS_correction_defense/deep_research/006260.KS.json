@@ -1,0 +1,283 @@
+{
+  "industry": {
+    "name": "한국 전력 인프라·전략 금속·해저케이블 복합",
+    "overview": "LS는 LS전선(해저케이블·HVDC·부스덕트)+LS MnM(동제련·황산·귀금속·니켈)+LS ELECTRIC(전력기기·DC배전)+LS아이앤디(미국 Essex 권선) 4개 사업축을 동시 보유한 한국 유일 복합 사업회사. AI 데이터센터·전력망 노후화로 전력 인프라 슈퍼사이클(2024~2030)이 진행 중이며, AC→DC 전환은 범용 변압기 value pool을 위협하나 HVDC·해저케이블·부스덕트·DC배전에는 수혜. 최근 급락은 티라유텍 단위 표기 정정공시(100배 오기)·후지쿠라 광케이블 병목 오해·DC 전환 우려가 ETF 수급 이탈과 겹친 결과.",
+    "competitors": [
+      {
+        "name": "Prysmian(IT)",
+        "ticker": "-"
+      },
+      {
+        "name": "Nexans(FR)",
+        "ticker": "-"
+      },
+      {
+        "name": "대한전선",
+        "ticker": "001440.KS"
+      },
+      {
+        "name": "Aurubis(DE, MnM 피어)",
+        "ticker": "NDA.DE"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "fiscal_year": "2025",
+        "revenue": 31870031000000.0,
+        "op_income": 1069950000000.0,
+        "net_income": 270815000000.0,
+        "op_margin": 3.36,
+        "op_margin_pct": 3.36,
+        "net_margin_pct": 0.85,
+        "year": "2025"
+      },
+      {
+        "fiscal_year": "2024",
+        "revenue": 27544663000000.0,
+        "op_income": 1089666000000.0,
+        "net_income": 237334000000.0,
+        "op_margin": 3.96,
+        "op_margin_pct": 3.96,
+        "net_margin_pct": 0.86,
+        "year": "2024"
+      },
+      {
+        "fiscal_year": "2023",
+        "revenue": 24480743000000.0,
+        "op_income": 901760000000.0,
+        "net_income": 435964000000.0,
+        "op_margin": 3.68,
+        "op_margin_pct": 3.68,
+        "net_margin_pct": 1.78,
+        "year": "2023"
+      },
+      {
+        "fiscal_year": "2022",
+        "revenue": 17491338000000.0,
+        "op_income": 561605000000.0,
+        "net_income": 793254000000.0,
+        "op_margin": 3.21,
+        "op_margin_pct": 3.21,
+        "net_margin_pct": 4.54,
+        "year": "2022"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2025",
+        "revenue": 31870031000000.0,
+        "operating_income": 1069950000000.0,
+        "net_income": 270815000000.0,
+        "op_margin_pct": 3.36
+      },
+      {
+        "year": "2024",
+        "revenue": 27544663000000.0,
+        "operating_income": 1089666000000.0,
+        "net_income": 237334000000.0,
+        "op_margin_pct": 3.96
+      },
+      {
+        "year": "2023",
+        "revenue": 24480743000000.0,
+        "operating_income": 901760000000.0,
+        "net_income": 435964000000.0,
+        "op_margin_pct": 3.68
+      },
+      {
+        "year": "2022",
+        "revenue": 17491338000000.0,
+        "operating_income": 561605000000.0,
+        "net_income": 793254000000.0,
+        "op_margin_pct": 3.21
+      }
+    ],
+    "five_quarter_pnl": [],
+    "balance_sheet_snapshot": {},
+    "material_variance_summary": "yfinance income_stmt 기반 5Y annual (live fetch 2026-05-29). 분기·BS 상세는 build 시 financial_fetcher가 보강."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "티라유텍 노이즈 소멸 후 2Q LS전선·MnM·아이앤디 이익 1Q 연장선 확인 + 부스덕트 빅테크 반복 수주 + Essex 상장·MSCI 편입 시그널.",
+      "key_assumptions": [
+        "2Q 연결 OP ≥ 1Q",
+        "부스덕트 Meta→빅테크 확대",
+        "Essex 상장 일정 공식화",
+        "MSCI 편입·자사주 소각"
+      ],
+      "target_price": 646700
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "공시 노이즈·수급 이탈은 회복되나 2Q 숫자 확인까지 박스권. 고밸류(fwd PE 21x)·고변동성(66%) 부담으로 횡보.",
+      "key_assumptions": [
+        "2Q 실적 1Q와 유사",
+        "메모리 쏠림 점진 완화",
+        "외국인 수급 정상화"
+      ],
+      "target_price": 468300
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "1Q 이익이 일회성(metal gain·프로젝트 인식 집중)으로 판명 + 거버넌스 신뢰 디스카운트 장기화 + 전력 ETF 추가 환매.",
+      "key_assumptions": [
+        "2Q QoQ 감익",
+        "구리·황산 반락",
+        "외국인 프로그램 매도 지속"
+      ],
+      "target_price": 334500
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "2Q26 실적 발표",
+      "type": "earnings",
+      "expected_impact": "high",
+      "description": "LS전선·MnM·아이앤디 1Q 연장 여부 — thesis 핵심 검증"
+    },
+    {
+      "date": "2026-08",
+      "event": "MSCI Standard 편입 심사",
+      "type": "index",
+      "expected_impact": "high",
+      "description": "편입 시 외국인 수급 정상화 트리거"
+    },
+    {
+      "date": "2026-2H",
+      "event": "독일 해상풍력 동해 4·5공장 매출 인식",
+      "type": "operational",
+      "expected_impact": "medium",
+      "description": "상저하고 흐름의 하반기 동력"
+    },
+    {
+      "date": "2026-2H",
+      "event": "LS아이앤디 Essex Solutions 상장 시도",
+      "type": "corporate",
+      "expected_impact": "medium",
+      "description": "미국 권선 플랫폼 별도 가치 평가"
+    },
+    {
+      "date": "2026-ongoing",
+      "event": "데이터센터 부스덕트 추가 수주",
+      "type": "orders",
+      "expected_impact": "medium",
+      "description": "Meta 단발 vs 빅테크 공급망 진입 분기점"
+    }
+  ],
+  "risks": [
+    {
+      "name": "1Q 이익 일회성 리스크",
+      "probability": "med",
+      "impact": "high",
+      "description": "프로젝트 매출 인식 lumpy·MnM metal gain 비중 불확실",
+      "mitigation": "2Q 실적으로 반복성 확인"
+    },
+    {
+      "name": "공시 거버넌스 신뢰 훼손",
+      "probability": "med",
+      "impact": "med",
+      "description": "조 단위 단위 오기 — MSCI 후보 기업 내부통제 약점",
+      "mitigation": "정정 공시·표 구조 검증으로 사업 무훼손 입증"
+    },
+    {
+      "name": "전력 인프라 ETF 수급 이탈",
+      "probability": "high",
+      "impact": "med",
+      "description": "단기 급등 후 차익실현·메모리 자금 압축",
+      "mitigation": "펀더멘털 대비 과매도 시 되돌림"
+    },
+    {
+      "name": "고밸류·고변동성",
+      "probability": "high",
+      "impact": "high",
+      "description": "fwd PE 21x·beta 1.82·연변동성 66% — 미스 시 급락 취약",
+      "mitigation": "다축 이익 분산 효과"
+    },
+    {
+      "name": "구리·황산 가격 반락",
+      "probability": "med",
+      "impact": "med",
+      "description": "MnM 이익 원자재 가격 민감",
+      "mitigation": "고환율·구조적 황산 수요"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T01",
+      "ticker_exposure": "++",
+      "claim": "정정공시는 수주 소멸 아닌 티라유텍 단위 오기",
+      "type": "factual",
+      "evidence": "15,445백만원=154.45억원 정정 일치, 서울신문 보도",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T05",
+      "ticker_exposure": "++",
+      "claim": "AC→DC 전환은 HVDC·해저케이블 직접 수혜",
+      "type": "predictive",
+      "evidence": "LS전선 500kV HVDC 진행, ABB-NVIDIA 800V DC",
+      "testability": "medium",
+      "current_status": "developing"
+    },
+    {
+      "thesis_id": "T09",
+      "ticker_exposure": "++",
+      "claim": "LS전선 2Q ≥ 1Q (부스덕트 15% 마진·독일 해상풍력)",
+      "type": "predictive",
+      "evidence": "1Q 매출 2조·OP 970억, 상저하고",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "thesis_id": "T10",
+      "ticker_exposure": "++",
+      "claim": "MnM 황산 효과 2Q 지속",
+      "type": "predictive",
+      "evidence": "황산 연초 이후 상승, Aurubis 호조",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "thesis_id": "T12",
+      "ticker_exposure": "++",
+      "claim": "조정은 수급·노이즈, 슈퍼사이클 종료 아님",
+      "type": "normative",
+      "evidence": "글로벌 피어 ATH",
+      "testability": "medium",
+      "current_status": "developing"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-05",
+      "type": "정정공시",
+      "title": "분기보고서 정정 — LS ELECTRIC 수주표 단위",
+      "summary": "티라유텍 백만원 단위가 억원 합산표에 100배 오기 → 정정",
+      "impact": "-"
+    },
+    {
+      "date": "2026-05",
+      "type": "언론",
+      "title": "서울신문 등 수주잔고 급감 프레임 보도",
+      "summary": "238억↔2조3782억 오기 부각, 회사·시장 신뢰 논쟁",
+      "impact": "-"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 446000,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "현 시총 약 12.4조원, FY25 OP 1.07조(OPM 3.36%)·fwd PE 21x. 1Q26 다축 이익 전환이 연간 지속되면 SOTP 리레이팅 여지. 단 6M +152% 급등으로 개선 상당분 선반영 — 2Q 확인이 밸류 분기점."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

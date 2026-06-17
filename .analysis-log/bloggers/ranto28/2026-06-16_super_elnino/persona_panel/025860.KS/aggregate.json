@@ -1,0 +1,344 @@
+{
+  "ticker": "025860.KS",
+  "aggregated_at": "2026-06-17T12:02:52.254964+09:00",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 8,
+      "pct": 61.5
+    },
+    "lean_bearish": {
+      "count": 2,
+      "pct": 15.4
+    },
+    "lean_bullish": {
+      "count": 3,
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.658,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 R&D 투자 불확실성",
+        "탄탄한 영업조직 여부 미확인"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 비료 수요 증가",
+        "장기 시장 잠재력"
+      ],
+      "uncertainty": "엘니뇨로 인한 단기적 수요 증가가 장기 성장으로 이어지지 않을 경우",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "비즈니스의 명확한 이해 부족",
+        "엘니뇨처럼 예측 불가능한 외부 변수에 의존"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 비료 수요 단기 증가 가능성"
+      ],
+      "uncertainty": "엘니뇨와 관련된 비료 수요 증가가 일시적일 경우, 투자 논리가 약화될 수 있음",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "기후 변화에 의존하는 일시적 수혜",
+        "기술 혁신 부족"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 곡물 가격 변화 잠재적 수혜",
+        "비료 수요 증가 가능성"
+      ],
+      "uncertainty": "엘니뇨 이후 기후 조건의 안정화가 예상 외로 빠르게 진행되는 경우, 수익성에 부정적 영향을 미칠 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "기후에 대한 높은 민감도",
+        "비료 수급 불안정"
+      ],
+      "key_opportunities_top3": [
+        "슈퍼 엘니뇨로 인한 시장 가격 변동",
+        "긴 텀에서의 기후 변화 대응 전략 중요"
+      ],
+      "uncertainty": "비료 및 농산물 시장의 예측치가 크게 빗나갈 경우",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "내재가치 대비 명확한 안전마진 부족",
+        "엘니뇨에 대한 수요 변화가 지속적이지 않을 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 비료수요 증가",
+        "한국 내 농업 수요의 지속 가능성"
+      ],
+      "uncertainty": "엘니뇨의 영향이 장기적 추세로 연결되지 않으면, 기대 이득이 사라질 수 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "우려 1: 엘니뇨 영향이 예상보다 미미할 경우",
+        "우려 2: 비료 가격의 급격한 변동"
+      ],
+      "key_opportunities_top3": [
+        "기회 1: 엘니뇨로 인한 비료 수요 증가",
+        "기회 2: emerging market에서의 비료 수요 장기 증가"
+      ],
+      "uncertainty": "엘니뇨가 예상보다 빠르게 사라지거나 비료 수요 증가가 기대 이하일 경우",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "변동성 높은 글로벌 시장 환경",
+        "비료 수급 불균형 가능성"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 농산물 수요 증가",
+        "비료 가격 상승으로 인한 마진 확대 가능성"
+      ],
+      "uncertainty": "엘니뇨의 강도가 예상보다 약하면 비료 수요 증가 예측이 깨질 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "부채 리파이낸싱 리스크",
+        "비료 수요 감소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨에 따른 비료 수요 증가",
+        "시장 과소평가된 밸류에이션"
+      ],
+      "uncertainty": "엘니뇨로 비료 수요가 기대만큼 증가하지 않으면, 사업 수익성에 부담이 될 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "불확실한 비즈니스 품질",
+        "매력적인 자본배분 부족"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 단기적 시장 변동 기회"
+      ],
+      "uncertainty": "엘니뇨와 같은 외부적 기후 요소가 예상보다 더 큰 경제적 영향을 미치거나, 새로운 자본배분 전략 도입 시.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "기후변화가 공급망에 미치는 영향",
+        "규제 리스크 및 정책 변화"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 비료 수요 증가",
+        "농업산업 전반의 성장"
+      ],
+      "uncertainty": "기후 변화의 예측 실패 및 새로운 규제 또는 정책의 도입이 긍정적 전망을 뒤집을 수 있음.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "정량적 데이터의 부족",
+        "기후 변화의 예측 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "기후 변화로 인한 비료 수요 증가 가능성",
+        "엘니뇨와 관련된 곡물 가격 변동"
+      ],
+      "uncertainty": "기후 변동과 관련된 정책 변화 또는 비료 수요 예측에서 의외의 변화가 발생하면 현재의 평가가 뒤집힐 수 있습니다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "비료 공급망 차질로 인한 원가 상승",
+        "수퍼 엘니뇨로 인한 예상치 못한 기후 변화"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 비료 수요 증가",
+        "장기적으로 비료 가격 인상 가능성"
+      ],
+      "uncertainty": "엘니뇨의 영향이 예상보다 적거나 비료 공급망 차질이 심화되면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "엘니뇨에 따른 예측 불가능한 농산물 가격"
+      ],
+      "key_opportunities_top3": [
+        "엘니뇨로 인한 비료 수요 증가",
+        "비대칭 베팅의 가능성"
+      ],
+      "uncertainty": "엘니뇨의 영향이 예상과 다르게 나타날 경우 판단이 뒤집힐 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    }
+  }
+}

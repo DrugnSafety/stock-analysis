@@ -1,0 +1,219 @@
+{
+  "industry": {
+    "name": "MLCC / 카메라모듈 / 반도체 기판(FC-BGA)",
+    "overview": "삼성전기는 MLCC·FC-BGA 기판·카메라모듈 리더로 AI 서버·전장 수요의 수혜. 그러나 1년 +1,397%·fwdPE 63.5로 대장주 중 밸류에이션 부담이 가장 극단적 — 이익 대비 가격이 크게 선행. 페르소나 패널에서 62%가 lean_bearish로 과열을 경고.",
+    "competitors": [
+      {
+        "name": "삼성전기",
+        "ticker": "009150.KS",
+        "share_pct": 0.0,
+        "moat": "MLCC 글로벌 2위, AI 서버용 FC-BGA 고부가"
+      },
+      {
+        "name": "Murata",
+        "ticker": "6981.T",
+        "share_pct": 0.0,
+        "moat": "MLCC 1위"
+      },
+      {
+        "name": "LG이노텍",
+        "ticker": "011070.KS",
+        "share_pct": 0.0,
+        "moat": "카메라모듈·기판"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "AI 서버용 FC-BGA·고용량 MLCC 수요 기대",
+        "source": "업계/언론",
+        "summary": "AI 서버 고사양화로 고부가 기판·MLCC 수요 증가 기대"
+      },
+      {
+        "date": "2026-05",
+        "title": "1년 +1,397% 급등 — 밸류에이션 과열 경계",
+        "source": "시장 데이터",
+        "summary": "fwdPE 63 수준으로 이익 대비 주가 크게 선행"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 25.0,
+      "cagr_pct": 12.0,
+      "horizon": "2026-2030 (MLCC+기판)"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 94246,
+        "op_income": 11831,
+        "op_margin": 12.6,
+        "net_income": 9806,
+        "net_margin": 10.4
+      },
+      {
+        "year": 2023,
+        "revenue": 88924,
+        "op_income": 6609,
+        "op_margin": 7.4,
+        "net_income": 4230,
+        "net_margin": 4.8
+      },
+      {
+        "year": 2024,
+        "revenue": 102941,
+        "op_income": 7351,
+        "op_margin": 7.1,
+        "net_income": 6791,
+        "net_margin": 6.6
+      },
+      {
+        "year": 2025,
+        "revenue": 113145,
+        "op_income": 9133,
+        "op_margin": 8.1,
+        "net_income": 7061,
+        "net_margin": 6.2
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 145959,
+      "total_liab": 47986,
+      "equity": 95418,
+      "cash": 27012,
+      "debt": 22772
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 15000,
+      "fcf_5y_avg": 4000,
+      "capex_intensity": 12.0
+    },
+    "peer_compare": [
+      {
+        "ticker": "009150.KS",
+        "name": "삼성전기",
+        "pe": 63.5,
+        "pb": 2.5,
+        "roe": 7.0,
+        "div_yield": 0.7
+      },
+      {
+        "ticker": "011070.KS",
+        "name": "LG이노텍",
+        "pe": 10.0,
+        "pb": 1.2,
+        "roe": 12.0,
+        "div_yield": 1.5
+      },
+      {
+        "ticker": "6981.T",
+        "name": "Murata",
+        "pe": 20.0,
+        "pb": 1.6,
+        "roe": 8.0,
+        "div_yield": 1.8
+      }
+    ],
+    "_note": "pl_5y·bs_snapshot: yfinance live (억원 단위, FY2022-2025). cf_summary는 추정. peer_compare는 fwdPE 등 시장 데이터 기반 근사."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 2200000,
+      "thesis": "AI 서버 FC-BGA·MLCC 폭발적 수요로 고PER 정당화, 이익이 가격을 따라잡음",
+      "key_assumptions": [
+        "AI 수요 지속",
+        "강세장 연장"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 1500000,
+      "thesis": "수요 성장하나 fwdPE 63의 기대를 채우지 못해 횡보·조정",
+      "key_assumptions": [
+        "점진적 이익 성장",
+        "밸류 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 900000,
+      "thesis": "밸류에이션 정상화(평균회귀)로 큰 폭 조정 — 페르소나 다수 경고 시나리오",
+      "key_assumptions": [
+        "AI capex 둔화",
+        "강세장 종료·multiple 압축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-07",
+      "event": "2Q26 실적",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "fwdPE 63 정당화할 이익 성장 확인"
+    },
+    {
+      "date": "2026-2H",
+      "event": "AI 서버 FC-BGA 수주",
+      "type": "catalyst",
+      "expected_impact": "+",
+      "description": "고부가 기판 수요"
+    }
+  ],
+  "risks": [
+    {
+      "name": "밸류에이션 평균회귀",
+      "probability": "high",
+      "impact": "high",
+      "description": "fwdPE 63·1Y +1,397% — 이익이 기대를 못 채울 시 큰 조정",
+      "mitigation": "AI 서버 기판 고성장 실현 시 부분 정당화"
+    },
+    {
+      "name": "강세장 종료 동반 급락",
+      "probability": "med",
+      "impact": "high",
+      "description": "고베타·고밸류로 지수 반전 시 가장 취약",
+      "mitigation": "구조적 AI 수요 노출"
+    },
+    {
+      "name": "MLCC 가격·가동률 변동",
+      "probability": "med",
+      "impact": "med",
+      "description": "전방 수요 둔화 시 가동률·ASP 하락",
+      "mitigation": "고부가 제품 믹스 확대"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "현 코스피 강세장은 소수 대장주로 리더십이 압축되고 있다",
+      "type": "normative",
+      "evidence": "KOSPI +88% YTD vs KOSDAQ -11.9%, 10종목 중 9종목 하락",
+      "testability": "breadth 지표·종목별 기여도로 검증 가능",
+      "current_status": "지지 (4-Analyst 3/4 support)"
+    },
+    {
+      "claim": "이 종목이 꺾이면 코스피 강세장 시즌 종료 신호다",
+      "type": "conditional",
+      "evidence": "지수가 소수 대장주에 전적 의존하는 구조",
+      "testability": "대장주 고점 대비 추세 이탈 시 지수 동행 여부",
+      "current_status": "지지하나 거짓신호 위험 (counter neutral)"
+    },
+    {
+      "claim": "추세를 타되 정점 신호 시 이탈하는 규율이 최적",
+      "type": "normative",
+      "evidence": "고밸류·레버리지 국면의 비대칭 하방",
+      "testability": "이탈 규칙의 사후 수익률",
+      "current_status": "split (2/4) — 실행력이 관건"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "type": "안내",
+      "title": "DART 전자공시 — 자동 fetch 미적용(매크로 타이밍 분석)",
+      "date": "2026-06-02",
+      "summary": "본 분석은 개별 기업 이벤트가 아닌 대장주 바스켓 타이밍 관점 — 분기보고서·HBM 공급계약 등은 build 시 DART 캐시 참조"
+    }
+  ]
+}

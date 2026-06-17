@@ -1,0 +1,184 @@
+{
+  "extracted_at": "2026-05-26T18:30:00+09:00",
+  "blog_url": "https://blog.naver.com/doctordk/224297215449",
+  "framing": "800VDC 4-stage roadmap (White-Space Retrofit → Native Compute → Gray-Space DC → SST Endgame)",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "랙당 600kW 이상 전력밀도에서 48V/AC 아키텍처는 물리학적 한계에 직면, 800VDC 전환이 필연적이다. 800V 승압으로 전류 15× 감소, 저항 손실 220× 이상 감소, 시스템 효율 5% 향상 → 1GW DC당 연간 50MW 전력 절감.",
+      "type": "factual",
+      "timeframe": "0-2y",
+      "supporting_evidence": [
+        "OCP Diablo 400 사양 발표 (구글·메타 주도)",
+        "P=I²R 물리 공식 — 전압 16.67× 상승 → 손실 277.78× 감소 이론값",
+        "Hyperscaler 1GW급 DC 단위 추정 — 효율 5% × 1GW = 50MW/y 절감"
+      ],
+      "stocks_implied": [
+        "NVTS",
+        "WOLF",
+        "ON",
+        "VRT",
+        "ETN"
+      ],
+      "verifiability": "high",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "1단계 White-Space Retrofit (2026~2027): AC 백본은 그대로 두고 HVDC Power Rack(Sidecar)를 랙 옆에 추가하는 형태로 진입. OCP Diablo 400 사양 중심으로 구글·메타가 초기 채택 주도 — 가장 빠른 채택 단계.",
+      "type": "predictive",
+      "timeframe": "0-2y",
+      "supporting_evidence": [
+        "Google·Meta OCP 참여 + Diablo 400 사양 공개 (2026)",
+        "AC 백본 유지 = 시설 투자 최소화 → fast deployment",
+        "Sidecar 형태가 retrofit 방식이라 기존 DC도 적용 가능"
+      ],
+      "stocks_implied": [
+        "VRT",
+        "ETN",
+        "NVTS"
+      ],
+      "verifiability": "medium-high",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "2단계 800VDC Native Compute (2027~2028): 서버 블레이드 내부에서 직접 800VDC 수신, 중앙 AC UPS 제거하고 랙 단위 분산형 BBU 채택. 이 단계부터 800VDC 도입이 '필수'가 된다 — 전환의 분기점.",
+      "type": "predictive",
+      "timeframe": "2-4y",
+      "supporting_evidence": [
+        "NVIDIA Rubin Ultra(2027)·Kyber NVL576(2028) 사양 800V native 요구",
+        "중앙 UPS 제거 → 효율·공간·복잡성 개선 (단일 장애점 분산)",
+        "BBU 시장 폭발적 성장 — 슈퍼커패시터+리튬 hybrid 표준화"
+      ],
+      "stocks_implied": [
+        "VRT",
+        "NVTS",
+        "WOLF"
+      ],
+      "verifiability": "medium",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "3단계 Gray-Space DC화 (2028~2029): 데이터센터 외부 전력 인프라 자체가 DC로 전환. 건물 단위 대형 정류기 → 800VDC 건물 전체 배전. AC 배전반·PDU 소멸 — 시설 reset 동반.",
+      "type": "predictive",
+      "timeframe": "2-5y",
+      "supporting_evidence": [
+        "AC 배전반·PDU 시장의 점진적 위축",
+        "기존 utility AC 인터커넥션은 유지되나, DC 내부 통일",
+        "NEC 2029 코드 update 필요 — 표준화 진행 중"
+      ],
+      "stocks_implied": [
+        "ETN",
+        "VRT"
+      ],
+      "verifiability": "medium-low",
+      "importance": "supporting"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "4단계 SST Endgame (2029+): Solid-State Transformer가 MV AC → 800VDC 일체 변환, 부피 90%+ 축소, 효율 99% 도달. 변압기와 정류기 통합. 데이터센터 전력 인프라의 최종 형태이며 ABB·Eaton·Schneider·Vertiv가 핵심 player.",
+      "type": "predictive",
+      "timeframe": "3-7y",
+      "supporting_evidence": [
+        "SST 기술 readiness — IGBT/SiC 기반 변환기 R&D 활발",
+        "ABB·Eaton·Schneider 모두 SST 로드맵 공개",
+        "효율 99%는 이론적 상한 — 실증은 95~97% 수준에서 시작 전망"
+      ],
+      "stocks_implied": [
+        "ETN",
+        "VRT"
+      ],
+      "verifiability": "low-medium",
+      "importance": "supporting"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "HVDC Power Rack(Sidecar)는 1단계 retrofit의 핵심 설비 — AC→DC 변환 + BBU + 슈퍼커패시터 통합. 초기 채택 단계에서 가장 빠른 매출 인식, Vertiv가 system-level 통합 leader.",
+      "type": "factual",
+      "timeframe": "0-2y",
+      "supporting_evidence": [
+        "Vertiv: AI 데이터센터 power+cooling 통합 솔루션 우위",
+        "OCP Diablo 400 power rack 표준 합의 — 통합 vendor 유리",
+        "BBU + 슈퍼커패시터 hybrid 설계 — 전력 안정성 핵심"
+      ],
+      "stocks_implied": [
+        "VRT",
+        "NVTS"
+      ],
+      "verifiability": "high",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "SSCB(Solid-State Circuit Breaker)는 DC 배전의 필수 보호 장치 — AC와 달리 전류 0 통과 지점이 없어 아크 차단이 어렵다. 반도체 스위칭으로 마이크로초 단위 차단 가능. SiC MOSFET 수혜 영역.",
+      "type": "factual",
+      "timeframe": "0-3y",
+      "supporting_evidence": [
+        "DC arc fault — 기존 mechanical breaker로 차단 불가",
+        "SSCB는 SiC MOSFET 고압 영역 (>1.7kV) 차세대 응용",
+        "Wolfspeed·ON Semi가 SiC 핵심 wafer/device 공급"
+      ],
+      "stocks_implied": [
+        "WOLF",
+        "ON",
+        "NVTS"
+      ],
+      "verifiability": "high",
+      "importance": "supporting"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "자본의 이동: 기존 핵심 인프라(중앙 UPS·대형 변압기 = Gray Space)의 비중은 줄어들고, 파워랙·SST·배터리랙 등 서버 근접 설비(White Space)의 가치가 상승. AI DC capex 구조 재편.",
+      "type": "predictive",
+      "timeframe": "1-5y",
+      "supporting_evidence": [
+        "Vertiv·Eaton AI DC 매출 mix 변화 — power rack 비중 상승",
+        "전통 UPS 시장 둔화 vs BBU·BESS 시장 폭발 성장",
+        "Hyperscaler capex 항목별 분해 (Goldman Sachs 등 분석)"
+      ],
+      "stocks_implied": [
+        "VRT",
+        "ETN",
+        "NVTS"
+      ],
+      "verifiability": "medium-high",
+      "importance": "core"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "리스크: 통일된 접지(Grounding) 방식 부재, NEC 2029 등 DC 안전 코드 미완성, AC 기반 냉각 설비와 DC 전력 시스템의 조화가 해결해야 할 과제. 표준화 지연 시 채택 속도 둔화 가능.",
+      "type": "conditional",
+      "timeframe": "0-3y",
+      "supporting_evidence": [
+        "NEC 2029 (National Electrical Code) — DC 챕터 개정 진행 중",
+        "OCP 표준 vs Open19 vs 자체 사양 분파 가능성",
+        "냉각수 누설 + 800VDC 결합 시 새로운 safety class 필요"
+      ],
+      "stocks_implied": [],
+      "verifiability": "high",
+      "importance": "supporting"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "공급망 신승자: 고전압(800V+) SiC MOSFET 업체, 고효율 전력 전자 부품 업체, EPC(Engineering·Procurement·Construction) 통합 설계 기업이 부상. Pure-play(Navitas) vs 통합(Vertiv/Eaton) 양극화 심화.",
+      "type": "predictive",
+      "timeframe": "1-4y",
+      "supporting_evidence": [
+        "Navitas: GaN+SiC 양쪽 보유 + AI DC pure-play 전략",
+        "Vertiv/Eaton: 시스템 통합 + global service network",
+        "Wolfspeed/ON Semi: SiC wafer/device 수직통합"
+      ],
+      "stocks_implied": [
+        "NVTS",
+        "VRT",
+        "ETN",
+        "WOLF",
+        "ON"
+      ],
+      "verifiability": "medium-high",
+      "importance": "supporting"
+    }
+  ]
+}

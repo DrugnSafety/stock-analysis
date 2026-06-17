@@ -1,0 +1,344 @@
+{
+  "ticker": "GDX",
+  "name_en": "VanEck Gold Miners ETF",
+  "name_kr": "반에크 골드 마이너스 ETF",
+  "sector": "ETF — Gold Mining sector basket",
+  "industry_overview": "글로벌 51개 금광 기업 시총 가중. Newmont 12.5%·Barrick 7.5%·AEM 10.8%·Franco-Nevada 8.5%·Wheaton 5.5%·Northern Star 4.5%·Kinross 3.8% 등. AUM $24B (2026.5). 평균 PE 13.2x, dividend yield 1.8%. 광산 sector 인식 시차 노출을 단일 ticker로 분산.",
+  "5y_financials": {
+    "revenue_b": null,
+    "narrative_5y": "ETF — 직접 재무 X. Index NAV 추적. 2020-2022 -45% drawdown 후 2023-2025 +85% reversal. 2026.5 $86 (52w high $90)."
+  },
+  "scenarios": {
+    "bull": {
+      "prob": 0.45,
+      "target_price": 130,
+      "drivers": "Sector basket gold $5,000 환경, ETF inflow + multiple rerating",
+      "prob_pct": 45,
+      "thesis": "Sector basket gold $5,000 환경, ETF inflow + multiple rerating"
+    },
+    "base": {
+      "prob": 0.4,
+      "target_price": 105,
+      "drivers": "Sector beta to spot gold price linear",
+      "prob_pct": 40,
+      "thesis": "Sector beta to spot gold price linear"
+    },
+    "bear": {
+      "prob": 0.15,
+      "target_price": 60,
+      "drivers": "Sector outflow + gold price reversion",
+      "prob_pct": 15,
+      "thesis": "Sector outflow + gold price reversion"
+    }
+  },
+  "catalysts": [
+    {
+      "name": "Sector ETF 자금 유입 — 2026 YTD +$2.8B inflow (전년 -$1.5B)",
+      "date": "2026-05-20",
+      "impact": "high",
+      "event": "Sector ETF 자금 유입 — 2026 YTD +$2.8B inflow (전년 -$1.5B)",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Holding 평균 EPS revision direction (+15% in last 90 days)",
+      "date": "2026-05-20",
+      "impact": "high",
+      "event": "Holding 평균 EPS revision direction (+15% in last 90 days)",
+      "category": "operational",
+      "probability": "medium"
+    },
+    {
+      "name": "Junior miner exploration discovery cycle",
+      "date": "2026-05-20",
+      "impact": "medium",
+      "event": "Junior miner exploration discovery cycle",
+      "category": "operational",
+      "probability": "medium"
+    }
+  ],
+  "risks": [
+    {
+      "name": "ETF expense ratio 0.51% drag",
+      "impact": "high",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "ETF expense ratio 0.51% drag",
+      "likelihood": "medium",
+      "severity": "high",
+      "probability": "med",
+      "description": "ETF expense ratio 0.51% drag"
+    },
+    {
+      "name": "Sector beta — individual stock alpha 희석",
+      "impact": "high",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Sector beta — individual stock alpha 희석",
+      "likelihood": "medium",
+      "severity": "high",
+      "probability": "med",
+      "description": "Sector beta — individual stock alpha 희석"
+    },
+    {
+      "name": "Royalty stream holdings (Franco-Nevada·Wheaton) - direct miner와 cycle 다름",
+      "impact": "med",
+      "mitigation": "diversification / monitoring",
+      "category": "operational",
+      "event": "Royalty stream holdings (Franco-Nevada·Wheaton) - direct miner와 cycle 다름",
+      "likelihood": "medium",
+      "severity": "medium",
+      "probability": "med",
+      "description": "Royalty stream holdings (Franco-Nevada·Wheaton) - direct miner와 cycle 다름"
+    }
+  ],
+  "news_timeline_recent": [
+    {
+      "date": "2026-05-15",
+      "impact": "+",
+      "headline": "GDX YTD +28% — sector leader S&P500 +6% YTD outperform"
+    },
+    {
+      "date": "2026-04-10",
+      "impact": "+",
+      "headline": "ETF inflow $850M in April — 18-month high"
+    },
+    {
+      "date": "2026-03-05",
+      "impact": "+",
+      "headline": "VanEck rebalance — AEM·NEM weight 증가"
+    }
+  ],
+  "etf_holdings": {
+    "top_10_holdings": [
+      {
+        "ticker": "NEM",
+        "weight_pct": 12.5
+      },
+      {
+        "ticker": "AEM",
+        "weight_pct": 10.8
+      },
+      {
+        "ticker": "FNV",
+        "weight_pct": 8.5
+      },
+      {
+        "ticker": "GOLD",
+        "weight_pct": 7.5
+      },
+      {
+        "ticker": "WPM",
+        "weight_pct": 5.5
+      },
+      {
+        "ticker": "NST",
+        "weight_pct": 4.5
+      },
+      {
+        "ticker": "KGC",
+        "weight_pct": 3.8
+      },
+      {
+        "ticker": "GFI",
+        "weight_pct": 3.5
+      },
+      {
+        "ticker": "PAAS",
+        "weight_pct": 3.2
+      },
+      {
+        "ticker": "EGO",
+        "weight_pct": 2.8
+      }
+    ],
+    "country_breakdown": {
+      "Canada": 38.5,
+      "USA": 22.0,
+      "Australia": 17.5,
+      "South_Africa": 8.0,
+      "Other": 14.0
+    }
+  },
+  "industry": {
+    "name": "ETF — Gold Mining sector basket",
+    "overview": "글로벌 51개 금광 기업 시총 가중. Newmont 12.5%·Barrick 7.5%·AEM 10.8%·Franco-Nevada 8.5%·Wheaton 5.5%·Northern Star 4.5%·Kinross 3.8% 등. AUM $24B (2026.5). 평균 PE 13.2x, dividend yield 1.8%. 광산 sector 인식 시차 노출을 단일 ticker로 분산.",
+    "news": [
+      {
+        "date": "2026-05-15",
+        "impact": "+",
+        "headline": "GDX YTD +28% — sector leader S&P500 +6% YTD outperform",
+        "title": "GDX YTD +28% — sector leader S&P500 +6% YTD outperform",
+        "summary": "GDX YTD +28% — sector leader S&P500 +6% YTD outperform",
+        "source": "curated"
+      },
+      {
+        "date": "2026-04-10",
+        "impact": "+",
+        "headline": "ETF inflow $850M in April — 18-month high",
+        "title": "ETF inflow $850M in April — 18-month high",
+        "summary": "ETF inflow $850M in April — 18-month high",
+        "source": "curated"
+      },
+      {
+        "date": "2026-03-05",
+        "impact": "+",
+        "headline": "VanEck rebalance — AEM·NEM weight 증가",
+        "title": "VanEck rebalance — AEM·NEM weight 증가",
+        "summary": "VanEck rebalance — AEM·NEM weight 증가",
+        "source": "curated"
+      }
+    ],
+    "competitors": [],
+    "competitive_landscape": []
+  },
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T7",
+      "claim_id": "T7",
+      "claim": "광업의 시대 도래 — 글로벌 상위 20개 귀금속·비철금속 광업 기업의 마진율 중간값 31%로 S&P500 모든 섹터 1위. 기술 섹터(17%)의 거의 2배. PER 6-15배에 거래 중 — 시장은 금속 가격 하락 가정한 디스카운트 유지",
+      "type": "industry",
+      "evidence": "51개 금광 기업 시총 가중 · 평균 PE 13.2x · expense ratio 0.51%",
+      "testability": "high",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T8",
+      "claim_id": "T8",
+      "claim": "광물 수요는 일회성 사이클이 아닌 구조적 — 탈달러·인플레 헷지(금), 신재생 에너지(구리·리튬·니켈), 데이터센터·전력망(구리·은) 메가트렌드. 신규 광산 개발에 10년 이상 소요 → 공급 부족 (shortage) 장기화. 광물 가격이 단기 조정 받아도 이전 가격대로 복귀 불가",
+      "type": "industry",
+      "evidence": "Top 10 holdings 모두 4대 megatrend exposure · ETF inflow $2.8B YTD 2026",
+      "testability": "med",
+      "current_status": "confirmed",
+      "ticker_exposure": "++",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T9",
+      "claim_id": "T9",
+      "claim": "Druckenmiller 'Teva 패턴' = 광산주에 적용 가능 — 시장이 여전히 '경기 변동·금속가격 종속' 프레임으로 광산주를 평가하지만, 실제로는 '구조적 수요 + 자본 절제'로 펀더멘털 체질이 변화. 시장 인식 시차가 알파의 원천",
+      "type": "company",
+      "evidence": "Sector basket — single-name idiosyncratic risk 회피, 'perception lag' alpha sector-wide 노출",
+      "testability": "med",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    },
+    {
+      "thesis_id": "T6",
+      "claim_id": "T6",
+      "claim": "투자 전략 전환 필요 — '유동성 기반 PER 리레이팅' 패러다임 종료. 실물자산 보유 기업, 또는 고금리 환경에서도 성장 가능한 비싼 PER 정당화 가능 기업 선별 중요. 채권 발행에 의존하는 빅테크조차 가려야 함",
+      "type": "policy",
+      "evidence": "Real asset basket — paradigm shift의 단일 ticker exposure",
+      "testability": "low",
+      "current_status": "confirmed",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.10"
+    },
+    {
+      "thesis_id": "T1",
+      "claim_id": "T1",
+      "claim": "Shiller CAPE 42.05로 역사적 고점 근접 (2000년 닷컴버블·1929년 대공황 직전 수준) — 미국 광범위 지수에서 장기 기대수익률은 역사적으로 매우 낮은 출발점",
+      "type": "macro",
+      "evidence": "broad index의 광산 weight 0.3% 미만 → CAPE mean reversion 시 도피처 역할",
+      "testability": "high",
+      "current_status": "pending",
+      "ticker_exposure": "-",
+      "confidence_delta": "+0.05"
+    },
+    {
+      "thesis_id": "T4",
+      "claim_id": "T4",
+      "claim": "1998년형 외부 시스템 충격(금리 급등)이 'IT 부진' 아닌 외생 변수로 단기 폭락 트리거. 단 1998년과 달리 지금은 인플레이션 때문에 연준의 공격적 금리 인하 카드가 봉쇄 — 1970년대형 시나리오 또는 닷컴버블 재현 사이의 갈림길",
+      "type": "macro",
+      "evidence": "1970s scenario: GDX precursor (HUI Index) +850% 1999-2011 cycle",
+      "testability": "low",
+      "current_status": "pending",
+      "ticker_exposure": "+",
+      "confidence_delta": "+0.05"
+    }
+  ],
+  "pl_5y": {
+    "revenue": [],
+    "operating_income": [],
+    "net_income": [],
+    "opm": [],
+    "npm": [],
+    "fcf": []
+  },
+  "reverse_dcf": {},
+  "bs_snapshot": {
+    "total_assets": 280.0,
+    "total_liab": 120.0,
+    "equity": 160.0,
+    "cash": 18.0,
+    "debt": 38.0,
+    "_note": "ETF — top 10 holdings 가중평균 추정 ()"
+  },
+  "cf_summary": {
+    "ocf_5y_avg": 20.0,
+    "fcf_5y_avg": 14.0,
+    "capex_intensity": 0.078
+  },
+  "financial_unit": {
+    "currency": "USD",
+    "scale": "B",
+    "_note": "ETF — top 51 holdings 가중평균 매출/이익 추정"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 85.0,
+        "op_income": 22.0,
+        "net_income": 14.5,
+        "op_margin_pct": 25.9,
+        "npm_pct": 17.1,
+        "fcf": 16.0,
+        "note": "ETF 51 holdings 가중평균 추정"
+      },
+      {
+        "year": 2022,
+        "revenue": 95.0,
+        "op_income": 27.5,
+        "net_income": 18.0,
+        "op_margin_pct": 28.9,
+        "npm_pct": 18.9,
+        "fcf": 19.5,
+        "note": "ETF 51 holdings 가중평균 추정"
+      },
+      {
+        "year": 2023,
+        "revenue": 94.0,
+        "op_income": 24.5,
+        "net_income": 12.0,
+        "op_margin_pct": 26.1,
+        "npm_pct": 12.8,
+        "fcf": 14.0,
+        "note": "ETF 51 holdings 가중평균 추정"
+      },
+      {
+        "year": 2024,
+        "revenue": 108.0,
+        "op_income": 32.0,
+        "net_income": 22.5,
+        "op_margin_pct": 29.6,
+        "npm_pct": 20.8,
+        "fcf": 22.5,
+        "note": "ETF 51 holdings 가중평균 추정"
+      },
+      {
+        "year": 2025,
+        "revenue": 125.0,
+        "op_income": 42.5,
+        "net_income": 32.0,
+        "op_margin_pct": 34.0,
+        "npm_pct": 25.6,
+        "fcf": 32.0,
+        "note": "ETF 51 holdings 가중평균 추정"
+      }
+    ]
+  }
+}

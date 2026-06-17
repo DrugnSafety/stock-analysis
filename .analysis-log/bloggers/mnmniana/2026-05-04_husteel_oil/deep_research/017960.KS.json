@@ -1,0 +1,136 @@
+{
+  "industry": {
+    "name": "LNG 운반선 보냉재(insulation) / 복합소재",
+    "overview": "한국카본은 LNG 운반선 화물창 보냉재(insulation)의 핵심 공급사로, 글이 언급한 'LNG 프로젝트 고성장' 전방 테마에 노출된다. 다만 OCTG·강관과는 사업 메커니즘이 달라(조선·LNG선 수주 연동) 유가 직접 베타는 낮고, 한국 조선 LNG선 수주 사이클·카타르 등 대형 LNG 프로젝트에 연동된다.",
+    "competitors": [
+      {
+        "name": "휴스틸",
+        "ticker": "005010.KS",
+        "share_pct": null,
+        "moat": "에너지강관 특화+군산/휴스턴 capa"
+      },
+      {
+        "name": "세아제강",
+        "ticker": "306200.KS",
+        "share_pct": null,
+        "moat": "국내 최대 강관·대구경·모노파일"
+      },
+      {
+        "name": "넥스틸",
+        "ticker": "092790.KS",
+        "share_pct": null,
+        "moat": "미국 OCTG 순수노출"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "고유가·에너지 인프라 capex 테마 부각",
+        "source": "블로그",
+        "sentiment": "+"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "전방 사이클 연동 — 정량 추정 범위 외"
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "bs_snapshot": {
+      "note": "DART live fetch 비활성(DISABLE_FIN_FETCH) — 5Y 수치 미수록(추측 금지)"
+    },
+    "cf_summary": {
+      "note": "미수록"
+    },
+    "peer_compare": [
+      {
+        "ticker": "017960.KS",
+        "name": "한국카본",
+        "pe": 11.82,
+        "pb": null,
+        "roe": null,
+        "div_yield": 0.93,
+        "note": "LNG선 보냉재 과점 — 강관과 사업 메커니즘 상이(조선 연동)"
+      }
+    ],
+    "_source": "market_data는 yfinance live(stocks.json). 재무제표 5Y는 DART live fetch 비활성으로 미수록."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": null,
+      "thesis": "글로벌 LNG선 발주 슈퍼사이클 지속 + 보냉재 단가 상승 + 신규 LNG 프로젝트",
+      "key_assumptions": []
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": null,
+      "thesis": "LNG선 수주 견조, 보냉재 물량 안정 성장",
+      "key_assumptions": []
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": null,
+      "thesis": "LNG선 발주 둔화 + 조선 사이클 피크아웃 + 원자재 부담",
+      "key_assumptions": []
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026",
+      "event": "글로벌 LNG선 신규 발주",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "글로벌 LNG선 신규 발주"
+    },
+    {
+      "date": "2026",
+      "event": "대형 LNG 프로젝트(카타르 등) FID",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "대형 LNG 프로젝트(카타르 등) FID"
+    }
+  ],
+  "risks": [
+    {
+      "name": "LNG선 발주 사이클 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "LNG선 발주 사이클 둔화",
+      "mitigation": "분할 진입·확인 후 접근"
+    },
+    {
+      "name": "OCTG·유가 thesis와 연동 약함",
+      "probability": "high",
+      "impact": "med",
+      "description": "OCTG·유가 thesis와 연동 약함",
+      "mitigation": "분할 진입·확인 후 접근"
+    },
+    {
+      "name": "원자재·환율 변동",
+      "probability": "med",
+      "impact": "med",
+      "description": "원자재·환율 변동",
+      "mitigation": "분할 진입·확인 후 접근"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "글로벌 LNG선 발주 슈퍼사이클 지속 + 보냉재 단가 상승 + 신규 LNG 프로젝트",
+      "type": "industry",
+      "evidence": "블로그 전방산업 thesis(T09)",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2025",
+      "type": "실적",
+      "title": "연간 실적(DART live fetch 비활성으로 미수록)",
+      "impact": "LNG선 수주 연동"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "industry": {
+    "name": "외국인 전용 카지노 (세븐럭) · 공기업",
+    "overview": "GKL(그랜드코리아레저)은 한국관광공사 자회사로 서울 강남·강북·부산에서 '세븐럭(Seven Luck)' 카지노 3개점을 운영하는 외국인 전용 카지노 공기업. 도심 입지로 접근성이 높고 일본·중국·동남아 VIP·매스에 의존. 부동산·복합리조트 부담이 적어 자산 경량(asset-light)이나, 공기업 특성상 인건비 경직성·홀드율 변동에 이익이 민감. 2025년 매출 약 4,229억·OP 527억(yfinance).",
+    "competitors": [
+      {
+        "name": "파라다이스",
+        "ticker": "034230.KS",
+        "share_pct": 45,
+        "moat": "복합리조트(파라다이스시티)·최대 영업장"
+      },
+      {
+        "name": "롯데관광개발",
+        "ticker": "032350.KS",
+        "share_pct": 15,
+        "moat": "제주 드림타워 단일 대형 IR"
+      },
+      {
+        "name": "마카오 정켓/위성 카지노",
+        "ticker": "0027.HK",
+        "share_pct": 0,
+        "moat": "VIP 수요 글로벌 벤치마크"
+      },
+      {
+        "name": "강원랜드",
+        "ticker": "035250.KS",
+        "share_pct": 0,
+        "moat": "내국인 독점(별도 시장)"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-Q1",
+        "title": "GKL 1Q26 매출 1,107억(+0.7%)·OP 181억(-10.4%)",
+        "source": "머니투데이/뉴스웨이",
+        "summary": "드롭 9,310억(+12.6%)·입장객 27만(+20.3%)·일본 VIP +37.5%로 외형은 호조이나 홀드율 11.5%(-1.6%p)로 카지노매출 -1.4%, OP 역성장"
+      },
+      {
+        "date": "2026-04",
+        "title": "GKL 4월 카지노매출 401.9억(+11.1% YoY)",
+        "source": "디지털투데이",
+        "summary": "월별 회복세 — 일본·동남아 VIP 견인"
+      },
+      {
+        "date": "2026-03",
+        "title": "GKL 3월 카지노매출 319.8억(-22.8% YoY)",
+        "source": "네이트뉴스",
+        "summary": "홀드율·기저 영향 월별 변동성 큼"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 2.5,
+      "cagr_pct": 8.0,
+      "horizon": "2026-2030 한국 외국인 카지노 GGR"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 262.1,
+        "op_income": -13.7,
+        "op_margin": -5.2,
+        "net_income": -22.7,
+        "net_margin": -8.7
+      },
+      {
+        "year": 2023,
+        "revenue": 396.7,
+        "op_income": 51.0,
+        "op_margin": 12.9,
+        "net_income": 43.8,
+        "net_margin": 11.1
+      },
+      {
+        "year": 2024,
+        "revenue": 396.4,
+        "op_income": 38.3,
+        "op_margin": 9.7,
+        "net_income": 33.1,
+        "net_margin": 8.3
+      },
+      {
+        "year": 2025,
+        "revenue": 422.9,
+        "op_income": 52.7,
+        "op_margin": 12.4,
+        "net_income": 47.1,
+        "net_margin": 11.1
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 651.3,
+      "total_liab": 209.8,
+      "equity": 441.5,
+      "cash": 213.1,
+      "debt": 51.8
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 76.8,
+      "fcf_5y_avg": 64.6,
+      "capex_intensity": 0.03
+    },
+    "peer_compare": [
+      {
+        "ticker": "114090.KS",
+        "name": "GKL(그랜드코리아레저)",
+        "pe": 11.36,
+        "pb": null,
+        "roe": 10.7,
+        "div_yield": 5.54
+      },
+      {
+        "ticker": "034230.KS",
+        "name": "파라다이스",
+        "pe": 11.92,
+        "pb": null,
+        "roe": null,
+        "div_yield": 1.02
+      },
+      {
+        "ticker": "032350.KS",
+        "name": "롯데관광개발",
+        "pe": 12.34,
+        "pb": null,
+        "roe": null,
+        "div_yield": 0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 16000,
+      "thesis": "일본 VIP +37.5% 모멘텀 + 입장객 +20.3% 지속 + 홀드율 정상화 → asset-light 레버리지로 OP 회복",
+      "key_assumptions": [
+        "홀드율 12%대 복귀",
+        "일본·동남아 VIP 성장 지속",
+        "인건비 통제"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 13000,
+      "thesis": "드롭·입장객은 증가하나 홀드율·인건비로 OP 성장 제한 — 완만한 회복",
+      "key_assumptions": [
+        "매출 +3~5%",
+        "OP 횡보~소폭 회복",
+        "배당 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 9000,
+      "thesis": "홀드율 추가 하락 + 중국 VIP 둔화 + 공기업 비용경직 → OP 역성장 고착",
+      "key_assumptions": [
+        "홀드율 11% 하회 지속",
+        "중국 VIP 위축",
+        "인건비 상승"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-월별",
+      "event": "월별 카지노매출액 공시",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "입장객·드롭·홀드율 추세 — 1Q 부진 회복 여부"
+    },
+    {
+      "date": "2026-Q2",
+      "event": "2Q 실적(홀드율 정상화 여부)",
+      "type": "company",
+      "expected_impact": "○",
+      "description": "1Q 홀드율 11.5%의 평균회귀 여부가 OP의 핵심 스윙"
+    },
+    {
+      "date": "2026",
+      "event": "일본 VIP·엔화 환경",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "일본 VIP +37.5% 모멘텀 — 엔/원 환경 연동"
+    },
+    {
+      "date": "2026",
+      "event": "배당 정책(공기업 배당성향)",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "안정 배당이 valuation 하방 지지"
+    }
+  ],
+  "risks": [
+    {
+      "name": "홀드율 변동성",
+      "probability": "high",
+      "impact": "med",
+      "description": "1Q26 홀드율 11.5%(-1.6%p)로 드롭 증가에도 매출 -1.4% — 카지노 고유 변동성",
+      "mitigation": "테이블 믹스·VIP 신용관리, 매스 비중 확대"
+    },
+    {
+      "name": "중국 VIP 수요 동조 둔화",
+      "probability": "med",
+      "impact": "high",
+      "description": "마카오 둔화·중국 거시 위축 시 VIP 드롭 전이",
+      "mitigation": "일본·동남아 다변화"
+    },
+    {
+      "name": "공기업 인건비 경직성",
+      "probability": "med",
+      "impact": "med",
+      "description": "비용 구조 경직으로 매출 레버리지 제한",
+      "mitigation": "asset-light 구조로 capex 부담은 낮음"
+    },
+    {
+      "name": "원화 강세 전환",
+      "probability": "med",
+      "impact": "med",
+      "description": "환율 완화 시 인바운드 가격 경쟁력 약화",
+      "mitigation": "구조적 방문객 회복"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "외국인 카지노 실적 우상향",
+      "type": "predictive",
+      "evidence": "[actual] 드롭 +12.6%·입장객 +20.3%·일본VIP +37.5%",
+      "testability": "high",
+      "current_status": "외형 지지 / 이익은 홀드율로 1Q OP -10.4%"
+    },
+    {
+      "claim": "환율·인바운드 수혜",
+      "type": "factual",
+      "evidence": "[actual] 방한 1,894만 record·USD/KRW 1,530",
+      "testability": "high",
+      "current_status": "지지"
+    },
+    {
+      "claim": "asset-light 회복 레버리지",
+      "type": "predictive",
+      "evidence": "[inference] 복합리조트 capex 부담 적음",
+      "testability": "med",
+      "current_status": "검증중 — 홀드율 정상화 시 발현"
+    },
+    {
+      "claim": "마카오 동조 리스크",
+      "type": "predictive",
+      "evidence": "[actual] 스티펠 마카오 2026 +5~9% 하향",
+      "testability": "med",
+      "current_status": "리스크 상존, 일본 다변화로 부분 완화"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-Q1",
+      "type": "실적",
+      "title": "1Q26 영업이익 181억 (-10.4% YoY), 홀드율 11.5%",
+      "impact": "-"
+    },
+    {
+      "date": "2026-04",
+      "type": "매출공시",
+      "title": "4월 카지노매출 401.9억 (+11.1% YoY)",
+      "impact": "+"
+    }
+  ]
+}

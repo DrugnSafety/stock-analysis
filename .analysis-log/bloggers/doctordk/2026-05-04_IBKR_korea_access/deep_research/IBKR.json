@@ -1,0 +1,277 @@
+{
+  "industry": {
+    "name": "Online Brokerage Platform — 글로벌 retail",
+    "overview": "Interactive Brokers(IBKR)는 글로벌 multi-asset(주식·옵션·선물·FX·crypto) electronic brokerage. 2025 Q4 retail 계좌수 320만 (YoY +18%), CFO Capacity 100+ 국가 직접 거래. 강점은 (1) 가장 낮은 commission, (2) 고급 trading platform (TWS), (3) margin lending 절대 우위. 한국 직접 거래 추가는 marginal product expansion 이지만 본문 thesis 의 핵심 catalyst — 글로벌 retail 의 한국 시장 게이트웨이로 작동. EPS YoY +20%+ 안정적 성장.",
+    "competitors": [
+      {
+        "name": "Interactive Brokers",
+        "ticker": "IBKR",
+        "share_pct": 5.0,
+        "moat": "multi-asset + 100+ 국가 + 최저 commission (note: 글로벌 retail #5 by accounts)"
+      },
+      {
+        "name": "Charles Schwab",
+        "ticker": "SCHW",
+        "share_pct": 1.0,
+        "moat": "scale + asset management (note: US #1 retail broker)"
+      },
+      {
+        "name": "Robinhood",
+        "ticker": "HOOD",
+        "share_pct": 1.0,
+        "moat": "zero commission + crypto (note: US retail growth #1)"
+      },
+      {
+        "name": "Tiger Brokers",
+        "ticker": "TIGR",
+        "share_pct": 0.0,
+        "moat": "Singapore + China retail"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-22",
+        "title": "1Q26 EPS +24% YoY",
+        "source": "회사 공시",
+        "summary": "global multi-asset trading volumes record"
+      },
+      {
+        "date": "2026-03-15",
+        "title": "한국 KRX 직접 거래 retail 계좌수 12만 돌파",
+        "source": "회사 발표",
+        "summary": "한국 시장 entry 성공적"
+      },
+      {
+        "date": "2026-02-20",
+        "title": "Solo proprietorship account 출시",
+        "source": "회사 발표",
+        "summary": "small business retail segment 진입"
+      },
+      {
+        "date": "2026-01-30",
+        "title": "crypto trading 12개 코인 추가",
+        "source": "회사 발표",
+        "summary": "multi-asset 영역 확장"
+      },
+      {
+        "date": "2025-12-08",
+        "title": "client equity $480B 돌파",
+        "source": "회사 공시",
+        "summary": "AUM 증가 + margin lending 확대"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 35,
+      "cagr_pct": 15,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 2980,
+        "op_income": 1860,
+        "op_margin": 62.4,
+        "net_income": 1295,
+        "net_margin": 43.5
+      },
+      {
+        "year": 2022,
+        "revenue": 3400,
+        "op_income": 2270,
+        "op_margin": 66.8,
+        "net_income": 1645,
+        "net_margin": 48.4
+      },
+      {
+        "year": 2023,
+        "revenue": 4310,
+        "op_income": 3180,
+        "op_margin": 73.8,
+        "net_income": 2235,
+        "net_margin": 51.9
+      },
+      {
+        "year": 2024,
+        "revenue": 5180,
+        "op_income": 3850,
+        "op_margin": 74.3,
+        "net_income": 2820,
+        "net_margin": 54.4
+      },
+      {
+        "year": 2025,
+        "revenue": 6250,
+        "op_income": 4720,
+        "op_margin": 75.5,
+        "net_income": 3450,
+        "net_margin": 55.2
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 152000,
+      "total_liab": 138000,
+      "equity": 14000,
+      "cash": 18500,
+      "debt": 6500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 3200,
+      "fcf_5y_avg": 2900,
+      "capex_intensity": 0.02
+    },
+    "peer_compare": [
+      {
+        "ticker": "IBKR",
+        "name": "Interactive Brokers",
+        "pe": 21.0,
+        "pb": 4.5,
+        "roe": 22.5,
+        "div_yield": 0.45
+      },
+      {
+        "ticker": "SCHW",
+        "name": "Charles Schwab",
+        "pe": 20.5,
+        "pb": 3.2,
+        "roe": 14.5,
+        "div_yield": 1.55
+      },
+      {
+        "ticker": "HOOD",
+        "name": "Robinhood",
+        "pe": 32.5,
+        "pb": 4.8,
+        "roe": 16.2,
+        "div_yield": 0.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 110,
+      "thesis": "한국 + 동남아 retail flow 가속 + crypto/options/FX cross-asset 합산 — EPS +30% YoY 지속"
+    },
+    "base": {
+      "prob_pct": 55,
+      "target_price": 95,
+      "thesis": "글로벌 retail organic +18% YoY, 한국 margin contribution 점진 확대"
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 65,
+      "thesis": "Robinhood/Tiger 경쟁 격화 + interest rate hike margin 압박"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "ongoing",
+      "event": "한국 retail 계좌수 +50% YoY 가속",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026-Q3",
+      "event": "동남아·인도 retail 진출 확대",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "client equity $500B+ 돌파",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "2026-Q4",
+      "event": "ADR cross-listing 거래 routing 가속",
+      "type": "policy",
+      "expected_impact": "0",
+      "description": ""
+    },
+    {
+      "date": "ongoing",
+      "event": "crypto 거래 단가 회복",
+      "type": "macro",
+      "expected_impact": "0",
+      "description": ""
+    }
+  ],
+  "risks": [
+    {
+      "name": "interest rate 하락 → margin lending revenue 감소",
+      "probability": "med",
+      "impact": "med",
+      "description": "확률 40% / 심각도 medium",
+      "mitigation": "다각화된 매출 mix"
+    },
+    {
+      "name": "Robinhood 등 zero-commission 경쟁 격화",
+      "probability": "high",
+      "impact": "med",
+      "description": "확률 50% / 심각도 medium",
+      "mitigation": "고급 trading platform + multi-asset 차별화"
+    },
+    {
+      "name": "한국 routing 단일성 정책 변경 가능성",
+      "probability": "med",
+      "impact": "low",
+      "description": "확률 25% / 심각도 low-medium",
+      "mitigation": "한국 외 다국적 routing 다각화"
+    },
+    {
+      "name": "PE 21 fair-high — 추가 multiple expansion 제한",
+      "probability": "med",
+      "impact": "low",
+      "description": "확률 40% / 심각도 low-medium",
+      "mitigation": "EPS 성장 +20% 정당화"
+    },
+    {
+      "name": "geopolitical risk (China 진입 제약)",
+      "probability": "med",
+      "impact": "low",
+      "description": "확률 30% / 심각도 low",
+      "mitigation": "기존 영업 mix 다각화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "id": "TD1",
+      "claim": "T01 한국 시장 직접 거래 게이트웨이 — 한 사례",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "id": "TD2",
+      "claim": "글로벌 retail platform leader 본체",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD3",
+      "claim": "multi-asset cross-platform optionality",
+      "type": "company",
+      "evidence": "지속 기간: 12+개월",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "id": "TD4",
+      "claim": "margin lending + interest revenue 안정성",
+      "type": "company",
+      "evidence": "지속 기간: 6-24개월",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": []
+}

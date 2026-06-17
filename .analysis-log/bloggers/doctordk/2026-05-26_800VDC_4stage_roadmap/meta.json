@@ -1,0 +1,28 @@
+{
+  "blogger": "doctordk",
+  "blogger_name": "의교창",
+  "blog_urls": ["https://blog.naver.com/doctordk/224297215449"],
+  "log_nos": ["224297215449"],
+  "title": "800VDC 데이터센터 전력 혁명의 주인공",
+  "post_titles": ["800VDC 데이터센터 전력 혁명의 주인공"],
+  "post_date": "2026-05-26",
+  "analysis_date": "2026-05-26",
+  "slug": "800VDC_4stage_roadmap",
+  "topic": "800VDC 데이터센터 전력 인프라 4단계 전환 로드맵 — HVDC 파워랙·SSCB·SST 채택 시점과 수혜 종목",
+  "categories": [
+    "AI 인프라",
+    "데이터센터 전력",
+    "전력반도체 (WBG: SiC/GaN)",
+    "HVDC 파워랙",
+    "SSCB / SST",
+    "BBU·BESS·슈퍼커패시터"
+  ],
+  "content_length_total": 1941,
+  "language": "ko",
+  "summary": "GPU 랙당 600kW 이상 전력밀도에서 48V/AC 한계 직면. 800VDC 전환은 4단계 로드맵으로 진행: (1) 2026~2027 White-Space Retrofit + HVDC Power Rack Sidecar(OCP Diablo 400), (2) 2027~2028 Native Compute (랙 BBU 분산형), (3) 2028~2029 Gray-Space DC화 (건물 단위 800VDC 배전), (4) 2029+ SST Endgame (MV AC → 800VDC, 부피 90% 축소·효율 99%). 수혜: HVDC 파워랙 통합사, SSCB·SST 제조사, SiC MOSFET 공급사, EPC.",
+  "related_analyses": [
+    {"slug": "2026-05-12_nvidia_800vdc_power", "relation": "predecessor — NVIDIA 800VDC framework introduction"},
+    {"slug": "2026-05-25_AI_power_bottleneck_GaN_SiC", "relation": "sibling — GaN/SiC bottleneck context"}
+  ],
+  "context_strategy": "intentional_series_context — 800VDC 산업 시리즈로 이전 분석 컨텍스트 공유. 같은 종목 universe (NVTS·VRT·ETN·WOLF·ON) 활용하되 4단계 로드맵 framing으로 thesis 재구성, 시장 데이터·sentiment·재무 fresh fetch."
+}

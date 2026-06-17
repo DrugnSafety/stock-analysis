@@ -1,0 +1,372 @@
+{
+  "ticker": "322310.KQ",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "neutral": {
+      "count": 9,
+      "pct": 69.2
+    },
+    "lean_bearish": {
+      "count": 3,
+      "pct": 23.1
+    }
+  },
+  "average_confidence": 0.58,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (2/4)"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (2/3)"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "한국 거버넌스",
+      "frequency": 2,
+      "personas": [
+        "warren-buffett",
+        "bill-ackman"
+      ],
+      "examples": [
+        "[inference] Korean chaebol 거버넌스 + 외국인 분석 한계"
+      ]
+    }
+  ],
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "key_concerns_top3": [
+        "[actual] 1Y +180% — margin of safety 부족 가능",
+        "[inference] 거버넌스 — Korean chaebol 구조 understanding 한계"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM TSV 계측 장비 — 단일 customer dependency — 'understandable business' 합치",
+        "[inference] quality + growth combo 정당화 가능"
+      ],
+      "uncertainty": "Cyclical EPS peak timing — 정상화 EPS 추정의 ±30% 오차",
+      "narrative_vs_quant_resolution": "Buffett은 quality + moat + 합리적 가격 3박자 — 오로스테크놀로지는 moat 약하거나 가격 비합리적"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "key_concerns_top3": [
+        "[inference] '한국' 친숙도 부족 — Munger는 home-bias 강한 stylist",
+        "[inference] long-term compounding 안에서 단기 trade-and-flip risk"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'HBM TSV 계측 장비 — 단일 customer dependency' — 단순 명료한 mental model 부합",
+        "[inference] 차별화 어려움 인정"
+      ],
+      "uncertainty": "10-year horizon에서 mental-model 변화 (예: AI commoditization)",
+      "narrative_vs_quant_resolution": "Munger 'simple + understandable + great business' — 오로스테크놀로지는 pricing/timing borderline"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "key_concerns_top3": [
+        "[inference] story 명확하나 PEG 검증 필요",
+        "[inference] story-driven 한국 시장은 '10 bagger' 패턴 검증 어려움 (samples 적음)"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'HBM TSV 계측 장비 — 단일 customer dependency' — 'tell it in 30 seconds' rule pass",
+        "[actual] PEG ratio compelling — PE 25.0 vs growth high (cyclical)",
+        "[inference] retail 자금 유입 모멘텀 직접 활용"
+      ],
+      "uncertainty": "Growth runway 10 → 5년으로 단축 가능성 (기술 cycle)",
+      "narrative_vs_quant_resolution": "Lynch 'invest in what you understand + reasonable PEG' — 오로스테크놀로지는 T05/T06 HBM 계측 장비 — SNS 루프 작동 입증 사례, lean_bullish primary case"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "key_concerns_top3": [
+        "[inference] 한국 종목은 ARK ETF universe 외부 — research bandwidth 제약",
+        "[actual] PE 25.0 — disruption 가격 정상화 시 -30%~-50% 가능성"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'HBM TSV 계측 장비 — 단일 customer dependency' — 5-year 5x potential 구조",
+        "[inference] small-cap 숨은 disruption 노출"
+      ],
+      "uncertainty": "ARK 5-year price target 검증 — TAM/penetration assumptions",
+      "narrative_vs_quant_resolution": "Wood은 'disruptive innovation + 5-year 5x' — 오로스테크놀로지는 platform-adjacent"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "key_concerns_top3": [
+        "[inference] earnings sustainability 의심",
+        "[inference] retail 매수 driven 가격 — 투기적 inflow 후 -50% 단기 가능"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 가격 reset 시 entry 매력",
+        "[inference] 시장이 cyclic peak 라 보지만 실제 secular trend 가능 (asymmetric)"
+      ],
+      "uncertainty": "Mean reversion timing — 6 vs 24개월",
+      "narrative_vs_quant_resolution": "Burry 'deep value + asymmetric pay-off + contrarian' — 오로스테크놀로지는 wait for reset"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "key_concerns_top3": [
+        "[inference] small-cap + retail-driven price = fragility (ergodicity break)",
+        "[actual] 변동성 (1Y +180%, 1M +18.0%) — leverage 노출 위험"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 위기 시 quality compounder 역할",
+        "[actual] 한국 시장 외국인 retail flow 변화는 multi-vector — single point of failure 없음"
+      ],
+      "uncertainty": "Geopolitical tail (한반도 risk) — historical low probability but high impact",
+      "narrative_vs_quant_resolution": "Taleb 'antifragility + skin in the game' — 오로스테크놀로지는 fragility 우려"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "persona_kr": "벤 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "key_concerns_top3": [
+        "[actual] PE 25.0 — Graham 의 PE<15 기준 위반",
+        "[inference] '시장가 대비 본질가치' 평가 — Korean accounting standards 적용 시 +10-15% 보수적"
+      ],
+      "key_opportunities_top3": [
+        "[inference] cyclical normalization 후 entry",
+        "[inference] tangible book + dividend yield combination — defensive base"
+      ],
+      "uncertainty": "Earnings normalization — 10-year average EPS의 ±30% 오차",
+      "narrative_vs_quant_resolution": "Graham '본질가치 - 30% margin of safety' — 오로스테크놀로지는 price too high vs earnings"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "persona_kr": "빌 애크만",
+      "persona_en": "Bill Ackman",
+      "key_concerns_top3": [
+        "[inference] Korean chaebol 거버넌스 — activist 진입 어려움 (지분 + 법적 제약)",
+        "[inference] catalyst timing 불확실"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM TSV 계측 장비 — 단일 customer dependency — concentrated bet",
+        "[actual] 외국인 retail inflow → 거버넌스 pressure 증가 가능"
+      ],
+      "uncertainty": "Activist catalyst realization — 12-36개월",
+      "narrative_vs_quant_resolution": "Ackman 'concentrated + governance catalyst' — 오로스테크놀로지는 concentrated quality 합리"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "key_concerns_top3": [
+        "[inference] 'Few bets, big bets' — concentrated 종목 선정에서 stress test 필요",
+        "[inference] cycle peak detection"
+      ],
+      "key_opportunities_top3": [
+        "[inference] quality moat + 합리적 가격",
+        "[inference] special situation: 한국 시장 접근성 변화 → 단발 catalyst",
+        "[inference] cloning Buffett: AI infrastructure exposure"
+      ],
+      "uncertainty": "10-year hold period 안에서 narrative 변화 — 한국 chaebol 특수성",
+      "narrative_vs_quant_resolution": "Pabrai 'few bets, big bets, concentrated' — 오로스테크놀로지는 wait for entry"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "key_concerns_top3": [
+        "[inference] 'Scuttlebutt' channel — Korean 종목 management interview 어려움",
+        "[inference] R&D / customer relationship 검증"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 'HBM TSV 계측 장비 — 단일 customer dependency' — 15가지 점 중 'distinctive product or service' 충족",
+        "[actual] 외국인 retail flow → management 외부 visibility 증가"
+      ],
+      "uncertainty": "Management quality 직접 verification 어려움 (언어/문화 barrier)",
+      "narrative_vs_quant_resolution": "Fisher 'quality growth + scuttlebutt' — 오로스테크놀로지는 borderline"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "key_concerns_top3": [
+        "[inference] EM (Korean) 환율 변동성 — KRW/USD ±15% 단기 가능",
+        "[actual] PE 25.0 — India peers 대비 비교"
+      ],
+      "key_opportunities_top3": [
+        "[inference] EM growth structural — 한국 reform/value-up program tailwind",
+        "[inference] 'HBM TSV 계측 장비 — 단일 customer dependency' — Asia/EM macro tailwind 직접 활용"
+      ],
+      "uncertainty": "Korean macroeconomic stability — geopolitical + chaebol 거버넌스",
+      "narrative_vs_quant_resolution": "Jhunjhunwala 'EM + structural growth + good management' — 오로스테크놀로지는 EM tailwind exposure 적합"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "key_concerns_top3": [
+        "[inference] cycle timing 모호",
+        "[inference] Fed pivot → emerging market FX risk; 한국 종목 USD 환산 가치 변동"
+      ],
+      "key_opportunities_top3": [
+        "[inference] HBM TSV 계측 장비 — 단일 customer dependency",
+        "[inference] 한국 외국인 retail flow 변화 = macro structural change"
+      ],
+      "uncertainty": "Cycle peak timing — 6 vs 24개월",
+      "narrative_vs_quant_resolution": "Druckenmiller 'macro + cycle + concentration' — 오로스테크놀로지는 late cycle but secular tailwind"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "key_concerns_top3": [
+        "[inference] DCF reverse — 현재 가격이 함의하는 long-term growth borderline",
+        "[inference] story-to-numbers gap — narrative 이 정량 backing 부족"
+      ],
+      "key_opportunities_top3": [
+        "[actual] PE 25.0 forward — earnings yield 4.0%, 10Y bond yield 4.2% 대비",
+        "[inference] terminal value assumption — 한국 시장 mature 수렴"
+      ],
+      "uncertainty": "Equity risk premium (한국 +1.5%pt vs 글로벌) 정량 적용 시 fair value 변동 ±20%",
+      "narrative_vs_quant_resolution": "Damodaran 'DCF + reverse engineering' — 오로스테크놀로지는 narrative-implied가 fundamental 초과"
+    }
+  }
+}

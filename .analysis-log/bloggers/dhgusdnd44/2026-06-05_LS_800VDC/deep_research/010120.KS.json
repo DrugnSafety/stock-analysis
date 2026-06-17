@@ -1,0 +1,193 @@
+{
+  "industry": {
+    "name": "전력기기",
+    "overview": "전력기기 산업은 초고압 변압기, 배전반, 차단기, ESS PCS, SST 등 다양한 전력 관련 장비를 제조·공급하는 산업임. 특히, 데이터센터 및 대규모 전력 수요처의 증가로 인해 초고압 전력기기의 수요가 증가하고 있음. 국내외 전력 인프라의 현대화와 효율성 향상이 주요 트렌드로, 800V DC 전환과 같은 기술 혁신이 산업 전반에 걸쳐 영향을 미치고 있음.",
+    "competitors": [
+      {
+        "name": "현대일렉트릭",
+        "ticker": "267260.KS",
+        "share_pct": null,
+        "moat": "국내외 다양한 프로젝트 경험과 기술력"
+      },
+      {
+        "name": "효성중공업",
+        "ticker": "298040.KS",
+        "share_pct": null,
+        "moat": "고효율 전력기기 및 변압기 기술"
+      },
+      {
+        "name": "지멘스",
+        "ticker": "SIEGY",
+        "share_pct": null,
+        "moat": "글로벌 네트워크와 혁신적인 전력 솔루션"
+      }
+    ],
+    "demand_drivers": [
+      "데이터센터 전력 수요 증가",
+      "전력 인프라 현대화",
+      "에너지 효율성 요구 증가",
+      "신재생 에너지 확대"
+    ],
+    "supply_dynamics": "전력기기 산업은 기술 집약적이며, 주요 원재료인 구리 및 철강 가격 변동에 민감함. 글로벌 공급망 이슈와 환경 규제 강화로 인해 생산 비용이 상승할 가능성이 있음. 그러나 기술 혁신과 자동화로 인해 생산 효율성이 개선되고 있음."
+  },
+  "financials": {
+    "currency": "KRW (billions, 십억원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 3377.1,
+        "op_income": 189.0,
+        "op_margin": 5.6,
+        "net_income": 90.3,
+        "net_margin": 2.7
+      },
+      {
+        "year": 2023,
+        "revenue": 4230.5,
+        "op_income": 324.9,
+        "op_margin": 7.7,
+        "net_income": 206.0,
+        "net_margin": 4.9
+      },
+      {
+        "year": 2024,
+        "revenue": 4551.8,
+        "op_income": 391.1,
+        "op_margin": 8.6,
+        "net_income": 238.7,
+        "net_margin": 5.2
+      },
+      {
+        "year": 2025,
+        "revenue": 4965.8,
+        "op_income": 426.5,
+        "op_margin": 8.6,
+        "net_income": 286.6,
+        "net_margin": 5.8
+      }
+    ],
+    "pl_note": "전력기기 본업 — 데이터센터·전력망 capex 사이클 수혜. 변압기·배전반 수주잔고와 미국 매출 비중이 thesis 핵심 검증 지표.",
+    "bs_snapshot": {
+      "total_assets": 4956.7,
+      "total_liab": 2815.4,
+      "equity": 2069.8,
+      "cash": 762.7,
+      "debt": 1389.6,
+      "market_cap": 33774.3,
+      "_note": "yfinance balance_sheet 최신 회계연도 기준 (KRW (billions, 십억원))."
+    },
+    "cf_summary": {
+      "note": "yfinance 기준 — 상세 CF는 재무제표 섹션 참조"
+    },
+    "peer_compare": [
+      {
+        "ticker": "010120.KS",
+        "fwd_pe": 52.2,
+        "pb": null,
+        "note": "current_price=227000.0"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 270000.0,
+      "thesis": "800V DC 전환 가속화로 데이터센터 전력기기 수요 폭발적 증가, LS ELECTRIC의 시장 점유율 확대",
+      "key_assumptions": [
+        "800V DC 전환이 2025년까지 주요 데이터센터에 도입됨",
+        "LS ELECTRIC의 미국 시장 진출 성공",
+        "SST 전환 기술 개발 및 상용화 성공"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 240000.0,
+      "thesis": "점진적 800V DC 전환과 안정적 전력기기 수요로 꾸준한 성장",
+      "key_assumptions": [
+        "데이터센터 수요 안정적 증가",
+        "국내 전력기기 시장 점유율 유지",
+        "기술 개발 지속 및 경쟁력 확보"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 200000.0,
+      "thesis": "800V DC 전환 지연 및 경쟁 심화로 인해 성장 둔화",
+      "key_assumptions": [
+        "800V DC 전환 지연",
+        "경쟁사의 기술적 우위 확보",
+        "원자재 가격 급등으로 인한 비용 증가"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2025-06-01",
+      "event": "800V DC 전환 관련 기술 발표",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "800V DC 전환 기술의 상용화 및 시장 도입 계획 발표"
+    },
+    {
+      "date": "2024-12-15",
+      "event": "미국 데이터센터 전력기기 공급 계약 체결",
+      "type": "business",
+      "expected_impact": "+",
+      "description": "미국 주요 데이터센터와의 대규모 공급 계약 체결"
+    },
+    {
+      "date": "2024-03-31",
+      "event": "연간 실적 발표",
+      "type": "earnings",
+      "expected_impact": "○",
+      "description": "2024년 실적 발표 및 향후 성장 전략 제시"
+    }
+  ],
+  "risks": [
+    {
+      "name": "800V DC 전환 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "기술적 문제나 규제 이슈로 인해 800V DC 전환이 지연될 가능성",
+      "mitigation": "기술 개발 가속화 및 규제 대응 전략 수립"
+    },
+    {
+      "name": "경쟁 심화",
+      "probability": "high",
+      "impact": "med",
+      "description": "국내외 경쟁사의 기술 혁신 및 시장 점유율 확대",
+      "mitigation": "차별화된 기술 개발 및 고객 관계 강화"
+    },
+    {
+      "name": "원자재 가격 변동",
+      "probability": "med",
+      "impact": "med",
+      "description": "구리 및 철강 가격 변동으로 인한 생산 비용 증가",
+      "mitigation": "원자재 가격 헤지 및 대체 소재 연구"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "800V DC 전환이 데이터센터 전력 효율성을 크게 개선함",
+      "type": "empirical",
+      "evidence": "800V DC로 전환 시 전력 효율이 5% 개선됨",
+      "testability": "high",
+      "current_status": "in-progress"
+    },
+    {
+      "claim": "LS ELECTRIC이 800V DC 전환의 핵심 수혜주임",
+      "type": "industry",
+      "evidence": "국내 1위 전력기기 업체로서 데이터센터 관련 전력기기 공급",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "미국 데이터센터 시장에서의 기회 확대",
+      "type": "macro",
+      "evidence": "미국 전력망의 예비 용량 부족 현상",
+      "testability": "med",
+      "current_status": "in-progress"
+    }
+  ],
+  "korean_disclosures": []
+}

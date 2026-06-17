@@ -1,0 +1,1127 @@
+{
+  "ticker": "009150.KS",
+  "ticker_name": "삼성전기",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 5,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "mohnish-pabrai",
+        "bill-ackman",
+        "aswath-damodaran"
+      ],
+      "pct": 38.5
+    },
+    "lean_bearish": {
+      "count": 3,
+      "personas": [
+        "ben-graham",
+        "michael-burry",
+        "nassim-taleb"
+      ],
+      "pct": 23.1
+    },
+    "lean_bullish": {
+      "count": 5,
+      "personas": [
+        "peter-lynch",
+        "cathie-wood",
+        "phil-fisher",
+        "stanley-druckenmiller",
+        "rakesh-jhunjhunwala"
+      ],
+      "pct": 38.5
+    }
+  },
+  "average_confidence": 0.592,
+  "style_split": {
+    "value": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral (3/3)"
+    },
+    "deep-value": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.56
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.67
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "disruption": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "growth-quality": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.63
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bearish (1/1)"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.67
+        }
+      ],
+      "dominant": "lean_bullish (1/1)"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.52
+        }
+      ],
+      "dominant": "neutral (1/1)"
+    }
+  },
+  "key_themes": {
+    "universal_concern": "fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+    "universal_opportunity": "1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating"
+  },
+  "persona_results": {
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "워런 버핏은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating의 성장 잠재력과 'fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "워런 버핏: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "워런 버핏: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "워런 버핏: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "워런 버핏: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "워런 버핏: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.58
+        }
+      ],
+      "signal_score": 0.494,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "찰리 멍거은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating의 성장 잠재력과 'fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "찰리 멍거: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        }
+      ],
+      "signal_score": 0.494,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.56,
+      "horizon": "long_term",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "style": "deep-value",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "벤저민 그레이엄은(는) 'fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle'를 결정적 리스크로 봄 — 성장 서사보다 밸류·변동성 경계가 우선해 lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "벤저민 그레이엄: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "벤저민 그레이엄: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 반박/경계 (삼성전기 관점)",
+          "confidence": 0.58
+        }
+      ],
+      "signal_score": 0.421,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "style": "value",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "모니시 파브라이은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating의 성장 잠재력과 'fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "모니시 파브라이: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        }
+      ],
+      "signal_score": 0.494,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "short_term",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "style": "contrarian",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "마이클 버리은(는) 'fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle'를 결정적 리스크로 봄 — 성장 서사보다 밸류·변동성 경계가 우선해 lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "마이클 버리: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 반박/경계 (삼성전기 관점)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "마이클 버리: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "마이클 버리: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 반박/경계 (삼성전기 관점)",
+          "confidence": 0.62
+        }
+      ],
+      "signal_score": 0.383,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.67,
+      "horizon": "medium_term",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "style": "growth",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "피터 린치은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating을 핵심 동력으로 보고 MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키 moat을 높게 평가 — 밸류 부담에도 lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "피터 린치: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "피터 린치: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "피터 린치: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "피터 린치: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "피터 린치: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "피터 린치: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "피터 린치: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "피터 린치: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        }
+      ],
+      "signal_score": 0.747,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "style": "disruption",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "캐시 우드은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating을 핵심 동력으로 보고 MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키 moat을 높게 평가 — 밸류 부담에도 lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "캐시 우드: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "캐시 우드: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "캐시 우드: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "캐시 우드: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "캐시 우드: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "캐시 우드: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "캐시 우드: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "캐시 우드: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        }
+      ],
+      "signal_score": 0.816,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.63,
+      "horizon": "long_term",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Phil Fisher",
+      "style": "growth-quality",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "필립 피셔은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating을 핵심 동력으로 보고 MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키 moat을 높게 평가 — 밸류 부담에도 lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "필립 피셔: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "필립 피셔: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "필립 피셔: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "필립 피셔: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "필립 피셔: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "필립 피셔: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "필립 피셔: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "필립 피셔: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        }
+      ],
+      "signal_score": 0.688,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "medium_term",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "style": "macro",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "스탠리 드러켄밀러은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating을 핵심 동력으로 보고 MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키 moat을 높게 평가 — 밸류 부담에도 lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        }
+      ],
+      "signal_score": 0.755,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "style": "activist",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "빌 애크먼은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating의 성장 잠재력과 'fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "빌 애크먼: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.66
+        }
+      ],
+      "signal_score": 0.62,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb",
+      "style": "risk",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "나심 탈레브은(는) 'fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle'를 결정적 리스크로 봄 — 성장 서사보다 밸류·변동성 경계가 우선해 lean_bearish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T02",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T03",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T04",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 반박/경계 (삼성전기 관점)",
+          "confidence": 0.62
+        },
+        {
+          "claim_id": "T05",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T06",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T07",
+          "stance": "neutral",
+          "rationale": "나심 탈레브: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.52
+        },
+        {
+          "claim_id": "T08",
+          "stance": "challenge",
+          "rationale": "나심 탈레브: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 반박/경계 (삼성전기 관점)",
+          "confidence": 0.62
+        }
+      ],
+      "signal_score": 0.387,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.67,
+      "horizon": "long_term",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "style": "growth-em",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "라케시 준준왈라은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating을 핵심 동력으로 보고 MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키 moat을 높게 평가 — 밸류 부담에도 lean_bullish",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T04",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.72
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        },
+        {
+          "claim_id": "T08",
+          "stance": "support",
+          "rationale": "라케시 준준왈라: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.82
+        }
+      ],
+      "signal_score": 0.745,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "medium_term",
+      "persona_kr": "애스워스 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "style": "valuation",
+      "key_concerns_top3": [
+        "[actual] fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle",
+        "[actual] Forward PE 58.97× — 밸류 부담",
+        "[actual] 1Y +1323% / 변동성 66% — 과열·고변동"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating",
+        "[inference] MLCC 글로벌 2위 + FCBGA 기판 + Si-cap 선점 + AI 패키징 턴키",
+        "[inference] thesis 정렬도 very_high — 실리콘 커패시터 밸류체인 직접/간접 수혜"
+      ],
+      "uncertainty": "삼성전기: 신사업 ramp 실현 vs 밸류에이션/변동성",
+      "narrative_vs_quant_resolution": "애스워스 다모다란은(는) 1.557조 계약 + 2028 Si-cap 매출 1조 + 추가 빅테크 수주 + 황제주 re-rating의 성장 잠재력과 'fwd PE 59× 과열·신사업 매출 비중 1% 미만·MLCC 본업 cycle'를 저울질 — 확신 부족으로 neutral",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T01",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '실리콘 커패시터는 MLCC 한계를 넘는 차세대 AI 전력 수동부품' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T02",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '삼성전기-네패스 팹리스-OSAT 분업(깐부) 구조' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T03",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '1.557조 장기 공급계약 = 신사업 첫 대규모 상업화' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T04",
+          "stance": "neutral",
+          "rationale": "애스워스 다모다란: 'Si-cap 매출 2026 300억→2028 1조 급성장(증권사 추정)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T05",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '칩 근접 내장 트렌드 → FCBGA 기판 밸류체인 동반 수혜' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.74
+        },
+        {
+          "claim_id": "T06",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '수요=커스텀 AI 실리콘(Marvell 등)+빅테크 자체칩 capex' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T07",
+          "stance": "support",
+          "rationale": "애스워스 다모다란: '설계+기판+Si-cap+후공정 AI 패키징 턴키 moat' — 검증 가능/지지 (삼성전기 관점)",
+          "confidence": 0.64
+        },
+        {
+          "claim_id": "T08",
+          "stance": "neutral",
+          "rationale": "애스워스 다모다란: 'Si-cap = 삼성전기 valuation re-rating 핵심(황제주·목표가 160만)' — 중립·추가확인 (삼성전기 관점)",
+          "confidence": 0.56
+        }
+      ],
+      "signal_score": 0.533,
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기"
+    }
+  }
+}

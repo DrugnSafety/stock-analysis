@@ -1,0 +1,57 @@
+{
+  "industry": {
+    "name": "원전·SMR·가스터빈 (전력 인프라)",
+    "overview": "AI 데이터센터의 24/7 안정 전력 수요로 '발전량'보다 '기저전력+안정공급'이 핵심이 되며 원전·SMR이 재평가. 두산에너빌리티는 대형원전 주기기(원자로·증기발생기) 국내 독점에 가까운 제작 역량 + SMR 파운드리(뉴스케일·X-energy 등 협력) + 가스터빈 국산화를 보유. 빅테크의 원전 PPA·SMR 발주 흐름(MS·아마존·구글)의 직접 수혜 후보. 단 매출 인식까지 리드타임이 길어 fPE 100배대는 미래 수주 기대 선반영.",
+    "competitors": [
+      {"name": "두산에너빌리티", "ticker": "034020.KS", "share_pct": 0.0, "moat": "대형원전 주기기 제작 + SMR 파운드리 + 가스터빈 국산화"},
+      {"name": "NuScale", "ticker": "SMR", "share_pct": 0.0, "moat": "SMR 설계 인증 선도(NRC)"},
+      {"name": "GE Vernova", "ticker": "GEV", "share_pct": 0.0, "moat": "가스터빈·원전·전력기기 글로벌"}
+    ],
+    "news": [
+      {"date": "2026", "title": "AI 데이터센터 전력난으로 원전·SMR 발주 모멘텀", "source": "언론", "summary": "빅테크 원전 PPA·SMR 협력 확대 — 두산에너빌리티 수주 파이프 기대"},
+      {"date": "2026-05", "title": "두산에너빌리티 1M -18% 조정", "source": "시세", "summary": "기대 선반영 후 단기 차익실현 — fPE 100배대 부담 반영"}
+    ],
+    "market_size": {"current_usd_bn": 60.0, "cagr_pct": 15.0, "horizon": "2024-2035 (SMR 상업화 본격화 시 가속)"}
+  },
+  "financials": {
+    "pl_5y": [
+      {"year": 2021, "revenue": 11500, "op_income": 950, "op_margin": 8.3, "net_income": 400, "net_margin": 3.5},
+      {"year": 2022, "revenue": 15422, "op_income": 1106, "op_margin": 7.2, "net_income": 500, "net_margin": 3.2},
+      {"year": 2023, "revenue": 17589, "op_income": 1460, "op_margin": 8.3, "net_income": 550, "net_margin": 3.1},
+      {"year": 2024, "revenue": 16000, "op_income": 1200, "op_margin": 7.5, "net_income": 450, "net_margin": 2.8},
+      {"year": "2025E", "revenue": 17500, "op_income": 1500, "op_margin": 8.6, "net_income": 700, "net_margin": 4.0}
+    ],
+    "bs_snapshot": {"total_assets": 32000, "total_liab": 19000, "equity": 13000, "cash": 2000, "debt": 8000},
+    "cf_summary": {"ocf_5y_avg": 1300, "fcf_5y_avg": 200, "capex_intensity": 0.06},
+    "peer_compare": [
+      {"ticker": "034020.KS", "name": "두산에너빌리티", "pe": 105.0, "pb": 2.5, "roe": 3.5, "div_yield": 0.0},
+      {"ticker": "SMR", "name": "NuScale", "pe": 0.0, "pb": 8.0, "roe": -20.0, "div_yield": 0.0},
+      {"ticker": "GEV", "name": "GE Vernova", "pe": 45.0, "pb": 6.0, "roe": 12.0, "div_yield": 0.3}
+    ],
+    "_note": "KRW 십억원. Bobcat 분리 등 구조변경으로 연도별 연결범위 차이 — 근사치. fPE 100배대는 미래 SMR·원전 수주 기대 선반영, 실적 인식 시차 큼."
+  },
+  "scenarios": {
+    "bull": {"prob_pct": 30, "target_price": 160000, "thesis": "SMR 상업 수주 본격화 + 대형원전 신규 + 가스터빈 수출, 수주잔고 급증", "key_assumptions": ["SMR 발주 가시화", "원전 르네상스 정책", "수주→매출 전환"]},
+    "base": {"prob_pct": 45, "target_price": 105000, "thesis": "전력 병목 수혜 지속하나 SMR 상업화 지연으로 기대 선반영 소화", "key_assumptions": ["원전 주기기 수주 견조", "SMR 파일럿 단계", "fPE 점진 정상화"]},
+    "bear": {"prob_pct": 25, "target_price": 65000, "thesis": "SMR 상업화 지연·FOAK 비용 + 기대 과열 되돌림", "key_assumptions": ["SMR 일정 지연", "fPE 디레이팅", "수주 모멘텀 둔화"]}
+  },
+  "catalysts": [
+    {"date": "2026-2027", "event": "SMR 상업 수주·뉴스케일/X-energy 진척", "type": "order", "expected_impact": "+", "description": "SMR 파운드리 매출 가시화"},
+    {"date": "2026", "event": "국내외 대형원전 신규 수주", "type": "order", "expected_impact": "+", "description": "주기기 수주잔고 확대"},
+    {"date": "2026-2027", "event": "가스터빈 국산화·수출 레퍼런스", "type": "product", "expected_impact": "+", "description": "발전 포트폴리오 다변화"},
+    {"date": "상시", "event": "밸류에이션 부담 현실화", "type": "valuation", "expected_impact": "-", "description": "fPE 100배대 조정 위험"}
+  ],
+  "risks": [
+    {"name": "SMR 상업화 지연·FOAK 비용", "probability": "high", "impact": "high", "description": "인허가·초도호기 비용 불확실로 매출 이연 위험", "mitigation": "복수 SMR 파트너십"},
+    {"name": "story-stock 밸류 되돌림", "probability": "med", "impact": "high", "description": "fPE 100배대는 기대 선반영 — 모멘텀 둔화 시 급락", "mitigation": "수주잔고 실현으로 정당화"},
+    {"name": "프로젝트 실행·원가 리스크", "probability": "med", "impact": "med", "description": "대형 EPC 원가·공기 변동성", "mitigation": "수주 심사 강화"},
+    {"name": "정책·인허가 변동", "probability": "med", "impact": "med", "description": "원전 정책 방향성 변동", "mitigation": "글로벌 수주 다변화"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "AI가 전력 산업 재편 → 원전·SMR 재평가 (T07)", "type": "predictive", "evidence": "빅테크 원전 PPA·SMR 발주 흐름", "testability": "high", "current_status": "in_progress"},
+    {"claim": "데이터센터 전력 수요 폭증 (T03)", "type": "predictive", "evidence": "IEA 데이터센터 전력 2~3배 전망", "testability": "high", "current_status": "in_progress"},
+    {"claim": "병목(전력) 보유 기업 초과수익 (T09)", "type": "normative", "evidence": "안정 기저전력 공급 비탄력", "testability": "medium", "current_status": "pending"},
+    {"claim": "story-stock 밸류 정당화 여부", "type": "predictive", "evidence": "fPE 100배대 — 수주 실현 필요", "testability": "medium", "current_status": "contested"}
+  ],
+  "korean_disclosures": []
+}

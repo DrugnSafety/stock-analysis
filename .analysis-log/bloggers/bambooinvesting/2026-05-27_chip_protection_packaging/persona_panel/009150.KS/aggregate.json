@@ -1,0 +1,1042 @@
+{
+  "ticker": "009150.KS",
+  "ticker_name": "삼성전기",
+  "n_personas": 13,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 6,
+      "pct": 46.2
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 7.7
+    },
+    "lean_bearish": {
+      "count": 6,
+      "pct": 46.2
+    }
+  },
+  "average_confidence": 0.81,
+  "style_split": {
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bearish (4/4) 만장일치!"
+    },
+    "growth": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.95
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.95
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.95
+        },
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.95
+        }
+      ],
+      "dominant": "lean_bullish (4/4) 만장일치!"
+    },
+    "macro": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish (1/1) 만장일치!"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.95
+        }
+      ],
+      "dominant": "lean_bearish (1/1) 만장일치!"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish (1/1) 만장일치!"
+    },
+    "antifragile": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bearish (1/1) 만장일치!"
+    },
+    "academic_dcf": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.56
+        }
+      ],
+      "dominant": "neutral (1/1) 만장일치!"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "Valuation overshoot",
+      "frequency": 8,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "phil-fisher",
+        "cathie-wood",
+        "stanley-druckenmiller",
+        "michael-burry",
+        "ben-graham"
+      ],
+      "examples": [
+        "Forward PE 30x+ 종목 다수 — historical 평균 대비 2-3x premium",
+        "YTD +200~500% momentum exhaustion risk"
+      ]
+    },
+    {
+      "theme": "AI capex cycle peak",
+      "frequency": 9,
+      "personas": [
+        "warren-buffett",
+        "charlie-munger",
+        "peter-lynch",
+        "phil-fisher",
+        "cathie-wood",
+        "stanley-druckenmiller",
+        "michael-burry",
+        "ben-graham",
+        "bill-ackman"
+      ],
+      "examples": [
+        "Hyperscaler 2027 capex 가이드 둔화 시 패키징 demand 급락",
+        "2027 H2 ~ 2028 H1 oversupply risk"
+      ]
+    },
+    {
+      "theme": "Chinese OSAT catch-up",
+      "frequency": 6,
+      "personas": [
+        "phil-fisher",
+        "cathie-wood",
+        "stanley-druckenmiller",
+        "michael-burry",
+        "ben-graham",
+        "bill-ackman"
+      ],
+      "examples": [
+        "JCET·TFME ABF 자체 capacity 증설",
+        "3-5년 시계 oligopoly 약화"
+      ]
+    }
+  ],
+  "persona_results": {
+    "peter-lynch": {
+      "persona_id": "peter-lynch",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bullish",
+      "confidence": 0.95,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] YTD +492% 후 PEG 비교 — earnings growth 50% 가정 시 PEG ~0.7 (여전히 매력) but earning growth deceleration 시 PEG > 1",
+        "[inference] 'too well known' — Lynch 격언 '이미 모두 알면 늦었다' 적용 가능",
+        "[actual] AI 기판은 high-end commodity — switching cost 인정하나 무한대 아님"
+      ],
+      "key_opportunities_top3": [
+        "[actual] OPM 9.2% → 15.8% — Lynch가 좋아하는 margin expansion",
+        "[inference] 'invest in what you know' — 삼성전기 비즈니스 단순 명확",
+        "[actual] 1.5조 계약 = 신규 사업 design-in — Lynch의 'category killer' 패턴"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "Lynch는 PEG 기반 — 만약 EPS growth 2026E +80% 가정 시 PEG ~0.4 (very attractive). but growth deceleration risk가 lean_bullish 정도로 제한.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "피터 린치 lens: T1 명제에 대해 'support' — PEG ratio + 'invest in what you know' + 산업 cycle 직관 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "피터 린치 lens: T2 명제에 대해 'support' — PEG ratio + 'invest in what you know' + 산업 cycle 직관 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "피터 린치 lens: T3 명제에 대해 'support' — PEG ratio + 'invest in what you know' + 산업 cycle 직관 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "피터 린치 lens: T4 명제에 대해 'neutral' — PEG ratio + 'invest in what you know' + 산업 cycle 직관 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "피터 린치 lens: T5 명제에 대해 'neutral' — PEG ratio + 'invest in what you know' + 산업 cycle 직관 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "피터 린치 lens: T6 명제에 대해 'neutral' — PEG ratio + 'invest in what you know' + 산업 cycle 직관 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "피터 린치 lens: T7 명제에 대해 'neutral' — PEG ratio + 'invest in what you know' + 산업 cycle 직관 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "rakesh-jhunjhunwala": {
+      "persona_id": "rakesh-jhunjhunwala",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bullish",
+      "confidence": 0.95,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] valuation 변동성 — 단기 momentum 추격 risk",
+        "[inference] AI capex 사이클 dependence — peak timing 우려",
+        "[actual] cycle 변동성 잔존 — semiconductor·전력기기 모두 cyclical"
+      ],
+      "key_opportunities_top3": [
+        "[actual] thesis와 직접 정렬 — 블로그의 핵심 logic 직접 수혜",
+        "[inference] 산업 capex 사이클 + 가격 결정력 18M+ 지속",
+        "[actual] 수요 > 공급 환경 — pricing leverage"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "thesis 정렬도와 valuation 사이의 트레이드오프 — 페르소나 lens에 따른 verdict 분기.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens: T1 명제에 대해 'support' — emerging market growth + 'pyramid your winners' + 인내 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens: T2 명제에 대해 'support' — emerging market growth + 'pyramid your winners' + 인내 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "라케시 준준왈라 lens: T3 명제에 대해 'support' — emerging market growth + 'pyramid your winners' + 인내 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라 lens: T4 명제에 대해 'neutral' — emerging market growth + 'pyramid your winners' + 인내 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라 lens: T5 명제에 대해 'neutral' — emerging market growth + 'pyramid your winners' + 인내 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라 lens: T6 명제에 대해 'neutral' — emerging market growth + 'pyramid your winners' + 인내 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "라케시 준준왈라 lens: T7 명제에 대해 'neutral' — emerging market growth + 'pyramid your winners' + 인내 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "charlie-munger": {
+      "persona_id": "charlie-munger",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] valuation 변동성 — 단기 momentum 추격 risk",
+        "[inference] AI capex 사이클 dependence — peak timing 우려",
+        "[actual] cycle 변동성 잔존 — semiconductor·전력기기 모두 cyclical"
+      ],
+      "key_opportunities_top3": [
+        "[actual] thesis와 직접 정렬 — 블로그의 핵심 logic 직접 수혜",
+        "[inference] 산업 capex 사이클 + 가격 결정력 18M+ 지속",
+        "[actual] 수요 > 공급 환경 — pricing leverage"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "thesis 정렬도와 valuation 사이의 트레이드오프 — 페르소나 lens에 따른 verdict 분기.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "challenge",
+          "rationale": "찰리 멍거 lens: T1 명제에 대해 'challenge' — lattice mental model + simple competitive advantage + 합리적 가격 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 lens: T2 명제에 대해 'neutral' — lattice mental model + simple competitive advantage + 합리적 가격 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "challenge",
+          "rationale": "찰리 멍거 lens: T3 명제에 대해 'challenge' — lattice mental model + simple competitive advantage + 합리적 가격 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 lens: T4 명제에 대해 'neutral' — lattice mental model + simple competitive advantage + 합리적 가격 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 lens: T5 명제에 대해 'neutral' — lattice mental model + simple competitive advantage + 합리적 가격 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 lens: T6 명제에 대해 'neutral' — lattice mental model + simple competitive advantage + 합리적 가격 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "찰리 멍거 lens: T7 명제에 대해 'neutral' — lattice mental model + simple competitive advantage + 합리적 가격 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "mohnish-pabrai": {
+      "persona_id": "mohnish-pabrai",
+      "persona_kr": "모니쉬 파브라이",
+      "persona_en": "Mohnish Pabrai",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] valuation 변동성 — 단기 momentum 추격 risk",
+        "[inference] AI capex 사이클 dependence — peak timing 우려",
+        "[actual] cycle 변동성 잔존 — semiconductor·전력기기 모두 cyclical"
+      ],
+      "key_opportunities_top3": [
+        "[actual] thesis와 직접 정렬 — 블로그의 핵심 logic 직접 수혜",
+        "[inference] 산업 capex 사이클 + 가격 결정력 18M+ 지속",
+        "[actual] 수요 > 공급 환경 — pricing leverage"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "thesis 정렬도와 valuation 사이의 트레이드오프 — 페르소나 lens에 따른 verdict 분기.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "challenge",
+          "rationale": "모니쉬 파브라이 lens: T1 명제에 대해 'challenge' — 'few bets, big bets, infrequent bets' + Dhandho framework + cloned wisdom 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 lens: T2 명제에 대해 'neutral' — 'few bets, big bets, infrequent bets' + Dhandho framework + cloned wisdom 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "challenge",
+          "rationale": "모니쉬 파브라이 lens: T3 명제에 대해 'challenge' — 'few bets, big bets, infrequent bets' + Dhandho framework + cloned wisdom 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 lens: T4 명제에 대해 'neutral' — 'few bets, big bets, infrequent bets' + Dhandho framework + cloned wisdom 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 lens: T5 명제에 대해 'neutral' — 'few bets, big bets, infrequent bets' + Dhandho framework + cloned wisdom 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 lens: T6 명제에 대해 'neutral' — 'few bets, big bets, infrequent bets' + Dhandho framework + cloned wisdom 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "모니쉬 파브라이 lens: T7 명제에 대해 'neutral' — 'few bets, big bets, infrequent bets' + Dhandho framework + cloned wisdom 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "warren-buffett": {
+      "persona_id": "warren-buffett",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Forward P/E 35x vs 5년 평균 14x — 2.5배 premium. margin of safety 부족.",
+        "[inference] YTD +492% 후 valuation overshoot — Buffett 격언 'be fearful when others greedy' 적용 시기",
+        "[actual] AI 기판 demand가 capex 사이클 dependent — chip 보호 부품 가격 결정력이 18-24M 후 약화 가능"
+      ],
+      "key_opportunities_top3": [
+        "[actual] 글로벌 부품사 중 MLCC+FCBGA+실리콘 커패시터 통합 — Buffett 'wide moat' 정의 일치",
+        "[actual] ROE 2026E 18.5%, OPM 15.8% — quality bar 통과",
+        "[inference] 가격 결정력 입증 — 수요 > 공급 50% 초과, 가격 인상 협의 중"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "moat·ROE quality는 강력하나 valuation이 historical 평균 대비 2.5배 — Buffett은 'great companies at fair price'을 선호. 'fair price'가 아님. neutral~lean_bearish 경계.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "challenge",
+          "rationale": "워런 버핏 lens: T1 명제에 대해 'challenge' — moat + owner-earnings + 가격 결정력 + ROIC 일관성 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens: T2 명제에 대해 'neutral' — moat + owner-earnings + 가격 결정력 + ROIC 일관성 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "challenge",
+          "rationale": "워런 버핏 lens: T3 명제에 대해 'challenge' — moat + owner-earnings + 가격 결정력 + ROIC 일관성 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens: T4 명제에 대해 'neutral' — moat + owner-earnings + 가격 결정력 + ROIC 일관성 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens: T5 명제에 대해 'neutral' — moat + owner-earnings + 가격 결정력 + ROIC 일관성 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens: T6 명제에 대해 'neutral' — moat + owner-earnings + 가격 결정력 + ROIC 일관성 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "워런 버핏 lens: T7 명제에 대해 'neutral' — moat + owner-earnings + 가격 결정력 + ROIC 일관성 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "stanley-druckenmiller": {
+      "persona_id": "stanley-druckenmiller",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] YTD +492% — short-term consolidation 가능",
+        "[inference] AI capex 사이클 peak timing risk — 2027 H2 가능",
+        "[actual] 중국 OSAT 자체 capacity 증설 — 3-5년 시계 oligopoly 약화"
+      ],
+      "key_opportunities_top3": [
+        "[inference] AI 패키징 = 'where the puck is going' — multi-year macro tailwind",
+        "[actual] 수요 > 공급 50% — concentrated bet 정당화",
+        "[actual] 1.5조 실리콘 커패시터 계약 — design-in lock-in 명백한 catalyst",
+        "[inference] global pricing power + supply tightness 18-24M 지속 전망"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "Druckenmiller가 좋아하는 'concentrated macro bet with pricing power' — momentum 강하지만 thesis durable. lean_bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens: T1 명제에 대해 'support' — macro tailwind + liquidity + 'go where the puck is going' + concentrated bets 관점에서 삼성전기 평가.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens: T2 명제에 대해 'support' — macro tailwind + liquidity + 'go where the puck is going' + concentrated bets 관점에서 삼성전기 평가.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "스탠리 드러켄밀러 lens: T3 명제에 대해 'support' — macro tailwind + liquidity + 'go where the puck is going' + concentrated bets 관점에서 삼성전기 평가.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러 lens: T4 명제에 대해 'neutral' — macro tailwind + liquidity + 'go where the puck is going' + concentrated bets 관점에서 삼성전기 평가.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러 lens: T5 명제에 대해 'neutral' — macro tailwind + liquidity + 'go where the puck is going' + concentrated bets 관점에서 삼성전기 평가.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러 lens: T6 명제에 대해 'neutral' — macro tailwind + liquidity + 'go where the puck is going' + concentrated bets 관점에서 삼성전기 평가.",
+          "confidence": 0.6
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "스탠리 드러켄밀러 lens: T7 명제에 대해 'neutral' — macro tailwind + liquidity + 'go where the puck is going' + concentrated bets 관점에서 삼성전기 평가.",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "bill-ackman": {
+      "persona_id": "bill-ackman",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] valuation 변동성 — 단기 momentum 추격 risk",
+        "[inference] AI capex 사이클 dependence — peak timing 우려",
+        "[actual] cycle 변동성 잔존 — semiconductor·전력기기 모두 cyclical"
+      ],
+      "key_opportunities_top3": [
+        "[actual] thesis와 직접 정렬 — 블로그의 핵심 logic 직접 수혜",
+        "[inference] 산업 capex 사이클 + 가격 결정력 18M+ 지속",
+        "[actual] 수요 > 공급 환경 — pricing leverage"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "thesis 정렬도와 valuation 사이의 트레이드오프 — 페르소나 lens에 따른 verdict 분기.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens: T1 명제에 대해 'support' — concentrated quality + free cash flow yield + activist catalyst 관점에서 삼성전기 평가.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens: T2 명제에 대해 'support' — concentrated quality + free cash flow yield + activist catalyst 관점에서 삼성전기 평가.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "빌 애크먼 lens: T3 명제에 대해 'support' — concentrated quality + free cash flow yield + activist catalyst 관점에서 삼성전기 평가.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "빌 애크먼 lens: T4 명제에 대해 'neutral' — concentrated quality + free cash flow yield + activist catalyst 관점에서 삼성전기 평가.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "빌 애크먼 lens: T5 명제에 대해 'neutral' — concentrated quality + free cash flow yield + activist catalyst 관점에서 삼성전기 평가.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "빌 애크먼 lens: T6 명제에 대해 'neutral' — concentrated quality + free cash flow yield + activist catalyst 관점에서 삼성전기 평가.",
+          "confidence": 0.55
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "빌 애크먼 lens: T7 명제에 대해 'neutral' — concentrated quality + free cash flow yield + activist catalyst 관점에서 삼성전기 평가.",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "phil-fisher": {
+      "persona_id": "phil-fisher",
+      "persona_kr": "필립 피셔",
+      "persona_en": "Philip Fisher",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bullish",
+      "confidence": 0.95,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] Forward P/E 35x — Fisher도 quality는 좋아하나 가격 의식",
+        "[inference] R&D 집중도 (매출 대비) — semiconductor peer 대비 검증 필요",
+        "[actual] Management quality — 삼성그룹 governance 잔존 risk"
+      ],
+      "key_opportunities_top3": [
+        "[actual] Scuttlebutt 가능 — 글로벌 봉인 부품사 중 MLCC+FCBGA+실리콘 커패시터 통합 유일",
+        "[inference] '15 points' check — long-runway, management depth, R&D, vertical integration 모두 충족",
+        "[actual] 패키지 내부 침투 부품 = long-term moat 확장"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "Fisher는 'long-run growth durability'를 가장 중시 — 가격은 second concern. lean_bullish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "필립 피셔 lens: T1 명제에 대해 'support' — scuttlebutt + 15 points + management quality + 장기 R&D 깊이 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "필립 피셔 lens: T2 명제에 대해 'support' — scuttlebutt + 15 points + management quality + 장기 R&D 깊이 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "필립 피셔 lens: T3 명제에 대해 'support' — scuttlebutt + 15 points + management quality + 장기 R&D 깊이 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "필립 피셔 lens: T4 명제에 대해 'neutral' — scuttlebutt + 15 points + management quality + 장기 R&D 깊이 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "필립 피셔 lens: T5 명제에 대해 'neutral' — scuttlebutt + 15 points + management quality + 장기 R&D 깊이 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "필립 피셔 lens: T6 명제에 대해 'neutral' — scuttlebutt + 15 points + management quality + 장기 R&D 깊이 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "필립 피셔 lens: T7 명제에 대해 'neutral' — scuttlebutt + 15 points + management quality + 장기 R&D 깊이 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "michael-burry": {
+      "persona_id": "michael-burry",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bearish",
+      "confidence": 0.95,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] YTD +492% 후 valuation extreme — Forward P/E 35x vs 평균 14x",
+        "[inference] 'narrative-driven' 가격 — '비싸진 칩을 살려두는' story는 매력적이나 시장 already priced in",
+        "[actual] 'this time is different' caution — AI 패키징 cycle 정점 우려 잔존"
+      ],
+      "key_opportunities_top3": [
+        "[inference] 만약 valuation correction 30~40% 후 entry 시 thesis 자체는 valid — watching opportunity",
+        "[actual] 1.5조 계약 = real cash flow catalyst, narrative만이 아님"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "Burry는 'narrative vs numbers' — narrative 강하나 numbers (PE 35x)가 위험. lean_bearish.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "challenge",
+          "rationale": "마이클 버리 lens: T1 명제에 대해 'challenge' — narrative vs numbers + 'big short' contrarian + balance sheet 강도 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens: T2 명제에 대해 'neutral' — narrative vs numbers + 'big short' contrarian + balance sheet 강도 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T3",
+          "stance": "challenge",
+          "rationale": "마이클 버리 lens: T3 명제에 대해 'challenge' — narrative vs numbers + 'big short' contrarian + balance sheet 강도 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens: T4 명제에 대해 'neutral' — narrative vs numbers + 'big short' contrarian + balance sheet 강도 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens: T5 명제에 대해 'neutral' — narrative vs numbers + 'big short' contrarian + balance sheet 강도 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens: T6 명제에 대해 'neutral' — narrative vs numbers + 'big short' contrarian + balance sheet 강도 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "마이클 버리 lens: T7 명제에 대해 'neutral' — narrative vs numbers + 'big short' contrarian + balance sheet 강도 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "ben-graham": {
+      "persona_id": "ben-graham",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Benjamin Graham",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] valuation 변동성 — 단기 momentum 추격 risk",
+        "[inference] AI capex 사이클 dependence — peak timing 우려",
+        "[actual] cycle 변동성 잔존 — semiconductor·전력기기 모두 cyclical"
+      ],
+      "key_opportunities_top3": [
+        "[actual] thesis와 직접 정렬 — 블로그의 핵심 logic 직접 수혜",
+        "[inference] 산업 capex 사이클 + 가격 결정력 18M+ 지속",
+        "[actual] 수요 > 공급 환경 — pricing leverage"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "thesis 정렬도와 valuation 사이의 트레이드오프 — 페르소나 lens에 따른 verdict 분기.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "challenge",
+          "rationale": "벤저민 그레이엄 lens: T1 명제에 대해 'challenge' — margin of safety + net-net + P/B < 1.5 + Mr. Market 무시 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens: T2 명제에 대해 'neutral' — margin of safety + net-net + P/B < 1.5 + Mr. Market 무시 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T3",
+          "stance": "challenge",
+          "rationale": "벤저민 그레이엄 lens: T3 명제에 대해 'challenge' — margin of safety + net-net + P/B < 1.5 + Mr. Market 무시 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens: T4 명제에 대해 'neutral' — margin of safety + net-net + P/B < 1.5 + Mr. Market 무시 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens: T5 명제에 대해 'neutral' — margin of safety + net-net + P/B < 1.5 + Mr. Market 무시 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens: T6 명제에 대해 'neutral' — margin of safety + net-net + P/B < 1.5 + Mr. Market 무시 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "벤저민 그레이엄 lens: T7 명제에 대해 'neutral' — margin of safety + net-net + P/B < 1.5 + Mr. Market 무시 관점에서 삼성전기 평가.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "cathie-wood": {
+      "persona_id": "cathie-wood",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bullish",
+      "confidence": 0.95,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] 삼성전기는 'disruptor'가 아닌 'incumbent' — Wood의 ARK 스타일과 일부 mismatch",
+        "[inference] 5Y +50% CAGR 가능성 — 현재 가격에서 추가 5배 어려움"
+      ],
+      "key_opportunities_top3": [
+        "[actual] AI 반도체 = ARK의 '5 innovation platform' 중 하나 (Artificial Intelligence)",
+        "[inference] 패키지 시스템 진화 = disruptive innovation의 enabler 역할"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "Wood는 incumbent보다 disruptor 선호. 삼성전기는 'tailwind ride'이나 ARK 5x potential은 아님. neutral.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "support",
+          "rationale": "캐시 우드 lens: T1 명제에 대해 'support' — disruptive innovation + S-curve + 5Y compound 가격 50%+ target 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T2",
+          "stance": "support",
+          "rationale": "캐시 우드 lens: T2 명제에 대해 'support' — disruptive innovation + S-curve + 5Y compound 가격 50%+ target 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T3",
+          "stance": "support",
+          "rationale": "캐시 우드 lens: T3 명제에 대해 'support' — disruptive innovation + S-curve + 5Y compound 가격 50%+ target 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "캐시 우드 lens: T4 명제에 대해 'neutral' — disruptive innovation + S-curve + 5Y compound 가격 50%+ target 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "캐시 우드 lens: T5 명제에 대해 'neutral' — disruptive innovation + S-curve + 5Y compound 가격 50%+ target 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "캐시 우드 lens: T6 명제에 대해 'neutral' — disruptive innovation + S-curve + 5Y compound 가격 50%+ target 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "캐시 우드 lens: T7 명제에 대해 'neutral' — disruptive innovation + S-curve + 5Y compound 가격 50%+ target 관점에서 삼성전기 평가.",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "aswath-damodaran": {
+      "persona_id": "aswath-damodaran",
+      "persona_kr": "아스왓 다모다란",
+      "persona_en": "Aswath Damodaran",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "neutral",
+      "confidence": 0.56,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "[actual] valuation 변동성 — 단기 momentum 추격 risk",
+        "[inference] AI capex 사이클 dependence — peak timing 우려",
+        "[actual] cycle 변동성 잔존 — semiconductor·전력기기 모두 cyclical"
+      ],
+      "key_opportunities_top3": [
+        "[actual] thesis와 직접 정렬 — 블로그의 핵심 logic 직접 수혜",
+        "[inference] 산업 capex 사이클 + 가격 결정력 18M+ 지속",
+        "[actual] 수요 > 공급 환경 — pricing leverage"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "thesis 정렬도와 valuation 사이의 트레이드오프 — 페르소나 lens에 따른 verdict 분기.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens: T1 명제에 대해 'neutral' — DCF + story-to-numbers + narrative discipline + 적정가 관점에서 삼성전기 평가.",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens: T2 명제에 대해 'neutral' — DCF + story-to-numbers + narrative discipline + 적정가 관점에서 삼성전기 평가.",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T3",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens: T3 명제에 대해 'neutral' — DCF + story-to-numbers + narrative discipline + 적정가 관점에서 삼성전기 평가.",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens: T4 명제에 대해 'neutral' — DCF + story-to-numbers + narrative discipline + 적정가 관점에서 삼성전기 평가.",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens: T5 명제에 대해 'neutral' — DCF + story-to-numbers + narrative discipline + 적정가 관점에서 삼성전기 평가.",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens: T6 명제에 대해 'neutral' — DCF + story-to-numbers + narrative discipline + 적정가 관점에서 삼성전기 평가.",
+          "confidence": 0.56
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "아스왓 다모다란 lens: T7 명제에 대해 'neutral' — DCF + story-to-numbers + narrative discipline + 적정가 관점에서 삼성전기 평가.",
+          "confidence": 0.56
+        }
+      ]
+    },
+    "nassim-taleb": {
+      "persona_id": "nassim-taleb",
+      "persona_kr": "나심 탈렙",
+      "persona_en": "Nassim Taleb",
+      "ticker": "009150.KS",
+      "ticker_name": "삼성전기",
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "[actual] valuation 변동성 — 단기 momentum 추격 risk",
+        "[inference] AI capex 사이클 dependence — peak timing 우려",
+        "[actual] cycle 변동성 잔존 — semiconductor·전력기기 모두 cyclical"
+      ],
+      "key_opportunities_top3": [
+        "[actual] thesis와 직접 정렬 — 블로그의 핵심 logic 직접 수혜",
+        "[inference] 산업 capex 사이클 + 가격 결정력 18M+ 지속",
+        "[actual] 수요 > 공급 환경 — pricing leverage"
+      ],
+      "uncertainty": "T1·T3·T7 — vertical integration moat, pricing power, integrated-into-package winner — valuation overhang vs structural tailwind tradeoff",
+      "narrative_vs_quant_resolution": "thesis 정렬도와 valuation 사이의 트레이드오프 — 페르소나 lens에 따른 verdict 분기.",
+      "thesis_lens_applications": [
+        {
+          "claim_id": "T1",
+          "stance": "challenge",
+          "rationale": "나심 탈렙 lens: T1 명제에 대해 'challenge' — antifragility + barbell strategy + 회피하는 사람의 risk 관점에서 삼성전기 평가.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T2",
+          "stance": "neutral",
+          "rationale": "나심 탈렙 lens: T2 명제에 대해 'neutral' — antifragility + barbell strategy + 회피하는 사람의 risk 관점에서 삼성전기 평가.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T3",
+          "stance": "challenge",
+          "rationale": "나심 탈렙 lens: T3 명제에 대해 'challenge' — antifragility + barbell strategy + 회피하는 사람의 risk 관점에서 삼성전기 평가.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T4",
+          "stance": "neutral",
+          "rationale": "나심 탈렙 lens: T4 명제에 대해 'neutral' — antifragility + barbell strategy + 회피하는 사람의 risk 관점에서 삼성전기 평가.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T5",
+          "stance": "neutral",
+          "rationale": "나심 탈렙 lens: T5 명제에 대해 'neutral' — antifragility + barbell strategy + 회피하는 사람의 risk 관점에서 삼성전기 평가.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T6",
+          "stance": "neutral",
+          "rationale": "나심 탈렙 lens: T6 명제에 대해 'neutral' — antifragility + barbell strategy + 회피하는 사람의 risk 관점에서 삼성전기 평가.",
+          "confidence": 0.75
+        },
+        {
+          "claim_id": "T7",
+          "stance": "neutral",
+          "rationale": "나심 탈렙 lens: T7 명제에 대해 'neutral' — antifragility + barbell strategy + 회피하는 사람의 risk 관점에서 삼성전기 평가.",
+          "confidence": 0.75
+        }
+      ]
+    }
+  }
+}

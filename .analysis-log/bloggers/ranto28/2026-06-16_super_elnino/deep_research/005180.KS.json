@@ -1,0 +1,220 @@
+{
+  "industry": {
+    "name": "빙과·음료 (한여름 폭염 수요 — 엘니뇨 찜통더위 소비 수혜축)",
+    "overview": "빙그레는 국내 빙과(메로나·붕어싸만코)·가공유·음료(바나나맛우유) 대표 식품사다. 메르는 한국에 강한 엘니뇨가 오면 남부 집중호우+전역 습한 찜통더위가 잦아 한여름 빙과·음료 수요가 들썩일 수 있다고 봤다. 폭염 강도와 빙과·음료 매출 계절성이 직접 연동돼 길고 강한 더위는 성수기 판매·가동률에 단기 모멘텀을 준다. 다만 국내 빙과시장은 구조적 저성장·경쟁심화 상태이고, 원유(유가공)·설탕·포장재 원가 상승이 동반되면 마진 효과가 상쇄될 수 있어 thesis 중 가장 보조적이다(날씨→소비재→주가 경로가 약함). 현재가 ₩68,800 / 1Y -15% / vol 32%.",
+    "competitors": [
+      {
+        "name": "롯데웰푸드",
+        "ticker": "280360.KS",
+        "share_pct": null,
+        "moat": "빙과·제과 1위 통합"
+      },
+      {
+        "name": "해태아이스(빙그레 자회사)",
+        "ticker": null,
+        "share_pct": null,
+        "moat": "빙과 합산 점유 확대"
+      },
+      {
+        "name": "매일유업",
+        "ticker": "267980.KS",
+        "share_pct": null,
+        "moat": "가공유·음료"
+      },
+      {
+        "name": "롯데칠성",
+        "ticker": "005300.KS",
+        "share_pct": null,
+        "moat": "음료 1위 — 폭염 수요 직접"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-06-11",
+        "title": "NOAA 엘니뇨 주의보 — 한국 여름 폭염·찜통더위 가능성",
+        "source": "NOAA / 기상 보도",
+        "summary": "강한 엘니뇨 시 남부 집중호우+습한 더위 패턴",
+        "impact": "+"
+      },
+      {
+        "date": "2026-여름",
+        "title": "폭염 전망에 빙과·음료 성수기 수요 기대",
+        "source": "식품업계 보도",
+        "summary": "길고 강한 더위는 빙과·음료 판매 단기 모멘텀",
+        "impact": "+"
+      },
+      {
+        "date": "2026-Q1",
+        "title": "원유·설탕·포장재 원가 상승 — 식품 마진 부담",
+        "source": "시장",
+        "summary": "투입비 상승이 폭염 판매증가 마진 일부 상쇄",
+        "impact": "-"
+      },
+      {
+        "date": "2026",
+        "title": "국내 빙과시장 구조적 저성장·경쟁심화",
+        "source": "업계 분석",
+        "summary": "인구·할인경쟁으로 폭염 효과 제한적",
+        "impact": "-"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-16)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 1.268,
+        "op_income": 0.039,
+        "net_income": 0.026,
+        "op_margin": 3.1,
+        "net_margin": 2.0
+      },
+      {
+        "year": 2023,
+        "revenue": 1.394,
+        "op_income": 0.112,
+        "net_income": 0.086,
+        "op_margin": 8.1,
+        "net_margin": 6.2
+      },
+      {
+        "year": 2024,
+        "revenue": 1.463,
+        "op_income": 0.131,
+        "net_income": 0.103,
+        "op_margin": 9.0,
+        "net_margin": 7.1
+      },
+      {
+        "year": 2025,
+        "revenue": 1.312,
+        "op_income": 0.073,
+        "net_income": 0.052,
+        "op_margin": 5.6,
+        "net_margin": 4.0
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩1.27조 → 2024 ₩1.46조로 성장하고 OPM이 2022 3.1%→2024 9.0%로 개선됐다가 2025 ₩1.31조·OPM 5.6%로 되돌림. 마진 개선은 가격인상·해태 빙과 통합 효과, 2025 되돌림은 원가·기저 영향. 폭염 시즌은 성수기 판매에 단기 우호적이나 분기·연간 실적에서 날씨 효과는 noise로 희석되는 편.",
+    "valuation_summary": "Forward PE 6.61×. 내수 소비재 — 배당·안정성·계절 모멘텀이 핵심. 현재가 ₩68,800 / 1Y -15% / vol 32%. 폭염은 단기 트레이딩 모멘텀, 구조적 재평가 동력은 약함."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.25,
+      "description": "역대급 폭염 장기화로 빙과·음료 성수기 판매 급증 + 원가 안정 → 단기 실적 서프라이즈",
+      "key_drivers": [
+        "폭염 장기화",
+        "성수기 물량 급증",
+        "원가 안정"
+      ]
+    },
+    "base": {
+      "probability": 0.5,
+      "description": "평년 이상 더위로 성수기 견조하나 원가 상쇄 — 안정적 실적·배당",
+      "key_drivers": [
+        "성수기 견조",
+        "원가 일부 상쇄",
+        "배당 안정"
+      ]
+    },
+    "bear": {
+      "probability": 0.25,
+      "description": "냉해·장마 변수+원가 급등+경쟁심화로 마진 압박",
+      "key_drivers": [
+        "날씨 변수",
+        "원유·설탕 급등",
+        "빙과 할인경쟁"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-여름",
+      "title": "폭염 강도·성수기 판매",
+      "name": "Summer heat",
+      "impact": "+",
+      "description": "빙과·음료 판매 모멘텀"
+    },
+    {
+      "date": "2026-08",
+      "title": "2Q/3Q26 실적",
+      "name": "earnings",
+      "impact": "○",
+      "description": "성수기 판매 vs 원가 확인"
+    },
+    {
+      "date": "2026-하반기",
+      "title": "원유·설탕 원가",
+      "name": "Input cost",
+      "impact": "-",
+      "description": "투입비가 폭염 효과 상쇄 변수"
+    }
+  ],
+  "risks": [
+    {
+      "name": "날씨→매출 경로 약함",
+      "probability": "high",
+      "impact": "med",
+      "description": "폭염 판매증가의 주가·실적 전이 비일관 — 가장 보조적 thesis"
+    },
+    {
+      "name": "원가 상승",
+      "probability": "high",
+      "impact": "med",
+      "description": "원유·설탕·포장재 상승이 마진 잠식"
+    },
+    {
+      "name": "구조적 저성장",
+      "probability": "high",
+      "impact": "med",
+      "description": "국내 빙과시장 인구·경쟁 압박"
+    },
+    {
+      "name": "기상 변수",
+      "probability": "med",
+      "impact": "med",
+      "description": "장마·냉해 시 성수기 수요 훼손"
+    },
+    {
+      "name": "엘니뇨 강도 미달",
+      "probability": "med",
+      "impact": "low",
+      "description": "폭염 미발생 시 모멘텀 소멸"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T07",
+      "claim": "한국 엘니뇨 찜통더위→빙과·음료 수요",
+      "current_status": "진행/보조",
+      "evidence": "메르 §73-74 — 날씨 소비 모멘텀, 전이 약함"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "수퍼 엘니뇨",
+      "current_status": "확인",
+      "evidence": "NOAA 주의보"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "따뜻한 겨울",
+      "current_status": "중립",
+      "evidence": "빙과엔 동절기 비수기 — 영향 제한"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "설탕 공급교란",
+      "current_status": "간접",
+      "evidence": "설탕가 상승은 빙과 원가에 역방향"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-17",
+      "type": "시세",
+      "summary": "KOSPI 상장 — DART 정기공시 대상",
+      "title": "빙그레 (005180.KS)"
+    }
+  ]
+}

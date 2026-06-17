@@ -1,0 +1,225 @@
+{
+  "industry": {
+    "name": "리튬 / 2차전지 소재",
+    "overview": "리튬은 EV(전기차)·ESS(에너지저장장치)·portable electronics의 핵심 소재. 2023-2024년 cycle 정점 후 spot 가격이 80% 이상 하락(LCE 기준 $80k → $13k/톤)했으나, 2025-2026년 EV 수요 회복 + Western 공급망 재편(IRA·EU CRMA·한국 KRMA)으로 mid-cycle 회복 진입. 장기적으로는 EV 침투율 30% → 50%를 달성하기 위해 2030년까지 lithium 공급이 2024년 대비 3-4배 필요 (Benchmark Mineral Intelligence, IEA 2025). 가격 회복 시점은 2026년 H2 ~ 2027년 H1 컨센서스.",
+    "competitors": [
+      {
+        "name": "Albemarle",
+        "ticker": "ALB",
+        "share_pct": 13.0,
+        "moat": "Greenbushes(호주) 최대 spodumene 광산 50% 지분 + Salar de Atacama(칠레) brine"
+      },
+      {
+        "name": "SQM",
+        "ticker": "SQM",
+        "share_pct": 17.0,
+        "moat": "Salar de Atacama brine 최저 cost producer($3-5k/톤)"
+      },
+      {
+        "name": "Tianqi Lithium",
+        "ticker": "9696.HK",
+        "share_pct": 12.0,
+        "moat": "중국 정련 capacity + Greenbushes 30% 지분"
+      },
+      {
+        "name": "Ganfeng Lithium",
+        "ticker": "1772.HK",
+        "share_pct": 10.0,
+        "moat": "수직계열화: 광산-정련-cell"
+      },
+      {
+        "name": "POSCO Holdings",
+        "ticker": "005490.KS",
+        "share_pct": 4.0,
+        "moat": "아르헨티나 Salar del Hombre Muerto + Pilbara 33% 지분 + 한국 정련 capacity 신규 가동"
+      },
+      {
+        "name": "포스코퓨처엠",
+        "ticker": "003670.KS",
+        "share_pct": 6.0,
+        "moat": "양극재 Top 3, NCMA 99.99%, K-IRA 직접 수혜"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-15",
+        "title": "POSCO홀딩스 아르헨티나 Salar del Hombre Muerto 1단계 상업생산 시작",
+        "source": "DART 공시",
+        "summary": "연 2.5만톤 LCE — 캐파 ramp 2026년 4Q까지"
+      },
+      {
+        "date": "2026-03-22",
+        "title": "ALB 분기 실적 — 가격 stabilize 초기 신호",
+        "source": "Albemarle 1Q26",
+        "summary": "전년 동기 대비 EBITDA -45%였으나 QoQ +12% 회복"
+      },
+      {
+        "date": "2026-03-08",
+        "title": "SQM Salar de Atacama 환경 영향 평가 통과",
+        "source": "SQM 발표",
+        "summary": "expansion plan 1단계 승인"
+      },
+      {
+        "date": "2026-02-14",
+        "title": "EU Critical Raw Materials Act 발효",
+        "source": "EU Commission",
+        "summary": "EU 내 정련 capacity 40% 자급 의무 — 한국·호주 paritization"
+      },
+      {
+        "date": "2026-01-20",
+        "title": "Tesla Master Plan 4: Cybertruck 30만대 + GigaFactory 멕시코 가동 발표",
+        "source": "Tesla",
+        "summary": "battery 수요 가속 — 2026년 lithium demand projection +18%"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 14.5,
+      "cagr_pct": 14.0,
+      "horizon": "2024-2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "bs_snapshot": {},
+    "cf_summary": {},
+    "peer_compare": [
+      {
+        "ticker": "LIT",
+        "name": "Global X Lithium ETF",
+        "pe": 15.0,
+        "pb": 1.3,
+        "roe": 0.0,
+        "div_yield": 1.2
+      },
+      {
+        "ticker": "BATT",
+        "name": "Amplify Lithium ETF",
+        "pe": 14.2,
+        "pb": 1.15,
+        "roe": 0.0,
+        "div_yield": 1.4
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 60.0,
+      "thesis": "리튬 sector 전체 회복 + ETF inflow 회복",
+      "key_assumptions": [
+        "sector 평균 +50%",
+        "AUM $2B+",
+        "유동성 개선"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 45.0,
+      "thesis": "안정적 sector 노출",
+      "key_assumptions": [
+        "sector 평균 +20%",
+        "분배금 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "target_price": 28.0,
+      "thesis": "리튬 cycle 추가 하락",
+      "key_assumptions": [
+        "sector -30%",
+        "AUM 유출"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "리튬 spot 가격 회복 시점 컨센서스",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "$13k → $15k+ 도달 예상 (Benchmark Mineral Intelligence)"
+    },
+    {
+      "date": "2026-Q3",
+      "event": "EU CRMA 1차 로컬 capacity 의무 발효",
+      "type": "regulatory",
+      "expected_impact": "+",
+      "description": "EU 내 정련·재활용 capacity 우선 활용 의무화"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "GM·Tesla·BYD 등 OEM 1H27 가이던스 발표",
+      "type": "earnings",
+      "expected_impact": "?",
+      "description": "EV 수요 가시성"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "리튬 sector AUM rebalancing",
+      "type": "macro",
+      "expected_impact": "?",
+      "description": "ETF AUM 변화 추적 — sentiment 지표"
+    }
+  ],
+  "risks": [
+    {
+      "name": "리튬 가격 deep cycle 지속",
+      "probability": "med",
+      "impact": "high",
+      "description": "spot 가격 $10-12k 정체 시 cathode/광산 모두 EBITDA 감소",
+      "mitigation": "장기 contract 비중 70%+, hedging 활용"
+    },
+    {
+      "name": "EV 수요 stalling",
+      "probability": "low",
+      "impact": "high",
+      "description": "ICE 회귀 또는 hybrid 우세 시 lithium demand 둔화",
+      "mitigation": "ESS 수요 확대 + 비EV 응용"
+    },
+    {
+      "name": "중국 공급 과잉",
+      "probability": "high",
+      "impact": "med",
+      "description": "Tianqi·Ganfeng의 capa 확장 → 가격 압박",
+      "mitigation": "Western 공급망 우대 정책 (IRA·CRMA)"
+    },
+    {
+      "name": "ETF 펀드 청산 리스크",
+      "probability": "low",
+      "impact": "low",
+      "description": "AUM 임계치 미달 시 폐쇄 가능",
+      "mitigation": "AUM $1B+ 유지 중"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "리튬 가격은 2025년 저점 통과, 2026년 H2부터 회복",
+      "type": "macro",
+      "evidence": "Benchmark Mineral Intelligence 2025-12 보고서 + ALB 1Q26 가이던스",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Western 공급망 재편이 한국·호주·미국 lithium 업체에 alpha를 부여",
+      "type": "policy",
+      "evidence": "IRA·EU CRMA·KRMA 발효",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "LIT는 cycle 회복 시 leverage가 큰 위치",
+      "type": "company",
+      "evidence": "blogger 글 §3",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "EV 수요는 2026-2027년 가속화",
+      "type": "industry",
+      "evidence": "Tesla Master Plan 4 + GM EV roadmap + BYD 글로벌 진출",
+      "testability": "med",
+      "current_status": "pending"
+    }
+  ],
+  "korean_disclosures": []
+}

@@ -1,0 +1,131 @@
+{
+  "blogger": "doctordk",
+  "blog_title": "Boston Dynamics — 빅테크가 노리는 검증된 휴머노이드 자산",
+  "blog_url": "https://blog.naver.com/doctordk/224317489656",
+  "published_at": "2026-06-16",
+  "extracted_at": "2026-06-16",
+  "theses": [
+    {
+      "id": "T1",
+      "claim_id": "T1",
+      "title": "BD는 빅테크가 검증한 자산 — 구글의 현대차 BD 지분 투자 타진",
+      "claim": "채널체크에 따르면 구글은 2025년 말 현대차에 Boston Dynamics(BD) 지분 투자 가능성을 타진했고 현대차는 일단 거절했다. 거절 사유는 현대차그룹 보유 BD 지분율 희석 우려와 BD의 모호한 시장가치다. 그러나 구글이 투자를 타진했다는 사실 자체가 BD가 빅테크가 주목하는 '검증된 자산'임을 확인한다.",
+      "type": "factual",
+      "timeframe": "near_term",
+      "horizon_months": 6,
+      "supporting_evidence": [
+        "구글 2025년 말 현대차에 BD 지분 투자 타진 (채널체크)",
+        "현대차 거절: 지분 희석 + 모호한 BD 밸류",
+        "빅테크 관심 = 자산 검증 시그널"
+      ],
+      "verifiability": "medium",
+      "confidence": 0.7,
+      "importance": "core"
+    },
+    {
+      "id": "T2",
+      "claim_id": "T2",
+      "title": "한국투자증권 목표주가 상향 — BD 비영업가치 긍정 시나리오 반영",
+      "claim": "한국투자증권은 BD 비영업가치를 긍정적 시나리오로 변경하고, 이를 반영해 목표주가를 현대차 77만원, 기아 26만원, 현대모비스 95만원으로 상향했다. 이는 BD의 SOTP(비영업가치) 기여를 시장이 본격 반영하기 시작했음을 의미한다.",
+      "type": "factual",
+      "timeframe": "near_term",
+      "horizon_months": 6,
+      "supporting_evidence": [
+        "현대차 TP 77만원",
+        "기아 TP 26만원",
+        "현대모비스 TP 95만원",
+        "BD 비영업가치 긍정 시나리오 전환"
+      ],
+      "verifiability": "high",
+      "confidence": 0.75,
+      "importance": "core"
+    },
+    {
+      "id": "T3",
+      "claim_id": "T3",
+      "title": "소프트뱅크 9.9% BD 풋옵션 7월말 결정 = 바이너리 카탈리스트",
+      "claim": "소프트뱅크는 보유한 9.9% BD 지분에 대한 풋옵션 행사 여부를 2026년 7월말까지 결정해야 한다. 현대차그룹 대상 풋옵션을 행사하지 않고 빅테크에 매각하는 방안도 가능성 중 하나다(2025-08-06 주주간 약정은 현재가치보다 낮은 가격으로 추정). 7월말 결정은 BD 밸류 가시성을 좌우하는 단기 바이너리 이벤트다.",
+      "type": "conditional",
+      "timeframe": "near_term",
+      "horizon_months": 3,
+      "supporting_evidence": [
+        "소프트뱅크 9.9% BD 지분 풋옵션",
+        "행사 시한 2026-07말",
+        "빅테크 매각 시나리오 가능",
+        "2025-08-06 주주간 약정"
+      ],
+      "verifiability": "medium",
+      "confidence": 0.65,
+      "importance": "core"
+    },
+    {
+      "id": "T4",
+      "claim_id": "T4",
+      "title": "삼성전자, BD 지분 인수 가능성 타진 — 빅테크 경쟁 격화",
+      "claim": "매일경제 단독(2026-06-16)에 따르면 삼성전자는 사업지원실 산하 M&A 조직을 중심으로 BD 지분 투자 타당성을 검토 중이다. 경영권 확보보다 일부 지분 투자·전략적 투자 성격이 강하다. 이는 피지컬 AI 체화(embodiment) 자산을 둘러싼 빅테크 경쟁 격화를 시사한다.",
+      "type": "factual",
+      "timeframe": "near_term",
+      "horizon_months": 6,
+      "supporting_evidence": [
+        "삼성전자 사업지원실 M&A 조직 BD 검토 (매경 2026-06-16)",
+        "전략적 투자 성격 (경영권 아님)",
+        "mk.co.kr/news/business/12075246"
+      ],
+      "verifiability": "high",
+      "confidence": 0.6,
+      "importance": "high"
+    },
+    {
+      "id": "T5",
+      "claim_id": "T5",
+      "title": "한국피아이엠 — 휴머노이드 양산 부품 + 최대주주 장내매수",
+      "claim": "한국피아이엠(A448900, 시총 5,151억) 최대주주 송준호는 2026-06-09~11 장내매수(보통주 약 1.3만주)로 지분을 46.19%→46.40%로 확대(주식담보대출 신규 계약 포함). 휴머노이드 양산 부품(금속분말사출성형, PIM/MIM) 공급 준비 정황으로, 7월 결정 시점과 맞물린 잠재 수혜주다.",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "horizon_months": 12,
+      "supporting_evidence": [
+        "최대주주 송준호 46.19%→46.40% 장내매수",
+        "2026-06-09~11 보통주 1.276만주 매수",
+        "휴머노이드 양산 부품(PIM) 준비 정황",
+        "대량보유보고 2026-06-12"
+      ],
+      "verifiability": "medium",
+      "confidence": 0.5,
+      "importance": "high"
+    },
+    {
+      "id": "T6",
+      "claim_id": "T6",
+      "title": "피지컬 AI = LLM 다음 패권 전장, 승자독식 — 아틀라스 우위",
+      "claim": "피지컬 AI는 LLM 다음 패권 전장이며 승자독식 성격이 짙다. 파운데이션 AI 모델을 검증할 최고급 신체(=아틀라스)를 보유해야 경쟁에서 유리하므로, BD는 IPO 이전까지 꾸준히 빅테크의 관심을 받을 것으로 예상된다.",
+      "type": "normative",
+      "timeframe": "long_term",
+      "horizon_months": 24,
+      "supporting_evidence": [
+        "피지컬 AI 승자독식 구조",
+        "아틀라스 = 최고급 검증 신체",
+        "IPO 전까지 빅테크 관심 지속 전망"
+      ],
+      "verifiability": "low",
+      "confidence": 0.55,
+      "importance": "core"
+    },
+    {
+      "id": "T7",
+      "claim_id": "T7",
+      "title": "BD '월드컵 쇼' = 휴머노이드 밸류체인 재평가 트리거",
+      "claim": "BD의 대중 시연('월드컵 쇼') 시점과 형태가 휴머노이드 밸류체인 전반의 재평가 트리거가 될 수 있다. 시계열(timeline)이 다가오고 있다는 것이 글의 핵심 관전 포인트다.",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "horizon_months": 12,
+      "supporting_evidence": [
+        "BD 월드컵 쇼 시점 미정",
+        "밸류체인 시계열 임박",
+        "대중 시연 = 재평가 촉매"
+      ],
+      "verifiability": "low",
+      "confidence": 0.45,
+      "importance": "medium"
+    }
+  ]
+}

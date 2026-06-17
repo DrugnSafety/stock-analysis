@@ -1,0 +1,219 @@
+{
+  "ticker": "005930.KS",
+  "name_kr": "삼성전자 (Samsung Electronics)",
+  "name_en": "Samsung Electronics Co., Ltd.",
+  "industry": {
+    "name": "글로벌 메모리·Foundry·모바일·디스플레이 종합 반도체",
+    "overview": "Samsung Electronics는 글로벌 DRAM 1위·NAND 1위·Foundry 2위·스마트폰 1위 종합 IDM. 시총 $1.6T (2026.05). HBM3E 인증이 SK hynix 대비 후발이나 2026 본격 양산 진입. Foundry 2nm·1.4nm GAA 진입으로 TSMC 추격. NVIDIA Foundry 잠재 공급사. Galaxy AI/Edge AI 자체 stack. K-반도체 제조 자동화 도메인 owner — Physical AI 학습 데이터 잠재 거대 고객.",
+    "competitors": [
+      {
+        "name": "SK hynix",
+        "ticker": "000660.KS",
+        "share_pct": 25,
+        "moat": "HBM 1위 — Samsung DRAM 1위 직접 경쟁"
+      },
+      {
+        "name": "TSMC",
+        "ticker": "TSM",
+        "share_pct": 60,
+        "moat": "Foundry 1위 — Samsung Foundry 직접 경쟁"
+      },
+      {
+        "name": "Apple",
+        "ticker": "AAPL",
+        "share_pct": 15,
+        "moat": "스마트폰 프리미엄 — Samsung 모바일 직접 경쟁"
+      },
+      {
+        "name": "Intel Foundry",
+        "ticker": "INTC",
+        "share_pct": 2,
+        "moat": "미국 Foundry — Samsung Foundry 잠재 경쟁"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04",
+        "title": "NVIDIA 임원 Samsung 회동 — Physical AI 협력",
+        "impact": "+",
+        "reason": "Korea Times — HBM3E·Foundry·디지털 트윈 협력 확장"
+      },
+      {
+        "date": "2026-03",
+        "title": "HBM3E 12-layer 양산 진입",
+        "impact": "+",
+        "reason": "SK hynix 대비 6개월 lag but 시장 진입 성공"
+      },
+      {
+        "date": "2026-03",
+        "title": "GAA 2nm 양산 첫 고객 (Qualcomm·Tesla)",
+        "impact": "+",
+        "reason": "Foundry 점유율 회복"
+      },
+      {
+        "date": "2025-10",
+        "title": "NVIDIA 다축 파트너십 (TechCrunch)",
+        "impact": "+",
+        "reason": "Galaxy AI·디지털 트윈·Foundry 다축"
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12월",
+    "currency": "KRW",
+    "five_year_pnl": {
+      "headers": [
+        "FY2022",
+        "FY2023",
+        "FY2024",
+        "FY2025",
+        "FY2026E"
+      ],
+      "revenue_bn": [
+        302000,
+        259000,
+        310000,
+        345000,
+        400000
+      ],
+      "op_income_bn": [
+        43400,
+        6566,
+        32700,
+        42000,
+        75000
+      ],
+      "net_income_bn": [
+        55654,
+        15487,
+        32500,
+        40000,
+        65000
+      ],
+      "op_margin_pct": [
+        14.4,
+        2.5,
+        10.5,
+        12.2,
+        18.8
+      ],
+      "net_margin_pct": [
+        18.4,
+        6.0,
+        10.5,
+        11.6,
+        16.3
+      ],
+      "source": "Samsung 사업보고서 + 컨센서스 2026E"
+    },
+    "five_quarter_pnl": {
+      "headers": [
+        "1Q25",
+        "2Q25",
+        "3Q25",
+        "4Q25",
+        "1Q26E"
+      ],
+      "revenue_bn": [
+        78000,
+        82000,
+        90000,
+        95000,
+        98000
+      ],
+      "op_income_bn": [
+        8000,
+        9500,
+        12000,
+        12500,
+        17000
+      ],
+      "op_margin_pct": [
+        10.3,
+        11.6,
+        13.3,
+        13.2,
+        17.3
+      ]
+    },
+    "balance_sheet_snapshot": {
+      "as_of": "1Q26",
+      "total_assets_bn": 500000,
+      "total_liab_bn": 105000,
+      "total_equity_bn": 395000,
+      "cash_bn": 92000,
+      "debt_bn": 40000,
+      "net_debt_bn": -52000
+    },
+    "material_variance_summary": [
+      {
+        "item": "OPM",
+        "yoy": "+5%p",
+        "driver": "HBM3E + Foundry 회복"
+      },
+      {
+        "item": "매출",
+        "yoy": "+15%",
+        "driver": "AI 수요 견인"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "HBM4 양산 동참 + Foundry NVIDIA 수주. 2027E OP 100조+.",
+      "target_price": 450000
+    },
+    "base": {
+      "prob_pct": 50,
+      "thesis": "HBM3E 시장 확대 + Foundry 점진 회복. 2026E OP 75조.",
+      "target_price": 350000
+    },
+    "bear": {
+      "prob_pct": 15,
+      "thesis": "HBM·Foundry 동시 정체. 2026E OP 50조 후퇴.",
+      "target_price": 220000
+    }
+  },
+  "catalysts_risks": {
+    "near_term_catalysts": [
+      {
+        "date": "2026-07",
+        "event": "2Q26 어닝",
+        "impact": "high"
+      },
+      {
+        "date": "2026-09",
+        "event": "HBM4 양산 발표",
+        "impact": "high"
+      }
+    ],
+    "key_risks": [
+      {
+        "risk": "HBM 점유율 회복 실패",
+        "prob": "30%",
+        "impact": "-15%"
+      },
+      {
+        "risk": "Foundry 수주 약세",
+        "prob": "30%",
+        "impact": "-10%"
+      },
+      {
+        "risk": "메모리 cycle peak",
+        "prob": "30%",
+        "impact": "-25%"
+      },
+      {
+        "risk": "모바일 점유율 축소",
+        "prob": "25%",
+        "impact": "-10%"
+      },
+      {
+        "risk": "환율 KRW 강세",
+        "prob": "20%",
+        "impact": "-8%"
+      }
+    ]
+  }
+}

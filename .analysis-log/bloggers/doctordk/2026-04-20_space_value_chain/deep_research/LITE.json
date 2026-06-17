@@ -1,0 +1,313 @@
+{
+  "ticker": "LITE",
+  "name_kr": "루멘텀",
+  "name_en": "Lumentum Holdings",
+  "industry": {
+    "name": "Optical Components / Photonic Chips / Lasers",
+    "overview": "Lumentum은 광 트랜시버 + photonic chip + laser의 글로벌 leader. 2015 JDSU spin-off 후 datacenter optical(800G transceivers·EML lasers) + telecom + 3D sensing(Apple FaceID 등 consumer) + industrial laser 4 segment. NVIDIA $1B 전략 투자(2024)로 AI 인프라 우선 공급권. 2024 매출 $1.4B → 2025E $2.5B+ → 2027E $4B+ trajectory(AI capex driven). 우주 매출 비중 < 3% — 'space exposure' 거의 없음. Coherent·Marvell·Broadcom과 경쟁. 단점은 +1276% 1Y rally 후 fwd_PE 50 (historic 평균 18) — 'priced for perfection'. Datacenter optical commodity화 위험 + AI capex peak proximity가 cyclical risk.",
+    "competitors": [
+      {
+        "name": "Coherent",
+        "ticker": "COHR",
+        "share_pct": 22,
+        "moat": "II-VI 합병 후 datacenter + telecom 통합"
+      },
+      {
+        "name": "Lumentum",
+        "ticker": "LITE",
+        "share_pct": 18,
+        "moat": "Photonic chip IP + NVIDIA 우선 공급"
+      },
+      {
+        "name": "Innolight",
+        "ticker": "300308.SZ",
+        "share_pct": 25,
+        "moat": "중국 트랜시버 #1 (글로벌 hyperscaler 침투)"
+      },
+      {
+        "name": "Cisco",
+        "ticker": "CSCO",
+        "share_pct": 12,
+        "moat": "Switch + transceiver 통합"
+      },
+      {
+        "name": "Marvell",
+        "ticker": "MRVL",
+        "share_pct": 8,
+        "moat": "DSP + photonic 통합 ASIC"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-04-22",
+        "title": "Lumentum Q3'25 매출 $480M (+85% YoY) — datacenter optical 매출 +180%",
+        "source": "LITE earnings",
+        "summary": "NVIDIA Spectrum-X·Quantum-X 광스위치용 EML laser 출하 가속."
+      },
+      {
+        "date": "2025-02-15",
+        "title": "Lumentum, NVIDIA $1B 추가 투자 발표 — 800G·1.6T 트랜시버 우선 공급권",
+        "source": "NVIDIA/LITE",
+        "summary": "Multi-year purchase commitment + equity. CPO 협업도 확정."
+      },
+      {
+        "date": "2024-12-08",
+        "title": "Lumentum, NeoPhotonics 인수 통합 완료 — datacenter optical 시장 확대",
+        "source": "LITE press",
+        "summary": "$910M deal. 800G coherent transceivers + ROADM 통합."
+      },
+      {
+        "date": "2024-09-30",
+        "title": "Lumentum, Apple iPhone 17 ProMotion용 OLED VCSEL 공급 확대",
+        "source": "Apple/LITE",
+        "summary": "3D sensing + display backlight VCSEL — consumer 매출 stabilize."
+      },
+      {
+        "date": "2024-06-12",
+        "title": "Lumentum, AT&T·Verizon 5G fronthaul용 800G 트랜시버 공급",
+        "source": "LITE IR",
+        "summary": "Telecom 광 transceiver 매출 +25% YoY."
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 50.0,
+      "cagr_pct": 22,
+      "horizon": "2024-2030 글로벌 datacenter optical + photonic chip"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 1742,
+        "op_income": 220,
+        "op_margin": 12.6,
+        "net_income": 188,
+        "net_margin": 10.8
+      },
+      {
+        "year": 2022,
+        "revenue": 1714,
+        "op_income": 130,
+        "op_margin": 7.6,
+        "net_income": 95,
+        "net_margin": 5.5
+      },
+      {
+        "year": 2023,
+        "revenue": 1530,
+        "op_income": 60,
+        "op_margin": 3.9,
+        "net_income": 40,
+        "net_margin": 2.6
+      },
+      {
+        "year": 2024,
+        "revenue": 1400,
+        "op_income": 25,
+        "op_margin": 1.8,
+        "net_income": 8,
+        "net_margin": 0.6
+      },
+      {
+        "year": 2025,
+        "revenue": 2500,
+        "op_income": 380,
+        "op_margin": 15.2,
+        "net_income": 280,
+        "net_margin": 11.2
+      }
+    ],
+    "bs_snapshot": {
+      "as_of": "2025-12-31",
+      "total_assets_usdmn": 4200,
+      "total_debt_usdmn": 1850,
+      "total_equity_usdmn": 1850,
+      "cash_usdmn": 800,
+      "net_debt_usdmn": 1050,
+      "debt_to_equity": 1.0,
+      "current_ratio": 2.4
+    },
+    "cf_summary": {
+      "ocf_2025_usdmn": 420,
+      "capex_2025_usdmn": -180,
+      "fcf_2025_usdmn": 240,
+      "dividend_paid_2025_usdmn": 0,
+      "buyback_2025_usdmn": 50
+    },
+    "peer_compare": [
+      {
+        "ticker": "LITE",
+        "fwd_pe": 50,
+        "ev_ebitda": 26,
+        "fcf_yield_pct": 0.5,
+        "roe_pct": 15,
+        "debt_to_equity": 1.0
+      },
+      {
+        "ticker": "COHR",
+        "fwd_pe": 45,
+        "ev_ebitda": 22,
+        "fcf_yield_pct": 0.6,
+        "roe_pct": 12,
+        "debt_to_equity": 1.2
+      },
+      {
+        "ticker": "MRVL",
+        "fwd_pe": 32,
+        "ev_ebitda": 24,
+        "fcf_yield_pct": 1.5,
+        "roe_pct": 10,
+        "debt_to_equity": 0.4
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "label": "AI capex 2026-2028 +30% YoY 유지 + CPO 채택 가속 + NVIDIA 추가 contract",
+      "assumption": "2027E 매출 $4.5B, 영업이익률 22%, EPS +50% CAGR",
+      "upside_pct": 25,
+      "prob_pct": 25,
+      "target_price": 1130,
+      "thesis": "AI capex peak rolling + photonic chip leadership",
+      "key_assumptions": [
+        "AI capex +30% YoY 2027",
+        "CPO mass deploy 2026-2027",
+        "NVIDIA 추가 capital + design wins"
+      ]
+    },
+    "base": {
+      "label": "AI capex +15% YoY + cycle 정상화 + datacenter optical commodity화",
+      "assumption": "2027E 매출 $3.2B, 영업이익률 16%",
+      "upside_pct": -25,
+      "prob_pct": 50,
+      "target_price": 678,
+      "thesis": "Cycle normalization + commodity pressure",
+      "key_assumptions": [
+        "AI capex +15% YoY",
+        "ASIC 침투 가속",
+        "datacenter optical price 압박"
+      ]
+    },
+    "bear": {
+      "label": "AI capex 둔화 + ASIC 침투 + 트랜시버 commodity화",
+      "assumption": "2027E 매출 $2.2B, 영업이익률 8%",
+      "downside_pct": -55,
+      "prob_pct": 25,
+      "target_price": 407,
+      "thesis": "AI capex peak + competition",
+      "key_assumptions": [
+        "AI capex 둔화",
+        "Hyperscaler 자체 ASIC 50%+",
+        "트랜시버 -50% drawdown 사이클"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026 H1-H2",
+      "event": "NVIDIA $1B tranche 가시화 + CPO design wins",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    },
+    {
+      "date": "ongoing",
+      "event": "Datacenter optical 매출 분기별 +50%+ YoY 유지",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+10-20%"
+    },
+    {
+      "date": "2026-2027",
+      "event": "1.6T·3.2T 트랜시버 양산",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+15-25%"
+    },
+    {
+      "date": "2025-2026",
+      "event": "Apple iPhone 18 3D sensing capacity 확대",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    },
+    {
+      "date": "ongoing",
+      "event": "5G/6G fronthaul 광 transceiver 수요 확대",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "+5-10%"
+    }
+  ],
+  "risks": [
+    {
+      "name": "AI capex 둔화 (Hyperscaler ROIC 압박)",
+      "probability": "med",
+      "impact": "high",
+      "description": "Hyperscaler capex YoY 둔화 시 트랜시버 매출 30%+ 하락 가능",
+      "mitigation": "Telecom + Consumer 다각화"
+    },
+    {
+      "name": "Hyperscaler 자체 ASIC 침투 (AVGO·MRVL)",
+      "probability": "high",
+      "impact": "high",
+      "description": "AVGO·MRVL의 silicon photonics IP가 photonic chip 가치 침투",
+      "mitigation": "NVIDIA partnership + photonic IP"
+    },
+    {
+      "name": "Datacenter optical commodity화 (-50% drawdown 4번 history)",
+      "probability": "med",
+      "impact": "high",
+      "description": "트랜시버 가격 압박 사이클",
+      "mitigation": "Premium 800G·1.6T mix shift"
+    },
+    {
+      "name": "+1276% 1Y rally 후 mean-reversion",
+      "probability": "high",
+      "impact": "high",
+      "description": "광 부품주 history transcendent rally — 30-50% retracement 가능",
+      "mitigation": "Trim 권장"
+    },
+    {
+      "name": "Innolight·중국 경쟁사 가격 압박",
+      "probability": "med",
+      "impact": "med",
+      "description": "중국 트랜시버 가격 경쟁",
+      "mitigation": "Premium tier focus"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T7",
+      "claim": "우주 = AI 산업 확장판 (Compute Layer)",
+      "type": "framework",
+      "evidence": "Photonic chip은 AI infra + 위성 통신 동시 활용",
+      "testability": "med",
+      "current_status": "indirect",
+      "support_for_ticker": "MEDIUM",
+      "ticker_specific_note": "LITE는 의교창 Layer 5 compute layer이나 우주 매출 < 3%로 dilution 큼"
+    },
+    {
+      "thesis_id": "T2",
+      "claim": "5계층 framework Layer 5 compute",
+      "type": "framework",
+      "evidence": "Photonic chip + RF transceiver",
+      "testability": "high",
+      "current_status": "indirect",
+      "support_for_ticker": "WEAK",
+      "ticker_specific_note": "AI capex driven — 우주 thesis dilution 인정"
+    },
+    {
+      "thesis_id": "T8",
+      "claim": "가격 행동 시퀀스 — 소재·반도체 last mover",
+      "type": "timing",
+      "evidence": "+1276% 1Y rally는 last mover의 후행 outperform 패턴",
+      "testability": "high",
+      "current_status": "confirmed",
+      "support_for_ticker": "STRONG",
+      "ticker_specific_note": "이미 last mover phase 진행 — '시퀀스 thesis' validation"
+    }
+  ],
+  "korean_disclosures": []
+}

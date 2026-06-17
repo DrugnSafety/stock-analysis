@@ -1,0 +1,313 @@
+{
+  "industry": {
+    "name": "지주회사 (피지컬 AI 풀세트 프록시)",
+    "overview": "㈜두산은 두산그룹 지주사로 두산로보틱스(현장 로봇)·두산에너빌리티(전력)·두산테스나(AI 반도체 테스트) 피지컬 AI 풀세트 전체에 동시 노출되는 프록시다. 자체 사업(전자BG·디지털·연료전지 등)도 보유한다. FY25 연결 매출 약 ₩19.8조·OPM 약 5.4%이나, 지주사 특성상 순자산가치(NAV) 대비 지주 할인(holding company discount)이 상존한다.",
+    "competitors": [
+      {
+        "name": "SK(주)",
+        "ticker": "034730.KS"
+      },
+      {
+        "name": "LG(주)",
+        "ticker": "003550.KS"
+      },
+      {
+        "name": "한화",
+        "ticker": "000880.KS"
+      },
+      {
+        "name": "두산에너빌리티",
+        "ticker": "034020.KS"
+      }
+    ],
+    "news": []
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2022",
+        "fiscal_year": "2022",
+        "revenue": 16995760103010.0,
+        "op_income": 1126028726240.0,
+        "net_income": -696398841480.0,
+        "op_margin": 6.63,
+        "op_margin_pct": 6.63,
+        "net_margin_pct": -4.1
+      },
+      {
+        "year": "2023",
+        "fiscal_year": "2023",
+        "revenue": 19130130000000.0,
+        "op_income": 1436262000000.0,
+        "net_income": -388278000000.0,
+        "op_margin": 7.51,
+        "op_margin_pct": 7.51,
+        "net_margin_pct": -2.03
+      },
+      {
+        "year": "2024",
+        "fiscal_year": "2024",
+        "revenue": 18132874000000.0,
+        "op_income": 1003759000000.0,
+        "net_income": -226167000000.0,
+        "op_margin": 5.54,
+        "op_margin_pct": 5.54,
+        "net_margin_pct": -1.25
+      },
+      {
+        "year": "2025",
+        "fiscal_year": "2025",
+        "revenue": 19784138000000.0,
+        "op_income": 1062746000000.0,
+        "net_income": 75785000000.0,
+        "op_margin": 5.37,
+        "op_margin_pct": 5.37,
+        "net_margin_pct": 0.38
+      }
+    ]
+  },
+  "financial_statements_summary": {
+    "fiscal_year_end": "12-31",
+    "currency": "KRW",
+    "five_year_pnl": [
+      {
+        "year": "2022",
+        "revenue": 16995760103010.0,
+        "operating_income": 1126028726240.0,
+        "net_income": -696398841480.0,
+        "op_margin_pct": 6.63
+      },
+      {
+        "year": "2023",
+        "revenue": 19130130000000.0,
+        "operating_income": 1436262000000.0,
+        "net_income": -388278000000.0,
+        "op_margin_pct": 7.51
+      },
+      {
+        "year": "2024",
+        "revenue": 18132874000000.0,
+        "operating_income": 1003759000000.0,
+        "net_income": -226167000000.0,
+        "op_margin_pct": 5.54
+      },
+      {
+        "year": "2025",
+        "revenue": 19784138000000.0,
+        "operating_income": 1062746000000.0,
+        "net_income": 75785000000.0,
+        "op_margin_pct": 5.37
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "thesis": "세 자회사(로보틱스·에너빌리티·테스나) 동반 재평가 + NVIDIA 그룹 밀착 + 자체 전자BG(반도체 기판) 호조로 NAV 상승 및 지주 할인 축소.",
+      "key_assumptions": [
+        "자회사 동반 강세",
+        "지주 할인 축소",
+        "전자BG 호조"
+      ],
+      "target_price": 2300000
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "자회사 가치 연동되나 지주 할인 지속으로 자회사 대비 베타 완화. 그룹 테마에 동조 등락.",
+      "key_assumptions": [
+        "자회사 가치 추종",
+        "할인율 유지",
+        "자체 사업 안정"
+      ],
+      "target_price": 1900000
+    },
+    "bear": {
+      "prob_pct": 20,
+      "thesis": "피지컬 AI 테마 약화 + 자회사 조정 + 지주 할인 확대 시 NAV·주가 동반 약세.",
+      "key_assumptions": [
+        "테마 자금 이탈",
+        "자회사 조정",
+        "할인 확대"
+      ],
+      "target_price": 1500000
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06",
+      "event": "젠슨 황 방한·그룹 피지컬AI 부각",
+      "type": "event",
+      "expected_impact": "med",
+      "description": "자회사 동반 모멘텀이 지주 NAV에 반영"
+    },
+    {
+      "date": "2026-2H",
+      "event": "자회사 수주·실적 모멘텀",
+      "type": "business",
+      "expected_impact": "high",
+      "description": "로보틱스·에너빌리티·테스나 실적이 NAV 견인"
+    },
+    {
+      "date": "상시",
+      "event": "지주 할인 축소(주주환원·지배구조)",
+      "type": "corporate",
+      "expected_impact": "med",
+      "description": "배당·자사주 등 할인 축소 정책"
+    }
+  ],
+  "risks": [
+    {
+      "name": "지주 할인",
+      "probability": "high",
+      "impact": "med",
+      "description": "NAV 대비 할인 상존 — 자회사 강세가 1:1로 반영 안 됨",
+      "mitigation": "주주환원 강화·지배구조 개선"
+    },
+    {
+      "name": "자회사 변동성 전이",
+      "probability": "high",
+      "impact": "med",
+      "description": "로보틱스 고변동성이 지주 가치로 전이",
+      "mitigation": "다각화된 사업 포트폴리오"
+    },
+    {
+      "name": "자체 사업 사이클",
+      "probability": "med",
+      "impact": "med",
+      "description": "전자BG(반도체 기판)·연료전지 등 자체 사업 사이클",
+      "mitigation": "고부가 기판(AI 서버)·신사업"
+    },
+    {
+      "name": "이벤트 실질 전환 미확인",
+      "probability": "med",
+      "impact": "med",
+      "description": "그룹 NVIDIA 밀착의 실질 계약 전환 불확실",
+      "mitigation": "후속 수주·MOU로 검증"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "thesis_id": "T01",
+      "ticker_exposure": "+",
+      "claim": "젠슨 황(엔비디아 CEO)이 GTC 타이베이 2026(6/1~4) 참석 직후 6월 4일 저녁 방한하는 일정이 확정되었으며, 방한의 핵심 의제는 'AI+로봇'의 피지컬 AI다.",
+      "type": "factual",
+      "evidence": "메르 본문 + 연합뉴스 6/1 타이베이 만찬 보도. GTC 타이베이 직후 방한 일정.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T02",
+      "ticker_exposure": "++",
+      "claim": "두산그룹은 'AI 반도체 테스트(두산테스나) → 데이터센터 전력(두산에너빌리티) → 현장 로봇(두산로보틱스)'으로 이어지는 피지컬 AI 풀세트 밸류체인을 그룹 내에 모두 보유한 유일한 한국 그룹이다.",
+      "type": "factual",
+      "evidence": "메르가 두산을 풀세트로 지목. 세 계열사가 각 단계(테스트/전력/로봇)에 포지셔닝.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T03",
+      "ticker_exposure": "+",
+      "claim": "두산로보틱스 엔지니어 4명(Team Zenith)이 NVIDIA가 주최한 'Cosmos Cook-off' 피지컬 AI 챌린지에서 1,600개 이상 참가팀 중 1위를 차지해, 두산의 피지컬 AI 기술력이 글로벌 수준으",
+      "type": "factual",
+      "evidence": "메르 본문. NVIDIA Cosmos Reason 기반 로보틱스/자율주행/비전AI 경쟁.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T04",
+      "ticker_exposure": "+",
+      "claim": "메디슨 황(젠슨 황의 딸·엔비디아 임원)이 2026년 4월 29일 분당 두산로보틱스를 방문해 기술협력 방안을 논의한 것은 NVIDIA-두산 파트너십이 실무 단계로 진입했다는 신호다.",
+      "type": "predictive",
+      "evidence": "메르 본문. 4/29 엔비디아 임원 방한 = 메디슨 황.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T05",
+      "ticker_exposure": "+",
+      "claim": "젠슨 황이 잠실 두산 베어스 시구자로 참여할 것이라는 전일 추정이 후속 정황(만찬 초대·방한 확정)으로 강화되었으며, 삼성·LG가 아닌 두산을 택했다는 상징성이 유지된다.",
+      "type": "predictive",
+      "evidence": "메르 본문 '뇌피셜 타율이 높다'. 다만 본문 스스로 추정임을 명시.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T06",
+      "ticker_exposure": "+",
+      "claim": "젠슨 황이 6/1 타이베이 '코리아 파트너 나이트' 만찬에서 '한국 로보틱스가 매우 중요하다, 한국 투자를 검토하겠다, 엔비디아가 한국 로보틱스 발전에 기여하길 바란다'고 공식 발언해, 한국 로봇 산업에 대한 NVI",
+      "type": "factual",
+      "evidence": "메르 인용 + 연합뉴스 만찬 인터뷰. 다만 '검토'는 구속력 없는 의사 표명.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "thesis_id": "T07",
+      "ticker_exposure": "+",
+      "claim": "젠슨 황은 한국이 '상상력·창의력·야망은 크지만 노동 인구(손발)가 부족'하다고 진단하며, AI와 로봇이 한국의 잠재력을 극대화할 것이라고 봤다 — 한국의 구조적 로봇 수요를 시사한다.",
+      "type": "normative",
+      "evidence": "메르 인용. 한국 인구구조(고령화·생산가능인구 감소)와 정합.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T08",
+      "ticker_exposure": "+",
+      "claim": "6월 5일 성수동에서 젠슨 황과 최태원(SK)·정의선(현대차)·구광모(LG)·이해진(네이버)의 삼겹살 회동이 예정되어, 글로벌 빅테크와 한국 재벌 간 AI·로봇 협력이 가시화되고 있다.",
+      "type": "predictive",
+      "evidence": "메르 인용 기사. 만찬 초대 기업과 회동 참석자 중복.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T09",
+      "ticker_exposure": "+",
+      "claim": "두산로보틱스는 NVIDIA 피지컬 AI 밀착의 직접 당사자로서, 협동로봇·산업용 휴머노이드 수요 확대의 1차 수혜주다.",
+      "type": "predictive",
+      "evidence": "Team Zenith 1위·매디슨 황 방문·김민표 대표 만찬 참석.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T10",
+      "ticker_exposure": "+",
+      "claim": "두산에너빌리티는 AI 데이터센터 전력 수요(가스터빈·SMR) 확대의 수혜주로, 두산 풀세트의 '전력' 축을 담당한다.",
+      "type": "predictive",
+      "evidence": "메르가 전력=두산에너빌리티로 지목. 데이터센터 전력 병목 테마.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T11",
+      "ticker_exposure": "+",
+      "claim": "두산테스나는 AI 반도체(가속기·HBM 등) 후공정 테스트 수요 확대의 수혜주로, 두산 풀세트의 'AI 반도체 테스트' 축을 담당한다.",
+      "type": "predictive",
+      "evidence": "메르가 AI반도체 테스트=두산테스나로 지목. 시스템반도체 테스트 외주 성장.",
+      "testability": "med",
+      "current_status": "open"
+    },
+    {
+      "thesis_id": "T12",
+      "ticker_exposure": "-",
+      "claim": "(반대 명제) 만찬 초대·시구·삼겹살 회동·'투자 검토' 발언은 의례적 외교·홍보 이벤트일 뿐, 실질 계약·합작·투자로 직결된다는 보장이 없어 주가에 선반영된 기대가 되돌려질 위험이 있다.",
+      "type": "conditional",
+      "evidence": "메르 본문 스스로 '뇌피셜(추정)'임을 반복 명시. '검토'는 구속력 없음. 두산로보틱스 6/1→6/2 급등으로 기대 선반영.",
+      "testability": "med",
+      "current_status": "open"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06-01",
+      "type": "기업활동",
+      "title": "그룹 차원 타이베이 만찬 참석",
+      "summary": "두산그룹(두산로보틱스 대표)이 젠슨 황 주최 '코리아 파트너 나이트' 만찬 참석 — 그룹 피지컬AI 풀세트 부각"
+    }
+  ],
+  "reverse_dcf": {
+    "current_price_krw": 1918000,
+    "implied_5yr_op_growth_pct": null,
+    "narrative": "지주사 밸류에이션은 자회사 지분가치(NAV) 합산 − 지주 할인 구조로, 단일 영업이익 역산 reverse DCF가 적합하지 않다. 현 주가는 로보틱스·에너빌리티·테스나 시가 + 자체 사업 가치에서 지주 할인을 적용한 수준. 자회사 동반 재평가와 할인 축소가 업사이드, 테마 약화가 다운사이드."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 12
+}

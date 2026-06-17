@@ -1,0 +1,57 @@
+{
+  "industry": {
+    "name": "종합 반도체 (메모리·파운드리·세트)",
+    "overview": "삼성전자는 DRAM·NAND 메모리 1위이자 파운드리·세트(스마트폰·가전)를 아우르는 수직계열 종합 반도체. AI 메모리 사이클에서 HBM은 SK하이닉스에 후발이나 막대한 캐파·재무체력으로 추격 중이며, 파운드리(2나노)·온디바이스 AI는 옵션가치. 메가캡 중 가장 낮은 PER로 'AI 메모리 노출 + 밸류' 동시 보유.",
+    "competitors": [
+      {"name": "삼성전자", "ticker": "005930.KS", "share_pct": 40.0, "moat": "DRAM 1위·수직계열화·압도적 현금, HBM 추격 + 파운드리 옵션"},
+      {"name": "SK하이닉스", "ticker": "000660.KS", "share_pct": 36.0, "moat": "엔비디아향 HBM 1위"},
+      {"name": "TSMC", "ticker": "TSM", "share_pct": 60.0, "moat": "파운드리 압도적 1위(파운드리 한정)"}
+    ],
+    "news": [
+      {"date": "2026-05", "title": "삼성전자 HBM3E/HBM4 엔비디아 퀄 진척 + 파운드리 수주", "source": "언론", "summary": "HBM 점유율 추격과 2나노 파운드리 모멘텀이 멀티플 디스카운트 해소 기대"},
+      {"date": "2026", "title": "삼성전자 52주 범위 ₩53,700~₩291,500, 1Y +390%", "source": "investing.com", "summary": "메모리 턴어라운드 + AI 수요로 사상 최고가 경신"}
+    ],
+    "market_size": {"current_usd_bn": 200.0, "cagr_pct": 22.0, "horizon": "2024-2030 (메모리+파운드리)"}
+  },
+  "financials": {
+    "pl_5y": [
+      {"year": 2021, "revenue": 279605, "op_income": 51634, "op_margin": 18.5, "net_income": 39907, "net_margin": 14.3},
+      {"year": 2022, "revenue": 302231, "op_income": 43377, "op_margin": 14.4, "net_income": 55654, "net_margin": 18.4},
+      {"year": 2023, "revenue": 258936, "op_income": 6567, "op_margin": 2.5, "net_income": 15487, "net_margin": 6.0},
+      {"year": 2024, "revenue": 300871, "op_income": 32726, "op_margin": 10.9, "net_income": 34451, "net_margin": 11.4},
+      {"year": "2025E", "revenue": 340000, "op_income": 58000, "op_margin": 17.1, "net_income": 48000, "net_margin": 14.1}
+    ],
+    "bs_snapshot": {"total_assets": 480000, "total_liab": 110000, "equity": 370000, "cash": 100000, "debt": 12000},
+    "cf_summary": {"ocf_5y_avg": 75000, "fcf_5y_avg": 25000, "capex_intensity": 0.18},
+    "peer_compare": [
+      {"ticker": "005930.KS", "name": "삼성전자", "pe": 5.9, "pb": 1.6, "roe": 12.0, "div_yield": 1.8},
+      {"ticker": "000660.KS", "name": "SK하이닉스", "pe": 6.1, "pb": 2.8, "roe": 35.0, "div_yield": 0.6},
+      {"ticker": "TSM", "name": "TSMC", "pe": 22.0, "pb": 6.5, "roe": 28.0, "div_yield": 1.2}
+    ],
+    "_note": "KRW 십억원. 2021~2024 보고 실적 근사치, 2025E 추정치(미확정). 순현금 구조·압도적 재무체력이 특징."
+  },
+  "scenarios": {
+    "bull": {"prob_pct": 35, "target_price": 420000, "thesis": "HBM 점유율 회복 + 파운드리 흑자전환, 컨글로머릿 디스카운트 해소", "key_assumptions": ["HBM4 엔비디아 본격 공급", "2나노 파운드리 수주", "PER 9~10배 리레이팅"]},
+    "base": {"prob_pct": 45, "target_price": 350000, "thesis": "메모리 사이클 수혜 지속, 파운드리 점진 개선", "key_assumptions": ["메모리 OPM 개선", "파운드리 적자 축소", "PER 7배"]},
+    "bear": {"prob_pct": 20, "target_price": 200000, "thesis": "HBM 추격 실패 + 파운드리 적자 지속, AI capex 둔화", "key_assumptions": ["HBM 점유율 정체", "파운드리 손실", "메모리 ASP 하락"]}
+  },
+  "catalysts": [
+    {"date": "2026-2H", "event": "HBM4 엔비디아 퀄 통과·공급 확대", "type": "product", "expected_impact": "+", "description": "HBM 점유율 회복 시 멀티플 리레이팅"},
+    {"date": "2026-2027", "event": "2나노 파운드리 대형 수주", "type": "product", "expected_impact": "+", "description": "파운드리 흑자전환 촉매"},
+    {"date": "분기 실적", "event": "메모리 OPM·HBM 비중", "type": "earnings", "expected_impact": "+", "description": "턴어라운드 강도 확인"},
+    {"date": "상시", "event": "자사주·주주환원 확대", "type": "capital", "expected_impact": "+", "description": "순현금 활용 환원 정책"}
+  ],
+  "risks": [
+    {"name": "HBM 경쟁 열위 고착", "probability": "med", "impact": "high", "description": "SK하이닉스 대비 HBM 점유율 회복 실패 시 AI 수혜 제한", "mitigation": "캐파·R&D 대규모 투자"},
+    {"name": "파운드리 적자 지속", "probability": "med", "impact": "med", "description": "수율·수주 부진 시 손실 누적", "mitigation": "2나노 고객 확보"},
+    {"name": "세트(스마트폰·가전) 수요 둔화", "probability": "med", "impact": "med", "description": "비메모리 부문 경기 민감", "mitigation": "프리미엄 믹스"},
+    {"name": "컨글로머릿 디스카운트", "probability": "high", "impact": "low", "description": "사업부 복잡성으로 멀티플 할인 지속 가능", "mitigation": "사업 투명성·환원 강화"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "AI 메모리 구조적 수요 수혜 (T03·T04)", "type": "predictive", "evidence": "DRAM 1위·HBM 추격, AI 서버 메모리 수요", "testability": "high", "current_status": "in_progress"},
+    {"claim": "메모리 PBR→PER 리레이팅 (T10)", "type": "predictive", "evidence": "fPE 5.9배에서 상향 여지", "testability": "medium", "current_status": "pending"},
+    {"claim": "베라루빈 이후 서버 부품 수요 확대 (T06)", "type": "predictive", "evidence": "LPDDR·고대역폭 메모리 수요 급증", "testability": "medium", "current_status": "in_progress"},
+    {"claim": "병목 보유 기업 초과수익 (T09)", "type": "normative", "evidence": "메모리 과점 가격결정력", "testability": "medium", "current_status": "in_progress"}
+  ],
+  "korean_disclosures": []
+}

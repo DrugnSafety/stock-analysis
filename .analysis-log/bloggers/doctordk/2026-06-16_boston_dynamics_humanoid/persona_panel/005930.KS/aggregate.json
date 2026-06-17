@@ -1,0 +1,480 @@
+{
+  "ticker": "005930.KS",
+  "aggregated_at": "2026-06-17T11:59:29.003766+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 11,
+      "pct": 64.7
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.729,
+  "style_split": {
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 6,
+      "personas": [
+        "michael-burry",
+        "jim-simons",
+        "aswath-damodaran",
+        "phil-fisher",
+        "cliff-asness"
+      ],
+      "examples": [
+        "고변동성으로 인해 단기 리스크 존재",
+        "시장 변동성",
+        "높은 변동성으로 인한 리스크 확대"
+      ]
+    },
+    {
+      "theme": "리스크",
+      "frequency": 5,
+      "personas": [
+        "mohnish-pabrai",
+        "jim-simons",
+        "phil-fisher",
+        "nassim-taleb",
+        "peter-lynch"
+      ],
+      "examples": [
+        "고변동성으로 인해 단기 리스크 존재",
+        "Boston Dynamics 투자 리스크",
+        "높은 변동성으로 인한 리스크 확대"
+      ]
+    }
+  ],
+  "persona_results": {
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "고변동성으로 인해 단기 리스크 존재",
+        "로봇 사업의 성공 여부는 불확실"
+      ],
+      "key_opportunities_top3": [
+        "로봇 시장 확대로 인한 장기 성장 잠재력",
+        "빅테크와의 전략적 파트너십 가능성"
+      ],
+      "uncertainty": "보스턴 다이내믹스 지분 인수가 불발되거나 시장 환경이 급변할 경우 의사결정에 영향을 미칠 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부채/자기자본 비율",
+        "Boston Dynamics 투자 리스크"
+      ],
+      "key_opportunities_top3": [
+        "로봇 사업 확장 가능성",
+        "전략적 투자로 인한 벨류에이션 개선 가능성"
+      ],
+      "uncertainty": "Boston Dynamics 투자가 실패하거나, 예상 외의 부채 증가가 발생하면 verdict가 뒤집힐 수 있습니다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "보스턴 다이내믹스의 시장 가치 불확실성",
+        "미래 로봇 사업의 경쟁도"
+      ],
+      "key_opportunities_top3": [
+        "피지컬 AI를 통한 혁신 기회",
+        "로봇 사업 확대를 통한 TAM 증가"
+      ],
+      "uncertainty": "보스턴 다이내믹스 지분 인수 전략이 실패하면 verdict가 바뀔 수 있음.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "글로벌 경제 불황",
+        "기술 혁신 실패"
+      ],
+      "key_opportunities_top3": [
+        "로봇 사업 확장",
+        "전략적 지분 인수"
+      ],
+      "uncertainty": "삼성전자의 기술 개발이 느려지거나, 로봇 시장에서의 입지가 약화될 경우 verdic가 바뀔 수 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "로봇 분야 내 확고한 해자의 부재",
+        "현재 가격 대비 내재가치의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "반도체와 전자 제품에서의 선도적 위치",
+        "새로운 성장 분야 진출 시너지 효과"
+      ],
+      "uncertainty": "로봇 분야가 삼성전자의 확고한 해자로 자리 잡지 못할 경우, 전략적 투자에서 긍정적 결과를 도출하기 어려울 것",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "로봇 시장의 불확실한 수익성",
+        "고평가된 가격 수준"
+      ],
+      "key_opportunities_top3": [
+        "AI·반도체의 지속적 성장",
+        "로봇 시장의 확대를 통한 미래 경쟁력 강화"
+      ],
+      "uncertainty": "글로벌 경기 둔화 및 반도체 시장의 수요 감소가 발생하면 향후 성장 전망이 악화될 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "반도체 사이클의 일시적 회복 가능성",
+        "M&A 추진 과정의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "로봇 사업의 장기적 성장 가능성",
+        "전략적 투자 확대"
+      ],
+      "uncertainty": "글로벌 유동성과 반도체 사이클이 예상과 다르게 전개될 경우 판단이 바뀔 수 있습니다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 비율",
+        "시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "전략적 인수로 인한 추가 성장 가능성",
+        "향후 로봇 시장 리더십 확보"
+      ],
+      "uncertainty": "전략적 인수가 실패하거나, 시장에서 예상과 다른 반응이 발생할 경우, verdict가 뒤바뀔 수 있음.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 변동성으로 인한 리스크 확대",
+        "시장이 예상할 수 없는 변동성 증가 가능성"
+      ],
+      "key_opportunities_top3": [
+        "미래 로봇 사업 진출의 장기적 잠재력",
+        "전략적 포트폴리오 기회를 통한 확장"
+      ],
+      "uncertainty": "만약 변동성이 크게 감소하여 안정된 상태로 진입하게 된다면, 시장 신호에 따라 기존의 판단을 수정할 수 있음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Boston Dynamics 인수가 실현되지 않을 경우 전략적 이점 약화",
+        "자본 효율성이 새로운 사업 확대에 발목 잡힐 가능성"
+      ],
+      "key_opportunities_top3": [
+        "Boston Dynamics 인수를 통한 로봇 분야 확장",
+        "디지털 변혁을 통한 미래 성장"
+      ],
+      "uncertainty": "Boston Dynamics 투자가 성사되지 않는다면 판세가 크게 변화할 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "매크로 환경의 불확실성",
+        "부채사이클의 잠재적 위험"
+      ],
+      "key_opportunities_top3": [
+        "로봇 및 AI 분야의 장기적 가능성",
+        "삼성전자의 글로벌 경쟁력"
+      ],
+      "uncertainty": "매크로 환경이 급격히 개선되면 판단이 바뀔 수 있습니다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "기술 의존성 증가에 따른 tail risk",
+        "외부 정치적 리스크 노출"
+      ],
+      "key_opportunities_top3": [
+        "신규 M&A로 인한 연구개발 파이프라인 확대",
+        "글로벌 시장 점유율 증가"
+      ],
+      "uncertainty": "글로벌 경제 변동성 및 기술 경쟁 압력 증가 시 논리 불허",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Boston Dynamics 인수 실패 가능성",
+        "M&A로 인한 단기 비용 증가"
+      ],
+      "key_opportunities_top3": [
+        "미래 로봇 시장 경쟁력 강화",
+        "빅테크와의 전략적 제휴 가능성"
+      ],
+      "uncertainty": "Boston Dynamics 인수가 불발되거나 시장에서 부정적으로 해석될 경우 기존 판단이 무효화될 수 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부채 비율에 대한 정보 부족",
+        "PBR 및 기타 재무 비율 필요"
+      ],
+      "key_opportunities_top3": [
+        "Boston Dynamics와의 전략적 제휴로 인한 경쟁력 강화"
+      ],
+      "uncertainty": "부채 비율 및 PBR 등이 명확히 밝혀져 Graham 기준을 충족하면 verdict가 변할 수 있습니다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "반도체 시장의 변동성",
+        "경쟁 심화"
+      ],
+      "key_opportunities_top3": [
+        "로봇 사업 확장",
+        "글로벌 시장 점유율 증가"
+      ],
+      "uncertainty": "로봇 산업에 대한 투자가 성공하지 않으면 verdict가 뒤집힐 수 있습니다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "비즈니스 과도한 확장의 리스크",
+        "M&A로 인한 재무 부담"
+      ],
+      "key_opportunities_top3": [
+        "로봇 사업 관련 경쟁력 강화",
+        "기술 혁신을 통한 시장 점유율 증가"
+      ],
+      "uncertainty": "로봇 시장 주도권 확보 실패 시 투자 논리가 손상될 수 있다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "P/B와 같은 추가적인 가치 평가 지표 부재",
+        "높은 시장 변동성 가능성"
+      ],
+      "key_opportunities_top3": [
+        "강력한 주가 모멘텀",
+        "로봇 사업의 성장 잠재력"
+      ],
+      "uncertainty": "보스턴다이내믹스 인수가 무산되거나 부정적 평가를 받는다면 가치가 크게 바뀔 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    }
+  }
+}

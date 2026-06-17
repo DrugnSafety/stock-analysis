@@ -1,0 +1,205 @@
+{
+  "industry": {
+    "name": "웨이퍼 테스트 OSAT — SoC·CIS·AI(ADAS/LPU) 테스트",
+    "overview": "두산테스나는 국내 웨이퍼 테스트(전공정 후 양품 선별) 선두 OSAT다. 블로그 '깐부' 프레임에서 삼성 파운드리 낙수효과 + AI(ADAS·LPU)·메모리컨트롤러 테스트 수요의 수혜주. 메리츠 매수, 목표가 20만원 상향(블로그 작성일 주가 137,100원, +45.9%) — 파운드리 낙수효과 반영. LPU(언어처리장치) 테스트 매출 4Q26부터, 북미 CIS(이미지센서) 테스트 2Q27부터 본격 반영 전망으로 이익 체력이 단계 상승. 2025 일시 부진(외형↓·비용↑)이 저점.",
+    "competitors": [
+      {
+        "name": "두산테스나",
+        "ticker": "131970.KQ",
+        "share_pct": null,
+        "moat": "국내 웨이퍼테스트 선두 + 삼성 파운드리 협력 + AI/CIS 테스트 확장"
+      },
+      {
+        "name": "엘비세미콘",
+        "ticker": "061970.KQ",
+        "share_pct": null,
+        "moat": "국내 범핑·테스트"
+      },
+      {
+        "name": "네패스아크",
+        "ticker": "330860.KQ",
+        "share_pct": null,
+        "moat": "시스템반도체 테스트(그룹사)"
+      },
+      {
+        "name": "Amkor(앰코)",
+        "ticker": "AMKR",
+        "share_pct": null,
+        "moat": "글로벌 OSAT·테스트"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05",
+        "title": "AI·고사양 CIS 테스트 본격화 — 내년 이익 체력 급변",
+        "source": "news.nate 20260515n04255",
+        "summary": "LPU 4Q26·북미 CIS 2Q27 매출 반영",
+        "impact": "+"
+      },
+      {
+        "date": "2026-06",
+        "title": "메리츠 매수·목표가 20만 상향(+45.9%)",
+        "source": "블로그(doctordk) 인용 메리츠",
+        "summary": "파운드리 낙수효과·AI(ADAS/LPU) 반영",
+        "impact": "+"
+      },
+      {
+        "date": "2026-04",
+        "title": "2026 기업가치 제고 계획 추진",
+        "source": "news.nate 20260401n37286",
+        "summary": "주주환원·성장투자",
+        "impact": "○"
+      },
+      {
+        "date": "2026-06-17",
+        "title": "1Y 주가 +426% — 기대 선반영",
+        "source": "yfinance live",
+        "summary": "2025 실적 저점 대비 급등",
+        "impact": "○"
+      }
+    ]
+  },
+  "financials": {
+    "source": "yfinance income_stmt (live, 2026-06-17)",
+    "currency": "KRW(조원)",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 0.28,
+        "op_income": 0.07,
+        "net_income": 0.05,
+        "op_margin": 24.2,
+        "net_margin": 18.8
+      },
+      {
+        "year": 2023,
+        "revenue": 0.34,
+        "op_income": 0.06,
+        "net_income": 0.05,
+        "op_margin": 17.9,
+        "net_margin": 14.5
+      },
+      {
+        "year": 2024,
+        "revenue": 0.37,
+        "op_income": 0.04,
+        "net_income": 0.04,
+        "op_margin": 10.2,
+        "net_margin": 9.9
+      },
+      {
+        "year": 2025,
+        "revenue": 0.3,
+        "op_income": -0.0,
+        "net_income": 0.0,
+        "op_margin": -0.3,
+        "net_margin": 0.5
+      }
+    ],
+    "trend_narrative": "매출은 2022 ₩0.28조 → 2024 ₩0.37조 → 2025 ₩0.30조로 2025 외형 축소, 영업이익률은 2022 24.2% → 2025 -0.3%로 급락 — 가동률·투자비용·전방 부진이 겹친 일시 저점. LPU(4Q26)·북미 CIS(2Q27) 테스트 매출이 본격 반영되면 이익 체력이 단계적으로 회복될 전망. 현재 실적은 사이클 저점이며 신규 AI/CIS 테스트가 회복 동력 — 다만 1Y +426% 기대 선반영이 부담.",
+    "valuation_summary": "Forward PE None (yfinance live — 2025 적자로 PE 산정 제한). 현재가 ₩148,400 / 1Y +426% / 연변동성 84%. 메리츠 목표가 20만(블로그 인용)·타 리서치 15~16만으로 편차."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.4,
+      "description": "삼성 파운드리 가동률 회복 + LPU(4Q26)·북미 CIS(2Q27) 테스트 본격화로 이익 체력 급반등. 목표가 20만 지향.",
+      "key_drivers": [
+        "파운드리 낙수 본격화",
+        "LPU 테스트 매출",
+        "북미 CIS 진입"
+      ]
+    },
+    "base": {
+      "probability": 0.4,
+      "description": "2025 저점 통과 후 완만 회복, AI/CIS 테스트 점진 기여. 목표가 15~17만 수렴.",
+      "key_drivers": [
+        "저점 통과",
+        "AI 테스트 점진",
+        "주주환원"
+      ]
+    },
+    "bear": {
+      "probability": 0.2,
+      "description": "삼성 파운드리 회복 지연 + 신규 테스트 매출 후행 + 1Y +426% 차익실현으로 조정.",
+      "key_drivers": [
+        "파운드리 회복 지연",
+        "매출 후행",
+        "테마 차익"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-4Q",
+      "name": "LPU 테스트 매출 본격화",
+      "impact": "high",
+      "description": "AI 가속기 테스트 진입 확인"
+    },
+    {
+      "date": "2027-2Q",
+      "name": "북미 CIS 테스트 매출",
+      "impact": "high",
+      "description": "신규 고객·매출원 다변화"
+    },
+    {
+      "date": "2026-분기",
+      "name": "분기 실적(이익 체력 회복)",
+      "impact": "high",
+      "description": "2025 저점 대비 턴어라운드 확인"
+    }
+  ],
+  "risks": [
+    {
+      "name": "실적 저점·회복 후행",
+      "probability": "high",
+      "impact": "high",
+      "description": "2025 OPM -0.3%, 신규 매출은 4Q26~2027 후행"
+    },
+    {
+      "name": "밸류 vs 추정 편차",
+      "probability": "medium",
+      "impact": "high",
+      "description": "목표가 15만~20만 편차·1Y +426% 선반영"
+    },
+    {
+      "name": "삼성 파운드리 의존",
+      "probability": "medium",
+      "impact": "high",
+      "description": "낙수효과가 삼성 가동률에 종속"
+    },
+    {
+      "name": "초고변동성(vol 84%)",
+      "probability": "high",
+      "impact": "medium",
+      "description": "기대 선반영 — 변동성 관리"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T06",
+      "claim": "파운드리 낙수+AI/LPU 테스트",
+      "current_status": "pending",
+      "evidence": "LPU 4Q26·CIS 2Q27 후행(네이트)"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "TSMC capa 부족 낙수",
+      "current_status": "pending",
+      "evidence": "삼성 파운드리 가동률 회복에 종속"
+    },
+    {
+      "claim_id": "T01",
+      "claim": "테스트=후공정 부가가치",
+      "current_status": "confirmed",
+      "evidence": "웨이퍼 테스트 수요 구조적 증가"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-06",
+      "type": "IR/리서치",
+      "summary": "메리츠 매수·목표가 20만원 상향(블로그 인용), 파운드리 낙수·AI/LPU 테스트 반영",
+      "title": "메리츠 BUY 목표가 20만 (보도/리서치 기반)"
+    }
+  ]
+}

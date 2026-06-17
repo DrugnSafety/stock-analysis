@@ -1,0 +1,289 @@
+{
+  "industry": {
+    "name": "Glass / Optical Fiber / Specialty Materials",
+    "overview": "Corning은 170년 역사의 specialty glass·optical fiber·display·life science 다각화 manufacturer. AI 사이클에서 (1) optical fiber (datacenter interconnect용), (2) advanced glass substrate (HBM·CoWoS·UPI packaging용), (3) specialty materials 모두 수혜. AI revenue mix 5%(2023) → 22%(2025) → 35%(2027E) 추정. NVIDIA equity stake (rumored) 가능성도 시장에서 거론.",
+    "competitors": [
+      {
+        "name": "Corning",
+        "ticker": "GLW",
+        "share_pct": 40.0,
+        "moat": "Optical fiber + glass substrate dual leadership"
+      },
+      {
+        "name": "Schott AG",
+        "ticker": "private",
+        "share_pct": 18.0,
+        "moat": "German specialty glass leader"
+      },
+      {
+        "name": "AGC Inc",
+        "ticker": "5201.T",
+        "share_pct": 12.0,
+        "moat": "일본 glass major + display"
+      },
+      {
+        "name": "NEG (Nippon Electric Glass)",
+        "ticker": "5214.T",
+        "share_pct": 10.0,
+        "moat": "일본 specialty glass + display"
+      },
+      {
+        "name": "Sumitomo Electric",
+        "ticker": "5802.T",
+        "share_pct": 8.0,
+        "moat": "Optical fiber, infrastructure"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-04-12",
+        "title": "Corning Q1 2026 — Optical Communications +35% YoY, GLW AI revenue 24%",
+        "source": "Corning earnings",
+        "summary": "Datacenter fiber capacity expansion, glass substrate for HBM ramping"
+      },
+      {
+        "date": "2026-03-05",
+        "title": "Corning 4Q25 — Specialty Materials +50% YoY (AI substrate driven)",
+        "source": "Corning earnings",
+        "summary": "TSMC·SK Hynix glass substrate 공급 본격화"
+      },
+      {
+        "date": "2026-02-08",
+        "title": "Corning, AI optics용 photonic fiber 새 product line 발표",
+        "source": "Corning announcement",
+        "summary": "MMF/SMF 차세대 high-bandwidth"
+      }
+    ],
+    "market_size": {
+      "cagr_pct": 26.0,
+      "current_usd_bn": 5.0,
+      "forecast_usd_bn": 20.0,
+      "horizon": "2030"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 14189,
+        "op_income": 1888,
+        "op_margin": 13.3,
+        "net_income": 1316,
+        "net_margin": 9.3
+      },
+      {
+        "year": 2023,
+        "revenue": 13877,
+        "op_income": 1850,
+        "op_margin": 13.3,
+        "net_income": 1100,
+        "net_margin": 7.9
+      },
+      {
+        "year": 2024,
+        "revenue": 13118,
+        "op_income": 1450,
+        "op_margin": 11.1,
+        "net_income": 580,
+        "net_margin": 4.4
+      },
+      {
+        "year": 2025,
+        "revenue": 14500,
+        "op_income": 2030,
+        "op_margin": 14.0,
+        "net_income": 1200,
+        "net_margin": 8.3
+      },
+      {
+        "year": 2026,
+        "revenue": 17800,
+        "op_income": 3200,
+        "op_margin": 18.0,
+        "net_income": 2100,
+        "net_margin": 11.8
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 28500,
+      "total_liab": 17200,
+      "equity": 11300,
+      "cash": 1700,
+      "debt": 7500
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 2100,
+      "fcf_5y_avg": 950,
+      "capex_intensity": 0.105
+    },
+    "peer_compare": [
+      {
+        "ticker": "GLW",
+        "name": "Corning",
+        "pe": 44.4,
+        "pb": 7.5,
+        "roe": 18.5,
+        "div_yield": 0.85
+      },
+      {
+        "ticker": "5201.T",
+        "name": "AGC Inc",
+        "pe": 14.5,
+        "pb": 0.85,
+        "roe": 6.5,
+        "div_yield": 3.5
+      },
+      {
+        "ticker": "5214.T",
+        "name": "NEG",
+        "pe": 12.8,
+        "pb": 0.75,
+        "roe": 6.0,
+        "div_yield": 4.0
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 35,
+      "target_price": 250.0,
+      "thesis": "AI fiber + glass substrate dual driver, AI revenue mix 35%+. 2028 EPS $7+",
+      "key_assumptions": [
+        "AI revenue mix 35% by 2028",
+        "Glass substrate TAM $20B by 2030",
+        "Display segment recovery"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 200.0,
+      "thesis": "AI 안정 성장 + 기존 사업 stable. 2028 EPS $5.5 수준",
+      "key_assumptions": [
+        "AI revenue +30% YoY",
+        "OPM 18% 유지",
+        "Display +5% YoY"
+      ]
+    },
+    "bear": {
+      "prob_pct": 15,
+      "target_price": 140.0,
+      "thesis": "Display cycle 둔화 + AI revenue 성장 둔화. 2028 EPS $4 수준",
+      "key_assumptions": [
+        "Smartphone display -10%",
+        "AI fiber capa oversupply",
+        "Sumitomo·Furukawa 침투"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-Q2",
+      "event": "Q1 earnings — AI revenue mix 25% 돌파 가능",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "Optical Communications +35% YoY 유지 시 momentum"
+    },
+    {
+      "date": "2026-H2",
+      "event": "Glass substrate HBM4 양산 ramp",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "TSMC·SK Hynix·Samsung 모두 GLW substrate 채택"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "NVIDIA equity stake 가능성 (rumored)",
+      "type": "strategic",
+      "expected_impact": "+",
+      "description": "Strategic supplier 인정 시 re-rating"
+    },
+    {
+      "date": "2027-H1",
+      "event": "Apple Vision Pro 2 glass — display segment recovery",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "Display 매출 +15% YoY 회복 가능"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Display cycle 둔화",
+      "probability": "med",
+      "impact": "med",
+      "description": "Smartphone display 매출 30% 노출 — cycle 둔화 시 매출 -10-15%",
+      "mitigation": "AI revenue 비중 확대로 상쇄"
+    },
+    {
+      "name": "Optical fiber oversupply",
+      "probability": "med",
+      "impact": "med",
+      "description": "Sumitomo·Furukawa·OFS 신규 capa 진입 시 가격 압박",
+      "mitigation": "Specialty fiber + glass substrate 차별화"
+    },
+    {
+      "name": "Valuation reset",
+      "probability": "med",
+      "impact": "med",
+      "description": "PE 44x는 historical 2x premium (avg 22x)",
+      "mitigation": "AI revenue mix 확대로 multiple 정당화"
+    },
+    {
+      "name": "Glass substrate 경쟁",
+      "probability": "low",
+      "impact": "med",
+      "description": "Schott·AGC·NEG 일본 기업 글래스 substrate competition",
+      "mitigation": "기술 leadership + TSMC·SK Hynix partnership"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "AI 물리 인프라 산업 — Corning은 fiber + glass substrate dual play",
+      "type": "factual",
+      "evidence": "Corning Q4 2025 earnings call",
+      "testability": "high",
+      "current_status": "supported"
+    },
+    {
+      "claim": "AI revenue mix 5% → 22% → 35%로 multi-year jump",
+      "type": "predictive",
+      "evidence": "Corning investor day 2025-11",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Glass substrate TAM $5B → $20B by 2030 (CAGR 26%)",
+      "type": "predictive",
+      "evidence": "Yole 2025-12 report",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim": "Forward PE 44x는 historic rich이나 multi-product mix가 정당화 가능",
+      "type": "valuation",
+      "evidence": "5Y avg PE 22x vs current 44x",
+      "testability": "high",
+      "current_status": "warning"
+    }
+  ],
+  "korean_disclosures": [],
+  "sec_disclosures": [
+    {
+      "date": "2026-04-12",
+      "form": "10-Q",
+      "title": "Q1 2026 — Optical Communications +35% YoY",
+      "impact": "+"
+    },
+    {
+      "date": "2026-03-05",
+      "form": "10-Q",
+      "title": "4Q25 Specialty Materials +50% YoY",
+      "impact": "+"
+    },
+    {
+      "date": "2025-11-20",
+      "form": "10-K",
+      "title": "FY25 annual — AI revenue mix narrative 강화",
+      "impact": "+"
+    }
+  ]
+}
