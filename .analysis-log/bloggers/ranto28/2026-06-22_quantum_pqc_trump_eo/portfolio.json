@@ -1,0 +1,66 @@
+{
+  "computed_at": "2026-06-23T11:06:18.271030+09:00",
+  "start_cash": 1000000.0,
+  "start_date": "2026-06-22",
+  "end_date": "2026-06-22",
+  "n_decisions": 5,
+  "total_trades": 2,
+  "total_buy_value": 109951.67,
+  "total_sell_value": 0.0,
+  "final_cash": 890048.33,
+  "end_positions_value": 109951.67,
+  "final_nav": 1000000.0,
+  "total_return_pct": -0.0,
+  "final_positions": {
+    "GFS": {
+      "qty": 613,
+      "avg_cost": 89.67,
+      "last_price": 89.67,
+      "market_value": 54967.71,
+      "unrealized_pnl": -0.0,
+      "unrealized_return_pct": -0.0
+    },
+    "IBM": {
+      "qty": 218,
+      "avg_cost": 252.22,
+      "last_price": 252.22,
+      "market_value": 54983.96,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-06-22",
+      "ticker": "GFS",
+      "action": "buy",
+      "qty": 613,
+      "price": 89.67,
+      "cost": 54967.71,
+      "cash_after": 945032.29
+    },
+    {
+      "date": "2026-06-22",
+      "ticker": "IBM",
+      "action": "buy",
+      "qty": 218,
+      "price": 252.22,
+      "cost": 54983.96,
+      "cash_after": 890048.33
+    }
+  ],
+  "benchmark_comparison": {
+    "SPY": {
+      "start_price": 744.39,
+      "end_price": 744.39,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    },
+    "QQQ": {
+      "start_price": 737.95,
+      "end_price": 737.95,
+      "return_pct": 0.0,
+      "alpha_pct": -0.0
+    }
+  }
+}
