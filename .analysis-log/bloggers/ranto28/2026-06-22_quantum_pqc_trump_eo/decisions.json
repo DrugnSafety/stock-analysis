@@ -1,0 +1,147 @@
+{
+  "computed_at": "2026-06-23T11:06:17.190715+09:00",
+  "ledger_path": ".analysis-log/bloggers/ranto28/2026-06-22_quantum_pqc_trump_eo/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/ranto28/2026-06-22_quantum_pqc_trump_eo/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "GFS",
+      "date": "2026-06-22",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "neutral": 8,
+        "lean_bearish": 1,
+        "lean_bullish": 8
+      },
+      "signal_score": 0.3137,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 613,
+      "current_price": 89.67,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.731,
+      "reasoning": "중간 매수 신호 (+0.31), 한도의 50% 진입"
+    },
+    {
+      "ticker": "IBM",
+      "date": "2026-06-22",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "neutral": 10,
+        "lean_bullish": 7
+      },
+      "signal_score": 0.3169,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "neutral",
+          "confidence": 0.55,
+          "weight": 1.0,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 55000.0,
+      "target_quantity": 218,
+      "current_price": 252.22,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 0.5467,
+      "reasoning": "중간 매수 신호 (+0.32), 한도의 50% 진입"
+    },
+    {
+      "ticker": "IONQ",
+      "date": "2026-06-22",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bearish": 6,
+        "neutral": 5,
+        "lean_bullish": 6
+      },
+      "signal_score": 0.0122,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bearish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": -0.434
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 58.32,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.0858,
+      "reasoning": "중립 신호 (+0.01), 변경 없음"
+    },
+    {
+      "ticker": "QBTS",
+      "date": "2026-06-22",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bearish": 7,
+        "lean_bullish": 5,
+        "neutral": 5
+      },
+      "signal_score": -0.0738,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bearish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": -0.434
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 24.47,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.3134,
+      "reasoning": "중립 신호 (-0.07), 변경 없음"
+    },
+    {
+      "ticker": "RGTI",
+      "date": "2026-06-22",
+      "n_verdicts": 17,
+      "verdict_breakdown": {
+        "lean_bearish": 7,
+        "lean_bullish": 5,
+        "neutral": 5
+      },
+      "signal_score": -0.0738,
+      "weighted_confidence": 0.059,
+      "persona_contributions": {
+        "unknown": {
+          "verdict": "lean_bearish",
+          "confidence": 0.62,
+          "weight": 1.0,
+          "score_contribution": -0.434
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 21.38,
+      "position_limit_value": 110000.0,
+      "annualized_volatility": 1.2067,
+      "reasoning": "중립 신호 (-0.07), 변경 없음"
+    }
+  ]
+}
