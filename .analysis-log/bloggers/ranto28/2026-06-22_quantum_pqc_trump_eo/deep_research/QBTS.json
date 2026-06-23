@@ -1,0 +1,275 @@
+{
+  "ticker": "QBTS",
+  "industry": {
+    "name": "양자컴퓨터 + Post-Quantum Cryptography (PQC) 산업",
+    "overview": "양자컴퓨터 industry는 2026년 commercial revenue ~$1.5B (IBM·IonQ·D-Wave·Rigetti 합산 ~$200M), 2030 TAM $20-50B 전망. 양강 modality 경쟁: (1) Superconducting [IBM, Google, Rigetti] — 1121 physical qubit, cryogenic operation (2) Trapped-ion [IonQ, Quantinuum] — 35-56 algorithmic qubit, room-temp (3) Quantum annealing [D-Wave Advantage 5000-qubit] — optimization 특화 (4) Neutral atom [Pasqal, QuEra]. PQC migration은 별개 software 시장 — NIST 표준 (CRYSTALS-Kyber·Dilithium·FALCON·SPHINCS+) finalized 2024-08, federal agency 전환 deadline 2031 (트럼프 EO로 2035→2031 단축). 美 상무부 2026-05 9개 양자기업 $2B funding — IBM 분사 $1B, GFS $375M, D-Wave/Rigetti/Infleqtion 각 $100M. 양자기술 = 방첩 안보자산 격상. 中-美 양자 경쟁: 中 USTC 76-qubit Jiuzhang/QKD 위성 Micius vs 美 fault-tolerant PQC.",
+    "competitors": [
+      {
+        "name": "IBM",
+        "ticker": "IBM",
+        "share_pct": 35.0,
+        "moat": "Condor 1121 physical qubit, Quantum spin-off $1B funding, fault-tolerant 2029 로드맵"
+      },
+      {
+        "name": "Google Quantum AI",
+        "ticker": "GOOGL",
+        "share_pct": 15.0,
+        "moat": "Willow 105 logical qubit (2025), Gidney Q-day 논문, EO 배석"
+      },
+      {
+        "name": "IonQ",
+        "ticker": "IONQ",
+        "share_pct": 12.0,
+        "moat": "Trapped-ion 35 algorithmic qubit, 99.9% fidelity, AFRL contract history"
+      },
+      {
+        "name": "D-Wave Quantum",
+        "ticker": "QBTS",
+        "share_pct": 10.0,
+        "moat": "Quantum annealing 5000-qubit Advantage, optimization 특화"
+      },
+      {
+        "name": "Rigetti Computing",
+        "ticker": "RGTI",
+        "share_pct": 8.0,
+        "moat": "Superconducting 79-qubit Ankaa-3, $100M gov funding"
+      },
+      {
+        "name": "GlobalFoundries",
+        "ticker": "GFS",
+        "share_pct": 7.0,
+        "moat": "Specialty foundry cryogenic CMOS + photonic IC, $375M gov funding"
+      },
+      {
+        "name": "Quantinuum",
+        "ticker": "private",
+        "share_pct": 8.0,
+        "moat": "Trapped-ion 56 algorithmic qubit (Honeywell + Cambridge Quantum 합병), pre-IPO"
+      },
+      {
+        "name": "Quantum Computing Inc",
+        "ticker": "QUBT",
+        "share_pct": 2.0,
+        "moat": "Photonic optimization, 작은 cap"
+      },
+      {
+        "name": "Pasqal",
+        "ticker": "private",
+        "share_pct": 3.0,
+        "moat": "Neutral atom (France), EU funding"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 1.5,
+      "cagr_pct": 32.0,
+      "horizon": "2026-2030 (BCG·McKinsey 평균)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.3,
+      "assumptions": [
+        "Q-day 2030 이전 도래 — Gidney 논문 시점 단축. PQC migration 가속 → cybersecurity vendor 매출 +50%",
+        "QC-ADDS 2028 deadline 준수 — DOE/NSF 17개 lab 양자컴퓨터 procurement $5B+ pull-through",
+        "美 상무부 양자 funding이 phase 2로 확대 — 추가 $3-5B 양자 ecosystem investment",
+        "Government equity stake가 stockholder-friendly (10-15% dilution, no voting) → re-rating multiplier 1.5x"
+      ],
+      "value_per_share_pct_upside": "+150%",
+      "ticker_specific_note": "QBTS bull case — Quantum annealing 5000-qubit Advantage + $100M 정부 funding. 시총 ~$1.5B, cash burn -$60M/년. Optimization 특화 — gate-based qu"
+    },
+    "base": {
+      "probability": 0.5,
+      "assumptions": [
+        "Q-day 2032-2035 도래 — PQC migration federal agency 2031 deadline 준수",
+        "QC-ADDS 2028 partial 도달 (3-5 lab 설치) — 5-10 vendor procurement",
+        "Government equity 15-25% dilution + voting (CHIPS Act precedent) — re-rating 1.0x",
+        "Commercial quantum 매출 2030 $10B (IBM 25%, IonQ 15%, Rigetti/D-Wave 합산 10%)"
+      ],
+      "value_per_share_pct_upside": "+20%"
+    },
+    "bear": {
+      "probability": 0.2,
+      "assumptions": [
+        "Q-day delay 2040+ — fault-tolerant 1M qubit 도달 timeline 5+ 년 지연",
+        "2028 대선에서 차기 행정부 EO retract — PQC 2031 deadline 무효화",
+        "Government funding milestone-based, technical 미달 시 second tranche 미지급",
+        "Quantum hype cycle peak 후 narrative collapse — small-cap (RGTI/QBTS) -60-80% drawdown"
+      ],
+      "value_per_share_pct_upside": "-65%"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-06-21",
+      "event": "트럼프 양자 EO 2건 서명",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "PQC 2031 + QC-ADDS 2028 — 정책 catalyst 전반 bullish"
+    },
+    {
+      "date": "2026 H2",
+      "event": "美 상무부 9개 양자기업 funding tranche 1 disburse",
+      "type": "financial",
+      "expected_impact": "+",
+      "description": "$2B 분할 지급 — milestone-based, 실제 cash flow 인식 시점"
+    },
+    {
+      "date": "2026 H2-2027",
+      "event": "IBM Quantum spin-off announce + IPO timeline",
+      "type": "corporate",
+      "expected_impact": "+",
+      "description": "$1B funding 활용 분사 본격화 — IBM 본사 distribution 가능성"
+    },
+    {
+      "date": "2027",
+      "event": "NIST PQC v2 알고리즘 검증 + federal agency migration 가속",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "CRYSTALS 후속 알고리즘 검증 단계"
+    },
+    {
+      "date": "2028",
+      "event": "QC-ADDS 첫 national lab 양자컴퓨터 설치 deadline",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "DOE/NSF 17개 lab 중 첫 설치 — vendor revenue 인식"
+    },
+    {
+      "date": "2028 Nov",
+      "event": "美 대선 — EO retract risk (negative tail)",
+      "type": "policy",
+      "expected_impact": "-",
+      "description": "차기 행정부 양자 정책 retract 가능성"
+    },
+    {
+      "date": "2029",
+      "event": "IBM fault-tolerant qubit demo 로드맵 deadline",
+      "type": "corporate",
+      "expected_impact": "+",
+      "description": "Heron 156 → Flamingo logical qubit 시연"
+    },
+    {
+      "date": "2031",
+      "event": "Federal agency PQC migration 완료 deadline",
+      "type": "policy",
+      "expected_impact": "+",
+      "description": "PQC 전환 federal level 완료 — cybersecurity vendor 매출 인식"
+    }
+  ],
+  "risks": [
+    {
+      "name": "Fault-tolerant 1M qubit timeline 지연",
+      "probability": "med",
+      "impact": "high",
+      "description": "Gidney 논문 이상화 가정 — 실제 surface code overhead 1L=1000P → 1M physical = 1000 logical 추정. 2032-2035 도달 conservative.",
+      "mitigation": "Multi-modality basket (superconducting + trapped-ion + annealing) 분산"
+    },
+    {
+      "name": "2028 대선 EO retract risk",
+      "probability": "low-med",
+      "impact": "high",
+      "description": "Biden→Trump 2025 EO revocation 패턴. 차기 행정부 PQC 2031 deadline 무효화 가능.",
+      "mitigation": "Bipartisan support 분야 — 의회 입법 (NQI Act 재인증) 모니터링"
+    },
+    {
+      "name": "中 indigenous 양자 ecosystem catch-up",
+      "probability": "high",
+      "impact": "med",
+      "description": "Origin Quantum 200+ qubit, USTC 76-qubit Jiuzhang 빠른 follow. 美 export control이 backfire 가능.",
+      "mitigation": "美 도메스틱 procurement moat + talent visa 정책 모니터링"
+    },
+    {
+      "name": "Government equity stake dilution",
+      "probability": "med",
+      "impact": "med",
+      "description": "Intel CHIPS $8.5B 사례 — voting + board seat 요구. EPS dilutive + 거버넌스 risk.",
+      "mitigation": "Equity terms disclosure 시 시장 반응 모니터링 (-10-20% reaction)"
+    },
+    {
+      "name": "Modality winner-take-all risk",
+      "probability": "med",
+      "impact": "high",
+      "description": "Superconducting vs trapped-ion vs annealing 표준 수렴 시 비채택 modality -50-80% drawdown.",
+      "mitigation": "Multi-modality basket — IBM(super)+IONQ(trap)+QBTS(anneal)+RGTI(super)+GFS(infra)"
+    },
+    {
+      "name": "AI hype cycle peak spillover",
+      "probability": "med",
+      "impact": "high",
+      "description": "양자 stocks AI/quantum correlation 양의 — AI bubble 붕괴 시 quantum 동반 -40-60% 가능.",
+      "mitigation": "Position size 제한 (포트폴리오 11% cap per name), stop-loss 운영"
+    },
+    {
+      "name": "Small-cap (RGTI/QBTS) liquidity risk",
+      "probability": "high",
+      "impact": "med",
+      "description": "Daily volume vs 시총 ratio 작음. Exit liquidity 부족 시 -20-30% slippage.",
+      "mitigation": "Position size 제한 + 분할 진입/청산"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "[T01] 정책 EO 직접 수혜 — quantum annealing pure-play",
+      "type": "policy",
+      "evidence": "트럼프 2026-06-21 EO 2건 서명",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "[T08] $100M government funding — Optimization segment 매출 visibility",
+      "type": "industry",
+      "evidence": "RGTI/QBTS 각 $100M funding",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "[T03] 9개 funded list 직접 명시",
+      "type": "policy",
+      "evidence": "美 상무부 2026-05 발표 $2B/9개 기업",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim": "[T05] PQC+QKD 글로벌 표준 — annealing은 별개 segment but sector pull-through",
+      "type": "industry",
+      "evidence": "NIST PQC 표준 2024-08 finalized",
+      "testability": "medium",
+      "current_status": "emerging"
+    }
+  ],
+  "ticker_specific_thesis": "Quantum annealing 5000-qubit Advantage + $100M 정부 funding. 시총 ~$1.5B, cash burn -$60M/년. Optimization 특화 — gate-based quantum과 다른 segment, NP-hard 문제 한정. SPAC merger 2022 후 $35 → $1 → $24 회복. 52주 변동성 131%.",
+  "news_timeline": [
+    {
+      "date": "2026-06-21",
+      "title": "트럼프 양자 EO 2건 서명 — PQC 전환 2031 단축 + QC-ADDS 2028",
+      "source": "White House",
+      "impact": "+",
+      "impact_reason": "양자 정책 catalyst 전반 bullish"
+    },
+    {
+      "date": "2026-05",
+      "title": "美 상무부 9개 양자기업 $2B funding 배정 (IBM $1B, GFS $375M, RGTI/QBTS 각 $100M)",
+      "source": "US Commerce Dept",
+      "impact": "+",
+      "impact_reason": "Government anchor 매출 visibility"
+    },
+    {
+      "date": "2025-05",
+      "title": "Google Quantum AI Gidney arXiv 논문 — RSA-2048 100만 큐비트 1주일 해독",
+      "source": "arXiv",
+      "impact": "+",
+      "impact_reason": "Q-day urgency narrative 강화"
+    },
+    {
+      "date": "2024-08",
+      "title": "NIST PQC 표준 알고리즘 finalized — CRYSTALS-Kyber·Dilithium·FALCON·SPHINCS+",
+      "source": "NIST",
+      "impact": "+",
+      "impact_reason": "PQC migration 표준화 확정"
+    }
+  ],
+  "us_gaap_summary": {
+    "pl_5y_placeholder": true,
+    "note": "구체적 5Y P&L 데이터는 specialist-agents earnings-reviewer에서 fetch — 본 분석에서는 high-level only"
+  }
+}
