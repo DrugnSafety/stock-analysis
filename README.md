@@ -2,7 +2,13 @@
 
 > 네이버 블로그 (메르·의교창·DaeGurr 등 8명) 또는 사용자 지정 종목에 대해 **13명 페르소나 패널 + 4-Analyst + Risk·Portfolio Manager + Backtester** 통합 분석을 수행하고 **Deep Research 형식의 단일 통합 PDF 보고서**를 자동 생성합니다.
 
-**현재 버전**: v0.6.0 (2026-05-20)
+**현재 버전**: v0.9.1 (2026-06-02)
+
+> **최근 업데이트** (전체 내역은 [`CHANGELOG.md`](CHANGELOG.md) 참조)
+> - **v0.9.0–0.9.1** (2026-06-02) — Sprint E+F: PDF 보고서 결함 14건 일괄 패치 + Checklist 정성 LLM 평가
+> - **v0.8.0** (2026-06-02) — Phase 7 Evidence Layer (외부 1차 근거 + 팩트체크 Citation Audit)
+> - **v0.7.0** (2026-05-20) — LangSmith tracing + codex-integration + Claude Code 호환
+> - **v0.6.0** (2026-05-20) — Tier 2 specialist-agents (Research/Sentiment/Earnings/Model)
 
 ---
 
