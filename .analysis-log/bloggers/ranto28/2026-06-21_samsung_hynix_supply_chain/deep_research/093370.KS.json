@@ -1,0 +1,86 @@
+{
+  "ticker": "093370.KS",
+  "industry": {
+    "name": "반도체 특수가스 (WF6/증착·식각 가스) — 텅스텐 공급망",
+    "overview": "WF6(육불화텅스텐)는 DRAM·NAND·HBM 및 <7nm 로직의 텅스텐 박막 증착에 쓰이는 핵심 전구체 가스로, '칩의 혈액'으로 불림. 3D NAND 적층수가 늘수록 증착 사이클이 비례해 늘어(200단=200사이클) 수요가 구조적으로 확대됨. 글로벌 WF6 시장은 연 약 8,000톤 규모(소형 niche, 추정 $0.4~0.6B)이며 NF3·C4F8 등을 포함한 전체 반도체 특수가스 시장은 약 $5~6B 규모로 추정. 중국이 텅스텐 채광 ~85%·분말 가공 ~80%를 장악하고 2025년부터 수출 라이선스를 도입하면서 원료(고순도 텅스텐 분말)가 진짜 chokepoint로 부상함.",
+    "competitors": [
+      {"name": "SK스페셜티 (한앤컴퍼니)", "ticker": "private", "share_pct": 25, "moat": "글로벌 NF3·WF6 1위, 연 2,000톤 WF6 capa, 삼성과 월 150톤 장기계약. 국내 최대·세계 최고 기술력 (비상장, 2025년 한앤컴퍼니가 SK㈜ 지분 85% 약 2.6조원 인수 완료)"},
+      {"name": "후성 (Foosung)", "ticker": "093370.KS", "share_pct": 11, "moat": "국내 WF6 2위(연 ~900톤 capa, 2009년 가동·2015년 증설). 냉매·LiPF6 전해질 수직계열화로 불소 화학 노하우 보유. 일본 센트럴글래스와 특수가스 양산 협력 추진"},
+      {"name": "원익머트리얼즈", "ticker": "104830.KQ", "share_pct": 8, "moat": "국내 특수가스 종합 메이커, NF3·WF6 등 다품목. 삼성·SK 동시 공급망. M&A·설비투자로 고부가 제품군 확대"},
+      {"name": "Kanto Denka Kogyo (간토덴카)", "ticker": "4047.T", "share_pct": 13, "moat": "일본 WF6 양대 공급사. 단 2026-07-01부터 원료 텅스텐 분말 확보난으로 WF6 생산 영구 중단 발표 → 점유율 소멸 위기"},
+      {"name": "Central Glass (센트럴글래스)", "ticker": "4044.T", "share_pct": 12, "moat": "일본 WF6 양대 공급사. 마찬가지로 2026-07-01부터 WF6 생산 중단. 단 후성과 별도 특수가스 협력 관계는 유지"},
+      {"name": "Linde plc", "ticker": "LIN", "share_pct": 10, "moat": "글로벌 산업가스 1위, electronic gases 사업부에서 WF6 포함 일부 공급. 다각화된 글로벌 생산·정제 인프라"},
+      {"name": "Air Liquide / 페로STM 계열", "ticker": "AI.PA", "share_pct": 6, "moat": "전자재료 특수가스 공급. 텅스텐 분말 정제·재활용 등 대체 공급원 확보 노력 (추정)"}
+    ],
+    "market_size": {"current_usd_bn": 0.5, "cagr_pct": 12, "horizon": "2026-2030 (WF6 niche 추정; 3D NAND 적층·HBM 증가 기반 inference, The Elec/TrendForce 보도 종합)"}
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.30,
+      "assumptions": [
+        "2026-07-01 일본 간토덴카·센트럴글래스 WF6 생산 영구 중단으로 글로벌 ~27.5% capa(2,200/8,000톤) 공백 발생 → 삼성·SK하이닉스가 후성·SK스페셜티로 물량 전환",
+        "후성이 중국 China Shipbuilding Special Gases 등 텅스텐 분말 공급원 신규 인증 완료(8월 목표)로 원료 확보, capa 가동률·증설 동시 상승",
+        "2026년 WF6 계약가 70~90% 인상이 마진에 직접 반영 + AI/HBM·고단 3D NAND 수요로 톤당 단가·물량 동반 확대",
+        "LiPF6 4,000톤 공정개선 + 냉매 가격 강세가 비반도체 부문 동시 호조로 겹쳐 전사 이익 레버리지 극대화"
+      ],
+      "value_per_share_pct_upside": "+60%",
+      "ticker_specific_note": "후성은 국내 WF6 2위로 일본 capa 공백의 직접 수혜 vortex 중심. 단 upside의 핵심 전제는 '중국 텅스텐 분말을 후성이 안정적으로 확보'한다는 점 — 원료 확보가 곧 capa로 환산되는 구조"
+    },
+    "base": {
+      "probability": 0.50,
+      "assumptions": [
+        "일본 WF6 중단으로 후성 가동률·평균판가 상승하나, 후성 역시 중국산 텅스텐 분말에 의존해 원가도 동반 상승 → 인상분 일부만 마진으로 잔존",
+        "증권가 컨센서스대로 2026년 매출 ~5,795억원·영업이익 ~417억원 수준 달성(2025년 4,715억/221억 흑자전환의 연장선)",
+        "삼성·SK하이닉스가 후성·SK스페셜티·원익으로 물량을 분산 배정 → 후성 점유율 점진 확대하나 독식은 아님",
+        "텅스텐 분말 가격 6배 급등이 지속되며 판가 인상과 원가 상승이 부분 상쇄, 분기별 마진 변동성 확대"
+      ],
+      "value_per_share_pct_upside": "+25%"
+    },
+    "bear": {
+      "probability": 0.20,
+      "assumptions": [
+        "중국이 텅스텐 분말 수출 라이선스를 한국으로도 확대·지연(THAAD 선례) → 후성 원료 확보 실패로 판가 상승에도 물량 못 늘림",
+        "고순도 분말 미스매치로 신규 분말 공급원 인증 지연·실패 → 멀티밀리언 달러 웨이퍼 불량 우려로 고객사가 보수적 발주",
+        "텅스텐 분말 가격 추가 급등으로 WF6 원가가 판가 인상분을 초과 → 마진 압박, 흑자전환 모멘텀 후퇴",
+        "WF6 단기 급등에 따른 밸류에이션 선반영·과열(투자경고 지정 이력) 후 EV배터리(LiPF6)·냉매 사이클 동시 둔화"
+      ],
+      "value_per_share_pct_upside": "-30%"
+    }
+  },
+  "catalysts": [
+    {"date": "2026-07-01", "event": "일본 간토덴카·센트럴글래스 WF6 생산 영구 중단", "type": "supply", "expected_impact": "high", "description": "글로벌 ~27.5%(2,200/8,000톤) capa 공백 발생. 후성·SK스페셜티가 삼성·SK하이닉스 물량 흡수하는 최대 직접 트리거 (The Elec/TrendForce 보도)"},
+    {"date": "2026-08-31", "event": "후성 중국 텅스텐 분말 공급원 신규 인증 완료(목표)", "type": "supply", "expected_impact": "high", "description": "China Shipbuilding Special Gases 등과 인증 절차 진행, 8월 대량 수입 목표. 원료 확보=capa 환산의 핵심 전제 (KuCoin/HTX 보도 기반, 일정은 추정)"},
+    {"date": "2026-07-31", "event": "후성 2026년 WF6 계약가 70~90% 인상 본격 반영", "type": "demand", "expected_impact": "high", "description": "하반기 계약 단가 인상이 매출·마진에 반영되기 시작. 국내 공급사 공통 인상 통보 (The Elec)"},
+    {"date": "2026-08-14", "event": "후성 2026년 2분기/상반기 실적 발표", "type": "earnings", "expected_impact": "high", "description": "흑자전환 이후 WF6 판가 인상·물량 증가가 실제 P&L에 반영되는지 확인하는 분기. 2026E 영업이익 ~417억 컨센서스 검증 (날짜 추정)"},
+    {"date": "2026-03-17", "event": "상동(Sangdong) 텅스텐 광산 재가동 (Almonty)", "type": "supply", "expected_impact": "medium", "description": "국내 텅스텐 원료 자급의 상징적 출발점. 단 광석→APT→고순도 분말 정제 단계가 여전히 중국 의존이라 즉각적 원료 해소 효과는 제한적"},
+    {"date": "2026-09-30", "event": "삼성·SK하이닉스 하반기 WF6 공급사 재배정/장기계약 갱신", "type": "demand", "expected_impact": "medium", "description": "일본 공백분을 후성·SK스페셜티·원익에 어떻게 배분하는지가 후성 점유율 확대폭을 결정 (시점 추정)"},
+    {"date": "2026-02-28", "event": "중국 전략광물(텅스텐) 수출 라이선스 한국 확대 여부 모니터링", "type": "regulatory", "expected_impact": "high", "description": "중국이 일본에 이어 한국 텅스텐 분말 수출도 통제하면 후성 원료 확보 차질. bear 시나리오의 최대 변수 (지속 모니터링 이벤트)"},
+    {"date": "2026-12-31", "event": "후성 LiPF6 국내 4,000톤 공정개선 완료", "type": "supply", "expected_impact": "medium", "description": "EV배터리 전해질 부문 캐파·원가 개선. 반도체 외 두 번째 성장축으로 전사 이익 레버리지 보강"}
+  ],
+  "risks": [
+    {"name": "중국 텅스텐 분말 의존 (원료 chokepoint)", "probability": "high", "impact": "high", "description": "후성 WF6 원료인 고순도 텅스텐 분말이 사실상 중국산에 의존. 중국이 한국으로도 수출을 통제하면 판가 상승에도 물량 확대 불가. 일본 capa 공백 수혜의 가장 큰 전제이자 가장 큰 리스크", "mitigation": "China Shipbuilding Special Gases 등 복수 공급원 인증 다변화, 상동광산·국내 정제 밸류체인 장기 육성, 재고 선확보"},
+    {"name": "고순도 분말 인증·품질 미스매치", "probability": "medium", "impact": "high", "description": "WF6용 텅스텐 분말은 순도 규격이 엄격해 공급원 변경 시 재인증이 느림. 순도 불일치는 멀티밀리언 달러 웨이퍼 불량으로 직결되어 신규 분말 채택이 보수적", "mitigation": "장기 인증 프로세스 사전 착수(8월 목표), 고객사 공동 평가, 기존 검증된 소스와 병행 운영"},
+    {"name": "원가-판가 스프레드 압박", "probability": "high", "impact": "medium", "description": "텅스텐 분말 가격이 1년새 6배 급등. WF6 판가 70~90% 인상에도 원가가 함께 오르면 마진 확대폭이 제한될 수 있음", "mitigation": "장기 단가 연동 계약(원가 pass-through), 고순도 고부가 제품 믹스 확대"},
+    {"name": "밸류에이션 과열·변동성", "probability": "medium", "impact": "medium", "description": "WF6 테마로 단기 급등하며 투자경고 종목 지정 이력. 기대 선반영 후 실적 미달 시 되돌림 위험", "mitigation": "실적 기반 분할 접근, 분기 P&L 확인 후 비중 조절"},
+    {"name": "비반도체 사이클 둔화 (LiPF6·냉매)", "probability": "medium", "impact": "medium", "description": "매출의 ~40%를 차지하는 LiPF6 등 2차전지 소재가 EV 수요 둔화·중국 과잉공급에 노출. 냉매도 규제·가격 사이클 영향", "mitigation": "반도체 특수가스 비중 확대로 포트폴리오 리밸런싱, 4,000톤 공정개선으로 원가 경쟁력 확보"},
+    {"name": "고객 집중도 (삼성·SK하이닉스 의존)", "probability": "medium", "impact": "medium", "description": "WF6 수요가 삼성·SK하이닉스 메모리 capex 사이클에 연동. 메모리 다운사이클·발주 지연 시 직접 타격", "mitigation": "TSMC 등 글로벌 고객 다변화 시도, NF3·C4F8 등 가스 품목 확대"},
+    {"name": "기술 대체 (저텅스텐 공정·대체 메탈)", "probability": "low", "impact": "medium", "description": "장기적으로 몰리브덴 등 대체 메탈 배선·텅스텐 사용량 절감 공정이 확산되면 WF6 수요 성장 둔화 가능", "mitigation": "차세대 전구체 가스 R&D, 고단 NAND·HBM 수요 구조적 증가에 베팅"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "2026-07-01 일본 간토덴카·센트럴글래스가 WF6 생산을 영구 중단해 글로벌 ~27.5%(2,200/8,000톤) capa가 사라진다", "type": "factual", "evidence": "The Elec·TrendForce·SunSirs 등 복수 매체가 양사 7월 1일 영구 중단 및 글로벌 ~1/4 capa 보도. 중국 텅스텐 수출통제로 원료 확보난이 원인", "testability": "2026-07-01 이후 양사 공식 공시·출하 데이터로 검증 가능", "current_status": "다수 매체 교차확인 — 사실로 평가, 다만 '영구'의 범위는 추후 재가동 여부로 확인 필요"},
+    {"claim": "후성·SK스페셜티가 일본 공백 물량을 흡수하는 직접 수혜자다", "type": "causal", "evidence": "후성은 국내 WF6 2위(~900톤), SK스페셜티는 1위(2,000톤). 다수 매체가 후성을 'major beneficiary/big winner'로 지목. 2026 계약가 70~90% 인상 통보", "testability": "삼성·SK하이닉스 하반기 공급사 배분, 후성 가동률·WF6 매출 증가로 검증", "current_status": "방향성은 강하게 지지됨 — 단 흡수 규모는 후성의 원료(분말) 확보에 종속"},
+    {"claim": "텅스텐 '분말'이 진짜 chokepoint이며 중국이 채광 ~85%·분말 ~80%를 장악한다", "type": "factual", "evidence": "복수 매체가 중국 분말 가공 ~80% 장악, 분말 가격 1년새 6배(APT는 +557%) 보도. WF6 제조는 중국산 분말을 불소와 반응시키는 구조", "testability": "분말 가격지수·중국 수출통계·라이선스 발급 추이로 검증", "current_status": "사실로 평가 — 후성의 수혜와 리스크가 모두 이 분말 의존에서 파생"},
+    {"claim": "후성은 2025년 흑자전환했고 2026년 이익 성장이 본격화된다", "type": "interpretation", "evidence": "2025년 매출 4,715억·영업이익 221억(흑자전환), 2026E 매출 5,795억·영업이익 417억 컨센서스. 유진투자증권 목표가 1.2만→2만원 상향", "testability": "2026 분기 실적·증권사 추정치 적중 여부로 검증", "current_status": "흑자전환은 사실, 2026 성장은 컨센서스 기반 전망 — WF6 판가·물량 실현에 종속"},
+    {"claim": "후성의 WF6 수혜 upside는 중국 분말 확보 성공 여부에 좌우된다", "type": "causal", "evidence": "후성이 China Shipbuilding Special Gases 등과 인증 절차 진행, 8월 대량 수입 목표 보도. 후성 WF6도 중국 분말 의존 명시", "testability": "신규 공급원 인증 완료·수입량·가동률 데이터로 검증", "current_status": "진행 중 — bull/bear를 가르는 핵심 분기점, 미확인"}
+  ],
+  "ticker_specific_thesis": "후성(093370.KS)은 국내 WF6 2위(연 ~900톤) 생산사로, 2026-07-01 일본 간토덴카·센트럴글래스의 WF6 생산 영구 중단(글로벌 ~27.5% capa 공백)의 가장 직접적인 수혜 종목이다. 이미 2026년 계약가 70~90% 인상을 통보했고 삼성·SK하이닉스 물량 전환의 1차 수혜처로 다수 매체가 지목하며, 2025년 흑자전환(매출 4,715억·영업이익 221억)에서 2026E 영업이익 ~417억으로의 레버리지가 기대된다. 다만 결정적 caveat는 후성의 WF6 역시 중국산 고순도 텅스텐 분말에 의존한다는 점 — 중국이 한국으로 수출통제를 확대하거나 신규 분말 공급원 인증(8월 목표)이 지연되면, 판가는 올라도 물량을 못 늘려 수혜가 반감될 수 있다. 즉 후성의 thesis는 '판가 상승은 확정적, 물량 확대는 분말 확보에 조건부'로 요약된다.",
+  "news_timeline": [
+    {"date": "2026-06-12", "title": "핵심 반도체 가스 WF6 가격 중국서 200% 이상 급등 — 일본 감산 임박", "source": "TrendForce", "impact": "positive", "impact_reason": "WF6 판가 급등은 후성 같은 생산사의 매출·마진에 직접 호재"},
+    {"date": "2026-06-15", "title": "중국 텅스텐 수출통제가 글로벌 반도체 공급망 재편 — 한국 공급사 부상", "source": "NaturalNews / openPR", "impact": "positive", "impact_reason": "일본 공백을 한국 WF6 공급사가 메우는 구조 — 후성에 우호적"},
+    {"date": "2026-06-15", "title": "中텅스텐 밸브 잠그자 반도체 가스 WF6 가격 90% 인상 폭탄", "source": "디일렉(The Elec)", "impact": "positive", "impact_reason": "국내 공급사 70~90% 인상 통보를 후성도 공유 — 판가 레버리지 확인"},
+    {"date": "2026-06-16", "title": "중국 텅스텐 수출통제, '백발 주식 신' 후성을 '빅 위너'로 지목", "source": "HTX Insights / KuCoin", "impact": "positive", "impact_reason": "후성을 최대 수혜주로 명시적 지목 — 시장 내러티브가 후성에 집중"},
+    {"date": "2026-05-18", "title": "후성, 실적 반등에 주가 폭등…투자경고 지정", "source": "폴리타임즈 / 헬로티", "impact": "neutral", "impact_reason": "수혜 기대 선반영으로 단기 과열·변동성 경고 — 밸류 리스크 신호"},
+    {"date": "2026-06-13", "title": "후성, 일본 WF6 영구 감산·LiPF6 회복 기대에도 변동성 확대", "source": "TokenPost / 핀포인트뉴스", "impact": "positive", "impact_reason": "2026년부터 이익 성장 본격화 전망 — 단 단기 주가는 차익실현 변동성 동반"}
+  ],
+  "us_gaap_summary": {"pl_5y_placeholder": true, "note": "5Y P&L은 specialist-agents earnings-reviewer + financial_statements(DART)에서 fetch"}
+}
