@@ -1,0 +1,86 @@
+{
+  "ticker": "ALM",
+  "industry": {
+    "name": "텅스텐 채광·가공 (비중국 전략광물 공급망)",
+    "overview": "텅스텐은 절삭공구·방산(미사일·드론·탄약)·반도체 WF₆ 가스의 핵심 원료로, 중국이 광산 ~80%·분말가공 ~80% 이상을 장악한 극단적 집중 시장임. 2025년 2월 중국 수출통제 이후 APT(암모늄 파라텅스테이트) 가격이 베이스라인 ~$340/MTU에서 2026년 상반기 $3,000/MTU 이상으로 폭등(약 5~6배)하며 '가격'보다 '비중국 물량 확보 가능 여부'가 핵심 이슈로 전환됨. Almonty의 한국 상동(Sangdong) 광산은 풀가동 시 비중국 텅스텐 생산의 80% 이상을 공급할 수 있는, 사실상 유일한 대규모 비중국 대안임. 전체 텅스텐 시장 규모는 약 50~60억 달러대로 추정되며 방산·전동화 수요로 견조한 성장이 예상됨.",
+    "competitors": [
+      {"name": "China Molybdenum (CMOC)", "ticker": "3993.HK", "share_pct": 9, "moat": "중국 내 몰리브덴-텅스텐 통합 광산(Sandaozhuang) 보유, 2025년 텅스텐 7,114톤 생산. 중국 수출통제 정책 수혜·피해 양면. 비중국 바이어에는 접근 제한"},
+      {"name": "Masan High-Tech Materials (Nui Phao)", "ticker": "MSR.HM", "share_pct": 33, "moat": "베트남 Nui Phao — 중국 외 최대 텅스텐 광산. APT·텅스텐 화학제품 다운스트림 통합. 단 채굴 단계는 부분 매각 협상 이력"},
+      {"name": "Sandvik", "ticker": "SAND.ST", "share_pct": 5, "moat": "초경합금(carbide) 절삭공구 글로벌 1위 수요처. 텅스텐 리사이클링·다운스트림 가공. 원료는 외부 의존 → 공급 충격에 취약"},
+      {"name": "Kennametal", "ticker": "KMT", "share_pct": 4, "moat": "미국 초경공구·텅스텐 분말(메탈워크) 메이저. 원료 텅스텐 비중국 확보가 전략 과제 → Almonty의 잠재 고객"},
+      {"name": "Global Tungsten & Powders (Plansee/GTP)", "ticker": "비상장", "share_pct": 6, "moat": "미국 펜실베이니아 텅스텐 분말·카바이드 가공. Almonty와 15년·최저 $235/MTU 오프테이크 체결 — 비중국 다운스트림의 핵심 파트너"},
+      {"name": "Mitsubishi Materials", "ticker": "5711.T", "share_pct": 4, "moat": "일본 초경공구·텅스텐 리사이클. 다운스트림 강하나 광산 원료는 중국·외부 의존"},
+      {"name": "Tungsten West (Hemerdon)", "ticker": "TUN.L", "share_pct": 1, "moat": "영국 Hemerdon 광산 재개발 시도 — 비중국 잠재 공급원이나 자금조달·생산 지연으로 사실상 휴면. 실행 리스크 큼"},
+      {"name": "Buffalo Tungsten", "ticker": "비상장", "share_pct": 1, "moat": "미국 텅스텐 분말 가공 전문. 원료 비중국화 수혜 가능"}
+    ],
+    "market_size": {"current_usd_bn": 5.5, "cagr_pct": 6.5, "horizon": "2026-2030 (Fastmarkets·Market Data Forecast 추정, 방산·전동화 수요 기반)"}
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.35,
+      "assumptions": [
+        "상동 Phase 1 2026년 정상 ramp + 2027년 nameplate 도달 (비중국 텅스텐 80%+ 공급 지위 확보)",
+        "APT 가격 $2,500~3,000+/MTU 고착 (중국 통제 2027년까지 지속, 일 WF₆ 공급중단으로 비중국 프리미엄 확대)",
+        "GTP·TPW 15년 $235/MTU 최저가 오프테이크가 floor 역할 + 다운스트림 산화물 플랜트($72M) 가동으로 마진 확대",
+        "미 방산 2027년 이후 비중국 조달 의무화 → Almonty가 '서방 텅스텐 anchor'로 재평가, 산화물·몰리브덴 통합('Korean Trinity') 프리미엄"
+      ],
+      "value_per_share_pct_upside": "+60%",
+      "ticker_specific_note": "이미 시총 ~$5B로 32M 매출 대비 고밸류 선반영 상태 → bull은 '생산 실증 + APT 초고가 고착'이 둘 다 성립해야 추가 상승 정당화됨"
+    },
+    "base": {
+      "probability": 0.45,
+      "assumptions": [
+        "상동 ramp가 2027년까지 단계적 진행, 일부 일정 지연이나 commercial production 안착",
+        "APT 가격 $1,500~2,200/MTU 박스권 (초기 폭등 일부 되돌림하나 베이스라인 대비 4~5배 유지)",
+        "Phase 1 물량 90%+가 미 방산 오프테이크에 묶임 → 매출 가시성 높으나 한국 내수(삼성·하이닉스) 가용량은 제한적",
+        "현 시총이 미래 생산을 상당 부분 선반영 → 주가는 ramp 마일스톤 따라 변동성 큰 횡보"
+      ],
+      "value_per_share_pct_upside": "+10%"
+    },
+    "bear": {
+      "probability": 0.20,
+      "assumptions": [
+        "상동 ramp 지연·기술적 문제로 nameplate 도달이 2028년 이후로 밀림 (pre-production 리스크 현실화)",
+        "중국이 통제 완화·증산으로 APT 가격 $800/MTU 이하로 급락 → 고밸류 정당화 붕괴",
+        "$5B 시총 vs 32M 매출의 극단적 괴리가 조정 → 실적 미달 시 멀티플 디레이팅",
+        "$129M·$90M 등 반복 증자에 따른 희석 + 다운스트림 capex 부담"
+      ],
+      "value_per_share_pct_upside": "-45%"
+    }
+  },
+  "catalysts": [
+    {"date": "2026-07-01", "event": "일본 Kanto Denka·Central Glass WF₆ 공급중단 발효", "type": "supply", "expected_impact": "high", "description": "글로벌 WF₆ 8,000톤 중 2,200톤(~27.5%) 중단 — 텅스텐 분말 비중국 확보 절박성 부각, Almonty 전략적 가치 재조명"},
+    {"date": "2026-09-30", "event": "상동 Phase 1 commercial production 본격 ramp 분기", "type": "earnings", "expected_impact": "high", "description": "2025-12 첫 ROM 광석 투입·2026-03 commissioning 이후 첫 의미 있는 생산·매출 분기 — 실행 리스크 해소 여부 핵심"},
+    {"date": "2026-12-31", "event": "상동 다운스트림 텅스텐 산화물 플랜트(~$72M) 건설 진척", "type": "supply", "expected_impact": "medium", "description": "Yeongwol County 산화물 플랜트 — 광석 단순판매에서 고부가 산화물로 전환. 'Korean Trinity' 통합 가치사슬 핵심"},
+    {"date": "2026-12-31", "event": "미국 Gentung Browns Lake 광산($219M) 하반기 출범 진척", "type": "supply", "expected_impact": "medium", "description": "수십 년 만의 미국 첫 상업 텅스텐 광산 — 비중국·온쇼어 공급 확장으로 방산 조달 강화"},
+    {"date": "2027-01-01", "event": "미 방산 비중국 텅스텐 조달 의무화 발효(예정)", "type": "regulatory", "expected_impact": "high", "description": "2027년 이후 미 국방 조달에서 중국산 텅스텐 배제 — Almonty 15년 오프테이크 floor 가치 극대화"},
+    {"date": "2027-12-31", "event": "상동 nameplate(풀가동) 도달 목표", "type": "earnings", "expected_impact": "high", "description": "비중국 텅스텐 80%+ 공급 지위 실현 여부 — bull thesis의 최종 검증 시점"},
+    {"date": "2026-08-31", "event": "중국 텅스텐 수출쿼터·15개 인가기업 정책 갱신 동향", "type": "regulatory", "expected_impact": "medium", "description": "중국 상무부 통제 강도가 APT 가격·비중국 프리미엄을 결정 — 완화 시 bear, 강화 시 bull"}
+  ],
+  "risks": [
+    {"name": "Pre-production / ramp 실행 리스크", "probability": "중", "impact": "고", "description": "상동은 2025-12 첫 광석 투입한 초기 생산 단계로 nameplate(2027 목표)까지 기술·일정 지연 가능성. 현 시총은 미래 생산을 대거 선반영", "mitigation": "2026-03 commissioning 완료·3년 개발 마무리, 분기 마일스톤 공시로 진척 추적 가능"},
+    {"name": "극단적 밸류에이션 (시총 $5B vs 매출 ~$32M)", "probability": "중", "impact": "고", "description": "2025년 매출 3,250만 달러 대비 시총 ~50억 달러로 미래 생산·APT 고가를 대거 선반영 → 실적 미달 시 디레이팅", "mitigation": "15년 floor 오프테이크($235/MTU)가 하방 매출 가시성 제공"},
+    {"name": "APT 가격 급락 (중국 통제 완화)", "probability": "중", "impact": "고", "description": "중국이 증산·수출완화 시 APT가 베이스라인($340/MTU)으로 회귀 → 고밸류 정당화 붕괴", "mitigation": "$235/MTU 최저가 오프테이크가 floor, 비중국 프리미엄 구조적 지속 전망"},
+    {"name": "45% 물량 미 방산 락업 → 한국 내수 가용량 제한", "probability": "고", "impact": "중", "description": "Phase 1 90%+가 미 방산(TPW/GTP/Metal Tech) 오프테이크에 묶여 삼성·하이닉스 등 한국 내수 WF₆ 원료 가용량은 제한적 — 메르 글이 지적한 긴장 요소", "mitigation": "Phase 2 증산·다운스트림 산화물 플랜트로 추가 물량 확보 시 내수 일부 해소 여지"},
+    {"name": "지속적 자본조달·희석", "probability": "고", "impact": "중", "description": "$90M(2025-07)·$129M(2025-12) 등 반복 증자 + 다운스트림·미국 광산 capex로 추가 희석 가능", "mitigation": "Oppenheimer 등 강한 매수 의견·자본접근성 양호, 생산 cash flow 전환 진행"},
+    {"name": "지정학·정책 의존도", "probability": "중", "impact": "고", "description": "thesis 전체가 중국 통제 지속·미 방산 의무화라는 정책 변수에 의존 — 정책 반전 시 핵심 동력 상실", "mitigation": "WF₆ 중단·텅스텐 가격 폭등이 이미 구조적 비중국 수요를 입증"},
+    {"name": "단일 자산 집중 리스크", "probability": "저", "impact": "고", "description": "가치의 대부분이 상동 단일 광산에 집중 — 사고·지질·인허가 차질 시 타격 큼", "mitigation": "Panasqueira(포르투갈)·Valtreixal(스페인)·미국 광산으로 자산 다각화 진행 중"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "상동 광산이 비중국 텅스텐 공급의 사실상 유일한 대규모 대안이다", "type": "supply_moat", "evidence": "풀가동 시 비중국 생산의 80%+ 공급 전망(Almonty), 매장량·품위 0.45% WO₃로 세계 최대급 비중국 광산. 중국 광산 80%·분말 80% 장악 구조", "testability": "2027 nameplate 도달 시 실제 비중국 점유율로 검증 가능", "current_status": "검증중 — 2025-12 commercial mining 개시, ramp 진행"},
+    {"claim": "미 방산 15년 오프테이크가 매출 floor를 제공한다", "type": "demand_contract", "evidence": "GTP와 15년·최저 $235/MTU 계약, TPW(Tungsten Parts Wyoming)·Metal Tech 통한 월 40톤+ 산화물 방산 전용 공급 계약 체결", "testability": "분기 매출·계약 이행률로 확인", "current_status": "확인됨 — binding offtake 공시 완료"},
+    {"claim": "중국 수출통제로 텅스텐 가격이 구조적으로 고착되어 Almonty 경제성이 급변했다", "type": "macro_price", "evidence": "APT가 $340/MTU 베이스라인→$3,000+/MTU(약 5~6배), 중국 15개사만 수출 인가(2027까지)", "testability": "APT 스팟 가격 추이로 직접 검증", "current_status": "확인됨 — 2026 상반기 record high, 단 향후 지속성은 미확정"},
+    {"claim": "45% 물량 미 방산 락업이 한국 내수(삼성·하이닉스) 가용량을 제약한다", "type": "tension_constraint", "evidence": "Phase 1 90%+가 미 방산 전용 오프테이크에 묶임 — 메르 글의 핵심 긴장 지적과 일치", "testability": "내수 공급 계약 체결 여부·Phase 2 배분으로 확인", "current_status": "확인됨(긴장 존재) — Phase 2·다운스트림 증산이 완화 변수"},
+    {"claim": "다운스트림 산화물 통합('Korean Trinity')으로 단순 채광 이상의 부가가치를 확보한다", "type": "value_chain", "evidence": "Yeongwol 산화물 플랜트 ~$72M(1,000억원) MOU, 몰리브덴 통합 계획", "testability": "플랜트 가동·산화물 매출 비중으로 검증", "current_status": "추론/진행중 — MOU 단계, 가동 전"}
+  ],
+  "ticker_specific_thesis": "Almonty는 메르 글의 'WF₆/텅스텐 비중국 공급망 충격'에서 사실상 유일하게 투자 가능한 비중국 텅스텐 독립 플레이임 — 한국 상동 광산은 풀가동 시 비중국 생산의 80% 이상을 공급할 수 있는 세계 최대급 비중국 자산이고, GTP와의 15년·$235/MTU 최저가 오프테이크가 매출 floor를 제공함. 다만 핵심 긴장은 Phase 1 물량의 90%+(블로그 §34의 '45%')가 미 방산 전용으로 묶여 정작 한국 내수 삼성·하이닉스의 WF₆ 원료 가용량은 제한적이라는 점 — Almonty의 텅스텐 독립은 '한국산'이되 '한국용'은 아닐 수 있음. 또한 시총 ~$5B 대비 2025 매출 ~$32M의 극단적 괴리는 상동 ramp 실행과 APT 고가 고착이라는 두 가정이 모두 성립해야 정당화되는 high-beta 구조임.",
+  "news_timeline": [
+    {"date": "2025-07-14", "title": "Almonty, NASDAQ 상장 + $90M 증자 (ticker ALM, $4.50/주)", "source": "Almonty IR / SEC 6-K", "impact": "positive", "impact_reason": "미국 자본시장 접근·재도메사일(Delaware) 완료로 미 방산 조달 적격성·유동성 확대"},
+    {"date": "2025-12-16", "title": "상동 광산 첫 ROM 광석 투입 — 개발에서 채광으로 전환", "source": "International Mining / Almonty", "impact": "positive", "impact_reason": "commercial production 직전 단계 진입, pre-production 리스크 일부 해소"},
+    {"date": "2025-12-24", "title": "$129M 추가 파이낸싱 + Sangdong 마일스톤 + 2026 애널 목표가 상향", "source": "TS2.tech / StockTitan", "impact": "positive", "impact_reason": "ramp·다운스트림 capex 자금 확보, 단 희석 동반"},
+    {"date": "2026-03-17", "title": "상동 텅스텐 광산 commissioning 기념식 (강원도 영월) — 3년 개발 완료", "source": "Almonty IR", "impact": "positive", "impact_reason": "메르 글 언급 상동 재가동 공식화 — 비중국 텅스텐 공급 실증 단계"},
+    {"date": "2026-06-23", "title": "텅스텐 가격 폭등으로 상동, positive cash flow 전환 + 시총 ~$5B", "source": "stockanalysis.com / ad-hoc-news", "impact": "positive", "impact_reason": "APT $3,000+/MTU 폭등이 Almonty 경제성 재작성, 단 고밸류 선반영"},
+    {"date": "2026-07-01", "title": "일본 Kanto Denka·Central Glass WF₆ 공급중단 발효 (예정)", "source": "메르 블로그 / 업계", "impact": "positive", "impact_reason": "비중국 텅스텐 분말 확보 절박성 부각 — Almonty 전략적 가치 직접 수혜"}
+  ],
+  "us_gaap_summary": {"pl_5y_placeholder": true, "note": "5Y P&L은 specialist-agents earnings-reviewer + SEC EDGAR(Almonty 미국 상장, CIK 0001670061, Form 6-K/20-F)에서 fetch. 2025 매출 ~$32.5M(+12.75% YoY), pre-production 단계로 상동 ramp 전 손익은 제한적 — 2026~2027 ramp가 P&L 변곡점"}
+}
