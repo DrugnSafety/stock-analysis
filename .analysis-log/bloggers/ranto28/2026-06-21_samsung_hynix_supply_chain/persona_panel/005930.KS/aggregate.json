@@ -1,0 +1,350 @@
+{
+  "ticker": "005930.KS",
+  "aggregated_at": "2026-06-26T05:03:46.841369+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "bullish": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "lean_bullish": {
+      "count": 8,
+      "pct": 47.1
+    },
+    "lean_bearish": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.603,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.57
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.57
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "short_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.57,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.57,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [],
+      "key_opportunities_top3": [],
+      "uncertainty": "",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
