@@ -1,0 +1,89 @@
+{
+  "ticker": "000660.KS",
+  "industry": {
+    "name": "메모리 반도체 (DRAM·NAND·HBM)",
+    "overview": "AI 데이터센터 capex 급증으로 DRAM·HBM 슈퍼사이클이 진행 중이며, SK하이닉스는 2025년 매출 97.1조원·영업이익 47.2조원으로 사상 최대 실적을 기록하고 사상 처음으로 삼성전자 영업이익(43.6조원)을 추월함(CNBC 2026-01-28/29). HBM은 전 세계 시장의 50% 이상을 SK하이닉스가 점유하며 NVIDIA Rubin용 HBM4 물량의 약 70%를 확보한 것으로 추정됨(TrendForce·UBS 2026-01). 다만 HBM·고적층 NAND·선단 DRAM은 텅스텐 증착(WF₆) 사용이 가장 집약적인 제품군이라, 중국 텅스텐 분말 수출통제→일본 WF₆ 공급중단(2026-07-01)이라는 핵심 소재 input 리스크에 동시에 노출됨(The Elec 2026). 글로벌 메모리 시장 규모는 약 2,000억 달러 수준으로 추정됨.",
+    "competitors": [
+      {"name": "삼성전자", "ticker": "005930.KS", "share_pct": 25.0, "moat": "DRAM 1위·종합반도체·자체 파운드리, 단 일본 WF₆ 의존도가 SK하이닉스보다 높아 공급중단 노출 상대적 큼"},
+      {"name": "Micron Technology", "ticker": "MU", "share_pct": 23.0, "moat": "미국 기반 HBM3E 후발 진입, 지정학 우위·DDR5 경쟁력"},
+      {"name": "Kioxia (키오시아)", "ticker": "285A.T", "share_pct": 0.0, "moat": "NAND 전문 (DRAM 미생산), 3D NAND 고적층 WF₆ 다소비 구조"},
+      {"name": "NVIDIA (전방 수요처)", "ticker": "NVDA", "share_pct": 0.0, "moat": "HBM4 최대 수요처, SK하이닉스가 2026년 물량 ~70% 확보 — 사실상 captive 수요"},
+      {"name": "Western Digital (NAND)", "ticker": "WDC", "share_pct": 0.0, "moat": "Kioxia 합작 NAND, HBM 미참여로 슈퍼사이클 수혜 제한"},
+      {"name": "Nanya Technology", "ticker": "2408.TW", "share_pct": 3.0, "moat": "대만 commodity DRAM, HBM 부재로 마진 열위"},
+      {"name": "CXMT (창신메모리)", "ticker": "비상장", "share_pct": 6.0, "moat": "중국 DDR5 국산화 추격, HBM은 제재로 격차 큼 — 장기 commodity DRAM 위협"}
+    ],
+    "market_size": {"current_usd_bn": 200, "cagr_pct": 18.0, "horizon": "2026-2030 (HBM 슈퍼사이클 가정, TrendForce/업계 추정 — 범위 15~22%)"}
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.35,
+      "assumptions": [
+        "HBM4 2026 3Q 양산 정상화 + NVIDIA Rubin 물량 ~70% 확보 유지(UBS)",
+        "후성·SK스페셜티 국산 WF₆ 증설(2026년 2,000톤 추가 라인)이 일본 공급중단분을 적기 대체, input 차질 minimal",
+        "DRAM·HBM 슈퍼사이클 2027년까지 지속, ASP 상승으로 OPM 40%대 유지",
+        "SK스페셜티 공급관계 잔존 + 일본 의존도가 삼성보다 낮아 상대적 공급 안정성 확보"
+      ],
+      "value_per_share_pct_upside": "+35%",
+      "ticker_specific_note": "HBM 리더십이 WF₆ 노출을 키우지만, 국산 대체 적기 + NVIDIA captive 수요가 상쇄되며 슈퍼사이클 프리미엄이 input 리스크를 압도하는 시나리오"
+    },
+    "base": {
+      "probability": 0.50,
+      "assumptions": [
+        "HBM4 양산이 당초 2Q에서 3Q로 지연된 일정대로 진행(Digitimes), 점유율 60~70% 유지",
+        "WF₆ 가격 6~7배 폭등이 일부 원가 전가, 그러나 국산 대체로 생산 차질은 제한적(qualification 수개월 소요)",
+        "메모리 up-cycle 2026년 견조하나 2027년 일부 둔화, 이익 정상화",
+        "AI capex 지속되나 CXMT 등 commodity DRAM 공급 증가로 비-HBM 마진 압박"
+      ],
+      "value_per_share_pct_upside": "+10%"
+    },
+    "bear": {
+      "probability": 0.15,
+      "assumptions": [
+        "WF₆ 공급중단(2026-07-01)으로 일본 ~27.5% 물량 공백, 국산 qualification 지연되며 HBM·고적층 NAND 생산 차질",
+        "HBM4 양산 추가 지연 또는 수율 문제로 NVIDIA 물량 일부 삼성·Micron 이탈",
+        "AI capex 사이클 정점 통과 + commodity DRAM 공급과잉으로 ASP 급락",
+        "텅스텐 원가 폭등이 마진 잠식, WF₆ 순도 mismatch로 고가 웨이퍼 폐기 발생"
+      ],
+      "value_per_share_pct_upside": "-25%"
+    }
+  },
+  "catalysts": [
+    {"date": "2026-07-01", "event": "일본 Kanto Denka·Central Glass WF₆ 공급 영구 중단", "type": "supply", "expected_impact": "negative", "description": "글로벌 8,000톤 중 2,200톤(~27.5%) 공백. SK하이닉스는 삼성 대비 일본 의존도가 낮아 상대적으로 충격 작음(The Elec). 국산 후성·SK스페셜티 대체 속도가 관건."},
+    {"date": "2026-07-24", "event": "SK하이닉스 2026 2분기 실적 발표", "type": "earnings", "expected_impact": "positive", "description": "HBM 매출·DRAM ASP 추세 및 WF₆ 원가 영향 가이던스 확인. 사상 최대 실적 행진 지속 여부 점검."},
+    {"date": "2026-09-30", "event": "HBM4 양산 본격화(3Q 목표)", "type": "supply", "expected_impact": "positive", "description": "당초 2Q에서 3Q로 지연된 16단 48GB HBM4 양산 가동. NVIDIA Rubin 적기 공급 시 ~70% 점유 굳히기."},
+    {"date": "2026-08-31", "event": "후성·SK스페셜티 신규 2,000톤 WF₆ 라인 가동(연내 목표)", "type": "supply", "expected_impact": "positive", "description": "국산 WF₆ 증설이 일본 공백을 메우는 핵심 헤지. 가동·qualification 성공 시 input 리스크 완화."},
+    {"date": "2026-10-29", "event": "SK하이닉스 2026 3분기 실적", "type": "earnings", "expected_impact": "positive", "description": "HBM4 초기 매출 + WF₆ 전환 비용 반영. 슈퍼사이클 지속성 분수령."},
+    {"date": "2026-12-31", "event": "NVIDIA Vera Rubin 플랫폼 출시 일정", "type": "demand", "expected_impact": "positive", "description": "Rubin용 HBM4 수요 본격화. SK하이닉스 captive 공급 지위 확정."},
+    {"date": "2026-11-15", "event": "중국 텅스텐 수출통제 추가 강화/완화 여부", "type": "regulatory", "expected_impact": "negative", "description": "분말 ~100% 중국 의존(THAAD 사드 선례). 통제 강화 시 국산 WF₆도 원료(텅스텐 분말) 병목 — 한국 동일 취약."}
+  ],
+  "risks": [
+    {"name": "WF₆ 공급 차질 (최상위 리스크)", "probability": "중간", "impact": "높음", "description": "HBM·고적층 NAND·선단 DRAM은 WF₆ 사용이 가장 집약적(200단=200 증착 사이클). 일본 27.5% 공백 + 순도 mismatch 시 수백만 달러 웨이퍼 폐기·느린 qualification. SK하이닉스는 HBM 리더로 노출 最大.", "mitigation": "일본 의존도가 삼성보다 낮음 + SK스페셜티 공급관계 잔존 + 후성/SK스페셜티 국산 증설로 부분 헤지"},
+    {"name": "텅스텐 분말 원료 병목 (한국 공통)", "probability": "중간", "impact": "높음", "description": "텅스텐 분말 ~100% 중국산. 국산 WF₆ 증설해도 원료 자체가 중국 통제하 — 사드 선례처럼 지정학 리스크. APT 가격 557% 폭등.", "mitigation": "비중국 텅스텐 광산(호주·베트남) 다변화 모색, 재고 비축, 장기적 원료 자급 한계"},
+    {"name": "HBM4 양산 지연/수율", "probability": "중간", "impact": "높음", "description": "양산 일정이 2Q→3Q로 이미 지연(Digitimes). 추가 지연·수율 문제 시 NVIDIA 물량 일부 삼성·Micron 이탈 가능.", "mitigation": "9월 양산시스템 선구축 + 유료 샘플 final validation 통과, 16단 기술 선도"},
+    {"name": "메모리 사이클 정점 통과", "probability": "중간", "impact": "높음", "description": "사상 최대 실적은 사이클 정점 신호일 수 있음. AI capex 둔화 + commodity DRAM 공급과잉 시 ASP 급락.", "mitigation": "HBM 고마진 mix 확대로 commodity 변동성 일부 방어, NVIDIA 장기 계약"},
+    {"name": "중국 CXMT 추격", "probability": "중간", "impact": "중간", "description": "CXMT의 DDR5 국산화로 commodity DRAM 공급 증가·가격 압박. HBM은 제재로 격차 크나 비-HBM 마진 잠식 가능.", "mitigation": "HBM·선단 공정 기술 격차 유지, 제품 mix 고도화"},
+    {"name": "고객 집중도 (NVIDIA 의존)", "probability": "낮음", "impact": "높음", "description": "HBM 매출이 NVIDIA에 과도 집중. NVIDIA 수요 둔화·멀티소싱 확대 시 직접 타격.", "mitigation": "DRAM/NAND/HBM 2026년까지 sold-out 상태, AMD·하이퍼스케일러 다변화"},
+    {"name": "환율·메모리 가격 변동성", "probability": "중간", "impact": "중간", "description": "원/달러 환율 및 메모리 현물가 변동이 분기 실적에 큰 진폭 유발.", "mitigation": "장기 계약 비중 확대, HBM 가격 안정성 상대적 우위"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "WF₆ 공급중단은 SK하이닉스에 input 리스크지만 삼성보다 충격이 작다", "type": "supply_chain", "evidence": "일본 공급사가 한국 고객에 대체처 확보 요청 시 삼성이 SK하이닉스보다 일본 WF₆ 의존도가 높아 전환 시급성이 더 크다고 보도됨(The Elec/디일렉 2026)", "testability": "2026 2~3분기 실적의 원가·생산차질 코멘트, WF₆ 조달 공시로 검증 가능", "current_status": "근거 있음 — 메르 thesis와 정합, 단 정도(degree)는 미확정"},
+    {"claim": "HBM 리더십이 곧 최대 WF₆ 노출을 의미한다", "type": "input_risk", "evidence": "HBM 고적층·선단 DRAM/NAND는 텅스텐 증착 사이클이 가장 많아 WF₆ 사용 집약(The Elec). SK하이닉스는 HBM 50%+·HBM4 ~70% 점유", "testability": "제품 mix별 WF₆ 소비량 데이터, 생산 차질 발생 여부로 검증", "current_status": "구조적으로 타당 — 다만 국산 대체로 완화 가능"},
+    {"claim": "후성·SK스페셜티 국산 증설이 일본 공백을 적기 대체한다", "type": "mitigation", "evidence": "후성 2,000톤 라인 2분기 본격 가동 + 연내 신규 2,000톤 추가, SK스페셜티 연 2,000톤 capacity(유진투자/디일렉 2026). SK스페셜티는 SK 계열 연원으로 공급관계 잔존", "testability": "신규 라인 가동·qualification 통과 시점, 한국 메모리사 국산 전환율로 검증", "current_status": "진행 중 — 증설은 확인, qualification 속도가 변수"},
+    {"claim": "메모리 슈퍼사이클이 input 리스크를 압도한다", "type": "macro", "evidence": "2025 영업이익 47.2조원 사상 최대·삼성 추월, HBM 매출 2배 이상, DRAM/NAND/HBM 2026년까지 sold-out(CNBC/Notebookcheck 2026)", "testability": "2026~2027 ASP·HBM 매출 추세, AI capex 지속성으로 검증", "current_status": "현재 강세 — 단 사이클 정점 리스크 상존"},
+    {"claim": "텅스텐 분말 원료는 국산화해도 한국 공통 취약점이다", "type": "geopolitical", "evidence": "텅스텐 분말 ~100% 중국 의존, APT 가격 557% 폭등, 사드 선례. 국산 WF₆도 원료는 중국 통제하", "testability": "비중국 텅스텐 조달처 확보 공시, 원료 가격 추이로 검증", "current_status": "근본 리스크 — 단기 해소 어려움"}
+  ],
+  "ticker_specific_thesis": "SK하이닉스는 HBM 세계 1위(점유 50%+·HBM4 NVIDIA 물량 ~70%)로 가장 고마진·고성장 제품군이 동시에 WF₆ 사용이 가장 집약적이어서, 중국 텅스텐 통제→일본 공급중단의 핵심 소재 input 리스크에 메모리 메이저 중 가장 직접 노출된다. 다만 보도상 일본 WF₆ 의존도가 삼성보다 낮고, SK스페셜티(舊 SK계열, 2024년 한앤컴퍼니 매각 후에도 공급관계 잔존)·후성의 국산 증설(연내 2,000톤 추가)이 부분 헤지로 작동한다. 즉 순수 bull이 아니라 '슈퍼사이클 프리미엄 vs WF₆ input 리스크'가 길항하는 구도이며, 국산 대체 qualification 속도와 텅스텐 분말 원료 병목이 핵심 변수다."
+  ,
+  "news_timeline": [
+    {"date": "2026-01-06", "title": "중국, 일본向 텅스텐 분말 수출통제 본격화 — WF₆ 공급망 충격 시발", "source": "The Elec / 메르 블로그", "impact": "negative", "impact_reason": "WF₆ 원료 병목으로 일본 공급사 감산·중단 촉발, 한국 메모리 input 리스크 부각"},
+    {"date": "2026-01-28", "title": "SK하이닉스 2025년 사상 최대 실적 — 영업이익 47.2조원, 삼성 추월", "source": "CNBC", "impact": "positive", "impact_reason": "HBM 매출 2배+, AI 메모리 수요로 첫 삼성 영업이익 추월 — 슈퍼사이클 입증"},
+    {"date": "2026-01-28", "title": "SK하이닉스, NVIDIA HBM4 물량 약 2/3(~70%) 공급 추정", "source": "TrendForce / UBS", "impact": "positive", "impact_reason": "Rubin 플랫폼 captive 수요 확보, HBM 리더십 굳히기"},
+    {"date": "2026-01-08", "title": "SK하이닉스 HBM4 양산 2Q→3Q 지연, NVIDIA Rubin 일정 연동", "source": "Digitimes", "impact": "neutral", "impact_reason": "지연이나 NVIDIA 일정과 연동 — 점유율 영향 제한적, 단 수율·일정 리스크 잔존"},
+    {"date": "2026-06-15", "title": "텅스텐 분말 ~80% 중국 의존, APT 가격 557% 폭등 — WF₆ 90% 인상", "source": "NaturalNews / The Elec", "impact": "negative", "impact_reason": "원료 폭등으로 WF₆ 원가 급등, 7/1 일본 공급중단 임박 — 한국 메모리 input 비용·차질 우려"},
+    {"date": "2026-04-23", "title": "후성, WF₆ 가격 폭등 수혜 — 2026 영업이익 +61% 전망, 국산 대체 기대", "source": "유진투자증권 / 디일렉", "impact": "positive", "impact_reason": "국산 WF₆ 증설로 SK하이닉스 공급 헤지 강화 — input 리스크 부분 완화 신호"}
+  ],
+  "us_gaap_summary": {
+    "pl_5y_placeholder": true,
+    "note": "5Y P&L은 specialist-agents earnings-reviewer + financial_statements(DART)에서 fetch"
+  }
+}
