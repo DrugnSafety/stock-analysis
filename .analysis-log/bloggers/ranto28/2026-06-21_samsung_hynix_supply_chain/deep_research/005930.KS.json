@@ -1,0 +1,124 @@
+{
+  "ticker": "005930.KS",
+  "industry": {
+    "name": "종합 반도체 (메모리 DRAM·NAND + 파운드리 <7nm)",
+    "overview": "삼성전자는 메모리(DRAM·NAND·HBM)와 파운드리(<7nm GAA)를 동시에 영위하는 글로벌 유일 수준의 종합 반도체사로, 양 사업 모두 텅스텐 배선용 WF₆ 가스를 핵심 공정 소재로 사용함. 메모리는 적층 단수(stack)가 높아질수록 WF₆ 사용량이 비례 증가하고, 파운드리 선단공정(<7nm)도 WF₆ 의존도가 높아 중국 텅스텐 분말 수출통제·일본 WF₆ 생산 중단(2026-07-01)의 input-risk에 광범위하게 노출됨. AI 수요로 메모리 시황이 사이클 정점에 진입했으며, HBM·서버 DRAM이 실적을 견인 중. 글로벌 메모리(DRAM+NAND) 시장 규모는 약 2,000억 달러대, HBM은 별도 고성장 세그먼트임.",
+    "competitors": [
+      {"name": "SK하이닉스", "ticker": "000660.KS", "share_pct": 29, "moat": "HBM3E·HBM4 NVIDIA 1차 공급 선점, 메모리 단일 집중으로 AI 사이클 레버리지 극대화. 동일 WF₆ 노출"},
+      {"name": "Micron Technology", "ticker": "MU", "share_pct": 22, "moat": "미국 기반 공급망 다변화, 1γ DRAM·HBM3E 공급 확대, 지정학 리스크 상대적 우위"},
+      {"name": "TSMC", "ticker": "TSM", "share_pct": 0, "moat": "파운드리 시장 60%+ 압도적 1위, <2nm 수율·생태계 선두. 삼성 파운드리의 직접 경쟁자이자 WF₆ 동일 노출"},
+      {"name": "Intel", "ticker": "INTC", "share_pct": 0, "moat": "IDM·파운드리(IFS) 18A 공정 추진, x86 서버 CPU. 파운드리 후발이나 미국 정책 지원"},
+      {"name": "Kioxia", "ticker": "285A.T", "share_pct": 0, "moat": "NAND 전문, 일본 기반. WD와 합작 기반 NAND 점유 상위"},
+      {"name": "Western Digital", "ticker": "WDC", "share_pct": 0, "moat": "NAND·HDD, Kioxia와 합작 생산. 메모리 NAND 글로벌 상위권"},
+      {"name": "Nanya Technology", "ticker": "2408.TW", "share_pct": 3, "moat": "대만 DRAM 군소업체, 레거시 DRAM 중심. 점유율 한 자릿수"},
+      {"name": "GlobalFoundries", "ticker": "GFS", "share_pct": 0, "moat": "특수공정(레거시 노드) 파운드리, 선단 미경쟁. 자동차·산업용 차별화"}
+    ],
+    "market_size": {
+      "current_usd_bn": 220,
+      "cagr_pct": 12,
+      "horizon": "2026-2030 (DRAM+NAND 합산, TrendForce/업계 추정 기반 — AI HBM 견인)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.30,
+      "assumptions": [
+        "HBM4가 NVIDIA Vera Rubin 플랫폼 양산 공급에 성공(Q1 2026 최초 양산 보도)하며 HBM 매출 3배 이상 확대",
+        "메모리 슈퍼사이클 지속 — 2027년 공급부족 심화로 DRAM/NAND ASP 추가 상승(Q1 2026 DRAM ASP QoQ +90%대)",
+        "WF₆ 충격을 후성·SK스페셜티 국산 대체(SK스페셜티 월 150톤 장기계약)로 조기 흡수하여 생산 차질 최소화",
+        "파운드리 SF2P 수율 70% 안정화 + Tesla AI6($16.5B)·Qualcomm 2nm 수주로 적자 축소"
+      ],
+      "value_per_share_pct_upside": "+35%",
+      "ticker_specific_note": "메모리 사이클 정점 + HBM4 NVIDIA 진입 + 파운드리 흑자 전환이 동시 실현되는 best-case. WF₆ 리스크가 국산 대체로 무력화되는 것이 전제"
+    },
+    "base": {
+      "probability": 0.50,
+      "assumptions": [
+        "HBM4는 2026년 상반기 NVIDIA 공급 진입하나 점유는 SK하이닉스에 후행, HBM 매출 3배 가이던스 대체로 달성",
+        "메모리 시황 강세 유지하되 2026년 하반기 ASP 상승률 둔화, Q1 2026 기록(영업익 +756% YoY)은 사이클 정점",
+        "WF₆ 공급차질은 후성·SK스페셜티 증설로 부분 상쇄되나 단가 70~90% 상승·품질 qualification 지연으로 마진 일부 잠식",
+        "파운드리 SF2 수율 55~70% 개선 진행 중이나 흑자 전환은 2026 하반기~2027로 지연"
+      ],
+      "value_per_share_pct_upside": "+8%"
+    },
+    "bear": {
+      "probability": 0.20,
+      "assumptions": [
+        "WF₆ 공급 30%(2,200/8,000톤) 중단을 국산 대체가 적기 흡수 못해 메모리·파운드리 가동률 하락, 멀티밀리언 웨이퍼 폐기 발생",
+        "메모리 사이클이 2026 하반기 조기 둔화 — AI capex 과잉투자 우려로 DRAM/NAND ASP 반락",
+        "HBM4 NVIDIA 점유 확대 실패로 SK하이닉스 대비 AI 메모리 격차 고착, 30% HBM3E 할인 경쟁으로 마진 훼손",
+        "파운드리 2nm 수율 55% 정체로 Qualcomm 등 핵심 고객 TSMC 이탈, 적자 지속"
+      ],
+      "value_per_share_pct_upside": "-25%"
+    }
+  },
+  "catalysts": [
+    {"date": "2026-07-01", "event": "일본 Kanto Denka·Central Glass WF₆ 생산 영구 중단 발효", "type": "supply", "expected_impact": "삼성/하이닉스 WF₆ 약 30%(2,200톤) 공급 중단 — 국산 대체·재고 운영 능력이 단기 가동률 좌우", "description": "글로벌 WF₆ 약 27.5% 차단. 삼성은 메모리+파운드리 양쪽 노출로 industry 최광폭 input-risk. 중립~부정"},
+    {"date": "2026-07-31", "event": "삼성전자 2026 2분기 실적 발표", "type": "earnings", "expected_impact": "Q1 영업익 57조원(+756% YoY) 기록 이후 메모리 ASP 상승 지속 여부 + HBM4 매출 램프 확인", "description": "메모리 사이클 정점 검증 + WF₆ 단가 상승의 마진 영향 첫 가시화"},
+    {"date": "2026-06-30", "event": "HBM4 NVIDIA Vera Rubin 양산 공급 본격화", "type": "demand", "expected_impact": "HBM4 매출이 3분기부터 전체 HBM의 50% 초과 전망 — SK하이닉스 대비 점유 추격 가늠자", "description": "Q1 2026 삼성 'HBM4 최초 양산·NVIDIA 공급' 보도. HBM 매출 3배 가이던스의 핵심"},
+    {"date": "2026-09-30", "event": "파운드리 SF2P 2nm 수율 70% 안정화·고객 확대", "type": "supply", "expected_impact": "Tesla AI6($16.5B)·Qualcomm 2nm 수주 진척 시 파운드리 적자 축소", "description": "2026 초 SF2P 수율 70% 보도. 다만 1세대 SF2 ~55% 정체 보도도 병존 — 검증 필요"},
+    {"date": "2026-08-15", "event": "후성·SK스페셜티 WF₆ 국산 증설 가동", "type": "supply", "expected_impact": "WF₆ 국산 대체 진척이 일본 중단분을 얼마나 상쇄하는지가 bear/base 분기점", "description": "SK스페셜티 삼성 월 150톤 장기계약. 텅스텐 분말은 여전히 중국 ~100% 의존 — 근본 취약성 잔존"},
+    {"date": "2026-10-31", "event": "삼성전자 2026 3분기 실적 — HBM4 비중 50% 분기점", "type": "earnings", "expected_impact": "HBM4 점유·메모리 ASP 둔화 여부 + WF₆ 단가 상승의 누적 마진 영향 확인", "description": "회사 가이던스상 3분기부터 HBM4가 HBM 매출 50% 초과 시점"},
+    {"date": "2026-12-31", "event": "2027 메모리 공급부족 가이던스 — 고객 capa 선확보", "type": "demand", "expected_impact": "고객사가 이미 2027 capa 선점, 공급-수요 갭 확대 전망 시 ASP 강세 연장", "description": "삼성 경영진 '2027 공급부족 심화' 경고. 사이클 연장 시 bull 시나리오 강화"},
+    {"date": "2026-11-30", "event": "중국 텅스텐 수출통제 추가 강화 여부", "type": "regulatory", "expected_impact": "통제 확대 시 WF₆ 분말 가격 추가 급등(이미 200%+ 상승)으로 input-cost 부담 가중", "description": "THAAD 사태 선례처럼 지정학 변수. 한국 텅스텐 분말 중국 의존 ~100%로 통제 강화에 취약"}
+  ],
+  "risks": [
+    {"name": "WF₆ 공급 중단 (메모리+파운드리 동시 노출)", "probability": "높음", "impact": "높음", "description": "일본 2사 7/1 생산중단으로 WF₆ ~30% 차단. 삼성은 메모리(DRAM/NAND/HBM)+파운드리(<7nm) 양쪽 노출로 industry 최광폭. 적층 단수↑·선단공정에서 사용량 비례 증가, 순도 불일치 시 멀티밀리언 웨이퍼 폐기", "mitigation": "후성·SK스페셜티 국산 증설(SK스페셜티 월 150톤 계약)·재고 운영·복수 qualification. 단 텅스텐 분말은 중국 ~100% 의존으로 근본 해소 한계"},
+    {"name": "파운드리 적자·2nm 수율 정체", "probability": "중간", "impact": "높음", "description": "1세대 SF2 수율 ~55% 정체 보도(Qualcomm TSMC 이탈 우려) vs SF2P 70% 안정화 보도 병존. 흑자 전환 지연 시 메모리 호황 이익을 잠식", "mitigation": "Tesla AI6 $16.5B·Qualcomm 2nm 협의·SF2P 개선·Taylor fab 2027 가동으로 고객 다변화"},
+    {"name": "HBM 경쟁 열위 (SK하이닉스 대비 후행)", "probability": "중간", "impact": "높음", "description": "HBM3E·HBM4 NVIDIA qualification에서 SK하이닉스가 선점. 삼성은 HBM4 NVIDIA 테스트 통과·양산 보도로 추격 중이나 점유 고착 시 AI 메모리 프리미엄 상실, 30% 할인 경쟁으로 마진 훼손 위험", "mitigation": "HBM4 NVIDIA 양산 공급 진입(Q1 2026 보도)·Google TPU HBM3E 60%+ 공급·HBM4E 샘플 Q2 준비"},
+    {"name": "메모리 사이클 반락 (AI capex 과잉)", "probability": "중간", "impact": "높음", "description": "Q1 2026 영업익 +756% YoY는 사이클 정점 신호일 수 있음. AI capex 과잉투자 우려 현실화 시 DRAM/NAND ASP 급반락으로 이익 변동성 극대화", "mitigation": "서버·HBM 구조적 수요·2027 공급부족 가이던스·고객 capa 선확보가 하강 완충"},
+    {"name": "지정학 리스크 (중국 통제 확대·THAAD 선례)", "probability": "중간", "impact": "중간", "description": "텅스텐 분말 중국 ~100% 의존. 통제 추가 강화·한중 관계 악화 시 WF₆뿐 아니라 여타 희소소재로 확산 가능. THAAD 보복 선례 존재", "mitigation": "공급망 다변화·국산화·재고 비축. 단 단기 대체 어려움"},
+    {"name": "환율·매크로 변동성", "probability": "중간", "impact": "중간", "description": "원/달러 환율, 글로벌 IT 수요 둔화, 스마트폰·디스플레이 부진(Q1 2026 모바일 부진)이 종합 실적에 영향", "mitigation": "반도체 비중 93.9%로 메모리 호황이 비반도체 부진 상쇄. 사업 다각화가 일부 완충"},
+    {"name": "WF₆ 단가 상승의 마진 잠식", "probability": "높음", "impact": "중간", "description": "2026 WF₆ 계약가 70~90% 상승, 중국 현물가 200%+ 급등. 국산 대체해도 단가 부담은 잔존하여 메모리·파운드리 원가 상승", "mitigation": "메모리 ASP 강세로 원가 상승 전가 가능. 호황 국면에서 상대적 흡수 여력"}
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "WF₆ 공급 충격(일본 2사 7/1 중단, 글로벌 ~27.5%)이 삼성에 광범위한 input-risk를 부과한다",
+      "type": "supply_risk",
+      "evidence": "Kanto Denka·Central Glass 7/1 생산영구중단 통보(삼성·하이닉스·TSMC 대상). 삼성은 메모리+파운드리 양쪽 WF₆ 사용으로 industry 최광폭 노출 (다수 외신/The Elec 보도)",
+      "testability": "7/1 이후 가동률·재고일수·WF₆ 조달가 공시, Q2/Q3 실적 마진 변화로 검증 가능",
+      "current_status": "확인됨 — 일본 중단 발효 임박, 단 생산차질 규모는 국산 대체 속도에 따라 미확정"
+    },
+    {
+      "claim": "후성·SK스페셜티 국산 대체가 충격을 부분 상쇄한다",
+      "type": "mitigation",
+      "evidence": "SK스페셜티 삼성 월 150톤 WF₆ 장기계약, 후성 증설. 단 텅스텐 분말은 중국 ~100% 의존으로 근본 해소 아님",
+      "testability": "국산 WF₆ 증설 capa·qualification 통과율·실제 대체 비중 데이터로 검증",
+      "current_status": "부분 확인 — 대체 진행 중이나 적기·물량 충분성은 미확정 (base/bear 분기점)"
+    },
+    {
+      "claim": "HBM4 NVIDIA 진입으로 삼성의 AI 메모리 열위가 회복된다",
+      "type": "demand_growth",
+      "evidence": "Q1 2026 '삼성 HBM4 최초 양산·NVIDIA Vera Rubin 공급' 보도, NVIDIA 테스트 최고점 통과 보도, HBM 매출 3배 가이던스, Google TPU HBM3E 60%+ 공급",
+      "testability": "분기별 HBM 매출·NVIDIA 공급 점유·HBM4 비중(3Q 50%+ 가이던스) 실적으로 검증",
+      "current_status": "진행 중 — 양산·테스트 통과 보도는 긍정적이나 SK하이닉스 대비 점유 추격은 검증 필요"
+    },
+    {
+      "claim": "메모리 슈퍼사이클이 실적을 견인하며 2027까지 연장된다",
+      "type": "cyclical",
+      "evidence": "Q1 2026 영업익 57조원(+756% YoY, 한국 기업 사상 최대), 메모리 매출 +292% YoY, DRAM ASP QoQ +90%대. 경영진 '2027 공급부족 심화' 경고·고객 capa 선확보",
+      "testability": "분기 ASP·bit growth·재고·2027 capa 계약으로 검증. 사이클 정점/연장 여부 관찰",
+      "current_status": "확인됨(현 시점 호황) — 단 정점 여부·연장 지속성은 AI capex 지속성에 좌우"
+    },
+    {
+      "claim": "파운드리 2nm 수율 개선·대형 수주로 적자가 축소된다",
+      "type": "execution",
+      "evidence": "SF2P 수율 70% 보도 vs 1세대 SF2 ~55% 정체 보도 병존. Tesla AI6 $16.5B 계약·Qualcomm 2nm 협의·Taylor fab 2027 가동",
+      "testability": "분기 파운드리 손익·수율 공시·고객 수주 발표로 검증",
+      "current_status": "혼재 — 수율 보도 상충, 흑자 전환은 2026 하반기~2027로 지연 전망"
+    }
+  ],
+  "ticker_specific_thesis": "삼성전자는 메모리(DRAM·NAND·HBM)와 파운드리(<7nm GAA)를 동시 운영하여 WF₆ 노출이 industry 최광폭이라는 점에서 이번 공급 충격의 input-risk가 가장 넓게 퍼지는 종목임. 동시에 Q1 2026 영업익 +756% YoY의 메모리 슈퍼사이클·HBM4 NVIDIA 양산 진입·사업 다각화(스마트폰·디스플레이)가 충격을 완충하며, 후성·SK스페셜티 국산 WF₆ 대체가 부분 상쇄 헤지로 작동함. 다만 HBM에서 SK하이닉스 추격 부담·파운드리 2nm 수율 정체·텅스텐 분말 중국 100% 의존이라는 근본 취약성이 남아 있어, WF₆ 충격은 순수 호재가 아닌 '대체로 상쇄되는 리스크'로 균형 있게 평가해야 함.",
+  "news_timeline": [
+    {"date": "2026-04-30", "title": "삼성전자 Q1 2026 영업익 57.23조원(+756% YoY) — 메모리 사상 최대", "source": "DCD/TechPowerUp/BigGo", "impact": "positive", "impact_reason": "반도체 93.9% 기여, 메모리 매출 +292% YoY, DRAM ASP QoQ +90%대 — 슈퍼사이클 정점 진입 확인"},
+    {"date": "2026-04-30", "title": "삼성, HBM4 최초 양산·NVIDIA Vera Rubin 공급 — HBM 매출 3배 전망", "source": "TechPowerUp/KED Global", "impact": "positive", "impact_reason": "HBM 열위 회복 신호, 3Q부터 HBM4가 HBM 매출 50% 초과 가이던스"},
+    {"date": "2026-06-12", "title": "WF₆ 가격 중국 현물 200%+ 급등 — 일본 감산 임박", "source": "TrendForce", "impact": "negative", "impact_reason": "삼성 메모리+파운드리 원가 상승, 2026 계약가 70~90% 인상 압력"},
+    {"date": "2026-06-15", "title": "일본 WF₆ 생산 7/1 영구 중단 — 삼성·하이닉스·TSMC에 최후통첩", "source": "wccftech/The Elec", "impact": "negative", "impact_reason": "글로벌 WF₆ ~27.5% 차단, 삼성 최광폭 노출 — 국산 대체 속도가 가동률 좌우"},
+    {"date": "2026-04-14", "title": "삼성 2nm 수율 ~55% 보도 — Qualcomm TSMC 선택 가능성", "source": "TrendForce", "impact": "negative", "impact_reason": "파운드리 흑자 전환 지연·핵심 고객 이탈 우려 (단 SF2P 70% 보도와 상충)"},
+    {"date": "2026-02-05", "title": "삼성 SF2P 2nm 수율 70% 돌파 보도 — TSMC 추격", "source": "FinancialContent", "impact": "positive", "impact_reason": "파운드리 경쟁력 개선 신호, Tesla AI6·Qualcomm 수주 기반 마련"}
+  ],
+  "us_gaap_summary": {
+    "pl_5y_placeholder": true,
+    "note": "5Y P&L은 specialist-agents earnings-reviewer + financial_statements(DART)에서 fetch"
+  }
+}
