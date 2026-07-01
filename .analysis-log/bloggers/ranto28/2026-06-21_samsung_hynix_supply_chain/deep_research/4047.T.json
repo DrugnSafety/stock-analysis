@@ -1,0 +1,92 @@
+{
+  "ticker": "4047.T",
+  "industry": {
+    "name": "반도체 특수가스·불소화학 (WF₆)",
+    "overview": "간토덴카는 일본 불소화학 특수가스 강자로, WF₆(육불화텅스텐)는 DRAM·NAND·HBM·<7nm 로직의 텅스텐 배선·콘택 형성에 필수인 핵심 식각/증착 전구체 가스다. 일본은 고순도 텅스텐 분말(APT 포함)을 사실상 100% 중국에 의존하는데, 2025년 2월 중국이 텅스텐을 이중용도 수출통제 품목에 추가하면서 일본향 APT 수입이 핵심 노선 기준 최대 70% 급감했고, 약 5개월치 재고 소진 후 간토덴카·센트럴글래스는 2026-07-01부로 WF₆ 생산을 영구 중단한다고 TSMC·삼성·하이닉스에 통보했다. 두 일본사는 글로벌 고순도 WF₆ 캐파의 약 25%(2,200/8,000톤, ~27.5%)를 차지하던 incumbent로, 이 공백은 한국 후성·SK스페셜티가 흡수하는 구도다.",
+    "competitors": [
+      {"name": "센트럴글래스 (Central Glass)", "ticker": "4044.T", "share_pct": 15, "moat": "간토덴카와 함께 일본 고순도 WF₆ 양대 공급사. 동일하게 중국 텅스텐 분말 의존으로 2026-07-01 동반 생산중단 — 경쟁사라기보다 동일 운명 공유"},
+      {"name": "후성 (Foosung)", "ticker": "093370.KS", "share_pct": 10, "moat": "글로벌 WF₆ 약 10% 공급, 한국 2위 WF₆·유일 무수불산(HF) 생산사. 중국 CSSC와 텅스텐 인증 진행 — 일본 공백의 최대 수혜주로 거론"},
+      {"name": "SK스페셜티 (SK Specialty)", "ticker": "비상장", "share_pct": 12, "moat": "삼성에 월 150톤 WF₆ 장기공급 계약. 한국 NF₃·WF₆ 선두로 displaced 일본 물량 흡수 1순위"},
+      {"name": "페릭 (Peric / China)", "ticker": "비상장", "share_pct": 18, "moat": "중국 국영 전자가스. 텅스텐 원료 자국 조달로 통제 무관 — 가격·물량 leverage 보유한 구조적 승자"},
+      {"name": "레조낙 (Resonac, 구 쇼와덴코)", "ticker": "4004.T", "share_pct": 8, "moat": "일본 종합 전자재료. 특수가스 포트폴리오 보유하나 WF₆ 원료 동일 리스크 노출"},
+      {"name": "린데 (Linde)", "ticker": "LIN", "share_pct": 12, "moat": "글로벌 산업가스 1위. WF₆ 공급망 글로벌 분산·on-site 능력으로 위기시 대체공급 후보"},
+      {"name": "에어프로덕츠 (Air Products)", "ticker": "APD", "share_pct": 7, "moat": "전자 특수가스 글로벌 공급. 텅스텐 원료 다변화 여력 상대적 우위"},
+      {"name": "버슘머티리얼즈/머크 (Versum/Merck)", "ticker": "MRK.DE", "share_pct": 6, "moat": "반도체 전구체 가스 포트폴리오. 직접 WF₆ 비중은 작으나 대체 가스 솔루션 제시 가능"}
+    ],
+    "market_size": {
+      "current_usd_bn": 1.2,
+      "cagr_pct": 9.0,
+      "horizon": "2026-2030 (IndexBox APAC WF₆ market + TrendForce 추정, HBM/AI 수요로 상향 압력)"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 0.20,
+      "assumptions": [
+        "중국-일본 텅스텐 통제가 외교적으로 일부 완화되어 APT 공급 재개 → 간토덴카 WF₆ 라인 재가동 가능",
+        "텅스텐 분말 대체 소스(베트남·미국 재활용·비중국 APT) 확보로 원료 병목 해소",
+        "WF₆ 가격 70~90% 급등이 재가동 시 마진을 크게 개선 (가격 leverage)",
+        "Precision Chemicals의 NF₃·전지소재 등 비WF₆ 사업이 견조하게 실적 방어"
+      ],
+      "value_per_share_pct_upside": "+15%",
+      "ticker_specific_note": "WF₆ 손실은 매출의 일부(전사 매출 ¥69bn 중 정밀화학 내 일부)에 그치고, 통제 완화·원료 대체 시 high-margin 재가동으로 빠른 회복. 다만 이 시나리오는 中의 정치적 양보를 전제로 해 확률은 낮음."
+    },
+    "base": {
+      "probability": 0.45,
+      "assumptions": [
+        "2026-07-01 WF₆ 생산 영구중단 그대로 실행 → 핵심 제품라인 1개 상실",
+        "displaced 물량(2,200톤 중 간토덴카 몫)은 한국 후성·SK스페셜티가 흡수, 일본 점유 영구 회복 불가",
+        "WF₆ 부재를 NF₃·전지소재·기초화학으로 부분 상쇄하나 정밀화학 마진 mix 악화",
+        "2025-08 NF₃ 공장 화재 복구 비용·고객 신뢰 회복 지연이 추가 부담"
+      ],
+      "value_per_share_pct_upside": "-12%"
+    },
+    "bear": {
+      "probability": 0.35,
+      "assumptions": [
+        "WF₆ 영구중단 + 고객(삼성·하이닉스·TSMC)이 한국·중국으로 멀티소싱 영구 전환 → 구조적 점유 상실",
+        "텅스텐 통제 장기화로 다른 불소가스·전구체 원료까지 차질 전이",
+        "한국 경쟁사 캐파 증설로 WF₆ 가격 정상화되며 재진입 경제성마저 소멸",
+        "화재 손실 + 라인 폐쇄 일회성 비용 + 신뢰 훼손으로 정밀화학 segment 영업적자 전환"
+      ],
+      "value_per_share_pct_upside": "-30%"
+    }
+  },
+  "catalysts": [
+    {"date": "2026-07-01", "event": "WF₆ 생산 영구중단 발효", "type": "supply", "expected_impact": "매우 부정 — 핵심 제품라인 상실, 글로벌 WF₆ 캐파 ~25% 일본분 zero化", "description": "간토덴카·센트럴글래스가 TSMC·삼성·하이닉스에 2026-06-30 최종 출하 후 7-01부터 영구 중단 통보. 본 종목 베어 thesis의 중심 이벤트."},
+    {"date": "2026-08-01", "event": "후성, 중국 CSSC향 대규모 WF₆ 수입 인증 완료 목표", "type": "supply", "expected_impact": "부정 — 한국 경쟁사가 displaced 물량 확보, 일본 점유 영구 이전 가속", "description": "후성이 8월까지 중국 CSSC Specialty Gases 인증 마무리 → 일본 공백을 한국이 흡수하는 구도 고착."},
+    {"date": "2026-08-09", "event": "FY2026 1Q(4~6월) 실적 발표", "type": "earnings", "expected_impact": "부정 — WF₆ 중단 직전 가수요/재고 효과 vs 화재 복구비 혼재", "description": "2025-08 NF₃ 화재 복구 비용 및 WF₆ 중단 가이던스 반영 여부 주목. 정밀화학 segment 마진 가이드가 핵심."},
+    {"date": "2026-09-30", "event": "중국 텅스텐 수출통제 운용 방향 점검(분기)", "type": "regulatory", "expected_impact": "변동성 — 완화 시 bull, 강화 시 bear", "description": "中 상무부의 일본향 APT 통제 완화/강화가 재가동 가능성을 좌우하는 외교 변수."},
+    {"date": "2026-11-10", "event": "FY2026 상반기(2Q) 실적 발표", "type": "earnings", "expected_impact": "부정 — WF₆ 중단 첫 분기 매출 공백 가시화", "description": "7-01 중단 이후 첫 온전한 분기 실적. WF₆ 매출 소멸분과 대체사업 상쇄력의 실측 데이터."},
+    {"date": "2026-12-31", "event": "WF₆ 현물가 200%+ 급등 지속 여부", "type": "demand", "expected_impact": "역설적 부정 — 가격 급등의 수혜는 한국·중국이 향유, 간토덴카는 공급 불가로 배제", "description": "TrendForce 보고 WF₆ 가격 200% 이상 급등. 가격 leverage가 있어도 원료 없어 생산 못 하면 본사엔 무의미."},
+    {"date": "2027-03-31", "event": "FY2026 연간 결산 — WF₆ 부재 첫 풀이어", "type": "earnings", "expected_impact": "부정 — 정밀화학 매출 구조 재편 확인", "description": "WF₆ 영구상실의 연간 매출·마진 임팩트 및 전지소재·NF₃ 전환 진척 최종 평가."}
+  ],
+  "risks": [
+    {"name": "중국 텅스텐 원료 hostage 리스크", "probability": "확실(이미 현실화)", "impact": "치명적", "description": "일본의 고순도 텅스텐 분말 中 의존 ~100%. 통제 지속 시 WF₆ 재가동 자체가 불가능.", "mitigation": "베트남·미국 재활용·비중국 APT 다변화 — 다만 단기 대량 확보 비현실적"},
+    {"name": "한국·중국으로의 영구 점유 상실", "probability": "높음", "impact": "높음", "description": "고객이 후성·SK스페셜티·페릭으로 멀티소싱 전환 시, 통제 완화돼도 재진입 어려움.", "mitigation": "고객과의 장기관계·기술 신뢰 유지, 비WF₆ 제품으로 lock-in"},
+    {"name": "2025-08 NF₃ 공장 화재 여파", "probability": "확실(발생)", "impact": "중간~높음", "description": "2025-08-07 군마현 시부카와 NF₃ 공장 폭발·화재(사망 1·부상 1). 복구비·NF₃ 공급차질·신뢰 훼손.", "mitigation": "보험·라인 복구·안전 재인증"},
+    {"name": "정밀화학 segment 마진 mix 악화", "probability": "높음", "impact": "중간", "description": "고마진 WF₆ 소멸로 정밀화학(불소가스+전지소재) 수익 구조 약화.", "mitigation": "전지소재·NF₃ 등 성장 제품 비중 확대"},
+    {"name": "원료 통제의 타 제품 전이", "probability": "중간", "impact": "중간~높음", "description": "텅스텐 외 형석·불소 원료까지 통제 확대 시 불소가스 전반 차질.", "mitigation": "원료 재고 확충·소스 다변화"},
+    {"name": "WF₆ 가격 정상화 시 재진입 경제성 소멸", "probability": "중간", "impact": "중간", "description": "한국 증설로 가격이 내려가면 통제 완화돼도 재가동 ROI 부족.", "mitigation": "원가 경쟁력 확보 전까지 재진입 보류 전략"},
+    {"name": "엔/실적 변동·일회성 비용", "probability": "중간", "impact": "중간", "description": "라인 폐쇄 일회성 손실 + 화재 비용이 단기 이익 변동성 확대.", "mitigation": "구조조정 비용의 분기 평준화·비핵심 자산 정리"}
+  ],
+  "thesis_decomposition": [
+    {"claim": "간토덴카는 WF₆ 생산을 2026-07-01부로 영구 중단당하는 disrupted incumbent다", "type": "supply", "evidence": "간토덴카·센트럴글래스가 TSMC·삼성·하이닉스에 2026-06-30 최종출하·7-01 영구중단 통보(BigGo/SunSirs/WCCFTech 보도)", "testability": "2026-07 이후 실제 WF₆ 출하 zero 여부·실적 매출 공백으로 검증", "current_status": "확인됨 — 베어 thesis의 사실적 근거"},
+    {"claim": "원인은 중국 텅스텐 분말 수출통제이며 일본은 대체 원료 확보 실패다", "type": "regulatory", "evidence": "2025-02 중국 텅스텐 이중용도 통제 추가, 일본향 APT 수입 핵심노선 ~70% 급감(KuCoin/TheElec/NaturalNews)", "testability": "비중국 APT 조달 성사 여부·통제 완화 신호로 검증", "current_status": "확인됨 — hostage 구조 현실화"},
+    {"claim": "displaced 물량은 한국 후성·SK스페셜티가 흡수해 점유가 영구 이전된다", "type": "competitive", "evidence": "SK스페셜티 삼성 월 150톤 장기계약, 후성 中 CSSC 인증 8월 목표(TheElec/KuCoin)", "testability": "2026-2027 WF₆ 시장점유율 재편 데이터로 검증", "current_status": "진행 중 — 한국 흡수 가속화"},
+    {"claim": "WF₆ 가격 200%+ 급등의 수혜는 간토덴카가 아니라 경쟁사가 향유한다", "type": "demand", "evidence": "TrendForce WF₆ 가격 200% 이상 급등 보도이나 간토덴카는 생산 불가", "testability": "가격 급등기 간토덴카 WF₆ 매출 vs 후성/SK 매출 비교로 검증", "current_status": "확인됨 — 가격 leverage 무력화"},
+    {"claim": "비WF₆ 사업(NF₃·전지소재·기초화학)이 손실을 부분 상쇄할 수 있다", "type": "fundamental", "evidence": "FY2025 전사 매출 ¥69bn·영업익 ¥4.9bn, Precision Chemicals 내 불소가스+전지소재 보유(MarketScreener/TradingView)", "testability": "정밀화학 segment 매출·마진 추이로 상쇄력 검증", "current_status": "부분 확인 — 단 2025-08 화재로 NF₃마저 차질"}
+  ],
+  "ticker_specific_thesis": "간토덴카는 본 공급망 충격의 명백한 패자(LOSER)다. 글로벌 WF₆ 캐파의 일부를 책임지던 일본 incumbent였으나, 고순도 텅스텐 분말을 사실상 100% 중국에 의존한 탓에 2026-07-01부로 WF₆ 생산을 영구 중단당하며 고마진 핵심 제품라인 하나를 통째로 상실한다. displaced 물량은 후성·SK스페셜티·중국 페릭이 흡수해 점유가 영구 이전되고, WF₆ 가격이 200% 넘게 급등해도 생산이 불가능해 그 수혜에서 배제되는 역설에 놓인다. 2025-08 NF₃ 공장 화재까지 겹쳐 정밀화학 segment 전반이 압박받으며, 회복 경로는 (a) 중국 통제의 외교적 완화 또는 (b) 비중국 텅스텐 원료 확보 + NF₃·전지소재로의 mix 전환이라는 modest·불확실한 시나리오뿐이다.",
+  "news_timeline": [
+    {"date": "2025-02-04", "title": "중국, 텅스텐 등 이중용도 품목 수출통제 추가", "source": "China MOFCOM / The Elec", "impact": "negative", "impact_reason": "일본향 APT·텅스텐 분말 공급 병목의 출발점 — 간토덴카 원료 차질의 근본 원인"},
+    {"date": "2025-08-07", "title": "간토덴카 시부카와 NF₃ 공장 폭발·화재 (사망 1)", "source": "TrendForce", "impact": "negative", "impact_reason": "NF₃ 공급 차질·복구비·안전 신뢰 훼손 — WF₆ 위기 이전부터 정밀화학 사업 타격"},
+    {"date": "2025-12-15", "title": "일본 WF₆ 제조사, 한국 고객에 2026년 단가 70~90% 인상 통보", "source": "The Elec", "impact": "negative", "impact_reason": "원료 병목을 가격 전가로 방어 시도하나, 이는 고객의 한국·중국 멀티소싱 전환을 가속"},
+    {"date": "2026-06-12", "title": "WF₆ 현물가 200%+ 급등 (일본 감산 직전)", "source": "TrendForce", "impact": "negative", "impact_reason": "가격 급등 수혜는 한국·중국 공급사 차지 — 간토덴카는 생산 불가로 leverage 배제"},
+    {"date": "2026-06-15", "title": "간토덴카·센트럴글래스, TSMC·삼성·하이닉스에 WF₆ 영구중단(7-01) 최종 통보", "source": "BigGo / SunSirs / WCCFTech", "impact": "negative", "impact_reason": "베어 thesis의 결정타 — 글로벌 캐파 ~25% 일본분 영구 zero化, 핵심 제품라인 상실"}
+  ],
+  "us_gaap_summary": {
+    "pl_5y_placeholder": true,
+    "note": "5Y P&L은 specialist-agents earnings-reviewer에서 fetch (일본 TSE 상장 — DART/SEC 미적용, yfinance 보조). 참고: FY2025(3월 결산) 매출 ~¥69bn, 영업익 ~¥4.9bn, TTM 매출 ~$409M 수준."
+  }
+}
