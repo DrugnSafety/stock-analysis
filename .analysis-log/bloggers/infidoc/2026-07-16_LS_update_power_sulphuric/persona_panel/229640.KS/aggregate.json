@@ -1,0 +1,481 @@
+{
+  "ticker": "229640.KS",
+  "aggregated_at": "2026-07-20T03:04:59.709522+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "lean_bullish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "neutral": {
+      "count": 7,
+      "pct": 41.2
+    },
+    "bullish": {
+      "count": 3,
+      "pct": 17.6
+    }
+  },
+  "average_confidence": 0.585,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "리스크",
+      "frequency": 6,
+      "personas": [
+        "ray-dalio",
+        "stanley-druckenmiller",
+        "michael-burry",
+        "mohnish-pabrai",
+        "jim-simons"
+      ],
+      "examples": [
+        "vol 74.6% — 포지션 리스크 한도 초과 구간",
+        "vol 74.6% — 리스크 패리티상 의미 있는 비중 불가",
+        "한국 소형주 유동성 + 그룹 의존 + 수출 제조 리스크의 동방향 상관"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "단기·중기 모멘텀 동반 음수 — 하락 지속 확률 우세",
+        "vol 74.6% — 포지션 리스크 한도 초과 구간"
+      ],
+      "key_opportunities_top3": [
+        "단기 모멘텀 양전환 시 장기 추세(1y +33.6%)와 정렬 — 강한 롱 신호로 반전 가능",
+        "이벤트 공시(유럽 매출·증설) 후 드리프트 포착 기회"
+      ],
+      "uncertainty": "소형주 얇은 호가에서 신호의 실행 가능성(슬리피지) — 백테스트 대비 실현 수익 저하 가능",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "유럽 해저 매출 기여 지연 시 PE 23은 고평가로 전환",
+        "소형주 수급 — 스토리와 무관한 -35% 하락 재현 가능"
+      ],
+      "key_opportunities_top3": [
+        "버스덕트 LS-VINA 증설 — 4-5년 연환산 4,000억~8,000억 시장의 생산 거점",
+        "2026 4Q 유럽 해상풍력·HVDC 매출 기여 → 2027 EPS 레벨업",
+        "베트남 전력망 투자 — 본업 안정 성장"
+      ],
+      "uncertainty": "2027 EPS 컨센서스의 신뢰도 — 유럽 프로젝트 매출 인식 시점이 분기 단위로 유동적",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "단기 모멘텀 음수 — 낙폭 매수는 팩터 투자가 아니라 역추세 베팅",
+        "value 쿠션 부재 — 성장 미이행 시 하방 노출"
+      ],
+      "key_opportunities_top3": [
+        "단기 모멘텀 반전 + 실적 확인 시 momentum·quality 동시 양전환 — 팩터 정렬 시 진입",
+        "한국 소형주 유니버스 내 상대 quality 우위"
+      ],
+      "uncertainty": "소형주 팩터 프리미엄의 실현 가능성 — 거래비용·유동성 제약으로 이론 대비 잠식",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "vol 74.6% — 리스크 패리티상 의미 있는 비중 불가",
+        "한국 소형주 유동성 + 그룹 의존 + 수출 제조 리스크의 동방향 상관",
+        "물량 배분 변수의 비공시 — 이해 불가 변수"
+      ],
+      "key_opportunities_top3": [
+        "전력 인프라 실물 사이클 — 바스켓(그룹주·글로벌 피어 분산)으로 노출 시 유효",
+        "베트남 산업화 — 신흥국 성장 사이클 분산 효과"
+      ],
+      "uncertainty": "한국 시장 수급 정상화 시점 — 시스템적 유동성 변수는 예측 대상이 아니라 대응 대상",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "베트남 전력망 투자 집행 속도 — 정부 재정·정책 변수",
+        "소형주 변동성 — 장기 보유 확신 없이는 견디기 어려운 흔들림"
+      ],
+      "key_opportunities_top3": [
+        "베트남 1인당 전력소비 구조적 증가 — 10년 성장 활주로",
+        "내수주 → 수출주 변모 리레이팅",
+        "유럽 해저·HVDC 2027+ 수주 확대"
+      ],
+      "uncertainty": "베트남 매크로(환율·정책) 변수 — 신흥국 투자 고유의 통제 불가 영역",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "모회사-자회사 물량 배분 인센티브 비대칭 — 소액주주가 통제 불가",
+        "vol 74.6%·beta 1.56 — 하방 방어력 없는 가격 구조",
+        "forward PE 22.9 — 품질 대비 프리미엄"
+      ],
+      "key_opportunities_top3": [
+        "유럽 해저·HVDC 물량의 구조적 초과수요 — 그룹 전체 파이 확대 시 낙수 가능",
+        "베트남 전력망 투자 — LS-VINA 본업 견조"
+      ],
+      "uncertainty": "LS전선의 버스덕트 해외 캐파 배분 계획(LS-VINA vs 멕시코 vs 본체) 미확정 — 공시 기반 확인 불가",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "클래식 딴도 기준 미달 가격 — 하방이 '조금 잃음'을 초과할 수 있음",
+        "모회사 의사결정 리스크 — 옵션 가치가 외생 변수에 의존"
+      ],
+      "key_opportunities_top3": [
+        "2026 4Q 유럽 매출 인식 — 불확실성 해소형 카탈리스트",
+        "버스덕트 거점화 공시화 시 옵션 가치 현실화",
+        "베트남 전력망 — 본업 하방 지지"
+      ],
+      "uncertainty": "유럽 프로젝트 매출 인식 시점·규모 — 회사 가이던스 부재로 오즈 계산이 근사치",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시총 1.3조 소형주 — 유동성 얕고 수급 왜곡에 취약 (1개월 -35% 실증)",
+        "모회사 LS전선 물량 배분·이전가격 의존 — 독립적 이익 체력 판단 곤란",
+        "forward PE 22.9 — 안전마진 부재"
+      ],
+      "key_opportunities_top3": [
+        "LS-VINA 버스덕트 캐파 확장 — 빅테크향 장기계약 물량의 생산 거점화",
+        "유럽향 해저·HVDC 2026 4Q 매출 기여 본격화 + 2027 수주잔고 재확대",
+        "베트남 전력망 투자 확대 — 현지 1위 사업자 수혜"
+      ],
+      "uncertainty": "버스덕트 LS-VINA 이관 물량·마진의 에코에너지 귀속분 미공시 — 모회사·자회사 간 배분 구조 확인 불가",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "손절 규율 필수 — 소형주 유동성상 슬리피지 큼",
+        "메모리발 시장 전체 리스크오프 재발 시 재차 동반 급락"
+      ],
+      "key_opportunities_top3": [
+        "수급 왜곡 해소 국면의 폭력적 되돌림",
+        "2026 4Q 유럽 매출 인식 — 첫 카탈리스트 임박",
+        "전력 인프라 로테이션 — 메모리 차익 자금의 이동 경로"
+      ],
+      "uncertainty": "되돌림 시점 특정 불가 — 메모리 쏠림 해소의 트리거를 사전 식별할 수 없음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "activist 지렛대 부재 — 자본 배분 비효율 발생 시 교정 수단 없음",
+        "시총 1.3조 — 유동성상 의미 있는 포지션 구축·청산 곤란"
+      ],
+      "key_opportunities_top3": [
+        "그룹 차원 지배구조 개선(중복상장 규제) 국면의 간접 수혜",
+        "버스덕트 거점화 실현 시 franchise 재평가"
+      ],
+      "uncertainty": "모회사의 자회사 활용 전략 — 외부 투자자가 검증·영향 불가한 블랙박스",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "핵심 기술·수주 창구의 모회사 소재 — 자체 성장 통제력 제한",
+        "경영진과의 직접 소통(scuttlebutt) 부족 — 확신도 상한 제약"
+      ],
+      "key_opportunities_top3": [
+        "버스덕트 믹스 전환 — 구조적 OPM 상승",
+        "유럽 인증 실적 기반 2027+ 해저 수주 확대",
+        "베트남 전력화 장기 성장"
+      ],
+      "uncertainty": "LS-VINA 증설 규모·시점 미공시 — 성장 곡선의 기울기 추정에 불확실성",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PE 22.9 — 낙폭에도 불구 밸류 쿠션 부재",
+        "AI capex 총량 리스크 — thesis의 key assumption이 무너지는 tail",
+        "소형주 유동성 — 출구 좁음"
+      ],
+      "key_opportunities_top3": [
+        "추가 투매 시 deep value 구간 진입 — 그때가 진짜 기회",
+        "버스덕트 이관 물량 공시화 시 정보 비대칭 해소발 재평가"
+      ],
+      "uncertainty": "에코에너지 귀속 버스덕트 물량·마진 — 공시 부재로 수익가치 하한 추정 불가",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "반전 트리거의 시점 불확실 — 루프가 더 깊어질 수 있음",
+        "AI capex 총량 붕괴 시나리오 — 가설 자체의 오류 조건"
+      ],
+      "key_opportunities_top3": [
+        "메모리 → 전력 인프라 로테이션의 초기 포지셔닝",
+        "인식 전환 시 소형주 특유의 급반등",
+        "유럽 매출 인식(2026 4Q)이 인식 전환의 촉매"
+      ],
+      "uncertainty": "수급 왜곡의 심도·지속 기간 — 재귀 루프의 반전 시점은 본질적으로 예측 불가",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "forward PE 22.9 — 수익력 가치 대비 성장 프리미엄 과다",
+        "vol 74.6% — 원금의 안전 훼손 가능성",
+        "소형주 — 시장 침체기 유동성 실종 위험"
+      ],
+      "key_opportunities_top3": [
+        "수급 투매가 지속돼 수익력 가치 이하로 하락 시 — 그레이엄식 매수 기회로 전환"
+      ],
+      "uncertainty": "정상화 수익력(normalized earning power) 추정 — 유럽·버스덕트 신규 매출의 지속성 데이터 부족",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "빅테크 capex 사이클이 일시 감속하면 소형주 특성상 낙폭 극대화",
+        "버스덕트 캐파 배분에서 LS-VINA 몫 축소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 배전 버스덕트 전환 S-curve — 4-5년 물량 가시성",
+        "유럽 해상풍력·HVDC 2027+ 수주잔고 재확대",
+        "베트남 전력화 — 신흥국 전력 수요 지수 성장"
+      ],
+      "uncertainty": "버스덕트 채택률 곡선의 기울기 — 빅테크 내부 설계 표준 데이터 미공개",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "내재 성장 기대 20% — 유럽·버스덕트 중 하나만 지연돼도 미달",
+        "소형주 자본비용 할증 — 같은 현금흐름도 낮은 가치로 환산"
+      ],
+      "key_opportunities_top3": [
+        "버스덕트 귀속 공시화 — 스토리 probable 승격 시 밴드 상단 이동",
+        "2026 4Q 유럽 매출 인식 — 첫 번째 숫자 검증점 임박"
+      ],
+      "uncertainty": "버스덕트·유럽 물량의 에코에너지 귀속 비율 — 가치평가의 지배적 미지수, 현재 공시로 확인 불가",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "좌측 꼬리 미절단 — 수급 붕괴·물량 배제 시나리오에서 손실 한도 불명",
+        "옵션 프리미엄(PE 22.9)을 선지불한 구조 — convexity 대비 비쌈"
+      ],
+      "key_opportunities_top3": [
+        "공급망 무질서 심화 시 납기 프리미엄 확대 — 우측 꼬리 fat",
+        "유럽·버스덕트 동시 실현 시 비선형 재평가"
+      ],
+      "uncertainty": "한국 수급 시스템 리스크의 꼬리 분포 — 정규분포 가정 무효, 과거 변동성은 미래 꼬리를 과소평가",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
