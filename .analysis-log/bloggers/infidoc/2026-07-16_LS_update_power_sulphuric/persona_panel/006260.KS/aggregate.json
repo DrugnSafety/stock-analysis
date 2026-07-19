@@ -1,0 +1,519 @@
+{
+  "ticker": "006260.KS",
+  "aggregated_at": "2026-07-20T03:04:59.617633+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 2,
+      "pct": 11.8
+    },
+    "lean_bullish": {
+      "count": 7,
+      "pct": 41.2
+    },
+    "neutral": {
+      "count": 6,
+      "pct": 35.3
+    },
+    "bullish": {
+      "count": 2,
+      "pct": 11.8
+    }
+  },
+  "average_confidence": 0.618,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "리스크",
+      "frequency": 7,
+      "personas": [
+        "stanley-druckenmiller",
+        "jim-simons",
+        "rakesh-jhunjhunwala",
+        "charlie-munger",
+        "ray-dalio",
+        "cliff-asness"
+      ],
+      "examples": [
+        "이벤트(8월 실적) 전후 변동성 스파이크 리스크",
+        "low-vol 최하위 — 리스크 조정 수익 열위",
+        "변동성 70% — 포트폴리오 리스크 예산 잠식"
+      ]
+    },
+    {
+      "theme": "사이클",
+      "frequency": 5,
+      "personas": [
+        "ben-graham",
+        "ray-dalio",
+        "cathie-wood",
+        "warren-buffett"
+      ],
+      "examples": [
+        "황산 상품 사이클의 평균회귀 — 지정학 정상화 시 이익 추정 하향",
+        "단기 사이클(수급·상품)과 장기 사이클(인프라)의 시점 불일치",
+        "황산 이익은 호르무즈발 사이클 이익 — 정상화 시 역풍 (moat 아님)"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "낙폭 가속 패턴 — 단기 추가 하락 확률 우위",
+        "변동성 70% — 어떤 방향이든 포지션 사이즈 제약",
+        "이벤트(8월 실적) 전후 변동성 스파이크 리스크"
+      ],
+      "key_opportunities_top3": [
+        "모멘텀 반전 신호 발생 시 밸류+추정상향 팩터가 정렬된 롱 후보",
+        "관세청 대체 데이터 시계열 — 이익 서프라이즈 선행 신호로 활용 가능",
+        "과매도 단기 반등 트레이드 (초단기, 소규모 한정)"
+      ],
+      "uncertainty": "본 판정은 통계적 단기 신호 기준 — 기업 내재가치에 대한 견해가 아니며, 신호는 일 단위로 갱신됨. 이벤트 드리븐 요소(실적·규제)는 모델 외부 변수.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "지주 디스카운트는 한국 시장의 장기 습관 — 배수 리레이팅은 느릴 수 있음",
+        "beta 1.74·변동성 70% — 수급 장세에서 추가 -20%도 각오해야",
+        "황산 이익은 검증 불가 영역 — thesis에서 제외하고 봐야 안전"
+      ],
+      "key_opportunities_top3": [
+        "이익↑·주가↓ 가위 모양 괴리 — 2Q26 실적 발표가 수렴 촉매",
+        "버스덕트 = 지루한 이름의 fast grower 라인 (분기 1,000억 도달)",
+        "수주잔고 7.5조 → 향후 2-3년 매출 가시성"
+      ],
+      "uncertainty": "2Q26 증권사 추정(연결 OP 4,317억)이 실제 실적으로 확인되기 전까지는 추정 기반. 수급 왜곡 해소 시점 예측 불가.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "모멘텀 크래시 구간의 밸류 함정 — 싸다고 사면 더 싸지는 경로",
+        "low-vol 최하위 — 리스크 조정 수익 열위",
+        "배당 0.82% — 기다림의 carry 부재"
+      ],
+      "key_opportunities_top3": [
+        "그룹 내 동일 테마 최저 배수 — 상대 가치 롱 후보 (vs LS일렉트릭·가온전선)",
+        "이익 추정 상향 팩터 양(+) — 지속성 높은 신호",
+        "모멘텀 안정화 시 Value+Momentum 정렬 전환 — 스코어 급개선 구조"
+      ],
+      "uncertainty": "팩터 스코어는 시점 의존 — 1개월 뒤 모멘텀 항목이 바뀌면 verdict도 바뀜. 지주 할인 축소의 실현 시점은 팩터 모델 밖 변수.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "황산 상품 사이클의 평균회귀 — 지정학 정상화 시 이익 추정 하향",
+        "변동성 70% — 포트폴리오 리스크 예산 잠식",
+        "단기 사이클(수급·상품)과 장기 사이클(인프라)의 시점 불일치"
+      ],
+      "key_opportunities_top3": [
+        "전력 인프라 10년+ 투자 사이클 초입 노출",
+        "인플레·지정학 헤지 특성 (상품 노출) — 분산 기여",
+        "한국 시장 제도 개선(중복상장 규제)의 대표 수혜 후보"
+      ],
+      "uncertainty": "호르무즈발 공급 충격의 지속 기간은 예측 범위 밖 — 황산 관련 이익 추정의 신뢰구간이 매우 넓음. 수급 쏠림 사이클의 반전 시점도 동일.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "한국 지주 할인 관습 — 완전 해소는 기대 불가 (인도 프로모터 할인과 동일 구조)",
+        "정부 메가 프로젝트의 정치 일정 리스크 — 발주 지연 가능성",
+        "수급 쏠림 장기화 시 인내 구간 연장"
+      ],
+      "key_opportunities_top3": [
+        "국가 전력망 속도전 + 서해안 에너지고속도로 발주 파도",
+        "AI 데이터센터 글로벌 스토리와의 이중 겹침",
+        "쏠림 장세 소외가 만든 인색한 진입가 (5년 시계 대시세 초입 가능)"
+      ],
+      "uncertainty": "정부 프로젝트 발주 시점·규모는 정치 변수 — 지연 시 26~27년 실적 공백 가능. 지주 할인 축소 속도도 제도 집행 강도에 의존.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "호르무즈 정상화 시 황산 thesis 절반이 무너지는 단일 변수 리스크",
+        "지주-오너-FI 인센티브 불일치 — 규제 강제 전 행동 이력이 증거",
+        "확증편향 경계 — 모든 데이터를 thesis 확인으로 해석하는 구조"
+      ],
+      "key_opportunities_top3": [
+        "그룹 내 상대 밸류에이션 — LS(13.6) vs LS일렉트릭(40.9) 괴리",
+        "중복상장 규제 = 인센티브 규칙 변경 — 실질적 지주 가치 보전",
+        "시장의 가용성 편향(메모리 블랙홀)이 만든 무차별 매도 국면"
+      ],
+      "uncertainty": "황산 세그먼트 미공시로 이익 추정 검증 불가. 중복상장 규제의 법제화 수준·예외 운용 미확인. 수급 왜곡 해소 시점은 예측 불가능.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "황산 경로의 지정학 의존 — 상방 옵션 하나가 소멸할 수 있음",
+        "수급 왜곡 장기화 시 기회비용 (배당 0.82%로 대기 보상 빈약)",
+        "JKL 해소가 고가 재매입 형태면 지주 현금 유출"
+      ],
+      "key_opportunities_top3": [
+        "손익 비대칭 — 최대 손실 -25~30% vs 상방 +35~60%",
+        "3중 독립 더블업 경로 (전선 이익 × 지주 할인 축소 × 황산)",
+        "관세청 공짜 데이터 기반 검증 가능한 thesis — 클로닝 최적"
+      ],
+      "uncertainty": "황산 이익 추정(550-600억)은 8월 실적 전까지 미검증. 다운사이드 -25~30% 추정도 수급 극단 국면에선 일시 초과 가능 — 영구손실과 구분해 대응.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "황산 이익은 호르무즈발 사이클 이익 — 정상화 시 역풍 (moat 아님)",
+        "지주회사 구조 + 미공시 세그먼트 = 정보 비대칭이 여전히 큼",
+        "JKL 약정 해소(재매입·리파이낸싱)에 들어갈 현금 부담"
+      ],
+      "key_opportunities_top3": [
+        "LS전선 수주잔고 7.5조 원 — 수년치 이익 가시성 (확인된 데이터)",
+        "버스덕트 OPM 15% 장기공급계약 — 스펙 제품형 moat 가능성",
+        "중복상장 규제 — 핵심 자산 외부 유출 리스크 구조적 감소"
+      ],
+      "uncertainty": "MnM 황산 세그먼트 이익 미공시 — 550-600억 추정은 2Q26 실적 발표로만 간접 검증 가능. 중복상장 규제의 실제 집행 강도·예외 승인 사례도 미확인.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "메모리 수급 블랙홀 미해소 — 유동성 역풍 속 추세 역행 리스크",
+        "황산 스팟이 지정학 이벤트 해소로 급반락 시 이익 모멘텀 훼손",
+        "원화·금리 등 KOSPI 전체 매크로 변수의 추가 악화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "메모리→전력 인프라 섹터 로테이션의 선취 포지션",
+        "7월 관세청 단가·8월 2Q 실적 — 단기 촉매 2연발",
+        "6/9 대비 -26% 할인된 진입가 + R/R 2:1 이상"
+      ],
+      "uncertainty": "수급 전환 시점 예측 불가 — 신호 기반 대응만 가능. 황산 가격의 지정학 의존성으로 시나리오 분산 큼.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "오너 지배 구조 — 외부 주주가 변화를 강제할 수단 제한",
+        "배당 0.82%·자사주 부재 — 촉매 작동 전까지 보유 보상 없음",
+        "JKL 해소 방식이 주주가치 훼손형(고가 재매입 등)으로 결정될 가능성"
+      ],
+      "key_opportunities_top3": [
+        "JKL 오버행의 규제발 해소 — 최대 단일 리레이팅 촉매",
+        "LS전선 가치의 지주 귀속 확정 (IPO 봉쇄) — SOTP 할인 축소",
+        "세그먼트 공시 개선이라는 저비용 IR 촉매 잠재"
+      ],
+      "uncertainty": "중복상장 규제의 시행 세칙·예외 운용 미확정. JKL 재협상은 비공개 협상이라 결과 예측 불가 — 방식에 따라 촉매가 리스크로 반전될 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경영진의 주주 정렬 — 규제 강제 이전의 자회사 IPO 선호 이력",
+        "버스덕트 고마진에 대한 경쟁 진입 (글로벌 배전 대기업들)",
+        "지주 구조로 인한 성장 과실의 희석 전달"
+      ],
+      "key_opportunities_top3": [
+        "버스덕트 램프업 — 2025년 2,700억 → 1Q26 연환산 4,000억 페이스",
+        "27년 HVDC·해저 제2 성장막 + 미국 신공장",
+        "빅테크 반복 구매 고객 확보 — 성장의 질 상향"
+      ],
+      "uncertainty": "버스덕트 수주의 계약 조건(가격 재협상 조항 등) 비공개 — 마진 15% 지속성은 스커틀벗 추가 검증 필요. LSCUS 물량의 연환산 범위(4,000억~8,000억)가 넓음.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수급 블랙홀이 6개월+ 지속될 경우 보유 고통 (beta 1.74)",
+        "황산 이익 추정이 8월 실적에서 미달로 확인될 경우 단기 촉매 소멸",
+        "AI capex 총량 축소로 전이 시 thesis 폐기 라인 도달"
+      ],
+      "key_opportunities_top3": [
+        "8월 2Q26 실적 = 황산 550-600억 추정의 검증 촉매",
+        "SMM 스팟-관세청 실현단가 괴리 (370 vs 162달러) — 7월 데이터 리프라이싱",
+        "JKL IPO 오버행의 규제발 구조적 제거 — 시장 미반영"
+      ],
+      "uncertainty": "황산 세그먼트 이익은 공시로 직접 확인 불가 — 2Q MnM 세그먼트 총이익으로 간접 검증만 가능. 수급 왜곡 지속 기간은 예측 불가.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "하방 루프의 펀더멘털 역침투 — 주가 약세가 JKL 협상력·조달여건 훼손",
+        "메모리 쏠림 루프의 소진 시점 부재 — 수개월 연장 가능",
+        "촉매 실망 시(2Q 실적 미달) 하방 루프 재점화"
+      ],
+      "key_opportunities_top3": [
+        "루프 반전 시 beta 1.74의 증폭 반등 — 반전 후 진입도 수익 구간 충분",
+        "8월 2Q 실적 = 인식-현실 격차 해소 방아쇠 후보",
+        "황산 시장 자기강화 루프의 실현단가 전이 (7월 데이터)"
+      ],
+      "uncertainty": "반사 루프의 임계점은 사후에만 확인 가능 — 본 평가는 신호 목록(수급 분산·거래대금·촉매 반응)의 추적을 전제로 함.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "한국 지주 할인의 영구성 — 괴리가 좁혀지지 않고 수년 지속될 가능성",
+        "사이클 이익(황산) 비중 — 정상화 시 수익력 하향",
+        "배당 0.82% — 기다림에 대한 보상이 없어 시간이 적의 편"
+      ],
+      "key_opportunities_top3": [
+        "6주 만에 시총 10.7조→7.95조 — 같은 자산, 26% 싸진 가격",
+        "수주잔고 7.5조의 계약적 수익력 — 내재가치 하방 지지",
+        "중복상장 규제 — SOTP 할인율 구조적 축소 근거"
+      ],
+      "uncertainty": "황산 이익의 정상화 수준(사이클 중간값)을 알 수 없어 내재가치 범위가 넓음. 지주 할인율의 적정 수준도 제도 변화 중이라 불확정.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "지주회사 비히클 — 성장 자산(LS전선)에 직접 투자 불가, 할인 전달 구조",
+        "황산·제련 등 구경제 사이클 자산이 혁신 노출 순도를 희석",
+        "AI capex의 일시적 소화 국면(digestion) 시 수주 모멘텀 공백 가능"
+      ],
+      "key_opportunities_top3": [
+        "AI 랙 전력밀도 곡선 → 버스덕트 침투율 상승 (기술 곡선 파생 수요)",
+        "빅테크 장기계약 = 4-5년 확정 물량 + AI capex 확대 시 상방 개방",
+        "27년 유럽 HVDC·미국 신공장 — 성장 릴레이 2막"
+      ],
+      "uncertainty": "빅테크 데이터센터 capex의 27년 이후 지속성은 AI 수익화 속도에 의존 — 외생 변수. 버스덕트 경쟁 진입(Schneider·Eaton 등) 시 마진 15% 유지 여부 미검증.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "황산 이익의 정상화 조정 — 추정 이익과 정상화 이익의 격차가 큼",
+        "beta 1.74의 자본비용 상향 — 가치 계산의 분모 부담",
+        "1년 +55% 리레이팅 선반영분 — '왜곡' 크기의 과대평가 가능성"
+      ],
+      "key_opportunities_top3": [
+        "수주잔고 7.5조 — DCF 입력 가능한 최고 품질의 성장 증거",
+        "지주 할인 40%→30% 시나리오 = +10~15% 재평가 여지",
+        "8월 2Q 실적 = plausible→probable 승격 이벤트"
+      ],
+      "uncertainty": "황산 정상화 수준·지주 할인 축소 속도 모두 분포가 넓어 가치 레인지(6~9조)가 시총 대비 ±25% — 이 폭 자체가 neutral verdict의 근거.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.5,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "호르무즈 밸브 개방(정상화) 시 황산 thesis 절반의 급속 붕괴",
+        "KOSPI 꼬리 이벤트에 대한 beta 1.74 오목성 — 한 달 -32%가 재현 가능",
+        "반증 조건 없는 서사 구조 — 모든 데이터가 지지 증거로 해석됨"
+      ],
+      "key_opportunities_top3": [
+        "수주잔고 7.5조의 실물 계약 볼록성 (황산과 무관한 하방 지지)",
+        "규제발 지주 리레이팅 — 잃을 것 없는 공짜 옵션",
+        "파괴 불가능한 소액 복권 포지션으로는 상방 비대칭 향유 가능"
+      ],
+      "uncertainty": "지정학 이벤트의 방향·시점은 본질적으로 예측 불가 — 본 평가는 예측이 아니라 노출 구조의 판정. 밸브가 계속 닫혀 있으면 이 verdict는 결과적으로 틀리게 보일 것이나, 사전적으로는 여전히 옳은 구조 판단.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
