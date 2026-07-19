@@ -1,0 +1,190 @@
+{
+ "ticker": "042660.KS",
+ "company_kr": "한화오션",
+ "company_en": "Hanwha Ocean Co., Ltd.",
+ "exchange": "KRX",
+ "as_of_date": "2026-07-19",
+ "industry": {
+  "name": "Shipbuilding — Naval + Commercial (LNGC)",
+  "name_kr": "조선 — 함정(특수선)+상선(LNG선)",
+  "overview": "옛 대우조선해양. 2023년 한화 편입 후 LNG선 등 상선과 잠수함·구축함 등 특수선(함정)을 양축으로 운영함. 필리조선소를 한화시스템과 공동 인수(한화오션 40%)해 미국 조선 거점을 확보 — 이번 MRIV 수주의 직접 당사자임. 미 해군 MRO(월리 시라호 창정비 등)를 한국 조선사 최초로 수주하며 미국 함정 시장 진입을 단계적으로 실행 중. 2021-22년 대규모 적자에서 2024-25년 흑자 전환에 성공했으나, 최근 1-3개월 주가는 조선주 급등 후 조정 국면(-33% 1M)임.",
+  "competitors": [
+   {
+    "name": "한화오션",
+    "ticker": "042660.KS",
+    "share_pct": "韓 함정 양강",
+    "moat": "잠수함(도산안창호급)·필리조선소 미국 거점·그룹 방산 시너지"
+   },
+   {
+    "name": "HD현대중공업",
+    "ticker": "329180.KS",
+    "share_pct": "韓 함정 1위",
+    "moat": "이지스 구축함 track record·최대 캐파"
+   },
+   {
+    "name": "헌팅턴잉걸스",
+    "ticker": "HII",
+    "share_pct": "美 함정 1위",
+    "moat": "핵항모 독점·incumbent"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 250.0,
+   "cagr_pct": 4.0,
+   "horizon": "글로벌 조선 ~$250bn. 함정 시장은 미·중 해군 경쟁으로 구조 성장 — 미 해군 30년 계획만 연 $30bn+. 한미 조선협력(MASGA)이 한국 조선사에 신규 시장을 열어줌."
+  },
+  "ai_infrastructure_context": "AI·반도체가 아닌 지정학이 동력 — 미 해군력 재건과 중국 조선 견제가 한국 조선의 전략 가치를 끌어올림. MRIV는 골든돔(미사일방어) 인프라의 일부로 방산 슈퍼사이클과 연결됨.",
+  "news": []
+ },
+ "financials": {
+  "currency": "KRW",
+  "unit": "KRW 십억",
+  "fiscal_year_end": "12-31",
+  "data_source": "DART (사업보고서 XBRL) + yfinance income_stmt (live 2026-07-19)",
+  "pl_5y": [
+   {
+    "year": "2021",
+    "revenue": 4485.486215864,
+    "op_income": -1736.267019824,
+    "op_margin": -38.7,
+    "net_income": -1673.121343996,
+    "net_margin": -37.3
+   },
+   {
+    "year": "2022",
+    "revenue": 4817.662250664,
+    "op_income": -1643.301071583,
+    "op_margin": -34.1,
+    "net_income": -1767.319882719,
+    "net_margin": -36.7
+   },
+   {
+    "year": "2023",
+    "revenue": 7425.978807573,
+    "op_income": 0.0,
+    "op_margin": 0,
+    "net_income": 109.831922763,
+    "net_margin": 1.5
+   },
+   {
+    "year": "2024",
+    "revenue": 10776.0,
+    "op_income": 239.0,
+    "op_margin": 2.2,
+    "net_income": 528.1,
+    "net_margin": 4.9
+   },
+   {
+    "year": "2025",
+    "revenue": 12783.5,
+    "op_income": 1182.3,
+    "op_margin": 9.2,
+    "net_income": 1245.8,
+    "net_margin": 9.7
+   }
+  ],
+  "trajectory_summary": "매출 2021→2025 CAGR +29.9%, OPM -38.7%→+9.2%. 흑자 전환 후 이익 체력 개선 국면임.",
+  "bs_snapshot": {},
+  "cf_summary": {},
+  "peer_compare": [],
+  "key_metrics_current": {
+   "current_price": 86700.0,
+   "currency": "KRW",
+   "forward_pe": 14.29,
+   "beta": 0.9,
+   "market_cap_usd_bn": 20.43
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 30,
+   "target_price": 130000,
+   "thesis": "MRIV 성공적 진행+미 해군 후속 프로그램(LSM류·지원함) 필리 배정+번스-톨레프슨 완화 논의 진전. 특수선 수주잔고 리레이팅",
+   "key_assumptions": [
+    "MRIV 일정 준수",
+    "토트 협력 확장",
+    "한미 조선협력 입법 진전"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 95000,
+   "thesis": "MRIV 2척 착실히 수행, 상선(LNG선) 시황 유지, MRO 확대. 필리 투자 집행은 단계적",
+   "key_assumptions": [
+    "상선 시황 유지",
+    "MRO 꾸준한 수주"
+   ]
+  },
+  "bear": {
+   "prob_pct": 25,
+   "target_price": 60000,
+   "thesis": "MRIV 원가 초과·일정 지연, 50억달러 투자 부담으로 유상증자 재현, 상선 시황 둔화 동시 발생",
+   "key_assumptions": [
+    "첫 국방사업 학습비용 대규모",
+    "자금조달 부담 현실화"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026H2",
+   "event": "MRIV 상세 설계 착수·계약 세부 공개",
+   "type": "수주",
+   "expected_impact": "positive",
+   "description": "마진 구조·옵션 조항 확인이 밸류에이션 핵심"
+  },
+  {
+   "date": "2026-2027",
+   "event": "필리조선소 50억달러 투자 확정 여부",
+   "type": "투자",
+   "expected_impact": "mixed",
+   "description": "성장 투자 vs 자금조달 부담의 양면"
+  },
+  {
+   "date": "2026-2027",
+   "event": "미 해군 MRO·지원함 후속 수주",
+   "type": "수주",
+   "expected_impact": "positive",
+   "description": "토트 협력관계 기반 후속 프로그램"
+  },
+  {
+   "date": "2027+",
+   "event": "번스-톨레프슨 수정법 개정 논의",
+   "type": "정책",
+   "expected_impact": "positive",
+   "description": "'한국 건조' 허용 시 게임체인저"
+  }
+ ],
+ "risks": [
+  {
+   "name": "첫 국방사업 원가 초과",
+   "probability": "med",
+   "impact": "high",
+   "description": "미 함정 프로그램 비용 초과 관행+학습비용 — 저마진/적자 수주 위험",
+   "mitigation": "토트의 운용 지식 활용·비전투함이라 사양 리스크 제한"
+  },
+  {
+   "name": "대규모 capex 자금조달",
+   "probability": "med",
+   "impact": "high",
+   "description": "필리 50억달러 투자 집행 시 유상증자·차입 부담(과거 유상증자로 주주 희석 이력)",
+   "mitigation": "단계적 집행·그룹 공동 투자"
+  },
+  {
+   "name": "조선주 밸류에이션 조정",
+   "probability": "med",
+   "impact": "med",
+   "description": "2025-26 조선주 급등 후 최근 1-3개월 -33% 조정 — 모멘텀 이탈 국면",
+   "mitigation": "수주 실적으로 펀더멘털 입증"
+  }
+ ],
+ "korean_disclosures": [],
+ "research_meta": {
+  "generated": "2026-07-19",
+  "sources": [
+   "DART 사업보고서 XBRL + yfinance income_stmt (live)",
+   "한화 MRIV 수주 발표(2026-07-17)",
+   "메르 블로그 thesis"
+  ]
+ }
+}
