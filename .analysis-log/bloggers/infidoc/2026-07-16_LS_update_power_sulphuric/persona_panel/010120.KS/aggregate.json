@@ -1,0 +1,517 @@
+{
+  "ticker": "010120.KS",
+  "aggregated_at": "2026-07-20T03:04:59.679559+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "lean_bullish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "bullish": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "bearish": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.638,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "리스크",
+      "frequency": 8,
+      "personas": [
+        "jim-simons",
+        "charlie-munger",
+        "bill-ackman",
+        "warren-buffett",
+        "george-soros",
+        "ray-dalio",
+        "cliff-asness"
+      ],
+      "examples": [
+        "이벤트 리스크(정부 발주 공시) — 숏 포지션의 갭 상승 리스크",
+        "변동성 극단 — 사이징·리스크 관리 비용 큼",
+        "포트폴리오 리스크 예산 과점 — 변동성 79.5%"
+      ]
+    },
+    {
+      "theme": "변동성",
+      "frequency": 5,
+      "personas": [
+        "jim-simons",
+        "ray-dalio",
+        "rakesh-jhunjhunwala",
+        "cliff-asness",
+        "cathie-wood"
+      ],
+      "examples": [
+        "변동성 79.5% — 어느 방향이든 신호 노이즈비 악화",
+        "변동성 극단 — 사이징·리스크 관리 비용 큼",
+        "포트폴리오 리스크 예산 과점 — 변동성 79.5%"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "변동성 79.5% — 어느 방향이든 신호 노이즈비 악화",
+        "이벤트 리스크(정부 발주 공시) — 숏 포지션의 갭 상승 리스크",
+        "레짐 전환기 — 과거 패턴의 일반화 위험"
+      ],
+      "key_opportunities_top3": [
+        "모멘텀 재양전(1m 신호 반전) 시 롱 전환 — 신호는 방향 중립",
+        "고변동성 구간의 평균회귀 단기 트레이드 기회"
+      ],
+      "uncertainty": "본 평가는 저빈도 스냅샷 기반 — 실제 운용은 일중·일간 신호로 갱신되며 verdict는 빠르게 뒤집힐 수 있음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PEG > 1 추정 — 40배 PE를 정당화할 성장률의 실적 확인 필요",
+        "이미 1y +238.7% — 쉬운 구간은 지나갔을 수 있음",
+        "정부 발주 일정이 밀리면 스토리 타임라인 훼손"
+      ],
+      "key_opportunities_top3": [
+        "정부 메가 프로젝트 속도전 → 발주 조기화 (T09)",
+        "서해안 에너지고속도로 HVDC·초고압 기기 발주 (T02)",
+        "미국 배전·ESS — 두 번째 성장 엔진"
+      ],
+      "uncertainty": "LS ELECTRIC 자체 이익 성장률 추정치 미확보 — PEG 판정은 2Q26 실적 공시 후 확정 가능.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "밸류 팩터 극단 음(-) — 역사적으로 고밸류+모멘텀 훼손 조합의 후속 수익률 열위",
+        "변동성 극단 — 사이징·리스크 관리 비용 큼",
+        "모멘텀 12-1 신호의 추가 훼손 시 팩터 종합 음전환"
+      ],
+      "key_opportunities_top3": [
+        "모멘텀 재강화(단기 반등 확인) 시 quality+momentum 조합으로 개선",
+        "이익 성장 실현으로 fPE 자연 하락 시 value 부담 완화"
+      ],
+      "uncertainty": "단일 종목 평가에 팩터 프레임 적용은 통계적 한계 — 포트폴리오 맥락 없이는 확신도 제한.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "포트폴리오 리스크 예산 과점 — 변동성 79.5%",
+        "한국 시장의 단일 엔진(메모리) 유동성 구조 — 시스템 리스크 전이",
+        "밸류에이션 하방 꼬리 — 발주 지연 시 조정 심화"
+      ],
+      "key_opportunities_top3": [
+        "정부 생산성 투자 국면의 다년 수혜 — 장기 보유 시 사이클 수익",
+        "미국 배전·ESS — 지역 분산으로 단일 국가 리스크 완화",
+        "조정 심화 시 리밸런싱 매수 기회"
+      ],
+      "uncertainty": "전력 인프라 사이클의 길이·기울기 불확실. 리스크 조정 판단은 상관관계 구조 변화(메모리-전력기기 동조성) 시 재검토 필요.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "정치 일정 변화로 메가 프로젝트 동력 상실 시나리오",
+        "단기 변동성 — 레버리지 사용 시 강제 청산 위험 (현금 보유 전제)",
+        "AI capex 글로벌 둔화 시 수출 축 약화"
+      ],
+      "key_opportunities_top3": [
+        "국책 전력망 + 팹 투자 + AI 데이터센터 3중 수요의 다년 활주로",
+        "발주 조기화 → 실적 서프라이즈 사이클 개시",
+        "미국 배전·ESS — 수출 성장 스토리 확장"
+      ],
+      "uncertainty": "인도 피어 유추는 시장 구조 차이(한국 저성장·저평가 환경)로 한계 있음 — 한국 시장의 멀티플 관용도가 인도만큼 높지 않을 수 있음.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Peak earnings × peak multiple 이중 과열 가능성",
+        "정부 메가 프로젝트 발주 지연 리스크 (정치 일정 의존)",
+        "계열사(전선·MnM) 서사의 무비판적 전이 — 확증편향"
+      ],
+      "key_opportunities_top3": [
+        "전력 인프라 수요의 구조적 내구성 (조정 깊어지면 재평가 기회)",
+        "미국 배전·ESS — 검증되면 이익 체력 한 단계 상향"
+      ],
+      "uncertainty": "LS ELECTRIC 자체 수주잔고·2Q26 실적 미확인 상태의 평가. 정부 발주 조기화가 실제 실현되면 bearish 판단 수정 필요.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "하방 비대칭 — 발주 지연 시 멀티플·이익 동시 조정",
+        "컨센서스 테마 — 정보 엣지 전무",
+        "열광 가격에서의 베팅은 단도 원칙 위반"
+      ],
+      "key_opportunities_top3": [
+        "시장 공포 심화로 fPE 20배 이하 진입 시 저위험·고수익 구조 성립",
+        "그 시점까지 사업 펀더멘털(발주 사이클)은 오히려 강해질 가능성 — 기다림의 프리미엄"
+      ],
+      "uncertainty": "재평가 트리거(fPE 20배)는 임의 기준 — 이익 급증으로 멀티플이 자연 하락하는 경로도 있으며 그 경우 기회를 놓칠 수 있음을 인정.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Forward PE 40.9배 — 안전마진 부재, 멀티플 수축 리스크",
+        "이익의 사이클성 — 전력기기 초호황 정점 이익을 구조적 이익으로 오인할 위험",
+        "배당수익률 0.3% — 기다리는 동안 보상 없음"
+      ],
+      "key_opportunities_top3": [
+        "삼성·하이닉스 팹 투자 선행 전력 인프라 발주 (T09) — 수요 내구성",
+        "서해안 에너지고속도로 → HVDC·초고압 기기 국내 발주 사이클",
+        "미국 배전·ESS 확장 — 지역 다변화로 이익 체력 상향 가능성"
+      ],
+      "uncertainty": "정부 메가 프로젝트 발주 시점·규모 미확정. LS ELECTRIC 자체 수주잔고 세부는 본 분석 입력에 미포함 — 그룹(전선) 수주잔고에서 read-across한 추론임.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "정부 발주 일정 지연 — 이 트레이드의 유일한 구조적 손절 트리거",
+        "메모리 수급 블랙홀 장기화 시 로테이션 지연",
+        "40.9배 멀티플 — 타이밍 틀리면 손실 속도 빠름"
+      ],
+      "key_opportunities_top3": [
+        "발주 조기화 → 수주 공시 러시 → 멀티플 재확장",
+        "서해안 에너지고속도로 착수 공식화 (올해 말~내년 초) — 명확한 촉매",
+        "메모리→전력 인프라 유동성 로테이션"
+      ],
+      "uncertainty": "정책 속도전이 실제 발주·계약으로 전환되는 속도는 미검증 — 촉매 일정이 밀리면 포지션 신속 축소 전제.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "진입 멀티플 40.9배 — 촉매 지연 시 시간 비용 큼",
+        "정부 프로젝트의 정치 리스크 — 정권 일정에 종속된 발주",
+        "그룹 계열 거래 구조 — 거버넌스 개선 속도의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "발주 조기화 공시 러시 — 예측 가능성 프리미엄 재부여",
+        "중복상장 규제发 한국 거버넌스 리레이팅의 수혜",
+        "미국 배전·ESS — 달러 현금흐름 축 추가"
+      ],
+      "uncertainty": "Electric 자체 수주잔고·마진 세부 미확인 — 집중 베팅 전 IR 수준의 실사 필요.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "이익률 개선 추세가 꺾이면 성장 프리미엄 논거 붕괴",
+        "LS ELECTRIC 자체 수주 데이터 미확인 — 그룹 정황 증거 의존",
+        "40.9배 멀티플 — 성장 서사 이탈 시 조정 폭 큼"
+      ],
+      "key_opportunities_top3": [
+        "변압기 초호황 공식의 전력기기 확산 — 다년 성장 활주로",
+        "미국 배전·ESS — 두 번째 S커브",
+        "정부 메가 프로젝트 발주 조기화 → 성장 가시성 조기 확인"
+      ],
+      "uncertainty": "scuttlebutt 증거가 그룹(전선) 중심 — Electric 고유의 수주·마진 데이터로 교차 검증 전까지 확신도 제한.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "AI capex ROI 압박 → 전력 인프라 발주 후행 감속 시나리오",
+        "멀티플 확장분(1y +238.7%)의 되돌림 — 하방 -40~50%도 가능한 밴드",
+        "crowded positioning — 유동성 이탈 시 매도 연쇄"
+      ],
+      "key_opportunities_top3": [
+        "멀티플 절반 수준(fPE ~20배) 도달 시 사업 질 대비 매력 구간",
+        "정부 발주가 실제 계약으로 확인되면 하방 시나리오 일부 무효화"
+      ],
+      "uncertainty": "AI capex 감속은 시나리오이지 데이터가 아님 — 발주 조기화가 실제 실현되면 bearish 논거 약화. 타이밍 불확실성 큼.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "메모리 편향의 지속 기간 예측 불가 — 조기 진입 리스크",
+        "AI 전력 서사 자체의 재귀 고리가 꺾이는 시나리오 (글로벌 AI capex 인식 악화)",
+        "하방 오버슈팅 — 유동성 환경에서 -27%가 끝이 아닐 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "정부 발주 공시 = 인식 전환 트리거 → 자기강화 고리 재점화",
+        "메모리 조정 시 로테이션 수혜의 1순위 후보군",
+        "하방 오버슈팅 발생 시 포지션 확대 기회"
+      ],
+      "uncertainty": "재귀성 판단은 가설 — 시장이 계속 틀릴 수 있고 나도 틀릴 수 있음. 오류 인정 라인(발주 지연 + 추가 -20%) 사전 설정.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "안전마진 전무 — fPE 40.9·EV/EBITDA 51.3",
+        "투기적 가격 형성 (1y +238.7%) — 군중 심리 주도 구간",
+        "배당 0.3% — 하락 구간에서 보유 보상 없음"
+      ],
+      "key_opportunities_top3": [
+        "사이클 붕괴 또는 시장 패닉으로 fPE 15배 이하 도달 시 우량 자산 매수 기회 (관찰 목록 유지)"
+      ],
+      "uncertainty": "성장이 실제로 수년간 40%+ 지속되면 사후적으로 현재 가격이 정당화될 수 있음 — 그러나 그것은 분석이 아니라 예언의 영역이라는 것이 본 페르소나의 입장.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "AI capex 사이클이 예상보다 빨리 꺾일 경우 멀티플 급수축",
+        "정부 프로젝트 발주 지연 시 국내 성장 축 타임라인 밀림",
+        "변동성 79.5% — 포지션 관리 실패 시 손실 확대"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 전력밀도 상승 → 배전·변압기 ASP 구조적 상승",
+        "서해안 에너지고속도로 → 국내 HVDC 생태계 개화 (T02)",
+        "미국 배전·ESS — 글로벌 AI 인프라 시장 직접 노출"
+      ],
+      "uncertainty": "AI 전력 수요의 지수 성장 가정은 추정 — 효율 개선(칩·냉각)이 전력 수요 증가율을 낮출 가능성 있음.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "내재 기대 성장률의 base rate 초과 — 실망 시 이중 조정(이익+멀티플)",
+        "사이클 산업 마진의 평균회귀 역사 — 캐파 증설·경쟁 진입",
+        "스토리 의존 가격 — 서사 변화에 대한 민감도 극대"
+      ],
+      "key_opportunities_top3": [
+        "2Q26·3Q26 실적이 내재 기대를 실제로 상회하면 가치 추정 상향 여지",
+        "가격 추가 조정 시 가치-가격 갭 축소 → 재평가 가능",
+        "정부 발주의 계약화 — 성장 가정의 불확실성 프리미엄 축소"
+      ],
+      "uncertainty": "본 평가는 정식 DCF가 아닌 멀티플 역산 기반 근사 — Electric 고유 세그먼트 재무 미확보 상태의 판단으로, 실적 공시 후 갱신 필요.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "상방 선지불·하방 노출의 오목(concave) 구조",
+        "AI capex 견고성 가정의 검은 백조 노출",
+        "'지나간다' 서사에 기댄 보유 — 서사적 오류"
+      ],
+      "key_opportunities_top3": [
+        "추가 폭락(-40%+) 시 소량 옵션성 매수 — 볼록성 성립 구간",
+        "전력망·공급망 무질서 심화 시 사업 가치의 반취약적 상승 (장기)"
+      ],
+      "uncertainty": "본 평가 자체도 예측 요소를 포함 — 확신도를 0.5로 제한하는 것이 프레임의 일관성.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
