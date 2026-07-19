@@ -1,0 +1,483 @@
+{
+  "ticker": "272210.KS",
+  "aggregated_at": "2026-07-20T04:06:54.543721+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "lean_bullish": {
+      "count": 9,
+      "pct": 52.9
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 29.4
+    }
+  },
+  "average_confidence": 0.691,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 7,
+      "personas": [
+        "charlie-munger",
+        "bill-ackman",
+        "ben-graham",
+        "jim-simons",
+        "phil-fisher",
+        "nassim-taleb",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "높은 변동성",
+        "높은 변동성",
+        "고변동성으로 인한 리스크"
+      ]
+    },
+    {
+      "theme": "규제",
+      "frequency": 6,
+      "personas": [
+        "charlie-munger",
+        "cathie-wood",
+        "phil-fisher",
+        "george-soros",
+        "nassim-taleb",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "미국 내 보안 및 규제 대응 필요",
+        "미국 규제 및 보안시설 부족",
+        "미국의 조선소 규제"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "시장 리스크 증가"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 장기 진입 가능성"
+      ],
+      "uncertainty": "미국 방산 시장 내의 실질적인 포지션 개선이 이루어질 경우, 상승 모멘텀 신호 감지 시 반전 가능",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward_pe",
+        "높은 ev_ebitda"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 진출",
+        "필리조선소를 통한 유휴 생산능력 활용"
+      ],
+      "uncertainty": "미국 방산 시장에서의 지속적인 수주가 없거나, 방산 프로젝트의 수익성이 기대만큼 높지 않을 경우",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 평가 배수",
+        "부정적인 수익성 지표"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산시장 진입",
+        "향후 군수산업에서의 경험 축적"
+      ],
+      "uncertainty": "추가 수주 및 수익성 향상이 확인되면 판단이 달라질 수 있음",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "상대적으로 높은 forward PE 비율",
+        "보안 인증 및 인프라 부족"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 진입 기반 마련",
+        "장기적으로 글로벌 방산 시장에서의 확장 가능성"
+      ],
+      "uncertainty": "글로벌 경기 침체가 가속화되거나, 미중 관계 악화 시 방산 수주가 위축될 수 있음",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE로 인한 평가 절하 위험",
+        "토트 서비스와의 협력에서 한화 필리조선소의 주도권 미확보"
+      ],
+      "key_opportunities_top3": [
+        "미국 국방 시장 본격 진출",
+        "향후 추가 수주로 인한 성장 가능성"
+      ],
+      "uncertainty": "미국 규제 및 군수 거래의 정치적 리스크가 강화될 경우",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "미국 내 보안 및 규제 대응 필요"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 확장 가능성",
+        "조선소 생산 능력 활용"
+      ],
+      "uncertainty": "미국 내 추가 규제 또는 정치적 변동이 일어나면, 사업 전망이 크게 흔들릴 수 있음.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward_pe, 평가 기준 대비 낮은 안전마진",
+        "국방 관련 사업의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "미국 조선소 분업 구조의 장점",
+        "미국 방산 시장의 지속적인 수요"
+      ],
+      "uncertainty": "미국 정부의 방산 예산 축소나 규제 변경이 생긴다면 위험이 증가할 수 있음.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "조선업에서의 초기성공이 지속 가능할지 여부",
+        "현재 주가의 높음과 밸류에이션 부담"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 진입을 통한 장기 성장 가능성",
+        "전략적 파트너쉽을 통한 경쟁력 강화"
+      ],
+      "uncertainty": "미 방산 시장에서의 지속적 성공이 추세로 이어지지 않을 경우에는 투자 논리가 무너질 수 있음",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 forward PE로 인한 고평가",
+        "현재 금융 시장 불안정성"
+      ],
+      "key_opportunities_top3": [
+        "미국 방위산업 공급망 진입",
+        "미 해군과 협력 확대 가능성"
+      ],
+      "uncertainty": "미국 방산 수주가 지속되지 않거나, 미 공공기관과의 관계가 약화된다면 판단이 변경될 수 있음.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고변동성으로 인한 리스크",
+        "비즈니스 품질 데이터 부족"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장으로의 진출",
+        "유휴 생산능력 활용"
+      ],
+      "uncertainty": "미국 방산 계약과 관련된 규제가 강화될 경우, 긍정적인 견해는 무효가 될 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "미국 규제 및 보안시설 부족",
+        "변동성이 높은 주가"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 진입",
+        "장기적인 해군 함정 건조 수주 가능성"
+      ],
+      "uncertainty": "미국 방산 프로젝트 진입이 실패하거나 규제 변화가 발생하면 판명이 뒤집힐 수 있음.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 비율",
+        "부채를 통한 시설 확충의 자본 소요"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 진출",
+        "사업 다변화로 인한 매출 성장 가능"
+      ],
+      "uncertainty": "필리조선소의 방산 사업이 예상치 못한 규제 또는 추가 자본 소요 없이 성공적으로 자리잡는다면, 긍정적인 방향으로 전환될 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "미국의 조선소 규제",
+        "향후 수주 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장의 진입",
+        "생산 능력 유휴 자원의 활용 가능성"
+      ],
+      "uncertainty": "미국의 방산 관련 법규와 규정이 강화되면 'lean_bullish' 판정이 바뀔 수 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 포워드 PER",
+        "시장 변동성"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 진출",
+        "수익성이 높은 프로젝트"
+      ],
+      "uncertainty": "만약 회사가 시장 평균보다 높은 현금 흐름 개선을 보이거나 부채비율이 낮다는 것이 확인되면, 평가는 변경될 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시설의 군용 전환 필요성",
+        "미국 규제 준수 문제"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 공급망 진입",
+        "군함 건조로의 사업 확장"
+      ],
+      "uncertainty": "미국 방산 시장에서의 성공 여부가 장기적인 성장에 중대한 영향을 미칠 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "미국 규제 준수 및 보안시설 구축 미비",
+        "현재 높은 변동성과 PE 비율"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 진출",
+        "장기 계약 확보를 통한 안정적 매출 예상"
+      ],
+      "uncertainty": "미국 방산 분야 규제 및 시장 환경의 급변으로 인한 전망 바뀔 가능성 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "미국 규제의 잠재적 위험"
+      ],
+      "key_opportunities_top3": [
+        "미국 방산 시장 진입",
+        "다수의 고객 확보 가능성"
+      ],
+      "uncertainty": "미국 규제가 강화되거나 추가 입법이 이루어지면 기존 수주의 경제성이 악화될 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
