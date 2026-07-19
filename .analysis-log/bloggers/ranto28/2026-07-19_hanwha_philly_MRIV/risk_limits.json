@@ -1,0 +1,134 @@
+{
+ "computed_at": "2026-07-19T15:07:54.422298-04:00",
+ "portfolio_value": "per-currency: KRW 1.38e9 / USD 1.0e6 (=$1M equiv)",
+ "base_limit_pct": 0.2,
+ "n_pairs": 5,
+ "fx_krw_per_usd": 1380.0,
+ "limits": [
+  {
+   "ticker": "042660.KS",
+   "as_of_date": "2026-07-19",
+   "current_price": 86700.0,
+   "currency": "KRW",
+   "portfolio_value": 1380000000.0,
+   "volatility_metrics": {
+    "daily_volatility": 0.04404,
+    "annualized_volatility": 0.6991,
+    "volatility_percentile": null,
+    "data_points": 252
+   },
+   "vol_multiplier": 0.75,
+   "correlation_metrics": {
+    "avg_correlation_with_active": null,
+    "max_correlation_with_active": null,
+    "active_positions": []
+   },
+   "corr_multiplier": 1.0,
+   "base_limit_pct": 0.2,
+   "combined_limit_pct": 0.15,
+   "position_limit_value": 207000000.0,
+   "remaining_position_limit_value": 207000000.0,
+   "max_quantity": 2387
+  },
+  {
+   "ticker": "272210.KS",
+   "as_of_date": "2026-07-19",
+   "current_price": 65500.0,
+   "currency": "KRW",
+   "portfolio_value": 1380000000.0,
+   "volatility_metrics": {
+    "daily_volatility": 0.05557,
+    "annualized_volatility": 0.8821,
+    "volatility_percentile": null,
+    "data_points": 252
+   },
+   "vol_multiplier": 0.5,
+   "correlation_metrics": {
+    "avg_correlation_with_active": null,
+    "max_correlation_with_active": null,
+    "active_positions": []
+   },
+   "corr_multiplier": 1.0,
+   "base_limit_pct": 0.2,
+   "combined_limit_pct": 0.1,
+   "position_limit_value": 138000000.0,
+   "remaining_position_limit_value": 138000000.0,
+   "max_quantity": 2106
+  },
+  {
+   "ticker": "012450.KS",
+   "as_of_date": "2026-07-19",
+   "current_price": 943000.0,
+   "currency": "KRW",
+   "portfolio_value": 1380000000.0,
+   "volatility_metrics": {
+    "daily_volatility": 0.0376,
+    "annualized_volatility": 0.5969,
+    "volatility_percentile": null,
+    "data_points": 252
+   },
+   "vol_multiplier": 1.0,
+   "correlation_metrics": {
+    "avg_correlation_with_active": null,
+    "max_correlation_with_active": null,
+    "active_positions": []
+   },
+   "corr_multiplier": 1.0,
+   "base_limit_pct": 0.2,
+   "combined_limit_pct": 0.2,
+   "position_limit_value": 276000000.0,
+   "remaining_position_limit_value": 276000000.0,
+   "max_quantity": 292
+  },
+  {
+   "ticker": "329180.KS",
+   "as_of_date": "2026-07-19",
+   "current_price": 484000.0,
+   "currency": "KRW",
+   "portfolio_value": 1380000000.0,
+   "volatility_metrics": {
+    "daily_volatility": 0.0362,
+    "annualized_volatility": 0.5747,
+    "volatility_percentile": null,
+    "data_points": 252
+   },
+   "vol_multiplier": 1.0,
+   "correlation_metrics": {
+    "avg_correlation_with_active": null,
+    "max_correlation_with_active": null,
+    "active_positions": []
+   },
+   "corr_multiplier": 1.0,
+   "base_limit_pct": 0.2,
+   "combined_limit_pct": 0.2,
+   "position_limit_value": 276000000.0,
+   "remaining_position_limit_value": 276000000.0,
+   "max_quantity": 570
+  },
+  {
+   "ticker": "HII",
+   "as_of_date": "2026-07-19",
+   "current_price": 269.13,
+   "currency": "USD",
+   "portfolio_value": 1000000.0,
+   "volatility_metrics": {
+    "daily_volatility": 0.02177,
+    "annualized_volatility": 0.3456,
+    "volatility_percentile": null,
+    "data_points": 252
+   },
+   "vol_multiplier": 1.25,
+   "correlation_metrics": {
+    "avg_correlation_with_active": null,
+    "max_correlation_with_active": null,
+    "active_positions": []
+   },
+   "corr_multiplier": 1.0,
+   "base_limit_pct": 0.2,
+   "combined_limit_pct": 0.25,
+   "position_limit_value": 250000.0,
+   "remaining_position_limit_value": 250000.0,
+   "max_quantity": 928
+  }
+ ]
+}
