@@ -1,0 +1,187 @@
+{
+ "ticker": "272210.KS",
+ "company_kr": "한화시스템",
+ "company_en": "Hanwha Systems Co., Ltd.",
+ "exchange": "KRX",
+ "as_of_date": "2026-07-19",
+ "industry": {
+  "name": "Defense Electronics + ICT",
+  "name_kr": "방산전자(레이더·지휘통제)+ICT",
+  "overview": "한화그룹 방산전자 핵심 — 함정 전투체계(CMS)·레이더·위성통신·ICT를 영위함. 필리조선소 공동 인수의 최대 지분자(60%)로 이번 MRIV 수주의 연결 실적 최대 수혜 주체임. MRIV는 '미사일 추적·계측'이 본질이라 레이더·센서·데이터 시스템 비중이 높은 함정 — 향후 FCL 확보 시 계측장비 통합 참여 여지가 그룹 시나리오의 핵심임. 국내에서는 함정 전투체계 독점적 지위, UAM·위성(원웹 지분) 등 신사업도 보유함.",
+  "competitors": [
+   {
+    "name": "한화시스템",
+    "ticker": "272210.KS",
+    "share_pct": "韓 함정 전투체계 독점적",
+    "moat": "CMS·레이더 국산화 독점+필리 60% 지분"
+   },
+   {
+    "name": "LIG넥스원",
+    "ticker": "079550.KS",
+    "share_pct": "韓 유도무기 1위",
+    "moat": "미사일·레이더"
+   },
+   {
+    "name": "L3해리스",
+    "ticker": "LHX",
+    "share_pct": "美 방산전자 톱티어",
+    "moat": "계측·통신·ISR 통합"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 80.0,
+   "cagr_pct": 6.0,
+   "horizon": "글로벌 방산전자 ~$80bn+. 함정 전자화·미사일방어(골든돔 1,750억달러 구상)·위성통신이 성장축."
+  },
+  "ai_infrastructure_context": "골든돔·미사일방어의 본질은 센서·추적·데이터 처리 — MRIV의 계측 장비가 정확히 이 영역임. 함정의 전자화 비중 상승은 조선사보다 방산전자에 구조적으로 유리한 추세임.",
+  "news": []
+ },
+ "financials": {
+  "currency": "KRW",
+  "unit": "KRW 십억",
+  "fiscal_year_end": "12-31",
+  "data_source": "DART (사업보고서 XBRL) + yfinance income_stmt (live 2026-07-19)",
+  "pl_5y": [
+   {
+    "year": "2021",
+    "revenue": 2089.500660083,
+    "op_income": 135.721250025,
+    "op_margin": 6.5,
+    "net_income": 131.28571014,
+    "net_margin": 6.3
+   },
+   {
+    "year": "2022",
+    "revenue": 2187.405670236,
+    "op_income": 93.679890422,
+    "op_margin": 4.3,
+    "net_income": 28.545980759,
+    "net_margin": 1.3
+   },
+   {
+    "year": "2023",
+    "revenue": 2450.585394825,
+    "op_income": 125.565184799,
+    "op_margin": 5.1,
+    "net_income": 96.002621992,
+    "net_margin": 3.9
+   },
+   {
+    "year": "2024",
+    "revenue": 2793.63300356,
+    "op_income": 225.139628817,
+    "op_margin": 8.1,
+    "net_income": 263.133303384,
+    "net_margin": 9.4
+   },
+   {
+    "year": "2025",
+    "revenue": 3091.48535488,
+    "op_income": 279.9775306,
+    "op_margin": 9.1,
+    "net_income": 367.039381957,
+    "net_margin": 11.9
+   }
+  ],
+  "trajectory_summary": "매출 2021→2025 CAGR +10.3%, OPM +6.5%→+9.1%. ",
+  "bs_snapshot": {
+   "total_assets": 9343.422758617,
+   "total_liab": 9343.422758617,
+   "equity": 4816.264629554,
+   "cash": 44.175329732,
+   "debt": 286.418396207
+  },
+  "cf_summary": {},
+  "peer_compare": [],
+  "key_metrics_current": {
+   "current_price": 65500.0,
+   "currency": "KRW",
+   "forward_pe": 28.52,
+   "beta": 1.41,
+   "market_cap_usd_bn": 9.42
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 30,
+   "target_price": 95000,
+   "thesis": "필리 국방 물량 확대의 연결 수혜(60%)+FCL 진전으로 계측·전자 통합 참여+국내 방산 수출 호조 지속",
+   "key_assumptions": [
+    "FCL 취득 진전",
+    "필리 후속 수주"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 68000,
+   "thesis": "필리 수혜는 건조 하청 마진 수준, 본업(국내 방산전자·수출)이 실적 견인",
+   "key_assumptions": [
+    "국내 방산 수출 유지"
+   ]
+  },
+  "bear": {
+   "prob_pct": 25,
+   "target_price": 45000,
+   "thesis": "필리 투자 부담 분담(60%)+MRIV 저마진+UAM 등 신사업 적자 지속",
+   "key_assumptions": [
+    "투자 부담 현실화",
+    "신사업 손실"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026H2",
+   "event": "MRIV 계약 구조 내 한화시스템 역할 구체화",
+   "type": "수주",
+   "expected_impact": "positive",
+   "description": "건조(오션) vs 전자(시스템) 배분 확인"
+  },
+  {
+   "date": "2026-2027",
+   "event": "필리조선소 FCL(시설보안인가) 취득 진행",
+   "type": "규제",
+   "expected_impact": "positive",
+   "description": "고부가 통합 구간 접근의 전제조건"
+  },
+  {
+   "date": "2026-2027",
+   "event": "국내외 함정 전투체계·레이더 수주",
+   "type": "수주",
+   "expected_impact": "positive",
+   "description": "본업 모멘텀"
+  }
+ ],
+ "risks": [
+  {
+   "name": "필리 투자 부담 60% 분담",
+   "probability": "med",
+   "impact": "med",
+   "description": "50억달러 투자 집행 시 최대 지분자로서 부담 최대",
+   "mitigation": "그룹 차원 조달·단계 집행"
+  },
+  {
+   "name": "MRIV 전자 통합 참여 불발",
+   "probability": "med",
+   "impact": "med",
+   "description": "민감 장비 통합은 미국 보안 주체 몫 — 한화시스템 역할이 제한될 수 있음",
+   "mitigation": "FCL 취득·미국 파트너십"
+  },
+  {
+   "name": "신사업(UAM·위성) 손익 부담",
+   "probability": "med",
+   "impact": "low",
+   "description": "성장 투자 단계 적자 지속",
+   "mitigation": "방산 본업 현금창출력"
+  }
+ ],
+ "korean_disclosures": [],
+ "research_meta": {
+  "generated": "2026-07-19",
+  "sources": [
+   "DART 사업보고서 XBRL (live)",
+   "한화 MRIV 수주 발표",
+   "메르 블로그 thesis"
+  ]
+ }
+}
