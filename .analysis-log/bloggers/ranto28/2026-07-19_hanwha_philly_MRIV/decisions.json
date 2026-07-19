@@ -1,0 +1,118 @@
+{
+ "computed_at": "2026-07-19T15:07:54.422298-04:00",
+ "ledger_path": "persona_panel/*/aggregate.json",
+ "risk_limits_path": "risk_limits.json",
+ "n_decisions": 5,
+ "decisions": [
+  {
+   "ticker": "042660.KS",
+   "date": "2026-07-19",
+   "n_verdicts": 17,
+   "verdict_breakdown": {
+    "lean_bearish": 1,
+    "lean_bullish": 12,
+    "lean_neutral": 1,
+    "neutral": 3
+   },
+   "signal_score": 0.6618,
+   "weighted_confidence": 0.703,
+   "persona_contributions": {},
+   "action": "buy",
+   "size_factor": 0.75,
+   "target_value": 155250000.0,
+   "target_quantity": 1790,
+   "current_price": 86700.0,
+   "position_limit_value": 207000000.0,
+   "annualized_volatility": 0.6991,
+   "currency": "KRW",
+   "reasoning": "매수 신호 (+0.66), 한도의 75% 진입"
+  },
+  {
+   "ticker": "272210.KS",
+   "date": "2026-07-19",
+   "n_verdicts": 17,
+   "verdict_breakdown": {
+    "lean_bearish": 3,
+    "lean_bullish": 9,
+    "neutral": 5
+   },
+   "signal_score": 0.3529,
+   "weighted_confidence": 0.691,
+   "persona_contributions": {},
+   "action": "buy",
+   "size_factor": 0.5,
+   "target_value": 69000000.0,
+   "target_quantity": 1053,
+   "current_price": 65500.0,
+   "position_limit_value": 138000000.0,
+   "annualized_volatility": 0.8821,
+   "currency": "KRW",
+   "reasoning": "매수 신호 (+0.35), 한도의 50% 진입"
+  },
+  {
+   "ticker": "012450.KS",
+   "date": "2026-07-19",
+   "n_verdicts": 17,
+   "verdict_breakdown": {
+    "lean_bearish": 2,
+    "lean_bullish": 13,
+    "neutral": 2
+   },
+   "signal_score": 0.6471,
+   "weighted_confidence": 0.694,
+   "persona_contributions": {},
+   "action": "buy",
+   "size_factor": 0.75,
+   "target_value": 207000000.0,
+   "target_quantity": 219,
+   "current_price": 943000.0,
+   "position_limit_value": 276000000.0,
+   "annualized_volatility": 0.5969,
+   "currency": "KRW",
+   "reasoning": "매수 신호 (+0.65), 한도의 75% 진입"
+  },
+  {
+   "ticker": "329180.KS",
+   "date": "2026-07-19",
+   "n_verdicts": 17,
+   "verdict_breakdown": {
+    "lean_bearish": 4,
+    "neutral": 4,
+    "lean_bullish": 9
+   },
+   "signal_score": 0.2941,
+   "weighted_confidence": 0.709,
+   "persona_contributions": {},
+   "action": "buy",
+   "size_factor": 0.5,
+   "target_value": 138000000.0,
+   "target_quantity": 285,
+   "current_price": 484000.0,
+   "position_limit_value": 276000000.0,
+   "annualized_volatility": 0.5747,
+   "currency": "KRW",
+   "reasoning": "매수 신호 (+0.29), 한도의 50% 진입"
+  },
+  {
+   "ticker": "HII",
+   "date": "2026-07-19",
+   "n_verdicts": 17,
+   "verdict_breakdown": {
+    "neutral": 10,
+    "lean_bullish": 7
+   },
+   "signal_score": 0.4118,
+   "weighted_confidence": 0.671,
+   "persona_contributions": {},
+   "action": "buy",
+   "size_factor": 0.5,
+   "target_value": 125000.0,
+   "target_quantity": 464,
+   "current_price": 269.13,
+   "position_limit_value": 250000.0,
+   "annualized_volatility": 0.3456,
+   "currency": "USD",
+   "reasoning": "매수 신호 (+0.41), 한도의 50% 진입"
+  }
+ ]
+}
