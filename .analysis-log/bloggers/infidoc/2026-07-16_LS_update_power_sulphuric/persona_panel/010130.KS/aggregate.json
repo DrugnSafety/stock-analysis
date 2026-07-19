@@ -1,0 +1,460 @@
+{
+  "ticker": "010130.KS",
+  "aggregated_at": "2026-07-20T03:04:59.738009+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "neutral": {
+      "count": 8,
+      "pct": 47.1
+    }
+  },
+  "average_confidence": 0.576,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "near_term",
+      "key_concerns_top3": [
+        "모멘텀 팩터 전 구간 음(-) — 1m/3m/6m 모두 하락",
+        "연변동성 73.15% — 리스크 조정 수익률 불리"
+      ],
+      "key_opportunities_top3": [
+        "beta 0.51 — 시장 저상관, 페어 트레이드 후보 [actual]",
+        "황산 단가 모멘텀 — 가격 신호 전환 시 롱 트리거 후보"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "황산은 부산물 — 본업(아연 TC·귀금속 가격) 대비 이익 기여 비중 제한적 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]",
+        "SMM FOB Korea 370~385달러 vs 실현단가 161.9달러 괴리 — 계약 갱신 시 추가 상승 여지 [actual]",
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "모멘텀 팩터 음(-) — 팩터 투자에서 나이프 캐칭 금지",
+        "forward PE 17.15 — 제련업 역사 밴드 상단, 분쟁 프리미엄 잔존 의심"
+      ],
+      "key_opportunities_top3": [
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]",
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "아연 TC·귀금속 가격 사이클 — 본업 이익의 매크로 민감도"
+      ],
+      "key_opportunities_top3": [
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]",
+        "SMM FOB Korea 370~385달러 vs 실현단가 161.9달러 괴리 — 계약 갱신 시 추가 상승 여지 [actual]",
+        "공급망 블록화 수혜 — 비중국 제련 자산 희소성 [derived]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "아연·귀금속 가격 조정 시 본업 이익 하방 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]",
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]",
+        "Troika Drive(이차전지 소재·자원순환·신재생) 중장기 optionality [inference]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "자본배분 이력 감점 — 고가 자사주 매입·증자 추진/철회 반복",
+        "forward PE 17.15 — 제련업 역사 밴드 상단, 분쟁 프리미엄 잔존 의심"
+      ],
+      "key_opportunities_top3": [
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]",
+        "경영권 분쟁 완전 종결·자사주 소각 시 지배구조 디스카운트 해소 catalyst"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "분쟁 장기화 시 기회비용 — 촉매 시점 불확실"
+      ],
+      "key_opportunities_top3": [
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]",
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]",
+        "경영권 분쟁 완전 종결·자사주 소각 시 지배구조 디스카운트 해소 catalyst"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "forward PE 17.15 — 제련업 역사 밴드 상단, 분쟁 프리미엄 잔존 의심",
+        "황산은 부산물 — 본업(아연 TC·귀금속 가격) 대비 이익 기여 비중 제한적 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]",
+        "SMM FOB Korea 370~385달러 vs 실현단가 161.9달러 괴리 — 계약 갱신 시 추가 상승 여지 [actual]",
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "모멘텀 미반전 — 1m -21.73%·3m -40.04%, 바닥 신호 부재"
+      ],
+      "key_opportunities_top3": [
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]",
+        "SMM FOB Korea 370~385달러 vs 실현단가 161.9달러 괴리 — 계약 갱신 시 추가 상승 여지 [actual]",
+        "황산 supply shock 장기화 시 실현가 레벨업 — 이익 추정 상향 사이클 [derived]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "자사주 방어적 활용 이력 — 소수주주 가치 희석 전례",
+        "forward PE 17.15 — 제련업 역사 밴드 상단, 분쟁 프리미엄 잔존 의심"
+      ],
+      "key_opportunities_top3": [
+        "경영권 분쟁 완전 종결·자사주 소각 시 지배구조 디스카운트 해소 catalyst",
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "핵심 기술 인력 이탈 리스크 — 분쟁 장기화 시 조직 동요 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "Troika Drive(이차전지 소재·자원순환·신재생) 중장기 optionality [inference]",
+        "SMM FOB Korea 370~385달러 vs 실현단가 161.9달러 괴리 — 계약 갱신 시 추가 상승 여지 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속",
+        "분쟁 재점화 시 주가 재급등·급락 반복 — 타이밍 리스크"
+      ],
+      "key_opportunities_top3": [
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]",
+        "SMM FOB Korea 370~385달러 vs 실현단가 161.9달러 괴리 — 계약 갱신 시 추가 상승 여지 [actual]",
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "분쟁 프리미엄 소멸 구간 — 3개월 -40.04% 낙폭에도 밸류에이션 바닥 미확인",
+        "하방 오버슈팅 가능성 — 재귀 청산은 펀더멘털 아래까지 진행되는 경향"
+      ],
+      "key_opportunities_top3": [
+        "경영권 분쟁 완전 종결·자사주 소각 시 지배구조 디스카운트 해소 catalyst",
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "분쟁 프리미엄 소멸 구간 — 3개월 -40.04% 낙폭에도 밸류에이션 바닥 미확인",
+        "forward PE 17.15 — 제련업 역사 밴드 상단, 분쟁 프리미엄 잔존 의심",
+        "영풍·MBK 경영권 분쟁 후유증 — 지분 대치·이사회 불확실성 지속"
+      ],
+      "key_opportunities_top3": [
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]",
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "황산은 부산물 — 본업(아연 TC·귀금속 가격) 대비 이익 기여 비중 제한적 [inference]",
+        "Troika Drive 이차전지 소재 투자 — 실행·수익성 미검증"
+      ],
+      "key_opportunities_top3": [
+        "Troika Drive(이차전지 소재·자원순환·신재생) 중장기 optionality [inference]",
+        "SMM FOB Korea 370~385달러 vs 실현단가 161.9달러 괴리 — 계약 갱신 시 추가 상승 여지 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "황산은 부산물 — 본업(아연 TC·귀금속 가격) 대비 이익 기여 비중 제한적 [inference]",
+        "forward PE 17.15 — 제련업 역사 밴드 상단, 분쟁 프리미엄 잔존 의심",
+        "분쟁 옵션 가치 — 가치평가 불가 변수의 주가 개입"
+      ],
+      "key_opportunities_top3": [
+        "관세청 Q2 황산 실현단가 +43.4% QoQ — 부산물 크레딧 증익 [actual]",
+        "배당수익률 2.45% + beta 0.51 — 하방 쿠션 [actual]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "거버넌스 tail — 분쟁 재점화 시 비선형 주가 반응 (양방향)",
+        "황산은 부산물 — 본업(아연 TC·귀금속 가격) 대비 이익 기여 비중 제한적 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "SMM FOB Korea 370~385달러 vs 실현단가 161.9달러 괴리 — 계약 갱신 시 추가 상승 여지 [actual]",
+        "황산 supply shock convexity — 쇼크 심화 시 이익 비선형 증가 [derived]"
+      ],
+      "uncertainty": "황산 부문 개별 이익·실현판가 미공시 — 내수 장기계약 구조 확인 불가. 경영권 분쟁 재점화 여부 예측 불가. KZ 황산 캐파는 회사 확인 수치 아닌 추정 [inference].",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
