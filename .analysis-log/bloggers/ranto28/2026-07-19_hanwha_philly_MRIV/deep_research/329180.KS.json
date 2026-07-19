@@ -1,0 +1,186 @@
+{
+ "ticker": "329180.KS",
+ "company_kr": "HD현대중공업",
+ "company_en": "HD Hyundai Heavy Industries Co., Ltd.",
+ "exchange": "KRX",
+ "as_of_date": "2026-07-19",
+ "industry": {
+  "name": "Shipbuilding — Naval + Commercial",
+  "name_kr": "조선 — 함정(이지스함)+상선",
+  "overview": "한국 함정 건조 1위 — 세종대왕급·정조대왕급 이지스 구축함 등 수상함 track record 최다 보유. 미 해군 MRO 협약(MSRA) 체결로 미국 함정 정비 시장에 이미 진입했고, '한국 건조+미국 무장' 분업(T6)이 입법으로 열리면 최대 캐파·최다 실적으로 1차 수혜 후보임. 다만 필리조선소 같은 미국 내 거점이 없어 번스-톨레프슨 개정 전에는 본토 건조 수혜가 제한적 — 한화 대비 '입법 옵션'에 더 의존하는 포지션임. 상선(컨테이너·LNG) 슈퍼사이클로 2023-25년 실적이 급개선됨.",
+  "competitors": [
+   {
+    "name": "HD현대중공업",
+    "ticker": "329180.KS",
+    "share_pct": "韓 함정 1위",
+    "moat": "이지스함 실적·최대 도크 캐파"
+   },
+   {
+    "name": "한화오션",
+    "ticker": "042660.KS",
+    "share_pct": "韓 양강",
+    "moat": "잠수함+미국 거점(필리)"
+   },
+   {
+    "name": "헌팅턴잉걸스",
+    "ticker": "HII",
+    "share_pct": "美 1위",
+    "moat": "핵항모·incumbent"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 250.0,
+   "cagr_pct": 4.0,
+   "horizon": "글로벌 조선 ~$250bn. 상선 발주 사이클+함정 구조 성장의 이중 노출. MASGA 한미 협력 시 미 함정 시장 접근."
+  },
+  "ai_infrastructure_context": "미 해군 재건이 열어주는 시장에서 '실적과 캐파'로 경쟁 — 필리 모델(미국 내 건조)이 아닌 MRO+장기 입법 옵션 경로임. 상선 시황이 단기 실적을 지배함.",
+  "news": []
+ },
+ "financials": {
+  "currency": "KRW",
+  "unit": "KRW 십억",
+  "fiscal_year_end": "12-31",
+  "data_source": "DART (사업보고서 XBRL) + yfinance income_stmt (live 2026-07-19)",
+  "pl_5y": [
+   {
+    "year": "2021",
+    "revenue": 8303.995873,
+    "op_income": -800.619319,
+    "op_margin": -9.6,
+    "net_income": 0.0,
+    "net_margin": 0
+   },
+   {
+    "year": "2022",
+    "revenue": 9065.348185,
+    "op_income": -286.797248,
+    "op_margin": -3.2,
+    "net_income": -350.075802,
+    "net_margin": -3.9
+   },
+   {
+    "year": "2023",
+    "revenue": 11957.982952,
+    "op_income": 177.805976,
+    "op_margin": 1.5,
+    "net_income": 21.329458,
+    "net_margin": 0.2
+   },
+   {
+    "year": "2024",
+    "revenue": 14476.389927,
+    "op_income": 702.543395,
+    "op_margin": 4.9,
+    "net_income": 618.334643,
+    "net_margin": 4.3
+   },
+   {
+    "year": "2025",
+    "revenue": 17569.457486,
+    "op_income": 2042.725957,
+    "op_margin": 11.6,
+    "net_income": 1422.481256,
+    "net_margin": 8.1
+   }
+  ],
+  "trajectory_summary": "매출 2021→2025 CAGR +20.6%, OPM -9.6%→+11.6%. 흑자 전환 후 이익 체력 개선 국면임.",
+  "bs_snapshot": {
+   "total_assets": 26199.062006,
+   "total_liab": 16816.487332,
+   "equity": 9382.574674,
+   "cash": 1842.183302,
+   "debt": 0.0
+  },
+  "cf_summary": {},
+  "peer_compare": [],
+  "key_metrics_current": {
+   "current_price": 484000.0,
+   "currency": "KRW",
+   "forward_pe": 14.12,
+   "beta": 1.03,
+   "market_cap_usd_bn": 39.07
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 30,
+   "target_price": 650000,
+   "thesis": "MRO 수주 확대+미 지원함 프로그램 참여+상선 신조선가 강세 지속",
+   "key_assumptions": [
+    "MSRA 물량 확대",
+    "신조선가 유지"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 480000,
+   "thesis": "상선 실적 견조, 미 함정은 MRO 수준에 머무름",
+   "key_assumptions": [
+    "상선 시황 유지"
+   ]
+  },
+  "bear": {
+   "prob_pct": 25,
+   "target_price": 320000,
+   "thesis": "상선 발주 둔화+신조선가 하락, 미 함정 진출 지연",
+   "key_assumptions": [
+    "발주 절벽",
+    "입법 무산"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026H2",
+   "event": "미 해군 MRO 추가 수주",
+   "type": "수주",
+   "expected_impact": "positive",
+   "description": "MSRA 기반 정비 물량 확대"
+  },
+  {
+   "date": "2026-2027",
+   "event": "상선 신조선가·수주잔고 추이",
+   "type": "실적",
+   "expected_impact": "mixed",
+   "description": "단기 실적의 지배 변수"
+  },
+  {
+   "date": "2027+",
+   "event": "번스-톨레프슨 개정·한미 조선협력 입법",
+   "type": "정책",
+   "expected_impact": "positive",
+   "description": "'한국 건조' 개방 시 최대 수혜 후보"
+  }
+ ],
+ "risks": [
+  {
+   "name": "상선 사이클 피크아웃",
+   "probability": "med",
+   "impact": "high",
+   "description": "신조선가 고점 후 발주 둔화 시 실적 모멘텀 소멸",
+   "mitigation": "수주잔고 3년치+함정 비중 확대"
+  },
+  {
+   "name": "미국 거점 부재",
+   "probability": "high",
+   "impact": "med",
+   "description": "필리 같은 미국 내 조선소가 없어 본토 건조 수혜에서 한화 대비 열위",
+   "mitigation": "MRO·현지 파트너십 모색"
+  },
+  {
+   "name": "입법 지연·무산",
+   "probability": "med",
+   "impact": "med",
+   "description": "'한국 건조' 옵션이 정치 변수에 종속",
+   "mitigation": "MRO 등 현행법 내 사업 확대"
+  }
+ ],
+ "korean_disclosures": [],
+ "research_meta": {
+  "generated": "2026-07-19",
+  "sources": [
+   "DART 사업보고서 XBRL (live)",
+   "메르 블로그 thesis"
+  ]
+ }
+}
