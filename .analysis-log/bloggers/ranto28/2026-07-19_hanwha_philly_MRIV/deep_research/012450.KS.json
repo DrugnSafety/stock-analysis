@@ -1,0 +1,178 @@
+{
+ "ticker": "012450.KS",
+ "company_kr": "한화에어로스페이스",
+ "company_en": "Hanwha Aerospace Co., Ltd.",
+ "exchange": "KRX",
+ "as_of_date": "2026-07-19",
+ "industry": {
+  "name": "Defense Prime — Artillery/Propulsion/Space",
+  "name_kr": "방산 종합 — 지상무기·항공엔진·우주발사체",
+  "overview": "한화그룹 방산 지주격이자 한국 방산 대장주 — K9 자주포·천무 등 지상무기 수출(폴란드 등), 항공 엔진, 누리호 체계종합을 영위하며 한화오션의 최대주주임. 이번 MRIV 수주의 직접 당사자는 아니나, 그룹 '미국 방산 조달시장 진입' 내러티브의 최상위 수혜 채널(한화오션 지분+방산 밸류체인)임. 골든돔·미사일방어 확산은 발사체·추진체 기술과 장기 접점. 2024-25년 방산 수출 슈퍼사이클로 실적·주가 모두 급성장함.",
+  "competitors": [
+   {
+    "name": "한화에어로스페이스",
+    "ticker": "012450.KS",
+    "share_pct": "韓 방산 1위",
+    "moat": "K9·천무 수출 잔고+그룹 수직계열(오션·시스템)"
+   },
+   {
+    "name": "현대로템",
+    "ticker": "064350.KS",
+    "share_pct": "K2 전차",
+    "moat": "지상무기 수출"
+   },
+   {
+    "name": "LIG넥스원",
+    "ticker": "079550.KS",
+    "share_pct": "유도무기",
+    "moat": "미사일 수출"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 600.0,
+   "cagr_pct": 5.0,
+   "horizon": "글로벌 방산 ~$600bn+. 유럽 재무장·미 국방예산 확대·아시아 긴장으로 수출 시장 구조 성장."
+  },
+  "ai_infrastructure_context": "글로벌 재무장 사이클이 본질 동력. 골든돔은 그룹 방산(시스템·에어로) 장기 옵션이고, MRIV는 그룹 미국 진출 내러티브를 강화하는 이벤트임.",
+  "news": []
+ },
+ "financials": {
+  "currency": "KRW",
+  "unit": "KRW 십억",
+  "fiscal_year_end": "12-31",
+  "data_source": "DART (사업보고서 XBRL) + yfinance income_stmt (live 2026-07-19)",
+  "pl_5y": [
+   {
+    "year": "2022",
+    "revenue": 7060.4,
+    "op_income": 400.8,
+    "op_margin": 5.7,
+    "net_income": 195.4,
+    "net_margin": 2.8
+   },
+   {
+    "year": "2023",
+    "revenue": 4978.99284982,
+    "op_income": 519.098207661,
+    "op_margin": 10.4,
+    "net_income": 648.959726032,
+    "net_margin": 13.0
+   },
+   {
+    "year": "2024",
+    "revenue": 11240.1,
+    "op_income": 1732.1,
+    "op_margin": 15.4,
+    "net_income": 2298.9,
+    "net_margin": 20.5
+   },
+   {
+    "year": "2025",
+    "revenue": 26702.9,
+    "op_income": 3094.4,
+    "op_margin": 11.6,
+    "net_income": 1405.0,
+    "net_margin": 5.3
+   }
+  ],
+  "trajectory_summary": "매출 2022→2025 CAGR +55.8%, OPM +5.7%→+11.6%. ",
+  "bs_snapshot": {
+   "total_assets": 24651.333392,
+   "total_liab": 0.0,
+   "equity": 0.0,
+   "cash": 4217.420484,
+   "debt": 2926.585324
+  },
+  "cf_summary": {},
+  "peer_compare": [],
+  "key_metrics_current": {
+   "current_price": 943000.0,
+   "currency": "KRW",
+   "forward_pe": 16.83,
+   "beta": 0.73,
+   "market_cap_usd_bn": 37.32
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 30,
+   "target_price": 1300000,
+   "thesis": "방산 수출 잔고 소진+신규 수주 지속, 한화오션 미국 사업 리레이팅의 지분 가치 반영",
+   "key_assumptions": [
+    "유럽·중동 수주 지속",
+    "오션 리레이팅"
+   ]
+  },
+  "base": {
+   "prob_pct": 45,
+   "target_price": 950000,
+   "thesis": "수출 실적 견조하나 밸류에이션 부담으로 횡보, MRIV는 간접 수혜에 그침",
+   "key_assumptions": [
+    "수주잔고 유지"
+   ]
+  },
+  "bear": {
+   "prob_pct": 25,
+   "target_price": 650000,
+   "thesis": "방산주 밸류에이션 조정+수출 수주 공백+오션 투자 부담 전이",
+   "key_assumptions": [
+    "수주 모멘텀 소진",
+    "그룹 자금 부담"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026H2",
+   "event": "유럽·중동 지상무기 추가 수주",
+   "type": "수주",
+   "expected_impact": "positive",
+   "description": "본업 수출 모멘텀"
+  },
+  {
+   "date": "2026-2027",
+   "event": "한화오션 미국 사업(필리) 진전의 지분가치 반영",
+   "type": "지분",
+   "expected_impact": "positive",
+   "description": "MRIV·후속 수주 시 연결 수혜"
+  },
+  {
+   "date": "2027+",
+   "event": "골든돔 관련 추진체·요격체 협력 기회",
+   "type": "정책",
+   "expected_impact": "positive",
+   "description": "장기 옵션"
+  }
+ ],
+ "risks": [
+  {
+   "name": "방산주 고밸류에이션",
+   "probability": "med",
+   "impact": "high",
+   "description": "2024-26 급등 후 기대치가 높아 수주 공백 시 조정 폭 큼",
+   "mitigation": "수주잔고 장기화·실적 가시성"
+  },
+  {
+   "name": "수출 사이클 피크아웃",
+   "probability": "med",
+   "impact": "med",
+   "description": "유럽 재무장 수요의 전방 부하 소진 가능성",
+   "mitigation": "시장 다변화(중동·동남아)"
+  },
+  {
+   "name": "그룹 투자 부담 전이",
+   "probability": "low",
+   "impact": "med",
+   "description": "오션·필리 대규모 투자에 그룹 지원 요구 가능",
+   "mitigation": "자체 현금창출력 견조"
+  }
+ ],
+ "korean_disclosures": [],
+ "research_meta": {
+  "generated": "2026-07-19",
+  "sources": [
+   "DART+yfinance income_stmt (live)",
+   "메르 블로그 thesis"
+  ]
+ }
+}
