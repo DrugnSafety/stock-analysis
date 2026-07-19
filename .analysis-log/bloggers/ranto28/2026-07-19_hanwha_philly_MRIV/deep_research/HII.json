@@ -1,0 +1,190 @@
+{
+ "ticker": "HII",
+ "company_kr": "헌팅턴잉걸스",
+ "company_en": "Huntington Ingalls Industries, Inc.",
+ "exchange": "NYSE",
+ "as_of_date": "2026-07-19",
+ "industry": {
+  "name": "US Naval Shipbuilding (Prime)",
+  "name_kr": "미국 함정 건조 1위 (프라임)",
+  "overview": "미 해군 함정 건조 최대 기업 — 뉴포트뉴스(핵항모·잠수함 독점)와 잉걸스(구축함·상륙함) 조선소 운영. 메르 글의 '미국 조선 캐파 부족' thesis의 양면에 위치함: 해군 예산 확대·골든돔의 미국 측 수혜자이면서, 동시에 인력난·비용 초과로 캐파 부족 문제의 당사자임. 한국 조선사의 미국 진입은 장기적으로 경쟁 요인이나, 단기적으로는 지원함·상륙함 하위 시장에 국한돼 핵항모·잠수함 독점 지위는 불변임. 배당·자사주 등 주주환원이 꾸준한 방어적 방산주.",
+  "competitors": [
+   {
+    "name": "헌팅턴잉걸스",
+    "ticker": "HII",
+    "share_pct": "美 함정 1위",
+    "moat": "핵항모 유일 건조사·잠수함 duopoly"
+   },
+   {
+    "name": "제너럴다이내믹스",
+    "ticker": "GD",
+    "share_pct": "잠수함 duopoly",
+    "moat": "버지니아급·컬럼비아급"
+   },
+   {
+    "name": "한화 필리조선소",
+    "ticker": "042660.KS",
+    "share_pct": "신규 진입",
+    "moat": "한국 조선 효율+미국 내 입지"
+   }
+  ],
+  "market_size": {
+   "current_usd_bn": 35.0,
+   "cagr_pct": 4.0,
+   "horizon": "미 해군 조선·수리 ~$35bn/년. 355척+ 함대 목표와 실제 건조 능력의 격차가 구조적 수요를 형성."
+  },
+  "ai_infrastructure_context": "골든돔·해군 재건 예산의 직접 수혜. 다만 인력난이 성장의 병목 — 예산이 있어도 건조 못 하는 상황이 한국 조선사에 문을 열어주는 역설적 구조임.",
+  "news": []
+ },
+ "financials": {
+  "currency": "USD",
+  "unit": "USD mn",
+  "fiscal_year_end": "12-31",
+  "data_source": "SEC EDGAR (10-K XBRL companyfacts)",
+  "pl_5y": [
+   {
+    "year": 2021,
+    "revenue": 9524.0,
+    "op_income": 513.0,
+    "op_margin": 5.4,
+    "net_income": 544.0,
+    "net_margin": 5.7
+   },
+   {
+    "year": 2022,
+    "revenue": 10676.0,
+    "op_income": 565.0,
+    "op_margin": 5.3,
+    "net_income": 579.0,
+    "net_margin": 5.4
+   },
+   {
+    "year": 2023,
+    "revenue": 11454.0,
+    "op_income": 781.0,
+    "op_margin": 6.8,
+    "net_income": 681.0,
+    "net_margin": 5.9
+   },
+   {
+    "year": 2024,
+    "revenue": 11535.0,
+    "op_income": 535.0,
+    "op_margin": 4.6,
+    "net_income": 550.0,
+    "net_margin": 4.8
+   },
+   {
+    "year": 2025,
+    "revenue": 12484.0,
+    "op_income": 657.0,
+    "op_margin": 5.3,
+    "net_income": 605.0,
+    "net_margin": 4.8
+   }
+  ],
+  "trajectory_summary": "매출 2021→2025 CAGR +7.0%, OPM +5.4%→+5.3%. ",
+  "bs_snapshot": {
+   "total_assets": 12749.0,
+   "total_liab": 7676.0,
+   "equity": 5073.0,
+   "cash": 0.0,
+   "debt": 0.0
+  },
+  "cf_summary": {
+   "ocf_5y_avg": 817.0,
+   "fcf_5y_avg": 481.8,
+   "capex_intensity": 0.030104359384261672
+  },
+  "peer_compare": [],
+  "key_metrics_current": {
+   "current_price": 269.13,
+   "currency": "USD",
+   "forward_pe": 13.34,
+   "beta": 0.25,
+   "market_cap_usd_bn": 10.6
+  }
+ },
+ "scenarios": {
+  "bull": {
+   "prob_pct": 25,
+   "target_price": 340,
+   "thesis": "해군 예산 대폭 증액+잠수함 건조율 회복+마진 정상화",
+   "key_assumptions": [
+    "인력 확충 성공",
+    "비용 초과 통제"
+   ]
+  },
+  "base": {
+   "prob_pct": 50,
+   "target_price": 275,
+   "thesis": "수주잔고 안정·저성장, 마진 5-6%대 유지, 주주환원 지속",
+   "key_assumptions": [
+    "현 예산 기조 유지"
+   ]
+  },
+  "bear": {
+   "prob_pct": 25,
+   "target_price": 210,
+   "thesis": "비용 초과 지속·고정가 계약 손실+한국 조선사 잠식 우려 확대",
+   "key_assumptions": [
+    "인력난 심화",
+    "경쟁 심화"
+   ]
+  }
+ },
+ "catalysts": [
+  {
+   "date": "2026H2",
+   "event": "미 국방수권법(NDAA) 조선 예산",
+   "type": "정책",
+   "expected_impact": "positive",
+   "description": "함정 건조 예산 증액 여부"
+  },
+  {
+   "date": "2026-2027",
+   "event": "버지니아급 건조율 회복 여부",
+   "type": "실적",
+   "expected_impact": "mixed",
+   "description": "인력·공급망 정상화가 관건"
+  },
+  {
+   "date": "2027+",
+   "event": "외국 조선사 미국 진출 확대",
+   "type": "경쟁",
+   "expected_impact": "negative",
+   "description": "한화·HD현대의 지원함 시장 잠식 가능성"
+  }
+ ],
+ "risks": [
+  {
+   "name": "고정가 계약 비용 초과",
+   "probability": "high",
+   "impact": "high",
+   "description": "인플레·인력난으로 마진 압박 지속",
+   "mitigation": "신규 계약 가격 재협상"
+  },
+  {
+   "name": "숙련인력 부족",
+   "probability": "high",
+   "impact": "high",
+   "description": "채용·이직 문제로 건조 일정 지연 만성화",
+   "mitigation": "임금 인상·훈련 투자"
+  },
+  {
+   "name": "한국 조선사 경쟁 진입",
+   "probability": "med",
+   "impact": "med",
+   "description": "지원함·상륙함 시장에서 필리조선소 등과 경쟁 심화",
+   "mitigation": "핵항모·잠수함 독점 유지"
+  }
+ ],
+ "korean_disclosures": [],
+ "research_meta": {
+  "generated": "2026-07-19",
+  "sources": [
+   "SEC EDGAR 10-K XBRL (live)",
+   "메르 블로그 thesis"
+  ]
+ }
+}
