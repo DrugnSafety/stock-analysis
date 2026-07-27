@@ -21,7 +21,55 @@ from typing import Optional
 # ── 1. Curated map for major Korean / Global tickers ──────────────────────
 # Hardcoded for speed and to avoid yfinance "Not Found" issues
 CURATED: dict[str, dict[str, str]] = {
+    # OSV 공급절벽 테마 (sungdory 2026-07-27 · FPSO 생산지원 + 고사양 PSV/AHTS 공급부족)
+    "TDW": {"kr": "타이드워터", "en": "Tidewater Inc.", "sector": "Offshore Support Vessel (글로벌 OSV 대장주 · PSV/AHTS 최대 선대 · 공급절벽 최순수 노출)"},
+    "SEA1.OL": {"kr": "SEA1 오프쇼어", "en": "SEA1 Offshore ASA", "sector": "Offshore Support Vessel (구 Solstad Offshore · 브라질·북해 PSV/AHTS 장기계약 레버리지)"},
+    "SOFF.OL": {"kr": "솔스타드 마리타임", "en": "Solstad Maritime ASA", "sector": "Offshore Support Vessel / Subsea (CSV 중심 · Petrobras subsea 수요 수혜 · OSV 혼합)"},
+    "RIG": {"kr": "트랜스오션", "en": "Transocean Ltd.", "sector": "Offshore Drilling (울트라딥워터 드릴십 최대 선대 · OSV 수요의 상류 드라이버 · 고베타)"},
+    "XES": {"kr": "SPDR 오일·가스 장비/서비스 ETF", "en": "SPDR S&P Oil & Gas Equipment & Services ETF", "sector": "Energy Services ETF (동일가중 · TDW 상위 편입 · OSV/서비스 테마 분산 노출)"},
+    "RGTI": {"kr": "리게티 컴퓨팅", "en": "Rigetti Computing, Inc.", "sector": "Quantum Computing (초전도 큐비트 풀스택 · 美 상무부 ~$1억 배정 수혜 · 양자컴 순수 플레이)"},
+    "QBTS": {"kr": "디웨이브 퀀텀", "en": "D-Wave Quantum Inc.", "sector": "Quantum Computing (양자 어닐링 + 게이트형 · 상업 QC 매출 선두 · 美 상무부 ~$1억 배정 수혜)"},
+    "IONQ": {"kr": "아이온큐", "en": "IonQ, Inc.", "sector": "Quantum Computing (트랩 이온 방식 · 양자컴 최대 순수 플레이 시총 · 미 국책 간접 수혜)"},
+    "IBM": {"kr": "IBM", "en": "International Business Machines Corporation", "sector": "IT Services / Quantum (IBM Quantum 로드맵 · 분사기업 $10억 배정 · 행정명령 서명식 배석)"},
+    "GFS": {"kr": "글로벌파운드리스", "en": "GlobalFoundries Inc.", "sector": "Semiconductor Foundry (미국 특수공정 파운드리 · 양자칩 위탁생산 · 美 상무부 $3.75억 배정)"},
+    "285490.KS": {"kr": "노바텍", "en": "Novatek Co., Ltd.", "sector": "Permanent Magnet (Nd-Fe-B 응용자석 · 비희토류 자석 양산 · 베트남 깐안 자석공장 + 라오스 광산 MOU 수직계열화)"},
+    "008730.KQ": {"kr": "유니온머티리얼", "en": "Union Materials Corp.", "sector": "Permanent Ferrite/Magnetic Materials (페라이트 마그넷 · 희토류 테마 대장주 · MLCC용 자성소재)"},
+    "NDA.DE": {"kr": "아우루비스", "en": "Aurubis AG", "sector": "Copper Smelter / Sulphuric Acid (유럽 1위 동제련, 분기 reset H2SO4)"},
+    "MOS": {"kr": "모자이크", "en": "The Mosaic Company", "sector": "Fertilizer (Phosphate / Potash · H2SO4 buyer · 미 200만t 감산)"},
     "BRK-B": {"kr": "버크셔 해서웨이", "en": "Berkshire Hathaway Inc. Class B", "sector": "Diversified Holdings (Insurance/Energy/Rail)"},
+    # Korea — 건강기능식품 ODM (jhlimidea K-건기식 수출 모멘텀 thesis, 2026-06-05)
+    "194700.KQ": {"kr": "노바렉스", "en": "NOVAREX Co., Ltd.", "sector": "건강기능식품 ODM / 개별인정형 원료 (수출 38%·내수성장)"},
+    "222040.KQ": {"kr": "코스맥스엔비티", "en": "Cosmax NBT, Inc.", "sector": "건강기능식품 ODM / 글로벌(美 댈러스·濠 멜버른 공장)·OBM"},
+    "008490.KS": {"kr": "서흥", "en": "Suheung Co., Ltd.", "sector": "하드캡슐 / 건강기능식품 ODM (수출비중 1위 43%·PBR 딥밸류)"},
+    "200130.KQ": {"kr": "콜마비앤에이치", "en": "Kolmar BNH Co., Ltd.", "sector": "건강기능식품 ODM·OBM (헤모힘 개별인정형 수출)"},
+    "044820.KQ": {"kr": "코스맥스비티아이", "en": "Cosmax BTI Inc.", "sector": "화장품·건기식 지주 (코스맥스엔비티 모회사)"},
+    "BRBR": {"kr": "벨링브랜즈", "en": "BellRing Brands, Inc.", "sector": "단백질 보충제 브랜드 (Premier Protein / 美 GLP-1 수혜)"},
+    # Korea — 화장품 ODM·브랜드 (khiro38 워렌넝구 K-뷰티 수출 구조적 성장 thesis, 2026-06-10)
+    "192820.KS": {"kr": "코스맥스", "en": "Cosmax, Inc.", "sector": "화장품 ODM 글로벌 1위 (中·美·동남아 생산기지 / Anua·COSRX 등 인디브랜드 위탁생산)"},
+    "161890.KS": {"kr": "한국콜마", "en": "Kolmar Korea Co., Ltd.", "sector": "화장품 ODM (선케어 강점 / 美 PA 공장 / HK이노엔 제약 자회사)"},
+    "241710.KS": {"kr": "코스메카코리아", "en": "Cosmecca Korea Co., Ltd.", "sector": "화장품 ODM (美 Englewood 잉글우드랩 자회사 / 北美 직접생산)"},
+    "278470.KS": {"kr": "에이피알", "en": "APR Corporation", "sector": "뷰티테크 브랜드 (메디큐브 AGE-R 디바이스 / 美 직진출 고성장·고베타)"},
+    "090430.KS": {"kr": "아모레퍼시픽", "en": "Amorepacific Corporation", "sector": "화장품 대형 브랜드 (라네즈·설화수·COSRX 인수 / 美·日 리오프닝)"},
+    "GL9.IR": {"kr": "글랜비아", "en": "Glanbia plc", "sector": "유청단백 원료·뉴트리션 (Optimum Nutrition / GLP-1 upstream)"},
+    # Korea — Casino / Hotel / Integrated Resort (jp187 파라다이스 카지노 순환매 thesis)
+    "034230.KQ": {"kr": "파라다이스", "en": "Paradise Co., Ltd.", "sector": "Foreigner-only Casino / Integrated Resort (파라다이스시티)"},
+    "034230.KS": {"kr": "파라다이스", "en": "Paradise Co., Ltd.", "sector": "Foreigner-only Casino / Integrated Resort (파라다이스시티) · KOSDAQ"},
+    "114090.KS": {"kr": "GKL(그랜드코리아레저)", "en": "Grand Korea Leisure", "sector": "Foreigner-only Casino (세븐럭) / State-owned"},
+    "032350.KS": {"kr": "롯데관광개발", "en": "Lotte Tour Development", "sector": "Casino / Integrated Resort (제주 드림타워) / Travel"},
+    "035250.KS": {"kr": "강원랜드", "en": "Kangwon Land", "sector": "Domestic Casino (내국인) / Resort"},
+    "008770.KS": {"kr": "호텔신라", "en": "Hotel Shilla", "sector": "Hotel / Duty-Free (TR) / Inbound Tourism"},
+    # Korea — AI Data Center Value Chain (jp187 골드핑거 AIDC 밸류체인 + 하나증권 '데크크' 인뎁스, 2026-07-22)
+    "119850.KQ": {"kr": "지엔씨에너지", "en": "GNC Energy Co., Ltd.", "sector": "DC 비상발전기 (국내 M/S 70~80% 준독점 / IDC 전원 인프라)"},
+    "475150.KS": {"kr": "SK이터닉스", "en": "SK eternix Co., Ltd.", "sector": "재생에너지 발전·RE100 PPA (KKR SK 에너지전환 3조 투자 핵심 / DC 전력공급)"},
+    "018260.KS": {"kr": "삼성에스디에스", "en": "Samsung SDS Co., Ltd.", "sector": "IT서비스·클라우드/DC 운영사업자 (KKR 1.2조 투자 / 삼성그룹 IT 계열)"},
+    "005090.KS": {"kr": "SGC에너지", "en": "SGC Energy Co., Ltd.", "sector": "집단에너지·발전 (DC 부지+전력 동시공급 모델 구축 중)"},
+    "006360.KS": {"kr": "GS건설", "en": "GS E&C Corporation", "sector": "건설 (DC 시공·MEP / 하나증권 DC 수혜 최선호)"},
+    "012210.KQ": {"kr": "삼미금속", "en": "Sammi Metal Products Co., Ltd.", "sector": "형단조 (커넥팅로드 / DC 전력인프라용 엔진부품 개발 중)"},
+    "006110.KS": {"kr": "삼아알미늄", "en": "Sama Aluminium Co., Ltd.", "sector": "알루미늄박 (DC용 ESS·커패시터 소재)"},
+    "388050.KQ": {"kr": "지투파워", "en": "G2Power Co., Ltd.", "sector": "수배전반·소배전반 (AI DC 전력설비)"},
+    "003720.KS": {"kr": "삼영", "en": "Samyoung Chemical Co., Ltd.", "sector": "커패시터 필름 (DC 전력변환 소재)"},
+    "355690.KQ": {"kr": "에이텀", "en": "ATUM Co., Ltd.", "sector": "변압기 (DC 사업 인증 단계)"},
+    "093320.KQ": {"kr": "케이아이엔엑스", "en": "KINX Inc.", "sector": "IX·IDC 트래픽 처리 / DC 운영사업자"},
     # Korea — Battery / Materials
     "005490.KS": {"kr": "POSCO홀딩스", "en": "POSCO Holdings", "sector": "Steel/Battery Materials"},
     # Korea — Energy Steel Pipe (OCTG) / LNG·Offshore Wind (mnmniana 휴스틸 고유가 thesis)
@@ -45,6 +93,8 @@ CURATED: dict[str, dict[str, str]] = {
     "042700.KQ": {"kr": "한미반도체", "en": "Hanmi Semiconductor", "sector": "HBM TC Bonder / Semi Equipment"},
     "039030.KQ": {"kr": "이오테크닉스", "en": "EO Technics", "sector": "Semi Laser / Test Equipment"},
     "009150.KS": {"kr": "삼성전기", "en": "Samsung Electro-Mechanics", "sector": "MLCC / Camera Module / Substrate"},
+    "4062.T": {"kr": "이비덴", "en": "Ibiden Co., Ltd.", "sector": "FC-BGA / IC Substrate / Ceramics"},
+    "3037.TW": {"kr": "유니마이크론", "en": "Unimicron Technology", "sector": "FC-BGA / IC Substrate / PCB"},
     "011070.KS": {"kr": "LG이노텍", "en": "LG Innotek", "sector": "ABF 기판 / 카메라모듈 / 반도체 패키징 PCB"},
     "058470.KQ": {"kr": "리노공업", "en": "LEENO Industrial", "sector": "테스트 소켓 / 프로브카드 / 반도체 후공정 검사"},
     "131290.KQ": {"kr": "티에스이", "en": "TSE Co., Ltd.", "sector": "반도체 검사 / 프로브카드 / 인터페이스 보드"},
@@ -61,6 +111,9 @@ CURATED: dict[str, dict[str, str]] = {
     "329180.KS": {"kr": "HD현대중공업", "en": "HD Hyundai Heavy Industries", "sector": "Shipbuilding"},
     "010140.KS": {"kr": "삼성중공업", "en": "Samsung Heavy Industries", "sector": "Shipbuilding"},
     "042660.KS": {"kr": "한화오션", "en": "Hanwha Ocean", "sector": "Shipbuilding"},
+    "009540.KS": {"kr": "HD한국조선해양", "en": "HD Korea Shipbuilding & Offshore Engineering", "sector": "Shipbuilding"},
+    "272210.KS": {"kr": "한화시스템", "en": "Hanwha Systems Co., Ltd.", "sector": "Defense Electronics (필리조선소 공동 인수·레이더/지휘통제)"},
+    "HII": {"kr": "헌팅턴잉걸스", "en": "Huntington Ingalls Industries, Inc.", "sector": "US Naval Shipbuilding (미 해군 함정건조 1위)"},
     "267250.KS": {"kr": "HD현대", "en": "HD Hyundai", "sector": "Holding"},
     "439260.KS": {"kr": "대한조선", "en": "Daehan Shipbuilding", "sector": "Shipbuilding"},
     "010620.KS": {"kr": "HD현대미포", "en": "HD Hyundai Mipo", "sector": "Shipbuilding (delisted Dec 2025 due to merger)"},
@@ -120,7 +173,9 @@ CURATED: dict[str, dict[str, str]] = {
     "000670.KS": {"kr": "영풍", "en": "Young Poong", "sector": "Zinc Smelting"},
     "006260.KS": {"kr": "LS", "en": "LS Corporation", "sector": "복합 사업회사 (LS전선·LS MnM·LS아이앤디·LS ELECTRIC)"},
     "060370.KS": {"kr": "LS마린솔루션", "en": "LS Marine Solution", "sector": "해저케이블 포설·해상 시공 (LS전선 HVDC 패키지)"},
+    "060370.KQ": {"kr": "LS마린솔루션", "en": "LS Marine Solution", "sector": "해저케이블 포설·해상 시공 (LS전선 HVDC 패키지)"},
     "000500.KS": {"kr": "가온전선", "en": "Gaon Cable", "sector": "산업용 전선·재도체화 가공선 (미국 SPARK 수혜)"},
+    "062040.KS": {"kr": "산일전기", "en": "Sanil Electric", "sector": "변압기 (북미 데이터센터·블룸에너지향 고마진 OPM 39%)"},
     "103140.KS": {"kr": "풍산", "en": "Poongsan", "sector": "Copper/Brass + 방산"},
     "082740.KS": {"kr": "한화엔진", "en": "Hanwha Engine", "sector": "선박·발전 엔진 (4행정 중속·저속)"},
 
@@ -139,7 +194,11 @@ CURATED: dict[str, dict[str, str]] = {
     "VALE": {"kr": "발레", "en": "Vale S.A.", "sector": "Iron Ore/Nickel Mining (Brazil)"},
 
     # US — Solar / Renewable / ESS
-    "FSLR": {"kr": "퍼스트솔라", "en": "First Solar, Inc.", "sector": "Solar PV Modules — CdTe thin-film (US-domiciled, India·Vietnam fab)"},
+    "FSLR": {"kr": "퍼스트솔라", "en": "First Solar, Inc.", "sector": "Solar PV Modules — CdTe thin-film + Perovskite(Evolar) (US-domiciled)"},
+    "DQ": {"kr": "다초뉴에너지", "en": "Daqo New Energy Corp.", "sector": "Polysilicon — solar-grade 실리콘 원소재 pure-play (China)"},
+    "WCH.DE": {"kr": "바커케미", "en": "Wacker Chemie AG", "sector": "Polysilicon·Silicones — Western 폴리실리콘 챔피언 (Germany)"},
+    "JKS": {"kr": "징코솔라", "en": "JinkoSolar Holding Co., Ltd.", "sector": "Solar PV Modules — TOPCon 실리콘 volume leader (China)"},
+    "CSIQ": {"kr": "캐나디안솔라", "en": "Canadian Solar Inc.", "sector": "Solar PV Modules 실리콘 + Energy Storage (Canada/China)"},
     "ENPH": {"kr": "엔페이즈", "en": "Enphase Energy", "sector": "Solar Microinverters + Residential ESS"},
     "RUN": {"kr": "선런", "en": "Sunrun Inc.", "sector": "Residential Solar — US lease/PPA model (largest US residential installer)"},
 
@@ -167,6 +226,7 @@ CURATED: dict[str, dict[str, str]] = {
     "009830.KS": {"kr": "한화솔루션", "en": "Hanwha Solutions", "sector": "태양광·화학 (미국 Qcells 모듈)"},
     "456040.KS": {"kr": "OCI(사업회사)", "en": "OCI Company Ltd", "sector": "폴리실리콘 제조 OpCo (2023.05 분할 신설)"},
     "010060.KS": {"kr": "OCI홀딩스", "en": "OCI Holdings", "sector": "폴리실리콘·태양광 소재 지주사 (Malaysia plant·NeoSilicon wafer·OCI TRS)"},
+    "012450.KS": {"kr": "한화에어로스페이스", "en": "Hanwha Aerospace Co., Ltd.", "sector": "방산·우주발사체 (누리호 체계종합·항공엔진·위성, 한화시스템 모회사)"},
 
     # Korea — IBKR series 분석용 (의교창 2026-05-04)
     "016360.KS": {"kr": "삼성증권", "en": "Samsung Securities", "sector": "Brokerage/IB (IBKR 한국 체결 관문)"},
@@ -200,6 +260,7 @@ CURATED: dict[str, dict[str, str]] = {
     "WOLF": {"kr": "울프스피드", "en": "Wolfspeed Inc.", "sector": "Power Semiconductor (SiC pure-play)"},
     "ON": {"kr": "온세미", "en": "ON Semiconductor Corp.", "sector": "Power Semiconductor (SiC + Image Sensors)"},
     "IFNNY": {"kr": "인피니언 테크놀로지스", "en": "Infineon Technologies AG (ADR)", "sector": "Power Semiconductor (SiC+GaN+Si)"},
+    "IFX.DE": {"kr": "인피니언 테크놀로지스", "en": "Infineon Technologies AG", "sector": "Power Semiconductor (SiC+GaN+Si, NVIDIA 800VDC SST 파트너)"},
     "ABBNY": {"kr": "ABB", "en": "ABB Ltd (ADR)", "sector": "Power & Automation Equipment (Switchgear·Transformers·SST)"},
     "SBGSY": {"kr": "슈나이더 일렉트릭", "en": "Schneider Electric SE (ADR)", "sector": "Power Equipment (Data Center UPS·Switchgear)"},
     "INTC": {"kr": "인텔", "en": "Intel Corporation", "sector": "Semiconductor"},
@@ -259,6 +320,11 @@ CURATED: dict[str, dict[str, str]] = {
     # Layer 3: Supply Chain (원자재)
     "AA": {"kr": "알코아", "en": "Alcoa Corporation", "sector": "Aluminum (Aerospace-grade)"},
     "FCX": {"kr": "프리포트맥모란", "en": "Freeport-McMoRan Inc.", "sector": "Copper / Gold Mining"},
+    # El Niño theme (2026-06-16 ranto28 super El Niño)
+    "ADM": {"kr": "아처대니얼스미들랜드", "en": "Archer-Daniels-Midland Company", "sector": "Agribusiness / Grain Processing / Biofuel"},
+    "011200.KS": {"kr": "HMM", "en": "HMM Co., Ltd.", "sector": "Container Shipping"},
+    "025860.KS": {"kr": "남해화학", "en": "Namhae Chemical Corporation", "sector": "Fertilizer (Urea·Compound)"},
+    "005180.KS": {"kr": "빙그레", "en": "Binggrae Co., Ltd.", "sector": "Food / Ice Cream·Beverage"},
     # Layer 4: Materials (특수 소재)
     "ATI": {"kr": "ATI 인코퍼레이티드", "en": "ATI Inc.", "sector": "Specialty Alloys (Titanium·Nickel for Aerospace)"},
     "HXL": {"kr": "헥셀", "en": "Hexcel Corporation", "sector": "Carbon Fiber Composites (Aerospace)"},
@@ -317,6 +383,9 @@ CURATED: dict[str, dict[str, str]] = {
 
     # Korea — Refining / Oil (메르 호르무즈·미국 경질유 분석용)
     "010950.KS": {"kr": "S-Oil", "en": "S-Oil Corporation", "sector": "Refining (Aramco 63% backed, RHDS·RFCC 고도화 비중 최고)"},
+
+    # US — Refining (산업분석러 3-2-1 크랙 스프레드 분석용)
+    "VLO": {"kr": "발레로에너지", "en": "Valero Energy Corporation", "sector": "Refining (미국 최대 독립 정유 — Gulf Coast 3-2-1 크랙 직수혜)"},
 
     # Korea — Tanker / Shipping (메르 VLCC 분석용)
     "044450.KS": {"kr": "KSS해운", "en": "KSS Line Ltd.", "sector": "LPG·암모니아·케미컬 탱커 (Korean tanker operator)"},
