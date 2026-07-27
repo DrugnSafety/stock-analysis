@@ -44,7 +44,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 from github_client import (
     ensure_repo, push_file, push_text, get_owner, get_repo, get_token as gh_token,
-    get_status as gh_status,
+    get_status as gh_status, get_file_sha,
 )
 from notion_client import (
     upsert_row_direct, emit_mcp_payload, get_token as notion_token,
@@ -80,10 +80,17 @@ def extract_blog_info(meta: dict) -> dict:
                 return v
         return None
 
+    raw_author = first("blog_author", "blogger_kr", "blogger_name", "blogger_korean", "blogger")
+    # blogger 필드가 dict로 저장된 경우 nickname/blog_id 추출
+    if isinstance(raw_author, dict):
+        blog_author = (raw_author.get("blog_author") or raw_author.get("nickname")
+                       or raw_author.get("name") or raw_author.get("blog_id") or "")
+    else:
+        blog_author = raw_author or ""
     return {
         "blog_url": first("blog_url", "url"),
         "blog_title": first("blog_title", "title", "post_title_orig"),
-        "blog_author": first("blog_author", "blogger_kr", "blogger_name", "blogger_korean", "blogger"),
+        "blog_author": str(blog_author)[:100],
         "blog_published_at": first("blog_published_at", "published_at", "publish_date", "post_date", "date"),
         "core_thesis": first("core_thesis", "thesis_summary", "summary"),
         "key_facts": meta.get("key_facts") or [],
@@ -136,7 +143,14 @@ def extract_metadata(pipeline_dir: Path, ticker: str) -> dict:
 
     # Top concerns
     universal = agg.get("universal_concerns", [])
-    top_concerns_text = " · ".join(c.get("theme", "") for c in universal[:3]) if universal else ""
+    # universal_concerns 요소가 dict({"theme": ...})이거나 str일 수 있음 — 둘 다 지원
+    def _concern_label(c):
+        if isinstance(c, dict):
+            return c.get("theme") or c.get("label") or c.get("description") or ""
+        if isinstance(c, str):
+            return c
+        return ""
+    top_concerns_text = " · ".join(_concern_label(c) for c in universal[:3]) if universal else ""
 
     # Decision
     decision = "hold"
@@ -178,11 +192,23 @@ def extract_metadata(pipeline_dir: Path, ticker: str) -> dict:
     rel_dir = pipeline_dir.as_posix().replace(str(Path.cwd()) + "/", "")
     gh_url = f"https://github.com/{gh_owner}/{gh_repo}/tree/main/{rel_dir}" if gh_owner else ""
 
-    # PDF report
+    # PDF report — ticker-specific PDF matching (ticker가 파일명에 포함된 것 우선)
     pdf_url = ""
     pdf_files = sorted((pipeline_dir / "reports").rglob("*combined*.pdf")) if (pipeline_dir / "reports").exists() else []
-    if pdf_files and gh_owner:
-        rel_pdf = pdf_files[0].as_posix().replace(str(Path.cwd()) + "/", "")
+    matched_pdf = None
+    if pdf_files:
+        # 1) ticker 정확히 매칭 (e.g., "_FCX_", "FCX.pdf")
+        t_safe = ticker.replace(".", "_").replace("/", "_")
+        for p in pdf_files:
+            stem = p.stem
+            if f"_{ticker}_" in stem or stem.endswith(f"_{ticker}") or f"_{t_safe}_" in stem:
+                matched_pdf = p
+                break
+        # 2) Fallback: 첫 PDF
+        if matched_pdf is None:
+            matched_pdf = pdf_files[0]
+    if matched_pdf and gh_owner:
+        rel_pdf = matched_pdf.as_posix().replace(str(Path.cwd()) + "/", "")
         pdf_url = f"https://github.com/{gh_owner}/{gh_repo}/blob/main/{rel_pdf}"
 
     # Better blogger name if available
@@ -328,6 +354,60 @@ def sync_to_notion(payload: dict) -> dict:
             return {"status": "error", "reason": f"MCP payload emit failed: {e}"}
 
 
+def _repo_path_from_url(url: str) -> Optional[str]:
+    """https://github.com/{owner}/{repo}/(tree|blob)/main/{path} → {path}."""
+    if not url:
+        return None
+    for sep in ("/blob/main/", "/tree/main/"):
+        if sep in url:
+            return url.split(sep, 1)[1]
+    return None
+
+
+def verify_remote_links(payload: dict) -> dict:
+    """Confirm the GitHub URLs embedded in the Notion payload resolve to real
+    remote objects BEFORE those links are written to Notion.
+
+    Root-cause guard (2026-07-27): a build run with DISABLE_SYNC=1 skips the
+    GitHub push, but the payload still carries GitHub/PDF URLs. If Notion is then
+    populated from that payload the links 404 ("empty file"). This check flags
+    that mismatch so the caller never publishes dead links.
+
+    Returns {"ok": bool, "checks": {...}, "warnings": [...]}. Network failures are
+    reported as warnings (fail-open) rather than raising.
+    """
+    owner, repo = get_owner(), get_repo()
+    result = {"ok": True, "checks": {}, "warnings": []}
+    if not gh_token() or not owner or not repo:
+        result["ok"] = False
+        result["warnings"].append("GITHUB_TOKEN/owner/repo 미설정 — 원격 링크 검증 불가")
+        return result
+
+    # PDF Report는 blob URL, GitHub URL은 디렉토리(tree) — 존재 확인 가능한 파일 경로만 검사.
+    targets = {"PDF Report": _repo_path_from_url(payload.get("PDF Report", ""))}
+    # tree URL 자체는 파일이 아니므로, 대표 파일(meta.json)로 디렉토리 존재를 대리 확인.
+    gh_dir = _repo_path_from_url(payload.get("GitHub URL", "").replace("/tree/main/", "/blob/main/"))
+    if gh_dir:
+        targets["GitHub URL (meta.json)"] = f"{gh_dir}/meta.json"
+
+    for label, path in targets.items():
+        if not path:
+            continue
+        try:
+            exists = get_file_sha(owner, repo, path) is not None
+        except Exception as e:  # noqa: BLE001 — fail-open on network error
+            result["warnings"].append(f"{label} 검증 중 오류: {e}")
+            continue
+        result["checks"][label] = {"path": path, "exists": exists}
+        if not exists:
+            result["ok"] = False
+            result["warnings"].append(
+                f"{label} 원격에 없음 → Notion 링크가 깨짐: {path} "
+                f"(GitHub push가 실행됐는지 확인 — DISABLE_SYNC/skip-pdf 여부 점검)"
+            )
+    return result
+
+
 def sync_analysis(pipeline_dir: Path, ticker: str, dry_run: bool = False, skip_pdf: bool = False) -> dict:
     """Top-level orchestrator — sync single analysis to GitHub + Notion."""
     if not pipeline_dir.exists():
@@ -341,15 +421,24 @@ def sync_analysis(pipeline_dir: Path, ticker: str, dry_run: bool = False, skip_p
             "payload": {k: v for k, v in payload.items() if not k.startswith("_")},
             "github_status": gh_status(),
             "notion_status": notion_status(),
+            # dry-run은 push를 하지 않으므로 payload의 GitHub/PDF URL은 아직 라이브가 아님.
+            # 이 payload로 Notion을 채우기 전에 반드시 실제 sync를 먼저 실행할 것.
+            "link_warning": "DRY-RUN — payload의 GitHub URL·PDF Report는 push 전이라 아직 유효하지 않음. "
+                            "Notion 반영 전 실제 sync(--dry-run 없이) 실행 후 link_integrity.ok=true 확인 필수.",
         }
 
     gh_result = sync_to_github(pipeline_dir, ticker, payload, skip_pdf=skip_pdf)
+    # GitHub push 직후, Notion에 넣을 URL이 실제 원격에 존재하는지 검증.
+    link_integrity = verify_remote_links(payload)
+    for w in link_integrity["warnings"]:
+        print(f"[sync] ⚠ link check: {w}")
     notion_result = sync_to_notion(payload)
 
     return {
         "status": "completed",
         "ticker": ticker,
         "github": gh_result,
+        "link_integrity": link_integrity,
         "notion": notion_result,
         "payload_summary": {
             "Verdict": payload["Verdict"],
