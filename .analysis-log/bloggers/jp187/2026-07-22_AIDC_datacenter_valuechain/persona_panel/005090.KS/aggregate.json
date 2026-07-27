@@ -1,0 +1,466 @@
+{
+  "ticker": "005090.KS",
+  "aggregated_at": "2026-07-23T14:35:08.499908+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "lean_bullish": {
+      "count": 10,
+      "pct": 58.8
+    },
+    "neutral": {
+      "count": 4,
+      "pct": 23.5
+    }
+  },
+  "average_confidence": 0.668,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.2
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 9,
+      "personas": [
+        "stanley-druckenmiller",
+        "ray-dalio",
+        "michael-burry",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "charlie-munger",
+        "peter-lynch",
+        "jim-simons",
+        "cathie-wood"
+      ],
+      "examples": [
+        "비정상적인 높은 변동성",
+        "높은 시장 변동성",
+        "높은 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "비정상적인 높은 변동성",
+        "부정적 forward PE indicating potential financial instability"
+      ],
+      "key_opportunities_top3": [
+        "낮은 beta로 인한 diversification value"
+      ],
+      "uncertainty": "현재의 높은 변동성 환경이 지속되지 않는다면 평가가 바뀔 수 있음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 시장 변동성",
+        "부정적인 전진 PE"
+      ],
+      "key_opportunities_top3": [
+        "전력&부지 동시 공급 모델의 시장확장 가능성",
+        "정부 주도의 대형 프로젝트 참여 잠재력"
+      ],
+      "uncertainty": "전력 시장 및 데이터 센터 수요 성장에 대한 정부 정책 변동이 클 경우, 스토리의 실현 가능성을 재고해야 한다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.2,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "전력 및 인프라 사업의 확장성 의문",
+        "현재의 수익성 부족"
+      ],
+      "key_opportunities_top3": [
+        "정부 주도 프로젝트 참여 기회",
+        "탄소 배출 제한 환경에서 에너지 기반 기술의 확장"
+      ],
+      "uncertainty": "사업 확장이 실현되면 narrative의 유망성이 강화될 수 있음.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "기술적 지표의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "전력 공급과 부지 확보의 통합 모델",
+        "장기 매크로 사이클에서의 잠재적 성장"
+      ],
+      "uncertainty": "전력 공급에 대한 수요 감소 또는 기술적 모델의 실패 시 전제 변화",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "단기 수익성 악화",
+        "데이터센터 구축 프로젝트의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "장기 AI 및 데이터센터 수요 증가 추세",
+        "에너지 및 부지 동시 공급 모델의 경쟁력"
+      ],
+      "uncertainty": "장기 성장 기회에 대한 시장의 수용이 감소하거나, 데이터센터 구축 프로젝트의 수요가 감소하면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "낮은 forward PE",
+        "높은 주가 변동성"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터의 성장 가능성",
+        "대기업과의 협력"
+      ],
+      "uncertainty": "데이터센터의 수요 예측이 실현되지 않으면, 사업 모델의 강점이 무의미해질 수 있음.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "에너지 비용 상승",
+        "정책변화로 인한 수요 감소"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 시장 성장",
+        "부지와 통합 제공 모델의 경쟁력"
+      ],
+      "uncertainty": "에너지 가격이 지속적으로 낮아지면 디스카운트 및 수익성 가정이 뒤집힐 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "비전형적인 Valuation 지표 (예: forward_pe의 이상)",
+        "해자의 지속 가능성에 대한 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 개발이 성장 촉진",
+        "전략적 위치와 시설 제공 역량"
+      ],
+      "uncertainty": "경쟁이 감소하거나 기술적 혁신이 지속성을 강화할 경우, 이상의 의문이 완화될 수 있음.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "단기적 변동성이 높은 편",
+        "부정적 forward PE"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 투자 급증",
+        "부지와 전력 동시 공급이라는 강력한 미시적 catalyst"
+      ],
+      "uncertainty": "한국 정부 정책 변화가 부정적으로 작용할 경우, 거시적 tailwind의 지속이 불확실해질 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "low forward PE 신뢰성",
+        "high market volatility"
+      ],
+      "key_opportunities_top3": [
+        "에너지·부지 동시공급 모델의 시장 경쟁력",
+        "한국 AI 데이터센터 프로젝트 연계"
+      ],
+      "uncertainty": "에너지 및 부지 공급 모델이 시장에서 실행되지 못하거나 정부 계획이 변경될 경우 verdict가 뒤집힐 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "R&D 투자 효율성 불확실성",
+        "장기 성장 잠재력 검증 필요"
+      ],
+      "key_opportunities_top3": [
+        "시장 내 차별화된 비즈니스 모델",
+        "한국 AI 데이터센터 시장 참여"
+      ],
+      "uncertainty": "비즈니스 모델의 장기적 실현 가능성이 낮아질 경우, 평가는 하향 조정될 수 있음.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부채 상환 부담 가능성",
+        "최근 주가 변동성"
+      ],
+      "key_opportunities_top3": [
+        "에너지 및 부지 공급의 이중 수익 모델",
+        "장기 성장 가능성을 가진 시장 포지션"
+      ],
+      "uncertainty": "정부의 에너지 정책 변화나 기술 발전이 예상을 벗어나는 경우 영향을 받을 수 있습니다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "P/E 비율의 부정적 시그널"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 전력 및 부지 수요 증가",
+        "한국 AI 데이터센터 밸류체인의 성장"
+      ],
+      "uncertainty": "글로벌 경제 변동 및 기술 혁신 속도 가정이 깨지면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "부채 비율 불확실성",
+        "PER 오류"
+      ],
+      "key_opportunities_top3": [
+        "에너지와 부지 동시에 공급"
+      ],
+      "uncertainty": "사업적 성공에도 불구하고 재무 지표의 부정적 변화 시 verdict 변경 가능",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "수익성 개선 필요성"
+      ],
+      "key_opportunities_top3": [
+        "에너지-부지 모델의 혁신성",
+        "AI 데이터센터 수요 상승"
+      ],
+      "uncertainty": "AI 데이터센터 수요가 예측과 다른 방향으로 변동하면 밸류에이션과 성장이 영향을 받을 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "변동성 있는 주가",
+        "부정적인 P/E 비율"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 수요 증가",
+        "DC 부지와 전력 동시 공급 모델의 차별화"
+      ],
+      "uncertainty": "데이터센터 수요 예측이 크게 빗나갈 경우 verdict는 달라질 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "부정적인 forward P/E"
+      ],
+      "key_opportunities_top3": [
+        "에너지 및 데이터센터 부지 사업의 잠재적 수익",
+        "정부 주도 프로젝트 참여"
+      ],
+      "uncertainty": "데이터 수요 또는 에너지 공급 전략 변화로 인해 시장 상황이 급격히 변화할 경우,",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
