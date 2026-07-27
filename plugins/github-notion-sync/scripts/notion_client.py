@@ -33,9 +33,16 @@ def _read_env_key(key: str) -> Optional[str]:
     candidates.append(Path(__file__).resolve().parent.parent.parent.parent / ".env")
     for env_path in candidates:
         if env_path.exists():
-            for line in env_path.read_text().splitlines():
-                if line.strip().startswith(f"{key}="):
-                    return line.split("=", 1)[1].strip().strip('"').strip("'")
+            for raw in env_path.read_text().splitlines():
+                line = raw.strip()
+                if line.startswith("export "):
+                    line = line[len("export "):].lstrip()
+                # `KEY=v` 및 `KEY = v`(= 양쪽 공백, 사용자 오타) 모두 허용 — 2026-07-27
+                if "=" not in line:
+                    continue
+                k, v = line.split("=", 1)
+                if k.strip() == key:
+                    return v.strip().strip('"').strip("'")
     return None
 
 
@@ -92,7 +99,9 @@ def _headers_direct() -> dict:
     return {
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
-        "Notion-Version": "2022-06-28",
+        # data_sources 엔드포인트(query_page_by_ticker·upsert_row_direct의 data_source_id
+        # parent)는 2025-09-03 이상에서만 동작. 구버전(2022-06-28)은 400 invalid_request_url.
+        "Notion-Version": "2025-09-03",
     }
 
 
@@ -122,7 +131,9 @@ def _to_notion_prop(field: str, value, schema_type: str) -> dict:
 # Map of field name → Notion type
 FIELD_SCHEMA = {
     "Ticker": "title",
-    "Company": "rich_text",
+    # DB의 Company는 select 타입 — rich_text로 보내면 type mismatch 400.
+    # 새 종목명은 REST API(2025-09-03)가 select 옵션을 자동 생성함(2026-07-27 확인).
+    "Company": "select",
     "Date": "date",
     "Sector": "select",
     "Analysis Type": "select",
