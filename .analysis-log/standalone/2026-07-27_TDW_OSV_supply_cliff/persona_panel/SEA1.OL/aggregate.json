@@ -1,0 +1,443 @@
+{
+  "ticker": "SEA1.OL",
+  "aggregated_at": "2026-07-28T02:54:03.501616+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 2,
+      "pct": 11.8
+    },
+    "lean_bullish": {
+      "count": 15,
+      "pct": 88.2
+    }
+  },
+  "average_confidence": 0.762,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성 지속",
+        "시장 변동과 무관한 개별 리스크"
+      ],
+      "key_opportunities_top3": [
+        "낮은 베타에 기반한 포트폴리오 다각화 가치",
+        "해양 장기계약 수혜 가능성"
+      ],
+      "uncertainty": "해양 산업 수요가 급격히 변화하여 일시적 변동성을 증가시킬 수 있음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "FPSO 수요 변화",
+        "경쟁사의 시장 점유율 확장"
+      ],
+      "key_opportunities_top3": [
+        "브라질 및 북해에서의 지속적 계약 증가",
+        "FPSO 생산 지원 수요 증가"
+      ],
+      "uncertainty": "FPSO 수요 급락이나 새로운 경쟁사의 출현",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA가 수익성을 압박할 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가로 인한 수익 개선",
+        "낮은 베타로 인한 방어적 투자"
+      ],
+      "uncertainty": "FPSO 및 OSV 수요의 구조적 변화가 발생하면 판도가 바뀔 수 있음",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "외환 리스크",
+        "글로벌 경기 악화"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가",
+        "OSV 공급절벽"
+      ],
+      "uncertainty": "글로벌 경기침체 혹은 좋은 시황에서 부정적 변동이 발생할 경우 Verdict가 뒤집힐 수 있다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "유동성이 낮은 저변동성에는 잠재적 위험이 존재함.",
+        "상품 가격 변동과 지역 수요에 크게 의존함."
+      ],
+      "key_opportunities_top3": [
+        "FPSO 지원 서비스 수요 증가로 장기적 수익성 개선 가능성.",
+        "북해·브라질 시장에서의 전략적 레버리지."
+      ],
+      "uncertainty": "하위 향후 정치적·경제적 환경 변화로 시장 수요 패턴이 변경될 경우",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁의 심화로 인해 가격 경쟁력 상실 가능성",
+        "FPSO 프로젝트의 지연 가능성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가로 인한 지속적 매출 상승 기대",
+        "장기 계약을 통한 수익성 향상 가능성"
+      ],
+      "uncertainty": "FPSO 수요가 예상 이상으로 감소할 경우, 또는 신규 발주 선박이 과잉 투입될 경우 verdict가 뒤집힐 수 있음.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "저조한 배당 수익률",
+        "작은 회사 규모로 인한 리스크"
+      ],
+      "key_opportunities_top3": [
+        "오더북 84% 확정",
+        "FPSO 설치 및 운영 증가에 따른 장기적 수익 기회"
+      ],
+      "uncertainty": "고사양 OSV에 대한 수요 증가가 예상보다 빨리 감소하면 평가가 뒤집힐 가능성이 있습니다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 비율",
+        "재무 구조의 취약성 가능성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가",
+        "장기 계약 확보로 현금흐름 개선"
+      ],
+      "uncertainty": "FPSO 수요 증가가 예측보다 낮다면, verdict가 뒤집힐 수 있음.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PSV/AHTS 공급이 예상보다 빨리 회복될 수 있음",
+        "Petrobras와 Exxon에의 고객 집중도"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 생산지원 수요 증가",
+        "장기 계약 및 백로그 증가로 인한 안정성"
+      ],
+      "uncertainty": "글로벌 원자재 시장에서 예상외의 공급 확장이 발생할 경우",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "소규모 시장 평가"
+      ],
+      "key_opportunities_top3": [
+        "FPSO에 대한 장기 계약",
+        "공급 절벽에 따른 가격 결정력 향상"
+      ],
+      "uncertainty": "장기 계약이 취소되거나 FPSO 공급 증가로 마진이 줄어들 경우",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "규모의 경제 부족",
+        "R&D 투자 세부정보 부족"
+      ],
+      "key_opportunities_top3": [
+        "OSV의 공급절벽에 따른 FPSO 생산 지원 수요 상승",
+        "북해 및 브라질에서의 장기 계약 수익 확대 가능성"
+      ],
+      "uncertainty": "OSV 수급 상황이나 FPSO 프로젝트 개발이 예상보다 악화된다면 verdict가 뒤집힐 수 있습니다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 EV/EBITDA 비율",
+        "회계 보수성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가",
+        "장기 계약을 바탕으로 한 현금흐름 강화"
+      ],
+      "uncertainty": "브라질 및 북해의 시장 수요가 급격히 감소할 경우, SEA1의 성장이 제한될 수 있다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "OSV 시장의 낮은 유동성",
+        "제한적 신조 발주"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가",
+        "Backlog 증가 예측"
+      ],
+      "uncertainty": "OSV 수요 예측 실패 시 또는 신규 공급 증가 시, narrative 근간이 흔들릴 수 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "EPS 추세와 수익성의 지속 가능성",
+        "시가총액/NCAV 비율을 활용한 'Net-Net' 가치 미충족"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 생산지원 수요 증가",
+        "고사양 리그 공급 부족에 따른 가격 상승 가능성"
+      ],
+      "uncertainty": "OSV의 공급 증가 혹은 FPSO 수요 감소는 지금의 평가를 뒤집을 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "FPSO 수요의 예기치 않은 하락",
+        "OSV 공급 증가로 인한 시장 내 경쟁 강화"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 프로젝트에 따른 장기 계약 체결 확대",
+        "기존 선박의 노후화로 인한 신규 발주 증가"
+      ],
+      "uncertainty": "FPSO 수요가 감소하거나, 새로운 기술의 발달로 OSV 수요가 감소할 경우 verdict가 뒤집힐 수 있습니다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "OSV 가동률이 예상보다 낮으면 수익성 악화",
+        "브라질과 북해에 대한 지역적 의존도"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가에 따른 장기적인 계약 확정",
+        "OSV 공급 제약에 따른 가격 협상력 강화"
+      ],
+      "uncertainty": "브라질과 북해의 정책 변화나 해양산업의 급속한 변화가 일어난다면 현재의 성장과 수익성 예측이 크게 바뀔 수 있음",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "단일 고객 집중 위험",
+        "supplier dependency in high-spec OSVs"
+      ],
+      "key_opportunities_top3": [
+        "장기계약을 통한 수익 개선",
+        "FPSO 수요 증가에 따른 시장 확장"
+      ],
+      "uncertainty": "FPSO 수요가 예상만큼 증가하지 않을 경우, 열거된 공급절벽이 발생하지 않으면 결정이 변경될 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
