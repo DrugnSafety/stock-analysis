@@ -1,0 +1,138 @@
+{
+  "computed_at": "2026-07-23T14:35:50.306165+09:00",
+  "ledger_path": ".analysis-log/bloggers/jp187/2026-07-22_AIDC_datacenter_valuechain/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/jp187/2026-07-22_AIDC_datacenter_valuechain/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "005090.KS",
+      "date": "2026-07-22",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.61,
+          "weight": 1.2,
+          "score_contribution": 0.512
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 11000000.0,
+      "target_quantity": 259,
+      "current_price": 42350.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 0.8874,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    },
+    {
+      "ticker": "006360.KS",
+      "date": "2026-07-22",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "neutral": 1
+      },
+      "signal_score": 0.0,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "neutral",
+          "confidence": 0.44,
+          "weight": 1.2,
+          "score_contribution": 0.0
+        }
+      },
+      "action": "hold",
+      "size_factor": 0.0,
+      "target_value": 0.0,
+      "target_quantity": 0,
+      "current_price": 29100.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 0.951,
+      "reasoning": "중립 신호 (+0.00), 변경 없음"
+    },
+    {
+      "ticker": "018260.KS",
+      "date": "2026-07-22",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.61,
+          "weight": 1.2,
+          "score_contribution": 0.512
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 11000000.0,
+      "target_quantity": 56,
+      "current_price": 196000.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 1.1587,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    },
+    {
+      "ticker": "119850.KQ",
+      "date": "2026-07-22",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.76,
+          "weight": 1.2,
+          "score_contribution": 0.638
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 11000000.0,
+      "target_quantity": 313,
+      "current_price": 35050.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 0.9756,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    },
+    {
+      "ticker": "475150.KS",
+      "date": "2026-07-22",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.68,
+          "weight": 1.2,
+          "score_contribution": 0.571
+        }
+      },
+      "action": "buy",
+      "size_factor": 1.0,
+      "target_value": 11000000.0,
+      "target_quantity": 177,
+      "current_price": 62000.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 1.4085,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입"
+    }
+  ]
+}
