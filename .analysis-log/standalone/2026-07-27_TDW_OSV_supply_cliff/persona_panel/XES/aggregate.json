@@ -1,0 +1,462 @@
+{
+  "ticker": "XES",
+  "aggregated_at": "2026-07-28T02:54:03.586611+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 10,
+      "pct": 58.8
+    },
+    "lean_bullish": {
+      "count": 7,
+      "pct": 41.2
+    }
+  },
+  "average_confidence": 0.665,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.4
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 7,
+      "personas": [
+        "mohnish-pabrai",
+        "charlie-munger",
+        "jim-simons",
+        "bill-ackman",
+        "phil-fisher",
+        "cliff-asness",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "시장 변동성 증가",
+        "에너지 시장 변동성 및 macro 경제 영향",
+        "FPSO 및 OSV 시장의 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "시장 변동성 증가",
+        "명확하지 않은 OSV 수요 데이터 반영"
+      ],
+      "key_opportunities_top3": [
+        "FPSO·OSV 수요 증가가 계속적으로 ETF에 긍정적일 가능성"
+      ],
+      "uncertainty": "OSV 수요 증가가 가격에 반영되지 않을 경우 중립에서 약세로 변경될 수 있음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "공급절벽이 지속 가능할지 불확실",
+        "신조 오더북 확대 가능성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가",
+        "OSV 생산지원 장기 수요"
+      ],
+      "uncertainty": "FPSO 수요 증가가 멈추거나 감소하면, 성장 기회가 사라질 수 있음.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "beta 데이터의 부재로 market exposure 모호성",
+        "에너지 시장 변동성 및 macro 경제 영향"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 증가로 인한 지속적인 서비스 수요",
+        "OSV 공급절벽에 따른 가격 협상력 증가 가능성"
+      ],
+      "uncertainty": "인프라 수요가 예상보다 낮거나, 경쟁이 증가하면서 dayrate 상승 압력이 느슨해지면 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "연구된 macro cycle이 지속되지 않을 가능성",
+        "XES의 섹터 외 헤지 부족으로 인한 리스크"
+      ],
+      "key_opportunities_top3": [
+        "에너지 장비 수요 증가",
+        "인플레이션이 지속될 경우 추가적인 가격 상승 가능성"
+      ],
+      "uncertainty": "전 세계적인 경기침체로 에너지 수요가 급감할 경우 verdict가 달라질 수 있습니다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "OSV 테마의 거시적 성장 연계 부재",
+        "ETF 내 기업 ROE의 일관성 부족"
+      ],
+      "key_opportunities_top3": [
+        "해양 부문의 특정 수요 증가",
+        "장기적으로 FPSO 관련 서비스 수요 증가 가능성"
+      ],
+      "uncertainty": "OSV 산업의 매크로적 성장 동력 식별 시 혹은 관련 기업의 ROE가 일관되게 유지될 경우",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "FPSO 및 OSV 시장의 변동성",
+        "고객 집중으로 인한 위험"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 설치와 운영 수요 증가",
+        "일회성 설치와 장기 생산 지원 수요 동시 증가"
+      ],
+      "uncertainty": "FPSO와 OSV 시장의 공급 불균형이 해소되면 verdict가 뒤집힐 수 있습니다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "에너지 섹터의 높은 변동성",
+        "글로벌 경제의 변동에 따른 수요 감소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 관련 장기 생산지원 수요 증가",
+        "석유가스 시장의 장기 구조적 회복 가능성"
+      ],
+      "uncertainty": "글로벌 에너지원 전환 및 경제 둔화가 지속적으로 발생할 경우",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "해자 확인 미흡",
+        "장기적 예측의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "장기적으로 오일·가스 장비 수요 증가 가능성",
+        "에너지 시장의 지속적인 회복과 투자"
+      ],
+      "uncertainty": "오는 10년 간의 기반 시장 수요 변화가 가정과 다를 경우 판결이 뒤집힐 수 있음.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "OSV 공급이 수요 회복을 수용하지 못하는 경우",
+        "경제 불확실성에 따른 에너지 수요 감소"
+      ],
+      "key_opportunities_top3": [
+        "FPSO와 해양 생산 수요의 지속적 증가",
+        "OSV 공급부족에 따른 높은 수익성 유지"
+      ],
+      "uncertainty": "유가 하락 시 또는 OSV 공급이 빠르게 증가할 경우, 현재의 긍정적 전망이 뒤집힐 수 있음.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "ETF의 자본배분 및 Activist 접근 제한점",
+        "시장 변동성으로 인한 단기 리스크"
+      ],
+      "key_opportunities_top3": [
+        "에너지 섹터 회복 및 OSV 수요 증가 기대",
+        "글로벌 경제 회복 시 섹터 내 구조적 성장 가능성"
+      ],
+      "uncertainty": "세계 경제 회복이 지연되거나 에너지 섹터의 구조적 불확실성 증대 시 획기적인 성과를 기대하기 어려움.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "ETA의 성격상 개별 주식의 관리 및 R&D 검사 한계",
+        "높은 변동성과 시장 센티멘트 변동"
+      ],
+      "key_opportunities_top3": [
+        "OSV 수요 증가와 FPSO 생산지원 필요",
+        "공급 절벽으로 인한 장기 상승 여력"
+      ],
+      "uncertainty": "OSV 수요 예상의 급격한 하락 혹은 FPSO 일정의 변경이 발생할 경우, 이로 인해 성장이 제한될 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "XES의 밸류에이션 지표 부족",
+        "OSV의 공급 증가로 인해 FPSO 수요 증가 예측이 어긋날 가능성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 설치와 장기 수요 증가",
+        "OSV의 공급절벽을 기반으로 새로운 수익원 창출"
+      ],
+      "uncertainty": "마이클 버리의 관점에서는 FPSO 수요가 실질적으로 줄어드는 경우, 장기 저평가 근거가 약화되어 위험도 증가",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "매크로 경제적 변화로 인한 오일 가격 불확실성",
+        "Petrobras 주요 프로젝트 지연 가능성"
+      ],
+      "key_opportunities_top3": [
+        "OSV 공급절벽 테마의 시장 진입",
+        "FPSO 수요 증가로 인한 가격 상승"
+      ],
+      "uncertainty": "FPSO 수요가 예상과 다르게 진행될 경우, 또는 오일/가스 시장의 글로벌 경기 침체시",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PBR가 1.5 이상",
+        "PER이 15 이상"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요의 증가",
+        "장기 Backlog 증대"
+      ],
+      "uncertainty": "ETF의 구조적 특성으로 인해 개별 기업의 펀더멘털 개선이 ETF 전체 수익률로 반영되지 않을 가능성",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "혁신적이지 않은 전통 산업",
+        "장기 성장 가능성 불확실"
+      ],
+      "key_opportunities_top3": [
+        "수익성 있는 단기 오일 및 가스 강세",
+        "FPSO와 OSV 산업 구조적 회복 가능성"
+      ],
+      "uncertainty": "글로벌 에너지 수요 감소나 기술 혁신이 기존 OSV 모델을 대체할 경우",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "고사양 OSV의 실제 공급이 예상을 초과하는 경우",
+        "FPSO 프로젝트가 지연될 가능성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO와 OSV에 대한 수요 증가로 인한 price power 강화",
+        "공급 제한이 지속되어 dayrate가 상승할 경우"
+      ],
+      "uncertainty": "세계 경제 불확실성으로 인해 해양 자원 개발 프로젝트가 중단 또는 연기될 경우",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "정치적 리스크로 인한 변동성",
+        "특정 에너지 정책 변경 가능성"
+      ],
+      "key_opportunities_top3": [
+        "에너지 수요 증가에 따른 긍정적 변화",
+        "FPSO 지원 서비스의 장기적 수익 창출"
+      ],
+      "uncertainty": "글로벌 경제환경의 급격한 변화나 정치적 사건 발생 시 현재의 채택된 OSV 및 FPSO 전략이 무용지물이 될 수 있음.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
