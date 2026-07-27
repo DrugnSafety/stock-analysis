@@ -85,12 +85,14 @@
     },
     {
       "claim_id": "T7",
-      "claim": "동일 사이클에 노출된 OSV 종목 간 밸류에이션 갭이 비정상적으로 큼 — TDW forward PE 12.5배 vs SEA1 7.1배, SOFF 4.9배. TDW 프리미엄이 선대 품질·미국 상장 유동성·지역 분산으로 정당화되는지, 아니면 노르웨이 종목의 할인이 더 큰 알파 기회인지가 이 테마의 핵심 판단 지점임",
+      "claim": "동일 사이클에 노출된 OSV 종목 간 밸류에이션 갭이 비정상적으로 큼 — ⚠️ SEA1.OL·SOFF.OL은 주가가 NOK, 재무보고는 USD라 환산(USD/NOK 9.661)이 필수임. 환산 후 2025년 실적 기준 trailing P/E는 SEA1 3.7배 · SOFF 5.5배인 반면 TDW는 조정 EPS 기준 23.4배(GAAP 기준 11.8배)로 갭이 최초 추정보다 훨씬 큼. TDW 프리미엄이 선대 품질·미국 상장 유동성·지역 분산으로 정당화되는지, 아니면 노르웨이 종목의 할인이 더 큰 알파 기회인지가 이 테마의 핵심 판단 지점임",
       "type": "predictive",
       "timeframe": "medium_term",
       "_source": "market_data",
       "_evidence": [
-        "yfinance live fetch 2026-07-27: TDW fwdPE 12.54 / SEA1.OL 7.08 / SOFF.OL 4.91"
+        "yfinance live 2026-07-27: financialCurrency=USD (SEA1.OL·SOFF.OL), USD/NOK 9.661",
+        "SEA1 시총 $424M / 2025 매출 $271.5M / 순이익 $113.8M",
+        "SOFF 시총 $762M / 매출 $290.4M / 순이익 $139.4M"
       ],
       "importance": "supporting",
       "eval_confidence": 0.74
@@ -144,5 +146,6 @@
       "eval_confidence": 0.67
     }
   ],
-  "revision_note": "2026-07-27 텔레그램 클리핑 반영 — T3 전면 개정(가동률 임계론 폐기), T9·T10·T11 신설"
+  "revision_note": "2026-07-27 텔레그램 클리핑 반영 — T3 전면 개정(가동률 임계론 폐기), T9·T10·T11 신설",
+  "summary_one_liner": "OSV는 '앞으로 운임이 오를 종목'이 아니라 '유효선복이 이미 30~40% 축소돼 낮은 가동률에서 운임이 이미 2013~2014년 피크를 회복한' 산업임. 오더북 3~4%(역대 최저)와 TDW 백로그 84% 확정이 논리의 두 축이며, 상방은 dayrate 추가 급등이 아니라 재계약 회전에서 나옴. 다만 Clarksons 인덱스가 2024년 중반 고점 대비 -5%이고 TDW 영업이익률이 2025년 22.0%→20.5%로 하락해 2027년 EPS +86% 컨센서스는 실측 추세와 충돌함 — 코어 베팅이 아니라 섹터 내 상대 로테이션으로 다루는 것이 합리적임."
 }
