@@ -254,6 +254,8 @@ python3 plugins/report-suite/skills/unified-builder/scripts/build_combined.py ..
 
 비활성화: `DISABLE_SYNC=1 python3 build_combined.py ...`
 
+> ⚠️ **`DISABLE_SYNC=1` 사용 시 필독 (2026-07-27 재발방지)**: sync를 끄고 빌드하면 PDF·JSON이 **GitHub에 push되지 않는다**. 이 상태에서 Notion에 GitHub URL을 넣으면 링크가 404("파일이 비어있음")로 깨진다. **규칙**: Notion 반영 전 반드시 `sync_analysis.py`를 (dry-run 없이) 실제 실행해 push를 완료하고, 결과의 `link_integrity.ok == true`를 확인할 것. `sync_analysis.py`는 push 직후 `get_file_sha`로 payload의 GitHub/PDF URL이 원격에 실재하는지 검증하며, 없으면 경고를 출력한다. dry-run 결과에는 `link_warning`이 포함되며 이 payload로 Notion을 채우면 안 된다.
+
 ### 수동 sync (백필 등)
 
 ```
