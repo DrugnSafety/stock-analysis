@@ -1,0 +1,121 @@
+{
+  "industry": {
+    "name": "Energy Services ETF — 오일·가스 장비/서비스",
+    "overview": "XES는 S&P Oil & Gas Equipment & Services Select Industry Index를 추종하는 동일가중 ETF로, TDW가 상위 편입돼 있음. OSV 단일 테마가 아니라 시추·완결·장비·서비스 전반에 분산 노출되므로 OSV 공급절벽 논리의 순도가 낮아지는 대신 개별 종목 리스크가 희석됨. 실측 연변동성 30.9%로 TDW·RIG(각 53.4%)의 약 58% 수준이며, 1년 수익률은 +64.1%로 TDW(+51.3%)보다 높음 — 즉 지난 1년에는 분산이 수익률을 희생시키지 않았음.",
+    "competitors": [
+      {
+        "name": "XES (SPDR)",
+        "ticker": "XES",
+        "share_pct": null,
+        "moat": "동일가중 — 소형주 비중 높아 OSV·중소형 서비스 노출 큼"
+      },
+      {
+        "name": "OIH (VanEck)",
+        "ticker": "OIH",
+        "share_pct": null,
+        "moat": "시총가중 — SLB·HAL 등 대형주 집중, RIG·NE 상위 편입"
+      },
+      {
+        "name": "IEZ / PXJ",
+        "ticker": "IEZ/PXJ",
+        "share_pct": null,
+        "moat": "유사 서비스 노출 · RIG·NE 상위 편입"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": null,
+      "cagr_pct": null,
+      "horizon": "2026-2030",
+      "note": "OSV 시장 규모의 단일 공신력 수치는 확인 불가. 대신 검증된 구조 지표를 사용 — 오더북 활성선대 대비 3~4%(역대 최저), 선령 15년 초과 >50%, 2026년 해체 3척, 북해 유효선대 2014 피크 대비 -30~40%, marketed utilization 2026 77%→2027 79%+"
+    }
+  },
+  "financials": {
+    "years": [],
+    "currency": "USD",
+    "note": "ETF — 개별 재무제표 없음. 편입 종목의 합산 펀더멘털로 대체 평가",
+    "income_statement": {},
+    "balance_sheet": {},
+    "cash_flow": {},
+    "pl_5y": []
+  },
+  "financial_note": "ETF이므로 재무제표가 없음. 대신 (1) TDW 상위 편입으로 OSV 노출 확보, (2) 동일가중 구조상 중소형 서비스주 비중이 높아 시총가중 OIH보다 OSV·중소형 노출이 큼, (3) 실측 변동성 30.9%로 개별 종목 대비 절반 수준이라는 점이 판단 근거임. 다만 페르소나 17명 중 10명(59%)이 중립을 낸 이유도 여기에 있음 — 테마 순도가 낮아 공급절벽 논리의 상방을 온전히 받지 못함.",
+  "scenarios": {
+    "bull": {
+      "target_price": 150,
+      "prob_pct": 25,
+      "thesis": "오프쇼어 서비스 전반 재평가 — 개별 종목 목표 상단 시나리오의 가중 반영. 애널리스트 커버리지 없어 편입종목 상단 기반 자체 산출(현재가 +35%)"
+    },
+    "base": {
+      "target_price": 125,
+      "prob_pct": 50,
+      "thesis": "OSV·시추 개선이 서비스 전반으로 완만 확산 (현재가 +13%)"
+    },
+    "bear": {
+      "target_price": 85,
+      "prob_pct": 25,
+      "thesis": "유가 조정 시 섹터 동반 하락 — 분산이 하방을 막지 못함 (현재가 -23%)"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-H2",
+      "event": "편입 종목 실적 시즌",
+      "type": "earnings",
+      "expected_impact": "?",
+      "description": "TDW 영업이익률 반등 여부가 ETF 성과에도 반영"
+    },
+    {
+      "date": "상시",
+      "event": "리밸런싱",
+      "type": "structural",
+      "expected_impact": "?",
+      "description": "동일가중 특성상 급등 종목 비중이 정기적으로 축소됨 — 모멘텀 추종에는 불리"
+    }
+  ],
+  "risks": [
+    {
+      "name": "테마 순도 저하",
+      "probability": "high",
+      "impact": "med",
+      "description": "OSV 공급절벽은 편입 종목 일부에만 적용 — 페르소나 59%가 중립을 낸 핵심 이유",
+      "mitigation": "순수 노출을 원하면 TDW 직접 보유"
+    },
+    {
+      "name": "섹터 동반 하락",
+      "probability": "med",
+      "impact": "med",
+      "description": "유가 충격 시 분산이 하방을 방어하지 못함 — 상관계수가 급등",
+      "mitigation": "섹터 익스포저 총량 관리"
+    },
+    {
+      "name": "동일가중 리밸런싱 드래그",
+      "probability": "med",
+      "impact": "low",
+      "description": "승자 비중을 정기 축소 — 강한 추세장에서 개별주 대비 열위",
+      "mitigation": "보유 기간·목표 명확화"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T2",
+      "claim_text": "오더북 3~4% 역대 최저"
+    },
+    {
+      "claim_id": "T3",
+      "claim_text": "유효선복 -30~40%, 낮은 가동률에 운임 이미 피크"
+    },
+    {
+      "claim_id": "T4",
+      "claim_text": "FPSO 생산지원 수요 ($181B 남미 파이프라인)"
+    },
+    {
+      "claim_id": "T8",
+      "claim_text": "선반영 위험"
+    },
+    {
+      "claim_id": "T11",
+      "claim_text": "상대 로테이션 성격"
+    }
+  ],
+  "korean_disclosures": []
+}
