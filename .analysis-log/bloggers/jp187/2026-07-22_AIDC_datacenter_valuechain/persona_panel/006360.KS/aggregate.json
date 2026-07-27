@@ -1,0 +1,469 @@
+{
+  "ticker": "006360.KS",
+  "aggregated_at": "2026-07-23T14:35:08.529338+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "neutral": {
+      "count": 9,
+      "pct": 52.9
+    },
+    "lean_bullish": {
+      "count": 3,
+      "pct": 17.6
+    }
+  },
+  "average_confidence": 0.626,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 11,
+      "personas": [
+        "michael-burry",
+        "warren-buffett",
+        "rakesh-jhunjhunwala",
+        "ray-dalio",
+        "peter-lynch",
+        "charlie-munger",
+        "stanley-druckenmiller",
+        "cathie-wood",
+        "nassim-taleb",
+        "aswath-damodaran",
+        "george-soros"
+      ],
+      "examples": [
+        "계열사와의 경쟁으로 인해 낮은 경쟁력을 가질 가능성",
+        "건설산업의 경쟁 심화",
+        "계열사의 경쟁"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "systematic risk 증가 가능성"
+      ],
+      "key_opportunities_top3": [
+        "건설업의 잠재적 수주 증가"
+      ],
+      "uncertainty": "변동성이 낮아지거나 안정적인 수익 창출이 보장되면 verdict가 변경될 수 있습니다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "계열사와의 경쟁으로 인해 낮은 경쟁력을 가질 가능성",
+        "높은 EV/EBITDA 비율로 인한 성장 잠재력 제한"
+      ],
+      "key_opportunities_top3": [
+        "한국 AI 데이터센터와 관련된 대규모 프로젝트 참여"
+      ],
+      "uncertainty": "건설 시장의 경쟁 구조가 예상보다 완화되면, GS건설의 성장은 더 견고해질 수 있습니다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수익성 지표의 부재",
+        "최근 모멘텀 하락세"
+      ],
+      "key_opportunities_top3": [
+        "낮은 P/E에 따른 저평가",
+        "1년간의 강한 상승 모멘텀"
+      ],
+      "uncertainty": "수익성 지표가 부정적이면 판단이 뒤집힐 수 있음.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "건설산업의 경쟁 심화",
+        "글로벌 경제 성장 둔화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "정부의 메가 프로젝트 추진",
+        "국내 데이터센터 수요 증가"
+      ],
+      "uncertainty": "글로벌 경제가 갑작스럽게 침체로 전환될 경우 현재의 낙관적인 전망이 크게 퇴색될 수 있음",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "건설 산업의 변동성",
+        "계열사의 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "대규모 인프라 프로젝트 참여",
+        "장기 성장 가능성"
+      ],
+      "uncertainty": "경기침체나 프로젝트 실현의 지연이 있다면 verdict가 뒤집힐 수 있습니다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "독점적 지위 약화",
+        "계열사 경쟁으로 인해 가격 결정력 감소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 밸류체인에서의 성장 가능성",
+        "전력 수요 증가에 따른 장기적 수혜 가능성"
+      ],
+      "uncertainty": "계열사의 경쟁력이 약해지거나 독점적 지위를 확보할 경우, 평가는 긍정적으로 뒤집힐 수 있음",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "독점적 지위 약화",
+        "건설 업종의 변동성"
+      ],
+      "key_opportunities_top3": [
+        "정부의 메가 프로젝트 참여",
+        "2030년까지의 수주 목표"
+      ],
+      "uncertainty": "글로벌 건설 시장의 변동성이나 정부 프로젝트의 실현율이 과대평가될 경우 전망이 어두워질 수 있음.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 내 경쟁 심화",
+        "장기적 경영 전략 부재"
+      ],
+      "key_opportunities_top3": [
+        "수주 확대로 인한 매출 증가",
+        "AI 데이터센터 프로젝트 참여"
+      ],
+      "uncertainty": "경쟁이 예상보다 줄어들거나, 경영진의 장기적 전략이 공개되어 좋은 방향으로 진행된다면 판결이 바뀔 수 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "경쟁 심화로 인한 수익성 감소",
+        "글로벌 경제 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "한국 AI 데이터센터 수요 증가 가능성",
+        "정부 인프라 투자 확대"
+      ],
+      "uncertainty": "AI 데이터센터 프로젝트가 예상보다 빠르게 진행되거나 성공적으로 완료될 경우, 판단이 변경될 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "자본집약적 모델",
+        "전반적인 자본배분의 효율성 부족"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 프로젝트 수주",
+        "정부 및 대형 기업 공동 프로젝트 참여"
+      ],
+      "uncertainty": "AI 데이터센터 프로젝트의 실현 수주율이 예상보다 낮아질 경우",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 독점 지위 약화 가능성",
+        "R&D 투자 효율성 부족"
+      ],
+      "key_opportunities_top3": [
+        "경영진 품질",
+        "장기 잠재적 성장 가능성"
+      ],
+      "uncertainty": "경쟁사 위협이 심각해질 경우, 시장 위치 약화와 장기 수익성 감소로 verdict가 뒤집힐 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "상대적으로 낮은 EV/EBITDA와 forward PE에도 불구하고 시장의 관심이 부족.",
+        "건설 부문 내 경쟁사 존재로 독점 지위 약화 가능성."
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 프로젝트 등의 대형 프로젝트 참여.",
+        "경제 회복 또는 부동산 시장 회복 시 추가 수주 가능성."
+      ],
+      "uncertainty": "부동산 시장 회복이 지연되거나 AI 데이터센터 프로젝트의 수주가 예상보다 저조할 경우 현 가치평가 방식이 바뀔 수 있습니다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "건설 업종에서의 경쟁 심화",
+        "사이클 전환에 따른 부정적 macro 변화"
+      ],
+      "key_opportunities_top3": [
+        "2030년 수주 가능성",
+        "기관의 강력한 목표가 설정"
+      ],
+      "uncertainty": "경쟁사 프로젝트로 건설 수주가 줄어들게 되면 펀더멘탈에 충격이 발생할 수 있음",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "부채 수준",
+        "7년 연속 흑자 여부"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 관련 프로젝트 가능성",
+        "상대적 저평가"
+      ],
+      "uncertainty": "EPS 성장률이 10년간 유지되지 않는다면 verdict가 바뀔 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁사의 존재로 인한 독점력 부족",
+        "기술 혁신 요소 부족"
+      ],
+      "key_opportunities_top3": [
+        "공공 및 대형 프라이빗 프로젝트 참여 가능성",
+        "장기적으로 한국 데이터센터 시장 성장 가능성"
+      ],
+      "uncertainty": "경쟁 구도가 바뀌어 GS건설이 독점적 위치를 차지할 경우",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "경쟁 심화",
+        "수익성 악화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "대형 프로젝트 기회",
+        "AI 데이터센터 수요 증가"
+      ],
+      "uncertainty": "주요 수주가 예상보다 낮거나 경쟁사가 획득할 경우, 미래 성장이 크게 위축될 수 있음.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "경쟁사의 시장 지배력",
+        "대형 프로젝트 의존"
+      ],
+      "key_opportunities_top3": [
+        "국내 AI 데이터센터 프로젝트 수주",
+        "2030년까지 계획된 전력 사용량 증가"
+      ],
+      "uncertainty": "경쟁력 있는 시장 점유율 확장 가능성이 입증된다면, verdict는 변경될 수 있다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
