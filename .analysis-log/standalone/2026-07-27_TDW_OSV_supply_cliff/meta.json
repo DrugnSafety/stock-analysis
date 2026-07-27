@@ -1,0 +1,26 @@
+{
+  "ticker": "TDW",
+  "company_kr": "타이드워터",
+  "company_en": "Tidewater Inc.",
+  "sector": "Offshore Support Vessel (OSV)",
+  "analysis_type": "standalone",
+  "analyzed_at": "2026-07-27",
+  "context": "사용자 요청 — 승도리 블로그 2026-07-27 '에너지)어느 에너지 기업 컨센서스' 글의 익명 종목을 컨센서스 역산으로 TDW(Tidewater)로 식별. 기존 .analysis-log(15개 블로거 + standalone 7건) 및 Notion '주식 분석 Hub' DB 전수 검색 결과 OSV 테마·Tidewater 커버리지 0건 확인 → 신규 테마 분석. 종목 패널은 'OSV 사이클 한장 스냅샷' 인포그래픽의 4종 포지션(TDW·SEA1·SOFF(Solstad Offshore ASA)·RIG) + TDW 상위 편입 ETF(XES)로 구성.",
+  "blog_url": "https://blog.naver.com/sungdory/224359845988",
+  "blog_title": "에너지)어느 에너지 기업 컨센서스",
+  "title": "OSV 공급절벽 — Tidewater(TDW) 앵커 5종목 standalone 분석",
+  "theme": "OSV supply cliff / FPSO 생산지원 수요",
+  "tickers": [
+    "TDW",
+    "SEA1.OL",
+    "SOFF.OL",
+    "RIG",
+    "XES"
+  ],
+  "prior_coverage_check": {
+    "local_analysis_log": "0건 (TDW/OSV/PSV/AHTS/SEA1/SOFF 전무. 인접: 유조선 2건 — daegurrr_ 2026-03-01_tanker, ranto28 2026-05-25_oil_VLCC_tanker)",
+    "notion_stock_hub_db": "0건 (Tidewater·TDW·OSV·오프쇼어 미등록)",
+    "etf_coverage": "기존 ETF 분석 GDX·COPX·LIT 3건뿐 — 에너지서비스 ETF(OIH/XES) 없음. TDW는 XES 상위 편입, RIG는 OIH·PXJ·IEZ 상위 편입"
+  },
+  "identification_note": "⚠️ SOFF.OL = Solstad Offshore ASA. 오슬로에 Solstad Maritime ASA(SOMAO)가 별도 상장돼 있으며 2024년 구조조정으로 분리된 별개 법인임. 최초 작성 시 Solstad Maritime으로 오기했다가 yfinance longName ('Solstad Offshore ASA') 확인 후 2026-07-27 정정함. 또한 SEA1.OL의 법인명은 Sea1 Offshore Inc.임."
+}
