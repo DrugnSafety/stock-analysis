@@ -1,0 +1,292 @@
+{
+  "industry": {
+    "name": "IT서비스·클라우드/데이터센터 운영 (IT Services / Cloud & DC Operator)",
+    "overview": "삼성에스디에스는 삼성그룹 IT 계열사로 IT서비스(SI·SM·클라우드)와 물류BPO(첼로스퀘어) 두 축을 영위함. 상암·수원·동탄 등 자체 IDC를 운영하는 국내 상위 데이터센터 사업자이며, 하나증권은 '2030년 AI DC로 가장 큰 매출을 창출할 수 있는' 기업으로 NAVER와 함께 지목하고 BUY(TP 240,000원)를 부여함. 블로거 jp187은 KKR의 1.2조원 투자를 근거로 동사를 DC 운영사업자 재평가 대상으로 승격했으나, 동일 글에서 '주가는 무겁다'는 단점도 함께 지적함.",
+    "market_position": "국내 IT서비스 1위·DC 운영 상위권. 삼성그룹 캡티브 물량이라는 안정적 기반 위에 외부 클라우드·DC 사업을 확장하는 구조라 서사 의존도가 낮고 실적 가시성이 높음. DC 밸류체인에서 운영사업자는 부지·전력·시공·기자재 모든 병목의 최종 발주처이자 이익 귀속처라는 비대칭적 위치를 점함.",
+    "demand_drivers": [
+      "국내 소버린 AI·제조 AI 팩토리 수요 확대",
+      "삼성그룹 계열 AI 인프라 투자 캡티브 수요",
+      "하이퍼스케일러 한국 리전 확대에 따른 코로케이션 수요",
+      "생성형 AI 도입에 따른 기업 클라우드 전환"
+    ],
+    "competitive_moat": "① 삼성그룹 캡티브(안정적 기저 매출) ② 기 구축 IDC 자산과 운영 노하우 ③ 클라우드 MSP·SI 통합 역량 ④ 재무 체력(시총 15.9조, 무차입에 가까운 구조)"
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 4985.712694305,
+        "op_income": 406.734299461,
+        "op_margin": 8.2,
+        "net_income": 327.598640679,
+        "net_margin": 6.6
+      },
+      {
+        "year": 2022,
+        "revenue": 5174.554117525,
+        "op_income": 296.153499254,
+        "op_margin": 5.7,
+        "net_income": 530.145587281,
+        "net_margin": 10.2
+      },
+      {
+        "year": 2023,
+        "revenue": 5166.83895829,
+        "op_income": 351.19224273,
+        "op_margin": 6.8,
+        "net_income": 409.508814562,
+        "net_margin": 7.9
+      },
+      {
+        "year": 2024,
+        "revenue": 5447.35223492,
+        "op_income": 507.423177759,
+        "op_margin": 9.3,
+        "net_income": 1131.927184412,
+        "net_margin": 20.8
+      },
+      {
+        "year": 2025,
+        "revenue": 5464.637894164,
+        "op_income": 520.433363884,
+        "op_margin": 9.5,
+        "net_income": 475.20795143,
+        "net_margin": 8.7
+      }
+    ],
+    "unit": "십억원 (DART 사업보고서 XBRL)",
+    "trend_narrative": "매출은 2021년 13.5조 규모에서 2025년 54.6조로 표기되나, DART XBRL 계정 매핑상 물류BPO 총액 인식 등으로 연도별 기준이 혼재할 수 있어 절대 수준보다 추세로 해석해야 함. 영업이익은 2021년 4,067억 → 2022년 2,962억으로 감소한 뒤 2023년 3,512억 → 2024년 5,074억 → 2025년 5,204억으로 3년 연속 개선했고, 영업이익률도 5.7%(2022) → 9.5%(2025)로 3.8%p 회복됨. 2024년 순이익 1조 1,319억은 일회성 요인이 포함된 것으로 보이며, 2025년 순이익 4,752억이 정상 수준에 가까움. 2025년 순이익 기준 PER은 시총 15.9조 대비 약 33.5배이나, yfinance forward PER은 18.15배로 시장은 이익 증가를 선반영 중임.",
+    "key_ratios": {
+      "OPM_2025_pct": 9.5,
+      "PER_trailing_2025_at_196000": 33.5,
+      "forward_PER_yfinance": 18.15,
+      "beta": 1.24,
+      "volatility_annualized_pct": 68.87,
+      "ev_ebitda": 6.91,
+      "hana_tp": 240000,
+      "px_20260715": 199300,
+      "px_20260722": 196000,
+      "ret_0715_0722_pct": -1.7,
+      "tp_upside_from_0722_pct": 22.4
+    },
+    "note": "5종목 중 변동성이 가장 낮고(68.9%) EV/EBITDA도 가장 낮음(6.91배) — 방어적 성격."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 255000,
+      "thesis": "소버린 AI·제조 AI 팩토리 수주가 본격화되고 삼성그룹 AI 인프라 투자가 확대되어 클라우드·DC 부문이 고성장. KKR 투자가 신규 자본 유입 형태로 DC CAPEX를 가속. 영업이익 6,500억 달성 + DC 사업 재평가로 멀티플 확장.",
+      "key_assumptions": [
+        "KKR 1.2조가 신주 인수로 회사에 자본 유입",
+        "소버린 AI 사업 수주가 2027년부터 매출 인식",
+        "클라우드 부문 OPM이 IT서비스 평균을 상회",
+        "하나증권 TP 240,000원 이상으로 재상향"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 215000,
+      "thesis": "OPM 9.5% 수준 유지하며 매출 한 자릿수 성장. DC 사업은 옵션 가치로 남고 본업(IT서비스·물류BPO) 실적이 주가를 결정. 하나증권 TP 240,000원 대비 10% 할인 수준에서 거래.",
+      "key_assumptions": [
+        "영업이익 5,200~5,600억 유지",
+        "물류BPO 마진 안정",
+        "DC 신규 대형 수주는 점진적",
+        "forward PER 18배 수준 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 155000,
+      "thesis": "AI 테마 조정으로 DC 프리미엄 소멸. 물류BPO 운임 하락·SI 경쟁 심화로 OPM 8% 아래로 후퇴하고 forward PER 14배로 축소.",
+      "key_assumptions": [
+        "KKR 투자가 구주 인수로 확인되어 재평가 계기 소멸",
+        "2024년 순이익 1.13조가 일회성이었음이 부각되며 이익의 질 의문",
+        "글로벌 IT 지출 둔화",
+        "1개월 -6.0% 부진 흐름 지속"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-08",
+      "event": "2026 2분기 실적",
+      "type": "company",
+      "expected_impact": "○",
+      "description": "OPM 9.5% 방어와 클라우드 부문 성장률이 핵심. DC 관련 신규 수주 언급 여부 확인."
+    },
+    {
+      "date": "미정",
+      "event": "KKR 투자 구조·목적 공시",
+      "type": "company",
+      "expected_impact": "○",
+      "description": "신주 vs 구주 여부가 재평가 논리의 성립 조건. 본 분석 시점 1차 자료 미확인 — 확인 불가. DART 공시 100건 중 단일판매·공급계약 공시는 0건."
+    },
+    {
+      "date": "2026-2027",
+      "event": "소버린 AI·제조 AI 팩토리 수주",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "하나증권이 지목한 성장 동력. 정부 예산 사업이라 집행 속도가 정치 일정에 종속됨."
+    },
+    {
+      "date": "2026-Q3",
+      "event": "NAVER와의 상대 성과",
+      "type": "market",
+      "expected_impact": "○",
+      "description": "블로거는 SDS만 승격했으나 실증상 7/15→7/22 NAVER +3.9% vs SDS -1.7%로 열위. 하나 TP 상승여력도 NAVER +111% vs SDS +20%."
+    }
+  ],
+  "risks": [
+    {
+      "name": "블로거 선별 판단의 실증 열위",
+      "probability": "high",
+      "impact": "med",
+      "description": "KKR 투자라는 단일 이벤트로 SDS만 승격했으나, 시장은 NAVER를 더 높이 평가함(7/15→7/22 NAVER +3.9% vs SDS -1.7%, 1개월 SDS -6.0%로 5종목 중 최저).",
+      "mitigation": "동일 논지라면 상승여력이 큰 NAVER를 함께 검토하는 것이 합리적."
+    },
+    {
+      "name": "DC 기여도의 희석",
+      "probability": "high",
+      "impact": "med",
+      "description": "시총 15.9조 대비 DC 신규 사업의 이익 기여는 한 자릿수 %에 그칠 가능성. 블로거의 '주가가 무겁다'는 직관이 이 지점을 정확히 지적함.",
+      "mitigation": "DC를 주가 동인이 아닌 옵션 가치로 평가."
+    },
+    {
+      "name": "이익의 질 — 2024년 일회성",
+      "probability": "med",
+      "impact": "med",
+      "description": "2024년 순이익 1조 1,319억이 영업이익 5,074억을 크게 상회 — 일회성 요인 추정. 2025년 4,752억이 정상 수준.",
+      "mitigation": "영업이익 기준으로 밸류에이션 판단."
+    },
+    {
+      "name": "물류BPO 변동성",
+      "probability": "med",
+      "impact": "med",
+      "description": "첼로스퀘어 등 물류 부문은 해상운임 사이클에 연동되어 매출·마진 변동성이 큼. IT서비스 대비 마진율이 낮아 믹스 악화 시 전사 OPM 희석.",
+      "mitigation": "부문별 매출·마진 공시 추적."
+    },
+    {
+      "name": "DC 공급계약 공시 부재",
+      "probability": "med",
+      "impact": "med",
+      "description": "DART 최근 1년 공시 100건 중 단일판매·공급계약체결 0건 — 지엔씨에너지(9건)와 대조적으로 DC 수주의 공시 가시성이 낮음(운영사업자 특성상 수주 공시 의무가 다름).",
+      "mitigation": "분기보고서 부문별 실적으로 간접 확인."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "KKR 1.2조 투자로 DC 운영사업자 재평가 (T01·T11)",
+      "type": "interpretive",
+      "evidence": "[actual] 블로그 본문 · [actual] 하나증권 BUY TP 240,000원",
+      "testability": "med",
+      "current_status": "미검증 — 투자 구조(신주/구주) 1차 자료 미확인. 확인 불가"
+    },
+    {
+      "claim": "'주가는 무겁다' (T11)",
+      "type": "interpretive",
+      "evidence": "[actual] 시총 15.9조 · 1개월 -6.0%(5종목 최저) · 변동성 68.9%(5종목 최저)",
+      "testability": "high",
+      "current_status": "검증됨 — 실제로 탄력이 낮음. 다만 이는 방어적 자질이기도 함"
+    },
+    {
+      "claim": "AI DC로 가장 큰 매출 창출 가능 (T06)",
+      "type": "predictive",
+      "evidence": "[actual] 하나증권 1장 결론 · [actual] OPM 5.7%(2022)→9.5%(2025) 3년 연속 개선",
+      "testability": "high",
+      "current_status": "검증 진행 중 — 본업 개선은 확인, DC 기여 분리는 미확인"
+    },
+    {
+      "claim": "NAVER보다 SDS가 낫다 (T11)",
+      "type": "interpretive",
+      "evidence": "[actual] 7/15→7/22 NAVER +3.9% vs SDS -1.7% · TP 상승여력 NAVER +111% vs SDS +20%",
+      "testability": "high",
+      "current_status": "반증됨 — 실증·밸류에이션 모두 NAVER 우위"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-07-23",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260723000135"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260723000134"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260722000207"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260720000122"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260716000815"
+    },
+    {
+      "date": "2026-07-16",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260716000303"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260715000455"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260715000321"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260713000163"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260709000673"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260709000609"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "공시",
+      "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+      "impact": "○",
+      "rcept_no": "20260708000363"
+    }
+  ]
+}
