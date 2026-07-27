@@ -1,0 +1,148 @@
+{
+  "theme": "OSV 공급절벽 — FPSO 생산지원 수요 × 고사양 PSV/AHTS 유효공급 부족",
+  "perspective": "industry_expert_standalone",
+  "theses": [
+    {
+      "claim_id": "T1",
+      "claim": "OSV 유효공급은 구조적으로 제약돼 있음 — 가동 선대의 절반 이상이 선령 15년 초과, PSV·AHTS 평균 선령은 20년을 넘김. 그럼에도 2026년 해체(demolition)는 3척에 불과해 노후선이 폐선 대신 드라이독 후 계속 운항됨",
+      "type": "factual",
+      "timeframe": "short_term",
+      "_source": "industry_data",
+      "_evidence": [
+        "https://www.westwoodenergy.com/news/westwood-insight/westwood-insight-offshore-vessel-fleets-tighten-amid-sustained-supply-discipline",
+        "https://www.bairdmaritime.com/amp/story/offshore/opinion-offshore-vessel-fleets-tighten-amid-sustained-supply-discipline"
+      ],
+      "importance": "core",
+      "eval_confidence": 0.74
+    },
+    {
+      "claim_id": "T2",
+      "claim": "OSV 신조 오더북은 활성 선대 대비 3~4%로 과거 사이클 대비 극히 낮음 (Tidewater 컨콜 기준 134척 ≈ 현 선대의 3%, Westwood 기준 PSV+AHTS 합산 4%). 선가 급등으로 신조 경제성이 성립하지 않아 공급 반응이 지연됨",
+      "type": "factual",
+      "timeframe": "medium_term",
+      "_source": "industry_data",
+      "_evidence": [
+        "https://www.fool.com/earnings/call-transcripts/2026/05/05/tidewater-tdw-q1-2026-earnings-transcript/",
+        "https://www.indexbox.io/blog/offshore-support-vessel-market-fleet-operators-shift-strategy-amid-historic-asset-values-and-minimal-orderbook/"
+      ],
+      "importance": "core",
+      "eval_confidence": 0.8
+    },
+    {
+      "claim_id": "T3",
+      "claim": "평균 가동률(2026년 77% → 2027년 79%)은 오해를 부르는 지표임 — 2015~2023년 300척 이상이 해체·매각돼 북해 유효 가동선대가 2014년 피크 대비 30~40% 축소된 결과, dayrate는 이미 2013~2014년 피크 수준을 회복·돌파함(북해 대형 AHTS $35~55k/day, 4,000+DWT PSV $22~32k/day). 즉 '80% 임계 돌파 후 급등'이 아니라 '낮은 가동률에서 이미 급등이 일어난' 구조임",
+      "type": "factual",
+      "timeframe": "medium_term",
+      "_source": "industry_forecast",
+      "_evidence": [
+        "https://offshoreindustry.co.uk/north-sea-osv-market-2026-ahts-and-psv-rates-hold-firm-as-fleet-attrition-bites/",
+        "https://insights.clarksons.net/offshore-review-outlook/",
+        "승도리 텔레그램 뉴스클리핑(비공개 채널) 2026-06-09"
+      ],
+      "_revision": {
+        "revised_at": "2026-07-27",
+        "reason": "텔레그램 클리핑(Clarksons OSV Rate Index) + Offshore Expert 북해 dayrate 교차검증으로 최초 프레이밍(가동률 임계론) 폐기"
+      },
+      "importance": "core",
+      "eval_confidence": 0.76
+    },
+    {
+      "claim_id": "T4",
+      "claim": "이번 OSV 사이클의 수요 축은 해양시추 회복이 아니라 FPSO 생산지원임 — 남미(브라질·가이아나·수리남)가 2021~2030년 36개 프로젝트 $181B 규모 FPSO 파이프라인을 주도하며, Petrobras와 ExxonMobil이 지역 수요의 85% 이상을 차지함. FPSO 1척 증가는 일회성 설치 수요 + first oil 이후 장기 반복 보급 수요를 동시에 창출함",
+      "type": "factual",
+      "timeframe": "long_term",
+      "_source": "industry_data",
+      "_evidence": [
+        "https://oilnow.gy/news/guyana-brazil-suriname-to-lead-global-fpso-market-with-us181b-in-projects-through-2030-rystad-energy/",
+        "https://kaieteurnewsonline.com/2026/07/21/guyana-a-key-global-fpso-hotspot-rystad-report/"
+      ],
+      "importance": "core",
+      "eval_confidence": 0.75
+    },
+    {
+      "claim_id": "T5",
+      "claim": "Tidewater는 2026년 매출 가이던스 $1.43~1.48B 중 $1.1B(중간값의 84%)가 이미 백로그로 확정됐고 가용 운항일의 69%가 백로그·옵션으로 커버됨 — OSV는 스팟 노출 산업이 아니라 계약 가시성이 확보된 '수주형' 현금흐름 구조임",
+      "type": "factual",
+      "timeframe": "short_term",
+      "_source": "company_guidance",
+      "_evidence": [
+        "https://simplywall.st/stocks/us/energy/nyse-tdw/tidewater/news/why-tidewater-tdw-is-down-87-after-strong-2025-earnings-and"
+      ],
+      "importance": "core",
+      "eval_confidence": 0.79
+    },
+    {
+      "claim_id": "T6",
+      "claim": "Tidewater 2027년 EPS 컨센서스 $6.26(2026년 $3.37 대비 +86%)은 dayrate 상승과 가동률 80% 초과 상향을 동시에 가정한 값이며, 커버 애널리스트가 4~5명에 불과하고 추정 레인지가 $4.99~$7.62(±30%)로 넓어 컨센서스 자체의 신뢰구간이 낮음",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "_source": "consensus_data",
+      "_evidence": [
+        "yfinance earnings_estimate (2026-07-27 live fetch): +1y avg 6.2634 / low 4.99 / high 7.62 / n=5"
+      ],
+      "importance": "supporting",
+      "eval_confidence": 0.77
+    },
+    {
+      "claim_id": "T7",
+      "claim": "동일 사이클에 노출된 OSV 종목 간 밸류에이션 갭이 비정상적으로 큼 — TDW forward PE 12.5배 vs SEA1 7.1배, SOFF 4.9배. TDW 프리미엄이 선대 품질·미국 상장 유동성·지역 분산으로 정당화되는지, 아니면 노르웨이 종목의 할인이 더 큰 알파 기회인지가 이 테마의 핵심 판단 지점임",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "_source": "market_data",
+      "_evidence": [
+        "yfinance live fetch 2026-07-27: TDW fwdPE 12.54 / SEA1.OL 7.08 / SOFF.OL 4.91"
+      ],
+      "importance": "supporting",
+      "eval_confidence": 0.74
+    },
+    {
+      "claim_id": "T8",
+      "claim": "주가가 이미 업황을 상당 부분 반영했을 위험이 존재함 — 1년 수익률 RIG +75%, XES +64%, TDW +51%이며 TDW·RIG의 연변동성은 53%로 매우 높음. 유가 하락이나 오프쇼어 FID 지연 시 OSV dayrate는 후행적으로 급락하며, 베타 1.31의 RIG가 가장 취약함",
+      "type": "predictive",
+      "timeframe": "short_term",
+      "_source": "market_data",
+      "_evidence": [
+        "yfinance live fetch 2026-07-27: return_1y RIG +75.0% / XES +64.1% / TDW +51.3%, volatility TDW 53.4% RIG 53.4%"
+      ],
+      "importance": "supporting",
+      "eval_confidence": 0.73
+    },
+    {
+      "claim_id": "T9",
+      "type": "predictive",
+      "timeframe": "medium_term",
+      "_source": "telegram_clipping + industry_data",
+      "claim": "OSV 수요의 KEY FACTOR는 유가이며 임계선은 $60임 — 해양시추 보조 성격상 유가 $70 위에서 수요가 늘고 $60 밑에서 꺾이나, 심해 광구 중 BEP가 $60~70을 넘는 비중이 10% 미만이라 유가 $60 수준에서도 대부분의 심해 개발은 경제성이 성립함. 따라서 하방 임계는 통념보다 낮음",
+      "_evidence": [
+        "승도리 텔레그램 뉴스클리핑(비공개 채널) 2026-05-14 · 2026-05-19"
+      ],
+      "importance": "supporting",
+      "eval_confidence": 0.68
+    },
+    {
+      "claim_id": "T10",
+      "type": "predictive",
+      "timeframe": "long_term",
+      "_source": "telegram_clipping + macro",
+      "claim": "호르무즈 통과 물량이 전 세계 원유·가스 공급의 약 25%를 차지하는 구조적 취약성 때문에 아시아 국가들이 석유 수입 루트 다변화로 이동하고 있으며, 이는 브라질·아프리카·북미 심해 개발 수요를 지정학적으로 고착시킴 — OSV 수요의 하단을 유가 사이클과 부분적으로 분리하는 구조적 동인",
+      "_evidence": [
+        "승도리 텔레그램 뉴스클리핑(비공개 채널) 2026-07-12 · 2026-07-24"
+      ],
+      "importance": "supporting",
+      "eval_confidence": 0.64
+    },
+    {
+      "claim_id": "T11",
+      "type": "predictive",
+      "timeframe": "short_term",
+      "_source": "telegram_clipping",
+      "claim": "이 테마는 절대수익 베팅이 아니라 상대 로테이션 트레이드 성격이 강함 — 원 출처 채널조차 '석유 가격에는 절대 베팅하지 않는다'고 명시했고, OSV 편입 논리를 '탱커는 오더북이 높아 공급과잉 우려가 있으니 OSV·벌커·LPG선으로 로테이션'으로 제시함. 즉 OSV의 매력은 절대 밸류보다 탱커 대비 상대 오더북 우위에서 나옴",
+      "_evidence": [
+        "승도리 텔레그램 뉴스클리핑(비공개 채널) 2026-06-09 · 2026-06-12"
+      ],
+      "importance": "supporting",
+      "eval_confidence": 0.67
+    }
+  ],
+  "revision_note": "2026-07-27 텔레그램 클리핑 반영 — T3 전면 개정(가동률 임계론 폐기), T9·T10·T11 신설"
+}
