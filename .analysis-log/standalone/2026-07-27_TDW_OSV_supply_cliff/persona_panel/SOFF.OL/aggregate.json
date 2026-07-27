@@ -1,0 +1,470 @@
+{
+  "ticker": "SOFF.OL",
+  "aggregated_at": "2026-07-28T02:54:03.532558+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 2,
+      "pct": 11.8
+    },
+    "lean_bullish": {
+      "count": 15,
+      "pct": 88.2
+    }
+  },
+  "average_confidence": 0.759,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "리스크",
+      "frequency": 14,
+      "personas": [
+        "ben-graham",
+        "cliff-asness",
+        "aswath-damodaran",
+        "stanley-druckenmiller",
+        "michael-burry",
+        "rakesh-jhunjhunwala",
+        "peter-lynch",
+        "charlie-munger",
+        "cathie-wood",
+        "ray-dalio",
+        "mohnish-pabrai",
+        "bill-ackman",
+        "phil-fisher",
+        "warren-buffett"
+      ],
+      "examples": [
+        "CSV 공급 증가 리스크",
+        "CSV 공급 증가로 인한 리스크",
+        "CSV 공급 증가 리스크"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 연간 변동성",
+        "높은 EV/EBITDA"
+      ],
+      "key_opportunities_top3": [
+        "낮은 forward P/E",
+        "모멘텀 신호 포착"
+      ],
+      "uncertainty": "FPSO 프로젝트의 실제 지연 및 macroeconomic tightening으로 인한 시장 변동성이 높아지면 verdict가 바뀔 가능성이 있음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가 리스크",
+        "일부 low beta로 의한 저평가 가능성"
+      ],
+      "key_opportunities_top3": [
+        "Petrobras 수주 수혜",
+        "FPSO 설치 수요"
+      ],
+      "uncertainty": "CSV 부문 공급 과다 또는 시장 수요 감소 시 리스크가 증가할 수 있음",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가로 인한 리스크",
+        "낮은 가동률이 지속될 가능성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가로 인한 장기적 수익 개선",
+        "OSV 공급 절벽으로 인한 잠재적 가격 상승"
+      ],
+      "uncertainty": "FPSO 프로젝트가 예상 수요를 충족하지 못하면 현재의 긍정적 전망이 훼손될 수 있음.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "글로벌 경기 침체가 심해질 경우",
+        "CSV 공급 증가 리스크"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 산업의 성장",
+        "해양 생산지원 수요의 증가"
+      ],
+      "uncertainty": "글로벌 경제적 요인이 크게 악화되면 SOFF.OL의 높은 변동성이 부정적으로 작용할 수 있음",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가 리스크",
+        "해양 서비스 산업의 변동성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 프로젝트 확대",
+        "브라질과 가이아나의 지속적 수요"
+      ],
+      "uncertainty": "FPSO 프로젝트의 수요 증가가 예상보다 지연되거나 감소하면 판단이 뒤집힐 수 있음.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가 리스크",
+        "높은 EV/EBITDA에 따른 재무 안정성 우려"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가로 장기 OSV 수요 확대",
+        "전세계 해양 생산 지역에서의 서비스를 통한 지속적 매출 성장"
+      ],
+      "uncertainty": "선박 공급 절벽이 예상보다 빨리 완화되거나 주요 고객(FPSO 운영사)에서 대규모 프로젝트 취소가 발생하면 판단이 바뀔 수 있습니다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 선박 공급 증가로 인한 가능성 있는 경쟁",
+        "지역 내 고객의 집중도가 증가할 경우 리스크"
+      ],
+      "key_opportunities_top3": [
+        "FPSO와 subsea 시장의 지속적인 성장",
+        "거시 환경 변화로 인한 dayrate 증가"
+      ],
+      "uncertainty": "만약 OSV 공급망 제한이 완화되거나 FPSO 프로젝트 지연 발생 시 verdict가 뒤집힐 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가에 따른 리스크",
+        "해양 생산 지원 수요 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가로 인한 장기 수익성 가능성",
+        "Petrobras와 같은 대형 고객 확보"
+      ],
+      "uncertainty": "OSV 수요 증가 예상이 틀리거나 FPSO 배치가 지연될 경우 판단이 뒤집힐 수 있습니다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가 리스크",
+        "일부 지역에서의 비대칭 공급 악화"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가에 따른 장기 수익 기회",
+        "브라질·가이아나등 신규 프로젝트에 따른 지역적 강세"
+      ],
+      "uncertainty": "FPSO 수요 증가와 공급절벽 테마가 약화되거나 반전될 경우, 투자 테마의 매력이 급감할 수 있음",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가 리스크",
+        "Petrobras의 수요 과집중"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 지원에 따른 지속적 고객 유입",
+        "고사양 OSV의 제한적 공급"
+      ],
+      "uncertainty": "FPSO 프로젝트가 지연되거나 취소될 경우 수익성에 영향을 미칠 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 공급 과잉 우려",
+        "Petrobras 집중 리스크"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가에 따른 장기 계약 강화",
+        "고사양 OSV에 대한 독점적 수요"
+      ],
+      "uncertainty": "장기 계약이 종료되거나 시장 조건이 악화될 경우, 이 회사의 경쟁 우위가 약화될 수 있음",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가 리스크",
+        "낮은 베타가 저유동성에서 기인할 가능성"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 급증",
+        "OSV 수요에 대한 공급 절벽"
+      ],
+      "uncertainty": "OSV 수요가 예상과 다르게 감소할 경우 또는 새로운 경쟁자가 시장에 진입할 경우, 저평가 근거가 약화될 수 있습니다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가로 인한 위험",
+        "FPSO 공급 계약 집중으로 인한 위험"
+      ],
+      "key_opportunities_top3": [
+        "Petrobras subsea 수요 증가",
+        "고사양 OSV 부문에서의 포지셔닝"
+      ],
+      "uncertainty": "Petrobras와 Exxon에 대한 수요 의존성의 변화가 생기면 위험 급증",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가는 리스크로 작용할 수 있다.",
+        "베타가 저평가되어 장기 투자에 적합한지 평가 필요"
+      ],
+      "key_opportunities_top3": [
+        "Petrobras subsea 수요 수혜",
+        "FPSO 통한 장기 수익성 개선"
+      ],
+      "uncertainty": "FPSO 수요가 실현되지 않거나 CSV 공급 과잉이 현실화되면 verdict가 바뀔 수 있습니다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CSV 공급 증가 리스크",
+        "브라질 및 가이아나 수요에 대한 높은 의존도"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 생산 지원 수요의 장기적 확대",
+        "Petrobras subsea 프로젝트 수혜"
+      ],
+      "uncertainty": "FPSO 채택의 지연이나 OSV 부문 내 공급 증가가 발생하면 Verdict가 변동될 수 있음",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "FPSO 생산지원 수요가 예상대로 증가하지 않을 경우",
+        "CSV의 공급 증가 리스크"
+      ],
+      "key_opportunities_top3": [
+        "Petrobras subsea 수요 증가",
+        "FPSO 생산 운영 증가로 장기 수익성 개선"
+      ],
+      "uncertainty": "FPSO 설치 및 시운전 프로젝트가 지연 또는 취소될 경우 계획된 성장의 기반이 흔들릴 수 있으며, 이는 결과적으로 verdict를 뒤집을 수 있습니다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Petrobras의 높은 의존도",
+        "해양 플랫폼에 대한 증가하는 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "FPSO 수요 증가로 인한 장기 계약 확대",
+        "CSV 시장 내 존재하는 다양한 옵션성"
+      ],
+      "uncertainty": "Petrobras와 같은 주요 고객의 수요 감소 시, SOFF의 수익성이 영향을 받을 수 있음",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
