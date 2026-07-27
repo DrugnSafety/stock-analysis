@@ -1,0 +1,111 @@
+{
+  "computed_at": "2026-07-28T02:55:46.464654+09:00",
+  "start_cash": 1000000.0,
+  "start_date": "2026-07-27",
+  "end_date": "2026-07-27",
+  "n_decisions": 5,
+  "total_trades": 5,
+  "total_buy_value": 672519.09,
+  "total_sell_value": 0.0,
+  "final_cash": 327480.91,
+  "end_positions_value": 672528.65,
+  "final_nav": 1000009.56,
+  "total_return_pct": 0.001,
+  "final_positions": {
+    "RIG": {
+      "qty": 13642,
+      "avg_cost": 5.29,
+      "last_price": 5.3,
+      "market_value": 72234.39,
+      "unrealized_pnl": 9.55,
+      "unrealized_return_pct": 0.01
+    },
+    "SEA1.OL": {
+      "qty": 7772,
+      "avg_cost": 26.7,
+      "last_price": 26.7,
+      "market_value": 207512.41,
+      "unrealized_pnl": 0.01,
+      "unrealized_return_pct": 0.0
+    },
+    "SOFF.OL": {
+      "qty": 2293,
+      "avg_cost": 67.8,
+      "last_price": 67.8,
+      "market_value": 155465.41,
+      "unrealized_pnl": 0.01,
+      "unrealized_return_pct": 0.0
+    },
+    "TDW": {
+      "qty": 1974,
+      "avg_cost": 78.68,
+      "last_price": 78.68,
+      "market_value": 155314.32,
+      "unrealized_pnl": 0.0,
+      "unrealized_return_pct": 0.0
+    },
+    "XES": {
+      "qty": 742,
+      "avg_cost": 110.52,
+      "last_price": 110.51,
+      "market_value": 82002.13,
+      "unrealized_pnl": -0.0,
+      "unrealized_return_pct": -0.0
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-07-27",
+      "ticker": "RIG",
+      "action": "buy",
+      "qty": 13642,
+      "price": 5.2943,
+      "cost": 72224.84,
+      "cash_after": 927775.16
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "SEA1.OL",
+      "action": "buy",
+      "qty": 7772,
+      "price": 26.7,
+      "cost": 207512.4,
+      "cash_after": 720262.76
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "SOFF.OL",
+      "action": "buy",
+      "qty": 2293,
+      "price": 67.8,
+      "cost": 155465.4,
+      "cash_after": 564797.36
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "TDW",
+      "action": "buy",
+      "qty": 1974,
+      "price": 78.68,
+      "cost": 155314.32,
+      "cash_after": 409483.04
+    },
+    {
+      "date": "2026-07-27",
+      "ticker": "XES",
+      "action": "buy",
+      "qty": 742,
+      "price": 110.515,
+      "cost": 82002.13,
+      "cash_after": 327480.91
+    }
+  ],
+  "benchmark_comparison": {
+    "SPY": {
+      "start_price": 737.43,
+      "end_price": 737.43,
+      "return_pct": 0.0,
+      "alpha_pct": 0.001
+    }
+  }
+}
