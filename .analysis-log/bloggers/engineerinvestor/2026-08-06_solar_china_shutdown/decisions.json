@@ -1,0 +1,173 @@
+{
+  "computed_at": "2026-08-07T00:51:35.338348+09:00",
+  "ledger_path": ".analysis-log/bloggers/engineerinvestor/2026-08-06_solar_china_shutdown/ledger.jsonl",
+  "risk_limits_path": ".analysis-log/bloggers/engineerinvestor/2026-08-06_solar_china_shutdown/risk_limits.json",
+  "n_decisions": 5,
+  "decisions": [
+    {
+      "ticker": "009830.KS",
+      "date": "2026-08-06",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.62,
+          "weight": 1.2,
+          "score_contribution": 0.521
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000,
+      "target_quantity": 180,
+      "current_price": 30400.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 1.0272,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입 → [dual_judge 보수 종합] 사이즈 50% 축소 분할 진입 (232 결정 전 리스크 관리)",
+      "dual_judge": {
+        "fable_verdict": "buy (signal +0.70, 한도까지 진입)",
+        "codex_verdict": "hold (conf 0.94) — 매수 방향과 금액 한도는 대체로 부합하나 고변동성·퀀트 약세·체크리스트 부재에도 단일 페르소나만 반영해 한도까지 진입하며 weighted_confidence 1.0과 max_quantity 0도 모순이라 축소·재검토 필요함",
+        "resolution": "disagree → 보수적 종합: 매수 방향 유지하되 사이즈 50% 축소(분할 진입). 근거 — codex 공통 지적: 단일 thesis-first verdict 기반 풀 한도 진입은 고변동성(87~142%)·232 바이너리 이벤트 앞에서 과도. 페르소나 17명 다수 강세(11~15명 lean_bullish)는 방향을 지지하므로 hold 전환 대신 축소 진입 채택",
+        "model": "codex/gpt-5.6-sol"
+      }
+    },
+    {
+      "ticker": "010060.KS",
+      "date": "2026-08-06",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.66,
+          "weight": 1.2,
+          "score_contribution": 0.554
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000,
+      "target_quantity": 22,
+      "current_price": 244000.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 1.4115,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입 → [dual_judge 보수 종합] 사이즈 50% 축소 분할 진입 (232 결정 전 리스크 관리)",
+      "dual_judge": {
+        "fable_verdict": "buy (signal +0.70, 한도까지 진입)",
+        "codex_verdict": "hold (conf 0.91) — 다수 페르소나는 강세이나 고변동 종목을 단일 verdict만 반영해 한도까지 매수했고 K-Guru 체크리스트 충족 근거도 없어 축소·재검토 필요함",
+        "resolution": "disagree → 보수적 종합: 매수 방향 유지하되 사이즈 50% 축소(분할 진입). 근거 — codex 공통 지적: 단일 thesis-first verdict 기반 풀 한도 진입은 고변동성(87~142%)·232 바이너리 이벤트 앞에서 과도. 페르소나 17명 다수 강세(11~15명 lean_bullish)는 방향을 지지하므로 hold 전환 대신 축소 진입 채택",
+        "model": "codex/gpt-5.6-sol"
+      }
+    },
+    {
+      "ticker": "322000.KS",
+      "date": "2026-08-06",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.58,
+          "weight": 1.2,
+          "score_contribution": 0.487
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000,
+      "target_quantity": 41,
+      "current_price": 134000.0,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 1.4169,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입 → [dual_judge 보수 종합] 사이즈 50% 축소 분할 진입 (232 결정 전 리스크 관리)",
+      "dual_judge": {
+        "fable_verdict": "buy (signal +0.70, 한도까지 진입)",
+        "codex_verdict": "hold (conf 0.96) — 강한 페르소나 강세 합의는 매수를 지지하나 K-Guru 체크리스트 근거가 없고 단일 저신뢰 판정·연환산 변동성 141.69%에도 한도까지 진입해 축소·재검토 필요함",
+        "resolution": "disagree → 보수적 종합: 매수 방향 유지하되 사이즈 50% 축소(분할 진입). 근거 — codex 공통 지적: 단일 thesis-first verdict 기반 풀 한도 진입은 고변동성(87~142%)·232 바이너리 이벤트 앞에서 과도. 페르소나 17명 다수 강세(11~15명 lean_bullish)는 방향을 지지하므로 hold 전환 대신 축소 진입 채택",
+        "model": "codex/gpt-5.6-sol"
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "date": "2026-08-06",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.7,
+          "weight": 1.1,
+          "score_contribution": 0.539
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000,
+      "target_quantity": 15,
+      "current_price": 248.63,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 0.6233,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입 → [dual_judge 보수 종합] 사이즈 50% 축소 분할 진입 (232 결정 전 리스크 관리)",
+      "fx_note": "KRW 포트폴리오 기준 — 한도 11,000,000 KRW ≈ $7,733 (USDKRW 1,422.4 live), qty 재계산",
+      "dual_judge": {
+        "fable_verdict": "buy (signal +0.70, 한도까지 진입)",
+        "codex_verdict": "hold (conf 0.98) — FSLR의 구체적 action·size와 해당 리스크 한도·K-Guru 체크리스트가 누락되어 정합성 및 실행 가능 여부를 검증할 수 없음",
+        "resolution": "disagree → 보수적 종합: 매수 방향 유지하되 사이즈 50% 축소(분할 진입). 근거 — codex 공통 지적: 단일 thesis-first verdict 기반 풀 한도 진입은 고변동성(87~142%)·232 바이너리 이벤트 앞에서 과도. 페르소나 17명 다수 강세(11~15명 lean_bullish)는 방향을 지지하므로 hold 전환 대신 축소 진입 채택",
+        "model": "codex/gpt-5.6-sol"
+      }
+    },
+    {
+      "ticker": "NXT",
+      "date": "2026-08-06",
+      "n_verdicts": 1,
+      "verdict_breakdown": {
+        "lean_bullish": 1
+      },
+      "signal_score": 0.7,
+      "weighted_confidence": 1.0,
+      "persona_contributions": {
+        "thesis-first": {
+          "verdict": "lean_bullish",
+          "confidence": 0.55,
+          "weight": 1.1,
+          "score_contribution": 0.424
+        }
+      },
+      "action": "buy",
+      "size_factor": 0.5,
+      "target_value": 5500000,
+      "target_quantity": 39,
+      "current_price": 98.79,
+      "position_limit_value": 11000000.0,
+      "annualized_volatility": 0.8155,
+      "reasoning": "강한 매수 신호 (+0.70), 한도까지 진입 → [dual_judge 보수 종합] 사이즈 50% 축소 분할 진입 (232 결정 전 리스크 관리)",
+      "fx_note": "KRW 포트폴리오 기준 — 한도 11,000,000 KRW ≈ $7,733 (USDKRW 1,422.4 live), qty 재계산",
+      "dual_judge": {
+        "fable_verdict": "buy (signal +0.70, 한도까지 진입)",
+        "codex_verdict": "hold (conf 0.99) — NXT 결정 내용과 NXT별 리스크 한도가 제시되지 않아 페르소나 합의와의 정합성 및 실행 가능 규모를 검증할 수 없으므로 재검토 필요함",
+        "resolution": "disagree → 보수적 종합: 매수 방향 유지하되 사이즈 50% 축소(분할 진입). 근거 — codex 공통 지적: 단일 thesis-first verdict 기반 풀 한도 진입은 고변동성(87~142%)·232 바이너리 이벤트 앞에서 과도. 페르소나 17명 다수 강세(11~15명 lean_bullish)는 방향을 지지하므로 hold 전환 대신 축소 진입 채택",
+        "model": "codex/gpt-5.6-sol"
+      }
+    }
+  ],
+  "fx_rate_usdkrw": 1422.42,
+  "dual_judge_applied": true,
+  "dual_judge_note": "CLAUDE.md 3a-2 트리거 #3 — R3 직전 codex second-opinion 실행. 5종목 전부 codex=hold(축소·재검토) vs fable=buy → 보수적 종합으로 전 종목 사이즈 50% 축소"
+}
