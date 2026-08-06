@@ -1,0 +1,226 @@
+{
+  "industry": {
+    "name": "유틸리티급 태양광 트래커 (Utility-Scale Solar Tracker) — 설치량 볼륨 플레이",
+    "overview": "넥스트래커(2026년 사명 변경: Nextpower Inc., NASDAQ: NXT)는 유틸리티급 태양광 발전소의 패널을 태양 궤적에 따라 회전시키는 단축 트래커 세계 1위 업체임. 트래커는 고정형 대비 발전량을 15~25% 늘려주는 필수 BOS(Balance of System) 장비로, 매출이 '어느 모듈이 팔리는가'가 아니라 '몇 GW가 설치되는가'에 연동됨. 즉 중국 모듈 가격 전쟁·232조 관세로 모듈 판도가 어떻게 갈리든, 미국 유틸리티급 설치 GW가 늘면 수혜를 보는 순수 볼륨 플레이 구조임. Wood Mackenzie 기준 2024년 출하 28.5GW·글로벌 점유율 약 26%로 10년 연속 세계 1위였고, 2025년 상반기 랭킹에서도 1위 유지(2위 Trina Tracker, 3위 Array Technologies). 미국 내수 시장에서는 NXT·GameChange·Array 상위 3사가 90% 이상을 점유하는 과점 구조임(출처: pv-magazine 2025-06-13, solarpowerworldonline 2026-02).",
+    "market_position": "글로벌 1위(10년 연속)·미국 1위. 미국 매출 비중이 압도적이며 FY2026 2Q 미국 매출 YoY +49% 성장. 미국 내 강재 조달·현지 생산 파트너망을 갖춰 도메스틱 콘텐츠(국내산 비중) 보너스 ITC 요건 충족에 유리 — 중국 밖 공급망이라는 이번 블로그 thesis의 수혜 조건에 부합함. 소프트웨어(TrueCapture 발전량 최적화)·파운데이션(지반 기초)·모듈 프레임(Origami Solar 인수)·ESS(Prevalon 인수, 2026-07 완료)로 트래커 밖 플랫폼 확장 중.",
+    "demand_drivers": [
+      "미국 유틸리티급 태양광 신규 설치 2026년 43.4GW 전망 — YoY +60%, 종전 기록(2024년) 대비 +12GW 사상 최대 (EIA, pv-tech 2026-02)",
+      "AI 데이터센터 전력수요 → 하이퍼스케일러 태양광 PPA 급증: TotalEnergies-Google 1GW(텍사스, 2026-02), Enlight-Google 200MW(오클라호마, 2026-05), Meta 600MW Clear Fork 등. 빅4가 글로벌 청정전력 구매계약의 약 절반 차지 (BNEF 2026-02)",
+      "OBBBA safe-harbor 착공 러시 — 2026-07-04 마감 전 216~240GWdc가 착공 요건 확보(Wood Mackenzie 추정). 착공 후 4년 내 완공 시 ITC 유지 → 2026H2~2029년까지 트래커 납품으로 순차 전환되는 이연 수요 풀",
+      "가스터빈 리드타임 5~7년·원전 10년+ 대비 태양광 1년 — 데이터센터 전력의 시간적 대체재 부재 (블로그 T05)",
+      "미국 외: 인도·중동(사우디 PIF 41GW)·유럽 유틸리티급 파이프라인 — NXT는 FY2026 2Q 유럽 수주 사상 최대 기록"
+    ],
+    "competitive_moat": "10년 1위의 설치 트랙레코드(누적 100GW+)와 금융기관·EPC의 뱅커빌리티(bankability) 요구가 사실상의 진입장벽. TrueCapture 소프트웨어·NX Horizon 제품군의 스위칭 비용, 미국 현지 강재 가공 파트너망(도메스틱 콘텐츠 대응)이 Array·GameChange·중국계(Trina·Arctech) 대비 우위. 다만 트래커는 철강 구조물 기반이라 기술 격차의 절대치가 크지 않아 가격 경쟁 압력은 상존함."
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "FY2023(2023.3)",
+        "revenue": 1902.1,
+        "op_income": 168.5,
+        "op_margin": 8.9,
+        "net_income": 118.9,
+        "net_margin": 6.3
+      },
+      {
+        "year": "FY2024(2024.3)",
+        "revenue": 2499.8,
+        "op_income": 587.1,
+        "op_margin": 23.5,
+        "net_income": 306.2,
+        "net_margin": 12.2
+      },
+      {
+        "year": "FY2025(2025.3)",
+        "revenue": 2959.2,
+        "op_income": 639.1,
+        "op_margin": 21.6,
+        "net_income": 509.2,
+        "net_margin": 17.2
+      },
+      {
+        "year": "FY2026(2026.3)",
+        "revenue": 3559.4,
+        "op_income": 697.3,
+        "op_margin": 19.6,
+        "net_income": 585.9,
+        "net_margin": 16.5
+      }
+    ],
+    "unit": "백만 USD ($M, yfinance 연결 손익계산서)",
+    "data_limitation": "회계연도가 3월 말 종료(FY2026 = 2025.4~2026.3)임에 유의. 2023년 2월 IPO(Flex에서 분사)로 yfinance상 FY2023 이전 연도는 결측 — 5개년 대신 4개년(FY2023~FY2026)만 확보됨. FY2024 순이익 306.2M은 up-C 구조 소수지분(-190M) 차감 후 지배주주 귀속 기준이라 연도 간 순이익률 비교에 왜곡이 있음(소수지분 포함 시 496.2M). 최신 분기(FY2027 1Q, 2026.6)는 연간 표에 미포함 — trend_narrative에 별도 기술.",
+    "trend_narrative": "4개년 추세는 '고성장 → 고수익 안착 → 성장 감속' 3단계임. 매출은 FY2023 $1,902M → FY2026 $3,559M으로 3년 CAGR +23.2%, 영업이익률은 IPO 직전 8.9%에서 FY2024 23.5%로 점프한 뒤 19~22%대에 안착함(강재 가격 안정 + 규모의 경제 + TrueCapture 등 고마진 믹스). 순이익은 FY2026 $586M, 조정 EBITDA $747M. 재무 체력도 견고 — 현금 $1,214M vs 총부채 $38M로 사실상 무차입(yfinance 2026-08-06). 단 최신 분기인 FY2027 1Q(2026.6 종료, 7/30 발표)는 매출 $935M로 YoY +8%에 그쳐 FY2026 연간 +20%에서 뚜렷이 감속함 — 성장률 둔화가 시작됐다는 신호이나, 백로그는 $5.5B+로 사상 최대를 경신했고(FY2026말 $5.25B → 1Q $5.5B+, Prevalon 인수분 $300M+ 별도) FY2027 가이던스를 상향함(Businesswire 2026-07-30). 현 주가 $98.12 기준 trailing PER 25.4배·forward PER 16.9배·EV/EBITDA 18.7배 — forward 기준으로는 성장 감속을 상당 부분 반영한 수준이나, 베타 1.95·연환산 변동성 66.8%로 가격 변동은 큼.",
+    "key_ratios": {
+      "revenue_cagr_fy23_26_pct": 23.2,
+      "opm_fy2026_pct": 19.6,
+      "adj_ebitda_fy2026_musd": 747.1,
+      "backlog_q1fy27_busd": 5.5,
+      "net_cash_musd": 1175.5,
+      "trailing_pe": 25.36,
+      "forward_pe": 16.94,
+      "ev_ebitda": 18.65,
+      "px_anchor_20260806": 98.12
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "target_price": 135,
+      "thesis": "safe-harbor로 착공 요건을 확보한 216~240GWdc가 4년 완공 창구(~2030) 동안 실제 설치로 전환되며 미국 유틸리티급 볼륨이 2027년 이후에도 고원 유지. AI DC PPA가 구조적 수요로 확인되고 백로그 $6B+ 경신, Prevalon(ESS)·Origami(프레임)로 GW당 매출액(content per GW) 확대. FY2028 EPS $6.7에 성장 프리미엄 PER 20배 적용 → $134.",
+      "key_assumptions": [
+        "safe-harbor 물량의 설치 전환율이 높아 2027~2028년 미국 설치가 절벽 없이 30GW+ 수준 유지",
+        "AI capex 사이클이 최소 2028년까지 지속되고 하이퍼스케일러 태양광 PPA 체결 흐름 계속",
+        "백로그 → 매출 전환 마진(EBITDA 20%+) 유지, 강재 관세 원가를 가격에 전가",
+        "ESS·프레임 등 플랫폼 매출이 트래커 감속을 상쇄"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 105,
+      "thesis": "2026년 43.4GW 설치 붐의 트래커 발주는 이미 백로그에 반영됐고, FY2027 매출은 한 자릿수 후반 성장(1Q +8%가 대표치). 2027년 설치는 감소하나(Wood Mackenzie 2025~2027 연평균 -7%) safe-harbor 이연 물량이 완충해 급락은 아님. FY2027 EPS $5.8~6.0에 PER 17~18배 → $100~108. 현 주가 대비 상방 제한적 — 볼륨 붐은 인정하되 상당 부분 기반영.",
+      "key_assumptions": [
+        "FY2027 매출 성장 +5~10%, EBITDA 마진 20% 내외 유지",
+        "2027년 미국 설치 감소폭이 -10~-20% 수준에 그침(safe-harbor 완충)",
+        "232조 모듈 가격 하한이 프로젝트 경제성을 훼손할 만큼 강하지 않음",
+        "forward PER 17배 수준의 멀티플 유지"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 60,
+      "thesis": "43.4GW는 ITC 일몰 전 pull-forward의 정점이고, 2027년 이후 미국 설치 절벽이 현실화(48E/45Y 크레딧 2027년 이후 소멸, 2027-07-04 이후 착공분은 2027년 말까지 가동 의무). 백로그 전환이 지연·취소되고 Q1 FY27 +8%가 마이너스 성장으로 뒤집힘. AI capex 조정이 겹치면 FY2028 EPS $4.5에 PER 13배 → $58. 베타 1.95 종목의 되돌림은 통상 지수 대비 2배.",
+      "key_assumptions": [
+        "2027~2028년 미국 유틸리티급 설치가 30% 이상 감소(Wood Mackenzie 2027 전망 -10% 하향 방향의 심화)",
+        "safe-harbor 물량 중 상당수가 금융조달·계통접속 실패로 완공 미달",
+        "232조 가격 하한 + 강재 50% 관세로 프로젝트 CAPEX 상승 → 개발사 IRR 훼손 → 발주 취소",
+        "AI 데이터센터 capex 사이클 둔화로 PPA 수요 위축"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-10 말",
+      "event": "FY2027 2Q 실적 · 백로그 발표",
+      "type": "company",
+      "expected_impact": "○",
+      "description": "1Q +8% 성장 감속이 일시적인지 추세인지 판별하는 첫 시험대. 백로그 $5.5B+의 증가 지속 여부와 safe-harbor 착공 물량의 발주 전환 속도가 관건. 직전 분기(7/30)는 EPS $1.20으로 컨센서스 +20% 상회하며 FY2027 가이던스 상향 (Businesswire 2026-07-30)."
+    },
+    {
+      "date": "2026-08",
+      "event": "232조 폴리실리콘~모듈 조사 결정 (간접 수혜/리스크)",
+      "type": "policy",
+      "expected_impact": "○",
+      "description": "NXT는 모듈을 만들지 않아 직접 대상이 아님. 모듈 가격 하한($0.20/W)이 도입되면 프로젝트 원가가 올라 설치 볼륨에 부(-)의 압력이나, 미국 내 공급망 프리미엄 구조가 굳어지면 도메스틱 콘텐츠 강점을 가진 NXT의 상대 우위는 강화 — 양방향 노출임."
+    },
+    {
+      "date": "2026H2-2028",
+      "event": "safe-harbor 착공 러시 물량의 트래커 발주 전환",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "2026-07-04 마감 전 216~240GWdc가 착공 요건 확보(Wood Mackenzie). 착공 후 4년 내 완공 조건이라 2027~2029년에 걸쳐 트래커 발주로 순차 전환 — 2027년 설치 절벽論의 핵심 완충재 (solarquarter 2026-04-03, solarpowerworldonline 2026-05)."
+    },
+    {
+      "date": "2026-2027",
+      "event": "하이퍼스케일러 데이터센터 태양광 PPA 대형 계약",
+      "type": "industry",
+      "expected_impact": "+",
+      "description": "TotalEnergies-Google 1GW(텍사스), Enlight-Google 200MW(오클라호마), Meta-Enbridge 600MW 등 2026년 들어 기가와트급 계약 연쇄. 빅4 하이퍼스케일러가 글로벌 청정전력 구매의 약 절반 — 유틸리티급 프로젝트의 장기 오프테이크 가시성을 높여 트래커 수요의 질을 개선 (pv-magazine-usa 2026-03-13)."
+    },
+    {
+      "date": "2026-07 완료 · 이후 통합",
+      "event": "Prevalon(ESS) 인수 완료 + Origami Solar(모듈 프레임) 등 플랫폼 확장",
+      "type": "company",
+      "expected_impact": "+",
+      "description": "Prevalon 인수로 백로그 $300M+ 추가(2026-07 클로징). 트래커 단품에서 파운데이션·프레임·ESS·TrueCapture 소프트웨어로 GW당 매출액을 늘리는 전략 — 설치 GW 성장이 감속해도 매출을 방어하는 두 번째 축."
+    },
+    {
+      "date": "2027-07-04",
+      "event": "착공 마감 1년 후 — 2028년 이후 설치 파이프라인 가시화",
+      "type": "policy",
+      "expected_impact": "○",
+      "description": "이 시점까지 백로그·수주가 유지되면 '절벽이 아니라 고원' 시나리오 확정. 반대로 수주 급감 시 bear 시나리오 트리거."
+    }
+  ],
+  "risks": [
+    {
+      "name": "2027년 이후 미국 설치 절벽 (ITC 일몰)",
+      "probability": "med",
+      "impact": "high",
+      "description": "OBBBA로 48E/45Y 세액공제가 사실상 일몰 — 2026-07-04 이후 착공 프로젝트는 2027년 말까지 가동해야 크레딧 수령. Wood Mackenzie는 2025~2030년 미국 태양광 시장 연평균 -2% 축소, 2025~2027년 설치 연평균 -7% 감소를 전망하고 2027년 전망을 -10% 하향함. 2026년 43.4GW가 pull-forward 정점일 위험 — 블로그 T06의 핵심 반론 (woodmac.com, pv-magazine-usa 2026-02-18).",
+      "mitigation": "safe-harbor 216~240GWdc의 4년 완공 창구가 완충. 분기 백로그·북투빌 추적으로 절벽 조기 감지."
+    },
+    {
+      "name": "성장 감속 이미 시작 — Q1 FY27 +8%",
+      "probability": "high",
+      "impact": "med",
+      "description": "FY2026 연간 매출 +20%에서 FY2027 1Q +8%로 뚜렷한 감속(2026-07-30 실적). 백로그는 늘지만 매출 전환 속도가 둔화되면 forward PER 16.9배의 전제(EPS $5.79)가 흔들림.",
+      "mitigation": "가이던스 상향이 동반된 감속인지(믹스 개선) 분기별 확인. 2Q 실적이 분수령."
+    },
+    {
+      "name": "경쟁 심화 — Array·GameChange·중국계 트래커",
+      "probability": "med",
+      "impact": "med",
+      "description": "미국 상위 3사(NXT·GameChange·Array) 90% 과점이나, 절벽 국면에서 파이가 줄면 가격 경쟁이 격화됨. 글로벌에서는 Trina Tracker가 2위로 부상(WoodMac H1 2025) — 비미국 시장에서 중국계의 저가 공세로 점유율·마진 압박. FTC Solar 등 하위 업체의 덤핑성 수주도 변수.",
+      "mitigation": "뱅커빌리티·소프트웨어 락인이 방어막. 미국 매출 비중이 높을수록 중국계 경쟁 노출 제한."
+    },
+    {
+      "name": "강재 관세·원자재 원가",
+      "probability": "med",
+      "impact": "med",
+      "description": "트래커 원가의 대부분이 철강 구조물 — 미국 철강 232 관세(50%) 체제에서 강재 조달 원가 상승 압력. 원가 전가에 실패하면 20%대 영업이익률 훼손. 반면 미국 내 강재 가공망은 도메스틱 콘텐츠 보너스로 일부 상쇄되는 양면성.",
+      "mitigation": "장기 강재 공급계약 + 계약상 원자재 가격 조항(pass-through) 여부를 실적 콜에서 확인."
+    },
+    {
+      "name": "AI capex 사이클 꺾임",
+      "probability": "med",
+      "impact": "high",
+      "description": "블로그 thesis의 수요 축(T05·T06)이 AI 데이터센터 전력수요에 의존 — 하이퍼스케일러 capex 조정 시 PPA 체결·프로젝트 파이프라인이 동시 위축됨. 베타 1.95·변동성 66.8%로 AI 테마 조정 시 주가 하락폭은 지수의 2배 수준.",
+      "mitigation": "빅4 분기 capex 가이던스와 신규 PPA 체결 건수를 선행지표로 추적."
+    },
+    {
+      "name": "고객 집중·프로젝트 지연 리스크",
+      "probability": "med",
+      "impact": "med",
+      "description": "매출이 소수 대형 EPC·개발사에 집중되는 유틸리티급 B2B 구조 — 대형 고객의 프로젝트 취소·지연(계통접속 대기 평균 4~5년, 변압기 리드타임 수년)이 분기 실적 변동성을 키움. 백로그는 취소 가능 조항을 포함하므로 $5.5B 전액이 확정 매출은 아님.",
+      "mitigation": "백로그 대비 12개월 내 인식 예정 비율(컨콜 공개치) 확인. 10-K 고객 집중도 주석 추적."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim": "2026년 미국 유틸리티급 태양광 신규 설치 43.4GW, +60% YoY 사상 최대 (T06)",
+      "type": "factual",
+      "evidence": "[actual] EIA 전망 — 43.4GW·+60%·2024년 기록 대비 +12GW, 2026년 전체 신규 발전설비 86GW 중 51%가 태양광 (pv-tech.org 2026-02, eia.gov todayinenergy #67205)",
+      "testability": "high",
+      "current_status": "검증됨 — EIA 공식 전망으로 확인. 단 Wood Mackenzie는 2026 1Q 설치가 전년 대비 감소했다고 보고(2026-06-16) — 연간 43.4GW 달성 여부는 하반기 집중 여부에 달림"
+    },
+    {
+      "claim": "NXT는 미국 설치 GW에 연동되는 순수 볼륨 플레이 — 모듈 승자와 무관하게 수혜 (블로그의 NXT 편입 논리)",
+      "type": "interpretive",
+      "evidence": "[actual] 트래커 글로벌 1위 10년 연속·2024년 출하 28.5GW·점유율 26%, 미국 top3 90% 과점 (pv-magazine 2025-06-13, solarpowerworldonline 2026-02) · [actual] FY2026 2Q 미국 매출 +49% (Motley Fool 컨콜 2025-10-24)",
+      "testability": "high",
+      "current_status": "검증됨 — 구조 자체는 사실. 단 '설치 붐 → 실적'의 전달 속도는 이미 감속 중(Q1 FY27 매출 +8%)이어서 붐의 실적 반영은 백로그를 경유해 시차를 두고 나타남"
+    },
+    {
+      "claim": "AI 데이터센터 수요는 대체재 부재의 질적 수요 — 최소 5년 지속 (T05)",
+      "type": "causal",
+      "evidence": "[actual] TotalEnergies-Google 1GW·Enlight-Google 200MW·Meta 600MW 등 2026년 기가와트급 DC용 태양광 PPA 연쇄 체결, 빅4가 글로벌 청정전력 구매 약 절반 (pv-magazine-usa 2026-03-13, BNEF 2026-02) · [claimed] 가스터빈 리드타임 5~7년·주문잔고 80GW는 블로그 인용 — 본 분석에서 1차 자료 미확인",
+      "testability": "med",
+      "current_status": "부분 검증 — PPA 체결 흐름은 실재하나, '5년 지속'은 AI capex 사이클 가정에 의존하는 예측. 확인 불가 영역 존재"
+    },
+    {
+      "claim": "43.4GW는 지속 추세가 아니라 세액공제 일몰 전 pull-forward일 수 있다 (T06 counter)",
+      "type": "risk",
+      "evidence": "[actual] OBBBA 착공 마감 2026-07-04, safe-harbor 216~240GWdc (Wood Mackenzie, solarquarter 2026-04-03) · [actual] WoodMac 2025~2027 설치 연평균 -7% 감소·2027 전망 -10% 하향 (woodmac.com, pv-magazine-usa)",
+      "testability": "high",
+      "current_status": "검증됨(리스크로서) — pull-forward 성격은 실재함. 단 safe-harbor 물량의 4년 완공 창구 때문에 트래커 발주는 2027~2029년까지 이연 지속 가능 — 절벽이 아닌 고원이 될지가 NXT thesis의 최대 쟁점"
+    },
+    {
+      "claim": "실적·백로그가 thesis를 이미 지지 중 — 백로그 $5.5B+ 사상 최대, FY2027 가이던스 상향",
+      "type": "factual",
+      "evidence": "[actual] Q1 FY27(2026.6) 매출 $935M·adj EPS $1.20(컨센 +20%)·백로그 $5.5B+·Prevalon 인수분 $300M+ 별도·가이던스 상향 (Businesswire 2026-07-30, taiyangnews 2026-07)",
+      "testability": "high",
+      "current_status": "검증됨 — 다만 주가도 1년 +79.7%로 상당 부분 반영. 최근 3개월 -18.8%·1개월 -9.9% 조정은 성장 감속(+8%) 재평가 과정으로 해석됨 (yfinance live 2026-08-06, 현재가 $98.12)"
+    }
+  ],
+  "korean_disclosures": []
+}
