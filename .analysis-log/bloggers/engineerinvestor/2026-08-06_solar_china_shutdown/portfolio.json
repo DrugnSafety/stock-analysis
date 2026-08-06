@@ -1,0 +1,83 @@
+{
+  "computed_at": "2026-08-07T00:56:21.573640+09:00",
+  "start_cash": 1000000,
+  "start_date": "2026-08-06",
+  "end_date": "2026-08-06",
+  "n_decisions": 5,
+  "total_trades": 3,
+  "total_buy_value": 980382.26,
+  "total_sell_value": 0.0,
+  "final_cash": 19617.74,
+  "end_positions_value": NaN,
+  "final_nav": NaN,
+  "total_return_pct": NaN,
+  "final_positions": {
+    "009830.KS": {
+      "qty": 32,
+      "avg_cost": 30400.0,
+      "last_price": NaN,
+      "market_value": NaN,
+      "unrealized_pnl": NaN,
+      "unrealized_return_pct": NaN
+    },
+    "FSLR": {
+      "qty": 15,
+      "avg_cost": 248.63,
+      "last_price": 249.66,
+      "market_value": 3744.9,
+      "unrealized_pnl": 15.45,
+      "unrealized_return_pct": 0.41
+    },
+    "NXT": {
+      "qty": 39,
+      "avg_cost": 98.79,
+      "last_price": 98.15,
+      "market_value": 3827.85,
+      "unrealized_pnl": -24.96,
+      "unrealized_return_pct": -0.65
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-08-06",
+      "ticker": "009830.KS",
+      "action": "buy",
+      "qty": 32,
+      "price": 30400.0,
+      "cost": 972800.0,
+      "cash_after": 27200.0
+    },
+    {
+      "date": "2026-08-06",
+      "ticker": "FSLR",
+      "action": "buy",
+      "qty": 15,
+      "price": 248.63,
+      "cost": 3729.45,
+      "cash_after": 23470.55
+    },
+    {
+      "date": "2026-08-06",
+      "ticker": "NXT",
+      "action": "buy",
+      "qty": 39,
+      "price": 98.79,
+      "cost": 3852.81,
+      "cash_after": 19617.74
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": NaN,
+      "end_price": NaN,
+      "return_pct": NaN,
+      "alpha_pct": NaN
+    },
+    "SPY": {
+      "start_price": 768.22,
+      "end_price": 768.22,
+      "return_pct": 0.0,
+      "alpha_pct": NaN
+    }
+  }
+}
