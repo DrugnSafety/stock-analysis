@@ -1,0 +1,447 @@
+{
+  "ticker": "322000.KS",
+  "aggregated_at": "2026-08-07T00:50:21.616498+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 1,
+      "pct": 5.9
+    },
+    "lean_bullish": {
+      "count": 14,
+      "pct": 82.4
+    },
+    "neutral": {
+      "count": 2,
+      "pct": 11.8
+    }
+  },
+  "average_confidence": 0.776,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.9
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "neutral",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.9,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "높은 시스템적 위험 (beta = 1.21)"
+      ],
+      "key_opportunities_top3": [
+        "미국 태양광 수요 증가 잠재력"
+      ],
+      "uncertainty": "만약 변동성이 급격히 감소하거나 시장이 안정된다면 평가가 긍정적으로 변할 수 있습니다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국의 시장 정책 변화",
+        "기술의 검증 문제"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장에서의 높은 수요",
+        "태양광 산업의 전환점"
+      ],
+      "uncertainty": "중국의 정책 변화로 공급이 증가한다면 판세가 뒤집힐 수 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "미래 수익성 지표의 불확실성",
+        "시장의 구조적 변동에 따른 변동성"
+      ],
+      "key_opportunities_top3": [
+        "강한 모멘텀에 기반한 매수 기회",
+        "구조적 공급 변화로 인한 시장 변화"
+      ],
+      "uncertainty": "중국의 태양광 정책 변화나 미국의 관세 결정이 예상과 다를 경우, 투자 상황이 급변할 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "변동성이 높은 시장 환경",
+        "중국 정부의 정책 변화"
+      ],
+      "key_opportunities_top3": [
+        "미국과 글로벌 태양광 시장 확장 기회",
+        "기술 혁신을 통한 효율성 개선"
+      ],
+      "uncertainty": "중국이 다시 대량 생산을 시작하여 가격이 급락할 경우, 공급 부족이라는 기회 요인이 사라질 수 있다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국의 정책 변화 가능성",
+        "미국의 232조 결정 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "상업적인 시장 다각화 기회",
+        "AI 및 데이터센터 시장 내 태양광 수요 증가"
+      ],
+      "uncertainty": "중국의 갑작스러운 태양광 생산 확장이나 미국 정책의 변화가 있으면 판단이 달라질 수 있습니다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국의 경제 정책 변경 가능성",
+        "미국의 정책 변동"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장에서의 가격 이점",
+        "전 세계적인 수요 전환"
+      ],
+      "uncertainty": "미국에서의 보호정책 변화 혹은 중국의 생산량 재증가는 회사의 장기적 전망을 뒤흔들 수 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "미국 관세 정책 결정의 불확실성",
+        "중국의 정책 변화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "미국 내 태양광 설치 증가",
+        "중국 시장 공급의 감소로 인한 비중국 업체의 수익성 개선"
+      ],
+      "uncertainty": "미국 관세 정책이 반대 방향으로 결정되거나, 중국이 공급을 다시 늘리는 시나리오가 발생하면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국 시장의 정책 변경 가능성",
+        "태양광 기술 혁신의 실패 가능성"
+      ],
+      "key_opportunities_top3": [
+        "미국 232조 보호 관세 효과",
+        "태양광 효율 기술 혁신"
+      ],
+      "uncertainty": "중국의 정책 변화가 있기 전까지는 안심할 수 없음. 232조 결과에 따라 시장 위치가 크게 달라질 수 있음.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "232조 결정 불확실성",
+        "중국의 정책 변화 가능성"
+      ],
+      "key_opportunities_top3": [
+        "미국 태양광 수요 증가",
+        "AI 데이터센터의 필수적 수요"
+      ],
+      "uncertainty": "232조에서 한국이 제외될 경우, 판도가 달라질 가능성이 높다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "232조 결정의 불확실성",
+        "중국 공급 정책의 갑작스러운 변화"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장에서의 가격 하한제",
+        "중국의 공급량 감소로 인한 경쟁 감소"
+      ],
+      "uncertainty": "미국의 232조 정책 변화 또는 중국의 태양광 정책 변화가 예상을 벗어나면 verdict가 뒤집힐 수 있음",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국의 감산 정책이 뒤집힐 경우",
+        "미국의 232조 정책이 예상과 다르게 나올 경우"
+      ],
+      "key_opportunities_top3": [
+        "태양광 수요의 미국 및 글로벌 확대",
+        "중국 외부 회사의 시장 진출 기회 증가"
+      ],
+      "uncertainty": "중국의 정책 변화와 미국의 232조 정책이 예상대로 작동하지 않으면 판단이 뒤집힐 수 있습니다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "neutral",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "정량 평가에서 명백한 할인 없음",
+        "글로벌 정책 변화의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "중국의 공급 감소로 인한 가격 상승 가능성",
+        "미국 내 수요 증가"
+      ],
+      "uncertainty": "중국의 정책 변화가 뒤집히거나 예상보다 미국의 규제가 부정적일 경우 분석 결과가 바뀔 수 있음.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국의 정책 변화 가능성",
+        "미국의 규제 완화 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "미국 시장에서의 가격 구조 개선",
+        "태양광 공급의 구조적인 감소"
+      ],
+      "uncertainty": "중국의 공장 재가동 또는 미국의 232조가 기대보다 약할 경우 신뢰도 하락.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PER와 PBR의 불확실성",
+        "배당 정책의 불명확"
+      ],
+      "key_opportunities_top3": [
+        "태양광 수요 증가로 인한 매출 증가 가능성",
+        "미국의 232조 조사 영향"
+      ],
+      "uncertainty": "중국의 정책 변동이나 미국의 232조 결과가 나쁘게 나오면 이 논제가 흔들릴 수 있음",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국의 정책 반전",
+        "미국의 232조 정책 변화"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 수요 증가",
+        "미국과의 무역 정책 강화로 인한 시장 확대"
+      ],
+      "uncertainty": "중국의 태양광 정책이 변화할 경우 혹은 미/중 무역 분쟁의 결과에 따라 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국이 감산 정책을 번복할 가능성",
+        "미국 232조 정책의 확정되지 않은 요소"
+      ],
+      "key_opportunities_top3": [
+        "미국의 보호무역 정책으로 인한 시장 점유",
+        "신기술 도입으로 인한 생산 효율성 증가"
+      ],
+      "uncertainty": "중국의 감산 정책 번복이나 미국의 232조 정책이 약화되면 스토리 기반이 약화되어 verdict가 바뀔 수 있다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "232조 결정이 기대에 미치지 못할 경우",
+        "호르무즈 해협 통행료 결정"
+      ],
+      "key_opportunities_top3": [
+        "미국 내 태양광 수요의 지속적 증가",
+        "한화솔루션의 미국 내 현지 생산 강화"
+      ],
+      "uncertainty": "232조 결과가 기대와 다를 경우 및 호르무즈 해협의 통행료 결정이 결과에 영향을 미칠 수 있다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
