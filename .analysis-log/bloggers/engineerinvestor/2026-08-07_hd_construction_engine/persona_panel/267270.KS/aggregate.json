@@ -1,0 +1,511 @@
+{
+  "ticker": "267270.KS",
+  "aggregated_at": "2026-08-08T00:34:21.147948+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 1,
+      "pct": 5.9
+    },
+    "lean_bullish": {
+      "count": 9,
+      "pct": 52.9
+    },
+    "neutral": {
+      "count": 7,
+      "pct": 41.2
+    }
+  },
+  "average_confidence": 0.712,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.85
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.75
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bullish",
+          "confidence": 0.8
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "neutral",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 12,
+      "personas": [
+        "rakesh-jhunjhunwala",
+        "phil-fisher",
+        "cathie-wood",
+        "peter-lynch",
+        "warren-buffett",
+        "michael-burry",
+        "mohnish-pabrai",
+        "ray-dalio",
+        "bill-ackman",
+        "aswath-damodaran",
+        "george-soros",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "중국 경쟁업체들의 급성장",
+        "중국의 경쟁 심화",
+        "중국 경쟁사의 시장 점유율 확대"
+      ]
+    },
+    {
+      "theme": "환율",
+      "frequency": 11,
+      "personas": [
+        "rakesh-jhunjhunwala",
+        "phil-fisher",
+        "ben-graham",
+        "cathie-wood",
+        "charlie-munger",
+        "peter-lynch",
+        "michael-burry",
+        "mohnish-pabrai",
+        "ray-dalio",
+        "bill-ackman",
+        "nassim-taleb"
+      ],
+      "examples": [
+        "환율 변동 리스크",
+        "환율 변동",
+        "환율변동에 따른 실적 변동성"
+      ]
+    },
+    {
+      "theme": "변동성",
+      "frequency": 7,
+      "personas": [
+        "rakesh-jhunjhunwala",
+        "phil-fisher",
+        "ben-graham",
+        "cathie-wood",
+        "bill-ackman",
+        "jim-simons",
+        "cliff-asness"
+      ],
+      "examples": [
+        "높은 변동성",
+        "높은 베타로 인한 변동성 위험",
+        "환율변동에 따른 실적 변동성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "높은 변동성",
+        "높은 시장 베타"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 높은 마진"
+      ],
+      "uncertainty": "전체적인 변동성과 베타가 줄어든다면 verdict가 중립 이상으로 바뀔 수 있음",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국 경쟁업체들의 급성장",
+        "환율 변동 리스크"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 높은 수익성 및 성장 잠재력",
+        "중동 및 아프리카 시장에서의 수요 증가"
+      ],
+      "uncertainty": "글로벌 건설기계 수요 둔화나 엔진 사업 확대 실패 시, 이 버디시트는 부정적으로 바뀔 수 있습니다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "시장 전반 모멘텀 저하",
+        "높은 베타로 인한 변동성 위험"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 독점적 고이익 실현",
+        "상대적 저평가로 인한 가치 상승 여지"
+      ],
+      "uncertainty": "엔진 부문 이익률이 급감하거나, 베타 변동성 악화 시 결론 반전 가능성 존재",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국의 경쟁 심화",
+        "환율 변동"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 높은 수익성",
+        "북미 관세 인하 효과"
+      ],
+      "uncertainty": "금리 인상 지속 시, 부채 부담이 증가하고 엔진 공급 제약 이슈가 악화될 수 있다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국 경쟁사의 시장 점유율 확대",
+        "환율변동에 따른 실적 변동성"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 및 방산 분야의 엔진 성장",
+        "유럽 및 중동 시장에서의 건설기계 수요 증가"
+      ],
+      "uncertainty": "글로벌 경제 둔화가 건설기계 수요를 감소시키면 판로가 영향을 받을 수 있다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bullish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "환율 변동에 따른 이익 불확실성",
+        "중국 업체의 아프리카 시장 침투 증가"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문 확장 및 높은 마진 확보",
+        "신제품을 통한 경쟁력 강화"
+      ],
+      "uncertainty": "엔진 부문의 성장이 예상대로 진행되지 않으면, 회사 가치의 중요한 부분이 손실될 수 있음",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "환율 변동이 수익성에 미치는 영향",
+        "중국 경쟁 업체의 아프리카 시장 잠식"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 높은 수익성",
+        "금광 및 인프라 투자에 관련된 굴삭기 수요 증가"
+      ],
+      "uncertainty": "엔진 부문의 수요 증가가 지속되지 않으면 현재의 투자 매력도가 감소할 수 있음",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "엔진 부문 성장 지속성을 확신할 수 있는가?",
+        "중국 경쟁의 증가"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 높은 마진",
+        "광산·인프라에서의 수요 증가"
+      ],
+      "uncertainty": "엔진의 고성장이 멈추거나 중국 경쟁이 심화하면 현재의 가치 창출 논거가 무너질 수 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국 업체들의 해외 확장 강화",
+        "엔진 개발 투자 회수 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "환율로 인한 수익성 향상",
+        "엔진 사업부의 지속적인 성장 가능성"
+      ],
+      "uncertainty": "중국 경쟁의 심화가 지속되면 수익성이 저하될 가능성이 있다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "환율의 변동성 및 이에 따른 영업이익 변동 [actual]",
+        "중국 업체들과의 경쟁 심화 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 높은 이익률 및 성장 가능성 [actual]",
+        "중동·아프리카 지역에서의 금광 수요 증가 [actual]"
+      ],
+      "uncertainty": "환율과 외부 경제적 요인이 부정적으로 작용할 경우, 부정적 영향이 커질 수 있음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "중국 업체와의 경쟁 심화",
+        "환율 변동성"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 증가에 따른 발전용 엔진 수요",
+        "중동 및 아프리카 금광 구매 증가"
+      ],
+      "uncertainty": "중국과의 경쟁이 악화되거나 환율 변동성이 극심해지면 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국 업체들과의 치열한 경쟁으로 인한 가격 압박",
+        "고환율 유지의 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 안정적인 고성장 및 고마진 기여",
+        "미국 관세 감소로 인한 북미 시장 확장 기회"
+      ],
+      "uncertainty": "엔진 부문에서의 고성장 예측이 틀리거나, 글로벌 경제 상황 악화로 인한 설비 투자 감소가 발생하면 평가가 바뀔 수 있음",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "중국 업체들의 경쟁력 증가",
+        "글로벌 경제 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "엔진 사업의 높은 마진",
+        "중동·아프리카에서의 수요 증가"
+      ],
+      "uncertainty": "글로벌 경제 둔화나 중국의 시장 점유율 확대가 가정을 뒤집을 수 있음.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "neutral",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "높은 변동성 [69.96%]",
+        "마진율 내용에서의 불확실성 (환율 영향)"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 높은 수익성",
+        "장기적 매출 성장률"
+      ],
+      "uncertainty": "엔진 제품의 수요 지속성이 깨지면 verdict가 바뀔 수 있다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "환율 변동성",
+        "중국 업체들과의 경쟁"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 엔진 수요 증가",
+        "초대형 발전용 엔진 출시"
+      ],
+      "uncertainty": "환율 변동성이 예상과 다르게 심화될 경우와 중국 건설기계 업체들의 시장 점유율 급성장이 가정된 성장률을 저해할 경우 verdict가 뒤집힐 수 있다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "굴삭기 부문에서의 가격 결정력 미약",
+        "중국 업체와의 경쟁 강화"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문의 높은 영업이익률",
+        "특수 엔진 분야의 성장 기회"
+      ],
+      "uncertainty": "엔진 부문 매출 성장세가 예상에 미치지 못할 경우",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "환율 변동의 이익 영향",
+        "중국 경쟁사의 아프리카 시장 진입"
+      ],
+      "key_opportunities_top3": [
+        "엔진 부문 수익성 향상",
+        "초대형 발전 엔진의 출시"
+      ],
+      "uncertainty": "엔진 부문 성장 목표가 달성되지 않거나 중국 경쟁사의 시장 확대가 가속화되면, 결론이 뒤집힐 수 있다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
