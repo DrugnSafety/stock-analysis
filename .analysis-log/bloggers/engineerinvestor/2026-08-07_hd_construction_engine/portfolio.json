@@ -1,0 +1,49 @@
+{
+  "computed_at": "2026-08-08T00:37:54.168800+09:00",
+  "start_cash": 1000000,
+  "start_date": "2026-08-07",
+  "end_date": "2026-08-07",
+  "n_decisions": 5,
+  "total_trades": 1,
+  "total_buy_value": 954000.0,
+  "total_sell_value": 0.0,
+  "final_cash": 46000.0,
+  "end_positions_value": NaN,
+  "final_nav": NaN,
+  "total_return_pct": NaN,
+  "final_positions": {
+    "241560.KS": {
+      "qty": 15,
+      "avg_cost": 63600.0,
+      "last_price": NaN,
+      "market_value": NaN,
+      "unrealized_pnl": NaN,
+      "unrealized_return_pct": NaN
+    }
+  },
+  "trade_log": [
+    {
+      "date": "2026-08-07",
+      "ticker": "241560.KS",
+      "action": "buy",
+      "qty": 15,
+      "price": 63600.0,
+      "cost": 954000.0,
+      "cash_after": 46000.0
+    }
+  ],
+  "benchmark_comparison": {
+    "KOSPI": {
+      "start_price": NaN,
+      "end_price": NaN,
+      "return_pct": NaN,
+      "alpha_pct": NaN
+    },
+    "SPY": {
+      "start_price": 773.51,
+      "end_price": 773.51,
+      "return_pct": 0.0,
+      "alpha_pct": NaN
+    }
+  }
+}
