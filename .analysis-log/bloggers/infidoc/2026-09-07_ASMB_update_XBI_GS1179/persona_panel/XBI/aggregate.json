@@ -1,0 +1,482 @@
+{
+  "ticker": "XBI",
+  "aggregated_at": "2026-09-08T00:59:39.509206+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 6,
+      "pct": 35.3
+    },
+    "neutral": {
+      "count": 6,
+      "pct": 35.3
+    },
+    "lean_bearish": {
+      "count": 5,
+      "pct": 29.4
+    }
+  },
+  "average_confidence": 0.588,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bullish",
+          "confidence": 0.56
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.52
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bearish",
+          "confidence": 0.53
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.66
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.66
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bullish",
+      "confidence": 0.56,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "Sharpe 근사 2.63이 suspicious tier — 단일 구간 사후 통계일 가능성 [derived]",
+        "beta·correlation matrix 부재로 3단계 분석 수행 불가 [unavailable]",
+        "portfolio optimizer 산출물 없음 — 최적 비중 대비 판정 불가 [unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "momentum 신호가 1Y·6M·3M 전 구간에서 일관되게 양수 [actual]",
+        "변동성 27.41%로 medium regime 내 — 개별 바이오(59.57%) 대비 절반 이하 [actual]",
+        "154종목 equal-weight 구조로 1/N 분산이 상품에 내장 [actual]"
+      ],
+      "uncertainty": "beta·VaR·max drawdown·sortino·correlation matrix·portfolio optimization이 모두 제공되지 않아 5단계 중 3단계를 완결하지 못함. Sharpe는 무위험수익률 4% 가정에 기반한 근사이며 실측이 아님. 데이터 부재 구간은 추정으로 채우지 않고 [unavailable]로 남김.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PEG 계산 불가 — GARP 규율의 핵심 도구가 작동 안 함 [unavailable]",
+        "카테고리는 fast grower가 아니라 cyclical — 1Y +76% 이후 진입 [inference]",
+        "구성종목의 실질 레버리지는 현금 runway이며 지수 레벨 집계 미공시 [unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "상품 구조는 한 문장으로 설명 가능 — '바이오 154개를 거의 균등하게 담는 바구니' [actual]",
+        "바스켓 변동성 27.41%로 개별 바이오 대비 절반 이하 [actual]",
+        "미충족 의료수요라는 실생활 수요 기반은 산업 차원에서 실재 [inference]"
+      ],
+      "uncertainty": "지수 레벨 EPS·성장률·runway가 모두 미공시라 PEG와 부채 점검이 불가능함. ASMB 편입 여부·실제 IWF도 공식 pro-forma 전까지 확인 불가이며 블로거 본인이 추정이라 명시함.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "HML·RMW 두 factor(가중 합계 0.60)가 산출 불가 또는 음수 노출 [unavailable]",
+        "beta null — Market factor exposure 직접 측정 불가, regime 조정 정밀도 저하 [unavailable]",
+        "1M +7.06%로 모멘텀 가속도 둔화 — factor 감쇠 초기 신호 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "12-1M 모멘텀 +64.4% — strong positive tier를 크게 상회하는 최상위 노출 [derived]",
+        "modified equal-weight가 SMB(소형주) factor 노출을 구조적으로 확대 [actual]",
+        "모멘텀이 1Y·6M·3M 전 구간에 일관 — 단일 구간 편중이 아닌 질 좋은 추세 [actual]"
+      ],
+      "uncertainty": "beta·PE·PB가 모두 null이라 6-factor 중 3개(Market·Value·Profitability)의 z-score를 산출하지 못함. 지수 레벨 ROIC·FCF 데이터도 부재함. 판단은 관측 가능한 Momentum·Size 두 factor에 의존하며, RMW-수익률 인과는 Fama-French 2015 프레임워크 가정임.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "macro_snapshot.json 부재 — FRED·IMF anchor 없이 cycle position 확정 불가 [unavailable]",
+        "스태그플레이션 사분면(성장↓·인플레↑)에서 최악 — 할인율 상승과 창구 폐쇄가 동시 [derived]",
+        "채권과 금리 방향이 겹침 — 기존 포트폴리오에서 금리 베팅 중복 위험 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "growth↑·인플레↓ 사분면에서 최대 수혜 자산군 — 구조적 적합성 명확 [derived]",
+        "직접 환율·외화부채 노출이 사실상 없음 — 통화 리스크 낮음 [inference]",
+        "1Y +76.06% — 유리한 사분면이 실제로 작동했다는 사후 확인 [actual]"
+      ],
+      "uncertainty": "macro_snapshot.json이 제공되지 않아 실업률·수익률곡선·fed funds·정부부채/GDP를 인용하지 못했고, 1·2단계는 [unavailable]로 남김. 추정으로 macro 수치를 대체하지 않았음. beta 부재로 상관관계 기여도 계산 불가하며, 현재 사분면 판정은 가격 궤적에서 사후 추론한 정황일 뿐임.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "지수 레벨 ROE 시계열 부재 — 품질 판정의 일차 지표가 없음 [unavailable]",
+        "미국 임상단계 바이오는 능력범위 밖 — 임상 성공확률 판정 불가 [derived]",
+        "equal-weight 분기 rebalance가 승자 비중을 깎아 장기 복리를 저해 [derived]"
+      ],
+      "key_opportunities_top3": [
+        "고령화·특허절벽발 M&A 수요라는 구조적 장기 순풍 [inference]",
+        "신약 재투자 runway는 질병의 수만큼 존재 — TAM 제약 없음 [inference]",
+        "1Y +76.06% — 산업 재평가가 실제로 진행 중이라는 확인 [actual]"
+      ],
+      "uncertainty": "지수 레벨 ROE·재무 시계열이 존재하지 않아 품질 판정을 수행하지 못함. 미국 신약개발 산업은 내 능력범위 밖임을 명시하며, 이 판단은 상품 구조와 거시 순풍에 대한 것이지 개별 파이프라인 가치에 대한 것이 아님.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "종목 수는 154개지만 위험 요인(금리·자금조달 창구·FDA 정책)은 사실상 공통 — 분산 착시 [derived]",
+        "공개된 규칙 + 강제 매수자 = arb에게 구조적 인센티브, 비용은 보유자 부담 [inference]",
+        "지수 레벨 ROE·ROIC·PE 전부 산출 불가 — 품질 판정 자체가 성립 안 함 [unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "규칙과 일정이 전면 공개 — 최소한 무엇을 사는지 속임수는 없음 [actual]",
+        "top5 합계 9% 미만의 낮은 집중도 — 단일 종목 사고에는 견고 [actual]",
+        "바스켓 변동성 27.41%로 개별 바이오(ASMB 59.57%) 대비 절반 이하 [actual]"
+      ],
+      "uncertainty": "XBI 구성종목의 통합 현금소진·희석 프로파일은 공시되지 않아 확인 불가. ASMB 편입 여부와 실제 IWF는 공식 pro-forma 전까지 미확정이며 블로거 본인이 추정이라 명시함.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "50% 안전마진을 정량화할 수 없음 — 내재가치 앵커 부재 [unavailable]",
+        "equal-weight 분기 rebalance가 승자 비중을 깎아 상방 꼬리를 절단 [derived]",
+        "1Y +76.06% 이후 진입 — 비대칭 payoff 3:1 미충족 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "단일 종목 최대 노출 3% 미만 — 영구 자본 손실 위험 구조적으로 낮음 [actual]",
+        "상품 규칙이 한 문단으로 설명 가능 — 단순성 테스트 통과 [actual]",
+        "개별 구성종목의 볼록 payoff(하방 -100% 제한, 상방 다배수)에 저비용 노출 [inference]"
+      ],
+      "uncertainty": "지수 레벨 내재가치·통합 재무가 공시되지 않아 안전마진 정량화가 불가능함. 미국 소형 바이오 개별 종목에 대한 내 지식 한계도 인정하며, 이 판단은 상품 구조에 대한 것이지 개별 종목 선별에 대한 것이 아님.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "밸류에이션 앵커 전무 — trailing_pe·forward_pe·pb 모두 null, 안전마진 계산 불가 [unavailable]",
+        "modified equal-weight = 해자가 가장 얇은 소형주에 비중을 키우는 구조 [derived]",
+        "분기 rebalance = 10년 보유 자산이 아니라 분기마다 바뀌는 명단 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "지수 규칙(FMC·FALR·rebalance 일정)이 전부 공개 문서 — 상품 자체의 투명성은 높음 [actual]",
+        "바스켓 변동성 27.41%는 개별 바이오 대비 크게 낮음 — 분산이 실제로 작동 [actual]",
+        "State Street 운용·유동성은 상품 리스크를 낮춤 (AUM $11.49B) [actual]"
+      ],
+      "uncertainty": "XBI 구성종목의 통합 이익·현금소진 프로파일은 공시되지 않아 확인 불가. ASMB 편입 여부도 공식 pro-forma 공개 전이며 블로거 본인이 추정이라 명시함. free float 70~72% 가정과 yfinance floatShares 45%의 괴리는 어느 쪽이 S&P IWF에 가까운지 판정 불가.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.68,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "reward/risk 약 1:1 — 1Y +76% 이후 진입으로 비대칭성 열위 [derived]",
+        "FRED 금리·수익률곡선·DXY 실측 부재 — 거시 국면을 수치로 특정 못 함 [unavailable]",
+        "VIX·AAII·펀드플로 미제공 — 센티먼트 판정이 가격 추론에 의존 [unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "1Y·6M·3M 전 구간 양의 모멘텀 — 추세가 특정 구간에 편중되지 않음 [actual]",
+        "1M +7.06%로 과열 아님 — pain trade가 여전히 상방일 개연성 [inference]",
+        "특허절벽발 M&A 수요 + 자금조달 루프 작동(ASMB $115M 조달) [actual]"
+      ],
+      "uncertainty": "FRED 금리·수익률곡선·달러·VIX·펀드플로 실측 데이터가 제공되지 않아 1단계 거시 판정과 2단계 센티먼트 판정을 가격 추론으로 대체했음. reward/risk 1:1 추정도 정량 앵커 없이 도출한 것임. 이 판단은 추세 추종이며 3개월 저점 이탈이라는 사전 손절 조건에 종속됨.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "종목당 0.65% 노출 — 집중과 개입이라는 내 도구가 전부 무력화 [derived]",
+        "자본배분 주체 부재 — 자사주매입·배당·M&A 판단이 존재하지 않음 [derived]",
+        "지수 레벨 ROIC·FCF 산출 불가 — 사업 품질 필터 통과 근거 없음 [unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "9/18 rebalance라는 시간표 확정 사건 존재 — 이벤트 구조가 투명 [actual]",
+        "특허절벽발 대형제약 M&A 수요는 섹터 차원의 실질 촉매 [inference]",
+        "AUM $11.49B·높은 유동성 — 대규모 포지션 진입·청산 비용 낮음 [actual]"
+      ],
+      "uncertainty": "154개 구성종목의 개별 자본배분 트랙레코드를 확인할 수 없어 사업 품질 판단은 구조 추론에 의존함. M&A 사이클의 시점과 강도는 확인 불가이며, ASMB 편입 여부·IWF도 공식 pro-forma 전까지 미확정임.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bearish",
+      "confidence": 0.53,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "154종목 대상 scuttlebutt 실행 불가 — 내 방법론이 원천 봉쇄됨 [derived]",
+        "equal-weight + 분기 rebalance = 승자 비중 자동 축소, 10년 복리와 충돌 [actual]",
+        "구성종목 다수가 상시 증자 필요 — 15항목 중 13번(희석 위험) 구조적 불충족 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "바이오는 R&D 집약도가 최상위인 산업 — 미래 제품에 투자한다는 원칙과 부합 [inference]",
+        "산업 차원 미충족 수요(유전체·간질환·감염) 잔존 — 시장 잠재력 항목은 통과 [inference]",
+        "1Y +76.06% — R&D 재평가 사이클이 실제로 진행 중이라는 정황 [actual]"
+      ],
+      "uncertainty": "154개 구성종목의 경영진 품질·R&D 효율을 직접 탐문할 수 없어 정성 평가는 전면 [unavailable]임. 산업 레벨 판단을 상품 판단으로 대체한 것이며, 개별 우량 바이오를 직접 고르는 경우와 결론이 달라질 수 있음.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.66,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "지수 레벨 하드 밸류(EV·EBIT·자산 커버리지) 전무 [unavailable]",
+        "섹터 강세가 발행 창구를 열어 상시 희석을 촉진 — 상승이 곧 희석 [inference]",
+        "내가 추적하는 촉매(인사이더 매수·자사주매입·구조조정)가 ETF에는 존재하지 않음 [derived]"
+      ],
+      "key_opportunities_top3": [
+        "154종목 분산으로 개별 임상 실패에 대한 내구성은 확보 [actual]",
+        "AUM $11.49B·옵션 시장 존재 — 헤지·숏 표현 수단으로서의 유용성 [actual]",
+        "구성종목 중 ASMB처럼 현금이 EV의 75%인 하드 밸류 사례도 존재 [actual]"
+      ],
+      "uncertainty": "XBI 지수 레벨의 통합 EV·희석률·현금소진 데이터가 공시되지 않아 정량 스트레스 테스트를 수행하지 못함. 무이익 자산의 상승은 논리보다 오래갈 수 있어 시점 판단은 하지 않음. ASMB 실제 IWF는 공식 pro-forma 전까지 확인 불가.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "단계 4(주류화)~5(reality gap) 경계 — 내 규칙상 진입 회피 구간 [inference]",
+        "fundamentals 측정 불가로 over-valuation 확정 불가 [unavailable]",
+        "반전 촉매 4종(금리·M&A 소강·FDA·발행 러시) 모두 외생이며 사전 경보 없음 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "서사가 아직 euphoric 단계는 아님 — 1M +7.06%의 감속이 광기 부재의 근거 [actual]",
+        "반전 촉매 4종 중 어느 것도 아직 발생하지 않음 [inference]",
+        "지수 편입 루프의 종점(9/18~9/21)이 사전에 특정 가능 — 드물게 시점이 명확한 이벤트 [actual]"
+      ],
+      "uncertainty": "지수 레벨 DCF·implied growth가 없어 reflexivity 단계를 4와 5 중 하나로 확정하지 못함. FRED 금리·M&A 건수 등 macro live 데이터도 제공되지 않아 촉매 임박도를 판정할 수 없음. ASMB 실제 IWF도 공식 pro-forma 전까지 확인 불가.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Graham Number·NCAV·PER×PBR 테스트 전부 계산 불가 [unavailable]",
+        "구성종목 다수가 무이익 — 7년 연속 흑자·20년 배당 요건 원천 불충족 [inference]",
+        "1Y +76.06% 상승 직후 진입 — 안전마진 축소 국면 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "AUM $11.49B·154종목 — 규모와 유동성 요건은 충족, 상품 존속 위험 낮음 [actual]",
+        "바스켓 변동성 27.41%는 개별 바이오(ASMB 59.57%) 대비 절반 이하 [actual]",
+        "지수 규칙 공개 — 무엇을 보유하는지에 대한 정보 비대칭은 낮음 [actual]"
+      ],
+      "uncertainty": "XBI 지수 레벨 EPS·BVPS·통합 재무는 산출·공시되지 않아 안전마진 계산을 시도조차 할 수 없음. ASMB 편입 여부와 실제 IWF도 공식 pro-forma 공개 전까지 확인 불가.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.66,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "편입 기준이 FMC·FALR — 혁신의 질이 아니라 거래회전율로 선별 [actual]",
+        "equal-weight 분기 rebalance가 승자 비중을 자동 축소 — 지수 상방 절단 [derived]",
+        "1Y +76.06% 이후 진입 — 5년 horizon에서 -50% 되돌림 감내 필요 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "multiomic sequencing·표적 단백질 분해 등 ARK 플랫폼에 저비용 광범위 노출 [actual]",
+        "2027~2030 특허절벽발 파이프라인 인수 수요 — 소형 개발사 exit 경로 확대 [inference]",
+        "질병별 분절 시장이라 winner-take-most가 아님 — 바스켓 접근이 오히려 합리적인 드문 산업 [derived]"
+      ],
+      "uncertainty": "지수 레벨 TAM·파이프라인 성공확률을 정량화할 데이터가 없어 5년 목표가를 제시하지 못함. 금리 경로와 FDA 정책은 외생 변수로 확인 불가. ASMB 편입 여부·IWF도 공식 pro-forma 전까지 미확정임.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "지수 레벨 내재가치 산출 불가 — ±30% 괴리 판정 자체가 성립 안 함 [unavailable]",
+        "1Y +76.06%의 대부분이 할인율·성공확률 재평가 — 가정 하나만 틀려도 되돌림 [derived]",
+        "가격에 내재된 3중 가정(금리 완화·M&A 지속·FDA 우호)이 모두 외생 변수 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "story가 규칙으로 완전히 정의됨 — 무엇을 보유하는지에 대한 모호성이 없음 [actual]",
+        "equal-weight 분산으로 개별 파산확률이 지수 수준에서 통계화됨 [derived]",
+        "변동성 27.41%는 무이익 성장자산 바스켓치고 낮은 수준 [actual]"
+      ],
+      "uncertainty": "XBI 구성종목의 확률가중 파이프라인 가치를 집계할 데이터가 없어 내재가치 추정을 시도하지 못함. 금리 경로·FDA 정책은 외생 변수로 [unavailable] 처리했고, ASMB 편입 여부와 IWF도 공식 pro-forma 전까지 확인 불가.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "skin in the game 완전 부재 — 운용사·지수제공자 모두 결과를 부담하지 않음 [derived]",
+        "표면 변동성 27.41%가 154개 fat-tail의 평균으로 꼬리를 은폐 [derived]",
+        "금리·자금조달 창구·규제라는 공통 요인은 분산으로 제거되지 않음 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "구성종목 각각이 하방 -100% 제한·상방 무제한의 롱 옵션 — 볼록 페이오프 [derived]",
+        "154종목 분산으로 단일 blow-up이 지수를 죽이지 못함 (top holding 2.98%) [actual]",
+        "연 0.35% 확정 비용으로 수백 개 파이프라인 옵션에 노출 — 바벨의 위험 다리로 적합 [actual]"
+      ],
+      "uncertainty": "154종목의 개별 현금 runway 분포를 확인할 수 없어 '결과 전에 돈이 떨어지는' 취약성의 크기를 정량화하지 못함. 공통 요인 발동 시 상관관계 수렴 폭도 사전 추정 불가. ASMB 편입 여부·IWF는 공식 pro-forma 전까지 미확정이며 이 이벤트 베팅 자체는 오목한 구조임.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
