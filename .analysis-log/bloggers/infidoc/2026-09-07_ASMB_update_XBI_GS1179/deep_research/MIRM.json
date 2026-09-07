@@ -1,0 +1,492 @@
+{
+  "ticker": "MIRM",
+  "company": "Mirum Pharmaceuticals, Inc.",
+  "exchange": "NASDAQ",
+  "generated_at": "2026-09-07T11:31:22",
+  "analysis_mode": "single",
+  "thesis_count": 10,
+  "industry": {
+    "name": "희귀 담즙정체성 간질환 + 만성 D형간염(HDV) + 희귀 골질환 — 상업화 단계 rare disease 스페셜티",
+    "overview": "Mirum은 ASMB 분석에서 'PBC/PSC 담즙정체 경쟁자'로 지목된 종목이지만, 2026년 들어 회사 성격이 그 범주를 넘어섰음. 현재 구조는 ① 상업 제품 3종 — LIVMARLI(maralixibat, IBAT 억제제, ALGS·PFIC 담즙정체 소양증), CHOLBAM(cholic acid), CTEXLI(chenodiol, 뇌건성황색종증 CTX) ② 임상 후기 파이프라인 3종 — volixibat(IBAT 억제제, PSC·PBC 소양증), brelovitug(항-HBsAg 단클론항체, 만성 HDV), zilurgisertib(경구 ALK2 억제제, FOP)로 구성됨 [actual: Mirum 2Q26 EX-99.1, 2026-08-05]. 2Q26 순제품매출 $176.2M(LIVMARLI $128.7M +46% YoY, 담즙산 제품 $47.5M +20% YoY), 2026년 가이던스 $680~700M [actual]. 핵심 포인트는 2026-01-26 완료된 Bluejay Therapeutics 인수($250M 현금 + $370M 주식, 매출 마일스톤 최대 $200M 별도 = 최대 $820M)로 brelovitug을 확보하면서 Mirum이 ASMB(ABI-6250, NTCP 억제제)·VIR(tobevibart+elebsiran)과 같은 HDV 링에 직접 올라섰다는 것 [actual: BioPharma Dive 2025-12-08, Mirum PR 2026-01-26]. 블로그 원문은 MIRM을 담즙정체 경쟁자로만 언급했으나, 실제 경쟁 접점은 담즙정체(volixibat vs ABI-6250)와 HDV(brelovitug vs ABI-6250/VIR) 양쪽임 [derived]. 기전 축으로 정리하면 — IBAT 억제제(회장 담즙산 재흡수 차단, LIVMARLI·volixibat·GSK linerixibat)와 NTCP 억제제(간세포 담즙산·바이러스 유입 차단, ASMB ABI-6250)는 담즙산 순환의 서로 다른 지점을 때리는 별개 접근이고, 임상적 우열은 아직 head-to-head로 검증된 바 없음 [inference]. 치료 시점 기준으로는 Mirum이 PSC에서 Phase 2b 환자 효능 데이터를 이미 보유(VISTAS, 2026-05-04)한 반면 ASMB는 담즙정체 Phase 2를 1Q27에 개시할 예정이므로 PSC/PBC 트랙에서 Mirum이 대략 1.5~2년 앞서 있음 [derived: VISTAS 2026-05 vs ABI-6250 Phase 2 개시 1Q27]. 다만 HDV 트랙은 반대로 이미 혼전 — VIR의 ECLIPSE Phase 3 topline이 4Q26~1Q27, Mirum brelovitug의 AZURE-1/AZURE-4 Phase 3 topline이 3Q26/4Q26, ASMB ABI-6250은 2026-10 Phase 2 개시(NCT07762027)로 가장 뒤임 [actual].\n\n산업 구조는 전형적 희귀질환 스페셜티 — 환자 수가 적고 진단 코호트가 명확해 소규모 영업조직으로 커버 가능하고, orphan 독점기간·BTD·Priority Review 같은 규제 인센티브가 크며, 가격 결정력이 높은 대신 지불자(payer) 협상·IRA·유럽 HTA 압박에 노출됨. Mirum은 이 구조를 '한 개 기전으로 여러 희귀 간질환을 훑는' 방식으로 활용 중임 [inference]. 2026년 3월 GSK의 Lynavoy(linerixibat)가 PBC 담즙정체성 소양증 적응증으로 FDA 승인되면서 이 시장에는 이미 선점자가 생겼고, Mirum의 volixibat VANTAGE(PBC)는 선발주자를 상대로 차별화를 입증해야 하는 처지가 됨 [actual: GSK 2026-03-19].",
+    "competitors": [
+      {
+        "name": "GSK — Lynavoy(linerixibat) PBC 소양증 2026-03-19 FDA 승인, IBAT 억제제 계열 선점자",
+        "ticker": "GSK"
+      },
+      {
+        "name": "Gilead Sciences — Livdelzi(seladelpar) PBC 2차치료, HDV 관심·ASMB 25% 주주",
+        "ticker": "GILD"
+      },
+      {
+        "name": "Ipsen — Iqirvo(elafibranor) PBC PPAR 작용제, 유럽 rare liver 프랜차이즈",
+        "ticker": "IPN.PA"
+      },
+      {
+        "name": "Vir Biotechnology — HDV tobevibart+elebsiran ECLIPSE Phase 3 (topline 4Q26~1Q27)",
+        "ticker": "VIR"
+      },
+      {
+        "name": "Assembly Biosciences — ABI-6250(NTCP 억제제) HDV Phase 2 2026-10 개시·담즙정체 Phase 2 1Q27",
+        "ticker": "ASMB"
+      }
+    ],
+    "news": [
+      {
+        "date": "2025-12-08",
+        "title": "Bluejay Therapeutics 인수 계약 — brelovitug(만성 HDV Phase 3) 확보, 최대 $820M",
+        "summary": "영향: 긍정적 — 현금 $250M + 주식 $370M, 매출 마일스톤 최대 $200M. HDV 진입으로 ASMB·VIR과 직접 경쟁 축 형성 [actual]",
+        "source": "BioPharma Dive — https://www.biopharmadive.com/news/mirum-bluejay-acquisition-hepatitis-d/807282/",
+        "source_url": "https://www.biopharmadive.com/news/mirum-bluejay-acquisition-hepatitis-d/807282/"
+      },
+      {
+        "date": "2026-01-26",
+        "title": "Bluejay 인수 완료 — 1Q26에 IPR&D $726.3M 일시 비용 인식",
+        "summary": "영향: 혼재 — 파이프라인은 확장, 회계상 1Q26 순손실 -$790.2M의 직접 원인. 비현금·비반복 성격 [actual: 10-Q]",
+        "source": "Mirum PR / SEC 10-Q — https://www.businesswire.com/news/home/20260126610526/en/Mirum-Pharmaceuticals-Completes-Acquisition-of-Bluejay-Therapeutics-Expanding-Global-Leadership-in-Rare-Disease",
+        "source_url": "https://www.businesswire.com/news/home/20260126610526/en/Mirum-Pharmaceuticals-Completes-Acquisition-of-Bluejay-Therapeutics-Expanding-Global-Leadership-in-Rare-Disease"
+      },
+      {
+        "date": "2026-03-19",
+        "title": "경쟁 — GSK Lynavoy(linerixibat) PBC 담즙정체성 소양증 FDA 승인 (GLISTEN Phase 3)",
+        "summary": "영향: 부정적 — IBAT 억제제 계열 PBC 소양증 최초 승인약 등장. volixibat VANTAGE는 후발주자 위치 [actual]",
+        "source": "GSK — https://www.gsk.com/en-gb/media/press-releases/lynavoy-linerixibat-approved-by-the-us-fda/",
+        "source_url": "https://www.gsk.com/en-gb/media/press-releases/lynavoy-linerixibat-approved-by-the-us-fda/"
+      },
+      {
+        "date": "2026-05-04",
+        "title": "volixibat VISTAS(PSC) Phase 2b primary endpoint 충족 — ItchRO -2.72 vs 위약 -1.08 (Δ1.64, p<0.0001, n=158)",
+        "summary": "영향: 긍정적 — PSC 소양증 환자 효능 입증, BTD·Orphan 지정. NDA 제출 목표 1H27 [actual]",
+        "source": "Mirum PR (Businesswire) — https://www.businesswire.com/news/home/20260504069726/en/Mirum-Pharmaceuticals-Announces-Primary-Endpoint-Met-in-VISTAS-Study-of-Volixibat-in-Patients-with-Primary-Sclerosing-Cholangitis",
+        "source_url": "https://www.businesswire.com/news/home/20260504069726/en/Mirum-Pharmaceuticals-Announces-Primary-Endpoint-Met-in-VISTAS-Study-of-Volixibat-in-Patients-with-Primary-Sclerosing-Cholangitis"
+      },
+      {
+        "date": "2026-05-06",
+        "title": "zilurgisertib(ALK2 억제제, FOP) Incyte로부터 전세계 독점 개발·상업화 권리 확보",
+        "summary": "영향: 긍정적 — 이미 NDA 제출 단계 자산 인수, 담즙정체 밖 희귀질환으로 포트폴리오 확장 [actual: SEC EX-99.1]",
+        "source": "SEC 8-K EX-99.1 — https://www.sec.gov/Archives/edgar/data/1759425/000175942526000036/mirm-20260506xexx991.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000036/mirm-20260506xexx991.htm"
+      },
+      {
+        "date": "2026-05-12",
+        "title": "0.00% 전환사채 2032년물 $600M 프라이싱 (옵션 포함 총 $690M) — 2029년물 일부 리파이낸싱",
+        "summary": "영향: 혼재 — 유동성 확보하나 2Q26 총차입금 $762.9M·자기자본 -$10.4M(yfinance)로 전환, 희석 위험 상존 [actual]",
+        "source": "Mirum PR (Businesswire) — https://www.businesswire.com/news/home/20260512532949/en/Mirum-Pharmaceuticals-Prices-$600.0-Million-Convertible-Senior-Notes-Offering",
+        "source_url": "https://www.businesswire.com/news/home/20260512532949/en/Mirum-Pharmaceuticals-Prices-$600.0-Million-Convertible-Senior-Notes-Offering"
+      },
+      {
+        "date": "2026-06-14",
+        "title": "zilurgisertib PROGRESS pivotal Phase 2 양성 — FOP 최초 경구 치료제 가능성",
+        "summary": "영향: 긍정적 — NDA Priority Review, PDUFA 2026-09-26. 승인 시 신규 매출원 [actual]",
+        "source": "Mirum·Incyte PR (Businesswire) — https://www.businesswire.com/news/home/20260614539468/en/Mirum-Pharmaceuticals-and-Incyte-Announce-Positive-Pivotal-Phase-2-Results-from-PROGRESS-Study-of-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva",
+        "source_url": "https://www.businesswire.com/news/home/20260614539468/en/Mirum-Pharmaceuticals-and-Incyte-Announce-Positive-Pivotal-Phase-2-Results-from-PROGRESS-Study-of-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva"
+      },
+      {
+        "date": "2026-08-05",
+        "title": "2Q26 실적 — 순제품매출 $176.2M(LIVMARLI $128.7M +46% YoY), 2026 가이던스 $680~700M",
+        "summary": "영향: 긍정적 — 순손실 -$67.2M, 무제한 현금·현금성·투자자산 $561.3M. AZURE-1/4 topline 3Q26/4Q26 재확인 [actual]",
+        "source": "SEC 8-K EX-99.1 / Mirum IR — https://www.sec.gov/Archives/edgar/data/1759425/000175942526000044/mirm-20260805xexx991.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1759425/000175942526000044/mirm-20260805xexx991.htm"
+      },
+      {
+        "date": "2026-08-13",
+        "title": "경쟁 read-through — ASMB ABI-6250 담즙정체(PBC/PSC) Phase 2 1Q27 개시 공식화",
+        "summary": "영향: 중립~부정적 — 장기 경쟁자 등장이나 환자 효능 데이터 없음. Mirum이 PSC에서 1.5~2년 선행 [actual/derived]",
+        "source": "SEC 8-K EX-99.1 (ASMB) — https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 6.0,
+      "cagr_pct": 12.0,
+      "horizon": "PBC 소양증 + PSC + 만성 HDV + ALGS/PFIC/CTX/FOP 합산 잠재시장 (2030E) [estimated — 개별 적응증 유병률 기반 추정, 공표 컨센서스 아님]"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2021",
+        "revenue": 19.138,
+        "op_income": -173.413,
+        "op_margin": -906.1,
+        "net_income": -83.988,
+        "net_margin": -438.8
+      },
+      {
+        "year": "2022",
+        "revenue": 77.062,
+        "op_income": -131.22,
+        "op_margin": -170.3,
+        "net_income": -135.665,
+        "net_margin": -176.0
+      },
+      {
+        "year": "2023",
+        "revenue": 186.374,
+        "op_income": -109.154,
+        "op_margin": -58.6,
+        "net_income": -163.415,
+        "net_margin": -87.7
+      },
+      {
+        "year": "2024",
+        "revenue": 336.888,
+        "op_income": -87.606,
+        "op_margin": -26.0,
+        "net_income": -87.942,
+        "net_margin": -26.1
+      },
+      {
+        "year": "2025",
+        "revenue": 521.312,
+        "op_income": -22.136,
+        "op_margin": -4.2,
+        "net_income": -23.363,
+        "net_margin": -4.5
+      }
+    ],
+    "financial_unit": {
+      "currency": "USD",
+      "scale": "M"
+    },
+    "peer_compare": [
+      {
+        "ticker": "MIRM",
+        "name": "Mirum Pharmaceuticals",
+        "pe": null,
+        "pb": -626.71,
+        "roe": -703.0,
+        "div_yield": null
+      },
+      {
+        "ticker": "ASMB",
+        "name": "Assembly Biosciences",
+        "pe": 29.52,
+        "pb": 2.38,
+        "roe": -0.03,
+        "div_yield": null
+      },
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "pe": null,
+        "pb": 15.84,
+        "roe": -20.68,
+        "div_yield": 2.17
+      },
+      {
+        "ticker": "IPN.PA",
+        "name": "Ipsen S.A.",
+        "pe": 26.65,
+        "pb": 2.88,
+        "roe": 11.44,
+        "div_yield": 0.97
+      },
+      {
+        "ticker": "GSK",
+        "name": "GSK plc",
+        "pe": 15.69,
+        "pb": 4.18,
+        "roe": 33.38,
+        "div_yield": 3.64
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 1045.0,
+      "total_liab": 1055.4,
+      "equity": -10.4,
+      "cash": 561.3,
+      "debt": 762.9,
+      "_note": "2Q26(2026-06-30) 기준, USD M. total_assets $1,045.0M·total_liab $1,055.4M·자기자본 -$10.4M [actual yfinance quarterly balance sheet, 2026-09-07 fetch]. cash $561.3M은 회사가 공시한 '무제한 현금·현금성자산·투자자산' [actual: Mirum 2Q26 EX-99.1] — 협의 XBRL CashAndCashEquivalents 태그는 $330.7M, yfinance Cash+STInvestments는 $438.3M이며 차액은 장기투자자산임 [derived]. debt $762.9M은 2026-05 발행 0.00% 전환사채 2032년물 $690M(옵션 포함)이 2029년물 일부를 리파이낸싱하며 반영된 결과 [actual]. ⚠ 데이터 불일치 — SEC XBRL companyfacts 프레임은 2Q26 자기자본을 $242.5M(=1Q26 값 그대로)으로 반환해 yfinance의 -$10.4M과 충돌함. 총자산 $1,045.0M은 양쪽이 일치하고, yfinance 내부적으로는 1,045.0-1,055.4=-10.4로 정합하며 P/B -626.71도 이 음수 자기자본에서 나옴. 따라서 XBRL 쪽 $242.5M이 stale frame일 가능성이 높으나 원본 10-Q 대차대조표를 직접 대조하지 않은 상태이므로 **확인 불가**로 남김. 어느 쪽이든 P/B는 이 종목의 밸류에이션 지표로 무의미함 [derived]."
+    },
+    "cf_summary": {
+      "ocf_5y_avg": -51.5,
+      "fcf_5y_avg": -52.0,
+      "capex_intensity": 0.0018,
+      "note": "USD M, 2021~2025 5개년 평균 [derived: SEC XBRL]. 흑자 전환 경로가 뚜렷함 — OCF 2021 -132.8 / 2022 -120.1 / 2023 -70.9 / 2024 +10.3 / 2025 +55.8, FCF 2024 +9.3 / 2025 +54.9로 2024년부터 플러스 전환 [actual XBRL]. CapEx는 2025년 $1.0M 수준으로 매출 대비 0.2%에 불과 — 자산 경량 스페셜티 파마 구조 [derived]. 다만 2026년은 Bluejay 인수 현금 $250M·전환사채 리파이낸싱·brelovitug Phase 3 비용으로 현금흐름 궤적이 재설정됨 — 2Q26 R&D $90.5M은 2025년 연간 $186.2M 대비 분기 기준으로 급증한 수준임 [actual: 2Q26 EX-99.1]."
+    },
+    "revenue_trend_note": "매출 CAGR — 2021 $19.1M → 2025 $521.3M, 4년 CAGR 약 128.5% [derived]. 2022→2025 3년 CAGR은 약 89.1% [derived]. 2021년만 SEC XBRL 매출 태그가 채워져 있고 2022~2025는 yfinance income statement 값으로 보완함 [actual yfinance, 2026-09-07 fetch]. TTM(2025Q3~2026Q2) 매출 $618.1M [actual yfinance]. 영업손실은 2021 -$173.4M에서 2025 -$22.1M로 5년 연속 축소되어 2026년 가이던스($680~700M) 달성 시 구조적 흑자 진입 구간에 근접 [derived]. 분기 매출: 2Q25 $127.8M → 3Q25 $133.0M → 4Q25 $148.9M → 1Q26 $159.9M → 2Q26 $176.2M — 5개 분기 연속 증가 [actual yfinance quarterly]. 2Q26 매출은 전년 동기 $127.8M 대비 +37.9% [derived]."
+  },
+  "financial_statements_summary": {
+    "data_source": "SEC EDGAR XBRL companyfacts (fetch_us_gaap_5y_5q, 2026-09-07) + yfinance 1.3.0 income/balance sheet 보완 + Mirum 2Q26 EX-99.1(2026-08-05) + 1Q26/2Q26 10-Q",
+    "frequency": "5Y annual (2021~2025) + 5Q quarterly (2025Q2~2026Q2)",
+    "notes": "① 매출 태그 결손 — SEC XBRL revenue는 2021년(19.138)만 채워져 있어 2022~2025는 yfinance financials로 대체함 [actual yfinance]. ② 1Q26 순손실 -$790.155M 이상치 — 원인 규명됨. Bluejay Therapeutics 인수와 관련해 '대체 사용처 없는 취득 IPR&D' $726.3M을 일시 비용 처리한 것이 주된 요인이며, 여기에 Bluejay 직원 미가득 주식보상 관련 일회성 SG&A $19.3M이 더해짐 [actual: Mirum 1Q26 10-Q, 2026-05-06]. 비현금·비반복 항목으로 판단됨. ③ 다만 XBRL 프레임의 op_income 1Q26 -$789.465M은 yfinance -$63.163M과 충돌함 — IPR&D를 영업비용으로 볼지 영업외로 볼지에 따른 태그 차이로 보이며, 본 문서는 매출·영업이익은 yfinance, 순손익은 양쪽 일치값(-$790.155M)을 사용함 [derived]. ④ XBRL 분기 net_income_total이 2025Q2/2025Q3, 2026Q1/2026Q2에서 동일값으로 중복 반환되는 아티팩트가 있음 — yfinance 분기 손익(2Q26 -$67.227M)이 정확 [actual]. ⑤ 자기자본 2Q26 값이 XBRL($242.5M)과 yfinance(-$10.4M)에서 상충 — bs_snapshot._note 참조, 원본 대차대조표 미대조로 확인 불가. ⑥ lt_debt는 XBRL 태그가 비어 yfinance Long Term Debt(2Q26 $750.1M, 총차입금 $762.9M)로 대체함 [actual]."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 30,
+      "prob_pct": 30,
+      "thesis": "3Q26~4Q26 brelovitug AZURE-1/AZURE-4 Phase 3가 HDV RNA·ALT 복합 지표에서 양성으로 나오고, 9/26 zilurgisertib FOP PDUFA가 승인으로 마무리되며, 1Q27 VANTAGE(PBC)까지 성공하는 3연타 시나리오. 이 경우 Mirum은 담즙정체 단일 프랜차이즈에서 '희귀 간·골질환 멀티에셋 상업기업'으로 재평가되고, 2026 가이던스 상단($700M)에 이어 2027년 $900M+ 궤도가 열림. HDV에서 VIR보다 먼저 Phase 3 데이터를 내면 ASMB ABI-6250의 HDV 옵션가치는 상대적으로 축소됨.",
+      "assumptions": [
+        "AZURE-1(3Q26)·AZURE-4(4Q26) Phase 3 primary endpoint 충족 [pending]",
+        "zilurgisertib FOP 2026-09-26 PDUFA 승인 — 최초 경구 FOP 치료제 [pending]",
+        "VANTAGE(PBC) 1Q27 topline 성공, GSK Lynavoy 대비 차별화 입증 [pending]",
+        "LIVMARLI EXPAND Phase 3(4Q26 topline) 성공으로 라벨 확장",
+        "2026 매출 가이던스 상단 $700M 달성 후 2027년 두 자릿수 성장 지속"
+      ],
+      "key_assumptions": [
+        "AZURE Phase 3 HDV 성공",
+        "zilurgisertib FOP 승인",
+        "VANTAGE PBC 성공",
+        "2026 매출 $700M 상단"
+      ],
+      "target_price": 185
+    },
+    "base": {
+      "probability": 45,
+      "prob_pct": 45,
+      "thesis": "상업 제품 3종의 매출 성장(2Q26 $176.2M, 5개 분기 연속 증가)이 계속되어 2026 가이던스 중단($680~690M)을 달성하지만, 파이프라인 3건 중 1~2건만 성공하는 혼재 결과. VISTAS(PSC) 기반 NDA는 1H27 제출되고 zilurgisertib는 승인되나 PBC는 GSK Lynavoy 선점으로 볼륨이 제한되거나, HDV Phase 3가 부분적 결과에 그침. 매출 성장은 유효하나 P/S 10배 프리미엄은 유지만 되고 확대되지 않으며, 주가는 컨센서스 목표가($138.2, 14명) 아래 박스권.",
+      "assumptions": [
+        "2026 매출 $680~690M — 가이던스 중단 달성 [actual 가이던스 기준]",
+        "AZURE 또는 VANTAGE 중 한 건만 명확한 성공",
+        "zilurgisertib FOP 승인되나 초기 매출 기여는 소규모 (초희귀 적응증)",
+        "영업손실 축소 지속하나 GAAP 흑자 전환은 2027년 이후",
+        "P/S 8~11배 밴드 유지 — 재평가도 디레이팅도 없음"
+      ],
+      "key_assumptions": [
+        "2026 매출 $680~690M",
+        "파이프라인 3건 중 1~2건 성공",
+        "P/S 8~11배 유지",
+        "GAAP 흑자 2027년 이후"
+      ],
+      "target_price": 135
+    },
+    "bear": {
+      "probability": 25,
+      "prob_pct": 25,
+      "thesis": "AZURE Phase 3가 실패하거나 효능이 VIR의 SOLSTICE 병용 데이터(HDV RNA TND 88% vs 53%)에 뚜렷이 못 미치면 Bluejay 인수 $620M(+마일스톤 $200M)이 통째로 손상 인식 대상이 되고, 1Q26 IPR&D $726.3M 비용화가 '비반복 회계 이벤트'가 아니라 '자본배분 실패'로 재해석됨. 여기에 VANTAGE(PBC)까지 실패하면 남는 것은 LIVMARLI 프랜차이즈뿐인데, 이 프랜차이즈에 전환사채 $690M을 포함한 총차입금 $762.9M과 이미 마이너스인 자기자본이 얹혀 있음. P/S 10배는 상업 자산 대비 정당화가 어려워지고 절반 이하로 디레이팅될 수 있음.",
+      "assumptions": [
+        "AZURE-1/AZURE-4 Phase 3 실패 또는 VIR 대비 열위 → Bluejay 자산 손상 [pending]",
+        "VANTAGE(PBC) 실패 또는 GSK Lynavoy 대비 차별화 실패",
+        "총차입금 $762.9M·자기자본 -$10.4M 구조에서 추가 자금조달 필요 시 대규모 희석 [actual]",
+        "IRA·payer 협상으로 LIVMARLI 순가격 하락",
+        "P/S 10배 → 4~5배 디레이팅"
+      ],
+      "key_assumptions": [
+        "AZURE Phase 3 실패",
+        "VANTAGE PBC 실패",
+        "레버리지·음수 자기자본 부담",
+        "P/S 4~5배로 디레이팅"
+      ],
+      "target_price": 58
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-09-26",
+      "event": "zilurgisertib(FOP) PDUFA 목표일",
+      "type": "regulatory",
+      "expected_impact": "high",
+      "description": "Priority Review. 승인 시 미국 최초 경구 FOP 치료제 — PROGRESS pivotal Phase 2 양성 근거 [actual: Mirum 2Q26 EX-99.1, Mirum·Incyte PR 2026-06-14]. 본 분석 시점(9/7) 기준 3주 이내 이벤트"
+    },
+    {
+      "date": "2026 3Q (~9월)",
+      "event": "brelovitug AZURE-1 Phase 3 (만성 HDV) topline",
+      "type": "clinical",
+      "expected_impact": "high",
+      "description": "Bluejay 인수 자산의 첫 Phase 3 판정. ASMB ABI-6250 HDV Phase 2(2026-10 개시)·VIR ECLIPSE(4Q26~1Q27)보다 앞선 데이터로, HDV 경쟁 순서를 결정함 [actual: 2Q26 EX-99.1]"
+    },
+    {
+      "date": "2026 4Q",
+      "event": "brelovitug AZURE-4 Phase 3 topline + LIVMARLI EXPAND Phase 3(담즙정체성 소양증) topline",
+      "type": "clinical",
+      "expected_impact": "high",
+      "description": "HDV 2차 확증 시험과 기존 주력 제품 라벨 확장이 같은 분기에 몰림 — 성공 시 2027 매출 상향 근거, 실패 시 Bluejay 딜 손상 논쟁 촉발 [actual: 2Q26 EX-99.1]"
+    },
+    {
+      "date": "2026-11 (예상)",
+      "event": "3Q26 실적 발표",
+      "type": "earnings",
+      "expected_impact": "medium",
+      "description": "2026 가이던스 $680~700M 궤도 점검. 2Q26까지 상반기 누계 $336.1M — 하반기 $344~364M 필요 [derived]. 정확한 발표일은 미공시 — 확인 불가"
+    },
+    {
+      "date": "2027 1Q",
+      "event": "volixibat VANTAGE(PBC) Phase 2b topline",
+      "type": "clinical",
+      "expected_impact": "high",
+      "description": "등록 완료 상태. GSK Lynavoy(2026-03 승인)가 선점한 PBC 소양증 시장에서 차별화 입증 여부 [actual: Mirum IR 2026-08-05, GSK 2026-03-19]"
+    },
+    {
+      "date": "2027 1H",
+      "event": "volixibat PSC 적응증 NDA 제출 목표",
+      "type": "regulatory",
+      "expected_impact": "high",
+      "description": "VISTAS Phase 2b(ItchRO -2.72 vs -1.08, p<0.0001) 기반, BTD·Orphan 보유. Phase 3 추가 요구 여부·정확한 규제 경로는 공표되지 않음 — 확인 불가 [actual/unavailable]"
+    },
+    {
+      "date": "2027 1Q",
+      "event": "ASMB ABI-6250 담즙정체(PBC/PSC) Phase 2 개시 — 경쟁 read-through",
+      "type": "competitive",
+      "expected_impact": "low",
+      "description": "NTCP 억제제의 담즙정체 진입. 환자 효능 데이터가 없어 단기 영향은 제한적이나, Mirum의 PSC/PBC 선행 우위(약 1.5~2년) 지속 여부의 시계 [actual: ASMB 8-K EX-99.1 2026-08-13]"
+    }
+  ],
+  "risks": [
+    {
+      "name": "VANTAGE(PBC) 실패 — 선점자 GSK Lynavoy 대비 차별화 부재",
+      "probability": "med",
+      "impact": "high",
+      "description": "GSK linerixibat(Lynavoy)가 2026-03-19 PBC 담즙정체성 소양증으로 FDA 승인되어 같은 IBAT 계열 선점자가 존재함 [actual]. VANTAGE topline 1Q27이 실패하거나 효과 크기가 GLISTEN(WI-NRS LS mean diff -0.71) 대비 우위를 못 보이면 volixibat의 PBC 가치는 상당 부분 소멸함"
+    },
+    {
+      "name": "brelovitug AZURE Phase 3 실패 → Bluejay 인수 $620M 손상",
+      "probability": "med",
+      "impact": "high",
+      "description": "3Q26/4Q26 topline. 실패 시 1Q26에 비용화한 IPR&D $726.3M과 잔여 마일스톤 최대 $200M이 회수 불가 자본배분으로 확정됨 [actual: 10-Q]. VIR tobevibart+elebsiran의 SOLSTICE 96주 데이터(HDV RNA TND 88% vs 53%)가 벤치마크로 존재해 우열 비교가 즉시 이뤄짐"
+    },
+    {
+      "name": "레버리지·음수 자기자본 — 총차입금 $762.9M vs 자기자본 -$10.4M",
+      "probability": "med",
+      "impact": "high",
+      "description": "2026-05 0.00% 전환사채 2032년물 $690M(옵션 포함) 발행으로 2Q26 총차입금이 $762.9M까지 증가하고 자기자본은 -$10.4M [actual yfinance]. 무이자 구조라 이자부담은 없으나 만기 상환·전환 시 희석 위험이 있고, 임상 실패로 주가가 하락한 상태에서 추가 조달이 필요하면 조건이 급격히 악화됨"
+    },
+    {
+      "name": "P/S 10배 밸류에이션 — 성장 지속을 이미 가격에 반영",
+      "probability": "high",
+      "impact": "med",
+      "description": "시총 $6.15B / TTM 매출 $618.1M = P/S 9.96배 [actual yfinance 2026-09-04]. 동일 시점 GSK 3.01배·Ipsen 3.17배·Gilead 6.15배 대비 현저한 프리미엄 [derived]. 상업 자산만으로는 정당화가 어렵고 파이프라인 3건의 성공을 전제함 — 하나라도 실패하면 멀티플 압축이 매출 성장을 상쇄"
+    },
+    {
+      "name": "회계 복잡성·데이터 불일치 — 1Q26 -$790M, XBRL vs yfinance 상충",
+      "probability": "high",
+      "impact": "low",
+      "description": "1Q26 순손실 -$790.2M(IPR&D $726.3M 비용화)로 TTM 지표·P/E·ROE가 전부 왜곡됨 [actual]. 추가로 2Q26 자기자본이 XBRL $242.5M vs yfinance -$10.4M로 상충하고, XBRL 분기 순손익 중복 반환 아티팩트도 확인됨 — 원본 10-Q 미대조 상태이므로 정합 여부는 확인 불가. 정량 스크리너 기반 판단이 왜곡될 위험"
+    },
+    {
+      "name": "희귀질환 가격·상환 압박 (IRA·payer·유럽 HTA)",
+      "probability": "med",
+      "impact": "med",
+      "description": "LIVMARLI $128.7M/분기의 매출은 소수 환자 × 고가 구조에 전적으로 의존 [actual: 2Q26 EX-99.1]. 미국 IRA 협상 대상 확대, payer의 prior authorization 강화, 유럽 HTA 가격 인하가 순가격을 압박할 수 있고, 초희귀 적응증(FOP·CTX)은 절대 환자 수 자체가 상한선"
+    },
+    {
+      "name": "상업 실행 리스크 — 3제품 동시 확장 + 신규 적응증 런칭",
+      "probability": "med",
+      "impact": "med",
+      "description": "LIVMARLI(ALGS·PFIC) + CHOLBAM + CTEXLI(CTX) 3종을 유지하면서 zilurgisertib(FOP)·volixibat(PSC) 런칭 준비까지 겹침. 희귀질환은 환자 발굴(patient finding)이 병목이라 영업조직 확대가 매출로 직결되지 않음 [inference]"
+    },
+    {
+      "name": "파이프라인 집중 리스크 — 담즙산·간질환 축 단일 의존",
+      "probability": "med",
+      "impact": "med",
+      "description": "zilurgisertib(FOP)를 제외하면 LIVMARLI·volixibat·brelovitug·CHOLBAM이 모두 간·담즙 축에 몰려 있음. 계열 전체에 영향을 주는 안전성 이슈(예: IBAT 억제제의 설사·간효소 상승)나 규제 기조 변화 시 분산 효과가 없음 [inference]"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "ASMB의 투자 논리가 'HSV 하나짜리'에서 '길리어드가 선택한 항바이러스·간질환 플랫폼'으로 이동했다",
+      "type": "competitive_readthrough",
+      "relevance_to_mirm": "low",
+      "evidence": "MIRM 관점에서 ASMB의 서사 이동은 직접 영향이 거의 없음. ABI-6250이 HDV·담즙정체 양쪽으로 확장되면 MIRM과 겹치는 면적이 늘지만, ASMB는 담즙정체 Phase 2를 1Q27에야 개시하므로 MIRM의 VISTAS(2026-05 성공)·VANTAGE(1Q27 topline) 대비 1.5~2년 뒤임 [derived]. MIRM 자체 서사는 이미 '멀티에셋 희귀질환 상업기업'으로 한 단계 앞서 있음 [actual: 상업 제품 3종 + 후기 파이프라인 3종]",
+      "testability": "low",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "길리어드가 ABI-5366 대신 GS-1179(주 1회 경구 HPI)를 Phase 2로 선택했고 2026년 말 개시한다",
+      "type": "competitor_pipeline",
+      "relevance_to_mirm": "none",
+      "evidence": "HSV 항바이러스 프로그램으로 MIRM의 담즙정체·HDV·FOP 포트폴리오와 접점 없음 [derived]. 확인 불가한 간접 영향 외 관련성 없음",
+      "testability": "n/a",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "GS-1179의 HIV PrEP 병용 전략 검토가 시장 크기·전략적 가치를 근본적으로 바꾼다",
+      "type": "competitor_strategy",
+      "relevance_to_mirm": "none",
+      "evidence": "HIV PrEP 시장은 MIRM 사업영역과 무관 [derived]. 다만 '빅파마가 소형 바이오의 자산을 직접 개발 단계로 끌어올리면 재평가가 일어난다'는 일반 원리는 MIRM에도 적용 가능 — MIRM은 그 역방향으로 Bluejay·Incyte 자산을 인수·라이선스한 쪽임 [inference]",
+      "testability": "low",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "ASMB의 미국 40% cost/profit-share 옵션 행사 결정(2026년 말)이 GS-1179 NPV에 대한 신호다",
+      "type": "competitor_capital_allocation",
+      "relevance_to_mirm": "none",
+      "evidence": "MIRM과 직접 관련 없음. 다만 자본배분 신호를 읽는 프레임 자체는 MIRM에도 대칭적으로 적용됨 — MIRM은 Bluejay에 현금 $250M+주식 $370M을 실제로 집행했고 이는 옵션 보유보다 훨씬 강한 확신 신호이자 훨씬 큰 리스크임 [actual/inference]",
+      "testability": "low",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "ABI-6250(NTCP 억제제)이 실제 글로벌 Phase 2(NCT07762027, HDV, 2026-10 시작)로 진입했고 2027년 1분기 PBC/PSC Phase 2도 예정 — '0으로 평가할 자산'에서 벗어나고 있다",
+      "type": "direct_competition",
+      "relevance_to_mirm": "high",
+      "evidence": "MIRM 관점에서 유일하게 직접적인 thesis. 두 축 모두에서 겹침. (가) 담즙정체 — MIRM volixibat은 PSC에서 Phase 2b 환자 효능을 이미 확보(VISTAS, ItchRO -2.72 vs 위약 -1.08, Δ1.64, p<0.0001, n=158, BTD·Orphan, 2026-05-04) [actual], PBC는 VANTAGE 등록 완료·topline 1Q27 [actual]. ASMB ABI-6250은 담즙정체 Phase 2를 1Q27에 개시할 예정이고 환자 효능 데이터가 전무함 [actual: ASMB 8-K EX-99.1 2026-08-13]. MIRM이 약 1.5~2년 선행 [derived]. (나) HDV — 블로그가 다루지 않은 축인데, MIRM이 2026-01-26 Bluejay 인수로 brelovitug(항-HBsAg 항체) Phase 3를 확보하면서 ABI-6250과 같은 적응증에 들어옴 [actual]. 여기서는 순서가 역전되어 MIRM AZURE-1/4 topline이 3Q26/4Q26인 반면 ABI-6250은 2026-10에야 Phase 2를 시작함 — MIRM이 2년 이상 앞섬 [derived]. (다) 기전 차이 — IBAT 억제(회장 담즙산 재흡수 차단) vs NTCP 억제(간세포 담즙산·바이러스 유입 차단)로 접근점이 다르며, head-to-head 비교 데이터는 존재하지 않음 [inference]. 결론적으로 '0이 아니게 되고 있다'는 블로거 판단은 MIRM 관점에서도 타당하나, 그것이 MIRM의 선행 우위를 현시점에 잠식하지는 않음",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "ASMB 현금 $320.4M + 길리어드 extension fee $75M(4Q26) → runway 2029년까지",
+      "type": "competitor_balance_sheet",
+      "relevance_to_mirm": "low",
+      "evidence": "재무 대비 관점에서만 유의미. MIRM은 무제한 현금·현금성·투자자산 $561.3M(2Q26) [actual: 2Q26 EX-99.1]이나 총차입금 $762.9M·자기자본 -$10.4M으로 순차입 상태이고 [actual yfinance], ASMB는 EV $427M < 시총 $745M인 순현금 회사 [actual stocks.json]. 즉 MIRM은 매출 $618M TTM으로 자금을 조달하는 상업기업, ASMB는 파트너 자금으로 버티는 임상기업 — 리스크 성격이 근본적으로 다름 [derived]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "UBS가 9/1 Buy·목표가 $52로 ASMB 신규 커버리지를 개시했다 (컨센 5명 평균 $52)",
+      "type": "sell_side_coverage",
+      "relevance_to_mirm": "low",
+      "evidence": "MIRM은 애널리스트 14명 커버, 평균 목표가 $138.21 (현재가 $100.90 대비 +37.0% 상단) [actual yfinance 2026-09-04]. 커버리지 폭·깊이 모두 ASMB(5명)보다 성숙 단계임 [derived]. 커버리지 확대 자체가 촉매가 되는 구간은 MIRM에서 이미 지났음 [inference]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "ASMB가 9월 S&P Biotechnology Select Industry Index(XBI) 신규 편입 조건을 충족할 가능성이 매우 높다",
+      "type": "index_event",
+      "relevance_to_mirm": "low",
+      "evidence": "MIRM의 XBI(S&P Biotechnology Select Industry Index) 편입 여부는 본 분석에서 확인하지 않았음 — **확인 불가**. XBI 상위 보유종목(MRNA 2.98%, TWST 1.75%, HALO 1.45%, NTRA 1.40%, KYMR 1.38%)에 MIRM은 없으나, modified equal-weight 154종목 구조상 하위 편입 가능성은 배제할 수 없음 [actual: SSGA 상위 보유·stocks.json]. 시총 $6.15B는 편입 기준($500M FMC)을 크게 상회하므로 조건 자체는 문제되지 않음 [derived]",
+      "testability": "high",
+      "current_status": "unverifiable"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "XBI 편입 시 패시브 수급이 평소 유동성 대비 무시하기 어렵다 (weight 0.1%면 31만 주 ≈ 일평균의 2배)",
+      "type": "index_flow",
+      "relevance_to_mirm": "none",
+      "evidence": "ASMB 고유의 소형주 유동성 논리. MIRM은 시총 $6.15B·변동성 47.0%로 유동성 프로파일이 전혀 다르며 지수 강제 수급이 가격을 좌우하는 구간이 아님 [actual stocks.json / derived]",
+      "testability": "n/a",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "지수 이벤트 구조(8/31 reference → 9/9 가격결정 → 9/18 rebalance → 9/21 반영)에서 XBI는 논리를 만드는 사건이 아니라 이미 만들어진 논리에 일시 수급을 얹는 보너스다",
+      "type": "event_structure",
+      "relevance_to_mirm": "low",
+      "evidence": "'이벤트는 보너스, 본질은 펀더멘털'이라는 원칙은 MIRM에 그대로 적용 가능하나 대상이 다름 — MIRM의 단기 이벤트는 지수가 아니라 임상·규제(9/26 zilurgisertib PDUFA, 3Q26 AZURE-1 topline)이고, 이 둘은 보너스가 아니라 펀더멘털 자체를 바꾸는 이진(binary) 이벤트임 [derived]. 따라서 블로거의 '이벤트 소멸 후 펀더멘털 게임' 프레임은 MIRM에는 적용되지 않음 [inference]",
+      "testability": "low",
+      "current_status": "pending"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": 19.8,
+    "implied_op_margin_5y_pct": 25.0,
+    "notes": "현재가 $100.90·시총 $6.15B·EV $6.88B, TTM 매출 $618.1M → P/S 9.96배·EV/S 11.1배 [actual yfinance 2026-09-04]. 역산 전제 — 2031년 EV/Sales 4.5배(성숙 희귀질환 스페셜티 파마 밴드 상단)를 적용하면 정당화에 필요한 2031 매출은 $6.88B / 4.5 ≈ $1.53B [derived/inference]. TTM $618.1M에서 5년 CAGR로 환산하면 약 19.8% [derived]. 같은 매출에 op margin 25%를 얹으면 2031 영업이익 약 $382M이고 EV/EBIT 18배에서 EV $6.88B가 재현되어 두 경로가 정합함 [derived]. 해석 — 시장은 ① 매출이 5년간 연 20% 가까이 복리 성장하고 ② 영업이익률이 현재 -4.2%(2025)에서 +25%로 전환된다는 두 가지를 동시에 요구하고 있음. ① 자체는 과거 실적(2021→2025 매출 CAGR 128.5%, 2022→2025 89.1%)에 비하면 오히려 보수적이나, 기저가 커진 상태에서 20%를 5년 유지하려면 LIVMARLI 성장만으로는 부족하고 volixibat(PSC/PBC)·brelovitug(HDV)·zilurgisertib(FOP) 중 최소 2개의 승인·런칭이 필요함 [derived]. ② 영업이익률 25%는 R&D가 2Q26 분기 $90.5M 수준에서 정상화되고 Phase 3 3건이 종료돼야 성립함 [inference]. 즉 현재 밸류에이션에는 파이프라인 실패를 위한 여유가 사실상 없음 — 3Q26 AZURE-1과 1Q27 VANTAGE가 밸류에이션의 실질적 안전마진임 [inference]. 전제(터미널 배수 4.5배·EV/EBIT 18배)는 컨센서스가 아닌 본 분석의 가정이며, 배수를 3.5배로 낮추면 요구 CAGR은 약 27%로, 6배로 높이면 약 13%로 이동함 [derived]."
+  },
+  "_meta": {
+    "schema": "deep_research_v1_us",
+    "sources": [
+      "yfinance 1.3.0 live (2026-09-07 fetch, 가격 as_of 2026-09-04)",
+      "SEC EDGAR XBRL companyfacts — fetch_us_gaap_5y_5q('MIRM')",
+      "Mirum 2Q26 8-K EX-99.1 (2026-08-05) — https://www.sec.gov/Archives/edgar/data/1759425/000175942526000044/mirm-20260805xexx991.htm",
+      "Mirum 1Q26 10-Q (2026-05-06) — https://www.sec.gov/Archives/edgar/data/0001759425/000175942526000037/mirm-20260331.htm",
+      "Mirum 2Q26 10-Q (2026-08-05) — https://www.sec.gov/Archives/edgar/data/0001759425/000175942526000045/mirm-20260630.htm",
+      "VISTAS PSC Phase 2b PR (2026-05-04) — https://www.businesswire.com/news/home/20260504069726/en/Mirum-Pharmaceuticals-Announces-Primary-Endpoint-Met-in-VISTAS-Study-of-Volixibat-in-Patients-with-Primary-Sclerosing-Cholangitis",
+      "Bluejay 인수 (2025-12-08 계약 / 2026-01-26 완료) — https://www.biopharmadive.com/news/mirum-bluejay-acquisition-hepatitis-d/807282/",
+      "전환사채 $600M(→$690M) 2032년물 (2026-05-12) — https://www.businesswire.com/news/home/20260512532949/en/Mirum-Pharmaceuticals-Prices-$600.0-Million-Convertible-Senior-Notes-Offering",
+      "zilurgisertib PROGRESS Phase 2 (2026-06-14) — https://www.businesswire.com/news/home/20260614539468/en/Mirum-Pharmaceuticals-and-Incyte-Announce-Positive-Pivotal-Phase-2-Results-from-PROGRESS-Study-of-Zilurgisertib-in-Fibrodysplasia-Ossificans-Progressiva",
+      "GSK Lynavoy(linerixibat) FDA 승인 (2026-03-19) — https://www.gsk.com/en-gb/media/press-releases/lynavoy-linerixibat-approved-by-the-us-fda/",
+      "ASMB 2Q26 8-K EX-99.1 (2026-08-13) — https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm",
+      "ClinicalTrials.gov NCT07762027 — https://clinicaltrials.gov/study/NCT07762027",
+      "evidence/MIRM.json, evidence/ASMB.json (본 파이프라인)",
+      "stocks.json market_data (yfinance live, as_of 2026-09-04)"
+    ],
+    "style": "한국어 음슴체 + [actual]/[derived]/[inference]/[estimated]/[unavailable] 태그",
+    "disclaimer": "매수·매도 권유 아님. 미확인 사항은 '확인 불가'로 명시했고 추측으로 채우지 않았음."
+  }
+}
