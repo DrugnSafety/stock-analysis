@@ -1,0 +1,441 @@
+{
+  "industry": {
+    "name": "HIV 치료·예방(PrEP) + 종양(세포치료·ADC) + 간질환(PBC·바이러스성 간염) 대형 바이오파마",
+    "overview": "길리어드는 HIV 프랜차이즈를 축으로 종양·간질환으로 확장 중인 미국 대형 바이오파마임. 2Q26 기저사업 매출 +10% YoY, HIV +12%였고 PrEP(노출 전 예방) 매출이 분기 $1B를 처음 넘김 (Descovy ~$801M +60% YoY, Yeztugo/lenacapavir $232M +40% QoQ) [actual, Gilead 2Q26 PR 2026-08-04]. 치료 축은 Biktarvy 중심, 예방 축은 Descovy(경구 일일)에서 Yeztugo(6개월 1회 주사)로 확장되는 구조임. 종양은 Trodelvy(TROP-2 ADC)와 세포치료(Kite)에 Arcellx의 anito-cel(BCMA CAR-T)이 얹히고, 간질환은 Livdelzi(seladelpar, PBC)가 축임 — 이 지점이 ASMB의 ABI-6250(PBC/PSC Phase 2, 1Q27 예정)과 적응증이 겹치는 대목이며, 길리어드는 ASMB의 파트너이자 동시에 담즙정체 영역의 잠재 경쟁자라는 이중 위치에 있음 [inference]. 이번 블로그 논지와 직결되는 축은 HSV임. 길리어드는 ASMB로부터 라이선스한 helicase-primase inhibitor 중 월 1회 후보(ABI-5366)가 아니라 주 1회 경구 GS-1179를 Phase 2로 선택했고, 재발성 생식기 헤르페스 Phase 2를 2026년 말까지 개시할 예정임 [actual, SEC 8-K EX-99.1 2026-08-13]. 같은 문서에서 GS-1179을 'HIV PrEP과의 병용 전략의 일부로 평가하는 방안을 검토 중(being considered)'이라고 명시함 [actual]. 즉 길리어드 관점에서 GS-1179은 독립 HSV 치료제가 아니라 이미 분기 $1B 규모인 자사 prevention 프랜차이즈에 붙일 수 있는 add-on 옵션임 [inference]. 다만 '검토 중'은 개발계획 확정이 아니고, 병용 임상의 개시·설계·규모는 현재 확인 불가임. 재무 표면은 왜곡돼 있음 — 2Q26 GAAP 영업손실 -$10,394M·순손실 -$10,496M은 사업 악화가 아니라 Arcellx·Tubulis·Ouro 거래에서 발생한 acquired IPR&D $11.1B의 일시 비용화 때문임 [actual, Gilead 2026-08-04 / XBRL]. 자본총계도 1Q26 $23,515M에서 2Q26 $11,829M으로 급감했는데 같은 원인임 [actual, XBRL]. 밸류에이션은 forward PE 15.27·EV/EBITDA 14.28·배당수익률 2.17%·beta 0.35로, ASMB(변동성 59.6%·beta 1.13) 대비 완전히 다른 리스크 프로파일임 [actual yfinance 2026-09-04 live].",
+    "competitors": [
+      {
+        "name": "AbbVie (대형 파마 벤치마크 — forward PE 15.8·배당 2.7%)",
+        "ticker": "ABBV"
+      },
+      {
+        "name": "Merck & Co (HIV 경구 예방 경쟁 개발 + 대형 파마 벤치마크)",
+        "ticker": "MRK"
+      },
+      {
+        "name": "ViiV Healthcare / GSK (cabotegravir 장기지속 PrEP — Yeztugo 직접 경쟁, 비상장 JV)",
+        "ticker": "GSK"
+      },
+      {
+        "name": "Bristol-Myers Squibb (종양·세포치료 경쟁, 저평가 벤치마크 forward PE 10.2)",
+        "ticker": "BMY"
+      },
+      {
+        "name": "Assembly Biosciences (GS-1179 라이선서·40% US cost-profit share 옵션 보유 — 경쟁자가 아닌 카운터파티)",
+        "ticker": "ASMB"
+      },
+      {
+        "name": "Mirum Pharmaceuticals (volixibat — Livdelzi가 있는 PBC/PSC 담즙정체 영역 경쟁)",
+        "ticker": "MIRM"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-08-04",
+        "title": "2Q26 실적 — 기저 매출 +10% YoY, HIV +12%, PrEP 분기 $1B 돌파(Descovy ~$801M, Yeztugo $232M)",
+        "summary": "영향: 긍정적 — 예방 프랜차이즈가 분기 10억 달러 레벨에 진입 [actual]. 출처: https://www.businesswire.com/news/home/20260804436824/en/Gilead-Sciences-Announces-Second-Quarter-2026-Financial-Results",
+        "source": "Gilead 2Q26 PR (businesswire)"
+      },
+      {
+        "date": "2026-08-04",
+        "title": "acquired IPR&D $11.1B 계상 — 2026 가이던스 EPS에 약 $9.08 영향 (Arcellx·Tubulis·Ouro)",
+        "summary": "영향: 부정적(회계·일시) — GAAP 2Q26 순손실 -$10,496M의 직접 원인이며 현금흐름 훼손이 아니라 인수 대가의 즉시 비용화임 [actual]. 출처: https://www.gilead.com/news/news-details/2026/gilead-sciences-announces-second-quarter-2026-financial-results",
+        "source": "Gilead IR"
+      },
+      {
+        "date": "2026-08-05",
+        "title": "FiercePharma — PrEP 프랜차이즈 $1B 달성에도 애널리스트는 Yeztugo 내구성(durability)에 의문 제기",
+        "summary": "영향: 부정적 — 초기 uptake가 지속 성장으로 이어질지에 대한 sell-side 회의론 [actual]. 출처: https://www.fiercepharma.com/pharma/gilead-hiv-prep-franchise-hits-1b-quarterly-sales-analyst-questions-yeztugo-durability",
+        "source": "FiercePharma"
+      },
+      {
+        "date": "2026-08-06",
+        "title": "2Q26 10-Q 제출 (CIK 0000882095)",
+        "summary": "영향: 중립 — 2Q26 총자산 $49,362M·장기차입금 $26,246M·자본 $11,829M 확인 [actual]. 출처: https://www.sec.gov/Archives/edgar/data/0000882095/000088209526000031/",
+        "source": "SEC 10-Q"
+      },
+      {
+        "date": "2026-08-13",
+        "title": "ASMB 8-K EX-99.1 — 길리어드가 GS-1179(주 1회 경구 HPI) Phase 2 선택, 2026년 말 개시 / HIV PrEP 병용 검토 명시",
+        "summary": "영향: 긍정적 — 예방 프랜차이즈에 HSV를 얹는 옵션이 공식 문서에 등장. 단 '검토 중' 단계임 [actual]. 출처: https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm",
+        "source": "SEC 8-K EX-99.1 (ASMB)"
+      },
+      {
+        "date": "2026-08-13",
+        "title": "ASMB 10-Q — ABI-5366(월 1회 후보)은 현재 추가 개발 계획 없음",
+        "summary": "영향: 중립~부정 — 길리어드의 선택과 집중으로 해석되나 HSV 자산 2개 중 1개가 사실상 보류됨 [actual]. 출처: https://www.sec.gov/Archives/edgar/data/1426800/000119312526349236/asmb-20260630",
+        "source": "SEC 10-Q (ASMB)"
+      },
+      {
+        "date": "2026-08-19",
+        "title": "Crinetics(CRNX) 8-K — 길리어드 evidence 수집 과정에서 함께 잡힌 동종 섹터 공시",
+        "summary": "영향: 중립 — 길리어드 자체 이벤트가 아니며 본 분석에서는 참고용으로만 둠 [actual, 관련성 낮음]. 출처: https://www.sec.gov/Archives/edgar/data/0001658247/000114036126033738/",
+        "source": "SEC 8-K"
+      },
+      {
+        "date": "2026-09-04",
+        "title": "주가 $151.00 — 1M +14.6%, 3M +17.7%, 1Y +37.4%, 컨센서스 27명 평균 목표가 $157.41",
+        "summary": "영향: 중립 — GAAP 대규모 손실 분기에도 주가는 1개월 +14.6%로, 시장이 IPR&D를 일회성으로 취급 중임을 시사 [actual yfinance live]. 출처: stocks.json market_data (yfinance 1.3.0 live, as_of 2026-09-04)",
+        "source": "yfinance (live)"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 4.0,
+      "cagr_pct": 12.0,
+      "horizon": "글로벌 HIV PrEP 시장 — 길리어드 2Q26 분기 $1B(연환산 약 $4B) 실적을 baseline으로 한 추정 [derived, Gilead 2Q26 PR]. CAGR·향후 규모는 [inference]이며 공식 시장조사 수치 아님. GS-1179이 붙을 경우의 HSV prevention add-on 규모는 확인 불가."
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2021",
+        "revenue": 27305.0,
+        "op_income": 9918.0,
+        "op_margin": 36.3,
+        "net_income": 6225.0,
+        "net_margin": 22.8
+      },
+      {
+        "year": "2022",
+        "revenue": 27281.0,
+        "op_income": 7330.0,
+        "op_margin": 26.9,
+        "net_income": 4592.0,
+        "net_margin": 16.8
+      },
+      {
+        "year": "2023",
+        "revenue": 27116.0,
+        "op_income": 7605.0,
+        "op_margin": 28.0,
+        "net_income": 5665.0,
+        "net_margin": 20.9
+      },
+      {
+        "year": "2024",
+        "revenue": 28754.0,
+        "op_income": 1662.0,
+        "op_margin": 5.8,
+        "net_income": 480.0,
+        "net_margin": 1.7
+      },
+      {
+        "year": "2025",
+        "revenue": 29443.0,
+        "op_income": 10022.0,
+        "op_margin": 34.0,
+        "net_income": 8510.0,
+        "net_margin": 28.9
+      }
+    ],
+    "financial_unit": {
+      "currency": "USD",
+      "scale": "M"
+    },
+    "peer_compare": [
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "pe": 15.27,
+        "pb": 15.84,
+        "roe": -20.68,
+        "div_yield": 2.17
+      },
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie",
+        "pe": 15.75,
+        "pb": -76.35,
+        "roe": null,
+        "div_yield": 2.7
+      },
+      {
+        "ticker": "MRK",
+        "name": "Merck & Co",
+        "pe": 15.75,
+        "pb": 8.85,
+        "roe": 6.96,
+        "div_yield": 2.23
+      },
+      {
+        "ticker": "BMY",
+        "name": "Bristol-Myers Squibb",
+        "pe": 10.19,
+        "pb": 6.12,
+        "roe": 46.6,
+        "div_yield": 3.77
+      }
+    ],
+    "peer_compare_note": "pe는 forward PE 사용 [actual yfinance 2026-09-04 live]. GILD·ABBV·MRK 모두 trailing PE가 일회성 비용(GILD는 IPR&D $11.1B)으로 왜곡돼 비교 불가하기 때문임. GILD ROE -20.68%·ABBV PB -76.35는 각각 IPR&D 비용화와 자기주식·배당 누적에 따른 자본 잠식 효과이며 영업 실질이 아님 [inference]. forward PE 기준으로는 GILD 15.27이 ABBV 15.75·MRK 15.75와 사실상 동일하고 BMY 10.19보다 비쌈 — 즉 대형 파마 평균 밸류에이션이며 HIV 프랜차이즈 프리미엄은 붙어있지 않음 [derived].",
+    "bs_snapshot": {
+      "cash": 4882.0,
+      "debt": 26246.0,
+      "total_assets": 49362.0,
+      "total_liab": 37533.0,
+      "equity": 11829.0
+    },
+    "bs_snapshot_note": "2Q26 기준, 단위 USD M [actual, SEC XBRL 10-Q 2026-08-06 / cash는 yfinance totalCash live]. total_liab 37,533 = 총자산 49,362 - 자본 11,829 [derived]. 자본이 1Q26 23,515 → 2Q26 11,829로 -11,686 감소했는데 acquired IPR&D $11.1B 비용화와 거의 일치함 [derived]. 총자산도 1Q26 56,278 → 2Q26 49,362로 줄었음 [actual XBRL]. 부채는 22,174 → 26,246으로 늘어 인수 자금 조달이 일부 차입으로 이뤄졌음을 시사함 [inference].",
+    "cf_summary": {
+      "note": "FY2025 영업현금흐름 $10,019M, capex $563M, FCF $9,456M [actual XBRL]. 주주환원은 배당 $4,003M + 자사주 매입 $1,922M = $5,925M으로 FCF의 63%임 [derived]. 배당은 5년 연속 증가(2021 3,605 → 2025 4,003) [actual XBRL], 주당 약 $3.28 (주가 $151.00 × 배당수익률 2.17%) [derived yfinance live]. 2Q26 GAAP 대규모 손실에도 현금창출력은 훼손되지 않았음 — IPR&D는 비현금이 아니라 이미 지급된 인수대가의 즉시 비용화이므로 투자활동에 이미 반영됨 [inference]. 2026년 연간 OCF·자사주 매입 실적치는 아직 공시 전이라 확인 불가."
+    }
+  },
+  "financial_statements_summary": {
+    "data_source": "SEC XBRL companyfacts (financial_statements_us_gaap.fetch_us_gaap_5y_5q, 2026-09-07 fetch) + yfinance 1.3.0 live (2026-09-04 종가 기준) + Gilead 2Q26 IR",
+    "frequency": "5Y annual (2021~2025) + 5Q quarterly (2025Q2~2026Q2)",
+    "notes": "① 2Q26 GAAP 손실의 정체 — 2026Q2 영업손익 -$10,394M·순손익 -$10,496M은 acquired IPR&D $11.1B (Arcellx·Tubulis·Ouro 거래) 때문이며 2026 가이던스 EPS에 약 $9.08 영향 [actual, Gilead 2026-08-04 PR]. 같은 분기 영업비용이 1Q26 $4,374M → 2Q26 $18,197M으로 급증한 것이 이를 뒷받침함 [actual XBRL]. 따라서 GILD의 trailing PE(yfinance null)·profitMargins(-10.6%)·ROE(-20.7%)는 전부 이 일회성 항목에 오염된 수치이며 밸류에이션 판단에는 forward PE 15.27을 써야 함 [derived]. ② 매출 계열 — SEC XBRL companyfacts에 2021~2025 매출 태그가 비어 있어 revenue = op_income + op_costs로 파생함 [derived]. 이 방식으로 나온 2021 27,305 / 2022 27,281 / 2023 27,116 / 2024 28,754는 브리프 제시치와 정확히 일치해 방법이 검증됨. 동일 방식의 FY2025는 29,443임. yfinance totalRevenue $30,457M은 FY2025가 아니라 TTM(2025Q3~2026Q2) 수치라 연도별 표에 넣으면 기간 불일치가 생기므로 pl_5y에는 29,443을 사용함 [derived]. TTM 30,457은 참고치 [actual yfinance live]. ③ 2024년 이익 급감 — 2024 영업이익 1,662(OPM 5.8%)·순이익 480(NPM 1.7%)은 2021~2023 대비 급락인데, 2024년 영업비용이 27,092로 전년 19,511에서 +7,581 늘어난 것이 원인임 [actual XBRL]. 개별 항목 내역은 본 데이터셋에서 확인 불가 (2024년 CymaBay 인수 IPR&D 등 유사 구조로 추정되나 미확인 — 확인 불가로 둠). 즉 GILD는 최근 5년 중 2년(2024·2026)에서 대형 인수 IPR&D로 GAAP 손익이 훼손된 이력이 있음 [derived] — 일회성이라 부르기에는 반복적이라는 점이 밸류에이션 리스크임 [inference]. ④ 분기 매출도 XBRL 태그가 비어 revenue = op_income + op_costs로 파생함: 2025Q2 7,082 / 2025Q3 7,769 / 2025Q4 7,925 / 2026Q1 6,960 / 2026Q2 7,803 [derived]. 2026Q2 7,803은 전년동기 7,082 대비 +10.2%로 회사가 발표한 기저 매출 +10% YoY와 정합함 [derived, 교차검증]. ⑤ 재무상태 — 2025Q4 분기 BS 값이 XBRL에서 0으로 비어 있어 해당 분기는 확인 불가. ⑥ 배당·자사주 — FY2025 배당 $4,003M·자사주 $1,922M [actual XBRL]. 2026년 자사주 매입 규모는 확인 불가.",
+    "quarterly_5q": [
+      {
+        "quarter": "2025Q2",
+        "revenue": 7082.0,
+        "op_income": 2474.0,
+        "net_income": 1960.0,
+        "tag": "[derived, XBRL op_income+op_costs]"
+      },
+      {
+        "quarter": "2025Q3",
+        "revenue": 7769.0,
+        "op_income": 3327.0,
+        "net_income": 3052.0,
+        "tag": "[derived, XBRL op_income+op_costs]"
+      },
+      {
+        "quarter": "2025Q4",
+        "revenue": 7925.0,
+        "op_income": 1984.0,
+        "net_income": 2183.0,
+        "tag": "[derived, XBRL op_income+op_costs]"
+      },
+      {
+        "quarter": "2026Q1",
+        "revenue": 6960.0,
+        "op_income": 2586.0,
+        "net_income": 2021.0,
+        "tag": "[derived, XBRL op_income+op_costs]"
+      },
+      {
+        "quarter": "2026Q2",
+        "revenue": 7803.0,
+        "op_income": -10394.0,
+        "net_income": -10496.0,
+        "tag": "[actual XBRL] — acquired IPR&D $11.1B 반영"
+      }
+    ]
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "PrEP 프랜차이즈가 분기 $1B에서 계속 레벨업하고 Yeztugo 내구성 의문이 실적으로 해소됨. GS-1179 Phase 2가 2026년 말 개시되고 HIV PrEP 병용이 '검토'에서 실제 개발계획으로 확정되면서 prevention 번들(HIV+HSV) 서사가 붙음 [inference]. anito-cel(Arcellx) 출시로 종양 축이 살아나 IPR&D $11.1B가 사후적으로 정당화됨. forward PE가 대형 파마 평균 15.3에서 17~18로 재평가되며 컨센서스 목표가 $157.41 상단($180+)을 겨냥함 [derived].",
+      "key_assumptions": [
+        "PrEP 분기 매출이 $1B에서 추가 성장 (Yeztugo durability 우려 해소)",
+        "GS-1179 Phase 2 2026년 말 개시 + PrEP 병용 개발계획 확정",
+        "anito-cel 승인·출시로 IPR&D 투자 회수 경로 가시화"
+      ],
+      "target_price": 186.9,
+      "target_price_basis": "forward EPS $9.89 (= 현재가 $151.0 / forward PE 15.27) [derived yfinance live 2026-09-04] → 12개월 후 forward EPS $10.68 (기저 매출 +10% YoY·HIV +12%를 EPS +8%로 보수 반영) [inference] × 목표 PE 17.5 (대형 파마 평균 15.3 → prevention 번들·anito-cel 재평가로 17~18 리레이팅 가정) [inference] = $186.9. 현재가 대비 +23.8%. 컨센서스 평균 $157.4를 상회하는 수준이며 본 시나리오 서술의 '$180+'와 정합함 [derived]. 배당 $3.28/주(수익률 2.17%)는 목표주가에 미포함 — 포함 시 총수익 +25.9% [derived]."
+    },
+    "base": {
+      "prob_pct": 52,
+      "thesis": "HIV 기저 성장(+10~12% YoY)이 유지되며 방어적 대형 파마로 거래됨. GS-1179은 일정대로 Phase 2에 들어가지만 2027~28 데이터 전까지 GILD 밸류에이션에 유의미하게 반영되지 않음 — GS-1179은 GILD 입장에서 시총 $187B 대비 실질 무게가 매우 작은 옵션이기 때문임 [derived]. 2Q26 IPR&D 손실은 시장이 일회성으로 취급하고(1개월 주가 +14.6%가 방증) forward PE 15.3 · 배당 2.17% · beta 0.35의 프로파일이 유지됨 [actual yfinance live]. 주가는 컨센서스 27명 평균 $157.41 부근 [actual].",
+      "key_assumptions": [
+        "HIV 기저 매출 +10% 내외 성장 지속",
+        "추가 대형 IPR&D 계상 없이 2026 하반기 GAAP 손익 정상화",
+        "GS-1179·ASMB 이슈는 GILD 주가에 중립 (규모 비대칭)"
+      ],
+      "target_price": 157.4,
+      "target_price_basis": "애널리스트 27명 컨센서스 평균 목표가 $157.4를 anchor로 채택 [actual yfinance live 2026-09-04]. 교차검증: forward PE 15.27 유지 × 12개월 후 forward EPS $10.68 = $163.1 [derived] — 컨센서스보다 높게 나오므로 둘 중 보수적인 컨센서스 값을 씀. 현재가 $151.0 대비 +4.2%. 멀티플 리레이팅 없이 기저 성장만 반영되는 구간이며, GS-1179의 기여도는 GILD 시총 $187.23B 대비 계량 가능한 비중이 아니라 목표주가에 반영하지 않음 [derived]. 배당 $3.28/주 포함 시 총수익 +6.4% [derived]."
+    },
+    "bear": {
+      "prob_pct": 18,
+      "thesis": "Yeztugo uptake가 초기 급증 후 둔화해 FiercePharma가 제기한 내구성 의문이 현실화됨 [actual, 문제 제기 자체는 실재]. Medicare Part D 재설계·IRA 약가협상이 HIV 경구 포트폴리오 마진을 압박하고, 2030년대 Biktarvy 특허 절벽이 앞당겨 반영됨 [inference]. Arcellx·Tubulis·Ouro에 이어 추가 대형 인수가 이어지면 IPR&D 반복 계상으로 'GAAP 이익을 믿을 수 없는 회사' 디스카운트가 붙어 forward PE가 BMY 수준(10~12)으로 수렴함 [derived].",
+      "key_assumptions": [
+        "Yeztugo 분기 매출 성장률 둔화 (QoQ +40% → 한 자릿수)",
+        "IRA·Part D 재설계에 따른 실질 순가격 하락",
+        "추가 대형 M&A로 IPR&D 반복 → GAAP 이익 신뢰도 하락"
+      ],
+      "target_price": 113.7,
+      "target_price_basis": "forward EPS $9.89 횡보 가정 (Yeztugo 내구성 둔화·IRA 순가격 압박으로 기저 성장 상쇄) [inference] × 목표 PE 11.5 (BMY 수준 10.19~12로 수렴 — 반복되는 IPR&D 계상에 따른 'GAAP 이익 신뢰도' 디스카운트) [inference] = $113.7. 현재가 $151.0 대비 -24.7%. 배당 $3.28/주가 하방을 일부 완충해 총수익 기준 -22.5% [derived]."
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026년 10월 하순 (예상)",
+      "event": "3Q26 실적 발표 — Yeztugo 분기 매출 추이가 PrEP 내구성 논쟁의 1차 판정 [inference, 정확한 날짜 확인 불가]",
+      "expected_impact": "high"
+    },
+    {
+      "date": "2026년 말",
+      "event": "GS-1179 재발성 생식기 헤르페스 Phase 2 개시 [actual, SEC 8-K EX-99.1 2026-08-13]",
+      "expected_impact": "medium"
+    },
+    {
+      "date": "2026년 말",
+      "event": "ASMB의 40% US cost/profit-share 옵션 행사 여부 결정 — 행사 시 GILD는 미국 경제성의 40%를 넘겨주지만 개발·상업비용 40%를 분담받음 [actual, EX-99.1]",
+      "expected_impact": "low"
+    },
+    {
+      "date": "2026년 4분기",
+      "event": "ASMB에 지급할 collaboration 3주년 extension fee $75M — GILD 입장에서는 소액이나 협업 지속의 확인 신호 [actual, EX-99.1]",
+      "expected_impact": "low"
+    },
+    {
+      "date": "분기별 (지속)",
+      "event": "Yeztugo·Descovy 분기 uptake — PrEP 프랜차이즈 $1B/분기 유지·확대 여부 [actual baseline, 향후치 inference]",
+      "expected_impact": "high"
+    },
+    {
+      "date": "2026~2027",
+      "event": "anito-cel(Arcellx BCMA CAR-T) 규제·출시 진행 — IPR&D $11.1B 회수 서사의 핵심 [inference, 구체 일정 확인 불가]",
+      "expected_impact": "high"
+    },
+    {
+      "date": "2030년대 초 (추정)",
+      "event": "Biktarvy 특허 만료 타임라인 — HIV 치료 프랜차이즈 절벽 [inference, 정확한 만료 시점 본 분석에서 확인 불가]",
+      "expected_impact": "high"
+    },
+    {
+      "date": "2027년 1분기",
+      "event": "ASMB ABI-6250 PBC/PSC Phase 2 개시 — GILD의 Livdelzi(seladelpar)와 적응증이 겹치는 파트너발 잠재 경쟁 [actual, EX-99.1]",
+      "expected_impact": "low"
+    }
+  ],
+  "risks": [
+    {
+      "name": "IPR&D 중심 M&A의 반복 — Arcellx·Tubulis·Ouro $11.1B 즉시 비용화로 2Q26 GAAP 순손실 -$10,496M, 2026 EPS 영향 약 -$9.08. 5년 중 2년(2024·2026)에서 유사 패턴이 반복돼 GAAP 이익 신뢰도가 구조적으로 낮음 [actual + derived]",
+      "probability": "high",
+      "impact": "med"
+    },
+    {
+      "name": "Yeztugo 내구성(durability) 의문 — PrEP 분기 $1B 달성에도 sell-side가 지속 성장 가능성에 의문 제기 [actual, FiercePharma 2026-08-05]. 초기 uptake가 스위칭 수요였다면 성장률이 급감할 수 있음 [inference]",
+      "probability": "med",
+      "impact": "high"
+    },
+    {
+      "name": "HIV 특허 절벽 — Biktarvy 등 핵심 치료제의 2030년대 만료로 매출의 다수를 차지하는 프랜차이즈가 제네릭에 노출됨. 예방(PrEP) 축 전환이 이를 상쇄할 수 있을지가 관건 [inference, 만료 일자 확인 불가]",
+      "probability": "high",
+      "impact": "high"
+    },
+    {
+      "name": "Medicare Part D 재설계·IRA 약가협상 — 미국 정책 리스크가 HIV 경구 포트폴리오의 실질 순가격을 압박 [inference, 구체 영향 규모 확인 불가]",
+      "probability": "med",
+      "impact": "med"
+    },
+    {
+      "name": "Yeztugo 접근성·가격 — 예방 약제는 보험 커버리지·PrEP 가이드라인 편입 속도가 매출을 좌우하는데, 6개월 1회 주사제의 프리미엄 가격이 지불자 저항을 부를 수 있음 [inference]",
+      "probability": "med",
+      "impact": "med"
+    },
+    {
+      "name": "ASMB 40% 옵션 행사 시 GS-1179 경제성 희석 — ASMB가 미국 cost/profit share 40%를 선택하면 GILD의 미국 HSV 경제성은 60%로 줄어듦 [actual 구조, EX-99.1]. GILD 전체 규모 대비 영향은 작으나, 자산 자체의 GILD 귀속 NPV는 확실히 낮아짐 [derived]",
+      "probability": "med",
+      "impact": "low"
+    },
+    {
+      "name": "HSV 자산의 조기 후보 축소 — 월 1회 ABI-5366이 추가 개발 계획 없음으로 정리되면서 HSV 백업 옵션이 사실상 1개로 줄어듦. GS-1179 Phase 2 실패 시 대체 후보가 없음 [actual, ASMB 10-Q 2026-08-13]",
+      "probability": "med",
+      "impact": "low"
+    },
+    {
+      "name": "PrEP 병용 전략의 미확정성 — 'being considered'는 검토 단계이며 병용 임상 개시·설계·시점 모두 미공시. 블로거 논지의 핵심 축이 아직 구속력 없는 문구에 의존함 [actual 문구 + inference]",
+      "probability": "med",
+      "impact": "med"
+    },
+    {
+      "name": "PrEP 경쟁 — ViiV/GSK cabotegravir 등 장기지속 예방 옵션과의 경쟁이 Yeztugo 점유율을 제한할 수 있음 [inference]",
+      "probability": "med",
+      "impact": "med"
+    },
+    {
+      "name": "담즙정체 영역의 파트너-경쟁 이중성 — GILD의 Livdelzi(PBC)와 ASMB의 ABI-6250(PBC/PSC Phase 2, 1Q27)이 적응증에서 겹침. 파트너십과 경쟁이 동시에 존재하는 구조 [derived, EX-99.1]",
+      "probability": "low",
+      "impact": "low"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "ASMB의 투자 논리가 'HSV 하나짜리 회사'에서 '길리어드가 선택한 항바이러스·간질환 플랫폼 회사'로 이동했다.",
+      "type": "company",
+      "evidence": "GILD 관점에서는 관련성 낮음 — ASMB의 재평가 서사이지 GILD의 서사가 아님. GILD 시총 $187.23B 대비 ASMB 시총 $0.75B는 0.4% 수준이라 ASMB의 리레이팅이 GILD 주가에 미치는 영향은 사실상 0임 [derived, yfinance live 2026-09-04]. 다만 GILD가 약 25% 지분 보유자라 ASMB 주가 상승은 GILD 지분가치에 소액 플러스임 [inference, 지분가치 규모 확인 불가].",
+      "testability": "low",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "길리어드는 월 1회 ABI-5366이 아니라 주 1회 GS-1179를 Phase 2로 선택했고 2026년 말까지 개시한다. ABI-5366은 현재 추가 개발 계획이 없다.",
+      "type": "company",
+      "evidence": "GILD가 직접 내린 개발 의사결정이라 GILD 관점에서 검증 가능한 사실임 [actual, SEC 8-K EX-99.1 · 10-Q 2026-08-13]. GILD 입장에서는 두 후보 중 하나로 자원을 집중한 선택과 집중이며, 파이프라인 규모상 GILD 손익에 유의미한 비용 항목은 아님 [inference]. 검증 시점은 2026년 말 Phase 2 개시 공시임.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "GS-1179을 HIV PrEP 병용 전략으로 검토한다고 공식 문서에 명시한 것이 시장 크기·전략적 가치를 근본적으로 바꾼다. 주 1회 oral이 weekly PrEP와 묶이기 자연스러워 선택됐을 가능성이 있다.",
+      "type": "company",
+      "evidence": "GILD에게 가장 관련성 높은 thesis 중 하나임. 문구 자체는 실재함 — 'being considered for possible evaluation as part of a combination strategy with HIV pre-exposure prophylaxis' [actual, EX-99.1 2026-08-13]. 기반 프랜차이즈도 실재함 — 2Q26 PrEP 분기 $1B(Descovy ~$801M, Yeztugo $232M) [actual, Gilead 2Q26 PR]. 다만 GILD 입장에서 이 논지는 두 단계 추론이 필요함: ① '검토 중'이 실제 병용 개발로 이어질 것 ② 예방 셋팅에서 HSV 번들이 지불자에게 팔릴 것 — 둘 다 미검증임 [inference]. 선택 이유가 '주 1회라 weekly PrEP와 궁합'이라는 부분은 블로거 추정이며 GILD가 공표한 근거가 아님 [inference].",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "ASMB는 미국 40% cost/profit-share 옵션을 2026년 말까지 결정하며, 길리어드가 보내는 commercial cost estimate가 GS-1179 NPV의 신호다.",
+      "type": "company",
+      "evidence": "GILD가 카운터파티인 조항이라 관련성 높음. 옵션 구조는 확인됨 [actual, EX-99.1 2026-08-13]. GILD 관점의 함의는 ASMB와 정반대임 — ASMB가 행사하면 GILD의 미국 GS-1179 경제성은 100%에서 60%로 줄고, 대신 개발·상업 비용의 40%를 덜게 됨 [derived]. GILD 규모($187B 시총) 대비 영향은 미미해 GILD 밸류에이션에 유의미하지 않음 [derived]. 'commercial cost estimate가 NPV 신호'라는 해석은 블로거의 추론이며 GILD가 그 추정치를 어떤 가정으로 산출하는지는 확인 불가 — 큰 추정치는 낙관(대형 출시)일 수도, 비관(고비용 시장)일 수도 있어 신호의 방향이 일의적이지 않음 [inference].",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "ABI-6250(NTCP 억제제)이 실제 글로벌 Phase 2로 넘어갔다 — NCT07762027, 80명·22 site, 2026-10 시작·2027-06 primary completion. PBC/PSC Phase 2는 1Q27.",
+      "type": "company",
+      "evidence": "GILD 관점 관련성 낮음 — ABI-6250은 GILD 라이선스 자산이 아니라 ASMB 자체 보유 자산임 [actual, EX-99.1]. 다만 PBC/PSC 적응증이 GILD의 Livdelzi(seladelpar)와 겹쳐 파트너가 잠재 경쟁자가 되는 구조가 생김 [derived]. 임상 등록 자체는 확인됨 [actual, ClinicalTrials.gov NCT07762027].",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "현금 $320.4M + 4Q26 extension fee $75M → ASMB runway 2029년까지.",
+      "type": "company",
+      "evidence": "GILD 관점 관련성 낮음 — ASMB 재무 이슈임. GILD 측 유일한 접점은 4Q26에 지급할 $75M extension fee인데, GILD FY2025 영업현금흐름 $10,019M 대비 0.7% 수준이라 GILD 손익·현금흐름에 무의미함 [derived]. 다만 지급 자체가 협업 지속의 확인 신호라는 점은 유효함 [inference].",
+      "testability": "high",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "9월 1일 UBS가 ASMB에 Buy·목표가 $52로 신규 커버리지를 개시했다. 평균 목표가 약 $52.",
+      "type": "market",
+      "evidence": "GILD 관점 관련성 없음 — ASMB의 sell-side 커버리지 이벤트임. 비교 참고로만 두면 GILD는 애널리스트 27명·평균 목표가 $157.41(현재가 $151.00 대비 +4.2%)로 커버리지 성숙 단계이고 upside 여지도 좁음 [actual yfinance live 2026-09-04, derived]. 즉 GILD는 '커버리지 확대로 인한 재평가' 같은 스몰캡형 촉매가 존재하지 않는 종목임 [derived].",
+      "testability": "high",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "ASMB가 9월 S&P Biotechnology Select Industry Index 신규 편입 조건($400M FMC + FALR 150%)을 충족할 가능성이 매우 높다.",
+      "type": "market",
+      "evidence": "GILD 관점 관련성 없음 — 지수 편입 이슈이며 GILD는 대형주로 이미 S&P 500 구성종목임. 오히려 GILD가 ASMB 지분 약 25%를 보유한 전략적 주주라는 사실이 S&P의 IWF(투자가능가중치) 산정에서 차감 요인으로 작용해 ASMB의 FMC를 낮출 수 있음 — 즉 GILD의 존재 자체가 이 thesis의 반대 방향 변수임 [derived, S&P Select Industry methodology]. yfinance floatShares 9.17M(발행 20.36M의 45%)은 블로거의 free float 70~72% 가정과 괴리 [actual, evidence/ASMB.json].",
+      "testability": "high",
+      "current_status": "contested"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "XBI 편입 시 수급은 평소 유동성 대비 무시하기 어렵다 — weight 0.1~0.2%면 31만~63만 주 vs 일평균 15.8만 주.",
+      "type": "market",
+      "evidence": "GILD 관점 관련성 없음 — ASMB 수급 이슈임. GILD는 시총 $187.23B·베타 0.35의 대형주라 패시브 수급 이벤트가 주가에 미치는 영향이 구조적으로 미미함 [derived, yfinance live].",
+      "testability": "medium",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "지수 이벤트 구조(8/31 reference → 9/9 가격결정 → 9/18 rebalance → 9/21 반영)이며, XBI는 논리를 만드는 사건이 아니라 보너스다.",
+      "type": "market",
+      "evidence": "GILD 관점 관련성 없음. 다만 '편입 완료 순간부터 다시 펀더멘털 게임'이라는 결론은 GILD 축과 연결됨 — ASMB의 편입 후 펀더멘털은 결국 GILD가 GS-1179 Phase 2를 어떻게 끌고 가느냐와 PrEP 병용을 실제 개발계획에 넣느냐에 달려 있음 [derived]. 그 의미에서 GILD는 ASMB thesis의 종속변수가 아니라 독립변수임 [inference].",
+      "testability": "low",
+      "current_status": "not_applicable"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": 4.5,
+    "implied_op_margin_5y_pct": 34.0,
+    "notes": "현재가 $151.00 · forward PE 15.27 · EV/EBITDA 14.28 · 시총 $187.23B 역산 [actual yfinance 2026-09-04 live]. forward PE 15.27은 대형 파마 평균(ABBV 15.75 · MRK 15.75)과 사실상 동일하고 BMY 10.19보다 높음 [actual]. S&P500 장기 평균 PE 대비 할인된 이 배수가 내포하는 것은 mid-single-digit 이익 성장 — 역산 5Y 매출 CAGR 약 4.5%, 지속 영업이익률 약 34% 수준임 [derived]. 기준점은 FY2025 실적(매출 29,443 · OPM 34.0%)이며, 2Q26 기저 매출 +10% YoY · HIV +12%가 유지된다면 시장 내포치(4.5%)를 상회하는 셈이라 upside 여지가 있음 [derived]. 반대로 이 배수는 2030년대 HIV 특허 절벽과 반복되는 IPR&D 비용화를 이미 일부 반영한 것으로도 읽힘 [inference]. 컨센서스 목표가는 애널리스트 27명 평균 $157.41 — 현재가 대비 +4.2%로, sell-side도 대폭 리레이팅을 보고 있지 않음 [actual, derived]. GS-1179 등 ASMB 유래 자산의 NPV는 GILD 시총 $187B 대비 계량 가능한 비중이 아니어서 본 역산에 포함하지 않음 — GILD 밸류에이션에 대한 GS-1179 기여도는 확인 불가. 시나리오 확률가중 목표주가는 $158.4 (bull $186.9×30% + base $157.4×52% + bear $113.7×18%)로 현재가 $151.0 대비 +4.9%임 [derived]. 이는 sell-side 컨센서스 +4.2%와 사실상 같은 수준이라 시나리오 세트가 컨센서스 대비 편향돼 있지 않음을 확인함 [derived]."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 10
+}
