@@ -1,0 +1,482 @@
+{
+  "ticker": "GILD",
+  "aggregated_at": "2026-09-08T00:59:39.473838+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bullish": {
+      "count": 8,
+      "pct": 47.1
+    },
+    "neutral": {
+      "count": 6,
+      "pct": 35.3
+    },
+    "lean_bearish": {
+      "count": 3,
+      "pct": 17.6
+    }
+  },
+  "average_confidence": 0.595,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bullish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.57
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "1M +14.60% — 월 변동성의 1.9σ, 단기 평균회귀 압력이 큰 지점에서의 진입",
+        "6개월 수익의 대부분이 최근 1개월에 집중 — 추세라기보다 단발성 재평가일 가능성",
+        "portfolio_optimization 산출물·상관계수 행렬 부재로 최적 비중 검증 불가"
+      ],
+      "key_opportunities_top3": [
+        "연변동성 27.05% — 바스켓 최저, 동일 위험예산에서 더 큰 포지션 실행 가능",
+        "beta 0.35 — 시장 중립·페어 트레이딩 구성에서 헤지 다리로 활용 가능",
+        "Sharpe 대용 1.38 — 바스켓 내 2위이면서 변동성은 VIR의 40% 수준"
+      ],
+      "uncertainty": "상관계수 행렬, max drawdown, 일별 수익률 시계열, 거래량 프로파일, portfolio_optimization 산출물이 모두 본 자료에 없음. Sharpe 1.38은 연 수익률을 연변동성으로 나눈 근사치이며 무위험수익률을 반영하지 않았음. 관측 일수도 확인 불가해 통계적 유의성을 검정하지 못했음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "diworsification — 본업과 채널·경쟁구도가 다른 종양·ADC·세포치료로 $11.1B 확장",
+        "PEG 1.53(배당 조정 1.25) — 매수 기준 1.0에는 아직 미달",
+        "장부 자기자본 약 $11.8B — stalwart 재무제표로는 얇은 완충"
+      ],
+      "key_opportunities_top3": [
+        "stalwart 안의 fast grower — PrEP 연환산 약 $4B가 60% 속도로 성장 중",
+        "기존 판매 조직 재사용 — 새 영업 인력 없이 매대에 제품을 추가하는 확장 방식",
+        "배당 2.17% + forward PE 15.27 — 기다리는 동안의 수익과 하방 완충"
+      ],
+      "uncertainty": "EPS 성장률 시계열이 없어 PEG를 매출 성장률(+10%)로 대용 계산했으며, 실제 EPS 기준 PEG는 다를 수 있음. 사업부별 매출 비중이 확인 불가해 PrEP 부문이 전사 성장률을 얼마나 끌어올릴지 정량화하지 못했고, 특허 만료 스케줄도 확인 불가함.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bullish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PBR 15.84 — 장부 기반 밸류 팩터가 강한 음수, 무형자산 산업 특성으로 신뢰도는 낮으나 배점 하락 요인",
+        "trailing GAAP 손익 음수 — 팩터 모형이 trailing earnings를 쓰면 일시적으로 low-quality 분류",
+        "섹터 상대 모멘텀 -27.0%p (6M) — 크로스섹셔널 순위가 유니버스 정의에 민감"
+      ],
+      "key_opportunities_top3": [
+        "composite +0.60 — 우호 팩터 3개 동시 정렬, 팩터 간 명백한 충돌 없음",
+        "beta 0.35 — BAB 프리미엄 대상, 위험조정 수익 기여",
+        "정상화 profitability z ≈ +0.7 — forward 순이익 $12.3B 규모의 quality"
+      ],
+      "uncertainty": "z-score는 섹터·유니버스 분포 데이터 없이 대략적 기준으로 부여한 추정치임. 실제 팩터 모형은 동종 대형 제약 분포 대비 백분위로 산출해야 하며 그 원시 데이터는 본 자료에 없음. 컨센서스 리비전 시계열, max drawdown, 회전율도 확인 불가해 composite의 정밀도가 제한됨.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "macro_snapshot.json 부재 — 사이클 단계·금리 레짐·침체 선행지표 전부 확인 불가",
+        "성장 상승·인플레 하락 사분면에서 구조적 열위 — 6M 기준 XBI 대비 -27.0%p",
+        "순부채·이자보상배율 확인 불가 — $11.1B 인수 집행 후 레버리지 변화 미지"
+      ],
+      "key_opportunities_top3": [
+        "바스켓 내 beta 0.35·변동성 27.05% 최저 — 포트폴리오 위험 예산 절약",
+        "위험 원천이 임상·자금조달이 아닌 상업 매출 — 바이오 스몰캡과 분산 효과",
+        "배당 2.17% — 하락 국면에서 리밸런싱 현금을 공급하는 구조"
+      ],
+      "uncertainty": "macro_snapshot.json이 없어 미국 실업률·10Y-2Y 수익률곡선·연방기금금리·글로벌 GDP 모멘텀을 확인하지 못했고, 사이클 단계와 부채사이클 위치를 판정하지 못함. 상관계수 행렬 부재로 분산 기여도를 정량화하지 못했으며, 순부채·지역별 매출 구성도 확인 불가함. 매크로 근거 없이 종목 고유 특성만으로 내린 판단임을 명시함.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "재투자 규율 — forward 순이익의 90%에 해당하는 $11.1B을 한 분기에 외부 자산 인수에 투입",
+        "2Q26 GAAP 순손실 -$10.5B — 다년 ROE 일관성 요건 훼손",
+        "forward ROE 104%는 자사주 매입으로 분모가 축소된 결과 — 액면 해석 불가"
+      ],
+      "key_opportunities_top3": [
+        "치료→예방 전환 — 개별 기업이 아닌 보건 체계 차원의 구조적 순풍",
+        "PrEP 분기 $1B·Descovy +60% YoY — 순풍이 이미 매출로 확인된 상태",
+        "기존 유통망 재사용형 확장(GS-1179 방식) — 추가 자본이 거의 들지 않는 최고 효율 재투자"
+      ],
+      "uncertainty": "다년 ROE 시계열, 자기자본 원시값, 자사주 매입 규모, 사업부별 자본 배분 내역이 본 자료에 없어 forward ROE 104%는 PBR/PER 역산 추정치임. 분모인 장부 자기자본이 자사주 매입으로 왜곡돼 있어 실제 투입자본 수익률과 크게 다를 수 있음. 특허 만료 스케줄도 확인 불가함.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "한 분기 IPR&D $11.1B — 인센티브 구조가 반복적 M&A를 유도하는 산업 특성",
+        "특허 만료라는 확정된 종료일 — 만료 스케줄 확인 불가로 역산 자체가 불가능",
+        "Yeztugo 내구성에 대한 애널리스트 의문 (FiercePharma 2026-08-05)"
+      ],
+      "key_opportunities_top3": [
+        "만성질환 평생 복용 + 처방 전환 비용 = 교과서적 스위칭 코스트",
+        "2Q26 기저 매출 +10%·HIV +12% — 성숙 프랜차이즈의 두 자릿수 성장은 희소",
+        "40% profit-share 옵션 구조 — 상대에게 선택권을 주고 신호를 받는 잘 설계된 계약"
+      ],
+      "uncertainty": "IPR&D 3건 동시 처리가 회계적 선택인지 우연인지는 단정할 수 없음 — 'big bath' 해석은 추정임. HIV 특허 만료 스케줄, 총매출 대비 HIV 비중, 약가 협상 노출 규모는 본 자료로 확인 불가함.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "상승여력 +4.24% — 50% 디스카운트 요건 대비 안전마진 거의 없음",
+        "상방/하방 비율 약 1.3:1 — 3:1 비대칭 payoff 요건 미달",
+        "커버리지 27명·1Y +37.4% — 정보 비대칭이 사라진 구간에서 진입"
+      ],
+      "key_opportunities_top3": [
+        "영구 자본 손실 위험 낮음 — beta 0.35, 만성질환 수요의 영속성",
+        "PrEP 병용 구조 — 기존 채널 재사용으로 추가 자본 없이 매출 확장 가능",
+        "40% profit-share 옵션 — 길리어드가 지는 시나리오가 없는 비대칭 계약 설계"
+      ],
+      "uncertainty": "상방/하방 1.3:1 추정은 특허 만료 스케줄과 사업부별 매출 비중이 확인 불가한 상태에서의 개략 추정임. HIV 프랜차이즈 훼손 시 하락 폭 40~50%도 근거 있는 계산이 아니라 시나리오 가정이며, 실제 재무제표 확인 시 크게 달라질 수 있음.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "인수 IPR&D $11.1B 일회성 비용 — 시총의 5.9%를 한 분기에 소각한 자본배분 습관",
+        "제약 해자는 특허 만료일이라는 종료일이 정해진 해자 — 주요 제품 만료 시점 확인 불가",
+        "PBR 15.84 — 장부 자기자본 약 $11.8B로 자산 기준 안전마진 사실상 없음"
+      ],
+      "key_opportunities_top3": [
+        "forward PE 15.27 = 이익수익률 6.55% — 예측 가능한 현금흐름 대비 합리적 가격",
+        "PrEP 분기 $1B 돌파 (Descovy +60% YoY, Yeztugo +40% QoQ) — 치료에서 예방으로 해자 확장",
+        "배당 2.17% + beta 0.35 — 시장 변동과 무관하게 현금을 돌려주는 구조"
+      ],
+      "uncertainty": "주요 HIV 제품의 물질특허 만료 시점, 총매출 대비 HIV 비중, 자사주 매입 규모는 본 파이프라인 자료에 없어 확인 불가함. Arcellx·Tubulis·Ouro 자산의 임상 단계·성공 확률도 확인 불가하며, 이는 능력범위 밖이라 가치 산정에서 0으로 처리함.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "섹터 대비 6M -27.0%p — 위험선호 국면에서 방어주는 상대 수익률의 반대편",
+        "보상/위험 약 1.5:1 이하 — 3:1 비대칭 요건에 크게 미달",
+        "macro_snapshot.json 부재 — 금리·유동성 레짐을 확인하지 못한 상태의 판단"
+      ],
+      "key_opportunities_top3": [
+        "1M +14.60%·3M +17.68% — 단기 추세는 명확히 상승 방향",
+        "2Q26 GAAP 순손실에도 주가 상승 — 악재를 걸러 읽는 시장, 심리 바닥 통과 신호",
+        "Yeztugo QoQ +40% — 분기마다 검증되는 고빈도 촉매 존재"
+      ],
+      "uncertainty": "macro_snapshot.json이 없어 금리 방향·유동성·달러 레짐을 확인하지 못했고, 매크로 판단은 XBI 대비 상대 수익률이라는 간접 지표에만 의존함. 보상/위험 1.5:1 추정도 하방 시나리오의 근거 데이터 없이 개략적으로 잡은 값이며, 공매도 잔고·기관 포지션 등 심리 지표도 확인 불가함.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "인수 IPR&D $11.1B — forward 연간 순이익에 육박하는 금액을 한 분기에 파이프라인에 투입",
+        "Yeztugo 성장 내구성에 대한 애널리스트 의문 (FiercePharma 2026-08-05)",
+        "자사주 매입 규모 확인 불가 — 자본 반환 정책 전체 그림을 볼 수 없음"
+      ],
+      "key_opportunities_top3": [
+        "PrEP 분기 $1B 돌파 — 기존 판매 채널 재사용으로 고정비 레버리지 작동",
+        "Yeztugo QoQ +40% · Descovy YoY +60% — 분기 실적으로 즉시 검증되는 고빈도 촉매",
+        "자본배분 규율 도입 시 배수 재평가 여지 — 고칠 수 있는 할인"
+      ],
+      "uncertainty": "자사주 매입 규모, 사업부별 매출·이익 구성, 특허 만료 스케줄, IPR&D로 인수한 자산 3건의 임상 단계가 본 자료로 확인 불가함. 자본배분 할인의 크기를 정량화하지 못했고, 개입 시 실현 가능한 배수 재평가 폭도 추정에 머묾.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "R&D 생산성 — 다음 성장축을 자체 연구가 아닌 $11.1B 인수로 조달",
+        "Yeztugo 매출 지속성에 대한 업계 관찰자들의 미해소 의문",
+        "15-point 통과 8~9개 — 12개 기준 미달, 특히 이익률·R&D 효율 항목 확인 불가"
+      ],
+      "key_opportunities_top3": [
+        "예방 시장 — 인구 기반이 치료 시장보다 크고 처방 지속 기간이 긴 구조적 장기 시장",
+        "기존 HIV 채널 재사용 — 추가 판매조직 없이 신제품을 태우는 영업조직 우수성",
+        "단기 GAAP 손익을 감수하고 장기 자산을 사는 의사결정 태도 자체는 피셔 기준 긍정"
+      ],
+      "uncertainty": "영업이익률, R&D 비용 절대액, 매출 대비 R&D 비율, 경영진 보수·주식 보유 현황은 본 자료로 확인 불가해 15-point 중 다수 항목을 채점하지 못함. 통과 개수 8~9개는 확인 가능한 항목만으로 센 값이며 전체 채점 시 달라질 수 있음.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "보고 손익(-$10.5B)과 시장이 쓰는 이익($12.3B) 간극 약 $21.6B — 정의권이 회사에 있음",
+        "장부 자기자본 약 $11.8B(시총의 6.3%)에서 한 분기 $11.1B 집행 — 완충 소진",
+        "순부채·현금 잔액 확인 불가 — 인수 대금 조달 방식을 검증할 수 없음"
+      ],
+      "key_opportunities_top3": [
+        "사업 자체의 현금창출력은 실재 — EV/EBITDA 14.28, 파산 위험 없음",
+        "Descovy +60% YoY·Yeztugo +40% QoQ — 상방 촉매가 분기마다 검증됨",
+        "다음 상각이 나와 시장이 더 이상 걸러 읽지 않을 때가 진짜 역발상 진입 지점"
+      ],
+      "uncertainty": "순부채, 현금 잔액, 유동비율, 자사주 매입 규모, 무형자산 상각 스케줄, 특허 만료 시점이 모두 본 자료에 없어 재무상태표 스트레스 테스트를 정식으로 수행하지 못함. 장부 자기자본 $11.8B은 PBR 역산 추정치이며 실제 재무제표 확인 시 달라질 수 있음. 회계 처리의 적법성에 대한 문제 제기는 아님을 명시함.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Yeztugo 성장 둔화 — 서사를 즉시 되돌릴 수 있는 최단 경로 촉매",
+        "추가 대형 IPR&D 집행 시 '성장을 돈으로 산다'는 낡은 서사로 회귀",
+        "미국 약가 정책 — 예방 의약품 급여 제한은 서사 전체를 무력화"
+      ],
+      "key_opportunities_top3": [
+        "시장이 아직 '치료 기업'으로 분류 중 — 예방 플랫폼 재분류 시 배수 자체가 바뀜",
+        "6M +5.32% 정체 후 1M +14.60% — 인식 초기 구간 진입 신호",
+        "이익수익률 6.55% — 낮은 성장 가정이 이미 가격에 반영, 상방 여지 존재"
+      ],
+      "uncertainty": "시장의 지배 서사를 '특허 절벽 성숙주'로 규정한 것은 컨센서스 목표가와 밸류에이션 배수로부터의 추론이며 직접 근거는 없음. 컨센서스 리비전 방향, 기관 보유 변화, 공매도 잔고 등 반사성 단계 진단에 필요한 심리 지표가 본 자료에 없어 2~3단계 판정의 정밀도가 낮음.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.57,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PBR 15.84 · PER×PBR 241.9 — 방어적 투자자 정량 테스트 다수 항목 탈락",
+        "2Q26 GAAP 순손실 -$10.5B로 연속 흑자 요건 훼손, trailing PE 산출 불가",
+        "장부 자기자본 약 $11.8B (시총의 6.3%) — 청산가치 보호막 부재"
+      ],
+      "key_opportunities_top3": [
+        "배당수익률 2.17% — 방어적 지표 중 유일하게 우호적",
+        "forward PE 15.27 — 정상화 이익 기준으로는 PER 15 기준선에 근접",
+        "기저 매출 +10%·HIV +12% — 사업 자체의 이익력은 훼손되지 않음"
+      ],
+      "uncertainty": "EPS·BVPS 원시값, 유동비율, 총부채, 배당 연속 지급 연수, 이자보상배율은 본 파이프라인 자료에 없어 Graham Number와 NCAV를 직접 계산하지 못함. PBR·PER 역산으로 추정한 값이며 정확한 재무제표 확인 시 결론의 강도가 달라질 수 있음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "전사 성장률 +10% — 5년 20~30% 복리 궤적과 거리가 멂, 매출 기반이 이미 무거움",
+        "내부 R&D 곡선이 아닌 $11.1B IPR&D로 파이프라인 조달 — 혁신 정체성 부재",
+        "GS-1179 등 핵심 신규 자산이 라이선스 기반 — 혁신 수익의 40%까지 파트너와 공유 가능"
+      ],
+      "key_opportunities_top3": [
+        "장기지속형 항바이러스 제제 — 매일 복용 패러다임을 대체하는 진짜 기술 전환",
+        "치료→예방 TAM 확장 — 대상 인구가 감염자에서 위험군 전체로 자릿수 확대",
+        "Yeztugo QoQ +40%·Descovy YoY +60% — 세그먼트 채택 곡선은 파괴적 궤적에 부합"
+      ],
+      "uncertainty": "사업부별 매출 비중과 전사 매출 절대액이 확인 불가해 PrEP 연환산 $4B이 전체에서 차지하는 비중을 계산하지 못함. 5년 매출 궤적 추정도 근거 데이터 없이 성장률 관측치만으로 판단한 것이며, IPR&D로 인수한 자산 3건의 기술 내용과 단계도 확인 불가함.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.68,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "재투자율 가정 불안정 — 분기 $11.1B IPR&D가 반복되면 FCF 기반 가치가 크게 훼손",
+        "예방 사업 마진 프로파일 확인 불가 — 매출 믹스 변화가 이익률에 미칠 영향 미지",
+        "trailing PE 산출 불가(GAAP 순손실) — 정상화 이익 추정에 의존해야 하는 구조"
+      ],
+      "key_opportunities_top3": [
+        "이익수익률 6.55% — 시장이 낮은 성장률을 가정 중, 스토리 실현 시 재평가 여지",
+        "PrEP 분기 $1B 실측 — 스토리가 이미 숫자로 검증되기 시작한 단계",
+        "beta 0.35 → 낮은 자기자본비용 — 동일 현금흐름에 더 높은 가치 부여 가능"
+      ],
+      "uncertainty": "매출·영업이익률·재투자율의 원시 시계열, 특허 만료 스케줄, 세율, 순부채가 본 자료에 없어 완전한 DCF를 구성하지 못함. forward PE 15.27과 시총으로 역산한 forward 순이익 $12.3B은 근사치이며, 이익수익률 6.55%로부터 도출한 성장률 함의도 자기자본비용 가정에 민감함.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "단일 프랜차이즈 + 단일 법적 장치(특허) 의존 — 시점 집중형 취약성",
+        "낮은 관측 변동성이 꼬리 위험을 가릴 수 있음 — 약가 정책·만료일은 평상시 변동성에 안 나타남",
+        "$11.1B 단일 베팅이 $75M 옵션 매입의 볼록성을 상쇄"
+      ],
+      "key_opportunities_top3": [
+        "GS-1179 라이선스 구조 — 하방은 라이선스 비용에 한정되고 상방은 프랜차이즈 전체에 얹히는 볼록성",
+        "ASMB 40% 옵션 — 상대에게 skin in the game을 요구하며 하방을 분담하는 이중 장치",
+        "beta 0.35 · 파산 위험 부재 · 배당 2.17% — 견디는 힘의 실증"
+      ],
+      "uncertainty": "특허 만료 스케줄, 사업부별 매출 비중, 약가 정책 노출 규모, max drawdown, 경영진 주식 보유·보수 구조가 모두 확인 불가함. 따라서 취약성의 크기를 정량화하지 못했고 Robust 판정도 정성적 근거에만 의존함. 꼬리 위험의 발생 확률과 손실 크기를 추정하지 않았음을 명시함.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
