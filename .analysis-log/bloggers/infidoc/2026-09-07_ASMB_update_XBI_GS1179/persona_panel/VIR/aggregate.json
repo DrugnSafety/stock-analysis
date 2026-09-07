@@ -1,0 +1,490 @@
+{
+  "ticker": "VIR",
+  "aggregated_at": "2026-09-08T00:59:39.543323+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 6,
+      "pct": 35.3
+    },
+    "lean_bearish": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "lean_bullish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "bearish": {
+      "count": 1,
+      "pct": 5.9
+    },
+    "bullish": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.578,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bullish",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.48
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.68
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bearish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "연변동성 67.9% — high regime 상단, 꼬리 두꺼움",
+        "베타 1.62에 더해 고유위험 잔차가 큼 — 분산 기여 없음",
+        "최근 1개월이 3개월 상승분의 약 79% — 단기 가속 집중"
+      ],
+      "key_opportunities_top3": [
+        "12개월 모멘텀 신호 강하고 전 구간 부호 일관",
+        "Sharpe 근사 1.79 — strong 구간 하단",
+        "고변동성 국면 자체가 통계적 기회 집합을 넓힘"
+      ],
+      "uncertainty": "quant_anchor.json·portfolio_optimization·macro_snapshot이 모두 미제공이라 최대낙폭, 정식 Sharpe·Sortino, 상관행렬, 최적 비중, 통화정책 국면 전부 확인 불가. Sharpe 근사치는 무위험수익률 미차감 단일 구간 사후치임.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "PEG 계산 불가 — GARP 규율 자체가 적용 불능",
+        "매출 계열이 전부 일회성 — 추적 가능한 성장 곡선 부재",
+        "경구 1일 1회 경쟁자(ABI-6250)의 편의성 우위 — 장기 스토리 균열"
+      ],
+      "key_opportunities_top3": [
+        "무차입에 가까운 재무 — 레버리지가 스토리를 깨는 경로는 닫힘",
+        "Astellas 딜로 종양 축이 외부 자본 검증을 받음",
+        "SOLSTICE 88% vs 53% — 효능 격차 자체는 명확한 사실"
+      ],
+      "uncertainty": "미국 HDV 진단·치료 연결 환자 수를 확인할 수 없어 시장 규모 판단 불가. 3Q26 이후 정상 분기 매출 수준, 급여 가격, ABI-6250의 환자 효능 모두 확인 불가.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "RMW(수익성) z-score 약 -1.5 — 요인 프로파일의 최대 약점",
+        "모멘텀과 수익성이 정면 충돌 — 방향성 신호 상쇄",
+        "베타 1.62·변동성 67.9%로 고유위험이 요인 익스포저를 압도"
+      ],
+      "key_opportunities_top3": [
+        "12-1 모멘텀 +96.5%p — 요인 중 가장 강한 플러스 신호",
+        "3·6개월 수익률 부호 일관 — 추세 연속성 확인",
+        "순현금 $0.92B — 재무 스트레스 요인 부재"
+      ],
+      "uncertainty": "정식 quant_anchor.json·macro_snapshot.json이 제공되지 않아 Sharpe·Sortino·최대낙폭·통화정책 국면은 확인 불가. 요인 z-score는 제공된 시장 데이터와 재무 공시로부터의 근사치이며 정식 횡단면 회귀 결과가 아님.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bullish",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "macro_snapshot 부재 — 사이클 위치 확정 불가, 판단이 대용 신호에 의존",
+        "긴축 전환 시 연 $400M 소진 기업이 먼저 자본조달 압박을 받음",
+        "베타 1.62·변동성 67.9% — 완화 국면 이탈 시 즉시 역전되는 노출"
+      ],
+      "key_opportunities_top3": [
+        "순현금 약 $0.92B·장기차입금 0 — 부채 사이클 노출 없음",
+        "임상 판독이라는 거시 무관 독립 위험원 — 분산 기여",
+        "XBI 1Y +76.1% 저변동성 강세 — 장기 듀레이션 자산 우호 국면"
+      ],
+      "uncertainty": "정식 macro_snapshot(FRED·IMF)이 없어 실업률·수익률곡선·정책금리·부채비율 전부 확인 불가하며 사이클 위치는 자산가격 대용 신호로부터의 추론임. 상관행렬 부재로 정확한 편입 비중 산출도 불가.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.48,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "ROE 지속 음수 — 일차 품질 지표 실패, 5년 일관성 부재",
+        "임상 판독 확률 평가가 능력범위 밖",
+        "HDV TAM 추정 편차 6배 — 재투자 활주로 계산 불가"
+      ],
+      "key_opportunities_top3": [
+        "XBI 1년 +76.1% — 섹터 거시 순풍 실재",
+        "감염질환에 대형 파마 자본 재유입 (Astellas $335M, 길리어드 GS-1179)",
+        "순현금 약 $0.92B — 판독까지 외부 자본 의존 없음"
+      ],
+      "uncertainty": "임상 성공 확률은 능력범위 밖으로 추정하지 않음. HDV 실제 처방 모수, 고유병 지역의 급여·접근성, 승인 후 이익 규모 모두 확인 불가.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "역사고 실패 — ECLIPSE 실패·급여 거부·2H28 희석 세 경로 모두 유의미",
+        "ROIC 음수 · 가격결정력 미형성 — 좋은 사업의 특징 미관측",
+        "bulevirtide 선승인으로 가격·급여 기준선이 이미 설정됨"
+      ],
+      "key_opportunities_top3": [
+        "Astellas 딜의 성과 연동 설계 — 프리미엄 지분 + 마일스톤 $1.37B + ex-US 로열티",
+        "차입금 사실상 부재 — 재무적 파산 경로는 닫혀 있음",
+        "SOLSTICE 96주 데이터는 검증된 사실로 과학적 차별화 실재"
+      ],
+      "uncertainty": "HDV 실제 처방 모수(진단·치료 연결 인구)를 확인할 수 없어 시장 크기 판단이 6배 범위에 열려 있음. bulevirtide 대비 증분 가치가 급여에서 어떻게 평가될지, 3Q26 정상 분기 손익이 어느 수준일지 모두 확인 불가.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "안전마진 부재 — 보수적 내재가치가 현재가에 미달",
+        "비대칭 1.7:1로 3:1 기준 미달, 확률가중 기대수익 0 근방",
+        "판독 실패 시 약 -48% 영구 손실 — 불확실성이 아니라 위험"
+      ],
+      "key_opportunities_top3": [
+        "Astellas가 실사 후 $335M 지불 — 종양 축에 복제 가능한 검증 존재",
+        "장기차입금 0·현금 $1.01B — 지급불능에 의한 영구 손실 경로 차단",
+        "판독 성공 시 목표가 $20.8까지 +82.6% 상방"
+      ],
+      "uncertainty": "보수적 내재가치의 종양 자산·마일스톤 권리 평가는 가정이며 회사 가이던스가 아님. 저명 가치투자자의 13F 보유 여부, 판독 실패 시 실제 하방 폭 모두 확인 불가.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "임상단계 바이오텍 — 능력범위 외로 내재가치 추정 불가",
+        "연 $400M 내외 현금 소진, runway 2H28 앞에서 희석 위험",
+        "길리어드 bulevirtide가 2026-05-22 이미 승인 — 후발 병용요법은 증분 가치 입증 부담"
+      ],
+      "key_opportunities_top3": [
+        "Astellas 딜로 종양 플랫폼이 외부 자본 검증을 받음 (upfront·near-term $335M)",
+        "현금·투자 $1.01B — 판독 전까지 자본조달 압박 없음",
+        "SOLSTICE 96주 HBsAg<10 IU/mL 90% vs 25% — 과학적 차별화는 실재"
+      ],
+      "uncertainty": "ECLIPSE 성공 확률을 추정할 근거가 없음. 미국 HDV 진단·치료 연결 인구, bulevirtide 대비 급여 프리미엄 확보 가능성, 3Q26 이후 정상 분기 손익 규모 모두 확인 불가. yfinance 현금 항목($533M)과 2Q26 공시상 현금·투자 합계($1.01B)가 다른 것은 항목 범위 차이로 추정되나 단정하지 않음.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "보상/위험 약 1.7:1 — 3:1 기준선 미달",
+        "판독은 갭으로 열려 사전 손절이 실행되지 않음",
+        "1년 +121.5% 선반영 — 판독 전 과열 시 sell the news 취약"
+      ],
+      "key_opportunities_top3": [
+        "날짜가 확정된 촉매 3건 — ECLIPSE 1(4Q26)·2·3(1Q27)·PRO-XTEN Phase 1(2H26)",
+        "컨센서스 목표가 $20.8 대비 +82.6% 여력, 가격이 컨센서스를 따라가지 않음",
+        "XBI 1Y +76.1% — 섹터 자금 유입이 선행"
+      ],
+      "uncertainty": "정식 유동성·금리·심리 지표(VIX·자금흐름)가 제공되지 않아 거시 판단은 XBI 가격 대용 신호에 의존함. 판독 실패 시 실제 하방 폭은 추정이며 오버슈팅 크기는 확인 불가.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "잉여현금흐름 구조적 음수 — 연 $400M 내외 소진",
+        "반복 매출·가격결정력 부재, 2Q26 흑자는 일회성 인식",
+        "촉매가 경영 통제 밖 — 결과 대기형이라 실행 감시가 불가능"
+      ],
+      "key_opportunities_top3": [
+        "시간표가 확정된 촉매 3건 — 12~24개월 창에 집중",
+        "Astellas 딜로 종양 축이 외부 자본 검증과 현금 $240M 확보",
+        "장기차입금 0·현금 $1.01B — 자본구조 자체는 건전"
+      ],
+      "uncertainty": "ECLIPSE 성공 확률, 승인 후 가격·급여, Phase 1 종양 자산 개별 가치 모두 확인 불가. 내부자 지분율과 주요 주주 구성이 제공 자료에 없어 행동주의 진입 가능성의 실무적 평가도 불가.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "15-point 중 영업이익률(5·6)·자본조달 필요성(13) 명확한 미달",
+        "scuttlebutt 통로 부재 — 처방의·환자·지불자 청취 불가",
+        "10년 복리 증거가 ECLIPSE 판독 이후로 전부 미뤄져 있음"
+      ],
+      "key_opportunities_top3": [
+        "R&D 생산성 — SOLSTICE 병용 우위와 등록임상 3건 동시 가동",
+        "Astellas가 Phase 1 자산에 $335M 지불 — 외부 실사 통과의 강한 간접 증거",
+        "경영진 솔직성 — runway·일정을 숫자로 명시"
+      ],
+      "uncertainty": "고객·전직원·경쟁사·공급자 직접 청취가 불가능해 scuttlebutt 항목 전체가 추정임. 영업조직·노사관계·임원진 관계 등 15-point 중 3개 항목은 판정 자체가 불가. PRO-XTEN 마스킹의 임상적 우위는 미입증.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "주당 순현금 $5.96 대비 주가 1.9배 — 자산 커버리지 없는 프리미엄",
+        "EV 대비 매출·영업이익 산출 불가 — hard valuation 자체가 성립 안 함",
+        "컨센서스 강세($20.8)로 역발상 우위 부재"
+      ],
+      "key_opportunities_top3": [
+        "장기차입금 0·현금·투자 $1.01B — 대차대조표 스트레스에 강함",
+        "Astellas 현금 $240M·프리미엄 지분 $75M 실제 수령 — 검증 가능한 자산",
+        "마일스톤 최대 $1.37B + ex-US 로열티 권리 잔존"
+      ],
+      "uncertainty": "내부자 매수·자사주 매입·13D 등 조용한 촉매는 제공 자료에서 확인 불가. 판독 실패 시 실제 하방 폭과 오버슈팅 크기는 추정임. 급여 가격, Phase 1 종양 자산의 개별 가치도 확인 불가.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "반전 촉매(ECLIPSE 1, 4Q26)의 날짜가 공개돼 되먹임 지속성이 제한됨",
+        "bulevirtide 선승인이 이미 발생한 서사 약화 촉매",
+        "연 $400M 소진 — 조정 국면의 증자가 순환을 반대로 돌릴 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "펀더멘털이 가격보다 앞선 상태 — 컨센서스 $20.8 대비 주가 절반",
+        "주가↑→조달여건 개선→활주로 연장의 되먹임 순환이 순수한 형태로 작동",
+        "서사가 실측(SOLSTICE 96주)에 뿌리를 둬 공허하지 않음"
+      ],
+      "uncertainty": "정식 정량 앵커(quant_anchor.json)가 없어 내재가치·함의성장률 대조는 직접 계산한 근사치임. 되먹임 단계 판정은 해석이며 측정이 아님. ECLIPSE 성공 확률과 급여 가격은 확인 불가.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "bearish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "EPS 음수 — Graham Number·PER 계산 불가, 안전마진 정량화 자체가 불가능",
+        "시총/NCAV 2.1~2.3배 — 청산가치 방어선 부재",
+        "매출 2022 $1,616M → 2023 $86.2M (-94.7%) 붕괴 이력"
+      ],
+      "key_opportunities_top3": [
+        "차입금이 사실상 없음 (totalDebt $93.3M, 대부분 리스) — 부채 스트레스는 낮음",
+        "현금·투자 $1.01B — 단기 지급불능 위험은 없음",
+        "Astellas $240.0M 현금 유입이 실제 집행됨 — 자산의 질은 확인 가능"
+      ],
+      "uncertainty": "NCAV는 유동/비유동 투자자산 구분과 영업부채 상세를 확인하지 못한 상태의 근사치임. 2Q26 자기자본 $812.8M이 2026Q1과 동일 값으로 조회되는 XBRL 태깅 이슈가 있어 BVPS도 근사치임. ECLIPSE 성공 시의 정상이익 규모는 확인 불가.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "ECLIPSE 판독 실패 시 HDV 축 가치의 대부분 소멸 — 이진 위험",
+        "연 $400M 소진, runway 2H28 — 상업화 자금 조달 시 희석 불가피",
+        "종양 자산 3종이 모두 Phase 1 — Astellas 마일스톤 외 검증 지연 가능"
+      ],
+      "key_opportunities_top3": [
+        "ECLIPSE 성공 시 2027 BLA·2028 승인 경로 — HDV 기능적 완치 선점",
+        "PRO-XTEN 이중마스킹 TCE — 대형 파마가 Phase 1에 $335M 지불한 플랫폼",
+        "bulevirtide 승인이 만든 진단 확대 — 시장 모수 자체가 성장"
+      ],
+      "uncertainty": "PRO-XTEN 마스킹이 실제로 치료지수를 넓히는지는 2H26 예정 Phase 1 데이터 이전에는 확인 불가. HDV 진단·치료 연결 인구, ECLIPSE 성공 시 급여 가격, VIR의 XBI 편입 여부 모두 확인 불가.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "가치 분포가 이봉형 — 단일 점추정 내재가치가 의미를 갖지 못함",
+        "필수 가정 4개(승인확률·환자수·가격·정상마진) 모두 관측 앵커 부재",
+        "bulevirtide 선승인으로 가격 프리미엄 확보 여부 미정"
+      ],
+      "key_opportunities_top3": [
+        "순현금 $0.92B이 가치의 하한을 형성 — 파산 확률항이 낮음",
+        "SOLSTICE 96주 데이터가 서사의 그럴듯함을 실측으로 뒷받침",
+        "Astellas 마일스톤 $1.37B 권리가 종양 축 가치를 부분 계량화"
+      ],
+      "uncertainty": "승인 확률, 미국 진단·치료 연결 인구, bulevirtide 대비 급여 가격, 정상상태 영업이익률 모두 확인 불가. 역산에 쓴 희귀질환 매출배수 3~4배와 최대매출 $0.5~0.8B은 가정이며 회사 가이던스가 아님.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "기업 자체는 취약 — 단일 판독에 가치 집중, HDV 모수 6배 편차",
+        "연 $400M 소진이 옵션 만기(2H28)를 압박",
+        "현 사업모델 검증 기간 짧음 — 2023년 매출 -94.7% 붕괴 후 재구축"
+      ],
+      "key_opportunities_top3": [
+        "손익 구조가 볼록 — 손실은 투입액 한정, 상방은 다중 경로 개방",
+        "Astellas 마일스톤 $1.37B + ex-US 로열티 = 비용 없는 옵션",
+        "PRO-XTEN 3종 Phase 1 — HDV와 독립된 별도 옵션 묶음"
+      ],
+      "uncertainty": "이 판단은 소액 노출(포트폴리오의 1~2% 수준)을 전제로만 유효하며 큰 비중에서는 결론이 반대가 됨. 경영진 개인 지분율, ECLIPSE 성공 확률, 판독 실패 시 실제 하방 폭은 확인 불가.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
