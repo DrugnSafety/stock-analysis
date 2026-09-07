@@ -1,0 +1,546 @@
+{
+  "ticker": "ASMB",
+  "company": "Assembly Biosciences, Inc.",
+  "as_of": "2026-09-07",
+  "analysis_mode": "single",
+  "thesis_count": 10,
+  "industry": {
+    "name": "항바이러스 + 담즙정체성 간질환 (HSV HPI · HIV PrEP 병용 · HDV · PBC/PSC) + 지수 이벤트",
+    "overview": "Assembly Biosciences(ASMB)는 길리어드(GILD)가 약 25%를 보유한 임상단계 항바이러스 바이오텍임 [actual — 블로그·2Q26 공시]. 2026-09-04 종가 $36.60, 시총 $0.75B, EV $427M, P/B 2.38, 베타 1.13, 연환산 변동성 59.6% [actual — yfinance 1.3.0 live, 2026-09-04]. 자산은 두 축임. ① HSV helicase-primase inhibitor(HPI) — 길리어드가 옵션을 행사해 개발·상업화를 직접 통제하며, 2026년 8월 공시에서 주 1회 경구 GS-1179(구 ABI-1179)를 Phase 2 자산으로 선택하고 재발성 생식기 헤르페스 Phase 2를 2026년 말까지 개시한다고 밝힘 [actual — SEC 8-K EX-99.1 2026-08-13]. 월 1회 투약을 노리던 ABI-5366은 '현재 추가 개발 계획 없음'으로 사실상 보류됨 [actual — SEC 10-Q 2026-08-13]. HPI는 valacyclovir(발트렉스) 계열 뉴클레오시드 아날로그와 기전이 다름 — 바이러스 helicase-primase 복합체를 직접 억제해 DNA 복제 개시 단계를 막으므로, 뉴클레오시드 내성주에도 활성이 있고 반감기가 길어 주 1회~월 1회 경구가 가능함 [inference — 기전 일반론, ASMB 개별 임상 데이터로 확증된 서술 아님]. ② NTCP(Na+/taurocholate co-transporting polypeptide) 억제 플랫폼 ABI-6250 — NTCP는 HDV(델타간염)의 간세포 진입 수용체인 동시에 담즙산 재흡수 수송체이므로, 하나의 기전이 HDV에서는 바이러스 진입 차단, PBC/PSC에서는 간세포 담즙산 유입 조절로 작동함 [actual — 기전, ASMB 공시·블로그]. NTCP를 막는 주사제 bulevirtide(Hepcludex)가 이미 EU에서 조건부 승인된 선례가 있어 표적 자체의 임상적 검증은 일정 수준 이뤄져 있음 [inference — bulevirtide의 2026년 현재 미국 승인 상태는 본 분석에서 1차 자료로 확인 못 함, '확인 불가']. ABI-6250이 경구 once-daily라는 점이 주사제 대비 차별점임 [actual — NCT07762027 프로토콜]. \n\n핵심 변화는 길리어드가 GS-1179을 recurrent genital herpes 단독이 아니라 broader prevention setting, 특히 HIV pre-exposure prophylaxis(PrEP)와의 병용 전략의 일부로 평가하는 것을 '검토 중(being considered)'이라고 공식 문서에 적었다는 점임 [actual — SEC 8-K EX-99.1 2026-08-13]. 길리어드의 PrEP 프랜차이즈는 2Q26에 분기 매출 $1B을 돌파했고(Descovy 약 $801M +60% YoY, Yeztugo $232M +40% QoQ), 이는 연 $4B 런레이트임 [actual — Gilead 2Q26 PR 2026-08-04 / 연환산은 derived]. 발트렉스보다 편한 헤르페스 약을 만드는 것과, 이미 지배적인 HIV prevention 번들에 HSV prevention을 얹는 것은 시장 크기와 전략적 가치가 다름 [inference — 블로거 해석에 동의하나 'being considered'는 개발 확정이 아님]. 주 1회 경구 regimen이 향후 weekly PrEP와 묶이기 자연스러워 월 1회 5366 대신 1179가 선택됐을 가능성은 블로거 추정이며 길리어드가 선택 이유를 공개한 바 없음 [inference]. \n\nASMB는 미국 개발·상업화 비용의 40%를 부담하고 미국 이익의 40%를 취하는 cost/profit-share 옵션을 보유하며, 길리어드로부터 commercial cost estimate를 받은 뒤 2026년 말까지 행사 여부를 결정함 [actual — SEC 8-K EX-99.1]. 옵션 행사 여부 자체보다 길리어드가 보내는 cost estimate의 규모가 GS-1179 상업 계획의 크기를 역으로 알려주는 신호임 [inference]. \n\n경쟁 지형은 적응증별로 갈림. HDV는 Vir Biotechnology의 tobevibart+elebsiran 병용이 SOLSTICE에서 HDV RNA target-not-detected 88%(28/32) vs 단독 53%를 보여 앞서 있고 ECLIPSE 1 topline이 4Q26임 [actual — Vir 2Q26 PR 2026-08-05]. ABI-6250은 아직 환자 효능 데이터가 0이고 Phase 2가 2026-10 시작 예정이므로, 데이터 시점 기준으로 최소 2년 이상 뒤처져 있음 [derived]. PBC/PSC는 이미 붐빔 — 길리어드 본인의 Livdelzi(seladelpar), Ipsen elafibranor가 PBC 2차 치료로 자리잡았고, 소양증 축에서는 Mirum volixibat(IBAT 억제제, VISTAS PSC Phase 2b 성공: ItchRO -2.72 vs -1.08, p<0.0001, VANTAGE PBC topline 1Q27)와 GSK linerixibat이 경쟁함 [actual — Mirum PR 2026-05-04 / Livdelzi·elafibranor·linerixibat의 2026년 현재 세부 라벨·개발단계는 1차 자료 미확인, inference]. ABI-6250의 PBC/PSC Phase 2는 1Q27 개시 예정으로 경쟁사 대비 후발임 [actual — EX-99.1]. \n\n이번 업데이트의 단기 축은 펀더멘털이 아니라 지수임. XBI(SPDR S&P Biotech ETF, AUM $11,487.87M, 154 holdings, 보수 0.35%, modified equal-weight)가 추종하는 S&P Biotechnology Select Industry Index는 시총 순 상위를 뽑는 지수가 아니라 임계값 통과형 지수임 [actual — SSGA 2026-09-04, S&P DJI methodology]. 신규 편입 조건은 ① float-adjusted market cap(FMC) ≥ $500M + FALR ≥ 90% 또는 ② FMC ≥ $400M + FALR ≥ 150%이며, FALR = 최근 365일 거래대금 / FMC임 [actual — S&P DJI]. reference date는 8월 마지막 거래일(8/31, 종가 $33.63), index shares 가격결정은 9/9 종가, rebalance는 9/18 장마감 후, 반영은 9/21임 [actual — S&P DJI methodology + yfinance 종가]. 여기서 결정적 불확실성은 FALR이 아니라 IWF임 — 365일 거래대금이 $1,164.7M이므로 FMC를 $470M로 놓으면 FALR 248%, $308M으로 놓아도 378%로 어느 경우든 150%를 크게 넘김 [derived — yfinance 거래대금]. 반면 FMC는 IWF 가정에 전적으로 좌우됨. 블로거 가정 free float 70~72%면 19.85M주 × $33.63 × 0.70~0.72 = $467~481M로 $400M 경로를 여유 통과하지만 [derived], yfinance floatShares는 9.17M주로 발행주식 20.36M의 45%에 불과하고(insider 27.7%, 기관 69.4%) 이 값을 쓰면 FMC는 $308M으로 $400M 경로에 미달함 [actual — yfinance 2026-09-04 / 미달 판정은 derived]. IWF 60%가 $400.5M로 정확히 경계선임 [derived]. 즉 T08은 방향은 맞을 수 있으나 근거 숫자가 얇고, 공식 pro-forma 공개 전까지 판정 불가임 [inference].",
+    "competitors": [
+      {
+        "name": "Vir Biotechnology — HDV 선발주자 (tobevibart+elebsiran, ECLIPSE Phase 3 topline 4Q26)",
+        "ticker": "VIR"
+      },
+      {
+        "name": "Mirum Pharmaceuticals — PBC/PSC 소양증 (volixibat, IBAT 억제제, VISTAS 성공·VANTAGE 1Q27)",
+        "ticker": "MIRM"
+      },
+      {
+        "name": "Gilead Sciences — 파트너이자 경쟁축 (PBC의 Livdelzi/seladelpar, NTCP 주사제 bulevirtide 보유)",
+        "ticker": "GILD"
+      },
+      {
+        "name": "Ipsen — PBC 2차 치료 elafibranor [inference — 2026년 현재 라벨 미확인]",
+        "ticker": "IPN.PA"
+      },
+      {
+        "name": "GSK — PBC 소양증 linerixibat (IBAT 억제제) [inference — 개발단계 미확인]",
+        "ticker": "GSK"
+      },
+      {
+        "name": "발트렉스(valacyclovir) 제네릭 — HSV 치료 표준요법, GS-1179의 실질적 가격·처방 기준선",
+        "ticker": "-"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-05-04",
+        "title": "Mirum, volixibat VISTAS(PSC) Phase 2b primary endpoint 충족",
+        "summary": "영향: 부정적 — ABI-6250의 PBC/PSC 확장 경로에 이미 BTD 보유 선발주자가 앞서 있음을 확인시킴",
+        "source": "Mirum PR (BusinessWire)",
+        "source_url": "https://www.businesswire.com/news/home/20260504069726/en/Mirum-Pharmaceuticals-Announces-Primary-Endpoint-Met-in-VISTAS-Study-of-Volixibat-in-Patients-with-Primary-Sclerosing-Cholangitis"
+      },
+      {
+        "date": "2026-06-26",
+        "title": "Russell reconstitution 당일 거래량 158.9만 주·주가 +10.2% ($24.26→$26.74)",
+        "summary": "영향: 긍정적 — 얇은 종목에 패시브 강제매수가 들어올 때의 가격·거래량 반응을 실증한 선례임",
+        "source": "financecharts / yfinance",
+        "source_url": "https://www.financecharts.com/stocks/ASMB/summary/volume-averages"
+      },
+      {
+        "date": "2026-08-04",
+        "title": "길리어드 2Q26 — HIV PrEP 분기 매출 $1B 돌파 (Descovy ~$801M +60% YoY, Yeztugo $232M +40% QoQ)",
+        "summary": "영향: 긍정적 — GS-1179 PrEP 병용 시나리오가 붙을 프랜차이즈의 실제 크기(연 $4B 런레이트)를 확인시킴",
+        "source": "Gilead 2Q26 PR (BusinessWire)",
+        "source_url": "https://www.businesswire.com/news/home/20260804436824/en/Gilead-Sciences-Announces-Second-Quarter-2026-Financial-Results"
+      },
+      {
+        "date": "2026-08-05",
+        "title": "Vir 2Q26 — SOLSTICE 병용 HDV RNA TND 88% vs 단독 53%, ECLIPSE 1 topline 4Q26",
+        "summary": "영향: 부정적 — HDV에서 ABI-6250 대비 2년 이상 앞선 경쟁 자산이 곧 Phase 3 데이터를 냄",
+        "source": "Vir 2Q26 EX-99.1 (SEC)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026053351/a20260805-q2ex991earningsr.htm"
+      },
+      {
+        "date": "2026-08-13",
+        "title": "ASMB 2Q26 실적 — 현금·유가증권 $320.4M, runway into 2029, 4Q26 길리어드 extension fee $75M",
+        "summary": "영향: 긍정적 — 2개 Phase 2 동시 진행과 40% opt-in 재원을 동시에 감당할 현금이 확인됨",
+        "source": "SEC 8-K EX-99.1",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm"
+      },
+      {
+        "date": "2026-08-13",
+        "title": "길리어드, GS-1179(구 ABI-1179) Phase 2 선택 — HIV PrEP 병용 전략 평가 '검토 중' 공식 기재",
+        "summary": "영향: 긍정적 — 투자 논리를 HSV 단일 치료제에서 길리어드 prevention 프랜차이즈 연계로 확장시킨 핵심 문구임",
+        "source": "SEC 8-K EX-99.1",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm"
+      },
+      {
+        "date": "2026-08-13",
+        "title": "10-Q — ABI-5366은 '현재 추가 개발 계획 없음'",
+        "summary": "영향: 부정적 — HSV 자산 2개 중 1개가 사실상 보류됐고 자산 취사선택 권한이 길리어드에 있음을 드러냄",
+        "source": "SEC 10-Q (asmb-20260630)",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1426800/000119312526349236/asmb-20260630"
+      },
+      {
+        "date": "2026-08-14",
+        "title": "8-K/A 및 EX-99.1 정정 공시 제출",
+        "summary": "영향: 중립 — 2Q26 실적 공시의 후속 정정으로 신규 정보는 확인 불가",
+        "source": "SEC 8-K/A",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/0001426800/000119312526352193/"
+      },
+      {
+        "date": "2026-09-01",
+        "title": "UBS, ASMB 신규 커버리지 개시 — Buy, 목표가 $52 (개시 당시 주가 $33.63)",
+        "summary": "영향: 긍정적 — 바이오 boutique 위주 커버리지에서 대형 IB universe로 넘어가며 기관 접근성이 올라감",
+        "source": "Investing.com",
+        "source_url": "https://za.investing.com/news/stock-market-news/ubs-initiates-assembly-biosciences-stock-with-buy-rating-on-antiviral-platform-93CH-4449711"
+      },
+      {
+        "date": "2026-09-01",
+        "title": "ABI-6250 HDV Phase 2 ClinicalTrials.gov 등록 (NCT07762027) — 80명·22 site, 2026-10 시작",
+        "summary": "영향: 긍정적 — 'PPT 속 Phase 2'가 endpoint·site·일정이 박힌 실제 프로토콜로 전환됨",
+        "source": "ClinicalTrials.gov",
+        "source_url": "https://clinicaltrials.gov/study/NCT07762027"
+      },
+      {
+        "date": "2026-09-04",
+        "title": "XBI 규모 확인 — AUM $11,487.87M, 154 holdings, 보수 0.35%, modified equal-weight",
+        "summary": "영향: 중립 — 편입 시 수급 크기를 계산하는 분모이며, 편입 여부 자체는 아직 미확정임",
+        "source": "SSGA",
+        "source_url": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-biotech-etf-xbi"
+      },
+      {
+        "date": "2026-09-04",
+        "title": "sell-side 컨센서스 5명 평균 $52 (high $62, low $43), 공매도 float의 15.1%",
+        "summary": "영향: 중립 — 목표가는 현재가 대비 상방이나 얇은 float에 높은 공매도가 겹쳐 양방향 변동성 요인임",
+        "source": "yfinance / StockAnalysis",
+        "source_url": "https://stockanalysis.com/stocks/asmb/forecast/"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 9.0,
+      "cagr_pct": 9.0,
+      "horizon": "2032E — 재발성 생식기 헤르페스 치료·예방 + HIV PrEP 병용 번들 + HDV + PBC/PSC 합산 잠재 시장 [inference — 1차 시장조사 자료 미확인, 참조점은 길리어드 PrEP 연 $4B 런레이트 actual]"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2021",
+        "revenue": null,
+        "op_income": -132.688,
+        "net_income": -129.855,
+        "op_margin": null,
+        "net_margin": null,
+        "op_margin_pct": null,
+        "net_margin_pct": null,
+        "note": "XBRL Revenues 태그 없음 — 실질 무매출 [actual — SEC XBRL companyfacts]"
+      },
+      {
+        "year": "2022",
+        "revenue": null,
+        "op_income": -94.114,
+        "net_income": -93.092,
+        "op_margin": null,
+        "net_margin": null,
+        "op_margin_pct": null,
+        "net_margin_pct": null,
+        "note": "XBRL Revenues 태그 없음 [actual]"
+      },
+      {
+        "year": "2023",
+        "revenue": null,
+        "op_income": -64.646,
+        "net_income": -61.228,
+        "op_margin": null,
+        "net_margin": null,
+        "op_margin_pct": null,
+        "net_margin_pct": null,
+        "note": "2023-10 길리어드 협업 체결 연도이나 XBRL Revenues 태그 없음 [actual]"
+      },
+      {
+        "year": "2024",
+        "revenue": 28.52,
+        "op_income": -45.42,
+        "net_income": -40.177,
+        "op_margin": -159.3,
+        "net_margin": -140.9,
+        "op_margin_pct": -159.3,
+        "net_margin_pct": -140.9,
+        "note": "매출 전액 길리어드 협업 인식분 [actual — SEC XBRL]"
+      },
+      {
+        "year": "2025",
+        "revenue": 72.303,
+        "op_income": -12.118,
+        "net_income": -6.122,
+        "op_margin": -16.8,
+        "net_margin": -8.5,
+        "op_margin_pct": -16.8,
+        "net_margin_pct": -8.5,
+        "note": "협업 매출 +153% YoY로 영업손실 -$12.1M까지 축소 [actual/derived]"
+      }
+    ],
+    "peer_compare": [
+      {
+        "ticker": "ASMB",
+        "name": "Assembly Biosciences",
+        "pe": 29.52,
+        "forward_pe": -14.12,
+        "pb": 2.38,
+        "roe": -0.03,
+        "div_yield": 0.0,
+        "market_cap_usd_bn": 0.75,
+        "note": "trailing PE 29.5는 4Q25 일회성 흑자(+$22.1M)에 의한 것으로 수익성 지표 아님 [derived]"
+      },
+      {
+        "ticker": "VIR",
+        "name": "Vir Biotechnology",
+        "pe": null,
+        "forward_pe": -4.58,
+        "pb": 2.26,
+        "roe": -26.08,
+        "div_yield": 0.0,
+        "market_cap_usd_bn": 1.93,
+        "note": "HDV 직접 경쟁 — P/B는 ASMB와 거의 같으나 시총은 2.6배 [derived]"
+      },
+      {
+        "ticker": "MIRM",
+        "name": "Mirum Pharmaceuticals",
+        "pe": null,
+        "forward_pe": -291.05,
+        "pb": -626.71,
+        "roe": -702.97,
+        "div_yield": 0.0,
+        "market_cap_usd_bn": 6.15,
+        "note": "자본잠식으로 P/B·ROE 해석 불가 — 상업화 담즙정체 플랫폼의 시총 상단 참조점으로만 사용 [inference]"
+      },
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "pe": null,
+        "forward_pe": 15.27,
+        "pb": 15.84,
+        "roe": -20.68,
+        "div_yield": 2.17,
+        "market_cap_usd_bn": 187.23,
+        "note": "ROE 음수는 2Q26 acquired IPR&D $11.1B 상각에 따른 GAAP 왜곡 [inference — 브리프 기재]"
+      }
+    ],
+    "financial_unit": {
+      "currency": "USD",
+      "scale": "M",
+      "label": "USD M"
+    },
+    "bs_snapshot": {
+      "total_assets": 330.8,
+      "total_liab": 132.2,
+      "equity": 198.6,
+      "cash": 320.4,
+      "debt": 0.0,
+      "_note": "2Q26(2026-06-30) 기준, 단위 USD M. 총자산 $330.8M·자본 $198.6M은 SEC XBRL [actual], 총부채 $132.2M은 차감 derived. 현금 $320.4M은 현금성자산 $32.3M + 유가증권 $288.1M 합계 [actual — SEC 8-K EX-99.1]로 XBRL의 현금 단독 계정 $32.3M과 다름. 장기차입금 0 [actual — SEC XBRL]. 총부채 대부분은 길리어드 협업 관련 이연수익으로 추정되나 세부 내역 확인 불가 [inference]"
+    },
+    "cf_summary": {
+      "ocf_5y_avg": -49.5,
+      "fcf_5y_avg": -50.2,
+      "capex_intensity": 0.001,
+      "note": "단위 USD M. 5Y 평균 OCF -$49.5M·FCF -$50.2M [derived — SEC XBRL 2021~2025]. 2023년만 +$22.7M으로, 길리어드 협업 선수금 유입에 따른 일회성 [inference]. CapEx는 2025년 $0.07M으로 사실상 0 — 임상단계 무형자산 구조 [actual]. 현재 분기 기준으로는 R&D $14.9M + G&A $4.8M − 협업매출 $13.4M로 순burn 약 $10~15M/분기 [actual 2Q26 항목 / 순burn은 derived]. 현금·유가증권 $320.4M + 4Q26 extension fee $75M으로 회사는 runway를 2029년까지로 제시 [actual — SEC 8-K EX-99.1]. 40% opt-in 행사 시 미국 개발·상업화 비용 40% 부담이 추가돼 이 runway 가정은 재계산 필요 [inference]"
+    }
+  },
+  "financial_statements_summary": {
+    "data_source": "SEC EDGAR XBRL companyfacts (financial_statements_us_gaap.fetch_us_gaap_5y_5q, 2026-09-07 fetch) + SEC 8-K EX-99.1(2026-08-13) + yfinance 1.3.0 live(2026-09-04)",
+    "frequency": "5Y annual (2021~2025) + 5Q quarterly (2Q25~2Q26)",
+    "notes": "2021~2023년은 XBRL에 Revenues 태그가 없어 revenue를 null로 둠 — 실질 무매출 구간이며 0으로 채우면 매출 CAGR이 왜곡되므로 의도적으로 비움 [actual/derived]. 매출은 2024년 $28.5M → 2025년 $72.3M(+153% YoY)이며 전액 길리어드 협업 인식분임 [actual]. 영업손실은 2021 -$132.7M → 2022 -$94.1M → 2023 -$64.6M → 2024 -$45.4M → 2025 -$12.1M으로 5년 연속 축소됐고, 이는 사업 수익성 개선이 아니라 HBV 자체 파이프라인 축소 + 길리어드 협업 매출 인식이 비용을 상쇄한 결과임 [derived]. 순손실도 2025년 -$6.1M까지 줄었으나 흑자전환은 아님 [actual]. 분기 순손익은 2Q25 -$10.2M, 3Q25 -$9.2M, 4Q25 +$22.1M, 1Q26 -$9.1M, 2Q26 -$3.9M — 4Q25 흑자는 일회성 협업 인식으로 추정되며 추세 아님 [actual 수치 / 원인은 inference]. trailing PE 29.5는 이 4Q25 일회성 흑자에서 파생된 값이라 수익성 지표로 사용 불가 [derived]. 자본은 1Q26 $198.6M으로 급증했는데 이는 2026-05 $115M 공모(주당 $26.50) 반영분으로 추정됨 [inference]. XBRL의 1Q26·2Q26 자본이 $198.61M으로 동일하게 조회되는 점은 fetch 아티팩트 가능성이 있어 재확인 필요 [unavailable]. 발행주식은 2Q26 공시 기준 19,850,342주, yfinance sharesOutstanding은 20,360,596주로 차이가 있음 [actual 양쪽]."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "thesis": "XBI 편입이 실제 확정돼 9/18 패시브 MOC 매수가 들어오고, 그 위에 연말 두 개의 펀더멘털 이벤트가 겹치는 경로임. 길리어드가 GS-1179 Phase 2를 예정대로 개시하고 HIV PrEP 병용 평가를 '검토 중'에서 실제 개발계획으로 승격시키며, ASMB가 40% opt-in을 행사해 경영진 내부 NPV에 대한 강한 신호를 시장에 줌. 이 경우 ASMB는 '길리어드 로열티 수취 회사'가 아니라 '미국 prevention franchise economics 40% 공유 회사'로 재평가됨. 가격 경로는 52주 최고가 $39.71 돌파 후 sell-side 컨센서스 상단($52~62) 구간을 테스트 [inference — 목표가는 UBS $52·컨센서스 high $62 근거, 자체 밸류에이션 아님].",
+      "key_assumptions": [
+        "S&P IWF가 60% 이상으로 산정돼 FMC $400M 경로를 통과함 [inference — 현재 yfinance float 45%와 충돌]",
+        "GS-1179 Phase 2가 2026년 말 개시 가이던스를 지킴 [actual 가이던스 / 이행은 inference]",
+        "ASMB가 40% opt-in을 행사하고 시장이 이를 NPV 신호로 해석함",
+        "ABI-6250 HDV Phase 2가 2026-10 등록 개시로 일정 준수 (효능 데이터는 아직 불필요)"
+      ],
+      "target_price": 55.0,
+      "target_price_basis": "$55.0 (12개월, USD) [inference]. 현재가 $36.60 대비 +50.3% [derived — yfinance 2026-09-04]. 도출: bull 시나리오는 ① XBI 편입 확정 + 9/18 패시브 MOC 매수, ② GS-1179 Phase 2 개시, ③ 40% opt-in 행사로 경영진 NPV 신호, ④ HIV PrEP 병용이 '검토 중'에서 개발계획으로 승격 — 네 가지가 모두 성립하는 경로임. 이 경우 밸류에이션은 자체 모델이 아니라 sell-side 컨센서스 상단 구간에 수렴한다고 봄. 컨센서스는 5명 평균 $52, high $62, low $43이며 UBS $52·HC Wainwright $50 [actual — yfinance 2026-09-04 / Investing.com 2026-09-01]. $55.0은 평균 $52와 high $62 사이의 하단부로, 네 조건이 모두 충족되면 평균을 넘되 high를 전부 반영하지는 않는 수준으로 설정함. 경유점으로 52주 최고가 $39.71 돌파가 선행 조건임 [actual — 블로그]. 시총 환산 약 $1.12B, EV 약 $0.72B로 reverse_dcf ②의 성공 시나리오 NPV $0.9~1.2B에 승인 확률을 부분 반영한 수준임 [derived]."
+    },
+    "base": {
+      "prob_pct": 45,
+      "thesis": "XBI 편입은 되든 안 되든 9/21 이후 이벤트로 소멸하고, 주가는 다시 펀더멘털 게임으로 돌아감. GS-1179 Phase 2는 개시되지만 데이터는 2027년 이후이고, HIV PrEP 병용은 '검토 중' 문구에서 더 나아가지 않음. ABI-6250은 환자 효능 데이터가 없는 상태로 2027-06 primary completion까지 옵션 가치로만 남음. 현금 $320.4M + 4Q26 $75M으로 runway 2029가 유지돼 하방은 단단하나, 재평가를 끌 새 정보가 없어 시간이 흐름. 9/4 종가 $36.60은 8/31 $33.63 대비 이미 +8.8%, 1개월 +37.9%로 지수 이벤트를 상당 부분 선반영한 상태라 편입 확정 시에도 상방이 제한되고 미편입 시 선매수 물량 되돌림으로 $30 초반 회귀 가능 [derived — yfinance 수익률]. sell-side 하단 $43 부근이 12개월 기준 현실적 상단 [inference].",
+      "key_assumptions": [
+        "임상 일정은 지켜지되 2026년 내 새로운 효능 데이터는 없음",
+        "분기 순burn이 현 수준($10~15M, R&D $14.9M·G&A $4.8M − 협업매출 $13.4M) 유지 [actual 2Q26 / 지속은 inference]",
+        "40% opt-in 결정이 연말로 미뤄지며 그 자체로는 방향성을 주지 못함",
+        "XBI 이벤트 전후 변동성은 크되 종료 후 이벤트 프리미엄이 소멸함"
+      ],
+      "target_price": 38.0,
+      "target_price_basis": "$38.0 (12개월, USD) [inference]. 현재가 $36.60 대비 +3.8% [derived — yfinance 2026-09-04]. 도출: base 시나리오는 XBI 이벤트가 9/21 이후 소멸하고 2026년 내 새로운 효능 데이터가 없는 경로이므로, 재평가를 끌 정보가 없어 12개월 목표가가 현재가 근처에 머무는 것이 논리적 귀결임. 밴드는 두 끝점으로 잡음 — 하단은 미편입 확인 시 선매수 물량 되돌림에 따른 $30 초반 회귀(reference date 8/31 종가 $33.63 부근) [actual 종가 / 회귀는 inference], 상단은 sell-side 최저 목표가 $43으로, 새 데이터 없이 컨센서스 하단 이상을 정당화하기 어렵다고 봄 [actual — yfinance low $43]. $33.63~$43의 중간값이 $38.3이며 이를 반올림해 $38.0으로 설정함 [derived]. 하방은 현금·유가증권 $320.4M + 4Q26 extension fee $75M이 지지하고 runway 2029가 유지되므로 단단함 [actual — SEC 8-K EX-99.1]."
+    },
+    "bear": {
+      "prob_pct": 25,
+      "thesis": "XBI 미편입이 확인되는 경로가 가장 아픔. IWF가 yfinance float(45%) 수준으로 산정되면 FMC $308M으로 $400M·$500M 두 경로 모두 미달이고, 1개월 +37.9% 상승분 중 지수 기대에 기댄 부분이 되돌려짐. 여기에 40% opt-in을 행사할 경우 미국 개발·상업화 비용 40% 부담이 시작되며 runway 2029 가정이 흔들리고, 행사하지 않을 경우에는 경영진이 GS-1179 NPV를 낮게 본다는 역신호로 읽힘 — 양쪽 다 해석 리스크가 있음. 동시에 VIR ECLIPSE 1 topline(4Q26)이 강하게 나오면 ABI-6250의 HDV 옵션 가치가 축소되고, PBC/PSC는 Livdelzi·elafibranor·volixibat·linerixibat이 이미 채운 시장이라 후발 진입 프리미엄이 붙기 어려움. float 15.1% 공매도와 얇은 유동성이 하락을 증폭시켜 5월 공모가 $26.50 부근까지 되돌림 가능 [inference].",
+      "key_assumptions": [
+        "S&P IWF가 50% 미만으로 산정돼 FMC가 $400M에 미달함 [actual 근거: yfinance floatShares 9.17M = 45%]",
+        "VIR ECLIPSE 1 topline(4Q26)이 SOLSTICE 수준으로 강하게 나옴",
+        "40% opt-in 결정이 어느 방향이든 부정적으로 해석됨",
+        "공매도 15.1%와 3개월 median daily $ traded $5.32M의 얇은 유동성이 하방 변동성을 증폭함"
+      ],
+      "target_price": 26.0,
+      "target_price_basis": "$26.0 (12개월, USD) [inference]. 현재가 $36.60 대비 -29.0% [derived — yfinance 2026-09-04]. 도출: bear 시나리오는 XBI 미편입(IWF 45% 산정 시 FMC $308M으로 $400M 미달) + 1개월 +37.9% 상승분 되돌림 + 40% opt-in 관련 burn 확대 또는 미행사 역신호 + VIR ECLIPSE 1 강한 topline이 겹치는 경로임. 하한 앵커는 순현금 기준 주당가치임 — 현금·유가증권 $320.4M + $75M extension fee = $395.4M을 발행주식 19.850M(2Q26 공시)으로 나누면 주당 $19.92, yfinance sharesOutstanding 20.361M 기준으로는 $19.42임 [derived — SEC 8-K EX-99.1 + yfinance]. 이는 파이프라인 가치를 0으로 볼 때의 이론적 바닥이며, 길리어드 협업과 두 개의 Phase 2가 살아 있는 한 실제로 도달할 가능성은 낮다고 봄 [inference]. 따라서 목표가는 순현금 바닥이 아니라 2026-05 공모가 $26.50(블로거가 되돌림 기준선으로 제시)에 맞춰 $26.0으로 설정함 [actual 공모가 / 회귀는 inference]. sell-side 최저 목표가 $43을 크게 밑도는 값으로, 컨센서스가 반영하지 않는 지수 미편입 리스크를 명시적으로 가격화한 것임 [inference]."
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-09-09",
+      "event": "S&P Select Industry index shares 가격 결정 (두 번째 금요일 직전 수요일 종가)",
+      "type": "index",
+      "expected_impact": "med",
+      "description": "이 날 종가로 편입 시 index shares가 확정됨. 9/4 $36.60 대비 이 날까지의 상승분은 패시브 매수단가에 그대로 반영되며, index arb 입장에서는 선매수 마진이 줄어듦 [actual 일정 — S&P DJI methodology / 해석 inference]"
+    },
+    {
+      "date": "2026-09 중순",
+      "event": "S&P DJI 분기 rebalance pro-forma 발표 (편입·제외 종목 공개)",
+      "type": "index",
+      "expected_impact": "high",
+      "description": "T08의 유일한 확정 시점임. 현재 FMC 추정이 IWF 가정에 따라 $308M(yfinance float 45%)~$481M(블로거 72%)로 갈리므로 발표 전까지 판정 불가 [derived]. FALR은 어느 가정에서도 150%를 넘어 제약이 아님 (365일 거래대금 $1,164.7M 기준 248~378%) [derived]"
+    },
+    {
+      "date": "2026-09-18",
+      "event": "XBI 분기 rebalance 실행 (장마감 후), 9/21 반영",
+      "type": "index",
+      "expected_impact": "high",
+      "description": "AUM $11,487.87M 기준 weight 0.1%면 $11.5M ≈ 31.4만 주, 0.2%면 $23.0M ≈ 62.8만 주 — 3개월 median daily $ traded $5.32M 대비 각각 2.2일·4.3일치 거래대금임 [derived — SSGA AUM + yfinance $36.60]. 소형주 liquidity cap 적용 후 실제 weight는 공개 정보로 계산 불가 [unavailable]"
+    },
+    {
+      "date": "2026-10",
+      "event": "ABI-6250 HDV Phase 2 (NCT07762027) 등록 개시",
+      "type": "clinical",
+      "expected_impact": "med",
+      "description": "80명·22 site·once-daily 48주, HDV RNA undetectable 또는 ≥2 log10 감소 및 ALT normalization 평가. 현재 NOT_YET_RECRUITING [actual — ClinicalTrials.gov 2026-09-01]. 개시 자체는 가이던스 이행 확인일 뿐 효능 정보는 없음"
+    },
+    {
+      "date": "2026-4Q",
+      "event": "길리어드 collaboration 3주년 extension fee $75M 수취",
+      "type": "financial",
+      "expected_impact": "med",
+      "description": "현금 $320.4M에 더해지며 runway 2029 가정의 핵심 구성요소임 [actual — SEC 8-K EX-99.1]. 계약상 due이므로 불확실성은 낮음 [inference]"
+    },
+    {
+      "date": "2026-4Q",
+      "event": "VIR ECLIPSE 1 topline (HDV Phase 3) — 경쟁 read-through",
+      "type": "competitive",
+      "expected_impact": "med",
+      "description": "ASMB 자체 이벤트는 아니나 ABI-6250의 HDV 옵션 가치를 직접 재평가시킴. SOLSTICE에서 병용 HDV RNA TND 88% vs 단독 53% [actual — Vir 2Q26 PR]. 강한 결과일수록 ABI-6250 HDV 지분은 축소됨 [inference]"
+    },
+    {
+      "date": "2026 년말",
+      "event": "GS-1179 재발성 생식기 헤르페스 Phase 2 개시 (길리어드 주관)",
+      "type": "clinical",
+      "expected_impact": "high",
+      "description": "길리어드가 직접 개발·상업화를 통제하는 자산의 Phase 2 진입임 [actual — SEC 8-K EX-99.1]. HIV PrEP 병용 평가는 아직 'being considered' 단계로 이 Phase 2의 설계에 반영될지는 확인 불가"
+    },
+    {
+      "date": "2026 년말",
+      "event": "ASMB 40% 미국 cost/profit-share 옵션 행사 여부 결정",
+      "type": "corporate",
+      "expected_impact": "high",
+      "description": "길리어드로부터 commercial cost estimate 수령 후 결정 [actual — EX-99.1]. 행사 시 미국 개발·상업화 비용 40% 부담이 시작돼 runway가 단축되지만 미국 이익 40% 권리를 확보함. 옵션 행사 자체보다 cost estimate 규모가 GS-1179 상업 계획의 크기를 역으로 알려줌 [inference]"
+    },
+    {
+      "date": "2027-1Q",
+      "event": "ABI-6250 PBC/PSC (담즙정체성 간질환) Phase 2 개시",
+      "type": "clinical",
+      "expected_impact": "med",
+      "description": "NTCP 억제 플랫폼의 두 번째 적응증 [actual — EX-99.1]. Livdelzi·elafibranor·volixibat·linerixibat이 이미 자리잡은 시장이라 후발 진입 [inference]"
+    },
+    {
+      "date": "2027-06",
+      "event": "ABI-6250 HDV Phase 2 primary completion",
+      "type": "clinical",
+      "expected_impact": "high",
+      "description": "ABI-6250의 첫 환자 효능 데이터임 [actual — NCT07762027]. 이 시점까지 ABI-6250은 '0으로 평가할 자산은 아니지만 값을 매길 근거도 없는' 상태로 남음 [inference]"
+    }
+  ],
+  "risks": [
+    {
+      "name": "XBI 미편입 — IWF 가정 붕괴 후 급등분 되돌림",
+      "probability": "med",
+      "impact": "high",
+      "description": "블로거 FMC $467~481M은 free float 70~72% 가정에 전적으로 의존함. yfinance floatShares 9.17M(발행 20.36M의 45%)을 쓰면 FMC $308M으로 $400M 경로 미달이고, IWF 60%가 $400.5M로 정확히 경계임 [derived]. 1개월 +37.9% 상승 중 지수 기대 부분이 미편입 확인 시 되돌려짐 [inference]"
+    },
+    {
+      "name": "40% opt-in 행사 시 비용 부담 — runway 2029 가정 훼손",
+      "probability": "med",
+      "impact": "med",
+      "description": "미국 개발·상업화 비용의 40%를 부담해야 함 [actual — EX-99.1]. 현재 분기 R&D $14.9M·G&A $4.8M 구조에 Phase 2/3 상업화 비용 분담이 얹히면 순burn이 구조적으로 확대됨. 반대로 미행사 시에는 경영진이 GS-1179 NPV를 낮게 본다는 역신호로 읽힐 수 있어 양방향 해석 리스크임 [inference]"
+    },
+    {
+      "name": "ABI-6250 환자 효능 데이터 부재 — Phase 1a는 건강인 대상",
+      "probability": "high",
+      "impact": "med",
+      "description": "HDV RNA 감소·ALT normalization·PBC 소양증 개선 어느 것도 환자에서 입증된 바 없음. 첫 데이터는 2027-06 primary completion 이후 [actual — NCT07762027]. 그때까지 밸류에이션에 반영할 근거가 없음 [derived]"
+    },
+    {
+      "name": "VIR 경쟁 — HDV에서 2년 이상 선행",
+      "probability": "high",
+      "impact": "med",
+      "description": "tobevibart+elebsiran 병용 HDV RNA TND 88% vs 단독 53%, ECLIPSE 1 topline 4Q26·2/3 1Q27 [actual — Vir 2Q26 PR]. ABI-6250이 Phase 2를 시작할 때 VIR은 Phase 3 데이터를 내는 구도로, 승인·처방 선점 시 ABI-6250은 2차 옵션이 됨 [inference]"
+    },
+    {
+      "name": "길리어드 단일 파트너 의존 — 자산 취사선택 권한이 상대방에 있음",
+      "probability": "med",
+      "impact": "high",
+      "description": "ABI-5366이 '현재 추가 개발 계획 없음'으로 보류된 것이 실증 사례임 [actual — SEC 10-Q]. HSV 프로그램의 개발·상업화 통제권이 길리어드에 있어 ASMB는 일정·설계·우선순위를 결정하지 못함. 2025년 매출 $72.3M도 전액 길리어드 협업 인식분으로 매출 집중도 100%임 [derived — SEC XBRL]"
+    },
+    {
+      "name": "희석 이력 — 2026-05 $115M @ $26.50",
+      "probability": "med",
+      "impact": "med",
+      "description": "runway가 있는 상태의 선택적 조달이었고 결과적으로 타이밍이 좋았지만 [actual — 블로그], 발행주식 19.85M(2Q26)의 얇은 base에서 추가 조달 시 희석률이 큼. 40% opt-in 행사 시 추가 자본 필요성이 커짐 [inference]"
+    },
+    {
+      "name": "공매도 float의 15.1% + 얇은 유동성 — 양방향 변동성 증폭",
+      "probability": "high",
+      "impact": "med",
+      "description": "3개월 median daily $ traded $5.32M, 12M 평균 거래량 158,369주 [actual — yfinance 2026-09-04]. 연환산 변동성 59.6%, 베타 1.13. 편입 확정 시 숏커버 스퀴즈, 미편입 시 하방 증폭 양쪽 모두 가능함 [inference]"
+    },
+    {
+      "name": "임상 hold·안전성 — NTCP 억제의 담즙산 상승 기전",
+      "probability": "low",
+      "impact": "high",
+      "description": "NTCP 차단은 담즙산 재흡수를 막으므로 혈중 담즙산 상승이 기전상 예상되는 결과임. 건강인 Phase 1a에서 소양증 신호가 없었다고 알려졌으나 [inference — 1차 자료 미확인], 간질환 환자에서의 내약성은 미검증임. 48주 장기 투약 프로토콜이라 노출 기간이 김 [actual — NCT07762027]"
+    },
+    {
+      "name": "PBC/PSC 경쟁 밀집 — 후발 진입 프리미엄 부재",
+      "probability": "med",
+      "impact": "med",
+      "description": "길리어드 Livdelzi(seladelpar), Ipsen elafibranor, Mirum volixibat(VISTAS 성공·VANTAGE 1Q27), GSK linerixibat이 이미 자리잡음 [actual — Mirum PR / 나머지 개발단계는 inference]. ABI-6250 PBC/PSC Phase 2는 1Q27 개시로 최소 3~4년 후발임 [derived]"
+    },
+    {
+      "name": "지수 이벤트 선반영 — 편입돼도 상방 제한",
+      "probability": "med",
+      "impact": "med",
+      "description": "9/4 $36.60은 reference date 8/31 종가 $33.63 대비 +8.8%, 1개월 +37.9%임 [derived — yfinance]. 패시브는 가격을 보지 않지만 index arb는 이미 선매수했을 가능성이 높아, 편입 확정 후 9/18까지의 추가 상방이 제한되고 9/21 이후 이벤트 프리미엄이 소멸함 [inference]"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "투자 논리가 'HSV 하나짜리 회사'에서 '길리어드가 선택한 항바이러스·간질환 플랫폼 회사'로 이동했고 후자 증거가 늘었다",
+      "type": "interpretive",
+      "evidence": "3개월 사이 확인된 것: GS-1179 길리어드 Phase 2 선택 + HIV PrEP 병용 검토 명문화(EX-99.1 2026-08-13), ABI-6250 HDV Phase 2 실제 등록(NCT07762027), UBS $52 커버리지 개시, 현금 $320.4M + $75M(4Q26). 주가 $36.60은 5월 공모가 $26.50 대비 +38% [actual — yfinance/SEC]. 다만 '플랫폼'을 뒷받침하는 자산 중 환자 효능 데이터를 가진 것은 0개임 [derived]",
+      "testability": "low",
+      "current_status": "confirmed — 개별 사실은 모두 1차 자료로 확인됨. 다만 '플랫폼 재평가'라는 해석 자체는 반증 가능한 명제가 아님"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "길리어드가 ABI-5366 대신 주 1회 GS-1179를 Phase 2로 선택했고 2026년 말 개시, ABI-5366은 추가 개발 계획 없음",
+      "type": "factual",
+      "evidence": "SEC 10-Q(asmb-20260630) 및 8-K EX-99.1(2026-08-13)에 직접 기재 [actual]. 블로그 인용문과 공시 문구가 일치함",
+      "testability": "high",
+      "current_status": "confirmed — 다만 '2026년 말 개시'는 가이던스이므로 이행은 미확인"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "GS-1179의 HIV PrEP 병용 전략 검토가 공식 문서에 들어간 것이 시장 크기·전략적 가치를 근본적으로 바꾼다",
+      "type": "interpretive",
+      "evidence": "EX-99.1 문구는 'being considered for possible evaluation as part of a combination strategy with HIV PrEP'임 [actual] — '검토 중'이지 개발 확정이 아님. 길리어드 PrEP 프랜차이즈는 2Q26 분기 $1B(연 $4B 런레이트) [actual/derived — Gilead PR 2026-08-04]. 주 1회 경구가 weekly PrEP와 결합하기 자연스럽다는 선택 이유는 길리어드가 밝힌 바 없는 블로거 추정임 [inference]",
+      "testability": "med",
+      "current_status": "pending — 문구 존재는 confirmed이나 실제 병용 개발 착수 여부는 미확인"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "40% 미국 cost/profit-share 옵션의 연말 행사 여부보다 길리어드가 보내는 commercial cost estimate가 더 중요하고, 행사 시 그 자체가 NPV 신호다",
+      "type": "predictive",
+      "evidence": "옵션 존재와 연말 결정 시한은 EX-99.1로 확인 [actual]. cost estimate 규모는 비공개이며 공시 예정도 확인 불가 [unavailable]. 현금 $320.4M + $75M으로 행사 재원은 존재 [actual]. '행사 = 강한 NPV 신호'는 해석이며, 반대로 미행사가 반드시 부정 신호인지도 검증 불가 [inference]",
+      "testability": "med",
+      "current_status": "pending — 2026년 말 결정 시점까지 판정 불가"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "ABI-6250이 'PPT 속 Phase 2'에서 실제 글로벌 Phase 2로 넘어갔고, PBC/PSC Phase 2도 1Q27 예정이다",
+      "type": "factual",
+      "evidence": "NCT07762027 — NOT_YET_RECRUITING, 80명·22 site, start 2026-10, primary completion 2027-06, once-daily 48주 [actual — ClinicalTrials.gov 2026-09-01]. PBC/PSC Phase 2 1Q27은 EX-99.1 가이던스 [actual]. 환자 효능 데이터는 여전히 0 [derived]",
+      "testability": "high",
+      "current_status": "confirmed — 등록은 사실. 다만 등록과 효능은 별개이며 실제 환자 등록 개시는 미확인"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "현금 $320.4M + 4Q26 $75M → runway 2029, 5월 $115M 증자는 생존용이 아닌 선택적 조달이었다",
+      "type": "factual",
+      "evidence": "EX-99.1: cash equiv $32.3M + securities $288.1M = $320.4M, 'fund operations into 2029', $75M extension fee due 4Q26 [actual]. 2Q26 R&D $14.9M·G&A $4.8M, 협업매출 $13.4M, 순손실 $3.9M — 분기 순burn $10~15M 수준 [actual/derived]. 총자산 2Q26 $330.8M, 자본 $198.6M, 장기차입금 0 [actual — SEC XBRL]",
+      "testability": "high",
+      "current_status": "confirmed — 단, runway 2029는 40% opt-in 미행사를 전제한 회사 가이던스임 [inference]"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "UBS Buy $52 신규 커버리지 개시로 대형 IB coverage universe에 진입 — 스몰캡 바이오에서 좋은 liquidity event다",
+      "type": "factual",
+      "evidence": "Investing.com 2026-09-01, analyst Ashwani Verma, PT $52, 개시 당시 주가 $33.63 [actual]. yfinance 컨센서스 5명 평균 $52(high $62, low $43) [actual]. UBS가 5월 $115M financing의 joint book-runner였다는 점은 블로거 본인이 명시한 이해상충 요인임 [actual — 블로그]",
+      "testability": "high",
+      "current_status": "confirmed — 사실관계는 확인. '커버리지 → 유동성 개선'의 인과는 미검증 [inference]"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "ASMB가 XBI 신규 편입 조건 중 $400M FMC + FALR 150% 경로를 충족할 가능성이 매우 높다",
+      "type": "predictive",
+      "evidence": "FALR은 제약이 아님 — 365일 거래대금 $1,164.7M 기준 FMC $470M이면 248%, $308M이어도 378%로 모두 150% 초과 [derived — yfinance]. 문제는 FMC의 분모인 IWF임. 블로거 가정 70~72% → 19.85M × $33.63 × 0.70~0.72 = $467~481M [derived]. 그러나 yfinance floatShares 9.17M은 발행 20.36M의 45%이고(insider 27.7%), 이 값이면 FMC $308M으로 $400M 미달 [actual float / derived FMC]. IWF 60%가 $400.5M로 정확한 경계선 [derived]. S&P의 실제 IWF 산정에서 길리어드 ~25% 전략적 지분이 어떻게 처리되는지 확인 불가 [unavailable]",
+      "testability": "high",
+      "current_status": "pending — IWF 불확실. 9월 중순 S&P pro-forma 발표로만 확정되며, 현재 공개 정보로는 통과·미달 양쪽 모두 성립 가능"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "편입 시 수급은 평소 유동성 대비 무시하기 어렵다 — weight 0.1%면 31만 주, 0.2%면 63만 주",
+      "type": "predictive",
+      "evidence": "AUM $11,487.87M [actual — SSGA 2026-09-04]. 0.1% = $11.5M ÷ $36.60 = 31.4만 주, 0.2% = 62.8만 주 [derived]. 3개월 median daily $ traded $5.32M 대비 2.2일·4.3일치 [derived]. 균등가중 1/146 = 0.685% = $78.7M이나 소형주 liquidity cap 적용 시 실제 weight는 공개 정보로 계산 불가 [unavailable]. Russell 선례(6/26 거래량 158.9만 주, +10.2%)가 유일한 실증 참조점 [actual]",
+      "testability": "med",
+      "current_status": "pending — 산술은 맞으나 실제 weight가 0.1%를 넘는다는 보장이 없고, 편입 자체가 T08에 종속됨"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "지수 이벤트 구조상 가장 위험한 것은 편입 전 가격이 너무 오르는 경우이며, 편입 완료 후에는 다시 펀더멘털 게임이다",
+      "type": "interpretive",
+      "evidence": "일정은 확인됨 — reference date 8/31, 가격결정 9/9, rebalance 9/18 장마감 후, 반영 9/21 [actual — S&P DJI methodology]. 9/4 $36.60은 8/31 $33.63 대비 +8.8%, 1개월 +37.9%로 선반영이 이미 진행 중 [derived — yfinance]. '편입 후 펀더멘털 회귀'는 구조적 서술이며 개별 종목에서 항상 성립한다는 근거는 없음 [inference]",
+      "testability": "med",
+      "current_status": "pending — 9/21 이후에야 검증 가능. 블로거 스스로 'XBI는 논리를 만드는 사건이 아니라 얹는 사건'이라고 한정한 점은 적절함"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": null,
+    "implied_op_margin_5y_pct": null,
+    "method": "pre-profit biotech — 전통적 매출·마진 역산 DCF 적용 불가. EV를 위험조정 NPV로 보고 요구 peak sales를 역산함",
+    "market_cap_usd_m": 745.2,
+    "cash_and_securities_usd_m": 320.4,
+    "enterprise_value_usd_m": 424.8,
+    "notes": "시총 $745.2M − 현금·유가증권 $320.4M = EV 약 $425M [derived — yfinance marketCap 2026-09-04 + SEC 8-K EX-99.1]. stocks.json의 yfinance EV는 $427M으로 사실상 동일함 [actual]. ASMB는 무매출·무이익 임상단계이므로 implied revenue growth·op margin 역산은 의미가 없어 null로 둠. 대신 EV를 '위험조정 NPV의 합'으로 보고 무엇이 그 안에 들어가야 하는지를 역산함 [inference — 이하 전 과정 추정].\n\n① EV $425M의 구성 분해 [inference]: 4Q26 길리어드 extension fee $75M은 계약상 due로 실현 확률이 높아 위험조정 NPV 약 $70M. ABI-6250은 환자 효능 데이터가 0이고 HDV에서 VIR에 2년 이상 뒤처져 있어 시장이 부여하는 값을 $50~100M로 봄. 잔여 $255~305M이 GS-1179에 배분된 것으로 추정됨.\n\n② 성공 시나리오 NPV 역산 [inference]: Phase 2 진입 항바이러스 자산의 승인 확률을 업계 base rate 25~30%로 놓으면, GS-1179 위험조정 NPV $255~305M은 성공 시나리오 NPV 약 $0.9~1.2B에 대응함 [derived from inference].\n\n③ 그 NPV를 만들려면 필요한 peak sales [inference]: royalty-only 경로(옵션 미행사, 두 자릿수 초입 로열티 가정)에서는 글로벌 peak sales 연 $1.5~2.0B 수준이 필요함. 40% 미국 opt-in 경로에서는 미국 이익률 40%를 가정할 때 ASMB 몫이 미국 peak sales의 약 16%가 되므로, 미국 peak sales 연 $1.0~1.3B(ASMB 몫 연 $160~210M)이면 유사한 NPV에 도달함.\n\n④ 참조점 대조 [actual + inference]: 길리어드 PrEP 프랜차이즈는 이미 분기 $1B, 연 $4B 런레이트임 [actual — Gilead 2Q26 PR]. HSV prevention이 그 번들에 실제로 붙어 20~30%만 침투해도 위 요구치와 같은 자릿수가 됨. 즉 현재 EV $425M은 'PrEP 병용이 실제로 개발된다'를 부분적으로만 반영한 상태로 해석 가능함 [inference]. 반대로 병용이 무산되고 recurrent genital herpes 단독으로 남으면 valacyclovir 제네릭이 지배하는 시장이라 peak sales 연 $300~600M이 현실적 상한이고, 이 경우 현 EV는 이미 완전가치이거나 과대임 [inference].\n\n⑤ sell-side 대조 [actual]: 컨센서스 5명 평균 PT $52(high $62, low $43)는 시총 약 $1.06~1.26B, EV 약 $0.74~0.94B에 해당함 [derived]. 이는 위 ②의 성공 시나리오 NPV $0.9~1.2B에 승인 확률을 거의 반영하지 않은 수준이거나, PrEP 병용·ABI-6250 두 옵션 모두에 값을 매긴 결과로 읽힘 [inference]. 본 수치는 매수·매도 권유가 아니며 자체 밸류에이션이 아님."
+  },
+  "sources": {
+    "primary": [
+      "https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm",
+      "https://www.sec.gov/Archives/edgar/data/1426800/000119312526349236/asmb-20260630",
+      "https://clinicaltrials.gov/study/NCT07762027",
+      "https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-select-industry-indices.pdf",
+      "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-biotech-etf-xbi",
+      "https://www.businesswire.com/news/home/20260804436824/en/Gilead-Sciences-Announces-Second-Quarter-2026-Financial-Results",
+      "https://www.sec.gov/Archives/edgar/data/1706431/000162828026053351/a20260805-q2ex991earningsr.htm",
+      "https://www.businesswire.com/news/home/20260504069726/en/Mirum-Pharmaceuticals-Announces-Primary-Endpoint-Met-in-VISTAS-Study-of-Volixibat-in-Patients-with-Primary-Sclerosing-Cholangitis",
+      "https://za.investing.com/news/stock-market-news/ubs-initiates-assembly-biosciences-stock-with-buy-rating-on-antiviral-platform-93CH-4449711",
+      "https://www.financecharts.com/stocks/ASMB/summary/volume-averages",
+      "https://stockanalysis.com/stocks/asmb/forecast/",
+      "https://stockanalysis.com/stocks/asmb/",
+      "https://www.sec.gov/Archives/edgar/data/0001426800/000119312526352193/"
+    ],
+    "market_data": "yfinance 1.3.0 (live), as_of 2026-09-04 — stocks.json market_data 그대로 사용",
+    "financials": "SEC EDGAR XBRL companyfacts via financial_statements_us_gaap.fetch_us_gaap_5y_5q (2026-09-07)",
+    "disclaimer": "매수·매도 권유 아님. XBI 편입 여부·IWF·FALR·예상 weight는 S&P 공식 pro-forma 공개 전 추정치임."
+  },
+  "_meta": {
+    "schema": "deep_research_v2 (US equity + thesis_decomposition + reverse_dcf)",
+    "style": "한국어 음슴체, [actual]/[inference]/[derived]/[estimated]/[unavailable] 태깅",
+    "fresh_context": "2026-05-31 ASMB 분석의 verdict·결론 미참조 (스키마 구조만 참조)",
+    "generated_at": "2026-09-07"
+  }
+}
