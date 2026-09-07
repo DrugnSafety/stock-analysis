@@ -1,0 +1,398 @@
+{
+  "industry": {
+    "name": "미국 바이오텍 섹터 패시브 노출 (S&P Biotechnology Select Industry Index 추종 ETF)",
+    "overview": "XBI는 State Street의 SPDR S&P Biotech ETF로 S&P Biotechnology Select Industry Index를 추종함 [actual · SSGA 2026-09-04]. 2026-09-04 기준 순자산 $11,487.87M·보유종목 154개(지수 구성 146개)·보수 0.35%임 [actual · SSGA]. yfinance totalAssets는 $11,404.6M으로 SSGA 수치와 약 $83M 차이 남 [actual · yfinance 2026-09-04 live] — 산정 기준일 차이로 추정됨 [inference].\n\n■ 지수 구조 — 시총 순 편입이 아님. 이 지수는 modified equal-weight임 [actual · S&P DJI methodology]. 146개를 완전 균등 배분하면 종목당 약 0.68%이고, AUM $11.5B 기준 종목당 약 $80M에 해당함 [derived]. 다만 실제로는 3개월 median daily value traded 대비 FMC(float-adjusted market cap)를 반영한 liquidity cap이 적용되어 소형·저유동 종목의 비중은 균등 수준보다 눌림 [actual · methodology]. 즉 대형 바이오파마가 지수를 지배하지 않고 소형 임상단계 바이오텍이 대형주와 유사한 비중을 갖는 구조 → XBI가 '바이오텍 스몰캡 베타'로 통하는 이유임.\n\n■ 신규 편입 룰 — S&P TMI 소속 + GICS Biotechnology 충족을 전제로, ① FMC ≥ $500M AND FALR ≥ 90%, 또는 ② FMC ≥ $400M AND FALR ≥ 150% 중 하나를 만족하면 됨 [actual · S&P DJI methodology]. 기존 구성종목 유지조건은 FMC $300M / FALR 50%로 더 낮음 [actual]. FALR = 최근 365일 dollar value traded ÷ float-adjusted market cap임 [actual]. 즉 유동성이 시총을 상쇄하는 구조라, 시총이 작아도 회전율이 높으면 들어올 수 있음.\n\n■ 분기 rebalance 일정(2026년 9월) — reference date는 rebalance 월 직전월 마지막 거래일 = 8/31 [actual · methodology, 경과]. index share는 rebalance 월 두 번째 금요일 직전 수요일 종가로 결정 = 9/9 [actual · methodology]. rebalance는 세 번째 금요일 9/18 장마감 후 실행되고 9/21(월)부터 유효함 [actual · methodology]. S&P의 pro-forma 구성 발표 시점은 통상 가격결정일과 rebalance 사이 구간이나 정확한 날짜는 확인 불가 [unavailable].\n\n■ 연계상품(index-arb ecosystem) — 동일 지수에 LABU(3배 롱)·LABD(3배 숏) 등 레버리지 ETF, 해외 트래커, 선물이 붙어 있음 [actual · S&P DJI 지수 페이지]. 현물 매수가 동일하게 발생하는 것은 아니지만, 지수 변경을 따라 움직이는 전체 index-arbitrage ecosystem은 XBI 단독보다 큼 [inference]. 정확한 연계 AUM 총액은 확인 불가 [unavailable].\n\n■ 섹터 국면 — XBI 1Y +76.1%·6M +32.3%·3M +27.4%·1M +7.1%, 연율 변동성 27.4% [actual · yfinance 2026-09-04 live, stocks.json]. yfinance 3년 평균 수익률 26.7%, 5년 평균 4.2%로 2021~2023 침체를 2024~2026 랠리가 되돌린 구간임 [actual · yfinance]. 동인은 ① 금리 하강 기대 — 무수익 임상단계 바이오텍은 duration 자산이라 실질금리에 민감함, ② M&A 사이클 — 길리어드가 2Q26에만 Arcellx·Tubulis·Ouro 관련 acquired IPR&D $11.1B를 인식한 것이 빅파마의 파이프라인 매입 강도를 보여주는 예시임 [actual · Gilead 2Q26 PR·XBRL], ③ FDA·정책 — 승인 속도와 약가 정책이 섹터 멀티플을 좌우함. 방향성은 서술 가능하나 개별 기여도 분해는 확인 불가 [unavailable].\n\n■ 상위 보유종목(SSGA 기준) — MRNA 2.98%, TWST 1.75%, HALO 1.45%, NTRA 1.40%, KYMR 1.38% [actual · SSGA/과제 제공]. yfinance funds_data top_holdings는 MRNA 2.81%·TWST 1.89%·APGE 1.50%·KYMR 1.40%·HALO 1.39%·NTRA 1.37%로 소수점 수준 차이가 있음 [actual · yfinance 2026-09-04] — 스냅샷 시점 차이로 추정됨 [inference]. 최상위조차 3% 미만이라 개별 종목 이벤트가 ETF 전체를 흔들기는 어렵고, 반대로 신규 편입 1종목이 XBI 수익률에 주는 영향은 사실상 무시할 수준임 [derived] — ASMB 편입은 XBI 투자자에게는 이벤트가 아니고 ASMB 투자자에게만 이벤트임.\n\n■ 본 분석에서 XBI의 역할 — ASMB의 9월 신규 편입 후보 대상 ETF임. 블로거는 8/31 종가 $33.63 × 발행주식 19.85M × free float 70~72% ⇒ FMC $467~481M으로 추정해 ②번 경로($400M + FALR 150%) 통과 가능성이 매우 높다고 봤음 [actual · 블로그 원문, 필자 추정임을 본문 말미에 명시]. 반면 yfinance floatShares는 9.17M으로 발행 20.36M의 45%에 그침 [actual · yfinance 2026-09-04]. IWF 45% 적용 시 FMC ≈ $308M으로 ②번 경로 미달이고, IWF 60%면 약 $400M 경계임 [derived]. FALR은 365일 거래대금 $1,164.7M 기준 어느 쪽이든 150%를 초과함 — FMC $308M이면 378%, $470M이면 248% [derived]. 따라서 편입 성패는 사실상 S&P가 산정할 IWF 하나에 걸려 있고, 공식 pro-forma 전까지는 확인 불가 [unavailable].",
+    "competitors": [
+      {
+        "name": "iShares Biotechnology ETF — 시총가중 나스닥 바이오텍(NBI) 추종. 대형 바이오파마(AMGN·GILD·VRTX·REGN 등) 비중이 커서 스몰캡 편입 이벤트 민감도가 XBI보다 훨씬 낮음. 보수 0.44%, 순자산 $10.47B [actual · yfinance 2026-09-04]",
+        "ticker": "IBB"
+      },
+      {
+        "name": "ARK Genomic Revolution ETF — 액티브 운용, 유전체·차세대 치료 테마 집중. 지수 룰이 없어 편입·제외에 따른 강제 수급이 발생하지 않음. 보수 0.75%, 순자산 $2.02B [actual · yfinance 2026-09-04]",
+        "ticker": "ARKG"
+      },
+      {
+        "name": "First Trust NYSE Arca Biotechnology Index Fund — 20종목 내외 equal-weight 집중형. 종목수가 적어 개별 종목 영향이 큼. 보수 0.55%, 순자산 $2.91B [actual · yfinance 2026-09-04]",
+        "ticker": "FBT"
+      },
+      {
+        "name": "Direxion Daily S&P Biotech Bull 3X — XBI와 동일 지수의 3배 레버리지. 일간 리밸런싱 구조라 섹터 변동성을 증폭시키고, 지수 편입·제외 시 arb 수급의 일부를 구성함. 보수 0.96%, 순자산 $0.57B, 1Y +270.1% [actual · yfinance 2026-09-04]",
+        "ticker": "LABU"
+      },
+      {
+        "name": "Direxion Daily S&P Biotech Bear 3X — 동일 지수 -3배. 하락 국면 헤지 수요를 흡수하며 LABU와 함께 index-arb ecosystem을 형성함. 순자산·수익률 별도 확인 안 함 [unavailable]",
+        "ticker": "LABD"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-09-04",
+        "title": "XBI 1Y +76.1% — 바이오텍 섹터 강세 국면 지속",
+        "summary": "1M +7.1%·3M +27.4%·6M +32.3%·1Y +76.1%, 연율 변동성 27.4% [actual · yfinance live]. 영향: 긍정적이나 되돌림 리스크 동반",
+        "source": "https://www.etf.com/XBI"
+      },
+      {
+        "date": "2026-09-04",
+        "title": "SSGA XBI 팩트시트 — AUM $11,487.87M·154 보유종목·보수 0.35%",
+        "summary": "지수 구성 146개, modified equal-weight. 균등 시 종목당 0.68% ≈ $80M [derived]. 영향: 중립(구조 확인)",
+        "source": "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-biotech-etf-xbi"
+      },
+      {
+        "date": "2026-08-31",
+        "title": "9월 분기 rebalance reference date 경과 — 편입 판정 기준일 확정",
+        "summary": "S&P Select Industry methodology상 rebalance 직전월 마지막 거래일이 reference date. ASMB 당일 종가 $33.63 [actual]. 영향: 중립(판정 데이터 고정)",
+        "source": "https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-select-industry-indices.pdf"
+      },
+      {
+        "date": "2026-08-13",
+        "title": "편입 후보 ASMB 2Q26 실적 — 현금 $320.4M·2029년까지 runway",
+        "summary": "cash equiv $32.3M + securities $288.1M, 4Q26 길리어드 extension fee $75M, 2Q26 순손실 $3.857M, 발행주식 19.850M [actual · SEC 8-K EX-99.1]. 영향: 긍정적(편입 시 지수 내 재무 체력 상위)",
+        "source": "https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm"
+      },
+      {
+        "date": "2026-08-04",
+        "title": "길리어드 2Q26 — acquired IPR&D $11.1B, 빅파마 파이프라인 매입 사이클 방증",
+        "summary": "Arcellx·Tubulis·Ouro 관련 IPR&D $11.1B 인식 → GAAP 2Q26 순손실 -$10.5B [actual · Gilead PR·XBRL]. 영향: 긍정적(XBI 구성 스몰캡의 M&A 프리미엄 근거)",
+        "source": "https://www.businesswire.com/news/home/20260804436824/en/Gilead-Sciences-Announces-Second-Quarter-2026-Financial-Results"
+      },
+      {
+        "date": "2026-06-26",
+        "title": "Russell 3000 편입일 선례 — ASMB 거래량 158.9만 주·+10.2%",
+        "summary": "6/25 $24.26 → 6/26 $26.74, 당일 거래량 1,589,300주 vs 12M 평균 158,369주 [actual · yfinance/financecharts]. 영향: 긍정적(패시브 강제수급 실증 선례)",
+        "source": "https://www.financecharts.com/stocks/ASMB/summary/volume-averages"
+      },
+      {
+        "date": "2026-09-01",
+        "title": "UBS, ASMB 신규 커버리지 Buy·PT $52 개시",
+        "summary": "개시 당시 주가 $33.63, 애널리스트 Ashwani Verma. 컨센서스 5명 평균 $52(high $62·low $43) [actual · Investing.com·yfinance]. 영향: 긍정적(편입 전 기관 접근성 확대)",
+        "source": "https://za.investing.com/news/stock-market-news/ubs-initiates-assembly-biosciences-stock-with-buy-rating-on-antiviral-platform-93CH-4449711"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 11.49,
+      "cagr_pct": null,
+      "horizon": "XBI 순자산 기준 2026-09-04 (SSGA $11,487.87M) [actual]. 동일 지수 연계 LABU/LABD·해외 트래커·선물을 합친 index-arb ecosystem 총 규모는 확인 불가 [unavailable]. ETF 순자산은 성장률 개념이 아니므로 CAGR 미산출"
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "peer_compare": [
+      {
+        "ticker": "XBI",
+        "name": "SPDR S&P Biotech ETF (State Street)",
+        "aum_usd_bn": 11.49,
+        "expense_ratio_pct": 0.35,
+        "return_1y_pct": 76.06,
+        "return_ytd_pct": 34.93,
+        "div_yield_pct": 0.35,
+        "note": "AUM은 SSGA 팩트시트 $11,487.87M [actual]; yfinance totalAssets $11,404.6M [actual]. 1Y는 stocks.json market_fetcher 값 76.06 [actual]; yfinance 1년 종가 히스토리 직접 계산 시 72.37로 산출 창(window) 차이 있음 [derived]. YTD는 yfinance 히스토리 기준 34.93 [actual]"
+      },
+      {
+        "ticker": "IBB",
+        "name": "iShares Biotechnology ETF (BlackRock)",
+        "aum_usd_bn": 10.47,
+        "expense_ratio_pct": 0.44,
+        "return_1y_pct": 48.45,
+        "return_ytd_pct": 25.51,
+        "div_yield_pct": 0.2,
+        "note": "시총가중 NBI 추종 [actual · yfinance 2026-09-04 live]. XBI 대비 1Y 27.6%p 열위 — equal-weight 스몰캡 베타가 이번 사이클에서 초과수익을 냈음을 보여줌 [derived]"
+      },
+      {
+        "ticker": "ARKG",
+        "name": "ARK Genomic Revolution ETF (ARK Invest)",
+        "aum_usd_bn": 2.02,
+        "expense_ratio_pct": 0.75,
+        "return_1y_pct": 84.72,
+        "return_ytd_pct": 61.55,
+        "div_yield_pct": 0.0,
+        "note": "액티브 운용 — 지수 룰 기반 강제 편입 수급이 없음 [actual · yfinance 2026-09-04 live]"
+      },
+      {
+        "ticker": "FBT",
+        "name": "First Trust NYSE Arca Biotechnology Index Fund",
+        "aum_usd_bn": 2.91,
+        "expense_ratio_pct": 0.55,
+        "return_1y_pct": 51.75,
+        "return_ytd_pct": 30.42,
+        "div_yield_pct": 0.0,
+        "note": "20종목 내외 집중형 equal-weight [actual · yfinance 2026-09-04 live]"
+      },
+      {
+        "ticker": "LABU",
+        "name": "Direxion Daily S&P Biotech Bull 3X",
+        "aum_usd_bn": 0.57,
+        "expense_ratio_pct": 0.96,
+        "return_1y_pct": 270.1,
+        "return_ytd_pct": 92.73,
+        "div_yield_pct": 0.34,
+        "note": "XBI와 동일 지수 3배 레버리지 — 일간 리밸런싱 복리효과로 1Y가 XBI의 3배를 크게 상회 [actual · yfinance 2026-09-04 live]. 지수 변경 시 arb 수급 일부를 구성 [inference]"
+      }
+    ],
+    "financial_unit": "n/a (ETF)",
+    "bs_snapshot": {
+      "aum_usd_bn": 11.49,
+      "n_holdings": 154,
+      "expense_ratio_pct": 0.35
+    },
+    "cf_summary": {
+      "note": "ETF — 손익계산서 없음; NAV $163.88, 배당수익률 0.35% [actual · yfinance 2026-09-04 live]. 현금흐름은 창출이 아니라 설정·환매(creation/redemption)에 따른 유출입임 [actual · ETF 구조]. 9/4 종가 $163.81 vs NAV $163.88 → 프리미엄/디스카운트 -0.04%로 사실상 NAV 일치 [derived]"
+    }
+  },
+  "financial_statements_summary": {
+    "data_source": "SSGA + yfinance 2026-09-04",
+    "frequency": "n/a (ETF — 분기·연간 손익 없음)",
+    "notes": "XBI는 ETF이므로 US-GAAP 손익계산서(매출·영업이익·순이익)·5Y annual / 5Q quarterly 재무 시계열이 존재하지 않음 → pl_5y는 의도적 빈 배열임 [actual · ETF 구조]. 재무 대체 지표는 ① 순자산(AUM) $11,487.87M [actual · SSGA 2026-09-04], ② 보수율 0.35% [actual · SSGA], ③ 보유종목 154개 / 지수 구성 146개 [actual · SSGA], ④ NAV $163.88·종가 $163.81 [actual · yfinance live], ⑤ 배당수익률 0.35% [actual · yfinance live]임.\n구성종목 합산 밸류에이션은 yfinance funds_data equity_holdings 기준 P/B 0.20·P/S 0.12·P/E 0.0으로 표시되나 [actual · yfinance 2026-09-04], 적자·무매출 임상단계 종목이 다수 포함된 equal-weight 지수 특성상 이 수치를 일반 주식 밸류에이션처럼 해석하면 안 됨 — P/E 0.0은 '저평가'가 아니라 '집계 불가(적자 다수)'의 표시로 보는 것이 타당함 [inference].\n회계상 감사보고서·순자산변동표는 State Street의 연차보고서(N-CSR)에 존재하나 본 분석에서는 조회하지 않음 [unavailable]."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "probability": 30,
+      "target_price": 195.0,
+      "thesis": "[XBI 레벨] 금리 하강 기조가 이어지고 빅파마 M&A가 2Q26 길리어드 IPR&D $11.1B 수준의 강도로 지속되어 무수익 스몰캡 바이오텍 멀티플이 추가 확장됨 [inference]. 12개월 +19% 내외로 $195 도달. [ASMB 편입 sub-event] S&P가 IWF를 블로거 추정에 가까운 70% 안팎으로 산정 → FMC $467~481M으로 ②번 경로 통과, 9월 pro-forma에 ASMB가 신규 편입 종목으로 확정됨. liquidity cap 후에도 weight 0.1~0.2%가 잡혀 XBI만으로 31만~63만 주의 강제 매수가 발생하고, 여기에 LABU 등 연계상품 arb 수급이 얹힘 [derived]. Russell 선례(6/26 158.9만 주·+10.2%)가 재현되거나 그 이상",
+      "key_assumptions": [
+        "실질금리 하락 지속 — 바이오텍 duration 자산 재평가 [inference]",
+        "빅파마 파이프라인 매입 사이클 유지 [inference]",
+        "S&P IWF ≥ 68% 산정 → FMC ≥ $450M [inference]",
+        "liquidity cap 적용 후에도 ASMB weight ≥ 0.1% [inference]",
+        "9/18 rebalance 전 선매수가 과열되지 않아 이벤트 여력 잔존 [inference]"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "probability": 45,
+      "target_price": 172.0,
+      "thesis": "[XBI 레벨] 1Y +76% 랠리 후 상승 속도가 둔화되며 $155~$180 박스권. 12개월 +5% 수준인 $172 부근에서 마무리 [inference]. 금리·M&A 모두 방향은 유지되나 이미 상당 부분 가격에 반영됨. [ASMB 편입 sub-event] 편입 여부는 IWF에 좌우되어 사실상 동전던지기임 — 편입되더라도 liquidity cap으로 weight가 0.05~0.1% 수준에 그쳐 강제 매수는 15만~31만 주 [derived]. 9/9 가격결정~9/18 사이 index-arb 선매수로 상승분의 상당 부분이 선반영되고, 9/21 반영 이후 되돌림. 결과적으로 XBI 자체 수익률에 ASMB 편입이 주는 영향은 0에 수렴 (최상위 보유 비중조차 3% 미만) [derived]",
+      "key_assumptions": [
+        "섹터 멀티플 횡보 — 추가 확장도 급격한 축소도 없음 [inference]",
+        "S&P IWF 55~70% 구간 — 편입 판정이 경계선 [inference]",
+        "index-arb 선매수로 이벤트 수익의 절반 이상이 9/18 이전 소진 [inference]",
+        "XBI 보수 0.35%·추적오차가 현 수준 유지 [actual 기반]"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "probability": 25,
+      "target_price": 128.0,
+      "thesis": "[XBI 레벨] +76% 급등 후 리스크오프 — 금리 반등 또는 FDA·약가 정책 충격으로 무수익 바이오텍이 먼저 팔림. 12개월 -22%인 $128까지 되돌림 [inference]. equal-weight 구조상 유동성 낮은 스몰캡 tail의 하락폭이 더 크고, LABU/LABD 일간 리밸런싱이 하락을 증폭시킴 [inference]. [ASMB 편입 sub-event] yfinance floatShares 9.17M(발행 대비 45%)이 시사하듯 S&P IWF가 45~55%로 산정 → FMC $308~377M으로 ②번 경로($400M) 미달, 9월 편입 무산 [derived]. 편입 기대로 유입된 선매수 물량이 pro-forma 발표 직후 되돌려지며 ASMB는 급락. XBI 보유자 입장에서는 무의미하나 편입 베팅 참여자에게는 최악의 시나리오",
+      "key_assumptions": [
+        "실질금리 반등 또는 정책 충격 [inference]",
+        "S&P IWF ≤ 55% → FMC < $400M [derived, yfinance floatShares 근거]",
+        "편입 무산 시 선매수 물량 청산 [inference]",
+        "섹터 드로다운 시 저유동 구성종목의 매도 슬리피지 확대 [inference]"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-09-09",
+      "event": "index share 가격결정일 (rebalance 월 두 번째 금요일 직전 수요일 종가)",
+      "type": "index",
+      "expected_impact": "high",
+      "description": "이날 종가로 지수 내 주식수가 확정됨 [actual · S&P DJI methodology]. 편입 대상 종목의 가격이 이 시점에 높으면 배정 주식수가 줄어 실제 강제 매수량이 감소함 [derived] — ASMB는 9/4 종가 $36.60으로 8/31 $33.63 대비 이미 +8.8% [actual · yfinance live]"
+    },
+    {
+      "date": "2026-09-11 ~ 09-12 (추정)",
+      "event": "S&P DJI 9월 분기 rebalance pro-forma 구성 발표 창",
+      "type": "index",
+      "expected_impact": "high",
+      "description": "통상 가격결정일과 rebalance 실행일 사이에 pro-forma가 공개되나 2026년 9월 정확한 발표일은 확인 불가 [unavailable]. 발표일 자체가 [inference]임 — 이 시점에 ASMB 편입 여부가 확정되며 T08 가설의 판정 순간임"
+    },
+    {
+      "date": "2026-09-18",
+      "event": "분기 rebalance 실행 (세 번째 금요일 장마감 후)",
+      "type": "index",
+      "expected_impact": "high",
+      "description": "패시브 자금의 MOC(장마감 동시호가) 매수가 집중되는 날 [actual · methodology]. Russell 선례 6/26 거래량 1,589,300주(12M 평균 158,369주의 10배) [actual · yfinance]"
+    },
+    {
+      "date": "2026-09-21",
+      "event": "신규 구성 유효 (rebalance 반영 개시)",
+      "type": "index",
+      "expected_impact": "med",
+      "description": "이 시점부터 지수 이벤트는 소멸하고 다시 펀더멘털 게임으로 복귀함 [inference · 블로거 주장과 일치]"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "FOMC·실질금리 경로",
+      "type": "macro",
+      "expected_impact": "?",
+      "description": "무수익 임상단계 바이오텍은 duration 자산이라 실질금리에 민감함 [inference]. 구체적 회의 일정·시장 반영 확률은 조회하지 않음 [unavailable]"
+    },
+    {
+      "date": "2026-12-18 (추정)",
+      "event": "12월 분기 rebalance (세 번째 금요일)",
+      "type": "index",
+      "expected_impact": "med",
+      "description": "9월 편입 무산 시 다음 기회이며, 9월 편입 성공 시에는 유지조건(FMC $300M/FALR 50%) 재점검 시점 [derived]. 정확한 reference date는 11월 마지막 거래일로 추정 [inference]"
+    },
+    {
+      "date": "2026-Q4",
+      "event": "길리어드 GS-1179 Phase 2 개시 · ASMB 40% cost/profit-share 옵션 결정 · extension fee $75M",
+      "type": "company",
+      "expected_impact": "high",
+      "description": "편입 이후 ASMB를 계속 들고 있을 근거에 해당함 [actual · SEC 8-K EX-99.1 2026-08-13]. XBI 지수 레벨에는 영향 없음"
+    },
+    {
+      "date": "2026-10",
+      "event": "ABI-6250 HDV Phase 2 (NCT07762027) 등록 개시",
+      "type": "company",
+      "expected_impact": "med",
+      "description": "NOT_YET_RECRUITING, 80명·22 site, primary completion 2027-06 [actual · ClinicalTrials.gov]. 유지조건 판정에 필요한 시총·거래대금을 뒷받침하는 펀더멘털 이벤트 [inference]"
+    }
+  ],
+  "risks": [
+    {
+      "name": "프론트러닝 — 패시브 보유자에게 전가되는 비용",
+      "probability": "high",
+      "impact": "med",
+      "description": "편입 사실이 사전 추정 가능해지면 index-arb 참여자가 먼저 매수하고, 9/18 MOC에서 패시브 펀드가 더 비싼 가격에 사게 됨 [inference]. XBI 보유자는 이 비용을 추적오차 형태로 부담함. 이번 건은 블로그·리서치로 편입 가설이 공개 유통되고 있어 프론트러닝 강도가 평소보다 높을 수 있음 [inference]",
+      "mitigation": "구조적 회피 불가. 편입 1종목의 XBI 내 비중이 0.1% 안팎이라 ETF 전체 성과에 미치는 영향은 미미함 [derived]"
+    },
+    {
+      "name": "equal-weight 구조의 비유동 스몰캡 tail",
+      "probability": "high",
+      "impact": "med",
+      "description": "modified equal-weight는 146개 종목에 유사 비중을 주므로, 하루 거래대금이 수백만 달러에 불과한 종목이 대형주와 비슷한 비중을 가짐 [derived]. ASMB의 3개월 median daily value traded는 $5.32M에 불과함 [actual · yfinance]. 대량 환매 국면에서 매도 슬리피지가 커짐",
+      "mitigation": "S&P의 liquidity cap(3M median daily value traded 대비 FMC 기준)이 극단적 비중을 억제함 [actual · methodology]"
+    },
+    {
+      "name": "+76% 랠리 이후 섹터 드로다운",
+      "probability": "med",
+      "impact": "high",
+      "description": "1Y +76.1%·6M +32.3% [actual · yfinance live]. yfinance 5년 평균 수익률이 4.2%에 그치는 것은 이 섹터가 급등·급락을 반복해왔음을 보여줌 [actual]. 현 수준은 사이클 후반부일 가능성이 있음 [inference]",
+      "mitigation": "확인 불가 — 진입 시점 분산 외 구조적 완화 수단 없음"
+    },
+    {
+      "name": "무매출·적자 구성종목 집중",
+      "probability": "high",
+      "impact": "high",
+      "description": "yfinance funds_data 기준 구성종목 합산 P/E가 0.0으로 집계 불가 상태이고 P/S 0.12 [actual · yfinance 2026-09-04] — 매출·이익이 없는 임상단계 종목이 상당수임을 시사함 [inference]. 밸류에이션 앵커가 없어 금리·심리에 따라 멀티플이 무제한으로 움직임",
+      "mitigation": "146종목 분산 자체가 개별 임상 실패 리스크를 희석함 [derived]"
+    },
+    {
+      "name": "샘플링 추종에 따른 추적오차",
+      "probability": "med",
+      "impact": "low",
+      "description": "저유동 소형 구성종목을 전량 복제하기 어려워 sampling 전략이 쓰이면 지수와의 괴리가 발생함 [inference]. XBI의 실제 복제 방식·연간 추적오차 수치는 본 분석에서 확인 불가 [unavailable]. 보유종목 154개 vs 지수 146개의 차이도 복제 방식 차이를 시사함 [inference]",
+      "mitigation": "9/4 종가 $163.81 vs NAV $163.88로 프리미엄/디스카운트는 -0.04%에 불과 [derived]"
+    },
+    {
+      "name": "레버리지 연계상품발 변동성 증폭",
+      "probability": "med",
+      "impact": "med",
+      "description": "LABU(3배 롱, AUM $0.57B)·LABD(3배 숏)는 일간 목표 배수를 맞추기 위해 장 후반 방향추종 리밸런싱을 함 [inference]. 하락일에는 매도, 상승일에는 매수를 강제해 기초 지수 변동성을 키움. LABU 1Y +270.1%는 상방에서의 복리효과를 보여주지만 하방에서는 대칭적으로 작동함 [actual · yfinance 2026-09-04]",
+      "mitigation": "확인 불가 — 지수 레벨에서 통제 불가한 외생 변수"
+    },
+    {
+      "name": "금리 민감도 (duration 자산 성격)",
+      "probability": "med",
+      "impact": "high",
+      "description": "현금흐름이 먼 미래에 있는 임상단계 바이오텍은 실질금리 상승 시 할인율 확대로 가장 먼저 타격받음 [inference]. 2021~2023 XBI 침체가 금리 인상기와 겹쳤던 것이 방증이나, 인과 분해는 확인 불가 [unavailable]",
+      "mitigation": "확인 불가"
+    },
+    {
+      "name": "FDA·약가 정책 리스크",
+      "probability": "med",
+      "impact": "med",
+      "description": "승인 속도 둔화, 약가 인하 정책, FDA 인력·절차 변동은 섹터 전체 멀티플에 직접 작용함 [inference]. 2026년 9월 시점의 구체적 계류 정책·일정은 본 분석에서 조회하지 않음 [unavailable]",
+      "mitigation": "확인 불가"
+    },
+    {
+      "name": "편입 무산 시 되돌림 (ASMB sub-event 한정)",
+      "probability": "med",
+      "impact": "med",
+      "description": "yfinance floatShares 9.17M = 발행 20.36M의 45% [actual]. S&P IWF가 이 수준이면 FMC $308M으로 $400M 경로 미달이고 편입은 무산됨 [derived]. 편입 기대 선매수 물량이 청산되며 ASMB가 급락할 수 있음. XBI 보유자에게는 영향 없으나 편입 베팅 참여자에게는 핵심 리스크임",
+      "mitigation": "S&P 공식 pro-forma 확인 전까지 포지션을 확정하지 않는 것 [inference]"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "ASMB 투자 논리가 'HSV 하나짜리 회사'에서 '길리어드가 선택한 항바이러스·간질환 플랫폼'으로 이동했다",
+      "type": "company",
+      "evidence": "[XBI 관점] 지수 편입 룰은 서사가 아니라 FMC·FALR·GICS만 봄 [actual · S&P DJI methodology] — 플랫폼 재평가라는 해석은 XBI 편입 여부와 직접 관계 없음. 다만 재평가가 주가($33.63 → $36.60, 8/31→9/4 +8.8% [actual · yfinance live])와 거래대금을 끌어올려 FMC·FALR을 동시에 밀어올리는 간접 경로는 성립함 [derived]. 즉 XBI 각도에서 T01은 '편입 조건을 만족시킨 원인'으로만 관여함",
+      "testability": "low",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "길리어드가 ABI-5366이 아닌 GS-1179를 Phase 2로 선택했고 ABI-5366은 추가 개발 계획이 없다",
+      "type": "company",
+      "evidence": "[XBI 관점] 사실 자체는 SEC 10-Q로 확인됨 [actual · https://www.sec.gov/Archives/edgar/data/1426800/000119312526349236/asmb-20260630]. 지수 편입 판정에는 직접 영향 없음 — GICS Biotechnology 분류 유지에만 관여함 [derived]. 파이프라인 자산 1개 보류는 지수 유지조건(FMC $300M/FALR 50%)을 위협할 수준의 시총 훼손 요인은 아님 [inference]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "GS-1179의 HIV PrEP 병용 검토 공식화가 시장 크기·전략적 가치를 근본적으로 바꾼다",
+      "type": "company",
+      "evidence": "[XBI 관점] 'being considered' 문구는 EX-99.1로 확인됨 [actual · https://www.sec.gov/Archives/edgar/data/1426800/000119312526349198/asmb-ex99_1.htm]. 다만 '근본적 변화'는 해석이며 [inference], 지수 룰에는 어떤 형태로도 반영되지 않음. 길리어드 PrEP 분기 매출 $1B [actual · Gilead 2Q26 PR]은 XBI 구성종목이 아닌 GILD(대형주, IBB 소속)의 실적임 — XBI는 이 프랜차이즈에 직접 노출돼 있지 않음 [derived]",
+      "testability": "med",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "ASMB의 40% US cost/profit-share 옵션 행사 여부가 2026년 말 결정되며 경영진의 NPV 신호다",
+      "type": "company",
+      "evidence": "[XBI 관점] 옵션 존재·기한은 EX-99.1로 확인됨 [actual]. 지수 편입 판정(9월)보다 뒤에 오는 이벤트라 T08~T10과 시간적으로 무관함 [derived]. 다만 옵션 행사 시 개발비 40% 부담으로 burn이 늘면 향후 분기의 시총·유지조건에 간접 영향 가능 [inference]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "ABI-6250이 실제 글로벌 Phase 2(NCT07762027)로 넘어갔다",
+      "type": "company",
+      "evidence": "[XBI 관점] 등록 사실 확인됨 — NOT_YET_RECRUITING, 2026-10 시작, 80명·22 site, primary completion 2027-06 [actual · https://clinicaltrials.gov/study/NCT07762027]. 지수 룰과 무관하나, 편입 이후에도 보유할 이유(블로거의 '보너스 그 이후' 논지)를 구성하는 펀더멘털 축임 [inference]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "현금 $320.4M + 4Q26 extension fee $75M으로 2029년까지 runway",
+      "type": "financial",
+      "evidence": "[XBI 관점] EX-99.1로 확인됨 [actual]. 편입 판정에는 무관하나, XBI 구성 146종목 다수가 무매출·적자(구성종목 합산 P/E 집계 불가, P/S 0.12 [actual · yfinance])인 것과 비교하면 ASMB의 재무 체력은 지수 내 상위권일 가능성이 있음 [inference] — 정확한 순위는 확인 불가 [unavailable]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "UBS Buy·PT $52 신규 커버리지 개시가 스몰캡 바이오에서 유의미한 liquidity event다",
+      "type": "market",
+      "evidence": "[XBI 관점] 커버리지 사실 확인됨 [actual · Investing.com 2026-09-01, 개시 시 주가 $33.63]. 지수 룰에 애널리스트 커버리지 항목은 없음 [actual · methodology]. 다만 커버리지가 거래대금을 늘리면 FALR을 직접 끌어올림 — 365일 거래대금 $1,164.7M [actual · yfinance] 기준 FALR은 FMC $308M이면 378%, $470M이면 248%로 이미 150% 기준을 크게 상회 [derived]. 즉 FALR은 병목이 아님",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "ASMB가 9월 XBI 편입 조건 중 두 번째 경로(FMC ≥ $400M + FALR ≥ 150%)를 충족할 가능성이 매우 높다",
+      "type": "index",
+      "evidence": "[XBI 관점 — 본 종목의 핵심 가설] 조건 자체는 methodology로 확인됨 [actual · https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-select-industry-indices.pdf]. 블로거 계산: 19.85M주 × $33.63 × free float 70~72% = FMC $467~481M [actual · 블로그, 필자 추정 명시]. 반증 데이터: yfinance floatShares 9.17M — 발행 20.36M의 45%, insider 27.7%, 기관 69.4% [actual · yfinance 2026-09-04]. IWF 45% 적용 시 FMC ≈ $308M으로 $400M 경로 미달, IWF 60%면 약 $400M 경계, IWF 70%면 $467M으로 여유 통과 [derived]. FALR은 어느 경우든 150% 초과(378%~248%) [derived] → 판정은 오로지 S&P IWF 산정에 걸려 있음. '가능성이 매우 높다'는 블로거 확신은 IWF 70~72% 가정에 전적으로 의존하며, 그 가정은 yfinance float 데이터와 정면 충돌함 [derived]. S&P 공식 pro-forma 공개 전까지 확인 불가 [unavailable]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "편입 시 강제 수급은 평소 유동성 대비 무시하기 어렵다 (weight 0.1%면 약 31만 주)",
+      "type": "index",
+      "evidence": "[XBI 관점] AUM $11,487.87M·146종목 modified equal-weight 확인됨 [actual · SSGA]. 균등 시 0.68% ≈ $80M [derived]. weight 0.1% = $11.5M ≈ 9/4 종가 $36.60 기준 약 31만 주, 0.2%면 약 63만 주 [derived]. 9/4 하루 거래량 156,500주 [actual · yfinance] 대비 2~4일치 물량임 [derived]. 다만 liquidity cap이 3개월 median daily value traded($5.32M [actual])를 기준으로 비중을 눌러 실제 weight가 0.05% 수준으로 낮아질 여지가 있고, 이 경우 강제 매수는 15만 주 수준으로 축소됨 [derived]. LABU/LABD·해외 트래커·선물 등 연계 ecosystem이 XBI보다 크다는 블로거 주장은 방향은 타당하나 총액 근거가 없어 확인 불가 [unavailable]. Russell 선례(6/26 1,589,300주·+10.2% [actual])는 유효한 실증이지만 Russell 3000은 XBI보다 추종 자금이 훨씬 커 직접 비교는 무리 [inference]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "지수 이벤트 구조는 9/9 가격결정 → 9/18 rebalance → 9/21 반영이며, XBI는 논리를 만드는 사건이 아니라 보너스다",
+      "type": "index",
+      "evidence": "[XBI 관점] 일정 구조는 methodology와 일치함 — reference date 8/31(경과), index share 가격결정 9/9(두 번째 금요일 직전 수요일), rebalance 9/18(세 번째 금요일) 장마감 후, 유효 9/21 [actual · https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-select-industry-indices.pdf]. pro-forma 발표일만 확인 불가 [unavailable]. '편입 전 가격이 너무 올라버리는 것이 가장 위험하다'는 지적은 구조적으로 타당함 — 9/4 종가 $36.60은 8/31 $33.63 대비 +8.8%, 1개월 +37.9% [actual · yfinance live]로 이벤트 수익의 상당 부분이 이미 선반영됐을 가능성이 있음 [inference]. '보너스' 프레이밍은 XBI 각도에서도 일관됨 — 편입 1종목의 XBI 내 비중이 0.1% 안팎이라 XBI 투자자에게는 무의미한 사건이고, 일방적으로 ASMB 주주에게만 일시적 수급이 발생하는 비대칭 이벤트임 [derived]",
+      "testability": "high",
+      "current_status": "pending"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": null,
+    "implied_op_margin_5y_pct": null,
+    "notes": "ETF — 역DCF 비적용 [actual · ETF 구조]. XBI는 기업이 아니라 146종목 바스켓이므로 현재가에서 역산할 매출 성장률·영업이익률이 존재하지 않음. 대체 지표로 구성종목 합산 밸류에이션을 보면 yfinance funds_data equity_holdings 기준 P/B 0.20·P/S 0.12·P/E 0.0(집계 불가)임 [actual · yfinance 2026-09-04]. 해석 주의: P/B 0.20은 '순자산의 5분의 1 가격'이라는 통상적 의미가 아님 — 적자·무매출 구성종목이 다수 포함된 equal-weight 바스켓의 가중 집계 방식에서 나오는 수치로, 일반 주식의 P/B와 같은 층위에서 비교하면 안 됨 [inference]. P/E가 0.0으로 표시되는 것도 '저평가'가 아니라 이익 집계가 성립하지 않는다는 뜻으로 보는 것이 타당함 [inference]. 즉 XBI의 밸류에이션 앵커는 실적 배수가 아니라 ① 파이프라인 NPV의 할인율(실질금리)과 ② 빅파마 M&A 수요임 [inference]. 구성종목 중 pre-revenue 비중의 정확한 수치는 확인 불가 [unavailable]. 참고 성과 지표: 1Y +76.1%·3Y 평균 26.7%·5Y 평균 4.2% [actual · yfinance] — 장기 평균이 낮은 것은 이 자산군이 사이클 진폭이 크고 진입 시점 의존도가 높다는 점을 보여줌 [derived]"
+  },
+  "analysis_mode": "single",
+  "thesis_count": 10,
+  "korean_disclosures": []
+}
