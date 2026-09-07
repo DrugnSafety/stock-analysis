@@ -1,0 +1,524 @@
+{
+  "ticker": "ASMB",
+  "aggregated_at": "2026-09-08T00:59:39.440610+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "lean_bearish": {
+      "count": 6,
+      "pct": 35.3
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "bullish": {
+      "count": 1,
+      "pct": 5.9
+    },
+    "bearish": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.579,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "bullish",
+          "confidence": 0.63
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.52
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "bearish",
+          "confidence": 0.68
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "경쟁",
+      "frequency": 6,
+      "personas": [
+        "george-soros",
+        "rakesh-jhunjhunwala",
+        "peter-lynch",
+        "warren-buffett",
+        "bill-ackman",
+        "stanley-druckenmiller"
+      ],
+      "examples": [
+        "소문이 다섯 겹으로 쌓였는데 정작 경쟁자 이야기가 빠져 있음 — 파트너 길리어드가 같은 기전 Hepcludex를 2026-05-22 승인받았고 PBC에는 GSK Lynavoy(2026-03-19 승인)가 있으며 Mirum·VIR의 HDV Phase 3가 앞서 있음. 스토리에서 빠진 부분이 대개 나중에 문제가 됨",
+        "재투자 수익률 확인까지 최소 2027-06인데 경쟁사 판독이 먼저 옴 — Mirum AZURE-1 3Q26·AZURE-4 4Q26, VIR ECLIPSE 4Q26. 게다가 진입 시장에 승인 선발주자(길리어드 Hepcludex 2026-05-22, GSK Lynavoy 2026-03-19)가 있어 재투자 수익률 자체가 낮아질 수 있음",
+        "해자로 보이는 것이 실은 파트너 의존성이고, 그 파트너가 간질환에서는 경쟁자임 — 길리어드가 동일 NTCP 기전 Hepcludex를 2026-05-22 승인받아 보유 중. ABI-5366 보류에 더해 이 사실이 계약상 지위가 해자가 아님을 재확인함"
+      ]
+    },
+    {
+      "theme": "변동성",
+      "frequency": 5,
+      "personas": [
+        "cathie-wood",
+        "jim-simons",
+        "rakesh-jhunjhunwala",
+        "ray-dalio",
+        "cliff-asness"
+      ],
+      "examples": [
+        "변동성 59.57%로 40% 임계선 초과 — 포지션 크기 자동 축소 구간",
+        "변동성 59.57%로 섹터의 2.2배, 고유 위험이 베타로 설명되지 않음",
+        "베타 1.13·변동성 59.6% 대비 분산 기여가 작아 비중 확대 불가"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "변동성 59.57%로 40% 임계선 초과 — 포지션 크기 자동 축소 구간",
+        "근사 샤프 0.96으로 롱 진입 기준선 1.0 미달",
+        "1개월 +2.2σ 이탈 — 단기 평균회귀 신호가 중기 모멘텀을 상쇄"
+      ],
+      "key_opportunities_top3": [
+        "베타 1.13 대비 고유 위험 지배 — 시장 무관 수익원으로서의 분산 가치",
+        "지수 편입 아노말리는 문헌상 문서화된 현상이며 소멸 시점(9/21)이 명확",
+        "Russell 6/26 동일 종목 선례(+10.2%, 거래량 10배) — 표본 1건이나 방향 일치"
+      ],
+      "uncertainty": "max drawdown·VaR·sortino·portfolio_optimization 산출물이 제공되지 않아 샤프는 yfinance 요약값에서 근사했고 하방 위험은 정량화하지 못함. 지수 편입 확률은 IWF 미공개로 추정 불가하며, 이 불확실성이 이벤트 트레이드 성립을 막는 결정적 요인임.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PEG 계산 불가 — GARP 규율의 핵심 잣대가 작동하지 않음",
+        "매출 성장 +154%가 협업 회계 인식분이라 반복되지 않음",
+        "제품 매출 0 — 현장에서 확인할 수 있는 사업 실체가 없음"
+      ],
+      "key_opportunities_top3": [
+        "주당 현금 $16.14(4Q26 반영 시 $19.92) — asset play로서의 가격 하한",
+        "runway 2029 — 스토리 검증 전 자금난 위험 차단",
+        "길리어드가 개발·상업화 비용 부담 — ASMB의 현금 소모가 제한적"
+      ],
+      "uncertainty": "TTM EPS는 trailing PE 역산값이라 회계 항목 구성을 직접 확인하지 못함. 40% 옵션 행사 시 부담할 개발·상업화 비용 규모는 비공개라 asset play 하한선이 얼마나 유지될지 계산 불가.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "멀티팩터 컴포지트 -0.74 — 롱 사이드 임계선 밖",
+        "수익성 팩터 최하위 분위(5년 연속 적자) + 밸류 팩터 정의 불가 = expensive junk",
+        "표면 모멘텀의 실체가 1개월 +2.2σ 스파이크 — 단기 반전 위험 구간"
+      ],
+      "key_opportunities_top3": [
+        "현금 $320.4M·무부채 — BAB의 안전 축 관점에서 유일한 플러스 요인",
+        "지수 편입 이벤트는 문헌상 단기 초과수익이 확인된 아노말리(체계적 담기는 어려움)",
+        "손실 축소 추세(-$132.7M → -$12.1M) — 수익성 부호가 바뀌면 팩터 점수 급변 가능"
+      ],
+      "uncertainty": "max drawdown·Sharpe·sortino 등 완전한 risk_metrics 세트가 제공되지 않아 팩터 z-score는 yfinance 요약 지표에서 근사한 값임. 섹터 중앙값 대비 정규화가 아니라 절대 수준 기반 판단이므로 실제 크로스섹션 랭킹과 다를 수 있음. 4Q25 일회성 이익의 회계 성격도 직접 확인하지 못함.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "macro_snapshot 미생성 — 사이클 좌표를 실측으로 확정할 수 없음",
+        "성장↓·인플레↑ 사분면에서 최취약 자산군(이익 없는 소형 바이오)",
+        "3개월 +59.8% 중 알파와 섹터 베타(XBI 3M +27.4%)의 분리 불가"
+      ],
+      "key_opportunities_top3": [
+        "순현금 구조 + runway 2029 — 부채 사이클 긴축에도 강제 매도자가 되지 않음",
+        "4Q26 길리어드 $75M은 계약상 확정 유입으로 시장 환경과 무관",
+        "PrEP·HSV 예방 수요는 경기 방어적 — 성장↓ 사분면에서도 작동하는 성장 서사"
+      ],
+      "uncertainty": "FRED 라이브 매크로 데이터가 없어 금리·유동성 국면을 실측으로 특정하지 못했고, 사분면 판정은 XBI 수익률에서 역추론한 것임. ASMB와 다른 4종목 간 실제 상관계수도 계산하지 않아 분산 기여는 베타·변동성 기반 정성 판단임.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "ROE 음수 — 15% 일관 ROE라는 장기 보유 핵심 요건 미충족",
+        "재투자 수익률 확인까지 최소 2027-06인데 경쟁사 판독이 먼저 옴 — Mirum AZURE-1 3Q26·AZURE-4 4Q26, VIR ECLIPSE 4Q26. 게다가 진입 시장에 승인 선발주자(길리어드 Hepcludex 2026-05-22, GSK Lynavoy 2026-03-19)가 있어 재투자 수익률 자체가 낮아질 수 있음",
+        "핵심 자산의 개발 방향 결정권이 회사가 아닌 길리어드에 있음"
+      ],
+      "key_opportunities_top3": [
+        "치료→예방 전환이라는 10년 단위 거시 순풍 (PrEP 연환산 약 $4B)",
+        "재투자 재원 $395.4M과 명확한 재투자처 3건(HDV·PBC/PSC·opt-in)",
+        "현금/시총 42.7% — 장기 보유에 필요한 생존력 확보"
+      ],
+      "uncertainty": "약리 기전 자체는 내 능력범위 밖이며 길리어드의 선택이라는 간접 증거에 의존함. ROE 부호 전환 시점을 추정할 근거가 없고, 40% opt-in 행사 시 부담할 비용도 비공개라 재투자 수익률을 계산할 수 없음. XBI 편입 여부는 판단에 반영하지 않았음.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Inversion 4경로 — GS-1179 Phase 2 실패 / ABI-6250 환자 효능 미확인 / ABI-6250이 파트너 길리어드의 승인약 Hepcludex(2026-05-22)와 같은 기전의 경구 후발주자 / PBC·HDV 모두 승인·Phase 3 선발주자 존재(GSK Lynavoy 2026-03-19 승인, Mirum brelovitug AZURE-1 3Q26, VIR ECLIPSE 4Q26)",
+        "롤라팔루자 역방향 — 파트너 검증·권위·희소성·사회적 증거·확증편향이 동시 정렬",
+        "ROIC 계산 불가 — 이익이 없어 사업 품질을 정량 판정할 수 없음"
+      ],
+      "key_opportunities_top3": [
+        "현금 $320.4M + 4Q26 $75M, 부채 미미 — 최악 시나리오에서도 강제 청산 없음",
+        "길리어드 25%·내부자 27.7% — 인센티브 정렬이 실질적",
+        "길리어드가 개발·상업화 비용을 부담하는 구조 — ASMB 자본 소모 제한적"
+      ],
+      "uncertainty": "GS-1179 Phase 1b 원자료를 직접 보지 못했고 UBS의 de-risk 주장은 2차 인용임. ABI-6250이 HDV 환자에서 보일 효능은 2027-06 전까지 확인 불가. XBI 편입 여부는 공식 pro-forma 전까지 추정.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "비대칭비 0.92:1 — '뒷면에서 크게 잃지 않는다'가 성립하지 않음(-45.6%)",
+        "보수 내재가치 $24.9~$27.5 대비 현재가 $36.60 — 안전마진 마이너스",
+        "5년 후 모습이 이항적이고 하방 경로가 단순 임상 실패에 그치지 않음 — 승인 선발주자(길리어드 Hepcludex 2026-05-22, GSK Lynavoy 2026-03-19)와 Phase 3 선행자(Mirum AZURE-1 3Q26·AZURE-4 4Q26, VIR ECLIPSE 4Q26)에 밀리는 경로가 추가됨. 확률 추정 근거는 여전히 없음"
+      ],
+      "key_opportunities_top3": [
+        "현금 $320.4M + 4Q26 $75M, 총부채 추정 $15.7M — 영구 자본 손실 경로 차단",
+        "길리어드 25% 지분 + 자기 자금 Phase 2 수행 — 정보 우위 주체의 복제 신호",
+        "PrEP 병용 실현 시 앞면이 UBS 목표가를 크게 상회할 가능성"
+      ],
+      "uncertainty": "길리어드 계약의 잔여 마일스톤·로열티 조건이 비공개라 보수 내재가치의 $100~150M 부분은 순수 추정임. 40% 옵션의 비용 규모도 미공개. ABI-6250의 환자 효능 확률은 계산 근거가 없어 보수 시나리오에서 0으로 처리했으며, 이는 내재가치를 과소평가했을 수 있음.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "능력범위 밖 — HSV·HDV 임상 성패를 판단할 방법이 없고 그것이 가치의 대부분을 결정함",
+        "해자로 보이는 것이 실은 파트너 의존성이고, 그 파트너가 간질환에서는 경쟁자임 — 길리어드가 동일 NTCP 기전 Hepcludex를 2026-05-22 승인받아 보유 중. ABI-5366 보류에 더해 이 사실이 계약상 지위가 해자가 아님을 재확인함",
+        "EV $427M에 대응하는 환자 효능 데이터가 0건, owner earnings 계산 불가"
+      ],
+      "key_opportunities_top3": [
+        "현금·유가증권 $320.4M + 4Q26 $75M — 급전 조달 강요 위험이 낮은 재무구조",
+        "영업손실 2021 -$132.7M → 2025 -$12.1M, 비용 규율의 실증",
+        "5월 $26.50 증자 이후 주가 $36.60 — 희석 대가로 확보한 optionality의 타이밍은 양호"
+      ],
+      "uncertainty": "길리어드가 GS-1179를 고른 실제 이유(주 1회 적합성·PrEP 연계)는 공개된 적이 없고 블로거 추정임. 40% 옵션의 손익은 commercial cost estimate가 비공개라 계산 불가. S&P IWF 산정치는 공식 pro-forma 공개 전까지 확인 불가.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "bullish",
+      "confidence": 0.63,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "S&P IWF 비공개 — free float 45%면 FMC $308M으로 편입 요건 미달",
+        "1개월 +37.9% 선반영 — 편입 불발 시 되돌림 폭이 큼",
+        "9/21 이후 이벤트 소멸 — 다음 임상 촉매가 우리 것이 아니라 경쟁사 것임. Mirum AZURE-1 topline 3Q26(이달 말)·AZURE-4 4Q26, VIR ECLIPSE 4Q26이 ABI-6250 판독(2027-06)보다 먼저 오고, 파트너 길리어드는 이미 동일 기전 Hepcludex를 2026-05-22 승인받음"
+      ],
+      "key_opportunities_top3": [
+        "XBI 1년 +76.1% — 바이오테크 유동성 유입 국면, 얇은 종목의 진폭 확대",
+        "Russell 6/26 실측 선례: 거래량 평균의 10배, +10.2%",
+        "촉매 캘린더 밀집: 9/9 · 9/18 · 9/21 · 연말 opt-in · 4Q26 $75M — 다만 10월 이후 임상 촉매는 경쟁사 판독이 섞여 있어 질이 낮음"
+      ],
+      "uncertainty": "편입 확률을 계산할 수 없음 — S&P IWF가 공식 pro-forma 전까지 비공개이고 이것이 확신도를 7/10으로 제한함. liquidity cap 적용 후 실제 weight도 추정치이므로 31만~63만 주 수급 규모는 확정이 아님. 이 트레이드는 손절 $32를 지킨다는 전제에서만 유효하며, 그 규율이 깨지면 판단 자체가 무효임.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "ROIC 산출 불가에 더해 예측 가능성이 더 낮아짐 — 진입 예정 시장 세 곳(HDV·PBC·PSC) 모두 승인 제품 보유 경쟁자가 있음(길리어드 Hepcludex 2026-05-22, GSK Lynavoy 2026-03-19)이며 Mirum·VIR의 Phase 3가 앞서 있음",
+        "FCF 음수이며 임상 본격화 시 R&D 추가 증가 예상",
+        "행동주의 레버 부재 — 길리어드 25% + 내부자 27.7%로 의결권 공간 없음"
+      ],
+      "key_opportunities_top3": [
+        "6~24개월 촉매 6건이 날짜 확정 상태 — 특수상황 프레임에 적합",
+        "40% opt-in은 경영진 내부 NPV 판단이 외부로 드러나는 이진 이벤트",
+        "여유 있는 상태의 $115M 조달 — 자본배분 판단력 실증"
+      ],
+      "uncertainty": "첫 제품 매출 시점이 공시되지 않아 사업체로서의 현금흐름 경로를 모델링하지 못했음. 40% opt-in의 비용 규모가 비공개라 옵션 행사 후 FCF 궤적도 추정 불가. 유동성 제약 판단은 3개월 median daily value traded 단일 지표에 근거함.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "15-point 중 6개(이익률·영업조직·원가 등)가 상업화 전이라 판정 불가",
+        "핵심 자산의 개발·상업화 통제권이 길리어드에 있어 경영진 역량 평가가 제한됨",
+        "40% opt-in 미행사 시 로열티 수취자로 남아 복리 성장 엔진이 약해짐"
+      ],
+      "key_opportunities_top3": [
+        "세계 최고 항바이러스 기업이 두 후보를 검토한 뒤 하나를 선택 — 최상급 스커틀벗",
+        "연 R&D 약 $60M으로 Phase 2 3건 창출 — 예산 대비 산출이 탁월",
+        "NTCP 단일 기전으로 HDV·PBC·PSC 3개 적응증 — 재투자 활주로 장기 확보"
+      ],
+      "uncertainty": "고객·전직원·경쟁사 인터뷰 같은 1차 스커틀벗을 직접 수행하지 못했고, 길리어드의 선택이라는 간접 증거에 크게 의존했음. GS-1179 Phase 1b 원자료도 열람하지 못해 UBS의 de-risk 판단을 검증할 수 없음. 15-point 중 6개는 상업화 이전이라 구조적으로 판정이 불가능함.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "EV $427M에 대응하는 명목 앵커 부재 — EV/EBIT·EV/FCF 정의 불가",
+        "free float 45%(floatShares 9.17M) 기준 FMC $308M — XBI $400M 경로 미달 가능",
+        "비대칭 역전 — 하방 주당 현금 $16.14까지 -56%, 상방 UBS $52까지 +42%"
+      ],
+      "key_opportunities_top3": [
+        "총부채 추정 $15.7M·현금 $320.4M — 부채 스트레스 없음, 공매도 논거로도 부적합",
+        "공매도 float 15.1%·days-to-cover 8.7일 — 편입 확정 시 숏스퀴즈 상방",
+        "4Q26 길리어드 extension fee $75M — 계약상 확정 현금 유입"
+      ],
+      "uncertainty": "S&P가 실제 적용할 IWF는 yfinance floatShares와 다를 수 있고 공식 pro-forma 전까지 확인 불가 — 내 약세 논거의 핵심 입력값도 검증되지 않은 값임. 총부채는 8-K 요약에 분리 공시되지 않아 PB 역산 추정치임. GS-1179 Phase 1b 원자료 미열람.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "편입 불발 시 선매수 물량의 즉각적 되돌림 — free float 45%면 FMC $308M으로 요건 미달",
+        "1개월 +37.9%는 3단계 후반 가속의 전형 — 남은 회로 구간이 짧음",
+        "9/21 이후 회로 소멸 + 즉각적 서사 반전 촉매 — Mirum brelovitug Phase 3 AZURE-1 topline이 3Q26(이달 말까지), AZURE-4가 4Q26에 나오고 VIR ECLIPSE도 4Q26임. 경쟁자가 먼저 HDV 데이터를 내면 ABI-6250 서사는 자체 판독(2027-06) 전에 선제적으로 훼손됨"
+      ],
+      "key_opportunities_top3": [
+        "가격이 편입 자격을 만드는 자기강화 회로 — 반사성의 교과서적 사례",
+        "공매도 15.1%가 아직 남아 있음 — 정점이 아니며 숏커버 연료 존재",
+        "반전 촉매 3개(편입 불발·9/21 소멸·옵션 미행사) 모두 날짜 특정 가능 — 손절 규율 설계 가능"
+      ],
+      "uncertainty": "S&P가 적용할 IWF를 확인할 수 없어 회로가 닫힐 확률을 추정하지 못함 — 이것이 베팅 규모를 제한하는 결정적 이유임. 반사성 단계 판정(3~4단계)도 가격·공매도 비중에서 역추론한 정성 판단이며 계량 기준이 아님. 편입 후 실제 패시브 매수 규모도 liquidity cap 적용치가 비공개라 확인 불가.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "bearish",
+      "confidence": 0.68,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "청산가치(NCAV 주당 $15.35) 대비 2.38배 — 안전마진 마이너스",
+        "5개 연도 연속 영업손실, 유일한 흑자 분기(4Q25 +$22.1M)는 계약성 일회성",
+        "Graham Number $21.04 대비 74% 프리미엄, 정상화 EPS 기준으로는 계산 자체 불가"
+      ],
+      "key_opportunities_top3": [
+        "현금·유가증권 $320.4M + 4Q26 $75M, 총부채 추정 $15.7M — 재무 파산 위험 사실상 없음",
+        "주당 순유동자산 $15.35(extension fee 반영 시 $19.13)라는 명확한 가격 하한 존재",
+        "영업손실 5년 연속 축소(-$132.7M → -$12.1M) — 비용 규율은 실증됨"
+      ],
+      "uncertainty": "총부채·유동부채는 8-K 요약에 분리 공시되지 않아 자기자본(PB 역산)과 총자산에서 추정한 값임 — 이연수익이 크면 NCAV는 더 낮아짐. 유가증券 $288.1M 중 만기 1년 초과분 비중도 미확인이라 유동자산을 과대 계상했을 가능성이 있음.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "핵심 자산 GS-1179의 개발 방향 결정권이 회사가 아니라 길리어드에 있음",
+        "환자 대상 효능 데이터가 아직 0건 — 플랫폼 가설이 미검증",
+        "변동성 59.57% — 5년 보유 가능한 자본이 아니면 견딜 수 없음"
+      ],
+      "key_opportunities_top3": [
+        "NTCP 단일 기전이 HDV·PBC·PSC 세 적응증에 확장 — 재사용 가능한 플랫폼",
+        "TAM이 헤르페스 치료제에서 연 $4B PrEP 예방 프랜차이즈로 전환되는 경로",
+        "R&D/매출 112% — 단기 이익보다 장기 연구를 우선하는 자본배분"
+      ],
+      "uncertainty": "HSV·HDV·PBC/PSC의 유병 인구와 시장 규모를 이번 분석에서 1차 자료로 확인하지 못해 TAM은 길리어드 PrEP 매출이라는 간접 앵커로만 추정했음. GS-1179이 실제로 예방 번들에 편입될지는 'being considered' 단계이며 확률 근거가 없음. ABI-6250의 건강인 Phase 1a 결과가 환자 효능으로 이어질지도 2027-06까지 확인 불가.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현재가 함의 미국 매출 $2.3B — standalone HSV로는 도달 불가, PrEP 번들 전제 필요",
+        "'being considered' 문구에 시장이 이미 높은 확률을 부여 — 옵션이 공짜가 아님",
+        "40% 옵션의 행사가격(부담 비용)이 비공개라 실물옵션 가치 계산 불가"
+      ],
+      "key_opportunities_top3": [
+        "내재가치의 67%(주당 $19.92)가 현금 — 밸류에이션 하방이 계산 가능",
+        "길리어드의 Phase 2 선택으로 PoS 입력값 상향(20%→25%) 근거 확보",
+        "PrEP 번들 실현 시(미국 peak $2.5B 가정) 내재가치 주당 $42 이상으로 재계산"
+      ],
+      "uncertainty": "peak 매출·마진·성공확률·WACC 네 개 입력값이 전부 가정이며, ABI-6250의 하향 조정폭(PoS 15%→8%, peak $300M→$200M)은 경쟁 사실에 대한 내 판단이지 계량 근거가 있는 값이 아님. 경구 투여 편의성이 승인된 주사제(Hepcludex) 대비 실제 점유율로 이어질 가능성을 과소평가했을 수 있음. 길리어드 계약의 로열티율·마일스톤 구조가 비공개라 40% 이익공유 외 경로의 가치는 모델에 반영하지 못했음.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "단일 장애점 — 가치의 대부분이 길리어드의 개발 우선순위 결정에 종속",
+        "ABI-5366 보류가 파트너 의존 취약성의 실증 사례로 이미 발생",
+        "3개월 +59.8%로 옵션 프리미엄이 상승 — '공짜 콜옵션' 프레임은 부정확"
+      ],
+      "key_opportunities_top3": [
+        "하방이 현금 주당 $19.92에서 절단 — 파산 경로 없는 상태의 볼록 노출",
+        "PrEP 번들 시나리오는 상한이 없는 오른쪽 꼬리 (길리어드 PrEP 분기 $1B)",
+        "무료 옵션은 여전히 복수이나 수가 줄어듦 — 40% opt-in과 PrEP 번들이 핵심이고, ABI-6250 PBC/PSC 확장(1Q27)은 승인 경쟁자 존재로 옵션 가치가 축소됨"
+      ],
+      "uncertainty": "GS-1179가 PrEP 번들에 실제로 들어갈 확률은 계산 근거가 없음 — 'being considered' 이상의 정보가 공개되지 않았음. 하방 절단선(주당 현금 $19.92)도 40% opt-in 행사 시 소모될 수 있어 고정값이 아님. XBI 편입 여부는 공식 pro-forma 전까지 확인 불가.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
