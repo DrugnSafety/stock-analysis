@@ -1,0 +1,435 @@
+{
+  "industry": {
+    "name": "만성 D형 간염(HDV) 치료제 + PRO-XTEN 마스킹 T-cell engager 종양",
+    "overview": "Vir Biotechnology는 ① 만성 D형 간염(CHD) 병용요법 tobevibart(중화 mAb) + elebsiran(siRNA)의 등록임상 ECLIPSE 1·2·3, ② PRO-XTEN 이중마스킹 T-cell engager 종양 파이프라인(VIR-5500 PSMA·VIR-5818 HER2·VIR-5525 EGFR, 모두 Phase 1) 두 축으로 구성된 임상단계 바이오텍임 [actual, 2Q26 8-K EX-99.1 2026-08-05]. HDV는 HBV 표면항원(HBsAg)을 껍데기로 빌려 쓰는 위성 바이러스로, 전세계 만성 감염자는 12~20M명으로 추정되며 바이러스성 간염 중 간경변·간세포암으로의 진행이 가장 빠른 최중증 형태임 [estimated, J Infect Dis / 문헌 리뷰 — 추정 범위가 12M~72M로 넓어 진단율 자체가 낮은 시장임]. 핵심 표적 NTCP(Na+/타우로콜산 공동수송체)는 HDV·HBV의 간세포 진입 수용체이자 담즙산 transporter를 겸함 — 이 이중 기전이 ASMB ABI-6250이 HDV와 PBC/PSC를 동시에 노리는 근거임 [actual, 인피의 블로그 본문 + NCT07762027]. 2026년 5월 22일 FDA가 길리어드 Hepcludex(bulevirtide-gmod)를 가속승인하면서 미국 HDV 시장에 최초의 승인 치료제가 생김 [actual, FDA 보도자료 2026-05-22]. bulevirtide는 NTCP를 차단하는 펩타이드 주사제이며 EU에서는 이미 조건부 승인 상태였음 [actual]. 즉 경쟁 구도는 '승인된 NTCP 차단 주사제(GILD bulevirtide)' vs '효능 우위를 주장하는 주사 병용요법(VIR tobevibart+elebsiran)' vs '아직 환자 데이터가 없는 경구 1일 1회 NTCP 억제제(ASMB ABI-6250)'의 3파전으로 재편됨 [inference — 3자 구도 해석은 본 분석의 판단임]. VIR의 포지션은 명확히 '효능 우선(efficacy-first)'임 — SOLSTICE Phase 2 96주에서 병용군 HDV RNA TND(검출 안 됨) 88%(28/32) vs 항체 단독 53%(17/32), HBsAg<10 IU/mL 90% vs 25%로 기능적 완치(functional cure)에 가까운 수치를 냄 [actual, 2Q26 8-K EX-99.1]. 반대급부는 투약 편의성임 — 주사제 병용이라 향후 경구제가 비슷한 효능을 내면 대체 압력을 받음 [inference]. 종양 축은 2026년 2월 Astellas와의 VIR-5500 글로벌 협력으로 실질적 검증을 받음 — upfront·near-term $335M(현금 $240M + 50% 프리미엄 지분 $75M + 마일스톤 $20M), 추가 개발·허가·매출 마일스톤 최대 $1.37B + ex-US 두 자릿수 로열티 [actual, Astellas 보도자료 2026-02-23·클로징 2026-04-16]. 이 딜이 2Q26 매출 $238.9M·순이익 $80.1M의 실체이며 영업 정상화가 아님 [actual].",
+    "competitors": [
+      {
+        "name": "Gilead Sciences — bulevirtide(Hepcludex) 2026-05-22 FDA 가속승인, 유일한 승인 HDV 치료제. NTCP 차단 주사제이며 VIR 병용요법의 실질적 비교 기준선임 [actual]",
+        "ticker": "GILD"
+      },
+      {
+        "name": "Assembly Biosciences — ABI-6250 경구 1일 1회 NTCP 억제제, HDV Phase 2 NCT07762027 (80명·22 site·2026-10 개시·2027-06 primary completion). 환자 효능 데이터는 아직 없음 — 2027년 이후의 위협임 [actual]",
+        "ticker": "ASMB"
+      },
+      {
+        "name": "Eiger InnoTherapeutics(비상장) — lonafarnib(경구 farnesylation 억제제). 모회사 Eiger BioPharmaceuticals는 2024-04-01 Chapter 11 신청, 2024-09-30 청산계획 발효로 주식 소각됐고 lonafarnib·Lambda 자산은 재매각됨. 상장 경쟁자로서는 소멸했으나 자산 자체는 존속 [actual]",
+        "ticker": "비상장"
+      },
+      {
+        "name": "Mirum Pharmaceuticals — 직접 HDV 경쟁은 아니나 담즙정체성 간질환(PBC/PSC, volixibat)에서 ASMB ABI-6250 확장 적응증과 겹침. VIR과는 간질환 상업 인프라 경쟁 관계 [inference]",
+        "ticker": "MIRM"
+      },
+      {
+        "name": "Janux Therapeutics·CytomX Therapeutics — 마스킹 T-cell engager/Probody 기술 경쟁군. VIR PRO-XTEN의 '종양미세환경에서만 탈마스킹' 차별화가 임상에서 입증돼야 함 [inference — 경쟁 프레이밍은 본 분석 판단]",
+        "ticker": "JANX/CTMX"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-02-23",
+        "title": "Astellas와 VIR-5500(PSMA 이중마스킹 TCE) 글로벌 전략적 협력 체결",
+        "summary": "영향: 긍정적 — upfront·near-term $335M(현금 $240M·50% 프리미엄 지분 $75M·마일스톤 $20M), 추가 마일스톤 최대 $1.37B + ex-US 두 자릿수 로열티. 미국은 Astellas 주도 상업화·VIR co-promote 옵션 보유. PRO-XTEN 플랫폼이 대형 파마로부터 첫 대규모 검증을 받은 사건임 [actual]",
+        "source": "https://newsroom.astellas.com/2026-02-24-astellas-and-vir-biotechnology-announce-global-strategic-collaboration-to-advance-psma-targeting-pro-xten-r-dual-masked-t-cell-engager-vir-5500-for-the-treatment-of-prostate-cancer"
+      },
+      {
+        "date": "2026-04-16",
+        "title": "Astellas 협력 클로징 (HSR 대기기간 종료)",
+        "summary": "영향: 긍정적 — 딜 확정으로 $240M 현금이 실제 유입됨. 2Q26 매출 인식의 직접 원인임 [actual]",
+        "source": "https://www.businesswire.com/news/home/20260416804867/en/Vir-Biotechnology-Announces-Closing-of-Global-Strategic-Collaboration-with-Astellas-for-the-Treatment-of-Prostate-Cancer"
+      },
+      {
+        "date": "2026-05-22",
+        "title": "FDA, 길리어드 Hepcludex(bulevirtide-gmod) 가속승인 — 미국 최초 HDV 치료제",
+        "summary": "영향: 혼재 — HDV 시장이 '무치료 공백'에서 '승인약 존재' 시장으로 바뀜. 진단·스크리닝 확대라는 시장 창출 효과는 VIR에 긍정이나, ECLIPSE가 넘어야 할 실질적 벤치마크가 생겼고 급여·가격 협상 기준선도 먼저 잡힘 [actual]",
+        "source": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-chronic-hepatitis-delta-virus-hdv-infection"
+      },
+      {
+        "date": "2026-05",
+        "title": "EASL 2026 — SOLSTICE Phase 2 96주 완전 데이터 발표",
+        "summary": "영향: 긍정적 — ITT 기준 병용군 HDV RNA TND 88%(28/32) vs 항체 단독 53%(17/32), HBsAg<10 IU/mL 90% vs 25%. 등록임상 성공 확률을 뒷받침하는 핵심 근거임 [actual]",
+        "source": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026053351/a20260805-q2ex991earningsr.htm"
+      },
+      {
+        "date": "2026-08-05",
+        "title": "2Q26 실적 — 매출 $238.9M·순이익 $80.1M, 현금·투자 $1.01B, runway 2H28",
+        "summary": "영향: 혼재 — 매출·순이익 전액이 Astellas $240.0M upfront 인식분이며 제품 매출이 아님. R&D $135.3M에는 Astellas 클로징으로 촉발된 Sanofi 마일스톤 $48.0M이 포함됨. ECLIPSE 1·2·3 전부 등록 완료, ECLIPSE 1 topline 4Q26·ECLIPSE 2·3 topline 1Q27 가이던스 재확인 [actual]",
+        "source": "https://www.sec.gov/Archives/edgar/data/1706431/000162828026053351/a20260805-q2ex991earningsr.htm"
+      },
+      {
+        "date": "2026-09-01",
+        "title": "ASMB ABI-6250 HDV Phase 2 (NCT07762027) 등록 확인",
+        "summary": "영향: 부정적(장기) — 경구 1일 1회 NTCP 억제제가 실제 글로벌 Phase 2로 진입. 2026-10 개시·2027-06 primary completion이라 VIR의 ECLIPSE 판독(4Q26~1Q27)보다 최소 1년 이상 늦으나, 편의성 축의 위협이 '파워포인트'에서 '등록된 임상'으로 승격됨 [actual]",
+        "source": "https://clinicaltrials.gov/study/NCT07762027"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 2.0,
+      "cagr_pct": 20.0,
+      "horizon": "HDV 치료제 글로벌 시장 2030E [inference/estimated] — 감염자 12~20M명이나 진단율·치료 접근률이 낮아 실제 처방 모수는 훨씬 작음. bulevirtide 승인(2026-05)으로 미국 스크리닝이 확대되면 모수 자체가 커지는 구조이므로 상방·하방 모두 큼. 종양(PRO-XTEN) 시장은 별도이며 Astellas 마일스톤 최대 $1.37B로 부분 계량화됨"
+    }
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": "2021",
+        "fiscal_year": "2021",
+        "revenue": 1095.4,
+        "op_income": 420.8,
+        "op_margin": 38.4,
+        "net_income": 528.6,
+        "net_margin": 48.3
+      },
+      {
+        "year": "2022",
+        "fiscal_year": "2022",
+        "revenue": 1615.8,
+        "op_income": 833.1,
+        "op_margin": 51.6,
+        "net_income": 515.8,
+        "net_margin": 31.9
+      },
+      {
+        "year": "2023",
+        "fiscal_year": "2023",
+        "revenue": 86.2,
+        "op_income": -684.3,
+        "op_margin": -794.0,
+        "net_income": -615.1,
+        "net_margin": -713.7
+      },
+      {
+        "year": "2024",
+        "fiscal_year": "2024",
+        "revenue": 74.2,
+        "op_income": -587.2,
+        "op_margin": -791.3,
+        "net_income": -522.0,
+        "net_margin": -703.4
+      },
+      {
+        "year": "2025",
+        "fiscal_year": "2025",
+        "revenue": 68.6,
+        "op_income": -479.3,
+        "op_margin": -699.2,
+        "net_income": -438.0,
+        "net_margin": -638.9
+      }
+    ],
+    "financial_unit": {
+      "currency": "USD",
+      "scale": "M"
+    },
+    "peer_compare": [
+      {
+        "ticker": "VIR",
+        "name": "Vir Biotechnology",
+        "pe": null,
+        "pb": 2.2585,
+        "roe": -26.081,
+        "div_yield": null
+      },
+      {
+        "ticker": "ASMB",
+        "name": "Assembly Biosciences",
+        "pe": 29.5161,
+        "pb": 2.3769,
+        "roe": -0.026,
+        "div_yield": null
+      },
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "pe": null,
+        "pb": 15.8409,
+        "roe": -20.68,
+        "div_yield": 2.17
+      },
+      {
+        "ticker": "MIRM",
+        "name": "Mirum Pharmaceuticals",
+        "pe": null,
+        "pb": -626.7081,
+        "roe": -702.967,
+        "div_yield": null
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 1214.8,
+      "cash": 278.7,
+      "debt": 93.3,
+      "total_liab": 402.0,
+      "equity": 812.8
+    },
+    "cf_summary": {
+      "note": "[중요] 2Q26 매출 $238.9M·순이익 $80.1M은 영업 정상화가 아님 — 전액이 Astellas VIR-5500 협력의 upfront $240.0M을 라이선스·협업 매출로 인식한 결과임 [actual, 2Q26 8-K EX-99.1 2026-08-05 및 BioSpace 보도자료]. 같은 분기 R&D $135.3M에는 Astellas 딜 클로징으로 촉발된 Sanofi 마일스톤 지급 $48.0M과 CHD 상업화 준비용 PPQ 배치 위탁생산비가 들어 있음 [actual]. 구조적 현금흐름은 여전히 큰 폭 음수임 — 2025 영업현금흐름 -$391.8M·FCF -$396.6M, 2024 OCF -$446.4M(SEC XBRL) → 연간 실질 소진 $400M 내외 [actual/derived]. 2Q26 말 현금·현금성자산·투자자산 합계는 $1.01B이며 회사는 2028년 하반기까지의 runway를 제시함 [actual]. 대차대조표의 cash $278.7M은 현금·현금성자산 항목만이고 나머지는 단기·장기 투자자산에 분산돼 있어 두 숫자를 혼동하면 안 됨 [derived]. XBRL상 장기차입금은 0이며 yfinance totalDebt $93.3M은 리스부채 등 비차입 항목으로 추정됨 [inference — 구성 내역은 확인 불가]. 2021~2022년의 이례적 흑자(매출 $1,095M·$1,616M, 순이익 $529M·$516M)는 GSK와 공동개발한 코로나19 항체 sotrovimab 판매·협업 수익이며, 오미크론 하위변이에 대한 미국 EUA 사용중단 이후 2023년 매출이 $86.2M으로 -95% 붕괴함 [actual 수치 / inference — 붕괴 원인의 sotrovimab 귀속은 본 분석 해석]. 이 절벽은 VIR을 읽을 때 반드시 기억해야 함 — 이 회사의 손익계산서는 '제품 매출 곡선'이 아니라 '일회성 계약금·협업 인식의 점묘화'임."
+    }
+  },
+  "financial_statements_summary": {
+    "data_source": "SEC EDGAR XBRL companyfacts (fetch_us_gaap_5y_5q, 2026-09-07 fetch) + VIR 2Q26 8-K EX-99.1(2026-08-05) + yfinance 1.3.0 live(2026-09-04 종가 기준)",
+    "frequency": "5Y annual (2021-2025) + 5Q quarterly (2025Q2-2026Q2)",
+    "notes": "분기 흐름($M, XBRL): 매출 2025Q2 1.2 → 2025Q3 0.2 → 2025Q4 64.1 → 2026Q1 -0.03 → 2026Q2 238.9. 순손익 -111.0 → -163.1 → -42.9 → -125.7 → +80.1 [actual]. 2026Q1 매출이 음수(-$0.029M)인 것은 이전 인식분의 조정으로 추정됨 [inference — 사유는 확인 불가]. 즉 5개 분기 중 4개가 대규모 적자이고 흑자 1개 분기는 계약금 인식임 — 추세선을 그리면 안 되는 손익구조임. 2Q26 자기자본 $812.8M은 2026Q1과 동일 값으로 조회되며 XBRL 태깅 시점 차이일 가능성이 있음 [inference — 재확인 필요]. 연간 매출 2025 $68.6M과 분기 합산(2025Q2~Q4만 $65.5M)이 정합하지 않는 구간이 있어 분기·연간을 교차 합산해 쓰면 안 됨 [derived 주의사항]. R&D는 2025년 기준 op_costs $547.9M 중 대부분을 차지하며 SG&A $92.1M, SBC $49.1M임 [actual]."
+  },
+  "scenarios": {
+    "bull": {
+      "probability": 30,
+      "prob_pct": 30,
+      "thesis": "ECLIPSE 1 topline(4Q26)이 SOLSTICE 96주(HDV RNA TND 88%·HBsAg<10 90%)를 재현하고 ECLIPSE 2·3(1Q27)까지 일관되게 나옴 → 2027년 BLA 제출·2028년 승인 경로가 열림. bulevirtide 승인으로 이미 넓어진 미국 HDV 스크리닝 인프라 위에 '더 좋은 약'으로 올라타는 구도가 성립함. 여기에 VIR-5818(HER2) 2H26 용량증량 업데이트가 PRO-XTEN 마스킹의 치료지수 개선을 입증하고 Astellas VIR-5500 mCRPC 확장 코호트가 순항하면, 종양 축이 두 번째 밸류에이션 기둥으로 인정받음. HDV 단일 자산 회사에서 '항바이러스 + 마스킹 TCE 이중 플랫폼'으로 재평가됨.",
+      "key_assumptions": [
+        "ECLIPSE 1 primary endpoint 명확한 성공 (4Q26) [inference]",
+        "ECLIPSE 2·3 일관성 확보 (1Q27) — 3개 시험 전부 등록 완료 상태 [actual]",
+        "주사 병용요법의 편의성 열위가 효능 격차로 상쇄됨",
+        "Astellas 마일스톤 조기 트리거로 2H28 runway 연장",
+        "종양 Phase 1 데이터에서 마스킹 안전성 우위 확인"
+      ],
+      "assumptions": [
+        "ECLIPSE 1 topline 4Q26 성공",
+        "ECLIPSE 2·3 1Q27 일관성",
+        "BLA 2027 제출 경로 확보",
+        "PRO-XTEN 종양 Phase 1 긍정 신호"
+      ],
+      "target_price": 24.0,
+      "target_price_basis": "12개월 목표주가 $24.0 [inference] — 발행주식 169.2M주 기준 SOTP 역산임 [actual 주식수, yfinance]. ① HDV: ECLIPSE 1(4Q26)·2·3(1Q27) 전부 성공 시 peak sales $2.0B 가정 [inference] × NPV 배수 1.65배(할인율 12%·순마진 35%·특허 잔여기간 반영) = $3.30B, 판독 성공으로 PoS를 60% → 85%로 상향하면 위험조정 $2.81B [derived]. ② 종양: Astellas 검증된 VIR-5500 지분 + VIR-5818(HER2)·VIR-5525(EGFR) 100% 보유분 $0.65B [inference] — Astellas 추가 마일스톤 최대 $1.37B + ex-US 로열티의 일부만 인정한 보수적 계상임 [actual 계약조건]. ③ 순현금: 현금·투자 $1.01B [actual, 2Q26 8-K EX-99.1] − 12개월 소진 $0.40B [derived, 2025 OCF -$391.8M] = $0.61B. 합계 $4.07B ÷ 169.2M주 = $24.0 [derived]. 현재가 $11.39 대비 +111%, 컨센서스 9명 평균 $20.78 대비 +16%임 [actual 기준값] — 불 시나리오는 정의상 컨센서스를 상회해야 하므로 정합적임."
+    },
+    "base": {
+      "probability": 45,
+      "prob_pct": 45,
+      "thesis": "ECLIPSE 1이 통계적으로는 성공하나 서브그룹·안전성·투약 부담 이슈가 남아 '승인은 되겠지만 블록버스터는 아니다'로 수렴함. bulevirtide가 이미 표준치료 자리를 선점한 상태에서 병용요법의 가격·급여 협상이 길어지고, 실제 처방 모수는 진단율에 발목 잡힘. 종양 파이프라인은 Phase 1을 벗어나지 못해 Astellas 마일스톤 외의 가치 인식이 지연됨. 주가는 판독 이벤트를 전후로 크게 흔들리되 1년 +121.5%의 재평가분을 대체로 유지하는 박스권. 현금 $1.01B·runway 2H28은 2027년 중 추가 자본조달 논의를 부르는 수준임.",
+      "key_assumptions": [
+        "ECLIPSE 1 성공하나 라벨·서브그룹 제약 존재",
+        "미국 HDV 진단·치료 모수가 기대보다 느리게 확대 [inference]",
+        "연간 소진 $400M 내외 유지 [derived]",
+        "2027~2028년 중 희석성 자본조달 1회 [inference]",
+        "종양 자산은 Astellas 마일스톤 외 추가 검증 지연"
+      ],
+      "assumptions": [
+        "ECLIPSE 1 통과하나 상업 기대치 제한",
+        "진단율이 시장 확대의 병목",
+        "연 $400M 소진 유지",
+        "추가 자본조달 가능성"
+      ],
+      "target_price": 14.0,
+      "target_price_basis": "12개월 목표주가 $14.0 [inference] — 동일 SOTP 프레임에 '성공하되 상업성 제한' 가정을 적용함. ① HDV: peak sales $1.3B [inference] × NPV 배수 1.5배 = $1.95B, PoS 70%(ECLIPSE 1은 통과하나 라벨·서브그룹 제약과 bulevirtide 대비 급여 협상 리스크 잔존) → 위험조정 $1.37B [derived]. ② 종양: Phase 1을 벗어나지 못해 마일스톤 외 가치 인식이 지연되므로 $0.40B만 인정 [inference]. ③ 순현금 $0.61B [derived, 동일]. 합계 $2.38B ÷ 169.2M주 = $14.0 [derived]. 현재가 대비 +23%이며 컨센서스 $20.78보다 33% 낮음 [derived] — 셀사이드 목표가가 사실상 ECLIPSE 성공을 전제로 잡혀 있는 반면 base는 성공을 확률로만 반영하기 때문임 [inference]. 확률가중 기대값은 0.30×$24.0 + 0.45×$14.0 + 0.25×$5.5 = $14.9로 현재가 대비 +31%임 [derived]."
+    },
+    "bear": {
+      "probability": 25,
+      "prob_pct": 25,
+      "thesis": "ECLIPSE 1이 primary endpoint를 놓치거나 96주 Phase 2 대비 효과크기가 크게 줄어듦 → HDV 축 가치의 대부분이 소멸함. 32명 ITT의 Phase 2 수치가 대규모 등록임상에서 희석되는 것은 항바이러스 영역에서 드물지 않음 [inference]. 설령 성공해도 2027~2028년 ASMB ABI-6250 등 경구 1일 1회 옵션이 비슷한 바이러스학적 결과를 내면 주사 병용요법은 구조적 열위로 몰림. 동시에 연 $400M 소진이 이어지며 2H28 runway 앞에서 대규모 희석이 발생하고, 1년 +121.5%·변동성 67.9%의 기대 선반영분이 되돌려짐. 2023년 sotrovimab 절벽(-95% 매출)의 재현 서사가 다시 붙음.",
+      "key_assumptions": [
+        "ECLIPSE 1 실패 또는 효과크기 대폭 축소",
+        "Phase 2 n=32의 소표본 우연성 [inference]",
+        "경구 NTCP 억제제(ABI-6250 등)의 편의성 우위 현실화 (2028+)",
+        "2027~2028년 대규모 희석성 증자",
+        "bulevirtide 대비 증분 가치 입증 실패로 급여 거부"
+      ],
+      "assumptions": [
+        "ECLIPSE 1 실패",
+        "소표본 효과 희석",
+        "경구제 대체 압력",
+        "대규모 희석 증자"
+      ],
+      "target_price": 5.5,
+      "target_price_basis": "12개월 목표주가 $5.5 [inference] — ECLIPSE 1 실패 또는 효과크기 대폭 축소 시나리오임. ① HDV: 잔존가치 $0.08B만 인정 [inference] — 프로그램 가치의 사실상 소멸을 가정하되 SOLSTICE 데이터·EU 니치·자산 매각 옵션의 최소 잔가만 남김. ② 종양: Astellas VIR-5500 협력은 HDV 결과와 독립적이므로 존속하며 $0.30B 인정 [inference] — 이 축이 bear에서 하방을 받쳐주는 유일한 자산임. ③ 순현금: $1.01B − 12개월 소진 $0.40B − 구조조정·임상 종료 비용 $0.06B = $0.55B [inference]. 합계 $0.93B ÷ 169.2M주 = $5.5 [derived]. 참고로 현시점 현금·투자 기준 주당 순현금은 $1.01B ÷ 169.2M = $6.0임 [derived] — bear 목표가가 이보다 낮은 이유는 목표 시점이 12개월 뒤라 소진 후 주당 현금이 약 $3.6로 줄기 때문이며 [derived], $5.5는 그 위에 종양 옵션가치를 얹은 값임. 현재가 $11.39 대비 -52%임 [derived]. 임상 실패 시 1년 +121.5% 상승분의 되돌림이 이보다 깊어질 수 있음은 별도 리스크임 [inference]."
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-11초 (추정)",
+      "event": "3Q26 실적 발표",
+      "type": "earnings",
+      "expected_impact": "med",
+      "description": "Astellas upfront 인식이 끝난 뒤의 '민낯 분기' — 매출이 다시 한 자릿수 $M으로 돌아가고 분기 순손실 $100M+ 구조가 재확인될 가능성이 큼 [inference]. 현금·투자 잔액과 2H28 runway 재확인, ECLIPSE 1 topline 일정 재확인이 관전 포인트임 [actual 일정은 미공시 → 시점은 추정]"
+    },
+    {
+      "date": "2026 4Q",
+      "event": "ECLIPSE 1 Phase 3 topline — 최대 바이너리 이벤트",
+      "type": "clinical",
+      "expected_impact": "high",
+      "description": "회사 가이던스는 2Q26 8-K EX-99.1(2026-08-05) 기준 '4Q26 topline'임 [actual]. 다만 2025년 등록완료 시점 보도에서는 primary completion 4Q26·topline 1Q27로 안내된 바 있어 슬립 리스크가 존재함 [actual — 가이던스 변경 이력]. 성패에 따라 HDV 축 가치의 대부분이 결정되는 단일 최대 변수임"
+    },
+    {
+      "date": "2026-10",
+      "event": "ASMB ABI-6250 HDV Phase 2 (NCT07762027) 개시 — read-through",
+      "type": "competitive",
+      "expected_impact": "med",
+      "description": "80명·22 site·경구 1일 1회 48주. 개시 자체로 VIR 주가에 직접 타격은 없으나, '경구 옵션이 실재한다'는 사실이 ECLIPSE 성공 시나리오의 terminal value 할인율에 반영되기 시작함 [inference]"
+    },
+    {
+      "date": "2026 2H",
+      "event": "VIR-5818(HER2) 용량증량 업데이트 데이터",
+      "type": "clinical",
+      "expected_impact": "med",
+      "description": "회사가 2H26 보고를 명시함 [actual, 2Q26 8-K EX-99.1]. PRO-XTEN 마스킹이 치료지수를 실제로 넓히는지에 대한 첫 공개 검증 — Astellas 딜의 정당성을 뒷받침하거나 훼손함"
+    },
+    {
+      "date": "2027 1Q",
+      "event": "ECLIPSE 2·3 topline",
+      "type": "clinical",
+      "expected_impact": "high",
+      "description": "3개 시험 전부 등록 완료 상태 [actual]. ECLIPSE 1 결과의 재현성·일관성을 확인하는 관문이며, 1이 성공해도 2·3이 흔들리면 라벨 협상력이 급감함"
+    },
+    {
+      "date": "2027 (추정)",
+      "event": "tobevibart+elebsiran BLA 제출 가능성",
+      "type": "regulatory",
+      "expected_impact": "high",
+      "description": "ECLIPSE 1·2가 등록용 안전성·유효성 데이터를 제공하도록 설계됨 [actual]. 제출 시점은 회사가 확정 공시한 바 없어 확인 불가 — 2027년 제출은 [inference]"
+    }
+  ],
+  "risks": [
+    {
+      "name": "ECLIPSE 1 실패 — 단일 바이너리에 HDV 축 가치가 집중됨",
+      "probability": "med",
+      "impact": "high",
+      "description": "SOLSTICE Phase 2는 ITT n=32의 소표본임 [actual]. 88% vs 53%라는 효과크기가 대규모 등록임상에서 유지된다는 보장이 없고, 4Q26 판독 하나에 시가총액의 상당 부분이 걸려 있음. 변동성 67.9%(yfinance 2026-09-04 live)는 시장도 이를 알고 있다는 뜻임"
+    },
+    {
+      "name": "주사 병용요법의 편의성 열위 — 경구제 등장 시 구조적 대체 압력",
+      "probability": "med",
+      "impact": "high",
+      "description": "tobevibart(mAb) + elebsiran(siRNA) 2제 주사 vs ASMB ABI-6250 경구 1일 1회(Phase 2 2026-10 개시) [actual]. 만성 질환에서 효능 격차가 크지 않으면 편의성이 이김. VIR이 먼저 승인받아 선점하더라도 2028년 이후 점유율 방어가 과제임 [inference]"
+    },
+    {
+      "name": "현금 소진 — 연 $400M 규모 vs runway 2H28",
+      "probability": "high",
+      "impact": "med",
+      "description": "2025 OCF -$391.8M·FCF -$396.6M, 2024 OCF -$446.4M [actual, SEC XBRL]. 현금·투자 $1.01B로 2H28을 제시하나 [actual], 상업화 준비(PPQ 배치·영업 조직)가 본격화되면 소진이 늘어남. ECLIPSE 성공 시에도 출시 자금 조달을 위한 희석은 사실상 불가피함 [inference]"
+    },
+    {
+      "name": "1년 +121.5% 급등 — 기대 선반영과 되돌림 위험",
+      "probability": "high",
+      "impact": "med",
+      "description": "1Y +121.5%·3M +31.6%·1M +25.0%, 주가 $11.39·시총 $1.93B [actual, yfinance 2026-09-04 live]. 컨센서스 9명 평균 목표가 $20.8이나 [actual], 판독 전 랠리는 'sell the news' 취약성을 만듦. 실패 시 낙폭은 상승분을 초과할 수 있음"
+    },
+    {
+      "name": "HDV 시장 규모 자체의 불확실성 — 진단율이 병목",
+      "probability": "high",
+      "impact": "med",
+      "description": "전세계 감염 추정치가 12M~72M으로 6배 편차임 [estimated, 문헌]. 미국 내 진단·연결(linkage to care) 인구는 훨씬 작고, bulevirtide 승인(2026-05)으로 스크리닝이 늘어나는 중이나 속도는 확인 불가. 시장이 안 크면 '좋은 약'과 '좋은 사업'이 갈라짐"
+    },
+    {
+      "name": "가격·급여 — bulevirtide가 기준선을 먼저 설정함",
+      "probability": "med",
+      "impact": "med",
+      "description": "2제 병용 주사요법은 단일 주사제보다 원가·가격 부담이 큼 [inference]. 지불자가 bulevirtide 대비 증분 임상가치를 요구하면 프리미엄 가격 확보가 어려워지고, 승인과 매출 사이의 간극이 길어짐"
+    },
+    {
+      "name": "손익구조가 일회성 계약금에 좌우됨 — 2023년 절벽의 학습효과",
+      "probability": "high",
+      "impact": "med",
+      "description": "매출 2022 $1,615.8M → 2023 $86.2M(-94.7%)로 붕괴한 이력이 있음 [actual, SEC XBRL]. 2Q26 $238.9M도 Astellas $240.0M upfront 인식분이라 3Q26부터 되돌아감 [actual]. 실적 기반 밸류에이션이 불가능해 전적으로 임상 확률 게임임"
+    },
+    {
+      "name": "종양 파이프라인 전부 Phase 1 — 두 번째 기둥이 아직 기둥이 아님",
+      "probability": "med",
+      "impact": "med",
+      "description": "VIR-5500(PSMA)·VIR-5818(HER2)·VIR-5525(EGFR) 모두 Phase 1 [actual, 2Q26 8-K EX-99.1]. Astellas 딜이 외부 검증을 줬으나 마스킹 TCE 영역에는 Janux·CytomX 등 경쟁이 있고, 이중마스킹의 임상적 우위는 미입증임 [inference]"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "ASMB 투자 논리가 'HSV 하나짜리'에서 '길리어드가 선택한 항바이러스·간질환 플랫폼'으로 이동했다",
+      "type": "interpretive",
+      "relevance_to_vir": "low",
+      "evidence": "VIR 관점에서 직접 관련성은 낮음. 다만 ASMB가 '플랫폼'으로 재평가되는 과정에서 HDV 자산(ABI-6250)의 시장 인식 가치가 함께 올라가는 것은 VIR HDV 프랜차이즈의 미래 경쟁 강도를 높이는 방향임 [inference]. 섹터 심리 측면에서는 XBI 1Y +76.1%(yfinance live)가 보여주듯 바이오 리레이팅 국면을 VIR도 공유 중임 [actual]",
+      "testability": "low",
+      "current_status": "indirect"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "길리어드가 ABI-5366이 아니라 주 1회 GS-1179를 Phase 2로 선택했고 ABI-5366은 추가 개발 계획이 없다",
+      "type": "factual",
+      "relevance_to_vir": "none",
+      "evidence": "HSV(단순포진) 영역이며 VIR 파이프라인과 겹치지 않음. VIR은 HDV·HBV 항바이러스와 종양 TCE에 집중함 [actual, 2Q26 8-K EX-99.1]. 판단 보류",
+      "testability": "high",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "GS-1179를 HIV PrEP 병용 전략으로 검토한다는 공식 명시가 시장 크기·전략 가치를 바꾼다",
+      "type": "interpretive",
+      "relevance_to_vir": "none",
+      "evidence": "HIV PrEP 프랜차이즈는 길리어드 고유 자산이며 VIR과 무관함. 다만 '대형 파마가 자사 프랜차이즈에 소형 바이오텍 자산을 끼워 넣는 구조'라는 점에서 VIR-Astellas 딜(미국 Astellas 주도 상업화·VIR co-promote 옵션)과 형태가 유사함 — 소형 바이오텍 가치 실현 경로의 표준형임 [inference]",
+      "testability": "med",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "ASMB의 미국 40% cost/profit-share 옵션 행사 결정(2026년 말)이 GS-1179 NPV에 대한 신호다",
+      "type": "predictive",
+      "relevance_to_vir": "none",
+      "evidence": "ASMB-길리어드 계약 고유 조항임. VIR은 HDV를 100% 자체 보유하므로 profit-share 구조 자체가 없고, 대신 종양에서 Astellas와 비용·수익 공유 구조를 가짐 [actual]. 비교 관점: VIR은 HDV 상방을 온전히 갖는 대신 실패 리스크도 온전히 짊어짐",
+      "testability": "high",
+      "current_status": "not_applicable"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "ABI-6250이 'PPT 속 Phase 2'에서 실제 글로벌 Phase 2(NCT07762027, 80명·22 site·2026-10 시작·2027-06 primary completion)로 넘어갔다",
+      "type": "factual",
+      "relevance_to_vir": "high",
+      "evidence": "VIR 관점에서 10개 thesis 중 유일하게 직접적으로 중요한 항목임 [actual, ClinicalTrials.gov]. 경구 1일 1회 NTCP 억제제가 실제 등록임상 궤도에 오른다는 것은, VIR이 ECLIPSE로 시장을 열더라도 2028년 이후 편의성 축에서 방어전을 치러야 한다는 뜻임. 다만 시차가 큼 — VIR은 4Q26~1Q27 등록임상 판독, ASMB는 2027-06 Phase 2 primary completion으로 최소 1년 이상 뒤임 [derived]. 또한 ABI-6250은 아직 환자 효능 데이터가 전무하고 건강인 Phase 1a만 있음 [actual] — 현재 시점의 위협은 '옵션'이지 '사실'이 아님",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "현금 $320.4M + 4Q26 길리어드 extension fee $75M → ASMB runway 2029년까지",
+      "type": "factual",
+      "relevance_to_vir": "med",
+      "evidence": "직접 비교 항목임. VIR은 현금·투자 $1.01B로 절대 규모는 3배 이상 크지만 runway는 2H28로 ASMB(2029)보다 짧음 [actual 양쪽 모두]. 이유는 소진 속도 차이임 — VIR 연 소진 $400M 내외(2025 OCF -$391.8M) vs ASMB 분기 순손실 $3.9M 수준 [actual]. 즉 '자산이 많다'와 '오래 버틴다'는 다르며, 등록임상 3개를 동시에 돌리는 VIR이 훨씬 비싼 게임을 하는 중임 [derived]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "UBS가 Buy·목표가 $52로 ASMB 신규 커버리지를 개시했고, 대형 IB coverage 진입은 스몰캡 바이오에 좋은 liquidity event다",
+      "type": "factual",
+      "relevance_to_vir": "low",
+      "evidence": "VIR은 이미 커버리지가 두꺼움 — 애널리스트 9명·평균 목표가 $20.78 vs 현재가 $11.39 [actual, yfinance live 2026-09-07]. 즉 '커버리지 확대로 인한 재평가' 여지는 ASMB 쪽이 크고 VIR은 이미 소진된 레버임. 반대로 컨센서스와 주가의 82% 괴리는 시장이 ECLIPSE 리스크를 애널리스트보다 크게 보고 있다는 신호로도 읽힘 [inference]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "ASMB가 9월 S&P Biotechnology Select Industry Index($400M FMC + FALR 150% 경로) 신규 편입 가능성이 매우 높다",
+      "type": "predictive",
+      "relevance_to_vir": "low",
+      "evidence": "VIR의 해당 지수 구성종목 편입 여부는 확인 불가 [unavailable] — SSGA XBI 상위 보유 종목(MRNA 2.98%·TWST 1.75%·HALO 1.45%·NTRA 1.40%·KYMR 1.38%)에 VIR은 없으며 전체 154종목 명단은 본 분석에서 미확인임. VIR 시총 $1.93B는 modified equal-weight 구조에서 편입 기준을 여유 있게 상회하므로 이미 구성종목일 개연성이 있으나 단정 불가 [inference]",
+      "testability": "high",
+      "current_status": "unverified"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "XBI 편입 시 수급(weight 0.1~0.2% → 31만~63만 주)은 ASMB 평소 유동성 대비 압도적이다",
+      "type": "predictive",
+      "relevance_to_vir": "low",
+      "evidence": "VIR이 기존 구성종목이라면 신규 편입 종목 추가는 기존 종목 비중의 미미한 희석으로 나타남 — modified equal-weight 146종목에서 1종목 추가의 개별 영향은 무시 가능 수준임 [derived]. VIR 시총 $1.93B·유통주식 129.8M주(yfinance) 기준 유동성도 ASMB(3개월 median daily $5.32M)와 체급이 달라 지수 수급 민감도가 낮음 [actual/derived]",
+      "testability": "med",
+      "current_status": "indirect"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "지수 이벤트 구조(8/31 reference → 9/9 가격결정 → 9/18 rebalance → 9/21 반영)상 XBI는 논리를 만드는 사건이 아니라 보너스다",
+      "type": "interpretive",
+      "relevance_to_vir": "low",
+      "evidence": "블로거의 '지수 이벤트는 일시적, 결국 펀더멘털'이라는 프레임은 VIR에도 그대로 적용됨 — VIR의 1Y +121.5%는 지수 수급이 아니라 Astellas 딜(2월)·bulevirtide 승인에 따른 HDV 시장 창출(5월)·SOLSTICE 96주 데이터(5월)라는 펀더멘털 이벤트의 누적임 [actual 이벤트 / inference 귀속]. VIR에게 남은 것은 보너스가 아니라 본게임(ECLIPSE 1, 4Q26)임",
+      "testability": "low",
+      "current_status": "indirect"
+    }
+  ],
+  "reverse_dcf": {
+    "market_cap_usd_bn": 1.93,
+    "cash_and_investments_usd_bn": 1.01,
+    "enterprise_value_usd_bn": 0.92,
+    "enterprise_value_yfinance_usd_bn": 1.49,
+    "implied_peak_hdv_sales_usd_bn_range": [
+      1.0,
+      1.7
+    ],
+    "assumed_pos_pct": 60,
+    "notes": "밸류에이션 앵커 — 시총 $1.93B [actual, yfinance 2026-09-04 live, 주가 $11.39]. 현금·현금성자산·투자자산 합계 $1.01B [actual, 2Q26 8-K EX-99.1]. 따라서 파이프라인에 부여된 순수 기업가치 EV ≈ $1.93B − $1.01B = 약 $0.92B [derived]. yfinance enterpriseValue는 $1.49B로 표시되는데 이는 현금 항목을 totalCash $532.7M(현금성자산+단기투자)만 차감하고 totalDebt $93.3M을 더한 값이라 기준이 다름 [actual/derived] — 두 숫자를 섞으면 안 됨. 역산 논리: EV $0.92B가 전부 HDV 프랜차이즈라고 가정하고, 승인 후 특허 잔여기간·할인율 12%·순마진 35%를 반영한 peak sales 대비 NPV 배수를 약 1.5배로 잡으면, ECLIPSE 성공확률 60%에서 필요한 peak HDV 매출은 약 $1.0B임 [inference]. yfinance 기준 EV $1.49B를 쓰면 약 $1.7B로 올라감 [inference]. → 즉 시장은 VIR HDV 프랜차이즈에 대략 연 $1.0~1.7B의 정점 매출을 요구하는 중임. 이 수치는 감염자 12~20M명이라는 모수에 비하면 낮아 보이지만, 실제 진단·치료 연결 인구가 수만 명 단위임을 감안하면 환자당 연 $50~100k 가격을 전제한 공격적인 숫자임 [inference]. 다만 EV에는 종양 축(Astellas 추가 마일스톤 최대 $1.37B + ex-US 로열티, VIR-5818·VIR-5525 100% 자체 보유)의 옵션가치가 섞여 있으므로 [actual], HDV에만 귀속되는 실제 내재 기대치는 위 범위의 하단 또는 그 아래일 가능성이 큼 [inference] — 이는 ECLIPSE 성공 시 상방이 생각보다 크다는 뜻이기도 함. 컨센서스 9명 평균 목표가 $20.78(현재가 대비 +82%)은 대체로 ECLIPSE 성공을 가정한 값으로 보임 [actual 목표가 / inference 해석]. 손익 기반 전통적 DCF는 적용 불가 — 2021~2022년 흑자는 sotrovimab 일회성이고 2Q26 흑자는 Astellas 계약금이라 정상화 이익 자체가 존재하지 않음 [actual]."
+  },
+  "analysis_mode": "single",
+  "thesis_count": 10
+}
