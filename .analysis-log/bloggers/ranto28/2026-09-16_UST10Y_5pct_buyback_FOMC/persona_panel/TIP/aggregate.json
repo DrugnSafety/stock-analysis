@@ -1,0 +1,486 @@
+{
+  "ticker": "TIP",
+  "aggregated_at": "2026-09-16T23:15:07.378777+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "neutral": {
+      "count": 7,
+      "pct": 41.2
+    },
+    "bullish": {
+      "count": 1,
+      "pct": 5.9
+    },
+    "lean_bullish": {
+      "count": 5,
+      "pct": 29.4
+    }
+  },
+  "average_confidence": 0.559,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "bullish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "bullish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bearish",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "Sharpe 1y ≈ −1.46 — T-bill 대비 음의 초과수익",
+        "최근 1개월 −0.80%로 하락 가속",
+        "beta·상관행렬·VaR·Sortino 부재로 모델 입력 불완전"
+      ],
+      "key_opportunities_top3": [
+        "변동성 3.36% low regime — 추세 반전 시 레버리지 없는 진입 허용",
+        "1m 구간 TLT와 방향 불일치 — 독립 driver에 따른 분산 가능성",
+        "5y 최대 낙폭 구간(2023)에서 회복한 이력"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 무위험수익률은 ^IRX 현재·1y 전 값의 단순 평균 근사이며 beta·상관·VaR은 제공 데이터에 없음.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "도메인 밖 — 기업 분석 도구(PEG·카테고리) 적용 불가",
+        "성장 없음 — 10루타 구조적으로 불가능",
+        "주식 이익수익률과의 비교 데이터 미확보"
+      ],
+      "key_opportunities_top3": [
+        "12세에게 설명 가능한 단순 구조",
+        "실질 2.60% — 과거 대비 괜찮은 조건",
+        "스토리가 깨져도 크게 다치지 않는 낮은 변동성(3.36%)"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. S&P 500 이익수익률·배당수익률은 본 분석에서 조회하지 않아 채권-주식 비교는 확인 불가.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "시계열 모멘텀 음(−) — 3m·6m 연속 하락, 실질금리 상승 추세",
+        "value z를 장기 시계열 없이 1y 비교로 산출 — 측정 신뢰도 한계",
+        "FOMC 인상 시 실질 현금금리 상승으로 carry 축소"
+      ],
+      "key_opportunities_top3": [
+        "value·carry 두 factor가 동시에 우호적",
+        "composite 임계 근처 — 모멘텀 개선 시 빠른 등급 상향 가능",
+        "CPI accrual lag로 향후 carry 추가 가능"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. DFII10 장기 평균·표준편차 미조회로 value z-score는 1y 비교 기반 근사이며 composite 경계 판정 신뢰도가 낮음.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "bullish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "FOMC 인상 + 에너지 가격 진정 시 실질금리 추가 상승(+50bp ≈ −3.3%)으로 단기 손실",
+        "2008년형 유동성 위기에서는 TIPS가 명목채 대비 크게 부진한 전례(실질금리 급등·BEI 급락) [inference]",
+        "원화 투자자는 원화 강세(3m +11%)로 환손실이 채권 수익을 압도할 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "실질 2.60% + 인플레 pass-through 조합 — 부채사이클 후반의 핵심 방어 자산",
+        "BEI 2.38%가 실현 CPI 3.4%보다 1.02%p 낮아 인플레 서프라이즈 옵션이 저렴",
+        "연준 5% 레드라인 개입(금융억압) 시 실질금리 하락+BEI 상승의 이중 수혜"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 현재 성장 quadrant(침체 여부)는 판정 보류이며, TIPS 기준 CPI의 2~3개월 lag로 에너지 쇼크의 accrual 반영 시점은 근사치임.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bearish",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "실질 2.60%는 부 창출 기준(ROE 15%)에 크게 미달",
+        "원화 투자자: 3개월 원화 +11% 강세·환헤지 비용 연 0.6~0.9%p",
+        "재투자 runway가 좁음 — 복리 엔진 아님"
+      ],
+      "key_opportunities_top3": [
+        "인플레 재점화 시 명목채 대비 구매력 보존",
+        "기회를 기다리는 대기 탄약의 인플레 보험",
+        "발행자 신용상 영구 손실 위험 낮음"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 원화 투자자의 실제 환헤지 비용(선물환 포인트)은 확인 불가.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CPI 산출자 = 채무자 정부 — 구조적 인센티브 불일치",
+        "실질금리 추가 상승 경로가 이미 1년간 실현(1.70→2.60%)",
+        "채권은 가치 창출력 없음 — 인플레를 이익으로 바꾸지 못함"
+      ],
+      "key_opportunities_top3": [
+        "실질 2.60%는 과거 제로 실질금리 대비 공정한 가격",
+        "명목채 대비 인플레 꼬리 보전",
+        "변동성 3.36% — 단순한 대기자금 보험 역할"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. CPI 방법론 왜곡은 인센티브상 가능성일 뿐 증거는 확인 불가.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "50% 안전마진 기준 미달 — 채권은 구조적으로 대폭 디스카운트 불가",
+        "비대칭 X/Y가 3:1 문턱에 겨우 걸침 — 시나리오 가정 민감",
+        "FOMC 직후 실질금리 상승으로 진입가가 더 좋아질 가능성(서두를 이유 없음)"
+      ],
+      "key_opportunities_top3": [
+        "영구 자본 손실 위험 사실상 없음(미 정부 신용 + CPI 연동)",
+        "인플레 재가속·침체 양쪽에서 플러스인 시나리오 구조",
+        "한 문단으로 설명 가능한 단순한 자산"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 시나리오 확률은 동일 가중 가정이며 실제 확률은 확인 불가.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "발행자(미 재무부)의 재정 청지기 정신 약화 — 실질금리 요구 상승 압력",
+        "TIPS는 복리 성장 없는 계약형 자산 — 장기 부의 창출 수단 아님",
+        "실질 듀레이션 ~6.5년: 실질금리 +50bp면 T-bill 대비 1년치 초과수익 소멸"
+      ],
+      "key_opportunities_top3": [
+        "실질 2.60% — 과거 10여년 대비 매력적인 실질 기본이자",
+        "인플레 재발 시 명목채 대비 구매력 보전",
+        "미 정부 신용 — 영구 원금 손실 가능성 사실상 없음"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 버크셔의 현 시점 T-bill 보유 규모는 본 분석에서 확인하지 않음([inference]).",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "FOMC 인상 시 실질금리 추가 상승 → 하락 추세 연장",
+        "근원 PPI MoM 0.2%(예상 하회) — 인플레 전가 서사의 반대 데이터",
+        "채권 포지셔닝·자금흐름 데이터 부재로 sentiment 판단이 추론에 의존"
+      ],
+      "key_opportunities_top3": [
+        "BEI 2.38%가 실현 CPI 3.4%·WTI $103.74를 미반영 — 상대가치(TIP 롱/명목 숏) 2:1 셋업",
+        "매파적 동결 시 BEI 급등 가능 — 이벤트 옵션",
+        "10월 9월 CPI에서 에너지 2차 전가 확인 시 추세 전환 catalyst"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 채권 시장 sentiment(CFTC·ETF flow) 미조회로 pain trade 판정은 [inference]임.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "가장 가까운 catalyst(FOMC 인상)가 TIP 가격에 불리한 방향",
+        "발행자 자본배분 실패(바이백·TGA·배당금 공약) 지속",
+        "기대수익이 집중 투자 요구수익률에 미달"
+      ],
+      "key_opportunities_top3": [
+        "10월 CPI에서 에너지 전가 확인 시 BEI 상방 catalyst",
+        "실질 기간 스프레드 2.0~2.4%p — 우호적 캐리",
+        "중간선거·재정 공약이 인플레 기대를 자극할 날짜 있는 이벤트"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 애크먼의 2023년 장기채 숏 관련 세부 사실은 본 분석에서 원문 확인하지 않음.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "15-point 대부분 적용 불가 — 도메인 밖 판단의 신뢰도 낮음",
+        "발행자 커뮤니케이션·CPI 산출 구조의 정직성 우려",
+        "국채 공급 증가(희석) 지속"
+      ],
+      "key_opportunities_top3": [
+        "실질 2.6% 10년 복리 +29% — 확실성 높은 runway",
+        "실무자 논평상 명목채보다 물가연동채 선호 흐름",
+        "변동성 3.36% — 대기자금 보관에 무난"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 스캐틀버트는 공개 기사로 대체했으며 직접 인터뷰는 없음([inference]).",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "FOMC 인상 후 실질금리 오버슈트(DFII10 2.9%+) 시 −2~3% 단기 손실",
+        "근원 PPI MoM 0.2%·근원 CPI YoY 2.4% — 인플레 전가가 일어나지 않을 가능성",
+        "ETF 구조상 개별 TIPS 원금 floor 부재 — 디플레 시 accrual 음수"
+      ],
+      "key_opportunities_top3": [
+        "시장이 1년간 BEI를 2.37→2.38%로 고정 — WTI +61%를 무시한 mispricing",
+        "9월 CPI(10월 발표)에서 8월 에너지 급등이 accrual로 기계적 반영되는 hard catalyst",
+        "실질 2.60%는 1y 전 대비 +0.9%p — 같은 보험을 더 높은 기본이자로 매수"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 이란 전쟁발 에너지 쇼크의 지속 기간과 휴전 가능성은 확인 불가. 2008년 TIPS 부진 사례의 구체 낙폭 수치는 미조회.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "인플레 루프가 Stage 1에서 좌초(근원 PPI MoM 0.2%·에너지 반락) 가능성",
+        "FOMC 인상이 연준 신뢰를 강화해 BEI 하락 유도",
+        "금리공포 루프가 Stage 5→6(climax)으로 더 가면 실질금리 오버슈트"
+      ],
+      "key_opportunities_top3": [
+        "미인식 인플레 서사(Stage 1~2)에 대한 저렴한 노출",
+        "금리공포 루프 반전 시 실질금리 하락으로 이중 수혜",
+        "연준 신뢰 균열(T09) 시 5y5y·BEI의 reflexive 재평가"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. reflexivity 단계 판정은 본질적으로 [inference]이며 채권 포지셔닝 데이터 미조회.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "주식식 안전마진(33%) 부재 — 실질금리 기준 디스카운트 약 5.6%에 불과",
+        "ETF 구조상 원금 floor·만기 원금 회수 보장 없음",
+        "발행자 재정(이자 커버리지) 악화 추세"
+      ],
+      "key_opportunities_top3": [
+        "방어적 투자자 치환 테스트 7/9 통과",
+        "명목채 대비 인플레 방어 — 그레이엄이 경고한 채권의 최대 적 차단",
+        "실질 2.60%로 1년 전보다 나은 진입"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. yfinance 3y_return 필드의 연율화 여부는 확인 불가.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "이란 전쟁발 에너지 쇼크가 장기화되면 BEI 상승으로 thesis 반대 방향",
+        "Wright's law 학습률 등 디플레 근거 수치를 본 분석에서 검증하지 못함",
+        "재정지배형 인플레가 혁신 디플레를 압도할 가능성"
+      ],
+      "key_opportunities_top3": [
+        "디플레 전환 시 명목 장기채가 TIPS 대비 약 4.5%p 우위 (근사)",
+        "근원 PPI MoM 하회·근원 CPI 2.4% — 디스인플레 초기 신호",
+        "고유가가 EV·에너지 저장 채택 가속 → 장기 인플레 하방"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. ARK의 Wright's law 학습률 수치와 AI 생산성의 물가 효과 크기는 본 분석에서 조회하지 않아 [inference]임.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "적정 실질금리 추정(2.2~2.6%)이 실질 성장 가정에 크게 의존 — 미 실질 성장 추정치 미조회",
+        "인상·재정 확대로 실질 할인율이 가정 상단을 넘을 위험",
+        "분배수익률 4.98%를 기대수익률로 오독하는 흔한 오류"
+      ],
+      "key_opportunities_top3": [
+        "명목채 대비 인플레 기대(2.38%)가 보수적으로 가격돼 상대가치 우위",
+        "실질 2.60%는 적정 범위 상단 — 추가 상승 여력 제한적",
+        "현금흐름이 계약으로 고정돼 가치 변수가 단일(실질 할인율)"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 미국 장기 실질 성장률·중립금리 1.1%의 출처는 확인 불가로 [assumption] 처리함.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CPI를 채무자(미 정부)가 산출 — 방법론 변경 리스크와 skin in the game 부재",
+        "실질금리에 대해 선형 손실 — 재정 신뢰 붕괴 시 실질금리 급등 꼬리",
+        "유동성 위기(2008형) 시 TIPS 시장 유동성 증발·BEI 급락 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "인플레 꼬리(지정학 에너지 쇼크·재정지배)에서 명목채 대비 상대 payoff 확대",
+        "명목 장기채 대비 꼬리 크기 1/3 — 덜 fragile한 듀레이션",
+        "SGOV+TIP 바벨로 예측 없이 인플레·금리 양방향 노출 관리"
+      ],
+      "uncertainty": "9월 FOMC 결정(9/17 03:00 KST 발표)은 분석 시점 미발표 — 결과 확인 불가, 인상 확률 83~92%는 CME FedWatch 보도 기준임. TIP 실질 듀레이션 ~6.5년·펀드 실질 YTM은 iShares 상품 페이지 미조회로 [estimated]/[unavailable] — 민감도 계산은 모두 근사치임. 2008년 TIPS 유동성 쇼크의 정확한 낙폭과 CPI 방법론 변경 가능성은 확인 불가 — 꼬리는 본질적으로 추정 불가하다는 점을 인정함.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
