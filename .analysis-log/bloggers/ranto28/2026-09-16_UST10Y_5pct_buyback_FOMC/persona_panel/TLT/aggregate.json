@@ -1,0 +1,490 @@
+{
+  "ticker": "TLT",
+  "aggregated_at": "2026-09-16T23:15:07.290470+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 6,
+      "pct": 35.3
+    },
+    "neutral": {
+      "count": 5,
+      "pct": 29.4
+    },
+    "bearish": {
+      "count": 1,
+      "pct": 5.9
+    },
+    "lean_bullish": {
+      "count": 4,
+      "pct": 23.5
+    },
+    "bullish": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.559,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bearish",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "bearish",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "bearish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.65
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "전 구간 음(−) 모멘텀 지속",
+        "Sharpe 음(−) — 무위험 대비 보상 부재",
+        "MONETARY_TIGHTENING 레짐"
+      ],
+      "key_opportunities_top3": [
+        "10Y 2y 범위 상단 98% — 평균회귀 확률",
+        "캐리 양(+) 0.99%p",
+        "low vol regime — 신호 전환 시 사이징 용이"
+      ],
+      "uncertainty": "베타·VaR·MDD 등 risk_metrics 미제공[unavailable]. Sharpe는 1y 단일 구간 근사로 통계 신뢰도 낮음. FOMC 결과 확인 불가.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "수익이 금리 예측 하나에 의존",
+        "주식 이익수익률 대비 상대 매력 확인 불가",
+        "1y −6.21% — 쿠폰으로 가격 손실을 못 메운 실적"
+      ],
+      "key_opportunities_top3": [
+        "분배수익률 4.73% — 과거 대비 인컴 매력",
+        "고금리 현장 신호가 둔화로 바뀌면 금리 하락 가능",
+        "공포 국면의 할인 자산 성격"
+      ],
+      "uncertainty": "S&P 이익수익률[unavailable]. FRED MORTGAGE30US 1y 전 3.1% 표기는 수치 신뢰성 확인 불가(주간 시리즈 기준 차이 가능). FOMC 결과 확인 불가.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "음(−) 모멘텀 지속 시 value trap",
+        "인플레 레짐에서 방어 팩터 무력화",
+        "인상 시 커브 평탄화로 캐리 축소"
+      ],
+      "key_opportunities_top3": [
+        "실질금리 수년래 고점 — value 팩터 강함",
+        "캐리·롤다운 양(+)",
+        "모멘텀 전환 시 lean_bullish로 신호 전환 가능"
+      ],
+      "uncertainty": "z-score는 장기 시계열 표준화가 아닌 1y 변화 기반 근사[derived]. beta[unavailable]. FOMC 결과 확인 불가.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "bearish",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "인플레형 디레버리징 시 장기 명목채 실질가치 훼손",
+        "재정 확장($5,000 공약)과 부채 만기 단축의 동시 진행",
+        "인플레 국면 주식-채권 양(+)의 상관으로 분산 효과 약화"
+      ],
+      "key_opportunities_top3": [
+        "수요 파괴형 침체 전환 시 듀레이션 급반등(−100bp ≈ +22.5% 1y)",
+        "연준 개입(5% 레드라인) 시 단기 랠리",
+        "분배수익률 4.73% — 2023년 이후 최고권 캐리"
+      ],
+      "uncertainty": "FOMC 9월 결정은 분석 시점 미발표(확인 불가). TLT 실제 듀레이션·볼록성은 iShares 공시 미확인으로 ~16년 추정치 사용. 美 정부부채/GDP·실업률은 본 파이프라인 데이터에 없음[unavailable] — 부채사이클 단계 판정은 정책 행태 기반 inference임.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "인플레·재정 공급으로 금리 고점 연장",
+        "가격 손실이 쿠폰을 넘는 수익 변동성",
+        "원화 투자자 환율 역풍"
+      ],
+      "key_opportunities_top3": [
+        "사이클 고점권 비관 속 장기 진입",
+        "미 국채의 대체 불가 지위",
+        "긴축 사이클 종료 시 장기 끝단 최대 회복"
+      ],
+      "uncertainty": "사이클 고점 판단은 inference — 2007년처럼 5% 이상이 장기 지속된 선례(thesis T10 counter) 존재. FOMC 결과 확인 불가.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "모든 정책 참가자의 인센티브가 장기 채권자에 불리",
+        "인플레 고착 시 실질가치 잠식",
+        "앵커링·사회적 증거에 의한 레벨 매수 오판"
+      ],
+      "key_opportunities_top3": [
+        "침체·디플레 전환 시 역전 경로",
+        "미국 정부 신용 — 영구 손실 위험 없음",
+        "기대인플레 안정 시 텀프리미엄 되돌림"
+      ],
+      "uncertainty": "인센티브 분석은 정성적 inference. S&P 이익수익률[unavailable]로 주식 대비 기회비용 정량화 불가. FOMC 결과 확인 불가.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "상수 듀레이션 ETF — 만기 수렴 없음",
+        "비대칭 2.4:1로 기준 미달",
+        "인플레 레짐 시 회복 불가 가격 손실"
+      ],
+      "key_opportunities_top3": [
+        "미 정부 신용 — 영구 원금 손실 위험 사실상 없음",
+        "−200bp 강세 시나리오 1y ≈ +44%",
+        "만기 보유 개별 국채로 치환 시 Dhandho 구조 개선"
+      ],
+      "uncertainty": "버크셔·애크먼 포지션은 본 evidence 미수록 공개 정보 기반 inference. 볼록성·듀레이션 추정치. FOMC 결과 확인 불가.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.65,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "인플레 재가속 시 명목 쿠폰 구매력 잠식",
+        "발행체 재정 규율 부재($5,000 공약·만기 단축)",
+        "금리 예측 의존 — 능력범위 밖"
+      ],
+      "key_opportunities_top3": [
+        "미국 정부 신용 — 영구 원금 손실 위험 사실상 없음",
+        "5% 명목수익률은 저금리기 대비 합리적 가격",
+        "공포 국면에서 대기 자금의 기회비용 낮음"
+      ],
+      "uncertainty": "금리·인플레 경로는 본질적으로 예측 불가. TLT 듀레이션은 공시 미확인 추정. FOMC 결과 확인 불가.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "인상 국면 초입의 롱 듀레이션 = 연준과 싸우는 포지션",
+        "재정 공급($5,000 공약·T-bill 조달) 지속",
+        "중기 모멘텀 전 구간 음(−)"
+      ],
+      "key_opportunities_top3": [
+        "연준의 금융안정 개입 시 급반등 비대칭",
+        "5% 레벨 캐리 4.73% 쿠션",
+        "동결·비둘기 서프라이즈 시 숏커버 랠리"
+      ],
+      "uncertainty": "FOMC 결과 미발표(확인 불가). 연준 5% 레드라인 존재는 공식 근거 없음. 포지셔닝·펀드플로 데이터(AAII·CFTC)는 본 파이프라인에 없음[unavailable] — 센티먼트는 뉴스 톤 기반 inference.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "발행체 거버넌스(재정 규율) 불량",
+        "인플레 꼬리 — 30Y 6%대 시 −9.5%(1y)",
+        "11월 리펀딩 장기물 증액 위험"
+      ],
+      "key_opportunities_top3": [
+        "5% 레벨 비대칭 개선 — 2023 커버 전례와 유사",
+        "9~11월 촉매 집중(FOMC·바이백·리펀딩·선거)",
+        "포트폴리오 헤지 가치"
+      ],
+      "uncertainty": "확률 가중치는 분석자 가정[assumption]. 2023 숏 커버 발언은 본 evidence 파일 미수록. 리펀딩 일정 추정. FOMC 결과 확인 불가.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bearish",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "장기물 수요 성장 증거 부재 — 팔자 물량 10배",
+        "발행체 정책 도구가 근본 원인 미해결",
+        "재정 커뮤니케이션 신뢰 훼손"
+      ],
+      "key_opportunities_top3": [
+        "보유자 실질 보상 1년 새 개선",
+        "입찰 수요 개선 확인 시 판단 전환 가능",
+        "분배 4.73% 재투자 복리"
+      ],
+      "uncertainty": "입찰 결과(bid-to-cover·tail)·해외 보유 데이터[unavailable]. 우물가 정보는 직접 인터뷰가 아닌 보도 인용[inference]. FOMC 결과 확인 불가.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "1970년대형 인플레 재가속 꼬리",
+        "FOMC 인상 후 매파 점도표로 장기금리 추가 상승",
+        "TLT는 만기 없는 ETF — pull-to-par 없음"
+      ],
+      "key_opportunities_top3": [
+        "실질금리 2.60% 공포 프리미엄 되돌림",
+        "2023-10 유사 레벨 반전 선례",
+        "1y 캐리 4.73%로 하방 절반 상쇄"
+      ],
+      "uncertainty": "TLT 실제 듀레이션 미확인(~16년 추정). 2023-10 이후 되돌림 폭은 본 데이터에 없음[unavailable]. FOMC 결과 확인 불가. 손절 레벨은 판단 기준 예시임.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.5,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "금리-적자 자기강화 루프 지속",
+        "당국 개입의 기대 실망 반복 위험",
+        "연준 5% 레드라인을 시장이 시험하는 구도"
+      ],
+      "key_opportunities_top3": [
+        "연준·재무부 체제 전환 시 과매도 반전 랠리",
+        "인플레 기대 급락 시 텀프리미엄 급감",
+        "TGA 투입 QE 라이트 단기 랠리"
+      ],
+      "uncertainty": "FOMC·리펀딩 결과 미확인. 반사성 단계 판정은 뉴스 톤 기반 inference로 정량 검증 한계. 포지셔닝 데이터[unavailable].",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "20년+ 듀레이션의 가격 불안정성",
+        "헤드라인 CPI 3.4% 대비 명목 여유 1.57%p",
+        "발행체 재정 규율 개선 증거 부재"
+      ],
+      "key_opportunities_top3": [
+        "실질 수익률 2.60% — 수년래 두꺼운 여유",
+        "쿠폰 4.73%로 30bp/년 금리 상승 흡수",
+        "공포 국면 정기 분할로 평균 단가 개선"
+      ],
+      "uncertainty": "TLT 듀레이션 공시 미확인 추정. S&P 이익수익률[unavailable]로 주식-채권 배분 비교 불가. FOMC 결과 확인 불가.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "bullish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "에너지 쇼크의 근원 물가 2차 전가",
+        "재정 확장발 공급 부담 — 혁신 논리로 상쇄 불가",
+        "단기 30Y 6%대 오버슈트"
+      ],
+      "key_opportunities_top3": [
+        "실질금리 2.60% 되돌림 시 장기채 최대 수혜",
+        "5년 horizon −150bp ≈ +24% + 캐리",
+        "과잉 긴축 → 빠른 인하 전환 가능성"
+      ],
+      "uncertainty": "혁신 디플레의 거시 인플레 영향은 정량 검증 곤란[assumption]. TLT 듀레이션 추정치. FOMC 결과 확인 불가.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "장기 인플레 가정 상향 시 내재가치 역전",
+        "블로거 파라미터(중립 1.1%·TP 1.5%) 근거 부족",
+        "TLT 듀레이션이 가정 오차를 16배로 증폭"
+      ],
+      "key_opportunities_top3": [
+        "실질금리가 실질성장 대비 0.6~0.8%p 높음 — 되돌림 여지",
+        "BEI 기준 내재 대비 약 +11% 괴리",
+        "가격이 합리적 범위 상단 — 추가 하락 시 신호 강화"
+      ],
+      "uncertainty": "실질 GDP 성장 가정은 본 데이터에 없음[assumption]. TLT 듀레이션 추정. 중립금리 1.1% 출처 확인 불가. FOMC 결과 확인 불가.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "인플레 체제 전환 시 16년 듀레이션 비선형 손실",
+        "주식-채권 동반 하락으로 크래시 헤지 무력화",
+        "SGOV 대비 보상 0.99%p 빈약"
+      ],
+      "key_opportunities_top3": [
+        "디플레·시스템 위기 꼬리에서 크래시 헤지 가치",
+        "양(+) 볼록성",
+        "HY OAS 2.76% 과도한 안심 → 위기 시 장기채 수혜 가능"
+      ],
+      "uncertainty": "꼬리 확률은 본질적으로 추정 불가. TLT 듀레이션·볼록성은 공시 미확인 추정치. FOMC 결과 확인 불가.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
