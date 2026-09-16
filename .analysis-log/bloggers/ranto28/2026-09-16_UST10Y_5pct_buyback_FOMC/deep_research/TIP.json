@@ -1,0 +1,519 @@
+{
+  "industry": {
+    "name": "미국 물가연동국채(TIPS) 전 만기 인덱스 ETF — 실질금리 + CPI-U 원금 인덱싱 노출",
+    "overview": "TIP는 BlackRock iShares의 TIPS Bond ETF로 ICE U.S. Treasury Inflation Linked Bond Index를 추종함 [actual · iShares 2026-09-15]. 순자산 $14.65B·보유 49종목·보수 0.18%·실효 듀레이션 6.29년·가중평균 만기 7.12년·실질수익률(Real Yield) 2.56%·가중평균 YTM 4.86%·30일 SEC yield -0.32%·12개월 trailing yield 4.64%임 [actual · iShares 2026-09-15, https://www.ishares.com/us/products/239467/ishares-tips-bond-etf]. yfinance totalAssets는 $15.01B로 iShares 수치와 약 $0.36B 차이 남 [actual · yfinance 2026-09-16 live] — 산정 기준일 차이로 추정됨 [inference]. yfinance funds_data의 Duration 1.34는 iShares 공시(6.29년)와 불일치하므로 인용하지 않음 [actual · yfinance 필드 오류로 판단, inference].\n\n■ TIPS 구조 — TIPS 원금은 CPI-U(비계절조정, NSA)에 연동되어 매일 조정되고, 고정 실질 쿠폰은 조정된 원금에 곱해져 지급됨 [actual · TreasuryDirect TIPS 규정]. 기준 CPI는 약 3개월 시차로 적용됨(M월 1일 기준 CPI = M-3월 CPI, 월중에는 M-2월 CPI 방향으로 선형 보간) [actual · TreasuryDirect]. 만기 시 원금은 최초 액면 이하로 내려가지 않는 디플레이션 floor가 있으나, 누적 인플레가 큰 구(舊) 발행물에는 사실상 무의미함 [inference]. Tipswatch에 따르면 8월 CPI-U NSA 지수는 334.980으로 전월 대비 +0.32%, 이에 따라 TIPS 원금은 9월 -0.01% 후 10월 +0.32% 증가하며 10월 기준 1년 원금 증가율은 3.4%임 [actual · Tipswatch 2026-09-11, https://tipswatch.com/2026/09/11/u-s-inflation-holds-at-3-4-for-august-will-that-lead-to-a-rate-hike/].\n\n■ 명목금리 분해 — 10년 명목 ≈ 10년 실질금리(DFII10) + 10년 기대인플레(BEI, T10YIE)임. 현재 DFII10 2.60%(9/14) + T10YIE 2.38%(9/15) = 4.98%로 ^TNX 4.973%(9/16)와 거의 일치함 [actual · FRED·yfinance / derived]. 1년 전 DFII10 1.70%·T10YIE 2.37%였으므로 지난 1년 명목 10년물 상승(4.03→4.97%)의 사실상 전부(+0.90%p)가 실질금리에서 나왔고 BEI 기여는 +0.01%p에 불과함 [derived · FRED rates_context.json]. 즉 이번 금리 발작은 '인플레 기대 폭발'이 아니라 '실질금리(=연준 인상 기대 + 실질 텀프리미엄) 급등'으로 가격화되고 있음 [derived]. TIP 입장에서는 실질금리 상승이 가격 손실 요인(듀레이션 6.29년)이고, BEI 불변은 인플레 헤지 가치가 아직 가격에 거의 반영되지 않았다는 뜻임 [inference].\n\n■ 블로거 공식과의 정합 — 블로거는 '10년물 = 2.6%p(중립금리 1.1 + 텀프리미엄 1.5) + 장기인플레'를 제시함 [actual · 블로그 3편]. 시장 분해상 실질금리 2.60%와 숫자가 우연히 일치함 [derived]. 다만 개념은 다름 — 시장 실질금리에는 기대 실질 단기금리 경로 + 실질 텀프리미엄 + TIPS 유동성 프리미엄이 섞이고, BEI에는 기대인플레 + 인플레 리스크 프리미엄 − 유동성 프리미엄이 섞임 [inference]. 블로거가 쓴 TP 1.5%는 FRED KW 0.961%(9/11)·NY Fed ACM 0.80%(8/13)보다 높아 모델별 괴리가 있음 [actual · FRED/MacroMicro]. 블로거 공식에 장기인플레 2.38%(시장 BEI)를 넣으면 4.98%, 2.6%를 넣으면 5.2%가 나옴 [derived] — 블로거가 2023년 가정한 '장기인플레 2%중후반'이 맞다면 시장 BEI 2.38%는 과소 반영임.\n\n■ BEI 2.38% 저평가 논리 (T07 연결) — 8월 CPI 3.4% YoY(에너지 +16.3%·휘발유 +27.4%) [actual · BLS/CNBC 9/11], 7월 PCE 3.7% YoY·근원 PCE 3.3% YoY [actual · BEA 2026-08-26, https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026], 8월 근원 PPI 4.6% YoY(7월 4.2%) [actual · BLS 9/10], WTI $103.74·Brent $107.37(1y 전 $64.52·$68.47) [actual · yfinance 9/16]임. 반면 10년 BEI 2.38%·5y5y 2.35%는 1년 전(2.37%·2.33%)과 사실상 동일함 [actual · FRED]. 블로거 논리대로 PPI → 2~3개월 뒤 CPI·PCE 전가가 일어나면 실현 인플레가 BEI를 상회하여 TIPS가 동일 만기 명목채 대비 초과수익을 낼 조건이 됨 [inference]. Tipswatch도 '지난 10년 평균 인플레 3.4%를 감안하면 BEI 2.38%는 합리적(낮은 편)'이라고 언급함 [actual · Tipswatch 9/13, https://tipswatch.com/2026/09/13/this-weeks-10-year-tips-auction-has-strong-appeal/]. 단기 구간 BEI는 이미 더 높음 — 1년 BEI 2.50%·5년 BEI 2.52% vs 10년 2.33%·30년 2.26%(9/14, StreetStats) [actual · https://streetstats.finance/rates/tips] → 시장은 에너지 쇼크를 '단기 현상'으로 보고 장기 기대는 고정된 상태로 해석함 [inference]. 반대 데이터로 근원 CPI YoY 2.4%는 목표에 근접하고 8월 근원 PPI MoM은 0.2%로 예상(0.3%) 하회함 [actual · BLS] — 2차 전가가 약할 가능성도 열려 있음.\n\n■ 실질금리 역사적 위치 — 10년 TIPS 실질금리 2.60%(DFII10, 9/14)는 1개월 전 2.39%·1년 전 1.70%에서 급등한 수준임 [actual · FRED, https://fred.stlouisfed.org/series/DFII10]. 7/23 신규 10년 TIPS(CUSIP 91282CRE3, 쿠폰 2.375%) 입찰 실질수익률 2.438%는 '2008년 10월 이후 이 만기 입찰 최고'였음 [actual · Tipswatch 2026-07-23, https://tipswatch.com/2026/07/23/10-year-tips-auction-gets-real-yield-of-2-438-a-great-result-for-investors/]. Tipswatch는 9/13 기준 동일 CUSIP 유통 실질수익률 2.59%로 2023년 가을 고점을 넘어섰고, 지난 20년 114회 입찰 중 실질 2.0% 초과는 2010년 이전 또는 2023년 이후뿐이었다고 정리함 [actual · Tipswatch 9/13]. 따라서 '2008년 금융위기 이후 최고권' 표현은 입찰 기준으로 확인됨. 일별 유통 DFII10 시계열 기준으로 2008년 이후 최고인지는 본 분석에서 직접 검증하지 않음 [unavailable].\n\n■ CPI accrual 계절성 — NSA CPI는 통상 1~5월 상승폭이 크고 11~12월은 약하거나 마이너스인 경향이 있어, 3개월 시차를 거친 TIPS 원금 증가는 봄~여름에 크고 연초에 약해짐 [inference · CPI NSA 계절 패턴]. TIP 분배 실측이 이를 보여줌: 2025-12-19 이후 2026년 1~4월 분배 기록 없음, 5/1 $0.561 → 6/1 $1.278 → 7/1 $1.058 → 8/3 $0.784 [actual · yfinance dividends 2026-09-16]. 9/1 분배 기록도 없는데 이는 9월 원금 조정 -0.01%와 정합적임 [actual · Tipswatch / derived]. 10월 원금 +0.32%이므로 10월 초 분배 재개 가능성이 높음 [inference]. 직전 12개월 분배 합계 $5.321/주 ÷ $105.92 = 5.02%로 yfinance 분배수익률 4.98%와 정합함 [derived]. 30일 SEC yield -0.32%는 직전 월 원금 조정(-0.01%)이 반영된 순간값이라 연간 기대수익으로 해석하면 안 됨 [inference].\n\n■ 본 분석에서 TIP의 역할 — 블로거는 특정 ETF를 언급하지 않았으며 TIP 매핑은 분석자 판단임. 블로거의 5%~5.1% 명목 10년물 매수 논리(T10·T11)가 '연준이 5%에서 막아준다'는 쪽에 무게를 둔다면, TIP는 '연준 레드라인은 맞지만 인플레(T07)는 틀리지 않았다'는 경우를 보험하는 inflation hedge sleeve 역할임. 9/16 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표로 결과 확인 불가 — 시나리오로만 다룸. 매수·매도 권유 아님.",
+    "competitors": [
+      {
+        "name": "Schwab U.S. TIPS ETF — TIP와 유사한 전 만기 TIPS 인덱스. 보수 0.03%로 TIP(0.18%) 대비 연 0.15%p 저렴, 순자산 $16.08B·분배수익률 5.04%·1Y 총수익 -0.89% [actual · yfinance 2026-09-16 live]. 듀레이션은 TIP와 유사한 중기(약 6~7년)로 추정 [estimated · 운용사 공시 미확인]",
+        "ticker": "SCHP"
+      },
+      {
+        "name": "Vanguard Short-Term Inflation-Protected Securities ETF — 0~5년 단기 TIPS. 순자산 $73.17B·보수 0.03%·1Y 총수익 +1.67% [actual · yfinance 2026-09-16 live]. 듀레이션 약 2~3년으로 실질금리 상승 손실은 작고 CPI accrual 비중이 커 '순수 인플레 캐리'에 가까움 [estimated]. 분기 분배라 분배가 더 lumpy함 [actual · yfinance dividends]",
+        "ticker": "VTIP"
+      },
+      {
+        "name": "iShares 0-5 Year TIPS Bond ETF — iShares 단기 TIPS. 순자산 $16.08B·보수 0.03%·분배수익률 5.37%·1Y 총수익 +1.67% [actual · yfinance 2026-09-16 live]. 인상 국면 실질금리 급등 구간에서 TIP 대비 방어적 [inference]",
+        "ticker": "STIP"
+      },
+      {
+        "name": "PIMCO 15+ Year U.S. TIPS Index ETF — 장기 TIPS, 실질 듀레이션 약 18~20년으로 추정 [estimated]. 순자산 $0.85B·보수 0.20%·1Y 가격 -12.13%/총수익 -6.61% [actual · yfinance 2026-09-16 live]. 30년 TIPS 실질 3.03%(9/14 StreetStats) [actual]로 실질금리 하락 베팅 시 고베타 수단",
+        "ticker": "LTPZ"
+      },
+      {
+        "name": "State Street SPDR Bloomberg 1-10 Year TIPS ETF — 1~10년 TIPS. 순자산 $2.07B·보수 0.15%·1Y 총수익 +0.06% [actual · yfinance 2026-09-16 live]. TIP와 VTIP 사이의 중간 듀레이션 [estimated]",
+        "ticker": "TIPX"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-09-16",
+        "title": "WTI $103.74·Brent $107.37 — 이란 전쟁발 에너지 쇼크 지속",
+        "summary": "1개월 전 WTI $84.50·Brent $90.87, 1년 전 $64.52·$68.47 [actual · yfinance 2026-09-16 live]. CNBC 9/16 '이란 전쟁 영향: 유가·국채금리가 미국 소비자를 압박' 보도 [actual · 헤드라인]. 영향: 긍정적 — 휘발유·에너지 CPI 경유 원금 accrual 증가 및 단기 BEI 지지. 단, 연준 인상 압력으로 실질금리 상승 시 가격엔 부정적",
+        "source": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "iShares TIP 팩트시트 — 실질수익률 2.56%·실효 듀레이션 6.29년·순자산 $14.65B",
+        "summary": "보유 49종목, 가중평균 만기 7.12년, 가중평균 YTM 4.86%, 30일 SEC yield -0.32%, 12M trailing 4.64% [actual · iShares 2026-09-15]. 실질금리 +1%p당 가격 약 -6.3% [derived]. 영향: 중립(구조 확인) — 진입 실질수익률은 2008년 이후 최고권",
+        "source": "https://www.ishares.com/us/products/239467/ishares-tips-bond-etf"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "10년 TIPS 실질금리(DFII10) 2.60% — 1년 새 +0.90%p",
+        "summary": "DFII10 2.60%(1m 전 2.39·1y 전 1.70), T10YIE 2.38%(1y 전 2.37) [actual · FRED]. 명목 10년물 상승이 전적으로 실질금리에서 발생 [derived]. 영향: 부정적(보유자 평가손 — 1m 가격 -0.80%) / 긍정적(신규 진입 실질 캐리 확대)",
+        "source": "https://fred.stlouisfed.org/series/DFII10"
+      },
+      {
+        "date": "2026-09-13",
+        "title": "Tipswatch — 이번 주 10년 TIPS 재발행 입찰 '강한 매력', 유통 실질 2.59%",
+        "summary": "CUSIP 91282CRE3(쿠폰 2.375%) $19B 재발행, 목요일 13시 ET 마감, 결제 9/30. 유통 실질 2.59%로 2023년 가을 고점 상회. BEI 2.38%는 과거 10년 평균 인플레 3.4% 감안 시 합리적이라 평가 [actual · Tipswatch]. 영향: 긍정적(밸류에이션) — 단, 입찰 부진 시 실질금리 추가 상승 가능",
+        "source": "https://tipswatch.com/2026/09/13/this-weeks-10-year-tips-auction-has-strong-appeal/"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "미 10년물 장중 5.01% — 2023년 이후 처음 5% 돌파",
+        "summary": "인플레·국채 공급 우려로 5% 돌파 [actual · Bloomberg 9/14]. CNBC 9/15는 '2007년 이후 최고(연준 인상 베팅)'로 보도 [actual · CNBC 헤드라인]. 영향: 부정적 — 상승분이 실질금리 주도라 TIP 가격 하락, IEF 대비 손실폭은 작음(1m TIP -0.80% vs IEF -1.57%, yfinance)",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-14/us-10-year-yield-breaches-5-as-inflation-supply-worries-mount"
+      },
+      {
+        "date": "2026-09-11",
+        "title": "8월 CPI 3.4% YoY·0.4% MoM, 근원 0.3% MoM(예상 0.2%) — CPI-U NSA 334.980",
+        "summary": "에너지 +16.3% YoY·휘발유 +27.4% [actual · BLS/CNBC]. NSA 지수 +0.32% → TIPS 원금 10월 +0.32%, 10월 기준 1년 원금 +3.4% [actual · Tipswatch]. 영향: 긍정적(accrual·BEI) + 부정적(근원 서프라이즈로 인상 확률↑ → 실질금리↑). 단기적으로는 후자가 가격을 지배함 [inference]",
+        "source": "https://tipswatch.com/2026/09/11/u-s-inflation-holds-at-3-4-for-august-will-that-lead-to-a-rate-hike/"
+      },
+      {
+        "date": "2026-09-11",
+        "title": "FOMC 인상 확률 90%로 급등 — 근원 물가 월간 튐",
+        "summary": "페드워치 72.4%→83.4%(블로그) → 보도상 90% [actual · Yahoo Finance]. 인상 시 3.75~4.00% [actual · 보도]. 영향: 부정적 — 실질 단기금리 기대 상승이 10년 실질금리로 전이. 다만 인상이 장기 인플레 기대를 눌러 BEI 하락 요인도 됨",
+        "source": "https://finance.yahoo.com/economy/policy/article/fed-rate-hike-odds-surge-to-90-on-monthly-jump-in-core-prices-131206510.html"
+      },
+      {
+        "date": "2026-09-10",
+        "title": "8월 PPI — 근원 4.6% YoY(7월 4.2%), 근원 MoM 0.2%(예상 0.3% 하회)",
+        "summary": "최종수요 +0.4% MoM·5.4% YoY [actual · BLS]. 블로거는 2~3개월 뒤 CPI 전가를 우려(T07). 영향: 긍정적(TIPS 인플레 헤지 수요·BEI 상승 여지) — 단 MoM 하회로 전가 강도는 혼재",
+        "source": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      },
+      {
+        "date": "2026-09-09",
+        "title": "트럼프 '$5,000 배당금' 공약 — 1조달러+ 재정 소요",
+        "summary": "공화당 상·하원 승리 시 성인 1인 $5,000 [actual · NPR 9/9], 초당적 반발 [actual · CNBC 9/10]. 영향: 긍정적(수요 자극형 이전지출 → 인플레 기대·BEI 상승 요인) / 부정적(재정 확대 → 텀프리미엄·실질금리 상승). 입법 가능성 낮음 [inference]",
+        "source": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html"
+      },
+      {
+        "date": "2026-08-26",
+        "title": "7월 PCE 3.7% YoY·근원 PCE 3.3% YoY",
+        "summary": "PCE·근원 PCE 모두 전월 대비 +0.2% [actual · BEA 2026-08-26]. 연준 목표 지표가 CPI 근원(2.4%)보다 훨씬 높음 — 10년 BEI 2.38%와의 괴리 근거. 영향: 긍정적(인플레 헤지 논리 강화)",
+        "source": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "신규 10년 TIPS 입찰 실질 2.438% — 2008년 10월 이후 최고",
+        "summary": "CUSIP 91282CRE3 신규 발행 [actual · Tipswatch]. 이후 9월 유통 실질 2.59~2.60%로 추가 상승 [actual · Tipswatch/FRED]. 영향: 부정적(7월 이후 보유분 평가손) / 긍정적(장기 실질 캐리 확보 기회)",
+        "source": "https://tipswatch.com/2026/07/23/10-year-tips-auction-gets-real-yield-of-2-438-a-great-result-for-investors/"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 2152.66,
+      "cagr_pct": 5.74,
+      "horizon": "시장성 TIPS 잔액 $2,152.66B(2026-08-31, 인플레 조정 원금 포함) [actual · US Treasury MSPD Table 1, https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/]. 5년 전 2021-08-31 $1,628.63B → 5Y CAGR 5.74% [derived]. 2025-08-31 $2,065.00B 대비 1년 +4.2% [derived]. 시장성 국채 전체 $31,828.0B 중 6.76% [derived]. 공개 부채 총액 $40,175.6B [actual · MSPD]. TIP 순자산($14.65B)은 TIPS 잔액의 약 0.7% [derived]"
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "peer_compare": [
+      {
+        "ticker": "TIP",
+        "name": "iShares TIPS Bond ETF (BlackRock)",
+        "aum_usd_bn": 15.01,
+        "expense_ratio_pct": 0.18,
+        "price": 105.92,
+        "return_1m_pct": -0.8,
+        "return_1y_price_pct": -5.32,
+        "return_1y_total_pct": -1.0,
+        "return_ytd_total_pct": -0.28,
+        "div_yield_pct": 4.98,
+        "duration_yrs": 6.29,
+        "note": "가격·1m·1Y 총수익·분배수익률·AUM은 stocks.json/rates_context.json [actual · yfinance 2026-09-16 live]. 1Y 가격수익률 -5.32%·YTD 총수익 -0.28%는 yfinance 히스토리 직접 계산 [derived]. 듀레이션 6.29년은 iShares 9/15 실효 듀레이션 [actual]. iShares 순자산은 $14.65B [actual]"
+      },
+      {
+        "ticker": "SCHP",
+        "name": "Schwab U.S. TIPS ETF",
+        "aum_usd_bn": 16.08,
+        "expense_ratio_pct": 0.03,
+        "price": 25.59,
+        "return_1m_pct": -1.12,
+        "return_1y_price_pct": -5.57,
+        "return_1y_total_pct": -0.89,
+        "return_ytd_total_pct": -0.23,
+        "div_yield_pct": 5.04,
+        "duration_yrs": null,
+        "note": "[actual · yfinance 2026-09-16 live; 수익률은 히스토리 계산 derived]. TIP와 거의 동일한 성과, 보수 0.15%p 우위. 듀레이션 공시 미확인 [unavailable]"
+      },
+      {
+        "ticker": "VTIP",
+        "name": "Vanguard Short-Term Inflation-Protected Securities ETF",
+        "aum_usd_bn": 73.17,
+        "expense_ratio_pct": 0.03,
+        "price": 49.51,
+        "return_1m_pct": -0.38,
+        "return_1y_price_pct": -2.44,
+        "return_1y_total_pct": 1.67,
+        "return_ytd_total_pct": 1.54,
+        "div_yield_pct": 4.15,
+        "duration_yrs": null,
+        "note": "[actual · yfinance 2026-09-16 live; 수익률 derived]. 실질금리 급등 구간에서 TIP 대비 1Y 총수익 +2.67%p 우위 [derived] — 짧은 듀레이션 효과. 듀레이션 약 2~3년 [estimated]"
+      },
+      {
+        "ticker": "LTPZ",
+        "name": "PIMCO 15+ Year U.S. TIPS Index ETF",
+        "aum_usd_bn": 0.85,
+        "expense_ratio_pct": 0.2,
+        "price": 47.31,
+        "return_1m_pct": 0.3,
+        "return_1y_price_pct": -12.13,
+        "return_1y_total_pct": -6.61,
+        "return_ytd_total_pct": -4.02,
+        "div_yield_pct": 6.97,
+        "duration_yrs": null,
+        "note": "[actual · yfinance 2026-09-16 live; 수익률 derived]. 장기 실질금리 상승에 가장 크게 노출 — 1Y 총수익 TIP 대비 -5.61%p [derived]. 듀레이션 약 18~20년 [estimated]"
+      },
+      {
+        "ticker": "IEF",
+        "name": "iShares 7-10 Year Treasury Bond ETF (명목채 비교군)",
+        "aum_usd_bn": 41.82,
+        "expense_ratio_pct": 0.15,
+        "price": 91.05,
+        "return_1m_pct": -1.57,
+        "return_1y_price_pct": -6.33,
+        "return_1y_total_pct": -2.61,
+        "return_ytd_total_pct": -2.71,
+        "div_yield_pct": 3.97,
+        "duration_yrs": null,
+        "note": "가격·1m·분배수익률·AUM은 stocks.json/rates_context.json [actual · yfinance 2026-09-16 live]; 1Y 총수익 -2.61%도 stocks.json [actual]; 1Y 가격수익률·YTD는 히스토리 계산 [derived]. TIP가 IEF 대비 1Y 총수익 +1.61%p·YTD +2.43%p 우위 [derived] — BEI 불변·실질금리 주도 상승 국면에서도 CPI accrual이 명목 캐리를 상회. IEF 듀레이션 약 7년 [estimated · AGENT_BRIEF]"
+      }
+    ],
+    "financial_unit": "n/a (ETF)",
+    "bs_snapshot": {
+      "aum_usd_bn": 15.01,
+      "aum_usd_bn_ishares": 14.65,
+      "n_holdings": 49,
+      "expense_ratio_pct": 0.18,
+      "real_duration_yrs": 6.29,
+      "avg_maturity_yrs": 7.12,
+      "real_yield_pct": 2.56,
+      "weighted_avg_ytm_pct": 4.86,
+      "sec_yield_30d_pct": -0.32,
+      "trailing_12m_yield_pct": 4.64,
+      "distribution_yield_pct": 4.98,
+      "nav_usd": 105.79,
+      "note": "aum_usd_bn 15.01·distribution_yield 4.98%·NAV $105.79는 yfinance 2026-09-16 live [actual]. n_holdings·듀레이션(실효, 실질금리 기준)·만기·실질수익률·YTM·SEC·trailing yield·aum_usd_bn_ishares는 iShares 2026-09-15 [actual]. 종가 $105.92 vs NAV $105.79 → 프리미엄 +0.13% [derived]"
+    },
+    "cf_summary": {
+      "note": "ETF — 손익계산서 없음. 현금흐름은 설정·환매 유출입임 [actual · ETF 구조]. 분배금은 실질 쿠폰 + CPI 원금 증가분(inflation accrual)으로 구성되어 월별 변동이 매우 큼(lumpy): 2025-09-02 $0.417 · 10/1 $0.198 · 11/3 $0.361 · 12/1 $0.322 · 12/19 $0.342 → 2026년 1~4월 분배 없음 → 5/1 $0.561 · 6/1 $1.278 · 7/1 $1.058 · 8/3 $0.784 · 9/1 기록 없음 [actual · yfinance dividends 2026-09-16]. 직전 12개월 합계 $5.321 ÷ $105.92 = 5.02% [derived]. 9월 원금 조정 -0.01%(무분배와 정합), 10월 +0.32%(분배 재개 예상) [actual · Tipswatch / inference]. 디플레이션 월에는 음(-)의 accrual이 분배를 0으로 만들고 NAV에서 차감됨 [inference · TIPS 구조]"
+    }
+  },
+  "financial_statements_summary": {
+    "data_source": "iShares 상품 페이지(2026-09-15) + yfinance 1.3.0 live(2026-09-16) + FRED + US Treasury MSPD(2026-08-31)",
+    "frequency": "n/a (ETF — 분기·연간 손익 없음)",
+    "notes": "TIP는 ETF이므로 US-GAAP 손익계산서·5Y annual/5Q quarterly 재무 시계열이 존재하지 않음 → pl_5y는 의도적 빈 배열임 [actual · ETF 구조]. P/E·EPS·ROE·DCF 비적용.\n재무 대체 지표: ① 순자산 $14.65B(iShares)/$15.01B(yfinance) ② 보수 0.18% ③ 보유 49종목·Treasuries 99.96% ④ 실효 듀레이션 6.29년·가중평균 만기 7.12년 ⑤ 실질수익률 2.56%·가중평균 YTM 4.86% ⑥ 분배수익률 4.98%(yfinance)·12M trailing 4.64%·30일 SEC -0.32% [actual].\n가격 민감도: ΔP/P ≈ −6.29 × Δ실질금리 → 실질 +0.5%p 시 약 -3.1%, -0.5%p 시 약 +3.1% [derived]. 기대 12M 총수익 ≈ 실질수익률 2.56% − 보수 0.18% + 12M 실현 CPI − 6.29×Δ실질 [derived]. 현재 가격은 5년 최저 $92.40(2023-10-06) 대비 +14.6%, 5년 최고 $108.26 대비 -2.2% [actual · yfinance / derived] — TIP 가격은 원금 인덱싱으로 누적 인플레를 흡수해 명목 장기채(TLT 5년 고점 대비 -37.6%)처럼 무너지지 않았음 [derived]. 3년 평균 수익률 3.59%·5년 평균 -0.08% [actual · yfinance]. 감사 재무보고서(N-CSR)는 조회하지 않음 [unavailable]."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "probability": 30,
+      "target_price": 107.25,
+      "target_price_basis": "12M fwd 분배락(ex-distribution) 기준. 실질금리 2.56%→2.36%(Δ -0.20%p) × 실효 듀레이션 6.29년 = 가격 +1.26% → $105.92×1.0126 = $107.25 [derived]. CPI accrual은 월별 분배로 지급된다고 가정해 가격에는 미포함(분배 전 NAV에는 accrual이 누적되었다가 분배락 시 차감됨) [derived · TIP 분배 구조]. 볼록성은 Δ 0.2%p에서 무시 가능 [derived]",
+      "total_return_12m_pct": 7.44,
+      "relative_vs_IEF_pct": 3.37,
+      "thesis": "인플레 재가속 — 유가 $100+ 고착과 근원 PPI 4.6%의 2차 전가(T07)로 12M CPI 약 3.8% [inference]. 연준은 인상하되 워시가 '매파적 톤 + 1회 인상 후 관망'으로 가면서 실질금리는 2.3~2.4%대로 소폭 하락, 10년 BEI는 2.38%→2.70%로 재평가됨 [inference]. 명목 10년물은 5.06%로 블로거 5.1% 상단 근처에서 머묾. TIP 총수익 ≈ 가격 +1.26% + 실질 캐리 2.38%(2.56−0.18) + CPI 3.8% = +7.44% [derived]. IEF(듀레이션 7년·YTM 약 4.7% 가정 [estimated])는 명목 +0.09%p로 약 +4.07% → TIP 상대 +3.37%p [derived]. 블로거가 '연준 레드라인'에서 맞고 '인플레'에서도 맞는 조합 — TIPS가 명목채를 이기는 전형적 경로임",
+      "key_assumptions": [
+        "12M 실현 CPI-U 약 3.8% — 에너지 +16% YoY 지속 + 근원 전가 [inference]",
+        "10년 BEI 2.38% → 2.70% 재평가 (1Y·5Y BEI 이미 2.50·2.52%) [inference / actual 기반]",
+        "10년 실질금리 2.56% → 2.36% (FOMC 인상 1회 후 실질금리 피크아웃) [inference]",
+        "TIPS 유동성 프리미엄 안정 — 금융 스트레스 없음 [inference]"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "probability": 45,
+      "target_price": 105.65,
+      "target_price_basis": "12M fwd 분배락 기준. 실질금리 2.56%→2.60%(Δ +0.04%p) × 6.29년 = 가격 -0.25% → $105.65 [derived]. CPI accrual은 분배로 지급(가격 미반영) 가정 [derived]",
+      "total_return_12m_pct": 5.13,
+      "relative_vs_IEF_pct": 0.64,
+      "thesis": "9월 25bp 인상(3.75~4.00%) 후 연말까지 동결, 유가는 $90~105 박스, 12M CPI 약 3.0%로 완만히 둔화 [inference]. 10년 실질금리 2.5~2.7% 범위에서 횡보하고 BEI 2.35~2.45% 유지, 명목 10년물 4.9~5.1% [inference]. TIP 총수익 ≈ 가격 -0.25% + 실질 캐리 2.38% + CPI 3.0% = +5.13% [derived]. IEF는 명목 +0.03%p로 약 +4.49% → TIP 상대 +0.64%p [derived]. 가격은 거의 제자리지만 분배가 연초(1~4월) 약하고 5~8월 몰리는 lumpy 패턴으로 체감 수익률은 분기별로 크게 다름 [inference · 2026 분배 실측 기반]",
+      "key_assumptions": [
+        "FOMC 9/16 25bp 인상(시장 확률 83~92%) 후 추가 인상 없음 [inference — 결과 확인 불가]",
+        "12M CPI-U 약 3.0%, 근원 PCE 3%대 초반 [inference]",
+        "10년 실질금리 2.5~2.7%·BEI 2.35~2.45% 박스 [inference]",
+        "10년 TIPS 재발행 입찰($19B, 9/17) 무난히 소화 [inference]"
+      ]
+    },
+    "bear": {
+      "prob_pct": 25,
+      "probability": 25,
+      "target_price": 102.32,
+      "target_price_basis": "12M fwd 분배락 기준. 공격적 연준 경로: 실질금리 2.56%→3.10%(Δ +0.54%p) × 6.29년 = 가격 -3.40% → $102.32 [derived]. 볼록성 기여(+0.1%p 미만)는 보수적으로 제외 [derived]",
+      "total_return_12m_pct": 1.18,
+      "relative_vs_IEF_pct": -2.61,
+      "thesis": "두 갈래의 bear. ① (target_price 기준 경로) 연준이 10월·12월 추가 인상으로 인플레 기대를 강하게 눌러 실질금리 3.1%로 상승, BEI는 2.0%로 하락, 12M CPI는 유가 반락(이란 긴장 완화 — 8/3 CNBC '디에스컬레이션 기대에 유가 급락' 선례)으로 2.2% [inference]. 명목 10년물은 5.1%로 거의 불변인데 구성이 '실질↑·BEI↓'로 바뀌어 TIP가 명목채보다 불리함. TIP 총수익 ≈ -3.40% + 2.38% + 2.2% = +1.18%, IEF 약 +3.79% → 상대 -2.61%p [derived]. ② 스태그플레이션이 디플레이션성 경기둔화로 전환: 실질 2.30%·BEI 1.80%·명목 4.10%, CPI 1.5% → TIP 약 +5.5%로 절대수익은 양(+)이나 IEF(+10.8%) 대비 -5.3%p [derived]. 두 경로 모두 '인플레 헤지 sleeve'가 명목 듀레이션 대비 비용이 되는 국면이며, 2008년처럼 금융 스트레스 시 TIPS 유동성 프리미엄 급등으로 BEI가 과도하게 붕괴할 수 있음 [inference]",
+      "key_assumptions": [
+        "연준 추가 인상(10월·12월) → 10년 실질금리 3.1% [inference]",
+        "유가 $80 이하 반락 → 12M CPI 2.2%·BEI 2.0% [inference]",
+        "대안 경로: 경기침체로 명목 -0.87%p·BEI 1.8% (TIP 절대 +5.5%, IEF 대비 -5.3%p) [derived]",
+        "TIPS 유동성 프리미엄 확대(위기 시 BEI 과소) [inference]"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-09-16 (KST 9/17 03:00)",
+      "event": "9월 FOMC 결정·점도표·워시 기자회견",
+      "type": "policy",
+      "expected_impact": "high",
+      "description": "25bp 인상(3.75~4.00%) 확률 83~92% 반영 [actual · CME FedWatch 보도]. 결과 확인 불가. 인상+매파 점도표 → 실질금리 추가 상승(TIP 가격 -), 단 BEI 하락은 명목채 대비 TIP 상대 불리. '매파적 동결'(T09) → 실질금리 일시 하락이나 인플레 기대 상승(BEI +)으로 TIP에 상대 우호 [inference]"
+    },
+    {
+      "date": "2026-09-17",
+      "event": "10년 TIPS 재발행 입찰 $19B (CUSIP 91282CRE3, 결제 9/30)",
+      "type": "auction",
+      "expected_impact": "high",
+      "description": "유통 실질 2.59%(9/13) — 7/23 신규 입찰 2.438%(2008-10 이후 최고) 대비 추가 상승 상태 [actual · Tipswatch]. 날짜는 Tipswatch '이번 주 목요일 13시 ET'에서 산출 [derived]. FOMC 다음날 입찰이라 수요 부진 시 실질금리 급등 위험, 강한 수요(bid-to-cover) 시 TIPS 커브 안정 신호 [inference]"
+    },
+    {
+      "date": "2026-09-30",
+      "event": "8월 PCE (BEA Personal Income and Outlays)",
+      "type": "data",
+      "expected_impact": "medium",
+      "description": "7월 PCE 3.7%·근원 3.3% YoY [actual · BEA]. 연준 목표 지표 — 근원 PCE 재가속 시 인상 연장 기대(실질금리 +)와 BEI 상승이 동시에 발생 [inference]"
+    },
+    {
+      "date": "2026-10-01 전후",
+      "event": "TIP 10월 분배 — 10월 원금 +0.32% 반영",
+      "type": "distribution",
+      "expected_impact": "low",
+      "description": "9월 원금 -0.01%로 9/1 분배 기록 없음, 10월 +0.32%로 분배 재개 예상 [actual · Tipswatch/yfinance · inference]. 분배락으로 가격이 하락해 보이는 착시 주의"
+    },
+    {
+      "date": "2026-10-14",
+      "event": "9월 CPI (BLS, 08:30 ET) — 11월 TIPS 원금 조정 결정",
+      "type": "data",
+      "expected_impact": "high",
+      "description": "9월 CPI 발표일 [actual · BLS 일정/Nowflation]. 8월 근원 PPI 4.6%의 CPI 전가(T07) 1차 검증 시점. 서프라이즈 상방 → accrual·BEI + / 인상 기대로 실질금리 +; 하방 → 반대 [inference]. 9월 PPI도 10월 중순 발표(정확일 확인 불가)"
+    },
+    {
+      "date": "2026-10 말 (정확일 재확인 필요)",
+      "event": "10월 FOMC",
+      "type": "policy",
+      "expected_impact": "high",
+      "description": "9월 인상 후 추가 인상 여부. 연준 2026 캘린더상 10/27~28로 알려져 있으나 본 분석에서 재조회하지 않음 [estimated]. bear 시나리오(실질 3.1%)의 분기점"
+    },
+    {
+      "date": "상시 (2026 Q4)",
+      "event": "유가·이란 전쟁 전개 (호르무즈 리스크)",
+      "type": "geopolitical",
+      "expected_impact": "high",
+      "description": "WTI $103.74·Brent $107.37 [actual · yfinance 9/16]. 원유 +20% ≈ 인플레 +0.3%p 추정(CNBC 인용 보도) [actual · 보도 요약]. 확전 → CPI accrual·BEI +(bull), 휴전·유가 반락 → BEI -(bear ①) [inference]"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "미국 중간선거",
+      "type": "political",
+      "expected_impact": "medium",
+      "description": "11월 첫 월요일 다음 화요일 규정 [derived]. 공화당 상·하원 승리 시 '$5,000 배당금'(1조달러+) 현실화 기대 → 수요 자극형 재정으로 BEI +, 재정적자로 텀프리미엄 + [inference]. 블로거: TGA 바이백 청구서는 선거 후 도래(T05)"
+    },
+    {
+      "date": "2026-11 초",
+      "event": "재무부 분기 리펀딩 — TIPS·쿠폰채 발행 규모, 바이백 연장(11/4 이후)",
+      "type": "fiscal",
+      "expected_impact": "medium",
+      "description": "현행 바이백 확대는 9/9~11/4 [actual · treasury.gov sb0607]. T-bill 비중 확대·TIPS 발행 증액 여부가 TIPS 공급/유동성 프리미엄에 영향 [inference]. 리펀딩 발표 정확일 확인 불가"
+    },
+    {
+      "date": "2026-12 ~ 2027-02",
+      "event": "CPI accrual 계절적 약세 구간 + 연말 분배",
+      "type": "seasonality",
+      "expected_impact": "medium",
+      "description": "11~12월 NSA CPI 약세가 3개월 시차로 1~2월 원금 조정에 반영 — 2026년에도 1~4월 무분배 [actual · yfinance / inference]. 이 구간 TIP 보유 캐리는 실질 쿠폰 위주로 낮아짐"
+    }
+  ],
+  "risks": [
+    {
+      "name": "연준 인상 연장 → 실질금리 3%+",
+      "probability": "med",
+      "impact": "high",
+      "description": "지난 1년 명목 10년물 상승(+0.95%p)이 거의 전부 실질금리(+0.90%p)에서 나옴 [derived · FRED]. 실효 듀레이션 6.29년이라 실질 +0.5%p ≈ 가격 -3.1% [derived]. TIPS는 '인플레'는 헤지하지만 '실질금리'는 헤지하지 못함",
+      "mitigation": "VTIP·STIP(단기 TIPS)로 듀레이션 축소, 또는 분할 진입 [inference]"
+    },
+    {
+      "name": "BEI 압축 — 유가 반락·이란 디에스컬레이션",
+      "probability": "med",
+      "impact": "med",
+      "description": "8/3 CNBC '이란 디에스컬레이션 기대에 유가 급락·국채금리 하락' 선례 [actual · 헤드라인]. 유가가 $80 이하로 반락하면 단기 BEI(1Y 2.50%)가 먼저 무너지고 실현 CPI도 둔화 → 명목채 대비 TIP 상대 열위 [inference]",
+      "mitigation": "TIP를 명목 듀레이션(IEF·TLT)의 보완 sleeve로만 쓰고 단독 베팅 비중 제한 [inference]"
+    },
+    {
+      "name": "디플레이션성 경기둔화 — 음(-)의 accrual",
+      "probability": "low",
+      "impact": "med",
+      "description": "경기침체 시 명목채가 크게 오르는 반면 TIP는 BEI 붕괴로 절반 수준 상승(bear ② IEF +10.8% vs TIP +5.5%) [derived]. 월간 CPI 마이너스 시 분배 0·NAV 차감 [inference · TIPS 구조]. 디플레 floor는 구 발행물에 실효성 낮음 [inference]",
+      "mitigation": "명목 장기채와 병행 보유 시 상호 보완 [inference]"
+    },
+    {
+      "name": "TIPS 유동성 프리미엄 급등 (위기 시)",
+      "probability": "low",
+      "impact": "high",
+      "description": "TIPS 잔액은 약 $2.15조로 시장성 국채 $31.83조의 6.8%에 불과 [actual · Treasury MSPD 2026-08-31 / derived]. 2008년처럼 금융 스트레스 시 TIPS가 명목채보다 먼저 팔리며 BEI가 기대인플레와 무관하게 급락할 수 있음 [inference]. HY OAS 2.76%로 현재 스트레스 신호는 낮음 [actual · FRED]",
+      "mitigation": "현금성(SGOV) 버퍼 확보 [inference]"
+    },
+    {
+      "name": "분배 lumpy·수익률 지표 착시",
+      "probability": "high",
+      "impact": "low",
+      "description": "30일 SEC yield -0.32% vs 분배수익률 4.98% vs 12M trailing 4.64%로 지표가 서로 크게 다름 [actual · iShares/yfinance]. 2026년 1~4월 무분배·6월 $1.278 집중 [actual · yfinance]. 인컴 목적 투자자가 연초 '분배 중단'을 펀드 문제로 오인할 위험",
+      "mitigation": "기대수익은 '실질수익률 + 기대 CPI − 보수'로 평가 [derived]"
+    },
+    {
+      "name": "보수 열위 — 동일 노출 SCHP 대비 연 0.15%p",
+      "probability": "high",
+      "impact": "low",
+      "description": "TIP 0.18% vs SCHP 0.03% [actual · yfinance]. 1Y 총수익 TIP -1.00% vs SCHP -0.89% [actual/derived]. 장기 보유 시 누적 비용 차이 발생",
+      "mitigation": "장기 보유는 저보수 대체 ETF 비교 검토 [inference]"
+    },
+    {
+      "name": "원화 투자자 환율·세금 리스크",
+      "probability": "med",
+      "impact": "med",
+      "description": "USDKRW 3개월 1,537.56→1,366.65(-11.1%) [actual · yfinance / derived] — 비헤지 원화 투자자는 TIPS 실질 캐리가 환손실에 압도될 수 있음. 미국 상장 ETF 분배금은 인플레 accrual도 과세 대상 분배로 처리됨 [inference · 세무 확인 필요]. TIPS 환헤지 국내 ETF 존재 여부 확인 안 함 [unavailable]",
+      "mitigation": "환노출 의도 여부를 먼저 결정, 헤지 비용 연 0.6~0.9%p 근사 [estimated · AGENT_BRIEF]"
+    },
+    {
+      "name": "CPI 측정·정치 리스크",
+      "probability": "low",
+      "impact": "med",
+      "description": "TIPS 원금은 CPI-U NSA에만 연동됨 [actual · TreasuryDirect]. 선거·재정 압박 국면에서 CPI 산출 방식 변경·신뢰 논란이 생기면 실현 인플레 대비 보상이 과소할 수 있음 [inference]. 현재 구체적 변경 계획 보도는 확인하지 않음 [unavailable]",
+      "mitigation": "실물자산(에너지·금) 등 다른 인플레 헤지와 분산 [inference]"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "미국채 10년물 ≈ 장기인플레 + 중립금리 + 텀프리미엄. 현재 중립 1.1 + TP 1.5 = 2.6%p이므로 장기인플레 2%중반을 더하면 5% 초과가 자연스럽다.",
+      "type": "framework",
+      "evidence": "[TIP 관점] 시장 분해 DFII10 2.60% + T10YIE 2.38% = 4.98% ≈ ^TNX 4.973% [actual · FRED/yfinance · derived] — 블로거 '2.6%p'와 실질금리가 숫자상 일치. 다만 블로거의 TP 1.5%는 KW 0.961%·ACM 0.80%보다 높아 구성은 다름 [actual]. TIPS 시장은 '장기인플레'를 2.38%(10Y)·2.35%(5y5y)로 가격화 중 — 블로거 가정 2%중후반보다 낮음 → 블로거가 옳다면 BEI 상승 여지 = TIP 상대 우위 [inference]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "30년물은 텀프리미엄이 0.4%p 높아(1.9%) 10년물 대비 명목 약 0.4%p 높다.",
+      "type": "quantitative",
+      "evidence": "[TIP 관점] 간접 관련. TIPS 커브에서 10년 실질 2.57%·30년 실질 3.03%로 스프레드 0.46%p, BEI는 10년 2.33%·30년 2.26%로 오히려 역전(9/14 StreetStats) [actual]. 즉 10-30 명목 스프레드는 실질금리(텀프리미엄 성격)에서 나오고 인플레 기대 차이는 아님 — 블로거 설명과 방향 정합 [derived]. TIP(7.12년 만기)는 30년 구간 노출이 작음",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "재무부 바이백은 T-bill로 장기채를 되사는 만기 스왑이라 장기금리를 못 잡고 텀프리미엄 상승을 부른다.",
+      "type": "causal",
+      "evidence": "[TIP 관점] 9/9 $60억 발표 이후 10년 실질금리 상승 지속(1m 전 2.39% → 2.60%) [actual · FRED] — 바이백이 실질 텀프리미엄을 누르지 못함과 정합. 부채 단기화는 인플레 시 이자비용이 빠르게 재가격되는 구조라 재정 우위(fiscal dominance) 우려 → 장기 인플레 리스크 프리미엄 상승 요인 [inference]. TIPS 바이백 포함 여부는 확인 불가 [unavailable]",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "9/9 바이백 $60억은 TGA 언급으로 부풀려진 기대($80~100억)에 못 미쳐 유가·Core PPI와 겹쳐 금리 발작을 촉발했다.",
+      "type": "event",
+      "evidence": "[TIP 관점] 발작 기간(1m) TIP 가격 -0.80% vs IEF -1.57% [actual · yfinance] — BEI 상승(2.27→2.38%)이 실질금리 상승(2.39→2.60%)을 일부 상쇄 [actual · FRED / derived]. 유가·PPI 요인은 TIPS에 상대 우호로 작용했음을 보여줌. 발작의 주 원인이 '바이백 실망'인지는 TIP 데이터로 분리 불가 [inference]",
+      "testability": "low",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "TGA 헐어 바이백은 'QE 라이트'로 두세 달 달달하지만 청구서는 중간선거 후 온다.",
+      "type": "causal",
+      "evidence": "[TIP 관점] 유동성 순주입은 위험자산·인플레 기대에 우호적 → BEI 상승 요인 [inference]. 이후 단기국채 추가 발행은 실질 단기금리 상승 압력 [inference]. TGA $883.3B(9/9 주간)·RRP $0.7B [actual · FRED]. 실제 TGA 활용 여부 미확정 [unavailable]",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "장기금리 상승의 근본 원인은 인플레와 재정적자발 국채 공급 폭증이며, 트럼프 $5,000 배당금(1.3조달러)은 적자 우려를 더한다.",
+      "type": "macro",
+      "evidence": "[TIP 관점] 수요 자극형 이전지출은 인플레 기대(BEI)를 올리는 재정 채널 [inference] — TIPS의 존재 이유와 직결. 공급 측면: TIPS 잔액 $2.153조(2026-08-31)로 5년 전 $1.629조 대비 CAGR 5.74% [actual · Treasury MSPD / derived] — 전체 부채($40.18조)와 함께 증가. 단 현재 BEI는 1년 전과 동일(2.37→2.38%)해 시장이 재정 채널의 인플레 효과를 아직 가격화하지 않음 [actual · FRED / derived]",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "인플레이션이 다시 문제로 돌아오고 있다 — 유가 $100과 Core PPI 4.6%는 2~3개월 뒤 CPI·PCE로 전가된다.",
+      "type": "macro",
+      "evidence": "[TIP 관점 — 핵심 thesis] 검증 경로가 명확하고 월별 데이터로 반증 가능: 10/14 9월 CPI·9/30 8월 PCE·11월 10월 CPI [actual · BLS/BEA 일정]. 현재 근거: CPI 3.4% YoY·0.4% MoM, 에너지 +16.3%, 근원 PPI 4.6%(7월 4.2%), PCE 3.7%·근원 PCE 3.3% [actual · BLS/BEA]. 반대 근거: 근원 CPI YoY 2.4%, 근원 PPI MoM 0.2%(예상 하회), 10년 BEI 2.38%·5y5y 2.35% 불변 [actual]. 전가가 확인되면 CPI accrual(10월 원금 +0.32% 이미 확정) + BEI 재평가로 TIP가 IEF 대비 우위(bull 상대 +3.37%p) [actual · Tipswatch / derived]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "8월 근원 CPI 0.3% MoM은 워시의 인상 조건을 충족시켜 9월 인상 가능성을 높였다(72.4%→83.4%).",
+      "type": "event",
+      "evidence": "[TIP 관점] 인상은 TIP에 양면적 — 실질 단기금리 경로 상승으로 실질금리↑(가격 -), 동시에 연준 신뢰 강화로 장기 BEI↓(명목 대비 상대 -) [inference]. CPI 발표 후 1주 간 DFII10 상승이 확인됨(9/14 2.60%) [actual · FRED]. 결정은 9/17 03:00 KST — 확인 불가",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "FOMC 12표 구도상 워시가 '매파적 동결'로 설득할 수도 있어 정치력 시험대다.",
+      "type": "political",
+      "evidence": "[TIP 관점] 시장이 83~92% 인상을 반영한 상태에서 동결 시 '인플레에 관대한 연준' 해석으로 BEI 상승·실질금리 하락 → TIP에 가장 우호적인 조합(bull 경로) [inference]. 인상 + 매파 점도표는 반대. 위원 성향 분류는 블로거·언론 해석 [inference]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "재무부는 한계가 있고 연준이 봐야 할 주체다. 연준 레드라인은 10년물 5%, 시차 고려 5.1%가 실질 상단이다.",
+      "type": "policy_reaction",
+      "evidence": "[TIP 관점] 연준이 명목 5%를 막기 위해 장기채 매입·QT 조정 등으로 개입한다면, 그것은 인플레 3.4% 하에서의 금융억압(financial repression)에 가까워 실질금리↓·BEI↑ → TIPS가 명목채보다 유리한 정책 조합 [inference]. 즉 '블로거의 5% 상한이 맞을수록 인플레 헤지의 가치가 커짐'. 연준의 5% 레드라인 공식 언급은 없음 [unavailable]",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T11",
+      "claim": "[투자 방법] 10년물 5%→5.1%에서 미국채 매수 검토, 5% 안 가면 그만. 연말 변동성 부담으로 '도망치는 것도 방법'.",
+      "type": "normative",
+      "evidence": "[TIP 관점] 블로거는 TIPS를 언급하지 않음 — 매핑은 분석자 판단. 5% 트리거는 9/14 장중 5.01%로 1차 도달 [actual · Bloomberg]. TIP의 변동성 3.36%는 IEF 4.61%·TLT 9.32%보다 낮고 [actual · yfinance], 1Y 총수익도 IEF 대비 +1.61%p [derived] — '물 근처에 가지 않기'와 '금리 5% 기회 포착' 사이의 저변동 중간 선택지. 명목 듀레이션 매수에 TIP를 병행하면 '연준은 맞고 인플레는 틀린' 오류를 보험할 수 있음 [inference]",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": null,
+    "implied_op_margin_5y_pct": null,
+    "notes": "ETF 역DCF 비적용 [actual · ETF 구조]. 대체 지표로 '시장 내재 인플레'를 역산함: 10년 BEI 2.38%(T10YIE 9/15)·5y5y 선도 인플레 2.35%(T5YIFR) [actual · FRED] vs 8월 CPI 3.4% YoY·7월 PCE 3.7%·근원 PCE 3.3% [actual · BLS/BEA] → 시장 내재 5y5y 인플레 2.35%와 현재 CPI 3.4% 간 괴리 1.05%p [derived]. 시장은 현재 인플레가 중기적으로 연준 목표 근처로 회귀한다고 가정 중 [inference]. 손익분기: 향후 10년 연평균 실현 CPI가 약 2.38%를 넘으면 동일 만기 명목채 대비 TIPS 우위(인플레 리스크 프리미엄·유동성 프리미엄 제외 단순 근사) [derived]. BEI에는 TIPS 유동성 프리미엄(-)과 인플레 리스크 프리미엄(+)이 섞여 있어 순수 기대인플레와 동일하지 않음 [inference]"
+  },
+  "blog_thesis_link": {
+    "direct_theses": [
+      "T01",
+      "T07"
+    ],
+    "indirect_theses": [
+      "T06",
+      "T08",
+      "T09",
+      "T10",
+      "T11"
+    ],
+    "role": "inflation hedge sleeve — 블로거의 명목 10년물 5%~5.1% 매수 논리(T10·T11)를 보완. 연준 레드라인 판단이 맞더라도 인플레(T07)가 재가속하면 명목채 실질가치가 훼손되므로 TIP로 보험",
+    "blogger_mentions_etf": false,
+    "note": "블로거는 TIPS·ETF를 언급하지 않음. TIP 매핑은 분석자 판단 [inference]. 블로거 공식 '2.6%p + 장기인플레'는 DFII10 2.60% + T10YIE 2.38% = 4.98%와 수치상 정합 [derived]"
+  },
+  "investment_method": {
+    "entry_rule": "블로거의 명목 트리거(10년물 5.0~5.1%)를 TIPS에 그대로 적용하지 않고 실질금리 기준으로 치환: 10년 TIPS 실질 ≥ 2.5%(현재 2.60% · FRED 9/14) 구간에서 분할 진입 검토 [inference]. FOMC(9/17 KST)·10년 TIPS 재발행 입찰(9/17) 결과 확인 후 1차, 9월 CPI(10/14) 후 2차로 나눠 이벤트 리스크 분산 [inference]. 명목 듀레이션(IEF·TLT) 매수를 결정한 경우 그 일부를 TIP로 배정하는 방식이 T07 헤지 목적에 부합함",
+    "exit_or_stop_rule": "① 가설 무효화: 9월·10월 CPI 근원 MoM 0.2% 이하 + 10년 BEI 2.2% 하회 시 인플레 전가(T07) 실패로 보고 헤지 비중 축소 [inference]. ② 가격 손절: 실질금리 3.1% 돌파(bear ① 경로, TIP 약 $102.3 [derived]) 시 듀레이션 축소(STIP·VTIP 전환) 검토 [inference]. ③ 이익 실현: BEI 2.7% 도달(bull 목표) 시 인플레 프리미엄이 가격화된 것으로 보고 명목채로 재배분 검토 [inference]",
+    "position_sizing_note": "TIP는 단독 방향성 베팅이 아니라 채권 sleeve 내부 보완재로 보는 것이 합리적 [inference]. 예시로 채권 배분의 20~40%를 TIPS, 나머지를 명목(SGOV 파킹 + IEF/TLT 듀레이션)으로 나누는 구조를 고려할 수 있으나 개인 상황에 따라 다름 — 매수·매도 권유 아님. 변동성 3.36%(TLT 9.32%의 약 1/3) [actual · yfinance]로 연말 변동성이 부담스러운 블로거 스탠스(T11)와 어울리는 저변동 노출임 [derived]",
+    "hedging_note": "TIP는 인플레를 헤지하지만 실질금리 상승은 헤지하지 못함(듀레이션 6.29년) [actual · iShares / derived]. 실질금리 리스크를 줄이려면 VTIP·STIP(0~5년)로 듀레이션을 낮추고, 반대로 '블로거가 연준 5% 상한은 맞고 인플레도 맞다'에 강하게 베팅하면 LTPZ로 확대 [inference]. 명목채(IEF)와의 페어 관점: TIP 롱 − IEF 숏은 순수 BEI 베팅에 가까움(10년 BEI 2.38% 상회 실현 인플레 시 이익) [derived]. 원화 투자자는 USDKRW 3개월 -11.1% [derived · yfinance] 변동이 TIPS 실질 캐리를 압도할 수 있으므로 환노출을 별도 결정할 것"
+  },
+  "analysis_mode": "single",
+  "thesis_count": 11,
+  "korean_disclosures": [],
+  "meta": {
+    "ticker": "TIP",
+    "as_of": "2026-09-16",
+    "fomc_status": "9/16 FOMC 결정(9/17 03:00 KST) 미발표 — 결과 확인 불가, 시나리오로만 반영",
+    "sources": [
+      "https://www.ishares.com/us/products/239467/ishares-tips-bond-etf",
+      "https://fred.stlouisfed.org/series/DFII10",
+      "https://tipswatch.com/2026/09/13/this-weeks-10-year-tips-auction-has-strong-appeal/",
+      "https://tipswatch.com/2026/09/11/u-s-inflation-holds-at-3-4-for-august-will-that-lead-to-a-rate-hike/",
+      "https://tipswatch.com/2026/07/23/10-year-tips-auction-gets-real-yield-of-2-438-a-great-result-for-investors/",
+      "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+      "https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/",
+      "https://www.bls.gov/schedule/",
+      "https://streetstats.finance/rates/tips",
+      "yfinance 1.3.0 live 2026-09-16"
+    ],
+    "disclaimer": "매수·매도 권유 아님. 블로거는 특정 ETF를 언급하지 않았으며 TIP 매핑은 분석자 판단임"
+  },
+  "scenarios_meta": {
+    "expected_total_return_12m_pct": 4.84,
+    "notes": "확률가중 12M 총수익 = 0.30×7.44 + 0.45×5.13 + 0.25×1.18 ≈ +4.84% [derived]. 확률가중 목표가 = 0.30×107.25 + 0.45×105.65 + 0.25×102.32 ≈ $105.8 [derived]. IEF 비교는 듀레이션 7년·YTM 4.7% 근사 [estimated]. 가격은 분배락 기준이며 TIP NAV는 분배 전까지 CPI 원금 인덱싱분을 포함함 [derived]. FOMC 결과 미발표 — 시나리오일 뿐 매수·매도 권유 아님"
+  }
+}
