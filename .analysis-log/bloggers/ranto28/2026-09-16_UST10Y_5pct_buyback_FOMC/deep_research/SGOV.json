@@ -1,0 +1,498 @@
+{
+  "ticker": "SGOV",
+  "name": "iShares 0-3 Month Treasury Bond ETF",
+  "as_of_date": "2026-09-16",
+  "disclaimer": "매수·매도 권유 아님. 9월 FOMC 결정(9/16 14:00 ET = 9/17 03:00 KST)은 분석 시점 미발표 → 결과 확인 불가, 시나리오로만 다룸. 블로거는 특정 ETF를 언급하지 않았으며 SGOV 매핑은 분석자 판단임.",
+  "industry": {
+    "name": "미국 단기국채(T-bill) 시장 · 초단기 국채 ETF / 머니마켓 현금성 자산",
+    "overview": "SGOV는 ICE 0-3 Month US Treasury Securities Index를 추종하는 T-bill ETF임 [actual · iShares 팩트시트 2026-06-30]. 2026-09-15 기준 순자산 $109.86B·30일 SEC yield 3.64%·12개월 trailing yield 3.69%·가중평균만기(WAM) 0.11년·유효듀레이션 0.11년·보수 0.09% [actual · iShares 상품 페이지]. yfinance(2026-09-16 live) 기준 가격 $100.54·분배수익률 3.74%·AUM $105.98B·1년 +3.76%·연율 변동성 0.18% [actual]. ① 공급 측: 재무부 바이백은 T-bill 등 단기 조달로 헌 장기채를 되사는 만기 스왑 구조라 부채구조가 짧아지고 T-bill 비중이 올라가는 방향임(T03·T05) [inference · 블로거 2편 §20~21·JPM Sullivan CNBC 8/21]. 실제 MSPD 기준 시장성 국채 중 T-bill 잔액은 $7,248.1B(2026-08-31)로 전체 시장성 국채 $31,828.0B의 22.77% [actual/derived · Treasury Fiscal Data MSPD]. 1년 전 $6,369.0B(21.66%), 5년 전 $4,038.1B(18.41%) → 1년 +13.8%·5년 CAGR 12.4% [derived]. 8/5 분기 리펀딩에서 재무부는 '향후 최소 수 분기 동안 이표채·FRN 입찰 규모 유지'를 명시 → 추가 조달 수요는 T-bill로 흡수되는 구조임 [actual · treasury.gov sb0590]. ② 수요 측: SGOV의 경쟁자는 BIL·SHV·USFR·TFLO 같은 초단기/변동금리 국채 ETF와 미국 MMF($7.97T, ICI 9/9 주간) [actual · ICI]. 한국 투자자용으로는 SGOV와 동일 지수를 추종하는 'TIGER 미국초단기(3개월이하)국채'(0046A0.KS)가 KRX에 상장돼 있음 [actual · 미래에셋 TIGER ETF·이데일리]. ③ 금리 전달: WAM 0.11년 ≈ 40일이라 연준 인상이 1~3개월 내 포트폴리오 수익률에 거의 그대로 반영됨 [derived]. ^IRX(13주)는 3.947%로 1개월 전 3.703% 대비 이미 +0.24%p 선반영 [actual · yfinance]. ④ 유동성 배경: 역레포(RRP) $0.7B(9/15)로 완충 소진, TGA $883.3B(9/9 주간) [actual · FRED]. 재무부는 9월 말 현금잔고 $950B, 10월 말 최대 $1.05T(±$50B) 가정 [actual · sb0590] → TGA 재축적 과정의 T-bill 순발행이 이어질 수 있음 [inference].",
+    "competitors": [
+      {
+        "name": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF — 1~3개월 T-bill, AUM $46.75B·보수 0.1353%·분배수익률 3.76%·1년 +3.66% [actual · yfinance 2026-09-16 live]. SGOV보다 보수가 높고 0~1개월 구간 미포함",
+        "ticker": "BIL"
+      },
+      {
+        "name": "iShares 0-1 Year Treasury Bond ETF — 1년 이하 T-bill·단기 이표채, AUM $20.97B·보수 0.15%·3.73%·1년 +3.60% [actual · yfinance]. 만기가 조금 길어 인하 국면에선 유리, 인상 국면에선 반영이 느림 [inference]",
+        "ticker": "SHV"
+      },
+      {
+        "name": "WisdomTree Floating Rate Treasury Fund — 2년 FRN(13주 T-bill 금리 주간 리셋), AUM $18.76B·보수 0.15%·3.75%·1년 +4.08% [actual · yfinance]. 인상 국면에 금리 리셋이 즉시 반영됨",
+        "ticker": "USFR"
+      },
+      {
+        "name": "iShares Treasury Floating Rate Bond ETF — FRN, AUM $6.67B·보수 0.15%·3.78%·1년 +3.96% [actual · yfinance]",
+        "ticker": "TFLO"
+      },
+      {
+        "name": "미국 MMF 일반(정부/프라임) — 총자산 $7.97T(9/9 주간, 리테일 $3.11T·기관 $4.86T) [actual · ICI 9/10 발표]. 증권계좌 스윕·결제 편의성은 우위, 주(州)세 면제 여부는 펀드별 상이 [inference]",
+        "ticker": "-"
+      },
+      {
+        "name": "TIGER 미국초단기(3개월이하)국채 — KRX 상장, SGOV와 동일 기초지수·보수 0.09%·듀레이션 0.12년 내외 (2025-04-29 상장) [actual · 미래에셋 TIGER ETF]. 원화 환노출 (3개월 −8.75%, yfinance 2026-09-16)",
+        "ticker": "0046A0.KS"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-09-16",
+        "title": "9월 FOMC — 25bp 인상(3.75~4.00%) 예상, 2023년 이후 첫 인상 여부 대기",
+        "summary": "성명·점도표 14:00 ET 발표 예정, 인상 확률 83~92% 보도 [actual · 보도 인용]. 결과는 분석 시점 미확정(확인 불가). 영향: 긍정적 — 인상 시 WAM 40일 구조라 SGOV 수익률이 1~3개월 내 약 +0.25%p 상향 반영됨 [derived]",
+        "source": "https://www.cryptotimes.io/2026/09/16/what-to-expect-from-todays-fomc-meeting-warshs-first-fed-rate-hike-vote-dot-plot-and-bitcoin-reaction/"
+      },
+      {
+        "date": "2026-09-11",
+        "title": "8월 CPI 3.4% YoY·근원 0.3% MoM(예상 0.2% 상회)",
+        "summary": "근원 월간 서프라이즈로 9월 인상 가능성 확대 [actual · BLS/CNBC]. 영향: 긍정적 — 단기금리 상승 기대가 T-bill 수익률에 선반영(^IRX 1개월 +0.24%p). 단 CPI 3.4%는 SGOV 분배수익률 3.74%와 거의 같아 실질 캐리는 +0.3%p에 불과함 [derived]",
+        "source": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+      },
+      {
+        "date": "2026-09-11",
+        "title": "연준 인상 확률 90%로 급등",
+        "summary": "근원 물가 월간 급등 이후 페드워치 인상 확률 90% [actual · Yahoo Finance]. 영향: 긍정적 — 파킹 자산의 명목 캐리 상승 경로 강화",
+        "source": "https://finance.yahoo.com/economy/policy/article/fed-rate-hike-odds-surge-to-90-on-monthly-jump-in-core-prices-131206510.html"
+      },
+      {
+        "date": "2026-09-09",
+        "title": "재무부 바이백 1회 최대 $60억(평소 3배) — 시장 기대($70~100억+) 미달로 실망",
+        "summary": "발표 후 10년물 4.85%·20년물 5.3%로 상승 [actual · Fox Business/CNBC]. 영향: 중립~긍정적 — 장기채 가격 변동성 확대로 SGOV 같은 무(無)듀레이션 파킹 수요가 커지고, 바이백 재원이 결국 단기 조달이라 T-bill 공급 기반을 넓힘 [inference]",
+        "source": "https://www.foxbusiness.com/economy/treasury-buy-back-up-6b-longer-term-debt-bond-yields-hit-highest-level-since-2023"
+      },
+      {
+        "date": "2026-09-08",
+        "title": "SGOV 주간 약 $21억 순유입",
+        "summary": "발행주식수 1,049,250,000 → 1,070,250,000(+2.0%)으로 약 $2.1B 유입 추정 [actual · ETF Channel]. 영향: 긍정적 — 금리 발작 국면의 대기자금 피난처 수요 확인. 자금 유입 자체는 수익률에 영향 없음(패시브 T-bill) [inference]",
+        "source": "https://www.etfchannel.com/article/202609/sgov-sees-2-1-billion-weekly-inflow-as-investors-add-ultra-short-treasury-SGOV09082026inflow.htm/"
+      },
+      {
+        "date": "2026-09-10",
+        "title": "미국 MMF 자산 $7.97T — 사상 최고권 유지",
+        "summary": "9/9 주간 −$6.1B로 $7.97T, 직전 주 $7.98T [actual · ICI]. 영향: 중립 — T-bill 수요 기반이 두텁다는 뜻이나 SGOV와 동일 자금풀을 두고 경쟁함",
+        "source": "https://www.ici.org/research/stats/mmf"
+      },
+      {
+        "date": "2026-09-10",
+        "title": "트럼프 '$5,000 배당금'($1조+) 공약 — 초당적 반발",
+        "summary": "공화당 상·하원 승리 조건부 [actual · CNBC/NPR]. 영향: 중립 — 입법 시 적자 확대분이 우선 T-bill로 조달될 가능성(공급↑·단기금리↑)이나 입법 가능성 낮음 [inference]",
+        "source": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "10년물 장중 5.01% — 2023년 이후 처음",
+        "summary": "인플레·공급 우려로 5% 돌파 [actual · Bloomberg]. 영향: 부정적(상대매력) — 블로거의 1차 트리거(5%) 도달로 'SGOV에 쌓아둔 대기자금을 장기채로 옮길 시점'이 가까워짐. 10년물 4.97% vs SGOV 3.74%로 1.2%p 캐리 격차 [derived]",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-14/us-10-year-yield-breaches-5-as-inflation-supply-worries-mount"
+      },
+      {
+        "date": "2026-08-24",
+        "title": "베센트, 약 $1조 TGA로 바이백 재원 조달 검토 보도",
+        "summary": "재무부 관리 2명 인용 [actual · CNBC]. 영향: 중립 — TGA를 헐면 당장은 T-bill 발행 없이 유동성 순주입(블로거 'QE 라이트'), 그러나 TGA 재축적 시 T-bill 순발행 확대로 이어질 가능성(T05) [inference]. 9/9 확정안에 TGA 직접 활용 명시 여부 확인 불가",
+        "source": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html"
+      },
+      {
+        "date": "2026-08-21",
+        "title": "JPM Sullivan — 바이백은 'paying your mortgage with your credit card'",
+        "summary": "장기채를 T-bill로 바꾸는 것일 뿐 불균형을 미래로 이연 [actual · CNBC]. 영향: 긍정적(SGOV 공급·수익 관점) — 부채 단기화 = T-bill 잔액 증가, 차환 빈도 증가로 단기금리가 재정 리스크를 더 민감하게 반영 [inference]",
+        "source": "https://www.cnbc.com/2026/08/21/us-bond-intervention-shifting-problem-future-jpmorgan.html"
+      },
+      {
+        "date": "2026-08-05",
+        "title": "분기 리펀딩 — 이표채 규모 '최소 수 분기 유지', 9월 말 현금잔고 $950B 가정",
+        "summary": "10년 $42B·30년 $25B 입찰 유지, 유동성지원 바이백 최대 $38B + 1개월~2년 구간 현금관리 바이백 최대 $25B, TGA 10월 말 최대 $1.05T(±$50B) [actual · treasury.gov sb0590]. 영향: 중립~긍정적 — 증가 조달이 T-bill 몫이 되는 구조 재확인. 단 현금관리 바이백은 단기 구간을 되사므로 T-bill 순공급 일부 상쇄 [inference]",
+        "source": "https://home.treasury.gov/news/press-releases/sb0590"
+      },
+      {
+        "date": "2026-09-04",
+        "title": "MSPD 8월 말 T-bill 잔액 $7,248.1B — 시장성 국채의 22.77%",
+        "summary": "7월 말 $6,988.9B(22.22%) → 8월 말 $7,248.1B(22.77%), 1년 전 21.66% [actual/derived · Treasury Fiscal Data]. 영향: 중립 — SGOV 투자 유니버스 확대, 단기물 공급 증가가 T-bill-OIS 스프레드를 소폭 벌려 수익률에 약간 우호적일 수 있음 [inference]",
+        "source": "https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 7248.1,
+      "cagr_pct": 12.4,
+      "horizon": "미국 시장성 T-bill 잔액 2026-08-31 $7,248.1B [actual · Treasury MSPD Table 1]. CAGR은 2021-08-31 $4,038.1B → 2026-08-31 5년 기준 [derived]; 3년 CAGR 12.6%·1년 +13.8% [derived]. 향후 성장률 전망치는 확인 불가 [unavailable] — 재정적자·이표채 규모 동결 기조(sb0590) 유지 시 T-bill 비중 상승 지속 가능 [inference]"
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "peer_compare": [
+      {
+        "ticker": "SGOV",
+        "name": "iShares 0-3 Month Treasury Bond ETF",
+        "price": 100.54,
+        "aum_usd_bn": 105.98,
+        "expense_ratio_pct": 0.09,
+        "div_yield_pct": 3.74,
+        "return_1y_pct": 3.75,
+        "volatility_pct": 0.18,
+        "duration_yrs": 0.11,
+        "note": "yfinance 1.3.0 live 2026-09-16 [actual]; 듀레이션·SEC yield 3.64%·순자산 $109.86B는 iShares 9/15 [actual]. 1년 수익률은 auto_adjust 종가 기준(stocks.json 3.76과 반올림 차)"
+      },
+      {
+        "ticker": "BIL",
+        "name": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+        "price": 91.51,
+        "aum_usd_bn": 46.75,
+        "expense_ratio_pct": 0.1353,
+        "div_yield_pct": 3.76,
+        "return_1y_pct": 3.66,
+        "volatility_pct": 0.2,
+        "duration_yrs": null,
+        "note": "yfinance live [actual]; 듀레이션 ~0.1년 [estimated]"
+      },
+      {
+        "ticker": "SHV",
+        "name": "iShares 0-1 Year Treasury Bond ETF",
+        "price": 110.17,
+        "aum_usd_bn": 20.97,
+        "expense_ratio_pct": 0.15,
+        "div_yield_pct": 3.73,
+        "return_1y_pct": 3.6,
+        "volatility_pct": 0.19,
+        "duration_yrs": null,
+        "note": "yfinance live [actual]; 듀레이션 ~0.3~0.4년 [estimated]"
+      },
+      {
+        "ticker": "USFR",
+        "name": "WisdomTree Floating Rate Treasury Fund",
+        "price": 50.48,
+        "aum_usd_bn": 18.76,
+        "expense_ratio_pct": 0.15,
+        "div_yield_pct": 3.75,
+        "return_1y_pct": 4.08,
+        "volatility_pct": 0.28,
+        "duration_yrs": null,
+        "note": "yfinance live [actual]; FRN 주간 리셋이라 금리 듀레이션 ≈0, 스프레드 듀레이션 ~1~2년 [estimated]"
+      },
+      {
+        "ticker": "TLT",
+        "name": "iShares 20+ Year Treasury Bond ETF",
+        "price": 81.03,
+        "aum_usd_bn": 47.05,
+        "expense_ratio_pct": 0.15,
+        "div_yield_pct": 4.73,
+        "return_1y_pct": -6.21,
+        "volatility_pct": 9.32,
+        "duration_yrs": null,
+        "note": "stocks.json/yfinance live [actual]; 듀레이션 ~16년 [estimated · AGENT_BRIEF]. 캐리 격차 TLT−SGOV = +0.99%p, 대신 변동성 52배 [derived]"
+      }
+    ],
+    "financial_unit": "n/a (ETF)",
+    "bs_snapshot": {
+      "aum_usd_bn": 105.98,
+      "aum_note": "yfinance totalAssets $105.98B(9/16) [actual]; iShares 순자산 $109.86B(9/15) [actual] — 집계 시점 차이",
+      "n_holdings": null,
+      "n_holdings_note": "iShares 상품 페이지·팩트시트 모두 'Number of Holdings: 0'으로 표기(표기 오류 추정) → 확인 불가 [unavailable]. 팩트시트(6/30) 상위 10개 T-bill 합계 68.76%, U.S. Treasury Debt 99.48%·Investment Company 0.52% [actual]",
+      "expense_ratio_pct": 0.09,
+      "effective_duration_yrs": 0.11,
+      "avg_maturity_days": 40,
+      "avg_maturity_note": "WAM 0.11년 × 365 ≈ 40일 [derived · iShares 9/15 WAM 0.11년 actual]. 팩트시트(6/30) 만기분포: 1~7일 7.54%·8~14일 1.98%·15~30일 30.30%·31~60일 44.98%·61~90일 10.18%·91~120일 5.01% [actual]",
+      "distribution_yield_pct": 3.74,
+      "sec_30d_yield_pct": 3.64,
+      "trailing_12m_yield_pct": 3.69,
+      "yield_note": "분배수익률 3.74% [actual · yfinance 9/16], 30일 SEC yield 3.64%·12M trailing 3.69% [actual · iShares 9/15]. 13주 T-bill ^IRX 3.947% [actual · yfinance] 대비 SEC yield가 낮은 것은 보수 0.09%와 인상 선반영 시차 때문 [inference]"
+    },
+    "cf_summary": {
+      "note": "ETF — 손익계산서 없음. 현금흐름은 월 분배(매월 초 배당락)와 설정·환매 유출입뿐임 [actual · iShares 분배빈도 Monthly]. 가격은 배당락 사이클로 약 $100.27~$100.73 범위의 톱니형(9/15 주간 NAV 레인지) [actual · iShares]. 발행주식수 6/30 952.5M → 9월 초 1,070.25M(+12.4%) [actual/derived · iShares 팩트시트·ETF Channel] — 2026 H2 대기자금 유입 가속. 1년 NAV 수익률 3.90%(6/30), 2025년 4.24%·2024년 5.28% [actual · 팩트시트]"
+    }
+  },
+  "financial_statements_summary": {
+    "data_source": "iShares 상품 페이지(2026-09-15) + iShares 팩트시트(2026-06-30) + yfinance 1.3.0 live(2026-09-16) + Treasury Fiscal Data MSPD(2026-08-31) + FRED",
+    "frequency": "n/a (ETF — 분기·연간 손익 없음)",
+    "notes": "SGOV는 ETF라 US-GAAP 손익·5Y annual/5Q quarterly 재무 시계열이 없음 → pl_5y 의도적 빈 배열 [actual · ETF 구조]. 대체 지표: ① SEC yield 3.64%·분배수익률 3.74%(명목 캐리) ② 듀레이션 0.11년(가격위험 사실상 0 — 금리 +1%p 시 가격 −0.11% [derived]) ③ 실질 캐리 3.74 − CPI 3.4 = +0.34%p [derived] ④ 보수 0.09%(BIL 0.1353%·SHV/USFR 0.15% 대비 최저) ⑤ 환노출(원화 투자자: USDKRW 3개월 1,537.56 → 1,366.65, −11.1% [derived · yfinance]). 연간 성과는 연준 정책금리 경로를 거의 그대로 추종함(2023 5.13%·2024 5.28%·2025 4.24%) [actual · 팩트시트]."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 30,
+      "probability": 30,
+      "target_price": 100.6,
+      "target_price_basis": "SGOV는 이자를 매월 분배해 가격이 ~$100.3~100.7 톱니형으로 거의 고정됨 [actual · iShares NAV 레인지] → 목표가는 현재가 $100.54 ±$0.1 범위의 '월중 누적이자 수준'일 뿐 가치평가 결과가 아님. Bull은 금리 상승으로 월간 누적이자가 커져 배당락 직전 가격이 약간 높아지는 것을 반영(+0.06%) [derived]. 수익의 본체는 total_return_12m_pct(분배금)임",
+      "total_return_12m_pct": 4.2,
+      "opportunity_cost_vs_TLT_pct": -5.6,
+      "opportunity_cost_note": "정의: TLT 12개월 총수익 − SGOV 12개월 총수익 (+면 SGOV 보유로 놓친 수익, −면 SGOV가 우위). TLT 가정 20년+ 금리 +0.40%p·듀레이션 16·볼록성 3.3 → 가격 −6.1% + 분배 4.73% ≈ −1.4% [derived/estimated]. −1.4 − 4.2 = −5.6%p [derived]",
+      "thesis": "[SGOV 상대매력 최상] 9/16 25bp 인상 후 에너지·PPI 2차 전가(T07)로 12개월 내 1회 추가 인상 → 정책금리 4.00~4.25% [inference]. WAM 40일 구조로 인상분이 즉시 반영돼 12개월 총수익 ~4.2% [estimated]. 동시에 장기금리는 재정·텀프리미엄(T03·T06)으로 5.1%를 넘어 오버슈트해 TLT가 마이너스 → SGOV에 대기하며 5.1%+ 트리거를 기다린 전략이 가장 크게 보상받음. '도망치는 것은 부끄럽지만 도움이 된다'(T11)가 결과로 증명되는 경로",
+      "key_assumptions": [
+        "9월 인상 확정 + 12개월 내 추가 인상 1회 (근원 CPI 월 0.3% 수준 지속) [inference]",
+        "T-bill 수익률이 정책금리를 −0.1~0%p 범위로 추종, 보수 0.09% 차감 [estimated]",
+        "20년+ 금리 +0.40%p 상승 — 연준이 5% 레드라인(T10)에서 개입하지 않음 [inference]",
+        "T-bill 공급 증가(바이백·TGA 재축적)가 단기물 수급을 교란하지 않음 [inference]"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "probability": 50,
+      "target_price": 100.5,
+      "target_price_basis": "현재가 $100.54 부근 유지 — 가격 변동은 배당락 톱니(±$0.2) 내 소음이며 목표가는 사실상 '원금 보존'을 의미 [derived]. 수익은 분배금으로 실현",
+      "total_return_12m_pct": 3.9,
+      "opportunity_cost_vs_TLT_pct": 2.4,
+      "opportunity_cost_note": "TLT 가정 20년+ 금리 −0.10%p(5% 돌파 후 부분 되돌림) → 가격 +1.6% + 분배 4.73% ≈ +6.3% [derived/estimated]. 6.3 − 3.9 = +2.4%p [derived] — 기다린 대가(기회비용)가 크지 않음",
+      "thesis": "[SGOV = 합리적 대기] 9/16 인상 1회 후 연준 '매파적 동결'로 3.75~4.00% 유지 [inference]. T-bill 수익률 ~4.0% − 보수 → 12개월 ~3.9% [estimated]. 10년물은 4.7~5.1% 박스권에서 등락해 블로거의 5.1% 트리거가 한두 번 스치는 정도. 장기채 대비 기회비용은 연 2%p 내외로 '변동성 회피 보험료' 수준임. 실질 캐리는 CPI가 3%대 중반에 머물면 +0.3~0.5%p로 얇음 [derived]",
+      "key_assumptions": [
+        "9/16 25bp 인상 후 12개월 동결 [inference]",
+        "CPI YoY 3.0~3.5% — 실질 캐리 소폭 플러스 유지 [estimated]",
+        "20년+ 금리 ±0.2%p 박스권, 10년물 5.1% 돌파 지속되지 않음 [inference]",
+        "SGOV 가격은 $100.3~100.7 배당락 레인지 유지 [actual 패턴 · iShares]"
+      ]
+    },
+    "bear": {
+      "prob_pct": 20,
+      "probability": 20,
+      "target_price": 100.45,
+      "target_price_basis": "금리 인하로 월간 누적이자가 줄어 배당락 직전 가격이 약간 낮아지는 효과(−0.09%) [derived]. SGOV 원금 손실 시나리오가 아니라 '수익률 하락 + 장기채 랠리를 놓치는' 상대 손실 시나리오임",
+      "total_return_12m_pct": 3.0,
+      "opportunity_cost_vs_TLT_pct": 19.3,
+      "opportunity_cost_note": "TLT 가정 20년+ 금리 −1.00%p(금융 스트레스 → 안전자산 쏠림) → 가격 +17.7%(볼록성 포함) + 분배 4.73% ≈ +22.3% [derived/estimated]. 22.3 − 3.0 = +19.3%p [derived]. 단 스태그플레이션형 스트레스(인하에도 텀프리미엄 상승)라면 장기금리가 안 내려 기회비용이 훨씬 작을 수 있음 [inference]",
+      "thesis": "[SGOV 상대매력 최악] 5%+ 장기금리·유가 $100이 신용·주택·은행에 균열을 내 연준이 인상 직후 인하로 급선회(2~3회) [inference]. T-bill 수익률이 빠르게 하락해 재투자 수익률 급락 → 12개월 ~3.0% [estimated]. 동시에 장기채 급등 → 5.1% 트리거를 기다리다 '매수 기회가 오기 전에 금리가 꺾이는' 경로. 원화 투자자는 위험회피 국면 달러 강세로 환차익이 일부 상쇄할 수 있음 [inference]",
+      "key_assumptions": [
+        "HY OAS 2.76%(9/15, FRED)에서 급확대하는 신용 이벤트 발생 [inference]",
+        "연준 12개월 내 50~75bp 인하 [inference]",
+        "20년+ 금리 −1.0%p — 텀프리미엄보다 경기침체 가격화가 우세 [inference]",
+        "재무부 X-date 이슈는 발생하지 않음(부채한도 여력 ~$1.2T) [estimated]"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-09-16",
+      "event": "9월 FOMC 결정 (14:00 ET = 9/17 03:00 KST)",
+      "type": "policy",
+      "expected_impact": "high",
+      "description": "25bp 인상(3.75~4.00%) 확률 83~92% 보도 [actual]. 인상 시 SGOV 수익률 1~3개월 내 +0.25%p 상향 [derived]. '매파적 동결' 시 단기금리 선반영분(^IRX +0.24%p/1m) 일부 되돌림 [inference]. 결과 확인 불가"
+    },
+    {
+      "date": "2026-09-30",
+      "event": "분기말 TGA 목표 $950B (현재 $883.3B)",
+      "type": "fiscal",
+      "expected_impact": "med",
+      "description": "재무부 9월 말 현금잔고 가정 $950B [actual · sb0590] vs 9/9 주간 $883.3B [actual · FRED] → 약 $67B 추가 적립 필요 [derived]. 9월 세수로 일부 충당, 부족분은 T-bill [inference]"
+    },
+    {
+      "date": "2026-10 중순",
+      "event": "9월 CPI 발표 (BLS)",
+      "type": "macro",
+      "expected_impact": "high",
+      "description": "근원 MoM 0.3% 재현 시 추가 인상(Bull) 확률 상승, 0.2% 이하 시 동결(Base) 강화. 발표일은 BLS 일정 확인 필요 [estimated]"
+    },
+    {
+      "date": "2026-10 말",
+      "event": "TGA 최대 $1.05T(±$50B) 도달 예상",
+      "type": "fiscal",
+      "expected_impact": "med",
+      "description": "재무부가 제시한 10월 말 피크 [actual · sb0590]. TGA 재축적은 T-bill 순발행 증가 → 단기물 공급 확대·지준 흡수로 단기금리 상방 압력 [inference]"
+    },
+    {
+      "date": "2026-10-27~28",
+      "event": "10월 FOMC",
+      "type": "policy",
+      "expected_impact": "high",
+      "description": "추가 인상 vs 동결 판단 지점. 일정은 연준 2026 캘린더 기준 [estimated — federalreserve.gov 재확인 권장]"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "미국 중간선거",
+      "type": "political",
+      "expected_impact": "med",
+      "description": "공화당 상·하원 승리 시 '$5,000 배당금'($1조+) 재정확대 기대 → T-bill 공급 증가·장기 텀프리미엄 상승(T06) [inference]. 블로거: TGA 바이백의 '청구서는 선거 후'(T05)"
+    },
+    {
+      "date": "2026-11-04",
+      "event": "바이백 확대 스케줄 종료 + 11월 분기 리펀딩(초 11월)",
+      "type": "fiscal",
+      "expected_impact": "med",
+      "description": "1회 $40억+ 확대 기간 9/9~11/4 종료 [actual · sb0607]. 11월 리펀딩에서 이표채 증액 가이던스 여부 — TBAC는 'FY27 이표채 증액이 필요할 수 있다'고 언급 [actual · sb0591]. 증액 시 T-bill 비중 상승 둔화 [inference]"
+    },
+    {
+      "date": "2026-12-08~09",
+      "event": "12월 FOMC + 점도표",
+      "type": "policy",
+      "expected_impact": "high",
+      "description": "2027 정책경로 확인. 인하 전환 신호 시 Bear 시나리오(재투자 위험) 부각 [inference]. 일정 [estimated]"
+    },
+    {
+      "date": "2027 H1~H2",
+      "event": "부채한도 소진·X-date 가능성",
+      "type": "fiscal",
+      "expected_impact": "med",
+      "description": "OBBBA(2025-07)로 한도 약 $41.1T [estimated · 법안 기억 기반, 재확인 권장] vs 총부채 $39.89T(8/7) [actual · Treasury 보도 인용] → 여력 약 $1.2T [derived]. 연 ~$2T 적자 가정 시 2027 중반 소진 [estimated]. X-date 근접 시 해당 만기 T-bill 금리 왜곡"
+    },
+    {
+      "date": "매월 초",
+      "event": "SGOV 월 분배금 지급·배당락",
+      "type": "distribution",
+      "expected_impact": "low",
+      "description": "월 분배 [actual · iShares]. 배당락일 가격이 약 $0.3 하락하는 톱니 패턴 — 가격 하락이 손실이 아님을 인지해야 함 [derived]"
+    }
+  ],
+  "risks": [
+    {
+      "name": "재투자 위험 (금리 인하 전환)",
+      "probability": "med",
+      "impact": "med",
+      "description": "WAM 40일이라 인하가 시작되면 수익률이 1~3개월 내 동반 하락 [derived]. 장기채처럼 고금리를 '잠글' 수 없음. Bear 시나리오 12개월 수익 ~3.0% [estimated]",
+      "mitigation": "10년물 5.1%+ 트리거 도달 시 일부를 IEF/TLT로 분할 이동해 듀레이션 확보(바벨) [inference]"
+    },
+    {
+      "name": "기회비용 (장기채 랠리 놓침)",
+      "probability": "med",
+      "impact": "high",
+      "description": "20년+ 금리가 1%p 하락하면 TLT 총수익 ~+22% vs SGOV ~3% → 약 19%p 상대 손실 [derived]. 트리거(5.1%)를 기다리는 동안 금리가 꺾이면 진입 기회 자체를 놓침(T11 counter)",
+      "mitigation": "트리거 미도달 시에도 시간 기반 소량 분할(예: 분기별 일정 비율) 병행 검토 [inference]"
+    },
+    {
+      "name": "부채한도·X-date 시 T-bill 기술적 리스크",
+      "probability": "low",
+      "impact": "med",
+      "description": "한도 여력 ~$1.2T [derived/estimated]로 2027 중 X-date 논의 가능. 2023년처럼 X-date 전후 만기 T-bill 금리가 급등·유동성 저하, 극단적으로 지급 지연 우려 [inference]. SGOV는 지수 규칙상 해당 만기를 보유할 수 있음",
+      "mitigation": "X-date 윤곽 시 FRN(USFR)·MMF 분산, 해당 만기 회피하는 액티브 상품 검토 [inference]"
+    },
+    {
+      "name": "실질수익률 음수 전환",
+      "probability": "med",
+      "impact": "med",
+      "description": "SGOV 3.74% − CPI 3.4% = +0.34%p로 이미 얇음 [derived]. 유가 $103.74(WTI)·근원 PPI 4.6%가 CPI를 4%대로 밀면 실질 캐리 마이너스 [inference] — 명목 원금은 지켜도 구매력은 잠식",
+      "mitigation": "일부를 TIP(실질금리 2.60%, FRED DFII10)로 분산 [inference]"
+    },
+    {
+      "name": "세금 (미국 원천징수·한국 과세)",
+      "probability": "high",
+      "impact": "low",
+      "description": "해외상장 SGOV 분배금은 미국 원천징수 대상(이자관련배당(QII) 면제 적용 여부는 증권사 처리에 따라 상이 — 확인 불가) 후 국내 배당소득 과세, 매매차익은 해외주식 양도소득세(연 250만원 공제 후 22%) [inference · 일반 세법]. 국내상장 0046A0.KS는 분배금·차익 모두 배당소득세 15.4%·금융소득종합과세 편입 [inference]. 세후 캐리는 명목 3.7%보다 의미 있게 낮음",
+      "mitigation": "ISA·연금저축 등 과세이연 계좌 활용, 개인 세무 확인 [inference]"
+    },
+    {
+      "name": "환율 (원화 투자자 비헤지)",
+      "probability": "high",
+      "impact": "high",
+      "description": "USDKRW 3개월 1,537.56 → 1,366.65(−11.1%) [derived · yfinance], 한국은행 2연속 인상(3.00%). 같은 기간 KRX 상장 달러 단기물 ETF 0046A0.KS −8.75%·456610.KS −8.51%·455030.KS −8.85% [actual · yfinance 3개월]. 연 3.7% 캐리를 환율이 수개월 만에 3배 이상 잠식 [derived]",
+      "mitigation": "원화 대기자금이면 원화 MMF·CD(기준금리 3.00%)와 비교 — 헤지비용 ~0.6~0.9%p [estimated] 차감 시 헤지 달러 T-bill 원화 캐리 ≈ 3.0%로 원화 단기물과 유사 [derived]. 달러 수요(향후 미국채 매수용)가 있을 때만 달러 파킹 [inference]"
+    },
+    {
+      "name": "T-bill 공급 과잉·MMF 경쟁",
+      "probability": "low",
+      "impact": "low",
+      "description": "T-bill 비중 22.77%로 과거 TBAC 권고 범위(15~20%) 상단 초과 [actual/derived · MSPD; TBAC 권고 범위는 과거 권고 기억 기반 estimated]. 공급 과잉 시 T-bill이 OIS 대비 싸져 수익률엔 오히려 우호적, 대신 레포·지준 긴장(RRP $0.7B) 시 단기자금시장 변동성 [inference]",
+      "mitigation": "구조적 회피 불요 — 모니터링 항목 [inference]"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "10년물 ≈ 장기인플레 + 중립금리 + 텀프리미엄(2.6%p) → 5% 초과는 자연스럽다",
+      "type": "framework",
+      "evidence": "[SGOV 관점] 단기물은 텀프리미엄이 사실상 0이라 SGOV 수익률은 '정책금리 기대'만 반영함 [inference]. 10년물 4.973% − ^IRX 3.947% = +1.03%p 기간 스프레드 [derived] → 블로거 산식대로 텀프리미엄이 1.5%로 수렴하면 장기채 추가 약세, SGOV 대기가 유리. KW 0.96%·ACM 0.80%(모델 추정)는 1.5%보다 낮아 이미 상당 부분 반영됐을 수도 있음 [actual · FRED/MacroMicro]",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "30년물은 텀프리미엄 1.9%로 10년물보다 약 0.4%p 높다",
+      "type": "quantitative",
+      "evidence": "[SGOV 관점] 간접 연관 — 커브 스티프닝(10-30 0.37%p [actual · yfinance])은 장기 구간 리스크를 뜻하며 SGOV의 무듀레이션 성격이 상대적으로 부각됨 [inference]. SGOV 수익률 자체에는 영향 없음",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "바이백은 단기채 발행으로 장기채를 사는 만기 스왑 — 장기금리 못 잡고 부채구조만 단기화",
+      "type": "causal",
+      "evidence": "[SGOV 관점 — 직접] T-bill 잔액 1년 +13.8%, 비중 21.66% → 22.77% [derived · MSPD] — 단기화는 데이터로 확인됨. 단 비중 상승의 주 원인이 바이백인지 재정적자·이표채 동결(sb0590)인지는 분리 불가 [inference]. 분기 유동성지원 바이백 최대 $38B는 T-bill 잔액 $7.25T의 약 0.5% [derived] — 바이백 단독 효과는 작음",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "9/9 $60억 바이백은 시장 기대($80~100억) 대비 실망으로 금리 발작 촉발",
+      "type": "event",
+      "evidence": "[SGOV 관점] 발작 기간에도 SGOV 변동성 0.18%·1개월 +0.29% [actual · yfinance] — 장기채 발작의 피난처 역할 확인. 9월 초 주간 $2.1B 유입 [actual · ETF Channel]",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "TGA로 바이백하면 'QE 라이트'로 두세 달 달달하나 결국 단기국채를 더 찍게 되고 청구서는 선거 후",
+      "type": "causal",
+      "evidence": "[SGOV 관점 — 직접] TGA $883.3B(9/9) [actual · FRED], 재무부 10월 말 최대 $1.05T 가정 [actual · sb0590] — TGA는 줄기보다 재축적 경로. RRP $0.7B로 완충 소진 [actual · FRED] → TGA 재축적·T-bill 순발행이 지준을 직접 흡수해 단기금리 상방 압력 [inference]. TGA 직접 활용 확정 여부는 확인 불가",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "근본 원인은 인플레이션과 재정적자발 국채 공급 폭증 — '$5,000 배당금'이 적자 우려 가중",
+      "type": "macro",
+      "evidence": "[SGOV 관점] 이표채 규모 '최소 수 분기 유지'(sb0590) 하에서 적자 확대분은 T-bill로 조달 → SGOV 유니버스 확대 [inference]. 총부채 $39.89T(8/7) [actual · Treasury 보도 인용]. 공약 입법 가능성 낮음 [inference]",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "유가 $100·Core PPI 4.6%로 인플레이션이 돌아오고 있다",
+      "type": "macro",
+      "evidence": "[SGOV 관점 — 직접] 인플레 재가속은 SGOV에 양면: 명목 수익률↑(인상 경로) vs 실질 캐리↓. 현재 실질 캐리 3.74−3.4 = +0.34%p [derived]. WTI $103.74·근원 PPI 4.6% [actual · yfinance/BLS]. 반대 데이터: 근원 PPI MoM 0.2%(예상 하회)·BEI 2.38% 안정 [actual · BLS/FRED]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "근원 CPI 0.3%가 워시의 인상 조건을 충족 → 9월 인상 가능성 상승",
+      "type": "event",
+      "evidence": "[SGOV 관점 — 직접] ^IRX 3.703 → 3.947%(1개월 +0.24%p) [actual · yfinance] — 단기물이 인상을 거의 완전 선반영. DFF 3.63% [actual · FRED]. 인상 시 SGOV 30일 SEC yield 3.64%가 1~2개월 내 ~3.9%로 상향 예상 [estimated]. 결과는 9/17 03:00 KST 발표 — 확인 불가",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "FOMC 표결 구도상 워시가 '매파적 동결'로 설득할 수도 있는 정치력 시험대",
+      "type": "political",
+      "evidence": "[SGOV 관점] 동결 시 선반영된 +0.24%p 일부 되돌림 → SGOV 수익률 기대 하향 [inference]. 다만 시장이 이미 83~92% 인상을 반영해 동결 서프라이즈는 장기금리(텀프리미엄) 상승 가능성도 있어 SGOV 대기 논리는 유지 [inference]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "재무부는 한계, 연준을 봐야 함 — 연준 레드라인 5%, 시차 고려 5.1%가 실질 상단",
+      "type": "policy_reaction",
+      "evidence": "[SGOV 관점] 연준이 장기채 매입(QE/YCC)으로 개입하면 단기금리 인상 기조와 충돌 → 인하·매입 조합이면 SGOV 수익률 하락(재투자 위험) [inference]. 5% 레드라인에 대한 연준 공식 언급 없음 — 확인 불가",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T11",
+      "claim": "5% 찍고 5.1%까지 가면 매수 검토, 연말 변동성 부담 — '도망치는 것은 부끄럽지만 도움이 된다'",
+      "type": "normative",
+      "evidence": "[SGOV 관점 — 핵심] SGOV는 '도망'의 문자 그대로의 구현체임: 듀레이션 0.11년·변동성 0.18%로 물 근처에 가지 않으면서도 연 3.74% 캐리 [actual · iShares/yfinance]. 동시에 5.1%+ 트리거 도달 시 즉시 투입 가능한 dry powder. 기회비용은 Base 연 ~2.4%p, Bear ~19%p [derived]. 원화 투자자는 환율(3개월 −11.1%)이 캐리를 압도할 수 있다는 한계 [derived]",
+      "testability": "high",
+      "current_status": "pending"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": null,
+    "implied_op_margin_5y_pct": null,
+    "notes": "ETF 역DCF 비적용 — 실질 캐리 3.74−3.4 ≈ +0.3%p [derived]. T-bill ETF는 현금흐름 성장 개념이 없고 가격이 사실상 고정(듀레이션 0.11년)이라 역산할 성장률·마진이 존재하지 않음 [actual · ETF 구조]. 대체 지표: 명목 캐리 3.74%(분배)/3.64%(SEC), 실질 캐리 +0.34%p(CPI 3.4% 기준) 또는 +1.36%p(10Y BEI 2.38% 기준) [derived · FRED T10YIE], 장기채 대비 캐리 격차 −0.99%p(TLT 4.73%) [derived]."
+  },
+  "blog_thesis_link": "메르는 특정 ETF를 언급하지 않음 — SGOV 매핑은 분석자 판단. 연결점: ① T03·T05 바이백·TGA 논리의 귀결인 '단기국채를 더 찍게 됨'(블로그 1편 §27)이 T-bill 잔액 +13.8%/년으로 확인되는 자산 ② T08 9월 인상이 수익률에 즉시 반영되는 자산 ③ T11 '5.1%까지 기다렸다 매수·연말 변동성이 부담스러우면 물 근처에 가지 않기'를 실행할 때 대기자금이 머무는 자리(바벨의 현금 다리)",
+  "investment_method": {
+    "entry_rule": "SGOV는 '방향 베팅'이 아니라 대기 자산이므로 진입 조건이 아니라 역할로 정의함 [inference]: 장기채 매수 예정 자금 중 아직 트리거(10년물 5.1%+ 종가 확인)가 오지 않은 몫을 SGOV에 파킹. 블로거 T11 기준 10년물이 5%를 안 가면 '그만' → 그대로 SGOV 캐리(~3.7%)를 받으며 대기. 9/14 장중 5.01%로 1차 조건은 스쳤으나 종가 4.973%(9/16) [actual · yfinance]",
+    "exit_or_stop_rule": "① 10년물 5.1% 이상 종가 확인 시 대기자금을 IEF/TLT로 분할 이동(예: 3~4회) — '출구'가 곧 장기채 진입 [inference]. ② 연준 인하 전환 신호(점도표·성명) 시 재투자 위험 부각 → SHV 등 만기 연장 또는 장기채 이동 가속 [inference]. ③ X-date 윤곽 시 USFR/MMF로 일부 분산. SGOV 자체의 가격 손절 규칙은 불필요(듀레이션 0.11년) [derived]",
+    "position_sizing_note": "바벨 구조: 현금 다리(SGOV) + 듀레이션 다리(IEF/TLT/453850.KS). 블로거처럼 '손이 나가지 않는' 구간에서는 현금 다리 비중을 크게 두고, 5.1%+ 트리거·연말 변동성 소화에 맞춰 듀레이션 다리로 이동하는 것이 '도망치는 것은 부끄럽지만 도움이 된다'의 실행 형태임 [inference]. 구체 비중은 개인 위험성향·Risk Manager 한도(risk_limits.json)에 따름 — 본 문서는 비중 권유 아님",
+    "hedging_note": "원화 투자자: SGOV·0046A0.KS(TIGER 미국초단기(3개월이하)국채, 동일 지수·보수 0.09% [actual · 미래에셋])·456610.KS(TIGER 미국달러SOFR금리액티브(합성)) [actual · 미래에셋]·455030.KS(KODEX 미국달러SOFR금리액티브(합성)) [actual · 삼성자산운용/k-etf.com]는 모두 달러 환노출형으로 3개월 −8.5~−8.9% [actual · yfinance] — 원화 강세(USDKRW 3개월 −11.1%)가 캐리를 압도함. 원화 기준 순수 파킹이면 원화 MMF·CD(한은 3.00%)가 대안이며, 향후 달러 자산(미국채) 매수가 확정된 자금만 달러 파킹하는 것이 환위험 일관성 측면에서 합리적 [inference]. 헤지비용 ~0.6~0.9%p [estimated, 선물환 포인트 실측 확인 불가]"
+  },
+  "sources": [
+    "https://www.ishares.com/us/products/314116/ishares-0-3-month-treasury-bond-etf",
+    "https://www.ishares.com/us/literature/fact-sheet/sgov-ishares-0-3-month-treasury-bond-etf-fund-fact-sheet-en-us.pdf",
+    "https://fiscaldata.treasury.gov/datasets/monthly-statement-public-debt/",
+    "https://home.treasury.gov/news/press-releases/sb0590",
+    "https://home.treasury.gov/news/press-releases/sb0591",
+    "https://home.treasury.gov/news/press-releases/sb0607",
+    "https://www.ici.org/research/stats/mmf",
+    "https://www.etfchannel.com/article/202609/sgov-sees-2-1-billion-weekly-inflow-as-investors-add-ultra-short-treasury-SGOV09082026inflow.htm/",
+    "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR70046A0008",
+    "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02591206642141040",
+    "https://investments.miraeasset.com/tigeretf/ko/product/search/detail/index.do?ksdFund=KR7456610005",
+    "https://www.samsungfund.com/etf/product/view.do?id=2ETFJ3",
+    "https://fred.stlouisfed.org/series/WTREGEN",
+    "https://fred.stlouisfed.org/series/RRPONTSYD",
+    "yfinance 1.3.0 live 2026-09-16 (SGOV·BIL·SHV·USFR·TFLO·TLT·^IRX·USDKRW=X·0046A0.KS·456610.KS·455030.KS)"
+  ],
+  "analysis_mode": "single",
+  "thesis_count": 11,
+  "korean_disclosures": []
+}
