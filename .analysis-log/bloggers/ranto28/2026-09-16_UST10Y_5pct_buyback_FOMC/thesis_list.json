@@ -1,0 +1,187 @@
+{
+  "summary_one_liner": "메르 미국채 3편 — 재무부 바이백($60억)은 만기 스왑이라 장기금리를 못 잡고, 인플레(유가 $100·Core PPI 4.6%·근원 CPI 0.3%)와 재정적자가 근본 원인이며 9월 FOMC는 인상 쪽으로 기울었다. 10년물 ≈ 장기인플레 + 2.6%p(중립 1.1 + TP 1.5)라 5% 초과는 자연스럽고, 연준 레드라인 5%~5.1%에서 매수를 검토하되 연말 변동성을 감안해 '도망치는 것도 방법'.",
+  "blog_url": "https://blog.naver.com/ranto28/224412030235",
+  "blog_urls": [
+    "https://blog.naver.com/ranto28/224407689635",
+    "https://blog.naver.com/ranto28/224409005416",
+    "https://blog.naver.com/ranto28/224412030235"
+  ],
+  "blogger": "ranto28",
+  "theses": [
+    {
+      "claim_id": "T01",
+      "claim": "미국채 10년물 금리는 '장기 인플레이션 + 중립금리 + 텀프리미엄(+α)'로 근사할 수 있다. 2023년엔 중립금리+텀프리미엄을 2%p로 보고 장기인플레 2.6%를 더해 상한 4.6%를 제시했으나, 현재는 중립금리 1.1% + 텀프리미엄 1.5% = 2.6%p로 올라 장기인플레 2%중반을 더하면 10년물 5% 초과가 자연스럽다.",
+      "type": "framework",
+      "importance": "core",
+      "timeframe": "structural (2026~)",
+      "supporting_evidence": "3편 본문. 9/15 10년물 4.998%·장중 5.01% (Bloomberg/CNBC 9/14). FRED DFII10(10Y 실질) 2.60% + T10YIE(10Y BEI) 2.38% = 4.98% — 산수와 정합.",
+      "counter_evidence": "텀프리미엄 추정은 모델별 편차 큼: FRED THREEFYTP10(KW) 0.96%(9/11), NY Fed ACM 0.80%(8/13 MacroMicro) — 블로거의 1.5%보다 낮음. 중립금리 1.1%(실질)의 출처 불명(확인 불가). 2023년 4.6% 상한은 2023-10 10년물 ~5.0% 터치로 이미 한 차례 오버슈트.",
+      "key_assumption": "중립금리+텀프리미엄 합이 2.6%p 부근에서 안정되고 장기 기대인플레가 2.3~2.6%에 머문다.",
+      "affected_tickers": [
+        "TLT",
+        "IEF",
+        "453850.KS",
+        "TIP"
+      ]
+    },
+    {
+      "claim_id": "T02",
+      "claim": "30년물은 중립금리는 같고 텀프리미엄만 1.9%로 10년물(1.5%)보다 0.4%p 높으므로, 명목금리도 약 0.4%p 차이가 난다 (9/15 10년 4.998% vs 30년 5.354%).",
+      "type": "quantitative",
+      "importance": "supporting",
+      "timeframe": "present",
+      "supporting_evidence": "3편 본문. yfinance ^TYX 5.347%·^TNX 4.973%(9/16) → 스프레드 0.37%p. FRED DGS30 5.34%·DGS10 4.97%(9/14).",
+      "counter_evidence": "10-30 스프레드는 텀프리미엄뿐 아니라 연금·보험 장기채 수요, 볼록성, 바이백 대상 구간(20~30년) 공급 변화에도 좌우됨. 1년 전 스프레드 0.62%p(4.646−4.026)로 변동 큼.",
+      "key_assumption": "10-30년 커브 스티프닝이 텀프리미엄 차이로 대부분 설명된다.",
+      "affected_tickers": [
+        "TLT",
+        "453850.KS"
+      ]
+    },
+    {
+      "claim_id": "T03",
+      "claim": "재무부 바이백은 단기채(T-bill)를 발행해 헌 장기채를 되사는 만기 스왑일 뿐 부채총량·재정적자를 바꾸지 못하므로('신용카드로 주담대 갚기'), 장기금리를 잡지 못하고 오르는 속도만 늦춘다. 오히려 부채구조 단기화로 텀프리미엄 상승을 부른다.",
+      "type": "causal",
+      "importance": "core",
+      "timeframe": "2026 H2",
+      "supporting_evidence": "2편 본문. treasury.gov sb0607(8/19: 1회 $20억→최소 $40억, 9/9~11/4). JPM Sullivan CNBC 8/21. 9/9 $60억 발표 후 10년물 4.85%·20년물 5.3% 상승(Fox Business·FXStreet). 20~30년물 오퍼 ~$200억 vs 매입 $20억(블로거 인용).",
+      "counter_evidence": "바이백은 원래 '유동성 지원(liquidity support)' 목적이지 금리 목표 수단이 아님 — 금리 효과 부재가 정책 실패를 의미하진 않음. 분기 한도 대비 규모는 장기채 잔액 대비 미미해 원래 금리 효과는 제한적 설계(inference).",
+      "key_assumption": "시장이 바이백을 재정 규율 부재 신호로 해석해 텀프리미엄을 올린다.",
+      "affected_tickers": [
+        "TLT",
+        "IEF",
+        "453850.KS",
+        "SGOV"
+      ]
+    },
+    {
+      "claim_id": "T04",
+      "claim": "9/9 바이백 1회 최대 $60억(3배) 확정은 절대 규모로는 긍정적이었으나, 베센트가 TGA($9,350억) 활용을 먼저 언급해 시장 기대가 $80~100억까지 올라가 있었기에 '실망'으로 작용했고 유가 $100·Core PPI 4.6%와 겹쳐 국채금리 발작을 촉발했다.",
+      "type": "event",
+      "importance": "supporting",
+      "timeframe": "2026-09",
+      "supporting_evidence": "2편 본문. CNBC 9/9 'up to $6 billion, triple the normal level'; Fox Business: 월가 전망 $70~100억+ 대비 실망, 10년물 2023년 이후 최고. BLS PPI 8월 근원 4.6% YoY. yfinance CL=F $103.74·BZ=F $107.37(9/16).",
+      "counter_evidence": "PPI 근원 MoM은 0.2%로 컨센서스(0.3%) 하회(tradingeconomics) — PPI를 발작 원인으로 보기엔 혼재. 글로벌 채권 동반 매도(Bloomberg 9/11 'global bond selloff')가 더 큰 요인일 수 있음.",
+      "key_assumption": "발작의 주 원인이 기대 대비 바이백 규모 실망이다.",
+      "affected_tickers": [
+        "TLT",
+        "IEF",
+        "453850.KS"
+      ]
+    },
+    {
+      "claim_id": "T05",
+      "claim": "TGA를 헐어 장기채를 바이백하면 단기채 발행 없이 유동성이 민간에 순주입되는 'QE 라이트'로 두세 달은 위험자산(미장·암호화폐·금)에 달달하지만, 정부 쓸 돈이 줄어 결국 단기국채를 더 찍어야 하므로 청구서는 중간선거(2026-11) 이후에 날아온다.",
+      "type": "causal",
+      "importance": "supporting",
+      "timeframe": "2026-09 ~ 2027 H1",
+      "supporting_evidence": "2편 본문. CNBC 8/24 TGA 활용 검토 보도. FRED WTREGEN $883.3B(9/9 주간). FRED RRPONTSYD $0.7B(9/15) — RRP 완충 소진.",
+      "counter_evidence": "9/9 확정안에는 TGA 직접 활용이 명시되지 않음(확인 불가) — 현재까진 '기대'에 그침. TGA 감소가 지준 증가로 이어져도 연준 QT·인상과 상쇄 가능.",
+      "key_assumption": "TGA 활용 바이백이 실제로 실행된다.",
+      "affected_tickers": [
+        "SGOV",
+        "TLT"
+      ]
+    },
+    {
+      "claim_id": "T06",
+      "claim": "장기금리를 밀어올리는 근본 원인은 인플레이션과 재정적자로 인한 국채 공급 폭증이며, 둘 다 재무부가 통제할 수 없다. 트럼프의 '$5,000 배당금'(성인 2.6억명×$5천=1.3조달러) 공약은 적자 확대 우려를 더한다.",
+      "type": "macro",
+      "importance": "core",
+      "timeframe": "structural",
+      "supporting_evidence": "2편 본문. NPR/CNN 9/9 'Trump dividend' 공약, CNBC 9/10 '$1 trillion-plus' 초당적 반발. Bloomberg 9/14: 재무부·기업 차입 수요 확대가 5% 돌파 배경. 미국 부채 $40조(Yahoo/JPM 기사).",
+      "counter_evidence": "공약은 공화당 상·하원 승리 조건부이며 입법 가능성 낮음(inference). 적자 확대가 곧바로 금리로 전가되지 않은 기간도 길었음(2010년대). 원화 강세·해외 수요 변화도 변수.",
+      "key_assumption": "재정 확대 기대가 텀프리미엄으로 가격화된다.",
+      "affected_tickers": [
+        "TLT",
+        "453850.KS",
+        "TIP",
+        "SGOV"
+      ]
+    },
+    {
+      "claim_id": "T07",
+      "claim": "인플레이션이 다시 문제로 돌아오고 있다 — 유가 $100 재돌파와 Core PPI 4.6%(YoY)는 2~3개월 뒤 CPI·PCE로 전가되며, 8월 CPI 에너지 +16.3%·휘발유 +27.4%가 물가를 주도했다.",
+      "type": "macro",
+      "importance": "core",
+      "timeframe": "2026 Q4",
+      "supporting_evidence": "1·2편 본문. BLS 8월 CPI 3.4% YoY·근원 2.4%; 에너지 지수 +16.3% YoY. PPI 근원 4.6% YoY(7월 4.2%). WTI $103.74·Brent $107.37 (yfinance 9/16), 1y 전 $64.5·$68.5. Bloomberg: 이란 전쟁발 에너지 쇼크.",
+      "counter_evidence": "시장 기대인플레는 안정적: FRED T10YIE 2.38%(1y 전 2.37%), T5YIFR(5y5y) 2.35% — 장기 기대는 고정. 근원 CPI YoY 2.4%는 목표 근접. 에너지 공급 쇼크는 일시적일 수 있음.",
+      "key_assumption": "에너지·PPI 상승이 근원 CPI/PCE로 2차 전가된다.",
+      "affected_tickers": [
+        "TIP",
+        "SGOV",
+        "IEF"
+      ]
+    },
+    {
+      "claim_id": "T08",
+      "claim": "8월 근원 CPI 전월비 0.3%(예상 0.2%)는 워시 의장이 잭슨홀에서 제시한 '물가가 계속 내려가지 않으면 인상' 조건을 충족시키고 하치우스(GS)의 동결 논리를 무너뜨려, 9월 FOMC 금리인상 가능성을 높였다(페드워치 72.4%→83.4%).",
+      "type": "event",
+      "importance": "core",
+      "timeframe": "2026-09-16",
+      "supporting_evidence": "3편(CPI) 본문. CNBC 9/11 근원 0.3% MoM; Yahoo 'hike odds surge to 90%'; cryptotimes 9/16 인상 확률 92%·3.75~4.00% 예상. FRED DFF 3.63%. yfinance ^IRX 3.947%(1m 전 3.703) — 단기금리 선반영.",
+      "counter_evidence": "연준 결정은 9/17 03:00 KST 발표 — 분석 시점 미확정(확인 불가). 에너지 제외 근원 YoY 2.4%는 2%에 근접해 '일회성 월간 튐'으로 볼 여지.",
+      "key_assumption": "FOMC가 25bp 인상한다.",
+      "affected_tickers": [
+        "SGOV",
+        "IEF",
+        "TLT",
+        "453850.KS"
+      ]
+    },
+    {
+      "claim_id": "T09",
+      "claim": "FOMC 12표는 매파 3(해맥·로건·카시카리)·비둘기 4(쿡·폴슨·월러·보먼)·스윙 4(제퍼슨·윌리엄스·바·파월)·워시로 나뉘고 의장 캐스팅보트가 없어 7표가 필요하다. 워시가 '매파적 동결'로 위원들을 설득할 수도 있어, 이번 FOMC는 워시의 연준 내 정치력 시험대다.",
+      "type": "political",
+      "importance": "supporting",
+      "timeframe": "2026-09-16",
+      "supporting_evidence": "3편 본문. CNBC 9/14 'Counting the votes: Warsh faces a tough battle'.",
+      "counter_evidence": "위원 성향 분류는 블로거·언론 해석(inference). 시장이 85~92% 인상을 반영한 상태에서 동결 시 오히려 '연준 신뢰 훼손'으로 장기금리 상승(텀프리미엄) 가능 — 동결이 채권에 반드시 우호적이지 않음.",
+      "key_assumption": "월러 등 조건부 비둘기가 데이터에 따라 인상으로 이동한다.",
+      "affected_tickers": [
+        "SGOV",
+        "IEF",
+        "TLT"
+      ]
+    },
+    {
+      "claim_id": "T10",
+      "claim": "재무부는 자금동원에 한계가 있지만 연준은 달러를 찍을 수 있으므로, 이제는 연준을 봐야 한다. 연준이 움직이는 레드라인은 10년물 5%일 가능성이 있고 시차를 고려하면 5.1%가 실질적 상단이다.",
+      "type": "policy_reaction",
+      "importance": "core",
+      "timeframe": "2026 Q4",
+      "supporting_evidence": "1·2편 본문(9/2 글 인용). 도이치 스티븐 젱 '재무부가 먹이를 계속 줘야 하는 괴물을 만들었다'(블로거 인용). CNBC 9/16 'Treasury yields hitting 5% may not break markets now — but the clock is ticking'.",
+      "counter_evidence": "연준은 인플레 3.4% 상황에서 금리를 올리는 중 — 장기채 매입(QE/YCC)은 인상과 정면 충돌. 5% 레드라인에 대한 연준 공식 언급 없음(확인 불가). 2007년 10년물 5% 이상이 장기간 지속된 전례.",
+      "key_assumption": "연준이 장기금리 급등을 금융안정 이슈로 보고 개입(발언·QT 조정·매입)한다.",
+      "affected_tickers": [
+        "TLT",
+        "453850.KS",
+        "IEF"
+      ]
+    },
+    {
+      "claim_id": "T11",
+      "claim": "[투자 방법] 10년물이 5%를 찍고 시장이 놀라 5.1%까지 가면 미국채를 매수할 생각이며, 5%를 안 가면 그만이다. 다만 연말까지의 변동성이 부담이라 손이 나가지 않는다 — '도망치는 것은 부끄럽지만 도움이 된다', 부담스러운 시기엔 물 근처에 가지 않는 것도 투자방법이다.",
+      "type": "normative",
+      "importance": "core",
+      "timeframe": "2026 Q4",
+      "supporting_evidence": "1·3편 한줄코멘트. 9/14~15 5.01% 터치로 1차 트리거 도달. TLT $81.02(5년 저점 $73.13, 2023-10-19), IEF $91.05, SGOV 수익률 3.74%(yfinance).",
+      "counter_evidence": "가격 트리거만 있고 청산·손절 규칙이 없음. 금리 인상·재정 확대 국면에서 5%는 상단이 아닌 통과점일 수 있음(2007 선례). 원화 투자자는 환율(USDKRW 3개월 1,538→1,367, -11%)이 채권 손익을 압도할 수 있음.",
+      "key_assumption": "5%~5.1%가 사이클 고점 부근이고, 분할·인내가 가능하다.",
+      "affected_tickers": [
+        "TLT",
+        "IEF",
+        "SGOV",
+        "453850.KS",
+        "TIP"
+      ]
+    }
+  ],
+  "meta": {
+    "extracted_at": "2026-09-16",
+    "n_theses": 11,
+    "source_posts": 3,
+    "extraction_notes": "3편을 하나의 논지로 통합. 1편(바이백·TGA·금리발작·5% 매수 트리거)=T03·T04·T05·T06·T10·T11, 2편(CPI·FOMC 표결)=T07·T08·T09, 3편(10년물 산수·30년물 TP)=T01·T02·T11. 바이백 기본개념(§18~29) 설명은 T03에 흡수. 자산 매핑 — 직접: TLT(20년+ 장기채, T10/T11 레드라인 매수), IEF(7~10년, 10년물 직접 대응), 453850.KS(원화 투자자용 30년 환헤지 — BOK 3.00% 인상으로 헤지비용 축소); 방어/대안: SGOV(0~3개월 T-bill — FOMC 인상·단기채 발행 확대·'물 근처에 가지 않기'), TIP(물가연동 — T07 인플레 재가속). 블로거는 특정 ETF를 언급하지 않음 — 매핑은 분석자 판단."
+  }
+}
