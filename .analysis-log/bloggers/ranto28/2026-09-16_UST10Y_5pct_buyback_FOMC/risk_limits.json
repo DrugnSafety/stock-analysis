@@ -1,0 +1,131 @@
+{
+  "computed_at": "2026-09-16T23:15:38.378595+09:00",
+  "portfolio_value": 1000000.0,
+  "base_limit_pct": 0.2,
+  "n_pairs": 5,
+  "limits": [
+    {
+      "ticker": "453850.KS",
+      "as_of_date": "2026-09-16",
+      "current_price": 7060.0,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.00639,
+        "annualized_volatility": 0.1014,
+        "volatility_percentile": 31.9,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.25,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.275,
+      "position_limit_value": 275000.0,
+      "remaining_position_limit_value": 275000.0,
+      "max_quantity": 53233,
+      "max_quantity_usd_naive": 38,
+      "fx_note": "USD 포트폴리오 한도 $275,000 × USDKRW 1366.65 (yfinance 2026-09-16 live) ÷ ₩7,060 → 53,233주 (mixed-currency 보정)",
+      "price_source": "stocks.json yfinance live 2026-09-16"
+    },
+    {
+      "ticker": "IEF",
+      "as_of_date": "2026-09-16",
+      "current_price": 91.045,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.00307,
+        "annualized_volatility": 0.0488,
+        "volatility_percentile": 77.3,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.25,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.275,
+      "position_limit_value": 275000.0,
+      "remaining_position_limit_value": 275000.0,
+      "max_quantity": 3020
+    },
+    {
+      "ticker": "SGOV",
+      "as_of_date": "2026-09-16",
+      "current_price": 100.55,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.00065,
+        "annualized_volatility": 0.0103,
+        "volatility_percentile": 11.3,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.25,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.275,
+      "position_limit_value": 275000.0,
+      "remaining_position_limit_value": 275000.0,
+      "max_quantity": 2734
+    },
+    {
+      "ticker": "TIP",
+      "as_of_date": "2026-09-16",
+      "current_price": 105.895,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.00267,
+        "annualized_volatility": 0.0423,
+        "volatility_percentile": 65.2,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.25,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.275,
+      "position_limit_value": 275000.0,
+      "remaining_position_limit_value": 275000.0,
+      "max_quantity": 2596
+    },
+    {
+      "ticker": "TLT",
+      "as_of_date": "2026-09-16",
+      "current_price": 81.015,
+      "portfolio_value": 1000000.0,
+      "volatility_metrics": {
+        "daily_volatility": 0.00607,
+        "annualized_volatility": 0.0964,
+        "volatility_percentile": 53.9,
+        "data_points": 60
+      },
+      "vol_multiplier": 1.25,
+      "correlation_metrics": {
+        "avg_correlation_with_active": null,
+        "max_correlation_with_active": null,
+        "active_positions": []
+      },
+      "corr_multiplier": 1.1,
+      "base_limit_pct": 0.2,
+      "combined_limit_pct": 0.275,
+      "position_limit_value": 275000.0,
+      "remaining_position_limit_value": 275000.0,
+      "max_quantity": 3394
+    }
+  ]
+}
