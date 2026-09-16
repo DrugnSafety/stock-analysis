@@ -1,0 +1,482 @@
+{
+  "ticker": "453850.KS",
+  "aggregated_at": "2026-09-16T23:15:07.408775+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 6,
+      "pct": 35.3
+    },
+    "neutral": {
+      "count": 8,
+      "pct": 47.1
+    },
+    "lean_bullish": {
+      "count": 3,
+      "pct": 17.6
+    }
+  },
+  "average_confidence": 0.568,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "neutral",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bearish",
+          "confidence": 0.5
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.65
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bullish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "음(−) 모멘텀 지속",
+        "음(−) Sharpe — 무위험 대비 열위",
+        "30Y 2y 최고 돌파 시 추세 가속"
+      ],
+      "key_opportunities_top3": [
+        "범위 하단 근접(저점 +2.6%) — 반전 시 평균회귀 여지",
+        "1m 기울기 둔화",
+        "헤지 추종 오차 작음(괴리율 −0.28%)"
+      ],
+      "uncertainty": "beta·optimizer 데이터 부재, 일별 시계열 대신 lookback 수익률만 사용한 근사임. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "투자 성패가 금리 예측에 달림 — 능력범위 밖",
+        "STRIPS 고듀레이션으로 예측 실패 시 손실 큼",
+        "성장 없는 수익률"
+      ],
+      "key_opportunities_top3": [
+        "이해하기 쉬운 구조 + 환율 영향 없음",
+        "원화 예금 대비 높은 캐리",
+        "월분배"
+      ],
+      "uncertainty": "린치는 채권 ETF를 직접 평가한 사례가 없어 원칙 번역 적용. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "value trap — 공급 확대로 cheapness가 장기 지속",
+        "음(−) 모멘텀 regime 지속",
+        "FOMC 인상 시 carry 악화"
+      ],
+      "key_opportunities_top3": [
+        "Value 신호 강함(2y 범위 상단)",
+        "헤지후 양(+)의 carry",
+        "모멘텀 반전 시 value+momentum 동시 양(+) 전환 가능"
+      ],
+      "uncertainty": "채권 factor 점수는 단일 종목·단일 시점 근사이며 AQR식 cross-sectional 순위가 아님. 453850 자체의 장기 가격 이력(상장 2023-03)이 짧음. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "인플레↑ quadrant 지속 시 명목 장기채 최악",
+        "장기 부채사이클 debasement 경로의 실질가치 훼손",
+        "고듀레이션 과다 비중 시 포트폴리오 변동성 급증"
+      ],
+      "key_opportunities_top3": [
+        "디플레·성장 쇼크 quadrant에서 최대 수익원",
+        "실질금리 2.60% — 보상 개선",
+        "헤지가 달러 devaluation 리스크 차단"
+      ],
+      "uncertainty": "macro_snapshot.json(IMF 등) 미사용, FRED 일부 시리즈만 anchor. 30년 실질금리 직접 데이터 미수집. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "두 중앙은행 경로 동시 의존(FOMC·BOK)",
+        "원화 강세 11% 진행 후 추가 헤지 이득 축소",
+        "유가 $100+가 한국 경상수지·원화에 역풍 가능"
+      ],
+      "key_opportunities_top3": [
+        "BOK 추가 인상 시 헤지비용 축소",
+        "연금저축·IRP 안전자산 슬롯으로 과세이연",
+        "비헤지 대비 환손실 차단 실증"
+      ],
+      "uncertainty": "연금계좌·ISA 편입 가능 여부와 과세 세부는 상품 공시 미확인 [inference]. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "채무자(미 정부) 인센티브가 인플레·지출 확대 쪽",
+        "STRIPS 편입 고듀레이션 — 손실 증폭",
+        "5% 라운드넘버 앵커링 편향"
+      ],
+      "key_opportunities_top3": [
+        "10Y 실질 2.60% — 채권자 보상 개선",
+        "신용손실 위험 사실상 없음",
+        "기다리면 더 명확한 가격(인플레 확인 후)이 올 가능성"
+      ],
+      "uncertainty": "멍거는 생전 장기 국채 매수 논리를 체계적으로 공개하지 않아 인센티브·역사고 원칙을 번역 적용함. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "tails 손실 −14.5%(+100bp) [derived] — 'don't lose much' 미충족",
+        "인플레 고착 시 실질 영구손실",
+        "듀레이션 공시 미확인으로 payoff 계산 오차"
+      ],
+      "key_opportunities_top3": [
+        "명목 신용손실 ≈ 0",
+        "기대값 +5% 내외 [derived]",
+        "30Y 추가 상승 시 3:1 payoff에 근접하는 가격 도래 가능"
+      ],
+      "uncertainty": "시나리오 확률은 [assumption]이며 FOMC 결과에 따라 즉시 재조정 필요. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "30년 인플레 경로 예측 필요 — 능력범위 밖",
+        "세후 실질 캐리 0.4~0.6%p [derived]",
+        "발행자 청지기 정신(바이백·공약) 불량"
+      ],
+      "key_opportunities_top3": [
+        "신용 해자 최상 — 명목 원금 손실 위험은 금리 경로에 한정",
+        "운용 효율(보수 0.05%)",
+        "디플레 쇼크 시 높은 방어력"
+      ],
+      "uncertainty": "버크셔 현금 구성·버핏 채권 발언은 공개 자료 기억 기반 [inference] — URL 미수집. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.65,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "인상 사이클 초입 — 연준 역행",
+        "30Y 2y 고점 돌파 시 추세 가속",
+        "FOMC 인상 시 헤지비용 +25bp"
+      ],
+      "key_opportunities_top3": [
+        "연준 사이클 종료 신호 시 가장 큰 레버리지 수단",
+        "BOK 인상 지속 → 헤지비용 하락",
+        "30Y 돌파 실패 시 반전 트레이드"
+      ],
+      "uncertainty": "FOMC 점도표·워시 기자회견 톤이 regime 판정을 즉시 바꿀 수 있음. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "2007년처럼 10Y 5%·30Y 5%+가 장기 고착될 위험",
+        "catalyst 지연 — 인상 사이클이 2회 이상 이어질 경우",
+        "FOMC 인상 시 헤지비용 확대"
+      ],
+      "key_opportunities_top3": [
+        "30Y 5.35% — 2023년 커버 레벨 상회",
+        "바이백(~11/4)·중간선거(11월) 등 날짜가 있는 catalyst",
+        "헤지로 원화 강세 리스크 제거"
+      ],
+      "uncertainty": "애크먼 2023년 숏·커버 레벨은 공개 발언 기억에 의존 [inference] — 본 분석에서 원문 URL 미수집. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bearish",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "장기 실질 복리 1~2% — 성장기업 대비 기회비용",
+        "스커틀벗 일관 부정",
+        "액티브 운용 초과성과 증거 없음"
+      ],
+      "key_opportunities_top3": [
+        "보수 0.05% 저비용",
+        "포트폴리오 내 현금성·방어 슬롯 용도",
+        "금리 하락 시 단기 반등"
+      ],
+      "uncertainty": "피셔 15-point는 기업용이라 대부분 N/A — 채점은 번역 가능한 항목 한정. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bullish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "2007년식 5%대 장기 고착",
+        "인플레 꼬리(유가 $100+) 현실화 시 +150bp −26%",
+        "catalyst timing 불확실"
+      ],
+      "key_opportunities_top3": [
+        "원화 헤지 30년물이 상장후 저점 +2.6% — hard 레벨 극단",
+        "비헤지형 5년 최저 = 원화 투자자 capitulation 신호",
+        "근원 PPI 하회·수요 파괴 catalyst"
+      ],
+      "uncertainty": "헤지형과 TLT의 저점 거리 차이 원인(누적 헤지비용)은 추정 [inference] — 운용보고서 미확인. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "A loop(재정→TP→가격 하락→TP) 지속",
+        "FOMC 인상·동결 모두 TP 상승 경로",
+        "원화 loop 반전 시 헤지의 기회비용"
+      ],
+      "key_opportunities_top3": [
+        "loop 파열 시 가장 큰 반등 수단(고듀레이션)",
+        "원화 강세 loop를 헤지로 이미 차단",
+        "비헤지형 공포(5년 최저)는 원화 투자자 심리 바닥 신호일 수 있음"
+      ],
+      "uncertainty": "reflexivity 단계 판정은 정성적 inference이며 8단계 경계 정량 기준 없음. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "만기 없는 ETF — 원금 회수 하한(floor) 부재",
+        "STRIPS 편입으로 실효 듀레이션 ~22년 [estimated] — 방어 기준 초과",
+        "헤드라인 CPI 대비 실질 캐리 1.0~1.3%p [derived]로 얇음"
+      ],
+      "key_opportunities_top3": [
+        "미 국채 신용 — 신용손실 위험 사실상 없음",
+        "총보수 0.05%·괴리율 −0.28% — 비용·거래 효율",
+        "환헤지로 원화 강세(3m −11%) 손실 경로 제거"
+      ],
+      "uncertainty": "그레이엄 원칙의 채권 적용은 1949~1973 Intelligent Investor 논리의 번역이며 현대 ETF 구조와 1:1 대응하지 않음. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.5,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "기술 디플레이션 실현 시점 불확실 — 5년 이상 역캐리·손실 감내 필요",
+        "워시 연준 인상 사이클 장기화",
+        "유가 $100+ 고착 시 기대인플레 이탈"
+      ],
+      "key_opportunities_top3": [
+        "STRIPS 편입 → 금리 하락 시 볼록성 극대화",
+        "30Y 3.94% 회귀 시 +37% 내외 [derived]",
+        "헤지로 원화 변수 제거 — 순수 금리 베팅"
+      ],
+      "uncertainty": "우드의 디플레이션 테제는 채권 전용 프레임이 아니며 번역 적용임. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "TP 모델 간 괴리(블로거 1.5% vs KW 0.96% vs ACM 0.80%)로 공정가 자체가 불확정",
+        "FOMC 인상 시 헤지비용 +25bp → 캐리 잠식",
+        "실효 듀레이션 공시 미확인(FunETF 0.06년 이상치) — STRIPS 비중이 높으면 민감도 과소추정 위험"
+      ],
+      "key_opportunities_top3": [
+        "헤지후 초과 캐리 +1.4~1.7%p [derived]",
+        "−100bp 시 +25% [derived] — 높은 금리 민감도의 우측 꼬리",
+        "총보수 0.05% · 순자산 1조 4,627억원 — 비용·유동성 효율"
+      ],
+      "uncertainty": "30년 BEI 직접 데이터 미수집 — 10년 BEI로 대용함. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "재정 지배·인플레 꼬리에서 장기 명목채 fragile",
+        "헤지가 원화 위기 옵션(USDKRW 급등 이익)을 제거",
+        "선물환 롤 경로 의존 비용"
+      ],
+      "key_opportunities_top3": [
+        "STRIPS 편입으로 디플레·위기 꼬리 볼록성 극대화",
+        "barbell 우측 날개로 적합(소량)",
+        "신용 꼬리 위험 없음"
+      ],
+      "uncertainty": "볼록성 수치는 듀레이션·볼록성 가정치 [estimated] 기반 — 실제 편입 비중 공시 미확인. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함. 듀레이션은 운용사 공시 미확인: 편입 상위가 STRIPS(2055~56 만기)+30년 이표채라 실효 듀레이션 ~18~25년(중앙 ~22년) [estimated]; FunETF 표기 '0.06년'은 이상치로 판단해 불사용. 환헤지 비용(한미 단기금리차 0.6~0.9%p)은 선물환 포인트 실측 미확인 [estimated]. 국내상장 해외채권 ETF 과세(분배·차익 배당소득세 15.4% 보유기간과세, 연금계좌 과세이연)는 일반 세법 구조 기준 [inference] — 상품별 공시 미확인.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
