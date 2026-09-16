@@ -1,0 +1,577 @@
+{
+  "ticker": "453850.KS",
+  "name": "ACE 미국30년국채액티브(H)",
+  "as_of_date": "2026-09-16",
+  "asset_class_note": "개별 기업이 아닌 원화 환헤지형 미국 장기국채 액티브 ETF임. P/E·EPS·ROE·매출·영업이익·DCF 비적용 — 듀레이션·만기수익률·캐리·환헤지 비용·볼록성으로 치환해 평가함. 9월 FOMC 결정(9/17 03:00 KST)은 분석 시점 미발표 → 결과 확인 불가, 시나리오로만 다룸. 매수·매도 권유 아님.",
+  "industry": {
+    "name": "원화 투자자의 미국 장기국채 접근 수단 — 국내상장 미국채 ETF (환헤지형 30년 액티브)",
+    "overview": "■ 원화 투자자가 미국 장기채(20~30년)에 접근하는 4가지 방식 비교\n① 해외 직접투자 TLT/EDV: 달러로 매수 → 금리 + USDKRW 환율 동시 노출. TLT 보수 0.15%·분배수익률 4.73%·AUM $47.0B, EDV 보수 0.05%·5.41% [actual · yfinance 2026-09-16]. 매매차익은 해외주식 양도소득세 22%(연 250만원 기본공제, 분리과세 — 금융소득종합과세 비합산) [actual · 소득세법 일반원칙, kbthink.com/etf/etf-tax.html]. 분배금은 배당소득 과세 [inference — 원천징수 방식은 증권사별 확인 필요]. ISA·연금계좌 편입 불가 [actual · 국내 절세계좌는 국내상장 상품만 편입].\n② 국내상장 환헤지형 453850.KS: 원화로 매수, 외화자산의 약 89%를 FX스왑으로 헤지 [derived · FunETF PDF 2026-09-15: FX스왑 명목 합계 ≈ 5.05억원/CU vs 달러자산 ≈ 5.66억원/CU]. 총보수 0.05% [actual · Naver 증권/FunETF], 순자산 1조 4,627억원 [actual · 2026-09-15]. 매매차익·분배금 모두 배당소득세 15.4%(과표기준가 상승분과 실제 매매차익 중 적은 금액) [actual · kbthink·samsungfund ETF 세금 가이드]. ISA·연금저축·IRP 편입 가능.\n③ 국내상장 비헤지형 476760.KS (동일 운용사·동일 비교지수 원화환산): 헤지 비용이 없어 캐리 +0.5~0.7%p 우위 [derived] 이지만 USDKRW 변동을 100% 떠안음. 순자산 3,725억원·총보수 0.05%·분배수익률 TTM 4.59% [actual · Naver 증권 2026-09-16]. 3개월 수익률 −14.90% vs 453850 −5.22% [actual · Naver 증권] → 약 9.7%p 차이가 대부분 원화 강세(USDKRW 3개월 1,537.56 → 1,366.65, −11.1% 원화 강세) 효과 [derived · yfinance]. 금리 상승 + 원화 강세 '이중 손실'이 실현됨. 476760 5년 최저 8,580원 = 2026-09-11 [actual · yfinance].\n④ 스트립 합성 458250.KS (TIGER 미국30년국채스트립액티브(합성 H)): ICE BofA Long US Treasury Principal STRIPS Index 비교지수, 장외스왑 중심 합성·환헤지 [actual · Naver 증권 상품설명]. 제로쿠폰이라 듀레이션이 가장 길어(~25년 이상 [estimated]) 같은 금리 변화에 453850 대비 약 1.5배 민감 [derived]. 1년 −14.61% vs 453850 −7.53% [actual · Naver 증권 2026-09-15 기준]. 총보수 0.15%·분배수익률 0.55% [actual] — 캐리를 분배하지 않고 가격에 누적하는 구조 [inference]. 보조로 304660.KS(KODEX 미국30년국채울트라선물(H))는 선물 Excess Return 지수라 쿠폰 캐리 없이 선물 롤·가격만 추종, 총보수 0.30% [actual].\n■ 환헤지 비용 = 한미 단기금리차 근사. 한국은행 기준금리 3.00% (8/27 2연속 인상) [actual · Korea JoongAng Daily] vs 연준 3.50~3.75% (DFF 3.63%) [actual · FRED] → 정책금리차 0.50~0.75%p. 9월 FOMC 25bp 인상 시 3.75~4.00% → 0.75~1.00%p [derived]. 시장 3개월물 기준 ^IRX 3.947% [actual · yfinance] 대비 한국 3개월 금리는 확인 불가 → 헤지 비용 연 0.6~1.0%p [estimated]. 선물환 스왑포인트 실측은 확인 불가. 헤지 명목이 순자산의 약 71.6% [actual · Naver 파생상품 비중 −71.56%]이므로 펀드 레벨 비용은 연 0.4~0.7%p [derived].\n■ 블로거 T02 연결: 30년물 = 중립금리 1.1% + 텀프리미엄 1.9% + 장기인플레(2%중반) → 약 5.4~5.5% [derived from 블로그 3편]. 현재 ^TYX 5.347% [actual · yfinance 9/16]로 블로거 산식 상단과 근접. 10-30 스프레드 0.37%p [derived]. 453850은 30년물 금리 방향에 원화 기준으로 베팅하되 환율 효과를 제거한 순수 금리 상품임.\n■ 수급: 453850 최근 1년 누적 순유출 −7,037억원·3개월 −1,321억원 vs 476760 1년 +1,073억원·3개월 +1,396억원 [actual · Naver 증권 2026-09-15]. 개인이 원화 약세 고점 부근(7월 USDKRW 1,554)에서 비헤지형으로 이동한 뒤 원화 강세를 맞은 흐름으로 해석됨 [inference].",
+    "competitors": [
+      {
+        "name": "ACE 미국30년국채액티브 (비헤지)",
+        "ticker": "476760.KS"
+      },
+      {
+        "name": "TIGER 미국30년국채스트립액티브(합성 H)",
+        "ticker": "458250.KS"
+      },
+      {
+        "name": "KODEX 미국30년국채울트라선물(H)",
+        "ticker": "304660.KS"
+      },
+      {
+        "name": "KODEX 미국30년국채액티브(H) — 동일 전략 직접 경쟁, 시가총액 5,848억원 [actual · Naver 9/16]",
+        "ticker": "484790.KS"
+      },
+      {
+        "name": "iShares 20+ Year Treasury Bond ETF",
+        "ticker": "TLT"
+      },
+      {
+        "name": "Vanguard Extended Duration Treasury ETF",
+        "ticker": "EDV"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-08-18",
+        "title": "미 30년물 5.337% — 2007년 이후 약 19년 만의 최고",
+        "summary": "30년물 국채금리가 8/18 연 5.337%까지 상승 [actual · 파이낸셜뉴스 8/30 인용]. 영향: 453850 가격 직접 하락 요인 — 30년물 +0.1%p당 약 −1.6% [derived · 듀레이션 16년 가정]",
+        "source": "https://www.fnnews.com/news/202608301758549629"
+      },
+      {
+        "date": "2026-08-19",
+        "title": "재무부, 장기채 바이백 1회 최대 $20억 → 최소 $40억 확대 (9/9~11/4)",
+        "summary": "10~20년·20~30년 구간 바이백 확대 [actual · US Treasury sb0607]. 영향: 453850이 보유한 20~30년 구간 수급에 단기 우호적이나 규모가 오퍼 물량(~$200억, 블로거 인용) 대비 작아 금리 하락 효과 제한적 [inference]",
+        "source": "https://home.treasury.gov/news/press-releases/sb0607"
+      },
+      {
+        "date": "2026-08-21",
+        "title": "JPM 설리번 '신용카드로 주담대 갚기' — 바이백 비판",
+        "summary": "장기채를 T-bill로 바꾸는 만기 스왑이라 불균형만 뒤로 미룬다는 평가 [actual · CNBC]. 영향: 텀프리미엄 상승 논리 강화 → 30년물 상단 압력, 453850 부정적 [inference]",
+        "source": "https://www.cnbc.com/2026/08/21/us-bond-intervention-shifting-problem-future-jpmorgan.html"
+      },
+      {
+        "date": "2026-08-24",
+        "title": "베센트, 약 $1조 TGA로 바이백 자금 조달 검토 보도",
+        "summary": "재무부 관리 2명 인용 [actual · CNBC]. 영향: 시장 기대치를 $80~100억으로 끌어올림 → 9/9 실망의 전제 [inference]. 실제 실행 시 장기물 수급에 긍정적",
+        "source": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html"
+      },
+      {
+        "date": "2026-08-27",
+        "title": "한국은행 기준금리 2.75 → 3.00% (2연속 인상)",
+        "summary": "성장률 전망 3.3% [actual · Korea JoongAng Daily]. 영향: 한미 단기금리차 축소 → 453850 환헤지 비용 하락(캐리 개선) + 원화 강세 지지 → 비헤지형 476760 대비 헤지형 상대 우위 요인",
+        "source": "https://www.koreajoongangdaily.com/business/bok-raises-benchmark-interest-rate-to-3-amid-economic-growth-inflation-pressure/12846901"
+      },
+      {
+        "date": "2026-08-27",
+        "title": "개인, 환노출 미국 ETF 집중 매수 — USDKRW 7/2 1,554.40 → 8/26 1,383.10 (−11.0%)",
+        "summary": "7/2~8/26 TIGER·KODEX 미국S&P500 환노출형 1조 7,841억원 순매수, 환헤지형은 약 68억원 순매도 [actual · 파이낸셜뉴스]. NH투자증권: 추가 환율 하락 여력 40~50원, 1,340~1,350원 1차 지지선 [actual]. 영향: 원화 추가 강세 여지가 제한적이라는 시각 → 헤지형/비헤지형 선택의 핵심 변수",
+        "source": "https://www.fnnews.com/news/202608271810552499"
+      },
+      {
+        "date": "2026-08-30",
+        "title": "\"저점 왔다\" 개인, ACE 미국30년국채액티브 171억원 순매수 (7/28~8/28)",
+        "summary": "채권형 ETF 순매수 1위는 비헤지형 ACE 미국30년국채액티브, 1개월 −8.09%·8/28 8,920원 52주 신저가 [actual · 파이낸셜뉴스]. 영향: 저가매수 수요가 헤지형보다 비헤지형에 쏠림 → 이후 원화 강세로 추가 손실 [inference]",
+        "source": "https://www.fnnews.com/news/202608301758549629"
+      },
+      {
+        "date": "2026-09-09",
+        "title": "재무부 바이백 1회 최대 $60억(평소 3배) — 시장은 실망",
+        "summary": "월가 기대 $70~100억+ 대비 미달, 발표 후 10년물 4.85%·20년물 5.3% 상승 [actual · CNBC·Fox Business]. 영향: 453850 핵심 보유구간(20~30년) 금리 상승 → 부정적",
+        "source": "https://www.foxbusiness.com/economy/treasury-buy-back-up-6b-longer-term-debt-bond-yields-hit-highest-level-since-2023"
+      },
+      {
+        "date": "2026-09-09",
+        "title": "트럼프 '성인 1인 $5,000 배당금' 공약 — 1조달러+ 소요, 초당적 반발",
+        "summary": "공화당 상·하원 승리 조건부 [actual · NPR 9/9, CNBC 9/10]. 영향: 재정적자 확대 우려 → 30년물 텀프리미엄 상승 압력, 453850 부정적. 입법 가능성은 낮게 평가 [inference]",
+        "source": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html"
+      },
+      {
+        "date": "2026-09-10",
+        "title": "8월 PPI 근원 4.6% YoY (7월 4.2%), 근원 MoM 0.2%는 예상 하회",
+        "summary": "최종수요 +0.4% MoM·5.4% YoY [actual · BLS]. 영향: 인플레 재가속 우려로 장기금리 상승 → 453850 부정적. 단 근원 MoM 하회는 반대 신호 [actual]",
+        "source": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      },
+      {
+        "date": "2026-09-11",
+        "title": "8월 CPI 3.4% YoY, 근원 MoM 0.3%(예상 0.2%) — 9월 인상 확률 90%",
+        "summary": "에너지 +16.3%·휘발유 +27.4% YoY [actual · CNBC/BLS, Yahoo Finance]. 영향: 연준 인상 → 미 단기금리 상승 → 한미 금리차 재확대 → 453850 환헤지 비용 상승(부정적). 장기금리는 인상이 인플레 신뢰를 높이면 오히려 안정될 여지 [inference]",
+        "source": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "미 10년물 장중 5.01% — 2023년 이후 처음 5% 돌파",
+        "summary": "인플레·공급 우려 [actual · Bloomberg]. 30년물 ^TYX 9/16 5.347% [actual · yfinance]. 영향: 블로거 T11 1차 트리거(5%) 도달 — 453850 진입 검토 구간 개시",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-14/us-10-year-yield-breaches-5-as-inflation-supply-worries-mount"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "개인 미국채 ETF 매수 지속 — 1개월 ACE 미국30년국채액티브 172억원 순매수, 수익률은 암울",
+        "summary": "ACE 미국30년국채액티브 8,620원(52주 최저 8,545원 부근), 1개월 −6.43% [actual · 아주경제]. 영향: 비헤지형 쏠림 지속, 453850은 상대적으로 소외 [inference]",
+        "source": "https://www.ajunews.com/view/20260915145745989"
+      },
+      {
+        "date": "2026-09-16",
+        "title": "FOMC 프리뷰 — 25bp 인상(3.75~4.00%) 예상, 워시 표결 시험대",
+        "summary": "2023년 이후 첫 인상 전망, 14:00 ET 성명·점도표 [actual · The Crypto Times, CNBC 9/14]. 결과는 분석 시점 미발표 → 확인 불가. 영향: 인상 시 헤지 비용 +0.25%p [derived], 매파적 동결 시 텀프리미엄 상승 가능 [inference]",
+        "source": "https://www.cryptotimes.io/2026/09/16/what-to-expect-from-todays-fomc-meeting-warshs-first-fed-rate-hike-vote-dot-plot-and-bitcoin-reaction/"
+      },
+      {
+        "date": "2026-09-16",
+        "title": "CNBC '금리 5%는 아직 시장을 깨지 않지만 시계는 돌고 있다'",
+        "summary": "5% 장기화 시 위험자산 부담 누적 [actual · CNBC]. 영향: 장기화 시나리오(bear) 경계 — 453850 손절 규칙 필요성 [inference]",
+        "source": "https://www.cnbc.com/2026/09/16/10-year-treasury-yeilds-rise-impact-markets.html"
+      }
+    ],
+    "market_size": {
+      "current_krw_tn": 6.12,
+      "current_usd_bn": 4.47,
+      "cagr_pct": null,
+      "horizon": "국내상장 미국채 ETF(혼합형 제외; 장기·10년·T-bill·30년 커버드콜 포함) 시가총액 합산 약 6.12조원 [derived · Naver 증권 ETF 목록 marketSum 합산 2026-09-16] ≈ $4.47B (USDKRW 1,366.65) [derived]. 그중 순수 장기(20~30년, 레버리지 포함·커버드콜·인버스 제외) 약 3.28조원, 30년 커버드콜 약 1.81조원, 10년 약 0.66조원, T-bill 약 0.37조원 [derived]. 453850 시가총액 1조 4,650억원으로 순수 장기형 내 점유율 약 44.7% — 1위 [derived]. 국내 ETF 전체 순자산 약 452조원(2026-08-28) [actual · 검색 보도] 대비 약 1.4%. 성장률(CAGR)은 공식 통계 없음 → 확인 불가 [unavailable]."
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "peer_compare": [
+      {
+        "ticker": "453850.KS",
+        "name": "ACE 미국30년국채액티브(H)",
+        "price_krw": 7060,
+        "return_1y_pct": -7.66,
+        "return_3m_pct": -5.12,
+        "aum_krw_bn": 1462.7,
+        "expense_ratio_pct": 0.05,
+        "div_yield_pct": 4.22,
+        "hedged": true,
+        "note": "가격·1Y/3M = yfinance 2026-09-16 live 종가 기준(분배금 미포함) [actual]. Naver 시장가격 1Y −7.53%·NAV 1Y −7.36% (9/15 기준) [actual]. 순자산 1조 4,627억원·보수 0.05%·분배율 TTM 4.22%·괴리율 −0.28%·추적오차 2.56% [actual · Naver 증권]. 상장 2023-03-14"
+      },
+      {
+        "ticker": "476760.KS",
+        "name": "ACE 미국30년국채액티브 (비헤지)",
+        "price_krw": 8735,
+        "return_1y_pct": -7.25,
+        "return_3m_pct": -13.97,
+        "aum_krw_bn": 372.5,
+        "expense_ratio_pct": 0.05,
+        "div_yield_pct": 4.59,
+        "hedged": false,
+        "note": "yfinance 2026-09-16 live [actual]. Naver 1Y −8.50%·3M −14.90% [actual]. 1Y 차이가 작은 이유는 USDKRW 1년 전 1,408.92 → 1,366.65(−3.0%)로 1년 창 환율 변화가 작기 때문 [derived]; 3M은 원화 +11%로 약 9%p 열위. 상장 2024-03-12, 순자산 3,725억원 [actual · Naver]"
+      },
+      {
+        "ticker": "458250.KS",
+        "name": "TIGER 미국30년국채스트립액티브(합성 H)",
+        "price_krw": 33910,
+        "return_1y_pct": -14.92,
+        "return_3m_pct": -8.68,
+        "aum_krw_bn": 376.0,
+        "expense_ratio_pct": 0.15,
+        "div_yield_pct": 0.55,
+        "hedged": true,
+        "note": "yfinance 2026-09-16 live [actual]. Naver 1Y −14.61%·괴리율 −0.88% [actual]. STRIPS 제로쿠폰 → 듀레이션 최장(~25년+ [estimated]), 분배 거의 없음. 상장 2023-05-31, 운용사 미래에셋 [actual]"
+      },
+      {
+        "ticker": "304660.KS",
+        "name": "KODEX 미국30년국채울트라선물(H)",
+        "price_krw": 7120,
+        "return_1y_pct": -8.95,
+        "return_3m_pct": -5.51,
+        "aum_krw_bn": 129.1,
+        "expense_ratio_pct": 0.3,
+        "div_yield_pct": 0.0,
+        "hedged": true,
+        "note": "yfinance 2026-09-16 live [actual]. Naver 1Y −8.49%·괴리율 −0.83% [actual]. S&P Ultra T-Bond Futures Index(ER) — 쿠폰 캐리 없음, 선물 구조상 환노출이 증거금 수준으로 작음 [inference]. 거래대금 1.15억원으로 유동성 가장 낮음 [actual]. 상장 2018-09-12, 삼성자산운용"
+      },
+      {
+        "ticker": "TLT",
+        "name": "iShares 20+ Year Treasury Bond ETF (USD)",
+        "price_usd": 81.01,
+        "return_1y_pct": -6.21,
+        "return_3m_pct": -5.05,
+        "aum_usd_bn": 47.0,
+        "expense_ratio_pct": 0.15,
+        "div_yield_pct": 4.73,
+        "hedged": false,
+        "note": "yfinance 2026-09-16 live, 달러 기준 [actual]. 원화 투자자 체감은 USDKRW 변화 추가"
+      },
+      {
+        "ticker": "EDV",
+        "name": "Vanguard Extended Duration Treasury ETF (USD)",
+        "price_usd": 59.22,
+        "return_1y_pct": -10.46,
+        "return_3m_pct": -7.83,
+        "aum_usd_bn": 4.13,
+        "expense_ratio_pct": 0.05,
+        "div_yield_pct": 5.41,
+        "hedged": false,
+        "note": "yfinance 2026-09-16 live [actual]. 453850 CU의 약 10.1%를 EDV로 보유 [actual · FunETF PDF 9/15]"
+      }
+    ],
+    "financial_unit": "n/a (ETF)",
+    "bs_snapshot": {
+      "aum_krw_bn": 1462.7,
+      "market_cap_krw_bn": 1465.0,
+      "nav_krw": 7059.44,
+      "expense_ratio_pct": 0.05,
+      "expense_ratio_note": "총보수 연 0.0500% (운용보수 0.0350%) [actual · FunETF/Naver 증권 2026-09-15]. 기타비용·매매중개수수료·피투자 ETF(EDV 0.05%·TLT 0.15%·ZROZ) 보수는 별도 [inference]",
+      "effective_duration_yrs": 16.0,
+      "effective_duration_note": "운용사 공시 듀레이션 확인 불가 [unavailable] — aceetf.co.kr 상품 페이지는 JS 렌더로 수치 미추출, FunETF '채권 듀레이션 0.25년·펀드 0.06년'(7/31)은 국내 분류 채권만 집계한 값으로 보여 채택 안 함 [inference]. 대신 FunETF PDF(9/15, CU 7.06억원) 보유비중으로 추정: EDV 10.1%·TLT 9.6%·ZROZ 2.3%·GOVZ 0.7%·30년 쿠폰채(T 4 5/8 11/15/55 등) 합산 약 25%·STRIPS(2055~56) 약 13%·원화현금 19.8%·달러예금 2.9% → 달러 장기채 노출 약 77% [derived]. 구성별 수정듀레이션(쿠폰채 ~15.2년·STRIPS ~28년·EDV ~24년·TLT ~16년·ZROZ ~26.5년 [estimated]) 가중 → 펀드 ≈ 15.7년 [derived]. 교차검증: NAV 1Y −7.36% vs 30년물 +0.70%p(4.646→5.347), 헤지 후 캐리 ~3.5% 가정 시 내재 듀레이션 ≈ (7.36+3.5)/0.70 ≈ 15.5년 [derived]. → 16년 채택, 범위 15~18년 [estimated]. 주의: Naver Top10은 '수량(액면)' 순이라 STRIPS가 상위에 보이나 STRIPS 가격이 액면의 약 22%라 평가금액 비중은 약 13%에 그침 [derived].",
+      "convexity_yrs2_est": 400.0,
+      "hedge_ratio_note": "FX스왑 4건(만기 2026-08-19~09-14 롤링) 명목 합계 ≈ CU당 5.05억원 vs 달러자산 ≈ 5.66억원 → 헤지비율 약 89% [derived · FunETF PDF 9/15]. Naver 자산배분 파생상품 −71.56%(순자산 대비) [actual]. 월 단위 롤링 FX스왑으로 헤지하며 헤지 손익·스왑포인트 비용이 NAV에 반영되는 구조 [inference]. 상품설명: '환헤지형 상품으로 환율 변동 노출을 최소화하는 환헷지 전략' [actual · Naver 증권 상품설명]",
+      "listing_date": "2023-03-14",
+      "benchmark": "Bloomberg U.S Treasury 20+ Year Total Return Index 대비 초과성과 목표 액티브, 약 30년 만기 국채 듀레이션 수준 포트폴리오 [actual · Naver 증권 상품설명]",
+      "premium_discount_pct": -0.28,
+      "tracking_error_pct": 2.56,
+      "avg_daily_volume_20d": 782581,
+      "trading_value_krw_bn_0916": 5.73,
+      "net_flow_krw_bn": {
+        "1m": -14.8,
+        "3m": -132.1,
+        "1y": -703.7
+      },
+      "sources": [
+        "https://m.stock.naver.com/api/stock/453850/etfAnalysis",
+        "https://www.funetf.co.kr/product/etf/view/KR7453850000",
+        "https://www.aceetf.co.kr/fund/K55101E03860"
+      ]
+    },
+    "cf_summary": {
+      "note": "월분배형 — 2025년 12회, 2026년 1~8월 8회 지급 [actual · FunETF/Naver dividendMonthThisYear]. 최근 지급기준일 2026-08-31, 주당 26원(분배율 0.36%) [actual · FunETF]. 최근 1년 분배금 합계 297원·분배율 4.21~4.22% [actual · FunETF/Naver]. 분배는 보유채권 이자·피투자 ETF 분배금 기반이며 헤지 비용은 NAV에서 차감되는 구조로 보임 → 헤지 비용 상승 시 가격(NAV) 드리프트가 음(−)으로 기울 수 있음 [inference]. 운용사 고지: 분배금 지급 여부·주기는 시장 상황에 따라 변경 가능 [actual · aceetf.co.kr]. 이익 초과 분배 시 원금 감소 가능 [actual · FunETF 유의사항]."
+    }
+  },
+  "financial_statements_summary": {
+    "data_source": "Naver 증권 ETF API(etfAnalysis·integration, 2026-09-15/16) + FunETF 상품 페이지(PDF 9/15, 분배 8/31) + yfinance 1.3.0 live(2026-09-16) + _market/rates_context.json(FRED)",
+    "frequency": "n/a (ETF — 분기·연간 손익 없음)",
+    "notes": "453850은 집합투자기구(ETF)라 US-GAAP/K-IFRS 손익계산서·5Y annual·5Q quarterly 재무 시계열이 존재하지 않음. 대신 순자산·보수·듀레이션·헤지비율·분배·괴리율·추적오차로 대체함. 운용사 공식 듀레이션·YTM은 확인 불가 → 보유종목 기반 추정치에 [estimated]/[derived] 태그. 1Y 수익률은 소스별 창·분배 반영 차이로 −7.36%(NAV)~−7.66%(yfinance 종가) 범위."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "probability": 25,
+      "target_price": 7850,
+      "target_price_basis": "30년물 5.347% → 4.70% (Δ −0.647%p). 가격효과 = −D×Δy + ½×C×Δy² = −16×(−0.647%) + ½×400×(0.00647)² ≈ +11.19% [derived]. 순캐리 ≈ 달러채권 0.77×5.25% + 원화현금 0.20×2.9% − 헤지 0.716×0.5%p − 보수 0.05% ≈ 4.21% [derived; 연준 인하 전환으로 헤지비용 0.5%p 가정 estimated]. 총수익 ≈ 15.4% − 분배 4.21% = 가격수익 ≈ 11.19% → 7,060×(1+11.19%) ≈ 7,850원 [derived]",
+      "total_return_12m_pct": 15.4,
+      "vs_unhedged_476760_note": "금리 하락 경로에 따라 갈림 [inference]. (a) 성장 쇼크·위험회피형 랠리면 달러 강세(원화 약세) 동반 경향 → 476760이 금리+환율 이중 이익으로 우위. (b) 연준 인하 전환·달러 약세형 랠리면 원화 추가 강세 → 453850 우위. USDKRW 이미 1,366.65로 3개월 +11% 원화 강세가 진행돼 (a) 쪽 비대칭이 커진 상태 [inference]. 476760은 헤지비용이 없어 캐리 +0.4~0.7%p [derived]",
+      "thesis": "블로거 T10 '연준 레드라인 5%' 가정이 맞는 경로. 9월 인상(또는 매파적 동결) 이후 인플레 기대가 고정(T10YIE 2.38%·5y5y 2.35% 유지 [actual · FRED])되고, 11/4 QRA에서 장기물 발행 축소·바이백 확대 신호 + 중간선거 후 재정 공약 후퇴 → 텀프리미엄(KW 0.96% [actual]) 되돌림. 30년물 4.7%까지 하락하며 453850 12개월 가격 약 +11%, 분배 포함 총수익 약 +15% [derived].",
+      "key_assumptions": [
+        "10년물 5.0~5.1%가 사이클 고점으로 확인됨 (T10·T11) [inference]",
+        "텀프리미엄 0.3~0.5%p 되돌림 — 11/4 QRA·바이백 확대 또는 연준 QT 조정 발언 [inference]",
+        "2027년 초 연준 인하 전환 기대로 미 단기금리 하락 → 헤지비용 0.5%p 수준 [estimated]",
+        "유가 WTI $103.74 [actual]에서 $85 이하로 안정 — 에너지발 2차 전가 제한 [inference]"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "probability": 45,
+      "target_price": 7040,
+      "target_price_range": [
+        6870,
+        7200
+      ],
+      "target_price_basis": "30년물 5.2~5.5% 박스, 중심 5.35% (Δ≈0) → 가격효과 ≈ 0% [derived]. 연준 3.75~4.00% 인상 반영 헤지비용 1.0%p [estimated] → 순캐리 ≈ 3.86% [derived]. 총수익 ≈ 3.86% − 분배 4.21% → 가격수익 ≈ -0.35% → 7,040원. 박스 하단 5.20%(가격 7,200원)·상단 5.50%(가격 6,870원) [derived]",
+      "total_return_12m_pct": 3.86,
+      "vs_unhedged_476760_note": "476760은 헤지비용 부재로 캐리 약 +0.7%p 우위 [derived]. 손익분기 환율 ≈ 1,366.65×(1−0.0072) ≈ 1,357원 — 12개월 뒤 USDKRW가 이보다 높으면 476760, 낮으면 453850 우위 [derived]. NH투자증권은 1,340~1,350원을 1차 지지선으로 제시 [actual · 파이낸셜뉴스 8/27] → 두 상품 기대수익 차가 작아 환율 뷰가 없으면 헤지형이 변동성 대비 효율적 [inference]",
+      "thesis": "블로거 산식(T01·T02) 그대로 30년물 = 중립 1.1 + TP 1.9 + 장기인플레 2%중반 ≈ 5.4% 부근에서 고착. 연준은 9월 인상 후 관망, 인플레는 에너지 주도로 끈적하나 기대인플레는 안정. 453850은 가격 횡보(≈7,040원) + 월분배 4.2% 수준의 '캐리 상품'으로 기능 — 블로거의 '5% 매수' 결정이 가격이 아닌 캐리로 보상받는 경로 [inference].",
+      "key_assumptions": [
+        "9월 FOMC 25bp 인상(3.75~4.00%) 후 12월까지 추가 인상 없음 [inference — 결과 확인 불가]",
+        "한국은행 10/22·11월 동결 또는 1회 추가 인상 → 헤지비용 0.8~1.0%p [estimated]",
+        "10-30 스프레드 0.3~0.45%p 유지, 텀프리미엄 KW 0.9~1.1% 박스 [inference]",
+        "월분배 연 4.2% 수준 유지, 괴리율 ±0.3% 이내 [inference]"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "probability": 30,
+      "target_price": 6350,
+      "target_price_basis": "30년물 5.347% → 6.00% (Δ +0.653%p). 가격효과 = −16×0.653% + ½×400×(0.00653)² ≈ -9.6% [derived]. 연준 추가 인상으로 헤지비용 1.2%p [estimated] → 순캐리 ≈ 3.71% [derived]. 총수익 ≈ -5.88% − 분배 4.21% → 가격수익 ≈ -10.09% → 6,350원 (5년 최저 6,878원 [actual · yfinance 2023-10-23] 하회) [derived]. 듀레이션 18년 가정 시 가격 약 6,180원 [derived]",
+      "total_return_12m_pct": -5.88,
+      "vs_unhedged_476760_note": "매파 연준·인플레 재가속형 금리 상승은 통상 달러 강세 동반 → 476760은 환차익이 금리 손실을 일부 상쇄할 수 있음 [inference]. 다만 최근 3개월은 금리 상승 + 원화 강세가 동시에 진행돼 476760이 −14.9%로 이중 손실 [actual · Naver] — BOK 인상 사이클이 이어지면 이 패턴이 반복될 위험 [inference]. 헤지비용 상승(한미 금리차 재확대)은 453850만의 추가 부담",
+      "thesis": "블로거 레드라인 가정(T10) 실패 경로. 유가 $100+ 지속·근원 PPI 4.6%→CPI 전가(T07)로 연준이 10월·12월 추가 인상, 11/3 중간선거 후 재정 확대(T06) + 11/4 QRA 장기물 증액 → 2007년처럼 10년물 5%+ 장기화, 30년물 6.0%. 453850 가격 약 −10%, 분배 포함 총수익 약 −6% [derived]. '도망치는 것도 방법'(T11)이 옳았던 경로.",
+      "key_assumptions": [
+        "근원 CPI MoM 0.3%+ 연속 → 연준 10/28·12/9 추가 인상 [inference]",
+        "텀프리미엄 KW 0.96% → 1.5%+ (블로거 TP 가정 수준으로 수렴·초과) [inference]",
+        "11/4 QRA 쿠폰 발행 증액 또는 바이백 축소 [inference]",
+        "한미 금리차 재확대로 헤지비용 1.2%p+ [estimated]"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-09-16",
+      "event": "9월 FOMC 결정 (14:00 ET = 9/17 03:00 KST) + 점도표",
+      "type": "monetary_policy",
+      "expected_impact": "high",
+      "description": "25bp 인상(3.75~4.00%) 확률 83~92% 보도 [actual · CME FedWatch 인용 보도]. 분석 시점 결과 확인 불가. 인상 시 헤지비용 +0.25%p [derived] — 453850 캐리 연 약 −0.18%p(헤지명목 71.6% 반영) [derived]. 점도표가 추가 인상을 시사하면 30년물 상승, 인상+매파적 신뢰 회복이면 장기물 안정 가능 [inference]"
+    },
+    {
+      "date": "2026-10-08",
+      "event": "미 30년물 국채 입찰 (10/1 발표, 10/15 결제)",
+      "type": "supply",
+      "expected_impact": "high",
+      "description": "Treasury tentative auction schedule 기준 [actual]. 응찰률·테일(tail)이 약하면 30년물 급등 → 453850 직접 타격. 9/9 바이백 실망 직후라 수요 확인 이벤트 [inference]"
+    },
+    {
+      "date": "2026-10-14",
+      "event": "9월 CPI 발표 (08:30 ET)",
+      "type": "macro",
+      "expected_impact": "high",
+      "description": "BLS 일정 [actual · nowflation/usinflationcalculator 인용]. 근원 MoM 0.3% 재차 시 10월 인상 기대 → 단기금리·헤지비용 상승 + 장기금리 상승 [inference]. PPI 근원 4.6% [actual]의 CPI 전가 여부(T07) 검증 시점"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "한국은행 금통위 기준금리 결정",
+      "type": "monetary_policy",
+      "expected_impact": "medium",
+      "description": "2026 금통위 일정 [actual · 뉴시스/한국은행]. 3.00%에서 추가 인상 시 한미 금리차 축소 → 453850 헤지비용 하락·원화 강세 지지 → 비헤지형 대비 헤지형 우위 강화 [inference]. 동결 시 중립"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "10월 FOMC (10/27~28)",
+      "type": "monetary_policy",
+      "expected_impact": "medium",
+      "description": "Fed 일정 [actual · federalreserve.gov]. SEP 없는 회의. 연속 인상 여부가 헤지비용·장기금리 동시 결정 [inference]"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "미국 중간선거",
+      "type": "political",
+      "expected_impact": "high",
+      "description": "공화당 상·하원 승리 시 '성인 1인 $5,000' 배당금(1조달러+) 공약 [actual · NPR/CNBC] → 재정 확대 우려로 텀프리미엄 상승 [inference]. 블로거 T05: TGA 바이백 '청구서'는 선거 후 도착"
+    },
+    {
+      "date": "2026-11-04",
+      "event": "재무부 분기 리펀딩(QRA) 발표 + 강화 바이백 기간(9/9~11/4) 종료",
+      "type": "supply",
+      "expected_impact": "high",
+      "description": "향후 바이백 규모 추가 정보는 11/4 QRA에서 제공 예정 [actual · treasury.gov]. 쿠폰 발행 증액·바이백 축소면 30년물 상승(bear), 바이백 상설화·TGA 활용이면 장기물 우호(bull) [inference]"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "10월 CPI 발표",
+      "type": "macro",
+      "expected_impact": "medium",
+      "description": "BLS 일정 [actual · 검색 결과]. 12월 FOMC 경로 결정 [inference]"
+    },
+    {
+      "date": "2026-12-09",
+      "event": "12월 FOMC (12/8~9) + SEP 점도표",
+      "type": "monetary_policy",
+      "expected_impact": "high",
+      "description": "Fed 일정 [actual · federalreserve.gov]. 2027년 금리 경로·장기 중립금리(블로거 1.1%) 추정치 갱신 → T01 산식의 중립금리 항 검증 [inference]"
+    },
+    {
+      "date": "rolling",
+      "event": "USDKRW 환율 — 1,340~1,350원 지지선 테스트 여부",
+      "type": "fx",
+      "expected_impact": "medium",
+      "description": "현재 1,366.65 (3개월 전 1,537.56·2년 최저 1,309.3) [actual · yfinance]. NH투자증권 1차 지지선 1,340~1,350원 [actual · 파이낸셜뉴스]. 453850 자체 손익엔 영향 작으나(헤지 89%) 비헤지형 476760 대비 상대성과·전환 판단의 핵심 [derived]"
+    },
+    {
+      "date": "rolling",
+      "event": "10년물 5.0~5.1% 재도달 / 30년물 5.45% 돌파",
+      "type": "market_level",
+      "expected_impact": "high",
+      "description": "블로거 T11 매수 트리거 구간 [actual · 블로그 3편]. 30년물 ≈ 10년물 + 0.37%p [derived] → 30년물 5.35~5.47%가 453850 기준 트리거 구간"
+    }
+  ],
+  "risks": [
+    {
+      "name": "환헤지 비용 상승 (한미 단기금리차 재확대)",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "연준 3.50~3.75%에서 인상 지속, 한국은행 3.00% 동결 시 헤지비용 1.0~1.3%p [estimated]. 헤지명목 71.6% [actual]이므로 펀드 캐리 −0.7~−0.9%p [derived]. 금리 방향이 맞아도 캐리 잠식으로 base 시나리오 가격이 서서히 하락",
+      "mitigation": "BOK·Fed 정책금리차를 월 단위 점검, 금리차 1.25%p 초과 시 비헤지형(476760) 또는 달러 직접투자 비중 조정 검토 [inference]"
+    },
+    {
+      "name": "30년물 5% 돌파 고착 (레드라인 가정 오류)",
+      "probability": "medium",
+      "impact": "high",
+      "description": "블로거 T10 '연준 레드라인 5%'는 연준 공식 언급 없음(확인 불가). 2007년 10년물 5%+ 장기 지속 전례 [actual · T10 반론]. 30년물 6.0% 시 가격 약 −10% [derived]. 연준은 인플레 3.4% [actual] 국면에서 인상 중이라 장기채 매입(QE/YCC)과 정면 충돌",
+      "mitigation": "10년물 종가 5.25% 5거래일 연속 또는 30년물 5.75% 돌파 시 비중 50% 축소 규칙 사전 설정 (investment_method 참조) [inference]"
+    },
+    {
+      "name": "괴리율·유동성 리스크",
+      "probability": "low",
+      "impact": "low",
+      "description": "현재 괴리율 −0.28%, 9/16 거래대금 57.3억원, 20일 평균 거래량 약 78만주 [actual · Naver/yfinance] — 국내 장기채 ETF 중 최상위 유동성. 다만 미국 장 마감 후 국내 장중 거래라 급변 시 iNAV 추정 오차·LP 호가 확대 가능 [inference]. 1년 순유출 −7,037억원 [actual] 지속 시 규모 축소",
+      "mitigation": "시장가 대신 지정가 주문, iNAV 확인 후 체결, 미국 CPI·FOMC 발표 직후 국내 장 시초가 매매 회피 [inference]"
+    },
+    {
+      "name": "액티브 운용 추적오차 / 구성 변경",
+      "probability": "medium",
+      "impact": "low",
+      "description": "추적오차 2.56% [actual · Naver] — 패시브 TLT 대비 큼. 원화현금 19.8%·EDV/ZROZ/STRIPS 혼합 [actual · FunETF PDF]으로 듀레이션이 운용역 재량에 따라 15~18년 범위에서 변동 [estimated]. 공식 듀레이션 공시 미확인 [unavailable]",
+      "mitigation": "월별 PDF·운용보고서로 STRIPS·EDV 비중과 원화현금 비중 추적 [inference]"
+    },
+    {
+      "name": "원화 약세 반전 시 헤지형 상대 열위",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "USDKRW 3개월 1,537.56 → 1,366.65 (−11.1%, 원화 강세) [actual · yfinance]로 원화 강세가 상당 부분 진행. 위험회피·달러 강세로 반전하면 비헤지형 476760·TLT 직접투자가 453850을 크게 앞섬 — 최근 3개월 역방향 격차 약 9.7%p 규모 [derived]",
+      "mitigation": "헤지형 코어 + 비헤지형 일부(예: 70:30) 분산, USDKRW 1,340~1,350원 지지선 확인 시 비헤지 비중 확대 검토 [inference]"
+    },
+    {
+      "name": "세금·계좌 구조 리스크",
+      "probability": "high",
+      "impact": "low",
+      "description": "일반계좌에서 매매차익·월분배금 모두 배당소득세 15.4% [actual · kbthink/samsungfund], 연 이자·배당 합계 2,000만원 초과 시 금융소득종합과세(최고 49.5%) [actual]. 해외 직접투자 TLT는 양도세 22% 분리과세라 고액 투자자에게 오히려 유리할 수 있음 [inference]. 세법 개정에 따라 과세 방식 변동 가능 [actual · FunETF 유의사항]",
+      "mitigation": "ISA·연금저축·IRP 우선 편입 — investment_method.account_note 참조"
+    },
+    {
+      "name": "블로거 산식(T01·T02) 모델 리스크",
+      "probability": "medium",
+      "impact": "medium",
+      "description": "블로거 TP 10년 1.5%·30년 1.9% vs FRED KW 10년 텀프리미엄 0.96%(9/11)·ACM 0.80%(8/13) [actual] — 모델 간 괴리 큼. 중립금리 1.1% 출처 확인 불가. 산식상 '적정' 30년물이 5.4~5.5%라면 현재 5.347%는 저평가가 아니라 적정~고평가일 수 있음 [inference]",
+      "mitigation": "단일 산식 대신 실질금리(DFII10 2.60%)+BEI(2.38%) 분해와 병행 모니터링 [inference]"
+    },
+    {
+      "name": "분배금의 원금 잠식 가능성",
+      "probability": "low",
+      "impact": "low",
+      "description": "월 26원(0.36%) 수준 분배 [actual]가 헤지비용 차감 후 순캐리(약 3.9% [derived])를 상회하면 NAV에서 차감 — 이익 초과 분배 시 원금 감소 [actual · 유의사항]",
+      "mitigation": "연금계좌에서는 분배금 재투자로 복리 효과 확보 [inference]"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "10년물 ≈ 장기인플레 + 중립금리 1.1% + 텀프리미엄 1.5% → 5% 초과가 자연스럽다",
+      "type": "framework",
+      "evidence": "[453850 관점] 30년물로 확장하면 1.1+1.9+2%중반 ≈ 5.4~5.5% [derived] vs ^TYX 5.347% [actual · yfinance] → 산식상 30년물은 '적정 상단'에 근접. DFII10 2.60%+T10YIE 2.38%=4.98% ≈ 10년물 4.97% [actual · FRED/derived]. 반론: KW TP 0.96%·ACM 0.80% [actual]로 블로거 TP 1.5%보다 낮음 → 산식이 맞다면 추가 상승 여력(bear), 모델 TP가 맞다면 현재 금리에 이미 과도한 프리미엄(bull).",
+      "testability": "medium",
+      "current_status": "developing"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "30년물은 텀프리미엄 1.9%로 10년물보다 0.4%p 높다",
+      "type": "quantitative",
+      "evidence": "[453850 관점] 453850의 직접 기초금리. 스프레드 0.37%p (5.347−4.973) [actual · yfinance 9/16]로 블로거 0.4%p와 근접. 1년 전 0.62%p [derived]. 스프레드 축소(베어 플래트닝)는 453850에 상대적 우호, 바이백 20~30년 구간 집중은 스프레드 축소 요인 [inference]. 블로거 T02 기준 30년물 TP는 1.9%로 가정 — 이를 30년물 목표 금리대(5.4%) 산정에 사용.",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "바이백은 만기 스왑이라 장기금리를 못 잡고 텀프리미엄 상승을 부른다",
+      "type": "causal",
+      "evidence": "[453850 관점] 바이백 대상 20~30년 구간 = 453850 보유 구간(T 4 5/8 11/15/55·STRIPS 2055 등 [actual · FunETF PDF]). 9/9 $60억 발표 후 20년물 5.3% 상승 [actual · Fox Business] → 단기적으로 블로거 주장 부합. 다만 30년물 1개월 +0.04%p(5.309→5.347) [actual]로 10년물(+0.25%p)보다 상승폭이 작아 장기물 수급 방어 효과는 일부 존재 [derived].",
+      "testability": "medium",
+      "current_status": "supported"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "9/9 $60억 바이백은 기대($80~100억) 대비 실망으로 금리 발작을 촉발",
+      "type": "event",
+      "evidence": "[453850 관점] 9/9 전후 453850 1주 −1.47% (Naver 9/15 기준 W1) [actual]. 발작 원인이 바이백 실망인지 글로벌 채권 매도(Bloomberg 9/11)인지는 분리 불가 → 11/4 QRA 바이백 규모 재발표가 재검증 시점.",
+      "testability": "low",
+      "current_status": "likely"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "TGA 활용 바이백은 'QE 라이트' — 2~3개월 달달, 청구서는 중간선거 후",
+      "type": "causal",
+      "evidence": "[453850 관점] 실행 시 장기물 수요 순증 → 30년물 하락(bull 요인)이나, 선거 후 단기채 발행 증가 → 미 단기금리 상승 → 헤지비용 상승(453850 캐리 부정). TGA $883.3B(9/9) [actual · FRED]. 9/9 확정안에 TGA 직접 활용 명시 없음 — 확인 불가.",
+      "testability": "medium",
+      "current_status": "speculative"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "근본 원인은 인플레와 재정적자발 국채 공급 폭증, 트럼프 $5,000 배당금이 적자 우려 추가",
+      "type": "macro",
+      "evidence": "[453850 관점] 공급 확대의 최대 피해 구간은 듀레이션이 긴 30년물 — 453850(듀레이션 ~16년 [estimated])은 TLT와 유사, 458250(STRIPS)보다는 덜 민감. 배당금 공약은 11/3 중간선거 조건부 [actual · NPR] → bear 시나리오 핵심 변수.",
+      "testability": "medium",
+      "current_status": "open"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "유가 $100·근원 PPI 4.6%가 2~3개월 뒤 CPI·PCE로 전가된다",
+      "type": "macro",
+      "evidence": "[453850 관점] 전가 시 연준 추가 인상 → ① 30년물 상승(가격↓) ② 미 단기금리 상승으로 헤지비용↑ — 453850에 이중 부담. WTI $103.74 [actual · yfinance]. 반론: T10YIE 2.38%·5y5y 2.35% [actual · FRED] 기대인플레 고정. 10/14 9월 CPI가 1차 검증.",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "근원 CPI MoM 0.3%가 워시 인상 조건을 충족 → 9월 인상 확률 상승",
+      "type": "event",
+      "evidence": "[453850 관점] 인상(3.75~4.00%) 시 한미 정책금리차 0.75~1.00%p [derived] → 헤지비용 증가. ^IRX 3.947% (1m 전 3.703) [actual]로 단기금리 선반영. 결과는 9/17 03:00 KST 발표 — 확인 불가.",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "FOMC 표결은 워시의 정치력 시험대 — 매파적 동결 가능",
+      "type": "political",
+      "evidence": "[453850 관점] 매파적 동결은 헤지비용엔 우호(단기금리 유지)지만 '연준 신뢰 훼손' 해석 시 텀프리미엄 상승으로 30년물에는 부정 가능 [inference]. 453850은 인상 여부보다 장기물 반응(텀프리미엄)에 더 민감(듀레이션 16년 vs 헤지비용 민감도 0.7) [derived].",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "연준 레드라인은 10년물 5%, 시차 감안 5.1%가 실질 상단",
+      "type": "policy_reaction",
+      "evidence": "[453850 관점] 10년물 5.0~5.1% ≈ 30년물 5.37~5.47% [derived · 스프레드 0.37%p]. 가정이 맞으면 30년물 4.7%(bull, 가격 +11% [derived]), 틀리면 6.0%(bear, −10% [derived]) — 453850 손익의 비대칭은 거의 대칭(볼록성 소폭 우위) → 확률 판단이 핵심. 연준 공식 레드라인 언급 없음 — 확인 불가.",
+      "testability": "medium",
+      "current_status": "speculative"
+    },
+    {
+      "claim_id": "T11",
+      "claim": "5% 찍고 5.1%까지 가면 매수, 단 연말 변동성 부담 — '도망치는 것도 방법'",
+      "type": "normative",
+      "evidence": "[453850 관점] 블로거는 특정 ETF 미언급 — 453850 매핑은 분석자 판단. 9/14 5.01% 터치로 1차 트리거 도달 [actual · Bloomberg]. 원화 투자자 구현 시 헤지형 선택은 '금리 뷰만 취하고 환율 뷰는 배제'하는 선택이며, 최근 3개월 비헤지형 대비 약 9.7%p 방어 [derived]. 청산·손절 규칙 부재 → investment_method에서 보완. 453850 현재가 7,060원은 5년 최저 6,878원(2023-10-23) 대비 +2.6% [derived].",
+      "testability": "high",
+      "current_status": "in_progress"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": null,
+    "implied_op_margin_5y_pct": null,
+    "notes": "ETF 역DCF 비적용 [actual · ETF 구조]. 대체 지표: 헤지 후 캐리 ≈ 30년물 5.35% − 헤지비용 ~0.8%p ≈ 4.5% [derived · 채권 100% 헤지 가정의 단순식]. 실제 펀드 구성(달러채권 77%·원화현금 20%·헤지명목 71.6%) 반영 시 순캐리 ≈ 0.77×5.25 + 0.20×2.9 − 0.716×0.8 − 0.05 ≈ 4.0% [derived]. 손익분기 금리상승폭(12개월) ≈ 캐리/듀레이션: 단순식 4.5/18 ≈ 0.25%p, 추정 듀레이션 16년·순캐리 4.0% 기준 ≈ 0.25%p [derived] → 30년물이 12개월 내 약 5.60% 이상으로 오르면 분배 포함 총수익이 마이너스 [derived]. 시장 내재 기대: 현재가 7,060원은 5년 최저 6,878원 대비 +2.6% [derived]로 30년물 2007년 이후 최고권(5.337% 8/18) 금리를 반영 중."
+  },
+  "blog_thesis_link": {
+    "tickers_mapped": [
+      "T01",
+      "T02",
+      "T03",
+      "T06",
+      "T08",
+      "T10",
+      "T11"
+    ],
+    "linkage": "[inference] 블로거는 특정 ETF를 언급하지 않음 — 453850은 원화 투자자가 T11 '5~5.1% 미국채 매수'를 환율 뷰 없이 구현하는 대표 수단으로 분석자가 매핑함. 30년물 직접 노출이라 T02(30년 TP 1.9%)·T06(공급 폭증)에 가장 민감하고, 환헤지 비용 경로로 T08(연준 인상)·한국은행 8/27 인상에 연결됨.",
+    "verdict_note": "[inference] 블로거 산식상 30년물 적정 수준(~5.4%)이 현재가(5.347%)와 거의 같아 '싸다'는 근거는 약함 — 453850의 기대수익은 가격 반등보다 연 4% 전후 헤지 후 캐리에 의존. 확률가중 기대가격 약 7,036원으로 현재가 부근, 분배 포함 기대총수익 약 +3.8% [derived]. 블로거의 '연말 변동성 부담·도망치는 것도 방법'과 정합적으로 분할·조건부 접근이 합리적. FOMC 결과 미확인."
+  },
+  "investment_method": {
+    "entry_rule": "[inference · 매수 권유 아님] 블로거 T11 트리거를 453850 기준으로 환산: 10년물 5.0~5.1% ≈ 30년물 5.37~5.47% (스프레드 0.37%p [derived]). ① 1차(1/3): 10년물 종가 5.0% 이상 확인 — 9/14 장중 5.01% 도달했으나 9/16 4.973%로 종가 기준 미확정 [actual] → FOMC 결과(9/17 KST) 확인 후 진입. ② 2차(1/3): 10년물 5.1% 또는 30년물 5.45% 이상 ('시장이 놀라는' 구간) — 30년물 입찰(10/8)·9월 CPI(10/14) 이벤트 주변에서 발생 가능성. ③ 3차(1/3): 11/4 QRA·11/3 중간선거 통과 후 30년물이 5.2% 이상 유지되고 연준이 장기금리 급등을 언급(T10 검증)할 때. 10년물이 5%를 다시 가지 않고 4.7% 아래로 내려가면 블로거 원칙대로 '그만'(추격매수 안 함). 가격 기준 참고선(즉시 반영·캐리 제외): 30년물 5.45%≈6,940원, 5.60%≈6,790원 [derived · D=16].",
+    "exit_or_stop_rule": "[inference] 손절(레드라인 가정 실패 신호): 10년물 종가 5.25% 이상 5거래일 연속 또는 30년물 5.75% 돌파 시 보유분 50% 축소, 30년물 6.0% 도달 시 잔여 정리 검토 — 30년물 5.75%는 현재가 대비 약 −6%(≈6,630원) [derived]. 익절: 30년물 4.9%(≈+7.5%, 약 7,590원 [derived]) 도달 시 1/3, 4.7%(bull 목표 약 7,850원) 도달 시 추가 1/3 차익실현, 잔여는 캐리 보유. 시간 손절: 12개월 내 30년물이 5.2~5.5% 박스(base)에 머물면 가격은 7,040원 부근 횡보·총수익 약 +3.9% [derived] — 헤지비용이 1.25%p를 넘으면 T-bill형(예: TIGER 미국초단기국채) 대비 기회비용 재점검.",
+    "position_sizing_note": "[inference] 453850 연율 변동성 9.51% [actual · yfinance]·bear 시나리오 가격 −10% [derived]. 포트폴리오 최대 손실 허용 1.5~2%로 두면 비중 상한 15~20%. 블로거가 '연말까지 변동성 부담'을 명시했으므로 총 목표 비중을 3회로 나눠 1회당 목표의 1/3만 투입, FOMC·CPI·QRA 이벤트 전날 신규 매수 회피. 458250(STRIPS, 듀레이션 ~1.5배)을 쓰면 같은 금리 노출을 약 2/3 금액으로 확보하지만 bear 손실도 비례 확대 [derived].",
+    "hedging_note": "[inference] 헤지형(453850) vs 비헤지형(476760) 결정 로직: (1) 금리 뷰만 있고 환율 뷰가 없으면 헤지형 — 블로거 논지는 금리(T01~T11)이지 환율이 아님. (2) 한국은행 8/27 인상(3.00%) [actual]으로 한미 금리차가 축소돼 헤지비용이 0.6~1.0%p [estimated]로 과거(2023~24년 한미 역전 최대 2%p 수준 [inference]) 대비 낮음 → 헤지 유지 비용 부담 완화. 10/22 금통위 추가 인상 시 더 유리. (3) 그러나 원화가 이미 3개월 +11% 강세(1,537.56→1,366.65) [actual] — NH투자증권 추가 하락 여력 40~50원(1,340~1,350원 지지) [actual] → 추가 원화 강세 여지 약 1~2% vs 반전 시 원화 약세 여지는 더 큼 [inference]. 즉 지금부터 비헤지형의 환율 비대칭은 3개월 전보다 유리해짐. (4) 실행안: 코어 70% 헤지형(453850) + 30% 비헤지형(476760)으로 시작, USDKRW 1,340~1,350원 지지 확인 시 비헤지 비중 50%까지 확대, 1,300원 하향 이탈 시 헤지형으로 회귀. 9월 FOMC 인상 + BOK 동결로 금리차가 1.25%p를 넘으면 헤지 비중 축소 검토. (5) 위험회피형 채권 랠리(bull a) 시 비헤지형이 이중 이익, 연준 피벗형 랠리(bull b) 시 헤지형 우위 — 혼합 보유가 시나리오 불확실성에 대한 저비용 분산.",
+    "account_note": "[actual + inference] ① ISA(중개형): 국내상장 ETF 편입 가능, 만기 시 순이익 200만원(서민·농어민형 400만원) 비과세·초과분 9.9% 분리과세 [actual · 일반 세제] — 월분배(연 ~4.2%) 과세이연·손익통산 효과로 453850 같은 '캐리형' 상품과 궁합 좋음 [inference]. ② 연금저축: 국내상장 해외채권 ETF 편입 가능, 분배금·매매차익 과세이연 후 연금수령 시 3.3~5.5% 저율과세 [actual · kbthink/samsungfund 가이드]. ③ IRP/DC: 국채 투자 ETF는 안전자산으로 분류돼 적립금 100%까지 편입 가능한 경우가 많음 — 단 증권사·상품 분류별 상이하므로 매수 전 확인 필요 [actual · toss·etf-finder 검색 결과; 453850 개별 분류는 확인 불가]. FunETF 태그 '개인·퇴직' 연금 편입 가능 표기 [actual]. ④ 일반계좌: 매매차익·분배금 15.4% 배당소득세, 금융소득 2,000만원 초과 시 종합과세 [actual]. 고액 투자자는 해외 직접투자 TLT/EDV(양도세 22% 분리과세·250만원 공제)가 유리할 수 있으나 달러 환전·환노출 동반 [inference]. 우선순위 제안: ISA 한도 → 연금저축/IRP → 일반계좌 [inference].",
+    "disclaimer": "블로거는 특정 ETF를 언급하지 않았고, 위 규칙은 블로거 트리거를 453850에 적용한 분석자 예시임. 매수·매도 권유 아님. 9월 FOMC 결과 미발표(확인 불가) 상태에서 작성됨."
+  },
+  "korean_disclosures": [],
+  "evidence_sources": [
+    "https://m.stock.naver.com/api/stock/453850/etfAnalysis",
+    "https://m.stock.naver.com/api/stock/453850/integration",
+    "https://www.funetf.co.kr/product/etf/view/KR7453850000",
+    "https://www.aceetf.co.kr/fund/K55101E03860",
+    "https://m.stock.naver.com/api/stock/476760/etfAnalysis",
+    "https://m.stock.naver.com/api/stock/458250/etfAnalysis",
+    "https://m.stock.naver.com/api/stock/304660/etfAnalysis",
+    "https://finance.naver.com/api/sise/etfItemList.nhn",
+    "https://kbthink.com/etf/etf-tax.html",
+    "https://www.samsungfund.com/etf/insight/guide/view05.do",
+    "https://github.com/antdailycraft/etf-finder",
+    "https://toss.im/tossfeed/article/retirement-plans-06",
+    "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+    "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents",
+    "https://www.federalreserve.gov/newsevents/2026-october.htm",
+    "https://www.newsis.com/view/NISX20251030_0003383692",
+    "https://nowflation.com/cpi-release-dates"
+  ],
+  "analysis_mode": "single",
+  "thesis_count": 11,
+  "scenarios_meta": {
+    "expected_price_krw": 7036,
+    "method_note": "공통 가정: 실효 듀레이션 16.0년·볼록성 400.0(년²) [estimated], 기준가 7,060원(yfinance 2026-09-16 종가) [actual], TTM 분배율 4.21% [actual · FunETF]. target_price는 12개월 후 분배락 반영 가격(분배금 제외)임. 30년물 외 20년물·커브 형태·액티브 운용 초과/미달성과(추적오차 2.56% [actual])는 미반영 → 오차 ±3%p 수준 [estimated]. 확률가중 기대가격 ≈ 7,036원 [derived]."
+  }
+}
