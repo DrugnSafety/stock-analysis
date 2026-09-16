@@ -1,0 +1,543 @@
+{
+  "ticker": "IEF",
+  "name": "iShares 7-10 Year Treasury Bond ETF (iShares 미국채 7-10년 ETF)",
+  "as_of": "2026-09-16",
+  "fomc_status": "9월 FOMC 결정(9/16 14:00 ET = 9/17 03:00 KST)은 분석 시점 미발표 — 결과 확인 불가, 시나리오로만 반영함",
+  "disclaimer": "매수·매도 권유 아님. 블로거는 특정 ETF를 언급하지 않았으며 IEF 매핑은 분석자 판단임",
+  "industry": {
+    "name": "미국 국채 중기(7~10년) 구간 패시브 노출 — ICE US Treasury 7-10 Year Bond Index 추종 ETF",
+    "overview": "IEF는 BlackRock iShares의 7~10년 잔존만기 미국채 ETF로 ICE US Treasury 7-10 Year Bond Index를 추종함 [actual · iShares 2026-09-15]. 9/15 기준 순자산 $41,619M·보유종목 16개·유효듀레이션 6.90년·가중평균만기 8.46년·평균 YTM 4.97%·30일 SEC 수익률 4.67%·볼록성 0.57·가중평균 쿠폰 4.24%·보수 0.15%임 [actual · iShares 상품페이지]. yfinance 기준 가격 $91.05·분배수익률 3.97%·AUM $41.8B·1M −1.57%/3M −2.15%/1Y −2.61%·연율 변동성 4.61% [actual · yfinance 2026-09-16 live]. ① 10년물의 역할: 10년물은 30년 고정 모기지(Freddie Mac 30Y 6.76%, 9/10 [actual · FRED MORTGAGE30US])·투자등급 회사채·기업 할인율의 기준금리로 쓰여 실물경제 전달력이 가장 큰 구간임. IEF는 평균 YTM 4.97%로 ^TNX 4.973%와 사실상 동일해 '10년물 금리 = IEF 수익률'로 근사 가능함 [derived]. ② 블로거 공식: '10년물 = 장기인플레 + 중립금리(1.1) + 텀프리미엄(1.5)' → 2.6%p + 장기인플레 2%중반 ≈ 5% 초과가 자연스럽다는 논지임. 시장 분해로는 DFII10 실질 2.60% + T10YIE BEI 2.38% = 4.98% ≈ DGS10 4.97% [derived · FRED]. 다만 텀프리미엄은 KW(THREEFYTP10) 0.961%(9/11)·ACM 0.80%(8/13)로 블로거 1.5%보다 낮아 모델별 괴리가 존재함 [actual · FRED/MacroMicro]. ③ 커브: 2Y 4.65%(9/14) vs 10Y 4.97% → 2s10s +0.32%p [derived · FRED DGS2/DGS10], 10-30 +0.37%p [derived · yfinance ^TYX 5.347 − ^TNX 4.973]. 1년 전 2s10s는 +0.50%p(4.06−3.56)였음 [derived] — 인상 기대로 단기물이 더 빨리 오르는 bear flattening이 진행된 상태임. ④ 연준 경로 민감도: 7~10년 구간은 30년물보다 정책금리 경로 기대(expected short-rate path) 비중이 크고 텀프리미엄 비중은 작음 [inference]. 따라서 9/16 FOMC 점도표·워시 의장 가이던스가 IEF에 TLT보다 상대적으로 더 직접 전달되고, 재정·공급발 텀프리미엄 충격은 TLT보다 덜 받음 [inference]. 13주 ^IRX 3.703→3.947%(1m) 상승은 인상 선반영 신호임 [actual · yfinance].",
+    "competitors": [
+      {
+        "name": "Vanguard Intermediate-Term Treasury ETF — 3~10년 구간(블룸버그 지수), 듀레이션이 IEF보다 짧음(~5년 [estimated]). 보수 0.03%·AUM $48.4B·분배 3.90%·1Y 총수익 −1.25%·변동성 3.52% [actual · yfinance 2026-09-16 live, 변동성은 1Y 일간로그수익 계산 derived]",
+        "ticker": "VGIT"
+      },
+      {
+        "name": "Schwab Intermediate-Term U.S. Treasury ETF — 3~10년 구간, VGIT와 유사한 저보수 대안. 보수 0.03%·AUM $13.5B·분배 3.97%·1Y 총수익 −1.20% [actual · yfinance 2026-09-16 live]",
+        "ticker": "SCHR"
+      },
+      {
+        "name": "iShares U.S. Treasury Bond ETF — 전 만기 미국채 혼합(듀레이션 ~6년 [estimated]). 보수 0.05%·분배 3.65%·1Y 총수익 −1.03% [actual · yfinance]. yfinance totalAssets가 IEF와 동일값($41.82B)으로 반환되어 AUM은 확인 불가 [unavailable]",
+        "ticker": "GOVT"
+      },
+      {
+        "name": "F/m US Treasury 10 Year Note ETF — 10년 on-the-run 단일 국채 보유, '10년물' 순수 노출. 보수 0.15%·AUM $0.27B·분배 4.50%·1Y 총수익 −2.97%·변동성 5.03% [actual · yfinance live, 변동성 derived]. 규모가 작아 스프레드 비용 확인 필요",
+        "ticker": "UTEN"
+      },
+      {
+        "name": "Direxion Daily 7-10 Year Treasury Bear 3X — 7~10년 국채 일간 −3배 인버스. 보수 1.00%·1Y 총수익 +24.57%·변동성 13.93% [actual · yfinance live, 변동성 derived]. 일간 리밸런싱으로 횡보장에서 가치 감쇠(decay) 발생 — 단기 헤지 전용 [inference]",
+        "ticker": "TYO"
+      },
+      {
+        "name": "Direxion Daily 7-10 Year Treasury Bull 3X — 7~10년 국채 일간 +3배 레버리지. 보수 1.07%·1Y 총수익 −17.23%·변동성 13.50% [actual · yfinance live, 변동성 derived]. 10Y 5% 레드라인 '급반락' 베팅 수단이나 변동성 부담 극대 [inference]",
+        "ticker": "TYD"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-08-19",
+        "title": "재무부, 장기채 바이백 1회 한도 최대 $20억 → 최소 $40억 확대 (9/9~11/4)",
+        "summary": "10~20년·20~30년 잔존 구간 대상 [actual · US Treasury sb0607]. IEF 보유 구간(7~10년)은 직접 매입 대상이 아니고, 매입 재원은 T-bill 발행이라 부채 만기만 단기화됨 [inference]. 영향: 중립 — 장기 구간 수급 완화 효과가 IEF에 간접 전달되나 규모가 작음",
+        "source": "https://home.treasury.gov/news/press-releases/sb0607"
+      },
+      {
+        "date": "2026-08-21",
+        "title": "JPM 설리번 \"신용카드로 모기지 갚는 격\" — 바이백은 문제를 미래로 미룰 뿐",
+        "summary": "장기채를 T-bill로 바꾸는 만기 스왑이라 불균형이 결국 부각된다는 비판 [actual · CNBC]. 텀프리미엄 상승 논리로 연결됨(T03). 영향: 부정적 — 정책 신뢰 약화가 10년물 텀프리미엄 상승 요인",
+        "source": "https://www.cnbc.com/2026/08/21/us-bond-intervention-shifting-problem-future-jpmorgan.html"
+      },
+      {
+        "date": "2026-08-24",
+        "title": "베센트, 약 $1조 TGA로 바이백 자금 조달 검토 보도",
+        "summary": "재무부 관리 2명 인용 [actual · CNBC]. 실행 시 T-bill 발행 없는 순유동성 주입('QE 라이트')이나 9/9 확정안에 명시되지 않음 [확인 불가]. 영향: 긍정적(단기) — 기대가 형성됐으나 이후 실망의 기준점이 됨",
+        "source": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html"
+      },
+      {
+        "date": "2026-09-04",
+        "title": "8월 비농업고용 +16.2만(예상 +5.3만), 실업률 4.1% 유지",
+        "summary": "3월 이후 최대 증가 — 발표 후 국채금리 상승, 9월 인상 확률 50%→60% [actual · CNBC/BLS]. 영향: 부정적 — 노동시장 견조로 인상 명분 강화, 중기물(IEF) 금리 상승 압력",
+        "source": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html"
+      },
+      {
+        "date": "2026-09-09",
+        "title": "바이백 최대 $60억(평소 3배) 확정 — 월가 기대 $70~100억+ 대비 실망",
+        "summary": "발표 후 10년물 4.85%·20년물 5.3%로 2023년 이후 최고 [actual · Fox Business/CNBC]. 영향: 부정적 — 재무부 개입 한계 확인, IEF 가격 하락 요인",
+        "source": "https://www.foxbusiness.com/economy/treasury-buy-back-up-6b-longer-term-debt-bond-yields-hit-highest-level-since-2023"
+      },
+      {
+        "date": "2026-09-09",
+        "title": "10년물 입찰 낙찰금리 4.834%·응찰률 2.71배·간접입찰 79.2%",
+        "summary": "해외 포함 간접입찰 비중이 높아 수요 붕괴 신호는 아님 [actual · Investing.com 경제캘린더 검색결과; 테일(tail) 수치는 확인 불가]. 영향: 중립 — 입찰 자체는 무난했으나 이후 금리는 5% 방향으로 상승",
+        "source": "https://www.investing.com/economic-calendar/10-year-note-auction-571"
+      },
+      {
+        "date": "2026-09-10",
+        "title": "8월 PPI 최종수요 +0.4% MoM·5.4% YoY, 근원 4.6% YoY",
+        "summary": "근원 YoY 7월 4.2%→4.6% 확대, 단 근원 MoM 0.2%는 예상 0.3% 하회 [actual · BLS]. 블로거는 2~3개월 뒤 CPI/PCE 전가를 우려(T07). 영향: 부정적 — 인플레 재가속 우려로 BEI·10년물 상승 압력(MoM 하회는 완충)",
+        "source": "https://www.bls.gov/news.release/ppi.nr0.htm"
+      },
+      {
+        "date": "2026-09-10",
+        "title": "Freddie Mac 30년 고정 모기지 6.76% (전주 6.71%)",
+        "summary": "2월 말 5.98%에서 상승 [actual · FRED MORTGAGE30US/Freddie Mac]. 10년물→모기지 전달 경로 확인. 영향: 중립 — IEF 가격에는 직접 영향 없으나 금리 급등이 주택·실물 둔화로 이어지면 중기적으로 IEF에 긍정적일 수 있음 [inference]",
+        "source": "https://www.freddiemac.com/pmms"
+      },
+      {
+        "date": "2026-09-11",
+        "title": "8월 CPI 3.4% YoY·근원 0.3% MoM(예상 0.2%) — 인상 확률 급등",
+        "summary": "에너지 +16.3% YoY·휘발유 +27.4% [actual · BLS/CNBC]. 페드워치 인상 확률 72.4%→83.4%(블로거 인용), 이후 ~90% [actual · Yahoo Finance]. 영향: 부정적 — 정책경로 상향으로 7~10년 구간 금리 상승 압력 직접 전달",
+        "source": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+      },
+      {
+        "date": "2026-09-11",
+        "title": "글로벌 채권 매도로 10년물 5% 문턱",
+        "summary": "미국 단독이 아닌 글로벌 동반 매도가 배경 [actual · Bloomberg]. 바이백 실망(T04) 외 요인이 크다는 반대 근거. 영향: 부정적",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-11/global-bond-selloff-sends-10-year-treasury-yields-to-cusp-of-5"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "10년물 장중 5.01% — 인플레·공급 우려",
+        "summary": "Bloomberg는 2023년 이후 첫 5% 돌파로 보도 [actual]. CNN(9/15)은 5.02%로 2007년 이후 최고라고 보도 [actual] — 2023-10 고점과의 비교 기준(장중/종가) 차이로 추정 [inference]. 블로거 1차 트리거(5%) 도달. 영향: 부정적(가격) / 중립(진입 트리거 관점)",
+        "source": "https://www.bloomberg.com/news/articles/2026-09-14/us-10-year-yield-breaches-5-as-inflation-supply-worries-mount"
+      },
+      {
+        "date": "2026-09-14",
+        "title": "CNBC — 10년물 5%, 인컴 투자자 활용법",
+        "summary": "5% 수준 국채 금리를 인컴 확보 기회로 보는 시각 [actual · CNBC]. IEF 30일 SEC 수익률 4.67% [actual · iShares]. 영향: 긍정적 — 캐리 매력 부각",
+        "source": "https://www.cnbc.com/2026/09/14/the-10-year-treasury-yield-just-hit-5percent-how-income-investors-can-profit.html"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "10년물 2007년 이후 최고, FOMC 결정 앞두고 인상 확률 ~92%",
+        "summary": "25bp 인상(3.75~4.00%) 시 2023-07 이후 첫 인상 [actual · CNN/Kiplinger/cryptotimes]. 결과는 분석 시점 미발표 [확인 불가]. 영향: 중립 — 인상은 대부분 선반영, 점도표·가이던스가 방향 결정",
+        "source": "https://www.cnn.com/2026/09/15/investing/bond-market-treasury-fed"
+      },
+      {
+        "date": "2026-09-16",
+        "title": "CNBC — 5% 국채금리, 당장 시장을 깨진 않지만 시계는 째깍거림",
+        "summary": "HY OAS 2.76%로 신용시장 스트레스는 아직 제한적 [actual · FRED BAMLH0A0HYM2]. 영향: 중립 — 금융안정 발작 부재는 T10(연준 레드라인 개입) 조기 발동 가능성을 낮춤 [inference]",
+        "source": "https://www.cnbc.com/2026/09/16/10-year-treasury-yeilds-rise-impact-markets.html"
+      }
+    ],
+    "market_size": {
+      "current_usd_bn": 41.62,
+      "cagr_pct": null,
+      "horizon": "IEF 순자산 기준 2026-09-15 (iShares $41,619M) [actual]; yfinance totalAssets $41.82B [actual]. 미국 시장성 국채 전체 잔액은 본 분석에서 실측하지 않음 [unavailable]. ETF 순자산은 성장률 개념이 아니라 설정·환매+가격 변동의 결과라 CAGR 비적용"
+    }
+  },
+  "financials": {
+    "pl_5y": [],
+    "peer_compare": [
+      {
+        "ticker": "IEF",
+        "name": "iShares 7-10 Year Treasury Bond ETF",
+        "price": 91.05,
+        "aum_usd_bn": 41.82,
+        "expense_ratio_pct": 0.15,
+        "div_yield_pct": 3.97,
+        "return_1m_pct": -1.57,
+        "return_3m_pct": -2.15,
+        "return_1y_pct": -2.61,
+        "volatility_pct": 4.61,
+        "effective_duration_yrs": 6.9,
+        "ytm_pct": 4.97,
+        "note": "가격·AUM·분배·수익률·변동성 [actual · yfinance 2026-09-16 live, stocks.json]. 듀레이션·YTM [actual · iShares 9/15]"
+      },
+      {
+        "ticker": "VGIT",
+        "name": "Vanguard Intermediate-Term Treasury ETF",
+        "price": 57.35,
+        "aum_usd_bn": 48.41,
+        "expense_ratio_pct": 0.03,
+        "div_yield_pct": 3.9,
+        "return_1m_pct": -1.76,
+        "return_3m_pct": -2.76,
+        "return_1y_pct": -1.25,
+        "volatility_pct": 3.52,
+        "effective_duration_yrs": 5.1,
+        "ytm_pct": null,
+        "note": "가격·AUM·보수·분배 [actual · yfinance 2026-09-16 live]; 1M/3M 가격수익률·1Y 총수익(수정종가)·변동성은 yfinance 히스토리 계산 [derived]; 듀레이션 [estimated · 운용사 미확인]"
+      },
+      {
+        "ticker": "GOVT",
+        "name": "iShares U.S. Treasury Bond ETF",
+        "price": 22.17,
+        "aum_usd_bn": null,
+        "expense_ratio_pct": 0.05,
+        "div_yield_pct": 3.65,
+        "return_1m_pct": -1.18,
+        "return_3m_pct": -2.65,
+        "return_1y_pct": -1.03,
+        "volatility_pct": 3.77,
+        "effective_duration_yrs": 5.8,
+        "ytm_pct": null,
+        "note": "yfinance totalAssets가 IEF와 동일($41.82B)로 반환되어 AUM 확인 불가 [unavailable]; 수익률·변동성 [derived · yfinance 히스토리]; 듀레이션 [estimated]"
+      },
+      {
+        "ticker": "TLT",
+        "name": "iShares 20+ Year Treasury Bond ETF",
+        "price": 81.02,
+        "aum_usd_bn": 47.05,
+        "expense_ratio_pct": 0.15,
+        "div_yield_pct": 4.73,
+        "return_1m_pct": 0.0,
+        "return_3m_pct": -5.05,
+        "return_1y_pct": -6.21,
+        "volatility_pct": 9.32,
+        "effective_duration_yrs": 14.99,
+        "ytm_pct": 5.41,
+        "note": "가격·수익률·변동성 [actual · yfinance 2026-09-16, stocks.json]; 듀레이션 14.99년·YTM 5.41%·볼록성 3.16 [actual · iShares 9/14]. forward_pe·pb는 무의미값이라 미인용"
+      },
+      {
+        "ticker": "SGOV",
+        "name": "iShares 0-3 Month Treasury Bond ETF",
+        "price": 100.54,
+        "aum_usd_bn": 105.98,
+        "expense_ratio_pct": 0.09,
+        "div_yield_pct": 3.74,
+        "return_1m_pct": -0.01,
+        "return_3m_pct": 0.01,
+        "return_1y_pct": 3.76,
+        "volatility_pct": 0.18,
+        "effective_duration_yrs": 0.1,
+        "ytm_pct": null,
+        "note": "[actual · yfinance 2026-09-16 live, stocks.json 기준 1Y +3.76%·변동성 0.18%]; 1M/3M은 월말 분배 전후 가격 기준 [derived]; 듀레이션 [estimated]"
+      }
+    ],
+    "financial_unit": "n/a (ETF)",
+    "bs_snapshot": {
+      "aum_usd_bn": 41.62,
+      "n_holdings": 16,
+      "expense_ratio_pct": 0.15,
+      "effective_duration_yrs": 6.9,
+      "avg_maturity_yrs": 8.46,
+      "distribution_yield_pct": 3.97,
+      "ytm_pct": 4.97,
+      "sec_yield_30d_pct": 4.67,
+      "trailing_12m_yield_pct": 4.07,
+      "convexity": 0.57,
+      "weighted_avg_coupon_pct": 4.24,
+      "note": "AUM·보유종목·보수·듀레이션·만기·YTM·SEC·12M·볼록성·쿠폰 [actual · iShares 상품페이지 as of 2026-09-15]; 분배수익률 3.97% [actual · yfinance 2026-09-16 live]. yfinance AUM $41.82B와 iShares $41.62B 차이는 기준일 차이 [inference]"
+    },
+    "cf_summary": {
+      "note": "ETF — 손익계산서·영업현금흐름 없음 [actual · ETF 구조]. 현금흐름은 월 분배(쿠폰 이자)와 설정·환매 유출입임. 가중평균 쿠폰 4.24% < YTM 4.97% → 할인 매입 채권의 만기 수렴으로 금리 불변 시 가격이 연 약 +0.85% 상승(= YTM 4.97 − 보수 0.15 − 분배 3.97) [derived]. 금리 불변 12M 총수익 ≈ YTM − 보수 ≈ 4.82% [derived]. 인덱스 규칙상 잔존 7년 미만 채권은 매도·신규 10년물 편입되어 듀레이션이 약 7년으로 유지됨 [actual · 지수 구조 / inference]"
+    }
+  },
+  "financial_statements_summary": {
+    "data_source": "iShares 상품페이지(2026-09-15) + yfinance 1.3.0 live(2026-09-16) + FRED",
+    "frequency": "n/a (ETF — 분기·연간 손익 없음)",
+    "notes": "IEF는 ETF이므로 US-GAAP 손익계산서·5Y annual/5Q quarterly 재무 시계열이 없어 pl_5y는 의도적 빈 배열임 [actual · ETF 구조]. 재무 대체 지표는 ① 유효듀레이션 6.90년(금리 1%p 변화 시 가격 약 ∓6.9%) ② 평균 YTM 4.97%(보유 기대수익) ③ 30일 SEC 4.67%·분배 3.97%(현금 캐리) ④ 볼록성 0.57 ⑤ 보수 0.15% [actual · iShares/yfinance]. 가격 민감도 ΔP/P ≈ −6.90×Δy + ½×0.57×Δy²(Δy는 %p) [derived]. 5년 고가 $100.73·저가 $79.83(2023-10-19) [actual · yfinance] — 현재 $91.05는 5년 저점 대비 +14.1%, 고점 대비 −9.6% [derived]"
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "probability": 25,
+      "target_price": 95.51,
+      "target_price_basis": "10Y 4.973% → 4.40%(4.3~4.5% 중간) Δy=-0.573%p. 가격변화 = −6.90×Δy + ½×0.57×Δy² + accretion 0.85% = 4.9% → $91.05×(1+4.90%) = $95.51 [derived · 듀레이션/볼록성 iShares 9/15, 평행이동 가정]",
+      "total_return_12m_pct": 8.87,
+      "thesis": "9/16 FOMC 인상이 '원 앤 던(one and done)'으로 확인되고 워시가 추가 인상 문턱을 높게 제시함 [inference]. 이란발 에너지 쇼크가 진정돼 WTI가 $103.74 [actual · yfinance]에서 $80대로 복귀, 근원 CPI MoM이 0.2% 이하로 안정되며 BEI·정책경로 기대가 동시 하락함 [inference]. 고용 둔화·모기지 7%대 부담이 겹쳐 10Y가 4.3~4.5%로 되돌림. 블로거 5%~5.1% 트리거 매수가 사후적으로 '고점 부근 매수'가 되는 경로임",
+      "key_assumptions": [
+        "FOMC 9/16 25bp 인상 후 12월까지 추가 인상 없음 [inference — 결과 미발표, 확인 불가]",
+        "WTI $80대 복귀, 근원 CPI MoM ≤0.2%가 2~3개월 연속 [inference]",
+        "텀프리미엄(KW) 0.96% 수준에서 추가 상승 없음 [inference · FRED THREEFYTP10 기준]",
+        "트럼프 $5,000 배당금 공약이 입법되지 않음 [inference]"
+      ]
+    },
+    "base": {
+      "prob_pct": 45,
+      "probability": 45,
+      "target_price": 91.97,
+      "target_price_basis": "10Y 4.8~5.1% 박스권, 12M 말 4.95% 가정 Δy=-0.023%p. 가격변화 = −6.90×Δy + ½×0.57×Δy² + accretion 0.85% = 1.01% → $91.97 [derived]",
+      "total_return_12m_pct": 4.98,
+      "thesis": "인상 후 연준이 '매파적 대기'로 전환, 에너지 가격은 높은 수준에서 횡보하고 근원 인플레는 2%대 중반에서 고착됨 [inference]. 10Y는 블로거 공식(2.6%p + 장기인플레 2.3~2.5%)대로 4.8~5.1% 박스권에서 등락함. 가격은 거의 제자리이고 수익은 대부분 캐리(YTM 4.97% − 보수)에서 나옴 [derived]. SGOV(3.74%) 대비 초과수익은 약 +1.2%p에 불과해 변동성 4.61% 대비 보상이 얇음 [derived]",
+      "key_assumptions": [
+        "FOMC 1~2회 인상 후 동결, 정책금리 3.75~4.25% [inference]",
+        "10Y 실질 2.4~2.7%·BEI 2.3~2.4% 유지 [inference · FRED DFII10/T10YIE 현재값 기준]",
+        "11/4 바이백 확대 창 종료 후 연장 여부가 중립적으로 소화됨 [inference]",
+        "IEF 듀레이션 6.9년·YTM 약 5% 유지 [actual 기반]"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "probability": 30,
+      "target_price": 87.39,
+      "target_price_basis": "10Y 5.6~5.8%(중간 5.70%) Δy=+0.727%p. 가격변화 = −6.90×Δy + ½×0.57×Δy² + accretion 0.85% = -4.02% → $87.39 [derived]. 참고: 5년 저점 $79.83(2023-10-19)보다는 위",
+      "total_return_12m_pct": -0.05,
+      "thesis": "에너지 쇼크가 근원 CPI/PCE로 2차 전가되고(T07) 연준이 연속 인상을 이어가며, 중간선거 전후 재정 확대 기대(배당금 공약)와 T-bill 중심 발행 확대가 텀프리미엄을 밀어올림 [inference]. 연준 5% 레드라인은 작동하지 않고(T10 무효화) 2007년처럼 5% 이상이 지속됨. 10Y 5.6~5.8%. IEF는 분배 포함 총수익이 약 0%로 '캐리가 가격손실을 겨우 상쇄'하는 수준이나, 같은 경로에서 TLT는 30Y +0.73%p 가정 시 가격 −10% 내외로 손실이 약 2배임 [derived · TLT 듀레이션 14.99·볼록성 3.16 iShares]",
+      "key_assumptions": [
+        "근원 CPI MoM 0.3% 이상 3개월 지속, 연내 추가 인상 1~2회 [inference]",
+        "KW 텀프리미엄 0.96% → 1.5% 이상(블로거 수치 수렴) [inference]",
+        "연준의 장기채 매입·QT 조정 등 금리 상단 개입 없음 [inference]",
+        "WTI $100 이상 지속 [inference · 현재 $103.74 actual]"
+      ]
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-09-16",
+      "event": "FOMC 금리 결정·성명·SEP 점도표·워시 의장 기자회견 (14:00 ET = 9/17 03:00 KST)",
+      "type": "policy",
+      "expected_impact": "high",
+      "description": "25bp 인상(3.75~4.00%) 확률 83~92% 선반영 [actual · CME FedWatch 보도]. 결과는 분석 시점 미발표 [확인 불가]. IEF는 인상 자체보다 점도표의 2026말·2027 경로와 '원 앤 던' 여부에 반응함 [inference]. 동결 시에도 연준 신뢰 훼손으로 텀프리미엄 상승 가능(T09 counter)"
+    },
+    {
+      "date": "2026-09-25 (추정)",
+      "event": "8월 PCE 물가",
+      "type": "macro",
+      "expected_impact": "med",
+      "description": "연준 선호 지표. CPI 근원 0.3% MoM의 PCE 전가 확인 [inference]. 발표일은 BEA 일정 미확인 [estimated]"
+    },
+    {
+      "date": "2026-10-02 (추정)",
+      "event": "9월 고용보고서",
+      "type": "macro",
+      "expected_impact": "med",
+      "description": "8월 +16.2만·실업률 4.1% [actual · BLS/CNBC] 이후 추세. 고용 둔화는 IEF에 긍정적, 재가속은 추가 인상 논거 [inference]. 발표일 [estimated]"
+    },
+    {
+      "date": "2026-10 초 (추정)",
+      "event": "10년물 국채 입찰(재개입찰)",
+      "type": "supply",
+      "expected_impact": "med",
+      "description": "9/9 입찰 4.834%·응찰률 2.71·간접 79.2% [actual · Investing.com]. 5% 수준 입찰에서 간접입찰·테일이 해외 수요 판정 지표 [inference]. 일정 [estimated · Treasury 잠정 일정표 미확인]"
+    },
+    {
+      "date": "2026-10-14 (추정)",
+      "event": "9월 CPI",
+      "type": "macro",
+      "expected_impact": "high",
+      "description": "PPI 근원 4.6% YoY [actual · BLS]의 2~3개월 전가(T07) 첫 검증 시점. 근원 MoM 0.3% 재현 시 bear 시나리오 확률 상향 [inference]. 발표일 [estimated]"
+    },
+    {
+      "date": "2026-10-27~28 (추정)",
+      "event": "10월 FOMC",
+      "type": "policy",
+      "expected_impact": "high",
+      "description": "9월 인상이 '원 앤 던'인지 연속 인상인지 판정 [inference]. 점도표 없음. 일정 [estimated]"
+    },
+    {
+      "date": "2026-11 초 (추정)",
+      "event": "재무부 분기 리펀딩(QRA) 발표 — 11월 입찰 규모·T-bill 비중·바이백 계획",
+      "type": "supply",
+      "expected_impact": "high",
+      "description": "바이백 확대 창(9/9~11/4) 종료 [actual · sb0607] 직후 연장·TGA 활용(T05) 여부와 쿠폰채 증액 여부가 텀프리미엄 방향 결정 [inference]. 발표일 [estimated]"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "미국 중간선거",
+      "type": "political",
+      "expected_impact": "high",
+      "description": "공화당 상·하원 승리 시 성인 1인 $5,000 배당금(1조달러+) 공약 [actual · NPR/CNBC]. 재정 확대 기대가 10년물 텀프리미엄을 자극할 수 있음(T06). 블로거: TGA 바이백의 '청구서는 선거 후' [actual · 블로그]"
+    },
+    {
+      "date": "2026-11-04",
+      "event": "장기채 바이백 확대 운영 기간 종료",
+      "type": "policy",
+      "expected_impact": "med",
+      "description": "1회 최소 $40억(9/9 최대 $60억) 운영이 11/4까지 [actual · US Treasury sb0607/CNBC]. 연장 없으면 장기 구간 수급 지지 약화 [inference]"
+    },
+    {
+      "date": "2026-12-08~09 (추정)",
+      "event": "12월 FOMC + 점도표",
+      "type": "policy",
+      "expected_impact": "high",
+      "description": "2027 정책경로 재설정. IEF의 정책경로 민감도가 TLT보다 커 가장 직접적인 변수 [inference]. 일정 [estimated]"
+    },
+    {
+      "date": "상시",
+      "event": "유가(WTI $103.74·Brent $107.37) — 이란 전쟁발 에너지 쇼크",
+      "type": "macro",
+      "expected_impact": "high",
+      "description": "1년 전 WTI $64.5 대비 +61% [derived · yfinance]. BEI(2.38%)는 아직 안정 [actual · FRED] — BEI가 2.5% 이상으로 뛰면 인플레 기대 고정 붕괴 신호 [inference]"
+    }
+  ],
+  "risks": [
+    {
+      "name": "인상 사이클 장기화 — '원 앤 던'이 아닌 연속 인상",
+      "probability": "med",
+      "impact": "high",
+      "description": "근원 CPI MoM 0.3%·고용 +16.2만 [actual]이 이어지면 정책경로 상향이 7~10년 구간에 직접 전달됨. 10Y +0.7%p 시 IEF 가격 약 −4.8% [derived]. IEF는 TLT보다 정책경로 민감도 비중이 커 이 리스크에서 상대적 방어력이 약함 [inference]",
+      "mitigation": "FOMC 결과·점도표 확인 후 분할 진입, SGOV 바벨로 정책금리 상승분 캐리 흡수"
+    },
+    {
+      "name": "에너지 쇼크의 근원 인플레 2차 전가",
+      "probability": "med",
+      "impact": "high",
+      "description": "PPI 근원 4.6% YoY·유가 $100+ [actual]. BEI 2.38%는 아직 안정이나 전가 시 BEI·실질금리 동시 상승 가능 [inference]",
+      "mitigation": "TIP 일부 병행으로 BEI 상승 헤지, 10월 CPI 확인 전 비중 제한"
+    },
+    {
+      "name": "재정 확대·텀프리미엄 상승 (중간선거·배당금 공약)",
+      "probability": "med",
+      "impact": "med",
+      "description": "KW 0.96% → 블로거 1.5% 수렴 시 10Y +0.5%p 내외 [inference]. 다만 10-30 커브 스티프닝 성격이면 IEF 타격은 TLT보다 작음 [inference]",
+      "mitigation": "TLT 대신 IEF로 듀레이션 축소, 11월 QRA 확인"
+    },
+    {
+      "name": "연준 5% 레드라인 부재 (T10 무효화)",
+      "probability": "med",
+      "impact": "high",
+      "description": "연준의 5% 관련 공식 언급 없음 [확인 불가]. 인상 국면에서 장기채 매입은 정책 모순이며 2007년 5% 이상 장기 지속 선례 존재 [actual · 역사]. 레드라인 가정 매수는 '떨어지는 칼' 위험",
+      "mitigation": "10Y 5.4% 종가 돌파를 thesis 재검토 트리거로 사전 설정"
+    },
+    {
+      "name": "현금 대비 보상 부족 (SGOV 캐리 추격)",
+      "probability": "high",
+      "impact": "med",
+      "description": "SGOV 분배 3.74%·^IRX 3.947% vs IEF 분배 3.97% [actual · yfinance]. 인상 시 T-bill 수익률이 4%대로 올라 IEF의 캐리 우위가 소멸하며 변동성 4.61%만 남음 [derived/inference]",
+      "mitigation": "IEF 기대 초과수익을 YTM−T-bill 스프레드로 매월 점검"
+    },
+    {
+      "name": "원화 투자자 환율 리스크 (IEF는 USD 비헤지)",
+      "probability": "high",
+      "impact": "med",
+      "description": "USDKRW 3개월 1,537.6→1,366.7(원화 +11%) [actual · yfinance]. 한국은행 3.00% 인상 기조 지속 시 환손실이 IEF 캐리(연 ~4%)를 압도 가능 [inference]. 동일 운용사 비헤지 476760.KS는 9/11 5년 최저 [actual · yfinance]",
+      "mitigation": "원화 투자자는 환헤지 상품 검토(헤지비용 연 0.6~0.9%p [estimated], 선물환 실측 확인 불가)"
+    },
+    {
+      "name": "국채 수요 약화·입찰 부진",
+      "probability": "low",
+      "impact": "med",
+      "description": "9/9 10년물 입찰 간접 79.2%로 양호했으나 [actual] 글로벌 채권 동반 매도(Bloomberg 9/11) 지속 시 해외 수요 이탈 가능 [inference]",
+      "mitigation": "10월·11월 10년물 입찰 테일·간접입찰 비중 모니터링"
+    },
+    {
+      "name": "레버리지 대안(TYD/TYO) 오용",
+      "probability": "low",
+      "impact": "high",
+      "description": "TYD 1Y −17.23%·변동성 13.5% [actual/derived · yfinance]. 일간 리밸런싱 decay로 방향이 맞아도 손실 가능 [inference]",
+      "mitigation": "레버리지 ETF는 이벤트 단기 헤지로만 한정"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "10년물 ≈ 장기인플레 + 중립금리(1.1) + 텀프리미엄(1.5) = 2.6%p + 장기인플레 → 5% 초과가 자연스러움",
+      "type": "framework",
+      "evidence": "[IEF 관점 · 직접 검증] 시장 분해: DFII10 실질 2.60%(9/14) + T10YIE BEI 2.38%(9/15) = 4.98% vs DGS10 4.97% [derived · FRED] → 합계 수준은 정합함. 블로거식: 장기인플레 5y5y 2.35%(T5YIFR) + 2.6 = 4.95% [derived] → 현재 10Y와 0.02%p 차이로 높은 적중. 단 구성요소 분해는 불일치: KW 텀프리미엄 0.961%·ACM 0.80% [actual]로 블로거 1.5%보다 0.5~0.7%p 낮아, 같은 합계를 맞추려면 기대 단기실질금리 경로가 ~1.6% 이상이어야 함(4.97−2.38−0.96 ≈ 1.63) [derived]. 1년 전 실질 1.70% → 2.60%로 +0.9%p가 상승분의 대부분이고 BEI는 2.37→2.38로 불변 [actual · FRED] — 상승 원인은 '인플레'보다 '실질금리(정책경로+TP)'임. IEF YTM 4.97% [actual · iShares]가 이 산수의 직접 가격 표현임",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "30년물 텀프리미엄 1.9%로 10년물보다 0.4%p 높아 명목금리도 약 0.4%p 차이",
+      "type": "quantitative",
+      "evidence": "[IEF 관점] ^TYX 5.347 − ^TNX 4.973 = 0.37%p [derived · yfinance] — 수치상 부합. 30년 텀프리미엄 1.9%의 모델 출처는 확인 불가. IEF(듀레이션 6.90)는 10-30 스티프닝에 노출이 작아, 텀프리미엄발 장기 구간 매도 시 TLT(14.99) 대비 상대 방어 수단이 됨 [inference]. 1년 전 스프레드 0.62%p로 변동 큼 [derived]",
+      "testability": "high",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T03",
+      "claim": "바이백은 T-bill로 장기채를 되사는 만기 스왑일 뿐이라 장기금리를 못 잡고, 부채 단기화로 텀프리미엄 상승을 부름",
+      "type": "causal",
+      "evidence": "[IEF 관점] 바이백 대상은 10~20년·20~30년 구간 [actual · sb0607] — IEF 7~10년 구간은 직접 수혜가 없음. 8/19 확대 이후 10Y 4.724%(1m 전) → 4.973% 상승, KW TP 0.844 → 0.961% [actual · yfinance/FRED] — '금리를 못 잡는다'는 관찰과 일치. 다만 바이백은 원래 유동성 지원 목적이고 인플레·고용 데이터가 동시에 악화돼 인과 분리는 불가 [inference]",
+      "testability": "medium",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "9/9 바이백 $60억은 TGA 언급으로 부풀려진 $80~100억 기대 대비 실망이었고 유가·PPI와 겹쳐 금리 발작을 촉발",
+      "type": "event",
+      "evidence": "[IEF 관점] 발표 후 10년물 4.85%·20년물 5.3% [actual · Fox Business], IEF 1M −1.57% [actual · yfinance]. 반대 근거: PPI 근원 MoM 0.2%로 예상 하회 [actual · BLS], Bloomberg 9/11 '글로벌 채권 매도' — 미국 고유 요인만으로 설명 불충분. 9/9 10년물 입찰은 간접 79.2%로 양호 [actual · Investing.com]",
+      "testability": "medium",
+      "current_status": "confirmed"
+    },
+    {
+      "claim_id": "T05",
+      "claim": "TGA로 바이백 시 'QE 라이트'로 두세 달 위험자산에 달달하나 청구서는 중간선거 후",
+      "type": "causal",
+      "evidence": "[IEF 관점] TGA $883.3B(9/9 주간), RRP $0.7B로 완충 소진 [actual · FRED]. 9/9 확정안에 TGA 활용 명시 없음 [확인 불가]. 실행 시 단기적으로 IEF에 긍정적(장기 구간 매입+유동성)이나, 선거 후 T-bill 증발은 단기금리를 올려 커브 전반에 부담 [inference]",
+      "testability": "medium",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "장기금리 상승의 근본 원인은 인플레와 재정적자·국채 공급 폭증이며 $5,000 배당금 공약이 적자 우려를 가중",
+      "type": "macro",
+      "evidence": "[IEF 관점] 배당금 1조달러+ 공약·초당적 반발 [actual · NPR/CNBC]. KW TP 1년 전 0.41% → 0.96% [actual · FRED] — 공급·재정 프리미엄 상승과 부합. 그러나 BEI 1년간 2.37→2.38%로 불변 [actual] — '인플레' 경로보다 실질·TP 경로로 가격화 중. 공약 입법 가능성은 낮음 [inference]",
+      "testability": "low",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "유가 $100·Core PPI 4.6%가 2~3개월 뒤 CPI·PCE로 전가되며 인플레가 다시 문제",
+      "type": "macro",
+      "evidence": "[IEF 관점] 8월 CPI 3.4%·에너지 +16.3% [actual · BLS]. 반대: 근원 CPI YoY 2.4%, 5y5y 2.35%, BEI 2.38% [actual · FRED] — 장기 기대는 고정. 10월 CPI(9월분)가 첫 판정 시점. 전가 확인 시 IEF bear 시나리오(10Y 5.6~5.8%) 확률 상향 [inference]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "근원 CPI MoM 0.3%가 워시의 인상 조건을 충족해 9월 인상 확률을 높임(72.4%→83.4%)",
+      "type": "event",
+      "evidence": "[IEF 관점] 근원 0.3% MoM(예상 0.2) [actual · CNBC/BLS], 인상 확률 ~90~92% [actual · Yahoo/CNN]. ^IRX 3.703→3.947%(1m), 2Y 4.15→4.65% [actual · yfinance/FRED] — 단기·중기물 선반영. 확률 상승은 확인됐으나 실제 결정은 9/17 03:00 KST 발표 전 [확인 불가]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "FOMC 12표 구도상 워시가 '매파적 동결'로 설득할 수도 있어 정치력 시험대",
+      "type": "political",
+      "evidence": "[IEF 관점] CNBC 9/14 'Warsh faces a tough battle' [actual]. 위원 성향 분류는 해석 [inference]. 92% 반영 상태에서 동결 시 단기물은 하락하나 연준 신뢰 훼손으로 10년물 텀프리미엄이 오를 수 있어 IEF 방향성은 불명확함 [inference]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "이제는 연준을 봐야 하며 연준 레드라인은 10년물 5%, 시차 고려 5.1%가 실질 상단",
+      "type": "policy_reaction",
+      "evidence": "[IEF 관점] 10Y 장중 5.01~5.02% 도달 [actual · Bloomberg/CNN], 연준의 5% 관련 발언·개입 없음 [확인 불가]. HY OAS 2.76%로 금융안정 스트레스 부재 [actual · FRED] — 개입 명분 약함. 인상 국면의 장기채 매입은 정책 모순 [inference]. 5.1% 상단이 깨지면 IEF 가격 기준 약 $88.4(10Y 5.4%)가 thesis 무효 구간 [derived]",
+      "testability": "high",
+      "current_status": "pending"
+    },
+    {
+      "claim_id": "T11",
+      "claim": "[투자 방법] 10년물 5% 찍고 5.1%까지 가면 매수 검토, 안 가면 그만 — 연말 변동성 부담 시 '도망치는 것도 방법'",
+      "type": "normative",
+      "evidence": "[IEF 관점] 1차 트리거(5%)는 9/14~15 장중 도달, 5.1%는 미도달 [actual · 9/16 ^TNX 4.973%]. IEF는 블로거가 말한 '10년물'을 가장 직접 구현하는 수단(YTM 4.97% ≈ 10Y)이며 TLT 대비 듀레이션 46%(6.90/14.99)·변동성 49%(4.61/9.32)로 '연말 변동성 부담'과 매수 의지를 절충하는 선택지임 [derived]. 청산·손절 규칙 부재는 블로거 논리의 공백 [inference]",
+      "testability": "medium",
+      "current_status": "pending"
+    }
+  ],
+  "reverse_dcf": {
+    "implied_growth_5y_pct": null,
+    "implied_op_margin_5y_pct": null,
+    "notes": "ETF 역DCF 비적용 — 손익분기 금리상승폭 ≈ 분배수익률/듀레이션 ≈ 4.0/7 ≈ 0.57%p [derived]; 10Y 4.97% 분해 실질 2.60 + BEI 2.38 [actual · FRED]. iShares 실측 반영 시: 분배 3.97/듀레이션 6.90 = 0.58%p, YTM 기준(accretion 포함) (4.97−0.15)/6.90 ≈ 0.70%p [derived] → 12개월 내 10Y가 약 5.55~5.67%를 넘지 않으면 총수익 ≥0. TLT는 YTM 5.41/듀레이션 14.99 ≈ 0.36%p로 IEF의 약 절반 쿠션 [derived · iShares 9/14]"
+  },
+  "investment_method": {
+    "framing": "IEF = 블로거의 '10년물 5%~5.1% 트리거'를 가장 직접 구현하는 중간 듀레이션 수단 (YTM 4.97% ≈ ^TNX 4.973%, 유효듀레이션 6.90년 [actual · iShares/yfinance]). 블로거는 특정 ETF를 언급하지 않았으며 아래는 분석자 판단의 규칙 예시이지 매수 권유 아님",
+    "entry_rule": "① FOMC(9/17 03:00 KST) 결과·점도표 확인 전 선진입 지양. ② 10Y 종가 5.0% 이상에서 1/3, 5.1% 이상에서 1/3, 나머지 1/3은 10월 CPI(근원 MoM ≤0.2%) 확인 후 투입하는 3분할 [inference]. ③ 5.0% 재도달 없이 금리 하락 시 '안 가면 그만' 원칙 적용 — 추격 매수 없음(블로거 T11). 현재 10Y 4.973%로 1차 트리거 직전 [actual]",
+    "exit_or_stop_rule": "손절/재검토: 10Y 종가 5.4% 돌파 시(IEF 약 $88.41, −2.9% [derived]) 연준 레드라인 가정(T10) 무효로 보고 비중 축소. 이익실현: 10Y 4.4~4.5% 도달 시(bull 목표 $95.51 [derived]) 1/2 실현. 시간 손절: 12월 FOMC까지 5~5.1% 박스 고착 시 SGOV 대비 초과 캐리(YTM−T-bill ≈ 1.0%p [derived])만 남으므로 재평가",
+    "position_sizing_note": "IEF 1%p 금리 상승 시 약 −6.6%(−6.90+0.29) [derived], TLT는 약 −13.4%(−14.99+1.58) [derived]. 동일 금리리스크 기준 TLT 1단위 ≈ IEF 2.17단위(14.99/6.90). 변동성 IEF 4.61% vs TLT 9.32% [actual · yfinance] — 같은 손실 한도에서 IEF는 TLT의 약 2배 명목 비중 가능. 볼록성은 TLT 3.16 vs IEF 0.57 [actual · iShares]로 금리 급락(bull) 시 TLT 업사이드가 비대칭적으로 크나(−50bp: IEF +3.5% vs TLT +7.9% [derived]), 급등(+70bp: IEF −4.7% vs TLT −9.7% [derived]) 시 손실도 2배. 손익분기 금리상승폭 IEF ~0.70%p vs TLT ~0.36%p [derived] → '연말 변동성이 부담'이라는 블로거 조건에서는 IEF의 위험 대비 보상이 더 적합함 [inference]",
+    "hedging_note": "① SGOV 바벨: 인상 국면 정책금리 상승을 T-bill 캐리(3.74% [actual])로 흡수, IEF와 50:50 조합 시 포트 듀레이션 약 3.5년 [derived]. ② TIP 병행: 에너지 전가(T07)로 BEI가 오르는 bear 경로 헤지(실질금리 2.60% [actual · FRED]). ③ TYO(−3x)는 FOMC·CPI 등 이벤트 1~5일 단기 헤지로만 — 일간 리밸런싱 decay [inference]. ④ 원화 투자자는 IEF가 USD 비헤지라 USDKRW(3개월 −11% [actual])가 채권 손익을 압도할 수 있어 환헤지 여부를 별도 결정해야 함 (헤지비용 연 0.6~0.9%p [estimated], 선물환 실측 확인 불가)"
+  },
+  "blog_thesis_link": {
+    "linked_theses": [
+      "T01",
+      "T03",
+      "T04",
+      "T07",
+      "T08",
+      "T09",
+      "T10",
+      "T11"
+    ],
+    "linkage_strength": "high",
+    "summary": "블로거의 3부작은 전부 '미국채 10년물'을 기준 변수로 삼고 있어, 10Y와 YTM이 사실상 일치하는(4.97% vs 4.973%) IEF가 논지를 가장 직접 가격화함 [derived]. T01 산수는 FRED 실질+BEI로 합계 수준이 검증되나 텀프리미엄 분해(1.5% vs KW 0.96%)는 불일치함. T08·T09(FOMC)는 정책경로 민감도가 큰 IEF에 가장 직접 전달되고, T11 매수 트리거(5%~5.1%)를 TLT보다 낮은 변동성으로 실행할 수 있는 수단임. T02·T06(30년물 텀프리미엄·재정)은 IEF보다 TLT에 더 강하게 연결됨. 블로거는 특정 ETF를 언급하지 않았음 — 매핑은 분석자 판단임"
+  },
+  "sources": [
+    "https://www.ishares.com/us/products/239456/ishares-710-year-treasury-bond-etf",
+    "https://www.ishares.com/us/products/239454/ishares-20-year-treasury-bond-etf",
+    "yfinance 1.3.0 live 2026-09-16 (IEF·VGIT·SCHR·GOVT·UTEN·TYO·TYD·TLT·SGOV)",
+    "https://fred.stlouisfed.org/series/THREEFYTP10",
+    "https://home.treasury.gov/news/press-releases/sb0607",
+    "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+    "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+    "https://www.cnn.com/2026/09/15/investing/bond-market-treasury-fed",
+    "https://en.macromicro.me/series/20480/us-10-treasury-term-premium"
+  ],
+  "korean_disclosures": [],
+  "analysis_mode": "single",
+  "thesis_count": 11
+}
