@@ -1,0 +1,539 @@
+{
+  "ticker": "5706.T",
+  "aggregated_at": "2026-09-25T05:13:05.361789+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 12,
+      "pct": 70.6
+    },
+    "lean_bearish": {
+      "count": 5,
+      "pct": 29.4
+    }
+  },
+  "average_confidence": 0.526,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.35
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.52
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.42
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.52
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "neutral",
+          "confidence": 0.52
+        }
+      ],
+      "dominant": "neutral"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 16,
+      "personas": [
+        "cliff-asness",
+        "cathie-wood",
+        "ray-dalio",
+        "peter-lynch",
+        "charlie-munger",
+        "george-soros",
+        "ben-graham",
+        "mohnish-pabrai",
+        "bill-ackman",
+        "michael-burry",
+        "jim-simons",
+        "aswath-damodaran",
+        "stanley-druckenmiller",
+        "rakesh-jhunjhunwala",
+        "warren-buffett"
+      ],
+      "examples": [
+        "변동성 82.74%는 fat-tail regime — 표준 risk model이 과소평가하는 tail loss 구간",
+        "베타 1.39 대비 과대한 총변동성 → 시장 헤지로 제거되지 않는 idiosyncratic risk가 지배적",
+        "주가 3개월 -50%[actual], 연변동성 83%[actual] — 스토리 주식으로서 재평가가 이미 진행 중"
+      ]
+    },
+    {
+      "theme": "사이클",
+      "frequency": 8,
+      "personas": [
+        "cliff-asness",
+        "cathie-wood",
+        "ray-dalio",
+        "charlie-munger",
+        "mohnish-pabrai",
+        "michael-burry",
+        "nassim-taleb",
+        "rakesh-jhunjhunwala"
+      ],
+      "examples": [
+        "고급 동박 증설(2030년 1,400톤, 말레이시아 2031년 이후) [actual] — CMA 관점에서 aggressive investment 사이클, 증설 완료 전 수율·가동률 리스크",
+        "금속 제련 부문의 commodity 사이클 노출: FY3/27 이익 감소 가이던스가 이미 사이클 후반 신호",
+        "5년·10년 ROE 시계열 미확인 — 금속 제련 부문의 사이클성으로 ROE 일관성이 낮을 가능성"
+      ]
+    },
+    {
+      "theme": "부채",
+      "frequency": 5,
+      "personas": [
+        "peter-lynch",
+        "ben-graham",
+        "michael-burry",
+        "mohnish-pabrai",
+        "warren-buffett"
+      ],
+      "examples": [
+        "부채/이자보상배율 미확인[unavailable] 상태에서 2031년 이후 말레이시아 대규모 증설 자본 부담",
+        "재무 안전성 미확인: 부채·현금 데이터 없이 '저위험' 판정 불가, 2031년 이후 말레이시아 거점은 선투자 부담 [unavailable]",
+        "FCF margin·부채비율·이자보상배율 [unavailable] — 증설 국면에서 FCF 압박 여부를 확인할 수 없음"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.35,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "변동성 82.74%는 fat-tail regime — 표준 risk model이 과소평가하는 tail loss 구간",
+        "3개월 -50.37%로 drawdown이 진행 중이며 recovery 여부를 확인할 max_drawdown 데이터가 없음",
+        "베타 1.39 대비 과대한 총변동성 → 시장 헤지로 제거되지 않는 idiosyncratic risk가 지배적"
+      ],
+      "key_opportunities_top3": [
+        "소재 섹터 mean-revert 특성 + 3개월 -50%는 장기 평균 데이터가 확보되면 reversion zone 진입을 확인할 수 있는 후보 조건",
+        "변동성이 medium regime(<30%)으로 하향 안정될 경우 momentum·reversion 신호가 분리되어 stat-arb 진입 조건 재평가 가능"
+      ],
+      "uncertainty": "quant_anchor.json(sharpe_ratio, sortino_ratio, max_drawdown_pct, VaR, optimal_weights)이 제공되면 verdict가 즉시 바뀔 수 있다: Sharpe<0 또는 MDD>40%(β>1.5 및 MONETARY_TIGHTENING 동반)이면 lean_bearish, 반대로 Sharpe>1.0이면서 변동성이 30% 아래로 내려오고 optimizer weight가 1/N의 1.5배를 넘으면 lean_bullish로 전환된다. 또한 분할 조정 후 재계산된 수익률·변동성이 현재 값과 다르면 stage 1·2 판정 자체가 무효화된다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "FY3/27 EPS 가이던스 -12.4%[derived] — 동박 부문 상향에도 금속 부문 감소가 전체 이익을 끌어내림",
+        "PEG 음수/실질 overvalued 구간 — PER 16.5배[estimated]를 성장이 뒷받침하지 못함",
+        "동박이 회사 이익에서 차지하는 비중 미확인[unavailable] — 스토리와 주식의 연결 고리가 약함"
+      ],
+      "key_opportunities_top3": [
+        "2027~2028년 기판 증설 대비 재료 증설 지연으로 HVLP 동박 가격결정력 강화 가능 (블로그 핵심 논지)",
+        "동박은 기판 원가에서 작은 비중(CCL 매입의 0.6% 별도 매입)이라 단가 인상 저항이 낮음",
+        "EV/EBITDA 8.16배[actual]는 소재 기업으로서 극단적 고평가는 아님 — 금속 사이클이 반등하면 EPS가 다시 성장 전환할 여지"
+      ],
+      "uncertainty": "세그먼트별 이익 데이터가 없어 동박 부문의 실제 EPS 기여도를 추정하지 못했다. 만약 동박 부문 영업이익이 회사 전체의 절반 이상이고 연 30%+로 성장한다는 것이 확인되면 카테고리가 cyclical에서 fast grower로 바뀌고, 금속 부문 사이클 반등과 겹치면 EPS가 재성장해 PEG가 1.0 아래로 내려갈 수 있다 — 그 경우 verdict는 Neutral 또는 Lean Bullish로 뒤집힌다. 반대로 CPO 채택이 기판 층수를 실제로 줄이는 것이 숫자로 확인되면 Bearish 확신이 강해진다. 부채 지표가 확인되어 레버리지가 높다면 역시 Bearish 쪽으로 이동한다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "β 1.39 [actual] + 변동성 82.74% [actual] — 고β·고vol 조합은 factor portfolio에서 sizing을 최소화해야 하는 profile",
+        "3M -50.37%, 6M -25.11% [actual] — 12-1 momentum이 아직 양수이지만 중기 추세 붕괴가 진행 중이며, 1~2개월 내 12-1 momentum 자체가 음전환할 수 있음",
+        "FY3/27 순이익 913억→800억 엔 감소 가이던스 [actual] — 금속 부문 이익 감소가 동박 개선을 상쇄, RMW 개선이 전사 수준에서 확인되지 않음"
+      ],
+      "key_opportunities_top3": [
+        "역산 ROE ≈ 21.6% [derived] — 소재 섹터 기준 상위 RMW exposure, 동박 부문 이익 전망 상향 [actual]이 지속되면 high_quality tier 진입 가능",
+        "EV/EBITDA 8.16 [actual], 가이던스 P/E ~16.5 [actual] — 급락 후 밸류에이션이 expensive 구간을 벗어나 있어 momentum 안정 시 value·momentum 동시 개선 여지",
+        "HVLP 동박 공급 과점 구조 [blog, actual 인용] — 2027~28년 기판 증설 대비 재료 부족이 실현되면 RMW가 측정값으로 개선될 경제적 근거 존재"
+      ],
+      "uncertainty": "verdict가 lean_bullish로 뒤집히는 조건: (1) 3M 수익률이 반등해 12-1 momentum이 strong_positive로 유지되고 변동성이 50% 이하로 정상화, (2) FY3/27 실적에서 동박 부문 이익 상향이 전사 순이익 가이던스(800억 엔) 상회로 확인되어 RMW high_quality 진입. lean_bearish로 뒤집히는 조건: (1) 추가 하락으로 12-1 momentum이 -10% 이하로 음전환하며 동시에 순이익 하향이 겹칠 때, (2) CPO 채택 공식화로 고다층 PCB 수요 서사가 깨져 동박 이익 전망이 하향될 때. 또한 DCF·ROIC·FCF margin·macro flags가 [unavailable]이므로 value·profitability z-score는 근사치이며, 이 데이터가 보강되면 composite가 ±0.3 범위에서 이동할 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.42,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "macro_snapshot.json 부재로 cycle position·debt cycle phase를 검증 불가 — 판단의 anchor가 없다",
+        "금속 제련 부문의 commodity 사이클 노출: FY3/27 이익 감소 가이던스가 이미 사이클 후반 신호",
+        "beta 1.39·변동성 82.7%로 포트폴리오 Sharpe 기여도가 낮고 AI 테마 종목과 고상관"
+      ],
+      "key_opportunities_top3": [
+        "AI용 HVLP 동박은 재료 병목의 직접 수혜 — 공급 lag가 길어 가격결정력이 2028년 이후까지 이어질 수 있음",
+        "growth↑×inflation↑ quadrant가 확인될 경우 금속+동박 hybrid 구조가 동시에 수혜",
+        "가이던스 기준 PER 16.5배로 성장 프리미엄이 과도하지 않음"
+      ],
+      "uncertainty": "macro_snapshot이 제공되어 yield curve 정상화·실업률 안정·MONETARY_TIGHTENING flag 부재가 확인되면 growth_up quadrant 판정과 함께 lean_bullish로 전환할 수 있다. 반대로 RECESSION_LEADING_INDICATOR가 활성이거나 debt/GDP·QT 데이터가 ugly deleveraging을 가리키면, 제련 부문의 사이클 노출과 고변동성 때문에 lean_bearish로 뒤집힌다. 종목 차원에서는 11월 이수페타시스 ㎡당 단가 꺾임이나 hyperscaler CPO 공식 채택이 동박 수요 전제를 깨는 트리거다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "5년·10년 ROE 시계열 미확인 — 금속 제련 부문의 사이클성으로 ROE 일관성이 낮을 가능성",
+        "복합기업 구조: 동박 부문 수혜가 아연·동 제련 부문 이익 감소에 희석 (FY3/27 순이익 913억→800억 엔 하향)",
+        "CPO(광 스위치) 확산 시 고다층 PCB 층수·동박 수요의 장기 TAM 축소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "AI 서버·스위치 고다층 PCB의 병목이 2027년 이후 재료(CCL·HVLP 동박)로 이동 — 가격 결정력이 재료 쪽으로 옮겨가는 구조",
+        "고주파 기판용 동박 생산능력 720→1,400톤(2030) 및 말레이시아 거점으로 5-10년 재투자 runway 존재",
+        "가이던스 기준 PER 약 16.5배·EV/EBITDA 8.2배로 AI 소재 tailwind 대비 밸류에이션이 과열되지 않음"
+      ],
+      "uncertainty": "사업보고서 기준 5년 평균 ROE가 15% 이상이고 변동성이 낮으며 동박 부문이 영업이익의 과반을 차지한다는 것이 확인되면 verdict는 lean_bullish로 뒤집힌다. 반대로 하이퍼스케일러가 CPO를 스위치 표준으로 공식화하거나, 이수페타시스 3분기 ㎡당 단가가 꺾여 재료 가격 결정력 논리가 약해지거나, 금속 부문 손실로 전사 ROE가 10% 아래로 떨어지면 lean_bearish로 이동한다. forward_pe 38.28은 데이터 오류로 판단해 배제했으며, 이 판단이 틀렸다면 밸류에이션 평가도 재검토가 필요하다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "전사 이익의 방향이 금속가격 사이클에 종속 — FY3/27 순이익 800억 엔으로 감익 가이던스[actual]",
+        "동박 부문의 매출·이익 비중, 고객 집중도, 세그먼트 ROIC가 확인되지 않음[unavailable] — 서사 전이의 confirmation bias 위험",
+        "연 변동성 82.74%, 3개월 -50%[actual] — 투기적 수급이 한 차례 붕괴한 종목이라 추가 흔들림 가능"
+      ],
+      "key_opportunities_top3": [
+        "고급 동박은 만드는 곳이 적고 증설이 느린 진짜 병목 — 판재·동박으로 가격결정력이 이동하는 2027~2028년 구간의 직접 수혜자[inference]",
+        "1년 +112% 후 3개월 -50%로 프리미엄이 상당 부분 소멸, 가이던스 PER 16.5배·EV/EBITDA 8.16배[actual]는 합당한 수준",
+        "점진적 증설(720→840→1,400톤)은 과잉투자를 피하는 절제된 자본배분으로 읽힘[inference]"
+      ],
+      "uncertainty": "동박 부문이 전사 영업이익의 상당 비중(예컨대 1/3 이상)을 차지하고 그 이익이 구조적으로 성장 중임이 공시로 확인되면 Lean Bullish로 뒤집힌다. 반대로 하이퍼스케일러가 자체 스위치에 CPO 채택을 공식화하거나, 이수페타시스 11월 3분기보고서에서 ㎡당 단가가 꺾여 재료 병목 서사 자체가 흔들리면 Lean Bearish로 기운다. 또한 금속가격이 추가 하락해 FY3/27 가이던스가 재차 하향되면 '합당한 가격'이라는 전제도 깨진다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "50% 디스카운트 부재: 가이던스 PER 16.5배·PBR 3.12배로 보수적 내재가치 대비 프리미엄 상태 [derived]",
+        "이익의 이중 사이클 노출: 동박 부문 상향에도 금속 제련 부진으로 FY3/27 순이익 -12% 전망 [actual]",
+        "기술 대체 위험: CPO 채택이 층수·동박 수요를 줄이면 불확실성이 영구 손실 위험으로 전환 [inference]"
+      ],
+      "key_opportunities_top3": [
+        "HVLP 동박 소수 공급자 지위: 2027~28년 재료 병목 구간에서 가격 결정력이 재료 쪽으로 이동하면 직접 수혜 [inference]",
+        "급락으로 진입 가격이 절반이 됨: 추가 하락 시 파브라이식 50% 디스카운트 구간에 도달할 가능성 — 워치리스트 후보 [inference]",
+        "EV/EBITDA 8.16배는 절대 수준에서 과열 아님, 금속 부문이 회복하면 전사 이익 재상향 여지 [actual]"
+      ],
+      "uncertainty": "다음 중 하나가 확인되면 verdict가 neutral 또는 lean_bullish로 뒤집힌다: ①시총이 보수적 내재가치(7,200~9,600억 엔)의 절반 이하로 하락하거나 ②동박 부문 이익 기여가 공시로 확인되어 전사 정상화 순이익이 1,200억 엔 이상으로 재추정되거나 ③CPO가 스위치 기판 층수를 줄이지 않는다는 것이 하이퍼스케일러 공식 발표로 확인되어 기술 대체 위험이 제거되는 경우. 반대로 11월 이수페타시스 3분기보고서에서 ㎡당 단가가 꺾이면 재료 병목 서사 자체가 약해져 bearish 확신이 높아진다. 사업부문별 이익 비중과 재무 안전성 데이터가 없어 위험 판정의 정확도는 제한적이며, 일본 시장에 대한 이 lens의 친숙도 한계도 인정한다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "회사 이익의 상당 부분이 해자 없는 비철금속 제련(상품 사업)에서 나오며, FY3/27 이익 감소의 원인도 이 부문 — 동박 명제 하나로 회사 전체를 평가할 수 없음",
+        "CPO(광전 스위치) 채택이 기판 층수를 줄일 경우 HVLP 동박의 수요 곡선 자체가 바뀜 — 10년 예측 가능성 훼손",
+        "동박 가격결정력이 구조적 해자가 아닌 2027~28년 공급 병목의 산물이며, 2030년 전후 자사·경쟁사 증설로 정상화될 가능성"
+      ],
+      "key_opportunities_top3": [
+        "초저조도 동박은 공급자가 적고 증설 리드타임이 4~5년으로 길어 기존 공급자에게 시한부 진입장벽을 제공 — 2027~28년 동박 부문 이익 상향 가능성",
+        "trailing ROE 약 21.6%[derived], EV/EBITDA 8.16[actual] — 자본효율은 양호하고 절대 밸류에이션은 과열이 아니어서 추가 급락 시 안전마진이 형성될 여지",
+        "경영진이 이익 감소를 가이던스에 정직하게 반영하고 동박 증설에 장기 재투자하는 점은 청지기 정신의 부분적 증거"
+      ],
+      "uncertainty": "verdict가 lean_bullish로 바뀌는 조건: (1) 주가가 추가로 30% 이상 하락해 시가총액이 내재가치 추정 하단(9,600억 엔) 근처로 내려오고, (2) 동박 부문 영업이익 비중과 FCF·부채 지표가 공개되어 재무건전성이 확인되며, (3) CPO 채택이 기판 층수를 실제로 줄이지 않는다는 숫자가 나올 때. verdict가 lean_bearish로 바뀌는 조건: 하이퍼스케일러가 자체 스위치에 CPO 채택을 공식화하거나, 동박 증설 경쟁이 앞당겨져 2030년 이전에 가격결정력이 소실될 때. 내재가치 추정은 순이익 800억 엔에 12~15배[assumption]를 적용한 것으로, 배수 가정이 바뀌면 안전마진 판단도 달라진다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "3개월 -50%의 하락 추세가 진행 중이며 급락의 직접 원인이 데이터로 확인되지 않음 — 떨어지는 칼",
+        "엔비디아 Spectrum-X Photonics(CPO) 양산이 스위치 기판 층수·동박 수요를 실제로 줄이는지 미확인",
+        "전사 순이익은 금속 부문 감익으로 FY3/27 800억 엔으로 감소 — 동박 부문만으로 전사 스토리를 끌기엔 비중 확인 필요[unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "2027~28년 기판 증설 대비 CCL(2028년 하반기)·고급 동박(2030~31년) 증설 지연으로 pricing power가 소재 쪽으로 이동하는 구조적 catalyst",
+        "1년 +112% 후 절반이 무너진 상태에서 가이던스 PER 16.5배 — 추세 반전 시 upside 비대칭이 클 수 있음",
+        "엔저(USD/JPY 158.9)가 수출 소재 이익 환산에 우호적"
+      ],
+      "uncertainty": "분할 후 20일 이상 base가 형성되고 11월 이수페타시스 ㎡당 단가가 유지되며 동박 부문 이익 전망이 재상향되면 verdict는 lean_bullish로 전환되고 conviction 7~8, 포지션 5%→확대로 간다. 반대로 하이퍼스케일러가 자체 스위치의 CPO 채택을 공식화하거나 이수페타시스 단가가 꺾이면 재료 병목 논리 자체가 무너져 lean_bearish로 뒤집힌다. 현재 급락의 원인과 Fed·BoJ·중국 PMI 등 핵심 거시 변수가 데이터에 없다는 점이 이번 판단의 가장 큰 미확인 가정이다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "전사 이익의 상당 부분이 상품가격에 노출된 금속 제련 부문에서 나와 quality가 혼합적이며, FY3/27 가이던스 감소가 이를 확인",
+        "12~24개월 내 회사 자체의 구조적 catalyst(스핀오프·M&A·대규모 환원) 부재 — 주식분할은 가치창출 사건이 아님",
+        "82.7% 변동성과 3개월 -50% 조정은 CPO 등 구조적 수요 리스크가 가격에 반영되는 과정일 수 있음"
+      ],
+      "key_opportunities_top3": [
+        "HVLP 고급 동박의 공급 확대가 2030~31년까지 느리게 진행되므로 기존 capacity의 희소가치와 가격결정력이 2027~28년에 극대화될 가능성",
+        "가이던스 기준 PER 약 16.5배, EV/EBITDA 8.16배는 AI 소재 과점 사업을 포함한 회사치고 저렴 — 조정 후 진입 가격은 합당",
+        "일본 시장의 행동주의 수용도가 높아진 환경에서 동박·기능재료 사업 분리를 통한 콘글로머릿 디스카운트 해소가 중장기 SOTP 재평가 경로로 존재"
+      ],
+      "uncertainty": "11월 FY3/27 2분기 결산에서 동박 부문 이익과 판가 인상이 전사 가이던스 상향으로 이어지거나, 회사가 기능재료 사업 분리·대규모 자사주매입 등 시간표 있는 자본배분 변화를 발표하면 Lean Bullish로 뒤집힌다. 반대로 하이퍼스케일러가 자체 스위치에 CPO 채택을 공식화해 고다층 기판·고급 동박 수요 논지가 꺾이거나, 금속 부문 손실이 확대되어 FCF가 악화되면 Lean Bearish로 뒤집힌다. FCF와 부문별 이익률은 [unavailable]이므로 이 데이터가 확보되면 1·2단계 판단 자체가 바뀔 수 있다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "CPO 확산이 스위치 기판 층수를 줄여 HVLP 동박의 장기 단위 수요 성장률을 낮출 가능성 — 2031년 이후 말레이시아 거점의 회수 가정에 직접 영향",
+        "금속(제련) 부문의 이익 변동이 회사 전체 EPS를 좌우해 동박 성장이 주당이익 compounding으로 온전히 전이되지 않음 (FY3/27 순이익 -12.4% 전망)",
+        "경영진 품질·R&D 효율·노사관계·자본배분 트랙레코드에 대한 1차 자료 부재 — 15-point 중 8개 항목 검증 불가"
+      ],
+      "key_opportunities_top3": [
+        "AI 서버·스위치용 고급 동박이 PCB 공급망 전체에서 가장 늘리기 어려운 구간이라는 산업 지위 — 2027~2028년 가격결정력이 재료 쪽으로 이동하는 국면의 직접 수혜",
+        "2030년 1,400톤, 2031년 이후 신규 거점까지 명시된 재투자 runway로 decade+ 관점의 성장 경로 존재",
+        "가이던스 기준 PER 약 16.5배로 성장주 대비 진입 밸류에이션 부담이 크지 않음"
+      ],
+      "uncertainty": "이 verdict는 '동박 부문의 산업 지위는 우수하나 회사 단위 경영진·R&D·사업 구조를 검증할 자료가 부족하다'는 전제 위에 있다. (1) 회사 공시에서 동박 부문 영업이익률과 회사 전체 이익 내 비중이 확인되고 그것이 상승 추세라면, (2) R&D 매출 비중과 HVLP 신제품 매출 기여가 산업 평균을 웃돈다는 증거가 나오면, (3) 경영진의 자본배분 트랙레코드(제련 부문 축소·동박 집중 등)가 확인되면 lean bullish로 전환한다. 반대로 하이퍼스케일러가 자체 스위치에 CPO 채택을 공식화하거나, 11월 이수페타시스 3분기 보고서에서 ㎡당 단가가 꺾여 재료 가격 전가력이 약해지는 신호가 나오면 lean bearish로 기운다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.5,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PBR 3.12배로 NCAV·자산담보 기반 margin of safety가 없음",
+        "순부채·FCF·부채 만기·희석증권 정보가 없어 balance sheet stress test를 완료할 수 없음",
+        "동박 부문 상향에도 금속 부문 감익으로 FY3/27 전사 순이익 -12% — 사이클 제련업 리스크가 AI narrative를 압도"
+      ],
+      "key_opportunities_top3": [
+        "고급 동박 capa 증설이 2030~31년까지 느려 기존 capa의 가격결정력 유지 가능 (720→840톤/월, 2030년 1,400톤)",
+        "CCL 대형 증설이 2028H2 이후이므로 2027~28년 재료 병목 시 동박 부문 마진 확대 여지",
+        "EV/EBITDA 8.16배는 극단적 고평가가 아니어서 순현금 확인 시 재평가 여지"
+      ],
+      "uncertainty": "순부채가 없거나 순현금이고 FCF가 견조하다는 재무제표가 확인되고, 동시에 자사주매입 또는 인사이더 매수 같은 hard catalyst가 발표되면 verdict는 neutral→lean_bullish로 뒤집힌다. 반대로 부채/EBITDA가 높고 2031년 말레이시아 capex를 차입으로 조달하는 구조가 확인되면 bearish 확신이 높아진다. 또한 11월 이수페타시스 3분기 ㎡당 단가와 EMC 월매출이 꺾이면 재료 병목 상방 시나리오 자체가 소멸한다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.52,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "1년 +112% 급등을 만든 narrative가 3개월 -50%로 되감기는 중 — 자기실현적 매도의 관성",
+        "FY3/27 전사 순이익 감소 가이던스: 동박 부문 상향으로도 금속 부문 감익을 상쇄 못함",
+        "NVIDIA CPO 양산이 스위치 기판 층수·HVLP 동박 수요 전제를 훼손할 tail risk"
+      ],
+      "key_opportunities_top3": [
+        "반토막 이후 Stage 8 과매도로 진입하면 '펀더멘털보다 더 떨어진' 구간에서 long 전환 기회",
+        "11월 이수페타시스 ㎡당 단가 지속 상승 + EMC 월매출 유지 시 현재 급락이 Stage 3 '성공적 test'로 재해석될 가능성",
+        "HVLP 동박 증설이 느리다는 사실은 2027~28년 실제 부족 시 동박 부문 마진을 구조적으로 지지"
+      ],
+      "uncertainty": "핵심 가정은 '현재 급락이 boom-bust의 reverse(7단계)'라는 것이다. 만약 11월 3분기 데이터에서 이수페타시스 ㎡당 단가가 계속 오르고 EMC 월매출이 고성장을 유지하며 미쓰이금속 동박 부문 이익이 상향된다면, 이번 급락은 3단계 '성공적 test'였고 verdict는 lean_bullish로 뒤집혀야 한다. 반대로 PB가 1.5배 이하로 떨어지며 narrative가 완전히 부정되는 국면이 오면 8단계 과매도로 보고 conviction long으로 전환한다. DCF anchor 부재로 단계 판정 자체의 불확실성이 크다.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Graham Number(약 16,280엔) 대비 현재가 41% 프리미엄 — 안전마진 없음[derived]",
+        "PBR 3.12, PER×PBR 45.0으로 방어적 투자자 기준 대폭 초과[actual/derived]",
+        "FY3/27 순이익 12% 감익 가이던스 — 금속 시황 의존적 이익 구조[actual]"
+      ],
+      "key_opportunities_top3": [
+        "HVLP 동박 과점적 지위와 느린 증설 속도로 2027~2030년 동박 부문 이익력이 실제로 입증되면 내재가치 재평가 여지",
+        "1:10 주식분할과 최근 급락으로 Mr. Market이 추가 과잉반응할 경우, 분할 후 1,500~1,600엔대(Graham Number 근처)에서 기업형 투자자의 재검토 기회 발생 가능",
+        "후행 PER 14.43, EV/EBITDA 8.16은 절대 수준에서 극단적 고평가는 아님"
+      ],
+      "uncertainty": "BVPS를 PBR 역산으로 구했고 재무제표 원자료(유동자산·총부채·과거 EPS)는 없으므로, 실제 BVPS가 크게 다르거나 토지·부동산 장부가와 시가 괴리가 커서 실질 순자산이 현저히 높다면 Graham Number 판단이 바뀔 수 있다. 또한 동박 부문 이익이 가이던스를 크게 상회해 EPS가 2,500엔 이상으로 뛰거나, 주가가 Graham Number 아래로 추가 하락(현재가 대비 약 30% 이상 추가 조정)한다면 verdict는 neutral 이상으로 전환될 수 있다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "동박 부문 성장이 아연·귀금속 제련 등 금속 부문 사이클에 희석되어 연결 기준 FY3/27 감익 가이던스(913억 → 800억 엔)",
+        "증설 속도(2030년 1,400톤, 말레이시아 2031년 이후)가 수요 폭발 시점(2027~2028년)보다 3~4년 늦어 점유율을 대만·중국 동박 업체에 내줄 위험",
+        "CPO(엔비디아 Spectrum-X Photonics 양산)가 스위치 기판 층수와 동박 사용량을 실제로 줄이면 HVLP 동박 TAM 상한이 낮아지는 차세대 disruption 리스크"
+      ],
+      "key_opportunities_top3": [
+        "AI 스위치 칩 세대마다 층수가 신호선보다 빨리 늘어나는 구조적 수요(T02) + 기판 수율 손실이 동박 소비를 증폭",
+        "2027~2028년 재료 병목 구간에서 HVLP 동박 가격 결정력이 재료 쪽으로 이동(T03), 느린 증설이 역설적으로 부족을 연장",
+        "가이던스 기준 PER 16.5배·EV/EBITDA 8.16배로 시장이 여전히 제련사로 가격 매김 — 'AI 재료 회사'로 프레임 전환 시 리레이팅 optionality"
+      ],
+      "uncertainty": "verdict가 lean_bullish로 뒤집히는 조건: (1) 미쓰이금속이 동박 증설 일정을 2028~2029년으로 앞당기거나 capex 규모를 대폭 상향해 '공격적 재투자' 증거가 나올 때, (2) 동박 부문이 연결 영업이익의 지배적 비중(예: 절반 이상)임이 공시로 확인되어 금속 부문 희석 우려가 해소될 때, (3) 11월 이수페타시스 3분기보고서에서 ㎡당 단가가 계속 오르고 EMC 월매출 급증이 지속되어 재료 병목이 숫자로 재확인될 때. lean_bearish로 뒤집히는 조건: (1) 하이퍼스케일러가 자체 스위치에 CPO 채택을 공식화하고 스위치 기판 층수 감소가 수치로 확인될 때, (2) 대만·중국 동박 업체가 HVLP 등급 양산에 성공해 winner-take-most 구조가 무너질 때, (3) 이수페타시스 ㎡당 단가가 11월 보고서에서 꺾여 T01·T03 전제가 흔들릴 때.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "회사 전체 매출·부문별 이익 데이터가 없어 동박 비중을 확정할 수 없음 — 시장 함의 9% 성장의 타당성이 이 한 숫자에 달려 있음",
+        "금속(아연 제련) 부문의 시황 노출로 FY3/27 순이익이 이미 -12% 감소 전망 — 동박 story가 회사 전체 valuation을 끌고 가기에는 base가 흔들림",
+        "CPO(광 스위치) 확산이 스위치 기판 층수와 HVLP 동박 수요를 구조적으로 줄일 가능성"
+      ],
+      "key_opportunities_top3": [
+        "2027~2028년 재료 병목 구간에서 HVLP 동박 가격 결정력이 재료 회사로 이동하면 동박 부문 마진이 현재 가이던스를 상회할 여지",
+        "2030년 1,400톤·2031년 말레이시아까지 증설 일정이 공표되어 story의 지속 기간이 길고, 경쟁사 신규 진입이 어려운 구조",
+        "3개월 -50% 조정으로 시장 함의 기대가 낮아져 story가 그대로만 진행돼도 프리미엄이 noise 구간 안에서 해소될 수 있음"
+      ],
+      "uncertainty": "동박 부문이 회사 영업이익의 절반 이상이고 HVLP 동박 판가가 2027~2028년 두 자릿수로 오른다는 것이 확인되면 이익 성장 가정을 9~10%로 올려야 하며, 그 경우 내재가치는 시장가와 거의 일치하거나 상회해 lean_bullish로 뒤집힌다. 반대로 CPO 채택이 하이퍼스케일러 공식 로드맵에 오르거나, 아연 시황 악화로 금속 부문 손실이 동박 증익을 초과하면 성장 가정이 3% 이하로 떨어져 내재가치가 시장가 대비 -35% 이상이 되고 lean_bearish로 뒤집힌다. 첫 검증 지점은 회사의 2분기 결산(11월) 부문별 이익과 블로그가 지목한 EMC 월매출·이수페타시스 ㎡당 단가 추이다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "neutral",
+      "confidence": 0.52,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "CPO 채택으로 스위치 기판 층수·동박 수요가 실제로 줄어드는 미검증 Black Swan",
+        "AI capex 사이클 반전 시 동박 프리미엄이 소멸하는 단일 내러티브 의존",
+        "금속 제련 부문의 상품가격·엔화 선형 노출로 전사 이익이 이미 감소 전망"
+      ],
+      "key_opportunities_top3": [
+        "2027~2028년 재료 병목 구간에서 가격 결정력이 동박 쪽으로 이동하는 볼록한 payoff",
+        "증설이 느려(2031년 이후) 과잉투자 블로우업 확률이 낮음",
+        "150년 Lindy 사업 기반이 내러티브 붕괴 시 하방을 받쳐 줌"
+      ],
+      "uncertainty": "경영진 지분·보수 구조가 확인되어 강한 skin in the game이 입증되면 lean_bullish로 전환된다. 반대로 11월 이수페타시스 3분기 ㎡당 단가가 꺾이거나 하이퍼스케일러가 CPO 채택을 공식화하면 동박 옵션 가치가 소멸하여 lean_bearish로 뒤집힌다. 또한 금속 부문의 상품가격 급락과 엔화 급등이 겹치면 사업체 Robust 판정 자체가 흔들린다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

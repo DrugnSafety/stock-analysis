@@ -1,0 +1,860 @@
+{
+  "industry": {
+    "name": "고속 CCL(동박적층판) — AI 서버·스위치용 초저손실 판재(M7~M9)",
+    "overview": "EMC(台光電)는 AI 서버·800G/1.6T 스위치용 고속·초저손실 CCL과 프리프레그를 만드는 판재 회사임. 직접 고객은 기판(PCB) 회사이고, 공시로 확인된 고객은 이수페타시스임(DART 반기보고서 THIN CORE 매입처: Panasonic·EMC·두산전자) [actual, DART 20260814002283]. 그 밖의 기판사 고객 명단·매출 비중은 확인 불가임.\n점유율은 2025년 CCL 전체 16.2%로 세계 1위(3위에서 상승), 고속 소재 38.6%로 1위임 [actual, 富果 2026-08-27 법설회 메모·經濟日報 요약 — 38.6%는 원문 미열람]. 회사는 HDI·고속재·AI 서버·스위치·저궤도위성 니치에서 50% 초과 점유를 주장함 [actual, 회사 설명].\n2026년 월매출은 4월 NT$139.24억 → 5월 156.19억 → 6월 177.33억 → 7월 192.07억 → 8월 201.46억(+129.85% YoY)으로 매달 신고가임. 1~8월 누적 NT$1,196.95억(+95.2%)임 [actual, MOPS 공시 전재 鉅亨網·Yahoo奇摩].\n판가 인상이 연속됨. EMC는 2026년 3~4월 CCL·PP 대부분 약 15%(일부 25%) 인상 [actual, MoneyDJ 2026-05-28], 동업계 Panasonic MEGTRON은 5/1 +20%·9/1 추가 약 15~30%, Kingboard는 8/28 올해 7번째 인상(FR-4 +10%)임 [actual, Panasonic Industry·FTNN·工商時報].\n매출총이익률은 1Q26 29.42% → 2Q26 33.85%(+4.4pp)로 올랐고 3Q26 가이던스는 35% 안팎(±1.5pp)임 [actual, yfinance·鉅亨網 2026-07-29·MoneyDJ 2026-07-31]. 동박·유리섬유·수지 원가 상승을 판가로 넘기고도 마진이 커져 2026년 현재 가격 결정력은 CCL 쪽에 있다고 봄 [derived].\n매수자 쪽 증거: 이수페타시스 수입 CCL 매입단가는 49.62(2024) → 56.16(2025) → 61.29 USD/㎡(26H1), +23.5%임 [actual, DART 20260814002283]. EMC가 수입 매입처라 판가 인상이 한국 기판사 원가로 전가되는 경로는 확인되나 EMC 단독 단가는 확인 불가임.\n월 캐파는 2026년 말 615만 장(+5%, 4Q26 大園 +30만 포함) → 2027년 말 945만 장(+54%; 1Q27 +120만·3Q27 +120만·4Q27 +90만) → 2028년 1,110만 장 계획임 [actual 회사 계획, 經濟日報 2026-04-30·MoneyDJ 2026-05-28]. 회사는 신규 캐파가 전량 최종 고객 예약 완료라고 설명함 [actual, MoneyDJ 2026-07-31]. 2026년 capex 계획 NT$150~230억 중 1H26 NT$108.6억 집행 [actual, 經濟日報·yfinance cashflow].\n1H26 매출 +81.8% YoY(NT$803.4억 vs 441.9억) [derived, yfinance]에 비해 캐파 증가는 한 자릿수 %라 성장의 대부분은 판가 인상과 M8·M9 믹스 상승에서 나왔다고 봄 [inference]. M9는 3Q26 양산 진입, 2027년 매출 비중 두 자릿수 목표이고 載板(BT)용 CCL은 4Q26 출하·ABF 인증 예정임 [actual, MoneyDJ 2026-07-31·經濟日報 2026-04-30·鉅亨網 2026-09-17].\nCPO 민감도: 9/17 'CPO가 M8·M9 CCL을 M4로 낮춘다'는 우려로 EMC −7%대·ITEQ 하한가·TUC −6%대였음 [actual, 聯合新聞網 2026-09-17]. 공급망·증권가는 CPO가 scale-out 스위치에 한정되고 출하가 2026년 2만 대 미만이라 과잉 해석이라고 반박함(2027년은 5만 대[工商時報] vs 2만 대 이내[MoneyDJ]로 보도 간 차이) [actual]. Morgan Stanley는 2028년 전 영향이 제한적이라며 목표가 NT$8,400을 제시했고 陸行之는 경계 시점을 2028년 말~2029년으로 봄 [actual, 工商時報 2026-09-18]. CPO가 층수·CCL 등급을 실제로 낮춘다는 정량 근거는 확인 불가임.\n유리섬유 점검(4-Analyst 제기): 고속 CCL에 쓰이는 것은 저유전(Low-Dk1·Low-Dk2)·석영(Q-glass) 천이고 T-glass(저열팽창)는 주로 IC 기판용임. Low-CTE·Low-Dk2가 2027년까지 부족하다는 보도가 일치하고 닛토보 신규 캐파는 2027년 가동 예정이라, 2026~2027년 가장 빠듯한 상류 소재는 CCL 자체보다 Low-Dk2·Q-glass일 가능성이 큼 [inference]. 다만 유리섬유 때문에 EMC 출하가 줄었다는 직접 근거는 확인 불가이며, 월매출 신고가·마진 확대로 보아 지금까지는 EMC가 물량을 확보하고 원가를 전가하고 있음 [derived].",
+    "market_position": "고속 CCL 1위(2025년 고속 소재 38.6%·CCL 전체 16.2%) [actual, 회사 법설회 요약]. 중국 2차 출처는 EMC·TUC·ITEQ 3사가 엔비디아 M8/M9 공급망의 81.4%, 고급 M8/M9 CR4 70% 초과라고 추정함 [estimated, 1차 출처 확인 불가]. 한국 기판사 기준으로는 이수페타시스의 수입 CCL 매입처(Panasonic·EMC)이자 두산전자와 경쟁하는 위치임 [actual, DART].",
+    "customers": [
+      {
+        "name": "이수페타시스(007660.KS)",
+        "relation": "CCL(THIN CORE) 매입처로 EMC 기재",
+        "tag": "[actual]",
+        "source": "DART 반기보고서 2026-08-14",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002283"
+      },
+      {
+        "name": "AWS Trainium 3 관련 수요",
+        "relation": "성장 동인으로 언급(미국계 증권사)",
+        "tag": "[estimated]",
+        "source": "經濟日報 2026-07-20",
+        "url": "https://money.udn.com/money/story/5607/9638268"
+      },
+      {
+        "name": "엔비디아 GPU·스위치 플랫폼",
+        "relation": "M8/M9 공급망 점유 추정(2차 출처)",
+        "tag": "[estimated]",
+        "source": "jiepei·雪球(중국 2차 출처)",
+        "url": "https://www.jiepei.com/design/11592.html"
+      },
+      {
+        "name": "기타 기판사(WUS·GCE·TTM 등)",
+        "relation": "4-Analyst가 언급했으나 공시·보도로 확인 못 함",
+        "tag": "[unavailable]",
+        "source": "확인 불가",
+        "url": null
+      }
+    ],
+    "pricing_power": [
+      "EMC 2026년 3~4월 CCL·PP 대부분 약 15%(일부 25%) 인상 [actual, MoneyDJ 2026-05-28]",
+      "미국계 증권사: 2H26 M7+ CCL 가격 추가 QoQ +10~15% 전망, 3Q GM 36.5% 추정 [estimated, 經濟日報 2026-07-20]",
+      "매출총이익률 29.42%(1Q26) → 33.85%(2Q26) → 가이던스 35%±1.5pp(3Q26) [actual, yfinance·MoneyDJ]",
+      "이수페타시스 수입 CCL 매입단가 +23.5%(2024 → 26H1, USD/㎡) [actual, DART]",
+      "업계 동반 인상: Panasonic +20%(5/1)·+15~30%(9/1), Kingboard 7차 인상(8/28) [actual]"
+    ],
+    "capacity_plan": {
+      "unit": "월 캐파(만 장)",
+      "2025_end": "약 585 [derived: 615 ÷ 1.05] — facts.json의 580과 5만 장 차이(기준 시점 차이로 보임)",
+      "2026": "1Q 中山 +30·4Q 大園 +30 [actual, MoneyDJ 5/28] / 연말 615(+5% YoY) [actual, 經濟日報 4/30] — 두 보도의 기준이 달라 합산이 맞지 않음(확인 불가). 2026년 평균은 약 600으로 가정 [assumption]",
+      "2027": "1Q +120, 3Q +120, 4Q +90 → 연말 945(+54%) — 대만·중국·말레이시아 [actual, 經濟日報 4/30·MoneyDJ 5/28]",
+      "2028": "1,110 [actual, 회사 계획]",
+      "substrate_ccl": "신규 30만 장을 載板용으로 배정, 현재 載板 CCL 점유율 약 1.6% [actual, 鉅亨網 2026-09-17]",
+      "booking": "신규 캐파 전량 최종 고객 예약 완료(회사 설명) [actual, MoneyDJ 2026-07-31]",
+      "capex_2026": "NT$150~230억 계획 [actual, 經濟日報 4/30], 1H26 집행 NT$108.6억 [actual, yfinance]"
+    },
+    "cpo_sensitivity": {
+      "event": "2026-09-17 CPO 강등 우려 — EMC −7%대, ITEQ 하한가, TUC −6%대 [actual, 聯合新聞網]",
+      "status": "엔비디아 Spectrum-X Ethernet Photonics full production(2026-08) [actual, StorageReview]; TrendForce는 CPO 대량 양산 이정표를 2027~2028로 봄 [actual]",
+      "scope": "CPO는 scale-out 스위치 한정, 출하 2026년 2만 대 미만, 2027년 5만 대(工商時報) 또는 2만 대 이내(MoneyDJ) — 보도 간 차이 [actual]",
+      "sell_side": "Morgan Stanley 목표가 NT$8,400 유지·2028년 전 영향 제한 [actual]; 陸行之 경계 시점 2028년 말~2029년 [actual]",
+      "quant_evidence": "CPO가 스위치 보드 층수·CCL 등급을 낮춘다는 정량 근거는 확인 불가 [unavailable]",
+      "our_read": "- 2027년까지 EMC 매출에 대한 직접 영향은 작다고 봄 [inference]\n- 다만 주가는 CPO 뉴스에 −7%씩 반응하는 구조라 밸류에이션 변동 요인으로는 큼 [derived, 9/17 사례]",
+      "sources": [
+        "https://udn.com/news/story/7251/9761249",
+        "https://www.ctee.com.tw/news/20260918700748-430201",
+        "https://tw.stock.yahoo.com/news/dj%E5%9C%A8%E7%B7%9A-cpo%E5%BC%95%E7%99%BCccl%E9%99%8D%E8%A6%8F%E7%96%91%E6%85%AE-%E4%BE%9B%E6%87%89%E9%8F%88-%E8%A7%A3%E8%AE%80%E9%81%8E%E5%BA%A6-044800951.html",
+        "https://www.storagereview.com/news/nvidia-spectrum-x-ethernet-photonics-enters-full-production-with-4x-fewer-lasers-and-a-five-vendor-cpo-supply-chain",
+        "https://www.trendforce.com/presscenter/news/20260727-13151.html",
+        "https://www.digitimes.com/news/a20260918PD208/pcb-cpo-ccl-materials-copper.html"
+      ]
+    },
+    "glass_fabric_check": {
+      "question": "저유전 유리섬유(T-glass/Q-glass, 닛토보·AGC 등)가 2026~2027년 고속 CCL의 더 빠듯한 병목인가 (4-Analyst counter·industry 제기)",
+      "finding": [
+        "- 용도 구분: T-glass는 저열팽창(Low-CTE) 천으로 주로 IC 기판(ABF·BT)용이고, 고속 CCL(M8·M9)에는 저유전 Low-Dk(NE/NER, Low-Dk2)와 석영 Q-glass가 쓰임 [actual, TrendForce 2026-04-30·02-04]",
+        "- 닛토보 점유율: T-glass 약 90%, NER(저유전) 60~70% [actual, TrendForce Insights 2026-04-30]. 후쿠시마 150억 엔 투자로 최대 3배 증설, 신규 캐파는 2027년 가동 — 그 전 신규 캐파 없음 [actual, TrendForce 2026-02-04·04-30]",
+        "- 부족 기간: 'Low-CTE·Low-Dk2는 2027년까지 부족' [actual, DigiTimes 2026-06-22 헤드라인, 본문 유료]; 대만 台玻는 주문 가시성 2027년, 고급 라인 4→12개, 2026년 고급 공급 +40~50% [actual, 工商時報 2026-01-17·FTNN 2026-01-19]",
+        "- Q-glass: 가격 US$38.7~44.7/m로 Low-Dk2(US$17.9~22.4/m)의 약 2배, 3세대 Low-Dk·Q-cloth 월 수요 약 100만 m [actual, 鉅亨網·優分析 2026-09-16]. 공급사는 닛토보·信越化學·旭化成(일)·菲利華·中材科技(월 약 1.5만 m)·宏和(중)·德宏(대만) [actual]. 2027년 Q-cloth 부족률 60% 초과 전망 [estimated, 永豐 豐雲學堂 2026-09 — 1차 출처 미기재]",
+        "- AGC의 저유전 유리천 캐파·점유율은 이번 조사에서 확인 불가 [unavailable]",
+        "- EMC 영향: 유리섬유 때문에 EMC 출하가 줄었다는 직접 근거는 확인 불가 [unavailable]. 4-Analyst(industry)가 언급한 '2025년 닛토보 T-glass 부족으로 EMC·TUC 납기 지연'도 1차 출처로 확인 못 함. 반대로 EMC 월매출은 매달 신고가, 3Q 가이던스 QoQ +15% 이상, GM 상승이라 지금까지는 물량 확보·원가 전가가 되고 있음 [derived]. 미국계 증권사는 HVLP4 동박·Low-Dk2 원가 상승을 마진 변수로 지적함 [estimated, 經濟日報 2026-07-20]"
+      ],
+      "verdict": "Low-Dk2·Q-glass가 2026~2027년 고속 CCL 공급망에서 가장 빠듯한 상류 소재일 가능성이 큼 [inference]. 다만 EMC 출하를 실제로 묶고 있는지는 확인 불가라 'CCL보다 더 빠듯하다'는 주장은 방향만 지지되고 정량 검증은 안 됨.",
+      "implication_for_emc": "- 병목이 유리천에 있으면 가격 결정력 일부가 닛토보 등 상류로 넘어가 CCL 마진 상단이 제한될 수 있음 [inference]\n- M9(Q-glass) 비중 확대 속도가 Q-cloth 확보에 좌우됨 [inference]\n- 닛토보 신규 캐파(2027)·台玻 3기(2027)·중국 Q-cloth 인증 확대가 들어오는 2H27에 완화될 가능성 [inference]",
+      "sources": [
+        "https://insights.trendforce.com/p/glass-fiber-cloth-shortage",
+        "https://www.trendforce.com/news/2026/02/04/news-nittobo-reportedly-plans-2028-next-gen-t-glass-customers-may-include-nvidia-apple-and-others/",
+        "https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000759228_Z6319LZZ3RO8W57ERH9QY",
+        "https://www.ctee.com.tw/news/20260117700160-439901",
+        "https://tw.stock.yahoo.com/news/%E7%8E%BB%E7%BA%96%E5%B8%83-%E8%B7%AF%E7%BC%BA%E5%88%B02027%E5%B9%B4-%E9%80%995%E5%8F%B0%E5%BB%A0-%E5%85%A8%E9%9D%A2%E9%A3%86%E6%BC%B2%E6%90%B6%E5%B8%82-%E7%BC%BA%E6%96%99%E9%A2%A8%E6%9A%B4%E7%87%92%E5%88%B0%E8%98%8B%E6%9E%9C%E4%B9%9F%E5%96%8A%E7%97%9B-225000689.html",
+        "https://news.cnyes.com/news/id/6608165",
+        "https://www.sinotrade.com.tw/richclub/hotstock/2026-PCB-%E5%85%A8%E9%9D%A2%E7%BC%BA%E8%B2%A8%E6%BC%B2%E5%83%B9%E5%AE%8C%E6%95%B4%E8%A7%A3%E6%9E%90-%E5%9B%9B%E5%A4%A7%E6%88%B0%E7%95%A5%E7%89%A9%E8%B3%87%E7%9F%AD%E7%BC%BA-ABF-%E8%BC%89%E6%9D%BF%E8%B6%85%E7%B4%9A%E5%BE%AA%E7%92%B0%E8%88%87%E5%8F%B0%E7%81%A3%E4%BE%9B%E6%87%89%E9%8F%88%E6%8A%95%E8%B3%87%E5%9C%B0%E5%9C%96-%E8%82%A1%E5%B8%82%E8%A9%B1%E9%A1%8C-6a226b1f6c6d82bf0a7d4803",
+        "https://money.udn.com/money/story/5607/9638268"
+      ]
+    },
+    "competitors": [
+      {
+        "name": "EMC 台光電",
+        "ticker": "2383.TW",
+        "share_pct": 38.6,
+        "moat": "2025년 고속 소재 점유율 1위(38.6%, 원문 미열람)·CCL 전체 16.2% 1위 [actual, 富果·經濟日報 요약]. 월 캐파 615만 → 945만 장(2027 말), 신규 캐파 고객 예약 완료. forward PE 22.2x·PB 31.0x [yfinance live]."
+      },
+      {
+        "name": "TUC 台燿",
+        "ticker": "6274.TWO",
+        "share_pct": null,
+        "moat": "M9 양산 중 [actual, 工商時報 2026-09-18]. M7/M8 매출 비중 1Q26 38% → 2Q26 39%, 2027년 50% 초과 목표 [actual, 鉅亨網 2026-09-17]. forward PE 19.5x·PB 17.9x [yfinance live]. 점유율 수치는 확인 불가."
+      },
+      {
+        "name": "ITEQ 聯茂",
+        "ticker": "6213.TW",
+        "share_pct": null,
+        "moat": "범용 서버 매출 50~60%, 1Q26 매출총이익률 11.4%로 고속재 비중이 낮음 [actual, 鉅亨網 2026-09-17]. 8월 단월 EPS 2.54(2Q의 72.2%)로 급개선 [actual, 聯合新聞網 2026-09-24]. forward PE 22.4x [yfinance live]. 점유율 확인 불가."
+      },
+      {
+        "name": "Panasonic Industry (MEGTRON)",
+        "ticker": "6752.T",
+        "share_pct": null,
+        "moat": "일본 고급 CCL 대표. 2026년 두 차례 인상(5/1 저전송손실 CCL +20%, 9/1 추가 15~30%) [actual, Panasonic·FTNN]. 이수페타시스 CCL·PP 매입처 [actual, DART]. 점유율 확인 불가."
+      },
+      {
+        "name": "두산 전자BG",
+        "ticker": "000150.KS",
+        "share_pct": null,
+        "moat": "이수페타시스 CCL·PP 매입처 [actual, DART]. 9,684억 원 증설(국내 광모듈용 4,210억·중국 창수 5,474억), 신규 라인 2H28부터 [actual, DART 2026-09-17]. 점유율 확인 불가."
+      },
+      {
+        "name": "生益科技 Shengyi",
+        "ticker": "600183.SS",
+        "share_pct": null,
+        "moat": "중국 본토에서 엔비디아 M7~M9 인증을 받은 유일한 업체라는 주장, 고급 M8/M9 점유율 약 10%, 태국 1기(월 20만 장, 2026-03 가동) [estimated, 중국 2차 출처 jiepei·雪球 — 1차 확인 불가]. forward PE 29.1x [yfinance live]."
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-09-24",
+        "title": "ITEQ 8월 단월 EPS 2.54 — 'CCL 여전히 판매자 시장'",
+        "source": "聯合新聞網",
+        "url": "https://udn.com/news/story/7251/9774718",
+        "summary": "ITEQ 8월 순이익 약 NT$9.24억(+852.58% YoY)·EPS 2.54. EMC 종가 NT$5,050(+30)."
+      },
+      {
+        "date": "2026-09-18",
+        "title": "Morgan Stanley: CPO의 고급 CCL 영향은 2028년 전 제한적, EMC 목표가 NT$8,400",
+        "source": "工商時報",
+        "url": "https://www.ctee.com.tw/news/20260918700748-430201",
+        "summary": "CPO 출하 2026년 2만 대 미만·2027년 5만 대, scale-out 한정. 陸行之는 경계 시점을 2028년 말~2029년으로 봄. M7~M9 공급 부족 지속."
+      },
+      {
+        "date": "2026-09-18",
+        "title": "CPO raises PCB downgrade concerns but switches stick with M8 CCL",
+        "source": "DigiTimes",
+        "url": "https://www.digitimes.com/news/a20260918PD208/pcb-cpo-ccl-materials-copper.html",
+        "summary": "헤드라인은 스위치가 M8 CCL을 유지한다는 쪽(본문 유료, 세부 확인 불가)."
+      },
+      {
+        "date": "2026-09-17",
+        "title": "CPO 우려로 CCL 3사 급락 — EMC −7%대, ITEQ 하한가",
+        "source": "聯合新聞網",
+        "url": "https://udn.com/news/story/7251/9761249",
+        "summary": "칩 옆에서 전기→광 변환이 되면 M8·M9 CCL이 덜 필요하다는 우려. 외국인 ITEQ 1.2만 장 순매도."
+      },
+      {
+        "date": "2026-09-17",
+        "title": "CPO發 CCL 降規 우려, 공급망 '과잉 해석'",
+        "source": "MoneyDJ(Yahoo奇摩)",
+        "url": "https://tw.stock.yahoo.com/news/dj%E5%9C%A8%E7%B7%9A-cpo%E5%BC%95%E7%99%BCccl%E9%99%8D%E8%A6%8F%E7%96%91%E6%85%AE-%E4%BE%9B%E6%87%89%E9%8F%88-%E8%A7%A3%E8%AE%80%E9%81%8E%E5%BA%A6-044800951.html",
+        "summary": "CPO는 주로 scale-out 스위치용, 2026·2027년 출하 각 2만 대 이내 전망. scale-up은 구리 연결 유지."
+      },
+      {
+        "date": "2026-09-16",
+        "title": "Q-cloth 가격이 Low-Dk2의 약 2배 — M9 수요 확대",
+        "source": "鉅亨網(優分析)",
+        "url": "https://news.cnyes.com/news/id/6608165",
+        "summary": "Low-Dk2 US$17.9~22.4/m, Q-cloth US$38.7~44.7/m. 3세대 Low-Dk·Q-cloth 월 수요 약 100만 m."
+      },
+      {
+        "date": "2026-09-05",
+        "title": "CCL 双雄 8월 매출 신고가, EMC 첫 NT$200억 돌파",
+        "source": "FTNN",
+        "url": "https://www.ftnn.com.tw/news/576293",
+        "summary": "Panasonic CCL·PP·IC 기판 소재 약 15~30% 추가 인상, EMC·TUC 수혜 전망."
+      },
+      {
+        "date": "2026-09-04",
+        "title": "【MOPS】EMC 2026년 8월 연결매출 NT$201.46억(+129.85% YoY)",
+        "source": "Yahoo奇摩股市(MOPS 전재)",
+        "url": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E5%8F%B0%E5%85%89%E9%9B%BB-2026%E5%B9%B48%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B6201-46%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E129-064408064.html",
+        "summary": "+4.9% MoM, 1~8월 누적 NT$1,196.95억(+95.2%)."
+      },
+      {
+        "date": "2026-08-29",
+        "title": "유리섬유천·동박 부족, Kingboard 올해 7번째 인상",
+        "source": "工商時報",
+        "url": "https://www.ctee.com.tw/news/20260829700044-430502",
+        "summary": "FR-4 +10%, 박형 PP +20%. ITEQ는 하반기 M6 이하 인상폭 전망을 15~20%로 상향."
+      },
+      {
+        "date": "2026-07-31",
+        "title": "EMC 3Q 매출 QoQ ≥+15% 가이던스, M9 양산 진입",
+        "source": "MoneyDJ(Yahoo奇摩)",
+        "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E5%85%89%E9%9B%BBq3%E7%87%9F%E6%94%B6%E6%8B%9A%E5%AD%A3%E5%A2%9E15-m9%E9%87%8F%E7%94%A2-%E6%93%B4%E7%94%A2%E8%BF%8Eai%E9%9C%80%E6%B1%82-044600975.html",
+        "summary": "GM 약 35% 유지 전망, 2027년 캐파 약 +50%, 신규 캐파 전량 고객 예약, 載板용 CCL 4Q 출하."
+      },
+      {
+        "date": "2026-07-29",
+        "title": "EMC 2Q 순이익 NT$98.7억 사상 최대, 1H EPS 42.46",
+        "source": "鉅亨網",
+        "url": "https://news.cnyes.com/news/id/6551025",
+        "summary": "2Q 매출 NT$472.7억, GM 33.9%(+4.5pp QoQ), 풀가동·완판."
+      }
+    ],
+    "analysis_meta": {
+      "generated_at": "2026-09-24",
+      "context": "fresh context — 이전 thesis·페르소나 결론을 참조하지 않음. 다른 분석 디렉토리는 스키마 참고용으로만 열람",
+      "note": "외부 웹 텍스트는 데이터로만 취급함. 매수·매도 권유가 아님."
+    }
+  },
+  "financials": {
+    "financial_unit": {
+      "currency": "TWD",
+      "scale": "백만"
+    },
+    "unit": "TWD 백만 (연결, yfinance income_stmt)",
+    "source": "yfinance 1.7.0 income_stmt·balance_sheet·cashflow (live, 2026-09-24) + MOPS 월매출 보도",
+    "pl_5y": [
+      {
+        "year": 2022,
+        "revenue": 38672.5,
+        "gross_margin": 25.1,
+        "op_income": 6225.4,
+        "op_margin": 16.1,
+        "net_income": 5072.9,
+        "net_margin": 13.1,
+        "eps_basic": 15.24
+      },
+      {
+        "year": 2023,
+        "revenue": 41296.2,
+        "gross_margin": 27.4,
+        "op_income": 7348.3,
+        "op_margin": 17.8,
+        "net_income": 5488.3,
+        "net_margin": 13.3,
+        "eps_basic": 16.35
+      },
+      {
+        "year": 2024,
+        "revenue": 64376.7,
+        "gross_margin": 27.9,
+        "op_income": 12174.5,
+        "op_margin": 18.9,
+        "net_income": 9578.4,
+        "net_margin": 14.9,
+        "eps_basic": 27.81
+      },
+      {
+        "year": 2025,
+        "revenue": 94260.6,
+        "gross_margin": 29.8,
+        "op_income": 19113.3,
+        "op_margin": 20.3,
+        "net_income": 14648.9,
+        "net_margin": 15.5,
+        "eps_basic": 41.67
+      }
+    ],
+    "pl_quarterly": [
+      {
+        "period": "1Q25",
+        "revenue": 21680.1,
+        "op_income": 4541.0,
+        "op_margin": 20.9,
+        "net_income": 3468.9,
+        "eps_basic": 10.01,
+        "source": "yfinance 1.7.0 (live, 2026-09-24)"
+      },
+      {
+        "period": "2Q25",
+        "revenue": 22507.7,
+        "op_income": 4645.3,
+        "op_margin": 20.6,
+        "net_income": 3477.9,
+        "eps_basic": 10.02,
+        "source": "yfinance 1.7.0 (live, 2026-09-24)"
+      },
+      {
+        "period": "3Q25",
+        "revenue": 25150.0,
+        "op_income": null,
+        "op_margin": null,
+        "net_income": 3965.0,
+        "eps_basic": 11.19,
+        "source": "經濟日報 2025-10-31 (yfinance 분기 데이터에 3Q25 누락)",
+        "url": "https://money.udn.com/money/story/5612/9109016"
+      },
+      {
+        "period": "4Q25",
+        "revenue": 24927.2,
+        "op_income": 4927.6,
+        "op_margin": 19.8,
+        "net_income": 3737.1,
+        "eps_basic": null,
+        "source": "yfinance 1.7.0 (live, 2026-09-24)"
+      },
+      {
+        "period": "1Q26",
+        "revenue": 33067.3,
+        "gross_margin": 29.42,
+        "op_income": 7135.4,
+        "op_margin": 21.6,
+        "net_income": 5339.8,
+        "eps_basic": 14.9,
+        "source": "yfinance 1.7.0 (live, 2026-09-24)"
+      },
+      {
+        "period": "2Q26",
+        "revenue": 47275.2,
+        "gross_margin": 33.85,
+        "op_income": 12739.8,
+        "op_margin": 26.9,
+        "net_income": 9873.4,
+        "net_margin": 20.9,
+        "eps_basic": 27.55,
+        "source": "yfinance 1.7.0 (live, 2026-09-24)"
+      }
+    ],
+    "monthly_revenue_2026": [
+      {
+        "month": "2026-03",
+        "revenue": 12011,
+        "yoy_pct": null,
+        "tag": "[derived] 4월 매출 ÷ (1+MoM 15.93%)",
+        "url": "https://news.cnyes.com/news/id/6442948"
+      },
+      {
+        "month": "2026-04",
+        "revenue": 13924,
+        "yoy_pct": 93.62,
+        "tag": "[actual]",
+        "url": "https://news.cnyes.com/news/id/6442948"
+      },
+      {
+        "month": "2026-05",
+        "revenue": 15619,
+        "yoy_pct": 114.63,
+        "tag": "[actual]",
+        "url": "https://news.cnyes.com/news/id/6485740"
+      },
+      {
+        "month": "2026-06",
+        "revenue": 17733,
+        "yoy_pct": 120.69,
+        "tag": "[actual]",
+        "url": "https://news.cnyes.com/news/id/6521817"
+      },
+      {
+        "month": "2026-07",
+        "revenue": 19207,
+        "yoy_pct": 129.4,
+        "tag": "[actual]",
+        "url": "https://news.cnyes.com/news/id/6561034"
+      },
+      {
+        "month": "2026-08",
+        "revenue": 20146,
+        "yoy_pct": 129.85,
+        "tag": "[actual]",
+        "url": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E5%8F%B0%E5%85%89%E9%9B%BB-2026%E5%B9%B48%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B6201-46%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E129-064408064.html"
+      }
+    ],
+    "monthly_revenue_unit": "TWD 백만 (MOPS 연결 월매출, NT$억 × 100)",
+    "estimates": {
+      "2026E": {
+        "consensus_eps": 114.67,
+        "consensus_note": "FactSet 19명 중앙값(최고 121.03·최저 99.35), 목표가 중앙값 NT$7,200 [actual, 鉅亨網 2026-08]",
+        "our_eps": 116.0,
+        "our_derivation": "매출 NT$2,028억 = 1Q 330.7 + 2Q 472.8 + 3Q 595.0(7월 192.07 + 8월 201.46 + 9월을 8월 수준 가정) + 4Q 630(大園 +30만 장·추가 인상 가정) [inference]; 3Q·4Q 순이익률 21.5%(2Q 20.9% + GM 가이던스 +1pp 반영) [assumption] → 순이익 NT$415.5억 ÷ 3.583억 주 = EPS 116.0 [derived]"
+      },
+      "2027E": {
+        "consensus_eps_yfinance": 227.95,
+        "consensus_note": "yfinance forwardEps(애널리스트 17명, 목표가 중앙값 7,625·평균 7,570·범위 6,000~10,200) [actual, yfinance live 2026-09-24]. 미국계 증권사 250(2026-07-20) [actual, 經濟日報], 7월 초 시장 추정 167.64(CMoney 2026-07-06, 2Q 발표 전이라 낡은 값) [actual]",
+        "our_base_eps": 203,
+        "our_derivation": "평균 캐파 +29%(2026 평균 약 600만 → 2027 평균 약 776만 장, 분기별 증설 시점 반영) [derived/assumption] × ASP·믹스 +26%(M9 두 자릿수 비중·2H26 인상 연간 효과) [assumption] → 매출 NT$3,300억(+63%); 순이익률 22% [assumption] → 순이익 NT$726억 ÷ 3.583억 주 = EPS 203 [derived]"
+      },
+      "sell_side_targets": {
+        "yfinance_median": 7625,
+        "yfinance_mean": 7569.7,
+        "yfinance_high": 10200,
+        "yfinance_low": 6000,
+        "n": 17,
+        "factset_median_2026_08": 7200,
+        "morgan_stanley_2026_09_18": 8400,
+        "note": "애널리스트 목표가 최저치(6,000)도 현재가(5,050)보다 높음 — 셀사이드 낙관 편향 가능성 감안 [derived]"
+      }
+    },
+    "bs_snapshot": {
+      "as_of": "2026-06-30",
+      "total_assets": 158577.4,
+      "total_liab": 100265.4,
+      "equity": 58335.4,
+      "cash": 22567.8,
+      "debt": 28492.7,
+      "accounts_receivable": 65278.4,
+      "inventory": 23663.6,
+      "shares_mn": 358.3,
+      "source": "yfinance 1.7.0 quarterly_balance_sheet (live, 2026-09-24)",
+      "_note": "2026-06-30 연결 기준, TWD 백만 [actual, yfinance]. 순차입금 약 5,925 [derived: 차입 28,492.7 − 현금 22,567.8]. 매출채권 36,065(2025 말) → 65,278(+81%), 재고 16,752 → 23,664(+41%) — 매출 증가 속도와 비슷해 DSO는 132일 → 126일로 큰 변화 없음 [derived]."
+    },
+    "cf_summary": {
+      "ocf_5y_avg": 7404.8,
+      "fcf_5y_avg": 760.0,
+      "capex_intensity": 0.111,
+      "basis": "2022~2025 4개년 평균(yfinance cashflow에 2021년 없음) — 렌더러 라벨은 '5년 평균'이나 실제는 4년 [derived]",
+      "annual": [
+        {
+          "year": 2022,
+          "ocf": 7498.2,
+          "capex": -6543.8,
+          "fcf": 954.4,
+          "dividends": -3333.2
+        },
+        {
+          "year": 2023,
+          "ocf": 2889.7,
+          "capex": -4245.5,
+          "fcf": -1355.8,
+          "dividends": -2829.8
+        },
+        {
+          "year": 2024,
+          "ocf": 7263.5,
+          "capex": -5912.6,
+          "fcf": 1350.9,
+          "dividends": -3439.3
+        },
+        {
+          "year": 2025,
+          "ocf": 11967.8,
+          "capex": -9877.5,
+          "fcf": 2090.3,
+          "dividends": -5893.7
+        }
+      ],
+      "h1_2026": {
+        "ocf": 5044.8,
+        "capex": -10857.9,
+        "fcf": -5813.1,
+        "net_income": 15213.2,
+        "note": "1H26 OCF/순이익 33% [derived] — 매출채권·재고 증가와 capex 확대로 FCF 적자. 증설기 현금 소요가 이익 성장보다 앞서는 구간임"
+      },
+      "source": "yfinance 1.7.0 cashflow·quarterly_cashflow (live, 2026-09-24)"
+    },
+    "key_ratios": {
+      "current_price_twd": 5050.0,
+      "market_cap_twd_bn": 1809.52,
+      "market_cap_usd_bn": 56.86,
+      "trailing_pe": 79.22,
+      "forward_pe": 22.15,
+      "forward_eps_implied": 227.95,
+      "pb": 31.02,
+      "ev_ebitda": 57.03,
+      "roe_ttm_pct": 48.4,
+      "roe_2q26_annualized_pct": 67.7,
+      "div_yield_pct": 0.5,
+      "beta": 1.62,
+      "return_1m_pct": -9.33,
+      "return_3m_pct": -10.05,
+      "return_6m_pct": 72.26,
+      "return_1y_pct": 291.74,
+      "volatility_annualized_pct": 66.15,
+      "source": "stocks.json market_data (yfinance 1.7.0 live, 2026-09-24); forward_eps·ROE TTM은 yfinance info live; 2Q26 연환산 ROE는 [derived: 9,873.4×4 ÷ 58,335.4]"
+    },
+    "peer_compare": [
+      {
+        "ticker": "2383.TW",
+        "name": "EMC 台光電 (forward PE)",
+        "pe": 22.15,
+        "pe_trailing": 79.22,
+        "pb": 31.02,
+        "roe": 48.4,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "6274.TWO",
+        "name": "TUC 台燿 (forward PE)",
+        "pe": 19.51,
+        "pe_trailing": 73.54,
+        "pb": 17.87,
+        "roe": 30.7,
+        "div_yield": 0.51
+      },
+      {
+        "ticker": "6213.TW",
+        "name": "ITEQ 聯茂 (forward PE)",
+        "pe": 22.39,
+        "pe_trailing": 92.39,
+        "pb": 9.57,
+        "roe": 11.5,
+        "div_yield": 0.55
+      },
+      {
+        "ticker": "600183.SS",
+        "name": "生益科技 Shengyi (forward PE, CNY)",
+        "pe": 29.1,
+        "pe_trailing": 63.87,
+        "pb": 18.03,
+        "roe": 31.5,
+        "div_yield": 0.84
+      }
+    ],
+    "peer_note": "PE 열은 forward PE(yfinance live 2026-09-24). 생익은 CNY 기준이라 절대 수준만 비교 [actual]",
+    "trend_narrative": "- 매출은 NT$386.7억(2022) → 942.6억(2025), 3년 CAGR +34.6%이고 2026년 1H만 803.4억(+81.8% YoY)임 [derived, yfinance]\n- 영업이익률은 16.1%(2022) → 20.3%(2025) → 26.9%(2Q26)로 매년 올랐고 매출총이익률은 25.1% → 29.8% → 33.85%(2Q26)임 [actual, yfinance]\n- 2Q26 순이익 NT$98.7억은 2025년 연간(146.5억)의 67%에 해당함 [derived]. 3Q26은 7~8월 매출만으로 2Q의 83%라 가이던스(QoQ ≥+15%)를 넘을 가능성이 큼 [derived]\n- 이익 성장은 캐파(+5%)보다 판가·믹스에서 나옴 [inference]. 반대로 판가 사이클이 꺾이면 이익 탄력도 같은 크기로 되돌 수 있음\n- 현금흐름은 이익을 따라가지 못함: 1H26 OCF NT$50.4억 vs 순이익 152.1억, capex 108.6억으로 FCF −58.1억 [derived, yfinance]. 순차입금은 약 59억으로 아직 작음",
+    "data_limitation": "2021년 연간 손익·현금흐름은 yfinance에 없어 pl_5y를 2022~2025 4개년으로 둠(null 행을 넣으면 0으로 렌더링돼 제외). 3Q25 영업이익은 확인 불가(null). 4Q25 EPS는 yfinance 미제공. 3Q25 매출·순이익·EPS는 經濟日報 보도값. FX(USD/TWD) 민감도 정량치는 회사 공개 자료로 확인 불가."
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 7300,
+      "eps_2027e": 244,
+      "pe_multiple": 30,
+      "upside_pct": 44.6,
+      "narrative": "- 2027년 캐파 증설(+330만 장)이 일정보다 빨리 채워지고 M9·Q-glass 제품 비중이 빠르게 올라 ASP·믹스가 +33% 개선됨\n- 2H26 M7+ 추가 인상(QoQ +10~15%, 미국계 증권사 전망)이 2027년 연간 효과로 이어지고 유리섬유·동박 원가는 판가로 전가됨\n- CPO는 scale-out 스위치 한정으로 2028년 전 CCL 수요 영향이 미미함(Morgan Stanley·陸行之 견해와 일치)\n- 2027E EPS 244로 셀사이드 상단(미국계 250)에 근접하고 2028년 1,110만 장 가시성으로 멀티플이 유지됨",
+      "thesis": "- 2027년 캐파 증설(+330만 장)이 일정보다 빨리 채워지고 M9·Q-glass 제품 비중이 빠르게 올라 ASP·믹스가 +33% 개선됨\n- 2H26 M7+ 추가 인상(QoQ +10~15%, 미국계 증권사 전망)이 2027년 연간 효과로 이어지고 유리섬유·동박 원가는 판가로 전가됨\n- CPO는 scale-out 스위치 한정으로 2028년 전 CCL 수요 영향이 미미함(Morgan Stanley·陸行之 견해와 일치)\n- 2027E EPS 244로 셀사이드 상단(미국계 250)에 근접하고 2028년 1,110만 장 가시성으로 멀티플이 유지됨",
+      "key_assumptions": [
+        "2027E 매출 약 NT$3,640억(+80%) = 2026E 2,028억 × 물량 +35% × ASP·믹스 +33% [assumption]",
+        "순이익률 24% [assumption] → 순이익 NT$874억 ÷ 3.583억 주 = EPS 244 [derived]",
+        "CPO 영향 2028년 전 제한적 — Morgan Stanley 목표가 NT$8,400·陸行之 2028년 말~2029년 경계 [actual, 工商時報 2026-09-18]",
+        "신규 캐파 전량 고객 예약 완료 [actual, MoneyDJ 2026-07-31]"
+      ],
+      "price_target_logic": "2027E EPS 244 × PE 30배 = NT$7,320 → NT$7,300 [derived] (현재가 대비 +44.6%). 30배는 현 2027E 컨센서스 기준 forward PE 22.2배에 2028년 증설(1,110만 장) 가시성 프리미엄을 얹은 값 [assumption]. 셀사이드 목표가 중앙값 7,625(yfinance)·FactSet 7,200과 비슷한 수준임."
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 5500,
+      "eps_2027e": 203,
+      "pe_multiple": 27,
+      "upside_pct": 8.9,
+      "narrative": "- 2027년 평균 캐파 +29%(분기별 증설 시점 반영), ASP·믹스 +26%로 매출 NT$3,300억(+63%)\n- 순이익률 22%로 2Q26(20.9%) 대비 소폭 개선 — 판가 인상과 원가 상승이 대체로 상쇄됨\n- CPO 뉴스에 따른 주가 변동은 있으나 2027년 실적 영향은 없음. 유리섬유 부족은 비용 상승으로만 나타남\n- 2027E EPS 203으로 yfinance 컨센서스(228)보다 11% 낮게 봄 — 판가 사이클 지속 기간을 보수적으로 가정",
+      "thesis": "- 2027년 평균 캐파 +29%(분기별 증설 시점 반영), ASP·믹스 +26%로 매출 NT$3,300억(+63%)\n- 순이익률 22%로 2Q26(20.9%) 대비 소폭 개선 — 판가 인상과 원가 상승이 대체로 상쇄됨\n- CPO 뉴스에 따른 주가 변동은 있으나 2027년 실적 영향은 없음. 유리섬유 부족은 비용 상승으로만 나타남\n- 2027E EPS 203으로 yfinance 컨센서스(228)보다 11% 낮게 봄 — 판가 사이클 지속 기간을 보수적으로 가정",
+      "key_assumptions": [
+        "2026E EPS 116 — FactSet 중앙값 114.67과 일치 [derived·actual]",
+        "2027E 매출 NT$3,300억 = 2026E 2,028억 × 평균 캐파 +29% × ASP·믹스 +26% [assumption]",
+        "순이익률 22% → 순이익 NT$725억, EPS 202~203 [derived]",
+        "3Q26 매출 약 NT$595억(7·8월 실적 + 9월 8월 수준 가정)으로 가이던스 QoQ +15%를 상회 [derived]"
+      ],
+      "price_target_logic": "2027E EPS 203 × PE 27배 = NT$5,481 → NT$5,500 [derived] (+8.9%). 현재가는 base 2027E EPS 대비 24.9배이고, 12개월 뒤 시장이 2028년 증설을 보기 시작한다는 점을 반영해 소폭 프리미엄(27배)을 줌 [assumption]. 동종 forward PE: TUC 19.5·ITEQ 22.4·생익 29.1배(yfinance live)."
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 3300,
+      "eps_2027e": 150,
+      "pe_multiple": 22,
+      "upside_pct": -34.7,
+      "narrative": "- Low-Dk2·Q-glass·HVLP4 할당으로 신규 라인 가동이 늦어져 물량 +18%에 그침\n- TUC·ITEQ·생익·두산의 M8 증설로 2027년 하반기 판가 인상이 멈추고 원가 상승을 다 넘기지 못해 순이익률 20%\n- 하이퍼스케일러 CPO 채택 공식화 등으로 'CCL 강등' 우려가 재점화되고 사이클 정점 논쟁으로 멀티플이 현재 forward PE(22x) 수준에 고정됨\n- 2027E EPS 150(매출 NT$2,680억, +32%)",
+      "thesis": "- Low-Dk2·Q-glass·HVLP4 할당으로 신규 라인 가동이 늦어져 물량 +18%에 그침\n- TUC·ITEQ·생익·두산의 M8 증설로 2027년 하반기 판가 인상이 멈추고 원가 상승을 다 넘기지 못해 순이익률 20%\n- 하이퍼스케일러 CPO 채택 공식화 등으로 'CCL 강등' 우려가 재점화되고 사이클 정점 논쟁으로 멀티플이 현재 forward PE(22x) 수준에 고정됨\n- 2027E EPS 150(매출 NT$2,680억, +32%)",
+      "key_assumptions": [
+        "2027E 매출 NT$2,680억(+32%) = 물량 +18% × ASP +12% [assumption]",
+        "순이익률 20% → 순이익 NT$536억, EPS 150 [derived]",
+        "Low-Dk2·Q-glass 부족 2027년까지 지속, 닛토보 신규 캐파 2027년 가동 [actual, DigiTimes 2026-06-22·TrendForce]",
+        "CPO 우려 재점화 시 EMC 일간 −7%대 하락 전례 [actual, 聯合新聞網 2026-09-17]"
+      ],
+      "price_target_logic": "2027E EPS 150 × PE 22배(현재 forward PE 22.15 유지) = NT$3,300 [derived] (−34.7%). 1년 전 주가가 약 NT$1,289였고 연환산 변동성 66%라 낙폭이 이보다 깊을 수도 있음 [derived, yfinance]."
+    },
+    "expected_price": 5400.0,
+    "expected_return_pct": 6.9,
+    "method": "12개월 목표가 = 2027E EPS × 목표 PE. 확률 가중 기대가 = 0.25×7,300 + 0.50×5,500 + 0.25×3,300 = NT$5,400(+6.9%) [derived]. 4-Analyst 가중 confidence가 0.46~0.61로 낮아 bull·bear를 대칭(25/25)으로 둠. 매수·매도 권유가 아님.",
+    "currency": "TWD"
+  },
+  "catalysts": [
+    {
+      "date": "2026-10-05~10",
+      "event": "9월 월매출 발표(MOPS)",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "7·8월이 NT$192.07억·201.46억 [actual]. 9월이 약 NT$150억 이상이면 3Q 가이던스(QoQ +15%, NT$543.6억) 달성 [derived]. 8월 수준이면 3Q 약 NT$595억(+26% QoQ) [derived]. 8월 발표가 9/4였음을 감안하면 월초~10일 발표 [actual/inference]."
+    },
+    {
+      "date": "2026-10 말~11 초",
+      "event": "3Q26 실적 발표",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "가이던스: 매출 QoQ ≥+15%, GM 약 35%(±1.5pp) [actual, MoneyDJ 2026-07-31]. 3Q25 실적이 2025-10-31 보도됐음을 감안한 시점 추정 [inference]. 미국계 증권사 3Q GM 추정 36.5% [estimated]."
+    },
+    {
+      "date": "2026-11 중순",
+      "event": "이수페타시스 3분기보고서 — CCL 수입 매입단가",
+      "type": "earnings",
+      "expected_impact": "?",
+      "description": "26H1 수입 CCL 61.29 USD/㎡ [actual, DART]. 추가 상승이면 EMC 판가 인상이 한국 고객에게 전가되는 증거, 정체면 가격 사이클 둔화 신호. 블로그 확인 지표(㎡당 단가)와 같은 시점."
+    },
+    {
+      "date": "2026-11·12월 10일 전후",
+      "event": "10·11월 월매출",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "4Q 大園 +30만 장 가동과 2H26 추가 인상(M7+ QoQ +10~15% 전망 [estimated]) 반영 여부 확인. 전월 대비 감소가 나오면 유리섬유·동박 할당 영향인지 점검 필요."
+    },
+    {
+      "date": "4Q26",
+      "event": "大園 월 30만 장 가동 + 載板(BT)용 CCL 출하·ABF 인증",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "연말 캐파 615만 장 [actual, 經濟日報]. 載板 CCL 4Q 출하, ABF 인증 같은 분기 예상, 현재 載板 점유율 약 1.6% [actual, 鉅亨網 2026-09-17·MoneyDJ 7/31]."
+    },
+    {
+      "date": "2H26~2027",
+      "event": "M9(Q-glass) 고객 인증·양산 확대",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "M9 3Q26 양산 진입, 2027년 매출 비중 두 자릿수 목표 [actual]. Q-cloth 가격이 Low-Dk2의 약 2배라 ASP 상승 요인이자 원료 확보 변수 [actual, 鉅亨網 2026-09-16]."
+    },
+    {
+      "date": "1Q27·3Q27·4Q27",
+      "event": "2027년 3단계 증설(+120만·+120만·+90만 장)",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "연말 945만 장(+54%) [actual, 經濟日報 2026-04-30]. 신규 캐파 전량 예약 완료(회사 설명). 가동 지연 시 bear 시나리오로 이동."
+    },
+    {
+      "date": "2027-03 (GTC 등)",
+      "event": "엔비디아·하이퍼스케일러 CPO 채택 범위 발표",
+      "type": "product",
+      "expected_impact": "-",
+      "description": "현재 CPO는 scale-out 스위치 한정, 2026년 2만 대 미만 [actual]. 자체 스위치·scale-up으로 CPO 확대가 공식화되면 9/17과 같은 급락 재현 가능. 행사 일정은 [inference]."
+    },
+    {
+      "date": "2027 (연중)",
+      "event": "닛토보 후쿠시마 신규 캐파 가동·台玻 3기 증설",
+      "type": "macro",
+      "expected_impact": "+",
+      "description": "Low-Dk2·Q-glass 부족 완화 시 EMC 원가·물량 제약이 풀림 [inference]. 닛토보 150억 엔·최대 3배, 2027년 가동 [actual, TrendForce]."
+    }
+  ],
+  "risks": [
+    {
+      "name": "CPO가 스위치 보드 층수·CCL 등급을 낮춤",
+      "probability": "med",
+      "impact": "high",
+      "description": "9/17 CPO 강등 우려로 EMC −7%대 [actual, 聯合新聞網]. 엔비디아 Spectrum-X Photonics full production(2026-08) [actual]. 현재는 scale-out 스위치 한정·2026년 2만 대 미만이고 scale-up·컴퓨트 보드는 구리 유지라 2027년 실적 영향은 작다고 봄 [inference]. 다만 층수 감소를 숫자로 확인한 자료는 없음(확인 불가). 陸行之는 2028년 말~2029년을 경계 시점으로 봄 [actual].",
+      "mitigation": "하이퍼스케일러 자체 스위치 CPO 채택 공식화, scale-up 광 전환 로드맵, DigiTimes·TrendForce의 CCL 등급 믹스 자료를 분기마다 확인."
+    },
+    {
+      "name": "저유전 유리섬유(Low-Dk2·Q-glass) 병목이 출하·마진을 제한",
+      "probability": "med",
+      "impact": "med",
+      "description": "Low-CTE·Low-Dk2 2027년까지 부족 [actual, DigiTimes 2026-06-22], 닛토보 NER 60~70%·신규 캐파 2027년 [actual, TrendForce]. Q-cloth 가격은 Low-Dk2의 약 2배 [actual]. EMC 출하 제약의 직접 근거는 확인 불가이나, 부족이 심해지면 M9 확대 속도와 원가 전가가 흔들림 [inference]. 미국계 증권사도 HVLP4·Low-Dk2 원가 상승을 변수로 봄 [estimated].",
+      "mitigation": "월매출의 전월 대비 둔화, GM이 가이던스 하단(33.5%) 아래로 내려가는지, 닛토보·台玻 증설 일정 공시를 확인."
+    },
+    {
+      "name": "밸류에이션·멀티플 축소",
+      "probability": "med",
+      "impact": "high",
+      "description": "trailing PE 79배·PB 31배·EV/EBITDA 57배, 1년 +292% [actual, yfinance live]. forward PE 22배는 2027E EPS 228(컨센서스)을 전제로 하므로 이익 추정이 10~20%만 낮아져도 멀티플 부담이 커짐 [derived]. 연환산 변동성 66%·베타 1.62 [actual].",
+      "mitigation": "컨센서스 2027E EPS 변화(yfinance forwardEps·FactSet)와 월매출을 함께 추적하고 포지션은 변동성 기준으로 제한."
+    },
+    {
+      "name": "경쟁사 증설·가격 경쟁(TUC·ITEQ·생익·두산)",
+      "probability": "med",
+      "impact": "med",
+      "description": "TUC M9 양산·M7/M8 비중 2027년 50% 초과 목표 [actual], 생익 태국 월 20만 장·송산호 2공장(52억 위안) [estimated, 중국 2차 출처], 두산 9,684억 원 증설 2H28~ [actual, DART]. 현재는 'CCL 판매자 시장'이라 가격 인하 사례는 확인되지 않음 [actual, 聯合新聞網 2026-09-24]. 2H27 이후 증설이 몰리면 M8 이하 등급부터 가격이 흔들릴 수 있음 [inference].",
+      "mitigation": "대만 CCL 3사 월매출·판가 코멘트, 중국 업체의 엔비디아 인증 뉴스, Panasonic·Kingboard 인상 공지 중단 여부 확인."
+    },
+    {
+      "name": "AI capex 사이클·고객 집중",
+      "probability": "med",
+      "impact": "high",
+      "description": "성장의 대부분이 AI 서버·스위치에서 나옴 [inference]. 판가·믹스가 이익을 끌어올린 구조라 수요가 꺾이면 판가와 가동률이 동시에 되돌 수 있음 [inference]. 최종 고객별 매출 비중은 확인 불가.",
+      "mitigation": "하이퍼스케일러 capex 가이던스, 엔비디아 플랫폼 전환(Rubin) 일정, 기판사(이수페타시스 등) 수주잔고를 확인."
+    },
+    {
+      "name": "운전자본·현금흐름 부담",
+      "probability": "med",
+      "impact": "low",
+      "description": "1H26 OCF NT$50.4억 vs 순이익 152.1억, FCF −58.1억, 매출채권 +81%(6개월) [derived, yfinance]. DSO는 126일로 2025 말(132일)과 비슷해 회수 악화 신호는 아직 없음 [derived]. 순차입금 약 NT$59억으로 작음.",
+      "mitigation": "분기 OCF/순이익 비율과 DSO·재고일수 추이를 확인."
+    },
+    {
+      "name": "환율(TWD 강세)",
+      "probability": "med",
+      "impact": "low",
+      "description": "USD/TWD 31.824(2026-09-24, yfinance) [actual]. 수출 비중이 높은 구조라 TWD 강세는 TWD 환산 매출·마진을 낮춤 [inference]. EMC의 환율 민감도 정량치는 확인 불가.",
+      "mitigation": "분기 실적의 환차손익 항목과 USD/TWD 추이를 확인."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "T01: 고다층 PCB 부족의 병목은 2027년을 기점으로 기판 공장에서 재료(고속 CCL·HVLP 동박) 쪽으로 옮겨가 2028년까지 이어질 가능성이 크다.",
+      "type": "predictive",
+      "importance": "core",
+      "evidence": "[actual] EMC 2026년 풀가동·완판, 신규 캐파 전량 고객 예약(MoneyDJ 5/28·7/31) · [actual] 그러나 EMC 캐파 615만(2026 말) → 945만 장(2027 말, +54%)으로 재료 쪽 증설이 2027년에 크게 들어옴(經濟日報 4/30) · [inference] 2026~27년 가장 빠듯한 소재는 CCL보다 Low-Dk2·Q-glass일 가능성(DigiTimes 6/22·TrendForce)",
+      "testability": "med",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.5,
+        "agreement_level": "medium-high (3/4)",
+        "support": 0,
+        "neutral": 3,
+        "rebut": 1,
+        "by_analyst": {
+          "macro": "neutral 0.5",
+          "industry": "neutral 0.5",
+          "empirical": "neutral 0.5",
+          "counter": "rebut 0.5"
+        }
+      },
+      "note": "- EMC 관점에서는 '2027년부터 재료 병목'이 아니라 2026년에 이미 재료가 빠듯하고 2027년에 EMC 증설이 크게 들어오는 그림임\n- 병목의 주인공이 CCL인지 유리천인지가 불분명해 2028년까지 지속 여부는 검증 대기"
+    },
+    {
+      "claim_id": "T04",
+      "claim": "T04: AI 서버·스위치 기판의 층수는 신호선 수(예: 토마호크6 SerDes 최대 1,024개, 4천 가닥 이상), 고속 신호의 선 간격 확대, 접지층·전원층 동반 증가 때문에 신호선보다 빠르게 늘어나며, 칩 세대마다 이 요인이 동시에 커지므로 초다층 기판 수요는 구조적이다.",
+      "type": "factual",
+      "importance": "core",
+      "evidence": "[actual] 브로드컴 토마호크6 2025-06 출하, 102.4Tbps, 100G SerDes 1,024개(보도자료, facts C23) · [actual] EMC M9 3Q26 양산 진입·2027년 매출 비중 두 자릿수 목표(MoneyDJ 7/31·經濟日報 4/30) · [counter] 엔비디아 Spectrum-X Photonics full production(2026-08), 9/17 CPO 강등 우려",
+      "testability": "med",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.61,
+        "agreement_level": "split (2/4)",
+        "support": 2,
+        "neutral": 2,
+        "rebut": 0,
+        "by_analyst": {
+          "macro": "neutral 0.55",
+          "industry": "support 0.62",
+          "empirical": "support 0.6",
+          "counter": "neutral 0.55"
+        }
+      },
+      "note": "- 수치(칩 사양)는 확인됨. 고사양 CCL(M8→M9) 전환이 EMC 믹스로 나타나는 것도 확인됨\n- '구조적'이라는 부분은 CPO 확산 속도에 달려 2028년 이후 재검증 필요"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "T06: 이수페타시스 원재료 매입의 81%가 CCL(47.6%)과 프리프레그(33.5%)이고, 지난 2년 판재 매입 단가 상승(수입 +24%, 국산 +9%)보다 기판 판매 단가 상승(+31%)이 커서 영업이익률 20%의 배경이 됐다.",
+      "type": "factual",
+      "importance": "supporting",
+      "evidence": "[actual] 이수페타시스 THIN CORE 47.61%·PREPREG 33.45%, CCL 매입처 Panasonic·EMC·두산전자 · 수입 CCL 49.62 → 61.29 USD/㎡(+23.5%), 국산 48.03 → 52.52(+9.3%) (DART 20260814002283)",
+      "testability": "high",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.533,
+        "agreement_level": "medium-high (3/4)",
+        "support": 3,
+        "neutral": 1,
+        "rebut": 0,
+        "by_analyst": {
+          "macro": "support 0.5",
+          "industry": "support 0.6",
+          "empirical": "support 0.5",
+          "counter": "neutral 0.55"
+        }
+      },
+      "note": "- EMC 입장에서는 한국 기판사로의 판가 전가 경로가 공시로 확인됨\n- 달러(CCL) vs 원화(기판) 단가 비교라 환율 왜곡 가능성은 남음"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "T07: AI용 고속 CCL·HVLP 동박은 공급사가 적고 증설이 오래 걸려, 신규 설비 가동 시점이 기판 공장(이수페타시스 2027년 1분기)보다 1.5~4년 늦다(㈜두산 CCL 9,684억 원 투자 2028년 하반기부터 순차, 미쓰이금속 고주파 동박 월 720→840톤·2030년 1,400톤 목표·말레이시아 신규 거점 2031년 이후).",
+      "type": "factual",
+      "importance": "core",
+      "evidence": "[actual] facts C28 반박: EMC 2026년 1Q 中山·4Q 大園 각 +30만 장, 2027년 +330만 장(1Q +120·3Q +120·4Q +90) → 2027 말 945만 장(MoneyDJ 5/28·經濟日報 4/30). 미쓰이 VSP 840t(2026) → 1,000t(2027), 金居 1Q27 신공장",
+      "testability": "high",
+      "status": "invalidated",
+      "current_status": "invalidated",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.525,
+        "agreement_level": "split (2/4)",
+        "support": 2,
+        "neutral": 2,
+        "rebut": 0,
+        "by_analyst": {
+          "macro": "support 0.5",
+          "industry": "neutral 0.5",
+          "empirical": "support 0.55",
+          "counter": "neutral 0.55"
+        }
+      },
+      "note": "- 블로그 표는 각 사의 가장 늦은 신규 거점만 비교함\n- EMC 증설은 기판 공장(이수페타시스 1Q27)과 같은 시기에 들어와 '1.5~4년 지연'은 EMC에 해당하지 않음\n- 4-Analyst 가중 판정은 support(0.525)였으나 사실 검증(facts C28)에서 반박돼 검증 결과를 우선함"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "T08: 고급 판재 1위 EMC의 2026년 8월 매출은 201억 대만달러로 전년 대비 130% 늘었으며, 이는 기판 회사들이 재료 확보에 줄을 서 있다는 수요 신호다.",
+      "type": "factual",
+      "importance": "supporting",
+      "evidence": "[actual] 2026년 8월 연결매출 NT$201.46억(+129.85% YoY, MOPS 전재 Yahoo奇摩 9/4) · [derived] 1H26 매출 +81.8% vs 캐파 +5% 안팎 → 증가분 대부분이 판가·믹스 · [actual] 3~4월 판가 15~25% 인상",
+      "testability": "high",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.463,
+        "agreement_level": "high (4/4)",
+        "support": 0,
+        "neutral": 4,
+        "rebut": 0,
+        "by_analyst": {
+          "macro": "neutral 0.4",
+          "industry": "neutral 0.5",
+          "empirical": "neutral 0.45",
+          "counter": "neutral 0.5"
+        }
+      },
+      "note": "- 수치는 MOPS 공시 보도로 확인됨(4-Analyst는 수치를 직접 확인하지 못해 neutral 0.463)\n- '기판사가 줄을 서 있다'는 해석은 절반만 맞음: 풀가동·완판·신규 캐파 예약은 수요 대기열을 지지하나 매출 +130%의 대부분은 물량이 아니라 판가·M8/M9 믹스로 봄 [inference]"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "T09: 2027~2028년은 기판 설비는 있는데 좋은 재료가 모자라는 구간이 될 가능성이 크며, 이 구간에서 가격 결정력과 마진은 재료를 쥔 쪽(CCL·HVLP 동박)과 같은 재료로 불량을 덜 내는 기판 회사로 옮겨 간다.",
+      "type": "predictive",
+      "importance": "core",
+      "evidence": "[actual] 2026년 현재 가격 결정력은 CCL 쪽: EMC GM 29.42% → 33.85%, 판가 15~25% 인상, Panasonic +20%·+15~30%, Kingboard 7차 인상 · [counter] 유리천(Low-Dk2·Q-glass)이 더 빠듯하면 가격 결정력 일부가 닛토보 등 상류로 이동(TrendForce·DigiTimes), 미국계 증권사도 Low-Dk2·HVLP4 원가를 변수로 봄",
+      "testability": "med",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.5,
+        "agreement_level": "medium-high (3/4)",
+        "support": 0,
+        "neutral": 3,
+        "rebut": 1,
+        "by_analyst": {
+          "macro": "neutral 0.5",
+          "industry": "neutral 0.5",
+          "empirical": "neutral 0.5",
+          "counter": "rebut 0.5"
+        }
+      },
+      "note": "- 재료 쪽 가격 결정력은 2026년에 이미 관측됨(현재형은 확인)\n- 2027~2028년 지속 여부와 그 몫이 CCL·유리천 중 어디에 쌓일지는 미확인"
+    },
+    {
+      "claim_id": "T11",
+      "claim": "T11: 엔비디아가 2026년 8월 양산 단계로 넘긴 CPO 스위치(Spectrum-X Photonics)가 보드 위 긴 구리 배선을 줄이면 스위치 기판 층수 증가가 꺾일 수 있으나, 실제로 층수를 줄이는지는 아직 숫자로 확인되지 않았다.",
+      "type": "conditional",
+      "importance": "supporting",
+      "evidence": "[actual] Spectrum-X Ethernet Photonics full production(StorageReview 2026-08-15) · [actual] 9/17 CCL 3사 급락(聯合新聞網) · [actual] CPO 출하 2026년 2만 대 미만·scale-out 한정(MoneyDJ 9/17·工商時報 9/18) · [unavailable] 층수·CCL 등급 감소 정량 근거 없음",
+      "testability": "high",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.55,
+        "agreement_level": "split (2/4)",
+        "support": 2,
+        "neutral": 2,
+        "rebut": 0,
+        "by_analyst": {
+          "macro": "neutral 0.55",
+          "industry": "support 0.55",
+          "empirical": "support 0.55",
+          "counter": "neutral 0.55"
+        }
+      },
+      "note": "- 블로그의 유보(아직 숫자로 확인 안 됨)는 현재 데이터와 맞음\n- EMC에는 실적보다 주가 변동 요인으로 먼저 작용함(9/17 −7%대)"
+    }
+  ],
+  "korean_disclosures": []
+}

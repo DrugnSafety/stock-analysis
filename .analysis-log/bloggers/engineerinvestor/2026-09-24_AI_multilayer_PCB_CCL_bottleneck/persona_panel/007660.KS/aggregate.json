@@ -1,0 +1,555 @@
+{
+  "ticker": "007660.KS",
+  "aggregated_at": "2026-09-25T04:36:38.641145+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 9,
+      "pct": 52.9
+    },
+    "lean_bullish": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "lean_bearish": {
+      "count": 5,
+      "pct": 29.4
+    }
+  },
+  "average_confidence": 0.544,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.4
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.52
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.45
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "neutral",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.45
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 11,
+      "personas": [
+        "peter-lynch",
+        "ray-dalio",
+        "ben-graham",
+        "rakesh-jhunjhunwala",
+        "bill-ackman",
+        "michael-burry",
+        "jim-simons",
+        "nassim-taleb",
+        "cliff-asness",
+        "stanley-druckenmiller",
+        "george-soros"
+      ],
+      "examples": [
+        "연환산 변동성 90.95% [actual] — high regime 상한을 3배 초과, fat-tail 손실 확률 높음",
+        "베타 2.05·변동성 91%로 인한 '뜨거운 종목' 리스크, trailing PE 부재로 실제 이익 기반 검증 어려움",
+        "β 2.05·변동성 91%로 긴축/둔화 regime 전환 시 가장 먼저 매도되는 factor 프로파일"
+      ]
+    },
+    {
+      "theme": "리스크",
+      "frequency": 8,
+      "personas": [
+        "aswath-damodaran",
+        "peter-lynch",
+        "ray-dalio",
+        "bill-ackman",
+        "warren-buffett",
+        "nassim-taleb",
+        "phil-fisher",
+        "stanley-druckenmiller"
+      ],
+      "examples": [
+        "베타 2.05·변동성 91%로 인한 '뜨거운 종목' 리스크, trailing PE 부재로 실제 이익 기반 검증 어려움",
+        "단일 고객 40% 집중, CPO 채택 시 층수 감소 가능성, 증설 라인 수율 실패 등 idiosyncratic 리스크가 매크로 리스크와 중첩",
+        "단일 고객 매출 비중 약 40%, 설계 변경·공급사 다변화 리스크"
+      ]
+    },
+    {
+      "theme": "사이클",
+      "frequency": 6,
+      "personas": [
+        "warren-buffett",
+        "ray-dalio",
+        "ben-graham",
+        "rakesh-jhunjhunwala"
+      ],
+      "examples": [
+        "macro_snapshot.json 부재로 실업률·yield curve·fed_funds·IMF 전망 등 cycle anchor 전부 [unavailable] — 부채사이클 위치 판정 불가",
+        "이익 성장이 capa(+4%)가 아닌 단가(+31%)에서 나옴 — P 주도 이익은 사이클 후반부 특성이며 2027년 재료 병목으로 마진 귀속처가 상류(CCL·동박)로 이동할 위험",
+        "변동성 90.95%·beta 2.05·EV/EBITDA 29.7배 — 장기 compounder라기보다 사이클 정점 가격 [actual]"
+      ]
+    },
+    {
+      "theme": "부채",
+      "frequency": 5,
+      "personas": [
+        "peter-lynch",
+        "ray-dalio",
+        "ben-graham",
+        "michael-burry",
+        "warren-buffett"
+      ],
+      "examples": [
+        "부채/이자보상배율 미확인 — 6공장·태국 동시 증설 중이라 레버리지가 스토리를 망칠 수 있는 구간",
+        "macro_snapshot.json 부재로 실업률·yield curve·fed_funds·IMF 전망 등 cycle anchor 전부 [unavailable] — 부채사이클 위치 판정 불가",
+        "ROE·ROIC·FCF·부채비율 등 재무건전성 지표와 이수그룹 지배구조·내부거래 정보 미확인"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "연환산 변동성 90.95% [actual] — high regime 상한을 3배 초과, fat-tail 손실 확률 높음",
+        "베타 2.05 [actual] — 시장 하락 시 2배 증폭, 포트폴리오 분산 가치 없음",
+        "Sharpe ≈ 0.6 [derived] — 위험 단위당 보상 부족(marginal tier)"
+      ],
+      "key_opportunities_top3": [
+        "1년 +58.85% [actual]의 momentum 종목으로, 변동성이 30% 이하로 안정화되면 momentum 진입 후보로 재평가 가능",
+        "risk-parity 최소 비중(≈5.5%) [derived]으로 편입 시 tail 노출을 제한하면서 upside 참여 가능",
+        "11월 3분기보고서 이벤트 전후 변동성 압축·확장 구조는 이벤트 후 stat-arb 기회를 만들 수 있음"
+      ],
+      "uncertainty": "quant_anchor에 sharpe_ratio·sortino_ratio·max_drawdown_pct·VaR·portfolio_optimization이 추가되면 verdict가 바뀔 수 있다. MDD>40%이고 macro에 MONETARY_TIGHTENING flag가 존재하면 규칙상 lean_bearish로 전환된다. 반대로 realized volatility가 30% 미만으로 내려오고 Sharpe가 1.0을 넘으며 optimizer weight가 1.5×(1/N)을 초과하면 lean_bullish로 전환된다. 현재 neutral은 정량 신호가 우호적이라서가 아니라 핵심 측정값 부재로 인한 규칙적 보류다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.52,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "부채/이자보상배율 미확인 — 6공장·태국 동시 증설 중이라 레버리지가 스토리를 망칠 수 있는 구간",
+        "매출의 약 40%가 단일 고객 — 설계 변경이나 이원화 시 단가 협상력 상실",
+        "성장이 물량이 아닌 단가(P)에 기대어 왔고, 2027년부터 CCL/동박 병목으로 가격 결정력이 재료 쪽으로 이동할 가능성"
+      ],
+      "key_opportunities_top3": [
+        "forward PE 19.5 대비 23~90% 성장 추정 → PEG 0.2~0.85[estimated], GARP 기준 저평가 구간",
+        "칩 세대마다 층수가 신호선보다 빨리 늘어나는 구조적 수요 + 96.8% 가동률이 보여주는 공급 우위",
+        "2027년 1분기 월 매출 능력 1,500억대 진입으로 P에 Q가 더해지는 성장 전환"
+      ],
+      "uncertainty": "11월 3분기보고서에서 ㎡당 단가가 꺾이거나, 부채비율이 증설로 급증한 것이 확인되거나, 신규 라인 수율 문제로 2027년 1분기 월 매출 가이던스(1,400~1,550억)를 미달하면 EPS 성장률 추정이 무너져 PEG가 1.0을 넘고 verdict는 neutral 또는 lean_bearish로 뒤집힌다. 반대로 컨센서스 EPS 성장률이 확인되어 PEG<0.5가 실제 숫자로 뒷받침되고 부채가 통제 범위임이 드러나면 확신도를 0.7 이상으로 올릴 수 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "β 2.05·변동성 91%로 긴축/둔화 regime 전환 시 가장 먼저 매도되는 factor 프로파일",
+        "EV/EBITDA 29.7배는 피크 마진(OPM 20.3%) 위에 얹힌 growth 가격 — 단가 꺾임 시 value 점수 급락",
+        "6공장·태국 증설 capex로 CMA(investment) aggressive, 수율 ramp 실패 시 FCF 잠식"
+      ],
+      "key_opportunities_top3": [
+        "12-1 momentum +34% strong_positive — 통계적으로 6~12개월 추세 지속 기대 가능",
+        "가동률 96.8%·ASP +31%의 pricing power는 현 시점 profitability factor의 강한 양(+) 신호",
+        "2027 1Q 증설로 월 매출 capacity 1,200억→1,500억 원대 — 가이던스 상향이 확인되면 earnings momentum 강화"
+      ],
+      "uncertainty": "11월 3분기보고서에서 ㎡당 단가가 계속 오르고 ROIC·FCF margin이 high tier(ROIC>15%, FCF margin>20%)로 확인되면 composite가 +0.5를 넘어 lean_bullish로 뒤집힌다. 반대로 단가가 꺾이거나 12-1 momentum이 +20% 아래로 밀리고 MONETARY_TIGHTENING·RECESSION flag가 활성화되면 β 2.05 페널티가 확대되어 lean_bearish로 전환된다. 현재 verdict는 macro regime 정보 부재와 P/B·DCF 미측정이라는 데이터 공백 위에 서 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "macro_snapshot.json 부재로 실업률·yield curve·fed_funds·IMF 전망 등 cycle anchor 전부 [unavailable] — 부채사이클 위치 판정 불가",
+        "beta 2.05, 변동성 90.95%의 고농축 AI capex 단일 팩터 노출 — 하이퍼스케일러 capex가 deleveraging 국면에서 삭감되면 가장 먼저 타격",
+        "이익 성장이 capa(+4%)가 아닌 단가(+31%)에서 나옴 — P 주도 이익은 사이클 후반부 특성이며 2027년 재료 병목으로 마진 귀속처가 상류(CCL·동박)로 이동할 위험"
+      ],
+      "key_opportunities_top3": [
+        "growth_up_inflation_up 환경에서 공급제약형 가격결정력(가동률 96.8%, 단가 31% 상승)은 준-commodity적 방어력을 제공",
+        "다중적층 수율의 곱셈 구조가 신규 진입자에게 높은 장벽 — 사이클이 이어지는 동안 초과 rent 지속 가능",
+        "2027년 1분기 6공장·태국 증설로 월 매출 capa 1,200억→1,500억원대 확대 — 재료 확보 시 볼륨 성장"
+      ],
+      "uncertainty": "macro_snapshot.json이 제공되어 (1) yield curve가 정상화되고 RECESSION_LEADING_INDICATOR flag가 없으며 (2) IMF GDP momentum이 양호하다고 확인되면 growth_up quadrant 확정으로 lean_bullish로 전환될 수 있다. 반대로 MONETARY_TIGHTENING 또는 RECESSION_LEADING_INDICATOR flag가 활성이면 beta 2.05 leveraged-cyclical 종목으로서 lean_bearish로 뒤집힌다. 종목 차원에서는 11월 3분기보고서에서 ㎡당 단가가 꺾이거나, 하이퍼스케일러가 CPO 채택을 공식화하면 블로그 전제와 함께 growth_asset 논리가 약화된다. late_expansion·leveraging 판정은 anchor 없는 [assumption]임을 재차 명시한다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "5년·10년 ROE 시계열 부재로 이 lens의 1차 quality 기준을 검증할 수 없음 [unavailable]",
+        "ROE 창출이 단가(P) 상승에 거의 전적으로 의존 — 2027년 재료 병목 시 가격 결정력이 CCL·동박 업체로 이동해 마진 압축 가능 [inference]",
+        "단일 고객 매출 비중 약 40% — 설계 변경·공급사 다변화 시 단가와 물량 동시 타격 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "한국 AI·반도체 supply chain이라는 명확한 거시 tailwind와 정렬 — 가동률 96.8%, EMC 매출 +130%가 수요 초과를 확인 [actual]",
+        "2027년 1Q 6공장·태국 공장 가동으로 월 생산능력 1,200억 → 1,500억 원대, 가이던스 월 1,400~1,550억 원 — 고마진 수준의 재투자 기회 [actual]",
+        "다중적층 수율이 진입장벽이 되는 구조 — 수율 우위가 입증되면 2027~2028년 재료 부족 구간을 오히려 점유율 확대 기회로 전환 가능 [inference]"
+      ],
+      "uncertainty": "verdict가 lean_bullish로 뒤집히는 조건: (1) 사업보고서 기준 최근 5년 ROE가 15% 이상을 일관되게 유지했음이 확인되고, (2) 11월 3Q 보고서에서 ㎡당 단가가 꺾이지 않으며, (3) 6공장·태국 공장이 수율 문제 없이 가이던스대로 매출 전환되는 경우. 반대로 lean_bearish로 뒤집히는 조건: (1) 3Q 단가가 하락 전환하거나, (2) 하이퍼스케일러가 자체 스위치에 CPO 채택을 공식화해 층수 감소가 수치로 확인되거나, (3) 단일 고객이 공급사 다변화를 발표하는 경우. 현재 ROE 시계열이 [unavailable]이라는 점 자체가 이 평가의 가장 큰 불확실성이다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "단일 고객 매출 비중 약 40% [actual] — 고객 기반 미분산으로 '취약한 비즈니스' 정의에 근접",
+        "2027~2028년 CCL·동박 병목으로 가격 결정력이 재료사로 이동할 가능성 [inference] — 재료가 매입원가 81% [actual]",
+        "6공장·태국 신규 다중적층 라인의 수율 미확인 [unavailable] — 증설이 매출로 전환되지 않을 위험"
+      ],
+      "key_opportunities_top3": [
+        "물량 고정 상태에서 ㎡당 단가 31% 인상 [actual] — 현 시점 실질적 가격 결정력 증명",
+        "재료값 상승(24%/9%)을 초과하는 판가 인상으로 영업이익률 20.3% 달성 [actual]",
+        "층수 증가는 신호선 증가보다 빠르며 칩 세대마다 구조적으로 확대 [inference] — 다중적층 수율이 진입장벽으로 작동"
+      ],
+      "uncertainty": "Neutral이 lean_bullish로 바뀌는 조건: 11월 3분기보고서에서 ㎡당 단가가 계속 오르고, 신공장 수율이 기존 라인 수준임이 확인되며, 고객 다변화(40% 비중 하락)와 장기 ROIC 연동 보상 구조가 공개될 때. lean_bearish로 바뀌는 조건: 3분기 단가 상승이 꺾이거나, 재료사(두산·EMC·미쓰이)의 판가 인상이 이수페타시스 판가 인상을 앞지르거나, 주요 고객이 CPO 채택 또는 공급사 추가를 공식화할 때. ROE·ROIC·경영진 보상 정보가 [unavailable]이라는 점 자체가 이 평가의 가장 큰 불확실성이다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "50% 디스카운트는커녕 보수적 내재가치 대비 프리미엄 상태 — 틀리면 -50% 이상 손실 가능",
+        "이익의 원천이 Q가 아닌 P(단가)이며, 2027~28년 재료 병목으로 가격결정력이 CCL·동박 업체로 이동할 가능성",
+        "단일 고객 매출 약 40% — Dhandho가 요구하는 저위험 구조와 정반대"
+      ],
+      "key_opportunities_top3": [
+        "사이클 조정으로 주가가 절반 이하(내재가치 대비 50% 디스카운트, 선행 PER 8~10배 수준)로 내려오면 검증된 다중적층 수율 우위가 진정한 Dhandho 베팅이 될 수 있음",
+        "가동률 96.8%·월 매출 가이던스 1,400~1,550억 원 상향 등 단기 실적 가시성은 높음",
+        "블로그 thesis를 클론한다면 이수페타시스보다 재료(CCL·고급 동박) 쪽이 더 나은 위험/보상 지점일 수 있음"
+      ],
+      "uncertainty": "본 lens는 한국 시장 및 13F 클로닝 검증에 한계가 있다. 11월 3분기 보고서에서 ㎡당 단가가 계속 오르고 6공장·태국 증설이 수율 손실 없이 매출로 전환되며 순이익이 시장 기대(약 4,470억 원)를 크게 상회하는 경로가 2년 이상 지속된다면 보수 시나리오가 틀린 것이고, 그 경우 verdict는 neutral로 조정될 수 있다. 반대로 주가가 40~50% 조정되어 안전마진이 확보되면 lean_bullish로 뒤집힌다. 내재가치 산출의 핵심 가정(OPM 12%, 배수 12배, 순이익 전환율 75%)은 모두 [assumption]이다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "사이클 고점 마진(20.3%)에 고점 배수(EV/EBITDA 29.7배)가 결합되어 안전마진이 없음",
+        "2027년 이후 협상력이 CCL·동박 등 재료 공급사로 이동해 마진이 압축될 가능성 (블로거 본인의 지적)",
+        "단일 고객 매출 비중 약 40%, 설계 변경·공급사 다변화 리스크"
+      ],
+      "key_opportunities_top3": [
+        "다중적층 수율 노하우가 경쟁사 대비 지속적 격차로 확인되면 진정한 공정 해자로 인정 가능",
+        "2027년 신규 공장 가동 후에도 ㎡당 단가와 20% 내외 마진이 유지된다면 가격결정력의 구조적 성격이 입증됨",
+        "사이클 하강기에 주가가 정상화 이익 기준 합리적 배수로 내려오면 그때가 '훌륭한 기업을 공정한 가격에' 살 기회"
+      ],
+      "uncertainty": "다음 가정이 깨지면 verdict가 바뀐다. (1) 정상화 영업이익률 12~15%라는 가정이 틀리고 20% 마진이 수년간 구조적으로 유지된다면 현재 배수는 정당화되어 lean bullish로 이동할 수 있다. (2) 반대로 11월 3분기보고서에서 ㎡당 단가가 꺾이거나 재료비 상승이 판가에 전가되지 못하면 해자 부재가 확인되어 lean bearish로 이동한다. (3) 미확인인 ROIC·부채비율이 매우 우수하거나, 반대로 증설 부채가 과도한 것으로 드러나면 재무건전성 판단이 뒤집힌다. (4) 하이퍼스케일러의 CPO 채택으로 스위치 기판 층수가 실제로 줄어든다는 숫자가 나오면 능력범위 밖으로 재분류한다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "글로벌 유동성·금리·중국 PMI·외국인 수급 등 거시 변수와 VIX·AAII 등 sentiment 지표가 제공되지 않아 regime 판단이 미시 데이터 대체에 의존함 [unavailable]",
+        "2027년 이후 CCL·HVLP 동박 병목으로 가격 협상력이 재료 업체로 이동하면 OPM 20%대 유지 불가",
+        "단일 고객 40% 집중 + CPO(Spectrum-X Photonics) 채택 확산 시 스위치 기판 층수 감소 가능성"
+      ],
+      "key_opportunities_top3": [
+        "capa 거의 고정 상태에서 ㎡ 단가 2년 +31%: 강한 가격결정력의 reflexive loop 진행 중",
+        "1Q27 월 매출 capa 1,500억대·가이던스 상향으로 P와 Q가 동시에 성장하는 첫 구간 진입",
+        "6개월 횡보 후 1개월 +18% 재돌파: 2차 스토리(재료 병목·증설 레버리지)가 아직 컨센서스에 미반영"
+      ],
+      "uncertainty": "11월 3분기보고서에서 ㎡당 단가 상승이 꺾이거나 CCL-기판 가격 스프레드가 역전되면 P 주도 성장 전제가 무너져 verdict는 neutral 이하로 전환된다. 하이퍼스케일러가 자체 스위치의 CPO 채택을 공식화하거나 40% 고객이 공급사 다변화를 발표하면 lean_bearish로 뒤집는다. 또한 미제공된 거시 데이터가 실제로는 유동성 긴축·미국채 장기금리 급등 국면이라면 beta 2.05 종목의 하방 위험이 setup을 무효화하므로, 주가가 약 100,000원 손절선을 이탈하면 서사와 무관하게 청산한다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "매출의 약 40%가 단일 고객에 집중돼 있고 이를 activist 수단으로 방어할 경로가 없음 [actual]",
+        "2027년 이후 가격 결정력이 CCL·동박 등 재료 공급사로 이동해 20% OPM이 압축될 가능성 [inference]",
+        "FCF 마진과 자본배분 트랙레코드가 미검증이며, 동시 증설로 2026~27년 FCF가 압박받을 가능성 [unavailable]/[inference]"
+      ],
+      "key_opportunities_top3": [
+        "2027년 1분기 6공장·태국 공장 가동으로 월 매출 능력 1,200억 → 1,500억 원대 확대, 가이던스 1,400~1,550억 원 [actual]",
+        "CCL(2028년 하반기)·고급 동박(2031년 이후) 증설 지연으로 2027~2028년 재료 확보 능력이 있는 선두 기판사에 마진 집중 가능성 [actual]/[inference]",
+        "2년간 판가 31% 인상이 재료 단가 상승(9~24%)을 상회한 가격 결정력 트랙레코드 [actual]"
+      ],
+      "uncertainty": "2026년 11월 3분기보고서에서 ㎡당 단가가 계속 상승하고 2027년 1분기 신공장이 가이던스대로 가동되며 FCF 흑자 전환이 확인된다면, 가격이 EV/EBITDA 20배 이하로 조정되는 시점에 lean_bullish로 전환할 수 있다. 반대로 11월 단가가 꺾이거나, 주요 고객의 공급사 다변화·설계 변경이 공식화되거나, 하이퍼스케일러의 CPO 채택으로 스위치 기판 층수 감소가 숫자로 확인되면 lean_bearish로 뒤집힌다. 현재 verdict의 가장 큰 가정은 'FCF와 수율이 미검증 상태'라는 점이며, 이 두 숫자가 공개되면 판단이 달라질 수 있다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "2027~2028년 병목이 CCL·HVLP 동박 등 재료로 이동하면 단가 인상력이 재료사로 넘어가 초과 마진이 축소될 수 있음 [inference]",
+        "매출 약 40% 단일 고객 집중 — 고객의 설계 변경·공급사 다변화 시 단가 타격 [actual]",
+        "신규 다중적층 라인(6공장·태국) 수율 램프업 실패 시 비용만 선반영되는 '수율의 역습' 리스크; 회당 수율 비공개로 검증 불가 [unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "AI 서버·스위치 초다층 PCB 수요의 구조성 — 칩 세대마다 신호선·신호속도·전력이 동시 증가해 층수가 신호선보다 빠르게 늘어남 [actual: 회사 반기보고서 설명]",
+        "가동률 96.8%에서 2년간 단가 +31% — 고객이 대체처를 찾지 못한다는 강한 간접 scuttlebutt [inference]",
+        "2027년 1분기 6공장·태국 가동으로 월 매출 능력 1,200억→1,500억 원대, 가이던스 1,400~1,550억 원 상향 [actual]"
+      ],
+      "uncertainty": "Neutral → Lean Bullish로 바뀌는 조건: 11월 3분기보고서에서 ㎡당 단가가 계속 오르고, 6공장·태국 신규 라인의 수율 램프업이 기존 라인 수준으로 확인되며, 단일 고객 비중이 40% 아래로 다변화되고, R&D·특허·경영진 승계 관련 정성 자료가 15-point 12+ 통과를 뒷받침할 때. Neutral → Lean Bearish로 바뀌는 조건: 3분기에 단가가 꺾이거나 재료 매입단가 상승률이 기판 단가 상승률을 넘어서 마진 배분이 재료사로 이동한 것이 확인될 때, 하이퍼스케일러가 자체 스위치에 CPO 채택을 공식화해 층수 감소가 숫자로 나타날 때, 또는 증설 자금 조달을 위한 대규모 희석성 유상증자가 재발할 때. R&D 효율·경영진 깊이·노사관계 항목은 현재 [unavailable]이므로 추가 scuttlebutt에 따라 어느 방향으로든 판정이 크게 움직일 수 있다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "EV/EBITDA 29.7배[actual], 연환산 EV/EBIT 약 28배[derived]로 hard floor 없이 성장 전제가 전부 가격에 반영됨",
+        "이익 증가의 원천이 Q가 아닌 P(+31%)이며, 원재료 CCL 단가가 이미 +24% 상승해 마진 스퀴즈가 시작될 수 있음",
+        "단일 고객 매출 40%[actual] — 단가 협상력이 고객 측에 집중되어 있음"
+      ],
+      "key_opportunities_top3": [
+        "2027년 1분기 월 매출 capa 1,200억→1,500억대[actual], 가이던스 1,400~1,550억 원[actual] 달성 시 이익 레벨업 — 단, 상당 부분 이미 반영",
+        "재료 병목 구간(2027~2028)에서 수율 우위를 입증할 경우 동종 대비 마진 방어 가능 — 검증 시점은 11월 3분기보고서 ㎡당 단가",
+        "주가가 EV/EBIT 12배 이하(약 50,000원대[derived])로 조정될 경우 동일 thesis를 자산 coverage 조건 하에 재검토 가능"
+      ],
+      "uncertainty": "이 판정은 (1) 순부채가 크지 않아 EV≈시총이라는 가정, (2) 인사이더 매수·자사주매입 등 catalyst가 실제로 없다는 [unavailable] 상태, (3) 2분기 영업이익의 단순 연환산이 정상이익을 과소평가하지 않는다는 가정 위에 서 있다. 11월 3분기보고서에서 ㎡당 단가가 계속 상승하고 신규 라인 수율이 기존 수준임이 확인되며 동시에 대주주 또는 경영진의 의미 있는 장내 매수가 나타난다면, 마진 지속성과 catalyst 두 조건이 충족되어 verdict는 neutral로 상향될 수 있다. 반대로 증설 자금 조달을 위한 CB·유상증자 공시가 나오면 lean_bearish 확신도는 더 높아진다. 단, 어떤 경우에도 EV/EBITDA 29.7배 수준에서 lean_bullish로 전환할 hard-number 근거는 현재 없다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "이익 증가가 Q가 아닌 P에서만 나와 narrative 의존도가 극단적 — P 꺾임 시 이익과 narrative 동반 붕괴",
+        "2027~2028년 재료 병목 구간에서 가격결정력이 CCL·동박 업체로 이동하며 20.3% 영업이익률이 peak margin이 될 위험",
+        "단일 고객 매출 약 40% 집중 — 설계 변경·공급사 다변화 시 단가 협상력 급락"
+      ],
+      "key_opportunities_top3": [
+        "2027년 1분기 월매출 생산능력 1,200억 → 1,500억 원대 확대와 가이던스 상향(1,400~1,550억 원)이 실현되면 P에 Q가 더해지는 이익 가속 국면 진입",
+        "수율 곱셈 구조가 기존 고수율 업체의 진입장벽을 만들어 부족 narrative가 예상보다 길게 유지될 수 있음",
+        "블로거가 리스크를 명시적으로 열거하는 등 담론에 회의가 남아 있어 아직 Stage 6 climax 전 — boom 확장 여지 존재"
+      ],
+      "uncertainty": "quant_anchor.json(DCF·reverse DCF)이 없어 Stage 5/6 판정의 핵심 정량 신호가 부재하며, Stage 4 진단은 가격 궤적과 narrative 담론에 대한 [inference]에 의존한다. 11월 3분기보고서에서 ㎡당 단가가 상승을 유지하고 EMC 월매출이 재료 부족을 계속 시사하면 verdict는 lean_bullish로 뒤집힌다. 반대로 단가가 꺾이거나, 하이퍼스케일러가 CPO 채택을 공식화하거나, 40% 고객의 공급사 다변화 뉴스가 나오면 Stage 7 reverse 진입으로 lean_bearish로 전환된다. 또한 주가가 단가 확인 없이 추가 급등해 forward PE가 30배 이상으로 팽창하면 fundamentals 확인 없이도 Stage 5 reality gap으로 재진단하여 lean_bearish로 이동한다.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Graham Number·NCAV 산출에 필요한 EPS·BVPS·유동자산·총부채가 확인되지 않으며, 대리지표(선행 PER 19.5, EV/EBITDA 29.7)는 모두 기준 초과",
+        "이익 성장이 생산량이 아닌 ㎡당 단가 31% 상승에서 발생 — 사이클 고점형 이익으로 정상화 시 EPS 하락 가능",
+        "2027년 이후 CCL·HVLP 동박 병목으로 가격협상력이 재료 공급사로 이동할 수 있음 (블로거 자인)"
+      ],
+      "key_opportunities_top3": [
+        "영업이익률 20.3%, 가동률 96.8%의 실적은 사실이며, 향후 주가가 크게 조정되어 후행 PER 15 이하·PBR 1.5 이하로 내려오면 진취적 투자자용 후보로 재검토 가능",
+        "블로거가 제시한 검증 지표(11월 3분기 ㎡당 단가, EMC 월매출)는 이익 지속성을 객관적으로 추적할 수 있는 좋은 체크포인트",
+        "다중적층 수율 우위가 실제 재무제표(원가율·재고 폐기)로 입증되고 배당 정책이 강화된다면 재무 강건성 점수가 개선될 여지"
+      ],
+      "uncertainty": "본 판단은 EPS·BVPS·유동자산·총부채가 [unavailable]인 상태에서 선행 PER·EV/EBITDA·연환산 영업이익 등 대리지표로 내린 것이다. 사업보고서 기준 후행 EPS와 BVPS가 확인되어 Graham Number가 현재가 118,900원을 33% 이상 상회하거나(예: EPS×BVPS가 약 14억 이상), 유동비율 2.0 이상·부채<자본·7년 연속 흑자가 동시에 확인된다면 Neutral로 상향할 수 있다. 반대로 3분기 ㎡당 단가가 꺾이거나 재료 단가 상승률이 기판 단가 상승률을 역전하면 Lean Bearish 확신도는 더 높아진다. 주가가 50% 이상 조정되어 Graham Number 근처에 도달하는 경우에만 Lean Bullish 재검토 대상이 된다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "성장이 Q가 아닌 P(단가 +31%)에서 왔으며, 2027년 재료 병목 시 가격 결정력이 CCL·동박 업체로 이동해 20% OPM 압축 가능",
+        "Nvidia Spectrum-X Photonics 등 CPO가 스위치 기판 층수를 실제로 줄이면 5-7년 TAM 상한이 축소되는 진짜 disruptive 위협",
+        "단일 고객 매출 비중 약 40% — 설계 변경·공급사 다변화 시 단가 급변"
+      ],
+      "key_opportunities_top3": [
+        "칩 세대마다 신호선·신호속도·전력이 동시에 커져 층수가 신호선보다 빠르게 증가하는 구조적 수요",
+        "수율 곱셈 구조가 만드는 과점 진입장벽 — 안정 멀티램 생산 가능 업체에 이익 집중",
+        "2027년 1분기 6공장·태국 공장 가동으로 월매출 capa 1,200억→1,500억 원, P 주도에서 Q 주도 성장으로 전환"
+      ],
+      "uncertainty": "11월 3분기보고서에서 ㎡당 단가가 꺾이거나, 하이퍼스케일러가 자체 스위치에 CPO 채택을 공식화해 층수 감소가 수치로 확인되면 TAM 확장 전제가 무너져 verdict가 lean_bearish로 뒤집힌다. 반대로 두산 등 CCL 증설이 2028년보다 앞당겨지고 6공장 수율이 조기 안정화되면 confidence를 0.7 이상으로 상향한다. 2027년 가동률 90% 가정과 AI 훈련비용 학습률은 검증되지 않은 추정임을 명시한다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.45,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장가가 5년 매출 CAGR 약 33% + OPM 20% 이상 유지를 요구하는데, 가시적 증설(6공장·태국)은 2027년 +20% 수준까지만 뒷받침 [derived]",
+        "2027~28년 CCL·고급 동박 병목으로 가격 결정력이 재료사로 이동해 마진 압박 가능 [inference]",
+        "단일 고객 40% 의존으로 설계 변경·공급사 다변화 시 단가 급변 리스크 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "㎡당 단가가 3분기에도 상승 지속 확인 시 steady-state 마진을 20%로 상향, 내재가치 약 100,000원대로 재조정 가능 [derived]",
+        "재료 병목 구간에서 '재료를 확보한 고수율 기판사'로 남으면 경쟁사 대비 시장점유율 확대로 성장률 상향 여지 [inference]",
+        "6공장·태국 공장이 계획대로 2027년 1분기 가동되고 월매출 1,550억 상단 달성 시 2027년 매출 1.86조원, 성장 가정의 하방 리스크 축소 [actual]"
+      ],
+      "uncertainty": "이 verdict는 steady-state 마진 18%와 5년 성장 25%라는 가정에 의존한다. 3분기보고서에서 ㎡당 단가가 계속 오르고 6공장·태국 증설 수율이 확인되어 2028년 이후 추가 증설(연 30%+ 성장)이 가시화되면 내재가치가 현재가 근처(±30% 이내)로 수렴해 neutral로 뒤집힌다. 반대로 단가가 꺾이거나 하이퍼스케일러가 CPO 채택을 공식화하면 마진·성장 가정이 더 낮아져 lean_bearish 확신이 강해진다. 순부채·재투자 데이터가 [unavailable]이라 주당 내재가치의 오차 범위는 ±15% 정도로 넓다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "매출 40% 단일 고객 — 설계 변경·공급사 다변화 한 번에 단가 체제가 무너지는 단일 장애점",
+        "가동률 96.8%로 slack이 없어 신규 라인 수율 실패·소재 조달 차질이 즉시 매출 손실로 전이",
+        "2027~2028년 소재(CCL·HVLP 동박) 병목 구간에서 가격 결정력이 소재 업체로 이동 → 증설 고정비 증가 + 마진 압축의 negative convexity"
+      ],
+      "key_opportunities_top3": [
+        "다중적층 수율이 실제로 경쟁사보다 높다면 소재 부족 구간에서 '같은 재료로 더 많이 파는' antifragile 위치 — 다만 회사가 수율을 공개하지 않아 검증 필요",
+        "6공장·태국 공장은 이미 capex가 집행된 상태라 수율만 잡히면 2027년 1분기 월매출 1,500억 원대로의 계단식 상향이 free option에 가깝게 작동",
+        "11월 3분기 보고서의 ㎡당 단가와 EMC 월매출이라는 명확한 검증 지표가 있어 fragile → robust 재판정 조건이 사전에 정의 가능"
+      ],
+      "uncertainty": "다음 중 하나가 확인되면 verdict는 neutral 또는 lean_bullish로 뒤집힌다: (1) 3분기 보고서에서 ㎡당 단가가 계속 오르면서 동시에 상위 고객 비중이 40% 아래로 분산되는 것, (2) 신규 라인의 수율이 기존 라인 수준임을 회사가 수치로 공개하는 것, (3) 경영진·최대주주 지분이 높고 보상이 장기 ROE에 연동됨이 확인되는 것. 반대로 CPO가 층수를 실제로 줄인다는 데이터가 나오면 lean_bearish 확신도가 0.8 이상으로 올라간다. 회당 적층 수율과 경영진 지분율은 현재 [unavailable]이며, 이 두 숫자가 본 판정의 가장 큰 미지수다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

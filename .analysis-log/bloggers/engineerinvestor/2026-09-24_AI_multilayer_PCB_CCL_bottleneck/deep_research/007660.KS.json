@@ -1,0 +1,813 @@
+{
+  "industry": {
+    "name": "AI 서버·네트워크 스위치용 고다층 PCB(MLB) — 기판 제조 단계",
+    "overview": "이수페타시스는 AI 가속기 보드와 800G·1.6T 네트워크 스위치용 초다층 MLB를 만드는 기판 제조사로, 밸류체인에서 칩(브로드컴 토마호크6·하이퍼스케일러 ASIC)과 재료(CCL·프리프레그·HVLP 동박) 사이에 위치함. 재료를 사서 회로를 그리고 여러 번 나눠 눌러 붙이는(다중적층·멀티램) 단계라 수율과 고객 인증이 경쟁력의 핵심임. 반기보고서(DART 2026-08-14, rcept 20260814002283) 기준 대구공장 생산능력은 26H1 119천㎡로 2025년 228천㎡ 대비 연환산 +4.4%에 그쳤고, 가동률은 96.8%(시간 기준)임 [actual]. 같은 기간 ㎡당 평균단가는 3,723,084원(2024) → 4,452,332원(2025) → 4,875,174원(26H1)으로 +30.9% 올랐음 [actual]. 회사는 단가 상승 원인을 '고부가 제품군 매출 비중 확대'로 적어, 같은 제품의 가격 인상보다 층수·멀티램 비중 변화(믹스)가 주도한 것으로 봐야 함 [actual/inference]. 별도로 하반기 주요 고객과 평균 15% 내외 판가 인상 협상 보도가 있음(아시아경제 2026-09-01, 10월 확정·4Q 반영 예상) [actual 보도]. 최대 고객 매출 비중은 연결 기준 약 40%(10% 이상 고객 1개사)이고 반기보고서는 AI 가속기 주요 고객을 G사·N사로 적음 [actual]. 8월 신규 하이퍼스케일러 2곳 확보 보도(키움증권, 이투데이 2026-08-19)로 편중은 완화되는 중임. 원재료 매입의 81%가 CCL(47.61%)·프리프레그(33.45%)이고 동박은 0.60%라, HVLP 동박 부족은 CCL 가격·납기를 거쳐 간접적으로 전달됨 [actual]. CCL 매입처는 Panasonic·EMC·두산전자이고 매입단가는 수입 49.62 → 61.29 USD/㎡(+23.5%), 국산 48.03 → 52.52 USD/㎡(+9.3%)로 올랐음 [actual]. 재료 증설은 블로그 서술(기판보다 1.5~4년 늦음)과 달리 2026~27년 중간 단계가 여럿 있음(C28 반박) — EMC 월 580만 장(2025) → 945만 장(2027년 말), 미쓰이금속 VSP 840t(2026) → 1,000t(2027), 金居 HVLP3·4 2027년 말 +600t/월, ㈜두산 기존 태국·창수 라인 증설임 [actual, MoneyDJ·三井金属 IR]. 따라서 2027년은 '재료 물량 절대 부족'보다 '재료 가격 인상이 이어지는 구간'에 가깝다고 봄 [inference] — Panasonic MEGTRON 1차 +20%(5/1)·2차 약 15~30%(9/1), EMC 3~4월 15~25% 인상 [actual].",
+    "market_position": "2Q26 연결 매출 3,799억 원(+57.4% YoY)·영업이익 771억 원(OPM 20.3%)으로 분기 최대, 수주잔고 6,222억 원(+97% YoY, 아주경제 2026-08-19) [actual]. 멀티램 매출 비중 1Q26 7% → 2Q26 11%(메리츠, 헤럴드경제 2026-08-19) [actual 보도], 2026년 30~31%(신한)·2027년 말 약 70%(메리츠 2026-09-22) 전망 [estimated]. 월 매출 캐파 약 1,200억(2Q26 또는 3Q26 — 보도 간 차이, 확인 불가) → 1,500억(1Q27) → 1,800억(2Q27) 계획 [actual 보도]. 6공장 1Q27 완공 목표(추가분은 1Q~2Q27로 보도 차이), 태국 공장 6개 고객 확보·1Q27 양산 예정(금융소비자뉴스 2026-07-09) [actual 보도].",
+    "demand_drivers": [
+      "스위치 세대 교체 — 브로드컴 토마호크6(2025-06 출하, 102.4Tbps, 100G SerDes 최대 1,024개)로 칩 밖으로 나가는 차동 신호선이 약 4,096가닥(1,024 × 송수신 2쌍) [actual, Broadcom 보도자료] → 신호층·접지층 동반 증가",
+      "하이퍼스케일러 ASIC 가속기 — 메리츠는 4Q26부터 TPUv8X·신규 ASIC·1.6T 스위치 기판 양산 본격화를 전망(이투데이 2026-09-22) [estimated]",
+      "고객 다변화 — 8월 신규 하이퍼스케일러 2곳 확보, 그중 1곳은 4Q부터 다층 스위치 기판 공급 개시(키움, 이투데이 2026-08-19) [actual 보도]",
+      "믹스 상향 — 멀티램 제품 ASP가 기존 제품의 2배 이상(메리츠) [estimated], 멀티램 비중 상승이 ㎡당 단가를 끌어올림",
+      "재료 가격 전가 — 주요 고객과 평균 15% 내외 판가 인상 협상(아시아경제 2026-09-01) [actual 보도]"
+    ],
+    "competitive_moat": "① 다중적층(멀티램) 양산 수율 — 회사 스스로 '다중적층 제품의 안정적인 생산 여부가 모든 PCB 회사에 있어 중요한 경쟁력'이라고 적음(반기보고서) [actual]. ② 북미 하이퍼스케일러 AI 가속기·스위치 인증 이력과 수주잔고 6,222억(+97%) [actual]. ③ 한계 — 회당 적층 수율은 비공개라 수율 우위를 숫자로 확인할 수 없고 [unavailable], 대만·중국 경쟁사(GCE·WUS·VGT·Shennan 등)도 2026~27년 태국·중국 증설을 진행 중이라는 4-Analyst industry 평가가 있음(본 조사에서 캐파 수치 미검증) [inference]. 해자는 '인증된 멀티램 수율'에 있고, 증설 라인에서 이를 재현하는지가 2027년의 검증 포인트임.",
+    "value_chain": [
+      {
+        "stage": "칩·시스템(수요처)",
+        "players": "브로드컴(토마호크6), 하이퍼스케일러 ASIC(반기보고서상 G사·N사)",
+        "note": "최대 고객 약 40% [actual]"
+      },
+      {
+        "stage": "기판(본 종목)",
+        "players": "이수페타시스 — 대구 본사·후난 법인·태국(1Q27)",
+        "note": "캐파 +4.4%, 가동률 96.8%, ASP +30.9% [actual]"
+      },
+      {
+        "stage": "CCL(THIN CORE) 47.61%",
+        "players": "Panasonic · EMC(2383.TW) · 두산전자(㈜두산 전자BG)",
+        "note": "매입단가 수입 +23.5%, 국산 +9.3% [actual]"
+      },
+      {
+        "stage": "프리프레그 33.45%",
+        "players": "Panasonic · TUC · 두산전자",
+        "note": "수입 18.44 → 19.89 USD/㎡ [actual]"
+      },
+      {
+        "stage": "동박 0.60%",
+        "players": "롯데에너지머티리얼즈 · Circuit Foil Luxemburg",
+        "note": "HVLP는 대부분 CCL에 붙어 들어옴 [actual]"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Gold Circuit Electronics",
+        "ticker": "2368.TW",
+        "share_pct": null,
+        "moat": "대만 고다층 MLB, 태국 신공장 2026~27 가동 계획으로 거론(4-Analyst industry 평가) — 점유율·캐파 확인 불가 [inference]"
+      },
+      {
+        "name": "WUS Printed Circuit",
+        "ticker": "2316.TW",
+        "share_pct": null,
+        "moat": "대만 스위치·서버 MLB, 태국 증설로 거론(4-Analyst industry 평가) — 확인 불가 [inference]"
+      },
+      {
+        "name": "Victory Giant Technology",
+        "ticker": "300476.SZ",
+        "share_pct": null,
+        "moat": "중국 AI 서버 기판 증설 업체로 거론(4-Analyst industry 평가) — 확인 불가 [inference]"
+      },
+      {
+        "name": "Shennan Circuits",
+        "ticker": "002916.SZ",
+        "share_pct": null,
+        "moat": "중국 통신·서버 기판 대형사로 거론(4-Analyst industry 평가) — 확인 불가 [inference]"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-07-09",
+        "title": "이수페타시스, '대구 중심 및 태국 신규 거점' 단계적 캐파 확장",
+        "source": "금융소비자뉴스",
+        "summary": "6공장 1Q27 완공 목표, 태국 공장 6개 고객 확보·1Q27 양산 예정",
+        "url": "https://www.newsfc.co.kr/news/articleView.html?idxno=79796"
+      },
+      {
+        "date": "2026-07-28",
+        "title": "이수페타시스, 16%대 급락 마감…차익실현 매물 쏟아져",
+        "source": "재경일보",
+        "summary": "71,400원(-16.78%). AI 밸류에이션 논란 속 기관·외국인 동반 매도",
+        "url": "https://news.jkn.co.kr/post/949507"
+      },
+      {
+        "date": "2026-08-14",
+        "title": "반기보고서(2026.06) 제출",
+        "source": "DART",
+        "summary": "대구공장 캐파 119천㎡·가동률 96.8%, ㎡당 평균단가 487.5만 원(믹스 효과), 최대 고객 매출 비중 약 40%, CCL 수입단가 $61.29/㎡",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002283"
+      },
+      {
+        "date": "2026-08-19",
+        "title": "이수페타시스, 증설·판가 인상···실적 성장 '탄력'",
+        "source": "뉴스웨이",
+        "summary": "2Q 매출 3,799억·OP 771억(OPM 20.3%), 1Q27 월매출 가이던스 1,400→1,550억, 하반기 평균 15% 안팎 판가 인상 효과 예상, 7공장(HDI 전용) 검토",
+        "url": "https://newsway.co.kr/news/view?ud=2026081908205170796"
+      },
+      {
+        "date": "2026-08-19",
+        "title": "[특징주] 이수페타시스, 분기 최대 실적에 6공장 추가 증설… 5%대 강세",
+        "source": "아주경제",
+        "summary": "6공장 추가 증설 1000억원대 중반, 수주잔고 6,222억, 신규 하이퍼스케일러 2곳",
+        "url": "https://www.ajunews.com/view/20260819100358971"
+      },
+      {
+        "date": "2026-08-19",
+        "title": "키움證, \"이수페타시스, 주가 발목 잡던 우려 털어내⋯목표가 19만원\"",
+        "source": "이투데이",
+        "summary": "신규 대형 하이퍼스케일러 2곳 확보로 단일 고객 의존 우려 완화",
+        "url": "https://www.etoday.co.kr/news/view/2615697"
+      },
+      {
+        "date": "2026-09-01",
+        "title": "분기 최대실적 기록한 이수페타시스…'삼박자' 들어맞으며 성장 예고",
+        "source": "아시아경제",
+        "summary": "월 캐파 2Q26 1,200억 → 1Q27 1,500억 → 1,800억, 평균 15% 내외 판가 인상 논의(10월 확정·4Q 적용 예상), 한 달 기관 순매수 2,456억",
+        "url": "https://view.asiae.co.kr/article/2026090111481592245"
+      },
+      {
+        "date": "2026-09-22",
+        "title": "이수페타시스, 다중적층 설비 증설로 수익성 개선 기대…목표가↑-신한",
+        "source": "한국경제",
+        "summary": "목표가 16만→17만, 2Q ASP +21% YoY·+14% QoQ, 멀티램 매출 비중 2026년 30% 전망",
+        "url": "https://www.hankyung.com/article/2026092296276"
+      },
+      {
+        "date": "2026-09-22",
+        "title": "메리츠 \"이수페타시스, 3분기 영업익 65% 증가 전망⋯AI향 고다층 기판 성장\"",
+        "source": "이투데이",
+        "summary": "3Q26E 매출 4,349억·OP 965억, 2027E OP 5,630억(컨센서스 5,281억 대비 +6.6%), 목표가 16만 원 유지",
+        "url": "https://www.etoday.co.kr/news/view/2628260"
+      }
+    ]
+  },
+  "financials": {
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 3635.0,
+        "op_income": 437.0,
+        "op_margin": 12.0,
+        "net_income": 29.4,
+        "net_margin": 0.8
+      },
+      {
+        "year": 2022,
+        "revenue": 4972.1,
+        "op_income": 963.7,
+        "op_margin": 19.4,
+        "net_income": 855.5,
+        "net_margin": 17.2
+      },
+      {
+        "year": 2023,
+        "revenue": 5790.5,
+        "op_income": 502.2,
+        "op_margin": 8.7,
+        "net_income": 364.4,
+        "net_margin": 6.3
+      },
+      {
+        "year": 2024,
+        "revenue": 7187.3,
+        "op_income": 784.8,
+        "op_margin": 10.9,
+        "net_income": 652.5,
+        "net_margin": 9.1
+      },
+      {
+        "year": 2025,
+        "revenue": 9296.6,
+        "op_income": 1521.4,
+        "op_margin": 16.4,
+        "net_income": 1578.5,
+        "net_margin": 17.0
+      }
+    ],
+    "unit": "억원 (별도 기준 — DART 사업보고서 OFS. `_research/financials_007660.KS.json`의 십억 원 값을 ×10 해서 억 원으로 환산함)",
+    "financial_unit": {
+      "label": "억 원 (별도)"
+    },
+    "bs_snapshot": {
+      "total_assets": 11878.5,
+      "total_liab": 4322.5,
+      "equity": 7556.0,
+      "cash": 1259.9,
+      "debt": 400.0,
+      "as_of": "2025-12-31 (별도)",
+      "_note": "2025년 말 별도 기준, 억 원 [actual, DART]. 총부채는 DART 부채총계 432,251,381,851원으로 정정함 — financials_007660.KS.json의 total_liab 11,878.5억(1,187.8십억)은 '자본과부채총계'가 잘못 매칭된 값임. 총차입금 400억은 차입금 잔액이 아니라 2025년 현금흐름표의 '장기차입금의 증가'(신규 차입액)가 매칭된 값이라 잔액 기준 부채비율 계산에 쓰지 않음(차입금 잔액은 확인 불가). 부채/자본 57.2% [derived]."
+    },
+    "cf_summary": {
+      "basis": "별도(OFS) 2021~2025, 억 원 — DART fnlttSinglAcntAll 직접 조회(2026-09-24) [actual]; 평균·FCF는 [derived]",
+      "ocf_by_year": {
+        "2021": 41.3,
+        "2022": 258.1,
+        "2023": 315.3,
+        "2024": 667.6,
+        "2025": 1260.0
+      },
+      "capex_by_year": {
+        "2021": 103.7,
+        "2022": 368.0,
+        "2023": 580.1,
+        "2024": 494.7,
+        "2025": 1450.7
+      },
+      "fcf_by_year": {
+        "2021": -62.4,
+        "2022": -109.9,
+        "2023": -264.8,
+        "2024": 172.9,
+        "2025": -190.8
+      },
+      "ocf_5y_avg": 508.5,
+      "fcf_5y_avg": -91.0,
+      "capex_intensity": 0.097,
+      "consolidated_1h26": {
+        "ocf": -496.2,
+        "capex": 790.6,
+        "fcf": -1286.8,
+        "note": "연결 1H26 [actual, DART 반기보고서 rcept 20260814002283]; FCF [derived]. 순이익 1,101.5억에도 영업현금흐름이 −496.2억 — 운전자본 변동 −1,869.5억(매출채권 2,141.3 → 3,432.8억, 재고 2,987.9 → 3,744.3억)"
+      }
+    },
+    "consolidated": {
+      "unit": "억 원 (연결, DART 사업보고서·반기보고서 CFS 직접 조회) [actual]",
+      "pl_5y": [
+        {
+          "year": 2021,
+          "revenue": 4696.2,
+          "op_income": 468.8,
+          "op_margin": 10.0,
+          "net_income": -36.0,
+          "net_margin": -0.8,
+          "note": "순손실은 중단영업손실 −352.6억 때문임(계속영업이익 316.5억)"
+        },
+        {
+          "year": 2022,
+          "revenue": 6429.2,
+          "op_income": 1166.2,
+          "op_margin": 18.1,
+          "net_income": 1024.7,
+          "net_margin": 15.9
+        },
+        {
+          "year": 2023,
+          "revenue": 6753.3,
+          "op_income": 621.7,
+          "op_margin": 9.2,
+          "net_income": 477.2,
+          "net_margin": 7.1
+        },
+        {
+          "year": 2024,
+          "revenue": 8368.7,
+          "op_income": 1018.8,
+          "op_margin": 12.2,
+          "net_income": 740.3,
+          "net_margin": 8.8
+        },
+        {
+          "year": 2025,
+          "revenue": 10880.3,
+          "op_income": 2047.2,
+          "op_margin": 18.8,
+          "net_income": 1604.8,
+          "net_margin": 14.7
+        }
+      ],
+      "interim_2026": [
+        {
+          "period": "1H26",
+          "revenue": 7201.7,
+          "op_income": 1442.9,
+          "op_margin": 20.0,
+          "net_income": 1101.5,
+          "yoy": "매출 +45.8% · OP +60.8% (1H25 매출 4,939.1억 · OP 897.5억) [derived]",
+          "tag": "[actual]",
+          "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002283"
+        },
+        {
+          "period": "2Q26",
+          "revenue": 3798.9,
+          "op_income": 770.6,
+          "op_margin": 20.3,
+          "net_income": 597.1,
+          "yoy": "매출 +57.4% · OP +83% YoY (한국경제 2026-09-22 · 뉴스웨이 2026-08-19)",
+          "gross_margin_pct": 25.1,
+          "tag": "[actual]",
+          "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002283"
+        }
+      ],
+      "bs_1h26": {
+        "total_assets": 14667.5,
+        "total_liab": 6069.6,
+        "equity": 8597.9,
+        "equity_parent": 8590.8,
+        "cash": 1443.5,
+        "receivables": 3432.8,
+        "inventory": 3744.3,
+        "tag": "[actual]",
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002283"
+      },
+      "cf_2025": {
+        "ocf": 1687.5,
+        "capex": 1534.6,
+        "fcf": 152.9,
+        "financing_cf": 2621.8,
+        "note": "OCF·capex·재무활동 [actual, DART 2025 사업보고서 연결], FCF [derived]. 2025년 자본총계 3,275.3억 → 7,562.0억(+4,286.7억)으로 순이익을 크게 넘어 자본 조달이 있었던 것으로 보임 [inference] — 세부 확인 불가"
+      }
+    },
+    "peer_compare": [
+      {
+        "ticker": "007660.KS",
+        "name": "이수페타시스 (fwd PE)",
+        "pe": 19.52,
+        "pb": null,
+        "roe": null,
+        "div_yield": 0.19
+      },
+      {
+        "ticker": "2383.TW",
+        "name": "EMC(엘리트 머티리얼) (fwd PE)",
+        "pe": 22.15,
+        "pb": 31.02,
+        "roe": null,
+        "div_yield": 0.5
+      },
+      {
+        "ticker": "000150.KS",
+        "name": "두산 (fwd PE)",
+        "pe": 34.24,
+        "pb": null,
+        "roe": null,
+        "div_yield": 0.4
+      },
+      {
+        "ticker": "5706.T",
+        "name": "미쓰이금속 (fwd PE)",
+        "pe": 38.28,
+        "pb": 3.12,
+        "roe": null,
+        "div_yield": 0.12
+      },
+      {
+        "ticker": "353200.KS",
+        "name": "대덕전자 (fwd PE)",
+        "pe": 18.88,
+        "pb": null,
+        "roe": null,
+        "div_yield": 0.42
+      }
+    ],
+    "peer_note": "블로그 밸류체인 5종목 비교 — pe 열은 yfinance forward PE(live, 2026-09-23/24), ROE는 미수집. ㈜두산은 지주사라 직접 비교 불가",
+    "data_limitation": "pl_5y·bs_snapshot은 dart_client 기본 fetch(fs_div=OFS)라 별도 기준임. 2Q26 3,799억·771억 등 분기 수치와 증권사 추정은 연결 기준이라 'consolidated' 블록(연결 2021~2025·1H26, DART 직접 조회)과 함께 봐야 함 — 2025년 연결 매출 10,880.3억 vs 별도 9,296.6억. 원 파일의 total_liab(=자산총계)와 debt(=장기차입금 신규 차입액)는 계정 매칭 오류라 bs_snapshot._note에 정정·설명함. cf_summary는 원 파일에 비어 있어 DART에서 직접 조회해 채움. 분기 수치는 1H26·2Q26만 넣었고 그 밖의 분기는 넣지 않음.",
+    "trend_narrative": "- 별도 매출은 3,635억(2021) → 9,297억(2025)으로 4년 CAGR +26.5% [derived], 연결은 4,696억 → 10,880억(CAGR +23.4%) [derived]임.\n- 영업이익률은 사이클을 탐 — 별도 OPM 19.4%(2022) → 8.7%(2023) → 16.4%(2025), 2023년 하락은 전방(네트워크 장비) 재고조정 구간과 겹침 [inference].\n- 2026년은 연결 1H 매출 7,202억(+45.8%)·OP 1,443억(+60.8%), 2Q OPM 20.3%로 2022년 고점(연결 18.1%)을 넘음 [actual].\n- 같은 기간 대구공장 면적 캐파는 연환산 +4.4%라, 성장은 ㎡당 단가(+30.9%, 회사 설명상 고부가 제품 믹스)가 이끌었음 [actual].\n- 현금흐름은 이익을 따라가지 못함 — 별도 5년 FCF 합계 −455억 [derived], 1H26 연결 OCF −496억(매출채권 +60.3%, 재고 +25.3%) [actual/derived]. 재고 증가는 원재료 3~4개월치 선확보(메리츠, 파이낸셜뉴스 2026-09-22)와 부합함.\n- 6공장 추가 증설(1,000억 원대 중반, 아주경제 2026-08-19)과 태국 공장으로 2026~27년 capex 부담이 이어져 FCF 흑자 전환은 2027년 이후 램프 성과에 달림 [inference].",
+    "key_ratios": {
+      "current_price_krw": 118900.0,
+      "market_cap_krw_bn": 8728.36,
+      "shares_outstanding_mn": 73.41,
+      "shares_note": "[derived] 시총 8,728.36십억 ÷ 118,900원 = 7,341만 주. 교차검증: ㈜이수 19,183,225주 = 26.13%(DART 대량보유 2026-09-04) → 7,341만 주, 1H26 순이익 1,101.5억 ÷ EPS 1,501원 = 7,339만 주",
+      "forward_pe": 19.52,
+      "trailing_pe_ltm_derived": 43.4,
+      "trailing_pe_note": "[derived] 시총 87,283.6억 ÷ LTM 연결 순이익 2,009.6억(2025 1,604.8 − 1H25 696.7 + 1H26 1,101.5). yfinance trailing_pe는 null",
+      "pb_derived": 10.2,
+      "pb_note": "[derived] 시총 ÷ 1H26 지배주주 자본 8,590.8억(DART). yfinance pb는 null",
+      "ev_ebitda": 29.71,
+      "beta": 2.05,
+      "div_yield_pct": 0.19,
+      "return_1m_pct": 18.19,
+      "return_3m_pct": 10.81,
+      "return_6m_pct": -0.97,
+      "return_1y_pct": 58.85,
+      "volatility_annualized_pct": 90.95,
+      "source": "yfinance 1.7.0 (live), as_of 2026-09-23 + DART"
+    },
+    "consensus": {
+      "avg_target_price_krw": 159647,
+      "avg_target_source": "한국경제 마켓 컨센서스(2026-09-23 기준), 투자의견 '매수' — https://markets.hankyung.com/stock/007660/consensus [actual]",
+      "op_2027e_consensus_krw_100m": 5281,
+      "op_2027e_consensus_source": "파이낸셜뉴스 2026-09-22(메리츠증권 리포트 인용: 메리츠 5,630억은 컨센서스 5,281억 대비 +6.6%) — https://www.fnnews.com/news/202609220752528698 [actual]",
+      "brokers": [
+        {
+          "broker": "메리츠증권(양승수)",
+          "date": "2026-09-22",
+          "target_price": 160000,
+          "estimates": "3Q26E 매출 4,349억(+46.9% YoY)·OP 965억(+65.2%), 2027E OP 5,630억(+60.4% YoY). 멀티램 비중 10% 초반 → 2027년 말 약 70%, 4Q26부터 TPUv8X·1.6T 스위치 기판 양산",
+          "url": "https://www.etoday.co.kr/news/view/2628260"
+        },
+        {
+          "broker": "메리츠증권",
+          "date": "2026-08-19",
+          "target_price": 160000,
+          "estimates": "2026E OP 3,486억, 2027E OP 5,363억, 목표 PER 30.9배 → 26배로 하향(글로벌 피어 약세)",
+          "url": "https://biz.heraldcorp.com/article/10845435"
+        },
+        {
+          "broker": "다올투자증권",
+          "date": "2026-08-19",
+          "target_price": 180000,
+          "estimates": "2026E OP 3,538억, 2027E OP 5,149억",
+          "url": "https://biz.heraldcorp.com/article/10845435"
+        },
+        {
+          "broker": "키움증권(권민규)",
+          "date": "2026-08-19",
+          "target_price": 190000,
+          "estimates": "1Q27 월매출 가이던스 1,400 → 1,550억, 신규 하이퍼스케일러 2곳, 주요 고객과 약 15% 판가 인상 진행",
+          "url": "https://www.etoday.co.kr/news/view/2615697"
+        },
+        {
+          "broker": "신한투자증권(오강호)",
+          "date": "2026-09-22",
+          "target_price": 170000,
+          "estimates": "목표가 16만 → 17만, 2Q ASP +21% YoY·+14% QoQ, 멀티램 매출 비중 2026년 30% 전망",
+          "url": "https://www.hankyung.com/article/2026092296276"
+        }
+      ],
+      "note": "증권사 목표가(16만~19만 원)와 추정치는 참고용 [estimated]. 본 보고서 시나리오는 아래 산식으로 별도 산정함"
+    }
+  },
+  "scenarios": {
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 188000,
+      "thesis": "멀티램 믹스 상향 + 4Q 판가 인상 + 신규 라인 순조 → 2027E OP 약 6,000억, PER 30배",
+      "narrative": "- 4Q26 TPUv8X·1.6T 스위치 기판 양산과 신규 하이퍼스케일러 2곳 공급이 계획대로 시작되고, 주요 고객과의 15% 내외 판가 인상이 4Q부터 온기 반영됨.\n- 6공장·태국이 1Q27에 가동돼 월 매출 캐파 1,500억 → 1,800억(2Q27)을 채우고, 멀티램 비중이 2027년 말 약 70%(메리츠)에 근접해 ㎡당 단가 상승이 이어짐.\n- 재료 쪽 중간 증설(EMC 945만 장·미쓰이 1,000t, C28)과 3~4개월치 재고 선확보로 물량 차질은 없고, CCL 인상분은 판가로 넘김.\n- 산식: 2027E 매출 2.3조 원 [assumption] × OPM 26% [assumption] = OP 5,980억(메리츠 5,630억 상회) → × 순이익/영업이익 77% [derived: 2Q26 77.5%·1H26 76.3%·2025 연결 78.4%, DART] = 순이익 4,605억 → ÷ 주식수 7,341만 주 [derived] = EPS 6,272원 → × PER 30배 [assumption: 메리츠 8월 이전 목표 PER 30.9배 수준] = 188,000원(현재가 118,900원 대비 +58.1%) [derived].",
+      "key_assumptions": [
+        "2027E 매출 2.3조 원·OPM 26% [assumption] — 컨센서스 OP 5,281억 대비 +13%",
+        "15% 판가 인상 4Q26 확정·온기 반영, CCL 원가 상승분 전액 전가 [assumption]",
+        "태국·6공장 신규 멀티램 라인 수율이 대구 수준에 조기 도달 [assumption]",
+        "목표 PER 30배(2027E) — 메리츠 8월 이전 30.9배, 신한 35배 하단 [assumption]"
+      ],
+      "price_target_logic": "2.3조 × 26% = 5,980억 → × 0.77 = 4,605억 → ÷ 7,341만 주 = 6,272원 → × 30 = 188,160원 ≈ 188,000원"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 126000,
+      "thesis": "물량 증설은 진행되지만 재료 가격 인상이 이어지고 단가는 믹스 주도 → 2027E OP 4,800억, PER 25배",
+      "narrative": "- C28 반박을 반영함: 재료(CCL·HVLP) 증설이 2026~27년에도 단계적으로 들어와 이수페타시스 신규 공장이 재료 부족으로 멈출 가능성은 낮지만, 블로그가 말한 '재료 쪽으로의 가격 결정력 이동'은 물량 부족이 아니라 재료 가격 인상(Panasonic 2차 15~30%, EMC 15~25%)의 형태로 나타남.\n- ㎡당 단가 +30.9%는 회사 설명상 고부가 믹스 효과라, 2027년 단가 상승도 멀티램 비중 상승에 기대는 구조임 — 같은 제품의 가격 결정력으로 보지 않고 OPM 확장을 제한적으로 가정함.\n- CCL(매출 대비 약 17.5%)·프리프레그(약 12.3%) 원가 상승을 15% 판가 인상과 믹스로 대부분 상쇄해 OPM은 1H26 20.0%에서 24%로 소폭 개선에 그침.\n- 태국·6공장 초기 수율 램프로 캐파 기반 매출(연 2.07조: 1,500억×3 + 1,800억×9)의 약 97%만 달성.\n- 산식: 2027E 매출 2.0조 원 [assumption] × OPM 24% [assumption] = OP 4,800억(컨센서스 5,281억 대비 −9%) → × 순이익/영업이익 77% [derived: 2Q26 77.5%·1H26 76.3%·2025 연결 78.4%, DART] = 순이익 3,696억 → ÷ 주식수 7,341만 주 [derived] = EPS 5,035원 → × PER 25배 [assumption: 메리츠 목표 26배(2026-08-19)에서 beta 2.05·변동성 91% 감안해 1배 할인] = 126,000원(+6.0%) [derived].",
+      "key_assumptions": [
+        "2027E 매출 2.0조 원 — 월 매출 캐파 1,500억(1Q27) → 1,800억(2Q27) 기준 연 2.07조의 약 97% [assumption]",
+        "OPM 24% — 재료 가격 인상(C28로 물량보다 가격 병목)을 15% 판가 인상·믹스로 대부분 상쇄 [assumption]",
+        "㎡당 단가 상승은 멀티램 믹스 주도(회사 설명), 동일 제품 가격 결정력은 가정하지 않음 [actual/assumption]",
+        "목표 PER 25배(2027E) — 현재가는 base EPS 기준 23.6배, yfinance forward PE 19.5배 [derived/actual]"
+      ],
+      "price_target_logic": "2.0조 × 24% = 4,800억 → × 0.77 = 3,696억 → ÷ 7,341만 주 = 5,035원 → × 25 = 125,870원 ≈ 126,000원"
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 68000,
+      "thesis": "신규 멀티램 라인 수율 부진·원가 미전가·최대 고객 다변화 → 2027E OP 3,600억(2026E 수준 정체), PER 18배",
+      "narrative": "- 6공장·태국(회사 첫 해외 그린필드) 멀티램 라인이 수율을 잡지 못해 비용이 먼저 들어오고(블로그의 '수율의 역습'), 캐파 증가가 매출로 이어지지 않음.\n- Panasonic 2차 인상(9/1, 15~30%) 등 CCL·프리프레그 가격 상승을 판가로 넘기지 못함 — CCL+프리프레그가 매출의 약 29.8%라 15% 미전가 시 OPM 약 −4.5%p [derived].\n- 약 40%를 차지하는 최대 고객이 공급사를 늘리거나 설계를 바꿔 단가가 흔들리고(7/28 −16.78% 당시 '설계 다변화 루머' 전례), 3Q 보고서 ㎡당 단가가 꺾임.\n- 하이퍼스케일러 자체 스위치 CPO 채택 공식화로 스위치 기판 층수 축소 우려가 멀티플을 누름(9/17 대만 CCL주 급락 전례).\n- 산식: 2027E 매출 1.9조 원 [assumption] × OPM 19% [assumption] = OP 3,610억(메리츠·다올 2026E 3,486~3,538억 수준에서 정체) → × 순이익/영업이익 77% [derived: 2Q26 77.5%·1H26 76.3%·2025 연결 78.4%, DART] = 순이익 2,780억 → ÷ 주식수 7,341만 주 [derived] = EPS 3,787원 → × PER 18배 [assumption: 성장 정체 시 yfinance forward PE 19.5배 하회] = 68,000원(−42.8%) [derived]. 7/30 저점 59,200원(재경일보)을 감안하면 변동성 91%에서 이 수준 도달은 비현실적이지 않음.",
+      "key_assumptions": [
+        "2027E 매출 1.9조 원·OPM 19% — 신규 라인 수율 부진과 원가 미전가 [assumption]",
+        "최대 고객(약 40%) 공급사 다변화로 단가 압박 [assumption]",
+        "CPO 채택 가시화로 목표 PER 18배까지 디레이팅 [assumption]"
+      ],
+      "price_target_logic": "1.9조 × 19% = 3,610억 → × 0.77 = 2,780억 → ÷ 7,341만 주 = 3,787원 → × 18 = 68,160원 ≈ 68,000원"
+    },
+    "probability_weighted_price": 127000,
+    "probability_weighted_note": "0.25×188,000 + 0.50×126,000 + 0.25×68,000 = 127,000원, 현재가 118,900원(yfinance live, 2026-09-23 종가) 대비 +6.8% [derived]. 증권사 평균 목표가 159,647원(한경 컨센서스)보다 낮은 것은 base OP를 컨센서스보다 9% 낮게, 멀티플을 25배로 둔 결과임"
+  },
+  "catalysts": [
+    {
+      "date": "매월 10일 전후 (다음: 2026-10-10경 9월분)",
+      "event": "EMC(2383.TW) 월매출 발표 — '재료 쪽 온도계'",
+      "type": "industry",
+      "expected_impact": "+/-",
+      "description": "8월 NT$201.46억(+129.85% YoY, MOPS) [actual]. 증가세가 이어지면 AI 서버·스위치 기판 수요 지속 신호(+), 다만 매출에 3~4월 판가 15~25% 인상 효과가 섞여 있어 물량 신호로만 읽으면 과대평가 위험. 급둔화 시 수요 피크 우려로 기판주 동반 조정 가능(−)."
+    },
+    {
+      "date": "2026-10 (예상)",
+      "event": "주요 고객과 평균 15% 내외 판가 인상 확정·4Q 적용",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "아시아경제(2026-09-01)는 10월 확정·4Q 온기 반영을 전망함 [actual 보도]. CCL·프리프레그 매입 원가 상승(Panasonic 2차 인상 9/1)을 상쇄하는 핵심 변수 — 확정 공시·IR 확인 필요."
+    },
+    {
+      "date": "2026-10 하순~11 초",
+      "event": "북미 하이퍼스케일러 3Q 실적·2027 capex 가이던스",
+      "type": "macro",
+      "expected_impact": "+/-",
+      "description": "반기보고서상 AI 가속기 주요 고객은 G사·N사 [actual]. capex 가이던스 상향이면 수주잔고(6,222억, +97%) 지속성 확인(+), 둔화 시 멀티플 하락(−)."
+    },
+    {
+      "date": "2026-11 중순",
+      "event": "3Q26 분기보고서 — ㎡당 단가·가동률·CCL 매입단가·최대 고객 비중",
+      "type": "earnings",
+      "expected_impact": "+/-",
+      "description": "블로그가 제시한 1차 분기점. 메리츠 3Q26E 매출 4,349억(+46.9%)·OP 965억(+65.2%) [estimated]. ㎡당 단가(26H1 4,875,174원)가 유지·상승하면 +, 꺾이면 −. 단 단가는 믹스 평균이라 하락이 곧 가격 결정력 상실은 아님 — 멀티램 비중·CCL 매입단가(26H1 수입 61.29 USD/㎡)와 함께 판단해야 함."
+    },
+    {
+      "date": "4Q26",
+      "event": "TPUv8X·1.6T 스위치 기판 양산 본격화, 신규 하이퍼스케일러 스위치 기판 공급 개시",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "메리츠(2026-09-22)·키움(2026-08-19) 전망 [estimated]. 멀티램 비중(2Q26 11%) 상승 속도를 확인할 첫 분기."
+    },
+    {
+      "date": "1Q27 (목표)",
+      "event": "6공장 완공·태국 공장 양산 개시 — 월 매출 캐파 1,500억 → 1,800억(2Q27)",
+      "type": "company",
+      "expected_impact": "+/-",
+      "description": "태국 6개 고객 확보(금융소비자뉴스 2026-07-09) [actual 보도], 1Q27 월매출 가이던스 1,550억(키움) [actual 보도]. 6공장 추가분 완공은 1Q~2Q27로 보도 차이. 초기 수율이 대구 수준이면 +, 램프 지연·비용 선반영이면 − (블로그 '수율의 역습')."
+    },
+    {
+      "date": "수시 (2026-2027)",
+      "event": "CPO 채택 뉴스 — 엔비디아 Spectrum-X Photonics 확산, 하이퍼스케일러 자체 스위치 CPO 공식화",
+      "type": "product",
+      "expected_impact": "-",
+      "description": "Spectrum-X Photonics full production(StorageReview 2026-08-15) [actual], TrendForce는 CPO 대량 양산 이정표를 2027~2028로 봄 [actual]. 9/17 대만 CCL주 CPO 우려 급락(EMC −7%) 전례. 층수 감소 정량 근거는 확인 불가라 뉴스 헤드라인만으로도 멀티플 변동 가능."
+    },
+    {
+      "date": "수시",
+      "event": "CCL·프리프레그 추가 가격 인상 / 재료사 증설 앞당김(㈜두산 등)",
+      "type": "industry",
+      "expected_impact": "+/-",
+      "description": "추가 인상은 원가 부담(−), 재료 증설 앞당김은 신규 공장 가동 리스크 완화(+). ㈜두산 9,684억 신규 라인은 2H28부터(DART 2026-09-17) [actual], 기존 태국·창수 라인 증설은 그 이전."
+    }
+  ],
+  "risks": [
+    {
+      "name": "최대 고객 집중(매출 약 40%)",
+      "probability": "med",
+      "impact": "high",
+      "description": "반기보고서: 10% 이상 매출처 1개사, 비중 약 40%(연결) [actual]. 7/28 '핵심 고객 설계 다변화 루머' 속 −16.78%(71,400원, 재경일보) 전례처럼 고객 공급사 추가·설계 변경 소식만으로 주가가 크게 흔들림. 8월 신규 하이퍼스케일러 2곳 확보는 완화 요인이나 매출 기여는 4Q26 이후라 아직 숫자로 확인되지 않음.",
+      "mitigation": "3Q·연간 보고서의 최대 고객 비중 추이와 신규 고객 매출 개시 시점 확인."
+    },
+    {
+      "name": "신규 멀티램 라인 수율 램프(6공장·태국)",
+      "probability": "med",
+      "impact": "high",
+      "description": "6공장 1Q27 완공(추가분 1Q~2Q27 보도 차이), 태국은 회사 첫 해외 그린필드 [actual 보도]. 멀티램 비중을 10% 초반에서 2027년 말 약 70%(메리츠)로 올리는 계획이라 적층 횟수가 늘수록 수율 곱셈 효과가 커짐. 회당 수율은 비공개라 [unavailable] 외부에서 사전 검증 불가. 4-Analyst counter도 T03에서 태국 고객 공장 승인 기간을 근거로 반박함(stance rebut 0.45).",
+      "mitigation": "1Q27 이후 분기 OPM·가동률, 태국 법인 손익(연결 주석)으로 램프 상태 추적."
+    },
+    {
+      "name": "재료 원가 전가 실패(CCL·프리프레그 가격 인상)",
+      "probability": "high",
+      "impact": "med",
+      "description": "Panasonic MEGTRON 1차 +20%(5/1)·2차 약 15~30%(9/1), EMC 3~4월 15~25%, Kingboard 올해 7번째 인상(8/28) [actual]. CCL 매입액 1,262억·프리프레그 887억은 1H26 연결 매출의 각각 17.5%·12.3% [derived]. 15% 인상분을 판가로 못 넘기면 OPM 약 −4.5%p [derived]. C28(재료 중간 증설 존재)로 물량 부족 위험은 줄었으나 가격 인상은 진행 중임.",
+      "mitigation": "10월 판가 인상 확정 여부, 3Q 보고서 CCL 매입단가 대비 ㎡당 단가 스프레드 확인. 회사는 원재료 3~4개월치 선확보(메리츠, 파이낸셜뉴스 2026-09-22)."
+    },
+    {
+      "name": "CPO 전환에 따른 스위치 기판 층수 축소 우려",
+      "probability": "med",
+      "impact": "med",
+      "description": "엔비디아 Spectrum-X Photonics full production(2026-08) [actual], TrendForce는 대량 양산을 2027~2028로 봄 [actual]. 9/17 대만 CCL주 급락(EMC −7%, ITEQ 하한가)처럼 뉴스만으로 섹터 멀티플이 흔들림. DigiTimes(9/18) 헤드라인은 스위치가 M8 CCL을 유지한다는 쪽이고, 층수를 실제로 줄이는지 정량 근거는 확인 불가 [unavailable]. 가속기 보드 기판은 직접 영향 밖임 [inference].",
+      "mitigation": "하이퍼스케일러 자체 스위치 CPO 채택 공식화 여부, 1.6T 스위치 기판 사양(층수·CCL 등급) 확인."
+    },
+    {
+      "name": "밸류에이션·주가 변동성",
+      "probability": "high",
+      "impact": "med",
+      "description": "beta 2.05, 연환산 변동성 90.95%, 1년 수익률 +58.85%, 1개월 +18.19% [actual, yfinance live 2026-09-23]. 7/30 저점 59,200원 → 118,900원으로 약 2개월 +100.8% [derived]. LTM PER 43.4배·PBR 10.2배 [derived], EV/EBITDA 29.7배 [actual]. 컨센서스 대비 실적이 조금만 어긋나도 7/28(−16.78%) 같은 급락이 재현될 수 있음.",
+      "mitigation": "변동성 기준으로 포지션 한도 축소, 분할 접근. 매수·매도 권유 아님."
+    },
+    {
+      "name": "운전자본 확대와 현금흐름 약화",
+      "probability": "med",
+      "impact": "med",
+      "description": "1H26 연결 순이익 1,101.5억에도 영업현금흐름 −496.2억, capex 790.6억 → FCF −1,286.8억 [actual/derived, DART]. 매출채권 2,141.3 → 3,432.8억(+60.3%), 재고 2,987.9 → 3,744.3억(+25.3%). 재고 증가는 원재료 선확보로 설명되나 매출채권 증가 속도가 매출(+45.8%)보다 빠름. 6공장 추가 증설(1,000억 원대 중반)·태국 capex가 이어져 외부 차입 확대 가능성.",
+      "mitigation": "3Q 보고서의 매출채권 회전일수·차입금 잔액 확인(현 API로는 차입금 잔액 확인 불가)."
+    },
+    {
+      "name": "최대주주 보유주식 담보",
+      "probability": "low",
+      "impact": "med",
+      "description": "㈜이수 19,183,225주(26.13%) 중 5,250,994주(7.15%)가 차입금 담보·근질권 설정 상태 [actual, DART 대량보유 2026-08-06·09-04]. 급락 시 담보 관련 수급 불안 요인이 될 수 있음 [inference].",
+      "mitigation": "㈜이수 대량보유 보고서의 담보 계약 변경 추적."
+    },
+    {
+      "name": "환율(원화 강세)",
+      "probability": "med",
+      "impact": "low",
+      "description": "26H1 제품 매출은 전량 수출(내수 '-') [actual]. CCL 수입 매입도 달러라 일부 상쇄되지만 매출 쪽 노출이 더 큼 [inference]. USD/KRW 1,368.15(yfinance live 2026-09-24).",
+      "mitigation": "분기별 환율 민감도(사업보고서 시장위험 주석) 확인."
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "(T01) 고다층 PCB 병목은 2027년을 기점으로 기판 공장에서 재료(고속 CCL·HVLP 동박)로 옮겨가 2028년까지 이어짐",
+      "type": "predictive",
+      "testability": "med",
+      "evidence": "[actual] C28 반박 — EMC 월 캐파 580만 장(2025) → 945만 장(2027년 말), 미쓰이 VSP 840t(2026) → 1,000t(2027), 金居 2027년 말 +600t/월(MoneyDJ 2026-05-28, 三井金属 IR 2026-08-07) · [actual] ㈜두산 9,684억 신규 29개 라인은 2H28부터지만 기존 6개 라인 증설은 그 이전(DART 20260917800240, 알파경제 2026-09-21) · [actual] 미쓰이 FY 판매량 전망 780 → 710t/월 하향(말레이시아 고객 인정 지연) — 캐파 대비 판매 미달 · [actual] Panasonic 2차 인상(9/1)·Kingboard 7번째 인상(8/28)으로 가격은 계속 타이트 · [unavailable] HVLP4 수요 1.23만t → 3.92만t(工商時報 2026-09-20)은 1차 출처 미확인",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.5,
+        "support": 0,
+        "neutral": 3,
+        "rebut": 1,
+        "agreement_level": "medium-high (3/4)"
+      },
+      "verification_note": "재료 증설 지연 폭이 과장된 것으로 확인돼(C28) '2027년 병목 전환' 논리는 약해짐. 이수페타시스에는 재료 물량 부족보다 재료 가격 인상 형태로 나타날 가능성이 커서 base 시나리오를 '가격 병목'으로 재구성함."
+    },
+    {
+      "claim_id": "T02",
+      "claim": "(T02) 26H1까지 매출·이익 증가는 캐파(+4%, 가동률 96.8%)가 아니라 ㎡당 단가(372만 → 488만 원, +31%)에서 나왔고 2Q26 매출 3,799억·OP 771억(OPM 20.3%)",
+      "type": "factual",
+      "testability": "high",
+      "evidence": "[actual] 캐파 119천㎡(26H1) vs 228천㎡(2025) → 연환산 +4.4%, 가동률 96.8%(시간 기준), ㎡당 단가 3,723,084 → 4,452,332 → 4,875,174원(+30.9%) — DART 반기보고서(https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002283) · [actual] 2Q26 매출 3,799억(+57.4%)·OP 771억(+83%)·순이익 597억 — 한국경제 2026-09-22, DART 연결 2Q OP 770.6억 · [actual] 회사 설명: 단가 상승은 '고부가 제품군 매출 비중 확대' · [actual] 멀티램 매출 비중 1Q 7% → 2Q 11%(헤럴드경제 2026-08-19)",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.5,
+        "support": 1,
+        "neutral": 3,
+        "rebut": 0,
+        "agreement_level": "medium-high (3/4)"
+      },
+      "verification_note": "수치는 모두 공시와 일치함. 다만 'P 상승'은 같은 제품 가격 인상이 아니라 믹스 효과라고 회사가 설명해, 가격 결정력의 증거로 쓰지 않음. 캐파 수치는 대구공장만이라 후난·태국은 빠져 있음."
+    },
+    {
+      "claim_id": "T03",
+      "claim": "(T03) 5공장 효과 2026년 반영, 6공장·태국 1Q27 가동, 월 매출 캐파 약 1,200억 → 1,500억대, 1Q27 월매출 가이던스 1,400 → 1,550억",
+      "type": "predictive",
+      "testability": "high",
+      "evidence": "[actual] 반기보고서 '5공장 증설 효과 반영' 문구 · [actual 보도] 6공장 1Q27 완공 목표, 태국 6개 고객 확보·1Q27 양산(금융소비자뉴스 2026-07-09) · [actual 보도] 월 캐파 1,200억 → 1,500억(1Q27) → 1,800억(2Q27)(아시아경제 2026-09-01) · [actual 보도] 가이던스 1,400 → 1,550억(키움, 이투데이 2026-08-19) · [unavailable] 1,200억 도달이 2Q인지 3Q인지, 6공장 추가분 1Q27 vs 2Q27은 보도 간 차이",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.475,
+        "support": 1,
+        "neutral": 2,
+        "rebut": 1,
+        "agreement_level": "split (2/4)"
+      },
+      "verification_note": "계획·가이던스 자체는 확인됨. 실행은 1Q27 이후에야 검증 가능하고, counter analyst가 태국 그린필드의 고객 승인 기간을 들어 일정 지연을 지적해 base 시나리오에서 캐파 기반 매출의 97%만 반영함."
+    },
+    {
+      "claim_id": "T04",
+      "claim": "(T04) 신호선 수(토마호크6 SerDes 최대 1,024개)·선 간격·접지/전원층 때문에 층수는 신호선보다 빠르게 늘고 초다층 수요는 구조적",
+      "type": "factual",
+      "testability": "med",
+      "evidence": "[actual] 토마호크6 2025-06 출하, 102.4Tbps, 100G SerDes 1,024개 옵션(Broadcom 보도자료 2025-06-03), 1,024 × 2쌍 = 4,096가닥 산술 일치 · [actual] 반기보고서도 고속 신호·고집적·전력/열 요구로 초다층 수요가 구조적이라고 설명 · [counter] 200G SerDes 512개 구성도 있어 대역폭 2배가 레인 수 증가가 아닐 수 있음(4-Analyst counter) · [unavailable] 세대별 실제 층수 데이터",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.61,
+        "support": 2,
+        "neutral": 2,
+        "rebut": 0,
+        "agreement_level": "split (2/4)"
+      },
+      "verification_note": "칩 사양은 확인됨. 층수가 '신호선보다 빨리' 는다는 부분은 공학적 추론이고 층수 실측치가 없어 검증 중으로 둠. 멀티램 비중 상승(2Q 11%)은 방향을 뒷받침함."
+    },
+    {
+      "claim_id": "T05",
+      "claim": "(T05) 다중적층은 회당 수율이 곱해져(95%×6회 = 73%) 증설 면적만큼 공급이 늘지 않고, 수율을 잡는 회사만 증설을 매출로 바꿈",
+      "type": "conditional",
+      "testability": "low",
+      "evidence": "[actual] 반기보고서 '다중적층 제품의 안정적인 생산 여부가 모든 PCB 회사에 있어 중요한 경쟁력' · [assumption] 회당 95% 수율은 블로그 가정값(회사 비공개) · [estimated] 멀티램 ASP는 기존 제품의 2배 이상, 비중 2027년 말 약 70%(메리츠 2026-09-22) · [counter] 후반 회차 수율은 안정되는 경향이라 독립 곱셈은 과대 추정일 수 있음(4-Analyst counter)",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.61,
+        "support": 2,
+        "neutral": 2,
+        "rebut": 0,
+        "agreement_level": "split (2/4)"
+      },
+      "verification_note": "방향은 회사 공시와 맞지만 수율이 비공개라 숫자로 검증 불가. 이수페타시스에는 양면적임 — 공급 제약(단가 지지)이면서 6공장·태국 램프 리스크이기도 해 bull·bear를 가르는 변수로 반영함."
+    },
+    {
+      "claim_id": "T06",
+      "claim": "(T06) 원재료 매입의 81%가 CCL(47.6%)·프리프레그(33.5%)이고, 판재 매입단가 상승(수입 +24%, 국산 +9%)보다 기판 단가 상승(+31%)이 커 OPM 20%의 배경이 됨",
+      "type": "factual",
+      "testability": "high",
+      "evidence": "[actual] THIN CORE 1,262.05억(47.61%)·PREPREG 886.83억(33.45%)·COPPER FOIL 15.95억(0.60%), 총매입 2,650.88억 · [actual] CCL 매입단가 수입 49.62 → 56.16 → 61.29 USD/㎡(+23.5%), 국산 48.03 → 48.34 → 52.52(+9.3%) — DART 반기보고서 · [actual] 회사 설명: 매입단가 상승도 '고부가 제품용 원자재 구매비중 및 원자재 가격 상승' · [derived] CCL·프리프레그 매입은 1H26 연결 매출의 17.5%·12.3%",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.533,
+        "support": 3,
+        "neutral": 1,
+        "rebut": 0,
+        "agreement_level": "medium-high (3/4)"
+      },
+      "verification_note": "수치는 확인됨. 매입(USD)과 판매(KRW) 단가가 통화가 다르고 둘 다 믹스가 섞여 있어 스프레드 크기는 근사치로만 씀. 재료 인상이 계속돼(Panasonic 2차) 스프레드 유지가 2027년 핵심 변수임."
+    },
+    {
+      "claim_id": "T09",
+      "claim": "(T09) 2027~2028년은 기판 설비는 있는데 좋은 재료가 모자라는 구간이 되고, 가격 결정력·마진은 재료를 쥔 쪽과 불량을 덜 내는 기판사로 이동",
+      "type": "predictive",
+      "testability": "med",
+      "evidence": "[actual] 재료 가격 인상 진행 — Panasonic 1차 +20%·2차 15~30%, EMC 15~25%, Kingboard FR-4 +10%(7번째) · [actual] C28: 재료 중간 증설(EMC·미쓰이·金居·두산 기존 라인) 존재 · [actual 보도] 이수페타시스 원재료 3~4개월치 선확보(메리츠, 파이낸셜뉴스 2026-09-22) · [actual 보도] 이수페타시스도 15% 판가 인상 협상(아시아경제 2026-09-01)",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.5,
+        "support": 0,
+        "neutral": 3,
+        "rebut": 1,
+        "agreement_level": "medium-high (3/4)"
+      },
+      "verification_note": "재료 가격 인상은 확인되나 '물량 부족 구간'은 C28로 약해짐. 이수페타시스가 판가 인상으로 원가를 넘기고 있어, 마진 이동이 실제로 일어나는지는 3Q 보고서의 매입단가 대비 ㎡당 단가로 판정해야 함."
+    },
+    {
+      "claim_id": "T11",
+      "claim": "(T11) 엔비디아 CPO 스위치(Spectrum-X Photonics) 2026-08 양산 전환 — 스위치 기판 층수 증가를 꺾을 수 있으나 아직 숫자로 확인되지 않음",
+      "type": "conditional",
+      "testability": "med",
+      "evidence": "[actual] 'Spectrum-X Ethernet Photonics ... full production'(StorageReview 2026-08-15), 엔비디아 뉴스룸 1차 자료는 미확인 · [actual] TrendForce: CPO 대량 양산 이정표 2027~2028(2026-07-27) · [actual] 9/17 대만 CCL주 CPO 우려 급락 · [unavailable] 층수·CCL 등급 감소 정량 근거(DigiTimes 9/18 본문 유료, 헤드라인은 M8 CCL 유지 쪽)",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.55,
+        "support": 2,
+        "neutral": 2,
+        "rebut": 0,
+        "agreement_level": "split (2/4)"
+      },
+      "verification_note": "양산 전환 보도는 2차 출처로 확인됨. 층수 영향은 여전히 확인 불가라 12개월 내에는 실적보다 멀티플(심리) 리스크로 반영함."
+    },
+    {
+      "claim_id": "T12",
+      "claim": "(T12) 매출 약 40%가 한 고객 — 설계 변경·공급사 추가 시 단가가 흔들리고, 11월 3Q 보고서에서 ㎡당 단가가 꺾이면 전제가 흔들림",
+      "type": "conditional",
+      "testability": "high",
+      "evidence": "[actual] 10% 이상 매출처 1개사, 비중 약 40%(연결, 반기보고서) · [actual 보도] 신규 하이퍼스케일러 2곳 확보(키움, 2026-08-19) · [actual 보도] 7/28 −16.78%, 설계 다변화 루머 동반(재경일보) · [counter] ㎡당 단가는 믹스·환율·후난 저가 물량이 섞인 평균이라 하락이 곧 전제 붕괴는 아님(4-Analyst counter)",
+      "status": "pending",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.583,
+        "support": 3,
+        "neutral": 1,
+        "rebut": 0,
+        "agreement_level": "medium-high (3/4)"
+      },
+      "verification_note": "고객 집중은 확인됨. 반증 지표(3Q 단가)는 2026-11 중순에 나오므로 검증 중. 단가 하락 시 멀티램 비중·CCL 매입단가와 함께 원인을 분해해야 함."
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-09-07",
+      "type": "IR",
+      "title": "기업설명회(IR)개최(안내공시)",
+      "impact": "○",
+      "rcept_no": "20260907800463"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "지분공시",
+      "title": "주식등의대량보유상황보고서(일반) — ㈜이수 26.13% 유지, 차입금 연장(담보 5,250,994주·7.15%)",
+      "impact": "○",
+      "rcept_no": "20260904000407"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "지분공시",
+      "title": "주식등의대량보유상황보고서(약식) — 미래에셋자산운용 9.16%(+2.46%p)",
+      "impact": "○",
+      "rcept_no": "20260901000187"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "정기공시",
+      "title": "반기보고서(2026.06) — 2Q 연결 OP 770.6억(분기 최대), 캐파 119천㎡·가동률 96.8%·㎡당 단가 4,875,174원·최대 고객 약 40%",
+      "impact": "+",
+      "rcept_no": "20260814002283"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "IR",
+      "title": "기업설명회(IR)개최(안내공시)",
+      "impact": "○",
+      "rcept_no": "20260810800489"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "지분공시",
+      "title": "주식등의대량보유상황보고서(일반) — ㈜이수 근질권 담보 수량 변경(담보 7.15%)",
+      "impact": "○",
+      "rcept_no": "20260806000398"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "지분공시",
+      "title": "주식등의대량보유상황보고서(약식) — 신한자산운용 6.70% 신규",
+      "impact": "○",
+      "rcept_no": "20260715000319"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "지분공시",
+      "title": "주식등의대량보유상황보고서(약식) — 미래에셋자산운용 6.70% 신규",
+      "impact": "○",
+      "rcept_no": "20260707000373"
+    },
+    {
+      "date": "2026-06-01",
+      "type": "지배구조",
+      "title": "기업지배구조보고서공시",
+      "impact": "○",
+      "rcept_no": "20260601801047"
+    },
+    {
+      "date": "2026-05-27",
+      "type": "지분공시",
+      "title": "주식등의대량보유상황보고서(일반) — ㈜이수 차입금 담보 수량 변경(담보 6.39%)",
+      "impact": "○",
+      "rcept_no": "20260527000415"
+    }
+  ]
+}
