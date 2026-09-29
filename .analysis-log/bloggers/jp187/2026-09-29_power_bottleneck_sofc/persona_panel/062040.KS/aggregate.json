@@ -1,0 +1,555 @@
+{
+  "ticker": "062040.KS",
+  "aggregated_at": "2026-09-29T15:32:38.664124+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 9,
+      "pct": 52.9
+    },
+    "lean_bullish": {
+      "count": 2,
+      "pct": 11.8
+    },
+    "lean_bearish": {
+      "count": 6,
+      "pct": 35.3
+    }
+  },
+  "average_confidence": 0.608,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bullish",
+          "confidence": 0.58
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bullish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bullish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "neutral",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.75
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "neutral",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.66
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "neutral",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 12,
+      "personas": [
+        "jim-simons",
+        "ben-graham",
+        "george-soros",
+        "nassim-taleb",
+        "michael-burry",
+        "ray-dalio",
+        "peter-lynch",
+        "stanley-druckenmiller",
+        "rakesh-jhunjhunwala",
+        "cliff-asness",
+        "bill-ackman"
+      ],
+      "examples": [
+        "연환산 변동성 87.01% [actual]: high regime 기준의 약 2.9배로 레버리지와 집중 포지션이 부적합하다",
+        "변동성: beta 2.89, 연환산 변동성 87% [actual]. 자본재 사이클이 꺾일 때 낙폭이 클 수 있다",
+        "β 2.89 [actual]와 변동성 87% [actual] — 코스피가 고점 대비 -25%인 환경에서 시장 하락 시 손실이 증폭된다"
+      ]
+    },
+    {
+      "theme": "환경",
+      "frequency": 6,
+      "personas": [
+        "jim-simons",
+        "george-soros",
+        "ray-dalio",
+        "stanley-druckenmiller",
+        "cliff-asness",
+        "aswath-damodaran"
+      ],
+      "examples": [
+        "베타 2.89 [actual]: KOSPI가 고점 대비 -25.0% [actual]인 환경에서 하락이 증폭된다",
+        "β 2.89 [actual]와 변동성 87% [actual] — 코스피가 고점 대비 -25%인 환경에서 시장 하락 시 손실이 증폭된다",
+        "10년물 5.17% [actual] 환경에서 TTM PER 34.6배 [derived]의 할인율 부담"
+      ]
+    },
+    {
+      "theme": "사이클",
+      "frequency": 6,
+      "personas": [
+        "ray-dalio",
+        "mohnish-pabrai",
+        "peter-lynch",
+        "warren-buffett",
+        "ben-graham"
+      ],
+      "examples": [
+        "변동성: beta 2.89, 연환산 변동성 87% [actual]. 자본재 사이클이 꺾일 때 낙폭이 클 수 있다",
+        "고객 AI capex가 신용·금리 사이클에 따라 축소될 가능성 [inference]",
+        "영업이익률 36%가 정점 사이클일 가능성: 중국 수출 증가, Hitachi 등 글로벌 증설로 마진과 멀티플이 동시에 축소될 위험"
+      ]
+    },
+    {
+      "theme": "규제",
+      "frequency": 6,
+      "personas": [
+        "rakesh-jhunjhunwala",
+        "nassim-taleb",
+        "cathie-wood",
+        "charlie-munger",
+        "stanley-druckenmiller",
+        "ben-graham"
+      ],
+      "examples": [
+        "미국 매출 73.7%와 Bloom 고객 집중, 관세·69kV 이상 외국산 장비 규제 불확실성",
+        "정책 불확실성: 69kV 이상 외국산 장비 규제 세부 미정[actual], 154kV 증설과 직접 관련",
+        "8/26 행정명령(69kV 이상 외국산 전력장비 규제)의 세부 미정 — 미국 매출 73.7% 노출"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.5,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "연환산 변동성 87.01% [actual]: high regime 기준의 약 2.9배로 레버리지와 집중 포지션이 부적합하다",
+        "베타 2.89 [actual]: KOSPI가 고점 대비 -25.0% [actual]인 환경에서 하락이 증폭된다",
+        "중기 모멘텀(+)과 단기 모멘텀(3개월 -14.47% [actual])의 부호가 엇갈려 신호가 불명확하다"
+      ],
+      "key_opportunities_top3": [
+        "1년 +87.43%, 6개월 +51.22% [actual]로 중기 모멘텀 factor는 여전히 양(+)이다",
+        "현재가가 52주 범위 중간값 223,000원 [derived] 아래에 있어, 변동성이 안정되면 reversion 진입 후보가 될 수 있다",
+        "1개월 수익률 +0.74% [actual]로 단기 낙폭이 멈춰, 변동성 수축 여부를 관찰할 구간이다"
+      ],
+      "uncertainty": "판정은 risk_metrics가 없는 상태에서 나온 근사치에 의존한다. 실측 Sharpe가 1.0을 넘더라도 변동성이 30% 미만으로 내려오지 않으면 lean_bullish는 성립하지 않는다. 반대로 macro_snapshot에서 MONETARY_TIGHTENING flag가 확인되거나 실측 Sharpe가 0 미만이면 lean_bearish로 바뀐다. 베타 2.89는 짧은 상장 이력에서 추정된 값일 수 있어 표본이 늘면 크게 달라질 수 있다. 근사 Sharpe는 미국 fed funds를 무위험금리로 썼으므로 원화 금리 기준으로는 값이 달라진다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bullish",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "성장률 둔화: 순이익 증가율 +114% → +78% → +45% [derived], 2Q26 매출 증가율 +28% [actual]. 25% 아래로 내려가면 PEG 매력이 사라진다",
+        "가장 뜨거운 업종의 인기주: OPM 36% [derived]는 경쟁과 증설을 부른다 (중국 수출 +26.8%, Hitachi 2029 신공장 [actual])",
+        "고객·지역 집중: 미국 매출 73.7% [actual], 2Q 신규수주의 약 30%가 Bloom향 [estimated]. 관세와 8/26 행정명령 세부 내용도 미정"
+      ],
+      "key_opportunities_top3": [
+        "무차입과 강한 현금창출: 1H26 영업CF 900.5억 [actual]으로 3공장 투자를 자체 조달",
+        "수주 가속: 2Q26 신규수주 +163%, 분기 첫 2천억 돌파 [actual]. Bloom, 유럽 BESS, TMEIC 등 수요처가 넓어지고 있다",
+        "154kV 3공장 2028 가동 시 매출 CAPA +1,500~2,000억 [actual]으로 성장 기간 연장"
+      ],
+      "uncertainty": "이 판단은 EPS 성장률이 향후 2년간 30% 안팎을 유지한다는 가정 [assumption]에 의존한다. 다음 중 하나라도 발생하면 verdict는 neutral 이하로 바뀐다: (1) 신규수주 증가율 급락이나 수주잔고 감소, (2) 공급 증가로 OPM이 30% 아래로 하락, (3) Bloom 발주 차질 또는 미국 규제·관세가 불리하게 확정, (4) 재고 증가율이 매출 증가율을 지속적으로 웃돌거나 수익인식 관련 회계 이슈가 현실화. 2027E EPS 8,582원은 증권사 추정치 [estimated]이며, 순이익 증가율은 상장 전후 주식수 변동을 반영하지 않아 실제 EPS 증가율과 다를 수 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "β 2.89 [actual]와 변동성 87% [actual] — 코스피가 고점 대비 -25%인 환경에서 시장 하락 시 손실이 증폭된다",
+        "PBR 9.4배, PSR 10.6배 [derived] — 이익 추정이 소폭만 하향돼도 멀티플이 압축될 위험이 있다",
+        "최근 3개월 -14.47% [actual] — 12-1 momentum이 약화되는 중이며 고변동성 승자주는 momentum crash에 취약하다"
+      ],
+      "key_opportunities_top3": [
+        "ROE 약 31%, FCF 마진 29.4% [derived], 무차입 [actual] — RMW factor 최상위권 수익성",
+        "2Q26 신규수주 2,435억(+163%), 수주잔고 5,567억 [actual] — 단기 이익 가시성",
+        "12-1 momentum +86% [derived] — 3개월 조정이 멈추면 Momentum과 Quality가 함께 작동하는 구간에 재진입할 수 있다"
+      ],
+      "uncertainty": "Value와 Profitability z-score는 섹터 중앙값과 DCF가 없어 [unavailable] 절대 tier 기준으로 산정했다. 동종업계 대비 상대 z-score가 제공되면 Value 감점이 -1.5보다 완화될 수 있다. 2027E 영업이익 3,482억 [estimated, 유안타]이 실현되고 주가가 횡보하면 valuation이 정상화되어 lean_bullish로 상향될 수 있다. 반대로 12-1 momentum이 음(-)으로 전환되거나 수익인식·재고 이슈가 실제 이익 훼손으로 확인되면 lean_bearish로 바뀐다. macro flags 미제공으로 β tilt 부호는 가정에 의존한다 [assumption].",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "10년물 5.17% [actual] 환경에서 TTM PER 34.6배 [derived]의 할인율 부담",
+        "beta 2.89, 변동성 87% [actual]로 위기 시 동반 급락 및 분산 효과 부재",
+        "미국 매출 73.7% [actual] 집중과 8/26 행정명령 등 통상정책 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "인플레이션 지속 환경에서 실물 전력 설비의 가격결정력 (변압기 PPI +7.8% [actual])",
+        "무차입·현금창출 구조로 금리 상승기에도 재무 훼손 없음 [actual]",
+        "수주잔고 5,567억과 3공장 증설(2028 가동, CAPA +1,500~2,000억)로 중기 매출 가시성 [actual]"
+      ],
+      "uncertainty": "macro_snapshot의 flags, 정부부채/GDP, Taylor rule, IMF 글로벌 성장 전망이 제공되지 않아 cycle 판정은 제한된 지표에 근거한 추론이다. 장기금리가 안정되고 인플레이션이 둔화되며 성장이 유지된다면(growth↑·inflation↓) lean_bullish로 바뀐다. 반대로 yield curve 재역전, 실업률 상승, AI capex 축소, 또는 69kV 이상 규제가 한국산에 불리하게 확정되면 lean_bearish로 전환된다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bullish",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "ROE 15% 이상 이력이 3년(2023~2025)뿐이며 공급부족 국면의 마진 36%가 평균회귀할 가능성",
+        "PBR 9.4배·TTM PER 34.6배로 안전마진이 얇고 변동성 87%",
+        "미국 매출 73.7%와 Bloom 고객 집중, 관세·69kV 이상 외국산 장비 규제 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "무차입에 마진 주도형 ROE 약 30%, 증설을 내부 현금으로 조달",
+        "154kV 3공장으로 상위 전압 제품 확장, 매출 CAPA +1,500~2,000억",
+        "분기 신규수주 첫 2천억 돌파와 Bloom·유럽 BESS·TMEIC 등 고객 다변화 진행"
+      ],
+      "uncertainty": "OPM이 20%대 초반 이하로 내려가 ROE가 15% 근처로 떨어지면 verdict는 neutral 이하로 바뀐다. 미국 규제가 한국산 변압기에 불리하게 확정되거나, Bloom 관련 수주가 취소·지연되는 경우도 마찬가지다. 회계 이슈가 실제 정정으로 이어지거나 최대주주 측 추가 매도가 나오면 lean_bearish로 뒤집힌다. 5년·10년 ROE 시계열이 없어 지속성 판단은 본질적으로 [inference]다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "neutral",
+      "confidence": 0.62,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "정점 마진 가능성: OPM이 2022년 약 11%[derived]에서 36%[actual]로 상승, 공급 증가(중국 수출 +26.8%[actual], 글로벌 증설) 시 정상화 위험",
+        "내부자 매도: 대표 배우자 9.98% 블록딜[actual]과 임원 매도[actual]",
+        "회계 신뢰성 점검 필요: 감사인 2회 변경, 수익인식 KAM, 재고 +51.4%[actual]"
+      ],
+      "key_opportunities_top3": [
+        "무차입·강한 현금창출로 증설을 자체 조달, 희석 위험 낮음",
+        "수주 급증과 리드타임 장기화로 2027년까지 실적 가시성 확보",
+        "리액터·BESS·154kV로 제품 및 고객 다변화 진행"
+      ],
+      "uncertainty": "강세로 바뀌는 조건: 공급 증가 국면에서도 OPM 30%대가 유지됨이 확인되고, 내부자 매도가 멈추거나 매수로 전환되며, 회계 관련 의문이 해소되고, 가격이 2027년 추정 이익 기준 10배 중반 수준[assumption]으로 내려오는 경우. 약세로 바뀌는 조건: 수주 단가 하락이나 마진 축소가 시작되거나, 미국 규제가 한국산에 불리하게 확정되거나, Bloom 발주가 취소·지연되거나, 재고·매출채권 관련 회계 문제가 현실화되는 경우.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.75,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "50% 디스카운트 부재: 현재가/내재가치 약 1.2~2.2배 [derived], 안전마진 음수",
+        "영업이익률 36%가 정점 사이클일 가능성: 중국 수출 증가, Hitachi 등 글로벌 증설로 마진과 멀티플이 동시에 축소될 위험",
+        "미국 매출 73.7% 집중과 관세·행정명령 등 정책 변수, Bloom Energy 고객 집중(매출 비중 미공시)"
+      ],
+      "key_opportunities_top3": [
+        "무차입·순현금 구조로 사업 자체의 파산 위험은 매우 낮음",
+        "수주잔고 5,567억과 리드타임 128주 이상으로 2027년 매출 가시성 확보",
+        "변동성 87%·베타 2.89: 7월과 같은 시장 폭락 재발 시 내재가치 50% 이하 진입 기회가 열릴 수 있음(관심 목록 유지)"
+      ],
+      "uncertainty": "내재가치 추정은 적정 PER 15~20배와 마진 정상화라는 나의 가정에 의존한다. 36% 영업이익률이 구조적이고 2027~2028년 이익이 컨센서스(유안타 2027F 영업이익 3,482억 [estimated])를 크게 웃돌며 지속된다면 나의 내재가치는 과소추정이다. 주가가 약 9만원대(보수 기준) 또는 마진 지속성이 확인된 상태에서 약 10만원 안팎까지 하락하면 판정은 lean_bullish로 바뀔 수 있다. 또한 이 lens는 한국 시장의 지배구조, 수급, 블록딜 관행, 회계 관행에 대한 친숙도가 제한적이며, 13F 기반 cloning 검증이 불가능하다는 한계를 명시한다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "정점 마진 위험: OPM이 2022년 11.3% [derived]에서 TTM 36.0% [actual]로 올랐고, 공급이 늘면 평균으로 회귀할 수 있다",
+        "안전마진 부재: TTM PER 34.6배 [derived], PBR 9.4배 [derived], FCF 수익률 약 2.8% [derived]",
+        "지배구조와 회계 신호: 대주주 일가 블록딜, 임원 매도, 감사인 2회 변경, 수익인식 KAM, 재고 +51.4% [actual]"
+      ],
+      "key_opportunities_top3": [
+        "무차입과 높은 현금창출력(TTM FCF 약 1,730억 원 [derived])으로 불황기에도 버틸 체력",
+        "8/26 행정명령으로 외국산 전력장비 규제가 중국산을 겨냥하면 미국 내 입지가 강화될 수 있음 [inference]",
+        "주가가 13만 원 이하 [assumption]로 내려오고 사이클 전반에 걸친 마진 방어가 확인되면 재검토 대상"
+      ],
+      "uncertainty": "판단을 바꿀 조건은 세 가지다. 첫째, 공급 증설 뒤에도 OPM 30% 이상이 여러 해 유지되어 해자가 구조적임이 입증되는 경우다. 둘째, 주가가 보수적 내재가치 대비 30% 이상 할인된 수준으로 내려오는 경우다. 셋째, 감사인 변경과 재고 증가 우려가 해소되고 주주환원이 확대되는 경우다. 이 중 가격 조건과 해자 또는 신뢰 조건이 함께 충족되면 neutral 또는 lean bullish로 올릴 수 있다. 반대로 내 정상화 마진 가정이 지나치게 보수적일 수 있다. 미국 전력망 투자 슈퍼사이클이 10년 이상 이어지면 이 판단은 기회를 놓친 것이 된다. 내재가치 추정은 단일 증권사 EPS와 임의의 배수 가정에 의존하므로 오차 범위가 넓다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "미 10년물 5.17%·CPI 3.71% — 고베타(2.89) 고멀티플 종목에 불리한 유동성 환경",
+        "R/R 약 1.4~2.4:1로 3:1 미달, 변동성 87%로 손절 관리 곤란",
+        "2대주주 블록딜(147,000원)·임원 매도 등 내부자 공급"
+      ],
+      "key_opportunities_top3": [
+        "수주 +163%, 수주잔고 5,567억으로 2027년 이익 가시성 확보",
+        "무차입·현금 951억으로 3공장 증설을 자체 조달, 증설과 수주가 서로 강화하는 고리 재가동 가능성",
+        "장기금리 하락 전환 시 고베타 특성상 가장 크게 반등할 후보"
+      ],
+      "uncertainty": "다음 조건이 맞으면 lean_bullish로 바뀐다. 미 10년물이 뚜렷이 하락 전환하고 유동성 지표가 개선될 것, 3Q 수주·실적 발표 후 주가가 추세를 회복할 것, 8/26 행정명령에서 한국산이 제외될 것. 반대로 147,000원 이탈, 수주 둔화나 OPM 하락, Bloom 관련 악재 현실화, 장기금리 추가 상승이 나오면 lean_bearish로 바뀐다. 센티먼트 판단은 VIX·수급·공매도 데이터가 없어 [inference]에 의존했다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "neutral",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "FCF 수익률 약 2.8% [derived], TTM PER 34.6배 [actual]로 안전마진 부족",
+        "2대주주 블록딜(9.98%)과 임원 매도 등 내부자 매도 [actual]",
+        "감사인 3개 사업연도 2회 변경, 수익인식 KAM, 재고 +51.4% 지적 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "OPM 36%, 무차입, TTM FCF 약 1,730억 [derived]의 높은 현금창출력",
+        "분기 수주 첫 2,000억 돌파와 리액터·BESS로의 제품·고객 다변화 [actual]",
+        "154kV 3공장으로 2028년 매출 CAPA +1,500~2,000억 [actual], 상위 전압 진입"
+      ],
+      "uncertainty": "상향 전환 조건은 세 가지다. 첫째, 주가 조정이나 이익 증가로 FCF 수익률이 의미 있게 높아지는 경우. 둘째, 8/26 행정명령 세부안이 한국산에 유리하게 확정되어 시간표 있는 촉매가 생기는 경우. 셋째, 재고와 수익인식 관련 의문이 감사를 통해 해소되는 경우. 하향 전환 조건은 Bloom 발주 둔화, OPM의 뚜렷한 하락, 추가적인 내부자 대량 매도, 회계 이슈의 현실화다. WACC, 반복 매출 비중, Bloom향 매출 비중은 [unavailable]이어서 품질 판단에 불확실성이 남는다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "감사인 3개 사업연도 2회 변경, 수익인식 KAM, 재고 +51.4% 등 회계 통제 관련 신호 [actual 사실 + 기자 의견]",
+        "대표 배우자 9.98% 블록딜과 임원 매도. 오너 가족 중심 지배구조이며 승계 계획과 전문경영진 깊이는 [unavailable]",
+        "R&D 투자·효율성 자료 부재. 고마진이 기술 우위인지 공급 부족 효과인지 구분 불가"
+      ],
+      "key_opportunities_top3": [
+        "OPM이 2022년 11.3%에서 TTM 36.0%로 구조적으로 개선됐고 무차입 자체 자금으로 증설 [derived/actual]",
+        "154kV 3공장(2028 가동)으로 상위 전압 제품군에 진입, 매출 CAPA +1,500~2,000억 [actual]",
+        "Bloom·유럽 BESS·TMEIC 등 고객과 제품(리액터, BESS용)의 다변화 진행 [actual]"
+      ],
+      "uncertainty": "상향 조건: R&D 비중과 신제품 성과가 공시로 확인되고, 감사인 교체와 재고 증가가 합리적으로 해명되며, 지배주주 지분 매각 목적과 승계·경영진 구성이 투명하게 설명되면 Lean Bullish로 올릴 수 있다. 하향 조건: 수익인식이나 재고 관련 정정·감사 의견 문제가 생기거나, 내부자 매도가 이어지거나, 공급 증가로 OPM이 뚜렷하게 하락하면 Lean Bearish로 내린다. 본 평가는 직접 scuttlebutt 없이 제공 자료의 간접 신호에만 의존했다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.66,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "자산 기반 하방 보호 부재: 주당 순자산 약 21,700원 [derived] vs 현재가 204,000원",
+        "OPM 36%의 지속 가능성: 2022년 11.3% 대비 3배 수준이며 중국 수출 증가와 관세 인하 등 공급 압력 존재",
+        "인사이더 매도: 2대주주 블록딜 4,490억(@147,000원)과 임원 매도, 자사주매입 부재"
+      ],
+      "key_opportunities_top3": [
+        "무차입·순현금 구조로 3공장 증설을 자체 조달 가능",
+        "1H26 영업CF/순이익 약 90%로 이익의 현금 전환이 확인됨",
+        "분기 신규수주 2,435억(+163%)이 이어지면 수주잔고/매출 비율이 개선될 수 있음"
+      ],
+      "uncertainty": "다음 중 하나가 확인되면 verdict는 neutral 이상으로 바뀐다. ① 수주잔고가 매출 1.5년치 이상으로 늘면서 OPM 35% 이상이 2027년까지 유지되는 경우(유안타 2027F 영업이익 3,482억 달성 시 2027E EV/EBIT 17.6배). ② 회사의 자사주매입 또는 최대주주측 장내 매수. ③ 감사인 변경 사유와 재고 증가가 수주 대응용으로 소명되는 경우. ④ 주가가 실적 훼손 없이 관심 구간까지 하락하는 경우. 또한 NCAV, 희석성 증권, 공매도 잔고, Bloom향 매출 비중이 [unavailable]이어서, 이 데이터가 확보되면 자산 coverage와 집중도 판단이 달라질 수 있다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "Bloom Energy 의존 — 신규수주의 약 30% [estimated], Bloom은 공매도 리포트 대상",
+        "2대주주 블록딜 및 임원 매도 등 내부자 매도 신호",
+        "감사인 잦은 변경, 수익인식 KAM, 재고 +51.4%"
+      ],
+      "key_opportunities_top3": [
+        "수주 +163%, OPM 37.8% 등 실적이 narrative를 실제로 뒷받침",
+        "무차입과 강한 현금창출로 3공장 증설을 자체 조달 가능",
+        "고점 대비 -40% 조정으로 과열 일부 해소 — 시험 통과 시 추세 재개 여지"
+      ],
+      "uncertainty": "DCF와 reverse DCF 수치가 제공되지 않아 단계 진단은 멀티플과 가격 흐름에 근거한 추론이다. 수주 증가율이 급락하거나 Bloom 관련 발주 취소, 회계 이슈가 현실화되면 7단계로 재판정해 lean_bearish가 된다. 반대로 수주 고성장이 이어지는 가운데 주가가 추가 하락해 2027E PER이 10배대 중반 이하로 내려가거나, 미국 정책이 한국산에 유리하게 확정되면 lean_bullish로 바뀔 수 있다.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "안전마진 부재: 현재가 204,000원 [actual]은 Graham Number 약 53,700원 [derived]의 3.8배이고, 2027E EPS [estimated]를 써도 약 64,700원 [derived]",
+        "이익 기록이 짧고 사이클 정점일 가능성: 순이익이 3년 만에 약 36배 [derived], 영업이익률 36% [derived]의 지속성 미검증",
+        "이익의 질: 감사인 3개 사업연도 2회 변경, 수익인식 KAM, 재고 +51.4% 지적 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "재무 강건성: 차입금 0, 부채/자기자본 약 14% [derived]로 불황을 견딜 체력 보유",
+        "1H26 영업CF 900.5억 [actual]으로 현금 창출력 개선, 장부가치가 빠르게 누적되는 중",
+        "7월 폭락과 같은 시장 급락이 재현되어 가격이 Graham Number 부근까지 내려오면 적극적 투자자의 검토 대상이 될 수 있음 [inference]"
+      ],
+      "uncertainty": "주식 수, EPS, BVPS는 시총과 주가에서 역산한 값 [derived]이라 자기주식이나 희석 요인에 따라 다소 오차가 있을 수 있으나, 3.8배 괴리를 뒤집을 수준은 아니다. 유동비율과 정확한 NCAV, 2021년 이전 실적은 자료가 없어 확인하지 못했다. 또한 3공장 부지 등 토지·부동산의 시가가 장부가와 크게 다르면 BVPS 기반 계산이 실제 자산가치와 어긋날 수 있다. 판단이 바뀌려면 주가가 약 36,000원(Graham Number 대비 33% 할인) [derived] 수준까지 하락하거나, 현 수준의 이익이 7~10년간 유지되어 정상 수익력으로 입증되고 장부가치가 몇 배로 커져야 한다. 반대로 성장주 관점에서는 2027F 영업이익 3,482억 [estimated]이 실현되면 주가가 더 오를 수 있다. 그 경우 이 판단은 수익 기회를 놓치는 것이 되지만, 그것은 그레이엄 원칙이 감수하는 비용이다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "변압기는 성숙 기술로 학습곡선에 따른 비용 하락과 신규 TAM 창출이 없고, 현재 초과이익은 공급 부족에 의존한다 [inference]",
+        "매출 성장률이 +99%에서 +28%까지 감속 중이다 [derived]",
+        "중국 수출 증가와 글로벌 증설로 경쟁이 심해지고 있고, 미국 매출 비중 73.7% 상태에서 외국산 전력장비 규제의 세부 내용이 미정이다 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "Bloom(SOFC), 유럽 BESS, 리액터 등 혁신 플랫폼향 수주 비중이 늘면 단순 변압기 업체에서 분산전원·저장 인프라 공급자로 재평가될 수 있다 [inference]",
+        "154kV 3공장(2028 가동)으로 상위 전압 시장에 진입하고 매출 CAPA가 1,500~2,000억 늘어난다 [actual]",
+        "신규수주 +163% 가속이 2027년 매출 재가속으로 이어질 가능성 [inference]"
+      ],
+      "uncertainty": "다음이 확인되면 lean_bullish로 바뀔 수 있다. 3공장 가동과 수주 전환으로 매출 성장률이 다시 40% 이상으로 가속하는 경우, Bloom·BESS 등 혁신 플랫폼향 매출 비중이 공시로 확인되고 과반에 근접하는 경우, 전력전자 기반 신제품 등 R&D 투자가 확인되는 경우다. 반대로 미국 규제가 한국산 장비에 불리하게 확정되거나, 변압기 가격이 하락 전환하거나, Bloom의 수요·신뢰성 문제가 현실화하거나, 수익인식·재고 이슈가 실제 손실로 이어지면 lean_bearish로 바뀐다. 5년 후 밸류에이션 계산은 성장률 15%와 PSR 4배라는 가정에 크게 의존하므로, 이 가정이 달라지면 결론도 달라진다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "OPM 36%의 지속 가능성 — 중국 수출 증가, Hitachi 등 글로벌 증설, 대형 변압기 관세 25%→15% 인하가 마진 정상화 압력이다",
+        "미국 매출 73.7%와 Bloom 의존(2Q 신규수주의 약 30% [estimated])에 따른 고객·정책 집중 위험",
+        "3공장 가동이 2028년이라 그 전까지는 물량 성장이 CAPA에 제약된다"
+      ],
+      "key_opportunities_top3": [
+        "8/26 행정명령(69kV 이상 외국산 전력장비 규제)의 세부 내용이 한국산에 유리하게 확정되면 가격 결정력이 연장된다",
+        "154kV 3공장으로 상위 전압 시장에 진입해 TAM이 넓어진다",
+        "무차입에 연 1,000억 원 안팎의 FCF로 증설·주주환원 여력이 있다"
+      ],
+      "uncertainty": "결론을 뒤집을 가정은 세 가지다. 첫째, 영업이익률이 2030년 이후에도 35% 안팎으로 유지된다는 증거(장기 가격 고정 계약, 구조적 진입장벽)가 나오는 경우다. 둘째, 연간 신규수주가 1조 원을 넘는 상태가 지속되어 10년 매출 CAGR이 17% 이상으로 확인되는 경우다. 셋째, 할인율이 9% 안팎으로 내려가는 경우(금리 하락, 또는 원화 기준 무위험수익률 적용)다. 셋이 동시에 충족되면 내재가치가 현재가에 근접해 neutral이 된다. 한국 CRP와 bottom-up 베타는 제공 데이터에 없어 가정치로 썼으므로, point estimate는 ±25% 정도의 오차를 감안해야 한다. 다만 그 오차를 넣어도 현재가는 +30% 프리미엄 기준을 넘는다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "미국 매출 73.7% [actual] 집중 상태에서 8/26 행정명령의 대상국·세부가 미정인 규제 꼬리위험",
+        "Bloom Energy 단일 고객 의존(2Q 신규수주의 약 30% [estimated])과 해당 고객에 대한 공매도 리포트",
+        "대표 배우자 블록딜 4,490억 [actual] 및 임원 매도로 드러난 내부자의 위험 축소"
+      ],
+      "key_opportunities_top3": [
+        "무차입과 풍부한 현금흐름으로 불황기에도 생존 가능한 재무 체력",
+        "행정명령이 중국산만 겨냥할 경우 미국 내 경쟁 완화에 따른 수혜 가능성 [assumption]",
+        "유럽 BESS, 리액터 등 제품·지역 다변화가 진행될 경우 집중 위험 완화"
+      ],
+      "uncertainty": "다음 가정이 깨지면 판정이 바뀐다. 첫째, 행정명령 세부가 한국산을 면제하고 중국산을 배제하는 것으로 확정되면 규제 꼬리가 상방으로 전환된다. 둘째, 주가가 크게 하락해 TTM 기준 멀티플이 의미 있게 낮아지면 회사의 Robust한 재무가 볼록성으로 이어져 neutral 이상으로 상향할 수 있다. 셋째, 내부자 순매수 전환이나 고객 다변화 공시로 Bloom 의존도가 낮게 확인되면 취약성 진단이 완화된다. 반대로 Bloom향 매출 비중, 경영진 보상 구조, 재고 증가의 실제 원인은 [unavailable]이므로 본 판정은 이 정보 공백 위에서 내려진 것이다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

@@ -1,0 +1,991 @@
+{
+  "ticker": "336260.KS",
+  "company": "두산퓨얼셀",
+  "as_of": "2026-09-29",
+  "generated_note": "fresh context — 이전 thesis·페르소나 결론을 참조하지 않음. 블로그 본문은 검증 대상 데이터로만 취급함. 매수·매도 권유 아님.",
+  "price_basis_note": "현재가 43,150원은 2026-09-29 14:58 KST 장중 스냅샷(yfinance 1.7.0 live, stocks.json)임. 9/29 공식 종가 43,800원 [actual, yfinance 15:48 KST 조회] — 분석 전체는 장중 스냅샷 기준으로 일관 작성함",
+  "industry": {
+    "name": "발전용 연료전지(PAFC·SOFC) — 국내 수소발전 입찰시장 + 미국 데이터센터 온사이트(비하인드더미터) 발전",
+    "overview": "- 두산퓨얼셀은 2019-10 ㈜두산 연료전지 사업부문 인적분할로 설립된 발전용 연료전지 제조사임. 주기기 공급과 발전소 장기유지보수(LTSA)가 두 축이고, 1H26 매출 1,891.1억 중 주기기 1,431억(75.7%)·LTSA 460억(24.3%)임 [actual, DART 반기보고서 수주상황 매출계상, https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001645]\n- 주력 제품은 인산형(PAFC)이고 SOFC는 2025-07 군산 50MW 공장에서 양산을 시작한 초기 단계임. KIS는 PAFC를 '동사 주력품목'으로 적음 [actual, 한국신용평가 2026-06-29]\n- 매출처는 국내 수소발전 입찰(CHPS) 낙찰 발전사업자 중심임(1H26 삼천리ES 37.0%·롯데건설 17.4%) [actual, DART 반기보고서]. 2026 일반수소 입찰물량은 930GWh(약 125MW)로 2023~25 평균 약 175MW를 밑돌아 국내 시장은 축소 방향임 [actual, 아시아경제 2026-06-11·KIS]\n- 2026-09 미국 계열회사 HyAxiom(㈜두산 86.21% 종속)과 데이터센터용 PAFC 5,014억(9/2)·3,222억(9/15) 계약을 맺어 수출 비중이 급증할 예정임. 두산퓨얼셀이 익산에서 제조해 HyAxiom에 넘기고 HyAxiom이 최종 고객에게 인도·시운전·LTSA를 맡는 구조임 [actual, DART 반기보고서 판매경로·뉴스핌 2026-09-02]\n- 블로그는 이 수주를 'SOFC가 전력망 병목을 우회하는 가장 빠른 수단'의 사례로 들었으나, 두 계약 모두 PAFC임. 두산퓨얼셀의 SOFC 수주는 독일 Reverion 스택 1,087억(8/5) 1건임 [actual, DART 20260805800294·뉴스핌·머니투데이]\n- 미국 온사이트 시장 선두는 SOFC의 Bloom Energy(2Q26 매출 $1.065B, +165.5%)이고, 가스터빈(GE Vernova 백로그·슬롯 116GW)·가스엔진과도 경쟁함 [actual, Bloom IR 2026-07-28·GE Vernova 8-K 2026-07-22]",
+    "market_position": "- 국내 발전용 연료전지 점유율 61%(2021) → 47%(2025, 누적설치용량 기준) → 49%(1Q26) [actual, KIS 2026-06-29 — 사업보고서 인용]\n- 생산능력: PAFC 연산 180MW(3교대 반영, KIS) [actual]. 반기보고서 기준 익산·군산 합산 1H26 생산능력 115.0MW·생산실적 98.4MW·가동률 86%(2025년 205.0MW·162.4MW·79%) [actual, DART 반기보고서]\n- 수주잔고(2026-06-30): 주기기 1,208억 + LTSA 1조9,302억 = 2조510억 [actual, DART 반기보고서]. 이후 Reverion 1,087억(8/5)·와이에이치파워1·2 주기기 606억+LTSA 563억(8/12)·HyAxiom 8,236억(9월)이 더해져 주기기 잔고가 1조 원대로 늘었음 [derived, DART 공시 합산 — 공시 기준 미만 계약 제외]\n- 2026년 누적 수주 약 1.11조 원(회사·언론 기준) [actual, 머니투데이 2026-09-15·글로벌이코노믹 2026-09-22]\n- 미국 시장 지위: HyAxiom의 PAFC 생산을 익산으로 일원화해 미국 공급분도 두산퓨얼셀이 전담함(2025 기술도입계약) [actual, KIS]. 다만 미국 영업·엔지니어링·LTSA는 HyAxiom 몫이라 두산퓨얼셀이 가져가는 것은 제조 마진임 [inference, DART 반기보고서 판매경로]",
+    "demand_drivers": [
+      "미국 계통연계 지연 → 데이터센터 비하인드더미터 발전 수요: HyAxiom 1차 계약 목적 '미국 데이터센터용', 2차 '미국 데이터센터 및 상업·산업용' [actual, DART 20260902800020·20260915800271]. 계통연계 신청~상업운전 중앙값 약 5년(LBNL, 4-Analyst 인용) [actual 2차 인용]",
+      "가스터빈 공급 병목: GE Vernova 가스 장비 백로그+슬롯 예약 100GW → 116GW, 2026년 말 125GW 이상 예상, 연 생산 20GW(3Q26) → 30GW(2030) 목표 [actual, GE Vernova 2Q26 8-K]",
+      "미국 48E: 2026년 이후 착공 연료전지 30% ITC(GHG 무배출 요건 삭제·PWA 면제), 2033년까지 100% → 2034년 75% → 2035년 50% → 2036년 0% [actual, Norton Rose Fulbright 2026-05-11]. 가스 기반 연료전지에 우호적임",
+      "Bloom 공급 한계: 확정 생산능력은 2GW(2026년 말)이고 5GW는 '필요 시 수용 가능' 여력 [actual, Bloom 10-K] → 대체 공급자(PAFC 포함)에 수요가 넘칠 여지 [inference]",
+      "LTSA 잔고 1조9,302억(2026.6말): 설치 기반 10~20년 서비스 매출 [actual, DART 반기보고서]",
+      "(역풍) 국내 수소발전 입찰 축소: 2026 일반수소 930GWh(약 125MW)·청정수소 500GWh, 2027년 이후 물량은 12차 전력수급기본계획 후 결정 [actual, 아시아경제·KIS]"
+    ],
+    "competitive_moat": "- ① 국내 1위: 발전용 연료전지 점유율 47%(2025)·49%(1Q26), 공공·대형 민간 발전사 수요 기반 [actual, KIS]\n- ② PAFC 셀스택 자체 제작·연산 180MW, HyAxiom PAFC 생산 일원화로 미국 공급분까지 전담 [actual, KIS]\n- ③ LTSA 잔고 1.93조 원 — 설치 기반 장기 매출 [actual, DART 반기보고서]\n- ④ SOFC 옵션: Ceres Power 기술(2020-10 기술협력), 군산 50MW 2025-07 양산, Reverion 스택 1,087억으로 스택 파운드리 첫 해외 수주 [actual, DART 반기보고서·DART 20260805800294]\n- 한계 ①: PAFC 전기효율 40~45%·백금 촉매 vs SOFC 50~60%·니켈 촉매 [actual, KIS 연료전지 비교표] — 효율·원가에서 Bloom SOFC보다 불리할 수 있음 [inference]\n- 한계 ②: 미국 최종 고객 관계·서비스는 HyAxiom(㈜두산 86.21%)이 보유해 두산퓨얼셀 소액주주가 가져가는 몫은 이전가격에 달림 [inference, DART 20251219800232 '이전가격에 따라 변동']\n- 한계 ③: SOFC는 초도 프로젝트 손실·수율 안정화 지연·하이창원 이후 수주 공백으로 고정비 부담 요인임 [actual, KIS·뉴스핌 2026-08-07]",
+    "competitors": [
+      {
+        "name": "Bloom Energy",
+        "ticker": "BE",
+        "share_pct": null,
+        "moat": "SOFC 미국 데이터센터 온사이트 1위. 2Q26 매출 $1.065B(+165.5%), FY26 가이던스 $3.9~4.2B, 생산능력 1GW→2GW(2026년 말), Oracle 1.2GW 확정 [actual]. 시총 $77.4B·EV/매출(TTM) 24.9배·forward PER 53.3배 [actual, yfinance 2026-09-28 미국 종가 기준]. 7/8 Hunterbrook 공매도 리포트 → 8-K 반박",
+        "source": "Bloom Energy IR 2026-07-28 · 10-K · yfinance",
+        "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Second-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx"
+      },
+      {
+        "name": "FuelCell Energy",
+        "ticker": "FCEL",
+        "share_pct": null,
+        "moat": "MCFC(탄산염형). 생산능력 약 100MW → 350MW 계획, 첫 데이터센터 계약 Fit Energy 최대 380MW(1단계 30MW 확정) [actual]. 적자(영업이익률 −141%)·EV/매출 5.62배 [actual, yfinance]",
+        "source": "FuelCell Energy IR 2026-09-02 · yfinance",
+        "url": "https://investor.fce.com/press-releases/press-release-details/2026/FuelCell-Energy-Reports-Third-Fiscal-Quarter-2026-Results-Executes-First-Data-Center-Power-Agreement-Increases-Annualized-Production-Rate--Focuses-on-Capacity-Expansion/default.aspx"
+      },
+      {
+        "name": "GE Vernova (가스터빈)",
+        "ticker": "GEV",
+        "share_pct": null,
+        "moat": "대형 온사이트·계통 발전 대안. 가스 장비 백로그·슬롯 116GW, 연 20GW(3Q26) → 30GW(2030) [actual]. EV/매출 5.93배·forward PER 37.8배 [actual, yfinance]",
+        "source": "GE Vernova 2Q26 8-K 2026-07-22 · yfinance",
+        "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm"
+      },
+      {
+        "name": "가스 왕복엔진·이동식 터빈 (Caterpillar·Wärtsilä·VoltaGrid 등)",
+        "ticker": "-",
+        "share_pct": null,
+        "moat": "xAI 멤피스 이동식 터빈, Oracle VoltaGrid 가스엔진 등 수개월 내 설치 사례로 '가장 빠른 수단' 경쟁자 [inference — 4-Analyst industry·counter 평가(T09) 인용, 수치 미검증]",
+        "source": "thesis_eval/T09 (4-Analyst)",
+        "url": ""
+      },
+      {
+        "name": "블룸SK퓨얼셀 (SK에코플랜트·Bloom JV)",
+        "ticker": "비상장",
+        "share_pct": null,
+        "moat": "국내 SOFC 경쟁사 — 국내 수소발전 입찰에서 두산퓨얼셀과 경쟁(소수 대기업 계열 구도) [actual, KIS 연료전지 제조사 표]",
+        "source": "한국신용평가 2026-06-29",
+        "url": "https://kisrating.com/fileDown.do?menuCd=R8&gubun=2&fileName=rs20260630-123.pdf"
+      },
+      {
+        "name": "미코파워 (미코 자회사)",
+        "ticker": "059090.KQ(모회사)",
+        "share_pct": null,
+        "moat": "SOFC 평택 1단계 30MW(2026년 초 계획) → 100MW 증설 계획. 2026년 실제 양산 여부는 확인 불가",
+        "source": "전자신문 2024-11-11 (facts_sofc.md M1)",
+        "url": "https://www.etnews.com/20241111000305"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-09-18",
+        "title": "HyAxiom 자본잠식(−1,563억)·㈜두산 지급보증 5,117억 — 8,236억 수주 상대방의 재무 상태",
+        "source": "한국금융신문",
+        "url": "https://www.fntimes.com/html/view.php?ud=202609182222526406dd55077bc2_18",
+        "summary": "HyAxiom은 ㈜두산 86.21% 종속회사, 자본총계 2026H1 −1,563억(2022년 이후 마이너스), 1H26 매출 161억(전년 933억 대비 −82.7%). 2023-07 전환우선주 투자 조건상 5년 내 미상장 시 풋옵션 → 2028년 이내 상장 추진 관측. 이두순 두산퓨얼셀 사장이 HyAxiom 대표 겸직"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "HyAxiom向 PAFC 추가 공급계약(2차) — 9월 두 번째 수주, 양사 누적 8,236억원",
+        "source": "DART 단일판매ㆍ공급계약체결",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915800271",
+        "summary": "3,222억(2025 매출 대비 70.84%), 2026-09-15~2028-10-17, 미국 데이터센터 및 상업·산업용, 선급 20%·중도 75%·잔금 5%(PO 발생 시). 언론은 2028년부터 순차 공급으로 보도(머니투데이)"
+      },
+      {
+        "date": "2026-09-09",
+        "title": "SK증권 목표주가 42,000→74,000원 상향, 2027E 영업이익 450억",
+        "source": "이데일리(SK증권)",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=02673206645578480",
+        "summary": "2026E 매출 5,050억·영업손실 710억, 2027E 매출 8,610억·영업이익 450억, 2028E 영업이익 760억. 가스터빈 리드타임 대비 연결 속도 우위 언급"
+      },
+      {
+        "date": "2026-09-03",
+        "title": "DS투자증권 목표주가 47,000원·매수, 2027E 영업이익 726억(흑자전환)",
+        "source": "이데일리(DS투자증권)",
+        "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02696166645576512",
+        "summary": "2026E 영업손실 638억, 2027E 매출 8,444억(+74.7%)·영업이익 726억. 미국 PAFC 수주분 2027년 3월부터 납품 예정"
+      },
+      {
+        "date": "2026-09-02",
+        "title": "HyAxiom向 미국 데이터센터용 PAFC 연료전지 시스템 공급계약(1차)",
+        "source": "DART 단일판매ㆍ공급계약체결",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260902800020",
+        "summary": "5,014억(2025 매출 대비 110.25%), 2026-09-01~2028-04-20, 관계 '계열회사', 대금은 PO 발생 시 선급 20%·중도 75%·잔금 5%. 2026H2~2028H1 순차 납품(뉴스핌)"
+      },
+      {
+        "date": "2026-08-05",
+        "title": "독일 Reverion GmbH向 SOFC 연료전지 Stack 공급계약 — 첫 SOFC 해외 수주",
+        "source": "DART 단일판매ㆍ공급계약체결",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805800294",
+        "summary": "1,087억(USD 76M, 매출 대비 23.9%), 2026-08-04~2027-12-31, 선급 20%·잔금 80%. 두산퓨얼셀의 유일한 SOFC 대형 수주"
+      },
+      {
+        "date": "2026-07-28",
+        "title": "Bloom Energy 2Q26 매출 $1.065B(+165.5%), FY26 가이던스 $3.9~4.2B 상향",
+        "source": "Bloom Energy IR",
+        "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Second-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx",
+        "summary": "미국 데이터센터 온사이트 SOFC 1위 경쟁사. GAAP 영업이익 $182.2M, non-GAAP GPM 34.3%. 온사이트 수요 실재의 근거이자 두산퓨얼셀 PAFC의 직접 경쟁 제품"
+      },
+      {
+        "date": "2026-07-24",
+        "title": "2Q26 연결 잠정실적 — 매출 443억(YoY −65.5%), 영업손실 509억",
+        "source": "DART 영업(잠정)실적(공정공시)",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800675",
+        "summary": "지배순손실 556억, 1H26 누적 매출 1,891억·영업손실 522억. PAFC 납품 하반기 이연·SOFC 수주 공백에 따른 고정비 부담(뉴스핌 2026-08-07). 발표 후 하한가"
+      },
+      {
+        "date": "2026-07-24",
+        "title": "재고 급증·현금 급감 — 2Q 납품 이연으로 운전자본 부담 (시사저널e)",
+        "source": "시사저널e",
+        "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=422662",
+        "summary": "재고 3,683억 → 4,558억, 현금성자산 1,289억 → 337억, 순차입금 5,271억 → 6,257억, 부채비율 264% → 336%(보도 수치 — 별도 기준으로 보임)"
+      },
+      {
+        "date": "2026-06-29",
+        "title": "한국신용평가, 두산퓨얼셀 BBB 유지·등급전망 안정적 → 부정적",
+        "source": "한국신용평가",
+        "url": "https://kisrating.com/fileDown.do?menuCd=R8&gubun=2&fileName=rs20260630-123.pdf",
+        "summary": "2026.3말 별도 부채비율 264.4%·차입금의존도 50.0%·순차입금 5,328억, 2025 EBITDA −746억. 하향 트리거(별도 EBITDA/매출 5% 미만·부채비율 120% 초과 지속)를 모두 넘은 상태. 2025-04 ZKRG 3,469억 계약 해지 기재"
+      },
+      {
+        "date": "2026-06-11",
+        "title": "2026 수소발전 입찰시장 개설물량 행정예고 — 일반수소(연료전지 중심) 1,300→930GWh 축소, 3년 후 존속 재검토",
+        "source": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026061114200815226",
+        "summary": "2026 청정수소 500GWh·일반수소 930GWh(약 125MW 상당), 2027년 이후 물량은 12차 전력수급계획 후 결정. 국내 주기기 수요 축소 요인"
+      },
+      {
+        "date": "2026-05-11",
+        "title": "미국 48E: 2026년 이후 착공 연료전지 30% ITC(GHG 무배출 요건 삭제, PWA 면제, 가산점 없음), 2034년부터 단계적 축소",
+        "source": "Norton Rose Fulbright Project Finance",
+        "url": "https://www.projectfinance.law/tax-equity-news/qa-fuel-cell-projects-eligible-for-itc-under-section-48e",
+        "summary": "100%(~2033) → 75%(2034) → 50%(2035) → 0%(2036~). 금지외국기관(PFE) material assistance 시 공제 불가. 가스 기반 연료전지(PAFC·SOFC 모두)에 우호적"
+      }
+    ]
+  },
+  "financials": {
+    "basis": "DART fnlttSinglAcntAll 직접 조회(2026-09-29). 2021~2023은 종속회사가 없어 연결 미공시 → 별도(OFS), 2024~ 연결(CFS). 2023↔2024 사이 기준이 바뀌므로 연도 간 비교 시 주의. 2026 반기·TTM은 연결 [actual; 비율·TTM은 derived]",
+    "unit": "억 원",
+    "financial_unit": {
+      "currency": "KRW",
+      "scale": "억",
+      "label": "억 원"
+    },
+    "pl_5y": [
+      {
+        "year": 2021,
+        "basis": "별도",
+        "revenue": 3814.1,
+        "op_income": 179.9,
+        "op_margin": 4.72,
+        "net_income": 87.0,
+        "net_margin": 2.28,
+        "rcept_no": "20220321001227"
+      },
+      {
+        "year": 2022,
+        "basis": "별도",
+        "revenue": 3121.5,
+        "op_income": 72.2,
+        "op_margin": 2.31,
+        "net_income": 38.6,
+        "net_margin": 1.24,
+        "rcept_no": "20230321001259"
+      },
+      {
+        "year": 2023,
+        "basis": "별도",
+        "revenue": 2608.9,
+        "op_income": 16.4,
+        "op_margin": 0.63,
+        "net_income": -85.0,
+        "net_margin": -3.26,
+        "rcept_no": "20240318000856"
+      },
+      {
+        "year": 2024,
+        "basis": "연결",
+        "revenue": 4117.8,
+        "op_income": -17.3,
+        "op_margin": -0.42,
+        "net_income": -104.7,
+        "net_margin": -2.54,
+        "rcept_no": "20250318001214"
+      },
+      {
+        "year": 2025,
+        "basis": "연결",
+        "revenue": 4547.9,
+        "op_income": -1056.7,
+        "op_margin": -23.23,
+        "net_income": -1328.0,
+        "net_margin": -29.2,
+        "rcept_no": "20260318001264"
+      }
+    ],
+    "pl_note": "net_income: 2021~2023 별도 당기순이익(지배 구분 없음), 2024~ 지배주주 순이익. 2026H1·TTM은 표 왜곡(반기 매출이 5년 CAGR 계산에 섞임)을 피하려고 pl_5y가 아닌 interim_2026·ttm에 따로 둠",
+    "interim_2026": [
+      {
+        "period": "1Q26",
+        "revenue": 1448.5,
+        "op_income": -12.9,
+        "op_margin": -0.9,
+        "net_income": -131.9,
+        "tag": "[actual]",
+        "rcept_no": "20260514001059"
+      },
+      {
+        "period": "2Q26",
+        "revenue": 442.6,
+        "op_income": -509.1,
+        "op_margin": -115.0,
+        "net_income": -556.0,
+        "yoy": "매출 −65.5% (2Q25 1,284.7억) [derived]",
+        "tag": "[actual]",
+        "rcept_no": "20260813001645"
+      },
+      {
+        "period": "1H26",
+        "revenue": 1891.1,
+        "op_income": -522.1,
+        "op_margin": -27.6,
+        "net_income": -687.9,
+        "yoy": "매출 −17.1%(1H25 2,282.2억), 영업손실 134.6억 → 522.1억 [derived]",
+        "tag": "[actual]",
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001645"
+      }
+    ],
+    "ttm": {
+      "revenue": 4156.8,
+      "op_income": -1444.2,
+      "op_margin": -34.7,
+      "net_income": -1888.9,
+      "net_margin": -45.4,
+      "basis": "TTM = 2025 연간 − 1H25 + 1H26 (DART 연결) [derived, _logs/derived_metrics.json]"
+    },
+    "bs_snapshot": {
+      "as_of": "2026-06-30 (연결)",
+      "total_assets": 13359.6,
+      "total_liab": 10363.4,
+      "equity": 2996.3,
+      "cash": 348.4,
+      "debt": 5800.2,
+      "debt_detail": {
+        "단기차입금": 2850.0,
+        "유동성장기차입금": 233.3,
+        "장기차입금": 450.0,
+        "사채(유동 669.6+비유동 1,597.3)": 2266.9
+      },
+      "abs_securitization": 793.6,
+      "lease": 98.3,
+      "debt_incl_abs": 6593.8,
+      "short_term_financial_assets": {
+        "단기금융상품": 111.1,
+        "단기투자증권": 750.1
+      },
+      "net_debt_cash_only": 6245.4,
+      "net_debt": 5384.2,
+      "inventory": 4568.6,
+      "receivables": 801.4,
+      "warranty_provisions": 1128.4,
+      "current_maturities_12m": 4133.8,
+      "_note": "DART 반기보고서 연결 재무상태표, 억 원 [actual]. 차입금 5,800.2억(단기 2,850.0·유동성장기 233.3·장기 450.0·사채 2,266.9)과 유동화채무(ABS) 793.6억을 구분함 — 합계 6,593.8억, 리스부채 98.3억 별도. 순차입금 5,384.2억 = 차입금 + 유동화채무 − (현금 348.4 + 단기금융상품 111.1 + 단기투자증권 750.1) [derived]; 현금만 차감하면 6,245.4억. 표의 '순현금'(현금−차입금)은 유동화채무·단기금융자산을 반영하지 않은 값임. 부채총계/자본 345.9%(연결) [derived] — 보도 336%(시사저널e)는 별도 기준으로 보임(3월말 264%가 KIS 별도 264.4%와 일치). 1년 내 만기 차입성 부채 4,133.8억(단기차입 2,850.0 + 유동성장기 233.3 + 유동사채 669.6 + 유동성유동화채무 380.9) vs 현금성·단기금융자산 1,209.6억 [derived]. 재고 4,568.6억(2025말 3,729.9억), 판매보증충당부채 1,128.4억(유동 243.4 + 비유동 885.0) [actual]"
+    },
+    "cf_summary": {
+      "basis": "2021~2023 별도, 2024~2025 연결, 억 원. OCF·capex(유형자산 취득) [actual, DART], FCF·평균 [derived]",
+      "ocf_5y_avg": -690.8,
+      "fcf_5y_avg": -1341.2,
+      "capex_intensity": 0.179,
+      "yearly": [
+        {
+          "year": 2021,
+          "ocf": -1400.6,
+          "capex": 349.3,
+          "fcf": -1749.9
+        },
+        {
+          "year": 2022,
+          "ocf": -2576.6,
+          "capex": 738.1,
+          "fcf": -3314.7
+        },
+        {
+          "year": 2023,
+          "ocf": 77.7,
+          "capex": 1139.4,
+          "fcf": -1061.7
+        },
+        {
+          "year": 2024,
+          "ocf": 1010.6,
+          "capex": 682.5,
+          "fcf": 328.1
+        },
+        {
+          "year": 2025,
+          "ocf": -565.1,
+          "capex": 342.7,
+          "fcf": -907.8
+        },
+        {
+          "year": "1H26",
+          "ocf": -525.2,
+          "capex": 63.6,
+          "fcf": -588.8
+        }
+      ],
+      "note": "5년 중 FCF 흑자는 2024년 1회(재고 회수 효과, KIS). capex 강도 17.9%는 5년 capex 합 3,252.0억 ÷ 매출 합 18,210.2억 [derived]. SOFC 공장 준공(2025-06) 후 capex는 1H26 63.6억으로 줄었으나 운전자본(재고 +838.7억)이 현금을 소모함 [derived]"
+    },
+    "trend_narrative": "- 매출은 3,814.1억(2021) → 2,608.9억(2023) → 4,547.9억(2025)으로 4년 CAGR +4.5% [derived]임. 2023년 저점은 국내 입찰시장 전환기, 2024~25년 반등은 2023년 일반수소 입찰 낙찰분 납품 본격화 때문임 [actual, KIS]\n- 영업이익률은 4.7%(2021) → 0.6%(2023) → −0.4%(2024) → −23.2%(2025)로 5년 내내 하락함 [derived]. 2025년 영업손실 1,056.7억은 백금 원가 상승·PAFC 스택 교체비·SOFC 초도 프로젝트 손실과 수율 안정화 지연 때문임 [actual, DART 20260211801225·KIS]\n- 2026년은 1Q 영업손실 12.9억으로 축소됐다가 2Q 매출 442.6억(YoY −65.5%)·영업손실 509.1억으로 다시 급악화됨 [actual, DART]. 원인은 PAFC 납품 하반기 이연과 SOFC 수주 공백에 따른 고정비 부담임 [actual, 뉴스핌 2026-08-07]\n- TTM 매출 4,156.8억·영업손실 1,444.2억(OPM −34.7%)·지배순손실 1,888.9억 [derived]임. 자본은 5,181.9억(2021) → 2,996.3억(2Q26)으로 줄었고 차입금+유동화채무는 747.5억 → 6,593.8억으로 늘었음 [actual]\n- 현금흐름은 5년 평균 OCF −690.8억·FCF −1,341.2억 [derived]으로, 성장 투자와 운전자본을 차입으로 메워 온 구조임. 2026-01 단기차입 2,300억(DART 20260121800513) 이후 단기차입금이 2,850억까지 늘었음 [actual]\n- 증권사는 HyAxiom 납품이 시작되는 2027년 흑자전환(영업이익 404~726억)을 전망함 [estimated, NH·SK·DS]. 흑자전환의 전제는 PO 발행·납품 일정·이전가격이고, 셋 다 계열사 간 결정 사항이라 외부 검증이 어려움 [inference]",
+    "key_ratios": {
+      "current_price_krw": 43150,
+      "price_note": "현재가 43,150원은 2026-09-29 14:58 KST 장중 스냅샷(yfinance 1.7.0 live, stocks.json)임. 9/29 공식 종가 43,800원 [actual, yfinance 15:48 KST 조회] — 분석 전체는 장중 스냅샷 기준으로 일관 작성함",
+      "close_2026_09_29_krw": 43800,
+      "market_cap_krw_bn": 3406.25,
+      "market_cap_note": "yfinance 1.7.0 live(14:58 KST 스냅샷) — 보통주+우선주 합산 시총 [actual]",
+      "shares": {
+        "common_outstanding": 65485767,
+        "preferred_outstanding": 16348983,
+        "implied_common_equivalent": 78848450,
+        "note": "DART 반기보고서 유통주식수(보통주 65,485,767·우선주 16,348,983) [actual]. yfinance implied 78,848,450주 = 우선주를 보통주 대비 가격비 약 0.82로 환산한 값 [derived] — 시나리오 주당가치 분모로 사용"
+      },
+      "pbr": 11.4,
+      "pbr_note": "시총 34,062억 ÷ 2Q26 자본총계 2,996.3억 [derived]. yfinance pb는 null",
+      "psr_ttm": 8.2,
+      "ev_krw_100m": 39446.7,
+      "ev_note": "시총 34,062.5억 + 순차입금 5,384.2억 [derived]",
+      "ev_to_sales_ttm": 9.49,
+      "ev_to_sales_2027e": "3.54~4.67배 (메리츠 매출 1조1,139억 ~ DS 8,444억 기준) [derived]",
+      "ttm_opm_pct": -34.7,
+      "ev_to_op_2027e": "54.3~97.6배 (DS 726억 ~ NH 404억 기준) [derived]",
+      "ev_to_op_2028e": "51.9배 (SK 2028E 760억 기준) [derived]",
+      "op_2027e_broker_range_krw_100m": "450~726억 (SK 450·DS 726) — 9/7 NH 404억 포함 시 404~726억 [estimated]. 컨센서스 값은 확인 불가",
+      "debt_ratio_pct_consolidated": 345.9,
+      "debt_ratio_note": "연결 부채총계/자본 [derived, DART]. 보도 336%(시사저널e, 별도로 보임), KIS 별도 2026.3말 264.4%",
+      "debt_dependence_pct": 49.4,
+      "net_debt_to_equity_pct": 179.7,
+      "credit_rating": "BBB / 전망 부정적 (한국신용평가, 2026-06-29, 안정적→부정적) [actual]",
+      "forward_pe": 1828.76,
+      "forward_pe_note": "yfinance 값 — 예상 이익이 0에 가까워 생긴 무의미한 수치. 밸류에이션 근거로 쓰지 않음",
+      "ev_ebitda": -33.56,
+      "ev_ebitda_note": "EBITDA 적자라 무의미",
+      "beta": 2.77,
+      "volatility_annualized_pct": 112.65,
+      "return_1m_pct": -4.96,
+      "return_3m_pct": -22.95,
+      "return_6m_pct": 29.19,
+      "return_1y_pct": 48.03,
+      "high_52w": 108900,
+      "high_52w_date": "2026-05-28",
+      "low_52w": 18230,
+      "drawdown_from_high_pct": "−60.4%(장중 43,150원) / −59.8%(종가 43,800원) [derived]",
+      "div_yield_pct": 0,
+      "source": "yfinance 1.7.0 (live, as_of 2026-09-29) + DART 반기보고서 + _logs/derived_metrics.json",
+      "brokers": [
+        {
+          "broker": "메리츠증권(문경원)",
+          "date": "2026-09-03",
+          "target_price": 76000,
+          "rating": "매수",
+          "estimates": "2027E 매출 1조1,139억(+118%) — 시장 컨센서스 7,309억 대비 +52%. PAFC 2027년 2분기부터 본격 공급",
+          "url": "https://view.asiae.co.kr/article/2026090217544141849"
+        },
+        {
+          "broker": "SK증권",
+          "date": "2026-09-09",
+          "target_price": 74000,
+          "rating": "-",
+          "estimates": "2026E 매출 5,050억·OP −710억, 2027E 매출 8,610억·OP 450억, 2028E OP 760억",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=02673206645578480"
+        },
+        {
+          "broker": "NH투자증권(정연승)",
+          "date": "2026-09-07",
+          "target_price": 58000,
+          "rating": "보유→매수",
+          "estimates": "TP 34,000→58,000원. 2026E OP −941억, 2027E 매출 8,821억·OP 404억, 5,014억 = 약 140MW 추정",
+          "url": "https://www.etoday.co.kr/news/view/2622375"
+        },
+        {
+          "broker": "DS투자증권",
+          "date": "2026-09-03",
+          "target_price": 47000,
+          "rating": "매수",
+          "estimates": "2026E OP −638억, 2027E 매출 8,444억·OP 726억, 미국 PAFC 2027-03 납품 시작",
+          "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02696166645576512"
+        }
+      ],
+      "broker_mean_yfinance": "55,857원 (애널리스트 7명, yfinance targetMeanPrice, 2026-09-29 15:3x KST 조회) [actual]",
+      "brokers_note": "증권사 목표가·추정치는 참고용 [estimated]. 본 보고서 시나리오는 아래 산식으로 별도 산정함"
+    },
+    "peer_compare": [
+      {
+        "ticker": "336260.KS",
+        "name": "두산퓨얼셀 (PBR·EV/매출 TTM 9.49배)",
+        "pe": null,
+        "pb": 11.4,
+        "roe": null,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "BE",
+        "name": "Bloom Energy (fwd PE, EV/매출 24.9배)",
+        "pe": 53.33,
+        "pb": 47.84,
+        "roe": null,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "FCEL",
+        "name": "FuelCell Energy (적자, EV/매출 5.62배)",
+        "pe": null,
+        "pb": 1.32,
+        "roe": null,
+        "div_yield": 0.0
+      },
+      {
+        "ticker": "GEV",
+        "name": "GE Vernova (fwd PE, EV/매출 5.93배)",
+        "pe": 37.8,
+        "pb": 21.16,
+        "roe": null,
+        "div_yield": null
+      }
+    ],
+    "peer_note": "yfinance 1.7.0 live 조회(2026-09-29 15:3x KST) — 미국 종목은 2026-09-28 현지 종가 기준. pe는 forward PE(적자 기업은 null), ROE 미수집. 두산퓨얼셀 pb는 DART 자본 기준 derived [actual/derived]",
+    "data_limitation": "빌드 스크립트가 KR 종목에 dart_client로 pl_5y·bs_snapshot을 자동 덮어쓸 수 있음(OFS 고정·BS 계정 매칭 오류 이력). 이 파일 값은 DART fnlttSinglAcntAll 직접 조회(_logs/fin_336260.KS.json)와 반기보고서 원문 대조값임"
+  },
+  "scenarios": {
+    "method": "12개월 목표가 = (2027E 매출 × 목표 EV/매출 − 2027년 말 예상 순차입금) ÷ 희석 반영 주식수. 영업이익이 0 근처(TTM OPM −34.7%)라 PER·EV/EBIT가 불안정해 EV/매출을 1차 방법으로 쓰고, 2028E 영업이익 기준 EV/EBIT를 교차 점검으로 씀. 멀티플 근거: 현재 시장이 준 EV/2027E 매출 약 4.6배(EV 39,446.7억 ÷ 8,500억) [derived], FuelCell Energy 5.62배·GE Vernova 5.93배·Bloom 24.9배(EV/TTM 매출, yfinance) [actual], 52주 최저가 18,230원 당시 EV/2025 매출 약 4.2배 [derived]. 주식수 7,885만 주 = yfinance implied(보통주 6,548.6만 + 우선주 1,634.9만 주 × 가격비 약 0.82) [derived]. 순차입금 기준점 2Q26 5,384.2억 = 차입금 5,800.2 + 유동화채무 793.6 − 현금·단기금융상품·단기투자증권 1,209.6 [derived, DART 반기 연결]. 현재가 43,150원은 2026-09-29 14:58 KST 장중 스냅샷(yfinance 1.7.0 live, stocks.json)임. 9/29 공식 종가 43,800원 [actual, yfinance 15:48 KST 조회] — 분석 전체는 장중 스냅샷 기준으로 일관 작성함",
+    "current_price_krw": 43150,
+    "current_price_note": "9/29 14:58 KST 장중가 (yfinance live). 9/29 공식 종가 43,800원 [actual, yfinance 15:48 KST 조회]",
+    "bull": {
+      "prob_pct": 20,
+      "target_price": 77000,
+      "thesis": "HyAxiom 납품이 2027년 2분기 본격화되고 추가 미국 수주·SOFC 수율 안정이 겹쳐 2027E 매출 1.1조·영업이익 900억 달성, AI 온사이트 전원으로 재평가돼 EV/매출 6.0배",
+      "narrative": "- HyAxiom 1차 5,014억이 메리츠가 제시한 2027년 2분기 본격 공급 일정대로 가고, PO가 계약 금액대로 발행됨\n- 선급금 20%(1차 약 1,003억·2차 약 644억 [derived]) 유입으로 운전자본 부담이 줄고 2027년 말 순차입금이 5,000억으로 내려감\n- 데이터센터 온사이트 수요가 Bloom 생산능력(2GW)을 넘어서 HyAxiom 3차 계약, Reverion 이후 SOFC 스택 파운드리 추가 수주가 나옴\n- 산식: 11,000억 × 6.0 = 66,000억 − 순차입 5,000억 = 61,000억 ÷ 7,885만 주 = 77,364원 ≈ 77,000원\n- 교차 점검: 2028E 영업이익 1,300억 가정 시 EV/EBIT 50.8배 — Bloom forward PER 53.3배(yfinance) 수준이라 bull에서만 허용함\n- 증권사 비교: 메리츠 76,000원·SK 74,000원과 같은 구간 — 두 증권사 TP는 사실상 이 시나리오를 기본으로 둔 셈임",
+      "key_assumptions": [
+        "2027E 매출 1조1,000억 원 [assumption] — 메리츠 추정 1조1,139억 [estimated] 수준",
+        "2027E 영업이익 900억 원(OPM 8.2%) [assumption] — 증권사 범위 404~726억 상단을 넘는 가정",
+        "EV/매출 6.0배 [assumption] — FuelCell Energy 5.62배·GE Vernova 5.93배 [actual, yfinance] 수준, Bloom 24.9배보다 크게 할인",
+        "2027년 말 순차입금 5,000억 원 [assumption] — 선급금·중도금 정상 유입, 유상증자 없음",
+        "HyAxiom 계약 금액이 PO·이전가격 조정 없이 인식 [assumption]"
+      ]
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 41000,
+      "thesis": "수주는 매출로 전환되지만 계열사 경유·이전가격 구조와 PAFC 원가로 마진은 증권사 범위 안에 머묾 → 2027E 매출 8,500억·영업이익 550억, 현재 시장 멀티플(EV/매출 약 4.6배)에 가까운 4.5배 적용",
+      "narrative": "- HyAxiom 1차분은 2027-03(DS)~2분기(메리츠)부터 인식돼 2027E 매출 8,500억 = HyAxiom 약 3,300억 + Reverion 약 700억 + 국내 주기기·LTSA 약 4,500억으로 봄 [assumption]\n- 2차 3,222억은 2028년부터 순차 공급(머니투데이·글로벌이코노믹)이라 2027년 기여는 거의 없음\n- 영업이익 550억(OPM 6.5%)으로 흑자전환하지만 PAFC 백금 원가·판매보증충당부채 1,128.4억(스택 교체)·이전가격 때문에 마진 상단이 막힘 [inference]\n- 국내는 일반수소 입찰 930GWh(약 125MW)로 축소돼 주기기 성장 기여가 제한적이고, LTSA 잔고 1.93조가 하단을 받침\n- 2027년 말 순차입금 5,800억 = 2Q26 5,384억 + 2H26 적자·재고 적립 − 선급금 [assumption]. 신용등급은 BBB 유지 또는 BBB- 1노치 하향이나 유상증자는 없다고 가정\n- 산식: 8,500억 × 4.5 = 38,250억 − 5,800억 = 32,450억 ÷ 7,885만 주 = 41,155원 ≈ 41,000원\n- 교차 점검: 2028E 영업이익 800억(SK 760억 근처) 기준 EV/EBIT 47.8배 — base조차 턴어라운드를 상당 부분 가격에 넣은 상태라 블로그의 '밸류에이션이 싸졌다고 보기 어렵다'와 맞음",
+      "key_assumptions": [
+        "2027E 매출 8,500억 원 [assumption] — SK 8,610억·DS 8,444억·NH 8,821억 [estimated] 범위",
+        "2027E 영업이익 550억 원(OPM 6.5%) [assumption] — 증권사 404~726억 범위 중간",
+        "EV/매출 4.5배 [assumption] — 현재 EV/2027E 매출 약 4.6배 [derived]와 비슷, 추가 재평가 없음",
+        "2027년 말 순차입금 5,800억 원 [assumption] — 2Q26 5,384.2억 [derived] 대비 소폭 증가",
+        "HyAxiom 2차분 2027년 매출 기여 없음 [assumption] — 2028년부터 공급 보도 [actual]"
+      ]
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 20000,
+      "thesis": "HyAxiom 납품·대금이 늦어지고(PO 축소·이전가격 조정) 유동성 압박이 커져 등급 하향과 유상증자 2,000억 → 2027E 매출 6,500억·영업적자 지속, EV/매출 3.5배",
+      "narrative": "- HyAxiom은 자본총계 −1,563억 자본잠식이고 1H26 매출 161억(−82.7%)이라 선급금·중도금 지급 능력이 최종 고객 대금과 ㈜두산 지급보증(5,117억)에 달려 있음 — 최종 고객은 비공개라 확인 불가 [actual, 한국금융신문]\n- 대금 조건이 'PO 발생 시'이고 2025-12 제조공급계약은 금액 미확정(이전가격 변동)이라 PO가 늦거나 줄면 매출·현금이 함께 밀림 [actual, DART 20251219800232·20260902800020]. 2025-04 ZKRG 3,469억 해지(KIS) 같은 대형 계약 해지 전례가 있음\n- 1년 내 만기 차입성 부채 4,133.8억 vs 현금성·단기금융자산 1,209.6억 [derived], KIS 하향 트리거(별도 EBITDA/매출 5% 미만·부채비율 120% 초과) 이미 초과 → BBB- 하향 시 차환 비용 상승\n- 운전자본(재고 4,568.6억)과 적자를 버티려 유상증자 2,000억(발행가 20,000원·1,000만 주 가정)을 하면 희석 약 12.7% [derived]\n- 7월 코스피 약 −33% 폭락(7/28~29 서킷브레이커) 같은 시장 유동성 충격이 재발하면 베타 2.77·변동성 112.7%인 이 종목의 낙폭이 커짐 [actual, yfinance·AGENT_BRIEF]\n- 산식: 6,500억 × 3.5 = 22,750억 − 순차입 5,200억(증자 전 7,200억 − 증자 2,000억) = 17,550억 ÷ 8,885만 주 = 19,753원 ≈ 20,000원 — 52주 최저가 18,230원 부근\n- EV/EBIT 교차 점검은 2028E 영업이익 200억 가정 시 113.8배라 무의미 — bear는 매출·자산 기반 가치로만 봄",
+      "key_assumptions": [
+        "2027E 매출 6,500억 원 [assumption] — HyAxiom 인식 1,500억(납품·PO 지연), Reverion 500억, 국내 4,500억",
+        "2027E 영업손실 약 200억 원 [assumption] — SOFC 수율·고정비 부담 지속",
+        "EV/매출 3.5배 [assumption] — 52주 저점 당시 EV/2025 매출 약 4.2배 [derived]보다 할인(유동성·희석 반영)",
+        "유상증자 2,000억 원·발행가 20,000원·신주 1,000만 주 [assumption] — 최근 1년 DART 목록에 유상증자·CB 없음 [actual]",
+        "증자 전 2027년 말 순차입금 7,200억 원 [assumption] — 적자·운전자본 확대"
+      ]
+    },
+    "expected_value": {
+      "price": 41900,
+      "formula": "0.20×77,000 + 0.50×41,000 + 0.30×20,000 = 41,900원 [derived]",
+      "vs_current_intraday_pct": -2.9,
+      "vs_close_43800_pct": -4.3,
+      "note": "장중가 43,150원 대비 −2.9%, 9/29 종가 43,800원 대비 −4.3% [derived]"
+    },
+    "probability_weighted_price": 41900,
+    "broker_compare": {
+      "summary": "증권사 TP 메리츠 76,000(+76.1%)·SK 74,000(+71.5%)·NH 58,000(+34.4%)·DS 47,000(+8.9%), yfinance 평균 55,857원(7명, +29.4%) — 괴리율은 장중가 43,150원 대비 [derived]",
+      "gap_reason": "- 기대값 41,900원이 네 증권사 TP 모두보다 낮은 이유: ① base가 EV/매출을 현재 수준(4.5배)으로 묶고 재평가를 bull에만 둠 ② HyAxiom 대금 회수·이전가격·유상증자 가능성을 bear 30%로 반영함 ③ 순차입금이 2027년 말까지 줄지 않는다고 봄\n- 메리츠·SK TP는 bull 목표가(77,000원)와 같은 구간이고, DS 47,000원은 base~현재가 사이임"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-10 하순~11월 초 (예상)",
+      "event": "3Q26 잠정실적 발표",
+      "type": "earnings",
+      "expected_impact": "+/-",
+      "description": "2Q에 이연된 PAFC 납품이 3Q 매출로 들어오는지, 재고 4,568.6억이 줄어드는지가 핵심. 증권사 2026E 영업손실 638~941억(DS·SK·NH)이면 2H26 영업손실은 약 116~419억 [derived]. 날짜는 3Q25 잠정실적 공시 2025-11-05(예고 10-29) 패턴으로 추정 [inference, DART]"
+    },
+    {
+      "date": "2026H2~2027-03",
+      "event": "HyAxiom 1차(5,014억) PAFC 납품 개시·선급금 수령",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "납품 시작 시점 보도가 엇갈림 — 뉴스핌 '2026년 하반기~2028년 상반기 순차 납품', DS '2027년 3월부터', 메리츠 '2027년 2분기부터 본격' [actual 보도]. 선급금 20%(약 1,003억 [derived])가 들어오면 유동성 우려 완화. 대금 조건은 'PO 발생 시'라 PO 발행 여부가 먼저 확인돼야 함"
+    },
+    {
+      "date": "2026-11 중순 (3Q 분기보고서)",
+      "event": "특수관계자 주석으로 HyAxiom 대금 흐름 첫 확인",
+      "type": "earnings",
+      "expected_impact": "+/-",
+      "description": "1H26 HyAxiom 향 매출 78.9억·매입 23.0억이 3Q에 선수금·매출채권으로 얼마나 바뀌는지 확인 가능 [actual 1H26, DART 반기 주석 32]. 선수금 유입이 없거나 매출채권만 쌓이면 bear 시나리오 신호"
+    },
+    {
+      "date": "2026 하반기 (공고일 확인 불가)",
+      "event": "2026 수소발전 입찰 공고·낙찰 (청정수소 500GWh·일반수소 930GWh)",
+      "type": "policy",
+      "expected_impact": "+/-",
+      "description": "일반수소 930GWh(약 125MW)는 2023~25 평균 약 175MW보다 작음 [actual, KIS·아시아경제]. 두산퓨얼셀의 과거 일반수소 낙찰 점유(2024년 73%·2025년 60%, KIS)를 유지하는지가 국내 주기기 매출의 하단을 결정. 9/29 현재 공고 확인 못 함"
+    },
+    {
+      "date": "2026-12~2027-06 (정기평가 시점 추정)",
+      "event": "신용등급 재평가 (KIS BBB/부정적)",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "KIS 하향 트리거는 별도 EBITDA/매출 5% 미만·부채비율 120% 초과 지속이고, 2026.3말 부채비율 264.4%로 이미 초과 [actual, KIS]. BBB- 하향 시 공모채 조달 여건 악화. HyAxiom 선급금 유입·흑자전환 가시화가 방어 요인"
+    },
+    {
+      "date": "2027 (시점 확인 불가)",
+      "event": "SOFC 군산 수율 안정화·Reverion 스택 납품·추가 SOFC 수주",
+      "type": "product",
+      "expected_impact": "+/-",
+      "description": "Reverion 1,087억은 2027-12-31까지 공급(선급 20%·잔금 80%) [actual, DART]. SOFC는 초도 손실·수율 지연·하이창원 이후 수주 공백 이력이 있어 [actual, KIS·뉴스핌] 블로그가 말한 'SOFC 수혜'가 두산퓨얼셀 실적으로 확인되는 유일한 경로임"
+    },
+    {
+      "date": "2027 상반기 (12차 전력수급기본계획)",
+      "event": "2027년 이후 수소발전 입찰물량 결정",
+      "type": "policy",
+      "expected_impact": "+/-",
+      "description": "행정예고상 2027년 이후 물량은 12차 전력수급기본계획 후 결정, 일반수소 시장은 3년 후 존속 재검토 [actual, 아시아경제 2026-06-11]"
+    },
+    {
+      "date": "2028-07 이전 (관측)",
+      "event": "HyAxiom 나스닥 상장 추진",
+      "type": "m&a",
+      "expected_impact": "+/-",
+      "description": "2023-07 전환우선주 투자 조건상 5년 내 미상장 시 풋옵션 → 2028년 이내 상장 추진 관측 [actual 보도, 한국금융신문]. 상장 성공 시 HyAxiom 신용 보강(+), 실패 시 ㈜두산 부담 확대로 계열 지원 여력 약화 가능(−). 일정은 확인 불가"
+    },
+    {
+      "date": "2028~",
+      "event": "HyAxiom 2차(3,222억) 공급 시작",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "계약기간 2026-09-15~2028-10-17, '2028년부터 순차 공급' 보도 [actual, DART·머니투데이]. 블로그의 '2028년부터 북미 공급'은 이 2차분에만 맞는 설명임"
+    }
+  ],
+  "risks": [
+    {
+      "name": "특수관계자(계열회사) 거래·이전가격",
+      "probability": "high",
+      "impact": "high",
+      "description": "HyAxiom은 ㈜두산 86.21% 종속회사로 두산퓨얼셀에는 '최상위지배기업의 종속기업'(특수관계자)임 [actual, DART 반기 주석 32]. 두산퓨얼셀 사장이 HyAxiom 대표 겸직 [actual, 한국금융신문]. 2025-12 제조공급계약은 최대수량·기본단가만 정하고 실제 금액은 PO·이전가격(Transfer Price)에 따라 변동 [actual, DART 20251219800232]. 미국 최종 고객 관계·LTSA는 HyAxiom이 가져가 이익 배분이 계열사 간 결정에 달림 [inference]. 언론 일부가 HyAxiom을 '미국 자회사'로 잘못 표기함",
+      "mitigation": "3Q·연간 보고서 특수관계자 주석의 HyAxiom 매출·채권·선수금, 내부거래위원회(독립이사) 승인 내역, 계약 금액 정정 공시 추적"
+    },
+    {
+      "name": "HyAxiom 자본잠식·지급보증 의존 → 대금 회수",
+      "probability": "med",
+      "impact": "high",
+      "description": "HyAxiom 자본총계 −1,563억(2026H1, 2022년 이후 마이너스), 1H26 매출 161억(−82.7%), ㈜두산 지급보증 5,117억 [actual, 한국금융신문]. 최종 고객(데이터센터명) 비공개라 수요의 실체를 외부에서 확인할 수 없음 [unavailable]. 대금은 'PO 발생 시' 선급 20%·중도 75%·잔금 5%라 PO가 나오지 않으면 매출·현금이 모두 멈춤 [actual, DART]",
+      "mitigation": "선급금(1차 약 1,003억) 수령 공시·보도 확인, 매출채권/매출 비율 추적, ㈜두산 지원 방식(보증·증자) 확인"
+    },
+    {
+      "name": "유동성·신용등급 하향·유상증자 가능성",
+      "probability": "med",
+      "impact": "high",
+      "description": "2Q26 현금 348.4억(단기금융자산 포함 1,209.6억) vs 1년 내 만기 차입성 부채 4,133.8억 [derived, DART]. 단기차입금 2,850억(2026-01 2,300억 증액). KIS BBB/부정적, 하향 트리거 이미 초과 [actual, KIS]. 최근 1년 DART 목록에 유상증자·CB는 없으나 [actual] 적자·재고 적립이 이어지면 자본 확충 필요성이 커짐 [inference]",
+      "mitigation": "3Q 현금·단기차입 추이, 회사채 차환 공시, 계열 지원(두산에너빌리티 34.8% 최대주주) 여부 확인"
+    },
+    {
+      "name": "PAFC 기술 경쟁력 — 블로그 'SOFC 수혜' 논리와의 괴리",
+      "probability": "med",
+      "impact": "med",
+      "description": "8,236억 대형 수주는 전부 PAFC이고 SOFC는 Reverion 1,087억 1건뿐 [actual]. PAFC 전기효율 40~45%·백금 촉매 vs SOFC 50~60% [actual, KIS]. 미국 데이터센터 시장에서 Bloom SOFC(2GW 증설, EV/매출 24.9배)와 효율·원가로 경쟁해야 함. 판매보증충당부채 1,128.4억·2025년 PAFC 스택 교체비는 품질 비용 부담을 보여줌 [actual, DART]. 블로그 논리로 SOFC 기대를 이 종목에 얹으면 실제 매출원과 어긋남",
+      "mitigation": "HyAxiom 10MW PAFC Power Block 실제 설치·가동 사례, 스택 교체 주기·보증충당금 추이, SOFC 수율 확인"
+    },
+    {
+      "name": "국내 수소발전 입찰 축소·수주 해지",
+      "probability": "high",
+      "impact": "med",
+      "description": "2026 일반수소 930GWh(약 125MW)로 축소, 2027년 이후 물량 미정·3년 후 존속 재검토 [actual, 아시아경제]. 2025-04 ZKRG 3,469억 해지, 2024~25 수주 일부 취소·축소로 2026.3말 별도 주기기 잔고가 300억까지 줄었었음 [actual, KIS]. 9/14 삼천리ES 260억 계약 종료일 2026-09-15 → 10-30 연장 정정 [actual, DART 20260914800158]",
+      "mitigation": "2026 입찰 공고·낙찰 결과, 12차 전력수급기본계획, 계약 정정·해지 공시"
+    },
+    {
+      "name": "실적 가시성 — 납품 이연·SOFC 조업도 손실",
+      "probability": "med",
+      "impact": "high",
+      "description": "2Q26 매출 442.6억(YoY −65.5%)·영업손실 509.1억, 원인은 PAFC 납품 이연·SOFC 수주 공백 고정비 [actual, DART·뉴스핌]. 증권사 2027E 영업이익 404~726억으로 1.8배 차이 [estimated] — 추정 불확실성이 큼. 2Q 발표 후 하한가 전례",
+      "mitigation": "3Q 매출 회복·재고 감소, 분기 영업손익 추세"
+    },
+    {
+      "name": "시장 유동성·고베타 (7월 폭락형 충격)",
+      "probability": "med",
+      "impact": "high",
+      "description": "7월 코스피 약 −33% 폭락(7/28~29 이틀 서킷브레이커)으로 전력·SOFC 섹터가 5월 고점 대비 −40~−60% 조정 [actual, AGENT_BRIEF]. 두산퓨얼셀 베타 2.77·연 변동성 112.65% [actual, yfinance]. 미 10년물 5.17%(9/25) [actual, FRED], KOSPI 고점 대비 −25%. 9/29 하루에도 장중 −6%대 하락(전일 종가 46,450원) [actual, 톱스타뉴스·yfinance]",
+      "mitigation": "포지션 크기 제한, FRED 유동성 신호(현재 yellow) 모니터링"
+    },
+    {
+      "name": "경쟁 공급 확대 (Bloom 2GW·가스터빈·가스엔진)",
+      "probability": "med",
+      "impact": "med",
+      "description": "Bloom 생산능력 2GW(2026년 말) 확정·최대 5GW 수용 여력, GE Vernova 연 생산 20GW → 30GW(2030), FuelCell Energy 350MW 계획 [actual]. 온사이트 수요가 SOFC·가스터빈으로 채워지면 PAFC 추가 수주 여지가 줄어듦 [inference]",
+      "mitigation": "HyAxiom 3차 이후 수주, Bloom 분기 수주·백로그, 경쟁사 가격 동향"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "2027년 기준 AI 전력 병목의 직접성은 변압기·송배전 → 온사이트 발전/SOFC → ESS → 원전 → 태양광 순이다.",
+      "type": "predictive",
+      "importance": "core",
+      "evidence": "[actual] Bloom 2Q26 매출 +165.5%·GE Vernova 가스 백로그 116GW(온사이트 수요 실재) · [actual] 변압기 리드타임 128~144주(WoodMac, AGENT_BRIEF) · [contradicted] 두산퓨얼셀 대형 수주 8,236억은 SOFC가 아닌 PAFC · [unavailable] ESS·원전·태양광과의 직접성 비교 지표",
+      "testability": "low",
+      "status": "hold",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.573,
+        "support_count": 3,
+        "neutral_count": 0,
+        "rebut_count": 1,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.57
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.55
+          },
+          "counter": {
+            "stance": "rebut",
+            "confidence": 0.55
+          }
+        },
+        "key_disagreement": "counter: rebut (- 1위 변압기·송배전은 반박 어려움. 다만 HD현대일렉트릭·효성중공업·히타치에너지·지멘스에너지 증설 물량이 2026~2027년 가동 예정이라 2027년은 병목 완화가 시작되는 시점일 수 있음\n- 2위 온사이트 발전)"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.6,
+        "agreement": "disagree",
+        "session_verdict": "pass",
+        "session_confidence": 0.6,
+        "fable_verdict": "hold",
+        "fable_confidence": 0.78,
+        "rule": "일치→채택 / 불일치→보수적(pass>hold>fail 중 낮은 쪽)"
+      },
+      "note": "- 두산퓨얼셀은 순위표 2위 '온사이트 발전/SOFC'의 국내 대표로 거론됐으나 실제 대형 수주(HyAxiom 8,236억)는 PAFC임 [actual, DART·뉴스핌]\n- 2위 자리의 수요 자체는 Bloom 실적·가스터빈 백로그로 확인되지만, 가스터빈·가스엔진과 같은 칸이라 'SOFC 단독 2위'의 근거는 약함(dual_judge 세션 pass 0.6 ↔ Fable hold 0.78 불일치 → 보수 규칙으로 hold)\n- 이 종목에는 'SOFC 순위'보다 '온사이트 수요가 PAFC까지 넘치는가'가 관건이고, 9월 수주가 그 증거이나 계열사 경유·최종 고객 비공개라 수요의 실체는 확인 불가임"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "2027년 전력 주도주는 '전기를 만드는 회사'보다 '전기를 연결해주는 회사'가 현재 병목에 더 가깝다.",
+      "type": "predictive",
+      "importance": "core",
+      "evidence": "[actual] 계통연계 대기 중앙값 약 5년(LBNL, 4-Analyst 인용) · [actual] GE Vernova 백로그 116GW(발전 쪽도 병목) · [inference] 계통 병목의 수혜가 온사이트 발전('만드는 회사')으로 갈 수 있음(counter)",
+      "testability": "low",
+      "status": "hold",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.587,
+        "support_count": 3,
+        "neutral_count": 0,
+        "rebut_count": 1,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "counter": {
+            "stance": "rebut",
+            "confidence": 0.5
+          }
+        },
+        "key_disagreement": "counter: rebut (- 송배전 병목 자체는 사실임. 다만 발전 쪽도 병목임. PJM 용량경매 가격이 2025/26년 약 $270/MW-day에서 2026/27년 상한인 약 $329/MW-day로 올라 발전용량 부족을 가리킴\n- GE V)"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.58,
+        "agreement": "agree",
+        "session_verdict": "hold",
+        "session_confidence": 0.55,
+        "fable_verdict": "hold",
+        "fable_confidence": 0.62,
+        "rule": "일치→채택 / 불일치→보수적(pass>hold>fail 중 낮은 쪽)"
+      },
+      "note": "- 두산퓨얼셀은 T02의 '전기를 만드는 회사' 쪽에 있음. 블로그 스스로 T02(연결 우위)와 T09(온사이트 우회)를 함께 주장해 두 논리가 긴장 관계임\n- counter analyst 반박처럼 계통이 막힐수록 온사이트 발전이 수혜를 볼 수 있어, 두산퓨얼셀 투자 논리는 T02의 반대편 근거에 기댐\n- dual_judge 양측 hold(0.55·0.62) 일치 — 이 종목 관점에서도 '연결 > 발전' 우열은 미확정으로 둠"
+    },
+    {
+      "claim_id": "T09",
+      "claim": "전력망 연결이 늦어지면 데이터센터가 전기를 받지 못하므로 SOFC 등 온사이트 발전이 전력 병목을 우회하는 가장 빠른 수단이다.",
+      "type": "predictive",
+      "importance": "core",
+      "evidence": "[actual] HyAxiom 계약 목적 '미국 데이터센터용'(DART) · [actual] Bloom Oracle 1.2GW 확정·2GW 증설 · [contradicted] 블로그가 든 SOFC 사례와 달리 두산퓨얼셀 수혜는 PAFC · [unavailable] SOFC·PAFC·가스엔진 설치 리드타임 비교 자료",
+      "testability": "med",
+      "status": "hold",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.583,
+        "support_count": 3,
+        "neutral_count": 1,
+        "rebut_count": 0,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.55
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.55
+          }
+        },
+        "key_disagreement": "counter: neutral (- 온사이트 발전이 계통 지연의 우회 수단으로 채택되는 방향 자체는 실제 계약으로 확인되어 전면 반박은 어려움 (AEP-Bloom Energy 최대 1GW 계약 2024년 11월, Brookfield-Bloom 50)"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.61,
+        "agreement": "agree",
+        "session_verdict": "hold",
+        "session_confidence": 0.6,
+        "fable_verdict": "hold",
+        "fable_confidence": 0.62,
+        "rule": "일치→채택 / 불일치→보수적(pass>hold>fail 중 낮은 쪽)"
+      },
+      "note": "- 방향(계통 지연 → 온사이트 우회)은 4-Analyst 3/4 지지, '가장 빠른 수단' 최상급은 미검증(dual_judge 양측 hold 일치, 최종 0.61)\n- 블로그는 SOFC를 예로 들었지만 두산퓨얼셀의 데이터센터 수주는 PAFC(인산형)임 — 이 종목을 'SOFC 수혜'로 읽으면 매출원과 어긋남 [actual, 뉴스핌 2026-09-02·머니투데이 2026-09-15]\n- HyAxiom PAFC 10MW Power Block(CES 2026)처럼 모듈 증설형이라 온사이트 용도는 맞지만, 설치 속도를 경쟁 수단과 비교한 자료는 확인 불가\n- 1차분 본격 공급이 2027년 2분기(메리츠)라 2027년 전력 공백 시점과는 겹침 — 다만 대금·PO가 계열사 간 결정이라 수요 검증은 약함"
+    },
+    {
+      "claim_id": "T21",
+      "claim": "2027년 전력 섹터의 가장 큰 리스크는 전력 수요 부족이 아니라 주가가 그 수요를 얼마나 먼저 반영했느냐이다.",
+      "type": "predictive",
+      "importance": "core",
+      "evidence": "[actual] 두산퓨얼셀 5/28 고점 108,900원 → 9/29 장중 43,150원(−60.4%) · [derived] PBR 11.4배·EV/2027E 영업이익 54~98배 · [actual] 7월 코스피 약 −33% 폭락·베타 2.77",
+      "testability": "low",
+      "status": "hold",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.587,
+        "support_count": 3,
+        "neutral_count": 1,
+        "rebut_count": 0,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.45
+          }
+        },
+        "key_disagreement": "counter: neutral (- 수요 리스크와 선반영 리스크는 분리되지 않음. 2025년 1월 27일 DeepSeek 쇼크 때 Vistra·Constellation이 하루에 20%대 급락했는데, 방아쇠는 밸류에이션이 아니라 AI 전력 수요 기대)"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.55,
+        "agreement": "disagree",
+        "session_verdict": "hold",
+        "session_confidence": 0.55,
+        "fable_verdict": "pass",
+        "fable_confidence": 0.66,
+        "rule": "일치→채택 / 불일치→보수적(pass>hold>fail 중 낮은 쪽)"
+      },
+      "note": "- 두산퓨얼셀은 T21 논리가 가장 극단적으로 드러난 종목임: 고점 대비 −60%인데도 PBR 11.4배·EV/TTM 매출 9.5배 [derived]로 수요 기대가 가격에 남아 있음\n- 다만 이 종목의 가장 큰 리스크는 '선반영'만이 아니라 유동성(1년 내 만기 4,133.8억 vs 현금성 1,209.6억)·특수관계자 대금 회수임 — dual_judge 세션 hold 0.55 ↔ Fable pass 0.66 불일치에서 보수 규칙(hold)을 채택한 이유와 같음\n- 시나리오 base조차 2028E EV/EBIT 약 48배를 전제해, 수요가 맞아도 기대 하향만으로 주가가 크게 빠질 수 있음"
+    },
+    {
+      "claim_id": "T23",
+      "claim": "2027년 전력주를 찾을 때 변압기 4사만 보는 것보다 SOFC 밸류체인을 함께 봐야 한다.",
+      "type": "normative",
+      "importance": "core",
+      "evidence": "[actual] Bloom 공급망 한국 업체 수주(코세스 2,371억·서진 785.5억·비나텍 412억, DART) · [contradicted] 두산퓨얼셀 8,236억은 PAFC·계열사 거래, SOFC는 Reverion 1,087억 1건 · [derived] 두산퓨얼셀 TTM OPM −34.7% vs 변압기 4사 흑자",
+      "testability": "low",
+      "status": "hold",
+      "current_status": "pending",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.575,
+        "support_count": 2,
+        "neutral_count": 2,
+        "rebut_count": 0,
+        "agreement_level": "split (2/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.55
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "neutral",
+            "confidence": 0.5
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.5
+          }
+        },
+        "key_disagreement": "empirical: neutral (- Bloom Energy가 2024년 11월 AEP와 최대 1GW SOFC 공급 계약, 2025년 Oracle 공급 계약 및 Brookfield와 약 50억달러 규모 파트너십을 발표해 데이터센터 온사이트 발전 수요) | counter: neutral (- '함께 보자'는 약한 형태의 규범적 주장이라 전면 반박은 어렵지만, 'SOFC가 더 중요해진 시점'이라는 판단은 근거가 제시되지 않았음\n- SOFC 수요는 사실상 Bloom Energy 1개사의 수주(AEP 최대)"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.64,
+        "agreement": "agree",
+        "session_verdict": "hold",
+        "session_confidence": 0.55,
+        "fable_verdict": "hold",
+        "fable_confidence": 0.72,
+        "rule": "일치→채택 / 불일치→보수적(pass>hold>fail 중 낮은 쪽)"
+      },
+      "note": "- 'SOFC 밸류체인'에 두산퓨얼셀을 넣는 건 기술 분류상 절반만 맞음: SOFC는 군산 50MW 양산 초기·Reverion 1건이고 매출·수주의 대부분은 PAFC임\n- 변압기 4사 대비 이익 가시성이 낮음 — TTM OPM −34.7%, 2027E 영업이익 추정 404~726억으로 1.8배 편차 [derived·estimated]\n- 함께 '보는' 것은 타당하나(dual_judge 양측 hold 일치, 최종 0.64), 두산퓨얼셀 편입 근거는 SOFC 논리가 아니라 PAFC·계열사 수주·유동성으로 따로 검증해야 함"
+    },
+    {
+      "claim_id": "T10",
+      "claim": "두산퓨얼셀은 미국 HyAxiom과 총 8,236억원의 공급계약을 체결했고(2028년부터 북미 공급), 독일 Reverion 1,087억원 계약을 더해 올해 누적 수주는 약 1.1조원이다.",
+      "type": "factual",
+      "importance": "supporting",
+      "evidence": "[actual] 5,014억(DART 20260902800020)·3,222억(20260915800271)·Reverion 1,087억(20260805800294)·누적 약 1.11조(머니투데이) · [partial] '2028년부터 북미 공급'은 2차분만 해당 · [omitted] HyAxiom = ㈜두산 86.21% 계열회사·자본잠식",
+      "testability": "high",
+      "status": "partially_confirmed",
+      "current_status": "pending",
+      "analyst_consensus": null,
+      "analyst_consensus_note": "supporting thesis — 4-Analyst 평가 대상 아님(core 11개만 평가). 판정은 DART·yfinance·보도 대조 결과",
+      "dual_judge": null,
+      "note": "- 금액 8,236억·1,087억·누적 약 1.1조는 모두 DART·보도로 확인됨\n- '2028년부터 북미 공급'은 2차 3,222억에만 맞음 — 1차 5,014억은 2026H2~2028H1 순차 납품(뉴스핌), DS는 2027-03, 메리츠는 2027년 2분기 본격 공급으로 봄\n- 블로그가 빠뜨린 사실: HyAxiom은 두산퓨얼셀의 자회사가 아니라 ㈜두산 86.21% 종속 계열회사이고, 자본총계 −1,563억·㈜두산 지급보증 5,117억, 대금은 'PO 발생 시' 조건임 [actual, DART·한국금융신문]\n- 블로그가 SOFC 절에 넣은 8,236억은 PAFC 계약임"
+    },
+    {
+      "claim_id": "T11",
+      "claim": "두산퓨얼셀은 주가가 52주 고점 대비 -56.7% 하락했지만 아직 적자이고 2027년 영업이익 전망이 약 500~600억원에 불과해 밸류에이션이 싸졌다고 보기 어렵다.",
+      "type": "factual",
+      "importance": "supporting",
+      "evidence": "[actual] 9/23 47,200원·고점 108,900원(5/28)·−56.7%(yfinance) · [actual] 2Q26 영업손실 509.1억 · [estimated] 2027E 영업이익 404(NH)~726억(DS) · [derived] EV/2027E 영업이익 54~98배",
+      "testability": "high",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "analyst_consensus": null,
+      "analyst_consensus_note": "supporting thesis — 4-Analyst 평가 대상 아님(core 11개만 평가). 판정은 DART·yfinance·보도 대조 결과",
+      "dual_judge": null,
+      "note": "- 주가 수치는 yfinance와 일치함(9/29 장중 43,150원 −60.4%, 종가 43,800원 −59.8%)\n- '2027년 영업이익 500~600억'은 증권사 404~726억 범위 안이나 컨센서스 값은 확인 불가\n- EV 3조9,447억 기준 EV/2027E 영업이익 54~98배·EV/TTM 매출 9.5배 [derived] — '주가는 많이 빠졌지만 싸졌다고 보기 어렵다'는 판단을 지지함"
+    },
+    {
+      "claim_id": "T24",
+      "claim": "SOFC는 산업 자체의 검증 단계가 남아 있어 변압기보다 실적 추정의 불확실성이 훨씬 크다.",
+      "type": "factual",
+      "importance": "supporting",
+      "evidence": "[actual] SOFC 초도 프로젝트 손실·수율 안정화 지연(KIS) · [actual] 하이창원 이후 SOFC 수주 공백 → 2Q 고정비 부담(뉴스핌) · [estimated] 2027E 영업이익 추정 편차 1.8배",
+      "testability": "med",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "analyst_consensus": null,
+      "analyst_consensus_note": "supporting thesis — 4-Analyst 평가 대상 아님(core 11개만 평가). 판정은 DART·yfinance·보도 대조 결과",
+      "dual_judge": null,
+      "note": "- 두산퓨얼셀 사례가 이 주장을 뒷받침함: 군산 SOFC 50MW는 2025-07 양산 후 초도 손실·수율 지연을 겪었고, 2Q26 적자 확대의 한 원인이 SOFC 조업도 손실임 [actual, KIS·뉴스핌]\n- 첫 해외 SOFC 스택 수주(Reverion)로 파운드리 사업화가 시작됐지만 매출 기여는 2027년 이후임"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-09-15",
+      "type": "단일판매ㆍ공급계약",
+      "title": "HyAxiom, Inc.(계열회사) 연료전지 시스템 공급 3,222억 — 미국 데이터센터·상업·산업용, 2026-09-15~2028-10-17",
+      "impact": "+ 수주(PAFC) / − 특수관계자 거래·PO 조건",
+      "rcept_no": "20260915800271"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "기재정정",
+      "title": "삼천리ES 수소모델 연료전지 공급 260억(2025-08 계약) 종료일 2026-09-15 → 2026-10-30 변경",
+      "impact": "− 경미 (국내 납기 지연 신호)",
+      "rcept_no": "20260914800158"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "기재정정",
+      "title": "울산에너루트2호 LTSA 450억·353억(2025-09 계약) 공시유보 해제로 금액 공개",
+      "impact": "○ LTSA 잔고 확인",
+      "rcept_no": "20260904800110 · 20260904800112"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "단일판매ㆍ공급계약",
+      "title": "HyAxiom, Inc.(계열회사) 미국 데이터센터용 연료전지 시스템 공급 5,014억(매출 대비 110.25%), 2026-09-01~2028-04-20",
+      "impact": "+ 수주(PAFC) / − 대금은 PO 발생 시",
+      "rcept_no": "20260902800020"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "정기공시",
+      "title": "반기보고서(2026.06) — 1H26 매출 1,891억·영업손실 522억, 수주잔고 2조510억, HyAxiom 특수관계자 주석",
+      "impact": "− 적자·차입 확대",
+      "rcept_no": "20260813001645"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "단일판매ㆍ공급계약",
+      "title": "와이에이치파워1·2 연료전지 주기기 310억·296억 + LTSA 288억·275억 (국내, 선급 50%)",
+      "impact": "+ 국내 수주",
+      "rcept_no": "20260812800214 · 20260812800222 · 20260812800227 · 20260812800233"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "단일판매ㆍ공급계약",
+      "title": "Reverion GmbH(독일) SOFC 연료전지 Stack 공급 1,087억, 2026-08-04~2027-12-31",
+      "impact": "+ 첫 SOFC 해외 수주",
+      "rcept_no": "20260805800294"
+    },
+    {
+      "date": "2026-07-24",
+      "type": "공정공시",
+      "title": "연결 영업(잠정)실적 — 2Q26 매출 443억(YoY −65.5%)·영업손실 509억",
+      "impact": "− 어닝쇼크",
+      "rcept_no": "20260724800675"
+    },
+    {
+      "date": "2026-02-11",
+      "type": "주요사항",
+      "title": "매출액또는손익구조 30% 이상 변경 — 2025년 영업손실 1,057억·순손실 1,328억",
+      "impact": "− 적자 확대",
+      "rcept_no": "20260211801225"
+    },
+    {
+      "date": "2026-01-21",
+      "type": "주요사항",
+      "title": "단기차입금 증가 결정 2,300억(760억 → 3,060억, 별도 자기자본 대비 46.1%)",
+      "impact": "− 차입 확대",
+      "rcept_no": "20260121800513"
+    },
+    {
+      "date": "2025-12-19",
+      "type": "투자판단 주요경영사항",
+      "title": "HyAxiom과 2026 PAFC 제조공급계약 — 거래금액 미확정(PO 수량·가격·이전가격에 따라 변동)",
+      "impact": "? 특수관계자 거래 구조",
+      "rcept_no": "20251219800232"
+    }
+  ]
+}

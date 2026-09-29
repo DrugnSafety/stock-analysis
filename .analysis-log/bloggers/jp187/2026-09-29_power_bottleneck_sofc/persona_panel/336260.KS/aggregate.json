@@ -1,0 +1,502 @@
+{
+  "ticker": "336260.KS",
+  "aggregated_at": "2026-09-29T15:32:38.772343+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "lean_bearish": {
+      "count": 16,
+      "pct": 94.1
+    },
+    "neutral": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.734,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "lean_bearish",
+          "confidence": 0.5
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "lean_bearish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "neutral",
+          "confidence": 0.56
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bearish",
+          "confidence": 0.76
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.82
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.82
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.9
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.8
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.74
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.66
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.74
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.78
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "단기",
+      "frequency": 12,
+      "personas": [
+        "rakesh-jhunjhunwala",
+        "ray-dalio",
+        "charlie-munger",
+        "aswath-damodaran",
+        "nassim-taleb",
+        "warren-buffett",
+        "mohnish-pabrai",
+        "george-soros",
+        "bill-ackman",
+        "cliff-asness",
+        "michael-burry",
+        "stanley-druckenmiller"
+      ],
+      "examples": [
+        "현금 348.4억 대 단기차입금 2,850억, 부채비율 336%, 등급전망 부정적 [actual]으로 유상증자·희석 위험",
+        "현금 348.4억 [actual] 대비 단기차입금 2,850억 [actual]: 차환 위험과 증자 가능성 [inference]",
+        "현금 348억 대비 단기차입 2,850억 포함 총차입 5,800억, 신용등급 전망 부정적으로 증자·희석 위험 [actual/inference]"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "lean_bearish",
+      "confidence": 0.5,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "연환산 변동성 112.65% [actual]로 일간 약 7.1% [derived] 수준의 변동이 일상적이라 의미 있는 포지션 크기를 잡을 수 없음",
+        "베타 2.77 [actual]이라 KOSPI가 고점 대비 -25% [actual]인 국면에서 하방이 증폭됨",
+        "3개월 -22.95%, 1개월 -4.96% [actual]로 모멘텀이 꺾였고 drawdown이 진행 중"
+      ],
+      "key_opportunities_top3": [
+        "1년 +48.03%, 6개월 +29.19% [actual]로 장기 구간 모멘텀은 아직 양수라, 단기 모멘텀이 다시 양수로 돌아서면 신호가 바뀔 수 있음",
+        "변동성이 30% 이하 regime으로 수렴하면 역변동성 비중이 커져 편입 검토가 가능해짐",
+        "52주 레인지 하위 약 27.5% [derived]에 있어, 변동성 축소가 함께 나타나면 buy_dip 후보로 재평가할 수 있음"
+      ],
+      "uncertainty": "이 verdict는 quant_anchor.json 없이 yfinance 요약 지표만으로 도출했다. 실제 risk_metrics에서 Sharpe가 1.0 이상으로 측정되거나, macro에서 MONETARY_TIGHTENING이 아닌 것으로 확인되면 Decision Rule상 neutral로 바뀐다. 반대로 Sharpe가 0 미만으로 측정되면 lean_bearish의 confidence가 올라간다. 변동성 112.65%가 7월 서킷브레이커 구간의 이상치 때문에 부풀려진 값이라면 regime 판정도 다시 계산해야 한다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "8,236억 수주의 발주처가 자본잠식 상태인 계열사 HyAxiom이며 최종 고객 비공개, 금액 변동 가능",
+        "수주 제품이 SOFC가 아닌 PAFC로, 블로그의 SOFC 스토리와 불일치",
+        "현금 348억 대 차입금 5,800억, 부채비율 336%, 신용등급 전망 부정적 — 증자·희석 위험"
+      ],
+      "key_opportunities_top3": [
+        "올해 누적 수주 약 1.1조로 2027년 이후 매출 회복 가시성 존재",
+        "북미 데이터센터 온사이트 발전 수요가 실제로 확인되면 턴어라운드 가능",
+        "Bloom Energy의 고성장이 연료전지 산업 수요 자체는 실재함을 보여줌"
+      ],
+      "uncertainty": "다음이 확인되면 판단이 중립 이상으로 바뀔 수 있다. HyAxiom 물량의 최종 고객이 공개되고 납품이 일정대로 매출로 잡히는 경우, 2027년 영업이익이 증권사 추정 상단(726억)을 크게 웃도는 경우, 증자 없이 차입 구조가 안정되는 경우다. 반대로 수주 금액 축소, 납품 지연, 대규모 유상증자가 나오면 약세 판단이 더 강해진다. 2027E EPS 컨센서스가 확인되지 않아 PEG를 산출하지 못했다는 점도 한계다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bearish",
+      "confidence": 0.76,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PBR 11.4배 [derived]와 적자 지속으로 Value·Profitability가 동시에 최저 tier",
+        "β 2.77, 변동성 112.65% [actual]로 고금리·약세장에서 하방 증폭",
+        "현금 348.4억 대 단기차입금 2,850억, 부채비율 336%, 등급전망 부정적 [actual]으로 유상증자·희석 위험"
+      ],
+      "key_opportunities_top3": [
+        "12-1 모멘텀 약 +55.8% [derived]로 1년 기준 승자 그룹에 속함",
+        "올해 누적 수주 약 1.1조 [actual]가 2027년 이후 매출로 인식되면 Profitability가 개선될 여지",
+        "capex가 2023년 1,139.4억에서 2025년 342.7억으로 감소 [actual], 투자(CMA) 측면의 절제는 긍정적"
+      ],
+      "uncertainty": "판단이 뒤집히는 조건은 세 가지다. (1) 2027년 영업이익이 추정 상단(726억 [estimated]) 이상으로 실현되고 FCF가 흑자 전환해 Profitability z-score가 중립 이상으로 올라오는 경우, (2) 주가 추가 하락이나 자본 확충으로 PBR이 4배 아래로 내려오는 경우, (3) 12-1 모멘텀이 변동성 조정 후에도 강하게 유지되는 경우다. 이 중 둘 이상이 충족되면 composite가 -0.5 위로 올라와 neutral이 될 수 있다. 섹터 median과 DCF 값이 제공되지 않아 z-score는 절대 기준 대비 판단값 [assumption]이며, 섹터 전체가 고PBR이면 Value z-score는 다소 완화될 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 348.4억 [actual] 대비 단기차입금 2,850억 [actual]: 차환 위험과 증자 가능성 [inference]",
+        "HyAxiom은 자본잠식(-1,563억 [actual]) 계열사이며 최종 고객 비공개, 계약 금액 변동 가능",
+        "블로그가 SOFC 수주로 서술한 8,236억은 실제로 PAFC [actual]"
+      ],
+      "key_opportunities_top3": [
+        "누적 수주 약 1.1조 [actual]가 2027년부터 매출로 전환되면 영업 레버리지 발생 가능",
+        "데이터센터 온사이트 발전 수요는 구조적이며 美 전력망 연결 지연이 지속 [actual: 변압기 리드타임 128~144주]",
+        "북미 매출 확대 시 달러 매출 비중 상승 [inference]"
+      ],
+      "uncertainty": "다음 중 하나라도 성립하면 판단이 중립 이상으로 바뀔 수 있다. 첫째, 물가가 뚜렷이 둔화하고 美 장기금리가 의미 있게 내려가 성장 상승·물가 하락 quadrant로 전환되는 경우. 둘째, 회사가 과도한 희석 없이 자본을 확충해 단기차입 차환 위험을 해소하는 경우. 셋째, HyAxiom의 최종 고객이 우량 데이터센터 사업자로 확인되고 납품이 일정대로 진행되어 2027년 영업이익이 증권사 추정 범위(450억~726억 [estimated])에 들어오는 경우. 반대로 macro_snapshot의 flag와 IMF 부채 수치를 직접 확인하지 못했으므로 사이클 진단 자체의 오차 가능성도 있다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "5년 ROE가 한 번도 2%를 넘지 못했고 2025년 -36.1%, TTM 약 -63%로 악화 [derived]",
+        "현금 348억 대비 단기차입 2,850억 포함 총차입 5,800억, 신용등급 전망 부정적으로 증자·희석 위험 [actual/inference]",
+        "최대 수주처 HyAxiom이 자본잠식 상태의 특수관계자이며 최종 고객 비공개, 금액 변동 가능 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "올해 누적 수주 약 1.1조로 2027년 이후 매출 가시성 개선 [actual]",
+        "AI 데이터센터 온사이트 발전 수요라는 실재하는 거시 순풍 [inference]",
+        "2027년 흑자 전환(영업이익 450~726억 추정)과 SOFC 수율 안정이 확인되면 재평가 여지 [estimated]"
+      ],
+      "uncertainty": "다음이 확인되면 판단을 중립 이상으로 올릴 수 있다: HyAxiom 물량의 최종 고객이 우량 하이퍼스케일러로 공개되고 납품이 정상 마진으로 매출 인식되는 경우, 군산 SOFC 수율이 정상화되는 경우, 증자 없이 차입 구조가 안정되는 경우, ROE가 2~3년 연속 두 자릿수로 올라서는 경우. 반대로 대규모 유상증자나 신용등급 강등, 계열사 계약의 축소·지연이 발생하면 bearish 확신이 더 커진다. 10년 ROE 시계열이 없고 2021~2023년은 별도 기준이라 시계열 비교에 한계가 있으며, 2027년 컨센서스도 확인되지 않았다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.82,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현금 348억 원 대비 단기차입금 2,850억 원, 신용등급 전망 부정적 — 차환 리스크와 유상증자에 따른 희석 가능성",
+        "수주의 약 75%가 자본잠식 상태 계열사 HyAxiom 향 — 최종 고객 비공개, 이전가격에 따른 금액 변동 가능",
+        "5년 중 3년 영업현금흐름 적자, 자기자본 지속 감소로 자본비용 초과 수익 기록 부재"
+      ],
+      "key_opportunities_top3": [
+        "HyAxiom 향 납품이 2027년부터 계획대로 매출·이익으로 인식되면 흑자 전환 가능",
+        "북미 데이터센터 온사이트 발전 수요가 실제로 강하다는 점은 Bloom Energy 매출 성장으로 확인됨",
+        "Reverion 향 SOFC 스택 수주로 독립 제3자 고객 확보의 첫 사례 확보"
+      ],
+      "uncertainty": "다음이 확인되면 판단을 neutral 방향으로 재검토한다. 첫째, HyAxiom 계약의 최종 고객이 공개되고 이전가격이 상장사에 합당한 마진을 남기는 것으로 확인될 것. 둘째, 희석 없이 또는 합리적 조건으로 재무구조가 개선되어 차환 리스크가 해소될 것. 셋째, 독립 제3자 고객 수주가 의미 있게 늘고 2027년 영업이익이 추정치(450~726억 원) 수준으로 실현되며 영업현금흐름이 흑자로 돌아설 것. 경영진 보상 구조와 ROIC 자료가 제공되지 않아 3단계 판단은 거버넌스 구조에 근거한 추론이라는 한계가 있다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.82,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 348억 원 대비 단기차입금 2,850억 원으로 차환·증자 위험이 크고 신용등급 전망이 부정적임 [actual]",
+        "최대 수주처 HyAxiom이 자본잠식 계열사이며 수주 금액이 이전가격에 따라 변동 가능함 [actual]",
+        "낙관적 가정에서도 추정 주주가치가 시총의 약 24%에 불과해 안전마진이 음수임 [derived]"
+      ],
+      "key_opportunities_top3": [
+        "올해 누적 수주 약 1.1조 원이 2027년부터 매출로 인식되면 가동률과 고정비 부담이 개선될 수 있음 [actual]",
+        "북미 온사이트 발전 수요가 실제로 확대되면 PAFC·SOFC 모두 수혜 가능성이 있음 [inference]",
+        "재무구조 개선과 흑자 전환이 확인된 뒤 주가가 추정 내재가치의 절반 이하로 내려오면 재검토 대상이 됨 [assumption]"
+      ],
+      "uncertainty": "멀티플 15~20배와 2027E 영업이익은 가정·증권사 추정치이며 컨센서스는 확인되지 않았다. 2028년 이후 영업이익이 수천억 원대로 지속 가능하게 성장하고, 최종 고객이 우량 하이퍼스케일러로 확인되며, 희석 없이 차입금이 축소된다면 판단이 달라질 수 있다. 다만 그 경우에도 현재가가 내재가치의 50% 이하여야 lean_bullish가 된다. 또한 이 lens는 한국 시장의 계열사 거래 관행과 공시 체계에 대한 친숙도가 제한적이다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "수주의 약 75%[derived]가 자본잠식 계열사 HyAxiom과의 특수관계자 거래이며, 금액이 이전가격에 따라 바뀔 수 있고 최종 고객이 비공개",
+        "현금 348.4억 대비 단기차입금 2,850억[actual], 등급전망 부정적 — 유상증자에 따른 주주가치 희석 가능성[inference]",
+        "5년간 영업이익이 계속 악화되고 SOFC는 수율이 검증되지 않은 후발 주자 — 해자 부재"
+      ],
+      "key_opportunities_top3": [
+        "HyAxiom 1차분 납품(2026H2~2028H1)이 실제 매출과 현금 회수로 확인되면 가동률과 고정비 부담이 개선될 수 있음[inference]",
+        "독일 Reverion SOFC 스택 1,087억[actual]처럼 제3자 해외 수주가 늘면 수요의 독립적 검증이 가능",
+        "군산 SOFC 공장 수율이 안정되면 제품 포트폴리오 확장 여지[inference]"
+      ],
+      "uncertainty": "다음이 확인되면 판단을 재검토한다. (1) HyAxiom의 최종 고객이 공개되고 계약이 제3자 조건으로 현금 회수까지 이어지는 경우. (2) 수년간 흑자와 양(+)의 FCF가 이어져 owner earnings를 추정할 수 있게 되는 경우. (3) 차입 축소로 재무구조가 정상화되는 경우. (4) 그 이익 체력 대비 가격이 30% 이상 할인되는 경우. 다만 이 경우에도 neutral까지가 현실적이며, 해자가 숫자로 입증되기 전에는 bullish로 가기 어렵다. 2027E 영업이익은 증권사 추정치이고 컨센서스가 확인되지 않아, 밸류에이션 배수에는 추정 오차가 있다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "HyAxiom 수주 8,236억은 PAFC이며 자본잠식 상태(자본총계 -1,563억)의 계열사가 상대방, 최종 고객 비공개, 금액 변동 가능",
+        "현금 348억 대 단기차입 2,850억 등 차입금 5,800억, 신용등급 BBB 전망 부정적으로 유상증자·재조달 위험",
+        "2Q26 매출 -65.5%, 영업손실 509억으로 2027년 납품 전까지 실적 공백"
+      ],
+      "key_opportunities_top3": [
+        "올해 누적 수주 약 1.1조로 2027년 이후 매출 가시성 확보 가능성",
+        "Bloom Energy 실적이 보여주는 온사이트 발전 수요의 구조적 성장",
+        "최종 고객 공개, 실제 납품 매출 인식, 자본 확충 완료 시 불확실성 해소와 함께 추세 전환 진입 기회"
+      ],
+      "uncertainty": "다음이 확인되면 판단이 뒤집힐 수 있다. 첫째, HyAxiom 물량의 최종 고객이 대형 데이터센터 사업자로 공개되고 계약 금액이 확정되는 경우. 둘째, 희석이 제한적인 방식으로 자본구조 문제가 해소되는 경우. 셋째, 미 장기금리가 의미 있게 하락하고 주가가 호재에 반응하며 추세가 돌아서는 경우. 반대로 본 판단은 수급·공매도 등 심리 지표가 제공되지 않은 상태에서 내려졌으며, 이미 매도 포지션이 과밀하다면 숏 스퀴즈성 급등 위험이 있다. 목표가와 2027E 영업이익은 증권사 추정치이며 컨센서스는 확인되지 않았다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.8,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "HyAxiom 수주 8,236억은 자본잠식 상태 계열사와의 특수관계자 거래이며 최종 고객 비공개, 금액 변동 가능",
+        "현금 348.4억 대비 단기차입 2,850억, 신용등급 전망 '부정적' — 유상증자 등 희석 가능성 [inference]",
+        "2Q26 매출 YoY -65.5%, 영업손실 509.1억으로 납품 본격화 전 적자 지속"
+      ],
+      "key_opportunities_top3": [
+        "올해 누적 수주 약 1.1조는 TTM 매출 4,156.8억의 약 2.6배로, 계획대로 납품되면 2027년 매출·가동률 개선 여지",
+        "미국 변압기 리드타임 장기화로 온사이트 발전 수요 환경은 우호적(Bloom Energy 2Q26 매출 +165.5%)",
+        "HyAxiom 최종 고객이 우량 데이터센터 사업자로 공시되고 납품이 현금으로 회수되면 catalyst의 질이 재평가될 수 있음"
+      ],
+      "uncertainty": "다음 가정이 깨지면 판단을 neutral 이상으로 올릴 수 있다. ① HyAxiom 물량의 최종 고객이 제3자 우량 사업자로 확인되고 이전가격이 두산퓨얼셀에 정상 마진을 보장하는 경우, ② 2027년 상반기 납품이 일정대로 매출과 영업현금흐름 흑자로 확인되는 경우, ③ 희석 없이 단기차입 차환과 재무구조 안정이 이뤄지는 경우. 반대로 증자나 납품 지연, 계약 금액 축소가 나오면 bearish 확신은 더 커진다. 최대주주 지분율, LTSA 등 반복매출 비중, 수주 마진은 제공 자료에 없어 [unavailable]이며, 이 정보에 따라 사업의 질 평가가 달라질 수 있다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "최대 수주 상대방 HyAxiom이 자본잠식 상태의 계열사이고 최종 고객이 비공개",
+        "현금 348억 대비 차입금 5,800억으로 증자 등 희석 가능성",
+        "군산 SOFC 공장 초기 수율 지연과 SOFC 수주 1건에 그친 상업화 성과"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 온사이트 발전 수요라는 장기 시장 잠재력",
+        "1차분 납품이 2027년부터 매출로 인식되면 가동률과 이익률 회복 가능",
+        "SOFC 수율 안정화와 독립 고객 확보 시 제품 경쟁력 재평가 여지"
+      ],
+      "uncertainty": "HyAxiom의 최종 고객이 신용도 높은 독립 데이터센터 사업자로 공개되고, SOFC 수율이 안정되어 제3자 수주가 반복되며, 대규모 증자 없이 영업현금흐름이 흑자로 돌아선다면 판단을 neutral 이상으로 올릴 수 있다. 반대로 경영진 품질과 R&D 자료가 없는 상태에서 내린 판단이므로, 해당 자료가 우수하게 확인될 경우에도 결론이 달라질 수 있다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.74,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "단기성 차입 3,083억 대비 현금 348억, 신용등급 BBB 부정적 전망으로 차환 위험과 증자·CB 희석 가능성이 높음",
+        "HyAxiom 수주 8,236억은 자본잠식 계열사와의 특수관계자 거래로, 최종 고객 비공개에 금액 변동 가능성과 매출채권 회수 위험이 있음",
+        "시장이 SOFC로 인식하는 수주가 실제로는 PAFC이며, 군산 SOFC 공장은 수율 지연 상태"
+      ],
+      "key_opportunities_top3": [
+        "2027-03부터 1차분 납품이 계획대로 매출·현금으로 인식되면 영업 레버리지로 적자 폭이 빠르게 축소될 수 있음",
+        "최종 고객이 북미 대형 데이터센터 사업자로 공개되고 ㈜두산 보증이 유지되면 거래 신뢰도가 재평가될 수 있음",
+        "증자 등으로 재무 불확실성이 해소된 뒤 주가가 15,000원 안팎까지 내려오면 비대칭이 개선되어 재검토 가능 [assumption]"
+      ],
+      "uncertainty": "다음이 확인되면 판단이 neutral 이상으로 바뀔 수 있다. 첫째, HyAxiom의 최종 고객이 신용도 높은 제3자로 공개되고 선수금이 실제 현금으로 유입되는 경우다. 둘째, 단기차입 2,850억이 희석 없이 장기로 차환되는 경우다. 셋째, 2027E 영업이익이 증권사 상단(726억)을 크게 웃도는 것이 분기 실적으로 확인되는 경우다. 반대로 내 분석의 한계는 유동자산·재고·매출채권 세부, 회사채 만기 스케줄, 공매도 잔고, 인사이더 거래 자료가 없다는 점으로, NCAV와 실제 유동성 절벽의 시점을 정밀하게 계산하지 못했다. 컨센서스도 확인되지 않아 2027E 수치는 개별 증권사 추정치에 의존했다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.66,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "핵심 수주 8,236억이 SOFC가 아닌 PAFC이며 상대방이 자본잠식 계열사(HyAxiom), 최종 고객 비공개, 금액 변동 가능 [actual]",
+        "현금 348.4억 대비 단기차입금 2,850억, 신용전망 부정적 → 유상증자 등 희석성 자본확충 가능성 [inference]",
+        "2Q26 매출 -65.5% 급감과 영업손실 509.1억으로 실적 공백 구간 지속 [actual]"
+      ],
+      "key_opportunities_top3": [
+        "누적 수주 약 1.1조가 2027년부터 매출로 인식되면 영업 레버리지로 흑자 전환 가능 [estimated]",
+        "최종 고객이 대형 AI 데이터센터 사업자로 확인되면 narrative가 재점화될 수 있음 [inference]",
+        "Bloom Energy 생산능력 제약 시 대체 공급자로서의 수혜 가능성 [inference]"
+      ],
+      "uncertainty": "다음 중 하나가 확인되면 판단을 neutral 이상으로 수정한다. (1) HyAxiom 수주의 최종 고객이 신용도 높은 데이터센터 사업자로 공개되고 납품이 일정대로 매출 인식될 때, (2) 희석 없이 차입 구조가 안정되거나 그룹 지원으로 유동성 우려가 해소될 때, (3) 군산 SOFC 수율이 정상화되고 SOFC 추가 수주가 이어질 때, (4) 2027E 영업이익이 증권사 추정 상단(726억)을 넘어서는 방향으로 상향될 때. 또한 DCF와 reverse DCF 수치가 제공되지 않아 고평가 정도는 배수 기반 추론이며, Stage 7 진단은 가격 흐름과 사실관계에 근거한 추론이다. 주가가 이미 Stage 8 막바지에 있다면 short의 기대수익은 제한적이다.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.9,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "Graham Number 산출 불가(TTM EPS 약 -2,393원 [derived])이며, 2027년 추정 상단을 관대하게 적용해도 현재가는 Graham Number의 약 4.9배 [derived]",
+        "부채/자본 약 346% [derived]에 현금 348억 원 대 차입금 5,800억 원 [actual]으로, 유상증자 등 주주가치 희석 가능성 [inference]",
+        "자본총계가 2021년 5,182억 원에서 2Q26 2,996억 원으로 감소 [actual]해 장부가치 자체가 줄고 있음"
+      ],
+      "key_opportunities_top3": [
+        "누적 수주 약 1.1조 원 [actual]이 2027~2028년에 실제 매출과 이익으로 이어지면 적자 축소 가능. 다만 이는 투기적 요소로, 그레이엄 기준의 매수 근거는 아님",
+        "㈜두산의 HyAxiom 지급보증 5,117억 원 [actual]이 계열사 거래의 대금 회수 위험을 일부 완화 [inference]",
+        "수년간 흑자가 쌓이고 부채가 자본 이하로 내려간 뒤, 주가가 Graham Number 아래로 떨어지면 재검토 가능"
+      ],
+      "uncertainty": "판단이 뒤집히려면 (1) 여러 해 연속 흑자로 EPS가 안정적으로 양수가 되고, (2) 부채가 자기자본 아래로 줄고, (3) 주가가 그때의 Graham Number 대비 33% 이상 할인되어야 한다. 현재 BVPS 약 3,796원 [derived]에서 43,150원이 Graham Number 이하가 되려면 EPS가 약 21,800원 [derived] 필요하므로 가까운 시일 안에 충족될 가능성은 매우 낮다. 유동자산 세부, 7~10년 실적, 우선주를 포함한 정확한 주식수는 제공되지 않아 NCAV와 주당 수치는 근사치다. 다만 이 오차가 결론을 바꿀 정도는 아니다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "neutral",
+      "confidence": 0.56,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "HyAxiom 8,236억 수주는 SOFC가 아닌 PAFC이며 특수관계자 거래다. HyAxiom은 자본잠식(-1,563억) 상태이고 최종 고객 비공개, 금액도 변동 가능하다 [actual]",
+        "매출 감속: 2Q26 YoY -65.5%, 1H26 누적 -17.1% [actual/derived]",
+        "재무 체력: 현금 348억 vs 차입금 5,800억, 신용등급 전망 부정적. 증자에 따른 희석 가능성 [actual/inference]"
+      ],
+      "key_opportunities_top3": [
+        "AI 데이터센터 온사이트 발전 수요는 Bloom 실적으로 검증됐고, 연료전지 공급 부족 시 2위권 공급자에게도 물량이 흘러올 수 있다 [inference]",
+        "누적 수주 약 1.1조가 2026H2~2028년에 매출로 인식되면 2027년부터 매출이 재가속할 수 있다 [actual/inference]",
+        "군산 SOFC 수율이 안정되고 Reverion 외 비계열 고객 수주가 추가되면 재평가 가능하다 [inference]"
+      ],
+      "uncertainty": "bullish로 바뀌는 조건: 비계열 하이퍼스케일러·데이터센터 고객의 SOFC 직접 수주가 공개되고, 군산 수율 안정과 증설 재개로 분기 매출이 YoY 가속으로 돌아서며, 자금조달이 과도한 희석 없이 해결될 때. bearish로 바뀌는 조건: HyAxiom 계약의 축소·지연, 신용등급 강등이나 대규모 유상증자, SOFC 양산 지연 장기화. capex 분기 누적값(1Q26 106.8억 > 1H26 63.6억)에 불일치가 있어 2026년 투자 추이는 확인이 필요하다. R&D 비중, TAM, 학습률은 [unavailable]이다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.74,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "역DCF상 시장은 10년 매출 CAGR 33~38%, 영업이익률 10~15%를 가정한다 [derived]. 과거 CAGR 4.5%, 최고 마진 4.7%와 괴리가 크다.",
+        "핵심 수주 8,236억의 상대방이 자본잠식 특수관계자(HyAxiom)이고, 최종 고객은 비공개이며 금액도 변동 가능하다 [actual].",
+        "현금 348.4억 대비 단기차입금 2,850억, 신용등급 전망 부정적 [actual]. 유상증자나 희석 가능성이 있다 [inference]."
+      ],
+      "key_opportunities_top3": [
+        "수주 약 1.1조는 TTM 매출의 약 2.6배다. 2027년부터 납품이 인식되면 가동률과 마진이 빠르게 회복될 수 있다 [inference].",
+        "Bloom Energy 실적(2Q26 매출 +165.5% [actual])이 온사이트 연료전지 시장의 존재 자체는 입증한다.",
+        "최종 고객이 대형 하이퍼스케일러로 공개되고 반복 수주가 확인되면 성장 가정을 상향할 근거가 된다 [inference]."
+      ],
+      "uncertainty": "이 valuation은 가정에 매우 민감하다. 순차입이 영업자산 추정치의 약 65%여서 주주가치가 옵션처럼 움직인다. 다음 세 가지가 함께 확인되면 내재가치가 현재가의 ±30% 안으로 들어와 neutral로 바뀔 수 있다. (1) HyAxiom 최종 고객이 신용도 높은 데이터센터 사업자로 확인되고 연 1조 이상 반복 수주가 이어질 것. (2) 영업이익률이 15% 이상에서 지속될 것. (3) 기존 설비 활용으로 sales-to-capital이 3 이상 나와 재투자와 증자 부담이 작을 것. 한국 ERP·CRP와 KRW 무위험이자율은 제공 데이터에 없어 가정값을 썼다. WACC가 1%p 낮아져도 결론의 방향은 바뀌지 않는다 [derived].",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "단기차입금 2,850억 원[actual]에 현금 348억 원[actual]으로 차환 의존도가 높고, 등급 전망이 부정적이라 조달 여건이 나빠질 수 있음",
+        "올해 수주의 약 75%[derived]가 자본잠식 상태의 계열사 HyAxiom에 집중, 최종 고객 비공개, 금액은 이전가격에 따라 변동 가능",
+        "시장이 SOFC 수주로 읽는 대형 계약이 실제로는 PAFC이며, 군산 SOFC 공장은 초기 수율 지연"
+      ],
+      "key_opportunities_top3": [
+        "HyAxiom 1차분 납품이 2026년 하반기부터 실제 매출로 잡히고 최종 고객이 공개되면 서사가 검증됨",
+        "Reverion 계약과 군산 공장 수율이 안정되면 SOFC 옵션이 실체를 가짐",
+        "㈜두산의 지급보증 등 그룹 지원이 차환 위험을 일부 완충[inference]"
+      ],
+      "uncertainty": "다음 가정이 깨지면 판정이 neutral 쪽으로 바뀔 수 있다. 첫째, 단기차입이 장기로 전환되거나 자본 확충으로 차환 위험이 해소되는 경우. 둘째, HyAxiom의 최종 고객이 신용도 높은 독립 사업자로 확인되고 납품이 일정대로 매출화되는 경우. 셋째, SOFC 수율이 안정되어 외부 고객 수주가 늘어나는 경우. 경영진 지분율과 보상 구조는 자료가 없어[unavailable] 3단계 판정은 특수관계자 거래 구조에 근거한 추론이며, 이 부분의 확신은 낮다. 2027년 영업이익 추정치는 증권사 간 편차가 크고 컨센서스를 확인할 수 없어[unavailable] 상방 크기 판단에도 오차가 있다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}

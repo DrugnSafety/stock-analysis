@@ -1,0 +1,792 @@
+{
+  "ticker": "126340.KQ",
+  "company": "비나텍",
+  "generated_at": "2026-09-29",
+  "analysis_note": "fresh context — 이전 thesis·페르소나 결론을 참조하지 않음. 블로그 본문은 분석 대상 데이터로만 취급. 매수·매도 권유 아님",
+  "industry": {
+    "name": "AI 데이터센터 전원 안정화용 슈퍼커패시터(EDLC) — 셀에서 시스템(모듈·랙)으로",
+    "overview": "비나텍은 전기이중층 커패시터(EDLC, 슈퍼커패시터) 셀 제조사임. 1H26 연결 매출 607.5억 원 중 에너지저장장치(슈퍼캡) 부문이 582.2억 원(95.8%), 수출 비중이 93.5%임 [actual, DART 반기보고서 20260814004230 주석 4·Ⅱ장].\nAI 데이터센터에서 슈퍼캡은 GPU 부하가 순간적으로 급변할 때 전력을 흡수·방출하는 완충 장치로 쓰임. NVIDIA는 GB300 NVL72 전원 선반에 GPU당 65J 에너지 저장(LITEON 공동 설계)을 넣어 학습 시 계통이 보는 피크 전력을 30% 줄였다고 밝힘 [actual, NVIDIA 기술 블로그 2025-07-28].\n온사이트 발전 쪽에서는 Bloom Energy가 연료전지에 슈퍼캡을 결합해 밀리초 단위 부하 추종을 구현한다고 설명함 [actual, Bloom Energy 블로그]. 비나텍의 데이터센터 매출 경로는 Bloom 연료전지 시스템 직납과 AI 서버 전원 EMS(AcBel·Sanmina) 두 갈래임.\n2026-06~09 공시된 데이터센터 수주 4건 합계 1,059.9억 원 중 Bloom 직납이 412.2억 원(38.9%), EMS 경로(AcBel 383.6억·Sanmina 131.1억+133.0억)가 647.7억 원(61.1%)임 [derived, DART 4건]. 'SOFC 밸류체인'으로 분류되지만 수주의 과반은 AI 서버 전원 쪽임. 과거 AcBel이 비나텍 셀로 Bloom용 시스템을 조립했으므로(메리츠 2026-07-01) EMS 물량 중 최종 수요가 Bloom인 비중은 확인 불가임.\n공시 원화 금액은 계약일 환율(1,507~1,542원/달러) 기준임. USD 합계 7,052만 달러를 9/29 환율 1,357.38원으로 환산하면 957.3억 원으로 공시액보다 9.7% 작음 [derived, DART 계약 공시의 USD 금액].\n경쟁은 셀 단계(Eaton·UCAP Power(Maxwell)·Skeleton·LS머트리얼즈·Musashi 하이브리드 커패시터)와 시스템 단계(LITEON 등 전원 선반 업체) 양쪽에서 벌어짐. 글로벌 점유율 수치는 확인 불가임.",
+    "market_position": "회사는 반기보고서에서 '중소형 원통형 슈퍼캡 세계 시장 판매 1위'라고 적음(자체 주장, 제3자 점유율 자료 확인 불가) [DART 20260814004230]. AI DC용 슈퍼캡 매출은 2025년 125억 원(매출의 15.2%) → 1Q26 61억 원으로 삼성증권이 집계함 [actual, 삼성증권 2026-06-12]. 2Q26 이후 수치는 확인 불가임. 1H26 10% 이상 매출처 4곳이 56.4%(A 21.9%·B 12.4%·C 12.4%·D 9.8%, 실명 비공개)이고, 1H25에는 A 4.2%·C 0.2%였음 [actual, 반기보고서 연결 주석 4]. A·C가 데이터센터 고객일 가능성이 높음 [inference]. 생산은 베트남 법인 3곳(VINATECH VINA·VINATECH ES·VINA ENESOL VINA)이 맡고, 1H26 가동률은 Lead type 62.3%·Snap-in 73.4%임 [actual, DART]. 슈퍼캡 생산능력(매출 기준)은 2025년 말 1,200억 원 → 2026년 말 3,000억 원 계획임 [estimated, 삼성증권 2026-06-12]. 흥옌 신공장은 2026-01 착공 [actual, 반기보고서 연혁]했고 2028년 완공·생산능력 약 5배가 목표임 [estimated, 회사 보도 2025-12-18].",
+    "demand_drivers": [
+      "GPU 랙 전력 급변 완충 — GB300 전원 선반 에너지 저장 65J/GPU, 계통 피크 −30% [actual, NVIDIA 2025-07-28]. 후속 플랫폼의 채택 폭·랙당 수량은 확인 불가",
+      "온사이트 연료전지 부하 추종 — Bloom 2Q26 매출 $1.065B(+165.5%)·FY26 가이던스 $3.9~4.2B, Fremont 2GW(2026년 말) [actual, Bloom IR 2026-07-28·10-K], Oracle 1.2GW 확정 [actual, Business Wire 2026-04-14]",
+      "셀→시스템 전환 — 시스템은 셀 대비 수배 매출(삼성증권 2026-06-12) [estimated]. 다만 시스템 마진은 셀보다 낮다고 메리츠가 지적함(2026-07-01)",
+      "기존 수요 — 스마트미터·SSD·전장용 Lead type 1H26 306.2억 원(매출 50.4%) [actual, DART 반기보고서 제품별 매출]",
+      "리튬 대비 열폭주 위험이 낮고 수명이 길어 랙 단위 전원 백업 일부를 대체할 수 있음 [inference, Eaton·Skeleton 제품 자료]"
+    ],
+    "competitive_moat": "① 자동화 라인·베트남 생산 원가 — 회사는 경쟁사 대비 원가 우위를 주장함 [DART, 자체 주장]. ② Bloom 공급 이력 — 셀 공급에서 2026-06 시스템 직납으로 확대 [actual, DART 20260630900898]. ③ 복수 EMS 고객 — AcBel 재수주(최근 3년 동종계약 이행 '해당')·Sanmina 2회 [actual, DART]. 한계 — TTM OPM 2.0% [derived]로 원가 우위가 이익으로 확인되지 않았고, 시스템은 셀보다 마진이 낮으며(메리츠), 박장공장 화재로 생산 거점 집중 리스크가 드러남. Eaton·Skeleton·LS머트리얼즈 등이 AI DC 전용 제품을 내놓아 진입장벽은 높지 않음 [inference].",
+    "competitors": [
+      {
+        "name": "Eaton",
+        "ticker": "ETN",
+        "share_pct": null,
+        "moat": "AI 데이터센터 펄스 부하용 슈퍼캡 백서와 랙형 슈퍼캡 뱅크 제품을 냄 [actual, Eaton 자료 https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/brochure/eaton-ai-and-data-centers-white-paper-elx1549-en.pdf]. 점유율 확인 불가"
+      },
+      {
+        "name": "UCAP Power (Maxwell 브랜드)",
+        "ticker": "비상장",
+        "share_pct": null,
+        "moat": "Tesla가 매각한 Maxwell 울트라커패시터 사업(한국 법인 포함)을 인수, 데이터센터용 제품 운영 [actual, https://passive-components.eu/tesla-sells-maxwell-technology-supercapacitors-to-ucap-power/ · https://maxwell.com/applications/data-centers/]. 점유율 확인 불가"
+      },
+      {
+        "name": "Skeleton Technologies",
+        "ticker": "비상장",
+        "share_pct": null,
+        "moat": "그래핀 기반 AI 데이터센터용 UPS 출시 [actual, https://passive-components.eu/skeleton-releases-graphene-based-ups-for-ai-data-centers/]. 점유율 확인 불가"
+      },
+      {
+        "name": "LS머트리얼즈",
+        "ticker": "417200.KQ",
+        "share_pct": null,
+        "moat": "AI 데이터센터 순간 전력 변동 대응 울트라커패시터를 데이터센터 월드 아시아 2026에 전시 [actual, 파이낸셜뉴스 2026-09-29 https://www.fnnews.com/news/202609291019540610]. 국내 생산 [actual, 산업일보 https://kidd.co.kr/news/240731]"
+      },
+      {
+        "name": "Musashi Seimitsu (Musashi Energy Solutions)",
+        "ticker": "7220.T",
+        "share_pct": null,
+        "moat": "리튬이온 커패시터·하이브리드 슈퍼캡, 2026년 연 650만 개 생산능력 목표, Flex와 랙 전원용 CESS 제휴 [actual, DCD https://www.datacenterdynamics.com/en/product-news/musashi-energy-solutions-introduces-next-gen-power-system-for-data-centers-and-ai-computing-at-dcdconnect-virginia-debut/]. 'GB300 표준 부품' 주장은 1차 출처 확인 불가"
+      },
+      {
+        "name": "LITEON Technology",
+        "ticker": "2301.TW",
+        "share_pct": null,
+        "moat": "GB300 전원 선반의 에너지 저장을 NVIDIA와 공동 설계 [actual, NVIDIA 2025-07-28] — 시스템 단계에서 비나텍과 경쟁·협력 관계 [inference]"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-09-07",
+        "title": "비나텍, Sanmina와 데이터센터용 슈퍼커패시터 133.0억 원 공급계약(인도 공급)",
+        "source": "DART 단일판매ㆍ공급계약체결",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260907900269",
+        "summary": "USD 981만 달러, 2025 매출 대비 16.17%, 2026-09-05~2027-01-28. 7/6 131.1억 원에 이은 Sanmina 두 번째 공시 [actual]"
+      },
+      {
+        "date": "2026-08-14",
+        "title": "반기보고서 — 베트남 박장공장 화재로 재해손실 297.8억 원, 2Q 지배순손실 380.8억 원",
+        "source": "DART 반기보고서(2026.06) 주석 32",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004230",
+        "summary": "2026년 6월 화재로 공장·재고 손실 인식, 화재보험금은 미확정이라 미반영. 2Q 매출 353.8억(QoQ +39%)·영업이익 5.0억 [actual]"
+      },
+      {
+        "date": "2026-08-14",
+        "title": "제4회 CB 220억 원 발행 결정(전환가 78,818원)",
+        "source": "DART 주요사항보고서",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003891",
+        "summary": "표면·만기 0%, 시설자금, 전환청구 2027-08-24부터, 발행주식 대비 3.74%. 3회 CB 410억 원(전환가 147,686원)과 합산 잠재 희석 약 7.7% [actual/derived]"
+      },
+      {
+        "date": "2026-08-11",
+        "title": "베트남 법인 USD 14M 추가 출자(CAPA 증설)",
+        "source": "DART 타법인주식및출자증권취득결정",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260811900406",
+        "summary": "5/19 대여 USD 10M·6/17 출자 USD 10M에 이어 누적 USD 34M, 목적은 설비 구입·운영자금 [actual]"
+      },
+      {
+        "date": "2026-07-28",
+        "title": "Bloom Energy 2Q26 매출 $1.065B(+165.5%), FY26 가이던스 $3.9~4.2B로 상향",
+        "source": "Bloom Energy IR",
+        "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Second-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx",
+        "summary": "제품 매출 $935.4M(+215.4%) — 비나텍 핵심 전방 고객의 성장 [actual]"
+      },
+      {
+        "date": "2026-07-22",
+        "title": "단기차입금 250억 원 증가 결정",
+        "source": "DART 단기차입금증가결정",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722900844",
+        "summary": "단기차입금 443.5억 → 693.5억 원(자기자본 대비 32.0%). 대량보유 보고상 이 차입의 담보로 최대주주 주식 약 120만 주가 제공됨 [actual]"
+      },
+      {
+        "date": "2026-07-13",
+        "title": "AcBel Polytech와 데이터센터용 슈퍼커패시터 383.6억 원 공급계약",
+        "source": "DART 단일판매ㆍ공급계약체결",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713900228",
+        "summary": "USD 2,545만 달러, 매출 대비 46.65%, 2026-07-10~2027-03-15, 대만 공급 [actual]"
+      },
+      {
+        "date": "2026-07-09",
+        "title": "Bloom Energy, Hunterbrook 공매도 리포트에 8-K로 반박",
+        "source": "Bloom Energy 8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026047734/be-20260709.htm",
+        "summary": "Hunterbrook(7/8)은 순환매출·백로그 과장·스칸듐 중국 의존을 주장, Bloom은 '허위·오해 소지'라고 반박 — 비나텍 고객 집중 리스크 [actual]"
+      },
+      {
+        "date": "2026-06-30",
+        "title": "Bloom Energy와 데이터센터용 슈퍼커패시터 '시스템' 412.2억 원 공급계약",
+        "source": "DART 단일판매ㆍ공급계약체결",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900898",
+        "summary": "USD 2,674만 달러, 2025 매출 대비 50.12%, 2026-06-30~2027-04-10, 베트남 법인 생산. 셀 공급에서 시스템 직납으로 확대 [actual]"
+      },
+      {
+        "date": "2026-06-12",
+        "title": "삼성증권: 2H26 AI DC용 슈퍼캡 증설·시스템 판매 개시로 매출 성장 가속",
+        "source": "삼성증권(Not Rated)",
+        "url": "https://www.samsungpop.com/common.do?cmd=down&contentType=application%2Fpdf&inlineYn=Y&saveKey=research.pdf&fileName=2010%2F2026061120323071K_02_03.pdf",
+        "summary": "생산능력(매출 기준) 1,200억 → 3,000억 원, 회사는 올해 매출 2배·2029년 매출 1조 원 목표. 1Q26 AI DC용 매출 61억 원 [estimated]"
+      },
+      {
+        "date": "2026-04-14",
+        "title": "Oracle, Bloom 연료전지 최대 2.8GW MSA — 1.2GW 확정",
+        "source": "Business Wire(Bloom Energy)",
+        "url": "https://www.businesswire.com/news/home/20260414697111/en/Bloom-Energy-and-Oracle-Expand-Strategic-Partnership-to-Deploy-up-to-2.8-GW-to-Accelerate-AI-Infrastructure-Build-Out",
+        "summary": "초기 1.2GW 배치가 2027년까지 이어짐 — 비나텍 Bloom향 수요의 전방 근거 [actual]"
+      },
+      {
+        "date": "2026-03-12",
+        "title": "2025년 연결 매출 822억 원(+38%)·영업이익 흑자전환",
+        "source": "DART 매출액또는손익구조30%이상변동",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312900252",
+        "summary": "잠정 영업이익 18.1억(확정 17.7억), 당기순손실 81.9억 원 — 종속사 신규사업 손상·이연법인세 영향 [actual]"
+      }
+    ]
+  },
+  "financials": {
+    "basis": "연결(CFS) — DART fnlttSinglAcntAll 직접 조회(_logs/fin_126340.KQ.json, 2026-09-29). 순이익은 지배주주 귀속",
+    "unit": "억 원 (연결)",
+    "financial_unit": {
+      "currency": "KRW",
+      "scale": "억",
+      "label": "억 원 (연결)"
+    },
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 489.6,
+        "op_income": 56.3,
+        "op_margin": 11.5,
+        "net_income": 75.0,
+        "net_margin": 15.3,
+        "rcept_no": "20220318001132",
+        "tag": "[actual, DART 연결] · 마진 [derived]"
+      },
+      {
+        "year": 2022,
+        "revenue": 706.6,
+        "op_income": 93.5,
+        "op_margin": 13.2,
+        "net_income": 116.7,
+        "net_margin": 16.5,
+        "rcept_no": "20230320001070",
+        "tag": "[actual, DART 연결] · 마진 [derived]"
+      },
+      {
+        "year": 2023,
+        "revenue": 549.6,
+        "op_income": 30.4,
+        "op_margin": 5.5,
+        "net_income": 19.8,
+        "net_margin": 3.6,
+        "rcept_no": "20240315000937",
+        "tag": "[actual, DART 연결] · 마진 [derived]"
+      },
+      {
+        "year": 2024,
+        "revenue": 595.9,
+        "op_income": -80.7,
+        "op_margin": -13.5,
+        "net_income": -90.9,
+        "net_margin": -15.3,
+        "rcept_no": "20250313000631",
+        "tag": "[actual, DART 연결] · 마진 [derived]",
+        "note": "영업손실은 증설 비용·인력 충원 영향(삼성증권 분기 실적표 기준 3Q24~4Q24 적자)"
+      },
+      {
+        "year": 2025,
+        "revenue": 822.3,
+        "op_income": 17.7,
+        "op_margin": 2.2,
+        "net_income": -58.5,
+        "net_margin": -7.1,
+        "rcept_no": "20260702000424",
+        "tag": "[actual, DART 연결] · 마진 [derived]",
+        "note": "순이익은 지배주주 기준(정정 사업보고서 2026-07-02). 3/12 잠정 공시는 당기순손실 81.9억(비지배 포함)으로 종속사 신규사업 손상·이연법인세를 원인으로 적음(DART 20260312900252)"
+      }
+    ],
+    "interim_2026": [
+      {
+        "period": "1Q26",
+        "revenue": 253.7,
+        "op_income": -15.4,
+        "op_margin": -6.1,
+        "net_income": -16.1,
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002938",
+        "tag": "[actual, DART]"
+      },
+      {
+        "period": "2Q26",
+        "revenue": 353.8,
+        "op_income": 5.0,
+        "op_margin": 1.4,
+        "net_income": -380.8,
+        "yoy": "매출 +71.0% (2Q25 206.9억) · QoQ +39.5% [derived]",
+        "note": "세전손실 395.3억 ≈ 영업이익 5.0 + 순금융손익 −94.5(CB 파생상품 평가손실 포함) + 기타이익 −6.6 − 기타손실 299.3(재해손실 297.8) [actual, 반기보고서 연결 포괄손익계산서, 반올림 차이]",
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004230",
+        "tag": "[actual, DART]"
+      },
+      {
+        "period": "1H26",
+        "revenue": 607.5,
+        "op_income": -10.4,
+        "op_margin": -1.7,
+        "net_income": -396.9,
+        "yoy": "매출 +66.8% (1H25 364.3억) [derived]",
+        "cogs_ratio": "매출원가율 77.5% (1H25 72.7%) [derived]",
+        "segments": "에너지저장장치 582.2억(매출총이익률 23.3%) · 연료전지 25.3억(6.0%) — 1H25 각각 314.8억(27.8%)·49.5억(24.3%) [actual/derived, 반기보고서 주석 4]",
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004230",
+        "tag": "[actual, DART]"
+      },
+      {
+        "period": "TTM(2Q26)",
+        "revenue": 1065.5,
+        "op_income": 21.8,
+        "op_margin": 2.0,
+        "net_income": -404.9,
+        "note": "TTM = 2025 연간 − 1H25 + 1H26 [derived, _logs/derived_metrics.json]"
+      }
+    ],
+    "bs_snapshot": {
+      "total_assets": 2592.3,
+      "total_liab": 1712.7,
+      "equity": 879.6,
+      "cash": 53.6,
+      "debt": 1248.5,
+      "as_of": "2026-06-30 (연결)",
+      "_note": "2Q26 말 연결, 억 원 [actual, DART 반기보고서 20260814004230]. 자본총계 879.6억은 비지배지분 포함. debt 1,248.5억 = 단기 551.3 + 유동성장기 92.2 + 장기 370.3 + 사채 234.7 — 사채는 제3회 CB 장부가(전환사채 168.6 + 상환할증금 66.1, 전환권조정 차감 후)이고 파생상품금융부채 118.3억·리스부채 16.8억은 제외함. 2Q 이후 단기차입 250억(7/22)·제4회 CB 220억(8/24 납입)이 더해져 차입금은 약 1,718.5억 원 [derived, 이후 상환분 미반영]. 현금은 1Q 말 500.5억 → 2Q 말 53.6억으로 급감. 부채비율 194.7% [derived]."
+    },
+    "cf_summary": {
+      "basis": "연결 2021~2025, 억 원 — OCF·capex(유형자산 취득) [actual, DART], FCF·평균 [derived]",
+      "ocf_5y_avg": 38.6,
+      "fcf_5y_avg": -219.6,
+      "capex_intensity": 0.408,
+      "capex_intensity_note": "5년 capex 합계 1,291.0억 ÷ 5년 매출 합계 3,164.0억 [derived]",
+      "yearly": [
+        {
+          "year": 2021,
+          "ocf": 43.3,
+          "capex": 285.4,
+          "fcf": -242.1
+        },
+        {
+          "year": 2022,
+          "ocf": 113.7,
+          "capex": 238.8,
+          "fcf": -125.1
+        },
+        {
+          "year": 2023,
+          "ocf": 130.6,
+          "capex": 124.5,
+          "fcf": 6.1
+        },
+        {
+          "year": 2024,
+          "ocf": -34.2,
+          "capex": 448.7,
+          "fcf": -482.9
+        },
+        {
+          "year": 2025,
+          "ocf": -60.6,
+          "capex": 193.6,
+          "fcf": -254.2
+        }
+      ],
+      "h1_2026": {
+        "ocf": -266.4,
+        "capex": 269.5,
+        "fcf": -535.9,
+        "note": "1H26 누적 [actual, DART 반기보고서], FCF [derived]. 5년 누적 FCF −1,098.2억에 1H26 −535.9억이 더해짐"
+      }
+    },
+    "trend_narrative": "- 매출은 489.6억(2021) → 822.3억(2025)으로 4년 CAGR +13.8% [derived]임. 2023년 −22.2% 역성장 뒤 2025년 +38.0%로 반등했고, 반등분의 상당 부분이 AI DC용 슈퍼캡(2025년 125억, 삼성증권)임.\n- OPM은 11.5%(2021)·13.2%(2022) → 5.5%(2023) → −13.5%(2024) → 2.2%(2025) → TTM 2.0%로 회복이 더딤 [derived]. DS투자증권은 1Q26 적자 원인을 베트남 증설에 따른 설비 안정화 등 선행 투자비로 설명함(2026-05-22).\n- 2Q26 매출 353.8억(YoY +71.0%)으로 외형은 빨라졌으나 영업이익 5.0억(OPM 1.4%)에 그침. 1H26 매출원가율이 77.5%로 1H25 72.7%보다 4.8%p 나빠짐 [derived, DART].\n- 2Q26 지배순손실 380.8억의 대부분은 박장공장 화재 재해손실 297.8억(보험금 미반영)과 CB 파생상품 평가손실 등 금융원가임 [actual, 반기보고서 주석 18·32]. 1H26 법인세수익은 6.6억에 그쳐 세금 효과로 손실이 줄지 않음.\n- 현금흐름은 5년 중 FCF 흑자가 2023년(+6.1억) 한 해뿐이고 5년 누적 FCF −1,098.2억 [derived]. 1H26에도 OCF −266.4억·capex 269.5억으로 FCF −535.9억임.\n- 부족분은 외부 조달로 메움: 자기주식 처분 206억(2026-02)·3회 CB 410억(2026-03)·단기차입 250억(2026-07)·4회 CB 220억(2026-08) 등 최근 8개월 약 1,086억 [derived, DART]. 차입금은 396.3억(2021) → 1,248.5억(2Q26)으로 늘었음.",
+    "key_ratios": {
+      "current_price_krw": 83700,
+      "current_price_note": "9/29 14:58 장중가 (yfinance live, stocks.json market_data.current_price). 9/29 공식 종가 84,300원 [actual, yfinance 15:48 KST 조회]. price_factcheck.json의 83,600원은 같은 장중 스냅샷의 틱 차이",
+      "market_cap_krw_bn": 600.63,
+      "shares_outstanding": 7180414,
+      "shares_note": "2026-06-30 발행주식총수 [actual, DART 반기보고서]. 의결권 있는 주식 7,143,528주(대량보유 보고). 완전희석 7,737,154주 = + 3회 CB 277,616주 + 4회 CB 279,124주 [derived]",
+      "psr_ttm": 5.6,
+      "pbr": 6.8,
+      "pbr_psr_note": "시총 6,006억(yfinance 2026-09-29) ÷ TTM 매출 1,065.5억 / 2Q말 자본총계 879.6억 [derived, _logs/derived_metrics.json]",
+      "ttm_opm_pct": 2.0,
+      "ttm_net_income_ctrl": -404.9,
+      "ttm_per": "적자 — 산정 불가",
+      "adj_ttm_net_income_ex_fire": -107.1,
+      "adj_ttm_net_income_ex_fire_cb": -12.2,
+      "adj_note": "[derived] TTM 지배순손실 −404.9억 + 재해손실 297.8억 = −107.1억, CB 파생상품 평가손실 94.9억(매도청구권 자산 90.8 + 조기상환청구권 부채 4.1, 반기보고서 주석 18)까지 빼면 −12.2억. 세효과는 1H26 법인세수익 6.6억 수준이라 무시함. 일회성을 빼도 흑자가 아님",
+      "debt_to_equity_pct": 194.7,
+      "forward_pe": null,
+      "beta": null,
+      "fpe_beta_note": "yfinance forward_pe·beta 없음 [unavailable]",
+      "volatility_annualized_pct": 116.46,
+      "return_1m_pct": 31.6,
+      "return_3m_pct": 0.97,
+      "return_6m_pct": -27.28,
+      "return_1y_pct": 81.12,
+      "high_52w": 204500,
+      "high_52w_note": "2026-05-06 일중 고가(종가 기준 193,600원) [actual, yfinance]",
+      "drawdown_from_high_pct": -59.1,
+      "low_after_crash": "2026-07-30 종가 44,100원 — 7/1 상한가 107,700원(Bloom 시스템 수주 다음 날) 대비 −59.1% [actual, yfinance]",
+      "div_yield_pct": 0,
+      "source": "yfinance 1.7.0 (live, 2026-09-29) + DART"
+    },
+    "consensus": {
+      "status": "현재 유효한(화재·CB 추가 발행 반영 후) 증권사 목표주가는 확인 불가",
+      "stale_references": [
+        "DS투자증권 안주원: 목표주가 177,000원(2026-03-03 보도, 2/27 주가 123,600원 대비 +43.2%; 2026-05-22 유지하며 2026E 영업이익 151억으로 하향) — 화재·7월 폭락 이전 값. 이전 목표가는 58,000원(2025-11-20) [actual, 경제타임스 https://www.ket.kr/news/article.html?no=37613 · 인포스탁데일리 https://www.infostockdaily.co.kr/news/articleView.html?idxno=216004]",
+        "삼성증권 조현렬: Not Rated, 리포트 표기 컨센서스 목표주가 168,500원(커버 2개사, 2026-06-12) [actual, 삼성증권 PDF]",
+        "메리츠증권 문경원: 목표가 언급 없음 — 4Q26부터 시스템 매출 반영, 실질 이익 개선은 2027년 이후, 시스템 마진은 셀보다 낮음(2026-07-01) [actual, 이데일리]",
+        "DS투자증권 2026E 추정(2026-03-03): 매출 1,710억·영업이익 229억 [estimated, 경제타임스]"
+      ],
+      "note": "위 값들은 산식에 쓰지 않음. 본 보고서 시나리오는 아래 자체 산식으로 산정함"
+    }
+  },
+  "scenarios": {
+    "method": "주 산식: 2027E 매출 [assumption] × 목표 PSR [assumption] = 목표 시총 → ÷ 완전희석 주식수 7,737,154주 [derived] = 목표주가. 교차 점검: 2027E 매출 × OPM [assumption] = 영업이익 → (영업이익 − 이자비용 약 70억 [assumption]) × (1 − 법인세 20% [assumption]) = 순이익 → ÷ 완전희석 주식수 = EPS → 목표가 ÷ EPS = 내재 PER. 2027E 매출은 슈퍼캡 생산능력(매출 기준) 3,000억 원(2026년 말, 삼성증권 2026-06-12 전언) [estimated]에 대한 가동률로 설정함. PSR 기준점: 현재 TTM 5.6배, 현재 시총 6,006억 ÷ base 2027E 매출 2,200억 = 2.73배, 7/30 폭락 저점 시총 약 3,167억 ÷ 현재 TTM 매출 = 3.0배 [derived]. 주식수는 반기말 7,180,414주 + 3회 CB 277,616주(전환가 147,686원) + 4회 CB 279,124주(전환가 78,818원) — 3회 CB는 전환가가 모든 목표가보다 높아 실제로는 부채(2028-03 풋 약 435억)로 남을 가능성이 크나, 보수적으로 완전희석을 씀. 두 CB 모두 시가하락 리픽싱 조항 없음 [actual, DART 20260312001260·20260814003891]. 이자비용 70억은 2Q말 차입금 1,248.5억 + 7/22 단기차입 250억 기준 현금이자이고 CB 전환권조정 상각 등 비현금 이자는 뺐음. 현재 유효한 증권사 목표주가는 확인 불가 — DS투자증권 177,000원(2026-03-03 보도·5/22 유지)과 삼성증권 리포트 표기 컨센서스 168,500원(2개사, 2026-06-12)은 화재·CB 추가 발행·7월 폭락 이전 값이라 쓰지 않음. 현재가 83,700원 = 9/29 14:58 장중가(yfinance live, stocks.json). 9/29 공식 종가 84,300원 [actual, yfinance 15:48 KST 조회].",
+    "current_price_krw": 83700,
+    "current_price_note": "9/29 14:58 장중가 (yfinance live). 9/29 공식 종가 84,300원 [actual, yfinance 15:48 KST 조회]",
+    "shares_diluted": 7737154,
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 135700,
+      "thesis": "박장 복구·보험금 수령 + 흥옌 조기 가동으로 CAPA 3,000억 풀가동, Bloom 시스템 후속 PO·EMS 반복 수주 → 2027E 매출 3,000억 × PSR 3.5배",
+      "narrative": "- 박장공장 복구와 보험금 수령이 4Q26~1Q27에 마무리되고 흥옌 신공장이 2027년 중 가동돼 슈퍼캡 생산능력(매출 기준) 3,000억 원 [estimated, 삼성증권]을 채움.\n- Bloom 시스템 412.2억(~2027-04-10)이 후속 PO로 이어지고, Bloom 2GW 증설(2026년 말)과 Oracle 1.2GW 배치가 셀·시스템 수요를 키움. 시스템 단가는 셀 대비 수배(삼성증권)임.\n- AcBel·Sanmina 등 AI 서버 전원 EMS 경로 수주가 분기마다 반복됨(7~9월 3건 647.7억 원 [actual, DART]).\n- 산식: 2027E 매출 3,000억 [assumption] × PSR 3.5배 [assumption: 현재 TTM 5.6배와 7/30 저점 TTM 약 3.0배 사이 — 회사 매출 1조 목표에 대한 신뢰 회복 시] = 목표 시총 1조 500억 → ÷ 7,737,154주 = 135,700원(현재가 83,700원 대비 +62.1%) [derived].\n- 교차 점검: OPM 12% [assumption: 2021~22년 11.5~13.2% 수준 회복] → 영업이익 360억 → (360 − 70) × 0.8 = 순이익 232억 → EPS 2,999원 → 내재 PER 약 45배 [derived]. 목표가가 3회 CB 전환가 147,686원 아래라 bull에서도 3회 CB는 전환되지 않을 수 있음.",
+      "key_assumptions": [
+        "2027E 매출 3,000억 원 — CAPA(매출 기준) 3,000억 풀가동 + 시스템 매출 본격화 [assumption]",
+        "화재보험금 수령·박장 복구 4Q26~1Q27 완료, 흥옌 2027년 가동 [assumption]",
+        "Bloom 시스템 후속 PO와 EMS 반복 수주, 원/달러 1,350원대 유지 [assumption]",
+        "목표 PSR 3.5배 — 2029~2030년 매출 1조 목표를 일부 인정 [assumption]"
+      ],
+      "price_target_logic": "3,000억 × 3.5 = 10,500억 ÷ 7,737,154주 = 135,709원 ≈ 135,700원"
+    },
+    "base": {
+      "prob_pct": 45,
+      "target_price": 79600,
+      "thesis": "화재 복구·흥옌 램프업 비용으로 CAPA의 약 73%만 매출화, 현재 수주 인식 + 분기 300억 안팎 신규 수주 → 2027E 매출 2,200억 × PSR 2.8배",
+      "narrative": "- 박장 화재로 잃은 설비·재고 복구가 2027년 상반기까지 이어지고 흥옌 램프업 초기 비용이 겹쳐, CAPA 3,000억의 약 73%만 매출로 바뀜.\n- 공시 수주 1,059.9억 원(USD 7,052만 달러, 9/29 환율 환산 957.3억 원 [derived])이 3Q26~1Q27에 인식되고, 2027년 신규 DC 수주는 분기 300억 원 안팎으로 이어짐 [assumption].\n- 비DC(스마트미터·전장·연료전지 부품) 매출은 연 700억 원대 유지 [assumption: 2025년 비DC 약 697억 = 822.3 − AI DC 125억, DART·삼성증권].\n- 산식: 2027E 매출 2,200억 [assumption] × PSR 2.8배 [assumption: 현재 시총 기준 2027E base PSR 2.73배와 비슷 — 성장 경로는 인정하되 화재·희석·고객 집중 할인 유지] = 목표 시총 6,160억 → ÷ 7,737,154주 = 79,600원(−4.9%) [derived].\n- 교차 점검: OPM 8% [assumption: 매출 증가로 판관비 레버리지, 시스템 저마진이 일부 상쇄] → 영업이익 176억 → 순이익 85억 → EPS 1,096원 → 내재 PER 약 73배 [derived]. 2027년 이익만으로는 설명되지 않고 회사 매출 1조 목표(삼성증권 전언 2029년·회사 보도 2030년)를 일부 선반영한 값임.",
+      "key_assumptions": [
+        "2027E 매출 2,200억 원 — CAPA 3,000억 × 가동률 약 73% [assumption]",
+        "OPM 8% — 1H26 매출원가율 77.5%에서 소폭 개선 [assumption]",
+        "추가 대규모 증자 없이 차입·CB로 운전자금 충당 [assumption]",
+        "목표 PSR 2.8배 — 현재 시장이 매기는 2027E PSR 2.73배 수준 [derived/assumption]"
+      ],
+      "price_target_logic": "2,200억 × 2.8 = 6,160억 ÷ 7,737,154주 = 79,616원 ≈ 79,600원"
+    },
+    "bear": {
+      "prob_pct": 30,
+      "target_price": 38800,
+      "thesis": "보험금 지연·납기 차질로 후속 PO 분산, Bloom 발주 둔화·원화 강세, 추가 조달로 희석 → 2027E 매출 1,500억(정체) × PSR 2.0배",
+      "narrative": "- 박장공장 보험금이 적거나 늦어지고 생산 차질로 AcBel(2027-03-15)·Bloom(2027-04-10) 납기를 일부 놓쳐 후속 PO가 경쟁사(Eaton·Skeleton·Musashi 등)로 나뉨.\n- Hunterbrook 공매도 리포트 논란이나 AI DC 투자 둔화로 Bloom 발주가 늦어지고, 원화 강세(6~7월 계약 환율 1,507~1,542원 → 9/29 1,357원)로 달러 매출의 원화 환산액이 더 줄어듦.\n- 현금 부족으로 추가 CB·유상증자가 나오고, 주가 하락 시 최대주주 담보(지분 21.64%) 반대매매 우려가 수급을 누름.\n- 산식: 2027E 매출 1,500억 [assumption: 2026E 수준에서 정체] × PSR 2.0배 [assumption: 7/30 폭락 저점 TTM 약 3.0배보다 낮음 — 성장 정체·추가 희석 확인 시] = 목표 시총 3,000억 → ÷ 7,737,154주 = 38,800원(−53.6%) [derived].\n- 교차 점검: OPM 3% → 영업이익 45억으로 이자비용 약 70억을 못 넘어 순손실 — PER 산정 불가. 7/30 종가 44,100원(yfinance)보다 낮지만 연 변동성 116%에서 비현실적인 수준은 아님.",
+      "key_assumptions": [
+        "2027E 매출 1,500억 원 — DC 신규 수주 둔화 + 박장 복구 지연 [assumption]",
+        "보험금 소액·지연, 추가 CB 또는 유상증자로 희석 [assumption]",
+        "Bloom 발주 지연(공매도 논란·AI DC 투자 둔화)과 원화 강세 [assumption]",
+        "목표 PSR 2.0배 — 7/30 저점 배수보다 낮은 디레이팅 [assumption]"
+      ],
+      "price_target_logic": "1,500억 × 2.0 = 3,000억 ÷ 7,737,154주 = 38,774원 ≈ 38,800원"
+    },
+    "expected_value": 81400,
+    "probability_weighted_price": 81400,
+    "expected_value_note": "0.25×135,700 + 0.45×79,600 + 0.30×38,800 = 81,385원 ≈ 81,400원, 현재가 83,700원(9/29 14:58 장중가) 대비 −2.8% [derived]. 기대값이 현재가 근처인 것은 bull 상승폭(+62%)과 bear 하락폭(−54%)이 모두 크기 때문이며, 결과 분산이 매우 넓다는 뜻임. bear에 30%를 둔 근거는 2Q말 현금 53.6억·1H26 FCF −535.9억·최대주주 담보임"
+  },
+  "catalysts": [
+    {
+      "date": "2026-10-29 (예상, 회사 공지 미확인)",
+      "event": "Bloom Energy 3Q26 실적 발표",
+      "type": "earnings",
+      "expected_impact": "+/-",
+      "description": "Nasdaq·MarketBeat 등 데이터 업체 예상일 — 회사 공지는 확인 불가. 제품 매출·FY26 가이던스($3.9~4.2B)·Hunterbrook 논란 대응이 비나텍 Bloom향 물량의 선행지표임"
+    },
+    {
+      "date": "2026-11-16까지 (분기 종료 후 45일)",
+      "event": "비나텍 3Q26 분기보고서 — 화재 영향·보험금·시스템 매출 개시 여부",
+      "type": "earnings",
+      "expected_impact": "+/-",
+      "description": "메리츠는 3Q부터 매출 상승, 4Q부터 시스템 매출 반영을 예상함(2026-07-01). 확인할 것: 박장공장 가동 차질 규모, 보험금 인식 여부, 매출원가율(1H26 77.5%), 분기말 현금(2Q 53.6억)"
+    },
+    {
+      "date": "시점 미정",
+      "event": "박장공장 화재보험금 확정·인식",
+      "type": "earnings",
+      "expected_impact": "+",
+      "description": "재해손실 297.8억 인식, 보험 가입했으나 금액 미확정이라 미반영 [actual, 반기보고서 주석 32]. 보험금 규모·시기는 확인 불가 — 유동성과 bull/bear 분기점"
+    },
+    {
+      "date": "2026-11-16 · 2026-11-23",
+      "event": "최대주주 개인 주식담보대출 만기(신한투자증권 60억·대신증권 40억)",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "성도경 대표 보유 주식 205,855주·142,248주 담보, 담보유지비율 170%·200% [actual, DART 대량보유 20260826000001]. 만기 연장 여부와 주가가 담보 부족 구간(단순 계산 약 49,500원·56,200원 [derived])에 접근하는지 확인"
+    },
+    {
+      "date": "2026-12말",
+      "event": "Bloom Fremont 생산능력 2GW 완료 목표",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "1GW → 2GW, 추가 확장은 '필요 시 최대 약 5GW 수용 가능' 여력일 뿐 확정 계획 아님 [actual, Bloom 10-K FY2025]"
+    },
+    {
+      "date": "2027-01-21",
+      "event": "회사 단기차입 250억 담보(최대주주 1,197,777주) 계약 만기",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "대신증권 근질권, 채무자 비나텍(주), 금리 5.8%, 담보유지비율 200% [actual, DART 20260806000310]. 차환 여부가 유동성 판단 기준 — 담보 부족 단순 계산가 약 41,700원 [derived]"
+    },
+    {
+      "date": "2027-03-15 · 2027-04-10",
+      "event": "AcBel 383.6억·Bloom 412.2억 계약 납기 종료 — 후속 PO 공시 여부",
+      "type": "product",
+      "expected_impact": "+/-",
+      "description": "두 계약은 PO 기준 확정 금액 [actual, DART]. 후속 PO가 이어지면 base 이상, 공백이면 bear 경로의 신호"
+    },
+    {
+      "date": "2027-03-20 ~ 2028-03-20 / 2027-08-24~",
+      "event": "3회 CB 매도청구권(콜 100%) 행사 기간 · 4회 CB 전환청구 개시",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "4회 CB 전환가 78,818원은 현재가(83,700원) 아래라 2027-08-24부터 전환 물량(279,124주, 3.74%)이 나올 수 있음. 4회 CB 콜 60%(132억)는 회사 지정 제3자가 사갈 수 있음 [actual, DART 20260814003891]"
+    },
+    {
+      "date": "2027년 가동(메리츠) ~ 2028년 완공(회사)",
+      "event": "베트남 흥옌 신공장 가동",
+      "type": "product",
+      "expected_impact": "+",
+      "description": "2026-01 착공 [actual, 반기보고서], 17.2만㎡·기존 3개 공장 통합·생산능력 약 5배 목표 [estimated, 회사 보도 2025-12-18]. 메리츠는 2027년 본격 가동으로 물량 확대를 예상함"
+    },
+    {
+      "date": "2028-03-20",
+      "event": "3회 CB 조기상환청구(풋) 개시 — 약 435억 원",
+      "type": "regulatory",
+      "expected_impact": "-",
+      "description": "권면 410억, 만기수익률 3% 기준 2년 경과 시 약 435억 [derived, 연복리 가정]. 주가가 전환가 147,686원 아래면 상환 요구 가능성이 큼 — 재무 부담"
+    }
+  ],
+  "risks": [
+    {
+      "name": "박장공장 화재 — 생산 차질·보험금 불확실",
+      "probability": "high",
+      "impact": "high",
+      "description": "2026년 6월 VINATECH VINA 박장공장 화재로 공장·재고 재해손실 297.8억 인식, 보험금은 미확정이라 미반영 [actual, 반기보고서 주석 32]. 생산 차질 기간·잃은 생산능력 규모는 확인 불가. 1H26 매출원가율 77.5%로 악화 [derived]. 블로그에는 없는 사실임",
+      "mitigation": "3Q26 분기보고서의 보험금 인식·가동률·매출원가율 확인, 흥옌 신공장 일정 점검"
+    },
+    {
+      "name": "유동성 부족·추가 조달·희석",
+      "probability": "high",
+      "impact": "high",
+      "description": "2Q말 현금 53.6억, 차입금 1,248.5억, 1H26 FCF −535.9억 [actual/derived, DART]. 이후 단기차입 250억·4회 CB 220억을 조달했으나 흥옌 투자와 1,000억대 수주의 운전자금 수요가 큼. CB 2회 630억의 잠재 희석 약 7.7%(시가하락 리픽싱 없음), 3회 CB는 2028-03부터 약 435억 풋 부담 [actual/derived]",
+      "mitigation": "분기말 현금·차입 만기, 추가 CB·유상증자 공시, 보험금 입금 여부 추적"
+    },
+    {
+      "name": "최대주주 주식담보 — 반대매매 연쇄 위험",
+      "probability": "med",
+      "impact": "high",
+      "description": "성도경 대표(본인 27.44%)의 1,545,880주(발행주식 대비 21.64%)가 담보로 잡혀 있음. 이 중 1,197,777주는 회사 단기차입 250억의 근질권이고 나머지는 개인 대출 100억 담보 [actual, DART 대량보유 20260728000231·20260806000310·20260826000001]. 7/30 폭락일에 담보 주식을 늘린 추가 담보계약 기록이 있음(보고의무발생일 7/31). 단순 계산 담보 부족 가격은 약 41,700~56,200원 [derived, 대출금 × 담보유지비율 ÷ 담보 주식수 — 실제 평가 방식은 확인 불가]",
+      "mitigation": "대량보유 보고의 담보 주식 수 변동과 만기 연장(11/16·11/23·2027-01-21) 확인"
+    },
+    {
+      "name": "고객 집중 + Bloom 공매도 이슈",
+      "probability": "med",
+      "impact": "high",
+      "description": "1H26 상위 4개 고객이 매출의 56.4%(A사 21.9%) [actual, 반기보고서]. 2026 DC 수주 1,059.9억 중 Bloom 38.9%·AcBel 36.2% [derived]. Bloom은 Hunterbrook 공매도 리포트(7/8, 순환매출·백로그 과장 주장)를 받았고 8-K로 반박함 [actual]. Crusoe 와이오밍 0.9GW 중단 보도도 있었음(삼성증권, 유틸리티는 일정 유지 언급)",
+      "mitigation": "Bloom 분기 제품 매출·백로그, 비나텍 신규 고객 공시(Sanmina 외) 추적"
+    },
+    {
+      "name": "시스템 전환의 마진 희석·경쟁 심화",
+      "probability": "med",
+      "impact": "med",
+      "description": "시스템은 셀보다 마진이 낮음(메리츠 2026-07-01). TTM OPM 2.0% [derived]. Eaton·Skeleton·LS머트리얼즈·Musashi·LITEON 등이 AI DC 전원용 제품을 내놓고 있음 [actual, 각 사 자료]. 점유율 자료는 확인 불가",
+      "mitigation": "분기 매출총이익률(1H26 에너지저장 부문 23.3%)과 시스템 매출 비중 확인"
+    },
+    {
+      "name": "소형주 변동성·시장 유동성 충격",
+      "probability": "high",
+      "impact": "med",
+      "description": "연 변동성 116.46% [actual, yfinance], forward PE·beta 없음 [unavailable]. 7/1 상한가 107,700원 → 7/30 44,100원(−59.1%)으로 7월 코스피 폭락(7/28~29 서킷브레이커) 때 급락함 [actual, yfinance·AGENT_BRIEF]. 1개월 +31.6% 반등도 같은 변동성의 반대편임",
+      "mitigation": "포지션 크기 제한, 시장 유동성 지표(K-Guru 유동성 composite yellow) 병행 확인"
+    },
+    {
+      "name": "원화 강세 — 달러 매출 환산 감소",
+      "probability": "med",
+      "impact": "med",
+      "description": "수출 비중 93.47%, 대부분 달러 판매 [actual, 반기보고서]. 7월 계약 환율 1,507~1,542원 → 9/29 1,357.38원으로 공시 수주 원화 가치가 약 9.7% 줄어듦 [derived]",
+      "mitigation": "분기 평균 환율과 수주 USD 금액 기준으로 매출 추정"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T09",
+      "claim": "전력망 연결이 늦어지면 데이터센터가 전기를 받지 못하므로 SOFC 등 온사이트 발전이 전력 병목을 우회하는 가장 빠른 수단이다.",
+      "type": "predictive",
+      "evidence": "[actual] Bloom 2Q26 매출 $1.065B(+165.5%)·Oracle 1.2GW 확정 · [actual] Bloom: 연료전지+슈퍼캡으로 밀리초 부하 추종(Bloom 블로그) · [derived] 비나텍 2026 DC 수주 중 Bloom 직납 38.9%, EMS(AcBel·Sanmina) 61.1% · [actual] Bloom 확정 CAPA 2GW(2026년 말, 10-K) · [unavailable] SOFC 설치 리드타임과 가스터빈·엔진 비교 자료",
+      "testability": "med",
+      "status": "pending",
+      "current_status": "pending",
+      "current_status_text": "이중 판단 hold 0.61(일치) — 방향은 맞으나 '가장 빠른' 수단은 미검증",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.583,
+        "support_count": 3,
+        "neutral_count": 1,
+        "rebut_count": 0,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.55
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.55
+          }
+        },
+        "key_disagreement": "counter: neutral (- 온사이트 발전이 계통 지연의 우회 수단으로 채택되는 방향 자체는 실제 계약으로 확인되어 전면 반박은 어려움 (AEP-Bloom Energy 최대 1GW 계약 2024년 11월, Brookfield-Bloom 50)"
+      },
+      "note": "- 비나텍에는 Bloom 연료전지 + 슈퍼캡 부하 추종 구조를 통해 연결되는 thesis임. 온사이트 발전이 늘면 Bloom 시스템용 슈퍼캡 수요가 따라 늘어나는 구조임.\n- 다만 2026년 공시 DC 수주의 61.1%(647.7억)는 AcBel·Sanmina 같은 AI 서버 전원 EMS 경로라, 비나텍 실적의 절반 이상은 T09 성립 여부와 무관하게 움직임 [derived, DART].\n- 이중 판단은 hold(0.61, 세션·Fable 일치) — '가장 빠른'은 가스터빈·엔진 대비 입증 안 됨. 비나텍 관점에서는 '가장 빠른지'보다 Bloom 출하량(2GW 증설 속도)이 핵심 변수임.",
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.61,
+        "agreement": "agree",
+        "session_verdict": "hold",
+        "fable_verdict": "hold"
+      }
+    },
+    {
+      "claim_id": "T13",
+      "claim": "비나텍·아모센스·한선엔지니어링·서진시스템은 Bloom Energy/SOFC 공급망 진입이 확인됐지만 주가는 52주 고점 대비 -57~-76% 수준으로 크게 내려와 있다.",
+      "type": "factual",
+      "evidence": "[actual] Bloom 시스템 412.2억(DART 20260630900898) · [actual] 9/23 86,800원, 고점 204,500원(5/6) 대비 −57.6% — 블로그 일치(yfinance) · [actual] 9/29 14:58 장중 83,700원 기준 −59.1% · [actual] 블로그 누락: 박장공장 화재 재해손실 297.8억, 2Q말 현금 53.6억, CB 630억, 최대주주 지분 21.64% 담보(DART)",
+      "testability": "high",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "current_status_text": "이중 판단 pass 0.80(일치) — 사실 확인됨, 단 블로그 누락 리스크 큼",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.362,
+        "support_count": 0,
+        "neutral_count": 4,
+        "rebut_count": 0,
+        "agreement_level": "high (4/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "neutral",
+            "confidence": 0.35
+          },
+          "industry": {
+            "stance": "neutral",
+            "confidence": 0.4
+          },
+          "empirical": {
+            "stance": "neutral",
+            "confidence": 0.3
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.4
+          }
+        },
+        "key_disagreement": ""
+      },
+      "note": "- 비나텍 부분은 사실로 확인됨: Bloom 시스템 412.2억 계약, 9/23 −57.6%, 1개월 +39.8%(8/21 62,100원 → 9/23 86,800원) [actual, DART·yfinance].\n- 블로그가 빠뜨린 사실이 판단을 바꿀 만함: 박장공장 화재(재해손실 297.8억), 2Q말 현금 53.6억, CB 2회 630억(희석 약 7.7%), 최대주주 지분 21.64% 담보(회사 차입 250억 담보 포함) [actual, DART].\n- '공급망 진입 확인 + 고점 대비 급락 = 저평가'로 읽으면 안 됨. 낙폭 일부는 화재·재무 리스크와 7월 시장 폭락을 반영한 것임 [inference].",
+      "dual_judge": {
+        "final_verdict": "pass",
+        "final_confidence": 0.8,
+        "agreement": "agree",
+        "session_verdict": "pass",
+        "fable_verdict": "pass"
+      }
+    },
+    {
+      "claim_id": "T21",
+      "claim": "2027년 전력 섹터의 가장 큰 리스크는 전력 수요 부족이 아니라 주가가 그 수요를 얼마나 먼저 반영했느냐이다.",
+      "type": "predictive",
+      "evidence": "[derived] TTM PSR 5.6배·PBR 6.8배 vs TTM OPM 2.0%·지배순손실 −404.9억 · [derived] base 목표가 내재 PER 약 73배(2027E) · [actual] 1년 수익률 +81.1%(yfinance) · [actual] 기업 고유 리스크: 현금 53.6억·화재·최대주주 담보(DART)",
+      "testability": "low",
+      "status": "pending",
+      "current_status": "pending",
+      "current_status_text": "이중 판단 hold 0.55(불일치 → 보수 채택)",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.587,
+        "support_count": 3,
+        "neutral_count": 1,
+        "rebut_count": 0,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.45
+          }
+        },
+        "key_disagreement": "counter: neutral (- 수요 리스크와 선반영 리스크는 분리되지 않음. 2025년 1월 27일 DeepSeek 쇼크 때 Vistra·Constellation이 하루에 20%대 급락했는데, 방아쇠는 밸류에이션이 아니라 AI 전력 수요 기대)"
+      },
+      "note": "- 비나텍은 TTM OPM 2.0%·지배순손실 −404.9억인데 PSR 5.6배·PBR 6.8배라, 가격이 2027년 이후 성장을 이미 반영하고 있음 [derived].\n- base 목표가 79,600원의 내재 PER이 약 73배(2027E)라 선반영 리스크는 이 종목에도 그대로 해당됨 [derived].\n- 다만 이 종목의 가장 큰 리스크는 선반영보다 유동성(현금 53.6억)·화재 복구·고객 집중·최대주주 담보 같은 기업 고유 리스크임. 섹터 수준의 T21을 비나텍에 그대로 적용하기 어렵고, 이중 판단도 hold(0.55)임.",
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.55,
+        "agreement": "disagree",
+        "session_verdict": "hold",
+        "fable_verdict": "pass"
+      }
+    },
+    {
+      "claim_id": "T23",
+      "claim": "2027년 전력주를 찾을 때 변압기 4사만 보는 것보다 SOFC 밸류체인을 함께 봐야 한다.",
+      "type": "normative",
+      "evidence": "[actual] 코세스 2,371억·서진 785.5억·비나텍 412.2억 Bloom 공급 계약(DART) · [derived] 비나텍 DC 수주 중 Bloom 직납 38.9%·EMS 61.1% · [actual] 비나텍 TTM 지배순손실 −404.9억, 화재·CB · [actual] 두산퓨얼셀 8,236억은 PAFC·계열사 거래(AGENT_BRIEF)",
+      "testability": "med",
+      "status": "pending",
+      "current_status": "pending",
+      "current_status_text": "이중 판단 hold 0.64(일치) — 관찰 대상으로는 타당, 이익 가시성은 변압기보다 낮음",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.575,
+        "support_count": 2,
+        "neutral_count": 2,
+        "rebut_count": 0,
+        "agreement_level": "split (2/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.55
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "neutral",
+            "confidence": 0.5
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.5
+          }
+        },
+        "key_disagreement": "empirical: neutral (- Bloom Energy가 2024년 11월 AEP와 최대 1GW SOFC 공급 계약, 2025년 Oracle 공급 계약 및 Brookfield와 약 50억달러 규모 파트너십을 발표해 데이터센터 온사이트 발전 수요) | counter: neutral (- '함께 보자'는 약한 형태의 규범적 주장이라 전면 반박은 어렵지만, 'SOFC가 더 중요해진 시점'이라는 판단은 근거가 제시되지 않았음\n- SOFC 수요는 사실상 Bloom Energy 1개사의 수주(AEP 최대)"
+      },
+      "note": "- 비나텍은 SOFC 밸류체인으로 분류되지만 실제로는 'AI 데이터센터 전원 안정화' 부품사에 가까움 — DC 수주 중 Bloom 직납 38.9%, AI 서버 전원 EMS 61.1% [derived].\n- SOFC 밸류체인 안에서도 비나텍은 적자·화재·CB·고객 집중으로 이익 가시성이 변압기 4사보다 낮음. '함께 보되 비중은 다르게'라는 이중 판단 hold(0.64)와 맞음.\n- 변압기 4사와 같은 기준(PER)으로 비교할 수 없어, 이 보고서는 PSR 산식으로 평가함.",
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.64,
+        "agreement": "agree",
+        "session_verdict": "hold",
+        "fable_verdict": "hold"
+      }
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-09-07",
+      "type": "공급계약",
+      "title": "단일판매ㆍ공급계약체결 — Sanmina 데이터센터용 슈퍼커패시터 133.0억 원(인도, ~2027-01-28)",
+      "impact": "+",
+      "rcept_no": "20260907900269"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "대량보유",
+      "title": "주식등의대량보유상황보고서 — 최대주주 주식담보대출 만기연장·담보 주식 수 변경(담보 21.64%)",
+      "impact": "-",
+      "rcept_no": "20260826000001"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "IR",
+      "title": "기업설명회(IR) 개최 — 2Q 실적·사업계획 NDR(8/26~27, 메리츠증권 후원)",
+      "impact": "○",
+      "rcept_no": "20260825900561"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "자금조달",
+      "title": "증권발행결과(자율공시) — 제4회 CB 220억 원 납입",
+      "impact": "-",
+      "rcept_no": "20260824900414"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "정기보고서",
+      "title": "반기보고서(2026.06) — 박장공장 화재 재해손실 297.8억, 2Q 지배순손실 380.8억",
+      "impact": "-",
+      "rcept_no": "20260814004230"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "자금조달",
+      "title": "주요사항보고서(전환사채권발행결정) — 제4회 CB 220억, 전환가 78,818원",
+      "impact": "-",
+      "rcept_no": "20260814003891"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "투자",
+      "title": "타법인주식및출자증권취득결정 — 베트남 법인 USD 14M 출자(설비·운영자금)",
+      "impact": "+",
+      "rcept_no": "20260811900406"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "대량보유",
+      "title": "주식등의대량보유상황보고서 — 최대주주 주식 1,120,072주 근질권(회사 단기차입 250억 담보) 신규 체결",
+      "impact": "-",
+      "rcept_no": "20260728000231"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "차입",
+      "title": "단기차입금증가결정 — 250억 원(443.5억 → 693.5억)",
+      "impact": "-",
+      "rcept_no": "20260722900844"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "공급계약",
+      "title": "단일판매ㆍ공급계약체결 — AcBel Polytech 데이터센터용 슈퍼커패시터 383.6억 원(대만, ~2027-03-15)",
+      "impact": "+",
+      "rcept_no": "20260713900228"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "공급계약",
+      "title": "단일판매ㆍ공급계약체결 — Sanmina 데이터센터용 슈퍼커패시터 131.1억 원(인도, ~2026-11-27)",
+      "impact": "+",
+      "rcept_no": "20260706900477"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "공급계약",
+      "title": "단일판매ㆍ공급계약체결 — Bloom Energy 데이터센터용 슈퍼커패시터 시스템 412.2억 원(미국, ~2027-04-10)",
+      "impact": "+",
+      "rcept_no": "20260630900898"
+    }
+  ],
+  "sources_extra": [
+    "DART 반기보고서 원문(document.xml) 직접 조회 — 제품별·지역별 매출, 주요 거래처, CB 주석, 재해손실 주석: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814004230",
+    "DART 대량보유상황보고서 3건(성도경, 2026-07-28·08-06·08-26) — 담보계약 세부",
+    "DART CB 발행결정 원문 20260312001260·20260814003891 — 리픽싱 없음, 풋·콜 조건",
+    "NVIDIA 기술 블로그 2025-07-28: https://developer.nvidia.com/blog/how-new-gb300-nvl72-features-provide-steady-power-for-ai/",
+    "Bloom Energy 블로그: https://www.bloomenergy.com/blog/the-ai-revolution-how-fuel-cells-are-solving-the-data-center-power-challenge/",
+    "메리츠(이데일리 2026-07-01): https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02679766645510256",
+    "회사 보도(2025-12-18, 흥옌 17.2만㎡·2028 완공·5배): https://www.vinatech.com/kr/sub/pr/news.php?bid=16&idx=3367&mode=view"
+  ]
+}

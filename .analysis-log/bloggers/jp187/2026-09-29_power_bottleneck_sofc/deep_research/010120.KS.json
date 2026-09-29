@@ -1,0 +1,1003 @@
+{
+  "industry": {
+    "name": "전력기기 — 송배전(배전반·저압/고압기기·배전변압기)·초고압 변압기·HVDC + 산업자동화·동관(LS메탈)",
+    "overview": "- LS ELECTRIC은 전력망 가치사슬에서 '전기를 연결하는' 쪽(송전·변전·배전·수용가 보호기기)에 있는 회사임. 발전원은 만들지 않음 (DART 반기보고서 2026-08-14, rcept 20260814003088) [actual]\n- 1H26 연결조정 전 부문 매출 4조13.4억 중 전력 3조2,739.6억(81.8%)·금속(LS메탈 동관·STS관) 3,628.8억(9.1%)·자동화 2,831.8억(7.1%)·IT 813.2억(2.0%) [actual, DART 주석 4 영업부문 · 비중 derived]. 연결조정 −1조477.9억 반영 후 연결 매출 2조9,535.5억임 [actual]\n- 블로거 표현대로 노출 경로가 가장 다양함: ① 북미 하이퍼스케일 DC 배전반(2Q에만 북미 빅테크 DC향 배전반 수주 1조 원 돌파, 이투데이 2026-07-24) ② Bloom Energy 연료전지 발전소용 수배전반·배전변압기(3,189.6억 PO 2026-04-28, DART 20260429800110) ③ 북미 유틸리티 초고압 변압기(부산) ④ 국내 HVDC 변환설비(동해안–동서울 5,610억, 2024-12) ⑤ 국내 배터리·반도체 공장 전력설비 [actual]\n- 이 구조 때문에 블로그의 병목 순위 ① 변압기·송배전과 ② 온사이트 발전(SOFC)을 한 종목 안에서 함께 가짐. 반대로 이익률은 배전·저압·동관 비중 때문에 초고압 전업사보다 낮음(TTM OPM 9.4% vs HD현대일렉트릭 25.7%·산일전기 36.0%, derived_metrics.json) [derived]",
+    "market_position": "- 2Q26 연결 매출 1조5,770억(+32.2% YoY)·영업이익 1,785억(+64.4%, OPM 11.3%)으로 분기 사상 최대 [actual, DART 잠정실적 20260723800150]\n- 2Q26 신규수주 2조835억(+243% YoY, 분기 최대), 연간 수주 목표 4조 → 6조~6.5조 상향 [actual, 이투데이 2026-07-24]\n- 2026-06-30 수주잔고 6조9,998억(이월 5조154억 + 1H 수주 3조4,677억 − 납품 1조4,833억), 이 중 T&D 6조8,896억 [actual, DART 반기보고서 '수주상황']. 잔고의 48%가 초고압변압기이고 절반 이상이 2027년 이후 인식 [actual 보도, 리드경제 2026-07-24]. 잔고/TTM 매출 1.23배 [derived]\n- 1H26 북미 매출(연결조정 전) 1조4,344.2억, YoY +56.4%, 부문 합계의 35.8% [actual·derived, DART 주석 지역별 매출]\n- 국내·글로벌 점유율은 회사가 공정거래법상 정보 공유 제한을 이유로 기재를 생략함 → 확인 불가 [unavailable]",
+    "demand_drivers": [
+      "북미 하이퍼스케일 DC 배전 — 2Q에만 북미 빅테크 DC향 배전반 수주 1조 원 돌파 [actual 보도, 이투데이 2026-07-24]. 8/21 Big Tech DC 전력설비 계약 2,308.5억(최근 매출 대비 4.65%, 계약기간 2026-06-08~2027-01-30) [actual, DART 20260824800095]",
+      "온사이트 연료전지 발전소의 전력설비 — Bloom Energy 발주 북미 DC 연료전지 전력설비(수배전반·배전변압기) 3,189.6억(USD 2.17억, 2026-04-28 PO) [actual, DART 20260429800110] + 486억 추가(2026-08-18) [actual 보도, 아시아경제]. 합계 3,675.6억 = 2025 매출의 7.4% [derived]",
+      "북미 유틸리티 초고압 변압기 — 2025-11 북미 IOU 신재생 초고압변압기 4,598억 계약 [actual, DART 반기보고서 '경영상의 주요 계약']. 부산 제2생산동(1,008억 투자, 2025-10 준공) 1H26 생산능력 4,840.5억으로 2025년 연간 5,320.4억의 91% [actual, DART]",
+      "미국 변압기 가격 — PPI 전력·특수변압기 2026-08 YoY +7.8%, 2019-12 대비 +85.5% [actual, FRED PCU335311335311]. WoodMac 평균 리드타임 전력변압기 128주·GSU 144주 [actual, facts_transformer.md]",
+      "국내 HVDC·계통 — 동해안–동서울 HVDC 변환설비 5,610억(2024-12), GE Vernova와 HVDC 변환 밸브 국산화 MOU(2025-07) [actual, DART 반기보고서]",
+      "국내 배터리·반도체 설비투자 — 전력-인프라 매출처 중 LG에너지솔루션 8.5%·삼성SDI 7.6% [actual, DART 반기보고서 주요 매출처]. EV 캐즘이 길어지면 둔화 요인이 됨 [inference]"
+    ],
+    "competitive_moat": "- 초고압~저압, AC·DC(MV/LVDC)까지 제품군을 한 회사가 공급함. 대신증권은 이를 근거로 '초고압 전업사 대비 30% 이상 프리미엄은 정당'하다고 봄 (뉴스퀘스트 2026-04-22) [estimated]\n- 북미 현지 공급 기반: Utah 배전반 공장(구 MCM Engineering II, 2022년 인수) 2단계 증설 250억(2026-06 착공, 2027년 초 가동, 배전반 CAPA 연 5,000억 원 수준 목표) [actual 보도, 아시아경제 2026-06-28 · EBN 2026-09-22], Utah 시설자금 761.1억 증자(DART 20260922800127) [actual]\n- 국내 유일 STL KERI 멤버 시험소(PT&T) 기반 품질 검증 체계 [actual, 회사 기재 — DART 반기보고서]\n- 한계: ① 초고압 변압기 CAPA는 부산(1H26 생산능력 4,840.5억)으로 HD현대일렉트릭·효성중공업보다 작고 미국 내 초고압 공장이 없음 [actual·inference] ② 미국 반덤핑 재심 4.32%(HD현대일렉트릭 0%) [actual, 아주경제 2026-09-15] ③ 배전반 시장은 '완전 경쟁체제'라고 회사 스스로 기재함 [actual, DART]",
+    "competitors": [
+      {
+        "name": "HD현대일렉트릭",
+        "ticker": "267260.KS",
+        "share_pct": null,
+        "moat": "초고압 변압기 중심, TTM OPM 25.7% [derived], 반덤핑 재심 0%, 앨라배마 2공장 2027-04 준공 예정(미국 CAPA +50%) [actual 보도] — 점유율 확인 불가"
+      },
+      {
+        "name": "효성중공업",
+        "ticker": "298040.KS",
+        "share_pct": null,
+        "moat": "765kV·HVDC·GIS, 멤피스 공장, 2Q26 잔고 17.5조(+63%) [actual 보도, 블로터] — 반덤핑 4.32%로 LS와 동일 조건. 점유율 확인 불가"
+      },
+      {
+        "name": "산일전기",
+        "ticker": "062040.KS",
+        "share_pct": null,
+        "moat": "특수·배전 변압기 전업, Bloom향 수주 공통(누적 약 750억, 유안타) — TTM OPM 36.0% [derived]. 점유율 확인 불가"
+      },
+      {
+        "name": "Schneider Electric · Eaton · Siemens · ABB",
+        "ticker": "SU.PA · ETN · SIE.DE · ABBN.SW",
+        "share_pct": null,
+        "moat": "북미 DC 배전반·저압기기 시장의 기존 강자 [inference — 회사별 점유율 자료 미수집, 확인 불가]"
+      },
+      {
+        "name": "Hitachi Energy · Siemens Energy",
+        "ticker": "6501.T · ENR.DE",
+        "share_pct": null,
+        "moat": "미국 내 대형 변압기 증설: Hitachi 미시시피 5.28억 달러(2029 가동)·Siemens Energy 샬럿 [actual, Hitachi Energy 보도자료 2026-09 · pv magazine] — 2028년 이후 공급 증가 요인"
+      },
+      {
+        "name": "중국 변압기 수출업체",
+        "ticker": "-",
+        "share_pct": null,
+        "moat": "중국 변압기 수출 1H26 397.9억 위안(+26.8%) [actual 보도, Yahoo Japan]. 8/26 행정명령(69kV 이상 외국산 규제)의 주된 대상으로 해석됨 [inference]"
+      }
+    ],
+    "news": [
+      {
+        "date": "2026-09-22",
+        "title": "종속회사 LS ELECTRIC Utah Inc. 유상증자 결정 — 시설자금 761.1억",
+        "source": "DART(종속회사 주요경영사항)",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922800127",
+        "summary": "미국 Utah 배전반 법인에 시설자금 761.1억(USD 5,500만) 출자, 납입 2026-12-31. 북미 DC 배전반 현지 CAPA 확충용 [actual]"
+      },
+      {
+        "date": "2026-09-15",
+        "title": "미 대형변압기 반덤핑 재심 LS·효성 4.32% — CIT 소송",
+        "source": "아주경제",
+        "url": "https://www.ajunews.com/view/20260915150757029",
+        "summary": "HD현대일렉트릭·일진 0% 대비 불리. 조사기간(2023.8~2024.7) 선적분에만 적용되고 LS는 CIT에 제소함 [actual]"
+      },
+      {
+        "date": "2026-08-24",
+        "title": "북미 빅테크 38kV 배전 계약 1,064억 → 2,309억 증액",
+        "source": "머니투데이",
+        "url": "https://www.mt.co.kr/industry/2026/08/24/2026082410314312256",
+        "summary": "계약상대 LS ELECTRIC AMERICA, 기간 2026-06-08~2027-01-30. DART 공시 금액 2,308.5억(매출 대비 4.65%) [actual]"
+      },
+      {
+        "date": "2026-08-18",
+        "title": "Bloom Energy향 486억 배전 솔루션 추가 공급",
+        "source": "아시아경제",
+        "url": "https://view.asiae.co.kr/article/2026081808320501102",
+        "summary": "4월 3,190억에 이은 Bloom 연료전지 발전소용 배전 설비 추가 수주 [actual]"
+      },
+      {
+        "date": "2026-08-14",
+        "title": "파생상품거래 손실발생 699.0억(자기자본 대비 3.26%)",
+        "source": "DART",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814802657",
+        "summary": "통화선도·원자재 선물. 1H 거래손실 891.7억·평가손실 199.6억, 거래이익 245.8억·평가이익 146.5억 [actual]"
+      },
+      {
+        "date": "2026-08-14",
+        "title": "반기보고서(2026.06) — 1H 영업CF −819.9억",
+        "source": "DART",
+        "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003088",
+        "summary": "1H 영업이익 3,050.9억에도 운전자본 변동 −4,217.8억(매출채권·계약자산·재고 증가)으로 영업CF 적자. 차입금 1조4,779.6억 [actual]"
+      },
+      {
+        "date": "2026-07-30",
+        "title": "고점 대비 −49%에도 목표가 상향 잇따라…밸류 부담은 여전",
+        "source": "한국경제",
+        "url": "https://www.hankyung.com/article/202607292384i",
+        "summary": "7/29 종가 163,800원, 12개월 선행 PER 38.7배 [actual]. 7월 코스피 급락 구간"
+      },
+      {
+        "date": "2026-07-24",
+        "title": "수주잔고 48%가 초고압변압기, 절반 이상 2027년 이후 인식",
+        "source": "리드경제",
+        "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=8799",
+        "summary": "전력사업 수출 비중 53%. 잔고 소화 속도와 북미 DC 의존도가 관건 [actual]"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "2Q26 매출 1조5,770억·영업이익 1,785억 사상 최대, 분기 최대 수주",
+        "source": "디지털데일리",
+        "url": "https://www.ddaily.co.kr/page/view/2026072311203733172",
+        "summary": "신규수주 약 2.1조, 잔고 6조9,998억(+24% QoQ), 북미 매출 약 4,000억, 초고압변압기 매출 +91% [actual]"
+      },
+      {
+        "date": "2026-06-16",
+        "title": "LS증권 섹터리포트 — LS ELECTRIC 2027E EPS 4,363원·TP 35만 원",
+        "source": "LS증권(성종화)",
+        "url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-06-eebd15cdc72fd2fc109baf3acfdb5868",
+        "summary": "2026E/2027E/2028E 영업이익 6,820/8,831/11,001억, 2027E EPS 4,363원(분할 후 기준)에 PER 80.2배 적용. LS증권은 LS ELECTRIC의 계열회사임(리포트 고지) [estimated]"
+      },
+      {
+        "date": "2026-06-11",
+        "title": "유안타증권 섹터리포트 — 2027E 신규수주 5.8~6.8조",
+        "source": "유안타증권",
+        "url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-06-4026dc61cee1d9d1f3bb8e0bda972a12",
+        "summary": "블로그의 2027 수주 전망 원출처. 2026E 5.0~5.6조·2028E 6.3~7.5조, TP 30만 원 [estimated]"
+      },
+      {
+        "date": "2026-04-29",
+        "title": "Bloom Energy와 미국 빅테크 DC 배전 시스템 3,190억 공급계약",
+        "source": "머니투데이",
+        "url": "https://www.mt.co.kr/industry/2026/04/29/2026042909120649491",
+        "summary": "뉴멕시코 DC, 4월 북미 DC 대형수주 합계 4,890억 [actual]"
+      }
+    ]
+  },
+  "financials": {
+    "basis": "연결(CFS) — DART fnlttSinglAcntAll 직접 조회 2021~2025 사업보고서 + 2025 2Q·2026 1Q·2026 2Q (`_logs/fin_010120.KS.json`) [actual]. net_income = 지배기업 소유주 귀속 당기순이익",
+    "unit": "억 원 (연결)",
+    "financial_unit": {
+      "currency": "KRW",
+      "scale": "억",
+      "label": "억 원 (연결)"
+    },
+    "pl_5y": [
+      {
+        "year": 2021,
+        "revenue": 26682.6,
+        "op_income": 1551.3,
+        "op_margin": 5.8,
+        "net_income": 847.4,
+        "net_margin": 3.2
+      },
+      {
+        "year": 2022,
+        "revenue": 33770.7,
+        "op_income": 1875.2,
+        "op_margin": 5.6,
+        "net_income": 903.0,
+        "net_margin": 2.7
+      },
+      {
+        "year": 2023,
+        "revenue": 42304.8,
+        "op_income": 3248.8,
+        "op_margin": 7.7,
+        "net_income": 2059.6,
+        "net_margin": 4.9
+      },
+      {
+        "year": 2024,
+        "revenue": 45518.4,
+        "op_income": 3897.2,
+        "op_margin": 8.6,
+        "net_income": 2387.2,
+        "net_margin": 5.2
+      },
+      {
+        "year": 2025,
+        "revenue": 49658.0,
+        "op_income": 4264.1,
+        "op_margin": 8.6,
+        "net_income": 2866.2,
+        "net_margin": 5.8
+      }
+    ],
+    "interim_2026": [
+      {
+        "period": "1H26",
+        "revenue": 29535.5,
+        "op_income": 3050.9,
+        "op_margin": 10.3,
+        "net_income": 2390.6,
+        "net_margin": 8.1,
+        "yoy": "매출 +32.7% · 영업이익 +55.7% (1H25 매출 22,251.3억 · OP 1,959.1억) [derived]",
+        "tag": "[actual]",
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003088"
+      },
+      {
+        "period": "2Q26",
+        "revenue": 15770.0,
+        "op_income": 1785.2,
+        "op_margin": 11.3,
+        "net_income": 1185.6,
+        "net_margin": 7.5,
+        "yoy": "매출 +32.2% · 영업이익 +64.4% (2Q25 11,930.4억 · 1,086.0억)",
+        "tag": "[actual]",
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800150"
+      },
+      {
+        "period": "1Q26",
+        "revenue": 13765.5,
+        "op_income": 1265.7,
+        "op_margin": 9.2,
+        "net_income": 1205.1,
+        "net_margin": 8.8,
+        "tag": "[actual]",
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000847"
+      }
+    ],
+    "segments_1h26": {
+      "basis": "DART 반기보고서 연결 주석 4 '영업부문' — 연결조정(내부거래 제거) 전 금액, 억 원 [actual]. OPM은 조정 전 매출 기준이라 연결 OPM과 직접 비교 불가 [derived]",
+      "rows": [
+        {
+          "segment": "전력",
+          "revenue": 32739.6,
+          "op_income": 2832.9,
+          "opm_pct": 8.7,
+          "revenue_yoy_pct": 41.3,
+          "op_yoy_pct": 47.7
+        },
+        {
+          "segment": "자동화",
+          "revenue": 2831.8,
+          "op_income": 81.6,
+          "opm_pct": 2.9,
+          "revenue_yoy_pct": -2.2,
+          "op_yoy_pct": 2.5
+        },
+        {
+          "segment": "금속(LS메탈)",
+          "revenue": 3628.8,
+          "op_income": 115.3,
+          "opm_pct": 3.2,
+          "revenue_yoy_pct": 12.8,
+          "op_yoy_pct": 187.2
+        },
+        {
+          "segment": "IT(LS ITC)",
+          "revenue": 813.2,
+          "op_income": 38.9,
+          "opm_pct": 4.8,
+          "revenue_yoy_pct": 31.9,
+          "op_yoy_pct": 45.2
+        },
+        {
+          "segment": "연결조정",
+          "revenue": -10477.9,
+          "op_income": -17.9
+        }
+      ],
+      "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003088"
+    },
+    "bs_snapshot": {
+      "total_assets": 59854.7,
+      "total_liab": 37859.1,
+      "equity": 21995.7,
+      "cash": 6724.3,
+      "debt": 14779.6,
+      "as_of": "2026-06-30 (연결)",
+      "_note": "2026-06-30 연결, 억 원 [actual, DART 반기보고서 20260814003088]. debt = 단기차입금+유동성장기차입금+장기차입금(리스부채 제외). 순차입금 8,055.3억·부채비율 172.1%(2025말 131.5%) [derived]. 6개월 새 총자산 +1조287.9억(+20.8%)·총부채 +9,705.3억으로 운전자본(매출채권·계약자산·재고)이 부채로 조달됨. 5/14 단기차입 한도 5,000억(CP 3,000억 포함) 설정 [actual, DART 20260514801525]. 자본총계는 비지배지분 포함"
+    },
+    "cf_summary": {
+      "basis": "연결 2021~2025, 억 원 — DART 직접 조회 [actual]. capex = 유형자산의 취득. FCF·평균·강도 [derived]",
+      "ocf_5y_avg": 1401.7,
+      "fcf_5y_avg": 142.3,
+      "capex_intensity": 0.032,
+      "yearly": [
+        {
+          "year": 2021,
+          "ocf": 1015.4,
+          "capex": 558.4,
+          "fcf": 457.0
+        },
+        {
+          "year": 2022,
+          "ocf": -1454.5,
+          "capex": 1148.8,
+          "fcf": -2603.3
+        },
+        {
+          "year": 2023,
+          "ocf": 2146.5,
+          "capex": 1128.9,
+          "fcf": 1017.6
+        },
+        {
+          "year": 2024,
+          "ocf": 2301.5,
+          "capex": 1452.4,
+          "fcf": 849.1
+        },
+        {
+          "year": 2025,
+          "ocf": 2999.5,
+          "capex": 2008.5,
+          "fcf": 991.0
+        }
+      ],
+      "interim_1h26": {
+        "ocf": -819.9,
+        "capex": 864.4,
+        "fcf": -1684.3,
+        "ocf_1h25": 2208.9,
+        "capex_1h25": 1034.7,
+        "working_capital_change": -4217.8,
+        "wc_breakdown": "매출채권 −3,818.1억 · 계약자산 −4,493.3억 · 재고자산 −1,748.7억 ↔ 계약부채 +4,369.9억 · 매입채무 +1,334.6억 [actual, DART 연결 현금흐름표]",
+        "note": "1H26 연결 영업CF −819.9억(1H 영업이익 3,050.9억·순이익 2,337.4억 대비)은 5년 평균과 별도로 봐야 함 [actual]. 1Q −269.6억 → 1H −819.9억으로 2Q에도 적자 확대. FCF −1,684.3억 [derived]. 2022년(영업CF −1,454.5억)에도 수주 급증기 운전자본 부담이 있었음",
+        "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003088"
+      }
+    },
+    "trend_narrative": "- 매출 2조6,683억(2021) → 4조9,658억(2025), 4년 CAGR +16.8%. 영업이익 1,551억 → 4,264억, CAGR +28.8% [derived, DART]\n- OPM 5.8%(2021) → 8.6%(2025) → 1H26 10.3% → 2Q26 11.3%로 계단식 확장됨. 전력부문 1H 조정 전 매출 +41.3%·부문이익 +47.7%가 견인하고 자동화는 −2.2%로 정체임 [actual·derived]\n- 순이익률은 5.8%(2025) → 1H26 8.1%로 올라감. 1Q 지배순이익 1,205억이 영업이익 1,266억에 근접했는데 외화환산이익 등 영업외 요인이 섞임 → 이익의 질은 OP 기준으로 볼 것 [inference]\n- 현금흐름은 이익을 따라가지 못함: 5년 누적 영업CF 7,008억 vs 누적 지배순이익 9,063억(전환율 77%), 5년 평균 FCF 142억 [derived]. 1H26엔 영업CF −819.9억·FCF −1,684억으로 역전됨 [actual·derived]\n- 차입금 6,878억(2021) → 1조4,780억(2Q26)으로 2.1배, 같은 기간 자본 1조4,734억 → 2조1,996억(1.5배) — 성장이 부채로 조달되는 구조임 [derived]\n- 2027E는 LS증권 매출 7조5,061억·OP 8,831억(OPM 11.8%)·지배순이익 6,545억 [estimated, LS증권 2026-06-16] — 2Q26 OPM 11.3%가 이미 그 경로 위에 있음 [derived]",
+    "key_ratios": {
+      "current_price_krw": 203000.0,
+      "price_note": "2026-09-29 14:58 KST 장중 스냅샷(yfinance 1.7.0 live) — 모든 파생 배수의 분자. 9/29 공식 종가 204,500원 [actual, yfinance 15:48 KST 조회]",
+      "close_official_0929_krw": 204500.0,
+      "market_cap_krw_bn": 30203.42,
+      "shares_outstanding_mn": 148.79,
+      "shares_note": "[derived] 시총 30,203.42십억 ÷ 203,000원 = 1억4,879만 주 = DART 유통주식 148,785,350주(발행 1.5억 − 자사주 1,214,650, 2026-06-30)와 일치. 5:1 액면분할(액면 5,000→1,000원, 2026-04-13 거래 재개) 이후 기준 [actual, 아시아경제·DART]",
+      "split_note": "주당 지표는 모두 분할 후(액면 1,000원) 기준. LS증권 EPS 표는 2025년 이전도 액면 1,000원으로 소급 환산돼 있음(2025 EPS 1,911원). 분할 전 기준 과거 EPS·목표가는 ×1/5로 환산해 비교",
+      "ttm_per": 77.7,
+      "ttm_per_note": "[derived] 시총 302,034억 ÷ TTM 지배순이익 3,887.6억 (TTM EPS 2,613원). yfinance trailing_pe는 null",
+      "pbr": 13.7,
+      "pbr_note": "[derived] 시총 ÷ 2Q26 자본총계 21,995.7억(비지배 포함). yfinance pb는 null",
+      "psr": 5.3,
+      "ttm_opm_pct": 9.4,
+      "opm_1h26_pct": 10.3,
+      "opm_2q26_pct": 11.3,
+      "roe_ttm_pct": 17.7,
+      "roe_note": "[derived] TTM 지배순이익 ÷ 2Q26 자본총계(기말 단순)",
+      "per_2027e": 46.5,
+      "per_2027e_note": "[derived] 203,000원 ÷ LS증권 2027E 지배 EPS 4,363원(2026-06-16 원문) = 46.5배(9/29 종가 204,500원 기준 46.9배). 블로그 표의 4,717원·43.6배는 원문과 다름(출처 확인 불가) — 블로그 값 사용 안 함",
+      "per_2027e_peers": "HD현대일렉트릭 19.8배 · 효성중공업 24.7배 · 산일전기 23.7배 (같은 LS증권 원문 EPS, 9/29 가격) [derived, AGENT_BRIEF 3-1]",
+      "eps_cagr_2025_28e_pct": 42.3,
+      "peg_2027e": 1.1,
+      "peg_note": "[derived] 2027E PER ÷ LS증권 2025→28E EPS CAGR. HD 0.77 · 효성 0.71 · 산일 0.83 — 성장률을 반영해도 4사 중 가장 비쌈",
+      "forward_pe": 39.98,
+      "forward_pe_note": "[actual, yfinance] 기준 연도·EPS 출처 확인 불가 — 암시 EPS 5,078원 [derived]은 LS증권 2027E 4,363원보다 높아 혼합 컨센서스일 가능성. 판단 근거로는 LS증권 원문 기준 46.5배를 우선함",
+      "per_12m_fwd_0730": 38.7,
+      "per_12m_fwd_note": "한국경제 2026-07-30 (7/29 종가 163,800원 기준) [actual 보도] — 암시 12M fwd EPS 약 4,233원 [derived]",
+      "ev_ebitda": 46.41,
+      "beta": 1.83,
+      "volatility_annualized_pct": 84.65,
+      "div_yield_pct": 0.29,
+      "return_1m_pct": -5.36,
+      "return_3m_pct": -14.71,
+      "return_6m_pct": 41.36,
+      "return_1y_pct": 271.24,
+      "high_52w_krw": 335000.0,
+      "high_52w_date": "2026-05-07",
+      "low_0730_krw": 150300.0,
+      "drawdown_from_high_pct": -39.4,
+      "drawdown_note": "[actual, yfinance] 5/7 고점 335,000 → 7/30 저점 150,300(−55.1%) → 9/29 203,000(저점 대비 +35.1%) [derived]. 한국경제는 5월 고점을 종가 기준 318,500원으로 표기",
+      "net_debt_eok": 8055.3,
+      "debt_to_equity_pct": 172.1,
+      "backlog_to_ttm_revenue_x": 1.23,
+      "source": "yfinance 1.7.0 (live, 2026-09-29) + DART(반기보고서 20260814003088) + LS증권 2026-06-16 + derived_metrics.json"
+    },
+    "peer_compare": [
+      {
+        "ticker": "010120.KS",
+        "name": "LS ELECTRIC (TTM PER)",
+        "pe": 77.7,
+        "pb": 13.7,
+        "roe": 17.7,
+        "div_yield": 0.29
+      },
+      {
+        "ticker": "062040.KS",
+        "name": "산일전기 (TTM PER)",
+        "pe": 34.6,
+        "pb": 9.4,
+        "roe": 27.2,
+        "div_yield": 0.62
+      },
+      {
+        "ticker": "267260.KS",
+        "name": "HD현대일렉트릭 (TTM PER)",
+        "pe": 28.3,
+        "pb": 10.7,
+        "roe": 37.7,
+        "div_yield": 1.13
+      }
+    ],
+    "peer_note": "TTM PER·PBR·ROE는 DART TTM ÷ yfinance 9/29 시총 [derived, derived_metrics.json], 배당수익률은 yfinance [actual]. 2027E PER(LS증권 원문 EPS): LS 46.5 · 효성 24.7 · 산일 23.7 · HD 19.8배 [derived]. 효성중공업 TTM은 미수집",
+    "consensus": {
+      "brokers": [
+        {
+          "broker": "LS증권(성종화)",
+          "date": "2026-06-16",
+          "target_price": 350000,
+          "basis": "2027E EPS 4,363원 × PER 80.2배 (분할 후)",
+          "note": "LS증권은 LS ELECTRIC의 계열회사(리포트 고지) — 이해상충 가능성",
+          "url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-06-eebd15cdc72fd2fc109baf3acfdb5868"
+        },
+        {
+          "broker": "유안타증권",
+          "date": "2026-06-11",
+          "target_price": 300000,
+          "basis": "확인 불가",
+          "url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-06-4026dc61cee1d9d1f3bb8e0bda972a12"
+        },
+        {
+          "broker": "KB증권",
+          "date": "2026-07-20",
+          "target_price": 280000,
+          "basis": "24만 → 28만(+16.7%)",
+          "url": "https://www.mt.co.kr/stock/2026/07/20/2026072008095188173"
+        },
+        {
+          "broker": "교보증권",
+          "date": "2026-07-24",
+          "target_price": 320000,
+          "basis": "24만 → 32만",
+          "url": "https://www.etoday.co.kr/news/view/2607230"
+        },
+        {
+          "broker": "SK증권",
+          "date": "2026-07-24",
+          "target_price": 310000,
+          "basis": "이전 값 기사 미기재",
+          "url": "https://www.etoday.co.kr/news/view/2607230"
+        },
+        {
+          "broker": "IBK투자증권",
+          "date": "2026-07-24",
+          "target_price": 280000,
+          "basis": "12.8만 → 28만(이전 값 시점 확인 불가)",
+          "url": "https://www.etoday.co.kr/news/view/2607230"
+        },
+        {
+          "broker": "삼성증권",
+          "date": "2026-07-24",
+          "target_price": 260000,
+          "basis": "22만 → 26만",
+          "url": "https://www.etoday.co.kr/news/view/2607230"
+        },
+        {
+          "broker": "신한투자증권",
+          "date": "2026-07-24",
+          "target_price": 250000,
+          "basis": "21만 → 25만",
+          "url": "https://www.etoday.co.kr/news/view/2607230"
+        }
+      ],
+      "post_2q_avg_tp": 283333,
+      "post_2q_avg_note": "[derived] 2Q 발표(7/23) 전후 확인된 6개사(KB·교보·SK·IBK·삼성·신한) 단순평균 약 28.3만 원 — 모두 분할(4/13) 이후 발표라 분할 후 기준. 현재가 대비 +39.6%이며, LS증권 2027E EPS 기준으로 약 65배를 암시함 [derived]",
+      "excluded": "한국경제 컨센서스 페이지의 평균 목표가 454,515원·2026E EPS 5,861원은 분할 전후 추정치가 섞였을 가능성이 커서(분할 후 TP 범위 25만~35만과 불일치) 사용하지 않음 [unavailable]",
+      "note": "증권사 TP·추정치는 참고용 [estimated]. 본 보고서 시나리오는 아래 산식으로 별도 산정함"
+    },
+    "data_limitation": "빌드 스크립트는 KR 종목에 DART 자동 조회로 pl_5y·bs_snapshot을 덮어쓸 수 있음(DISABLE_FIN_FETCH 미설정 시) — 이 파일 값은 CFS 직접 조회 기준. 부문 OPM은 연결조정 전 매출 기준. 효성중공업 TTM·HD현대일렉트릭 차입금 세부는 미수집",
+    "ttm": {
+      "year": "TTM(2Q26)",
+      "revenue": 56942.2,
+      "op_income": 5355.9,
+      "op_margin": 9.4,
+      "net_income": 3887.6,
+      "net_margin": 6.8,
+      "note": "TTM = 2025 연간 − 1H25 + 1H26 (DART) [derived]"
+    },
+    "ttm_note": "TTM(2Q26) = 2025 연간 − 1H25 + 1H26 (DART 연결) [derived]. 연간 표(pl_5y)에 섞으면 CAGR·YoY가 틀리게 계산되므로 분리함"
+  },
+  "scenarios": {
+    "method": "12개월 목표가 = 2027E 지배순이익 ÷ 유통주식 1억4,879만 주 × 목표 PER. 2027E 지배순이익 = 매출 × OPM × 순이익 전환율(지배순이익/영업이익). 기준 가격은 current_price 203,000원(2026-09-29 14:58 KST 장중 스냅샷, yfinance live) — 9/29 공식 종가 204,500원 [actual, yfinance 15:48 KST 조회]. 앵커: LS증권 2027E 매출 7조5,061억·OP 8,831억·지배순이익 6,545억·EPS 4,363원(2026-06-16) [estimated], 현재 2027E PER 46.5배 [derived], 5/7 고점 때 약 77배·7/30 저점 때 약 34배(같은 EPS 기준) [derived], 피어 2027E PER 19.8~24.7배 [derived]. 모든 주당 값은 5:1 분할 후 기준",
+    "current_price_krw": 203000,
+    "price_note": "9/29 14:58 장중가 203,000원 (공식 종가 204,500원)",
+    "bull": {
+      "prob_pct": 25,
+      "target_price": 291000,
+      "upside_pct": 43.3,
+      "thesis": "북미 DC 배전과 Bloom 연료전지 BOP 수주가 가이던스(6~6.5조)를 넘고 Utah·부산 증설이 2027년 매출로 이어짐. 이익 추정이 LS증권보다 10% 높아지고 시장은 '가장 다양한 DC 노출' 프리미엄을 다시 확대함(2027E PER 60배).",
+      "narrative": "- 2H26 수주가 1H 수준(3.47조)을 유지해 2026년 수주 7조 안팎, 2027년 수주는 유안타 상단(6.8조)을 넘음 [assumption]\n- Utah 배전반 공장(연 5,000억 원 수준 CAPA 목표)이 2027년 초 가동되고 부산 초고압 가동률(1H26 69.9%)이 올라 믹스가 개선됨 → OPM 12.5% [assumption]\n- 8/26 행정명령 세부 규정(DOE, 12월 전후)이 중국 장비 위주로 나오고 CIT 소송에서 반덤핑 4.32%가 낮아짐 [assumption]\n- 운전자본이 선수금(계약부채)으로 돌아서 2H26 영업CF가 흑자 전환하며 '이익의 질' 우려가 해소됨 [assumption]\n- 산식: 7.8조 × 12.5% = 9,750억 → × 0.74 = 7,215억 → ÷ 1억4,879만 주 = 4,849원 → × 60배 = 290,956원 ≈ 291,000원 (+43.3%)",
+      "key_assumptions": [
+        "2027E 매출 7조8,000억(LS증권 7조5,061억 +3.9%) [assumption]",
+        "2027E OPM 12.5%(LS증권 11.8%, 2Q26 11.3%) [assumption]",
+        "지배순이익/영업이익 0.74(LS증권 2027E 0.741) [estimated]",
+        "목표 PER 60배 — 5/7 고점(약 77배)과 현재(46.5배) 사이. 2Q 후 증권사 평균 TP 약 28.3만 원과 비슷한 수준 [assumption]"
+      ],
+      "price_target_logic": "7.8조 × 12.5% = 9,750억 → × 0.74 = 7,215억 → ÷ 1억4,879만 주 = 4,849원 → × 60 = 290,956원 ≈ 291,000원"
+    },
+    "base": {
+      "prob_pct": 50,
+      "target_price": 191000,
+      "upside_pct": -5.9,
+      "thesis": "수주·매출은 LS증권 경로를 거의 따라가지만(2027E 지배순이익 6,301억, LS증권 대비 −3.7%) 멀티플은 현재 2027E PER 수준(45배)에 머묾. 성장은 이미 가격에 들어 있어 12개월 기대수익이 거의 없는 구간이며, 블로그의 '기대 가장 많이 반영' 판단과 맞음.",
+      "narrative": "- 2026년 수주 6~6.5조 가이던스는 달성하나 초고압 잔고의 절반 이상이 2027년 이후 인식이라 2027년 매출은 7.4조(+17~18%) 수준 [assumption]\n- OPM은 2Q26 11.3%에서 11.6%로 소폭 개선. 반덤핑 4.32%·232조 관세(15% 한시)·원자재 헤지 손실이 마진 확장을 일부 상쇄함 [assumption]\n- 운전자본 부담은 이어지나 차입 한도(단기 5,000억)로 관리 가능. 증자 가능성은 낮다고 봄 [inference]\n- 2027E PER 45배를 유지한다는 것은 12개월 뒤 2028E 기준으로 약 35~36배(LS증권 2028E EPS 성장 +26% 가정)라는 뜻 — 피어(20~25배) 대비 프리미엄은 유지하되 확대하지 않음 [derived]\n- 산식: 7.4조 × 11.6% = 8,584억 → × 0.734 = 6,301억 → ÷ 1억4,879만 주 = 4,235원 → × 45배 = 190,563원 ≈ 191,000원 (−5.9%)",
+      "key_assumptions": [
+        "2027E 매출 7조4,000억(LS증권 −1.4%) [assumption]",
+        "2027E OPM 11.6% [assumption]",
+        "지배순이익/영업이익 0.734 [assumption]",
+        "목표 PER 45배 — 현재 2027E PER 46.5배와 비슷, 7/30 한국경제 12M fwd 38.7배보다 높음 [assumption]"
+      ],
+      "price_target_logic": "7.4조 × 11.6% = 8,584억 → × 0.734 = 6,301억 → ÷ 1억4,879만 주 = 4,235원 → × 45 = 190,563원 ≈ 191,000원"
+    },
+    "bear": {
+      "prob_pct": 25,
+      "target_price": 105000,
+      "upside_pct": -48.3,
+      "thesis": "북미 DC 발주 속도 조절이나 Bloom 등 고객 이슈로 2027년 이익이 2026E 수준(OP 약 6,800억)에 머물고, 운전자본·차입 증가가 이어지면서 멀티플이 7/30 저점 아래(32배)로 내려감. 7월과 같은 시장 유동성 충격이 반복되면 도달 가능한 범위임.",
+      "narrative": "- 하이퍼스케일러 capex 속도 조절 또는 Bloom(7/8 Hunterbrook 공매도 리포트 이슈) 발주 지연으로 2027년 신규수주가 유안타 하단(5.8조)을 밑돎 [assumption]\n- 영업CF 적자가 2H까지 이어지고 파생상품 손실(1H 699억)이 반복돼 '이익의 질' 할인이 붙음 [assumption]\n- DOE 세부 규정에서 한국산 69kV 이상 장비가 불리하게 분류되거나 CIT 소송에서 패소함 [assumption]\n- 7월 코스피 약 −33%·서킷브레이커 같은 유동성 충격이 재발하면 베타 1.83·연변동성 84.65% 종목이라 낙폭이 커짐(5/7→7/30 −55.1% 전례) [actual·derived]\n- 산식: 6.8조 × 10.0% = 6,800억 → × 0.72 = 4,896억 → ÷ 1억4,879만 주 = 3,291원 → × 32배 = 105,301원 ≈ 105,000원 (−48.3%)",
+      "key_assumptions": [
+        "2027E 매출 6조8,000억(LS증권 −9.4%) [assumption]",
+        "2027E OPM 10.0%(1H26 10.3% 수준에서 정체) [assumption]",
+        "지배순이익/영업이익 0.72 [assumption]",
+        "목표 PER 32배 — 7/30 저점 당시 약 34배(LS증권 EPS 기준)보다 낮고 피어 20~25배보다는 높음 [assumption]"
+      ],
+      "price_target_logic": "6.8조 × 10.0% = 6,800억 → × 0.72 = 4,896억 → ÷ 1억4,879만 주 = 3,291원 → × 32 = 105,301원 ≈ 105,000원"
+    },
+    "expected_value": {
+      "target_price": 194500,
+      "vs_current_pct": -4.2,
+      "vs_close_0929_pct": -4.9,
+      "calc": "0.25×291,000 + 0.50×191,000 + 0.25×105,000 = 194,500원 [derived]"
+    },
+    "probability_weighted_price": 194500,
+    "probability_weighted_note": "0.25×291,000 + 0.50×191,000 + 0.25×105,000 = 194,500원 — 9/29 14:58 장중가 203,000원 대비 −4.2%, 공식 종가 204,500원 대비 −4.9% [derived]. 2Q 후 증권사 6개사 평균 TP 약 28.3만 원(분할 후)과 LS증권 35만 원(계열사)보다 크게 낮음 — 차이는 이익 추정이 아니라 멀티플(증권사 암시 약 65~80배 vs 본 base 45배)에서 나옴. 수익 분포가 비대칭임: 상방 +43% 대 하방 −48%. 매수·매도 권유가 아님"
+  },
+  "catalysts": [
+    {
+      "date": "2026-10-22~23 전후 (예상)",
+      "event": "3Q26 잠정실적 발표",
+      "type": "earnings",
+      "expected_impact": "+/−",
+      "description": "2025년 3Q 잠정실적은 10/23에 나옴(글로벌에픽) → 같은 패턴 가정 [inference]. LS증권 3Q26E 매출 1조5,468억·OP 1,769억 [estimated]. 2Q 실제 OP 1,785억은 LS증권 2Q 추정 1,682억을 +6.1% 웃돌았음 [derived]. 핵심 확인 항목: 영업CF 흑자 전환 여부, 계약자산·매출채권 추이, 3Q 수주(가이던스 6~6.5조 대비 1H 3.47조)"
+    },
+    {
+      "date": "2026-10 말~11 초 (예상)",
+      "event": "미국 하이퍼스케일러 3Q 실적·capex 가이던스, Bloom Energy 3Q 실적",
+      "type": "industry",
+      "expected_impact": "+/−",
+      "description": "LS의 북미 DC 배전 수주(2Q에만 1조 원 이상)와 Bloom향 3,675.6억의 최종 수요처 [actual·derived]. Bloom은 FY26 가이던스 $3.9~4.2B·2GW(2026년 말) CAPA 확정 상태이나 7/8 Hunterbrook 공매도 리포트(순환매출·백로그 과장 주장)가 있었음 [actual, AGENT_BRIEF 3-2]"
+    },
+    {
+      "date": "2026-12-24 전후 (8/26 + 120일)",
+      "event": "DOE의 69kV 이상 외국산 전력장비 규제 세부 규정",
+      "type": "policy",
+      "expected_impact": "○",
+      "description": "8/26 행정명령 — 변압기·고압 차단기·발전기·산업제어시스템 대상, 대상국·기업은 DOE가 120일 안에 규정함. 중국 겨냥으로 해석되나 한국산 포함 여부는 확인 불가 [actual 보도, 이투데이]. LS는 미국 내 초고압 공장이 없어 한국산이 포함되면 −, 중국산만 막히면 + [inference]"
+    },
+    {
+      "date": "2026-12-31",
+      "event": "LS ELECTRIC Utah 시설자금 761.1억 납입 완료",
+      "type": "capacity",
+      "expected_impact": "+",
+      "description": "LS ELECTRIC Americas Holdings → Utah 법인 USD 5,500만 출자, 신주 발행 없이 분할 납입 [actual, DART 20260922800127 · EBN]. 연결 capex·차입 부담 증가 요인이기도 함 [inference]"
+    },
+    {
+      "date": "2027년 초 (회사 목표)",
+      "event": "Utah 배전반 2단계 증설 가동 — 부지 6배, 배전반 CAPA 연 5,000억 원 수준",
+      "type": "capacity",
+      "expected_impact": "+",
+      "description": "2026-06-25 착공, 250억 투자, 연면적 13,223㎡ → 79,338㎡ [actual 보도, 아시아경제 2026-06-28]. 북미 현지 생산으로 관세·행정명령 리스크를 일부 줄임 [inference]"
+    },
+    {
+      "date": "2026H2~2027",
+      "event": "부산 초고압 변압기 제2생산동 램프업",
+      "type": "capacity",
+      "expected_impact": "+",
+      "description": "1,008억 투자, 2025-10 준공. 1H26 부산 생산능력 4,840.5억(2025 연간 5,320.4억의 91%), 가동률 69.9% [actual, DART 반기보고서]. 잔고의 48%인 초고압변압기 인식 속도를 결정함 [actual 보도, 리드경제]"
+    },
+    {
+      "date": "시점 확인 불가",
+      "event": "대형변압기 반덤핑 4.32% CIT 소송 판결",
+      "type": "legal",
+      "expected_impact": "+/−",
+      "description": "재심 결정(2026-08-14)에서 LS·효성 4.32%, HD·일진 0%. 영향은 조사기간(2023.8~2024.7) 선적분에 한정되나, 다음 재심에서 비조사 기업 세율이 이어질 수 있음 [actual, 아주경제 · inference]"
+    },
+    {
+      "date": "2027-01 하순 (예상)",
+      "event": "4Q26 실적·2026 수주 가이던스(6~6.5조) 달성 여부·2027 가이던스",
+      "type": "earnings",
+      "expected_impact": "+/−",
+      "description": "유안타 2027E 신규수주 5.8~6.8조(블로그 인용치) 대비 회사 2027 가이던스가 기준점이 됨 [estimated]. LS증권 4Q26E OP 2,103억 [estimated]"
+    },
+    {
+      "date": "시점 확인 불가",
+      "event": "232조 대형 변압기 관세 15% 한시 인하 만료·연장",
+      "type": "policy",
+      "expected_impact": "○",
+      "description": "4/2 25% → 15% 한시 인하 [actual 보도, 다음/facts_transformer.md]. 만료일 확인 불가. 2025년 3Q엔 미국 관세 비용 200억 원 이상이 반영돼 OPM이 0.8%p 하락한 전례가 있음 [actual 보도, 글로벌에픽 2025-10-23]"
+    }
+  ],
+  "risks": [
+    {
+      "name": "밸류에이션 — 기대 선반영(TTM PER 77.7배)",
+      "probability": "high",
+      "impact": "high",
+      "description": "TTM PER 77.7배·PBR 13.7배·2027E PER 46.5배로 전력기기 4사 중 가장 높음(2027E 피어 19.8~24.7배) [derived]. PEG 1.10으로 성장률을 감안해도 가장 비쌈 [derived]. 1년 수익률 +271%(HD +16.8%·산일 +87.4%) [actual, yfinance]인데 5월 고점 대비 낙폭은 −39.4%로 HD(−53.1%)보다 작아 디레이팅 여지가 남아 있음. base 시나리오에서도 12개월 기대수익은 약 −6%임",
+      "mitigation": "2027E EPS 상향(3Q·4Q 실적)이 멀티플 하락을 상쇄하는지 분기마다 2027E PER로 재점검. 45배 아래로의 재평가 여부 추적"
+    },
+    {
+      "name": "1H26 영업CF 적자·운전자본 급증",
+      "probability": "high",
+      "impact": "med",
+      "description": "1H26 연결 영업CF −819.9억(1H 영업이익 3,050.9억 대비), FCF −1,684.3억 [actual·derived]. 운전자본 −4,217.8억: 매출채권 −3,818.1억·계약자산 −4,493.3억·재고 −1,748.7억 [actual, DART 현금흐름표]. 전력부문 자산이 6개월 새 2조8,254억 → 3조9,197억(+38.7%) [derived, DART 부문자산]. 대형 프로젝트 검수 지연 시 이익 인식과 현금 회수 간 괴리가 커짐(회사도 '대형 프로젝트 납기·검수 시점 변동'을 주요 위험으로 기재) [actual]",
+      "mitigation": "3Q 보고서의 계약자산·매출채권 회전일, 계약부채(선수금) 증가 속도 확인. 2H 영업CF 흑자 전환이 base 전제"
+    },
+    {
+      "name": "차입금 1조4,780억·레버리지 상승",
+      "probability": "med",
+      "impact": "med",
+      "description": "차입금 1조4,779.6억(2Q말, 2025말 대비 +10.1%)·순차입금 8,055.3억·부채비율 172.1%(2025말 131.5%) [actual·derived]. 5/14 단기차입 한도 5,000억(CP 3,000억 포함) 설정 [actual, DART 20260514801525]. Utah 761억·부산 증설 등 capex도 이어짐. 미 10년물 5.17%(9/25) 환경에서 조달비용 상승 여지 [actual, macro_snapshot]",
+      "mitigation": "이자보상배율(LS증권 2026E 15.2배)과 CP 잔액 추적. 증자·CB 등 자본 조달 공시 여부 확인"
+    },
+    {
+      "name": "파생상품 손실 699억(환·원자재 헤지)",
+      "probability": "med",
+      "impact": "low",
+      "description": "1H26 통화선도·원자재 선물 순손실 699.0억(자기자본 대비 3.26%) — 거래손실 891.7억·평가손실 199.6억 [actual, DART 20260814802657]. 헤지 목적이라 외화환산이익(1H 641.4억) 등과 일부 상쇄돼 1H 세전이익 3,107.2억이 영업이익 3,050.9억을 웃돌았음 [actual·inference]. 다만 환율·구리 가격 변동이 커지면 분기 순이익 변동성이 커짐",
+      "mitigation": "분기별 파생 손익과 외화환산손익을 합산해 순효과로 판단"
+    },
+    {
+      "name": "미국 무역·정책 — 반덤핑 4.32%·8/26 행정명령·232조",
+      "probability": "med",
+      "impact": "high",
+      "description": "반덤핑 재심 LS 4.32% vs HD현대일렉트릭 0% — CIT 소송 중 [actual, 아주경제]. 8/26 행정명령으로 69kV 이상 외국산 전력장비 규제가 예고됐고 DOE 세부 규정(12월 전후)·대상국은 미정 [actual 보도]. LS는 미국 내 초고압 생산기지가 없어(Utah는 배전반) 한국산이 대상에 포함되면 초고압 수출(잔고의 48%)에 직접 타격 [inference]. 232조 관세는 25→15% 한시 인하 상태",
+      "mitigation": "DOE 규정 초안·의견수렴 동향, 미국 내 변압기 생산 투자 발표 여부 추적"
+    },
+    {
+      "name": "시장 유동성·변동성(7월 폭락형 충격)",
+      "probability": "med",
+      "impact": "high",
+      "description": "7월 코스피 약 −33%, 7/28~29 이틀 연속 서킷브레이커 [actual, 머니투데이]. LS는 5/7 335,000 → 7/30 150,300(−55.1%) [actual·derived, yfinance]. 베타 1.83·연변동성 84.65% [actual]. 코스피 9/29 현재 52주 고점 대비 −25.0%, FRED 유동성 종합 yellow(혼조) [actual, macro_snapshot·kguru]. 펀더멘털과 무관하게 레버리지·수급 청산에 노출됨",
+      "mitigation": "포지션 크기를 변동성 기준으로 제한(리스크 매니저 단계). 신용융자·수급 지표(k-guru flow) 병행 확인"
+    },
+    {
+      "name": "고객·지역 집중(북미 빅테크·Bloom)",
+      "probability": "med",
+      "impact": "med",
+      "description": "전력-인프라 매출처 1위가 미국 판매법인 LS ELECTRIC AMERICA(41.7%)이고 최종 수요는 북미 빅테크 DC·Bloom Energy에 몰려 있음 [actual, DART 주요 매출처]. Bloom향 수주 3,675.6억은 2025 매출의 7.4% [derived]. Bloom은 7/8 Hunterbrook 공매도 리포트 대상이었음(Bloom 8-K 반박) [actual]. 회사도 '특정 고객 및 지역 중심 매출 집중'을 주요 위험으로 기재함 [actual]",
+      "mitigation": "분기별 북미 매출 비중(1H26 조정 전 35.8%)과 빅테크 capex 가이던스, Bloom 백로그 공시 확인"
+    },
+    {
+      "name": "공급 증가에 따른 가격 프리미엄 축소(2028년 이후)",
+      "probability": "med",
+      "impact": "med",
+      "description": "중국 변압기 수출 1H26 +26.8% [actual 보도, Yahoo Japan], Hitachi Energy 미시시피 5.28억 달러 공장(2029), Siemens Energy 샬럿, HD현대일렉트릭 앨라배마 2공장(2027-04) [actual]. 배전반은 회사 기재대로 '완전 경쟁체제' 시장이라 초고압보다 먼저 가격이 정상화될 수 있음 [actual·inference]. 미국 PPI 변압기 +7.8% YoY는 아직 상승 중 [actual, FRED]",
+      "mitigation": "미국 PPI(PCU335311335311) 월별 추이, 신규 수주 단가·OPM 추적"
+    }
+  ],
+  "thesis_decomposition": [
+    {
+      "claim_id": "T01",
+      "claim": "2027년 기준 AI 전력 병목의 직접성은 변압기·송배전 → 온사이트 발전/SOFC → ESS → 원전 → 태양광 순이다.",
+      "type": "predictive",
+      "evidence": "[actual] WoodMac 평균 리드타임 전력변압기 128주·GSU 144주, 미국 PPI 변압기 2019-12 대비 +85.5%(FRED) · [actual] JHU arXiv 2604.18411 — 2030년 GSE 부족 28.5% · [actual] LS 잔고 6조9,998억 중 48% 초고압변압기(리드경제), 2Q 북미 빅테크 DC 배전반 수주 1조 원+(이투데이) · [actual] Bloom 연료전지 전력설비 3,189.6억(DART 20260429800110) · [unavailable] ESS·원전·태양광 간 순위를 가를 정량 자료 없음",
+      "testability": "low",
+      "status": "pending",
+      "current_status": "pending",
+      "status_detail": "dual_judge 최종 hold(0.60) — 1순위(변압기·송배전)는 근거 충분, 하위 순위는 정량 검증 불가",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.573,
+        "support_count": 3,
+        "neutral_count": 0,
+        "rebut_count": 1,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.57
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.55
+          },
+          "counter": {
+            "stance": "rebut",
+            "confidence": 0.55
+          }
+        },
+        "key_disagreement": "counter: 2026~2027년 HD·효성·Hitachi·Siemens 증설 가동으로 2027년은 변압기 병목 완화가 시작되는 시점일 수 있음"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.6,
+        "agreement": "disagree",
+        "session_verdict": "pass (0.60)",
+        "fable_verdict": "hold (0.78)"
+      },
+      "note": "- LS 관점: 순위 1위(송배전)와 2위(온사이트 SOFC)의 '연결 장비'를 동시에 공급함 — Bloom 연료전지 발전소에도 LS 수배전반·배전변압기가 들어감 [actual, DART]\n- 따라서 1·2위 순서가 바뀌어도 LS의 수혜 논리는 크게 흔들리지 않음. 대신 초고압 병목의 '가격 결정력'은 HD·효성보다 약하게 받음(TTM OPM 9.4%) [derived]\n- 병목 완화가 2027년에 시작되면(counter) 배전반처럼 경쟁이 센 제품부터 단가가 먼저 꺾일 수 있음 [inference]"
+    },
+    {
+      "claim_id": "T02",
+      "claim": "2027년 전력 주도주는 '전기를 만드는 회사'보다 '전기를 연결해주는 회사'가 현재 병목에 더 가깝다.",
+      "type": "predictive",
+      "evidence": "[actual] LS 1H26 부문 매출의 81.8%가 전력(송·변·배전·계통) — 발전원 없음(DART) · [actual] 2Q 신규수주 2조835억(+243%) · [actual] GE Vernova 가스 장비 백로그 116GW — 발전 쪽도 병목(AGENT_BRIEF 3-2) · [unavailable] JHU '발전소보다 먼저' 비교 문장 확인 불가",
+      "testability": "med",
+      "status": "pending",
+      "current_status": "pending",
+      "status_detail": "dual_judge 최종 hold(0.58), 세션·Fable 일치",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.587,
+        "support_count": 3,
+        "neutral_count": 0,
+        "rebut_count": 1,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "counter": {
+            "stance": "rebut",
+            "confidence": 0.5
+          }
+        },
+        "key_disagreement": "counter: PJM 용량가격 2026/27 상한(~$329/MW-day)·GE Vernova 백로그로 발전용량도 병목"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.58,
+        "agreement": "agree",
+        "session_verdict": "hold (0.55)",
+        "fable_verdict": "hold (0.62)"
+      },
+      "note": "- LS는 '연결 회사'의 전형이고 수주로 보면 병목 수혜가 확인됨(2Q 수주 +243%, 연간 가이던스 4조 → 6~6.5조) [actual]\n- 다만 같은 '연결' 안에서도 이익 전환 속도가 다름: TTM OPM LS 9.4% vs HD 25.7%·산일 36.0% [derived] — 배전·저압·동관 비중이 이익률을 희석함\n- 결론: 주도주 여부는 '연결'이라는 분류보다 병목 품목(초고압 vs 배전)과 가격 결정력으로 갈릴 가능성이 큼 [inference]"
+    },
+    {
+      "claim_id": "T06",
+      "claim": "전력기기 4사 주가는 52주 고점 대비 HD현대일렉트릭 -50%, 나머지 약 -39~40% 조정받았지만 밸류에이션은 싸다고 하기 어렵다.",
+      "type": "factual",
+      "evidence": "[actual] 9/29 기준 LS −39.4%(고점 335,000, 2026-05-07, yfinance) · [derived] TTM PER 77.7배·PBR 13.7배·2027E PER 46.5배(LS증권 EPS 4,363원) · [actual] 9/23 블로그 기준 LS −38.7%는 yfinance와 일치(price_factcheck.json)",
+      "testability": "high",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "status_detail": "dual_judge 최종 pass(0.75), 세션·Fable 일치",
+      "analyst_consensus": {
+        "weighted_stance": "neutral",
+        "weighted_confidence": 0.362,
+        "support_count": 0,
+        "neutral_count": 4,
+        "rebut_count": 0,
+        "agreement_level": "high (4/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "neutral",
+            "confidence": 0.35
+          },
+          "industry": {
+            "stance": "neutral",
+            "confidence": 0.35
+          },
+          "empirical": {
+            "stance": "neutral",
+            "confidence": 0.4
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.35
+          }
+        },
+        "key_disagreement": "4-Analyst는 가격·밸류 자료 부족으로 전원 neutral — 검증 자료를 넣은 이중 판단에서 pass"
+      },
+      "dual_judge": {
+        "final_verdict": "pass",
+        "final_confidence": 0.75,
+        "agreement": "agree",
+        "session_verdict": "pass (0.70)",
+        "fable_verdict": "pass (0.80)"
+      },
+      "note": "- LS에서 가장 강하게 성립함: 낙폭은 산일(−40.3%)과 비슷하고 HD(−53.1%)보다 작지만 배수는 4사 중 최고임 [derived]\n- 7/30 저점(150,300원, 2027E PER 약 34배) 이후 +35.1% 반등해 조정의 상당 부분을 되돌렸음 [derived]"
+    },
+    {
+      "claim_id": "T07",
+      "claim": "LS ELECTRIC은 2027년 예상 이익 기준 PER 40배대로 기대가 가장 많이 반영되어 있고, HD현대일렉트릭·효성중공업·산일전기는 20배 초반 수준이다.",
+      "type": "factual",
+      "evidence": "[derived] LS증권 2026-06-16 원문 2027E EPS 4,363원 기준 PER 46.5배(9/29 장중 203,000원) — 블로그 4,717원·43.6배는 원문과 다름(출처 확인 불가) · [derived] 피어 2027E PER: HD 19.8·효성 24.7·산일 23.7배 · [derived] TTM PER LS 77.7 vs 산일 34.6·HD 28.3배, PBR 13.7 vs 9.4·10.7배 · [derived] PEG(2027E PER/EPS CAGR 2025→28E) LS 1.10 vs HD 0.77·효성 0.71·산일 0.83 · [actual] 1년 수익률 +271%(yfinance) · [actual] 1H26 영업CF LS −819.9억 vs 산일 +900.5억·HD +4,802.7억(DART)",
+      "testability": "high",
+      "status": "confirmed",
+      "current_status": "confirmed",
+      "status_detail": "수치 정정 후 성립 — '40배대'는 46.5배로 유지되고 상대 구도(LS만 40배대, 나머지 20배 안팎)도 유지됨",
+      "analyst_consensus": null,
+      "analyst_consensus_note": "supporting thesis — 4-Analyst·dual_judge 평가 대상 아님(core 11개만 평가). 본 판정은 Deep Research 단계의 수치 검증 결과임",
+      "note": "- '기대 가장 많이 반영'은 이 종목에서 모든 배수 지표로 확인됨: 2027E PER은 피어의 1.9~2.4배, TTM PER 77.7배, PBR 13.7배로 4사 중 최고 [derived]\n- 성장률 반론도 따져 봄: EPS CAGR 42.3%로 4사 중 가장 높지만 PEG 1.10으로 여전히 가장 비쌈 → 성장만으로 프리미엄이 설명되지 않음 [derived]\n- 이익의 질도 가장 약함: 4사 비교 대상 중 LS만 1H 영업CF 적자, 파생 손실 699억 [actual]\n- 반대 논거: 증권사 TP(2Q 후 평균 약 28.3만 원, LS증권 35만 원)는 2027E PER 65~80배를 암시함 — 셀사이드는 'DC 노출 다양성 프리미엄'을 더 크게 봄 [derived]. LS증권은 계열사라 이해상충 가능성 있음\n- 블로그 수치 정정: 2027E EPS 4,717원(블로그) → 4,363원(LS증권 원문, 분할 후 기준, −7.5%). 정정하면 PER이 43.6배 → 46.5배로 올라가 블로거 결론은 오히려 강해짐"
+    },
+    {
+      "claim_id": "T08",
+      "claim": "2027년 신규수주는 효성중공업 10.5~12조원, HD현대일렉트릭 50~58억달러, LS ELECTRIC 5.8~6.8조원, 산일전기 0.9~1.1조원이 될 것으로 전망된다.",
+      "type": "predictive",
+      "evidence": "[estimated] LS 2027E 5.8~6.8조는 LS증권이 아니라 유안타증권 2026-06-11 표와 일치 · [actual] 회사 2026 수주 목표 4조 → 6조~6.5조 상향(이투데이 2026-07-24) · [actual] 1H26 수주 3조4,677억(DART 수주상황)",
+      "testability": "high",
+      "status": "pending",
+      "current_status": "pending",
+      "status_detail": "2026년 수주가 이미 2027 전망 하단 수준 — 2027 범위는 보수적일 수 있음 [inference]",
+      "analyst_consensus": null,
+      "analyst_consensus_note": "supporting thesis — 4-Analyst·dual_judge 평가 대상 아님",
+      "note": "- 유안타가 6/11에 낸 2026E 5.0~5.6조를 회사가 7월에 6~6.5조로 넘겨 버렸음 → LS의 2027 전망치는 상향 여지가 있음 [inference]\n- 다만 수주가 이익·현금으로 바뀌는 속도가 관건임: 잔고 절반 이상이 2027년 이후 인식, 1H 영업CF 적자 [actual]"
+    },
+    {
+      "claim_id": "T21",
+      "claim": "2027년 전력 섹터의 가장 큰 리스크는 전력 수요 부족이 아니라 주가가 그 수요를 얼마나 먼저 반영했느냐이다.",
+      "type": "predictive",
+      "evidence": "[actual] 수요 측: 2Q 수주 +243%, 잔고 7.0조, 북미 매출 +56.4% · [derived] 가격 측: 2027E PER 46.5배·PEG 1.10 · [actual] 비밸류 리스크: 7월 코스피 약 −33%, 미 10년물 5.17%, 반덤핑 4.32%, 8/26 행정명령, 1H 영업CF −819.9억",
+      "testability": "med",
+      "status": "pending",
+      "current_status": "pending",
+      "status_detail": "dual_judge 최종 hold(0.55) — 세션 hold ↔ Fable pass 불일치, 보수 쪽 채택",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.587,
+        "support_count": 3,
+        "neutral_count": 1,
+        "rebut_count": 0,
+        "agreement_level": "medium-high (3/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "support",
+            "confidence": 0.58
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.45
+          }
+        },
+        "key_disagreement": "counter: 수요 리스크와 선반영 리스크는 분리되지 않음(DeepSeek 쇼크 때 방아쇠는 수요 기대였음)"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.55,
+        "agreement": "disagree",
+        "session_verdict": "hold (0.55)",
+        "fable_verdict": "pass (0.66)"
+      },
+      "note": "- 4사 중 이 명제가 가장 잘 들어맞는 종목이 LS임: 수요 지표는 모두 강한데 base 시나리오 기대수익이 −6%에 그침 [derived]\n- 그러나 LS에는 밸류 외 리스크가 하나 더 있음 — 운전자본·차입 증가로 '수요가 이익은 되지만 현금은 늦게 된다'는 점 [actual]. 이는 선반영 리스크와 별개로 멀티플을 깎을 수 있음\n- 따라서 '가장 큰 리스크 = 선반영 하나'로 좁히는 것은 과도함 → hold 판정과 일치"
+    },
+    {
+      "claim_id": "T23",
+      "claim": "2027년 전력주를 찾을 때 변압기 4사만 보는 것보다 SOFC 밸류체인을 함께 봐야 한다.",
+      "type": "normative",
+      "evidence": "[actual] LS가 Bloom Energy 발주 북미 DC 연료전지 전력설비(수배전반·배전변압기) 3,189.6억(DART) + 486억(아시아경제) 수주 · [actual] 두산퓨얼셀 8,236억은 PAFC·계열사향, SOFC는 Reverion 1,087억 1건(AGENT_BRIEF 3-1) · [actual] Bloom 7/8 Hunterbrook 공매도 리포트",
+      "testability": "low",
+      "status": "pending",
+      "current_status": "pending",
+      "status_detail": "dual_judge 최종 hold(0.64), 세션·Fable 일치",
+      "analyst_consensus": {
+        "weighted_stance": "support",
+        "weighted_confidence": 0.575,
+        "support_count": 2,
+        "neutral_count": 2,
+        "rebut_count": 0,
+        "agreement_level": "split (2/4)",
+        "by_analyst": {
+          "macro": {
+            "stance": "support",
+            "confidence": 0.55
+          },
+          "industry": {
+            "stance": "support",
+            "confidence": 0.6
+          },
+          "empirical": {
+            "stance": "neutral",
+            "confidence": 0.5
+          },
+          "counter": {
+            "stance": "neutral",
+            "confidence": 0.5
+          }
+        },
+        "key_disagreement": "empirical·counter: SOFC 수요가 사실상 Bloom 1개사에 의존, 'SOFC가 더 중요해진 시점'이라는 근거 부족"
+      },
+      "dual_judge": {
+        "final_verdict": "hold",
+        "final_confidence": 0.64,
+        "agreement": "agree",
+        "session_verdict": "hold (0.55)",
+        "fable_verdict": "hold (0.72)"
+      },
+      "note": "- LS는 '변압기 4사' 중 하나이면서 이미 SOFC 밸류체인(발전소 BOP 전력설비)에 들어가 있음: Bloom향 3,675.6억 = 2025 매출의 7.4% [derived]\n- 즉 LS 주주는 별도 SOFC 종목 없이도 온사이트 발전 수요에 노출됨 — 블로거가 말한 'DC 노출 가장 다양'의 실체 중 하나임\n- 대신 Bloom 1개사 의존(공매도 리포트 이슈)이 LS 수주에도 전이됨 → hold와 같은 결론"
+    }
+  ],
+  "korean_disclosures": [
+    {
+      "date": "2026-09-22",
+      "type": "종속회사 주요경영사항",
+      "title": "유무상증자결정 — LS ELECTRIC Utah Inc. 시설자금 761.1억(납입 2026-12-31)",
+      "impact": "+",
+      "rcept_no": "20260922800127"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "공정거래법 공시",
+      "title": "특수관계인에 대한 출자 — LS이모빌리티솔루션 주주배정 유상증자 300억 참여(지분 100% 유지)",
+      "impact": "○",
+      "rcept_no": "20260827000765"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "단일판매·공급계약",
+      "title": "Big Tech Data Center 전력설비 공급 PJT 2,308.5억(매출 대비 4.65%, 상대 LS ELECTRIC AMERICA, 2026-06-08~2027-01-30)",
+      "impact": "+",
+      "rcept_no": "20260824800095"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "정기보고서",
+      "title": "반기보고서(2026.06) — 1H 영업CF −819.9억, 차입금 1조4,779.6억, 수주잔고 6조9,998억",
+      "impact": "−",
+      "rcept_no": "20260814003088"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "수시공시",
+      "title": "파생상품거래 손실발생 699.0억(자기자본 대비 3.26%) — 통화선도·원자재 선물",
+      "impact": "−",
+      "rcept_no": "20260814802657"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "공정공시",
+      "title": "연결 영업(잠정)실적 — 2Q26 매출 1조5,770억(+32.2%)·영업이익 1,785억(+64.4%)",
+      "impact": "+",
+      "rcept_no": "20260723800150"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "주요사항보고서",
+      "title": "자기주식 처분 결정 — 32,520주(직원 3,252명 주식보상, 187,700원 기준 61.0억)",
+      "impact": "○",
+      "rcept_no": "20260715000510"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "수시공시",
+      "title": "단기차입금 증가 결정 — 한도 5,000억(CP 3,000억·금융기관 2,000억), 유동성 확보 목적",
+      "impact": "−",
+      "rcept_no": "20260514801525"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "정기보고서",
+      "title": "분기보고서(2026.03) — 1Q 영업CF −269.6억",
+      "impact": "−",
+      "rcept_no": "20260514000847"
+    },
+    {
+      "date": "2026-04-29",
+      "type": "단일판매·공급계약",
+      "title": "북미 DC용 연료전지 전력설비 공급 PJT 3,189.6억(Bloom Energy 발주, 수배전반·배전변압기, 매출 대비 6.42%)",
+      "impact": "+",
+      "rcept_no": "20260429800110"
+    },
+    {
+      "date": "2026-04-21",
+      "type": "공정공시",
+      "title": "연결 영업(잠정)실적 — 1Q26 매출 1조3,766억·영업이익 1,266억",
+      "impact": "+",
+      "rcept_no": "20260421800175"
+    },
+    {
+      "date": "2026-04-13",
+      "type": "단일판매·공급계약",
+      "title": "북미 데이터센터 전력설비 공급 PJT 1,702.9억(하이퍼스케일, 매출 대비 3.43%) — 같은 날 5:1 액면분할 후 거래 재개",
+      "impact": "+",
+      "rcept_no": "20260413800743"
+    }
+  ],
+  "_meta": {
+    "ticker": "010120.KS",
+    "company": "LS ELECTRIC",
+    "generated_at": "2026-09-29",
+    "fresh_context": "fresh context — 이전 thesis·페르소나 결론을 참조하지 않음 (다른 분석 디렉토리는 스키마 참고만)",
+    "blog_role": "대조군 — 블로거: 'DC 노출 가장 다양하지만 기대도 가장 많이 반영'(2027E PER 43.6배, 블로그 계산)",
+    "price_basis": "current_price 203,000원 = 2026-09-29 14:58 KST 장중 스냅샷(yfinance live); 9/29 공식 종가 204,500원 [actual, yfinance 15:48 KST 조회]",
+    "split": "5:1 액면분할(액면 5,000→1,000원) 2026-04-13 거래 재개 — 모든 주당 지표·목표가는 분할 후 기준",
+    "disclaimer": "매수·매도 권유가 아님"
+  }
+}

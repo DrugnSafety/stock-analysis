@@ -1,0 +1,538 @@
+{
+  "ticker": "126340.KQ",
+  "aggregated_at": "2026-09-29T15:32:38.807915+09:00",
+  "n_personas": 17,
+  "verdict_distribution": {
+    "neutral": {
+      "count": 3,
+      "pct": 17.6
+    },
+    "lean_bearish": {
+      "count": 13,
+      "pct": 76.5
+    },
+    "lean_bullish": {
+      "count": 1,
+      "pct": 5.9
+    }
+  },
+  "average_confidence": 0.662,
+  "style_split": {
+    "quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "jim-simons",
+          "verdict": "neutral",
+          "confidence": 0.4
+        }
+      ],
+      "dominant": "neutral"
+    },
+    "growth": {
+      "n_members": 3,
+      "members": [
+        {
+          "persona_id": "peter-lynch",
+          "verdict": "lean_bearish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "phil-fisher",
+          "verdict": "neutral",
+          "confidence": 0.55
+        },
+        {
+          "persona_id": "cathie-wood",
+          "verdict": "lean_bullish",
+          "confidence": 0.52
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "factor-quant": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "cliff-asness",
+          "verdict": "lean_bearish",
+          "confidence": 0.6
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro": {
+      "n_members": 2,
+      "members": [
+        {
+          "persona_id": "ray-dalio",
+          "verdict": "lean_bearish",
+          "confidence": 0.62
+        },
+        {
+          "persona_id": "stanley-druckenmiller",
+          "verdict": "neutral",
+          "confidence": 0.58
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "growth-em": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "rakesh-jhunjhunwala",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value": {
+      "n_members": 4,
+      "members": [
+        {
+          "persona_id": "charlie-munger",
+          "verdict": "lean_bearish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "mohnish-pabrai",
+          "verdict": "lean_bearish",
+          "confidence": 0.78
+        },
+        {
+          "persona_id": "warren-buffett",
+          "verdict": "lean_bearish",
+          "confidence": 0.72
+        },
+        {
+          "persona_id": "ben-graham",
+          "verdict": "lean_bearish",
+          "confidence": 0.85
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "activist": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "bill-ackman",
+          "verdict": "lean_bearish",
+          "confidence": 0.74
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "value-contrarian": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "michael-burry",
+          "verdict": "lean_bearish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "macro-reflexivity": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "george-soros",
+          "verdict": "lean_bearish",
+          "confidence": 0.55
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "valuation": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "aswath-damodaran",
+          "verdict": "lean_bearish",
+          "confidence": 0.7
+        }
+      ],
+      "dominant": "lean_bearish"
+    },
+    "risk": {
+      "n_members": 1,
+      "members": [
+        {
+          "persona_id": "nassim-taleb",
+          "verdict": "lean_bearish",
+          "confidence": 0.72
+        }
+      ],
+      "dominant": "lean_bearish"
+    }
+  },
+  "universal_concerns": [
+    {
+      "theme": "변동성",
+      "frequency": 9,
+      "personas": [
+        "ray-dalio",
+        "ben-graham",
+        "jim-simons",
+        "stanley-druckenmiller",
+        "rakesh-jhunjhunwala",
+        "charlie-munger",
+        "cliff-asness",
+        "peter-lynch",
+        "mohnish-pabrai"
+      ],
+      "examples": [
+        "연환산 변동성 116.46% [actual] — high regime 기준의 약 3.9배로 포지션 크기가 극도로 제한된다",
+        "연환산 변동성 116.46% [actual]의 극심한 주가 변동",
+        "연환산 변동성 116.46% [actual], β [unavailable] — 포지션 사이징이 극히 제한됨"
+      ]
+    },
+    {
+      "theme": "단기",
+      "frequency": 8,
+      "personas": [
+        "ben-graham",
+        "aswath-damodaran",
+        "bill-ackman",
+        "rakesh-jhunjhunwala",
+        "george-soros",
+        "cliff-asness",
+        "warren-buffett",
+        "michael-burry"
+      ],
+      "examples": [
+        "1개월 +31.6% [actual] 급등 직후 — 단기 반전 위험, 12-1 모멘텀 신호에 포함되지 않음",
+        "현금 53.6억 대비 차입금 1,248.5억, 이후 4회 CB 220억과 단기차입 250억 추가로 유동성·희석 위험 (잠재 희석 약 7.7%) [actual/derived]",
+        "현금 53.6억 [actual] 대비 차입금 1,248.5억 [actual]으로, 단기차입 비중이 높아 유동성·차환 리스크가 있다"
+      ]
+    },
+    {
+      "theme": "리스크",
+      "frequency": 6,
+      "personas": [
+        "aswath-damodaran",
+        "phil-fisher",
+        "stanley-druckenmiller",
+        "cathie-wood",
+        "warren-buffett"
+      ],
+      "examples": [
+        "현금 53.6억 [actual] 대비 차입금 1,248.5억 [actual]으로, 단기차입 비중이 높아 유동성·차환 리스크가 있다",
+        "Bloom Energy 고객 집중도와 Bloom 대상 공매도 리포트(7/8) 리스크 전이 [actual/inference]",
+        "베트남 공장 화재(재해손실 297.8억 [actual])가 드러낸 운영 리스크와 생산 차질 가능성"
+      ]
+    }
+  ],
+  "persona_results": {
+    "jim-simons": {
+      "verdict": "neutral",
+      "confidence": 0.4,
+      "horizon": "short_term",
+      "key_concerns_top3": [
+        "연환산 변동성 116.46% [actual] — high regime 기준의 약 3.9배로 포지션 크기가 극도로 제한된다",
+        "52주 고점 대비 -59.1% [actual] — drawdown이 회복되지 않았다",
+        "beta, Sharpe, Sortino, VaR, optimizer weight 모두 [unavailable] — 5단계 중 3개 단계를 정식으로 판정할 수 없다"
+      ],
+      "key_opportunities_top3": [
+        "1개월 +31.6% [actual] — 단기 반등 momentum은 관측된다",
+        "52주 레인지 하단 약 25% 위치 [derived] — 변동성이 낮아지면 reversion 후보로 재평가할 수 있다",
+        "1년 수익률 +81.12% [actual] — 장기 구간 수익률은 양수를 유지하고 있다"
+      ],
+      "uncertainty": "정식 risk_metrics가 제공되어 Sharpe가 0 미만으로 확인되거나, beta가 1.5를 넘고 MONETARY_TIGHTENING flag가 켜져 있으면 lean_bearish로 바뀐다. 반대로 lean_bullish가 되려면 변동성이 30% 아래로 내려가고 Sharpe가 1.0을 넘으며 optimizer weight가 equal-weight의 1.5배를 넘어야 하는데, 현재 변동성 수준에서는 가능성이 낮다. Sharpe 대용치 0.67은 단순 수익률과 미국 기준금리를 쓴 근사치여서 실제 값과 차이가 클 수 있다.",
+      "persona_kr": "짐 사이먼스",
+      "persona_en": "Jim Simons"
+    },
+    "peter-lynch": {
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 53.6억 [actual] 대비 차입금 1,248.5억 [actual] — 유동성 압박과 추가 자금조달(희석) 가능성",
+        "영업현금흐름 3년 연속 마이너스, 1H26 -266.4억 [actual]",
+        "베트남 공장 화재 손실 297.8억 [actual] — 수주 납기 및 증설 일정 차질 위험, 보험금 회수 규모 불확실"
+      ],
+      "key_opportunities_top3": [
+        "수주 합계 약 1,059.9억 [derived]로 2025년 매출 822.3억 [actual]을 상회 — 매출 급증 가시성",
+        "셀에서 시스템 공급으로 확장하며 단가·부가가치 상승 여지",
+        "생산능력 1,200억 → 3,000억 [estimated] 증설 완료 시 영업 레버리지 효과 가능"
+      ],
+      "uncertainty": "다음 조건이 확인되면 판단이 중립 또는 긍정으로 바뀔 수 있다: (1) 수주가 매출로 인식되며 영업이익률이 의미 있게 개선되어 흑자 EPS가 나오고 PEG 계산이 가능해지는 경우, (2) 보험금 수령과 영업현금흐름 흑자 전환으로 차입금이 줄어드는 경우, (3) 화재 피해에도 증설과 납기가 계획대로 진행되는 경우. 반대로 추가 CB·유상증자나 수주 지연이 발생하면 bearish 확신이 높아진다. 또한 EPS 컨센서스와 이자비용 데이터가 제공되지 않아 [unavailable] 추정 PEG와 이자보상배율을 확인하지 못한 한계가 있다.",
+      "persona_kr": "피터 린치",
+      "persona_en": "Peter Lynch"
+    },
+    "cliff-asness": {
+      "verdict": "lean_bearish",
+      "confidence": 0.6,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "PBR 6.8배 [derived], PSR 5.6배 [derived] — 고점 대비 -59.1% 이후에도 HML expensive 구간",
+        "1H26 FCF -535.9억 [derived], 현금 53.6억 vs 차입금 1,248.5억 [actual] — 추가 자금조달과 희석 위험",
+        "베트남 박장공장 화재 재해손실 297.8억 [actual] — 보험금 회수 규모와 생산 차질 영향은 [unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "DC 관련 공시 수주 약 1,059.9억 [derived]이 2025년 매출을 상회 — 매출 인식 시 영업 레버리지 가능성",
+        "12-1개월 모멘텀 약 +37.6% [derived] — 수익성이 개선되면 momentum + quality 조합으로 전환될 수 있음",
+        "생산능력 1,200억 → 3,000억 [estimated, 삼성증권] — 가동률 상승 시 마진 개선 여지"
+      ],
+      "uncertainty": "다음이 확인되면 neutral 이상으로 상향한다. (1) 향후 2~3개 분기에 영업이익률이 두 자릿수 근처로 올라 profitability z-score가 0 이상으로 회복될 때, (2) 보험금 회수와 이익 누적으로 자본이 늘어 PBR이 4배 아래로 내려올 때, (3) 6개월 수익률이 양전해 모멘텀 경로가 안정될 때. 반대로 12-1 모멘텀이 음전하면 'loser + weak quality' 규칙으로 bearish 확신이 높아진다. 한계도 있다. β, forward P/E, DCF, sector median이 없어 z-score는 persona 절대 기준선에 대한 근사치이며, 실제 cross-sectional 순위와 다를 수 있다.",
+      "persona_kr": "클리프 애스니스",
+      "persona_en": "Cliff Asness"
+    },
+    "ray-dalio": {
+      "verdict": "lean_bearish",
+      "confidence": 0.62,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 53.6억 원 대비 1년 내 만기 차입 643.5억 원 [actual]. 차환 위험이 크고 장기금리 5.17% 환경에서 조달 비용 상승",
+        "영업현금흐름 적자 상태에서 생산능력을 1,200억→3,000억 원 [estimated]으로 확대하는 부채 의존형 증설",
+        "베트남 박장공장 화재로 297.8억 원 손실 [actual]. 보험금 회수 규모와 시기 불확실, 생산 거점 집중 위험"
+      ],
+      "key_opportunities_top3": [
+        "6~9월 공시 수주 합계 약 1,059.9억 원 [derived]으로 2025년 매출 822.3억 원을 상회. 2027년 매출 가시성 확보",
+        "셀 공급에서 시스템 공급으로 전환해 제품 단가와 고객 내 지위 상승",
+        "Bloom Energy 생산능력 2GW 확정(2026년 말) [actual]에 따른 물량 증가"
+      ],
+      "uncertainty": "판단이 뒤집히는 조건은 세 가지다. 첫째, 물가가 둔화되고 10년물 금리가 뚜렷이 내려가 성장 상승·물가 하락 사분면으로 이동하는 경우. 둘째, 수주가 매출로 전환되면서 영업현금흐름이 흑자로 돌아서고 보험금 수령으로 차입 의존도가 낮아지는 경우. 셋째, 4회 CB(전환가 78,818원)가 전환돼 부채가 자본으로 바뀌는 경우. 반대로 Bloom의 발주 지연이나 차환 실패가 나타나면 약세 확신은 더 높아진다. 정부부채/GDP, 매크로 플래그, 베타, 통화 구성 데이터가 없어 사이클 판정과 상관관계 평가에는 추론과 가정이 포함되어 있으며, 확신도를 0.62로 제한한 이유다.",
+      "persona_kr": "레이 달리오",
+      "persona_en": "Ray Dalio"
+    },
+    "rakesh-jhunjhunwala": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "5년 ROE가 19.1%에서 마이너스로 추락해 15% 이상 일관성 기준을 충족하지 못함 [derived]",
+        "현금 53.6억 대비 차입금 1,248.5억, 이후 4회 CB 220억과 단기차입 250억 추가로 유동성·희석 위험 (잠재 희석 약 7.7%) [actual/derived]",
+        "베트남 박장공장 화재로 재해손실 297.8억 발생 — 단일 생산거점 위험, 보험금 회수 규모 [unavailable]"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 수주 합계 약 1,059.9억으로 2026~2027년 매출 급증 가시성 [derived]",
+        "셀에서 시스템 공급으로 격상되면 제품 단가와 마진이 개선될 여지 [inference]",
+        "생산능력 1,200억→3,000억 증설이 가동률을 채우면 영업 레버리지로 2021~2022년 수준(영업이익률 11~13%) 회복 가능성 [estimated/inference]"
+      ],
+      "uncertainty": "판단은 '수주가 ROE로 전환되지 않는다'는 가정에 기대고 있다. 증설 물량이 가동되면서 영업이익률이 두 자릿수로 회복되고 ROE가 15% 이상으로 2년 이상 복귀하며, 보험금과 영업현금흐름으로 차입이 줄어드는 것이 확인되면 lean_bullish로 바뀔 수 있다. 반대로 추가 CB·증자가 이어지거나 Bloom 발주가 꺾이면 bearish 확신은 더 커진다. 10년 ROE, 고객별 매출 비중, 시스템 제품 마진, 보험금 규모는 제공 자료에 없어 [unavailable]이며 이것이 확신도를 제한한다. 시세 데이터의 현재가 83,700원과 9/29 종가 83,600원 사이의 소폭 차이는 판단에 영향이 없다.",
+      "persona_kr": "라케시 준준왈라",
+      "persona_en": "Rakesh Jhunjhunwala"
+    },
+    "charlie-munger": {
+      "verdict": "lean_bearish",
+      "confidence": 0.78,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현금 53.6억 원 [actual] 대비 차입금 1,248.5억 원 [actual] — 차환과 추가 자금조달에 의존하는 재무구조",
+        "2024~1H26 연속 마이너스 영업현금흐름 [actual]과 대규모 CAPEX가 겹친 자금 소진",
+        "화재 손실 297.8억 원 [actual]으로 드러난 단일 생산거점 위험과 보험 회수 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "공시 수주 합계 약 1,059.9억 원 [derived]이 2026년 하반기~2027년 매출로 인식될 가능성",
+        "셀에서 시스템 공급으로의 전환이 실제 마진 개선으로 이어질 경우 사업의 질 변화",
+        "생산능력 확대(매출 기준 3,000억 원 [estimated]) 후 가동률 상승에 따른 영업 레버리지"
+      ],
+      "uncertainty": "내 판단은 과거 5년의 낮은 수익성이 앞으로도 이어진다는 가정에 기대고 있다. 만약 수주 물량이 매출로 인식되면서 영업이익률이 두 자릿수로 올라서고 영업현금흐름이 플러스로 전환되며, 보험금 회수와 CB 전환으로 차입 부담이 의미 있게 줄어든다면 중립으로 옮길 수 있다. 반대로 슈퍼커패시터가 데이터센터 전력 시스템에서 대체 불가능한 위치를 차지해 가격 결정력이 확인된다면 사업의 질 평가 자체가 달라진다. 경영진 보상·지분 구조 자료가 없어 [unavailable] 인센티브 단계는 행동에 근거한 추론일 뿐이라는 점도 한계다.",
+      "persona_kr": "찰리 멍거",
+      "persona_en": "Charlie Munger"
+    },
+    "mohnish-pabrai": {
+      "verdict": "lean_bearish",
+      "confidence": 0.78,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 53.6억 대비 차입금 1,248.5억, 지속적인 음의 영업현금흐름으로 추가 증자·CB 발행 가능성",
+        "베트남 공장 화재로 인한 297.8억 손실과 생산·납기 차질 위험, 보험금 회수 규모 불확실",
+        "매출 증가에도 영업이익률 2% 수준으로 수익성 미검증"
+      ],
+      "key_opportunities_top3": [
+        "데이터센터 관련 수주 약 1,060억으로 2025년 매출을 넘는 일감 확보",
+        "셀에서 시스템 공급으로 확장 시 단가와 마진 개선 가능성",
+        "생산능력 3,000억 규모 증설 완료 후 가동률 상승 시 영업 레버리지"
+      ],
+      "uncertainty": "증설 후 영업이익률이 10% 이상으로 구조적으로 올라서고 영업현금흐름이 흑자 전환하며, 보험금 회수로 재무구조가 안정되는 것이 확인되면 판단을 다시 해야 한다. 또한 주가가 보수적 내재가치의 절반 수준(대략 시총 2,000억 이하 [assumption])까지 내려오면 비대칭 구조가 성립할 수 있다. 시스템 공급 마진, 보험금 규모, 컨센서스 이익은 [unavailable]이므로 내재가치 추정의 오차가 크다. 한국 시장과 슈퍼커패시터 산업에 대한 이 관점의 이해 한계도 인정한다.",
+      "persona_kr": "모니시 파브라이",
+      "persona_en": "Mohnish Pabrai"
+    },
+    "warren-buffett": {
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현금 53.6억 [actual] 대비 차입금 1,248.5억 [actual]으로, 단기차입 비중이 높아 유동성·차환 리스크가 있다",
+        "FCF 적자가 이어져 CB 등 외부 조달에 의존하고, 잠재 희석이 약 7.7% [derived]다",
+        "Bloom Energy 등 소수 고객 의존도가 높고, Bloom은 Hunterbrook 공매도 리포트 대상이다"
+      ],
+      "key_opportunities_top3": [
+        "셀에서 시스템 공급으로 전환하면서 부가가치와 전환비용이 높아질 가능성이 있다",
+        "약 1,059.9억 [derived] 규모 수주가 2026~2027년 매출로 인식되면 가동률과 영업 레버리지가 개선될 수 있다",
+        "화재 보험금 수령 시 자본 일부 회복 가능 (금액 [unavailable])"
+      ],
+      "uncertainty": "다음이 확인되면 판단을 neutral 이상으로 올릴 수 있다. 첫째, 시스템 매출이 본격화되어 영업이익률이 10% 이상에서 수년간 유지되는 것. 둘째, 영업현금흐름이 설비투자를 넘어 FCF가 흑자로 돌아서고 차입금이 줄어드는 것. 셋째, 고객이 다변화되는 것. 그 경우에도 매수 관점이 되려면 추정 내재가치 대비 30% 이상 할인된 가격이 필요하다. 반대로 Bloom 발주가 줄거나 차환에 실패하면 약세 판단은 더 강해진다. 또한 10년 예측 가능성을 엄격히 적용하면 이 종목은 능력범위 밖으로 분류될 수 있다. 그 경우에도 매수 근거는 생기지 않는다.",
+      "persona_kr": "워런 버핏",
+      "persona_en": "Warren Buffett"
+    },
+    "stanley-druckenmiller": {
+      "verdict": "neutral",
+      "confidence": 0.58,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 53.6억 대 차입금 1,248.5억, 영업현금흐름 적자 지속으로 추가 CB·증자 가능성 [actual/inference]",
+        "베트남 박장공장 화재로 재해손실 297.8억 발생, 보험금 회수 규모와 생산 차질 영향 미확정 [actual]",
+        "Bloom Energy 고객 집중도와 Bloom 대상 공매도 리포트(7/8) 리스크 전이 [actual/inference]"
+      ],
+      "key_opportunities_top3": [
+        "3분기 전후 공시 수주 약 1,060억으로 2027년 4월까지 매출 가시성 확보 [derived]",
+        "셀 공급에서 시스템 공급으로 격상되어 단가·마진 개선 여지 [actual/inference]",
+        "생산능력 1,200억→3,000억 증설 완료 시 영업 레버리지 발생 가능 [estimated]"
+      ],
+      "uncertainty": "강세 전환 조건: 미국 10년물이 뚜렷이 하락하고 코스닥으로 외국인 자금이 돌아오는 가운데, 3분기 실적에서 영업이익률이 의미 있게 개선되고 화재 보험금 회수로 재무 부담이 완화되면 lean_bullish로 바꾼다. 약세 전환 조건: 주가가 4회 CB 전환가 78,818원을 이탈해 7월 저점 구간으로 되돌아가거나, 추가 대규모 희석성 조달, Bloom 발주 지연·취소가 나오면 lean_bearish로 바꾼다. 심리 지표(외국인 수급, 공매도 잔고)와 보험금 규모는 [unavailable]이라 판단의 신뢰도가 제한된다.",
+      "persona_kr": "스탠리 드러켄밀러",
+      "persona_en": "Stanley Druckenmiller"
+    },
+    "bill-ackman": {
+      "verdict": "lean_bearish",
+      "confidence": 0.74,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "지속적 음의 FCF와 CB·단기차입 의존: 2Q말 현금 53.6억 [actual], 잠재 희석 약 7.7% [derived]",
+        "수주 증가에도 영업이익률 2.0% [actual]에 머물러 가격결정력 미확인",
+        "베트남 박장공장 화재(재해손실 297.8억 [actual])로 인한 납기·증설 차질 가능성과 보험금 불확실성"
+      ],
+      "key_opportunities_top3": [
+        "공시 수주 약 1,059.9억 [derived]의 2026년 하반기~2027년 4월 매출 인식",
+        "생산능력 3,000억 [estimated] 증설 완료 시 고정비 레버리지에 따른 마진 개선 가능성 [inference]",
+        "셀에서 시스템 공급으로의 전환이 반복 수주로 이어질 경우 고객 내 위상 강화"
+      ],
+      "uncertainty": "증설 후 영업이익률이 두 자릿수로 올라서고 FCF가 흑자 전환하며, Bloom 향 시스템 수주가 반복 계약으로 확인되면 판단은 중립 이상으로 바뀔 수 있다. 반대로 화재 복구 지연, 추가 CB 발행, Bloom 발주 축소가 나타나면 약세 판단이 강화된다. 최대주주 지분 구조와 보험금 규모는 확인하지 못했으며, 이익 추정치가 없어 2027년 기준 밸류에이션은 검증하지 못했다.",
+      "persona_kr": "빌 애크먼",
+      "persona_en": "Bill Ackman"
+    },
+    "phil-fisher": {
+      "verdict": "neutral",
+      "confidence": 0.55,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "영업이익률 TTM 2.0% [actual]로 매출 성장이 이익으로 전환되지 않음",
+        "현금 53.6억 대비 차입금 1,248.5억 [actual], 연이은 CB 발행으로 추가 희석 가능성",
+        "베트남 공장 화재(재해손실 297.8억 [actual])가 드러낸 운영 리스크와 생산 차질 가능성"
+      ],
+      "key_opportunities_top3": [
+        "셀에서 시스템 공급으로 격상되며 고객 내 부가가치 확대 [actual]",
+        "Bloom 외 AcBel·Sanmina 등으로 데이터센터 고객 다변화 [actual]",
+        "생산능력 1,200억→3,000억 증설 [estimated]로 규모의 경제에 따른 이익률 개선 여지"
+      ],
+      "uncertainty": "증설 가동 후 영업이익률이 두 자릿수로 올라서고 영업현금흐름이 흑자로 돌아서며, R&D 투자와 경영진 트랙레코드가 확인되면 lean_bullish로 상향할 수 있다. 반대로 추가 대규모 희석성 자금 조달, 화재 관련 보험 회수 실패나 공시의 불투명성, Bloom 발주 축소, 수주 증가에도 이익률 정체가 이어지면 lean_bearish로 바뀐다. 직접 scuttlebutt를 수행하지 못했고 핵심 정성 항목 다수가 [unavailable]이라는 점이 이 판단의 가장 큰 한계다.",
+      "persona_kr": "필 피셔",
+      "persona_en": "Phil Fisher"
+    },
+    "michael-burry": {
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 53.6억 원 [actual] 대비 반기 FCF -535.9억 원 [derived]으로, 외부 조달 없이는 영업을 유지할 수 없음",
+        "1년 내 만기 차입 643.5억 원 [derived]에 7월 단기차입 250억 원 [actual]이 더해져, 미 10년물 5.17% [actual] 환경에서 차환 위험이 큼",
+        "3회 CB 410억 원은 전환가 147,686원 [actual]으로 외가격이라 상환 부담, 4회 CB는 내가격이라 희석과 매물 부담"
+      ],
+      "key_opportunities_top3": [
+        "공시 수주 1,059.9억 원 [derived]이 2027년 상반기까지 매출로 인식되면 가동률 상승에 따른 이익 레버리지가 가능함 [inference]",
+        "화재 보험금 수령 시 자본 일부 회복 [inference]",
+        "생산능력 3,000억 원 [estimated] 체제에서 과거 최고 마진 13.2% [derived]를 회복하면 이익 체력이 크게 달라짐"
+      ],
+      "uncertainty": "다음이 확인되면 판단이 중립 이상으로 바뀔 수 있다. 첫째, 3Q26~4Q26에 영업이익률이 10% 안팎으로 올라가고 영업현금흐름이 흑자로 전환되는 경우. 둘째, 화재 보험금이 손실액의 대부분을 보전하는 규모로 확정되는 경우. 셋째, 대주주·임원의 장내 매수나 추가 CB 없는 차환 성공이 공시되는 경우. 반대로 Bloom의 발주 축소나 추가 주식연계 조달이 나오면 약세 확신이 더 커진다. 이자비용, 감가상각비, 유동자산 내역, 감사의견이 제공되지 않아 이자보상배율과 NCAV는 가정 또는 미산출 상태이며, 낙관 시나리오의 매출·마진·배수는 모두 가정치다.",
+      "persona_kr": "마이클 버리",
+      "persona_en": "Michael Burry"
+    },
+    "george-soros": {
+      "verdict": "lean_bearish",
+      "confidence": 0.55,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 53.6억[actual] 대비 차입금 1,248.5억[actual], 2Q 이후에도 단기차입 250억·4회 CB 220억 추가[actual]",
+        "3회 CB 410억의 전환가 147,686원[actual]이 현재가보다 크게 높아 상환 부담으로 남을 가능성[inference]",
+        "화재 재해손실 297.8억[actual]의 보험금 회수 여부와 생산 차질 범위가 미확정"
+      ],
+      "key_opportunities_top3": [
+        "3개월간 데이터센터향 수주 약 1,060억[derived] — 매출 인식 기간이 2027년 4월까지여서 가시성이 있다",
+        "셀에서 시스템 공급으로 격상[actual]되어 마진 개선 여지가 있다[inference]",
+        "보험금 수령 시 일회성 손실 일부 환입 가능[inference]"
+      ],
+      "uncertainty": "판정이 뒤집히는 조건은 세 가지다. 첫째, 3~4분기에 수주가 매출로 인식되면서 영업이익률이 두 자릿수로 올라서면 Stage 7이 아니라 새 사이클 Stage 2로 재진단해야 한다. 둘째, 화재 보험금이 충분히 회수되고 차입 차환이 무리 없이 이뤄지면 악순환 가설이 약해진다. 셋째, 주가가 상승해 CB가 전환되면 재무구조가 개선되는 선순환이 시작된다. DCF와 Reverse DCF가 제공되지 않아[unavailable] 단계 진단은 PSR·PBR 대용 지표에 의존했다.",
+      "persona_kr": "조지 소로스",
+      "persona_en": "George Soros"
+    },
+    "ben-graham": {
+      "verdict": "lean_bearish",
+      "confidence": 0.85,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현금 53.6억에 차입금 1,248.5억이며, 반기 말 이후에도 4회 CB 220억과 단기차입 250억을 추가 조달해 외부 자금 의존이 커지고 있다 [actual]",
+        "베트남 박장공장 화재로 재해손실 297.8억이 발생했고 보험금 회수 규모는 미정이다. 생산 차질이 수주 납기에 미칠 영향도 불확실하다 [actual]",
+        "매출이 늘어도 영업이익률이 2% 수준에 머물러, 수주 증가가 주주 이익으로 이어진다는 증거가 없다 [derived]"
+      ],
+      "key_opportunities_top3": [
+        "공시로 확인된 데이터센터 관련 수주 합계 약 1,059.9억은 TTM 매출 1,065.5억에 맞먹는 규모다 [derived]",
+        "2Q26 매출 353.8억으로 전 분기 대비 39% 증가해 외형 성장은 실제로 진행 중이다 [actual]",
+        "화재 보험금이 회수되면 자본 일부가 복원될 수 있으나 금액은 알 수 없다 [unavailable]"
+      ],
+      "uncertainty": "유동자산, 이자비용, 토지 시가 자료가 없어 유동비율, 이자보상배율, 정확한 NCAV는 계산하지 못했다. 다만 어느 값이 나와도 PBR 6.8배와 적자라는 사실은 바뀌지 않는다. 판정이 중립 이상으로 바뀌려면 수주가 실제 이익으로 전환되어 정상 EPS가 7,000원 안팎에 이르고 [derived, PER 15배 기준 추정 약 5,600원 이상], 부채가 자본 이하로 줄며, 주가가 그 이익과 순자산으로 계산한 Graham Number 아래로 내려와야 한다. 현재 자료로는 그 조건 중 어느 것도 충족되지 않았다.",
+      "persona_kr": "벤저민 그레이엄",
+      "persona_en": "Ben Graham"
+    },
+    "cathie-wood": {
+      "verdict": "lean_bullish",
+      "confidence": 0.52,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "현금 53.6억 대비 차입금 1,248.5억, 영업현금흐름 적자 지속 — 추가 CB·증자에 따른 희석 가능성",
+        "베트남 박장공장 화재 이후 생산 복구 일정과 보험금 회수 규모 미확정, 수주 납기 이행 리스크",
+        "Bloom Energy 의존도와 Bloom 자체 리스크(7/8 Hunterbrook 공매도 리포트)"
+      ],
+      "key_opportunities_top3": [
+        "셀에서 시스템 공급으로 격상 — 단가와 고객 lock-in 확대",
+        "Bloom 외 AcBel·Sanmina로 데이터센터 고객 다변화",
+        "생산능력 매출 기준 1,200억→3,000억 확대 시 영업 레버리지"
+      ],
+      "uncertainty": "다음 가정이 깨지면 lean_bearish로 바뀐다. (1) 화재 설비가 복구되지 않아 공시 수주의 납기를 맞추지 못하는 경우, (2) 자금 조달이 막히거나 대규모 저가 증자로 주주가치가 크게 희석되는 경우, (3) Bloom의 증설·수요가 꺾이거나 데이터센터 전력 아키텍처에서 슈퍼커패시터가 배터리 등 다른 기술로 대체되는 경우, (4) 매출이 늘어도 영업이익률이 개선되지 않아 시스템 사업이 저마진 조립에 그치는 경우. TAM과 학습률 수치가 없다는 점 자체도 이 평가의 한계다.",
+      "persona_kr": "캐시 우드",
+      "persona_en": "Cathie Wood"
+    },
+    "aswath-damodaran": {
+      "verdict": "lean_bearish",
+      "confidence": 0.7,
+      "horizon": "long_term",
+      "key_concerns_top3": [
+        "시장 내재 기대(10년 매출 CAGR 약 29% + 마진 15%)가 과거 실적과 크게 괴리 [derived]",
+        "매출이 늘어도 마진이 따라오지 않음: 2Q26 영업이익률 1.4% [derived]",
+        "유동성: 2Q말 현금 53.6억 대 단기성 차입 643.5억(단기 551.3 + 유동성장기 92.2) [actual]"
+      ],
+      "key_opportunities_top3": [
+        "공시된 데이터센터 수주 약 1,060억이 2026~2027년 매출 가시성을 제공 [derived]",
+        "생산능력 3,000억 체제가 가동되면 고정비 레버리지로 마진이 빠르게 개선될 여지 [inference]",
+        "AcBel·Sanmina 등 Bloom 외 고객 다변화 진행 [actual]"
+      ],
+      "uncertainty": "다음이 확인되면 verdict는 neutral 이상으로 바뀐다. (1) 2027년 매출이 2,500억을 넘고 영업이익률이 10% 이상으로 올라 15%대 마진 경로가 보이는 경우, (2) 증설 후 매출/투하자본 비율이 2.0 이상으로 유지되는 경우, (3) 주가가 낙관 시나리오 가치(약 56,000원) 부근 이하로 내려오는 경우. WACC와 ERP·CRP는 가정치라 1%p 변동 시 내재가치가 약 15~20% 움직일 수 있으나[inference], 현재가와의 괴리가 커 결론의 방향은 바뀌지 않는다. 주식수와 순차입금은 2Q26 기준 추정이며 7~8월 조달분과 보험금은 반영하지 못했다.",
+      "persona_kr": "애스워드 다모다란",
+      "persona_en": "Aswath Damodaran"
+    },
+    "nassim-taleb": {
+      "verdict": "lean_bearish",
+      "confidence": 0.72,
+      "horizon": "medium_term",
+      "key_concerns_top3": [
+        "현금 53.6억[actual] 대비 1년 내 만기 차입 643.5억[derived] — 차환 실패 시 유동성 위기",
+        "베트남 공장 화재로 드러난 생산거점 단일 장애점, 보험금 회수 규모 [unavailable]",
+        "Bloom Energy 등 소수 고객 집중, Bloom 자체의 공매도 리포트 이슈"
+      ],
+      "key_opportunities_top3": [
+        "공시 수주 약 1,059.9억[derived]으로 2026~2027년 매출 가시성 확보",
+        "2Q26 매출 QoQ +39%[actual] — 수요의 매출 전환 시작",
+        "화재 보험금 수령 시 자본 일부 회복 가능 [inference]"
+      ],
+      "uncertainty": "다음이 확인되면 판정을 neutral 이상으로 올릴 수 있다. ① 보험금 수령과 증자·CB 전환 등으로 단기 차입 의존도가 크게 낮아질 때, ② 영업현금흐름이 흑자로 돌아서 CAPEX를 자체 조달할 때, ③ 생산거점과 고객이 다변화될 때, ④ 경영진의 의미 있는 지분 보유와 장내 매수가 확인될 때. 반대로 Bloom 발주 지연, 추가 사고, 차환 실패 중 하나라도 발생하면 판정은 더 강한 bearish가 된다. 보험 보상 범위, 경영진 지분, 차입 약정 조건은 제공 자료에 없어 [unavailable]이며 이 부분이 신뢰도를 제한한다.",
+      "persona_kr": "나심 탈레브",
+      "persona_en": "Nassim Taleb"
+    }
+  }
+}
